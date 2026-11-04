@@ -1,0 +1,45 @@
+{
+  "passed": true,
+  "checks": {
+    "timescale_60000": true,
+    "exact_packet_count": true,
+    "every_pts_exactly_one_sixtieth": true,
+    "every_packet_duration_one_sixtieth": true,
+    "strictly_increasing_dts": true
+  },
+  "video_stream": "Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 3840x2160 [SAR 1:1 DAR 16:9], 8387 kb/s, 60 fps, 60 tbr, 60k tbn (default)",
+  "timebase_denominator": 60000,
+  "decoded_packet_count": 12740,
+  "expected_packet_count": 12740,
+  "first_pts": 0,
+  "last_pts": 12739000,
+  "first_dts": -2000,
+  "last_dts": 12737000,
+  "boundaries": [
+    {
+      "output_frame": 3180,
+      "seconds": 53,
+      "expected_pts": 3180000,
+      "previous_pts": 3179000,
+      "actual_pts": 3180000,
+      "next_pts": 3181000
+    },
+    {
+      "output_frame": 6360,
+      "seconds": 106,
+      "expected_pts": 6360000,
+      "previous_pts": 6359000,
+      "actual_pts": 6360000,
+      "next_pts": 6361000
+    },
+    {
+      "output_frame": 9540,
+      "seconds": 159,
+      "expected_pts": 9540000,
+      "previous_pts": 9539000,
+      "actual_pts": 9540000,
+      "next_pts": 9541000
+    }
+  ],
+  "scope": "Actual output video packet PTS cover every n/60 exactly, with no duplicate/gap and strictly increasing decode timestamps. Full pixel/audio decode is checked separately."
+}

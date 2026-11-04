@@ -1,0 +1,170 @@
+{
+  "protect-knot": {
+    "file": "assets/astra/final/protect-knot.png",
+    "dimensions": [
+      1024,
+      1536
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      254
+    ],
+    "sha256": "7274e78017c42cdb16325a1853398fae60bfe54cddfcbbdeb6d6bfb036995e68",
+    "active": true
+  },
+  "protect": {
+    "file": "assets/astra/final/protect.png",
+    "dimensions": [
+      1024,
+      1536
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      254
+    ],
+    "sha256": "eba34df9cb50c7273cfa0d57c42e06b796b8f5cc3b759b43ff5062698c353d10",
+    "active": false
+  },
+  "reach-knot": {
+    "file": "assets/astra/final/reach-knot.png",
+    "dimensions": [
+      1230,
+      1278
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "sha256": "3ee9912a28573a170ecee14710f8ea12d7547582c1879bed9613b9009faa9d4e",
+    "active": true
+  },
+  "reach": {
+    "file": "assets/astra/final/reach.png",
+    "dimensions": [
+      1230,
+      1278
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "sha256": "fcb1dec89b969d8098382ec142d7f68fcbb023ebd806aa75671178d955dc8e19",
+    "active": false
+  },
+  "sit-knot": {
+    "file": "assets/astra/final/sit-knot.png",
+    "dimensions": [
+      1111,
+      1416
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "sha256": "4e6f8e950ea7fcfe19ca65a64d8798c886759c8468ed616a819a3559b9939ed4",
+    "active": true
+  },
+  "sit": {
+    "file": "assets/astra/final/sit.png",
+    "dimensions": [
+      1110,
+      1417
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "sha256": "bc8e3edb5e877a4f5d1489872283ba4e0e84a55450f5a8cde12f27e42faaaeaf",
+    "active": false
+  },
+  "sitSmile-knot": {
+    "file": "assets/astra/final/sitSmile-knot.png",
+    "dimensions": [
+      1111,
+      1415
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "sha256": "f098069a9585cb6d583cdd9f82dd7a21fc3585f2ee3d8423e5c7adb7fffe477d",
+    "active": true
+  },
+  "sitSmile": {
+    "file": "assets/astra/final/sitSmile.png",
+    "dimensions": [
+      1111,
+      1416
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "sha256": "cf2fdb075fd4f15e81a1154f90b9cbeab70b6d35c353009c90fd075b7583664a",
+    "active": false
+  },
+  "stand-knot": {
+    "file": "assets/astra/final/stand-knot.png",
+    "dimensions": [
+      1024,
+      1535
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "sha256": "7692119f9bd214fd860108254c51c5bc2055748ac8cd86000ae94422b798ff0c",
+    "active": true
+  },
+  "stand": {
+    "file": "assets/astra/final/stand.png",
+    "dimensions": [
+      1024,
+      1535
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "sha256": "fe795b5c3023322b04c5ae02563e7ad2ef5d905fd42d33a82c76e704d55bf4de",
+    "active": false
+  },
+  "surprise-knot": {
+    "file": "assets/astra/final/surprise-knot.png",
+    "dimensions": [
+      1111,
+      1415
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "sha256": "0534eda4ec698ea9ed4f1a93c5bcb31417788b88cefdf47c2e11acf5a1f0714a",
+    "active": true
+  },
+  "surprise": {
+    "file": "assets/astra/final/surprise.png",
+    "dimensions": [
+      1111,
+      1416
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "sha256": "879abde1fec0b66cd95aa73d30fe7f4e4c20473a154115588288f6cfa7c49dbd",
+    "active": false
+  }
+}

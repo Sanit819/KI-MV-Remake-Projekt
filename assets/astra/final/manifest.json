@@ -1,0 +1,125 @@
+{
+  "status": "active-v05-derived",
+  "date": "2026-11-04",
+  "generator": "built-in imagegen",
+  "basis": "v05 cut-paper silhouette. GPT openwork jewelry drawn directly in every source image. No separate logo overlays.",
+  "assets": {
+    "stand": {
+      "path": "/assets/astra/final/stand-knot.png",
+      "face": {
+        "x": 340,
+        "y": 100,
+        "w": 380,
+        "h": 310
+      },
+      "anchors": {
+        "hands": [
+          610,
+          410
+        ],
+        "pen": [
+          280,
+          1005
+        ]
+      }
+    },
+    "reach": {
+      "path": "/assets/astra/final/reach-knot.png",
+      "face": {
+        "x": 480,
+        "y": 85,
+        "w": 360,
+        "h": 300
+      },
+      "anchors": {
+        "hands": [
+          1100,
+          250
+        ],
+        "pen": [
+          735,
+          505
+        ]
+      }
+    },
+    "protect": {
+      "path": "/assets/astra/final/protect-knot.png",
+      "face": {
+        "x": 340,
+        "y": 110,
+        "w": 380,
+        "h": 310
+      },
+      "anchors": {
+        "hands": [
+          540,
+          505
+        ],
+        "pen": [
+          540,
+          505
+        ]
+      }
+    },
+    "sit": {
+      "path": "/assets/astra/final/sit-knot.png",
+      "face": {
+        "x": 415,
+        "y": 125,
+        "w": 380,
+        "h": 310
+      },
+      "anchors": {
+        "hands": [
+          790,
+          715
+        ],
+        "pen": [
+          944,
+          778
+        ]
+      }
+    },
+    "surprise": {
+      "path": "/assets/astra/final/surprise-knot.png",
+      "face": {
+        "x": 415,
+        "y": 125,
+        "w": 380,
+        "h": 310
+      },
+      "anchors": {
+        "hands": [
+          790,
+          715
+        ],
+        "pen": [
+          944,
+          778
+        ]
+      }
+    },
+    "sitSmile": {
+      "path": "/assets/astra/final/sitSmile-knot.png",
+      "face": {
+        "x": 415,
+        "y": 125,
+        "w": 380,
+        "h": 310
+      },
+      "anchors": {
+        "hands": [
+          790,
+          715
+        ],
+        "pen": [
+          944,
+          778
+        ]
+      }
+    },
+    "sleep": {
+      "alias": "stand"
+    }
+  }
+}

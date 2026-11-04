@@ -1,0 +1,26 @@
+{
+  "title": "ASTRA · 未写完的世界",
+  "date": "2026-11-04",
+  "branch": "world.execute(me);",
+  "duration_seconds": 212.33333333333334,
+  "frames": 12740,
+  "fps": 60,
+  "shots": 54,
+  "art_manifest": "assets/astra/final/manifest.json",
+  "outputs": [
+    {
+      "name": "4K60",
+      "file": "exports/astra-world-execute-me-full-v1-4k60.mp4",
+      "bytes": 228043917,
+      "sha256": "a2671756618d6352fa103d467da550e566313588b703b48896d156043b07eb7e",
+      "verified": true
+    },
+    {
+      "name": "1080p60",
+      "file": "exports/astra-world-execute-me-full-v1-1080p60.mp4",
+      "bytes": 108283320,
+      "sha256": "e37a3e6dca42ef16667b4aec1792f454348e83cb2b2fb2d10ff7343e7911a6bd",
+      "verified": true
+    }
+  ]
+}

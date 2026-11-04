@@ -3,11 +3,16 @@
   "version": "0.1.0",
   "private": true,
   "type": "module",
-  "description": "ASTRA world.execute(me); original music-video sample renderer",
+  "description": "ASTRA world.execute(me); original complete music-video renderer",
   "scripts": {
+    "full:1080": "node tools/render/export_sample.mjs --entry src/full/index.html --width 1920 --height 1080 --fps 60 --start-frame 0 --end-frame 12740 --out exports/astra-world-execute-me-full-v1-1080p60.mp4",
+    "full:4k": "node tools/render/export_full_parallel.mjs --out exports/astra-world-execute-me-full-v1-4k60.mp4",
     "sample:1080": "node tools/render/export_sample.mjs --width 1920 --height 1080 --out exports/astra-ending-sample-v01-1080p60.mp4",
     "sample:4k": "node tools/render/export_sample.mjs --width 3840 --height 2160 --out exports/astra-ending-sample-v01-4k60.mp4",
-    "sample:stills": "node tools/render/export_sample.mjs --width 1920 --height 1080 --stills 193.066667,195.5,196.9,198.8,200.2,203.3,206.1,208.5,211.7 --out exports/qa"
+    "sample:stills": "node tools/render/export_sample.mjs --width 1920 --height 1080 --stills 193.066667,195.5,196.9,198.8,200.2,203.3,206.1,208.5,211.7 --out exports/qa",
+    "sample:v02:1080": "node tools/render/export_sample.mjs --entry src/sample-v02/index.html --width 1920 --height 1080 --out exports/astra-ending-sample-v02-1080p60.mp4",
+    "sample:v02:4k": "node tools/render/export_sample.mjs --entry src/sample-v02/index.html --width 3840 --height 2160 --out exports/astra-ending-sample-v02-4k60.mp4",
+    "sample:v02:stills": "node tools/render/export_sample.mjs --entry src/sample-v02/index.html --width 1920 --height 1080 --stills 193.066667,195.5,196.9,198.583333,198.6,200.2,203.3,206.1,208.5,211.7 --out exports/qa-v02"
   },
   "dependencies": {
     "playwright-core": "1.64.1"

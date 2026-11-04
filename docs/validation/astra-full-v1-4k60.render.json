@@ -1,0 +1,212 @@
+{
+  "passed": true,
+  "output": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\exports\\astra-world-execute-me-full-v1-4k60.mp4",
+  "test_mode": false,
+  "frames_per_part_test": null,
+  "width": 3840,
+  "height": 2160,
+  "fps": 60,
+  "expected_frames": 12740,
+  "expected_duration_seconds": 212.33333333333334,
+  "encoding": {
+    "codec": "h264_nvenc",
+    "preset": "p6",
+    "tune": "hq",
+    "cq": 19,
+    "rate_control": "vbr",
+    "pixel_format": "yuv420p",
+    "color_space": "BT.709 limited",
+    "transport": "png",
+    "concurrent_parts": 4
+  },
+  "audio": {
+    "source": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\media\\audio\\mili-world-execute-original-bilibili.m4a",
+    "source_start_seconds": 0,
+    "encode_count": 1,
+    "codec": "aac",
+    "bitrate": 192000,
+    "concatenate_audio": false
+  },
+  "parts": [
+    {
+      "index": 1,
+      "first": 0,
+      "last": 3180,
+      "file": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\.cache\\full-export-v1\\part-01.mp4",
+      "render_report": {
+        "output": ".cache/full-export-v1/part-01.mp4",
+        "entry": "src/full/index.html",
+        "width": 3840,
+        "height": 2160,
+        "fps": 60,
+        "source_start_frame": 0,
+        "source_end_frame_exclusive": 3180,
+        "encoded_input_frames": 3180,
+        "source_start_seconds": 0,
+        "intended_duration_seconds": 53,
+        "codec": "h264_nvenc",
+        "transport": "png",
+        "video_only": true,
+        "elapsed_seconds": 348.971,
+        "pipeline_milliseconds": {
+          "render": 1560.4000002145767,
+          "readback": 318588.09999990463,
+          "transfer_and_encode": 23965.09999988228
+        },
+        "output_bytes": 68518700,
+        "ffmpeg_log": "",
+        "validation_scope": "Frame input count and encoder success; run verify_sample.py for independent decode and audio comparison."
+      },
+      "video_stream": "Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709/unknown/unknown, progressive), 3840x2160 [SAR 1:1 DAR 16:9], 10336 kb/s, 60 fps, 60 tbr, 15360 tbn (default)"
+    },
+    {
+      "index": 2,
+      "first": 3180,
+      "last": 6360,
+      "file": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\.cache\\full-export-v1\\part-02.mp4",
+      "render_report": {
+        "output": ".cache/full-export-v1/part-02.mp4",
+        "entry": "src/full/index.html",
+        "width": 3840,
+        "height": 2160,
+        "fps": 60,
+        "source_start_frame": 3180,
+        "source_end_frame_exclusive": 6360,
+        "encoded_input_frames": 3180,
+        "source_start_seconds": 53,
+        "intended_duration_seconds": 53,
+        "codec": "h264_nvenc",
+        "transport": "png",
+        "video_only": true,
+        "elapsed_seconds": 349.201,
+        "pipeline_milliseconds": {
+          "render": 1920.0999999791384,
+          "readback": 319359.6999998018,
+          "transfer_and_encode": 23059.100000225008
+        },
+        "output_bytes": 55396925,
+        "ffmpeg_log": "",
+        "validation_scope": "Frame input count and encoder success; run verify_sample.py for independent decode and audio comparison."
+      },
+      "video_stream": "Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709/unknown/unknown, progressive), 3840x2160 [SAR 1:1 DAR 16:9], 8355 kb/s, 60 fps, 60 tbr, 15360 tbn (default)"
+    },
+    {
+      "index": 3,
+      "first": 6360,
+      "last": 9540,
+      "file": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\.cache\\full-export-v1\\part-03.mp4",
+      "render_report": {
+        "output": ".cache/full-export-v1/part-03.mp4",
+        "entry": "src/full/index.html",
+        "width": 3840,
+        "height": 2160,
+        "fps": 60,
+        "source_start_frame": 6360,
+        "source_end_frame_exclusive": 9540,
+        "encoded_input_frames": 3180,
+        "source_start_seconds": 106,
+        "intended_duration_seconds": 53,
+        "codec": "h264_nvenc",
+        "transport": "png",
+        "video_only": true,
+        "elapsed_seconds": 364.685,
+        "pipeline_milliseconds": {
+          "render": 1819.4999997392297,
+          "readback": 333034.9000001848,
+          "transfer_and_encode": 25412.600000098348
+        },
+        "output_bytes": 40528251,
+        "ffmpeg_log": "",
+        "validation_scope": "Frame input count and encoder success; run verify_sample.py for independent decode and audio comparison."
+      },
+      "video_stream": "Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709/unknown/unknown, progressive), 3840x2160 [SAR 1:1 DAR 16:9], 6111 kb/s, 60 fps, 60 tbr, 15360 tbn (default)"
+    },
+    {
+      "index": 4,
+      "first": 9540,
+      "last": 12740,
+      "file": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\.cache\\full-export-v1\\part-04.mp4",
+      "render_report": {
+        "output": ".cache/full-export-v1/part-04.mp4",
+        "entry": "src/full/index.html",
+        "width": 3840,
+        "height": 2160,
+        "fps": 60,
+        "source_start_frame": 9540,
+        "source_end_frame_exclusive": 12740,
+        "encoded_input_frames": 3200,
+        "source_start_seconds": 159,
+        "intended_duration_seconds": 53.333333333333336,
+        "codec": "h264_nvenc",
+        "transport": "png",
+        "video_only": true,
+        "elapsed_seconds": 376.919,
+        "pipeline_milliseconds": {
+          "render": 1846.599999666214,
+          "readback": 343362.100000076,
+          "transfer_and_encode": 27396.20000023395
+        },
+        "output_bytes": 58342017,
+        "ffmpeg_log": "",
+        "validation_scope": "Frame input count and encoder success; run verify_sample.py for independent decode and audio comparison."
+      },
+      "video_stream": "Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709/unknown/unknown, progressive), 3840x2160 [SAR 1:1 DAR 16:9], 8745 kb/s, 60 fps, 60 tbr, 15360 tbn (default)"
+    }
+  ],
+  "started_at": "2026-11-04T15:12:23.732Z",
+  "scope": "Complete frame intervals with original song audio muxed once. Independent decode/audio and exact video timestamps required before success.",
+  "render_elapsed_seconds": 377.828,
+  "aggregate_render_fps": 33.7190467620187,
+  "estimated_sequential_render_seconds": 1439.7759999999998,
+  "render_speedup_vs_sum_of_child_times": 3.8106651703949943,
+  "mux_elapsed_seconds": 3.917,
+  "timestamps": {
+    "passed": true,
+    "checks": {
+      "timescale_60000": true,
+      "exact_packet_count": true,
+      "every_pts_exactly_one_sixtieth": true,
+      "every_packet_duration_one_sixtieth": true,
+      "strictly_increasing_dts": true
+    },
+    "video_stream": "Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 3840x2160 [SAR 1:1 DAR 16:9], 8387 kb/s, 60 fps, 60 tbr, 60k tbn (default)",
+    "timebase_denominator": 60000,
+    "decoded_packet_count": 12740,
+    "expected_packet_count": 12740,
+    "first_pts": 0,
+    "last_pts": 12739000,
+    "first_dts": -2000,
+    "last_dts": 12737000,
+    "boundaries": [
+      {
+        "output_frame": 3180,
+        "seconds": 53,
+        "expected_pts": 3180000,
+        "previous_pts": 3179000,
+        "actual_pts": 3180000,
+        "next_pts": 3181000
+      },
+      {
+        "output_frame": 6360,
+        "seconds": 106,
+        "expected_pts": 6360000,
+        "previous_pts": 6359000,
+        "actual_pts": 6360000,
+        "next_pts": 6361000
+      },
+      {
+        "output_frame": 9540,
+        "seconds": 159,
+        "expected_pts": 9540000,
+        "previous_pts": 9539000,
+        "actual_pts": 9540000,
+        "next_pts": 9541000
+      }
+    ],
+    "scope": "Actual output video packet PTS cover every n/60 exactly, with no duplicate/gap and strictly increasing decode timestamps. Full pixel/audio decode is checked separately."
+  },
+  "verification_report": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\exports\\astra-world-execute-me-full-v1-4k60.full-verify.json",
+  "timestamp_report": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\exports\\astra-world-execute-me-full-v1-4k60.timestamps.json",
+  "output_bytes": 228043917,
+  "elapsed_seconds": 404.264
+}

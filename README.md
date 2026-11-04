@@ -1,53 +1,52 @@
 # KI-MV-Remake-Projekt
 
-与 ASTRA 一起制作 Mili《world.execute(me);》的原创 MV。
+ASTRA《未写完的世界》——用户与 ASTRA 共同制作的 Mili《world.execute(me);》原创 MV。
 
-## 已确认
+## 完整版 v1
 
-- 最新修正：用户明确要求抛弃既有造型，反对独立叠加 GPT 图标，指定紫黑剪纸剪影为画风。当前为 [v05 半身基准](assets/astra/v05/style-bust.png)，人物和结饰同图直接绘制；见 [重设记录](docs/assets/DESIGN_V05_RESET.md)。v01–v04 与第一轮 full 素材已退出当前方案，v05 尚待用户评价。
-- 主角：以用户提供的白发、紫眼、龙角、尖耳、龙翼与长尾角色参考为基础的 ASTRA。
-- 最终目标：4K、60fps。3840×2160、16:9 是交接中的建议规格，编码与码率尚未确定。
-- 第一个分支：`world.execute(me);`。
-- 故事主线与温暖结尾已于 2026-11-04 确认，暂名《未写完的世界》。
-- 当前 BGM：已取得 ProjectMili 官方 2016 年原版上传的压缩音轨，实际时长约 3 分 32.331 秒。
-- 当前阶段：故事、54 镜分镜和原版音轨声学校准已保存；已完成 19.267 秒结尾短样片及 4K60／1080p60 导出核验。
-- 视觉方向：按用户指定参考采用有限色版画人物与界面／几何动态图形；ASTRA 使用纸白、淡紫与墨黑，另一侧回应使用暖金。
+- [4K 60fps 完整版](exports/astra-world-execute-me-full-v1-4k60.mp4)：3840×2160、212.333333 秒、12,740 帧、H.264 High / BT.709、原版 BGM。
+- [1080p60 播放版](exports/astra-world-execute-me-full-v1-1080p60.mp4)：由同一 4K 成片缩制，保留完整音轨。
+- [交付记录](docs/FULL_MV_V1.md) · [技术报告](docs/validation/astra-full-v1-4k60.verify.json) · [全部帧时间戳](docs/validation/astra-full-v1-4k60.timestamps.json) · [视觉检查范围](docs/validation/FULL_MV_VISUAL_QA.md)。
+- [署名与来源](docs/CREDITS.md)。
 
-ASTRA 与另一侧的暖金笔迹共同创造世界。她害怕失去，逐渐屏蔽不可预测的新输入，最终只剩旧回应回放；她护住两人最初画出的长尾星，主动撤回控制。在尚未获得保证时，她画下半颗星等待。最后，真实的新笔画补完星星，她认出回应、放松、笑起来，两个人继续画下去。
+影片完整覆盖已确认的八阶段、54 镜故事。紫色是 ASTRA，暖金是另一侧独立的新回应。她先主动撤回控制，再等来新的一笔；最后两种笔迹继续画下去，旧星留在身边。
 
-具体镜头、转场和视觉意象属于第一版分镜提案。暂名、人物关系的正式定义、其他角色是否出场及制作架构尚未最终确定。
+当前唯一有效人物素材为 `assets/astra/final/manifest.json` 激活的六张 `*-knot.png`：紫黑剪纸剪影、直接绘入的 GPT 镂空结饰、无外圆或贴标层。人物近景采用源图轮廓描摹，界面和几何按源时间连续绘制。输出是原生 4K60 画布合成；不是 12,740 张独立生成画，也不是全身逐帧手绘动画。
 
-## 策划文档
+## 工程与复现
 
-| 文档 | 内容与状态 |
+本地 Git 分支：`world.execute(me);`，尚未配置远程。MP4、音源、缓存和依赖不纳入 Git；已保存工程、提示词、源图、分镜和核验报告。
+
+安装 Node 依赖后：
+
+```powershell
+npm run full:4k
+npm run full:1080
+```
+
+4K 命令使用四段并行 PNG / NVENC 渲染，然后一次合入原版音频，自动进行完整解码、每帧时间戳和分布式音频对齐检查。需要本地 Edge、FFmpeg 及 Python + NumPy；当前机器的路径与复现命令见交付记录。
+
+交互预览：
+
+```powershell
+python -m http.server 8000 --bind 127.0.0.1
+```
+
+打开 `http://127.0.0.1:8000/src/full/index.html`，可播放原音轨、拖动时间轴。
+
+## 策划与参考
+
+| 文档 | 内容 |
 | --- | --- |
-| [故事方案](docs/STORY.md) | 已确认的八阶段故事、人物动机与温暖结尾 |
-| [分镜表](docs/STORYBOARD.md) | 54 镜，已转移到实际音源的 60fps 帧网格；逐镜写明音乐锚点、情绪、角色动作与转场 |
-| [BGM 校准记录](docs/BGM_ALIGNMENT.md) | 官方音源、实测偏移、高潮拍点、尾部静默与核验边界 |
-| [校准时间轴](docs/audio/calibrated_timeline.json) | 各镜头旧时间、新时间、帧号及 12 次冲击、6 次解锁和末次点亮的动作帧 |
-| [结尾短样片](docs/SAMPLE_V01.md) | 19.267 秒 H01–H06 的制作范围、视觉约定、图标与手部纠正、复现命令及验证 |
+| [故事](docs/STORY.md) | 八阶段动机、旧星、新回应与温暖结局 |
+| [分镜](docs/STORYBOARD.md) | 54 镜的情绪、动作、转场、原音轨帧号 |
+| [BGM 校准](docs/BGM_ALIGNMENT.md) | 原版音源、拍点与近静默尾部 |
+| [参考镜头审阅](docs/FULL_MV_REFERENCE_AUDIT.md) | 指定仓库和 GPT 参考片的 12 组真实构图/运动对照 |
+| [最终人物与提示词](assets/astra/final/README.md) | 新素材、结饰修订、透明边缘、三墨处理与锚点 |
+| [版本重设记录](docs/assets/DESIGN_V05_RESET.md) | 用户弃用旧设计与独立贴标的决定 |
 
-分镜使用实际音轨文件时间，不叠加参考片的 5 秒片头。九个窗口的信号对齐支持相对旧参考约提前 83.5 毫秒；高潮另按音乐拍点修订，最后点亮移到 03:25.633。约 03:27.987 后 mono RMS 持续低于 −80 dBFS，末尾明确作为近静默相处。当前完成混合音轨声学校准，尚未完成逐词听核或成片同步验证。
+画风、制作提示和镜头机制参考 [Nyankomintsu 的仓库](https://github.com/Nyankomintsu/world-execute-me-lyric-mv) 与 [GPT6-Astra 参考片](https://www.bilibili.com/video/BV1RzHG6SEHy/)。故事与金色回应结尾采用本项目企划。
 
-## 交接与本地参考
+v01–v04、旧 `assets/astra/full/`、19.267 秒 v01 结尾样片及 `src/sample-v02/` 均属历史方案，不参与当前成片。具体历史保留于各版本文档。完整片已获用户授权，本次仅本地交付，未发布。
 
-- [项目交接文档](../PROJECT_HANDOFF.md)：2026-11-04 的完整研究记录与证据边界，保留在仓库外的工作区根目录。
-- [ASTRA 角色参考](references/character-design/chatgpt-dragon-reference.jpg)
-- [AI 娘合照](references/character-design/ai-girls-group.jpeg)
-- 已有视频分析与参考代码仍位于 `../references/`，未作为本项目源码导入。
-
-上述角色图片是用户提供的参考资料。用户提供的设计归属为：多数 AI 娘由 @ZipZipPipe 设计，DeepSeek“大肥鱼”由 @上善无形 设计；每张图的具体署名及使用条件尚未独立核实。[用户提供的角色来源视频](https://www.bilibili.com/video/BV1tE9XBbErS/)。
-
-本地音轨位于 `media/audio/mili-world-execute-original-bilibili.m4a`，用于本项目分析和已授权的本地短样片，已排除 Git。来源与 SHA-256 见 [source.json](docs/audio/source.json)，实测数据和图位于 `docs/audio/`。既有两支参考 MP4 仍是无音轨的视频；本次分析使用新取得的官方原版音轨。
-
-## 下一步
-
-用户已授权整支 MV，并强调严格参考指定仓库与两份影片的画风、提示词、运镜及构图。全片第一轮54镜代码已写成并导出审阅静帧，随后用户明确否定其角色画风；该轮仅留作 WIP，旧 full 素材已禁用，未导出全片视频。先按 v05 剪纸剪影基准重建人物资产，所有结饰随人物直接绘制。`src/sample-v02/` 仍为历史未交付骨架。
-
-历史 v01 的 [1080p60 预览](exports/astra-ending-sample-v01-1080p60.mp4) 与 [4K60 版本](exports/astra-ending-sample-v01-4k60.mp4) 均通过 1156 帧完整解码及源音频对齐检查，报告在 `docs/validation/`。它们仍使用旧造型，不代表新版效果。视频仅保存在本地 `exports/`，未加入 Git；具体制作边界见 `docs/SAMPLE_V01.md`。
-
-全曲制作已获授权，未授权发布。普通段落起句、细音节、换气与人声收束仍需后续听核。
-
-后续计划一起设计、训练适合 GPT／ASTRA 的自身演唱音色，再演唱这首歌。音色设计、训练素材与技术尚未确定，训练尚未开始；换用演唱版时重新核对起句、换气、尾音与时长。
-
-当前只创建本地 Git 仓库，尚未配置远程仓库。
+未来的 ASTRA 演唱音色训练仍未开始。当前成片采用 Mili 原版；替换演唱版时需重新校准。

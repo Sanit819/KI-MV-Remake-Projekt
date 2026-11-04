@@ -1,0 +1,178 @@
+{
+  "passed": true,
+  "checks": {
+    "resolution": true,
+    "nominal_frame_rate": true,
+    "decoded_frame_count": true,
+    "container_duration": true,
+    "clean_full_video_decode": true,
+    "audio_stream_present": true,
+    "clean_full_audio_decode": true,
+    "decoded_audio_duration_within_one_frame": true,
+    "source_audio_covers_expected_interval": true,
+    "all_alignment_windows_measured": true,
+    "audio_alignment_within_one_frame": true,
+    "audio_correlation_threshold": true,
+    "distributed_alignment_spread_within_one_frame": true
+  },
+  "file": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\exports\\astra-world-execute-me-full-v1-4k60.mp4",
+  "bytes": 228043917,
+  "video_sha256": "a2671756618d6352fa103d467da550e566313588b703b48896d156043b07eb7e",
+  "source_audio": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\media\\audio\\mili-world-execute-original-bilibili.m4a",
+  "source_audio_sha256": "b06f195e2a479c25c3282f4ca5b931e293c4a35a941acf6dd5b515ba4890f34a",
+  "expected_resolution": [
+    3840,
+    2160
+  ],
+  "expected_fps": 60,
+  "expected_video_frames": 12740,
+  "decoded_video_frames": 12740,
+  "expected_duration_seconds": 212.33333333333334,
+  "source_start_seconds": 0.0,
+  "source_frame_interval": "start inclusive, end exclusive",
+  "source_frames": [
+    0,
+    12740
+  ],
+  "resolution": [
+    3840,
+    2160
+  ],
+  "nominal_fps": 60.0,
+  "container_duration_seconds": 212.32999999999998,
+  "video_stream": "Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 3840x2160 [SAR 1:1 DAR 16:9], 8387 kb/s, 60 fps, 60 tbr, 60k tbn (default)",
+  "audio_stream": "Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 191 kb/s (default)",
+  "decoded_audio_samples": 5095996,
+  "decoded_audio_duration_seconds": 212.33316666666667,
+  "decoded_source_audio_samples": 5095936,
+  "decoded_source_audio_duration_seconds": 212.33066666666667,
+  "audio_comparison_sample_rate": 24000,
+  "minimum_audio_correlation": 0.98,
+  "audio_search_radius_seconds": 0.15,
+  "audio_alignment_lag_spread_seconds": 0.0,
+  "audio_alignment_windows": [
+    {
+      "sample_window_seconds": [
+        1.0,
+        3.5
+      ],
+      "source_window_seconds": [
+        1.0,
+        3.5
+      ],
+      "lag_samples": 0,
+      "lag_seconds": 0.0,
+      "normalized_correlation": 0.9988712059044451,
+      "reference_rms_dbfs": -9.112445245567747,
+      "passed": true
+    },
+    {
+      "sample_window_seconds": [
+        31.0,
+        33.5
+      ],
+      "source_window_seconds": [
+        31.0,
+        33.5
+      ],
+      "lag_samples": 0,
+      "lag_seconds": 0.0,
+      "normalized_correlation": 0.9988127840542232,
+      "reference_rms_dbfs": -8.780961731747167,
+      "passed": true
+    },
+    {
+      "sample_window_seconds": [
+        60.0,
+        62.5
+      ],
+      "source_window_seconds": [
+        60.0,
+        62.5
+      ],
+      "lag_samples": 0,
+      "lag_seconds": 0.0,
+      "normalized_correlation": 0.9976693758301158,
+      "reference_rms_dbfs": -5.489167045735391,
+      "passed": true
+    },
+    {
+      "sample_window_seconds": [
+        90.0,
+        92.5
+      ],
+      "source_window_seconds": [
+        90.0,
+        92.5
+      ],
+      "lag_samples": 0,
+      "lag_seconds": 0.0,
+      "normalized_correlation": 0.9985310623163306,
+      "reference_rms_dbfs": -7.711492129818268,
+      "passed": true
+    },
+    {
+      "sample_window_seconds": [
+        120.0,
+        122.5
+      ],
+      "source_window_seconds": [
+        120.0,
+        122.5
+      ],
+      "lag_samples": 0,
+      "lag_seconds": 0.0,
+      "normalized_correlation": 0.9988562611232317,
+      "reference_rms_dbfs": -6.033827392488601,
+      "passed": true
+    },
+    {
+      "sample_window_seconds": [
+        150.0,
+        152.5
+      ],
+      "source_window_seconds": [
+        150.0,
+        152.5
+      ],
+      "lag_samples": 0,
+      "lag_seconds": 0.0,
+      "normalized_correlation": 0.9989474283103716,
+      "reference_rms_dbfs": -6.827882182816256,
+      "passed": true
+    },
+    {
+      "sample_window_seconds": [
+        180.0,
+        182.5
+      ],
+      "source_window_seconds": [
+        180.0,
+        182.5
+      ],
+      "lag_samples": 0,
+      "lag_seconds": 0.0,
+      "normalized_correlation": 0.9976204662115497,
+      "reference_rms_dbfs": -5.42292322026408,
+      "passed": true
+    },
+    {
+      "sample_window_seconds": [
+        200.0,
+        202.5
+      ],
+      "source_window_seconds": [
+        200.0,
+        202.5
+      ],
+      "lag_samples": 0,
+      "lag_seconds": 0.0,
+      "normalized_correlation": 0.998485090156849,
+      "reference_rms_dbfs": -8.398492912188066,
+      "passed": true
+    }
+  ],
+  "video_decode_error": "",
+  "audio_decode_errors": [],
+  "scope": "Independent complete FFmpeg video/audio decode, measured stream dimensions/nominal rate, exact decoded frame count and eight distributed source-audio alignments. Not per-frame timestamp CFR certification, visual-storytelling acceptance, lyric/phoneme timing or a flash-safety certification."
+}

@@ -21,9 +21,19 @@ const FPS = Number(arg('fps', 60));
 const FIRST = Number(arg('start-frame', 11584));
 const LAST = Number(arg('end-frame', 12740));
 const STILL_ARG = arg('stills', null);
+const VIDEO_ONLY_ARG = String(arg('video-only', 'false'));
+if (!['true', 'false'].includes(VIDEO_ONLY_ARG)) throw new Error('--video-only must be true or false');
+const VIDEO_ONLY = VIDEO_ONLY_ARG === 'true';
+const ENTRY = String(arg('entry', 'src/sample/index.html')).replaceAll('\\', '/');
+if (!['src/sample/index.html', 'src/sample-v02/index.html','src/full/index.html'].includes(ENTRY)) {
+  throw new Error('Entry must be a supported project sample or full MV page');
+}
+const VERSION = ENTRY === 'src/full/index.html' ? 'full-v01' : ENTRY === 'src/sample-v02/index.html' ? 'v02' : 'v01';
 const TRANSPORT = arg('transport', 'png');
 if (!['png', 'rgba'].includes(TRANSPORT)) throw new Error('Transport must be png or rgba');
-const OUT = path.resolve(ROOT, arg('out', STILL_ARG ? 'exports/qa' : 'exports/astra-ending-sample-v01-1080p60.mp4'));
+const OUT = path.resolve(ROOT, arg('out', STILL_ARG
+  ? (VERSION === 'v02' ? 'exports/qa-v02' : 'exports/qa')
+  : `exports/astra-ending-sample-${VERSION}-1080p60.mp4`));
 if (![W, H, FPS, FIRST, LAST].every(Number.isInteger) || W <= 0 || H <= 0 || W % 2 || H % 2 || FPS <= 0 || FIRST < 0 || LAST <= FIRST) {
   throw new Error('Expected even positive dimensions, integer fps and a valid [start-frame,end-frame) range.');
 }
@@ -34,7 +44,7 @@ const AUDIO = path.join(ROOT, 'media/audio/mili-world-execute-original-bilibili.
 const EDGE = 'C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe';
 const FFMPEG = arg('ffmpeg', path.join(ROOT, '.cache/python/imageio_ffmpeg/binaries/ffmpeg-win-x86_64-v9.0.2.exe'));
 if (!fs.existsSync(FFMPEG)) throw new Error(`ffmpeg missing: ${FFMPEG}`);
-if (!STILL_ARG && !fs.existsSync(AUDIO)) throw new Error(`Source audio missing: ${AUDIO}`);
+if (!STILL_ARG && !VIDEO_ONLY && !fs.existsSync(AUDIO)) throw new Error(`Source audio missing: ${AUDIO}`);
 
 let ff = null;
 let ffDone = null;
@@ -78,7 +88,7 @@ const server = http.createServer(async (req, res) => {
     }
     if (req.method !== 'GET') { res.writeHead(405); res.end(); return; }
     // Serve only visual source, current project assets and explicit timeline data.
-    const allowed = pathname.startsWith('/src/sample/') || pathname.startsWith('/assets/') || pathname === '/docs/audio/calibrated_timeline.json' || pathname === '/media/audio/mili-world-execute-original-bilibili.m4a';
+    const allowed = pathname.startsWith('/src/sample/') || pathname.startsWith('/src/sample-v02/') || pathname.startsWith('/src/full/') || pathname.startsWith('/assets/') || pathname === '/docs/audio/calibrated_timeline.json' || pathname === '/media/audio/mili-world-execute-original-bilibili.m4a';
     if (!allowed) { res.writeHead(403); res.end('Forbidden'); return; }
     const file = path.resolve(ROOT, '.' + pathname);
     if (!file.startsWith(ROOT + path.sep)) throw new Error('Path outside workspace');
@@ -117,12 +127,12 @@ try {
       ? ['-f', 'image2pipe', '-framerate', String(FPS), '-vcodec', 'png', '-i', 'pipe:0']
       : ['-f', 'rawvideo', '-pixel_format', 'rgba', '-video_size', `${W}x${H}`, '-framerate', String(FPS), '-i', 'pipe:0'];
     const params = ['-hide_banner', '-loglevel', 'warning', '-y', ...videoInput,
-      '-ss', (FIRST / FPS).toFixed(9), '-i', AUDIO,
-      '-map', '0:v:0', '-map', '1:a:0', '-frames:v', String(COUNT), '-t', DURATION.toFixed(9),
+      ...(!VIDEO_ONLY ? ['-ss', (FIRST / FPS).toFixed(9), '-i', AUDIO] : []),
+      '-map', '0:v:0', ...(!VIDEO_ONLY ? ['-map', '1:a:0'] : []), '-frames:v', String(COUNT), '-t', DURATION.toFixed(9),
       '-vf', 'scale=out_color_matrix=bt709:out_range=limited,format=yuv420p',
       '-c:v', codec, ...quality, '-colorspace', 'bt709', '-color_primaries', 'bt709', '-color_trc', 'bt709', '-color_range', 'tv',
-      '-af', `apad=whole_dur=${DURATION.toFixed(9)}`, '-c:a', 'aac', '-b:a', '192k',
-      '-metadata', `comment=ASTRA ending sample; source_start_frame=${FIRST}; source_end_frame_exclusive=${LAST}; source_fps=${FPS}; source_start_seconds=${(FIRST / FPS).toFixed(9)}`,
+      ...(!VIDEO_ONLY ? ['-af', `apad=whole_dur=${DURATION.toFixed(9)}`, '-c:a', 'aac', '-b:a', '192k'] : []),
+      '-metadata', `comment=ASTRA ${VERSION}; source_start_frame=${FIRST}; source_end_frame_exclusive=${LAST}; source_fps=${FPS}; source_start_seconds=${(FIRST / FPS).toFixed(9)}`,
       '-movflags', '+faststart', OUT];
     ff = spawn(FFMPEG, params, { stdio: ['pipe', 'ignore', 'pipe'] });
     ff.stderr.on('data', b => { ffLog += b.toString(); if (ffLog.length > 16000) ffLog = ffLog.slice(-16000); });
@@ -139,7 +149,7 @@ try {
   const page = await browser.newPage({ viewport: { width: W, height: H }, deviceScaleFactor: 1 });
   page.setDefaultTimeout(0);
   page.on('pageerror', e => { failure = e; console.error('[page]', e.message); });
-  await page.goto(`http://127.0.0.1:${port}/src/sample/index.html?w=${W}&h=${H}`, { waitUntil: 'load', timeout: 60000 });
+  await page.goto(`http://127.0.0.1:${port}/${ENTRY}?w=${W}&h=${H}`, { waitUntil: 'load', timeout: 60000 });
   await page.evaluate(async () => {
     if (!window.sample) throw new Error('window.sample is missing');
     await window.sample.ready;
@@ -149,7 +159,7 @@ try {
     return { width: canvas?.width, height: canvas?.height, renderer: window.sample.renderer || 'Canvas2D' };
   });
   if (info.width !== W || info.height !== H) throw new Error(`Renderer canvas ${info.width}x${info.height}, requested ${W}x${H}`);
-  console.log(`[export] ${W}x${H} @ ${FPS}; song ${(FIRST/FPS).toFixed(6)}–${(LAST/FPS).toFixed(6)}; ${info.renderer}`);
+  console.log(`[export] ${W}x${H} @ ${FPS}; song ${(FIRST/FPS).toFixed(6)}–${(LAST/FPS).toFixed(6)}; ${info.renderer}; ${ENTRY}`);
   if (STILL_ARG) {
     fs.mkdirSync(OUT, { recursive: true });
     const times = STILL_ARG.split(',').map(Number);
@@ -189,9 +199,9 @@ try {
     if (received !== COUNT) throw new Error(`Received ${received} of ${COUNT} frames`);
     ff.stdin.end();
     await ffDone;
-    const report = { output: path.relative(ROOT, OUT).replaceAll('\\', '/'), width: W, height: H, fps: FPS,
+    const report = { output: path.relative(ROOT, OUT).replaceAll('\\', '/'), entry: ENTRY, width: W, height: H, fps: FPS,
       source_start_frame: FIRST, source_end_frame_exclusive: LAST, encoded_input_frames: received,
-      source_start_seconds: FIRST/FPS, intended_duration_seconds: DURATION, codec, transport: TRANSPORT,
+      source_start_seconds: FIRST/FPS, intended_duration_seconds: DURATION, codec, transport: TRANSPORT, video_only: VIDEO_ONLY,
       elapsed_seconds: (Date.now()-started)/1000, pipeline_milliseconds: timing, output_bytes: fs.statSync(OUT).size, ffmpeg_log: ffLog.trim(),
       validation_scope: 'Frame input count and encoder success; run verify_sample.py for independent decode and audio comparison.' };
     fs.writeFileSync(OUT.replace(/\.[^.]+$/, '.render.json'), JSON.stringify(report, null, 2) + '\n');

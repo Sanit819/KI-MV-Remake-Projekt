@@ -1,0 +1,24 @@
+{
+  "recorded_at": "2026-11-04T15:16:20.000776+00:00",
+  "scope": "Actual runtime artwork, full renderer, timeline and audio hashes recorded during export; rechecked unchanged after completion. Documentation and superseded iterations excluded.",
+  "sha256": {
+    "src/full/art.js": "592649604e911b385d48ea2841cf7d893158c2f574362cc3c020d4a47837c345",
+    "src/full/early.js": "fa58adf30f2657b01bf868d47bf0e8896175495a68298b7f25ebcc3763082d5d",
+    "src/full/index.html": "c8c92c8578d2b2d4a12f071d662b186b9b4b55c34f0ec18e063f141426d9da01",
+    "src/full/kit.js": "235c017ff285130853eeb50fffb8a411e674e43a98ddfd89f8a4599b61a476aa",
+    "src/full/late.js": "9ca08930f8323115f6abc8b47e543512b4b2b4100ea05633fa196dbc8051e2fd",
+    "src/full/main.js": "e03cc8f95893905bb7b3a06e50fb44b7897a7eeee15ed4cf54116dccd2d8a53a",
+    "src/full/vendor/LICENSE.Nyankomint": "eb568404a2762e264c2abba90673028c8b1fb9bbb225af31d07e7ae97658af5d",
+    "src/full/vendor/trace.js": "ad118d4691a2ebc19c81bac71fb95e111ca68170b103d35bfe35030bf7d6c0b4",
+    "assets/astra/final/manifest.json": "8a475266270a7c38912699c48544203963bfdcfcc2d61887003625b7053abd05",
+    "assets/astra/final/protect-knot.png": "7274e78017c42cdb16325a1853398fae60bfe54cddfcbbdeb6d6bfb036995e68",
+    "assets/astra/final/reach-knot.png": "3ee9912a28573a170ecee14710f8ea12d7547582c1879bed9613b9009faa9d4e",
+    "assets/astra/final/sit-knot.png": "4e6f8e950ea7fcfe19ca65a64d8798c886759c8468ed616a819a3559b9939ed4",
+    "assets/astra/final/sitSmile-knot.png": "f098069a9585cb6d583cdd9f82dd7a21fc3585f2ee3d8423e5c7adb7fffe477d",
+    "assets/astra/final/stand-knot.png": "7692119f9bd214fd860108254c51c5bc2055748ac8cd86000ae94422b798ff0c",
+    "assets/astra/final/surprise-knot.png": "0534eda4ec698ea9ed4f1a93c5bcb31417788b88cefdf47c2e11acf5a1f0714a",
+    "docs/audio/calibrated_timeline.json": "0d7369db38233673511e6d4f179ea5aa0a750deb7342074bc8addddc02306544",
+    "media/audio/mili-world-execute-original-bilibili.m4a": "b06f195e2a479c25c3282f4ca5b931e293c4a35a941acf6dd5b515ba4890f34a"
+  },
+  "unchanged_after_export": true
+}
