@@ -1,0 +1,21 @@
+{
+  "version": "v05",
+  "date": "2026-11-04",
+  "status": "new cut-paper silhouette style baseline; user review pending",
+  "mode": "built-in imagegen",
+  "generation": "exec-ee19b258-0707-4f67-87d1-e687adea7922.png",
+  "file": "style-bust.png",
+  "prompt": "prompt.txt",
+  "references": [
+    "user-style-reference.png",
+    "../../../../references/character-design/chatgpt-dragon-reference.jpg"
+  ],
+  "ornament_method": "directly illustrated in the same generated image; no SVG, no overlay, no pixel editing",
+  "supersedes": "All previous character designs and native logo-overlay approach",
+  "sha256": "f5a7ceda94f56bf4dddd2a5601e54160541bbbda1b7e0071201182eba1efb2a5",
+  "boundaries": [
+    "Opaque dark-plum style plate, not transparent production sprite",
+    "Slight tonal variation; not exactly three RGB colors",
+    "Upper-right horn touches top edge"
+  ]
+}
