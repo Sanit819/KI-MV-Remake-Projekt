@@ -1,0 +1,17 @@
+# Local dependencies and caches
+node_modules/
+.cache/
+.tmp/
+__pycache__/
+*.pyc
+
+# Rendered frames and generated deliverables
+renders/
+exports/
+
+# Local configuration and operating-system files
+.env
+.env.*
+!.env.example
+Thumbs.db
+.DS_Store
