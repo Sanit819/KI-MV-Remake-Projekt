@@ -1,0 +1,25 @@
+{
+  "canvas": [
+    1199,
+    1312
+  ],
+  "layout": {
+    "head": {
+      "x": 858,
+      "y": 477,
+      "width": 116,
+      "rotation": -8
+    },
+    "shoulder": {
+      "x": 953,
+      "y": 1130,
+      "width": 65,
+      "rotation": -10
+    }
+  },
+  "layer_order": [
+    "portrait-base.png",
+    "openai-openwork.svg"
+  ],
+  "note": "No circle or backing plate; the underlying hair and fabric remain visible through SVG negative spaces."
+}
