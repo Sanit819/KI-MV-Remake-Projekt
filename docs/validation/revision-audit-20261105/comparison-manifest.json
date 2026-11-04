@@ -1,0 +1,106 @@
+{
+  "reference": "D:\\myskills\\updream\\references\\video-review\\BV186pc65E68-video-480p30.mp4",
+  "our_actual_encoded_mv": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\exports\\astra-world-execute-me-full-v1-4k60.mp4",
+  "time_basis": "Reference player seconds versus our song seconds; thematic comparisons, not shared clock alignment.",
+  "cases": [
+    {
+      "name": "01-workspace-actions",
+      "reference_player_seconds": [
+        139,
+        149
+      ],
+      "our_song_seconds": [
+        124,
+        133
+      ]
+    },
+    {
+      "name": "02-chorus-scale",
+      "reference_player_seconds": [
+        67.1,
+        67.5
+      ],
+      "our_song_seconds": [
+        64,
+        68
+      ]
+    },
+    {
+      "name": "03-execution-pressure",
+      "reference_player_seconds": [
+        155.4,
+        161.5
+      ],
+      "our_song_seconds": [
+        149,
+        153.4
+      ]
+    },
+    {
+      "name": "04-depth-crossing",
+      "reference_player_seconds": [
+        179,
+        181
+      ],
+      "our_song_seconds": [
+        164,
+        167
+      ]
+    },
+    {
+      "name": "05-shape-action",
+      "reference_player_seconds": [
+        38,
+        44
+      ],
+      "our_song_seconds": [
+        35,
+        42
+      ]
+    },
+    {
+      "name": "06-awakening",
+      "reference_player_seconds": [
+        171.4,
+        174
+      ],
+      "our_song_seconds": [
+        157,
+        172
+      ]
+    },
+    {
+      "name": "07-workspace-origin",
+      "reference_player_seconds": [
+        10,
+        14
+      ],
+      "our_song_seconds": [
+        5.6,
+        9
+      ]
+    },
+    {
+      "name": "08-warm-ending",
+      "reference_player_seconds": [
+        196.8,
+        199.3
+      ],
+      "our_song_seconds": [
+        206.1,
+        211.8
+      ]
+    },
+    {
+      "name": "09-body-is-the-workspace",
+      "reference_player_seconds": [
+        168.7,
+        172.7
+      ],
+      "our_song_seconds": [
+        157,
+        172
+      ]
+    }
+  ]
+}

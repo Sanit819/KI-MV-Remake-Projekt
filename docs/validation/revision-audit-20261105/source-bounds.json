@@ -1,0 +1,140 @@
+{
+  "stand": {
+    "size": [
+      1024,
+      1535
+    ],
+    "bounds": [
+      72,
+      10,
+      959,
+      1524
+    ],
+    "path": "/assets/astra/final/stand-knot.png",
+    "anchors": {
+      "hands": [
+        610,
+        410
+      ],
+      "pen": [
+        280,
+        1005
+      ]
+    }
+  },
+  "reach": {
+    "size": [
+      1230,
+      1278
+    ],
+    "bounds": [
+      3,
+      1,
+      1224,
+      1278
+    ],
+    "path": "/assets/astra/final/reach-knot.png",
+    "anchors": {
+      "hands": [
+        1100,
+        250
+      ],
+      "pen": [
+        735,
+        505
+      ]
+    }
+  },
+  "protect": {
+    "size": [
+      1024,
+      1536
+    ],
+    "bounds": [
+      13,
+      8,
+      1010,
+      1527
+    ],
+    "path": "/assets/astra/final/protect-knot.png",
+    "anchors": {
+      "hands": [
+        540,
+        505
+      ],
+      "pen": [
+        540,
+        505
+      ]
+    }
+  },
+  "sit": {
+    "size": [
+      1111,
+      1416
+    ],
+    "bounds": [
+      40,
+      0,
+      1082,
+      1412
+    ],
+    "path": "/assets/astra/final/sit-knot.png",
+    "anchors": {
+      "hands": [
+        790,
+        715
+      ],
+      "pen": [
+        944,
+        778
+      ]
+    }
+  },
+  "surprise": {
+    "size": [
+      1111,
+      1415
+    ],
+    "bounds": [
+      37,
+      0,
+      1085,
+      1412
+    ],
+    "path": "/assets/astra/final/surprise-knot.png",
+    "anchors": {
+      "hands": [
+        790,
+        715
+      ],
+      "pen": [
+        944,
+        778
+      ]
+    }
+  },
+  "sitSmile": {
+    "size": [
+      1111,
+      1415
+    ],
+    "bounds": [
+      29,
+      0,
+      1069,
+      1412
+    ],
+    "path": "/assets/astra/final/sitSmile-knot.png",
+    "anchors": {
+      "hands": [
+        790,
+        715
+      ],
+      "pen": [
+        944,
+        778
+      ]
+    }
+  }
+}

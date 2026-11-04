@@ -1,0 +1,355 @@
+{
+  "date": "2026-11-05",
+  "status": "candidate_visual_qa_not_activated",
+  "scope": "Read-only source-image review and pure QA crop/layout. No manifest, renderer, source PNG or final-video edits.",
+  "comparison_image": "exports/revision-audit-20261105/eye-comparison.png",
+  "methods": {
+    "eye_and_mouth": "Connected bright regions in source ROI x500..670/y210..380. min RGB >175, alpha>200, component size>20; largest upper/lower component. Source-pixel centroids, not guessed screen positions.",
+    "bang_proxy": "Last median luminance>100 pixel before eye top in five source columns around eye center, starting at y210. x changes with the eye; this is a local relation, not a universal bang landmark.",
+    "registration": "Integer translation search dx +/-35, dy +/-15 over non-expression head edges x300..790,y30..430; excludes x500..665,y240..375. Edge luminance MAE, not deformable registration.",
+    "alpha": "RGBA inspection plus alpha>=16 support outside 2-pixel dilation of alpha>=128 mask. This does not certify every edge or remove alpha<16 residue."
+  },
+  "source_measurements": {
+    "old_surprise": {
+      "file": "assets/astra/final/surprise-knot.png",
+      "sha256": "0534eda4ec698ea9ed4f1a93c5bcb31417788b88cefdf47c2e11acf5a1f0714a",
+      "size": [
+        1111,
+        1415
+      ],
+      "nonzero_alpha_bbox": [
+        34,
+        0,
+        1088,
+        1415
+      ],
+      "eye": {
+        "pixels": 390,
+        "center_xy": [
+          630.43,
+          287.19
+        ],
+        "bbox_xyxy": [
+          607,
+          277,
+          652,
+          298
+        ],
+        "mean_rgb": [
+          223.9,
+          199.7,
+          232.4
+        ]
+      },
+      "mouth": {
+        "pixels": 58,
+        "center_xy": [
+          593.91,
+          345.1
+        ],
+        "bbox_xyxy": [
+          587,
+          343,
+          602,
+          348
+        ],
+        "mean_rgb": [
+          228.3,
+          204.0,
+          236.3
+        ]
+      },
+      "eye_to_mouth_vertical_px": 57.91,
+      "local_bang_last_bright_y": 260,
+      "gap_bang_to_eye_top_px": 16,
+      "alpha": {
+        "nonzero_pixels": 1047075,
+        "alpha_16_or_more_pixels": 1029877,
+        "alpha_16_to_249_pixels": 20763,
+        "alpha_16_or_more_beyond_2px_from_opaque128": 0
+      }
+    },
+    "new_surprise": {
+      "file": "assets/astra/v06-eye-study/surprise-candidate.png",
+      "sha256": "c5c7cd4b94843b967cc90478f7a29f55bbb82f8a8bb48197a7d96e525446babc",
+      "size": [
+        1111,
+        1416
+      ],
+      "nonzero_alpha_bbox": [
+        31,
+        0,
+        1093,
+        1416
+      ],
+      "eye": {
+        "pixels": 369,
+        "center_xy": [
+          608.51,
+          272.56
+        ],
+        "bbox_xyxy": [
+          587,
+          262,
+          627,
+          284
+        ],
+        "mean_rgb": [
+          227.4,
+          211.7,
+          231.3
+        ]
+      },
+      "mouth": {
+        "pixels": 74,
+        "center_xy": [
+          581.5,
+          343.0
+        ],
+        "bbox_xyxy": [
+          575,
+          340,
+          589,
+          347
+        ],
+        "mean_rgb": [
+          227.4,
+          203.4,
+          232.0
+        ]
+      },
+      "eye_to_mouth_vertical_px": 70.44,
+      "local_bang_last_bright_y": 250,
+      "gap_bang_to_eye_top_px": 11,
+      "alpha": {
+        "nonzero_pixels": 1064068,
+        "alpha_16_or_more_pixels": 1048581,
+        "alpha_16_to_249_pixels": 18798,
+        "alpha_16_or_more_beyond_2px_from_opaque128": 0
+      }
+    },
+    "old_smile": {
+      "file": "assets/astra/final/sitSmile-knot.png",
+      "sha256": "f098069a9585cb6d583cdd9f82dd7a21fc3585f2ee3d8423e5c7adb7fffe477d",
+      "size": [
+        1111,
+        1415
+      ],
+      "nonzero_alpha_bbox": [
+        26,
+        0,
+        1072,
+        1415
+      ],
+      "eye": {
+        "pixels": 241,
+        "center_xy": [
+          608.7,
+          291.26
+        ],
+        "bbox_xyxy": [
+          589,
+          283,
+          629,
+          306
+        ],
+        "mean_rgb": [
+          219.1,
+          198.6,
+          221.3
+        ]
+      },
+      "mouth": {
+        "pixels": 67,
+        "center_xy": [
+          583.6,
+          336.87
+        ],
+        "bbox_xyxy": [
+          573,
+          331,
+          593,
+          341
+        ],
+        "mean_rgb": [
+          219.7,
+          198.9,
+          222.1
+        ]
+      },
+      "eye_to_mouth_vertical_px": 45.61,
+      "local_bang_last_bright_y": 257,
+      "gap_bang_to_eye_top_px": 25,
+      "alpha": {
+        "nonzero_pixels": 1027182,
+        "alpha_16_or_more_pixels": 1010807,
+        "alpha_16_to_249_pixels": 19812,
+        "alpha_16_or_more_beyond_2px_from_opaque128": 0
+      }
+    },
+    "new_smile": {
+      "file": "assets/astra/v06-eye-study/smile-candidate.png",
+      "sha256": "8c9677167630c939407b7f5c41c9d97228dcd54599d1511d111712d6e545d026",
+      "size": [
+        1111,
+        1415
+      ],
+      "nonzero_alpha_bbox": [
+        29,
+        0,
+        1095,
+        1415
+      ],
+      "eye": {
+        "pixels": 264,
+        "center_xy": [
+          615.09,
+          278.33
+        ],
+        "bbox_xyxy": [
+          589,
+          271,
+          640,
+          289
+        ],
+        "mean_rgb": [
+          243.3,
+          230.2,
+          211.1
+        ]
+      },
+      "mouth": {
+        "pixels": 73,
+        "center_xy": [
+          580.68,
+          342.3
+        ],
+        "bbox_xyxy": [
+          568,
+          336,
+          594,
+          347
+        ],
+        "mean_rgb": [
+          243.7,
+          230.9,
+          210.9
+        ]
+      },
+      "eye_to_mouth_vertical_px": 63.97,
+      "local_bang_last_bright_y": 257,
+      "gap_bang_to_eye_top_px": 13,
+      "alpha": {
+        "nonzero_pixels": 1083223,
+        "alpha_16_or_more_pixels": 1067493,
+        "alpha_16_to_249_pixels": 18811,
+        "alpha_16_or_more_beyond_2px_from_opaque128": 0
+      }
+    }
+  },
+  "old_to_new_deltas": {
+    "surprise": {
+      "eye_center_y_delta_px": -14.63,
+      "mouth_center_y_delta_px": -2.1,
+      "eye_lift_relative_to_mouth_px": 12.53,
+      "local_bang_gap_reduction_px": 5
+    },
+    "smile": {
+      "eye_center_y_delta_px": -12.93,
+      "mouth_center_y_delta_px": 5.43,
+      "eye_lift_relative_to_mouth_px": 18.36,
+      "local_bang_gap_reduction_px": 12
+    }
+  },
+  "non_expression_head_registration": [
+    {
+      "from": "old_surprise",
+      "to": "new_surprise",
+      "best_translation_dx_dy": [
+        -11,
+        0
+      ],
+      "edge_luminance_mae_0_255": 28.239,
+      "sampled_edge_pixels": 8432
+    },
+    {
+      "from": "old_smile",
+      "to": "new_smile",
+      "best_translation_dx_dy": [
+        4,
+        1
+      ],
+      "edge_luminance_mae_0_255": 34.875,
+      "sampled_edge_pixels": 8196
+    },
+    {
+      "from": "new_surprise",
+      "to": "new_smile",
+      "best_translation_dx_dy": [
+        0,
+        0
+      ],
+      "edge_luminance_mae_0_255": 12.98,
+      "sampled_edge_pixels": 8595
+    }
+  ],
+  "new_candidate_pair": {
+    "whole_alpha128_iou": 0.981909,
+    "head_alpha128_iou": 0.960913,
+    "head_region_xyxy": [
+      280,
+      0,
+      820,
+      460
+    ]
+  },
+  "visual_findings": [
+    {
+      "topic": "eye_height",
+      "result": "improved",
+      "detail": "两张候选眼位均实际上移，且相对嘴的位置仍上移；并非仅将整张脸平移。惊讶相对嘴上移12.53px，微笑18.36px。"
+    },
+    {
+      "topic": "bangs",
+      "result": "improved_with_local_change",
+      "detail": "惊讶眼上缘与局部刘海亮边之间的暗面间隔由16px减到11px；微笑由25px减到13px。刘海本身也有重画，不能将全部变化说成只移动了眼睛。"
+    },
+    {
+      "topic": "jaw",
+      "result": "qualitative_only",
+      "detail": "新惊讶保留下颌至领口的暗面关系，眼位相对嘴和下半脸更高。旧微笑有明显浅紫下颌轮廓线，新的微笑取消该线、暗面与颈部连贯；所以新旧微笑的下颌并非严格冻结，不能以同一个自动颜色阈值声称精确下颌归一化结果。"
+    },
+    {
+      "topic": "new_pair_head_drift",
+      "result": "no_large_rigid_shift_local_redraw_exists",
+      "detail": "新惊讶与新微笑非表情头部边缘配准最佳整数平移为[0,0]，未见整体头部跳位。头部alpha128轮廓IoU约0.9609，说明局部发梢/角沿仍有重画；不是像素锁定的两帧。"
+    },
+    {
+      "topic": "gpt_knot",
+      "result": "no_major_redesign_observed",
+      "detail": "四张头饰均在画面右侧，仍是同类六股镂空结饰与垂穗，没有新增外圆或底板。新惊讶和新微笑的结饰视觉位置与轮廓相近，未见明显换边、丢失或扩大；源图局部笔画仍有少量重画，未做商标拓扑正确性的自动认证。"
+    },
+    {
+      "topic": "alpha_edges",
+      "result": "no_new_broad_fringe_observed",
+      "detail": "四张都有透明背景与细半透明边缘；两候选alpha>=16像素均没有落在alpha>=128轮廓外超过2px。半透明像素数没有升高，未见新白底/黑底或宽外缘。非常低alpha彩色残点和角顶触源图上边界仍存在，不宜称为完全无残边。"
+    },
+    {
+      "topic": "source_palette",
+      "result": "needs_consistency_check",
+      "detail": "新微笑眼嘴是暖米白，亮色区域均值约[243,230,211]；新惊讶眼/嘴更偏紫白。这是原始候选的一处色彩变化。现有art.js三墨映射可能将其统一，但本轮没有激活或渲染候选，不能据此宣称成片一致。"
+    },
+    {
+      "topic": "outline_weight",
+      "result": "needs_consistency_check",
+      "detail": "四列完整头部对比可见，新微笑的角沿、呆毛及部分外发束深色描边比新惊讶更重，属于非表情区域的重画，不是眼位修正本身。大构图稳定，但直接切换仍可能产生轮廓粗细变化。"
+    }
+  ],
+  "pending": [
+    "保持新眼位，进一步锁定两候选共同的刘海、角、轮廓粗细和下颌；尤其确认是否接受旧微笑下颌线消失。",
+    "确认眼与嘴统一采用同一墨色；不要让惊讶/微笑切换同时带来不必要的颜色跳变。",
+    "若进入镜头测试，按同一裁切和锚点交替显示两候选，检查闭眼时的局部发梢变化；本轮未连续播放或激活候选。",
+    "如需完全清洁透明边缘，应针对极低alpha残点另做处理并复核；本轮仅测量，没有编辑源图。"
+  ],
+  "activation": "Not activated. Existing final manifest remains unchanged. No full-MV reproduction authorized by this QA task."
+}

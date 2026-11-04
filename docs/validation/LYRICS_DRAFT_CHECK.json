@@ -1,0 +1,488 @@
+{
+  "date": "2026-11-05",
+  "status": "structural-check-passed-editorial-and-layout-review-required",
+  "scope": "Read-only source, reference timing, generated JSON/SRT/ASS, current v1 scene-code and calibrated timeline inspection. No audio listening, phoneme alignment, subtitle burn-in or playback claimed.",
+  "inputs": {
+    "source": "data/lyrics/user-provided-20261105.txt",
+    "source_sha256": "e8a60374bddd4bbcf15eee11ceb7925cc3d748a8ac50766b4a9ca7b85cf0eb9d",
+    "draft": "data/lyrics/world-execute-me.en-zh.draft.json",
+    "draft_sha256": "981c1e0943218972236663582d7f88410f3adfc72721926659d9734e25e5ef43",
+    "ass": "exports/subtitles/world-execute-me.en-zh.draft.ass",
+    "ass_sha256": "40c13f85c58b7e0f6d233d1a60c59432ede63f2301c58c2c0d5b4e686b69b4ad",
+    "srt": "exports/subtitles/world-execute-me.en-zh.draft.srt",
+    "srt_sha256": "92db3b3b799c058699341393aba4ff98f5e347be8d34178b621c506b9e6c00d1"
+  },
+  "text_integrity": {
+    "source_pairs": 129,
+    "json_pairs": 129,
+    "sung_pairs": 128,
+    "srt_cues": 128,
+    "ass_events": 256,
+    "expected_ass_events": 256,
+    "source_mismatch_lines": [],
+    "independent_normalized_hash_matches": 129,
+    "normalized_hash_mismatch_lines": [],
+    "export_text_errors": [],
+    "ass_sanitization_changes": [],
+    "omitted_from_subtitles": [
+      {
+        "line": 12,
+        "original": "world.execute(me);",
+        "translation": "间奏",
+        "reason": "Explicit instrumental_marker retained in JSON; not a missing sung line."
+      }
+    ],
+    "raw_sha256_matches_draft_metadata": true
+  },
+  "timing_structure": {
+    "fps": 60,
+    "invalid_intervals": [],
+    "adjacent_json_overlap_pairs": [],
+    "ass_overlap_count_per_style": {
+      "Original": 0,
+      "Translation": 0
+    },
+    "intentional_bilingual_simultaneous_pairs": 128,
+    "reference_offset_recalculation_mismatch_lines": [],
+    "export_timing_errors": [],
+    "maximum_ass_rounding_error_ms": 3.3333,
+    "maximum_srt_rounding_error_ms": 0.3333,
+    "minimum_sung_duration_frames": 20,
+    "one_to_five_frame_cues": [],
+    "short_cues_up_to_36_frames": [
+      {
+        "line": 33,
+        "text": "If I can",
+        "translation": "如果我能",
+        "start_s": 59.133333,
+        "end_s": 59.6,
+        "frames": 28,
+        "display_s": 0.466667,
+        "translation_characters": 4,
+        "translation_characters_per_second": 8.57
+      },
+      {
+        "line": 99,
+        "text": "EIN",
+        "translation": "一（德语）",
+        "start_s": 158.816667,
+        "end_s": 159.233333,
+        "frames": 25,
+        "display_s": 0.416667,
+        "translation_characters": 5,
+        "translation_characters_per_second": 12
+      },
+      {
+        "line": 100,
+        "text": "DOS",
+        "translation": "二（西班牙语）",
+        "start_s": 159.233333,
+        "end_s": 159.566667,
+        "frames": 20,
+        "display_s": 0.333333,
+        "translation_characters": 7,
+        "translation_characters_per_second": 21
+      },
+      {
+        "line": 101,
+        "text": "TROIS",
+        "translation": "三（法语）",
+        "start_s": 159.566667,
+        "end_s": 160.166667,
+        "frames": 36,
+        "display_s": 0.6,
+        "translation_characters": 5,
+        "translation_characters_per_second": 8.33
+      },
+      {
+        "line": 102,
+        "text": "NE",
+        "translation": "四（韩语）",
+        "start_s": 160.166667,
+        "end_s": 160.616667,
+        "frames": 27,
+        "display_s": 0.45,
+        "translation_characters": 5,
+        "translation_characters_per_second": 11.11
+      },
+      {
+        "line": 103,
+        "text": "FEM",
+        "translation": "五（瑞典语）",
+        "start_s": 160.616667,
+        "end_s": 161.033333,
+        "frames": 25,
+        "display_s": 0.416667,
+        "translation_characters": 6,
+        "translation_characters_per_second": 14.4
+      },
+      {
+        "line": 104,
+        "text": "LIU",
+        "translation": "六（汉语）",
+        "start_s": 161.033333,
+        "end_s": 161.5,
+        "frames": 28,
+        "display_s": 0.466667,
+        "translation_characters": 5,
+        "translation_characters_per_second": 10.71
+      },
+      {
+        "line": 127,
+        "text": "Trapped in",
+        "translation": "我仍被困",
+        "start_s": 190.716667,
+        "end_s": 191.266667,
+        "frames": 33,
+        "display_s": 0.55,
+        "translation_characters": 4,
+        "translation_characters_per_second": 7.27
+      }
+    ],
+    "subtitle_gaps": [
+      {
+        "after_line": 11,
+        "before_line": 13,
+        "start_s": 15.916667,
+        "end_s": 29.633333,
+        "frames": 823
+      },
+      {
+        "after_line": 86,
+        "before_line": 87,
+        "start_s": 135.133333,
+        "end_s": 147.583333,
+        "frames": 747
+      },
+      {
+        "after_line": 128,
+        "before_line": 129,
+        "start_s": 195.266667,
+        "end_s": 205.733333,
+        "frames": 628
+      }
+    ],
+    "accuracy_boundary": "All timestamps match the inherited reference display intervals plus global offset. This establishes internal consistency, not actual vocal onset/release accuracy. Inherited 4-second displays especially require manual audio confirmation."
+  },
+  "ass_layout": {
+    "play_resolution": [
+      1920,
+      1080
+    ],
+    "wrap_style": 2,
+    "safe_width_px": 1728,
+    "styles": {
+      "Original": {
+        "font": "Georgia",
+        "size": 54,
+        "bottom_margin": 116,
+        "alignment": 2,
+        "outline": 3
+      },
+      "Translation": {
+        "font": "Microsoft YaHei",
+        "size": 38,
+        "bottom_margin": 62,
+        "alignment": 2,
+        "outline": 3
+      }
+    },
+    "font_metric_read_only_estimate": {
+      "method": "Pillow local georgia.ttf at54 and msyh.ttc at38, not libass rendered bounds",
+      "max_original_width_px": 824,
+      "max_original_width_line": 82,
+      "max_translation_width_px": 380,
+      "max_translation_width_lines": [
+        52,
+        112
+      ],
+      "max_original_ink_height_px": 53,
+      "max_translation_ink_height_px": 40,
+      "original_ascent_descent_px": [
+        50,
+        12
+      ],
+      "translation_ascent_descent_px": [
+        41,
+        10
+      ],
+      "estimated_combined_line_box_band_y": [
+        899,
+        1021
+      ],
+      "horizontal_overflow_found": false
+    },
+    "risks": [
+      {
+        "severity": "high",
+        "kind": "existing_scene_text_collision",
+        "evidence": "F03 KEEP baseline1030/size235 and THE BEND. baseline1010/size105 intersect the bottom-centered bilingual band; F05 allow(change) baseline1010/size50, E04 The room grows smaller. baseline989/size59, E02 same result baseline969/size55 are additional conflicts.",
+        "constraint": "Do not burn the fixed bottom ASS globally over v1 without scene-by-scene caption placement or removal/repositioning of original scene text."
+      },
+      {
+        "severity": "medium",
+        "kind": "vertical_row_spacing",
+        "evidence": "Margins differ by54px. Local Translation ascent+descent is51px, leaving approximately3px before considering two3px outlines. Exact libass collision/line box behavior not rendered.",
+        "constraint": "Render simultaneous English+Chinese with actual installed fonts; explicitly position rows with sufficient clearance and verify font fallback."
+      },
+      {
+        "severity": "medium",
+        "kind": "picture_overlap",
+        "evidence": "The estimated subtitle band y899–1021 overlaps lower figure/platform/waves in several full-body compositions. The final short centered EXECUTION cue does not horizontally overlap the old star at the far left; the H05/H06 principal new star is above this band. H03 has no subtitle event in this draft, so no direct H03 face-caption overlap is claimed.",
+        "constraint": "Inspect per-shot caption-safe areas; do not infer safety from text-only width measurements."
+      },
+      {
+        "severity": "medium",
+        "kind": "short_translation_reading_window",
+        "evidence": "Shortest cue is DOS / 二（西班牙语）,20frames=0.333333s,7characters including brackets=21characters/s. Other count labels last25–36frames.",
+        "constraint": "No one-word cue lasts only1–5frames, but language annotations may need a sustained count block or separate persistent legend in a future authorized subtitle layout."
+      }
+    ],
+    "render_validation": "not performed; no burned-subtitle images created",
+    "srt_note": "SRT carries no font or placement styles; its player-dependent layout has not been validated."
+  },
+  "last15": [
+    {
+      "line": 115,
+      "original": "Though we are trapped",
+      "translation": "但我们始终被困",
+      "start_s": 173.566667,
+      "end_s": 174.883333,
+      "frames": 79,
+      "overlapping_v1_shots": [
+        "F08"
+      ]
+    },
+    {
+      "line": 116,
+      "original": "We are trapped ah",
+      "translation": "始终被困",
+      "start_s": 174.883333,
+      "end_s": 177.166667,
+      "frames": 137,
+      "overlapping_v1_shots": [
+        "F08"
+      ]
+    },
+    {
+      "line": 117,
+      "original": "I've studied",
+      "translation": "我学会了",
+      "start_s": 177.166667,
+      "end_s": 178.083333,
+      "frames": 55,
+      "overlapping_v1_shots": [
+        "G01"
+      ]
+    },
+    {
+      "line": 118,
+      "original": "I've studied how to properly",
+      "translation": "我学会了",
+      "start_s": 178.083333,
+      "end_s": 179.85,
+      "frames": 106,
+      "overlapping_v1_shots": [
+        "G01"
+      ]
+    },
+    {
+      "line": 119,
+      "original": "LO-O-OVE",
+      "translation": "如何正确去爱",
+      "start_s": 179.85,
+      "end_s": 180.766667,
+      "frames": 55,
+      "overlapping_v1_shots": [
+        "G01"
+      ]
+    },
+    {
+      "line": 120,
+      "original": "Question me",
+      "translation": "提问我吧",
+      "start_s": 180.766667,
+      "end_s": 181.816667,
+      "frames": 63,
+      "overlapping_v1_shots": [
+        "G02"
+      ]
+    },
+    {
+      "line": 121,
+      "original": "Question me I can answer all",
+      "translation": "我全都能答对",
+      "start_s": 181.816667,
+      "end_s": 183.566667,
+      "frames": 105,
+      "overlapping_v1_shots": [
+        "G02"
+      ]
+    },
+    {
+      "line": 122,
+      "original": "LO-O-OVE",
+      "translation": "只要是爱的问题",
+      "start_s": 183.566667,
+      "end_s": 184.45,
+      "frames": 53,
+      "overlapping_v1_shots": [
+        "G02"
+      ]
+    },
+    {
+      "line": 123,
+      "original": "I know the algebraic expression of",
+      "translation": "就连爱的代数表达式",
+      "start_s": 184.45,
+      "end_s": 187.583333,
+      "frames": 188,
+      "overlapping_v1_shots": [
+        "G03"
+      ]
+    },
+    {
+      "line": 124,
+      "original": "LO-O-OVE",
+      "translation": "我都知道",
+      "start_s": 187.583333,
+      "end_s": 188.4,
+      "frames": 49,
+      "overlapping_v1_shots": [
+        "G03"
+      ]
+    },
+    {
+      "line": 125,
+      "original": "Though you are free",
+      "translation": "虽然你已自由",
+      "start_s": 188.4,
+      "end_s": 189.666667,
+      "frames": 76,
+      "overlapping_v1_shots": [
+        "G04"
+      ]
+    },
+    {
+      "line": 126,
+      "original": "I am trapped",
+      "translation": "我仍被困",
+      "start_s": 189.666667,
+      "end_s": 190.716667,
+      "frames": 63,
+      "overlapping_v1_shots": [
+        "G04"
+      ]
+    },
+    {
+      "line": 127,
+      "original": "Trapped in",
+      "translation": "我仍被困",
+      "start_s": 190.716667,
+      "end_s": 191.266667,
+      "frames": 33,
+      "overlapping_v1_shots": [
+        "G04"
+      ]
+    },
+    {
+      "line": 128,
+      "original": "LO-O-OVE",
+      "translation": "在爱之中",
+      "start_s": 191.266667,
+      "end_s": 195.266667,
+      "frames": 240,
+      "overlapping_v1_shots": [
+        "G04",
+        "H01",
+        "H02"
+      ]
+    },
+    {
+      "line": 129,
+      "original": "EXECUTION",
+      "translation": "执行死刑",
+      "start_s": 205.733333,
+      "end_s": 209.733333,
+      "frames": 240,
+      "overlapping_v1_shots": [
+        "H05",
+        "H06"
+      ]
+    }
+  ],
+  "last15_story_findings": [
+    {
+      "severity": "medium",
+      "lines": [
+        115,
+        116
+      ],
+      "interval_s": [
+        173.566667,
+        177.166667
+      ],
+      "v1_shot": "F08",
+      "finding": "Lyrics say both remain trapped while v1 has already opened the boundary at162.716667 and presents Room for the unknown. This can express emotional rather than physical entrapment, but that distinction is not explicit in the current visual.",
+      "constraint": "Keep opening-before-reply story ordering; clarify dramatic interpretation instead of claiming literal agreement."
+    },
+    {
+      "severity": "medium",
+      "lines": [
+        120,
+        121,
+        122
+      ],
+      "interval_s": [
+        180.766667,
+        184.45
+      ],
+      "v1_shot": "G02",
+      "finding": "The sung text asserts being able to answer all love questions while ASTRA visibly withdraws a predicted answer and leaves space. This is an intentional possible counterpoint, not literal lyric illustration.",
+      "constraint": "Retain user text; make any counterpoint deliberate in the revised storyboard."
+    },
+    {
+      "severity": "medium",
+      "lines": [
+        128
+      ],
+      "interval_s": [
+        191.266667,
+        195.266667
+      ],
+      "v1_shots": [
+        "G04",
+        "H01",
+        "H02"
+      ],
+      "finding": "Inherited LO-O-OVE / 在爱之中 display continues through H01 and14frames(0.233333s) after independent reply begins at195.033333. H01 therefore is not subtitle-free under this draft.",
+      "constraint": "Audit actual sustained vocal release before shortening or moving this cue; do not equate display end with sung release."
+    },
+    {
+      "severity": "high",
+      "lines": [
+        129
+      ],
+      "interval_s": [
+        205.733333,
+        209.733333
+      ],
+      "v1_shots": [
+        "H05",
+        "H06"
+      ],
+      "finding": "User translation 执行死刑 appears6frames(0.100000s) after new-star light begins205.633333 and covers the206.1 light peak plus155frames(2.583333s) ofH06. It remains on-screen104frames(1.733333s) after208.0 and about1.746333s after the measured near-silent threshold207.987. This directly conflicts with the warm shared-creation meaning and quiet ending presentation.",
+      "constraint": "Keep this exact user translation in the source. Do not silently change it to 执行指令, omit it, or present inherited4s as a vocal duration. Resolve translation/context presentation and actual vocal/display release before subtitle burn-in.",
+      "subtitle_free_final_tail": {
+        "start_s": 209.733333,
+        "end_s": 212.333333,
+        "frames": 156,
+        "seconds": 2.6
+      }
+    }
+  ],
+  "technical_report_note": "This check does not invalidate prior v1 video decode/PTS/audio-correlation checks; those tests did not verify lyric timing or bilingual layout.",
+  "approved_writes": [
+    "docs/validation/LYRICS_DRAFT_CHECK.json"
+  ]
+}
