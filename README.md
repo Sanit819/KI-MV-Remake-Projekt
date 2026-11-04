@@ -2,6 +2,18 @@
 
 ASTRA《未写完的世界》——用户与 ASTRA 共同制作的 Mili《world.execute(me);》原创 MV。
 
+## 当前交付：完整 v2（2026-11-05）
+
+[4K60 母版](exports/astra-world-execute-me-full-v2-4k60.mp4) · [1080p60 播放版](exports/astra-world-execute-me-full-v2-1080p60.mp4) · [交付与核验](docs/FULL_MV_V2.md)
+
+已按用户 87 条镜头笔记重做为 86 个正片镜头，218.333333 秒、13,100 帧。全片无中文，使用英文原歌词和程序/数学符号；新绘工作区、CLI、动作局部与六位客串，人物六环结饰直接绘入源图。高潮数词与歌词逐项对齐；保留完整原曲，增加已批准的 6 秒静默尾段，最后认出真实回应并继续共画。
+
+两版完整解码、全部帧时间戳、8 个音频对齐窗口、静默尾段和 267 点运行时检查均通过。视觉抽样范围见交付文档；这是剪纸角色/动态图形合成，并非全片逐帧手绘。v1 交付文件保留原样。
+
+当前生产入口为 [src/mv2/index.html](src/mv2/index.html)、[v07 manifest](assets/astra/v07/manifest.json)、[v2 时间轴](data/production-v2/timeline.json)。复现用 `npm run full:v2:4k`，再用 `npm run full:v2:1080` 从母版缩制；`npm run full:v2:qa` 执行实际渲染检查。[逐镜落实记录](docs/production-v2/IMPLEMENTATION.md)与[新素材提示词](assets/astra/v07/README.md)已存仓库。
+
+以下对照讨论和 v1 章节是历史记录；其“待审/未激活/尚未重做”状态已由上述 v2 交付覆盖。最新无中文指示覆盖历史双语字幕计划。
+
 ## 2026-11-05 对照与修订
 
 最新：[87镜逐镜讨论室](docs/shot-review-20261105/index.html) · [逐镜图文稿](docs/shot-review-20261105/SHOT_DISCUSSION.md)。每镜附原片与v1同音乐时间对比图，支持原片30fps逐帧查看、镜号搜索及本机笔记；[审阅范围与复现](docs/shot-review-20261105/README.md)。当前是构图和演出讨论，尚未重做v2成片。

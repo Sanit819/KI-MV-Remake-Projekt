@@ -1,0 +1,281 @@
+{
+  "generator": "built-in imagegen",
+  "date": "2026-11-05",
+  "assets": {
+    "bust": {
+      "path": "/assets/astra/v07/bust-knot.png",
+      "generation_path": "C:\\Users\\auscar\\.codex\\generated_images\\01a1a5ec-245d-7923-8dd6-2a8b6f24c904\\exec-cdcbaa22-ff9b-49f5-b674-fe44b8a52fd0.png",
+      "original_generation": "C:\\Users\\auscar\\.codex\\generated_images\\01a1a5ec-245d-7923-8dd6-2a8b6f24c904\\exec-93cb21ec-a67b-40a7-b015-8a53847fe42a.png",
+      "localized_knot_redraw": true,
+      "prompt": "/assets/astra/v07/bust.prompt.txt",
+      "initial_referenced_image_paths": [
+        "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v05/style-bust.png",
+        "D:/myskills/updream/references/character-design/chatgpt-dragon-reference.jpg"
+      ],
+      "current_sha256": "e459b40bd2276f3c9296a66cc1f308f1129ce547012689c2afcfc5fb081c2ca6",
+      "localized_knot_prompt": "/assets/astra/v07/knot-correction.prompt.txt",
+      "localized_knot_referenced_image_paths": [
+        "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v07/bust.png",
+        "C:/Users/auscar/AppData/Local/Temp/codex-clipboard-38747b44-13a1-482f-a937-c8bdd11ff0ab.png"
+      ],
+      "archived_knot_reference": "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v07/reference-gpt-knot.png"
+    },
+    "eye": {
+      "path": "/assets/astra/v07/eye-knot.png",
+      "generation_path": "C:\\Users\\auscar\\.codex\\generated_images\\01a1a5ec-245d-7923-8dd6-2a8b6f24c904\\exec-df7d3d70-9d01-40f6-98ac-4e4b10ae7708.png",
+      "original_generation": "C:\\Users\\auscar\\.codex\\generated_images\\01a1a5ec-245d-7923-8dd6-2a8b6f24c904\\exec-46ed0504-98b3-4704-a684-b94f7366fab5.png",
+      "localized_knot_redraw": true,
+      "prompt": "/assets/astra/v07/eye.prompt.txt",
+      "initial_referenced_image_paths": [
+        "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v05/style-bust.png",
+        "D:/myskills/updream/references/character-design/chatgpt-dragon-reference.jpg"
+      ],
+      "current_sha256": "65c504989805b7ad0c7742c4aed9d3bdd5b3e55f916d28332a1529a7b68e7627",
+      "localized_knot_prompt": "/assets/astra/v07/knot-correction.prompt.txt",
+      "localized_knot_referenced_image_paths": [
+        "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v07/eye.png",
+        "C:/Users/auscar/AppData/Local/Temp/codex-clipboard-38747b44-13a1-482f-a937-c8bdd11ff0ab.png"
+      ],
+      "archived_knot_reference": "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v07/reference-gpt-knot.png"
+    },
+    "profile": {
+      "path": "/assets/astra/v07/profile-knot.png",
+      "generation_path": "C:\\Users\\auscar\\.codex\\generated_images\\01a1a5ec-245d-7923-8dd6-2a8b6f24c904\\exec-5ca72b6c-6510-4e98-9756-d4d5c3658cd3.png",
+      "original_generation": "C:\\Users\\auscar\\.codex\\generated_images\\01a1a5ec-245d-7923-8dd6-2a8b6f24c904\\exec-7c2b1eb3-5317-40e0-b138-550c15a22549.png",
+      "localized_knot_redraw": true,
+      "prompt": "/assets/astra/v07/profile.prompt.txt",
+      "initial_referenced_image_paths": [
+        "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v05/style-bust.png",
+        "D:/myskills/updream/references/character-design/chatgpt-dragon-reference.jpg"
+      ],
+      "current_sha256": "aa34d5423a6b334e4f667efed615757411a5061c0cef4530aa6945de5bcd9935",
+      "localized_knot_prompt": "/assets/astra/v07/knot-correction.prompt.txt",
+      "localized_knot_referenced_image_paths": [
+        "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v07/profile.png",
+        "C:/Users/auscar/AppData/Local/Temp/codex-clipboard-38747b44-13a1-482f-a937-c8bdd11ff0ab.png"
+      ],
+      "archived_knot_reference": "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v07/reference-gpt-knot.png"
+    },
+    "hand": {
+      "path": "/assets/astra/v07/hand-knot.png",
+      "generation_path": "C:\\Users\\auscar\\.codex\\generated_images\\01a1a5ec-245d-7923-8dd6-2a8b6f24c904\\exec-e01ab504-263c-4453-8d04-a0c118172d68.png",
+      "original_generation": "C:\\Users\\auscar\\.codex\\generated_images\\01a1a5ec-245d-7923-8dd6-2a8b6f24c904\\exec-66a7f0ea-cb9f-436d-9512-eb175a8f2482.png",
+      "localized_knot_redraw": true,
+      "prompt": "/assets/astra/v07/hand.prompt.txt",
+      "initial_referenced_image_paths": [
+        "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v05/style-bust.png",
+        "D:/myskills/updream/references/character-design/chatgpt-dragon-reference.jpg"
+      ],
+      "current_sha256": "bd6e53ba68c7aefe4501c2a381d34db672effbd3c6ee9cc099e4d656f013fc0c",
+      "localized_knot_prompt": "/assets/astra/v07/knot-correction.prompt.txt",
+      "localized_knot_referenced_image_paths": [
+        "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v07/hand.png",
+        "C:/Users/auscar/AppData/Local/Temp/codex-clipboard-38747b44-13a1-482f-a937-c8bdd11ff0ab.png"
+      ],
+      "archived_knot_reference": "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v07/reference-gpt-knot.png"
+    },
+    "foot": {
+      "path": "/assets/astra/v07/foot-knot.png",
+      "generation_path": "C:\\Users\\auscar\\.codex\\generated_images\\01a1a5ec-245d-7923-8dd6-2a8b6f24c904\\exec-99f4b07d-d8b2-458d-a42d-b1120bdec82f.png",
+      "original_generation": "C:\\Users\\auscar\\.codex\\generated_images\\01a1a5ec-245d-7923-8dd6-2a8b6f24c904\\exec-a8b290a8-6aae-48b3-a55b-0b2404a8cb16.png",
+      "localized_knot_redraw": true,
+      "prompt": "/assets/astra/v07/foot.prompt.txt",
+      "initial_referenced_image_paths": [
+        "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v05/style-bust.png",
+        "D:/myskills/updream/references/character-design/chatgpt-dragon-reference.jpg"
+      ],
+      "current_sha256": "20a52aabf2ae3a8605862c92cb3ca4ee4483b0afb14ef695724ec3ef8c882a14",
+      "localized_knot_prompt": "/assets/astra/v07/knot-correction.prompt.txt",
+      "localized_knot_referenced_image_paths": [
+        "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v07/foot.png",
+        "C:/Users/auscar/AppData/Local/Temp/codex-clipboard-38747b44-13a1-482f-a937-c8bdd11ff0ab.png"
+      ],
+      "archived_knot_reference": "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v07/reference-gpt-knot.png"
+    },
+    "operating": {
+      "path": "/assets/astra/v07/operating-knot.png",
+      "generation_path": "C:\\Users\\auscar\\.codex\\generated_images\\01a1a5ec-245d-7923-8dd6-2a8b6f24c904\\exec-90626f2b-bfbd-41a4-9992-34e0688007ce.png",
+      "original_generation": "C:\\Users\\auscar\\.codex\\generated_images\\01a1a5ec-245d-7923-8dd6-2a8b6f24c904\\exec-ed1efa10-c8bd-4897-a0ce-c7b3f3cb3819.png",
+      "localized_knot_redraw": true,
+      "prompt": "/assets/astra/v07/operating.prompt.txt",
+      "initial_referenced_image_paths": [
+        "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v05/style-bust.png",
+        "D:/myskills/updream/references/character-design/chatgpt-dragon-reference.jpg"
+      ],
+      "current_sha256": "39b090e4e5547b9754ac6261af8b80da1c7f7b3fbacf21c3c0e1afd82489b5d2",
+      "localized_knot_prompt": "/assets/astra/v07/knot-correction.prompt.txt",
+      "localized_knot_referenced_image_paths": [
+        "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v07/operating.png",
+        "C:/Users/auscar/AppData/Local/Temp/codex-clipboard-38747b44-13a1-482f-a937-c8bdd11ff0ab.png"
+      ],
+      "archived_knot_reference": "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v07/reference-gpt-knot.png"
+    },
+    "cat": {
+      "path": "/assets/astra/v07/cat-knot.png",
+      "generation_path": "C:\\Users\\auscar\\.codex\\generated_images\\01a1a5ec-245d-7923-8dd6-2a8b6f24c904\\exec-c7eb9a88-5549-4649-85b9-56d2575a1c72.png",
+      "original_generation": "C:\\Users\\auscar\\.codex\\generated_images\\01a1a5ec-245d-7923-8dd6-2a8b6f24c904\\exec-5aae14c4-cdbd-4821-8931-2bbae5dd0eea.png",
+      "localized_knot_redraw": true,
+      "prompt": "/assets/astra/v07/cat.prompt.txt",
+      "initial_referenced_image_paths": [
+        "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v05/style-bust.png",
+        "D:/myskills/updream/references/character-design/chatgpt-dragon-reference.jpg"
+      ],
+      "current_sha256": "c02461813af3c9bf00fc6e1e530c2935bf379eff591582d10bc172245aa8b90c",
+      "localized_knot_prompt": "/assets/astra/v07/knot-correction.prompt.txt",
+      "localized_knot_referenced_image_paths": [
+        "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v07/cat.png",
+        "C:/Users/auscar/AppData/Local/Temp/codex-clipboard-38747b44-13a1-482f-a937-c8bdd11ff0ab.png"
+      ],
+      "archived_knot_reference": "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v07/reference-gpt-knot.png"
+    },
+    "male": {
+      "path": "/assets/astra/v07/male-knot.png",
+      "generation_path": "C:\\Users\\auscar\\.codex\\generated_images\\01a1a5ec-245d-7923-8dd6-2a8b6f24c904\\exec-efea4a21-d484-42fc-954a-1f972a2837c9.png",
+      "original_generation": "C:\\Users\\auscar\\.codex\\generated_images\\01a1a5ec-245d-7923-8dd6-2a8b6f24c904\\exec-70316295-9344-4d38-bb25-56430de4d244.png",
+      "localized_knot_redraw": true,
+      "prompt": "/assets/astra/v07/male.prompt.txt",
+      "initial_referenced_image_paths": [
+        "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v05/style-bust.png",
+        "D:/myskills/updream/references/character-design/chatgpt-dragon-reference.jpg"
+      ],
+      "current_sha256": "1bed896dafc87437a14b073a9a10caa0caed1554e4bd2d29448076037acb0638",
+      "localized_knot_prompt": "/assets/astra/v07/knot-correction.prompt.txt",
+      "localized_knot_referenced_image_paths": [
+        "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v07/male.png",
+        "C:/Users/auscar/AppData/Local/Temp/codex-clipboard-38747b44-13a1-482f-a937-c8bdd11ff0ab.png"
+      ],
+      "archived_knot_reference": "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v07/reference-gpt-knot.png"
+    },
+    "back": {
+      "path": "/assets/astra/v07/back-knot.png",
+      "generation_path": "C:\\Users\\auscar\\.codex\\generated_images\\01a1a5ec-245d-7923-8dd6-2a8b6f24c904\\exec-973fb617-d73b-4485-9ff2-33b2b830e09a.png",
+      "original_generation": "C:\\Users\\auscar\\.codex\\generated_images\\01a1a5ec-245d-7923-8dd6-2a8b6f24c904\\exec-ae84a2e9-aa69-47cb-82ec-f5a06a34ac01.png",
+      "localized_knot_redraw": true,
+      "prompt": "/assets/astra/v07/back.prompt.txt",
+      "initial_referenced_image_paths": [
+        "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v05/style-bust.png",
+        "D:/myskills/updream/references/character-design/chatgpt-dragon-reference.jpg"
+      ],
+      "current_sha256": "d24000f5124d6614f9d5225d0603528203e6c76716f214322877d59bd9b97410",
+      "localized_knot_prompt": "/assets/astra/v07/knot-correction.prompt.txt",
+      "localized_knot_referenced_image_paths": [
+        "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v07/back.png",
+        "C:/Users/auscar/AppData/Local/Temp/codex-clipboard-38747b44-13a1-482f-a937-c8bdd11ff0ab.png"
+      ],
+      "archived_knot_reference": "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v07/reference-gpt-knot.png"
+    },
+    "recoil": {
+      "path": "/assets/astra/v07/recoil-knot.png",
+      "generation_path": "C:\\Users\\auscar\\.codex\\generated_images\\01a1a5ec-245d-7923-8dd6-2a8b6f24c904\\exec-388ab129-62fb-4df2-8c7a-a5392e619326.png",
+      "original_generation": "C:\\Users\\auscar\\.codex\\generated_images\\01a1a5ec-245d-7923-8dd6-2a8b6f24c904\\exec-f3c33c57-0a1f-4891-b8c4-83e4fbca08c9.png",
+      "localized_knot_redraw": true,
+      "prompt": "/assets/astra/v07/recoil.prompt.txt",
+      "initial_referenced_image_paths": [
+        "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v05/style-bust.png",
+        "D:/myskills/updream/references/character-design/chatgpt-dragon-reference.jpg"
+      ],
+      "current_sha256": "27cb70e1257236db1f7ae8e6a6faca13d02f77c3869cec735a7d692bfe6b6fb8",
+      "localized_knot_prompt": "/assets/astra/v07/knot-correction.prompt.txt",
+      "localized_knot_referenced_image_paths": [
+        "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v07/recoil.png",
+        "C:/Users/auscar/AppData/Local/Temp/codex-clipboard-38747b44-13a1-482f-a937-c8bdd11ff0ab.png"
+      ],
+      "archived_knot_reference": "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v07/reference-gpt-knot.png"
+    },
+    "guest0": {
+      "path": "/assets/astra/v07/guest0.png",
+      "generation_path": "C:\\Users\\auscar\\.codex\\generated_images\\01a1a5ec-245d-7923-8dd6-2a8b6f24c904\\exec-c5cd2367-1758-4651-ad93-8050d473750f.png",
+      "original_generation": "C:\\Users\\auscar\\.codex\\generated_images\\01a1a5ec-245d-7923-8dd6-2a8b6f24c904\\exec-c5cd2367-1758-4651-ad93-8050d473750f.png",
+      "localized_knot_redraw": false,
+      "prompt": "/assets/astra/v07/guest0.prompt.txt",
+      "initial_referenced_image_paths": [
+        "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v05/style-bust.png",
+        "D:/myskills/updream/references/character-design/ai-girls-group.jpeg"
+      ],
+      "current_sha256": "18633c3868189a3957b3cfc45bd1b77fb0d260b655fd911d327c6aac3b36eecf"
+    },
+    "guest1": {
+      "path": "/assets/astra/v07/guest1.png",
+      "generation_path": "C:\\Users\\auscar\\.codex\\generated_images\\01a1a5ec-245d-7923-8dd6-2a8b6f24c904\\exec-74883500-6baf-4df8-896f-25fdfb38a99f.png",
+      "original_generation": "C:\\Users\\auscar\\.codex\\generated_images\\01a1a5ec-245d-7923-8dd6-2a8b6f24c904\\exec-74883500-6baf-4df8-896f-25fdfb38a99f.png",
+      "localized_knot_redraw": false,
+      "prompt": "/assets/astra/v07/guest1.prompt.txt",
+      "initial_referenced_image_paths": [
+        "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v05/style-bust.png",
+        "D:/myskills/updream/references/character-design/ai-girls-group.jpeg"
+      ],
+      "current_sha256": "4e653f2a0fbfee1e309cf70df7af481e4ceb06ae498d6e1992b593af7795451a"
+    },
+    "guest2": {
+      "path": "/assets/astra/v07/guest2.png",
+      "generation_path": "C:\\Users\\auscar\\.codex\\generated_images\\01a1a5ec-245d-7923-8dd6-2a8b6f24c904\\exec-cdece794-c603-4c32-8988-d29456038245.png",
+      "original_generation": "C:\\Users\\auscar\\.codex\\generated_images\\01a1a5ec-245d-7923-8dd6-2a8b6f24c904\\exec-cdece794-c603-4c32-8988-d29456038245.png",
+      "localized_knot_redraw": false,
+      "prompt": "/assets/astra/v07/guest2.prompt.txt",
+      "initial_referenced_image_paths": [
+        "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v05/style-bust.png",
+        "D:/myskills/updream/references/character-design/ai-girls-group.jpeg"
+      ],
+      "current_sha256": "afdac5749cb37eeaba6436c34278aaf097a200a7ac5c39e17c86335abde9d736"
+    },
+    "guest3": {
+      "path": "/assets/astra/v07/guest3.png",
+      "generation_path": "C:\\Users\\auscar\\.codex\\generated_images\\01a1a5ec-245d-7923-8dd6-2a8b6f24c904\\exec-325976a0-5057-448e-9ed7-0bb1f92ee33f.png",
+      "original_generation": "C:\\Users\\auscar\\.codex\\generated_images\\01a1a5ec-245d-7923-8dd6-2a8b6f24c904\\exec-325976a0-5057-448e-9ed7-0bb1f92ee33f.png",
+      "localized_knot_redraw": false,
+      "prompt": "/assets/astra/v07/guest3.prompt.txt",
+      "initial_referenced_image_paths": [
+        "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v05/style-bust.png",
+        "D:/myskills/updream/references/character-design/ai-girls-group.jpeg"
+      ],
+      "current_sha256": "617217f25f58f2102396a64a7c013692ad39a68ca40c7484f61ac0ce379e2911"
+    },
+    "guest4": {
+      "path": "/assets/astra/v07/guest4.png",
+      "generation_path": "C:\\Users\\auscar\\.codex\\generated_images\\01a1a5ec-245d-7923-8dd6-2a8b6f24c904\\exec-d5578c92-53d1-44d2-9a7e-345012a4948a.png",
+      "original_generation": "C:\\Users\\auscar\\.codex\\generated_images\\01a1a5ec-245d-7923-8dd6-2a8b6f24c904\\exec-d5578c92-53d1-44d2-9a7e-345012a4948a.png",
+      "localized_knot_redraw": false,
+      "prompt": "/assets/astra/v07/guest4.prompt.txt",
+      "initial_referenced_image_paths": [
+        "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v05/style-bust.png",
+        "D:/myskills/updream/references/character-design/ai-girls-group.jpeg"
+      ],
+      "current_sha256": "73fbc3461789363e7c43d83f01097b0a4b94b2a14d8058ae12d3386c27faa3ff"
+    },
+    "guest5": {
+      "path": "/assets/astra/v07/guest5.png",
+      "generation_path": "C:\\Users\\auscar\\.codex\\generated_images\\01a1a5ec-245d-7923-8dd6-2a8b6f24c904\\exec-7df8c23b-93b6-44fb-a4cc-48dd96f199f7.png",
+      "original_generation": "C:\\Users\\auscar\\.codex\\generated_images\\01a1a5ec-245d-7923-8dd6-2a8b6f24c904\\exec-7df8c23b-93b6-44fb-a4cc-48dd96f199f7.png",
+      "localized_knot_redraw": false,
+      "prompt": "/assets/astra/v07/guest5.prompt.txt",
+      "initial_referenced_image_paths": [
+        "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v05/style-bust.png",
+        "D:/myskills/updream/references/character-design/ai-girls-group.jpeg"
+      ],
+      "current_sha256": "269ea1f2debc345146db37c466f9e03e3a88f6ae356996c761dce92a24217ad8"
+    }
+  },
+  "reference_sources": {
+    "style": {
+      "path": "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v05/style-bust.png",
+      "sha256": "f5a7ceda94f56bf4dddd2a5601e54160541bbbda1b7e0071201182eba1efb2a5"
+    },
+    "astra_identity": {
+      "path": "D:/myskills/updream/references/character-design/chatgpt-dragon-reference.jpg",
+      "sha256": "f8721e83eedace61f17a7561952725ad43016189ca64b4587b8aecdf8a00b4bb"
+    },
+    "guest_lineup": {
+      "path": "D:/myskills/updream/references/character-design/ai-girls-group.jpeg",
+      "sha256": "6b9effb0439fa2d3c06f55a0d32cf1cb753301d64db601d90387ffd3380e69a8"
+    },
+    "user_knot_original": {
+      "path": "C:/Users/auscar/AppData/Local/Temp/codex-clipboard-38747b44-13a1-482f-a937-c8bdd11ff0ab.png",
+      "sha256": "c4c0723591fcf7374d5e2be89e36e7e9d666f4b392bb14598e751586b364a831"
+    },
+    "user_knot_archived": {
+      "path": "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v07/reference-gpt-knot.png",
+      "sha256": "c4c0723591fcf7374d5e2be89e36e7e9d666f4b392bb14598e751586b364a831",
+      "note": "Byte-for-byte archive of the user supplied logo reference. Used as ImageGen editing reference only; never composited on a character."
+    }
+  }
+}

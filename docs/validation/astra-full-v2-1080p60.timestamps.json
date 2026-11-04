@@ -1,0 +1,43 @@
+{
+  "passed": true,
+  "checks": {
+    "timescale_60000": true,
+    "exact_packet_count": true,
+    "every_pts_exactly_one_sixtieth": true,
+    "every_packet_duration_one_sixtieth": true,
+    "strictly_increasing_dts": true,
+    "high_profile_8bit_420_bt709_limited": true
+  },
+  "video_stream": "Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709/unknown/unknown, progressive), 1920x1080 [SAR 1:1 DAR 16:9], 4830 kb/s, 60 fps, 60 tbr, 60k tbn (default)",
+  "timebase_denominator": 60000,
+  "expected_packet_count": 13100,
+  "actual_packet_count": 13100,
+  "first_pts": 0,
+  "last_pts": 13099000,
+  "first_dts": -2000,
+  "last_dts": 13097000,
+  "former_concat_boundaries": [
+    {
+      "frame": 3300,
+      "seconds": 55,
+      "previous_pts": 3299000,
+      "pts": 3300000,
+      "next_pts": 3301000
+    },
+    {
+      "frame": 6600,
+      "seconds": 110,
+      "previous_pts": 6599000,
+      "pts": 6600000,
+      "next_pts": 6601000
+    },
+    {
+      "frame": 9900,
+      "seconds": 165,
+      "previous_pts": 9899000,
+      "pts": 9900000,
+      "next_pts": 9901000
+    }
+  ],
+  "scope": "Every presentation timestamp equals n/60 with no missing or duplicate frames. B-frame negative initial DTS is allowed; subsequent DTS must strictly increase."
+}

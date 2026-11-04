@@ -12,7 +12,11 @@
     "sample:stills": "node tools/render/export_sample.mjs --width 1920 --height 1080 --stills 193.066667,195.5,196.9,198.8,200.2,203.3,206.1,208.5,211.7 --out exports/qa",
     "sample:v02:1080": "node tools/render/export_sample.mjs --entry src/sample-v02/index.html --width 1920 --height 1080 --out exports/astra-ending-sample-v02-1080p60.mp4",
     "sample:v02:4k": "node tools/render/export_sample.mjs --entry src/sample-v02/index.html --width 3840 --height 2160 --out exports/astra-ending-sample-v02-4k60.mp4",
-    "sample:v02:stills": "node tools/render/export_sample.mjs --entry src/sample-v02/index.html --width 1920 --height 1080 --stills 193.066667,195.5,196.9,198.583333,198.6,200.2,203.3,206.1,208.5,211.7 --out exports/qa-v02"
+    "sample:v02:stills": "node tools/render/export_sample.mjs --entry src/sample-v02/index.html --width 1920 --height 1080 --stills 193.066667,195.5,196.9,198.583333,198.6,200.2,203.3,206.1,208.5,211.7 --out exports/qa-v02",
+    "full:v2:4k": "node tools/render/export_full_v2_parallel.mjs",
+    "full:v2:1080": "node tools/render/downscale_v2.mjs",
+    "full:v2:qa": "node tools/render/qa_v2.mjs --out exports/qa-v2-final",
+    "full:v2:data": "node tools/render/build_v2_data.mjs"
   },
   "dependencies": {
     "playwright-core": "1.64.1"

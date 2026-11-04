@@ -1,0 +1,267 @@
+{
+  "status": "v2-production-candidate",
+  "date": "2026-11-05",
+  "style": "Three ink cut-paper silhouette. Character openwork knots drawn inside source art by imagegen. Exact separate SVG is UI-only.",
+  "anchor_note": "Source-pixel manually inspected points, typically +/- 10-20 px. Eye iris +/-3px. Back pen alpha endpoint measured. No invisible eye anchor or mirroring.",
+  "assets": {
+    "bust": {
+      "path": "/assets/astra/v07/bust-knot.png",
+      "anchors": {
+        "hands": [
+          840,
+          885
+        ],
+        "wrist": [
+          890,
+          955
+        ]
+      },
+      "face": {
+        "x": 320,
+        "y": 100,
+        "w": 650,
+        "h": 600
+      }
+    },
+    "eye": {
+      "path": "/assets/astra/v07/eye-knot.png",
+      "anchors": {
+        "eye": [
+          891,
+          604
+        ]
+      },
+      "face": {
+        "x": 550,
+        "y": 380,
+        "w": 580,
+        "h": 520
+      }
+    },
+    "profile": {
+      "path": "/assets/astra/v07/profile-knot.png",
+      "anchors": {},
+      "face": {
+        "x": 200,
+        "y": 280,
+        "w": 600,
+        "h": 580
+      }
+    },
+    "hand": {
+      "path": "/assets/astra/v07/hand-knot.png",
+      "anchors": {
+        "hands": [
+          711,
+          375
+        ],
+        "wrist": [
+          898,
+          386
+        ]
+      }
+    },
+    "foot": {
+      "path": "/assets/astra/v07/foot-knot.png",
+      "anchors": {
+        "toe": [
+          174,
+          1115
+        ]
+      }
+    },
+    "operating": {
+      "path": "/assets/astra/v07/operating-knot.png",
+      "anchors": {
+        "hands": [
+          1302,
+          1015
+        ],
+        "wrist": [
+          1035,
+          994
+        ],
+        "pen": [
+          721,
+          974
+        ],
+        "holding": [
+          609,
+          931
+        ]
+      }
+    },
+    "cat": {
+      "path": "/assets/astra/v07/cat-knot.png",
+      "anchors": {}
+    },
+    "male": {
+      "path": "/assets/astra/v07/male-knot.png",
+      "anchors": {}
+    },
+    "back": {
+      "path": "/assets/astra/v07/back-knot.png",
+      "anchors": {
+        "pen": [
+          1292,
+          1096
+        ]
+      }
+    },
+    "recoil": {
+      "path": "/assets/astra/v07/recoil-knot.png",
+      "anchors": {
+        "hands": [
+          421,
+          661
+        ],
+        "wrist": [
+          446,
+          752
+        ],
+        "grasp": [
+          465,
+          821
+        ]
+      }
+    },
+    "guest0": {
+      "path": "/assets/astra/v07/guest0.png",
+      "anchors": {}
+    },
+    "guest1": {
+      "path": "/assets/astra/v07/guest1.png",
+      "anchors": {}
+    },
+    "guest2": {
+      "path": "/assets/astra/v07/guest2.png",
+      "anchors": {}
+    },
+    "guest3": {
+      "path": "/assets/astra/v07/guest3.png",
+      "anchors": {}
+    },
+    "guest4": {
+      "path": "/assets/astra/v07/guest4.png",
+      "anchors": {}
+    },
+    "guest5": {
+      "path": "/assets/astra/v07/guest5.png",
+      "anchors": {}
+    },
+    "stand": {
+      "path": "/assets/astra/final/stand-knot.png",
+      "face": {
+        "x": 340,
+        "y": 100,
+        "w": 380,
+        "h": 310
+      },
+      "anchors": {
+        "hands": [
+          610,
+          410
+        ],
+        "pen": [
+          280,
+          1005
+        ]
+      }
+    },
+    "reach": {
+      "path": "/assets/astra/final/reach-knot.png",
+      "face": {
+        "x": 480,
+        "y": 85,
+        "w": 360,
+        "h": 300
+      },
+      "anchors": {
+        "hands": [
+          1100,
+          250
+        ],
+        "pen": [
+          735,
+          505
+        ]
+      }
+    },
+    "protect": {
+      "path": "/assets/astra/final/protect-knot.png",
+      "face": {
+        "x": 340,
+        "y": 110,
+        "w": 380,
+        "h": 310
+      },
+      "anchors": {
+        "hands": [
+          540,
+          505
+        ],
+        "pen": [
+          540,
+          505
+        ]
+      }
+    },
+    "sit": {
+      "path": "/assets/astra/final/sit-knot.png",
+      "face": {
+        "x": 415,
+        "y": 125,
+        "w": 380,
+        "h": 310
+      },
+      "anchors": {
+        "hands": [
+          790,
+          715
+        ],
+        "pen": [
+          944,
+          778
+        ]
+      }
+    },
+    "surprise": {
+      "path": "/assets/astra/v06-eye-study/surprise-candidate.png",
+      "face": {
+        "x": 415,
+        "y": 125,
+        "w": 380,
+        "h": 310
+      },
+      "anchors": {
+        "hands": [
+          790,
+          715
+        ],
+        "pen": [
+          944,
+          778
+        ]
+      }
+    },
+    "sitSmile": {
+      "path": "/assets/astra/v06-eye-study/smile-candidate.png",
+      "face": {
+        "x": 415,
+        "y": 125,
+        "w": 380,
+        "h": 310
+      },
+      "anchors": {
+        "hands": [
+          790,
+          715
+        ],
+        "pen": [
+          944,
+          778
+        ]
+      }
+    }
+  }
+}
