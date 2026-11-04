@@ -1,0 +1,20 @@
+{
+  "date": "2026-11-04",
+  "tool": "built-in image_gen",
+  "reference": "assets/astra/ending-seated.png",
+  "supersedes": "此前同名ending-seated.png的弯曲指尖版本，旧生成源仍留在工具输出目录",
+  "assets": [
+    {
+      "file": "assets/astra/ending-seated.png",
+      "generation": "exec-237263ef-b79c-4334-a529-66046bef6e92.png",
+      "prompt": "Make a localized anatomy correction to BOTH HANDS ONLY in this supplied transparent full-body ASTRA illustration. Preserve the entire rest of the illustration exactly: pose, continuous shoulder-elbow-forearm chain, face, hair, horns, wings, dress, tail, empty circular brooches, colors, transparent canvas and composition. Her raised arm is her anatomical RIGHT arm. Redraw that right hand in a simple clearly readable relaxed OPEN PALM, palm angled up and slightly toward the viewer as a gentle invitation, four fingers extending toward screen right, thumb visibly separated above the palm toward the wrist side. Exactly FIVE naturally proportioned digits: one short independent thumb originating at the palm base, plus index, middle, ring and little fingers with appropriate lengths; slightly separated, no pointing gesture, no extra finger, no missing thumb. Keep the wrist attached at the existing location, avoid impossible wrist rotation. This small open palm should read clearly even at a reduced size. Her other anatomical LEFT hand still rests palm-down on her lap: clarify the short thumb along the near lower side of the palm, with four long fingers resting together on the skirt, exactly five total. Keep the lap hand position and size. Use the existing clean ivory/lavender/deep-ink flat graphic style. Do not change any other region. Do not add marks to either blank circular brooch. No logos, spirals or text.",
+      "notes": "右手改为开放掌心，短拇指独立；四长指朝右。肩肘腕和空白徽章保留。"
+    },
+    {
+      "file": "assets/astra/ending-seated-smile.png",
+      "generation": "exec-5d4fe799-b82d-4417-aa02-6d0d70d1ec6b.png",
+      "prompt": "Precise small facial-expression edit only of this full-body transparent ASTRA illustration. Keep EVERY other detail at exactly the same position and size, especially the corrected right open palm with one thumb and four fingers, her left hand on the lap, both continuous arms, horns, wings, hair, white/lavender dress, tail, two EMPTY round brooches, transparent background, full canvas and crop. Change only the small face: she recognizes a long-awaited reply and relaxes into a gentle warm smile. Close the slightly open mouth into a small softly upturned smile, soften the lavender eyes a little. She is still looking to screen right. No grin, no tears, no blush or new color, no shift of gaze or head. Keep the same limited flat screenprint palette and hard ink edges. The circular brooches must remain EMPTY, do not add logos, spirals or decorations. This paired image is for cutting from waiting to quiet happiness, so preserve silhouette and hand anatomy exactly.",
+      "notes": "H04-H06保持微笑，避免从微笑近景切回惊讶全身。"
+    }
+  ]
+}

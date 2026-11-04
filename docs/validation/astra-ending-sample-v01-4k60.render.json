@@ -1,0 +1,22 @@
+{
+  "output": "exports/astra-ending-sample-v01-4k60.mp4",
+  "width": 3840,
+  "height": 2160,
+  "fps": 60,
+  "source_start_frame": 11584,
+  "source_end_frame_exclusive": 12740,
+  "encoded_input_frames": 1156,
+  "source_start_seconds": 193.06666666666666,
+  "intended_duration_seconds": 19.266666666666666,
+  "codec": "h264_nvenc",
+  "transport": "png",
+  "elapsed_seconds": 168.786,
+  "pipeline_milliseconds": {
+    "render": 497.5000001490116,
+    "readback": 145017.90000000596,
+    "transfer_and_encode": 21236.299999848008
+  },
+  "output_bytes": 89022515,
+  "ffmpeg_log": "",
+  "validation_scope": "Frame input count and encoder success; run verify_sample.py for independent decode and audio comparison."
+}

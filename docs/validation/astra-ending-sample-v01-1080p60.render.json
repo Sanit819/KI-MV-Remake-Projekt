@@ -1,0 +1,18 @@
+{
+  "output": "exports/astra-ending-sample-v01-1080p60.mp4",
+  "width": 1920,
+  "height": 1080,
+  "fps": 60,
+  "source_start_frame": 11584,
+  "source_end_frame_exclusive": 12740,
+  "source_start_seconds": 193.06666666666666,
+  "intended_duration_seconds": 19.266666666666666,
+  "codec": "h264_nvenc",
+  "derived_from": "exports/astra-ending-sample-v01-4k60.mp4",
+  "derived_from_sha256": "cd8690e4e47617a54c67b3ab2e74afca138bfbe124fe4cc719796a0d131dd4dd",
+  "derivation": "Lanczos downscale from final native 3840x2160 master; original master AAC copied without another audio encode",
+  "elapsed_seconds": 4.663488800000778,
+  "output_bytes": 26948488,
+  "ffmpeg_log": "",
+  "validation_scope": "Transcode success; matching .verify.json independently checks decoded frames and source-audio alignment."
+}

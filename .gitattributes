@@ -1,0 +1,2 @@
+# Preserve the official downloaded SVG byte-for-byte across Windows checkouts.
+assets/astra/openai-blossom.svg -text

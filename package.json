@@ -1,0 +1,15 @@
+{
+  "name": "ki-mv-remake-projekt",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "ASTRA world.execute(me); original music-video sample renderer",
+  "scripts": {
+    "sample:1080": "node tools/render/export_sample.mjs --width 1920 --height 1080 --out exports/astra-ending-sample-v01-1080p60.mp4",
+    "sample:4k": "node tools/render/export_sample.mjs --width 3840 --height 2160 --out exports/astra-ending-sample-v01-4k60.mp4",
+    "sample:stills": "node tools/render/export_sample.mjs --width 1920 --height 1080 --stills 193.066667,195.5,196.9,198.8,200.2,203.3,206.1,208.5,211.7 --out exports/qa"
+  },
+  "dependencies": {
+    "playwright-core": "1.64.1"
+  }
+}
