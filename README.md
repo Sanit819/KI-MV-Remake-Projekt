@@ -4,6 +4,8 @@ ASTRA《未写完的世界》——用户与 ASTRA 共同制作的 Mili《world.
 
 ## 2026-11-05 对照与修订
 
+最新：[87镜逐镜讨论室](docs/shot-review-20261105/index.html) · [逐镜图文稿](docs/shot-review-20261105/SHOT_DISCUSSION.md)。每镜附原片与v1同音乐时间对比图，支持原片30fps逐帧查看、镜号搜索及本机笔记；[审阅范围与复现](docs/shot-review-20261105/README.md)。当前是构图和演出讨论，尚未重做v2成片。
+
 用户看完 v1 后要求增强冲击力、减少重复、建立 AI 工作空间、让演出贴近歌词，并添加双语字幕及修正眼位。已保存[实际成片对照与量化审计](docs/REVISION_V2_AUDIT.md)、[全曲 v2 演出提案](docs/REVISION_V2_SCENE_PROPOSAL.md)、[用户提供的歌词与字幕草稿](data/lyrics/README.md)、[眼位修订候选](assets/astra/v06-eye-study/README.md)。
 
 v1 成片及生产素材保持原样。v2 演出为待审提案，字幕尚未烧入视频，新眼位尚未激活到生产 manifest；完整 v1 的技术交付状态不代表用户已认可其艺术效果。

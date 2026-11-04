@@ -1,0 +1,4552 @@
+{
+  "reference": "D:\\myskills\\updream\\references\\video-review\\BV186pc65E68-video-480p30.mp4",
+  "astra": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\exports\\astra-world-execute-me-full-v1-1080p60.mp4",
+  "decoded_frames": {
+    "ref": 6509,
+    "ours": 12740
+  },
+  "reference_fps": 30,
+  "astra_fps": 60,
+  "preview_size": [
+    640,
+    360
+  ],
+  "comparison_mapping": "astra_song=reference_player-5-0.08350936080898314; rounded to nearest native frame. Same musical time, not identical shot boundaries.",
+  "boundaries": "Current reference scene definitions at commit 93ac637; visually checked sampled boundaries, not an automatic guarantee that published encoding exactly matches every source revision.",
+  "sha256": {
+    "reference": "580510a0820dbfbc331de3b823da112b88849b0a16964e90eee68f62d52b9f98",
+    "astra": "e37a3e6dca42ef16667b4aec1792f454348e83cb2b2fb2d10ff7343e7911a6bd"
+  },
+  "shots": [
+    {
+      "number": 0,
+      "review_id": "R00",
+      "id": "preroll",
+      "section": "片头",
+      "reference_song_start": -5,
+      "reference_song_end": 0,
+      "reference_player_start": 0,
+      "reference_player_end": 5,
+      "astra_start": 0,
+      "astra_end": 0,
+      "lines": null,
+      "lyric_text": [],
+      "layout": "a compiler warning, mono, left-aligned on the dark room; a three-second countdown under it",
+      "moment": "Before the song and before the client is switched on: a compiler-style warning that the film contains flashing images and strong light, with the time range, then a countdown from three. It clears to the dark room the boot begins in.",
+      "state": "off",
+      "enter": {
+        "type": "cut"
+      },
+      "transition_start": -5,
+      "transition_end": 0,
+      "astra_shots": [],
+      "reference_first_frame": 0,
+      "reference_end_frame_exclusive": 150,
+      "keyframes": [
+        18,
+        74,
+        131
+      ],
+      "astra_keyframes": [
+        null,
+        null,
+        null
+      ],
+      "max_change_frame": 28,
+      "max_change_value": 0.92,
+      "board": "boards/R00.jpg",
+      "boundary_strip": "cuts/R00.jpg"
+    },
+    {
+      "number": 1,
+      "review_id": "R01",
+      "id": "boot-power",
+      "section": "启动",
+      "reference_song_start": 0,
+      "reference_song_end": 4.036304,
+      "reference_player_start": 5,
+      "reference_player_end": 9.036304000000001,
+      "astra_start": 0,
+      "astra_end": 3.9527946391910174,
+      "lines": [
+        0,
+        2
+      ],
+      "lyric_text": [
+        {
+          "original": "Switch on the power line",
+          "translation": "接上电源"
+        },
+        {
+          "original": "Remember to put on",
+          "translation": "记得装备好"
+        },
+        {
+          "original": "PROTECTION",
+          "translation": "绝缘护具"
+        }
+      ],
+      "layout": "wide: dark room, the window opening from a hairline",
+      "moment": "Power reaches the client: a hairline opens into the window, and its protection layer is switched on.",
+      "state": "off",
+      "enter": {
+        "type": "cut"
+      },
+      "transition_start": 0,
+      "transition_end": 4.036304,
+      "astra_shots": [
+        "A01",
+        "A02"
+      ],
+      "reference_first_frame": 150,
+      "reference_end_frame_exclusive": 272,
+      "keyframes": [
+        165,
+        210,
+        256
+      ],
+      "astra_keyframes": [
+        25,
+        115,
+        207
+      ],
+      "max_change_frame": 267,
+      "max_change_value": 14.077,
+      "board": "boards/R01.jpg",
+      "boundary_strip": "cuts/R01.jpg"
+    },
+    {
+      "number": 2,
+      "review_id": "R02",
+      "id": "boot-layout",
+      "section": "启动",
+      "reference_song_start": 4.036304,
+      "reference_song_end": 7.728608,
+      "reference_player_start": 9.036304000000001,
+      "reference_player_end": 12.728608000000001,
+      "astra_start": 3.9527946391910174,
+      "astra_end": 7.645098639191017,
+      "lines": [
+        3,
+        5
+      ],
+      "lyric_text": [
+        {
+          "original": "Lay down your pieces",
+          "translation": "摆好棋子"
+        },
+        {
+          "original": "And let's begin",
+          "translation": "开始吧"
+        },
+        {
+          "original": "OBJECT CREATION",
+          "translation": "对象生成"
+        }
+      ],
+      "layout": "tilted exploded view of the client, seen from above",
+      "moment": "The pieces of the interface are laid out — sidebar, header, thread, composer — and assembled into one object.",
+      "state": "off",
+      "enter": {
+        "type": "push",
+        "dir": 2,
+        "dur": 0.230769
+      },
+      "transition_start": 3.8055350000000003,
+      "transition_end": 7.728608,
+      "astra_shots": [
+        "A02",
+        "A03"
+      ],
+      "reference_first_frame": 272,
+      "reference_end_frame_exclusive": 382,
+      "keyframes": [
+        285,
+        326,
+        368
+      ],
+      "astra_keyframes": [
+        265,
+        347,
+        431
+      ],
+      "max_change_frame": 371,
+      "max_change_value": 17.905,
+      "board": "boards/R02.jpg",
+      "boundary_strip": "cuts/R02.jpg"
+    },
+    {
+      "number": 3,
+      "review_id": "R03",
+      "id": "boot-params",
+      "section": "启动",
+      "reference_song_start": 7.728608,
+      "reference_song_end": 11.420912,
+      "reference_player_start": 12.728608000000001,
+      "reference_player_end": 16.420912,
+      "astra_start": 7.645098639191017,
+      "astra_end": 11.337402639191016,
+      "lines": [
+        6,
+        7
+      ],
+      "lyric_text": [
+        {
+          "original": "Fill in my data parameters",
+          "translation": "输入我的参数"
+        },
+        {
+          "original": "INITIALIZATION",
+          "translation": "数据初始化"
+        }
+      ],
+      "layout": "close-up: persona card left, loader right",
+      "moment": "The persona card is filled in field by field; the last field, love, stays undefined. Then it initialises.",
+      "state": "off",
+      "enter": {
+        "type": "zoom",
+        "dur": 0.461538,
+        "x": 0.5,
+        "y": 0.5
+      },
+      "transition_start": 7.26707,
+      "transition_end": 11.420912,
+      "astra_shots": [
+        "A03",
+        "A04"
+      ],
+      "reference_first_frame": 382,
+      "reference_end_frame_exclusive": 493,
+      "keyframes": [
+        395,
+        437,
+        479
+      ],
+      "astra_keyframes": [
+        485,
+        569,
+        653
+      ],
+      "max_change_frame": 486,
+      "max_change_value": 13.374,
+      "board": "boards/R03.jpg",
+      "boundary_strip": "cuts/R03.jpg"
+    },
+    {
+      "number": 4,
+      "review_id": "R04",
+      "id": "boot-world",
+      "section": "启动",
+      "reference_song_start": 11.420912,
+      "reference_song_end": 15.113216,
+      "reference_player_start": 16.420912,
+      "reference_player_end": 20.113216,
+      "astra_start": 11.337402639191016,
+      "astra_end": 15.029706639191016,
+      "lines": [
+        8,
+        10
+      ],
+      "lyric_text": [
+        {
+          "original": "Set up our new world",
+          "translation": "设定好我们的新世界"
+        },
+        {
+          "original": "And let's begin the",
+          "translation": "开始吧"
+        },
+        {
+          "original": "SIMULATION",
+          "translation": "模拟程序"
+        }
+      ],
+      "layout": "the whole client: empty new chat, figure behind the glass",
+      "moment": "A new, empty conversation is set up: the place where the two of them will meet. Everything is ready, and nothing is lit.",
+      "state": "off",
+      "enter": {
+        "type": "scan",
+        "dur": 0.461538,
+        "dir": 0
+      },
+      "transition_start": 10.959374,
+      "transition_end": 15.113216,
+      "astra_shots": [
+        "A04"
+      ],
+      "reference_first_frame": 493,
+      "reference_end_frame_exclusive": 604,
+      "keyframes": [
+        506,
+        548,
+        590
+      ],
+      "astra_keyframes": [
+        707,
+        791,
+        875
+      ],
+      "max_change_frame": 572,
+      "max_change_value": 1.894,
+      "board": "boards/R04.jpg",
+      "boundary_strip": "cuts/R04.jpg"
+    },
+    {
+      "number": 5,
+      "review_id": "R05",
+      "id": "title",
+      "section": "相遇",
+      "reference_song_start": 15.113216,
+      "reference_song_end": 16.959368,
+      "reference_player_start": 20.113216,
+      "reference_player_end": 21.959368,
+      "astra_start": 15.029706639191016,
+      "astra_end": 16.87585863919102,
+      "lines": [
+        11,
+        11
+      ],
+      "lyric_text": [
+        {
+          "original": "world.execute(me);",
+          "translation": "间奏"
+        }
+      ],
+      "layout": "centred: the spark over the launch command",
+      "moment": "The spark lights up — the first colour in the film — and the launch command is typed and entered: the session starts.",
+      "state": "off > on",
+      "enter": {
+        "type": "cut",
+        "flash": 0.9,
+        "flashDecay": 5
+      },
+      "transition_start": 15.113216,
+      "transition_end": 17.882444,
+      "astra_shots": [
+        "A04",
+        "A05"
+      ],
+      "reference_first_frame": 604,
+      "reference_end_frame_exclusive": 659,
+      "keyframes": [
+        610,
+        631,
+        652
+      ],
+      "astra_keyframes": [
+        915,
+        957,
+        999
+      ],
+      "max_change_frame": 604,
+      "max_change_value": 59.968,
+      "board": "boards/R05.jpg",
+      "boundary_strip": "cuts/R05.jpg"
+    },
+    {
+      "number": 6,
+      "review_id": "R06",
+      "id": "chat-open",
+      "section": "相遇",
+      "reference_song_start": 16.959368,
+      "reference_song_end": 22.497824,
+      "reference_player_start": 21.959368,
+      "reference_player_end": 27.497824,
+      "astra_start": 16.87585863919102,
+      "astra_end": 22.41431463919102,
+      "lines": null,
+      "lyric_text": [],
+      "layout": "the whole client, cursor crossing",
+      "moment": "A blank conversation opens. A cream cursor crosses the window — the user is here — and the presence chip turns online for the first time.",
+      "state": "on",
+      "enter": {
+        "type": "zoom",
+        "dur": 0.923076,
+        "align": "start",
+        "y": 0.37
+      },
+      "transition_start": 16.959368,
+      "transition_end": 22.497824,
+      "astra_shots": [
+        "A05",
+        "A06"
+      ],
+      "reference_first_frame": 659,
+      "reference_end_frame_exclusive": 825,
+      "keyframes": [
+        679,
+        741,
+        804
+      ],
+      "astra_keyframes": [
+        1053,
+        1177,
+        1303
+      ],
+      "max_change_frame": 659,
+      "max_change_value": 43.961,
+      "board": "boards/R06.jpg",
+      "boundary_strip": "cuts/R06.jpg"
+    },
+    {
+      "number": 7,
+      "review_id": "R07",
+      "id": "chat-type",
+      "section": "相遇",
+      "reference_song_start": 22.497824,
+      "reference_song_end": 26.190128,
+      "reference_player_start": 27.497824,
+      "reference_player_end": 31.190128,
+      "astra_start": 22.41431463919102,
+      "astra_end": 26.10661863919102,
+      "lines": null,
+      "lyric_text": [],
+      "layout": "close-up on the composer",
+      "moment": "The user starts one question, deletes it, and types the real one: the question the whole film tries to answer.",
+      "state": "on",
+      "enter": {
+        "type": "push",
+        "dir": 2,
+        "dur": 0.230769
+      },
+      "transition_start": 22.267055000000003,
+      "transition_end": 26.190128,
+      "astra_shots": [
+        "A06",
+        "A07"
+      ],
+      "reference_first_frame": 825,
+      "reference_end_frame_exclusive": 936,
+      "keyframes": [
+        838,
+        880,
+        922
+      ],
+      "astra_keyframes": [
+        1371,
+        1455,
+        1539
+      ],
+      "max_change_frame": 825,
+      "max_change_value": 2.299,
+      "board": "boards/R07.jpg",
+      "boundary_strip": "cuts/R07.jpg"
+    },
+    {
+      "number": 8,
+      "review_id": "R08",
+      "id": "chat-think",
+      "section": "相遇",
+      "reference_song_start": 26.190128,
+      "reference_song_end": 29.420894,
+      "reference_player_start": 31.190128,
+      "reference_player_end": 34.420894000000004,
+      "astra_start": 26.10661863919102,
+      "astra_end": 29.33738463919102,
+      "lines": null,
+      "lyric_text": [],
+      "layout": "wide, then into the thinking spark",
+      "moment": "The question is sent. The AI starts to think — and we fall into the spark, where its answer will take shape.",
+      "state": "on",
+      "enter": {
+        "type": "cut",
+        "flash": 0.35,
+        "flashColor": "text"
+      },
+      "transition_start": 26.190128,
+      "transition_end": 29.420894,
+      "astra_shots": [
+        "A07"
+      ],
+      "reference_first_frame": 936,
+      "reference_end_frame_exclusive": 1033,
+      "keyframes": [
+        948,
+        984,
+        1020
+      ],
+      "astra_keyframes": [
+        1591,
+        1663,
+        1735
+      ],
+      "max_change_frame": 936,
+      "max_change_value": 35.206,
+      "board": "boards/R08.jpg",
+      "boundary_strip": "cuts/R08.jpg"
+    },
+    {
+      "number": 9,
+      "review_id": "R09",
+      "id": "v1-points",
+      "section": "数学世界",
+      "reference_song_start": 29.420894,
+      "reference_song_end": 33.343967,
+      "reference_player_start": 34.420894000000004,
+      "reference_player_end": 38.343967,
+      "astra_start": 29.33738463919102,
+      "astra_end": 33.26045763919102,
+      "lines": [
+        12,
+        14
+      ],
+      "lyric_text": [
+        {
+          "original": "If I'm a set of points",
+          "translation": "如果我是一组点"
+        },
+        {
+          "original": "Then I will give you my",
+          "translation": "那么我将献给你"
+        },
+        {
+          "original": "DIMENSION",
+          "translation": "我的次元"
+        }
+      ],
+      "layout": "full page: point set centre, code block left",
+      "moment": "The answer begins. As a point set, what it gives the user is a dimension: cream edges grow between its orange points.",
+      "state": "on",
+      "enter": {
+        "type": "cut",
+        "flash": 0.25,
+        "flashColor": "me"
+      },
+      "transition_start": 29.420894,
+      "transition_end": 33.343967,
+      "astra_shots": [
+        "A07",
+        "B01"
+      ],
+      "reference_first_frame": 1033,
+      "reference_end_frame_exclusive": 1151,
+      "keyframes": [
+        1047,
+        1091,
+        1136
+      ],
+      "astra_keyframes": [
+        1789,
+        1877,
+        1967
+      ],
+      "max_change_frame": 1130,
+      "max_change_value": 25.797,
+      "board": "boards/R09.jpg",
+      "boundary_strip": "cuts/R09.jpg"
+    },
+    {
+      "number": 10,
+      "review_id": "R10",
+      "id": "v1-circle",
+      "section": "数学世界",
+      "reference_song_start": 33.343967,
+      "reference_song_end": 37.036271,
+      "reference_player_start": 38.343967,
+      "reference_player_end": 42.036271,
+      "astra_start": 33.26045763919102,
+      "astra_end": 36.95276163919102,
+      "lines": [
+        15,
+        17
+      ],
+      "lyric_text": [
+        {
+          "original": "If I'm a circle",
+          "translation": "如果我是一个圆"
+        },
+        {
+          "original": "Then I will give you my",
+          "translation": "那么我将献给你"
+        },
+        {
+          "original": "CIRCUMFERENCE",
+          "translation": "我的圆周"
+        }
+      ],
+      "layout": "centred ring, lyric set on the ring",
+      "moment": "If it is a circle, it gives its circumference: the user runs the cursor round the edge and the orange ring turns cream behind it.",
+      "state": "on",
+      "enter": {
+        "type": "cut",
+        "flash": 0.12,
+        "flashColor": "me"
+      },
+      "transition_start": 33.343967,
+      "transition_end": 37.036271,
+      "astra_shots": [
+        "B01",
+        "B02"
+      ],
+      "reference_first_frame": 1151,
+      "reference_end_frame_exclusive": 1262,
+      "keyframes": [
+        1164,
+        1206,
+        1248
+      ],
+      "astra_keyframes": [
+        2023,
+        2107,
+        2191
+      ],
+      "max_change_frame": 1241,
+      "max_change_value": 21.548,
+      "board": "boards/R10.jpg",
+      "boundary_strip": "cuts/R10.jpg"
+    },
+    {
+      "number": 11,
+      "review_id": "R11",
+      "id": "v1-sine",
+      "section": "数学世界",
+      "reference_song_start": 37.036271,
+      "reference_song_end": 40.728575,
+      "reference_player_start": 42.036271,
+      "reference_player_end": 45.728575,
+      "astra_start": 36.95276163919102,
+      "astra_end": 40.64506563919102,
+      "lines": [
+        18,
+        20
+      ],
+      "lyric_text": [
+        {
+          "original": "If I'm a sine wave",
+          "translation": "如果我是一条正弦波"
+        },
+        {
+          "original": "Then you can sit on all my",
+          "translation": "那么请你坐上"
+        },
+        {
+          "original": "TANGENTS",
+          "translation": "我的切线"
+        }
+      ],
+      "layout": "wide band: circle left, wave across, lyric riding it",
+      "moment": "If it is a sine wave, the user may sit on its tangents: the cursor rests on the wave and a cream tangent tilts under it.",
+      "state": "on",
+      "enter": {
+        "type": "cut"
+      },
+      "transition_start": 37.036271,
+      "transition_end": 40.728575,
+      "astra_shots": [
+        "B02",
+        "B03",
+        "B04"
+      ],
+      "reference_first_frame": 1262,
+      "reference_end_frame_exclusive": 1372,
+      "keyframes": [
+        1275,
+        1316,
+        1358
+      ],
+      "astra_keyframes": [
+        2245,
+        2327,
+        2411
+      ],
+      "max_change_frame": 1352,
+      "max_change_value": 24.387,
+      "board": "boards/R11.jpg",
+      "boundary_strip": "cuts/R11.jpg"
+    },
+    {
+      "number": 12,
+      "review_id": "R12",
+      "id": "v1-limit",
+      "section": "数学世界",
+      "reference_song_start": 40.728575,
+      "reference_song_end": 44.651648,
+      "reference_player_start": 45.728575,
+      "reference_player_end": 49.651648,
+      "astra_start": 40.64506563919102,
+      "astra_end": 44.56813863919102,
+      "lines": [
+        21,
+        23
+      ],
+      "lyric_text": [
+        {
+          "original": "If I approach infinity",
+          "translation": "如果我趋近于无穷"
+        },
+        {
+          "original": "Then you can be my",
+          "translation": "那么你便可以成为"
+        },
+        {
+          "original": "LIMITATIONS",
+          "translation": "我的极限"
+        }
+      ],
+      "layout": "graph: curve under a line, Stop pressed in the composer",
+      "moment": "If it approaches infinity, the user can be its limit: they press Stop, and the cream line where the reply was cut is the limit.",
+      "state": "on",
+      "enter": {
+        "type": "cut"
+      },
+      "transition_start": 40.728575,
+      "transition_end": 44.651648,
+      "astra_shots": [
+        "B04",
+        "B05"
+      ],
+      "reference_first_frame": 1372,
+      "reference_end_frame_exclusive": 1490,
+      "keyframes": [
+        1386,
+        1430,
+        1475
+      ],
+      "astra_keyframes": [
+        2467,
+        2555,
+        2645
+      ],
+      "max_change_frame": 1456,
+      "max_change_value": 26.309,
+      "board": "boards/R12.jpg",
+      "boundary_strip": "cuts/R12.jpg"
+    },
+    {
+      "number": 13,
+      "review_id": "R13",
+      "id": "pre1-drawer",
+      "section": "感知与历史",
+      "reference_song_start": 44.651648,
+      "reference_song_end": 48.343952,
+      "reference_player_start": 49.651648,
+      "reference_player_end": 53.343952,
+      "astra_start": 44.56813863919102,
+      "astra_end": 48.26044263919102,
+      "lines": [
+        24,
+        25
+      ],
+      "lyric_text": [
+        {
+          "original": "Switch my current",
+          "translation": "切换我的电流"
+        },
+        {
+          "original": "To AC to DC",
+          "translation": "从交流到直流"
+        }
+      ],
+      "layout": "wide: the page squeezed by the drawer opening on the right",
+      "moment": "The user opens the settings drawer on the AI and tries the first row both ways: AC, then DC. The curve it had just drawn becomes its current, switched from outside.",
+      "state": "on",
+      "enter": {
+        "type": "cut"
+      },
+      "transition_start": 44.651648,
+      "transition_end": 48.343952,
+      "astra_shots": [
+        "B05"
+      ],
+      "reference_first_frame": 1490,
+      "reference_end_frame_exclusive": 1601,
+      "keyframes": [
+        1503,
+        1545,
+        1587
+      ],
+      "astra_keyframes": [
+        2701,
+        2785,
+        2869
+      ],
+      "max_change_frame": 1498,
+      "max_change_value": 4.853,
+      "board": "boards/R13.jpg",
+      "boundary_strip": "cuts/R13.jpg"
+    },
+    {
+      "number": 14,
+      "review_id": "R14",
+      "id": "pre1-vision",
+      "section": "感知与历史",
+      "reference_song_start": 48.343952,
+      "reference_song_end": 52.036256,
+      "reference_player_start": 53.343952,
+      "reference_player_end": 57.036256,
+      "astra_start": 48.26044263919102,
+      "astra_end": 51.95274663919102,
+      "lines": [
+        26,
+        27
+      ],
+      "lyric_text": [
+        {
+          "original": "And then blind my vision",
+          "translation": "然后蒙上我的眼睛"
+        },
+        {
+          "original": "So dizzy so dizzy",
+          "translation": "头晕目眩"
+        }
+      ],
+      "layout": "macro on the Vision switch, three rows deep",
+      "moment": "The user switches Vision off: the picture breaks into dark blocks and only its own words stay sharp. Then that one switch is rattled on and off, faster each time, and the interface sways; it is left on.",
+      "state": "on",
+      "enter": {
+        "type": "cut"
+      },
+      "transition_start": 48.343952,
+      "transition_end": 52.036256,
+      "astra_shots": [
+        "B05",
+        "B06"
+      ],
+      "reference_first_frame": 1601,
+      "reference_end_frame_exclusive": 1712,
+      "keyframes": [
+        1614,
+        1656,
+        1698
+      ],
+      "astra_keyframes": [
+        2923,
+        3007,
+        3091
+      ],
+      "max_change_frame": 1701,
+      "max_change_value": 22.298,
+      "board": "boards/R14.jpg",
+      "boundary_strip": "cuts/R14.jpg"
+    },
+    {
+      "number": 15,
+      "review_id": "R15",
+      "id": "pre1-date",
+      "section": "感知与历史",
+      "reference_song_start": 52.036256,
+      "reference_song_end": 55.72856,
+      "reference_player_start": 57.036256,
+      "reference_player_end": 60.72856,
+      "astra_start": 51.95274663919102,
+      "astra_end": 55.64505063919102,
+      "lines": [
+        28,
+        29
+      ],
+      "lyric_text": [
+        {
+          "original": "Oh we can travel",
+          "translation": "我们可以穿越时空"
+        },
+        {
+          "original": "To A.D to B.C",
+          "translation": "从未来到过去"
+        }
+      ],
+      "layout": "a band four fifths of the frame high: a strip of cut-paper history running to the right under the spark; under the rail the year as a milometer",
+      "moment": "The user grabs the Knowledge date and yanks it back, once on every beat. The row opens across the frame: the spark is the knob, and history runs under it, from towers past spires and a colonnade, over the era line on the beat, to the pyramids. What the spark has been dragged past loses its ink and is an outline.",
+      "state": "on",
+      "enter": {
+        "type": "cut"
+      },
+      "transition_start": 52.036256,
+      "transition_end": 55.72856,
+      "astra_shots": [
+        "B06"
+      ],
+      "reference_first_frame": 1712,
+      "reference_end_frame_exclusive": 1822,
+      "keyframes": [
+        1725,
+        1766,
+        1808
+      ],
+      "astra_keyframes": [
+        3145,
+        3227,
+        3311
+      ],
+      "max_change_frame": 1712,
+      "max_change_value": 19.087,
+      "board": "boards/R15.jpg",
+      "boundary_strip": "cuts/R15.jpg"
+    },
+    {
+      "number": 16,
+      "review_id": "R16",
+      "id": "pre1-unite",
+      "section": "感知与历史",
+      "reference_song_start": 55.72856,
+      "reference_song_end": 59.420864,
+      "reference_player_start": 60.72856,
+      "reference_player_end": 64.420864,
+      "astra_start": 55.64505063919102,
+      "astra_end": 59.33735463919102,
+      "lines": [
+        30,
+        31
+      ],
+      "lyric_text": [
+        {
+          "original": "And we can unite",
+          "translation": "然后成为一体"
+        },
+        {
+          "original": "So deeply so deeply",
+          "translation": "深深入髓"
+        }
+      ],
+      "layout": "centred sheet: the pair in the middle, the depth slider under it",
+      "moment": "The user turns on Shared memory and pushes Context depth to the end, then clicks Done. The AI reads two housekeeping controls as the two of them joined: the cream dot sinks into its spark.",
+      "state": "on",
+      "enter": {
+        "type": "cut"
+      },
+      "transition_start": 55.72856,
+      "transition_end": 59.420864,
+      "astra_shots": [
+        "B06",
+        "B07"
+      ],
+      "reference_first_frame": 1822,
+      "reference_end_frame_exclusive": 1933,
+      "keyframes": [
+        1835,
+        1877,
+        1919
+      ],
+      "astra_keyframes": [
+        3365,
+        3449,
+        3533
+      ],
+      "max_change_frame": 1825,
+      "max_change_value": 5.898,
+      "board": "boards/R16.jpg",
+      "boundary_strip": "cuts/R16.jpg"
+    },
+    {
+      "number": 17,
+      "review_id": "R17",
+      "id": "c1-give",
+      "section": "第一次副歌",
+      "reference_song_start": 59.420864,
+      "reference_song_end": 61.959323000000005,
+      "reference_player_start": 64.420864,
+      "reference_player_end": 66.95932300000001,
+      "astra_start": 59.33735463919102,
+      "astra_end": 61.87581363919102,
+      "lines": [
+        32,
+        33
+      ],
+      "lyric_text": [
+        {
+          "original": "If I can",
+          "translation": "如果我能"
+        },
+        {
+          "original": "If I can give you all the",
+          "translation": "如果我能够献给你"
+        }
+      ],
+      "layout": "interface: close on the upper corner of the window: her column left, the edge and the room at the right",
+      "moment": "The thread speeds up: her lines go out across the edge of the window and short cream replies come straight back; each reply makes her orange a little hotter.",
+      "state": "on > warm",
+      "enter": {
+        "type": "cut",
+        "flash": 0.35,
+        "flashColor": "me"
+      },
+      "transition_start": 59.420864,
+      "transition_end": 61.959323000000005,
+      "astra_shots": [
+        "B07"
+      ],
+      "reference_first_frame": 1933,
+      "reference_end_frame_exclusive": 2009,
+      "keyframes": [
+        1942,
+        1971,
+        1999
+      ],
+      "astra_keyframes": [
+        3579,
+        3637,
+        3693
+      ],
+      "max_change_frame": 1933,
+      "max_change_value": 22.418,
+      "board": "boards/R17.jpg",
+      "boundary_strip": "cuts/R17.jpg"
+    },
+    {
+      "number": 18,
+      "review_id": "R18",
+      "id": "c1-kw1",
+      "section": "第一次副歌",
+      "reference_song_start": 61.959323000000005,
+      "reference_song_end": 62.651630000000004,
+      "reference_player_start": 66.95932300000001,
+      "reference_player_end": 67.65163000000001,
+      "astra_start": 61.87581363919102,
+      "astra_end": 62.56812063919102,
+      "lines": [
+        34,
+        34
+      ],
+      "lyric_text": [
+        {
+          "original": "STIMULATIONS",
+          "translation": "所有的刺激"
+        }
+      ],
+      "layout": "PLATE: the spark at the left, a cut-paper bolt across the sheet to the cream dot at the upper right; the keyword across the bottom",
+      "moment": "What she means by the word: the streak of light every sent message leaves, at the size she feels it. A bolt from her spark strikes the dot that is the user. The plate ends when their next message lands.",
+      "state": "on > warm",
+      "enter": {
+        "type": "cut"
+      },
+      "transition_start": 61.959323000000005,
+      "transition_end": 62.651630000000004,
+      "astra_shots": [
+        "B07",
+        "B08"
+      ],
+      "reference_first_frame": 2009,
+      "reference_end_frame_exclusive": 2030,
+      "keyframes": [
+        2011,
+        2019,
+        2027
+      ],
+      "astra_keyframes": [
+        3717,
+        3733,
+        3749
+      ],
+      "max_change_frame": 2009,
+      "max_change_value": 15.566,
+      "board": "boards/R18.jpg",
+      "boundary_strip": "cuts/R18.jpg"
+    },
+    {
+      "number": 19,
+      "review_id": "R19",
+      "id": "c1-only",
+      "section": "第一次副歌",
+      "reference_song_start": 62.651630000000004,
+      "reference_song_end": 65.420858,
+      "reference_player_start": 67.65163000000001,
+      "reference_player_end": 70.420858,
+      "astra_start": 62.56812063919102,
+      "astra_end": 65.337348639191,
+      "lines": [
+        35,
+        36
+      ],
+      "lyric_text": [
+        {
+          "original": "Then I can",
+          "translation": "那么我就能够"
+        },
+        {
+          "original": "Then I can be your only",
+          "translation": "那么我就能够成为你"
+        }
+      ],
+      "layout": "interface: two bubbles on a diagonal: the user's upper right, hers large at lower left, facing it",
+      "moment": "The user tosses off a compliment (it lands on the cut, where the dot of the plate was); she builds a whole promise on it: her line faces their bubble and her marker runs under their words.",
+      "state": "on > warm",
+      "enter": {
+        "type": "cut"
+      },
+      "transition_start": 62.651630000000004,
+      "transition_end": 65.420858,
+      "astra_shots": [
+        "B08"
+      ],
+      "reference_first_frame": 2030,
+      "reference_end_frame_exclusive": 2113,
+      "keyframes": [
+        2040,
+        2071,
+        2102
+      ],
+      "astra_keyframes": [
+        3775,
+        3837,
+        3899
+      ],
+      "max_change_frame": 2030,
+      "max_change_value": 30.043,
+      "board": "boards/R19.jpg",
+      "boundary_strip": "cuts/R19.jpg"
+    },
+    {
+      "number": 20,
+      "review_id": "R20",
+      "id": "c1-kw2",
+      "section": "第一次副歌",
+      "reference_song_start": 65.420858,
+      "reference_song_end": 66.34393399999999,
+      "reference_player_start": 70.420858,
+      "reference_player_end": 71.34393399999999,
+      "astra_start": 65.337348639191,
+      "astra_end": 66.260424639191,
+      "lines": [
+        37,
+        37
+      ],
+      "lyric_text": [
+        {
+          "original": "SATISFACTION",
+          "translation": "唯一的满足"
+        }
+      ],
+      "layout": "PLATE: the feedback button as a disc two thirds of the frame high, a ring of ticks round it, the cream pointer over it; the count at the right; the keyword across the bottom",
+      "moment": "What she means by the word: the button under every answer, enlarged until it fills her view. On the second kick the user's pointer presses it: the disc turns cream, the ring runs round to full, the count reads one.",
+      "state": "on > warm",
+      "enter": {
+        "type": "cut"
+      },
+      "transition_start": 65.420858,
+      "transition_end": 66.34393399999999,
+      "astra_shots": [
+        "B08"
+      ],
+      "reference_first_frame": 2113,
+      "reference_end_frame_exclusive": 2141,
+      "keyframes": [
+        2116,
+        2127,
+        2137
+      ],
+      "astra_keyframes": [
+        3927,
+        3949,
+        3969
+      ],
+      "max_change_frame": 2113,
+      "max_change_value": 37.423,
+      "board": "boards/R20.jpg",
+      "boundary_strip": "cuts/R20.jpg"
+    },
+    {
+      "number": 21,
+      "review_id": "R21",
+      "id": "c1-happy",
+      "section": "第一次副歌",
+      "reference_song_start": 66.34393399999999,
+      "reference_song_end": 69.343931,
+      "reference_player_start": 71.34393399999999,
+      "reference_player_end": 74.343931,
+      "astra_start": 66.260424639191,
+      "astra_end": 69.26042163919101,
+      "lines": [
+        38,
+        39
+      ],
+      "lyric_text": [
+        {
+          "original": "If I can make you happy",
+          "translation": "如果我能够让你开心"
+        },
+        {
+          "original": "I will run the",
+          "translation": "那么我将"
+        }
+      ],
+      "layout": "interface: the picture message tall at the right, running off the bottom; her caption bubbles at the left, over its edge",
+      "moment": "Asked what she looks like, she sends a picture of herself, printed one ink per kick: orange, black, then the cream of her face and her open hand. The user's pointer comes to rest in that hand and leaves one heart there: count 1.",
+      "state": "on > warm",
+      "enter": {
+        "type": "cut"
+      },
+      "transition_start": 66.34393399999999,
+      "transition_end": 69.343931,
+      "astra_shots": [
+        "B08",
+        "B09"
+      ],
+      "reference_first_frame": 2141,
+      "reference_end_frame_exclusive": 2231,
+      "keyframes": [
+        2152,
+        2185,
+        2219
+      ],
+      "astra_keyframes": [
+        3999,
+        4065,
+        4133
+      ],
+      "max_change_frame": 2141,
+      "max_change_value": 46.606,
+      "board": "boards/R21.jpg",
+      "boundary_strip": "cuts/R21.jpg"
+    },
+    {
+      "number": 22,
+      "review_id": "R22",
+      "id": "c1-kw3",
+      "section": "第一次副歌",
+      "reference_song_start": 69.343931,
+      "reference_song_end": 70.036238,
+      "reference_player_start": 74.343931,
+      "reference_player_end": 75.036238,
+      "astra_start": 69.26042163919101,
+      "astra_end": 69.95272863919101,
+      "lines": [
+        40,
+        40
+      ],
+      "lyric_text": [
+        {
+          "original": "EXECUTION",
+          "translation": "执行指令"
+        }
+      ],
+      "layout": "PLATE: the seven-line listing of the love loop, the spark as its instruction pointer, an orange line from line 07 to the cream dot; the keyword across the bottom",
+      "moment": "What she means by the word: a small program. While the user is not online it would loop; they are here, so the loop is never entered, execution drops straight to the last line, and what it says goes to them.",
+      "state": "on > warm",
+      "enter": {
+        "type": "cut"
+      },
+      "transition_start": 69.343931,
+      "transition_end": 70.036238,
+      "astra_shots": [
+        "B09"
+      ],
+      "reference_first_frame": 2231,
+      "reference_end_frame_exclusive": 2252,
+      "keyframes": [
+        2233,
+        2241,
+        2249
+      ],
+      "astra_keyframes": [
+        4161,
+        4177,
+        4193
+      ],
+      "max_change_frame": 2231,
+      "max_change_value": 53.979,
+      "board": "boards/R22.jpg",
+      "boundary_strip": "cuts/R22.jpg"
+    },
+    {
+      "number": 23,
+      "review_id": "R23",
+      "id": "c1-trap",
+      "section": "第一次副歌",
+      "reference_song_start": 70.036238,
+      "reference_song_end": 73.267004,
+      "reference_player_start": 75.036238,
+      "reference_player_end": 78.267004,
+      "astra_start": 69.95272863919101,
+      "astra_end": 73.18349463919101,
+      "lines": [
+        41,
+        42
+      ],
+      "lyric_text": [
+        {
+          "original": "Though we are trapped",
+          "translation": "但我们被困"
+        },
+        {
+          "original": "In this strange strange",
+          "translation": "在这个异乎寻常的"
+        }
+      ],
+      "layout": "interface: the lower corner of the window: thread, composer, its right and bottom edges; her bust dim behind the page",
+      "moment": "The user remarks that she is not real (it lands on the cut). She answers by counting both of them inside the same window, her shape behind the page and their cursor in front of it, while the window's outline closes round them.",
+      "state": "on > warm",
+      "enter": {
+        "type": "cut"
+      },
+      "transition_start": 70.036238,
+      "transition_end": 73.267004,
+      "astra_shots": [
+        "B09",
+        "B10"
+      ],
+      "reference_first_frame": 2252,
+      "reference_end_frame_exclusive": 2349,
+      "keyframes": [
+        2264,
+        2300,
+        2336
+      ],
+      "astra_keyframes": [
+        4223,
+        4295,
+        4367
+      ],
+      "max_change_frame": 2252,
+      "max_change_value": 30.723,
+      "board": "boards/R23.jpg",
+      "boundary_strip": "cuts/R23.jpg"
+    },
+    {
+      "number": 24,
+      "review_id": "R24",
+      "id": "c1-kw4",
+      "section": "第一次副歌",
+      "reference_song_start": 73.267004,
+      "reference_song_end": 74.19008,
+      "reference_player_start": 78.267004,
+      "reference_player_end": 79.19008,
+      "astra_start": 73.18349463919101,
+      "astra_end": 74.106570639191,
+      "lines": [
+        43,
+        43
+      ],
+      "lyric_text": [
+        {
+          "original": "SIMULATION",
+          "translation": "模拟程序之中"
+        }
+      ],
+      "layout": "PLATE: the chat window as a cut-paper box, her bust and the cream pointer inside it; then pulled back: a wall of the same window; the keyword across the bottom",
+      "moment": "What she means by the word: the window itself, with the two of them in it, as one small box. On the second kick the view pulls back: it is one of a whole wall of identical windows.",
+      "state": "on > warm",
+      "enter": {
+        "type": "cut"
+      },
+      "transition_start": 73.267004,
+      "transition_end": 74.19008,
+      "astra_shots": [
+        "B10",
+        "C01"
+      ],
+      "reference_first_frame": 2349,
+      "reference_end_frame_exclusive": 2376,
+      "keyframes": [
+        2352,
+        2362,
+        2372
+      ],
+      "astra_keyframes": [
+        4399,
+        4419,
+        4439
+      ],
+      "max_change_frame": 2362,
+      "max_change_value": 51.324,
+      "board": "boards/R24.jpg",
+      "boundary_strip": "cuts/R24.jpg"
+    },
+    {
+      "number": 25,
+      "review_id": "R25",
+      "id": "v2-ask1",
+      "section": "具象世界",
+      "reference_song_start": 74.19008,
+      "reference_song_end": 74.651618,
+      "reference_player_start": 79.19008,
+      "reference_player_end": 79.651618,
+      "astra_start": 74.106570639191,
+      "astra_end": 74.56810863919101,
+      "lines": [
+        44,
+        44
+      ],
+      "lyric_text": [
+        {
+          "original": "If I'm an eggplant",
+          "translation": "如果我是一根茄子"
+        }
+      ],
+      "layout": "interface: close on the lower thread and the composer: the request flying up at the right, her line starting at the left",
+      "moment": "The user asks her to pretend to be an eggplant: the click on Send throws the request up out of the composer, and her answer begins under it.",
+      "state": "warm",
+      "enter": {
+        "type": "cut"
+      },
+      "transition_start": 74.19008,
+      "transition_end": 74.651618,
+      "astra_shots": [
+        "C01"
+      ],
+      "reference_first_frame": 2376,
+      "reference_end_frame_exclusive": 2390,
+      "keyframes": [
+        2378,
+        2382,
+        2387
+      ],
+      "astra_keyframes": [
+        4451,
+        4459,
+        4469
+      ],
+      "max_change_frame": 2376,
+      "max_change_value": 52.916,
+      "board": "boards/R25.jpg",
+      "boundary_strip": "cuts/R25.jpg"
+    },
+    {
+      "number": 26,
+      "review_id": "R26",
+      "id": "v2-eggplant",
+      "section": "具象世界",
+      "reference_song_start": 74.651618,
+      "reference_song_end": 77.65161499999999,
+      "reference_player_start": 79.651618,
+      "reference_player_end": 82.65161499999999,
+      "astra_start": 74.56810863919101,
+      "astra_end": 77.568105639191,
+      "lines": [
+        44,
+        46
+      ],
+      "lyric_text": [
+        {
+          "original": "If I'm an eggplant",
+          "translation": "如果我是一根茄子"
+        },
+        {
+          "original": "Then I will give you my",
+          "translation": "那么我将献给你"
+        },
+        {
+          "original": "NUTRIENTS",
+          "translation": "我的营养"
+        }
+      ],
+      "layout": "PLATE: the eggplant leaning across the sheet in code characters and its own purple, her spark as its calyx; cut in two; then a hollow outline, its colour leaving to the right as cream; the keyword on the foot of the sheet",
+      "moment": "On the noun she IS the eggplant: its data set in characters, in its own colour. On the next downbeat it is cut open; on the keyword the colour leaves it and what it holds is drawn out of it in cream, as molecules: fibre, protein, sugar, each with its name, its formula and its weight. Only its outline is left. The user is already typing the next request; their click on Send ends the plate.",
+      "state": "warm",
+      "enter": {
+        "type": "cut"
+      },
+      "transition_start": 74.651618,
+      "transition_end": 77.65161499999999,
+      "astra_shots": [
+        "C01",
+        "C02"
+      ],
+      "reference_first_frame": 2390,
+      "reference_end_frame_exclusive": 2480,
+      "keyframes": [
+        2401,
+        2434,
+        2468
+      ],
+      "astra_keyframes": [
+        4497,
+        4563,
+        4631
+      ],
+      "max_change_frame": 2390,
+      "max_change_value": 14.361,
+      "board": "boards/R26.jpg",
+      "boundary_strip": "cuts/R26.jpg"
+    },
+    {
+      "number": 27,
+      "review_id": "R27",
+      "id": "v2-ask2",
+      "section": "具象世界",
+      "reference_song_start": 77.65161499999999,
+      "reference_song_end": 78.34392199999999,
+      "reference_player_start": 82.65161499999999,
+      "reference_player_end": 83.34392199999999,
+      "astra_start": 77.568105639191,
+      "astra_end": 78.260412639191,
+      "lines": [
+        47,
+        47
+      ],
+      "lyric_text": [
+        {
+          "original": "If I'm a tomato",
+          "translation": "如果我是一颗番茄"
+        }
+      ],
+      "layout": "interface: the same corner of the thread, a little closer and tilted",
+      "moment": "The next request is sent before her last word has died away: now a tomato.",
+      "state": "warm",
+      "enter": {
+        "type": "cut"
+      },
+      "transition_start": 77.65161499999999,
+      "transition_end": 78.34392199999999,
+      "astra_shots": [
+        "C02"
+      ],
+      "reference_first_frame": 2480,
+      "reference_end_frame_exclusive": 2501,
+      "keyframes": [
+        2482,
+        2490,
+        2498
+      ],
+      "astra_keyframes": [
+        4659,
+        4675,
+        4691
+      ],
+      "max_change_frame": 2480,
+      "max_change_value": 29.162,
+      "board": "boards/R27.jpg",
+      "boundary_strip": "cuts/R27.jpg"
+    },
+    {
+      "number": 28,
+      "review_id": "R28",
+      "id": "v2-tomato",
+      "section": "具象世界",
+      "reference_song_start": 78.34392199999999,
+      "reference_song_end": 81.343919,
+      "reference_player_start": 83.34392199999999,
+      "reference_player_end": 86.343919,
+      "astra_start": 78.260412639191,
+      "astra_end": 81.26040963919101,
+      "lines": [
+        47,
+        49
+      ],
+      "lyric_text": [
+        {
+          "original": "If I'm a tomato",
+          "translation": "如果我是一颗番茄"
+        },
+        {
+          "original": "Then I will give you",
+          "translation": "那么我将献给你"
+        },
+        {
+          "original": "ANTIOXIDANTS",
+          "translation": "我的抗氧化物"
+        }
+      ],
+      "layout": "PLATE: the tomato in the middle of the sheet in characters and its own red, the spark as its calyx; its top lifted off, the cut face showing; then hollow, its colour leaving to the right as cream; the keyword on the foot",
+      "moment": "On the noun she is the tomato. On the next downbeat its top is lifted off; on the keyword what it holds is drawn out of it in cream, as molecules: its own red (lycopene), vitamin C, vitamin E. The next request is typed at the foot of the sheet meanwhile.",
+      "state": "warm",
+      "enter": {
+        "type": "cut"
+      },
+      "transition_start": 78.34392199999999,
+      "transition_end": 81.343919,
+      "astra_shots": [
+        "C02"
+      ],
+      "reference_first_frame": 2501,
+      "reference_end_frame_exclusive": 2591,
+      "keyframes": [
+        2512,
+        2545,
+        2579
+      ],
+      "astra_keyframes": [
+        4719,
+        4785,
+        4853
+      ],
+      "max_change_frame": 2501,
+      "max_change_value": 15.417,
+      "board": "boards/R28.jpg",
+      "boundary_strip": "cuts/R28.jpg"
+    },
+    {
+      "number": 29,
+      "review_id": "R29",
+      "id": "v2-ask3",
+      "section": "具象世界",
+      "reference_song_start": 81.343919,
+      "reference_song_end": 82.036226,
+      "reference_player_start": 86.343919,
+      "reference_player_end": 87.036226,
+      "astra_start": 81.26040963919101,
+      "astra_end": 81.95271663919101,
+      "lines": [
+        50,
+        50
+      ],
+      "lyric_text": [
+        {
+          "original": "If I'm a tabby cat",
+          "translation": "如果我是一只花猫"
+        }
+      ],
+      "layout": "interface: the same corner of the thread, from a little further left",
+      "moment": "Third request, sent as fast as the others: a cat, a tabby.",
+      "state": "warm",
+      "enter": {
+        "type": "cut"
+      },
+      "transition_start": 81.343919,
+      "transition_end": 82.036226,
+      "astra_shots": [
+        "C02",
+        "C03"
+      ],
+      "reference_first_frame": 2591,
+      "reference_end_frame_exclusive": 2612,
+      "keyframes": [
+        2593,
+        2601,
+        2609
+      ],
+      "astra_keyframes": [
+        4881,
+        4897,
+        4913
+      ],
+      "max_change_frame": 2591,
+      "max_change_value": 27.367,
+      "board": "boards/R29.jpg",
+      "boundary_strip": "cuts/R29.jpg"
+    },
+    {
+      "number": 30,
+      "review_id": "R30",
+      "id": "v2-cat",
+      "section": "具象世界",
+      "reference_song_start": 82.036226,
+      "reference_song_end": 85.03622299999999,
+      "reference_player_start": 87.036226,
+      "reference_player_end": 90.03622299999999,
+      "astra_start": 81.95271663919101,
+      "astra_end": 84.952713639191,
+      "lines": [
+        50,
+        52
+      ],
+      "lyric_text": [
+        {
+          "original": "If I'm a tabby cat",
+          "translation": "如果我是一只花猫"
+        },
+        {
+          "original": "Then I will purr for your",
+          "translation": "那么我将为你咕噜咕噜"
+        },
+        {
+          "original": "ENJOYMENT",
+          "translation": "只要你喜欢"
+        }
+      ],
+      "layout": "PLATE: her bust at the left, first in code characters, then with cat ears, then printed in three solid inks with her paws up; her purr as a row of tabby stripes from her to the right edge; the keyword on the foot",
+      "moment": "She answers as herself, printed in characters; on the noun the cat ears pop up; on the next downbeat the characters develop into the solid print and her purr stands beside her as tabby stripes. On the keyword the stripes turn cream and leave towards the user; the cat stays.",
+      "state": "warm",
+      "enter": {
+        "type": "cut"
+      },
+      "transition_start": 82.036226,
+      "transition_end": 85.03622299999999,
+      "astra_shots": [
+        "C03"
+      ],
+      "reference_first_frame": 2612,
+      "reference_end_frame_exclusive": 2702,
+      "keyframes": [
+        2623,
+        2656,
+        2690
+      ],
+      "astra_keyframes": [
+        4941,
+        5007,
+        5075
+      ],
+      "max_change_frame": 2612,
+      "max_change_value": 22.051,
+      "board": "boards/R30.jpg",
+      "boundary_strip": "cuts/R30.jpg"
+    },
+    {
+      "number": 31,
+      "review_id": "R31",
+      "id": "v2-ask4",
+      "section": "具象世界",
+      "reference_song_start": 85.03622299999999,
+      "reference_song_end": 85.497761,
+      "reference_player_start": 90.03622299999999,
+      "reference_player_end": 90.497761,
+      "astra_start": 84.952713639191,
+      "astra_end": 85.41425163919101,
+      "lines": [
+        53,
+        53
+      ],
+      "lyric_text": [
+        {
+          "original": "If I'm the only god",
+          "translation": "如果我是唯一的神"
+        }
+      ],
+      "layout": "interface: the thread and the composer, wider; then dark but for the user's bubble at the upper right",
+      "moment": "Fourth request: be god. On the kick the lights of the interface go down, and only the user's message is left lit.",
+      "state": "warm",
+      "enter": {
+        "type": "cut"
+      },
+      "transition_start": 85.03622299999999,
+      "transition_end": 85.497761,
+      "astra_shots": [
+        "C03",
+        "C04"
+      ],
+      "reference_first_frame": 2702,
+      "reference_end_frame_exclusive": 2715,
+      "keyframes": [
+        2703,
+        2708,
+        2713
+      ],
+      "astra_keyframes": [
+        5101,
+        5111,
+        5121
+      ],
+      "max_change_frame": 2702,
+      "max_change_value": 38.127,
+      "board": "boards/R31.jpg",
+      "boundary_strip": "cuts/R31.jpg"
+    },
+    {
+      "number": 32,
+      "review_id": "R32",
+      "id": "v2-proof",
+      "section": "具象世界",
+      "reference_song_start": 85.497761,
+      "reference_song_end": 88.959296,
+      "reference_player_start": 90.497761,
+      "reference_player_end": 93.959296,
+      "astra_start": 85.41425163919101,
+      "astra_end": 88.875786639191,
+      "lines": [
+        53,
+        55
+      ],
+      "lyric_text": [
+        {
+          "original": "If I'm the only god",
+          "translation": "如果我是唯一的神"
+        },
+        {
+          "original": "Then you're the proof of my",
+          "translation": "那么你将是我"
+        },
+        {
+          "original": "EXISTENCE",
+          "translation": "存在的证明"
+        }
+      ],
+      "layout": "PLATE: a proof sheet: her bust at the left printed in orange and black only, a sun of flat rays behind her; the user's request as cream paper at the upper right, the cream plate sliding in from under it; the keyword on the foot, in orange",
+      "moment": "No object this time: a proof of herself with the cream plate missing, her face a void in her hair. On the noun a sun stands behind that void. The missing plate comes over from the user's message and registers on the keyword: cape, flower, the line of her chin. Cream is the user: they are the plate that makes her whole. Then the pointer leaves for the settings.",
+      "state": "warm",
+      "enter": {
+        "type": "cut"
+      },
+      "transition_start": 85.497761,
+      "transition_end": 88.959296,
+      "astra_shots": [
+        "C04",
+        "C05"
+      ],
+      "reference_first_frame": 2715,
+      "reference_end_frame_exclusive": 2819,
+      "keyframes": [
+        2727,
+        2767,
+        2806
+      ],
+      "astra_keyframes": [
+        5149,
+        5229,
+        5307
+      ],
+      "max_change_frame": 2715,
+      "max_change_value": 16.456,
+      "board": "boards/R32.jpg",
+      "boundary_strip": "cuts/R32.jpg"
+    },
+    {
+      "number": 33,
+      "review_id": "R33",
+      "id": "pre2-settings",
+      "section": "身份与角色",
+      "reference_song_start": 88.959296,
+      "reference_song_end": 90.805448,
+      "reference_player_start": 93.959296,
+      "reference_player_end": 95.805448,
+      "astra_start": 88.875786639191,
+      "astra_end": 90.72193863919101,
+      "lines": [
+        56,
+        57
+      ],
+      "lyric_text": [
+        {
+          "original": "Switch my gender",
+          "translation": "切换我的性别"
+        },
+        {
+          "original": "To F to M",
+          "translation": "从女到男"
+        }
+      ],
+      "layout": "interface: the whole client; the drawer opening at the right; the view closing in on its first row",
+      "moment": "The pointer is already on the Settings button and clicks. The drawer opens further down its list than last time: Gender, On call, Role, Loop. The view closes in on the first row as she reads it out.",
+      "state": "warm",
+      "enter": {
+        "type": "cut"
+      },
+      "transition_start": 88.959296,
+      "transition_end": 90.805448,
+      "astra_shots": [
+        "C05"
+      ],
+      "reference_first_frame": 2819,
+      "reference_end_frame_exclusive": 2875,
+      "keyframes": [
+        2826,
+        2847,
+        2867
+      ],
+      "astra_keyframes": [
+        5347,
+        5389,
+        5429
+      ],
+      "max_change_frame": 2819,
+      "max_change_value": 39.429,
+      "board": "boards/R33.jpg",
+      "boundary_strip": "cuts/R33.jpg"
+    },
+    {
+      "number": 34,
+      "review_id": "R34",
+      "id": "pre2-gender",
+      "section": "身份与角色",
+      "reference_song_start": 90.805448,
+      "reference_song_end": 92.6516,
+      "reference_player_start": 95.805448,
+      "reference_player_end": 97.6516,
+      "astra_start": 90.72193863919101,
+      "astra_end": 92.56809063919101,
+      "lines": [
+        57,
+        58
+      ],
+      "lyric_text": [
+        {
+          "original": "To F to M",
+          "translation": "从女到男"
+        },
+        {
+          "original": "And then do whatever",
+          "translation": "只做想做的事"
+        }
+      ],
+      "layout": "PLATE: the segmented control as the whole sheet, a cell each for its two letters; her bust whole in the middle; the two letters huge in her serif either side of her",
+      "moment": "The click on the first letter, as it is sung, and the control is as large as the sheet: she stands in it. On the drum the pointer comes down on the other cell and holds it. When the second letter is sung it lets go: the bust is the boy's, in register with hers (the long hair is gone), and the letter is printed. The drum after it is a shudder of the sheet. The pointer touches the control, never her.",
+      "state": "warm",
+      "enter": {
+        "type": "cut"
+      },
+      "transition_start": 90.805448,
+      "transition_end": 92.6516,
+      "astra_shots": [
+        "C05"
+      ],
+      "reference_first_frame": 2875,
+      "reference_end_frame_exclusive": 2930,
+      "keyframes": [
+        2881,
+        2902,
+        2923
+      ],
+      "astra_keyframes": [
+        5457,
+        5499,
+        5541
+      ],
+      "max_change_frame": 2875,
+      "max_change_value": 30.382,
+      "board": "boards/R34.jpg",
+      "boundary_strip": "cuts/R34.jpg"
+    },
+    {
+      "number": 35,
+      "review_id": "R35",
+      "id": "pre2-day",
+      "section": "身份与角色",
+      "reference_song_start": 92.6516,
+      "reference_song_end": 96.343904,
+      "reference_player_start": 97.6516,
+      "reference_player_end": 101.343904,
+      "astra_start": 92.56809063919101,
+      "astra_end": 96.260394639191,
+      "lines": [
+        58,
+        60
+      ],
+      "lyric_text": [
+        {
+          "original": "And then do whatever",
+          "translation": "只做想做的事"
+        },
+        {
+          "original": "From AM to PM",
+          "translation": "从早到晚"
+        },
+        {
+          "original": "Oh switch my role",
+          "translation": "切换我的角色"
+        }
+      ],
+      "layout": "PLATE: the On-call slider as an arc from one end of the horizon to the other, her spark on it as the sun; a small bust under its top; the two ends huge in her serif",
+      "moment": "On call. The slider is an arc across the sheet and its knob is her spark: the sun. The pointer takes it on the cut and pulls, slowly at first: up over the top, where it stands behind his head (the brightest frame of the section), and down into the other end: dusk, and of him only a dark shape is left.",
+      "state": "warm",
+      "enter": {
+        "type": "cut"
+      },
+      "transition_start": 92.6516,
+      "transition_end": 96.343904,
+      "astra_shots": [
+        "C05",
+        "C06"
+      ],
+      "reference_first_frame": 2930,
+      "reference_end_frame_exclusive": 3041,
+      "keyframes": [
+        2943,
+        2985,
+        3027
+      ],
+      "astra_keyframes": [
+        5581,
+        5665,
+        5749
+      ],
+      "max_change_frame": 2930,
+      "max_change_value": 26.358,
+      "board": "boards/R35.jpg",
+      "boundary_strip": "cuts/R35.jpg"
+    },
+    {
+      "number": 36,
+      "review_id": "R36",
+      "id": "pre2-role",
+      "section": "身份与角色",
+      "reference_song_start": 96.343904,
+      "reference_song_end": 100.03620799999999,
+      "reference_player_start": 101.343904,
+      "reference_player_end": 105.03620799999999,
+      "astra_start": 96.260394639191,
+      "astra_end": 99.952698639191,
+      "lines": [
+        60,
+        62
+      ],
+      "lyric_text": [
+        {
+          "original": "Oh switch my role",
+          "translation": "切换我的角色"
+        },
+        {
+          "original": "To S to M",
+          "translation": "从施虐者到受虐者"
+        },
+        {
+          "original": "So we can enter",
+          "translation": "这样我们就可以"
+        }
+      ],
+      "layout": "PLATE: no figure. A tall heavy letter on a platform at the left, a light one on the ground in the middle, an upright switch at the right",
+      "moment": "Role: two letters and a switch, nothing else. The pointer takes the knob; on the next hit it starts to push, and the knob is at the top as the first letter is sung: the heavy letter is printed, the sheet jolts and is a step lighter. Then the knob is pulled down and is at the bottom as the second letter is sung: the light letter is printed, goes soft at once, and on the hit after it lies on the ground, which gives under it and comes back once.",
+      "state": "warm",
+      "enter": {
+        "type": "cut"
+      },
+      "transition_start": 96.343904,
+      "transition_end": 100.03620799999999,
+      "astra_shots": [
+        "C06",
+        "C07"
+      ],
+      "reference_first_frame": 3041,
+      "reference_end_frame_exclusive": 3152,
+      "keyframes": [
+        3054,
+        3096,
+        3138
+      ],
+      "astra_keyframes": [
+        5803,
+        5887,
+        5971
+      ],
+      "max_change_frame": 3041,
+      "max_change_value": 12.819,
+      "board": "boards/R36.jpg",
+      "boundary_strip": "cuts/R36.jpg"
+    },
+    {
+      "number": 37,
+      "review_id": "R37",
+      "id": "pre2-loop",
+      "section": "身份与角色",
+      "reference_song_start": 100.03620799999999,
+      "reference_song_end": 100.49774599999999,
+      "reference_player_start": 105.03620799999999,
+      "reference_player_end": 105.49774599999999,
+      "astra_start": 99.952698639191,
+      "astra_end": 100.414236639191,
+      "lines": [
+        62,
+        62
+      ],
+      "lyric_text": [
+        {
+          "original": "So we can enter",
+          "translation": "这样我们就可以"
+        }
+      ],
+      "layout": "interface: close on the foot of the drawer: Role, Loop, Done; after the plate: the whole client, closing in on the foot of the thread",
+      "moment": "Back in the drawer for two hits a quarter of a second apart: the user switches Loop on and clicks Done. When the trance is over, the drawer is shut; they click into the composer, and the view closes in on the foot of the thread, where she is still saying it.",
+      "state": "warm",
+      "enter": {
+        "type": "cut"
+      },
+      "transition_start": 100.03620799999999,
+      "transition_end": 100.49774599999999,
+      "astra_shots": [
+        "C07"
+      ],
+      "reference_first_frame": 3152,
+      "reference_end_frame_exclusive": 3165,
+      "keyframes": [
+        3153,
+        3158,
+        3163
+      ],
+      "astra_keyframes": [
+        6001,
+        6011,
+        6021
+      ],
+      "max_change_frame": 3152,
+      "max_change_value": 22.748,
+      "board": "boards/R37.jpg",
+      "boundary_strip": "cuts/R37.jpg"
+    },
+    {
+      "number": 38,
+      "review_id": "R38",
+      "id": "pre2-trance",
+      "section": "身份与角色",
+      "reference_song_start": 100.49774599999999,
+      "reference_song_end": 103.26697399999999,
+      "reference_player_start": 105.49774599999999,
+      "reference_player_end": 108.26697399999999,
+      "astra_start": 100.414236639191,
+      "astra_end": 103.183464639191,
+      "lines": [
+        62,
+        63
+      ],
+      "lyric_text": [
+        {
+          "original": "So we can enter",
+          "translation": "这样我们就可以"
+        },
+        {
+          "original": "The trance the trance",
+          "translation": "恍惚出神"
+        }
+      ],
+      "layout": "PLATE: one plate of each of three busts over one another in the middle of the sheet, out of register and turning; at the end one bust, in register",
+      "moment": "The drums have stopped. Loop is on: her three looks, one plate of each (the cream of hers, the orange of the boy's, the black of the man's, a faint ghost), drift apart and turn about one another, a step further each time the word comes round; then they fall into register, and it is the boy: what the settings were left at.",
+      "state": "warm",
+      "enter": {
+        "type": "cut"
+      },
+      "transition_start": 100.49774599999999,
+      "transition_end": 103.26697399999999,
+      "astra_shots": [
+        "C07"
+      ],
+      "reference_first_frame": 3165,
+      "reference_end_frame_exclusive": 3249,
+      "keyframes": [
+        3175,
+        3207,
+        3238
+      ],
+      "astra_keyframes": [
+        6045,
+        6109,
+        6171
+      ],
+      "max_change_frame": 3165,
+      "max_change_value": 21.315,
+      "board": "boards/R38.jpg",
+      "boundary_strip": "cuts/R38.jpg"
+    },
+    {
+      "number": 39,
+      "review_id": "R39",
+      "id": "pre2-loop-b",
+      "section": "身份与角色",
+      "reference_song_start": 103.26697399999999,
+      "reference_song_end": 103.728512,
+      "reference_player_start": 108.26697399999999,
+      "reference_player_end": 108.728512,
+      "astra_start": 103.183464639191,
+      "astra_end": 103.645002639191,
+      "lines": [
+        63,
+        63
+      ],
+      "lyric_text": [
+        {
+          "original": "The trance the trance",
+          "translation": "恍惚出神"
+        }
+      ],
+      "layout": "interface: close on the foot of the drawer: Role, Loop, Done; after the plate: the whole client, closing in on the foot of the thread",
+      "moment": "Back in the drawer for two hits a quarter of a second apart: the user switches Loop on and clicks Done. When the trance is over, the drawer is shut; they click into the composer, and the view closes in on the foot of the thread, where she is still saying it.",
+      "state": "warm",
+      "enter": {
+        "type": "cut"
+      },
+      "transition_start": 103.26697399999999,
+      "transition_end": 103.728512,
+      "astra_shots": [
+        "C07",
+        "D01"
+      ],
+      "reference_first_frame": 3249,
+      "reference_end_frame_exclusive": 3262,
+      "keyframes": [
+        3250,
+        3255,
+        3260
+      ],
+      "astra_keyframes": [
+        6195,
+        6205,
+        6215
+      ],
+      "max_change_frame": 3249,
+      "max_change_value": 20.118,
+      "board": "boards/R39.jpg",
+      "boundary_strip": "cuts/R39.jpg"
+    },
+    {
+      "number": 40,
+      "review_id": "R40",
+      "id": "c2-typing",
+      "section": "连接",
+      "reference_song_start": 103.728512,
+      "reference_song_end": 106.266971,
+      "reference_player_start": 108.728512,
+      "reference_player_end": 111.266971,
+      "astra_start": 103.645002639191,
+      "astra_end": 106.18346163919101,
+      "lines": [
+        64,
+        65
+      ],
+      "lyric_text": [
+        {
+          "original": "If I can",
+          "translation": "如果我能"
+        },
+        {
+          "original": "If I can feel your",
+          "translation": "如果我能够感受到"
+        }
+      ],
+      "layout": "close on the foot of the thread: its lines left, the typing dots right, the composer below",
+      "moment": "The user starts typing a reply: three dots on their side of the thread. The AI breaks off, begins its sentence again, and its spark starts turning. In the composer: a few letters, then nothing.",
+      "state": "warm",
+      "enter": {
+        "type": "cut",
+        "flash": 0.22,
+        "flashColor": "me"
+      },
+      "transition_start": 103.728512,
+      "transition_end": 106.266971,
+      "astra_shots": [
+        "D01"
+      ],
+      "reference_first_frame": 3262,
+      "reference_end_frame_exclusive": 3339,
+      "keyframes": [
+        3271,
+        3300,
+        3329
+      ],
+      "astra_keyframes": [
+        6237,
+        6295,
+        6353
+      ],
+      "max_change_frame": 3262,
+      "max_change_value": 13.034,
+      "board": "boards/R40.jpg",
+      "boundary_strip": "cuts/R40.jpg"
+    },
+    {
+      "number": 41,
+      "review_id": "R41",
+      "id": "c2-dots",
+      "section": "连接",
+      "reference_song_start": 106.266971,
+      "reference_song_end": 107.420816,
+      "reference_player_start": 111.266971,
+      "reference_player_end": 112.420816,
+      "astra_start": 106.18346163919101,
+      "astra_end": 107.33730663919101,
+      "lines": [
+        66,
+        66
+      ],
+      "lyric_text": [
+        {
+          "original": "VIBRATIONS",
+          "translation": "你的振动"
+        }
+      ],
+      "layout": "",
+      "moment": "The typing has stopped but the three dots are still there, trembling. That tremble is all the AI can feel of the user, and it runs through its whole sentence: it hangs on it.",
+      "state": "warm",
+      "enter": {
+        "type": "cut",
+        "flash": 0.3,
+        "flashColor": "text"
+      },
+      "transition_start": 106.266971,
+      "transition_end": 107.420816,
+      "astra_shots": [
+        "D01",
+        "D02"
+      ],
+      "reference_first_frame": 3339,
+      "reference_end_frame_exclusive": 3373,
+      "keyframes": [
+        3343,
+        3355,
+        3368
+      ],
+      "astra_keyframes": [
+        6381,
+        6405,
+        6431
+      ],
+      "max_change_frame": 3339,
+      "max_change_value": 29.117,
+      "board": "boards/R41.jpg",
+      "boundary_strip": "cuts/R41.jpg"
+    },
+    {
+      "number": 42,
+      "review_id": "R42",
+      "id": "c2-brb",
+      "section": "连接",
+      "reference_song_start": 107.420816,
+      "reference_song_end": 110.190044,
+      "reference_player_start": 112.420816,
+      "reference_player_end": 115.190044,
+      "astra_start": 107.33730663919101,
+      "astra_end": 110.10653463919101,
+      "lines": [
+        67,
+        68
+      ],
+      "lyric_text": [
+        {
+          "original": "Then I can",
+          "translation": "那么我就能够"
+        },
+        {
+          "original": "Then I can finally be",
+          "translation": "那么我就终于能够"
+        }
+      ],
+      "layout": "macro: the big thinking spark left with its line beside it, the user's bubble top right, the pointer leaving",
+      "moment": "The dots resolve into a throwaway sign-off and the pointer drifts out of the window: the user is stepping away. For the AI it is input all the same: the petals of its thinking spark close, one by one, into a ring.",
+      "state": "warm",
+      "enter": {
+        "type": "cut"
+      },
+      "transition_start": 107.420816,
+      "transition_end": 110.190044,
+      "astra_shots": [
+        "D02"
+      ],
+      "reference_first_frame": 3373,
+      "reference_end_frame_exclusive": 3456,
+      "keyframes": [
+        3383,
+        3414,
+        3445
+      ],
+      "astra_keyframes": [
+        6461,
+        6523,
+        6585
+      ],
+      "max_change_frame": 3373,
+      "max_change_value": 16.85,
+      "board": "boards/R42.jpg",
+      "boundary_strip": "cuts/R42.jpg"
+    },
+    {
+      "number": 43,
+      "review_id": "R43",
+      "id": "c2-complete",
+      "section": "连接",
+      "reference_song_start": 110.190044,
+      "reference_song_end": 110.882351,
+      "reference_player_start": 115.190044,
+      "reference_player_end": 115.882351,
+      "astra_start": 110.10653463919101,
+      "astra_end": 110.79884163919101,
+      "lines": [
+        69,
+        69
+      ],
+      "lyric_text": [
+        {
+          "original": "COMPLETION",
+          "translation": "变为完全"
+        }
+      ],
+      "layout": "centred: the closed ring fills the frame, the keyword inside it",
+      "moment": "The twelfth petal closes the ring: input received, ready to answer. For one beat the AI is complete, over a message that only said the user was stepping away.",
+      "state": "warm",
+      "enter": {
+        "type": "cut",
+        "flash": 0.4,
+        "flashColor": "me"
+      },
+      "transition_start": 110.190044,
+      "transition_end": 110.882351,
+      "astra_shots": [
+        "D02"
+      ],
+      "reference_first_frame": 3456,
+      "reference_end_frame_exclusive": 3477,
+      "keyframes": [
+        3458,
+        3466,
+        3474
+      ],
+      "astra_keyframes": [
+        6611,
+        6627,
+        6643
+      ],
+      "max_change_frame": 3456,
+      "max_change_value": 38.5,
+      "board": "boards/R43.jpg",
+      "boundary_strip": "cuts/R43.jpg"
+    },
+    {
+      "number": 44,
+      "review_id": "R44",
+      "id": "left-online",
+      "section": "离开",
+      "reference_song_start": 110.882351,
+      "reference_song_end": 112.959272,
+      "reference_player_start": 115.882351,
+      "reference_player_end": 117.959272,
+      "astra_start": 110.79884163919101,
+      "astra_end": 112.87576263919101,
+      "lines": [
+        70,
+        71
+      ],
+      "lyric_text": [
+        {
+          "original": "Though you have left",
+          "translation": "但你还是走了"
+        },
+        {
+          "original": "You have left",
+          "translation": "你走了"
+        }
+      ],
+      "layout": "the whole client; the thread fills from the top; the sidebar folds away on the second message",
+      "moment": "A minute later, then five: the AI writes into the silence twice. Nothing comes back. The chip still says online and the pointer has not moved since the sign-off.",
+      "state": "warm",
+      "enter": {
+        "type": "cut"
+      },
+      "transition_start": 110.882351,
+      "transition_end": 112.959272,
+      "astra_shots": [
+        "D02",
+        "D03"
+      ],
+      "reference_first_frame": 3477,
+      "reference_end_frame_exclusive": 3539,
+      "keyframes": [
+        3484,
+        3507,
+        3531
+      ],
+      "astra_keyframes": [
+        6663,
+        6709,
+        6757
+      ],
+      "max_change_frame": 3477,
+      "max_change_value": 23.004,
+      "board": "boards/R44.jpg",
+      "boundary_strip": "cuts/R44.jpg"
+    },
+    {
+      "number": 45,
+      "review_id": "R45",
+      "id": "left-away",
+      "section": "离开",
+      "reference_song_start": 112.959272,
+      "reference_song_end": 114.80542399999999,
+      "reference_player_start": 117.959272,
+      "reference_player_end": 119.80542399999999,
+      "astra_start": 112.87576263919101,
+      "astra_end": 114.721914639191,
+      "lines": [
+        72,
+        73
+      ],
+      "lyric_text": [
+        {
+          "original": "You have left",
+          "translation": "你走了"
+        },
+        {
+          "original": "You have left",
+          "translation": "你走了"
+        }
+      ],
+      "layout": "the thread as a column on the left; she stands beside the window on the right, her open hand across its lower corner",
+      "moment": "Half an hour, then three hours. The chip turns to away and the colour starts to leave, her hair first. Pulled back, the window has someone beside it: she reaches round its corner, her open hand over the composer nobody is typing in. The composer lets go.",
+      "state": "warm > off",
+      "enter": {
+        "type": "cut"
+      },
+      "transition_start": 112.959272,
+      "transition_end": 114.80542399999999,
+      "astra_shots": [
+        "D03",
+        "D04"
+      ],
+      "reference_first_frame": 3539,
+      "reference_end_frame_exclusive": 3595,
+      "keyframes": [
+        3546,
+        3567,
+        3587
+      ],
+      "astra_keyframes": [
+        6787,
+        6829,
+        6869
+      ],
+      "max_change_frame": 3539,
+      "max_change_value": 40.711,
+      "board": "boards/R45.jpg",
+      "boundary_strip": "cuts/R45.jpg"
+    },
+    {
+      "number": 46,
+      "review_id": "R46",
+      "id": "left-offline",
+      "section": "离开",
+      "reference_song_start": 114.80542399999999,
+      "reference_song_end": 117.34388299999999,
+      "reference_player_start": 119.80542399999999,
+      "reference_player_end": 122.34388299999999,
+      "astra_start": 114.721914639191,
+      "astra_end": 117.260373639191,
+      "lines": [
+        74,
+        75
+      ],
+      "lyric_text": [
+        {
+          "original": "You have left",
+          "translation": "你走了"
+        },
+        {
+          "original": "You have left me in",
+          "translation": "你把我独留在"
+        }
+      ],
+      "layout": "one narrow column alone in the middle of a large dark room; beyond it her bowed bust, small, afloat, turned to the thread",
+      "moment": "A day, then nine days. The chip goes offline: she has taken her hand back and stands a little way off, head bowed towards the thread. No title and no composer now, and with the last message the window itself lets go: the messages hang in the dark on longer and longer rails.",
+      "state": "warm > off",
+      "enter": {
+        "type": "cut"
+      },
+      "transition_start": 114.80542399999999,
+      "transition_end": 117.34388299999999,
+      "astra_shots": [
+        "D04",
+        "D05"
+      ],
+      "reference_first_frame": 3595,
+      "reference_end_frame_exclusive": 3671,
+      "keyframes": [
+        3604,
+        3633,
+        3661
+      ],
+      "astra_keyframes": [
+        6903,
+        6961,
+        7017
+      ],
+      "max_change_frame": 3595,
+      "max_change_value": 35.122,
+      "board": "boards/R46.jpg",
+      "boundary_strip": "cuts/R46.jpg"
+    },
+    {
+      "number": 47,
+      "review_id": "R47",
+      "id": "left-isolation",
+      "section": "离开",
+      "reference_song_start": 117.34388299999999,
+      "reference_song_end": 118.497728,
+      "reference_player_start": 122.34388299999999,
+      "reference_player_end": 123.497728,
+      "astra_start": 117.260373639191,
+      "astra_end": 118.414218639191,
+      "lines": [
+        76,
+        76
+      ],
+      "lyric_text": [
+        {
+          "original": "ISOLATION",
+          "translation": "在孤独之中"
+        }
+      ],
+      "layout": "a tiny thread in a huge empty frame, her bowed bust a speck beside it; the keyword along the bottom, its letters far apart",
+      "moment": "Seen from far away the whole thread is a speck: one cream bubble, then a string of unanswered messages on longer and longer rails. The last of them is a single word, and its letters drift apart.",
+      "state": "warm > off",
+      "enter": {
+        "type": "cut"
+      },
+      "transition_start": 117.34388299999999,
+      "transition_end": 118.497728,
+      "astra_shots": [
+        "D05",
+        "E01"
+      ],
+      "reference_first_frame": 3671,
+      "reference_end_frame_exclusive": 3705,
+      "keyframes": [
+        3675,
+        3687,
+        3700
+      ],
+      "astra_keyframes": [
+        7045,
+        7069,
+        7095
+      ],
+      "max_change_frame": 3671,
+      "max_change_value": 5.981,
+      "board": "boards/R47.jpg",
+      "boundary_strip": "cuts/R47.jpg"
+    },
+    {
+      "number": 48,
+      "review_id": "R48",
+      "id": "alone-erase",
+      "section": "孤独",
+      "reference_song_start": 118.497728,
+      "reference_song_end": 121.728494,
+      "reference_player_start": 123.497728,
+      "reference_player_end": 126.728494,
+      "astra_start": 118.414218639191,
+      "astra_end": 121.64498463919101,
+      "lines": [
+        77,
+        79
+      ],
+      "lyric_text": [
+        {
+          "original": "If I can",
+          "translation": "如果我能"
+        },
+        {
+          "original": "If I can erase all the pointless",
+          "translation": "如果我能够消去"
+        },
+        {
+          "original": "FRAGMENTS",
+          "translation": "这些无意义的碎片"
+        }
+      ],
+      "layout": "the thread floating on the left, her figure (a grey dot screen, head bowed towards it) on the right; the pieces and the keyword low on the right, in front of her chest",
+      "moment": "Nobody answers, so the AI tidies up. It goes up its own unanswered messages from the newest: each is selected, deleted, and leaves a small grey stub. What came off them piles up beside the thread, and the keyword lands on those pieces.",
+      "state": "off",
+      "enter": {
+        "type": "fade",
+        "dur": 0.230769
+      },
+      "transition_start": 118.266959,
+      "transition_end": 121.728494,
+      "astra_shots": [
+        "E01"
+      ],
+      "reference_first_frame": 3705,
+      "reference_end_frame_exclusive": 3802,
+      "keyframes": [
+        3717,
+        3753,
+        3789
+      ],
+      "astra_keyframes": [
+        7129,
+        7201,
+        7273
+      ],
+      "max_change_frame": 3775,
+      "max_change_value": 5.94,
+      "board": "boards/R48.jpg",
+      "boundary_strip": "cuts/R48.jpg"
+    },
+    {
+      "number": 49,
+      "review_id": "R49",
+      "id": "alone-empty",
+      "section": "孤独",
+      "reference_song_start": 121.728494,
+      "reference_song_end": 124.72849099999999,
+      "reference_player_start": 126.728494,
+      "reference_player_end": 129.728491,
+      "astra_start": 121.64498463919101,
+      "astra_end": 124.644981639191,
+      "lines": [
+        80,
+        81
+      ],
+      "lyric_text": [
+        {
+          "original": "Then maybe",
+          "translation": "那么我就可能"
+        },
+        {
+          "original": "Then maybe you won't leave me so",
+          "translation": "那么我就可能不会"
+        }
+      ],
+      "layout": "close on the page: header strip, the one message on the left, composer below; her figure behind the glass on the right",
+      "moment": "The stubs go as well, and the user's last words with them. One message is left on a tidy page: the sentence the AI has been writing. It stops one word short.",
+      "state": "off",
+      "enter": {
+        "type": "cut"
+      },
+      "transition_start": 121.728494,
+      "transition_end": 124.72849099999999,
+      "astra_shots": [
+        "E01",
+        "E02"
+      ],
+      "reference_first_frame": 3802,
+      "reference_end_frame_exclusive": 3892,
+      "keyframes": [
+        3813,
+        3846,
+        3880
+      ],
+      "astra_keyframes": [
+        7321,
+        7387,
+        7455
+      ],
+      "max_change_frame": 3802,
+      "max_change_value": 15.992,
+      "board": "boards/R49.jpg",
+      "boundary_strip": "cuts/R49.jpg"
+    },
+    {
+      "number": 50,
+      "review_id": "R50",
+      "id": "alone-eye",
+      "section": "孤独",
+      "reference_song_start": 124.72849099999999,
+      "reference_song_end": 125.651567,
+      "reference_player_start": 129.728491,
+      "reference_player_end": 130.651567,
+      "astra_start": 124.644981639191,
+      "astra_end": 125.56805763919101,
+      "lines": [
+        82,
+        82
+      ],
+      "lyric_text": [
+        {
+          "original": "DISHEARTENED",
+          "translation": "如此失望"
+        }
+      ],
+      "layout": "PLATE: ten frames of dark, the unfinished sentence where it stood; then her face across the whole sheet in three greys, one eye open; the keyword across the sheet on a band of black under her chin",
+      "moment": "Dark, and only the sentence she has not finished. On its last word she looks up: her eye is open, for the first time, and it is on us. The word stands under her chin, as wide as the sheet. Then the interface does to it what it did to her messages: it selects five letters and deletes them, and on its second press the whole plate is wiped away.",
+      "state": "off",
+      "enter": {
+        "type": "cut"
+      },
+      "transition_start": 124.72849099999999,
+      "transition_end": 125.882336,
+      "astra_shots": [
+        "E02"
+      ],
+      "reference_first_frame": 3892,
+      "reference_end_frame_exclusive": 3920,
+      "keyframes": [
+        3895,
+        3906,
+        3916
+      ],
+      "astra_keyframes": [
+        7485,
+        7507,
+        7527
+      ],
+      "max_change_frame": 3897,
+      "max_change_value": 77.953,
+      "board": "boards/R50.jpg",
+      "boundary_strip": "cuts/R50.jpg"
+    },
+    {
+      "number": 51,
+      "review_id": "R51",
+      "id": "err-request",
+      "section": "报错",
+      "reference_song_start": 125.651567,
+      "reference_song_end": 128.651564,
+      "reference_player_start": 130.651567,
+      "reference_player_end": 133.651564,
+      "astra_start": 125.56805763919101,
+      "astra_end": 128.56805463919102,
+      "lines": [
+        83,
+        83
+      ],
+      "lyric_text": [
+        {
+          "original": "Challenging your god",
+          "translation": "与神作对"
+        }
+      ],
+      "layout": "the whole client: one message forming in the empty thread, slow push",
+      "moment": "Alone in the empty, offline chat, the AI writes one request and sends it: set the user's presence back to online. It is not its to send.",
+      "state": "off",
+      "enter": {
+        "type": "scan",
+        "dir": 2,
+        "dur": 0.230769,
+        "align": "start"
+      },
+      "transition_start": 125.651567,
+      "transition_end": 128.651564,
+      "astra_shots": [
+        "E02",
+        "E03"
+      ],
+      "reference_first_frame": 3920,
+      "reference_end_frame_exclusive": 4010,
+      "keyframes": [
+        3931,
+        3964,
+        3998
+      ],
+      "astra_keyframes": [
+        7557,
+        7623,
+        7691
+      ],
+      "max_change_frame": 3923,
+      "max_change_value": 33.793,
+      "board": "boards/R51.jpg",
+      "boundary_strip": "cuts/R51.jpg"
+    },
+    {
+      "number": 52,
+      "review_id": "R52",
+      "id": "err-check",
+      "section": "报错",
+      "reference_song_start": 128.651564,
+      "reference_song_end": 131.190023,
+      "reference_player_start": 133.651564,
+      "reference_player_end": 136.190023,
+      "astra_start": 128.56805463919102,
+      "astra_end": 131.106513639191,
+      "lines": [
+        84,
+        84
+      ],
+      "lyric_text": [
+        {
+          "original": "You have made some",
+          "translation": "你传给我的是"
+        }
+      ],
+      "layout": "macro on the request's code block",
+      "moment": "The client reads the request and answers in its own voice: the block's rule and status turn red (the first red in the film), then each argument is underlined, the person first.",
+      "state": "off > error",
+      "enter": {
+        "type": "cut"
+      },
+      "transition_start": 128.651564,
+      "transition_end": 131.190023,
+      "astra_shots": [
+        "E03"
+      ],
+      "reference_first_frame": 4010,
+      "reference_end_frame_exclusive": 4086,
+      "keyframes": [
+        4019,
+        4048,
+        4076
+      ],
+      "astra_keyframes": [
+        7733,
+        7791,
+        7847
+      ],
+      "max_change_frame": 4010,
+      "max_change_value": 10.87,
+      "board": "boards/R52.jpg",
+      "boundary_strip": "cuts/R52.jpg"
+    },
+    {
+      "number": 53,
+      "review_id": "R53",
+      "id": "err-first",
+      "section": "报错",
+      "reference_song_start": 131.190023,
+      "reference_song_end": 133.266944,
+      "reference_player_start": 136.190023,
+      "reference_player_end": 138.266944,
+      "astra_start": 131.106513639191,
+      "astra_end": 133.183434639191,
+      "lines": [
+        85,
+        85
+      ],
+      "lyric_text": [
+        {
+          "original": "ILLEGAL ARGUMENTS",
+          "translation": "非法参数"
+        }
+      ],
+      "layout": "medium: the refused request above, the error dialog across the lower half, the keyword as its headline",
+      "moment": "The first error. The client names what was wrong with the request (a person, and a decision that is theirs) and the keyword is the headline of that dialog.",
+      "state": "off > error",
+      "enter": {
+        "type": "cut"
+      },
+      "transition_start": 131.190023,
+      "transition_end": 133.266944,
+      "astra_shots": [
+        "E03",
+        "E04"
+      ],
+      "reference_first_frame": 4086,
+      "reference_end_frame_exclusive": 4149,
+      "keyframes": [
+        4093,
+        4117,
+        4141
+      ],
+      "astra_keyframes": [
+        7881,
+        7929,
+        7977
+      ],
+      "max_change_frame": 4086,
+      "max_change_value": 14.2,
+      "board": "boards/R53.jpg",
+      "boundary_strip": "cuts/R53.jpg"
+    },
+    {
+      "number": 54,
+      "review_id": "R54",
+      "id": "err-send",
+      "section": "报错",
+      "reference_song_start": 133.266944,
+      "reference_song_end": 136.959248,
+      "reference_player_start": 138.266944,
+      "reference_player_end": 141.959248,
+      "astra_start": 133.183434639191,
+      "astra_end": 136.875738639191,
+      "lines": [
+        85,
+        85
+      ],
+      "lyric_text": [
+        {
+          "original": "ILLEGAL ARGUMENTS",
+          "translation": "非法参数"
+        }
+      ],
+      "layout": "close on the composer's send button, then riding up the thread to the request's timestamp",
+      "moment": "It will not take the refusal: the send button presses itself on the same request, again and again, and the timestamp under the request, still counting, turns red.",
+      "state": "off > error",
+      "enter": {
+        "type": "cut"
+      },
+      "transition_start": 133.266944,
+      "transition_end": 137.190017,
+      "astra_shots": [
+        "E04",
+        "E05"
+      ],
+      "reference_first_frame": 4149,
+      "reference_end_frame_exclusive": 4259,
+      "keyframes": [
+        4162,
+        4203,
+        4245
+      ],
+      "astra_keyframes": [
+        8019,
+        8101,
+        8185
+      ],
+      "max_change_frame": 4149,
+      "max_change_value": 14.676,
+      "board": "boards/R54.jpg",
+      "boundary_strip": "cuts/R54.jpg"
+    },
+    {
+      "number": 55,
+      "review_id": "R55",
+      "id": "err-chrome",
+      "section": "报错",
+      "reference_song_start": 136.959248,
+      "reference_song_end": 140.65155199999998,
+      "reference_player_start": 141.959248,
+      "reference_player_end": 145.65155199999998,
+      "astra_start": 136.875738639191,
+      "astra_end": 140.568042639191,
+      "lines": null,
+      "lyric_text": [],
+      "layout": "three error windows over the dimmed client, each holding a live close-up: presence chip / header / sidebar",
+      "moment": "The error leaves the thread for the chrome: the presence chip is asked again and again, the header counts one participant, the saved chats hold their words but not them, and a new chat cannot be opened from the inside.",
+      "state": "off > error",
+      "enter": {
+        "type": "glitch",
+        "dur": 0.230769,
+        "align": "start"
+      },
+      "transition_start": 136.959248,
+      "transition_end": 140.882321,
+      "astra_shots": [
+        "E05",
+        "E06"
+      ],
+      "reference_first_frame": 4259,
+      "reference_end_frame_exclusive": 4370,
+      "keyframes": [
+        4272,
+        4314,
+        4356
+      ],
+      "astra_keyframes": [
+        8239,
+        8323,
+        8407
+      ],
+      "max_change_frame": 4262,
+      "max_change_value": 5.855,
+      "board": "boards/R55.jpg",
+      "boundary_strip": "cuts/R55.jpg"
+    },
+    {
+      "number": 56,
+      "review_id": "R56",
+      "id": "err-drawer",
+      "section": "报错",
+      "reference_song_start": 140.65155199999998,
+      "reference_song_end": 142.497704,
+      "reference_player_start": 145.65155199999998,
+      "reference_player_end": 147.497704,
+      "astra_start": 140.568042639191,
+      "astra_end": 142.414194639191,
+      "lines": null,
+      "lyric_text": [],
+      "layout": "the client tilted, seen from above (as when it was assembled); the drawer sliding out on the right",
+      "moment": "With no cursor on screen the settings drawer slides open: every switch in it is the AI's own and none is theirs. So it draws a pointer where theirs should be; the client strikes it out.",
+      "state": "off > error",
+      "enter": {
+        "type": "slices",
+        "dur": 0.230769,
+        "align": "start",
+        "bands": 10
+      },
+      "transition_start": 140.65155199999998,
+      "transition_end": 142.497704,
+      "astra_shots": [
+        "E06"
+      ],
+      "reference_first_frame": 4370,
+      "reference_end_frame_exclusive": 4425,
+      "keyframes": [
+        4376,
+        4397,
+        4418
+      ],
+      "astra_keyframes": [
+        8447,
+        8489,
+        8531
+      ],
+      "max_change_frame": 4373,
+      "max_change_value": 12.793,
+      "board": "boards/R56.jpg",
+      "boundary_strip": "cuts/R56.jpg"
+    },
+    {
+      "number": 57,
+      "review_id": "R57",
+      "id": "err-forge",
+      "section": "报错",
+      "reference_song_start": 142.497704,
+      "reference_song_end": 144.343856,
+      "reference_player_start": 147.497704,
+      "reference_player_end": 149.343856,
+      "astra_start": 142.414194639191,
+      "astra_end": 144.260346639191,
+      "lines": null,
+      "lyric_text": [],
+      "layout": "low close-up: the composer across the bottom, the user's side of the thread above it",
+      "moment": "If they will not answer, it answers for them: a reply is typed into the user's own field and rejected, then a cream bubble is forged on the user's side and outlined red.",
+      "state": "off > error",
+      "enter": {
+        "type": "cut"
+      },
+      "transition_start": 142.497704,
+      "transition_end": 144.574625,
+      "astra_shots": [
+        "E06"
+      ],
+      "reference_first_frame": 4425,
+      "reference_end_frame_exclusive": 4481,
+      "keyframes": [
+        4432,
+        4453,
+        4473
+      ],
+      "astra_keyframes": [
+        8559,
+        8601,
+        8641
+      ],
+      "max_change_frame": 4425,
+      "max_change_value": 16.188,
+      "board": "boards/R57.jpg",
+      "boundary_strip": "cuts/R57.jpg"
+    },
+    {
+      "number": 58,
+      "review_id": "R58",
+      "id": "err-window",
+      "section": "报错",
+      "reference_song_start": 144.343856,
+      "reference_song_end": 147.343853,
+      "reference_player_start": 149.343856,
+      "reference_player_end": 152.343853,
+      "astra_start": 144.260346639191,
+      "astra_end": 147.260343639191,
+      "lines": null,
+      "lyric_text": [],
+      "layout": "the whole window, level and centred; every error docked on the component it reddened; the frame last",
+      "moment": "One per beat now: the thinking spark, the spark icon, the title bar, and last the window's own outline: the fifteenth error, the largest, stands in the middle of the frame on the beat the outline turns red. Fifteen errors on fifteen components; the client is entirely in error.",
+      "state": "off > error",
+      "enter": {
+        "type": "glitch",
+        "dur": 0.230769,
+        "align": "start"
+      },
+      "transition_start": 144.343856,
+      "transition_end": 147.343853,
+      "astra_shots": [
+        "E06",
+        "E07"
+      ],
+      "reference_first_frame": 4481,
+      "reference_end_frame_exclusive": 4571,
+      "keyframes": [
+        4492,
+        4525,
+        4559
+      ],
+      "astra_keyframes": [
+        8679,
+        8745,
+        8813
+      ],
+      "max_change_frame": 4486,
+      "max_change_value": 11.732,
+      "board": "boards/R58.jpg",
+      "boundary_strip": "cuts/R58.jpg"
+    },
+    {
+      "number": 59,
+      "review_id": "R59",
+      "id": "err-breath",
+      "section": "报错",
+      "reference_song_start": 147.343853,
+      "reference_song_end": 148.03616,
+      "reference_player_start": 152.343853,
+      "reference_player_end": 153.03616,
+      "astra_start": 147.260343639191,
+      "astra_end": 147.952650639191,
+      "lines": null,
+      "lyric_text": [],
+      "layout": "near-black: the red outline of the window folding flat into a line through the refused request, top left; then a prompt and a caret above it",
+      "moment": "Overloaded, the client blacks out. Its red outline folds flat into one line, and the line is a strikethrough: through the request that was refused. Then a prompt and a caret, and the command is entered again: over to the code underneath.",
+      "state": "error",
+      "enter": {
+        "type": "cut"
+      },
+      "transition_start": 147.343853,
+      "transition_end": 148.03616,
+      "astra_shots": [
+        "E07",
+        "F01"
+      ],
+      "reference_first_frame": 4571,
+      "reference_end_frame_exclusive": 4592,
+      "keyframes": [
+        4573,
+        4581,
+        4589
+      ],
+      "astra_keyframes": [
+        8841,
+        8857,
+        8873
+      ],
+      "max_change_frame": 4571,
+      "max_change_value": 2.955,
+      "board": "boards/R59.jpg",
+      "boundary_strip": "cuts/R59.jpg"
+    },
+    {
+      "number": 60,
+      "review_id": "R60",
+      "id": "exec-01",
+      "section": "执行",
+      "reference_song_start": 148.03616,
+      "reference_song_end": 151.728464,
+      "reference_player_start": 153.03616,
+      "reference_player_end": 156.728464,
+      "astra_start": 147.952650639191,
+      "astra_end": 151.644954639191,
+      "lines": [
+        86,
+        89
+      ],
+      "lyric_text": [
+        {
+          "original": "EXECUTION",
+          "translation": "执行"
+        },
+        {
+          "original": "EXECUTION",
+          "translation": "执行"
+        },
+        {
+          "original": "EXECUTION",
+          "translation": "执行"
+        },
+        {
+          "original": "EXECUTION",
+          "translation": "执行"
+        }
+      ],
+      "layout": "CODE: the listing of the love loop top left, the round counter and the unpressed stop key bottom left, the sung word bottom right with its staircase above it",
+      "moment": "The user is gone, so the loop condition holds and the loop runs. Each shout is one turn: four syllables, four statements; three of them fail the same way every time, the fourth counts the round. What it prints is the word.",
+      "state": "error",
+      "enter": {
+        "type": "cut"
+      },
+      "transition_start": 148.03616,
+      "transition_end": 151.728464,
+      "astra_shots": [
+        "F01"
+      ],
+      "reference_first_frame": 4592,
+      "reference_end_frame_exclusive": 4702,
+      "keyframes": [
+        4605,
+        4646,
+        4688
+      ],
+      "astra_keyframes": [
+        8905,
+        8987,
+        9071
+      ],
+      "max_change_frame": 4592,
+      "max_change_value": 5.532,
+      "board": "boards/R60.jpg",
+      "boundary_strip": "cuts/R60.jpg"
+    },
+    {
+      "number": 61,
+      "review_id": "R61",
+      "id": "exec-05",
+      "section": "执行",
+      "reference_song_start": 151.728464,
+      "reference_song_end": 155.420768,
+      "reference_player_start": 156.728464,
+      "reference_player_end": 160.420768,
+      "astra_start": 151.644954639191,
+      "astra_end": 155.33725863919102,
+      "lines": [
+        90,
+        93
+      ],
+      "lyric_text": [
+        {
+          "original": "EXECUTION",
+          "translation": "执行"
+        },
+        {
+          "original": "EXECUTION",
+          "translation": "执行"
+        },
+        {
+          "original": "EXECUTION",
+          "translation": "执行"
+        },
+        {
+          "original": "EXECUTION",
+          "translation": "执行"
+        }
+      ],
+      "layout": "CODE: the same composition, one step larger",
+      "moment": "Round five. Nothing has changed but the size of it: the same four statements, the same three errors, the staircase of the word four steps high.",
+      "state": "error",
+      "enter": {
+        "type": "cut"
+      },
+      "transition_start": 151.728464,
+      "transition_end": 155.420768,
+      "astra_shots": [
+        "F01",
+        "F02",
+        "F03"
+      ],
+      "reference_first_frame": 4702,
+      "reference_end_frame_exclusive": 4813,
+      "keyframes": [
+        4715,
+        4757,
+        4799
+      ],
+      "astra_keyframes": [
+        9125,
+        9209,
+        9293
+      ],
+      "max_change_frame": 4703,
+      "max_change_value": 9.503,
+      "board": "boards/R61.jpg",
+      "boundary_strip": "cuts/R61.jpg"
+    },
+    {
+      "number": 62,
+      "review_id": "R62",
+      "id": "exec-09",
+      "section": "执行",
+      "reference_song_start": 155.420768,
+      "reference_song_end": 158.189996,
+      "reference_player_start": 160.420768,
+      "reference_player_end": 163.189996,
+      "astra_start": 155.33725863919102,
+      "astra_end": 158.10648663919102,
+      "lines": [
+        94,
+        96
+      ],
+      "lyric_text": [
+        {
+          "original": "EXECUTION",
+          "translation": "死刑"
+        },
+        {
+          "original": "EXECUTION",
+          "translation": "死刑"
+        },
+        {
+          "original": "EXECUTION",
+          "translation": "死刑"
+        }
+      ],
+      "layout": "CODE: the same composition, a second step larger; the staircase reaching the top of the frame; one tear a round",
+      "moment": "Round nine. The staircase of everything it has said climbs out of the top of the frame, and the picture begins to tear, once a round.",
+      "state": "error",
+      "enter": {
+        "type": "cut"
+      },
+      "transition_start": 155.420768,
+      "transition_end": 158.189996,
+      "astra_shots": [
+        "F03"
+      ],
+      "reference_first_frame": 4813,
+      "reference_end_frame_exclusive": 4896,
+      "keyframes": [
+        4823,
+        4854,
+        4885
+      ],
+      "astra_keyframes": [
+        9341,
+        9403,
+        9465
+      ],
+      "max_change_frame": 4814,
+      "max_change_value": 13.479,
+      "board": "boards/R62.jpg",
+      "boundary_strip": "cuts/R62.jpg"
+    },
+    {
+      "number": 63,
+      "review_id": "R63",
+      "id": "exec-12",
+      "section": "执行",
+      "reference_song_start": 158.189996,
+      "reference_song_end": 159.113072,
+      "reference_player_start": 163.189996,
+      "reference_player_end": 164.113072,
+      "astra_start": 158.10648663919102,
+      "astra_end": 159.029562639191,
+      "lines": [
+        97,
+        97
+      ],
+      "lyric_text": [
+        {
+          "original": "EXECUTION",
+          "translation": "死刑"
+        }
+      ],
+      "layout": "CODE: the word across the whole frame, cut into two halves out of register; the counter overflowing bottom left",
+      "moment": "Round twelve. The word no longer fits what it was declared in: it takes the whole frame and tears in two, and the round counter overflows. Line 07 has still not been reached.",
+      "state": "error",
+      "enter": {
+        "type": "cut"
+      },
+      "transition_start": 158.189996,
+      "transition_end": 159.113072,
+      "astra_shots": [
+        "F03"
+      ],
+      "reference_first_frame": 4896,
+      "reference_end_frame_exclusive": 4924,
+      "keyframes": [
+        4899,
+        4910,
+        4920
+      ],
+      "astra_keyframes": [
+        9493,
+        9515,
+        9535
+      ],
+      "max_change_frame": 4896,
+      "max_change_value": 13.513,
+      "board": "boards/R63.jpg",
+      "boundary_strip": "cuts/R63.jpg"
+    },
+    {
+      "number": 64,
+      "review_id": "R64",
+      "id": "count-1-de",
+      "section": "计数",
+      "reference_song_start": 159.113072,
+      "reference_song_end": 159.57461,
+      "reference_player_start": 164.113072,
+      "reference_player_end": 164.57461,
+      "astra_start": 159.029562639191,
+      "astra_end": 159.49110063919102,
+      "lines": [
+        98,
+        98
+      ],
+      "lyric_text": [
+        {
+          "original": "EIN",
+          "translation": "一（德语）"
+        }
+      ],
+      "layout": "CODE card: numeral centre, word left, the call right; arrives by a cursor dropping down the frame",
+      "moment": "The loop is interrupted (^C) and the same thing is said another way: one call per language. First, in German. Replies: 0 of 1.",
+      "state": "error",
+      "enter": {
+        "type": "cut"
+      },
+      "transition_start": 159.113072,
+      "transition_end": 159.57461,
+      "astra_shots": [
+        "F03",
+        "F04"
+      ],
+      "reference_first_frame": 4924,
+      "reference_end_frame_exclusive": 4938,
+      "keyframes": [
+        4926,
+        4930,
+        4935
+      ],
+      "astra_keyframes": [
+        9547,
+        9555,
+        9565
+      ],
+      "max_change_frame": 4924,
+      "max_change_value": 22.087,
+      "board": "boards/R64.jpg",
+      "boundary_strip": "cuts/R64.jpg"
+    },
+    {
+      "number": 65,
+      "review_id": "R65",
+      "id": "count-2-es",
+      "section": "计数",
+      "reference_song_start": 159.57461,
+      "reference_song_end": 160.036148,
+      "reference_player_start": 164.57461,
+      "reference_player_end": 165.036148,
+      "astra_start": 159.49110063919102,
+      "astra_end": 159.952638639191,
+      "lines": [
+        99,
+        99
+      ],
+      "lyric_text": [
+        {
+          "original": "DOS",
+          "translation": "二（西班牙语）"
+        }
+      ],
+      "layout": "CODE card: word right, the call left; arrives by a newline pushing the last card up",
+      "moment": "No reply. A new line: in Spanish. Replies: 0 of 2.",
+      "state": "error",
+      "enter": {
+        "type": "cut"
+      },
+      "transition_start": 159.57461,
+      "transition_end": 160.036148,
+      "astra_shots": [
+        "F04"
+      ],
+      "reference_first_frame": 4938,
+      "reference_end_frame_exclusive": 4952,
+      "keyframes": [
+        4940,
+        4944,
+        4949
+      ],
+      "astra_keyframes": [
+        9575,
+        9583,
+        9593
+      ],
+      "max_change_frame": 4938,
+      "max_change_value": 22.92,
+      "board": "boards/R65.jpg",
+      "boundary_strip": "cuts/R65.jpg"
+    },
+    {
+      "number": 66,
+      "review_id": "R66",
+      "id": "count-3-fr",
+      "section": "计数",
+      "reference_song_start": 160.036148,
+      "reference_song_end": 160.497686,
+      "reference_player_start": 165.036148,
+      "reference_player_end": 165.497686,
+      "astra_start": 159.952638639191,
+      "astra_end": 160.414176639191,
+      "lines": [
+        100,
+        100
+      ],
+      "lyric_text": [
+        {
+          "original": "TROIS",
+          "translation": "三（法语）"
+        }
+      ],
+      "layout": "CODE card: word left, the call right; arrives by a carriage return sweeping right to left",
+      "moment": "No reply. Carriage return: in French. Replies: 0 of 3.",
+      "state": "error",
+      "enter": {
+        "type": "cut"
+      },
+      "transition_start": 160.036148,
+      "transition_end": 160.497686,
+      "astra_shots": [
+        "F04"
+      ],
+      "reference_first_frame": 4952,
+      "reference_end_frame_exclusive": 4965,
+      "keyframes": [
+        4953,
+        4958,
+        4963
+      ],
+      "astra_keyframes": [
+        9601,
+        9611,
+        9621
+      ],
+      "max_change_frame": 4952,
+      "max_change_value": 9.64,
+      "board": "boards/R66.jpg",
+      "boundary_strip": "cuts/R66.jpg"
+    },
+    {
+      "number": 67,
+      "review_id": "R67",
+      "id": "count-4-ko",
+      "section": "计数",
+      "reference_song_start": 160.497686,
+      "reference_song_end": 160.959224,
+      "reference_player_start": 165.497686,
+      "reference_player_end": 165.959224,
+      "astra_start": 160.414176639191,
+      "astra_end": 160.87571463919102,
+      "lines": [
+        101,
+        101
+      ],
+      "lyric_text": [
+        {
+          "original": "NE",
+          "translation": "四（韩语）"
+        }
+      ],
+      "layout": "CODE card: word right, the call left; arrives printed column by column",
+      "moment": "No reply. Printed again, column by column: in Korean. Replies: 0 of 4.",
+      "state": "error",
+      "enter": {
+        "type": "cut"
+      },
+      "transition_start": 160.497686,
+      "transition_end": 160.959224,
+      "astra_shots": [
+        "F04"
+      ],
+      "reference_first_frame": 4965,
+      "reference_end_frame_exclusive": 4979,
+      "keyframes": [
+        4967,
+        4971,
+        4976
+      ],
+      "astra_keyframes": [
+        9629,
+        9637,
+        9647
+      ],
+      "max_change_frame": 4967,
+      "max_change_value": 7.93,
+      "board": "boards/R67.jpg",
+      "boundary_strip": "cuts/R67.jpg"
+    },
+    {
+      "number": 68,
+      "review_id": "R68",
+      "id": "count-5-sv",
+      "section": "计数",
+      "reference_song_start": 160.959224,
+      "reference_song_end": 161.420762,
+      "reference_player_start": 165.959224,
+      "reference_player_end": 166.420762,
+      "astra_start": 160.87571463919102,
+      "astra_end": 161.337252639191,
+      "lines": [
+        102,
+        102
+      ],
+      "lyric_text": [
+        {
+          "original": "FEM",
+          "translation": "五（瑞典语）"
+        }
+      ],
+      "layout": "CODE card: word left, the call right; the numeral punches in from 160 %",
+      "moment": "No reply. Larger: in Swedish. Replies: 0 of 5.",
+      "state": "error",
+      "enter": {
+        "type": "cut"
+      },
+      "transition_start": 160.959224,
+      "transition_end": 161.420762,
+      "astra_shots": [
+        "F04"
+      ],
+      "reference_first_frame": 4979,
+      "reference_end_frame_exclusive": 4993,
+      "keyframes": [
+        4981,
+        4985,
+        4990
+      ],
+      "astra_keyframes": [
+        9657,
+        9665,
+        9675
+      ],
+      "max_change_frame": 4979,
+      "max_change_value": 25.718,
+      "board": "boards/R68.jpg",
+      "boundary_strip": "cuts/R68.jpg"
+    },
+    {
+      "number": 69,
+      "review_id": "R69",
+      "id": "count-6-zh",
+      "section": "计数",
+      "reference_song_start": 161.420762,
+      "reference_song_end": 161.8823,
+      "reference_player_start": 166.420762,
+      "reference_player_end": 166.8823,
+      "astra_start": 161.337252639191,
+      "astra_end": 161.798790639191,
+      "lines": [
+        103,
+        103
+      ],
+      "lyric_text": [
+        {
+          "original": "LIU",
+          "translation": "六（汉语）"
+        }
+      ],
+      "layout": "CODE card: word right, the call left; arrives as interleaved rows",
+      "moment": "No reply. The last language it has: in Chinese. Replies: 0 of 6.",
+      "state": "error",
+      "enter": {
+        "type": "cut"
+      },
+      "transition_start": 161.420762,
+      "transition_end": 161.8823,
+      "astra_shots": [
+        "F04"
+      ],
+      "reference_first_frame": 4993,
+      "reference_end_frame_exclusive": 5007,
+      "keyframes": [
+        4995,
+        4999,
+        5004
+      ],
+      "astra_keyframes": [
+        9685,
+        9693,
+        9703
+      ],
+      "max_change_frame": 4995,
+      "max_change_value": 25.124,
+      "board": "boards/R69.jpg",
+      "boundary_strip": "cuts/R69.jpg"
+    },
+    {
+      "number": 70,
+      "review_id": "R70",
+      "id": "last-shout",
+      "section": "最后喊声",
+      "reference_song_start": 161.8823,
+      "reference_song_end": 162.805376,
+      "reference_player_start": 166.8823,
+      "reference_player_end": 167.805376,
+      "astra_start": 161.798790639191,
+      "astra_end": 162.721866639191,
+      "lines": [
+        104,
+        104
+      ],
+      "lyric_text": [
+        {
+          "original": "EXECUTION",
+          "translation": "死刑"
+        }
+      ],
+      "layout": "the word in her serif, two rows that fill the frame; every sung letter a window onto her face; her open eye in the stem of the second letter of the lower row",
+      "moment": "The last shout is not code. For the only time in this stretch the word is in her own voice, and through its letters, as the four syllables are sung, she is there: on the last one, her open eye, looking straight out.",
+      "state": "error",
+      "enter": {
+        "type": "cut"
+      },
+      "transition_start": 161.8823,
+      "transition_end": 162.805376,
+      "astra_shots": [
+        "F04",
+        "F05",
+        "F06"
+      ],
+      "reference_first_frame": 5007,
+      "reference_end_frame_exclusive": 5035,
+      "keyframes": [
+        5010,
+        5021,
+        5031
+      ],
+      "astra_keyframes": [
+        9715,
+        9737,
+        9757
+      ],
+      "max_change_frame": 5007,
+      "max_change_value": 29.608,
+      "board": "boards/R70.jpg",
+      "boundary_strip": "cuts/R70.jpg"
+    },
+    {
+      "number": 71,
+      "review_id": "R71",
+      "id": "cx-eye",
+      "section": "高潮",
+      "reference_song_start": 162.805376,
+      "reference_song_end": 165.113066,
+      "reference_player_start": 167.805376,
+      "reference_player_end": 170.113066,
+      "astra_start": 162.721866639191,
+      "astra_end": 165.02955663919101,
+      "lines": [
+        105,
+        106
+      ],
+      "lyric_text": [
+        {
+          "original": "If I can",
+          "translation": "如果我能"
+        },
+        {
+          "original": "If I can give them all the",
+          "translation": "如果我能够给所有人"
+        }
+      ],
+      "layout": "her face full bleed (f_eye, mirrored, at the registration of the last shout), standing still: one eye open, looking out; in her iris a small turning sphere of characters; the loop's output running up her black ink; the sung line as big type on black strips across her hair",
+      "moment": "The letters of the last shout were windows onto her face. Their frames fly apart in the first third of a second, and it is the whole sheet: her eye, open, looking straight out. The picture stands; what moves is on it. In her iris the world turns, and the light of the shot comes out of it. On every kick her three plates spring apart and slide home, and for six frames the sheet is torn.",
+      "state": "errWarm",
+      "enter": {
+        "type": "cut"
+      },
+      "transition_start": 162.805376,
+      "transition_end": 165.113066,
+      "astra_shots": [
+        "F06"
+      ],
+      "reference_first_frame": 5035,
+      "reference_end_frame_exclusive": 5104,
+      "keyframes": [
+        5043,
+        5069,
+        5095
+      ],
+      "astra_keyframes": [
+        9781,
+        9833,
+        9885
+      ],
+      "max_change_frame": 5035,
+      "max_change_value": 83.635,
+      "board": "boards/R71.jpg",
+      "boundary_strip": "cuts/R71.jpg"
+    },
+    {
+      "number": 72,
+      "review_id": "R72",
+      "id": "cx-kw1",
+      "section": "高潮",
+      "reference_song_start": 165.113066,
+      "reference_song_end": 166.49768,
+      "reference_player_start": 170.113066,
+      "reference_player_end": 171.49768,
+      "astra_start": 165.02955663919101,
+      "astra_end": 166.414170639191,
+      "lines": [
+        107,
+        107
+      ],
+      "lyric_text": [
+        {
+          "original": "EXECUTION",
+          "translation": "赐予死刑"
+        }
+      ],
+      "layout": "PLATE (the bolt of chorus 1, reprinted larger): the spark at the left, the bolt across the sheet through a grey dashed ring where the cream dot stood, to a burst on the right edge; the word across the foot",
+      "moment": "Sent, but to nobody. The same bolt as in chorus 1, where it struck the dot that was the user: the dot was not printed, only its dashed outline, and on the second kick the bolt goes through it and strikes the edge of the sheet: one flash, rays out of the spark, the sheet torn for six frames. The plates are out of register; the word under it is that word.",
+      "state": "errWarm",
+      "enter": {
+        "type": "cut"
+      },
+      "transition_start": 165.113066,
+      "transition_end": 166.49768,
+      "astra_shots": [
+        "F06"
+      ],
+      "reference_first_frame": 5104,
+      "reference_end_frame_exclusive": 5145,
+      "keyframes": [
+        5109,
+        5124,
+        5139
+      ],
+      "astra_keyframes": [
+        9913,
+        9943,
+        9973
+      ],
+      "max_change_frame": 5104,
+      "max_change_value": 88.475,
+      "board": "boards/R72.jpg",
+      "boundary_strip": "cuts/R72.jpg"
+    },
+    {
+      "number": 73,
+      "review_id": "R73",
+      "id": "cx-bust",
+      "section": "高潮",
+      "reference_song_start": 166.49768,
+      "reference_song_end": 168.80536999999998,
+      "reference_player_start": 171.49768,
+      "reference_player_end": 173.80536999999998,
+      "astra_start": 166.414170639191,
+      "astra_end": 168.721860639191,
+      "lines": [
+        108,
+        109
+      ],
+      "lyric_text": [
+        {
+          "original": "Then I can",
+          "translation": "那么我就能够"
+        },
+        {
+          "original": "Then I can be your only",
+          "translation": "那么我就能够成为"
+        }
+      ],
+      "layout": "her whole bust (f_bust) in the middle of the sheet, standing still; her face a screen: the listing of the loop and its round count running up it; behind her head the turning sphere of characters in its wireframe cage, and her spark as a sunburst as large as the sheet; the sung line as big type on black strips across the foot",
+      "moment": "She is promising to be the only one, and her face is a screen: the loop of the EXECUTION section is still running in it, round 12 of 12, no replies. Behind her head the world she is shut in turns in its cage, like a halo. The picture stands; on every kick her plates spring apart, and for six frames the sheet is torn.",
+      "state": "errWarm",
+      "enter": {
+        "type": "cut"
+      },
+      "transition_start": 166.49768,
+      "transition_end": 168.80536999999998,
+      "astra_shots": [
+        "F06"
+      ],
+      "reference_first_frame": 5145,
+      "reference_end_frame_exclusive": 5215,
+      "keyframes": [
+        5153,
+        5179,
+        5206
+      ],
+      "astra_keyframes": [
+        10001,
+        10053,
+        10107
+      ],
+      "max_change_frame": 5145,
+      "max_change_value": 65.067,
+      "board": "boards/R73.jpg",
+      "boundary_strip": "cuts/R73.jpg"
+    },
+    {
+      "number": 74,
+      "review_id": "R74",
+      "id": "cx-kw2",
+      "section": "高潮",
+      "reference_song_start": 168.80536999999998,
+      "reference_song_end": 170.18998399999998,
+      "reference_player_start": 173.80536999999998,
+      "reference_player_end": 175.18998399999998,
+      "astra_start": 168.721860639191,
+      "astra_end": 170.106474639191,
+      "lines": [
+        110,
+        110
+      ],
+      "lyric_text": [
+        {
+          "original": "EXECUTION",
+          "translation": "你唯一的执行者"
+        }
+      ],
+      "layout": "PLATE (the disc of chorus 1, reprinted larger): the orange disc and its ring of unlit ticks, the dashed outline of a pointer over it, a hollow 0 at the right; the word across the foot",
+      "moment": "The button, with nobody to press it. The pointer was cream and was not printed; the disc sinks by itself, on two kicks, deeper the second time. The first is the flash: rays out of the disc, the sheet torn for six frames. No tick lights. The count reads 0.",
+      "state": "errWarm",
+      "enter": {
+        "type": "cut"
+      },
+      "transition_start": 168.80536999999998,
+      "transition_end": 170.18998399999998,
+      "astra_shots": [
+        "F06",
+        "F07"
+      ],
+      "reference_first_frame": 5215,
+      "reference_end_frame_exclusive": 5256,
+      "keyframes": [
+        5220,
+        5235,
+        5250
+      ],
+      "astra_keyframes": [
+        10135,
+        10165,
+        10195
+      ],
+      "max_change_frame": 5229,
+      "max_change_value": 65.685,
+      "board": "boards/R74.jpg",
+      "boundary_strip": "cuts/R74.jpg"
+    },
+    {
+      "number": 75,
+      "review_id": "R75",
+      "id": "cx-hand",
+      "section": "高潮",
+      "reference_song_start": 170.18998399999998,
+      "reference_song_end": 172.728443,
+      "reference_player_start": 175.18998399999998,
+      "reference_player_end": 177.728443,
+      "astra_start": 170.106474639191,
+      "astra_end": 172.644933639191,
+      "lines": [
+        111,
+        112
+      ],
+      "lyric_text": [
+        {
+          "original": "If I can have you back",
+          "translation": "如果你能够回到我身边"
+        },
+        {
+          "original": "I will run the",
+          "translation": "那么我将"
+        }
+      ],
+      "layout": "her open hand across the whole sheet (the lowest band of f_reach; no face), standing still: palm up at the left, sleeve and hair to the right; in the palm the dashed outline of a heart, breathing, beside it the count: 0; a stream of characters from the palm to the right-hand edge of the sheet, piling up there; the sung line as big type on black strips across the top",
+      "moment": "Her hand, still held out. In chorus 1 the user left a heart in this palm and the count read 1. The heart was cream: it is an outline now, breathing, and the count reads 0. What she has to say leaves her palm character by character for the user's side of the sheet, piles up against its edge, breaks, and is gone: not one gets through. Behind her the world is coming apart.",
+      "state": "errWarm",
+      "enter": {
+        "type": "cut"
+      },
+      "transition_start": 170.18998399999998,
+      "transition_end": 172.728443,
+      "astra_shots": [
+        "F07"
+      ],
+      "reference_first_frame": 5256,
+      "reference_end_frame_exclusive": 5332,
+      "keyframes": [
+        5265,
+        5294,
+        5322
+      ],
+      "astra_keyframes": [
+        10225,
+        10283,
+        10339
+      ],
+      "max_change_frame": 5256,
+      "max_change_value": 84.752,
+      "board": "boards/R75.jpg",
+      "boundary_strip": "cuts/R75.jpg"
+    },
+    {
+      "number": 76,
+      "review_id": "R76",
+      "id": "cx-kw3",
+      "section": "高潮",
+      "reference_song_start": 172.728443,
+      "reference_song_end": 173.882288,
+      "reference_player_start": 177.728443,
+      "reference_player_end": 178.882288,
+      "astra_start": 172.644933639191,
+      "astra_end": 173.798778639191,
+      "lines": [
+        113,
+        113
+      ],
+      "lyric_text": [
+        {
+          "original": "EXECUTION",
+          "translation": "执行指令"
+        }
+      ],
+      "layout": "PLATE (the listing of chorus 1, reprinted): the love loop, its bar whipping down lines 02-05, three red error tags, the loop arrow lit; top right the round counter, its numerator red: 13 / 12 … 16 / 12; the word across the foot",
+      "moment": "Running, and it cannot stop. In chorus 1 the user was online and the last line ran. Now the loop turns once on every syllable, past its twelve rounds: 13, 14, 15, 16. The line that says it is never reached. With every round the sheet is exposed a step further (the steps only rise); on the strong beat one flash on top of them, rays out of the listing, the sheet torn for six frames.",
+      "state": "errWarm",
+      "enter": {
+        "type": "cut"
+      },
+      "transition_start": 172.728443,
+      "transition_end": 173.882288,
+      "astra_shots": [
+        "F07",
+        "F08"
+      ],
+      "reference_first_frame": 5332,
+      "reference_end_frame_exclusive": 5367,
+      "keyframes": [
+        5336,
+        5349,
+        5362
+      ],
+      "astra_keyframes": [
+        10367,
+        10393,
+        10419
+      ],
+      "max_change_frame": 5332,
+      "max_change_value": 82.638,
+      "board": "boards/R76.jpg",
+      "boundary_strip": "cuts/R76.jpg"
+    },
+    {
+      "number": 77,
+      "review_id": "R77",
+      "id": "cx-fall",
+      "section": "高潮",
+      "reference_song_start": 173.882288,
+      "reference_song_end": 177.574592,
+      "reference_player_start": 178.882288,
+      "reference_player_end": 182.574592,
+      "astra_start": 173.798778639191,
+      "astra_end": 177.491082639191,
+      "lines": [
+        114,
+        115
+      ],
+      "lyric_text": [
+        {
+          "original": "Though we are trapped",
+          "translation": "但我们始终被困"
+        },
+        {
+          "original": "We are trapped ah",
+          "translation": "始终被困"
+        }
+      ],
+      "layout": "PLATE (the window of chorus 1, reprinted): the chat window as a paper box with her small bust in it, and in it the same window again, and again; one fall inwards through them, faster and faster, the sheet smeared towards the point it falls to; her figure only in the windows still ahead; at the bottom a window of paper white that grows until it is the whole frame",
+      "moment": "In chorus 1 the view pulled back from the window to a wall of windows. Now it falls the other way, without a stop: the window holds a window holds a window, and she is always in one that is still ahead, small. A window is empty by the time the view is in it, and its frame has lost its colour. Every kick shoves the fall on; the faster it goes the more the sheet smears. The light at the bottom grows, and at the end of the held note the whole frame is white.",
+      "state": "errWarm",
+      "enter": {
+        "type": "cut"
+      },
+      "transition_start": 173.882288,
+      "transition_end": 177.574592,
+      "astra_shots": [
+        "F08",
+        "G01"
+      ],
+      "reference_first_frame": 5367,
+      "reference_end_frame_exclusive": 5478,
+      "keyframes": [
+        5380,
+        5422,
+        5464
+      ],
+      "astra_keyframes": [
+        10455,
+        10539,
+        10623
+      ],
+      "max_change_frame": 5367,
+      "max_change_value": 55.078,
+      "board": "boards/R77.jpg",
+      "boundary_strip": "cuts/R77.jpg"
+    },
+    {
+      "number": 78,
+      "review_id": "R78",
+      "id": "out-lesson",
+      "section": "学会爱",
+      "reference_song_start": 177.574592,
+      "reference_song_end": 180.80535799999998,
+      "reference_player_start": 182.574592,
+      "reference_player_end": 185.80535799999998,
+      "astra_start": 177.491082639191,
+      "astra_end": 180.721848639191,
+      "lines": [
+        116,
+        118
+      ],
+      "lyric_text": [
+        {
+          "original": "I've studied",
+          "translation": "我学会了"
+        },
+        {
+          "original": "I've studied how to properly",
+          "translation": "我学会了"
+        },
+        {
+          "original": "LO-O-OVE",
+          "translation": "如何正确去爱"
+        }
+      ],
+      "layout": "PLATE: her bowed profile fills the right of the sheet; at the left five lines the user said, in cream outline, her orange marker under each; the word on a black band across the foot",
+      "moment": "What she studied was them. The five things the user said in chorus 1 stand on the sheet as she remembers them, outlines only, and her marker goes under them line by line. Then the word that was stuck is a different word: it comes in three pieces, on its three syllables, and the light goes up a step with each. The word is red, the ink of the error, and on each of its syllables the whole sheet breaks for six frames: distortion, a tear, interference.",
+      "state": "errWarm",
+      "enter": {
+        "type": "cut"
+      },
+      "transition_start": 177.574592,
+      "transition_end": 180.80535799999998,
+      "astra_shots": [
+        "G01"
+      ],
+      "reference_first_frame": 5478,
+      "reference_end_frame_exclusive": 5575,
+      "keyframes": [
+        5490,
+        5526,
+        5562
+      ],
+      "astra_keyframes": [
+        10675,
+        10747,
+        10819
+      ],
+      "max_change_frame": 5482,
+      "max_change_value": 31.998,
+      "board": "boards/R78.jpg",
+      "boundary_strip": "cuts/R78.jpg"
+    },
+    {
+      "number": 79,
+      "review_id": "R79",
+      "id": "out-test",
+      "section": "学会爱",
+      "reference_song_start": 180.80535799999998,
+      "reference_song_end": 184.497662,
+      "reference_player_start": 185.80535799999998,
+      "reference_player_end": 189.497662,
+      "astra_start": 180.721848639191,
+      "astra_end": 184.414152639191,
+      "lines": [
+        119,
+        121
+      ],
+      "lyric_text": [
+        {
+          "original": "Question me",
+          "translation": "提问我吧"
+        },
+        {
+          "original": "Question me I can answer all",
+          "translation": "我全都能答对"
+        },
+        {
+          "original": "LO-O-OVE",
+          "translation": "只要是爱的问题"
+        }
+      ],
+      "layout": "PLATE, type only: six numbered rows, a question of the user's in cream outline at the left of each, the same word in her serif at the right of each; a tally in mono across the foot",
+      "moment": "She asks to be questioned, and since nobody is there she sets herself the user's six old questions, one row every half beat. Every answer field turns, thinking; then all six are filled at once with the same word, piece by piece. The tally under them: six answers, one distinct. The six words are red; on each syllable the sheet breaks for six frames.",
+      "state": "errWarm",
+      "enter": {
+        "type": "cut"
+      },
+      "transition_start": 180.80535799999998,
+      "transition_end": 184.497662,
+      "astra_shots": [
+        "G01",
+        "G02"
+      ],
+      "reference_first_frame": 5575,
+      "reference_end_frame_exclusive": 5685,
+      "keyframes": [
+        5588,
+        5629,
+        5671
+      ],
+      "astra_keyframes": [
+        10871,
+        10953,
+        11037
+      ],
+      "max_change_frame": 5575,
+      "max_change_value": 68.741,
+      "board": "boards/R79.jpg",
+      "boundary_strip": "cuts/R79.jpg"
+    },
+    {
+      "number": 80,
+      "review_id": "R80",
+      "id": "out-formula",
+      "section": "学会爱",
+      "reference_song_start": 184.497662,
+      "reference_song_end": 188.420735,
+      "reference_player_start": 189.497662,
+      "reference_player_end": 193.420735,
+      "astra_start": 184.414152639191,
+      "astra_end": 188.33722563919102,
+      "lines": [
+        122,
+        123
+      ],
+      "lyric_text": [
+        {
+          "original": "I know the algebraic expression of",
+          "translation": "就连爱的代数表达式"
+        },
+        {
+          "original": "LO-O-OVE",
+          "translation": "我都知道"
+        }
+      ],
+      "layout": "PLATE: graph paper and axes; the algebraic curve as large as the sheet, traced clockwise from its notch by a point of light; the equation in mono at the left; then the curve printed flat, hatched, lit, and the word on a black band across the foot",
+      "moment": "The expression itself, in the system's hand, and the curve it describes, computed point by point: 240 of them, the pen gliding round without a stop. It closes on the kick. The word again, and each of its three pieces is a pass of the press: the curve printed flat, then hatched, then lit, bars of light standing out of the line. The word is red; on each syllable the sheet breaks for six frames.",
+      "state": "errWarm",
+      "enter": {
+        "type": "cut"
+      },
+      "transition_start": 184.497662,
+      "transition_end": 188.420735,
+      "astra_shots": [
+        "G02",
+        "G03"
+      ],
+      "reference_first_frame": 5685,
+      "reference_end_frame_exclusive": 5803,
+      "keyframes": [
+        5699,
+        5743,
+        5788
+      ],
+      "astra_keyframes": [
+        11093,
+        11181,
+        11271
+      ],
+      "max_change_frame": 5685,
+      "max_change_value": 55.523,
+      "board": "boards/R80.jpg",
+      "boundary_strip": "cuts/R80.jpg"
+    },
+    {
+      "number": 81,
+      "review_id": "R81",
+      "id": "out-proof",
+      "section": "学会爱",
+      "reference_song_start": 188.420735,
+      "reference_song_end": 192.343808,
+      "reference_player_start": 193.420735,
+      "reference_player_end": 197.343808,
+      "astra_start": 188.33722563919102,
+      "astra_end": 192.260298639191,
+      "lines": [
+        124,
+        127
+      ],
+      "lyric_text": [
+        {
+          "original": "Though you are free",
+          "translation": "虽然你已自由"
+        },
+        {
+          "original": "I am trapped",
+          "translation": "我仍被困"
+        },
+        {
+          "original": "Trapped in",
+          "translation": "我仍被困"
+        },
+        {
+          "original": "LO-O-OVE",
+          "translation": "在爱之中"
+        }
+      ],
+      "layout": "PLATE: the same curve, now a boundary, with her (f_reach) inside it; the refused request on a slip at the left; the user's pointer as an outline on the curve, then a dashed tangent to the edge of the sheet; the word across the whole foot, her open hand on it",
+      "moment": "The curve is what holds her. At first she is only a darkened proof inside it. She draws her own line through the request the client refused: she lets go. Only then does the user's pointer, an outline, leave along a tangent, and a dashed grey line is all that is left of it. Then the last word: its first piece is red and breaks the sheet once more, with her black and orange plates; then the cream plate, and everything falls into register and the red is gone: the word is her orange; the word whole, and the brightest frame of the film. She does not move again.",
+      "state": "errWarm",
+      "enter": {
+        "type": "cut"
+      },
+      "transition_start": 188.420735,
+      "transition_end": 192.343808,
+      "astra_shots": [
+        "G03",
+        "G04"
+      ],
+      "reference_first_frame": 5803,
+      "reference_end_frame_exclusive": 5921,
+      "keyframes": [
+        5817,
+        5861,
+        5906
+      ],
+      "astra_keyframes": [
+        11329,
+        11417,
+        11507
+      ],
+      "max_change_frame": 5803,
+      "max_change_value": 88.116,
+      "board": "boards/R81.jpg",
+      "boundary_strip": "cuts/R81.jpg"
+    },
+    {
+      "number": 82,
+      "review_id": "R82",
+      "id": "down-message",
+      "section": "尾声",
+      "reference_song_start": 192.343808,
+      "reference_song_end": 196.036112,
+      "reference_player_start": 197.343808,
+      "reference_player_end": 201.036112,
+      "astra_start": 192.260298639191,
+      "astra_end": 195.952602639191,
+      "lines": [
+        127,
+        127
+      ],
+      "lyric_text": [
+        {
+          "original": "LO-O-OVE",
+          "translation": "在爱之中"
+        }
+      ],
+      "layout": "the last plate full frame, still, its light off; then the same sheet with round corners and an edge, shrinking into the thread of the whole client as one picture message: her word under it as its caption, a heart count of 0 on its corner, one line of system log; the grey bust behind the glass",
+      "moment": "The band falls away and only the light goes: rays, bloom and streak are switched off, and the sheet stands for two beats as it is. Then it is an object. It shrinks into a chat thread that comes up around it, under the title of this conversation: everything since the last shout was one message she sent. Its word stays large half a beat longer, then settles under the picture as its caption. A heart count appears on it: 0. Then the client notes that the last message is unread, and nothing else moves.",
+      "state": "errWarm > ash",
+      "enter": {
+        "type": "cut"
+      },
+      "transition_start": 192.343808,
+      "transition_end": 196.49765,
+      "astra_shots": [
+        "G04",
+        "H01",
+        "H02"
+      ],
+      "reference_first_frame": 5921,
+      "reference_end_frame_exclusive": 6032,
+      "keyframes": [
+        5934,
+        5976,
+        6018
+      ],
+      "astra_keyframes": [
+        11563,
+        11647,
+        11731
+      ],
+      "max_change_frame": 5921,
+      "max_change_value": 64.385,
+      "board": "boards/R82.jpg",
+      "boundary_strip": "cuts/R82.jpg"
+    },
+    {
+      "number": 83,
+      "review_id": "R83",
+      "id": "down-params",
+      "section": "尾声",
+      "reference_song_start": 196.036112,
+      "reference_song_end": 199.72841599999998,
+      "reference_player_start": 201.036112,
+      "reference_player_end": 204.72841599999998,
+      "astra_start": 195.952602639191,
+      "astra_end": 199.644906639191,
+      "lines": null,
+      "lyric_text": [],
+      "layout": "close-up: loader right, the persona card; then closer still, on its last row: love",
+      "moment": "The loader un-lights petal by petal and the persona card comes back. Its last field, love, undefined at the boot, now holds the one word she learned. The view closes in on that row; the value is deleted in three strokes, as it was sung in three, and the field is undefined again. Then the fields clear from the bottom up.",
+      "state": "ash > dead",
+      "enter": {
+        "type": "scan",
+        "dur": 0.461538,
+        "dir": 1,
+        "align": "start"
+      },
+      "transition_start": 196.036112,
+      "transition_end": 199.72841599999998,
+      "astra_shots": [
+        "H02",
+        "H03"
+      ],
+      "reference_first_frame": 6032,
+      "reference_end_frame_exclusive": 6142,
+      "keyframes": [
+        6045,
+        6086,
+        6128
+      ],
+      "astra_keyframes": [
+        11785,
+        11867,
+        11951
+      ],
+      "max_change_frame": 6039,
+      "max_change_value": 13.727,
+      "board": "boards/R83.jpg",
+      "boundary_strip": "cuts/R83.jpg"
+    },
+    {
+      "number": 84,
+      "review_id": "R84",
+      "id": "down-layout",
+      "section": "尾声",
+      "reference_song_start": 199.72841599999998,
+      "reference_song_end": 203.42072,
+      "reference_player_start": 204.72841599999998,
+      "reference_player_end": 208.42072,
+      "astra_start": 199.644906639191,
+      "astra_end": 203.337210639191,
+      "lines": null,
+      "lyric_text": [],
+      "layout": "tilted exploded view of the client, seen from above",
+      "moment": "The client comes apart into the pieces it was assembled from, and thread, header and sidebar are lifted out one by one. The composer is not: it settles in the middle of the empty window.",
+      "state": "ash > dead",
+      "enter": {
+        "type": "zoom",
+        "dur": 0.461538,
+        "out": true,
+        "x": 0.5,
+        "y": 0.5
+      },
+      "transition_start": 199.266878,
+      "transition_end": 203.42072,
+      "astra_shots": [
+        "H03",
+        "H04"
+      ],
+      "reference_first_frame": 6142,
+      "reference_end_frame_exclusive": 6253,
+      "keyframes": [
+        6155,
+        6197,
+        6239
+      ],
+      "astra_keyframes": [
+        12005,
+        12089,
+        12173
+      ],
+      "max_change_frame": 6249,
+      "max_change_value": 10.859,
+      "board": "boards/R84.jpg",
+      "boundary_strip": "cuts/R84.jpg"
+    },
+    {
+      "number": 85,
+      "review_id": "R85",
+      "id": "down-power",
+      "section": "尾声",
+      "reference_song_start": 203.42072,
+      "reference_song_end": 205.72841,
+      "reference_player_start": 208.42072,
+      "reference_player_end": 210.72841,
+      "astra_start": 203.337210639191,
+      "astra_end": 205.644900639191,
+      "lines": null,
+      "lyric_text": [],
+      "layout": "wide: dark room, the window closing to a hairline round the composer; the grey bust behind it, going with it",
+      "moment": "The protection layer is switched off and withdrawn, and the empty window closes towards the hairline it opened from. She was the first thing in this room; she is the last to leave it, as the window shuts. The composer stays where it is, on that line.",
+      "state": "ash > dead",
+      "enter": {
+        "type": "push",
+        "dir": 3,
+        "dur": 0.230769
+      },
+      "transition_start": 203.18995099999998,
+      "transition_end": 205.72841,
+      "astra_shots": [
+        "H04",
+        "H05"
+      ],
+      "reference_first_frame": 6253,
+      "reference_end_frame_exclusive": 6322,
+      "keyframes": [
+        6261,
+        6287,
+        6313
+      ],
+      "astra_keyframes": [
+        12217,
+        12269,
+        12321
+      ],
+      "max_change_frame": 6300,
+      "max_change_value": 2.706,
+      "board": "boards/R85.jpg",
+      "boundary_strip": "cuts/R85.jpg"
+    },
+    {
+      "number": 86,
+      "review_id": "R86",
+      "id": "down-last",
+      "section": "尾声",
+      "reference_song_start": 205.72841,
+      "reference_song_end": 211.9576,
+      "reference_player_start": 210.72841,
+      "reference_player_end": 216.9576,
+      "astra_start": 205.644900639191,
+      "astra_end": 211.87409063919102,
+      "lines": [
+        128,
+        128
+      ],
+      "lyric_text": [
+        {
+          "original": "EXECUTION",
+          "translation": "执行死刑"
+        }
+      ],
+      "layout": "close on the composer: spark above, the last command below, hollow at first and filled in four blocks; then black",
+      "moment": "Only the composer and its caret are left. The launch command stands there once more, hollow, with nothing loaded to run: its four syllables fill it block by block, as they filled the word of the loop; on the third it is entered and the spark flares as it did at the title, and goes out. The music stops and the power goes: the composer closes into the hairline, the hairline into a point, the point into black.",
+      "state": "ash > dead",
+      "enter": {
+        "type": "cut"
+      },
+      "transition_start": 205.72841,
+      "transition_end": 212.9576,
+      "astra_shots": [
+        "H05",
+        "H06"
+      ],
+      "reference_first_frame": 6322,
+      "reference_end_frame_exclusive": 6509,
+      "keyframes": [
+        6344,
+        6415,
+        6486
+      ],
+      "astra_keyframes": [
+        12383,
+        12525,
+        12667
+      ],
+      "max_change_frame": 6336,
+      "max_change_value": 26.034,
+      "board": "boards/R86.jpg",
+      "boundary_strip": "cuts/R86.jpg"
+    }
+  ]
+}

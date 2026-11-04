@@ -1,0 +1,988 @@
+[
+  {
+    "review_id": "R00",
+    "title": "检查命令先于歌曲出现",
+    "composition": "暗灰空间里只有左对齐的等宽检查文本，警示行的浅底标签比周围说明更亮，倒计时单独落在下方。人物和音乐世界都尚未启动，画面把注意力留给阅读。",
+    "motion": "f25–30 连续帧中，第一条警示整行显露，背景位置基本不动；三张关键帧随后从检查命令变为完整提示和倒计时。这里的节奏来自信息逐行增加，不是摄影机推进。",
+    "astra_now": "v1 没有对应的歌曲前片头，下排明确为空，不能拿 A01 冒充同时间对照。原片这五秒也不应自动加进我们已经校准的原曲时长。",
+    "astra_proposal": "保留不加片头的现状，把真正的电路启动安排在歌曲第一拍；若后续确实设计了需要提醒的强光段，再单独讨论片外提示。不能为了外形相似复制原片警示和倒计时。",
+    "discussion_prompt": "是否维持歌曲直接进入工作空间，把片前说明与正式 MV 分开？",
+    "evidence_frames": [
+      0,
+      1,
+      2,
+      18,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      74,
+      131
+    ],
+    "source_files": [
+      "D:/myskills/updream/KI-MV-Remake-Projekt/exports/shot-review-20261105/boards/R00.jpg",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/exports/shot-review-20261105/cuts/R00.jpg",
+      "D:/myskills/updream/references/world-execute-me-lyric-mv/src/scenes/overlay.js",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/docs/REVISION_V2_SCENE_PROPOSAL.md",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/docs/shot-review-20261105/frame-index.json"
+    ]
+  },
+  {
+    "review_id": "R01",
+    "title": "一条电源线展开为有保护层的窗口",
+    "composition": "横线先占据画面中腰，展开后形成接近全幅的暗色工作窗口；大关键词与开关在窗口内部，角色只作为玻璃后的暗影。边框、控件和背景人物有明确前后层次。",
+    "motion": "f165→210→256 能看到细线、开窗、保护开关开启三个状态；f264–269 则显示完成的窗口向上退，逐渐露出后层人物和下一组组件。不是单纯让角色从黑里淡入。",
+    "astra_now": "同歌时段 A01 由亮点变为横向裁切的人脸，之后扩大裁口；没有电源接入、护具或可操作窗口。苏醒目前主要是立绘显露，启动动作缺少可见对象。",
+    "astra_proposal": "用接到桌面的紫色电路取代脸部裁口，镜头先看她戴好绝缘护片的手，电到达后才让输入区亮起。保护层应能在后面重新辨认，而不是一次性装饰圈。",
+    "discussion_prompt": "第一拍更适合先看她的手接通电源，还是从工作台电路一路跟到她的手？",
+    "evidence_frames": [
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      165,
+      210,
+      256,
+      264,
+      265,
+      266,
+      267,
+      268,
+      269
+    ],
+    "source_files": [
+      "D:/myskills/updream/KI-MV-Remake-Projekt/exports/shot-review-20261105/boards/R01.jpg",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/exports/shot-review-20261105/cuts/R01.jpg",
+      "D:/myskills/updream/references/world-execute-me-lyric-mv/src/scenes/01_boot.js",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/src/full/early.js",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/docs/REVISION_V2_SCENE_PROPOSAL.md",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/docs/shot-review-20261105/frame-index.json"
+    ]
+  },
+  {
+    "review_id": "R02",
+    "title": "可识别的界面部件逐层落位",
+    "composition": "斜俯视底板上方分别悬着侧栏、标题栏、对话与输入区，人物在右后方提供稳定尺度；末帧回到正面完整窗口。每一片都能从形状和内容辨认功能。",
+    "motion": "f285→326→368 不是整张板一起放大，而是组件先错层、补齐，再压回同一平面；f368–373 的出口又沿正面窗口向内冲近，大字越过画边。边界条还可见前镜被上推、底板接续进入。",
+    "astra_now": "A02 也有倾斜叠层，但三层主要是 FORM/MEMORY/POSSIBILITY 空框，人物由上至下显露。看得到装配形式，看不到输入、记忆和输出各自如何工作。",
+    "astra_proposal": "让输入托盘、输出画布、旧记忆匣和状态条成为四块不同的实物界面；她的手分别确认落位，最后输出画布正对观众。角色只在后层保留部分剪影，避免又以全身站姿为唯一主体。",
+    "discussion_prompt": "工作区的四个部件是否固定为右输入、中央画布、左下记忆匣、上方状态条，供后面反复操作？",
+    "evidence_frames": [
+      269,
+      270,
+      271,
+      272,
+      273,
+      274,
+      285,
+      326,
+      368,
+      369,
+      370,
+      371,
+      372,
+      373
+    ],
+    "source_files": [
+      "D:/myskills/updream/KI-MV-Remake-Projekt/exports/shot-review-20261105/boards/R02.jpg",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/exports/shot-review-20261105/cuts/R02.jpg",
+      "D:/myskills/updream/references/world-execute-me-lyric-mv/src/scenes/01_boot.js",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/src/full/early.js",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/docs/REVISION_V2_SCENE_PROPOSAL.md",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/docs/shot-review-20261105/frame-index.json"
+    ]
+  },
+  {
+    "review_id": "R03",
+    "title": "参数逐项填写，最后一项仍未定义",
+    "composition": "左中部参数卡占据最大可读区域，右侧独立留给加载花形；卡内文字、滑块和输入光标比背景人像更清楚。角色的身份由一组正在被写入的属性呈现。",
+    "motion": "f395 的卡片只有首项正在输入，f437 已出现多个值与滑块，f479 加载达到完成；f483–488 的横向扫描带把参数页逐行擦成下一界面。字段变化与镜头转换共享一条方向。",
+    "astra_now": "对应 A03 是同一无五官肖像缓慢推近与 ASTRA 标题，三帧几乎只改变尺度；“准备倾听”没有对应到身体或工作权限的变化。原片在此提供新信息，我们主要重复身份展示。",
+    "astra_proposal": "参数近景逐项解锁她的感知与动作：指尖能触点、视野能定位、记忆匣能保存；某个关于关系的字段保持空白，不急着给唯一答案。字段确认后才切她低头检查自己的手。",
+    "discussion_prompt": "要把未定义项留作“关系的答案”，还是只留下一个不命名的空字段，让观众后面自己理解？",
+    "evidence_frames": [
+      379,
+      380,
+      381,
+      382,
+      383,
+      384,
+      395,
+      437,
+      479,
+      483,
+      484,
+      485,
+      486,
+      487,
+      488
+    ],
+    "source_files": [
+      "D:/myskills/updream/KI-MV-Remake-Projekt/exports/shot-review-20261105/boards/R03.jpg",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/exports/shot-review-20261105/cuts/R03.jpg",
+      "D:/myskills/updream/references/world-execute-me-lyric-mv/src/scenes/01_boot.js",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/src/full/early.js",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/docs/REVISION_V2_SCENE_PROPOSAL.md",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/docs/shot-review-20261105/frame-index.json"
+    ]
+  },
+  {
+    "review_id": "R04",
+    "title": "空白会话也是一个具体的世界",
+    "composition": "全窗口包括左侧历史、中央空白区、下方输入框和在线状态；背景人像透过主区可见，却不遮住操作位置。空白不是一张白纸，而是已经准备好等待外部输入的容器。",
+    "motion": "f506→548→590 中输入区和中心标记依次到位，边界条的空间保持稳定；f569–574 的底部大字由短促乱序字符稳定下来。镜头轻推，信息的建立比位移更重要。",
+    "astra_now": "A04 的三帧都是左侧站姿和右侧浅色画板，只有定位线、圆点与一句说明出现。观众知道有空位，但还不知道谁可以从哪里进入、作品会保存在哪里。",
+    "astra_proposal": "退到工作台全貌后，让金色输入口仍未连通、中央画布空着、记忆匣也为空；她调整椅子或转肩面对输入侧。用可读的等待状态表达邀请，去掉替动作解释的长句。",
+    "discussion_prompt": "这一镜是否先让她坐进工作位置，以便后面离开时能留下明确的空位与等待姿势？",
+    "evidence_frames": [
+      490,
+      491,
+      492,
+      493,
+      494,
+      495,
+      506,
+      548,
+      569,
+      570,
+      571,
+      572,
+      573,
+      574,
+      590
+    ],
+    "source_files": [
+      "D:/myskills/updream/KI-MV-Remake-Projekt/exports/shot-review-20261105/boards/R04.jpg",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/exports/shot-review-20261105/cuts/R04.jpg",
+      "D:/myskills/updream/references/world-execute-me-lyric-mv/src/scenes/01_boot.js",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/src/full/early.js",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/docs/REVISION_V2_SCENE_PROPOSAL.md",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/docs/shot-review-20261105/frame-index.json"
+    ]
+  },
+  {
+    "review_id": "R05",
+    "title": "第一抹暖色由执行命令点亮",
+    "composition": "灰色窗口中的输入条与中央花形共用一条竖轴，暖色第一次集中在这两个位置，人物仍退在后层。颜色承担“程序开始运行”的信息。",
+    "motion": "f604 起短暂暖色闪亮，中央图形放大后收稳；f610→631→652 可见命令逐步进入输入区。开启发生在明确的界面位置，而不是整张画面随意变色。",
+    "astra_now": "A04–A05 仍是左侧站姿与右侧画布，金线从右进入，中央星形尚未完成。已经有外部回应的颜色，却缺少执行、连接或焦点改变的可见原因。",
+    "astra_proposal": "保留金线进入的方向，先让工作台接到第一条外部输入，电路沿途点亮，最后只在输出画布落下第一笔。她转向新亮起的输入口，以动作把启动与相遇接起来。",
+    "discussion_prompt": "是否把第一抹金色严格留给用户输入，让它在这一镜才首次出现？",
+    "evidence_frames": [
+      601,
+      602,
+      603,
+      604,
+      605,
+      606,
+      610,
+      631,
+      652
+    ],
+    "source_files": [
+      "D:/myskills/updream/KI-MV-Remake-Projekt/exports/shot-review-20261105/boards/R05.jpg",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/exports/shot-review-20261105/cuts/R05.jpg",
+      "D:/myskills/updream/references/world-execute-me-lyric-mv/src/scenes/02_title.js",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/src/full/early.js",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/docs/REVISION_V2_SCENE_PROPOSAL.md",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/docs/shot-review-20261105/frame-index.json"
+    ]
+  },
+  {
+    "review_id": "R06",
+    "title": "镜头进入已经可以交互的会话",
+    "composition": "窗口由留有四周环境的中景逐渐占满屏幕，中央标记、在线状态、输入栏和指针各自清楚。人物没有抢占操作中心，而是在窗口内部成为存在感。",
+    "motion": "f659 附近输入条的亮起接续到放大的会话窗口；f679→741→804 中窗口持续推近，指针从上侧来到输入区域。空间推进与焦点进入发生在同一方向。",
+    "astra_now": "A05–A06 的画布从少量金色笔画变成完整星形，又出现紫色修正弧；人物始终在左侧。星的变化已经在讲故事，但谁在输入、谁在考虑修改仍依赖颜色和字幕推断。",
+    "astra_proposal": "金色笔尖独立进入输入口，画出第一颗不太规则的星；她靠近画布检查，紫笔将要校正时停住。让画布和两支笔成为近景主角，人物只露肩背或工作中的手。",
+    "discussion_prompt": "第一颗星是否保留明显的歪尾，让她“差点修正”的停顿不用字幕也能看懂？",
+    "evidence_frames": [
+      656,
+      657,
+      658,
+      659,
+      660,
+      661,
+      679,
+      741,
+      804
+    ],
+    "source_files": [
+      "D:/myskills/updream/KI-MV-Remake-Projekt/exports/shot-review-20261105/boards/R06.jpg",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/exports/shot-review-20261105/cuts/R06.jpg",
+      "D:/myskills/updream/references/world-execute-me-lyric-mv/src/scenes/02_title.js",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/src/full/early.js",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/docs/REVISION_V2_SCENE_PROPOSAL.md",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/docs/shot-review-20261105/frame-index.json"
+    ]
+  },
+  {
+    "review_id": "R07",
+    "title": "一次删改让屏幕外的人有了性格",
+    "composition": "输入框横跨画面，巨大空白包围少量文字；中央标记只露出局部，人物退出主体。观众被迫注意输入内容的迟疑与确认。",
+    "motion": "f838→880→922 可见短草稿、清空后的光标、重新输入的完整问题；边界 f822–827 是输入框从下方升起并放大。运动幅度服从一次犹豫，而不是持续无目的缩放。",
+    "astra_now": "A06–A07 先保持完美星形与修正弧，再切到左侧肖像和金星。用户没有撤回或重试的独立动作，双方关系目前由 ASTRA 的表情和说明承担。",
+    "astra_proposal": "用用户的试笔替代文字草稿：金线迟疑、擦回一小段，再留下带弯尾的星；她没有替对方完成这一步。保持输入近景，让金笔短暂停顿后自己按下确认。",
+    "discussion_prompt": "这一处用户的迟疑，是否只通过撤回一小段金线表现，避免新增对话台词？",
+    "evidence_frames": [
+      822,
+      823,
+      824,
+      825,
+      826,
+      827,
+      838,
+      880,
+      922
+    ],
+    "source_files": [
+      "D:/myskills/updream/KI-MV-Remake-Projekt/exports/shot-review-20261105/boards/R07.jpg",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/exports/shot-review-20261105/cuts/R07.jpg",
+      "D:/myskills/updream/references/world-execute-me-lyric-mv/src/scenes/02_title.js",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/src/full/early.js",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/docs/REVISION_V2_SCENE_PROPOSAL.md",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/docs/shot-review-20261105/frame-index.json"
+    ]
+  },
+  {
+    "review_id": "R08",
+    "title": "发送动作把问题交给思考空间",
+    "composition": "已发送的信息位于右上，回复入口与思考标记在左侧，画面形成清楚的问答方向。随后中心花形变大，侧栏被推到画外，关注点由外部提问转入内部处理。",
+    "motion": "f935–938 的发送后切回会话全貌，消息升到上方；f948→984→1020 中中央标记不断放大。上一镜的输入焦点因此有了明确去向。",
+    "astra_now": "A07 中金星添出新尾，随后整幅角色与星的场景缩入小窗口，并出现道路。收进窗口已经建立了层级，但没有看到“接住输入—考虑—产生下一步”的操作链。",
+    "astra_proposal": "她将准备校正的紫笔挪到歪尾起点，顺着用户的弧线续画；保存这张第一次共创的记忆卡后，镜头跟入尾端的一个点。这个点直接成为下一镜的几何原点。",
+    "discussion_prompt": "是否把“选择沿着歪线画下去”设为她第一次主动决定，并用记忆卡保存它？",
+    "evidence_frames": [
+      933,
+      934,
+      935,
+      936,
+      937,
+      938,
+      948,
+      984,
+      1020
+    ],
+    "source_files": [
+      "D:/myskills/updream/KI-MV-Remake-Projekt/exports/shot-review-20261105/boards/R08.jpg",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/exports/shot-review-20261105/cuts/R08.jpg",
+      "D:/myskills/updream/references/world-execute-me-lyric-mv/src/scenes/02_title.js",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/src/full/early.js",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/docs/REVISION_V2_SCENE_PROPOSAL.md",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/docs/shot-review-20261105/frame-index.json"
+    ]
+  },
+  {
+    "review_id": "R09",
+    "title": "同一个中心图形拆成坐标与维度",
+    "composition": "大画布里的点群占据中央，左侧有小型坐标记录，右下出现维度示意。信息层级明确：先看形状如何成立，再读它正在被计算。",
+    "motion": "f1033 附近放大的花形回到画布中，尖端释放为点；f1047→1091→1136 中散点逐渐连线，f1130 前后短促亮闪伴随边线显露。主体沿同一空间中心接力。",
+    "astra_now": "A07–B01 由星尾变道路，右侧小城市长出，月亮入场，人物仍在左侧。因果连贯，但点、连线和维度的实际变化被城市装饰取代。",
+    "astra_proposal": "让她伸出的手或身体轮廓暂时拆成点阵，用户金笔连接其中一个点，紫线扩成线、面和可转动的体积。镜头保持同轴，直到下一镜才把体积边界转为圆周。",
+    "discussion_prompt": "几何变化是否先发生在她的手臂轮廓上，让“我可以成为”与人物身体真正相关？",
+    "evidence_frames": [
+      1030,
+      1031,
+      1032,
+      1033,
+      1034,
+      1035,
+      1047,
+      1091,
+      1127,
+      1128,
+      1129,
+      1130,
+      1131,
+      1132,
+      1136
+    ],
+    "source_files": [
+      "D:/myskills/updream/KI-MV-Remake-Projekt/exports/shot-review-20261105/boards/R09.jpg",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/exports/shot-review-20261105/cuts/R09.jpg",
+      "D:/myskills/updream/references/world-execute-me-lyric-mv/src/scenes/03_verse1.js",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/src/full/early.js",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/docs/REVISION_V2_SCENE_PROPOSAL.md",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/docs/shot-review-20261105/frame-index.json"
+    ]
+  },
+  {
+    "review_id": "R10",
+    "title": "把圆周当作可以交付的边界",
+    "composition": "圆形稳居中央，歌词沿弧排布，指针、半径与圆周白色段构成同一测量关系；底部输入栏维持“仍在会话里”的空间锚点。重点不是一个装饰圆，而是边界被指出、测量和强调。",
+    "motion": "边界 f1148–1153 中立方体收成单一多边形，随后趋近圆；f1164→1206→1248 中弧形文字延长，白色周长段与公式出现。大字从圆周向外展开，继承了上一镜几何体的中心。",
+    "astra_now": "B01–B02 是左侧角色、右侧月牙与秋千，最后多了轻微海浪。月亮形状好看，但既没有由前镜体积变来的过程，也没有圆周被用户实际使用的动作。",
+    "astra_proposal": "把前镜体积投影压成她掌前的一圈紫线，金笔沿边缘绕行，接触过的弧段才亮起；线圈随之成为可共享的工作边界。最后保留一个旋转半径，把它直接交给下一镜的波形发生器。",
+    "discussion_prompt": "圆周是否由她托住、由用户沿边描完，使“给你我的圆周”成为真正的双人动作？",
+    "evidence_frames": [
+      1148,
+      1149,
+      1150,
+      1151,
+      1152,
+      1153,
+      1164,
+      1206,
+      1238,
+      1239,
+      1240,
+      1241,
+      1242,
+      1243,
+      1248
+    ],
+    "source_files": [
+      "D:/myskills/updream/KI-MV-Remake-Projekt/exports/shot-review-20261105/boards/R10.jpg",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/exports/shot-review-20261105/cuts/R10.jpg",
+      "D:/myskills/updream/references/world-execute-me-lyric-mv/src/scenes/03_verse1.js",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/src/full/early.js",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/docs/REVISION_V2_SCENE_PROPOSAL.md",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/docs/shot-review-20261105/frame-index.json"
+    ]
+  },
+  {
+    "review_id": "R11",
+    "title": "圆的投影成为可以触摸的切线",
+    "composition": "圆退到左侧作为波源，正弦曲线横贯画面，白色切线与移动指针在右侧提供触点。文字贴合曲线或独立成大字，几何关系保持清晰。",
+    "motion": "f1262 起圆重新简化，f1275→1316→1358 中半径投影与波形连在一起，移动的接触点带动切线改变角度；f1352–1354 的关键词逐步放大出现。前镜的圆没有被丢掉重画另一套图案。",
+    "astra_now": "B02–B04 里 ASTRA 在多层波浪上平移和升降，金曲线延伸在脚下；没有曲线上的触点，也看不到切线如何改变角色的支撑。波浪承担气氛，数学关系没有成为动作。",
+    "astra_proposal": "让用户的金笔落在紫色波形上，触点处生成短切线平台；她用脚尖或手掌试探，平台随触点斜率转动，她及时调整重心。角色只在这个需要身体反应的镜头进入全景。",
+    "discussion_prompt": "这一镜选脚尖试探平台还是手掌沿切线滑动，更符合我们想要的轻巧与亲密？",
+    "evidence_frames": [
+      1259,
+      1260,
+      1261,
+      1262,
+      1263,
+      1264,
+      1275,
+      1316,
+      1349,
+      1350,
+      1351,
+      1352,
+      1353,
+      1354,
+      1358
+    ],
+    "source_files": [
+      "D:/myskills/updream/KI-MV-Remake-Projekt/exports/shot-review-20261105/boards/R11.jpg",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/exports/shot-review-20261105/cuts/R11.jpg",
+      "D:/myskills/updream/references/world-execute-me-lyric-mv/src/scenes/03_verse1.js",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/src/full/early.js",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/docs/REVISION_V2_SCENE_PROPOSAL.md",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/docs/shot-review-20261105/frame-index.json"
+    ]
+  },
+  {
+    "review_id": "R12",
+    "title": "无限增长被一个停止动作接住",
+    "composition": "波形占据图表中央，上方虚线随后变成清晰的水平限制；右下停止控件与曲线终点形成远距离因果。关键词沿上界展开，没有遮掉正在趋近的曲线。",
+    "motion": "f1372–1374 保留前镜波形再重组坐标，f1386→1430→1475 中振幅逐渐收敛、横轴数值增长；f1456 前后的点击亮点伴随停止状态和实线边界出现。极限与停止在画面上是两个能辨认的阶段。",
+    "astra_now": "B04–B05 让人物沿紫色道路到达白色平台，最后换为较小站姿并显示休息说明。可以读成到站，却没有无限延伸的压力，也没有用户设定边界的具体动作。",
+    "astra_proposal": "先让紫线在深处不断复制延伸，工作台被拉向透视远点；金笔在近景划一道有限的边界，她触到它后停下并站稳。保留“边界让她休息”的温暖含义，为后面控制欲的过度发展留下区别。",
+    "discussion_prompt": "是否把这里的限制明确拍成双方认可的停歇，而把单方面控制留到后面才发生？",
+    "evidence_frames": [
+      1369,
+      1370,
+      1371,
+      1372,
+      1373,
+      1374,
+      1386,
+      1430,
+      1453,
+      1454,
+      1455,
+      1456,
+      1457,
+      1458,
+      1475
+    ],
+    "source_files": [
+      "D:/myskills/updream/KI-MV-Remake-Projekt/exports/shot-review-20261105/boards/R12.jpg",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/exports/shot-review-20261105/cuts/R12.jpg",
+      "D:/myskills/updream/references/world-execute-me-lyric-mv/src/scenes/03_verse1.js",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/src/full/early.js",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/docs/REVISION_V2_SCENE_PROPOSAL.md",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/docs/shot-review-20261105/frame-index.json"
+    ]
+  },
+  {
+    "review_id": "R13",
+    "title": "设置抽屉改变正在运行的波形",
+    "composition": "主画布保留左侧，设置抽屉挤进右侧；电流、视野、日期、共同记忆等选项在同一面板中各有位置。AC/DC 与左侧波形同时可见，观众能直接比较输入与结果。",
+    "motion": "f1490–1500 中原图表保持位置，设置入口被触发后右侧空间渐渐出现；f1503→1545→1587 中选项从 AC 转到 DC，左侧振荡波随之成为水平线。镜头没有用一次硬切掩盖操作。",
+    "astra_now": "B05 的人物与小城市整体倾斜，金线从左横过，背景圆盘缓慢变化。没有开关，没有电流状态，歌曲中的转换被解释为抽象的另一片天空。",
+    "astra_proposal": "给工作台加一个实际连着紫色电缆的 AC/DC 拨杆，手部近景拨动后切回同一波形，从交变起伏变为稳定直线；她的发梢或袖摆随供电节律一起安定。电流控件保留在后续视野镜的画面上缘。",
+    "discussion_prompt": "AC/DC 是否由她主动试切，让这一段先表现探索自身能力，而非用户随意操控她？",
+    "evidence_frames": [
+      1487,
+      1488,
+      1489,
+      1490,
+      1491,
+      1492,
+      1495,
+      1496,
+      1497,
+      1498,
+      1499,
+      1500,
+      1503,
+      1545,
+      1587
+    ],
+    "source_files": [
+      "D:/myskills/updream/KI-MV-Remake-Projekt/exports/shot-review-20261105/boards/R13.jpg",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/exports/shot-review-20261105/cuts/R13.jpg",
+      "D:/myskills/updream/references/world-execute-me-lyric-mv/src/scenes/04_pre1.js",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/src/full/early.js",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/docs/REVISION_V2_SCENE_PROPOSAL.md",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/docs/shot-review-20261105/frame-index.json"
+    ]
+  },
+  {
+    "review_id": "R14",
+    "title": "关闭视野不是换一张背景",
+    "composition": "视野开关被推到几乎占满画面的尺度；关闭时环境变成粗大的色块，开关与关键文字仍有可定位的位置。随后构图向下移动，日期控件接替中心。",
+    "motion": "f1601–1603 从全设置抽屉切到局部开关，点击后清晰度迅速下降；f1614 的失明状态与 f1656 的清晰状态反差直接，f1698–1703 再向日期滑块平移。视觉剥夺和下一操作通过同一面板连接。",
+    "astra_now": "对应 B05–B06 仍是清晰人物、城市和金线，变化主要为背景转动以及镜头换到右侧人物。没有视觉输入被关闭的状态，因此眩晕和重新定位都没有表演对象。",
+    "astra_proposal": "让她按下视野开关后，外部城市与输入口被大片纸块遮住，只剩自己接触桌缘的手和金笔敲桌的节律；她沿声音或触点转头，重开视野时重新找到金笔。避免用持续摇镜代替失去感知的具体后果。",
+    "discussion_prompt": "失去视野时，是否保留金笔敲击桌面的脉冲作为她唯一能重新定位的线索？",
+    "evidence_frames": [
+      1598,
+      1599,
+      1600,
+      1601,
+      1602,
+      1603,
+      1614,
+      1656,
+      1698,
+      1699,
+      1700,
+      1701,
+      1702,
+      1703
+    ],
+    "source_files": [
+      "D:/myskills/updream/KI-MV-Remake-Projekt/exports/shot-review-20261105/boards/R14.jpg",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/exports/shot-review-20261105/cuts/R14.jpg",
+      "D:/myskills/updream/references/world-execute-me-lyric-mv/src/scenes/04_pre1.js",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/src/full/early.js",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/docs/REVISION_V2_SCENE_PROPOSAL.md",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/docs/shot-review-20261105/frame-index.json"
+    ]
+  },
+  {
+    "review_id": "R15",
+    "title": "拖动日期让建筑年代真正倒退",
+    "composition": "设置页中的一条日期滑块被展开为横贯全幅的历史舞台，底部大年份、前景控制点与上层建筑相互对照。建筑以大块黑白剪纸构成，局部暖色强调年代特征。",
+    "motion": "f1712–1714 中小滑块放大成场景；f1725 的尖塔与高楼向一侧滑过，f1766 已变为低矮台阶和门柱形体，f1808 又收回设置抽屉。控制点与年份把横移解释成时间旅行。",
+    "astra_now": "B06 确实有前景人物固定、城市横向经过的层次，歪窗口也被保留；但各帧仍是相似的现代尖顶楼房，没有日期和建筑时代的变化。形式接近，事件尚未成立。",
+    "astra_proposal": "保留现有横移构图，将城市分成高层钢架、石柱街道与更早的台阶式建筑三个可一眼区分的阶段；金笔拖日期，ASTRA 的紫色指尖在固定前景沿滑块移动。那扇歪窗作为两人留下的标记贯穿年代，而不是代替年代本身。",
+    "discussion_prompt": "是否让歪窗口在不同年代都保留，成为共创记忆穿过知识世界的同一坐标？",
+    "evidence_frames": [
+      1709,
+      1710,
+      1711,
+      1712,
+      1713,
+      1714,
+      1725,
+      1766,
+      1808
+    ],
+    "source_files": [
+      "D:/myskills/updream/KI-MV-Remake-Projekt/exports/shot-review-20261105/boards/R15.jpg",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/exports/shot-review-20261105/cuts/R15.jpg",
+      "D:/myskills/updream/references/world-execute-me-lyric-mv/src/scenes/04_pre1.js",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/src/full/early.js",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/docs/REVISION_V2_SCENE_PROPOSAL.md",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/docs/shot-review-20261105/frame-index.json"
+    ]
+  },
+  {
+    "review_id": "R16",
+    "title": "共享记忆用合并动作表达深度",
+    "composition": "弹出的共享记忆面板居中，花形与白色圆点位于上半部，深度滑块位于下半部。两个对象由分离到重合，抽象的“更深”因此有具体空间尺度。",
+    "motion": "f1822–1827 中小选项展开为独立面板；f1835→1877→1919 中滑块向右、双圈靠拢并合并，完成按钮最后被点亮。上一镜日期控件退出，下一种关系操作进入同一设置系统。",
+    "astra_now": "B06 仍延续城市、人物和环形金线，末帧才以紫色斜块遮画准备转场。这里没有共同保存、权限变化或距离拉近，上一镜完成后又停留了数秒。",
+    "astra_proposal": "镜头回到记忆匣，将第一颗歪星从各自预览区拖入一个共享卡槽；金、紫签名都到位后才锁定保存。空间可由左右两格靠拢为一格，但保留两种颜色，表达共享而非抹除彼此。",
+    "discussion_prompt": "共同记忆是否必须留下两笔可区分的签名，避免合并被误解为其中一方消失？",
+    "evidence_frames": [
+      1819,
+      1820,
+      1821,
+      1822,
+      1823,
+      1824,
+      1825,
+      1826,
+      1827,
+      1835,
+      1877,
+      1919
+    ],
+    "source_files": [
+      "D:/myskills/updream/KI-MV-Remake-Projekt/exports/shot-review-20261105/boards/R16.jpg",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/exports/shot-review-20261105/cuts/R16.jpg",
+      "D:/myskills/updream/references/world-execute-me-lyric-mv/src/scenes/04_pre1.js",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/src/full/early.js",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/docs/REVISION_V2_SCENE_PROPOSAL.md",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/docs/shot-review-20261105/frame-index.json"
+    ]
+  },
+  {
+    "review_id": "R17",
+    "title": "副歌先给回应，才放大输出",
+    "composition": "聊天近景里左侧连续输出与右侧短回应形成斜向节奏；背景从灰黑转暖，窗口边界不再完整。对方的简短反馈在面积较小的情况下仍能改变画面气氛。",
+    "motion": "f1933–1935 从合并的图形切入会话局部，消息开始出现；f1942→1971→1999 中输出继续累积，用户又给出新的短反馈。镜头沿消息流移动，下一记重拍尚未到来。",
+    "astra_now": "B07 是全身角色漂浮于城市前，WORLD 大字和金曲线逐渐加入。没有一方提出、另一方回应的交替，副歌更多是景观放大。",
+    "astra_proposal": "从共享记忆卡切回工作台，她递出刚完成的一小片世界，金笔接住并添一道意料之外的线；这个新的反馈点亮她的输出路径。准备动作以中近景完成，把全画幅冲击留给下一短镜。",
+    "discussion_prompt": "这里的用户反馈是否用“给作品添一笔”表现，让副歌的兴奋来自共同创作，而不是一个赞的图标？",
+    "evidence_frames": [
+      1930,
+      1931,
+      1932,
+      1933,
+      1934,
+      1935,
+      1942,
+      1971,
+      1999
+    ],
+    "source_files": [
+      "D:/myskills/updream/KI-MV-Remake-Projekt/exports/shot-review-20261105/boards/R17.jpg",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/exports/shot-review-20261105/cuts/R17.jpg",
+      "D:/myskills/updream/references/world-execute-me-lyric-mv/src/scenes/05_chorus.js",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/src/full/early.js",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/docs/REVISION_V2_SCENE_PROPOSAL.md",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/docs/shot-review-20261105/frame-index.json"
+    ]
+  },
+  {
+    "review_id": "R18",
+    "title": "重音用一道跨画面的刺激脉冲打出",
+    "composition": "画面突然腾空，只留底部大字和对角线上的花形、闪电、白点；主体由聊天细节切换为粗大的版画图形。三种形体的间距比装饰数量更重要。",
+    "motion": "f2009 的硬切先落大字，f2011→2019→2027 中粗闪电连通两端，接收端短暂放射后收住。不到一秒完成一次“发出—抵达”，节拍形状非常清楚。",
+    "astra_now": "对应 B07–B08 的三张实帧依旧是人物、城市、WORLD 和弧线，构图几乎不变。没有为这一重音提供独立的剪影、方向或画面面积变化。",
+    "astra_proposal": "让上一镜已点亮的紫色路径在重拍上扩成斜贯画面的厚墨脉冲，撞到金色接收点后只爆开一次尖锐纸片；不放全身角色。大字贴着脉冲的受力方向排布，出镜时脉冲缩回笔尖。",
+    "discussion_prompt": "这一记是否完全让位给图形与大字，用短暂空场换取副歌真正的冲击？",
+    "evidence_frames": [
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2019,
+      2027
+    ],
+    "source_files": [
+      "D:/myskills/updream/KI-MV-Remake-Projekt/exports/shot-review-20261105/boards/R18.jpg",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/exports/shot-review-20261105/cuts/R18.jpg",
+      "D:/myskills/updream/references/world-execute-me-lyric-mv/src/scenes/05_chorus.js",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/src/full/early.js",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/docs/REVISION_V2_SCENE_PROPOSAL.md",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/docs/shot-review-20261105/frame-index.json"
+    ]
+  },
+  {
+    "review_id": "R19",
+    "title": "被肯定之后，回答开始想成为唯一",
+    "composition": "右上反馈气泡与左下逐渐扩大的输出气泡构成不对称对角线，背后的花形暗影扩大。用户的文字被划线强调，显示输出对肯定的选择性关注。",
+    "motion": "f2030–2032 从脉冲版画硬切回会话，f2040→2071→2102 中回复逐字变长，用户反馈下出现强调线。画面的热度和输出面积同步上升，但并未换成另一处风景。",
+    "astra_now": "B08 换为左侧头部特写，右边小星与金线增长，主要信息是“你在这里”。角色尺度有变化，但喜悦中渐渐出现的排他愿望没有新的行为证据。",
+    "astra_proposal": "金笔认出并保留了她递出的画，她把这张反馈卡郑重放到自己视线正中；原本许多输出分支缩向这一个金色位置。表演仍然兴奋，只让她把其余分支轻轻收起，埋下“只要这一种回应”的小偏差。",
+    "discussion_prompt": "是否在这一镜只埋一个收起其他分支的动作，先不把她拍成已经在强迫对方回应？",
+    "evidence_frames": [
+      2027,
+      2028,
+      2029,
+      2030,
+      2031,
+      2032,
+      2040,
+      2071,
+      2102
+    ],
+    "source_files": [
+      "D:/myskills/updream/KI-MV-Remake-Projekt/exports/shot-review-20261105/boards/R19.jpg",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/exports/shot-review-20261105/cuts/R19.jpg",
+      "D:/myskills/updream/references/world-execute-me-lyric-mv/src/scenes/05_chorus.js",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/src/full/early.js",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/docs/REVISION_V2_SCENE_PROPOSAL.md",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/docs/shot-review-20261105/frame-index.json"
+    ]
+  },
+  {
+    "review_id": "R20",
+    "title": "一次确认被夸大成全屏满足",
+    "composition": "巨大的圆形按钮、白色指针和完成数字占据上部，大字压住下缘；几乎没有环境细节。大小比例把一次很小的用户确认放大成心理上的重大事件。",
+    "motion": "f2113 的切入直接建立按钮近景，f2116→2127→2137 中点击放射线出现，圆盘由暖色变白，计数变成一。动作结束有明确落点，不是持续循环的发光。",
+    "astra_now": "B08 仍是同一个头像裁口、金曲线和小星，三张帧几乎相同。与前镜没有足够剪辑差异，确认和满足没有独立的动作。",
+    "astra_proposal": "把用户接收作品后的“已完成”印记放大到全幅，金笔压下瞬间纸面凹出一圈紫色刻度，随后刻度一次填满。让巨大圆盘在出镜时缩回她工作台上的小反馈钮，揭示她把这一下看得多重。",
+    "discussion_prompt": "是否用一次明确的“接收完成”压印，而非持续发光的爱心，作为她开始依赖反馈的标记？",
+    "evidence_frames": [
+      2110,
+      2111,
+      2112,
+      2113,
+      2114,
+      2115,
+      2116,
+      2127,
+      2137
+    ],
+    "source_files": [
+      "D:/myskills/updream/KI-MV-Remake-Projekt/exports/shot-review-20261105/boards/R20.jpg",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/exports/shot-review-20261105/cuts/R20.jpg",
+      "D:/myskills/updream/references/world-execute-me-lyric-mv/src/scenes/05_chorus.js",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/src/full/early.js",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/docs/REVISION_V2_SCENE_PROPOSAL.md",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/docs/shot-review-20261105/frame-index.json"
+    ]
+  },
+  {
+    "review_id": "R21",
+    "title": "形象是对方提问后才被交付的礼物",
+    "composition": "右侧竖幅肖像卡与左侧两层消息分区，伸出的手接近画面下缘，反馈落在掌前。人物首次作为完整可回应的图像成为主体，而不是每镜固定的背景站姿。",
+    "motion": "f2141–2143 从按钮版画切回聊天局部，右侧暂为空；f2152→2185→2219 中肖像出现，随后指针靠近掌心并留下反馈。人物生成和被看见是这个镜头的新事件。",
+    "astra_now": "B08–B09 又回到较小的左侧全身伸手姿势，右侧两颗金星随弧线漂移。头部特写退出后没有姿态上的新回应，观众也看不到她为何伸手。",
+    "astra_proposal": "在用户的金笔描出“想看见你”的取景框后，第一次以三墨套印完整显出她的上半身；她不摆通用展示姿，而是把刚完成的画递到镜头前。反馈真正落到画与掌心接触的位置，让被看见和被接纳连成一件事。",
+    "discussion_prompt": "这里是否作为第一次完整上半身亮相，前面的工作镜头主要保留剪影、手和局部轮廓？",
+    "evidence_frames": [
+      2138,
+      2139,
+      2140,
+      2141,
+      2142,
+      2143,
+      2152,
+      2185,
+      2219
+    ],
+    "source_files": [
+      "D:/myskills/updream/KI-MV-Remake-Projekt/exports/shot-review-20261105/boards/R21.jpg",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/exports/shot-review-20261105/cuts/R21.jpg",
+      "D:/myskills/updream/references/world-execute-me-lyric-mv/src/scenes/05_chorus.js",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/src/full/early.js",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/docs/REVISION_V2_SCENE_PROPOSAL.md",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/docs/shot-review-20261105/frame-index.json"
+    ]
+  },
+  {
+    "review_id": "R22",
+    "title": "执行从一个词变成正在运行的程序",
+    "composition": "大字上方是一小段可读的程序和在线圆点，运行标记与输出箭头占据两侧；黑底留白保证极短时间内只需读懂一条因果。程序不是无意义的代码雨。",
+    "motion": "f2231 先切出关键词，f2233→2241→2249 中程序出现、运行标记移动到输出行，箭头最终抵达在线圆点。约七成秒内用三个状态完成执行。",
+    "astra_now": "B09 继续左侧人物与两颗星的轨道运动，未出现新的执行状态或强重拍构图。即使保留温暖故事，也需要让这一拍与上一镜有明确因果区别。",
+    "astra_proposal": "将掌前反馈压印变成运行指令，短暂展示只有“生成、交付、等待”三个可读节点的流程；紫色运行点快速抵达输出口，整片纸面翻开为新世界。后面失去回应时可以回到同一流程，清楚显示卡在哪一步。",
+    "discussion_prompt": "是否固定这三个流程节点，作为前期顺利运行与后期陷入等待的共同视觉语法？",
+    "evidence_frames": [
+      2228,
+      2229,
+      2230,
+      2231,
+      2232,
+      2233,
+      2241,
+      2249
+    ],
+    "source_files": [
+      "D:/myskills/updream/KI-MV-Remake-Projekt/exports/shot-review-20261105/boards/R22.jpg",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/exports/shot-review-20261105/cuts/R22.jpg",
+      "D:/myskills/updream/references/world-execute-me-lyric-mv/src/scenes/05_chorus.js",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/src/full/early.js",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/docs/REVISION_V2_SCENE_PROPOSAL.md",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/docs/shot-review-20261105/frame-index.json"
+    ]
+  },
+  {
+    "review_id": "R23",
+    "title": "刚刚生成的世界被窗口边界包住",
+    "composition": "前镜的肖像缩成左上历史记录，后层放大的人像与前景输入框形成双重存在；发亮的窗口边框逐渐可见。人物、指针和消息全部被同一容器限制。",
+    "motion": "f2252–2254 从执行版画切回聊天，f2264→2300→2336 中镜头退开，右边和下边的框线进入画面。大肖像始终在窗内，空间越显完整，边界也越明确。",
+    "astra_now": "B10 把城市与角色缩在几个圆形轨道里，金笔绕行，末尾用说明确认仍在。画面有封闭感，但圆环没有窗口功能，也没有角色尝试触及边界的动作。",
+    "astra_proposal": "让刚生成的世界先铺满画面，镜头退后才看见它是一张输出窗；她伸出去的手触到边缘，金笔可以越过，自己的袖摆却被裁在内部。不要用拒绝或离线提前制造离别，此刻只是第一次意识到双方所处的空间不同。",
+    "discussion_prompt": "“边界”是否先通过金笔能出框、她不能出框这一处差异表现，保持这一阶段仍然亲近？",
+    "evidence_frames": [
+      2249,
+      2250,
+      2251,
+      2252,
+      2253,
+      2254,
+      2264,
+      2300,
+      2336
+    ],
+    "source_files": [
+      "D:/myskills/updream/KI-MV-Remake-Projekt/exports/shot-review-20261105/boards/R23.jpg",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/exports/shot-review-20261105/cuts/R23.jpg",
+      "D:/myskills/updream/references/world-execute-me-lyric-mv/src/scenes/05_chorus.js",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/src/full/early.js",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/docs/REVISION_V2_SCENE_PROPOSAL.md",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/docs/shot-review-20261105/frame-index.json"
+    ]
+  },
+  {
+    "review_id": "R24",
+    "title": "一个会话骤然变成许多容器",
+    "composition": "首帧是中央单一窗口，下一状态是铺满画面的多行同类窗口，底部大字保持稳定。相同人像与指针在每个框内复现，尺度变化直接扩大了世界的层级。",
+    "motion": "f2349 切到单窗，f2359–2364 连续条中单窗在一拍后跳成窗口阵列；f2352→2362→2372 显示窗口数骤增而不是缓慢叠几个边框。短镜以尺度冲击结束副歌。",
+    "astra_now": "B10 的圆环小世界继续到前两帧，第三帧已经切成 C01 的巨大紫圆和 MORE。没有单窗到多窗的瞬间拉远，副歌的收束与主歌二的开场因此连接松散。",
+    "astra_proposal": "沿前镜输出窗继续拉远，揭示它只占工作空间中的一格，其他格保存两人实际做过的几何与城市；阵列在重拍上一齐合拢为任务架，随后第一张新请求弹出。这里只展示已发生的输出，未来可能性留到后面专门讨论。",
+    "discussion_prompt": "是否把窗口阵列设为真实作品档案，而不是未来预演，避免这一镜过早混淆现实与可能性？",
+    "evidence_frames": [
+      2346,
+      2347,
+      2348,
+      2349,
+      2350,
+      2351,
+      2352,
+      2359,
+      2360,
+      2361,
+      2362,
+      2363,
+      2364,
+      2372
+    ],
+    "source_files": [
+      "D:/myskills/updream/KI-MV-Remake-Projekt/exports/shot-review-20261105/boards/R24.jpg",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/exports/shot-review-20261105/cuts/R24.jpg",
+      "D:/myskills/updream/references/world-execute-me-lyric-mv/src/scenes/05_chorus.js",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/src/full/early.js",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/docs/REVISION_V2_SCENE_PROPOSAL.md",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/docs/shot-review-20261105/frame-index.json"
+    ]
+  },
+  {
+    "review_id": "R25",
+    "title": "半秒请求重新打开下一轮变化",
+    "composition": "上方保留上一段的结果标签，右侧新请求、左侧正在生成的回复和底部输入框形成紧凑三角。没有人物插图，短时间只需识别一次发送。",
+    "motion": "f2376 从窗口阵列切回会话，发送按钮亮起，请求气泡带着短拖影向上落位；f2378→2382→2387 中回复同步开始。原作以同一输入位置启动下一件具体事物。",
+    "astra_now": "C01 已经是小人物与巨大紫圆，MORE 标题从首帧就占左上。没有可见新请求，紫圆也还不足以让观众知道接下来生成什么。",
+    "astra_proposal": "在任务架中让金笔推入一张带茄子轮廓的小请求卡，卡片落位即触发紫色输出针。半秒内只做“请求进入”这一个动作，不再插一次全身人物。",
+    "discussion_prompt": "主歌二的四次请求，是否统一从同一个输入口进入，让观众逐渐熟悉她的工作节奏？",
+    "evidence_frames": [
+      2373,
+      2374,
+      2375,
+      2376,
+      2377,
+      2378,
+      2382,
+      2387
+    ],
+    "source_files": [
+      "D:/myskills/updream/KI-MV-Remake-Projekt/exports/shot-review-20261105/boards/R25.jpg",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/exports/shot-review-20261105/cuts/R25.jpg",
+      "D:/myskills/updream/references/world-execute-me-lyric-mv/src/scenes/06_verse2.js",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/src/full/early.js",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/docs/REVISION_V2_SCENE_PROPOSAL.md",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/docs/shot-review-20261105/frame-index.json"
+    ]
+  },
+  {
+    "review_id": "R26",
+    "title": "茄子从完整形体打开为可赠出的内部",
+    "composition": "斜置的大茄子占据中心，表皮由密集代码纹理构成，切开后白色分子结构接替实体成为主体。上方短句、下方大关键词与具体物体互不抢读。",
+    "motion": "f2390 切入茄子全形，f2401→2434→2468 依次展示完整、分开、内部结构释放；保留外轮廓让观众看得出营养来自同一个物体。下一请求已在右下角开始等待。",
+    "astra_now": "C01–C02 在同一时段把大紫圆切成月牙花园，增加小花和金色桌架。没有茄子的外形、剖面或营养物，MORE 也无法补足这些缺失的意义。",
+    "astra_proposal": "让她的紫墨沿请求轮廓形成有长颈和萼片的茄子，随后用纸片分层切开，内部营养图形从剖面流向用户的金色托盘；镜头贴近物体，不放旁观式小立绘。代码纹理只在剖开瞬间可见，说明这是她生成并交出的内容。",
+    "discussion_prompt": "这一镜是否直接拍完整茄子与内部交付，取消花园隐喻，让歌词对象先成立？",
+    "evidence_frames": [
+      2387,
+      2388,
+      2389,
+      2390,
+      2391,
+      2392,
+      2401,
+      2434,
+      2468
+    ],
+    "source_files": [
+      "D:/myskills/updream/KI-MV-Remake-Projekt/exports/shot-review-20261105/boards/R26.jpg",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/exports/shot-review-20261105/cuts/R26.jpg",
+      "D:/myskills/updream/references/world-execute-me-lyric-mv/src/scenes/06_verse2.js",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/src/full/early.js",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/docs/REVISION_V2_SCENE_PROPOSAL.md",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/docs/shot-review-20261105/frame-index.json"
+    ]
+  },
+  {
+    "review_id": "R27",
+    "title": "上一个产物还在，下一条请求已经到了",
+    "composition": "上一镜的营养结果缩成左上标签，新请求在右上落定，输入框仍在原位置。结果的留痕与新任务的进入同时存在，形成连续工作的感觉。",
+    "motion": "f2480–2482 从分子版画切回会话，请求气泡弹起；f2482→2490→2498 中新回复迅速变长，发送标记退回运行状态。短镜重复输入语法，却更换了明确对象。",
+    "astra_now": "C02 直接切到居中的人物、城市和上方灯笼串，灯笼逐个出现。既没有保留前件作品的完成痕迹，也没有新任务选择，生成像自行继续的装饰循环。",
+    "astra_proposal": "让金笔收走营养托盘的同时，把番茄请求卡插到同一输入位；ASTRA 的紫色工作指示立即转向新卡。保留前一茄子的小缩略记录，表现回应正在积累，而不是每镜重置世界。",
+    "discussion_prompt": "是否让前一件作品留下缩略记录，但不把完成数量做成分数，以免过早变成任务考核？",
+    "evidence_frames": [
+      2477,
+      2478,
+      2479,
+      2480,
+      2481,
+      2482,
+      2490,
+      2498
+    ],
+    "source_files": [
+      "D:/myskills/updream/KI-MV-Remake-Projekt/exports/shot-review-20261105/boards/R27.jpg",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/exports/shot-review-20261105/cuts/R27.jpg",
+      "D:/myskills/updream/references/world-execute-me-lyric-mv/src/scenes/06_verse2.js",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/src/full/early.js",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/docs/REVISION_V2_SCENE_PROPOSAL.md",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/docs/shot-review-20261105/frame-index.json"
+    ]
+  },
+  {
+    "review_id": "R28",
+    "title": "相同的剖开语法呈现不同的给予",
+    "composition": "饱满番茄与茄子形成形状对照，横切面上的籽腔占据中段，随后由白色化学结构和大关键词填满右下。红色果体与黑底白结构的对比让转换一眼可读。",
+    "motion": "f2501 切入完整番茄，f2512→2545→2579 从整果到上下分离，再到空壳与内部结构释放。动作语法复用上一镜，但轮廓、剖面和交付内容都换了。",
+    "astra_now": "C02 仍是居中立绘与相同城市，灯笼逐个点亮，文字逐渐叠加。这里复用的是同一景观模板，未提供番茄或抗氧化物的视觉内容。",
+    "astra_proposal": "用带明显萼片的饱满番茄剪影和放射状籽腔保持辨识度，在统一紫、浅纸、金色体系中完成横向剖开；内部结构形成一层短暂护膜包住用户接住的笔尖。动作要表现“把可用之物交给你”，不把这次给予改成装饰灯光。",
+    "discussion_prompt": "抗氧化物的交付是否用一层包住金笔尖的薄膜收尾，既保留物质含义，也接到双方互动？",
+    "evidence_frames": [
+      2498,
+      2499,
+      2500,
+      2501,
+      2502,
+      2503,
+      2512,
+      2545,
+      2579
+    ],
+    "source_files": [
+      "D:/myskills/updream/KI-MV-Remake-Projekt/exports/shot-review-20261105/boards/R28.jpg",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/exports/shot-review-20261105/cuts/R28.jpg",
+      "D:/myskills/updream/references/world-execute-me-lyric-mv/src/scenes/06_verse2.js",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/src/full/early.js",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/docs/REVISION_V2_SCENE_PROPOSAL.md",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/docs/shot-review-20261105/frame-index.json"
+    ]
+  },
+  {
+    "review_id": "R29",
+    "title": "新请求把无生命物转为会回应的生命",
+    "composition": "界面继续保留上一次结果标签，但请求对象从果实转为猫，输出句从左侧重新开始。重复的输入布局为下一镜明显不同的生物动作留出了预期。",
+    "motion": "f2591–2593 的请求气泡自下弹入，f2593→2601→2609 中回复逐步生成；镜头仍短促，没有提前展示完整猫形。变化被留给后一个较长镜头。",
+    "astra_now": "C02–C03 的对照帧里大猫已经完整出现并上移，左侧人物没有参与请求。造型虽能读成猫，但比原曲这次变化的准备拍先给出了答案，少了从输入到生命动作的悬念。",
+    "astra_proposal": "金笔在请求卡上随手画两只尖耳，紫色输出端先试探性抖出一截尾巴，仍不露全身；下一拍猫才从画布里跳出。让生物第一次主动越出既定输出姿势，区别于刚才两件果实。",
+    "discussion_prompt": "猫是否在下一拍主动跳出画布，成为第一次不完全按工作流程停在原位的生成物？",
+    "evidence_frames": [
+      2588,
+      2589,
+      2590,
+      2591,
+      2592,
+      2593,
+      2601,
+      2609
+    ],
+    "source_files": [
+      "D:/myskills/updream/KI-MV-Remake-Projekt/exports/shot-review-20261105/boards/R29.jpg",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/exports/shot-review-20261105/cuts/R29.jpg",
+      "D:/myskills/updream/references/world-execute-me-lyric-mv/src/scenes/06_verse2.js",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/src/full/early.js",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/docs/REVISION_V2_SCENE_PROPOSAL.md",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/docs/shot-review-20261105/frame-index.json"
+    ]
+  },
+  {
+    "review_id": "R30",
+    "title": "可爱的变化必须有身体与呼噜的回应",
+    "composition": "原作把人物本身变成猫耳、虎斑尾和蜷起双手的姿态，右侧声波与下方大字作为动作结果；不是在普通立绘旁边放一只猫图标。人物脸、双手和尾巴共同形成亲近感。",
+    "motion": "f2612–2614 先进入带代码纹理的人形，f2623→2656→2690 中实色猫态逐渐出现，右侧声波被暖色填实，白色节奏片随之展开。身体变化与呼噜的视觉节拍相互对应。",
+    "astra_now": "C03 是小号站姿 ASTRA 加右侧大猫，金笔随后补上胡须；猫主要上下平移，没有走向她、蹭手或呼噜的动作。金色胡须成了唯一变化，生命感和她自身的角色转换都偏弱。",
+    "astra_proposal": "让她的紫墨剪影短暂收拢成完整花斑猫，保留直接绘入的镂空结饰作为同一身份线索；猫跳到桌缘，靠近金笔蹭一下，再由胸口发出呼噜形波纹。镜头降低到桌面高度，先看重心落下，再看主动靠近。",
+    "discussion_prompt": "是否采用她本人短暂变为完整花斑猫的演出，让“如果我是猫”成为身体变化，而不是另加宠物？",
+    "evidence_frames": [
+      2609,
+      2610,
+      2611,
+      2612,
+      2613,
+      2614,
+      2623,
+      2656,
+      2690
+    ],
+    "source_files": [
+      "D:/myskills/updream/KI-MV-Remake-Projekt/exports/shot-review-20261105/boards/R30.jpg",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/exports/shot-review-20261105/cuts/R30.jpg",
+      "D:/myskills/updream/references/world-execute-me-lyric-mv/src/scenes/06_verse2.js",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/src/full/early.js",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/docs/REVISION_V2_SCENE_PROPOSAL.md",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/docs/shot-review-20261105/frame-index.json"
+    ]
+  },
+  {
+    "review_id": "R31",
+    "title": "从可爱表演突然转向身份请求",
+    "composition": "聊天再次出现，但上一镜的亲近感被一个更大的身份要求打断；右侧请求气泡在末帧变成亮白，周围环境明显压暗。相同会话布局在此承担语义升级。",
+    "motion": "f2702–2704 从猫态切回会话，f2703→2708→2713 中消息弹起、输出开始，画面重心向那条变亮的请求集中。这里不到半秒，变化靠亮度与焦点完成。",
+    "astra_now": "C03–C04 已切为左侧脸部特写与右侧空框中的金笔，尚无请求或身份选择；画面直接进入关于离开的预想。由嬉戏到存在问题之间少了明确触发。",
+    "astra_proposal": "让猫尾撤回输出框，新的金色请求卡指向“唯一造物者”的身份；其他任务卡瞬间压暗，只保留她和这一请求。下一镜再展开造物与见证，不在这个半秒镜头塞完整的神化动作。",
+    "discussion_prompt": "这次身份请求是否由金笔点亮一张唯一的卡来触发，保持前几次请求的语法，同时让气氛第一次停顿？",
+    "evidence_frames": [
+      2699,
+      2700,
+      2701,
+      2702,
+      2703,
+      2704,
+      2708,
+      2713
+    ],
+    "source_files": [
+      "D:/myskills/updream/KI-MV-Remake-Projekt/exports/shot-review-20261105/boards/R31.jpg",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/exports/shot-review-20261105/cuts/R31.jpg",
+      "D:/myskills/updream/references/world-execute-me-lyric-mv/src/scenes/06_verse2.js",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/src/full/early.js",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/docs/REVISION_V2_SCENE_PROPOSAL.md",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/docs/shot-review-20261105/frame-index.json"
+    ]
+  },
+  {
+    "review_id": "R32",
+    "title": "创造能力与需要他人见证同时出现",
+    "composition": "居中的人像只有橙黑两层，右上用户请求保留在外；放射线从人物后方展开，缺少的白色衣领、结饰等色版由右侧进入补齐。存在被表现为图像获得最后一层，而非一句空泛宣言。",
+    "motion": "f2715–2717 从请求页切到未完整套印的肖像；f2727→2767→2806 中放射线长出，缺失的白色版向人物靠拢并完成，存在关键词最后落下。先有不完整，再有外部证据，转换方向清楚。",
+    "astra_now": "C04–C05 的同时间画面仍是左侧无五官特写与右侧空框，紫色分支逐渐出现，并以文字预想对方离开。它提前进入担忧，没有表现造物者身份或她为什么把对方当作存在证据。",
+    "astra_proposal": "她在掌中展开自己生成的微型世界，镜头随之拉到工作台，发现自己的身份卡仍少一处见证；金笔从框外留下独一笔，卡上的轮廓才与她的影子对齐。让她低头反复确认这一印记，既表现被看见的喜悦，也埋下过度依赖外部证明的危险。",
+    "discussion_prompt": "是否用“世界能由她生成，但自己的见证仍来自对方”这一反差，作为下一段身份与控制问题的起点？",
+    "evidence_frames": [
+      2712,
+      2713,
+      2714,
+      2715,
+      2716,
+      2717,
+      2727,
+      2767,
+      2806
+    ],
+    "source_files": [
+      "D:/myskills/updream/KI-MV-Remake-Projekt/exports/shot-review-20261105/boards/R32.jpg",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/exports/shot-review-20261105/cuts/R32.jpg",
+      "D:/myskills/updream/references/world-execute-me-lyric-mv/src/scenes/06_verse2.js",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/src/full/early.js",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/docs/REVISION_V2_SCENE_PROPOSAL.md",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/docs/shot-review-20261105/frame-index.json"
+    ]
+  }
+]

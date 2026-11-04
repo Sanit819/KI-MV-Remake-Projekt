@@ -1,0 +1,25 @@
+{
+  "date": "2026-11-05",
+  "shot_count": 87,
+  "review_count": 87,
+  "unique_review_ids": 87,
+  "groups": [
+    33,
+    28,
+    26
+  ],
+  "missing_reviews": [],
+  "invalid_items": [],
+  "frame_counts": {
+    "ref": 6509,
+    "ours": 12740
+  },
+  "all_reference_frames_numerically_measured": 6509,
+  "distinct_human_review_evidence_frames": 622,
+  "human_review_scope": "All 87 comparison boards; early/middle full cut strips and late selected strips. Evidence listed per shot, not a claim of human visual review of all 6509 frames.",
+  "same_music_offset_s": -0.08350936080898314,
+  "stored_source_hashes": {
+    "reference": "580510a0820dbfbc331de3b823da112b88849b0a16964e90eee68f62d52b9f98",
+    "astra": "e37a3e6dca42ef16667b4aec1792f454348e83cb2b2fb2d10ff7343e7911a6bd"
+  }
+}

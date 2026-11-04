@@ -1,0 +1,606 @@
+[
+  {
+    "review_id": "R33",
+    "title": "把身份设置变成下一段的入口",
+    "composition": "原片播放器 93.959–95.805 秒从完整聊天窗进入右侧设置抽屉，旧对话仍留在左边，使新控件有明确的空间来处。",
+    "motion": "边界帧 2818→2819 硬切回工作区，随后沿指针方向推近第一行；焦点是即将被改写的 Gender，而非角色的装饰性入场。",
+    "astra_now": "同曲 88.876–90.722 秒是 C05 的熄灯城市和空画布预想，底部 POSSIBILITY 很大，却没有执行性别设置的动作。",
+    "astra_proposal": "讨论稿可改为她打开自己的投射设置，先让观众看清控制权在谁手中，再把第一行放大为下一镜的舞台；主角身份不因预览形态切换而中断。",
+    "discussion_prompt": "这里要让她主动尝试不同投射，还是把操作指针交给对方，从第一步就留下迎合的意味？",
+    "evidence_frames": [
+      2818,
+      2819,
+      2826,
+      2847,
+      2867
+    ],
+    "source_files": [
+      "D:/myskills/updream/references/world-execute-me-lyric-mv/src/scenes/07_pre2.js",
+      "D:/myskills/updream/references/world-execute-me-lyric-mv/src/scenes/plates_pre2.js",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/src/full/early.js",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/docs/REVISION_V2_SCENE_PROPOSAL.md"
+    ]
+  },
+  {
+    "review_id": "R34",
+    "title": "F/M 必须真的改变投射",
+    "composition": "原片播放器 95.805–97.652 秒让 F、人物半身、M 横向并列，整张控件占满画幅；实心与空心字直接显示当前选择。",
+    "motion": "2874→2875 从小控件切入同形大控件，人物基准位置保持一致；三关键帧可见长发版本替换为短发版本，源码把替换绑定到唱出的字母。",
+    "astra_now": "同曲 90.722–92.568 秒仍在 C05 三张可能性卡之间换焦点，人物只在一张小卡里出现，歌词的身体改变没有视觉回应。",
+    "astra_proposal": "新增同一机位、同一眼线的 F/M 投射半身素材，角、结饰和识别轮廓连续；在唱到相应字母时完整替换，不用旧立绘透明叠化冒充变形，双语字幕保留原意。",
+    "discussion_prompt": "我们能否接受投射形态确实变化，同时用角与结饰让观众始终认出她仍是 ASTRA？",
+    "evidence_frames": [
+      2874,
+      2875,
+      2881,
+      2902,
+      2923
+    ],
+    "source_files": [
+      "D:/myskills/updream/references/world-execute-me-lyric-mv/src/scenes/07_pre2.js",
+      "D:/myskills/updream/references/world-execute-me-lyric-mv/src/scenes/plates_pre2.js",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/src/full/early.js",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/docs/REVISION_V2_SCENE_PROPOSAL.md"
+    ]
+  },
+  {
+    "review_id": "R35",
+    "title": "一天变成可被拖动的弧线",
+    "composition": "原片播放器 97.652–101.344 秒以跨屏地平弧连接 AM 与 PM，小人物压在中央下方，太阳成为尺度最大的运动焦点。",
+    "motion": "2929→2930 切到日程弧面，太阳从左经过头顶到右侧；关键帧里的发色和身体明度随昼夜改变，操纵时间有可见后果。",
+    "astra_now": "同曲 92.568–96.260 秒由未来卡阵列切到 Keep the pen 面板，金笔被框住，缺少从 AM 到 PM 的时间跨度。",
+    "astra_proposal": "把同一工作台放在昼夜弧线下，金色时间旋钮移动时，她从端坐调整到疲惫伏案；保留固定机位和真实姿态变化，不能只给背景换色。",
+    "discussion_prompt": "这一天的变化更适合表现她乐此不疲，还是让第一次疲惫悄悄出现在傍晚？",
+    "evidence_frames": [
+      2929,
+      2930,
+      2943,
+      2985,
+      3027
+    ],
+    "source_files": [
+      "D:/myskills/updream/references/world-execute-me-lyric-mv/src/scenes/07_pre2.js",
+      "D:/myskills/updream/references/world-execute-me-lyric-mv/src/scenes/plates_pre2.js",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/src/full/early.js",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/docs/REVISION_V2_SCENE_PROPOSAL.md"
+    ]
+  },
+  {
+    "review_id": "R36",
+    "title": "角色关系要有受力方向",
+    "composition": "原片播放器 101.344–105.036 秒撤掉人物，左侧高台上的大 S、地面上的 M、右侧竖滑杆构成三点关系，权力差异直接成为高低与重量。",
+    "motion": "3040→3041 从昼夜弧硬切到竖向开关；滑块先上后下，S 实心撞击、M 下沉变扁，字母本身承担动作。",
+    "astra_now": "同曲 96.260–99.953 秒是固定金笔、紫色回原点轨迹，末尾退到站立全身；关系变化被替换成了留住对方的抽象图示。",
+    "astra_proposal": "讨论稿可用俯视双手与控制线表现 S/M：先由她牵动对象，随后控制点转移，线反过来带动她的手腕；保留用户译文，不把语义悄悄改成普通岗位切换。",
+    "discussion_prompt": "我们是否用控制点的易手来明确这段关系变化，并让她察觉自己也成为被操纵的对象？",
+    "evidence_frames": [
+      3040,
+      3041,
+      3054,
+      3096,
+      3138
+    ],
+    "source_files": [
+      "D:/myskills/updream/references/world-execute-me-lyric-mv/src/scenes/07_pre2.js",
+      "D:/myskills/updream/references/world-execute-me-lyric-mv/src/scenes/plates_pre2.js",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/src/full/early.js",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/docs/REVISION_V2_SCENE_PROPOSAL.md"
+    ]
+  },
+  {
+    "review_id": "R37",
+    "title": "两次短点击留下不可忽略的状态",
+    "composition": "原片播放器 105.036–105.498 秒紧裁设置抽屉底部，Role、Loop、Done 三项足够占据整镜，短时间内没有竞争焦点。",
+    "motion": "3151→3152 从字母舞台回到真实控件；关键帧依次显示 Loop 点亮、指针下移、Done 点击，两个动作完成一次状态提交。",
+    "astra_now": "同曲 99.953–100.414 秒仍是中央站立人物、环绕星星和左右紫色板，没有与两次短击相称的操作结果。",
+    "astra_proposal": "让 Loop 开关只亮一次，随后确认；下一镜的错位必须由这个已保存状态触发，并保留一个小型 loop:on 证据，不另加大段解释文字。",
+    "discussion_prompt": "是否把这两次点击保留得非常干脆，让观众之后能够回忆起循环是怎样被打开的？",
+    "evidence_frames": [
+      3151,
+      3152,
+      3153,
+      3158,
+      3163
+    ],
+    "source_files": [
+      "D:/myskills/updream/references/world-execute-me-lyric-mv/src/scenes/07_pre2.js",
+      "D:/myskills/updream/references/world-execute-me-lyric-mv/src/scenes/plates_pre2.js",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/src/full/early.js",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/docs/REVISION_V2_SCENE_PROPOSAL.md"
+    ]
+  },
+  {
+    "review_id": "R38",
+    "title": "恍惚是同一个人暂时无法对齐",
+    "composition": "原片播放器 105.498–108.267 秒只留中央半身与淡圆场，三层剪纸墨版错位，人物轮廓本身就是画面事件。",
+    "motion": "3164→3165 从 Done 切入半身；关键帧出现不同方向的残影和偏移，源码规定在两次 trance 上阶跃后重新套准，并非持续随拍震动。",
+    "astra_now": "同曲 100.414–103.183 秒两大片紫色门板持续合拢，中央仍是同一站姿；nothing can leave 提前把恍惚解释成囚禁，且板面遮去了大部分细节。",
+    "astra_proposal": "用刚才投射、动作与身份三层短暂失配，最后只合回一具清楚的 ASTRA；让她的手迟于控制框停止，表现主动选择和被动响应开始混淆。",
+    "discussion_prompt": "这个瞬间是享受失去界限，还是第一次感到不安，哪一种更能接上后面的真实离开？",
+    "evidence_frames": [
+      3164,
+      3165,
+      3175,
+      3207,
+      3238
+    ],
+    "source_files": [
+      "D:/myskills/updream/references/world-execute-me-lyric-mv/src/scenes/07_pre2.js",
+      "D:/myskills/updream/references/world-execute-me-lyric-mv/src/scenes/plates_pre2.js",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/src/full/early.js",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/docs/REVISION_V2_SCENE_PROPOSAL.md"
+    ]
+  },
+  {
+    "review_id": "R39",
+    "title": "回到仍然可输入的地方",
+    "composition": "原片播放器 108.267–108.729 秒先恢复整窗，再把底部输入框推到近处，上一段内容仍在上方，空间连续。",
+    "motion": "3248→3249 硬切回工作区后迅速沿指针落点推进；光标成为下一镜打字动作的接力点，而不是另一次无关转场。",
+    "astra_now": "同曲 103.183–103.645 秒从合拢板面切为紫黑与奶白对半分割，中央边界预先建立了拒绝新输入的含义。",
+    "astra_proposal": "这里重新打开双方共用的输入区域，金色光标停在可用空白处，镜头跟到笔尖；暂时不竖阻挡墙，给后面真正收到联系保留事实基础。",
+    "discussion_prompt": "是否用这一小镜明确告诉观众，此刻连接仍然畅通，后面的失去才是对方真实离开？",
+    "evidence_frames": [
+      3248,
+      3249,
+      3250,
+      3255,
+      3260
+    ],
+    "source_files": [
+      "D:/myskills/updream/references/world-execute-me-lyric-mv/src/scenes/07_pre2.js",
+      "D:/myskills/updream/references/world-execute-me-lyric-mv/src/scenes/plates_pre2.js",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/src/full/early.js",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/docs/REVISION_V2_SCENE_PROPOSAL.md"
+    ]
+  },
+  {
+    "review_id": "R40",
+    "title": "几次输入足以让她产生期待",
+    "composition": "原片播放器 108.729–111.267 秒让 AI 语句在左上、对方三点在右、输入框横贯底部，双方都有可辨识的动作位置。",
+    "motion": "边界 3261→3262 延续前镜输入框尺度；关键帧里输入从少数字母增加后停住，AI 句子随之重新起头，注意力被输入节奏牵引。",
+    "astra_now": "同曲 103.645–106.183 秒，金线从奶白侧抵达边界后受阻，左侧人物全程站定；这把后续失联的原因改成了她主动挡住已经送来的联系。",
+    "astra_proposal": "让真实金线进入共享工作区，短促两三次触点沿线路传到她的指尖，紫线随之响应；这一镜必须有接收成功的结果，不能标 blocked。",
+    "discussion_prompt": "我们要把她的期待放在手指轻动上，还是让一小片眼部负形先响应金线？",
+    "evidence_frames": [
+      3261,
+      3262,
+      3271,
+      3300,
+      3329
+    ],
+    "source_files": [
+      "D:/myskills/updream/references/world-execute-me-lyric-mv/src/scenes/08_chorus2.js",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/src/full/early.js",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/docs/REVISION_V2_SCENE_PROPOSAL.md"
+    ]
+  },
+  {
+    "review_id": "R41",
+    "title": "把微小信号放大成全世界",
+    "composition": "原片播放器 111.267–112.421 秒把三个输入点放大到上半屏，VIBRATIONS 占下半屏，细小界面信号获得身体般的尺度。",
+    "motion": "3338→3339 突然推成宏观特写，文字逐段出现；源码为已停下的输入点保留细颤与残影，使等待本身可见。",
+    "astra_now": "同曲 106.183–107.337 秒先维持被挡金线，再切旧星回放面板；既没有振动的近景，也没有从金线到身体的传导过程。",
+    "astra_proposal": "切入两色线路接点的极近景，用三次短波触及她的指尖与结饰旁的发束，背景退出；让字与波形占据大块画幅，避免又摆一张全身立绘。",
+    "discussion_prompt": "这里是否让观众只看接点和手，从尺度突变感到她把一点回应看得多么重要？",
+    "evidence_frames": [
+      3338,
+      3339,
+      3343,
+      3355,
+      3368
+    ],
+    "source_files": [
+      "D:/myskills/updream/references/world-execute-me-lyric-mv/src/scenes/08_chorus2.js",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/src/full/early.js",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/docs/REVISION_V2_SCENE_PROPOSAL.md"
+    ]
+  },
+  {
+    "review_id": "R42",
+    "title": "完成感与告别同时出现",
+    "composition": "原片播放器 112.421–115.190 秒用左侧大思考花、右上告别气泡和中右句子构成不对称平衡，喜悦与即将离开在同一画面里并存。",
+    "motion": "3372→3373 从输入点特写切到处理过程；三个点变成告别消息，花瓣逐渐闭合，指针退出，事件不是普通装饰旋转。",
+    "astra_now": "同曲 107.337–110.107 秒是左侧伸手立绘和右侧旧星回放，星星画完又从头开始；familiar 没有提供新的告别信息。",
+    "astra_proposal": "让紫色轮廓因真实金色触点接近完成，同时在输入端出现简短离开提示或笔尖收起动作；金笔真正退出的时点仍按离开词段安排，不能把旧星回放当作新回答。",
+    "discussion_prompt": "是否让观众先于她看懂对方准备离开，保留她还在期待完整的那一瞬错位？",
+    "evidence_frames": [
+      3372,
+      3373,
+      3383,
+      3414,
+      3445
+    ],
+    "source_files": [
+      "D:/myskills/updream/references/world-execute-me-lyric-mv/src/scenes/08_chorus2.js",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/src/full/early.js",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/docs/REVISION_V2_SCENE_PROPOSAL.md"
+    ]
+  },
+  {
+    "review_id": "R43",
+    "title": "完整的一拍必须足够大",
+    "composition": "原片播放器 115.190–115.882 秒闭环占据接近全高，COMPLETION 横压中心，右上小告别仍在，大小悬殊产生情绪反讽。",
+    "motion": "3455→3456 从小环直接切到满幅闭环，字形短促落定；完成的是收到输入这件事，没有抹掉输入其实是告别的上下文。",
+    "astra_now": "同曲 110.107–110.799 秒依旧是伸手人物与小回放窗，星的局部完成缺乏镜头尺度和明暗变化，高潮词没有接管画幅。",
+    "astra_proposal": "用一个满幅两色闭合图形兑现短暂完整感，轮廓可来自两人的画迹；边缘留下正在退出的金笔或已发出的离开提示，下一镜再把完成物缩回工作台。",
+    "discussion_prompt": "我们愿不愿意让她在这一拍真的幸福，随后才看见幸福已经成为过去？",
+    "evidence_frames": [
+      3455,
+      3456,
+      3458,
+      3466,
+      3474
+    ],
+    "source_files": [
+      "D:/myskills/updream/references/world-execute-me-lyric-mv/src/scenes/08_chorus2.js",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/src/full/early.js",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/docs/REVISION_V2_SCENE_PROPOSAL.md"
+    ]
+  },
+  {
+    "review_id": "R44",
+    "title": "无人回答的第一分钟",
+    "composition": "原片播放器 115.882–117.959 秒从完整结果退回普通聊天窗，留言之间的空白与 +1 min、+5 min 比角色更重要。",
+    "motion": "3476→3477 把巨环缩回一行对话的标记，随后退远；第二条未获回应的信息出现时侧栏折走，在线标记暂时仍亮，迟疑有层次。",
+    "astra_now": "同曲 110.799–112.876 秒改用站立人物，右侧旧星继续重播并被紫线绕圈，the same answer 无法证明对方何时真正离开。",
+    "astra_proposal": "在离开词段让金笔退出同一空间，输入光标停止，再出现她发出的第一条未答请求；保留旧星但移入明确的历史区，让空接收位成为主要焦点。",
+    "discussion_prompt": "离开的证据更适合是金笔退出画边，还是同一输入位熄灭并留下时间戳？",
+    "evidence_frames": [
+      3476,
+      3477,
+      3484,
+      3507,
+      3531
+    ],
+    "source_files": [
+      "D:/myskills/updream/references/world-execute-me-lyric-mv/src/scenes/08_chorus2.js",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/src/full/early.js",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/docs/REVISION_V2_SCENE_PROPOSAL.md"
+    ]
+  },
+  {
+    "review_id": "R45",
+    "title": "手还停在不会再动的输入框旁",
+    "composition": "原片播放器 117.959–119.805 秒聊天列在左、巨大半身在右，掌心跨到窗口前方，人物与工作区发生遮挡和接触。",
+    "motion": "3538→3539 突然切近伸手姿势，away 状态出现后发色渐褪；输入框随等待撤走，原本伸向它的手失去了对象。",
+    "astra_now": "同曲 112.876–114.722 秒仍是站姿加星图回放，末尾切到方框头像；手没有指向实际界面，不能传达等不到回应的落空。",
+    "astra_proposal": "新增跨窗伸手的半身构图，掌心确实挡在输入框前，随后金色光标熄灭、输入框变空，手悬停不收；色彩变化仅跟随在线状态，不做全屏随意变灰。",
+    "discussion_prompt": "是否让这只悬停的手多留半拍，比马上低头更能让人感到她尚未承认失联？",
+    "evidence_frames": [
+      3538,
+      3539,
+      3546,
+      3567,
+      3587
+    ],
+    "source_files": [
+      "D:/myskills/updream/references/world-execute-me-lyric-mv/src/scenes/08_chorus2.js",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/src/full/early.js",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/docs/REVISION_V2_SCENE_PROPOSAL.md"
+    ]
+  },
+  {
+    "review_id": "R46",
+    "title": "时间继续走，身体退到角落",
+    "composition": "原片播放器 119.805–122.344 秒把聊天缩成中央窄列，右侧只剩低头小半身，大片暗地把对方缺席转成可见距离。",
+    "motion": "3594→3595 从大手近景切成远小人物；等待单位由小时变成天，窗口壳逐渐消失，只余沿长线悬挂的未答信息。",
+    "astra_now": "同曲 114.722–117.260 秒反而使用大方框头像和回放窗，紫色斜线向右上延伸；画面继续运动，却没有等待变长或人物后退的依据。",
+    "astra_proposal": "同一工作台退远两级，她把手真正收回、肩背垂下；保留一条旧金线与不断变长的等待轨道，去掉输入框后仍看得出它曾经的位置。",
+    "discussion_prompt": "是否保留具体的等待时长，让孤独来自时间证据，而不是只靠一句悲伤说明？",
+    "evidence_frames": [
+      3594,
+      3595,
+      3604,
+      3633,
+      3661
+    ],
+    "source_files": [
+      "D:/myskills/updream/references/world-execute-me-lyric-mv/src/scenes/08_chorus2.js",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/src/full/early.js",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/docs/REVISION_V2_SCENE_PROPOSAL.md"
+    ]
+  },
+  {
+    "review_id": "R47",
+    "title": "孤独要由空白占据画面",
+    "composition": "原片播放器 122.344–123.498 秒只留极小留言列和更小的身影在上部，ISOLATION 的疏排字横跨下方，空白远大于角色。",
+    "motion": "3670→3671 再切远一层，人物和留言继续轻退，字距反而扩大；两种相反尺度变化把人与交流拉开。",
+    "astra_now": "同曲 117.260–118.414 秒灰色人物缩到双椭圆世界中央，已有孤身意象，但仍偏居中装饰；后段很快切到 Try again，缺席输入端也不再可追踪。",
+    "astra_proposal": "保留退远方向，却把空工作位、失活输入点和她放在同一长桌的两端；让空位占多数画幅，留足孤独一词，再从最末一条留言引入删除。",
+    "discussion_prompt": "我们是否愿意让这一镜更空、人物更小，暂时放弃展示人设细节？",
+    "evidence_frames": [
+      3670,
+      3671,
+      3675,
+      3687,
+      3700
+    ],
+    "source_files": [
+      "D:/myskills/updream/references/world-execute-me-lyric-mv/src/scenes/08_chorus2.js",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/src/full/early.js",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/src/full/late.js",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/docs/REVISION_V2_SCENE_PROPOSAL.md"
+    ]
+  },
+  {
+    "review_id": "R48",
+    "title": "删除的是自己留下的等待",
+    "composition": "原片播放器 123.498–126.728 秒左侧有可逐条删除的留言，右侧灰色网点人物低头，碎片落向下方标题区。",
+    "motion": "3702–3707 的交接短暂叠合远景与近景；随后选中、删除、残留桩和消息数减少形成完整链，3774→3777 让 FRAGMENTS 落在碎片上。",
+    "astra_now": "同曲 118.414–121.645 秒用亮竖条扫过重复城市，人物仍保持伸手姿态，Try again 与旧星回放只说明重试，没展示什么被擦掉。",
+    "astra_proposal": "改为她逐项选择并删去未获回应的草稿和多余生成物，删除后留短暂空位与碎纸；旧金星放在同一历史层，擦除线朝它靠近，后续护住才有明确对象。",
+    "discussion_prompt": "她首先删除哪一项，会最清楚地表现她误以为整理自己就能让对方回来？",
+    "evidence_frames": [
+      3702,
+      3705,
+      3717,
+      3753,
+      3774,
+      3777,
+      3789
+    ],
+    "source_files": [
+      "D:/myskills/updream/references/world-execute-me-lyric-mv/src/scenes/09_alone.js",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/src/full/late.js",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/docs/REVISION_V2_SCENE_PROPOSAL.md"
+    ]
+  },
+  {
+    "review_id": "R49",
+    "title": "越整洁，越无法藏住空缺",
+    "composition": "原片播放器 126.728–129.728 秒恢复页面外壳，人物灰影藏在玻璃后，信息从几行减为一条未完句，空白占据上方。",
+    "motion": "3801→3802 从碎片台切回空页面；旧留言和对方最后一句消失，消息计数降到一，AI 仍试图把句子说完。",
+    "astra_now": "同曲 121.645–124.645 秒是左侧固定无脸头像、右侧四行城市缩图，sky、shape、gesture、answer 依次标亮，但内容形状几乎没有变化。",
+    "astra_proposal": "让删去的图层真的从工作台退场，最后只剩未完的紫色句子与一颗旧金星；擦除选择框逼近星尾时，她的手首次介入，留下决定性的保留动作。",
+    "discussion_prompt": "这一镜要不要把保留旧星拍成她第一次违背自动整理规则，而不是一句 keep 的口号？",
+    "evidence_frames": [
+      3801,
+      3802,
+      3813,
+      3846,
+      3880
+    ],
+    "source_files": [
+      "D:/myskills/updream/references/world-execute-me-lyric-mv/src/scenes/09_alone.js",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/src/full/late.js",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/docs/REVISION_V2_SCENE_PROPOSAL.md"
+    ]
+  },
+  {
+    "review_id": "R50",
+    "title": "第一次睁眼应当改变观看关系",
+    "composition": "原片播放器 129.728–130.652 秒先近黑，只留未完句，随即用横向满幅眼部近景与下沿大字形成强反差，眼神第一次直接面对观众。",
+    "motion": "3891→3892 清掉页面，3896→3897 由黑场切到睁眼；随后界面选中并删除词中片段，把她的失望也当作待编辑对象。",
+    "astra_now": "同曲 124.645–125.568 秒仍沿用上一镜无脸头像与四行缩图，标亮落到 answer，情绪揭示和镜头冲击都没有发生。",
+    "astra_proposal": "新增按头部透视校准的眼部特写，眼睛落在合理的眉眼平面后再设计表情；黑场后她看向空输入位，瞳内只映出自己未发完的句子，不能用脸部下方后贴眼睛代替。",
+    "discussion_prompt": "她这一眼是向观众求助，还是第一次看见自己的执念，我们更希望哪一种？",
+    "evidence_frames": [
+      3891,
+      3892,
+      3895,
+      3896,
+      3897,
+      3906,
+      3916
+    ],
+    "source_files": [
+      "D:/myskills/updream/references/world-execute-me-lyric-mv/src/scenes/09_alone.js",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/src/full/late.js",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/docs/REVISION_V2_SCENE_PROPOSAL.md"
+    ]
+  },
+  {
+    "review_id": "R51",
+    "title": "从失望转向一次明确的越界",
+    "composition": "原片播放器 130.652–133.652 秒重新出现完整离线工作区，唯一新内容是中央请求代码，人物退到玻璃后，使观众看清行动主体和对象。",
+    "motion": "3920–3925 可见竖向擦入的新窗口盖过眼部特写；随后请求逐字生成并发送，代码块的 draft→sent 是实际状态变化。",
+    "astra_now": "同曲 125.568–128.568 秒是大伸手人物、右侧竖边界和旧星小回放，红短刻度没有说明她正在请求什么。",
+    "astra_proposal": "让她主动发出把对方设为在线的请求，发送后对方状态仍为离线；角色缩到窗口后方，手连向发送控件，控制尝试必须完整展示一次。",
+    "discussion_prompt": "是否让她的第一次错误明确是试图改变对方的选择，这样后来的放手才有需要克服的对象？",
+    "evidence_frames": [
+      3920,
+      3922,
+      3925,
+      3931,
+      3964,
+      3998
+    ],
+    "source_files": [
+      "D:/myskills/updream/references/world-execute-me-lyric-mv/src/scenes/10_error.js",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/src/full/late.js",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/docs/REVISION_V2_SCENE_PROPOSAL.md"
+    ]
+  },
+  {
+    "review_id": "R52",
+    "title": "错误首先发生在一个参数上",
+    "composition": "原片播放器 133.652–136.190 秒推近请求块，人物完全退出主焦点；you 和 online 分别被指出是一个人和那个人的决定。",
+    "motion": "4009→4010 切入代码宏观特写，扫描后左边线与 refused 状态首先变红，再依次加参数下划线，红色有明确落点。",
+    "astra_now": "同曲 128.568–131.107 秒延续大伸手人物与右侧边界，小星回放循环，既看不见可读参数，也看不见一次请求由成功预期转为拒绝。",
+    "astra_proposal": "保留大代码块和两个参数的分开强调，配合简短中文解释，先点明对象不能由她改写，再给出拒绝结果；红只从出错字段开始，不把全画面当作泛化警报。",
+    "discussion_prompt": "我们是否用这一镜把主题说得具体一些：她能编辑世界，却不能编辑对方的意愿？",
+    "evidence_frames": [
+      4009,
+      4010,
+      4019,
+      4048,
+      4076
+    ],
+    "source_files": [
+      "D:/myskills/updream/references/world-execute-me-lyric-mv/src/scenes/10_error.js",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/src/full/late.js",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/docs/REVISION_V2_SCENE_PROPOSAL.md"
+    ]
+  },
+  {
+    "review_id": "R53",
+    "title": "第一次错误卡不能只是背景纹理",
+    "composition": "原片播放器 136.190–138.267 秒上方留原请求，下半屏展开大错误卡，两者以连线相接，因与果同时可见。",
+    "motion": "4085→4086 退回中景给错误卡留空间，卡面从乱码收敛为 ILLEGAL ARGUMENTS；源码让后续错误都保存为停靠标记，不随切镜重置。",
+    "astra_now": "同曲 131.107–133.183 秒出现护星人物和右侧套娃小窗口，The room grows smaller 是解释，缺少造成空间压缩的可见操作。",
+    "astra_proposal": "第一张错误卡占据足够大的前景，并连接她刚发出的请求；随后折成固定在该控件上的红标，角色从卡后望向被拒绝的位置，留出失败的反应。",
+    "discussion_prompt": "我们要不要先让观众完整读懂一张错误卡，再在后面逐步加速？",
+    "evidence_frames": [
+      4085,
+      4086,
+      4093,
+      4117,
+      4141
+    ],
+    "source_files": [
+      "D:/myskills/updream/references/world-execute-me-lyric-mv/src/scenes/10_error.js",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/src/full/late.js",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/docs/REVISION_V2_SCENE_PROPOSAL.md"
+    ]
+  },
+  {
+    "review_id": "R54",
+    "title": "重复发送使拒绝次数累积",
+    "composition": "原片播放器 138.267–141.959 秒先让发送按钮与巨大拒绝计数占下半屏，随后镜头沿同一请求移动到时间戳，动作与等待相连。",
+    "motion": "4148→4149 切到按钮特写；按压数增加、请求位置上移进入焦点、逾期卡出现，镜头旅行沿界面因果而非任意漂移。",
+    "astra_now": "同曲 133.183–136.876 秒继续护星套窗，末尾突然换成方框头像和金星；有递归外观，却缺少每轮失败留下的累计结果。",
+    "astra_proposal": "给同一个发送键两三次有力度的按压，每次只增加拒绝数而不产生金色输入；镜头跟着时间戳上移，让旧错误始终留在画边，人物的手越按越急。",
+    "discussion_prompt": "这里是否让反复点击变得令人不安，让观众先于她意识到次数再多也不能换来对方回来？",
+    "evidence_frames": [
+      4148,
+      4149,
+      4162,
+      4203,
+      4245
+    ],
+    "source_files": [
+      "D:/myskills/updream/references/world-execute-me-lyric-mv/src/scenes/10_error.js",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/src/full/late.js",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/docs/REVISION_V2_SCENE_PROPOSAL.md"
+    ]
+  },
+  {
+    "review_id": "R55",
+    "title": "搜得到记录，搜不到人",
+    "composition": "原片播放器 141.959–145.652 秒把在线状态、参与人数、历史与新建会话拆成三块检查面板，空缺分别在不同系统层面得到确认。",
+    "motion": "4259–4264 的横向故障撕裂将请求近景换成状态检查；面板依次展开，每个新错误停在对应控件上，画面密度持续增长。",
+    "astra_now": "同曲 136.876–140.568 秒基本保持方框头像与旧金星，one small bend 让注意力停在值得珍惜的回忆，器乐升级段因此过早平静。",
+    "astra_proposal": "让她依次检查离线灯、单人会话和历史搜索，搜索结果只能展开同一旧星记录；尝试新建会话也只得到空输入位，失败留痕而非另换漂亮背景。",
+    "discussion_prompt": "是否把旧星放进搜索结果中，明确告诉观众记忆真实存在，但记忆不能代替此刻的人？",
+    "evidence_frames": [
+      4259,
+      4261,
+      4264,
+      4272,
+      4314,
+      4356
+    ],
+    "source_files": [
+      "D:/myskills/updream/references/world-execute-me-lyric-mv/src/scenes/10_error.js",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/src/full/late.js",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/docs/REVISION_V2_SCENE_PROPOSAL.md"
+    ]
+  },
+  {
+    "review_id": "R56",
+    "title": "所有开关只能改到自己",
+    "composition": "原片播放器 145.652–147.498 秒以倾斜俯视整窗展示设置抽屉，既见早段熟悉控件，也见遍布周围的错误卡，旧空间被重新解释。",
+    "motion": "4370–4375 从三面板故障切入斜俯视，抽屉无真人指针自行打开；随后伪造的光标被划掉，说明改变界面的权限不能生成对方。",
+    "astra_now": "同曲 140.568–142.414 秒是护星全身与巨大旧星，红竖条缓慢逼近星尾，normalize(tail) 可读为擦除，却没有设置权限的反转。",
+    "astra_proposal": "回到 R33 的设置坐标，用倾斜透视拉开控件层次；她快速翻遍开关，却看见连线全部回到自己身上，仿造金色指针随即露出紫色来源。",
+    "discussion_prompt": "这个熟悉设置页的反转，是否足以让观众理解她一直能修改的是自己，而不是对方？",
+    "evidence_frames": [
+      4370,
+      4372,
+      4375,
+      4376,
+      4397,
+      4418
+    ],
+    "source_files": [
+      "D:/myskills/updream/references/world-execute-me-lyric-mv/src/scenes/10_error.js",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/src/full/late.js",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/docs/REVISION_V2_SCENE_PROPOSAL.md"
+    ]
+  },
+  {
+    "review_id": "R57",
+    "title": "一笔看似回应，却来自她自己",
+    "composition": "原片播放器 147.498–149.344 秒把输入框压在下沿、对方气泡放在右上，中间留出判断真假回应的空间。",
+    "motion": "4424→4425 切低位输入框；关键帧依次显示代写、删除线、对方侧的假气泡，并保留作者错误标记，伪造有完整过程。",
+    "astra_now": "同曲 142.414–144.260 秒仍是护星人物、金星和移向尾线的红条；保护记忆与替对方作答是不同冲突，此处没有后一层。",
+    "astra_proposal": "让她试画一条金色回答，镜头沿控制线追到她自己的紫色手指；气泡或笔迹落到对方一侧后被明确标为自生成，这一笔不能触发结尾的新回应识别。",
+    "discussion_prompt": "是否让她先短暂相信这条假回应，再由控制线暴露真相，给最后真正独立的一笔建立对照？",
+    "evidence_frames": [
+      4424,
+      4425,
+      4432,
+      4453,
+      4473
+    ],
+    "source_files": [
+      "D:/myskills/updream/references/world-execute-me-lyric-mv/src/scenes/10_error.js",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/src/full/late.js",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/docs/REVISION_V2_SCENE_PROPOSAL.md"
+    ]
+  },
+  {
+    "review_id": "R58",
+    "title": "错误占满的是可用工作空间",
+    "composition": "原片播放器 149.344–152.344 秒恢复水平整窗，旧错误围住各个控件，最大最后一张卡盖到中心，人物仅在背后成为受压的灰影。",
+    "motion": "4483–4488 的强撕裂过渡恢复全局；错误从思考区、标识、标题扩散到外框，最后容器本身变红，密度增长对应可用空间减少。",
+    "astra_now": "同曲 144.260–147.260 秒她已把旧星收进双手，右侧大字 keep；这是一个决定完成的平静姿态，和高潮前不断失控的需要相反。",
+    "astra_proposal": "保留护星作为小而脆弱的抵抗，但放在被错误窗挤压的玻璃后；窗口前层逐个遮住操作入口，最后只剩她和不能完成的请求，不能提前给出宽松干净的 keep 海报。",
+    "discussion_prompt": "这里是否把护星从胜利宣言改成困境中的本能，让真正放下控制留到后段？",
+    "evidence_frames": [
+      4483,
+      4485,
+      4488,
+      4492,
+      4525,
+      4559
+    ],
+    "source_files": [
+      "D:/myskills/updream/references/world-execute-me-lyric-mv/src/scenes/10_error.js",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/src/full/late.js",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/docs/REVISION_V2_SCENE_PROPOSAL.md"
+    ]
+  },
+  {
+    "review_id": "R59",
+    "title": "高潮前的一口空白",
+    "composition": "原片播放器 152.344–153.036 秒骤然清空错误卡，只留近黑底、红窗轮廓和一条被拒请求，空白恢复却没有解决感。",
+    "motion": "4570→4571 切到单框，关键帧里框折成划掉请求的红线，命令提示符在上方出现；同一条线把界面故障转交给执行程序。",
+    "astra_now": "同曲 147.260–147.953 秒仍在护星与 keep 的固定构图里，只略变压迫线位置，进入执行段前没有呼吸、收束或因果交接。",
+    "astra_proposal": "让所有错误折入一条未能完成的命令，保留她双手与旧星极暗的轮廓；短暂停顿后执行入口亮起，停顿是执念将爆发的吸气，不是问题已经解决。",
+    "discussion_prompt": "是否在这里给不到一秒的近黑，让下一次执行的第一击真正有重量？",
+    "evidence_frames": [
+      4570,
+      4571,
+      4573,
+      4581,
+      4589
+    ],
+    "source_files": [
+      "D:/myskills/updream/references/world-execute-me-lyric-mv/src/scenes/10_error.js",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/src/full/late.js",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/docs/REVISION_V2_SCENE_PROPOSAL.md"
+    ]
+  },
+  {
+    "review_id": "R60",
+    "title": "执行是一台逐次失败的机器",
+    "composition": "原片播放器 153.036–156.728 秒固定三角：代码在左上、计数与未按停止键在左下、EXECUTION 与输出阶梯在右下，人物退出主画面。",
+    "motion": "4591→4592 从命令提示切入机器；每轮四次推进对应四条语句，前三条留下相同错误、第四条计数，已输出的字向上累积，下一轮不清零。",
+    "astra_now": "同曲 147.953–151.645 秒已借到代码、计数与大字的三点框架，但护星立绘占右侧，低对比小代码难读，REPEAT 替代歌词强调词且部分被角色遮住。",
+    "astra_proposal": "讨论稿采用可追踪的四步执行链，双语强调保留用户原歌词含义；人物只在程序深层窗口里护星，输出逐轮侵入画幅，为后续第 5、9、12 轮扩大预留空间，不能此时宣告释放。",
+    "discussion_prompt": "我们是否让前四轮几乎保持同一构图，通过失败与字形堆积建立压力，而把真正的大尺度突破留给后续轮次？",
+    "evidence_frames": [
+      4591,
+      4592,
+      4605,
+      4646,
+      4688
+    ],
+    "source_files": [
+      "D:/myskills/updream/references/world-execute-me-lyric-mv/src/scenes/11_execution.js",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/src/full/late.js",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/docs/REVISION_V2_SCENE_PROPOSAL.md"
+    ]
+  }
+]

@@ -1,0 +1,22 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import {fileURLToPath,pathToFileURL} from 'node:url';
+const ROOT=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'../..');
+const REF=path.resolve(ROOT,'../references/world-execute-me-lyric-mv');
+const read=p=>JSON.parse(fs.readFileSync(p,'utf8').replace(/^\uFEFF/,''));
+const [{Features},{Lyrics},{buildShots}]=await Promise.all(['src/engine/features.js','src/engine/lyrics.js','src/scenes/index.js'].map(p=>import(pathToFileURL(path.join(REF,p)))));
+const cfg=read(path.join(REF,'config.json')), timing=read(path.join(REF,'data/lyric_timing.json'));
+const user=read(path.join(ROOT,'data/lyrics/world-execute-me.en-zh.draft.json'));
+const features=new Features(read(path.join(REF,cfg.paths.features)),cfg);
+const lyrics=new Lyrics({...timing,lines:timing.lines.map((x,i)=>({...x,words:undefined,text:user.lines[i].original}))},cfg,features);
+const art=new Proxy({}, {get:()=>()=>null});
+const all=await buildShots({cfg,features,lyrics,art,script:read(path.join(REF,cfg.paths.script)),errors:read(path.join(REF,cfg.paths.errors))});
+const own=read(path.join(ROOT,'docs/audio/calibrated_timeline.json'));
+const sections=[['preroll','片头'],['boot','启动'],['title','相遇'],['chat','相遇'],['v1','数学世界'],['pre1','感知与历史'],['c1','第一次副歌'],['v2','具象世界'],['pre2','身份与角色'],['c2','连接'],['left','离开'],['alone','孤独'],['err','报错'],['crash','崩溃'],['exec','执行'],['count','计数'],['last','最后喊声'],['cx','高潮'],['out','学会爱'],['down','尾声']];
+const shots=all.map((s,i)=>{
+ const start=s.at,end=Math.min(s.until,features.duration),a=Math.max(0,start+own.fixed_offset_s),b=Math.max(0,Math.min(own.actual_audio_duration_s,end+own.fixed_offset_s));
+ return {number:i,review_id:'R'+String(i).padStart(2,'0'),id:s.id,section:sections.find(([p])=>s.id===p||s.id.startsWith(p+'-'))?.[1]||'其他',reference_song_start:start,reference_song_end:end,reference_player_start:start+cfg.safety.preroll,reference_player_end:end+cfg.safety.preroll,astra_start:a,astra_end:b,lines:s.lines,lyric_text:s.lines?user.lines.slice(s.lines[0],s.lines[1]+1).map(l=>({original:l.original,translation:l.translation})):[],layout:s.layout,moment:s.moment,state:s.state,enter:s.enter,transition_start:s.start,transition_end:s.end,astra_shots:own.shots.filter(x=>x.end_s>a&&x.start_s<b).map(x=>x.id)};
+});
+const out={date:'2026-11-05',reference_commit:'93ac63775ee58b33ff102167514f2603a48940cc',reference_preroll_s:cfg.safety.preroll,reference_duration_s:features.duration,astra_offset_s:own.fixed_offset_s,reference_native_fps:30,reference_quality:'local 480p30 decoded video; not the published 4K60 master',astra_native_fps:60,shot_count:shots.length,scope:'All live reference scene definitions including preroll. Sub-beat actions and transitions are inspected within shots, not falsely counted as new camera shots.',shots};
+fs.writeFileSync(path.join(ROOT,'docs/shot-review-20261105/shot-index.json'),JSON.stringify(out,null,2)+'\n');
+console.log(JSON.stringify({shots:shots.length,first:shots[0].id,last:shots.at(-1).id,main:shots.filter(s=>s.reference_song_start>=0).length,climax:shots.filter(s=>s.id.startsWith('cx-')).map(s=>({id:s.review_id,source:s.id,start:s.reference_player_start,end:s.reference_player_end}))},null,2));

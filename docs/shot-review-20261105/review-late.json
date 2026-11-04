@@ -1,0 +1,553 @@
+[
+  {
+    "review_id": "R61",
+    "title": "执行第五至八轮：稳定三角中的堆积",
+    "composition": "左上代码、左下白色计数、右下执行大字形成三个固定焦点；右侧同词逐行向上堆，中央的暗负形逐渐被挤窄。原片没有人物，粗字块与细代码的尺度差就是画面的压迫来源。",
+    "motion": "代码行标按音节往下跑，计数和右侧字堆按轮次累加，构图只略放大；参考帧4715、4757、4799能看出字堆由短变高。",
+    "astra_now": "同歌时是F02的白纸回忆与右侧护星全身像，纸上的旧长尾星逐渐画出；它交代了珍惜的理由，但白纸与角色都近乎固定，四次执行没有形成四次明显的画面冲击。",
+    "astra_proposal": "提议把旧星回忆放进同一执行台的透视窗口，护星双手作为近景，右侧失败输出继续堆高，不切去一张干净回忆卡。每次执行都挤压她与旧星的空间，护住长尾只能暂缓损失，机器仍在运行。",
+    "discussion_prompt": "四次执行的代价主要放在旧星险被擦除，还是她可活动的空间越来越小，哪一种更容易看懂？",
+    "evidence_frames": [
+      4715,
+      4757,
+      4799
+    ],
+    "source_files": [
+      "D:/myskills/updream/KI-MV-Remake-Projekt/exports/shot-review-20261105/boards/R61.jpg",
+      "D:/myskills/updream/references/world-execute-me-lyric-mv/src/scenes/11_execution.js",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/src/full/late.js"
+    ]
+  },
+  {
+    "review_id": "R62",
+    "title": "执行第九至十一轮：字墙越过边界",
+    "composition": "右侧执行字堆已经顶出画框，最下方的大字横跨近三分之二宽；左上代码仍可读，左下计数保留纯白，观看顺序没有乱。上方被裁掉的字暗示压力还在画外继续增加。",
+    "motion": "同一三角构图再推大一级，字墙继续增高，活跃音节由空心变实心；代码定义的短促套色错位发生在重拍，并非整段低帧率抖动。",
+    "astra_now": "F03已切到满幅发丝、结饰和黑色脸部负形，底带写着KEEP与THE BEND，右下有旧星。人物尺度接近参考的巨字冲击，但中间三帧基本一致，压力没有继续升级。",
+    "astra_proposal": "提议用满幅头部裁切承接逐级放大的执行台，眼外负形中保留前段失败记录，右侧字墙继续逼近。旧星的弯尾留在手边一个清楚的小亮口里，眼神开始看到代价，但没有获得出口。",
+    "discussion_prompt": "她在这一镜先看见自己的活动空间被压缩，还是先看见旧星也成了执行对象，更能推动后面的迟疑？",
+    "evidence_frames": [
+      4823,
+      4854,
+      4885
+    ],
+    "source_files": [
+      "D:/myskills/updream/KI-MV-Remake-Projekt/exports/shot-review-20261105/boards/R62.jpg",
+      "D:/myskills/updream/references/world-execute-me-lyric-mv/src/scenes/11_execution.js",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/src/full/late.js"
+    ]
+  },
+  {
+    "review_id": "R63",
+    "title": "第十二次：横贯画面的最后冲撞",
+    "composition": "执行巨字突然占满整条横向中轴，上下半字沿细红线错开，左下计数由数字变成溢出符号；背景代码被压暗但没有消失。中心细缝把一个词切成两个相反方向的重量。",
+    "motion": "这是从堆积转为一次爆发的尺度跳变，字形按四个音节依次填实；帧4899到4920可见计数溢出与整词完成。",
+    "astra_now": "同歌时仍是F03的KEEP THE BEND头部图版，基本沿用上一镜；第十二次与前面三次的构图差别不明显。",
+    "astra_proposal": "提议第十二次让执行巨字撞满横轴并错开成上下两半，中缝只露出她仍在护星的双手，后台循环与溢出计数继续存在。裂开的是输出图版，不是已经成功摧毁控制核心，随后中缝接到下一组计数。",
+    "discussion_prompt": "第十二次要突出机器已经失控，还是她第一次意识到正在伤害自己珍惜的东西？",
+    "evidence_frames": [
+      4899,
+      4910,
+      4920
+    ],
+    "source_files": [
+      "D:/myskills/updream/KI-MV-Remake-Projekt/exports/shot-review-20261105/boards/R63.jpg",
+      "D:/myskills/updream/references/world-execute-me-lyric-mv/src/scenes/11_execution.js",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/src/full/late.js"
+    ]
+  },
+  {
+    "review_id": "R64",
+    "title": "数一：垂直扫出第一张卡",
+    "composition": "巨大橙色1固定在中心，德语单词在左、语言调用在右，底部细小的回复计数仍为0；四周空白使数字成为唯一主角。上方代码只承担这组数字的语境。",
+    "motion": "边界帧4924至4926中，横向亮条从上往下揭开卡片，随后只作很小的前推；这一拍的方向明确是向下。",
+    "astra_now": "F04把护星全身像留左、六个控制节点留右，主数字由6变5，与歌曲正数一的视觉方向相反；节点很细，缩小观看时难看出具体解除哪一项。",
+    "astra_proposal": "提议前景用大号1对应歌曲唱数，第一块控制域随向下扫线锁定，连线回到她自己的手；旧星留在左下稳定近景。六拍此时是在准备更强的命令，不能画成解除六项控制。",
+    "discussion_prompt": "是否接受把六种语言计数演成逐步锁定六个控制域，让后面仍被困的歌词有清楚的因果？",
+    "evidence_frames": [
+      4924,
+      4925,
+      4926,
+      4930,
+      4935
+    ],
+    "source_files": [
+      "D:/myskills/updream/KI-MV-Remake-Projekt/exports/shot-review-20261105/boards/R64.jpg",
+      "D:/myskills/updream/references/world-execute-me-lyric-mv/src/scenes/11_count.js",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/src/full/late.js",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/exports/shot-review-20261105/cuts/R64.jpg"
+    ]
+  },
+  {
+    "review_id": "R65",
+    "title": "数二：整页向上换行",
+    "composition": "中心2延续上一镜的尺度，西班牙语单词移到右、调用移到左，左右文字对调而中轴不变。底部回复数仍是0，形成尝试增加、回应不动的对照。",
+    "motion": "边界帧4938至4940是整张旧卡向上离开、新卡从下方顶入，数字带短暂残影；这是纸页换行，不是淡入。",
+    "astra_now": "同一护星像与节点圈继续停留，右侧主数字从5变4，第二条线淡出；运动主要发生在细线和小节点上。",
+    "astra_proposal": "提议大号2从底部推入，把第二块控制域顶到执行位置，第一条锁定记录仍留在上缘，不随换页消失。双手与旧星作为不动的底层锚点，让越来越多的操作与越来越少的自由同时可见。",
+    "discussion_prompt": "第二次锁定后，是让记录留在上缘累积，还是让连线直接绕近她的手，更能延续压力？",
+    "evidence_frames": [
+      4938,
+      4939,
+      4940,
+      4944,
+      4949
+    ],
+    "source_files": [
+      "D:/myskills/updream/KI-MV-Remake-Projekt/exports/shot-review-20261105/boards/R65.jpg",
+      "D:/myskills/updream/references/world-execute-me-lyric-mv/src/scenes/11_count.js",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/src/full/late.js",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/exports/shot-review-20261105/cuts/R65.jpg"
+    ]
+  },
+  {
+    "review_id": "R66",
+    "title": "数三：向左回车",
+    "composition": "3仍占中心，法语单词回到左侧、调用回到右侧；大数字两边保留足够暗空，读数与方向都很快。",
+    "motion": "边界帧4952、4953、4954显示亮竖线由右向左扫过，旧2与新3在扫线两侧短暂并存，像一次回车。",
+    "astra_now": "F04维持左人物右圆环，主数字从4变3，第三个节点退出；没有与这一拍对应的横向构图动作。",
+    "astra_proposal": "提议第三步的竖扫线把预设答案面板划入锁定范围，大号3从扫线后露出，面板角上的笔迹来源指向她。人物与旧星不参与横切，变化集中在她试图替对方作答的控制对象上。",
+    "discussion_prompt": "第三个控制域是否用预设答案，让后面发现所有答案出自自己时能够认出同一张面板？",
+    "evidence_frames": [
+      4952,
+      4953,
+      4954,
+      4958,
+      4963
+    ],
+    "source_files": [
+      "D:/myskills/updream/KI-MV-Remake-Projekt/exports/shot-review-20261105/boards/R66.jpg",
+      "D:/myskills/updream/references/world-execute-me-lyric-mv/src/scenes/11_count.js",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/src/full/late.js",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/exports/shot-review-20261105/cuts/R66.jpg"
+    ]
+  },
+  {
+    "review_id": "R67",
+    "title": "数四：列状打印",
+    "composition": "中心4、右侧韩文、左侧调用延续三栏秩序；数字不离开中轴，换成不同文字也不会重新寻找焦点。",
+    "motion": "帧4965至4969保留了3向4转换的中间状态：内容分列逐次打印，数值先变、右侧韩文后完整出现。它是一小段有方向的重排，随后迅速稳定。",
+    "astra_now": "同歌时仍是固定护星与圆环，主数字从3变2；节点移出可以辨认，但没有原片这种几何分块的换版感。",
+    "astra_proposal": "提议数根实心竖栅随列状打印合拢，数字4稳在中轴，第四个控制域被锁定；她掌边的呼吸空间反而变窄。栅格只覆盖背景和规则文字，保留脸与手的完整轮廓。",
+    "discussion_prompt": "第四拍是否第一次明确让控制栅格围到她身边，使控制对方的冲动开始反过来困住自己？",
+    "evidence_frames": [
+      4965,
+      4966,
+      4967,
+      4968,
+      4969,
+      4971,
+      4976
+    ],
+    "source_files": [
+      "D:/myskills/updream/KI-MV-Remake-Projekt/exports/shot-review-20261105/boards/R67.jpg",
+      "D:/myskills/updream/references/world-execute-me-lyric-mv/src/scenes/11_count.js",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/src/full/late.js",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/exports/shot-review-20261105/cuts/R67.jpg"
+    ]
+  },
+  {
+    "review_id": "R68",
+    "title": "数五：大字砸入再收稳",
+    "composition": "中心5比相邻数字更像一整块重物，瑞典语单词在左、调用在右；周围暗场托住字形，底部细小回复0没有被压掉。",
+    "motion": "边界帧4979至4981显示5先超大进入、迅速缩回既定位置，短残影强化重量；两侧小字基本稳定，冲击集中在一个对象上。",
+    "astra_now": "F04主数字从2变1，人物不变，倒数的最后两步在尺度上并无额外重量。",
+    "astra_proposal": "提议大号5砸入时拉紧新增控制线，牵动的是她身旁的工作区，旧星弯尾险些被拉直，她的手及时护住。保留原片字重的冲击，但这一拍不让任何控制线轻松弹开。",
+    "discussion_prompt": "第五拍的代价要落在她手部受牵制，还是旧星险被校正，以免两种危险同时发生而分散焦点？",
+    "evidence_frames": [
+      4979,
+      4980,
+      4981,
+      4985,
+      4990
+    ],
+    "source_files": [
+      "D:/myskills/updream/KI-MV-Remake-Projekt/exports/shot-review-20261105/boards/R68.jpg",
+      "D:/myskills/updream/references/world-execute-me-lyric-mv/src/scenes/11_count.js",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/src/full/late.js",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/exports/shot-review-20261105/cuts/R68.jpg"
+    ]
+  },
+  {
+    "review_id": "R69",
+    "title": "数六：横条归位与最后松开",
+    "composition": "6仍是中央整块橙墨，汉字六在右、调用在左；六种语言走完后，底部回复0仍没有改变，所有尝试落在同一个空结果上。",
+    "motion": "帧4993至4997能看见新旧卡被横向条带交错推入，先错开、再完整归位；动作只占开头约十分之一秒，余下时间让六读清楚。",
+    "astra_now": "F04主数字从1归0，六节点已经全部解除，旧星仍在她手里；这一叙事结果是对的，但主数字与唱词六仍有读数冲突。",
+    "astra_proposal": "提议大号6在横条交错后完整归位，六个控制域全部锁定，中心空位却仍没有任何新回复。她的手迟疑一下，但连线与循环都还在，这个短停顿随即被下一声执行推入巨字窗口。",
+    "discussion_prompt": "六个域全部锁定后，要先给空着的输入端一眼，还是先给她那一下迟疑，哪个更能说明命令没有换来回应？",
+    "evidence_frames": [
+      4993,
+      4994,
+      4995,
+      4996,
+      4997,
+      4999,
+      5004
+    ],
+    "source_files": [
+      "D:/myskills/updream/KI-MV-Remake-Projekt/exports/shot-review-20261105/boards/R69.jpg",
+      "D:/myskills/updream/references/world-execute-me-lyric-mv/src/scenes/11_count.js",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/src/full/late.js",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/exports/shot-review-20261105/cuts/R69.jpg"
+    ]
+  },
+  {
+    "review_id": "R70",
+    "title": "最后一喊：字形成为看见她的窗口",
+    "composition": "执行单词被拆成两排巨型衬线字，几乎吃满画面；亮色人物只出现在已填亮的字腔内，未唱到的部分只有空心边框。下排第二个字的竖干对准她的眼睛，使眼睛先在字中被找到。",
+    "motion": "四个音节分组点亮字形，亮度累加，人物在字后保持同一套位置；末帧5031与下一镜开头的眼部是一组位置匹配，不是任意换图。",
+    "astra_now": "同歌时F05先给完整护星像与环形边界、底部小字allow(change)，随后F06突然跳到OPEN头部裁切；两者之间没有一个共同的眼部落点。",
+    "astra_proposal": "提议把她仍被控制线围住的近景藏在两排巨字的负形内，最后一组字露出正确透视的眼睛，下一镜字框散开时眼位保持不变。此时眼神是惊惧与迟疑，不是已经松手释然；字形只裁切完整图像，不能扭脸或镜像人物。",
+    "discussion_prompt": "字形最后露出眼睛时，最想让观众读到她害怕失去回应，还是害怕眼前这台机器造成的结果？",
+    "evidence_frames": [
+      5007,
+      5008,
+      5009,
+      5010,
+      5021,
+      5031
+    ],
+    "source_files": [
+      "D:/myskills/updream/KI-MV-Remake-Projekt/exports/shot-review-20261105/boards/R70.jpg",
+      "D:/myskills/updream/references/world-execute-me-lyric-mv/src/scenes/11_count.js",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/src/full/late.js",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/exports/shot-review-20261105/cuts/R70.jpg"
+    ]
+  },
+  {
+    "review_id": "R71",
+    "title": "眼部满幅：世界从她的视线里显现",
+    "composition": "头发橙墨与脸侧奶白负形铺满画面，唯一完整眼睛落在偏左下的位置；上方黑字带压在发片上，既不穿过眼睛，也不把眼睛挤成边角。左上花饰与眼中十字亮点构成斜向支点，右侧大片头发负责平衡重量。",
+    "motion": "边界5035至5037可见上一镜字框外飞，随后脸版固定，虹膜中的小世界旋转、黑墨内代码上行、背后放射线呼吸；短促套色错位是重拍事件，连续运动来自多个独立层。",
+    "astra_now": "163.017秒仍是OPEN底带与结饰占重心的头部裁切，163.883秒已经退到完整reach立像，后续仍是低对比圆弧与细框。高潮第一句尚未说完，眼睛就退成不易辨认的小形状。",
+    "astra_proposal": "提议整句保留不镜像的满幅眼部近景，眼睛约在左侧三分之一，黑字带走上缘，角与结饰可出画但不变形。虹膜里仍是运行的循环，旧星弯尾的倒影被框线逼近，发丝后的失败记录上行；她开始追看代价，世界没有提前打开。",
+    "discussion_prompt": "这里让她直视不断运行的循环，还是视线第一次从循环偏向旧星，更能表现尚未解决的动摇？",
+    "evidence_frames": [
+      5035,
+      5036,
+      5037,
+      5043,
+      5069,
+      5095
+    ],
+    "source_files": [
+      "D:/myskills/updream/KI-MV-Remake-Projekt/exports/shot-review-20261105/boards/R71.jpg",
+      "D:/myskills/updream/references/world-execute-me-lyric-mv/src/scenes/12_chorusx.js",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/src/full/late.js",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/exports/shot-review-20261105/cuts/R71.jpg"
+    ]
+  },
+  {
+    "review_id": "R72",
+    "title": "执行图版一：斜向力量撞向空位",
+    "composition": "人物完全退出，左侧小太阳、向右上划出的粗闪电、右端空心虚线圆构成一条强斜线；底部执行巨字压住整幅。图形很少，闪电周围的大块黑负形让缺席的目标格外明确。",
+    "motion": "帧5109到5124，闪电越过虚线目标继续伸到画外，右缘出现爆裂，镜头没有追着角色跑；一次冲撞改变图形长度与亮度。",
+    "astra_now": "同歌时F06仍为居中的reach全身像，矩形细框逐渐打开，星在右下；与前后人物镜相比，缺少一张彻底改变视觉语言的图形重音。",
+    "astra_proposal": "提议切到无人图版，粗紫色指令从左向右越过空接收端，继续击中独立窗口的边界，窗口受压而没有回信。底部执行巨字接管重拍，旧星小轮廓也被挤到边缘，让观众看见这条命令威胁的不只是某个抽象目标。",
+    "discussion_prompt": "这一声执行的威胁，主要指向其他独立窗口，还是让旧星也险些被卷入，更能说明她愿望的代价？",
+    "evidence_frames": [
+      5104,
+      5105,
+      5106,
+      5109,
+      5124,
+      5139
+    ],
+    "source_files": [
+      "D:/myskills/updream/KI-MV-Remake-Projekt/exports/shot-review-20261105/boards/R72.jpg",
+      "D:/myskills/updream/references/world-execute-me-lyric-mv/src/scenes/12_chorusx.js",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/src/full/late.js",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/exports/shot-review-20261105/cuts/R72.jpg"
+    ]
+  },
+  {
+    "review_id": "R73",
+    "title": "胸像与世界：身体稳定，背景运转",
+    "composition": "胸像居中占据大部分高度，黑脸像一块代码屏，橙白头发构成清楚的外轮廓；旋转球笼与放射线的中心落在头后，底部黑字带托住肩胸。两侧留有对称的暗空，形成近似肖像海报的稳定重心。",
+    "motion": "脸与躯干不作扭曲，代码在黑墨内滚动，头后的球体和笼线旋转，套色版只在重拍短暂错开归位；动态发生在前景字、人物墨版和后景世界三层。",
+    "astra_now": "F06的全身reach立像从前一图版一直延续到这里，背景圆弧较淡，脚边城市更像装饰线。当前姿势、尺度与R72几乎相同，无法形成图形重击之后的人物回归。",
+    "astra_proposal": "提议回到正面胸像近景，眼窝、脸轴与结饰保持清楚，代码在肩部及脸外黑负形里运行。头后的球笼越转越紧，失败记录绕回她身边，底部字带随乐句增长；她看见控制世界也在压缩自己，尚未放弃唯一答案的冲动。",
+    "discussion_prompt": "这一镜要让她看向自己被牵动的手，还是看向身后仍没有回应的空位，以延续执念与迟疑并存的状态？",
+    "evidence_frames": [
+      5145,
+      5146,
+      5147,
+      5153,
+      5179,
+      5206
+    ],
+    "source_files": [
+      "D:/myskills/updream/KI-MV-Remake-Projekt/exports/shot-review-20261105/boards/R73.jpg",
+      "D:/myskills/updream/references/world-execute-me-lyric-mv/src/scenes/12_chorusx.js",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/src/full/late.js",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/exports/shot-review-20261105/cuts/R73.jpg"
+    ]
+  },
+  {
+    "review_id": "R74",
+    "title": "执行图版二：没有人按的按钮",
+    "composition": "巨大的实心圆盘压在左中部，右侧只留一个空心0，底部是粗大的执行字；虚线鼠标轮廓压在圆盘上，却没有真实的按压者。实心圆、空心数值和大片暗场把有动作却无回应的关系画出来。",
+    "motion": "帧5229的亮度冲击位于按钮处，随后又退回稳定圆盘；代码中两次下沉按压递进，刻度始终未亮，第二次的幅度更深。",
+    "astra_now": "同歌时F06继续全身立像，到169.917秒才切换为左人物、右开放门与open文字；按钮重音被一个较缓的场景换入替代。",
+    "astra_proposal": "提议保留巨大按钮、右侧空位与底部执行词，按钮每次自行下沉都压紧相同的连接网，反馈仍是空的。她的手影可以在边缘试图撤离却仍被线牵住，但不能在这里成功撤走控制印章或宣布自由。",
+    "discussion_prompt": "按钮第二次下沉时，是否让她第一次试着缩回手，却看见连接还在，以区分撤回的念头与真正完成撤回？",
+    "evidence_frames": [
+      5215,
+      5216,
+      5217,
+      5220,
+      5229,
+      5230,
+      5231,
+      5235,
+      5250
+    ],
+    "source_files": [
+      "D:/myskills/updream/KI-MV-Remake-Projekt/exports/shot-review-20261105/boards/R74.jpg",
+      "D:/myskills/updream/references/world-execute-me-lyric-mv/src/scenes/12_chorusx.js",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/src/full/late.js",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/exports/shot-review-20261105/cuts/R74.jpg"
+    ]
+  },
+  {
+    "review_id": "R75",
+    "title": "手掌满幅：给出之后，留下空处",
+    "composition": "参考只截取伸出的手、袖口和发丝，脸完全出画；白色掌心在左，黑色弯曲负形贯穿右侧，虚线心与0贴近掌心。顶部黑字带越过袖发却避开手指，观众先看手，再沿字符流看向右边的空处。",
+    "motion": "字符从掌心持续流向右缘、堆积后散碎，虚线心轻微呼吸，人物手形不变；前景字带、流动字符、后景代码各自连续运动。",
+    "astra_now": "F07仍是左半边全身reach、右半边门洞与open小字，细线沿门底画出路径；掌心和指向都太小，动作主要靠文字解释。",
+    "astra_proposal": "提议用正确左右手的专用近景，把张开的掌心放在左三分之一，袖口与发片形成右向引导，手腕后仍能看到控制线。紫色字符持续奔向右侧空白、堆积后散碎，她想留住对方却没有任何独立新线返回；旧星留在身旁，不把张手提前演成从容邀请。",
+    "discussion_prompt": "她张开的手应更像急切地索取回应，还是已经想缩回却迟疑不定，以对应这句仍在执求的歌词？",
+    "evidence_frames": [
+      5256,
+      5257,
+      5258,
+      5265,
+      5294,
+      5322
+    ],
+    "source_files": [
+      "D:/myskills/updream/KI-MV-Remake-Projekt/exports/shot-review-20261105/boards/R75.jpg",
+      "D:/myskills/updream/references/world-execute-me-lyric-mv/src/scenes/12_chorusx.js",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/src/full/late.js",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/exports/shot-review-20261105/cuts/R75.jpg"
+    ]
+  },
+  {
+    "review_id": "R76",
+    "title": "执行图版三：循环越界，或循环终于结束",
+    "composition": "代码块占左上至中央，右上计数已经越过12，巨大的执行词压在底部；同心亮圆从代码后浮起，细线的逻辑与粗字的情绪互相挤压。最底一行依然灰暗未到达，形成视觉上可见的卡住。",
+    "motion": "帧5336至5362中计数继续增大，活跃行反复回到循环，背景同心圈逐级变亮；每个音节都推动一次状态，短故障后画面恢复完整。",
+    "astra_now": "F07的开放门先继续，173.650秒切到F08站像与远处小城市、Room for the unknown文字；这一声执行没有独立的代码图版，也缺少完成某个动作的瞬间。",
+    "astra_proposal": "提议回到代码块加底部巨字的构图，计数继续越界、失败输出累积，循环出口仍然灰暗；她尝试停止的一条指令也回到同一循环里。粗横线只暂时打开一个可进入的程序窗口，下一镜穿入内部，不是已经放行到自由世界。",
+    "discussion_prompt": "是否让停止尝试也被循环吞回，以便观众清楚末副歌的看见代价还不等于问题解决？",
+    "evidence_frames": [
+      5332,
+      5333,
+      5334,
+      5336,
+      5349,
+      5362
+    ],
+    "source_files": [
+      "D:/myskills/updream/KI-MV-Remake-Projekt/exports/shot-review-20261105/boards/R76.jpg",
+      "D:/myskills/updream/references/world-execute-me-lyric-mv/src/scenes/12_chorusx.js",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/src/full/late.js",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/exports/shot-review-20261105/cuts/R76.jpg"
+    ]
+  },
+  {
+    "review_id": "R77",
+    "title": "套窗穿越：把速度变成空间",
+    "composition": "第一个窗口中人物位于左侧，下一个更小窗口嵌在右侧，层层收束到偏右的消失点；外层的黑负形一直为下一层留出入口。推进时近窗变空，人物总在前方小窗中，避免整张人像从观众脸前膨胀掠过。",
+    "motion": "帧5380、5422、5464呈现从可读窗口到连续穿入再到亮窗满幅的过程；源代码深度连续加速，模糊随速度增加，并非反复暂停的台阶缩放。",
+    "astra_now": "同歌时F08基本停在左站像、右小城与一句说明，只有细碎线漂移，缺少参考这段明确的纵深推进。",
+    "astra_proposal": "提议沿程序窗口连续穿过几层几何框，近层越过画边，ASTRA与旧星始终留在更深处的同一空间，循环记录也随之重现。终点的亮纸面转成下一段可翻看的答案卡，她仍在容器里；这一推进是走进困境的内部，不是走出控制的庆祝。",
+    "discussion_prompt": "套窗尽头要先看见被重复的自己，还是一张仍由自己写出的完美答案，哪一种更自然接上学会爱的段落？",
+    "evidence_frames": [
+      5367,
+      5368,
+      5369,
+      5380,
+      5422,
+      5464
+    ],
+    "source_files": [
+      "D:/myskills/updream/KI-MV-Remake-Projekt/exports/shot-review-20261105/boards/R77.jpg",
+      "D:/myskills/updream/references/world-execute-me-lyric-mv/src/scenes/12_chorusx.js",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/src/full/late.js",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/exports/shot-review-20261105/cuts/R77.jpg"
+    ]
+  },
+  {
+    "review_id": "R78",
+    "title": "学会爱之一：低头看过往的痕迹",
+    "composition": "低头侧像占右半画面，左侧五行旧话采用细空心字，橙色下划线逐条强调；底部黑带为LOVE的三个音节留出大面积。人物大色块与左侧细文字形成重量差，低垂视线把注意力带回记录。",
+    "motion": "上一镜白场收进发饰附近，随后下划线依次划过，最后的大字分三次进入并抬高光量；参考帧5562可见这次字音对应的短故障。",
+    "astra_now": "G01是左全身reach、右侧淡虚线预测星，文字为I could finish it；预测与真实旧星之间的差异较小，角色视线也不突出。",
+    "astra_proposal": "提议右侧低头近景看向左侧答案与旧星记录，前三次强调让纸痕逐步清楚，但完整答案卡背面开始露出她自己的紫色笔迹。真实旧记忆仍被保留，她正在辨认记忆与自己补写的内容，尚未得到新的回应。",
+    "discussion_prompt": "这一镜先翻出答案背面的自己的笔迹，还是先展示真实旧星再与完美答案对照，更容易看懂她学到的局限？",
+    "evidence_frames": [
+      5490,
+      5526,
+      5562
+    ],
+    "source_files": [
+      "D:/myskills/updream/KI-MV-Remake-Projekt/exports/shot-review-20261105/boards/R78.jpg",
+      "D:/myskills/updream/references/world-execute-me-lyric-mv/src/scenes/12_outro.js",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/src/full/late.js"
+    ]
+  },
+  {
+    "review_id": "R79",
+    "title": "学会爱之二：六行答案占满右列",
+    "composition": "画面只剩六行横向问答表，左边细空心问题、右边粗体同一个答案，人物完全退出；表格从上向下填满，右列重复的大字成为压迫性的竖墙。底部答案数与不同答案数又把重复变成一个可读结果。",
+    "motion": "每半拍添加一行，答案区先旋转等待，随后六行同时按三个音节填词；帧5588到5671可见两行扩成六行、空栏变成重复粗字。",
+    "astra_now": "G02是左侧站像和右侧逐渐撤掉的预测星，文字为I can leave it open；动作方向正确，但撤回的大部分内容本来就很淡，变化较难读。",
+    "astra_proposal": "提议短暂清空人物，以六行漂亮答案占满右列，再让卡片逐张翻面，露出全部由她自己完成的轨迹。最后一张被移向对方输入区，却停在发送之前，不能把漂亮解答当成对方的回答，也不提前进入新半星等待。",
+    "discussion_prompt": "六张卡同时翻面更有冲击，还是最后只追一张卡回到她手上，更能建立代写答案的因果？",
+    "evidence_frames": [
+      5588,
+      5629,
+      5671
+    ],
+    "source_files": [
+      "D:/myskills/updream/KI-MV-Remake-Projekt/exports/shot-review-20261105/boards/R79.jpg",
+      "D:/myskills/updream/references/world-execute-me-lyric-mv/src/scenes/12_outro.js",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/src/full/late.js"
+    ]
+  },
+  {
+    "review_id": "R80",
+    "title": "学会爱之三：曲线是被画出来的",
+    "composition": "左侧公式与坐标读数很小，右侧巨大心形曲线占据大部分高度；发光笔尖是唯一活动焦点，坐标虚线帮助看清它沿边界的位置。底部大字与图形相接，使LOVE像一次次印刷动作。",
+    "motion": "参考从上方缺口开始沿轮廓连续走笔，曲线闭合后依次变为平涂、排线与发亮；帧5699、5743、5788显示一个过程，而不是三张无关图。",
+    "astra_now": "G03确实在同歌时画出紫色新半星，但人物仍占左大块，星只有右侧很小一笔，细紫投射线难以说明落笔从哪里来。",
+    "astra_proposal": "提议让爱的表达式生成一条占据大半画幅的完整曲线，沿用连续走笔与三次印刷，但在角落同时显出笔与光标都连着她。第三次强调时镜头顺连接线回到自己的手，说明知道表达式仍不能得到对方的独立回答；新的邀请半星留到LOVE之后。",
+    "discussion_prompt": "公式完成后，要看见全部由她自己控制的双笔轨迹，还是直接沿一条控制线回到她的手，更清楚且不误认成新回应？",
+    "evidence_frames": [
+      5699,
+      5743,
+      5788
+    ],
+    "source_files": [
+      "D:/myskills/updream/KI-MV-Remake-Projekt/exports/shot-review-20261105/boards/R80.jpg",
+      "D:/myskills/updream/references/world-execute-me-lyric-mv/src/scenes/12_outro.js",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/src/full/late.js"
+    ]
+  },
+  {
+    "review_id": "R81",
+    "title": "学会爱之四：曲线从边界变成选择",
+    "composition": "上一镜的心形扩大为包围人物的边界，人物胸像在中部、伸手越过底部黑字带；左侧撤回请求的小纸条与右上离去的指针建立因果。眼睛、手和巨字处于不同高度，彼此没有简单叠成一团。",
+    "motion": "先划掉强留请求，指针再沿切线离开，最后三次LOVE让不同墨版逐步对齐，最亮的完整人物停住；不是边说放手边把人留下。",
+    "astra_now": "同歌时G04已进入坐等全景，紫色半星在右上、小城在右下，三张样帧几乎不变。安静有必要，但她主动选择等待这一动作没有近景承接。",
+    "astra_proposal": "提议让输入侧先显出开放空间，而循环框只包围她；她将完美答案移到发送边缘，手在落下前停住，开始尝试拔回代答的控制线。LOVE尚未结束时仍保留牵连与迟疑，不提前演成已经坐下释然；最终自主停止留到这组LOVE之后。",
+    "discussion_prompt": "对方自由而她仍被困的关系，主要用开放输入侧对照她的围框，还是用她自己掌握却不敢放开的控制点来表达？",
+    "evidence_frames": [
+      5817,
+      5861,
+      5906
+    ],
+    "source_files": [
+      "D:/myskills/updream/KI-MV-Remake-Projekt/exports/shot-review-20261105/boards/R81.jpg",
+      "D:/myskills/updream/references/world-execute-me-lyric-mv/src/scenes/12_outro.js",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/src/full/late.js"
+    ]
+  },
+  {
+    "review_id": "R82",
+    "title": "画面缩成消息：保留同一幅画的身份",
+    "composition": "原片先保持完整人物与LOVE图版，随后同一张图缩进聊天窗口，人物、心形和伸手的相对位置不变；图下字变成标题，角落出现0与未读记录。远景界面包住近景作品，观众才意识到此前整段是一条消息。",
+    "motion": "先停两拍，再用连续缩放将满幅图版降为一张图片卡，字比图片晚半拍收下；帧5934与5976能认出完全相同的画面身份。",
+    "astra_now": "同歌时G04/H01继续坐等全景，到195.517秒才见独立金笔在半星上方出现；等待空间很大，但回应的小笔尖容易被忽略。",
+    "astra_proposal": "提议延续最后LOVE时停在发送前的手，乐句收束后才撤回代答动作，半星纸面由近景连续退到一处明确待回应的空间。保留旧星、ASTRA和仍未终止的循环核心，输入侧始终空着，不沿用v1约195秒的新金笔入场。",
+    "discussion_prompt": "半星纸面退远时，空位主要留在她身旁还是画纸另一端，哪一种能更清楚表明这里等待的是独立进入的对方？",
+    "evidence_frames": [
+      5934,
+      5976,
+      6018
+    ],
+    "source_files": [
+      "D:/myskills/updream/KI-MV-Remake-Projekt/exports/shot-review-20261105/boards/R82.jpg",
+      "D:/myskills/updream/references/world-execute-me-lyric-mv/src/scenes/13_shutdown.js",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/src/full/late.js"
+    ]
+  },
+  {
+    "review_id": "R83",
+    "title": "聚焦一个字段：用镜头确认那一笔",
+    "composition": "原片先看左侧人格卡与右侧加载花，再精确推到love一行；普通小字段被放成大画面后，删掉几个字也变成情绪事件。左侧表单的直角秩序与右侧花形相互平衡，人物只是玻璃后的灰影。",
+    "motion": "帧6045到6086是向字段推进，字段按三段删除，之后镜头退回、其他字段由下向上清空；取舍围绕一个明确对象。",
+    "astra_now": "H02已让金笔补完整颗新星并加陌生弯尾，H03从197.8秒进入左侧白框表情特写，右侧并列新旧两星。信息顺序正确，但新尾仍偏小，现有惊讶图的眼部位置也是用户已指出待修的部分。",
+    "astra_proposal": "提议借原片精准推近字段的镜头，先确认旧记录的固定弯尾，再推到新纸面空着的另一半与已撤回的紫笔，控制线的来源也交代清楚。镜头要证明她没有复制旧金线或代写新回复，此处没有金笔、惊讶或微笑的兑现。",
+    "discussion_prompt": "确认没有代写这一点，用旧记录与新空白的连续移焦，还是让她撤回的手与空白同框，更有说服力？",
+    "evidence_frames": [
+      6045,
+      6086,
+      6128
+    ],
+    "source_files": [
+      "D:/myskills/updream/KI-MV-Remake-Projekt/exports/shot-review-20261105/boards/R83.jpg",
+      "D:/myskills/updream/references/world-execute-me-lyric-mv/src/scenes/13_shutdown.js",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/src/full/late.js"
+    ]
+  },
+  {
+    "review_id": "R84",
+    "title": "空间拆层：让反应自然回到共画",
+    "composition": "原片把聊天界面转成斜俯视的层叠平面，侧栏、顶栏、正文和输入框各有独立厚度；灰色人物留在背景，空白随着上层被抽走而扩大。",
+    "motion": "界面先倾斜，随后上层逐张抬离，输入框最终单独停在中间；帧6155至6239能跟到同一组平面不断减少，而非切换几个新界面。",
+    "astra_now": "这一同歌时区间跨H03末端与H04：先是白框内的闭眼微笑，再切回左侧坐姿与右侧星，金笔开始接桥。大脸到远景的硬切让眼前的纸与身旁世界之间缺少位置联系。",
+    "astra_proposal": "提议把工作区转成斜俯视的叠层结构，她亲自撤去预设答案、发送代理与其他外围控制层，画纸、旧星和她的身份保留下来。强制回应循环的核心仍作为可辨认对象留在深层，等待最后命令处理；拆层只揭出可以共同作画的空间，不在此处提前出现共画。",
+    "discussion_prompt": "外围控制层逐张撤走后，是否保留一个仍运行的核心与计数器，使最后命令的对象在视觉上足够明确？",
+    "evidence_frames": [
+      6155,
+      6197,
+      6239
+    ],
+    "source_files": [
+      "D:/myskills/updream/KI-MV-Remake-Projekt/exports/shot-review-20261105/boards/R84.jpg",
+      "D:/myskills/updream/references/world-execute-me-lyric-mv/src/scenes/13_shutdown.js",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/src/full/late.js"
+    ]
+  },
+  {
+    "review_id": "R85",
+    "title": "一切撤走时，什么留下",
+    "composition": "原片最后只剩中部输入框，外窗逐渐收成横线，灰色人物退到右后暗处；大片空场使这个很小的输入口成为唯一仍在等待的东西。",
+    "motion": "保护开关关闭、外框上下收拢、背景人物逐渐退出，输入框的位置稳定；帧6261到6313显示边界从满高变成细横线。",
+    "astra_now": "H04的紫金两线交替铺出桥，但角色、星和远城尺度都偏小，纸面笔迹与桥体之间有几段细长投射线。动作是连续的，结果却还不够像两个人在同一处接着画。",
+    "astra_proposal": "提议让外围退暗，只保留独立的空位、未完成纸面与已经撤回到她身边的手，紫笔停止伸向对方输入区。旧星和新半星分别可辨，核心仍在更远处运行；最后命令前的这次等待不能由金色亮点或假回复安慰她。",
+    "discussion_prompt": "这一段空白要让她看向对方位置，还是低头确认自己已撤回的手，哪一种能承接接下来的最终停止？",
+    "evidence_frames": [
+      6261,
+      6287,
+      6313
+    ],
+    "source_files": [
+      "D:/myskills/updream/KI-MV-Remake-Projekt/exports/shot-review-20261105/boards/R85.jpg",
+      "D:/myskills/updream/references/world-execute-me-lyric-mv/src/scenes/13_shutdown.js",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/src/full/late.js"
+    ]
+  },
+  {
+    "review_id": "R86",
+    "title": "最后的执行：共同的下一笔仍在继续",
+    "composition": "原片把发光小花置于输入框上方、执行命令置于下方，最后收成黑场；实际编码的后半段还有居中的小字片尾，并非持续纯黑。我们同歌时保留她、旧星、新星和桥，空间方向应走向展开与陪伴。",
+    "motion": "参考命令按音节填实，光点最后闪一下，窗口收成线、点再消失；v1在205.633秒开始点亮新星、206.1秒达到峰值，随后拉远，近静默中还保留小笔画。",
+    "astra_now": "H05/H06的温暖结果已成立，紫金星、旧星与接好的桥都在，最后仍有两色线迹；但大部分元素是细线和小图形，点亮前后的画面重心变化不够大，尾声小笔画在远景里难辨。",
+    "astra_proposal": "待讨论的原创解读是完整保留“EXECUTION / 执行死刑”，把最后命令的对象明确画成强制回应循环的核心、计数器与假回复，让它断路，ASTRA与旧星仍在；这不是声称歌词本来就等于停止控制。约208秒后才让独立金笔补上新半星与陌生短尾，接她认出、放松和两笔继续画，约4.33秒能否读清所有动作仍待审。208秒是需核验的剪辑候选，209.733秒只是字幕稿的显示终点而非已听核词尾，不能靠旧四秒字幕窗决定回应时点。",
+    "discussion_prompt": "是否接受最后命令针对强制回应循环这一原创解释；若约4.33秒不足以让回应、认出与共同续画都读清，愿意简化尾部动作还是另议尾段时长？",
+    "evidence_frames": [
+      6344,
+      6415,
+      6486
+    ],
+    "source_files": [
+      "D:/myskills/updream/KI-MV-Remake-Projekt/exports/shot-review-20261105/boards/R86.jpg",
+      "D:/myskills/updream/references/world-execute-me-lyric-mv/src/scenes/13_shutdown.js",
+      "D:/myskills/updream/KI-MV-Remake-Projekt/src/full/late.js"
+    ]
+  }
+]
