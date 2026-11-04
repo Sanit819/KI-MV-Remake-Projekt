@@ -1,0 +1,891 @@
+{
+  "source": "media/audio/mili-world-execute-original-bilibili.m4a",
+  "source_offset_s": -0.08350936080898314,
+  "sample_rate": 44100,
+  "hop_samples": 128,
+  "hop_seconds": 0.0029024943310657597,
+  "fft_samples": 1024,
+  "interpretation": "Mixed audio. A frequency band or mid channel is not isolated voice. Peaks are visual accent candidates, not verified word onsets.",
+  "windows": [
+    {
+      "start_s": 145.916490639191,
+      "end_s": 163.916490639191,
+      "events": [
+        {
+          "id": "repeat_01",
+          "reference_s": 148.03630769230767,
+          "expected_source_s": 147.952798,
+          "candidate_peaks_near_expected": {
+            "mid_low": {
+              "t_s": 148.006281,
+              "strength_normalized": 0.9744
+            },
+            "mid_speech_band": {
+              "t_s": 148.041111,
+              "strength_normalized": 0.9729
+            },
+            "mid_high": {
+              "t_s": 148.041111,
+              "strength_normalized": 0.5449
+            },
+            "side_low": {
+              "t_s": 147.939524,
+              "strength_normalized": 0.98
+            },
+            "side_speech_band": {
+              "t_s": 147.936621,
+              "strength_normalized": 0.8997
+            },
+            "side_high": {
+              "t_s": 147.936621,
+              "strength_normalized": 1.1993
+            }
+          }
+        },
+        {
+          "id": "repeat_02",
+          "reference_s": 148.9593846153846,
+          "expected_source_s": 148.875875,
+          "candidate_peaks_near_expected": {
+            "mid_low": {
+              "t_s": 148.906054,
+              "strength_normalized": 0.9658
+            },
+            "mid_speech_band": {
+              "t_s": 148.964104,
+              "strength_normalized": 0.8731
+            },
+            "mid_high": {
+              "t_s": 148.85381,
+              "strength_normalized": 0.7168
+            },
+            "side_low": {
+              "t_s": 148.874127,
+              "strength_normalized": 0.9134
+            },
+            "side_speech_band": {
+              "t_s": 148.943787,
+              "strength_normalized": 0.952
+            },
+            "side_high": {
+              "t_s": 148.792857,
+              "strength_normalized": 0.6386
+            }
+          }
+        },
+        {
+          "id": "repeat_03",
+          "reference_s": 149.88246153846154,
+          "expected_source_s": 149.798952,
+          "candidate_peaks_near_expected": {
+            "mid_low": {
+              "t_s": 149.78551,
+              "strength_normalized": 0.8791
+            },
+            "mid_speech_band": {
+              "t_s": 149.76229,
+              "strength_normalized": 1.0
+            },
+            "mid_high": {
+              "t_s": 149.779705,
+              "strength_normalized": 0.8478
+            },
+            "side_low": {
+              "t_s": 149.770998,
+              "strength_normalized": 1.0094
+            },
+            "side_speech_band": {
+              "t_s": 149.823243,
+              "strength_normalized": 0.8989
+            },
+            "side_high": {
+              "t_s": 149.83195,
+              "strength_normalized": 0.6284
+            }
+          }
+        },
+        {
+          "id": "repeat_04",
+          "reference_s": 150.80553846153845,
+          "expected_source_s": 150.722029,
+          "candidate_peaks_near_expected": {
+            "mid_low": {
+              "t_s": 150.714308,
+              "strength_normalized": 0.7481
+            },
+            "mid_speech_band": {
+              "t_s": 150.670771,
+              "strength_normalized": 0.8224
+            },
+            "mid_high": {
+              "t_s": 150.702698,
+              "strength_normalized": 0.7985
+            },
+            "side_low": {
+              "t_s": 150.714308,
+              "strength_normalized": 0.9797
+            },
+            "side_speech_band": {
+              "t_s": 150.792676,
+              "strength_normalized": 0.8843
+            },
+            "side_high": {
+              "t_s": 150.714308,
+              "strength_normalized": 0.6026
+            }
+          }
+        },
+        {
+          "id": "repeat_05",
+          "reference_s": 151.72861538461538,
+          "expected_source_s": 151.645106,
+          "candidate_peaks_near_expected": {
+            "mid_low": {
+              "t_s": 151.689546,
+              "strength_normalized": 0.9662
+            },
+            "mid_speech_band": {
+              "t_s": 151.733084,
+              "strength_normalized": 1.0153
+            },
+            "mid_high": {
+              "t_s": 151.602472,
+              "strength_normalized": 0.9302
+            },
+            "side_low": {
+              "t_s": 151.602472,
+              "strength_normalized": 1.337
+            },
+            "side_speech_band": {
+              "t_s": 151.730181,
+              "strength_normalized": 0.953
+            },
+            "side_high": {
+              "t_s": 151.622789,
+              "strength_normalized": 0.7584
+            }
+          }
+        },
+        {
+          "id": "repeat_06",
+          "reference_s": 152.65169230769231,
+          "expected_source_s": 152.568183,
+          "candidate_peaks_near_expected": {
+            "mid_low": {
+              "t_s": 152.557392,
+              "strength_normalized": 0.8883
+            },
+            "mid_speech_band": {
+              "t_s": 152.537075,
+              "strength_normalized": 0.8489
+            },
+            "mid_high": {
+              "t_s": 152.545782,
+              "strength_normalized": 1.0254
+            },
+            "side_low": {
+              "t_s": 152.560295,
+              "strength_normalized": 1.2344
+            },
+            "side_speech_band": {
+              "t_s": 152.537075,
+              "strength_normalized": 0.8799
+            },
+            "side_high": {
+              "t_s": 152.505147,
+              "strength_normalized": 0.6317
+            }
+          }
+        },
+        {
+          "id": "repeat_07",
+          "reference_s": 153.57476923076922,
+          "expected_source_s": 153.49126,
+          "candidate_peaks_near_expected": {
+            "mid_low": {
+              "t_s": 153.483288,
+              "strength_normalized": 0.6921
+            },
+            "mid_speech_band": {
+              "t_s": 153.47458,
+              "strength_normalized": 1.0674
+            },
+            "mid_high": {
+              "t_s": 153.47458,
+              "strength_normalized": 0.9957
+            },
+            "side_low": {
+              "t_s": 153.489093,
+              "strength_normalized": 0.7705
+            },
+            "side_speech_band": {
+              "t_s": 153.477483,
+              "strength_normalized": 0.905
+            },
+            "side_high": {
+              "t_s": 153.483288,
+              "strength_normalized": 0.9153
+            }
+          }
+        },
+        {
+          "id": "repeat_08",
+          "reference_s": 154.49784615384615,
+          "expected_source_s": 154.414337,
+          "candidate_peaks_near_expected": {
+            "mid_low": {
+              "t_s": 154.412086,
+              "strength_normalized": 1.0
+            },
+            "mid_speech_band": {
+              "t_s": 154.400476,
+              "strength_normalized": 0.7495
+            },
+            "mid_high": {
+              "t_s": 154.400476,
+              "strength_normalized": 0.8721
+            },
+            "side_low": {
+              "t_s": 154.426599,
+              "strength_normalized": 0.6083
+            },
+            "side_speech_band": {
+              "t_s": 154.432404,
+              "strength_normalized": 0.9536
+            },
+            "side_high": {
+              "t_s": 154.412086,
+              "strength_normalized": 0.6614
+            }
+          }
+        },
+        {
+          "id": "repeat_09",
+          "reference_s": 155.42092307692306,
+          "expected_source_s": 155.337414,
+          "candidate_peaks_near_expected": {
+            "mid_low": {
+              "t_s": 155.404739,
+              "strength_normalized": 0.8182
+            },
+            "mid_speech_band": {
+              "t_s": 155.300249,
+              "strength_normalized": 0.9507
+            },
+            "mid_high": {
+              "t_s": 155.303152,
+              "strength_normalized": 1.1313
+            },
+            "side_low": {
+              "t_s": 155.340884,
+              "strength_normalized": 0.93
+            },
+            "side_speech_band": {
+              "t_s": 155.329274,
+              "strength_normalized": 1.1339
+            },
+            "side_high": {
+              "t_s": 155.314762,
+              "strength_normalized": 0.7747
+            }
+          }
+        },
+        {
+          "id": "repeat_10",
+          "reference_s": 156.344,
+          "expected_source_s": 156.260491,
+          "candidate_peaks_near_expected": {
+            "mid_low": {
+              "t_s": 156.304512,
+              "strength_normalized": 0.7637
+            },
+            "mid_speech_band": {
+              "t_s": 156.237755,
+              "strength_normalized": 0.8281
+            },
+            "mid_high": {
+              "t_s": 156.237755,
+              "strength_normalized": 0.8653
+            },
+            "side_low": {
+              "t_s": 156.252268,
+              "strength_normalized": 0.7652
+            },
+            "side_speech_band": {
+              "t_s": 156.29,
+              "strength_normalized": 1.0
+            },
+            "side_high": {
+              "t_s": 156.170998,
+              "strength_normalized": 0.6772
+            }
+          }
+        },
+        {
+          "id": "repeat_11",
+          "reference_s": 157.26707692307693,
+          "expected_source_s": 157.183568,
+          "candidate_peaks_near_expected": {
+            "mid_low": {
+              "t_s": 157.175261,
+              "strength_normalized": 0.8776
+            },
+            "mid_speech_band": {
+              "t_s": 157.169456,
+              "strength_normalized": 0.7924
+            },
+            "mid_high": {
+              "t_s": 157.166553,
+              "strength_normalized": 0.9291
+            },
+            "side_low": {
+              "t_s": 157.169456,
+              "strength_normalized": 1.0094
+            },
+            "side_speech_band": {
+              "t_s": 157.175261,
+              "strength_normalized": 0.9764
+            },
+            "side_high": {
+              "t_s": 157.172358,
+              "strength_normalized": 0.799
+            }
+          }
+        },
+        {
+          "id": "repeat_12",
+          "reference_s": 158.19015384615383,
+          "expected_source_s": 158.106644,
+          "candidate_peaks_near_expected": {
+            "mid_low": {
+              "t_s": 158.095351,
+              "strength_normalized": 0.7068
+            },
+            "mid_speech_band": {
+              "t_s": 158.046009,
+              "strength_normalized": 0.7286
+            },
+            "mid_high": {
+              "t_s": 158.086644,
+              "strength_normalized": 0.6947
+            },
+            "side_low": {
+              "t_s": 158.109864,
+              "strength_normalized": 1.1708
+            },
+            "side_speech_band": {
+              "t_s": 158.112766,
+              "strength_normalized": 0.954
+            },
+            "side_high": {
+              "t_s": 158.092449,
+              "strength_normalized": 0.6187
+            }
+          }
+        },
+        {
+          "id": "count_1",
+          "reference_s": 159.11323076923077,
+          "expected_source_s": 159.029721,
+          "candidate_peaks_near_expected": {
+            "mid_low": {
+              "t_s": 159.01254,
+              "strength_normalized": 1.1723
+            },
+            "mid_speech_band": {
+              "t_s": 159.01254,
+              "strength_normalized": 1.0676
+            },
+            "mid_high": {
+              "t_s": 159.006735,
+              "strength_normalized": 0.6117
+            },
+            "side_low": {
+              "t_s": 159.029955,
+              "strength_normalized": 1.2125
+            },
+            "side_speech_band": {
+              "t_s": 159.02415,
+              "strength_normalized": 1.0472
+            },
+            "side_high": {
+              "t_s": 159.003832,
+              "strength_normalized": 0.9418
+            }
+          }
+        },
+        {
+          "id": "count_2",
+          "reference_s": 159.57476923076922,
+          "expected_source_s": 159.49126,
+          "candidate_peaks_near_expected": {
+            "mid_low": {
+              "t_s": 159.549501,
+              "strength_normalized": 0.8877
+            },
+            "mid_speech_band": {
+              "t_s": 159.488549,
+              "strength_normalized": 0.856
+            },
+            "mid_high": {
+              "t_s": 159.485646,
+              "strength_normalized": 1.17
+            },
+            "side_low": {
+              "t_s": 159.549501,
+              "strength_normalized": 0.6121
+            },
+            "side_speech_band": {
+              "t_s": 159.564014,
+              "strength_normalized": 0.8506
+            },
+            "side_high": {
+              "t_s": 159.488549,
+              "strength_normalized": 0.7635
+            }
+          }
+        },
+        {
+          "id": "count_3",
+          "reference_s": 160.03630769230767,
+          "expected_source_s": 159.952798,
+          "candidate_peaks_near_expected": {
+            "mid_low": {
+              "t_s": 159.93263,
+              "strength_normalized": 0.8674
+            },
+            "mid_speech_band": {
+              "t_s": 159.900703,
+              "strength_normalized": 0.9968
+            },
+            "mid_high": {
+              "t_s": 159.900703,
+              "strength_normalized": 1.3458
+            },
+            "side_low": {
+              "t_s": 159.93263,
+              "strength_normalized": 0.8042
+            },
+            "side_speech_band": {
+              "t_s": 159.999388,
+              "strength_normalized": 0.8239
+            },
+            "side_high": {
+              "t_s": 159.947143,
+              "strength_normalized": 0.5921
+            }
+          }
+        },
+        {
+          "id": "count_4",
+          "reference_s": 160.49784615384615,
+          "expected_source_s": 160.414337,
+          "candidate_peaks_near_expected": {
+            "mid_low": {
+              "t_s": 160.411542,
+              "strength_normalized": 1.4566
+            },
+            "mid_speech_band": {
+              "t_s": 160.405737,
+              "strength_normalized": 1.2624
+            },
+            "mid_high": {
+              "t_s": 160.405737,
+              "strength_normalized": 1.6739
+            },
+            "side_low": {
+              "t_s": 160.411542,
+              "strength_normalized": 1.4233
+            },
+            "side_speech_band": {
+              "t_s": 160.405737,
+              "strength_normalized": 1.3474
+            },
+            "side_high": {
+              "t_s": 160.408639,
+              "strength_normalized": 1.2285
+            }
+          }
+        },
+        {
+          "id": "count_5",
+          "reference_s": 160.9593846153846,
+          "expected_source_s": 160.875875,
+          "candidate_peaks_near_expected": {
+            "mid_low": {
+              "t_s": 160.896259,
+              "strength_normalized": 0.5547
+            },
+            "mid_speech_band": {
+              "t_s": 160.945601,
+              "strength_normalized": 0.6414
+            },
+            "mid_high": {
+              "t_s": 160.809184,
+              "strength_normalized": 0.9702
+            },
+            "side_low": {
+              "t_s": 160.878844,
+              "strength_normalized": 0.9194
+            },
+            "side_speech_band": {
+              "t_s": 160.861429,
+              "strength_normalized": 1.2563
+            },
+            "side_high": {
+              "t_s": 160.858526,
+              "strength_normalized": 0.883
+            }
+          }
+        },
+        {
+          "id": "count_6",
+          "reference_s": 161.42092307692306,
+          "expected_source_s": 161.337414,
+          "candidate_peaks_near_expected": {
+            "mid_low": {
+              "t_s": 161.325828,
+              "strength_normalized": 0.7787
+            },
+            "mid_speech_band": {
+              "t_s": 161.325828,
+              "strength_normalized": 0.7162
+            },
+            "mid_high": {
+              "t_s": 161.32873,
+              "strength_normalized": 0.4432
+            },
+            "side_low": {
+              "t_s": 161.41,
+              "strength_normalized": 0.6248
+            },
+            "side_speech_band": {
+              "t_s": 161.34034,
+              "strength_normalized": 0.8267
+            },
+            "side_high": {
+              "t_s": 161.39839,
+              "strength_normalized": 0.6595
+            }
+          }
+        },
+        {
+          "id": "release_shout",
+          "reference_s": 161.88246153846154,
+          "expected_source_s": 161.798952,
+          "candidate_peaks_near_expected": {
+            "mid_low": {
+              "t_s": 161.888912,
+              "strength_normalized": 0.7131
+            },
+            "mid_speech_band": {
+              "t_s": 161.784422,
+              "strength_normalized": 0.7881
+            },
+            "mid_high": {
+              "t_s": 161.755397,
+              "strength_normalized": 0.6217
+            },
+            "side_low": {
+              "t_s": 161.865692,
+              "strength_normalized": 0.7316
+            },
+            "side_speech_band": {
+              "t_s": 161.796032,
+              "strength_normalized": 1.1111
+            },
+            "side_high": {
+              "t_s": 161.790227,
+              "strength_normalized": 0.8847
+            }
+          }
+        },
+        {
+          "id": "chorus_strong_beat",
+          "reference_s": 162.80553846153845,
+          "expected_source_s": 162.722029,
+          "candidate_peaks_near_expected": {
+            "mid_low": {
+              "t_s": 162.71322,
+              "strength_normalized": 1.1974
+            },
+            "mid_speech_band": {
+              "t_s": 162.707415,
+              "strength_normalized": 1.0611
+            },
+            "mid_high": {
+              "t_s": 162.707415,
+              "strength_normalized": 1.0709
+            },
+            "side_low": {
+              "t_s": 162.70161,
+              "strength_normalized": 1.0803
+            },
+            "side_speech_band": {
+              "t_s": 162.707415,
+              "strength_normalized": 1.2354
+            },
+            "side_high": {
+              "t_s": 162.756757,
+              "strength_normalized": 0.989
+            }
+          }
+        }
+      ]
+    },
+    {
+      "start_s": 189.916490639191,
+      "end_s": 208.916490639191,
+      "events": [
+        {
+          "id": "last_voice_accent_1",
+          "reference_s": 191.36,
+          "expected_source_s": 191.276491,
+          "candidate_peaks_near_expected": {
+            "mid_low": {
+              "t_s": 191.31839,
+              "strength_normalized": 1.2099
+            },
+            "mid_speech_band": {
+              "t_s": 191.335805,
+              "strength_normalized": 0.5433
+            },
+            "mid_high": {
+              "t_s": 191.2139,
+              "strength_normalized": 0.8284
+            },
+            "side_low": {
+              "t_s": 191.344512,
+              "strength_normalized": 0.6493
+            },
+            "side_speech_band": {
+              "t_s": 191.2139,
+              "strength_normalized": 0.5103
+            },
+            "side_high": {
+              "t_s": 191.286463,
+              "strength_normalized": 0.7109
+            }
+          }
+        },
+        {
+          "id": "last_voice_accent_2",
+          "reference_s": 191.63,
+          "expected_source_s": 191.546491,
+          "candidate_peaks_near_expected": {
+            "mid_low": {
+              "t_s": 191.608639,
+              "strength_normalized": 0.9231
+            },
+            "mid_speech_band": {
+              "t_s": 191.568005,
+              "strength_normalized": 0.5144
+            },
+            "mid_high": {
+              "t_s": 191.565102,
+              "strength_normalized": 0.6501
+            },
+            "side_low": {
+              "t_s": 191.486735,
+              "strength_normalized": 0.7909
+            },
+            "side_speech_band": {
+              "t_s": 191.46932,
+              "strength_normalized": 0.5298
+            },
+            "side_high": {
+              "t_s": 191.45771,
+              "strength_normalized": 0.7509
+            }
+          }
+        },
+        {
+          "id": "last_voice_accent_3",
+          "reference_s": 192.05,
+          "expected_source_s": 191.966491,
+          "candidate_peaks_near_expected": {
+            "mid_low": {
+              "t_s": 191.939524,
+              "strength_normalized": 0.8436
+            },
+            "mid_speech_band": {
+              "t_s": 191.913401,
+              "strength_normalized": 0.5075
+            },
+            "mid_high": {
+              "t_s": 191.904694,
+              "strength_normalized": 0.612
+            },
+            "side_low": {
+              "t_s": 191.901791,
+              "strength_normalized": 0.6906
+            },
+            "side_speech_band": {
+              "t_s": 191.895986,
+              "strength_normalized": 0.5197
+            },
+            "side_high": {
+              "t_s": 192.003379,
+              "strength_normalized": 1.0614
+            }
+          }
+        },
+        {
+          "id": "final_shout_start",
+          "reference_s": 205.75,
+          "expected_source_s": 205.666491,
+          "candidate_peaks_near_expected": {
+            "mid_low": {
+              "t_s": 205.6422,
+              "strength_normalized": 0.9052
+            },
+            "mid_speech_band": {
+              "t_s": 205.63059,
+              "strength_normalized": 1.5374
+            },
+            "mid_high": {
+              "t_s": 205.63059,
+              "strength_normalized": 1.3577
+            },
+            "side_low": {
+              "t_s": 205.63059,
+              "strength_normalized": 1.4365
+            },
+            "side_speech_band": {
+              "t_s": 205.636395,
+              "strength_normalized": 0.8717
+            },
+            "side_high": {
+              "t_s": 205.633492,
+              "strength_normalized": 0.6528
+            }
+          }
+        },
+        {
+          "id": "final_shout_accent_2",
+          "reference_s": 205.96,
+          "expected_source_s": 205.876491,
+          "candidate_peaks_near_expected": {
+            "mid_low": {
+              "t_s": 205.825057,
+              "strength_normalized": 0.9144
+            },
+            "mid_speech_band": {
+              "t_s": 205.856984,
+              "strength_normalized": 0.4772
+            },
+            "mid_high": {
+              "t_s": 205.868594,
+              "strength_normalized": 0.7182
+            },
+            "side_low": {
+              "t_s": 205.871497,
+              "strength_normalized": 0.8262
+            },
+            "side_speech_band": {
+              "t_s": 205.868594,
+              "strength_normalized": 1.4462
+            },
+            "side_high": {
+              "t_s": 205.871497,
+              "strength_normalized": 0.9631
+            }
+          }
+        },
+        {
+          "id": "final_shout_accent_3",
+          "reference_s": 206.19,
+          "expected_source_s": 206.106491,
+          "candidate_peaks_near_expected": {
+            "mid_low": {
+              "t_s": 206.158844,
+              "strength_normalized": 1.022
+            },
+            "mid_speech_band": {
+              "t_s": 206.094989,
+              "strength_normalized": 0.5971
+            },
+            "mid_high": {
+              "t_s": 206.092086,
+              "strength_normalized": 0.8179
+            },
+            "side_low": {
+              "t_s": 206.118209,
+              "strength_normalized": 0.5716
+            },
+            "side_speech_band": {
+              "t_s": 206.112404,
+              "strength_normalized": 0.5682
+            },
+            "side_high": {
+              "t_s": 206.025329,
+              "strength_normalized": 0.6106
+            }
+          }
+        },
+        {
+          "id": "final_shout_accent_4",
+          "reference_s": 206.45,
+          "expected_source_s": 206.366491,
+          "candidate_peaks_near_expected": {
+            "mid_low": {
+              "t_s": 206.359116,
+              "strength_normalized": 0.9408
+            },
+            "mid_speech_band": {
+              "t_s": 206.321383,
+              "strength_normalized": 0.8399
+            },
+            "mid_high": {
+              "t_s": 206.321383,
+              "strength_normalized": 0.6254
+            },
+            "side_low": {
+              "t_s": 206.43458,
+              "strength_normalized": 0.5231
+            },
+            "side_speech_band": {
+              "t_s": 206.327188,
+              "strength_normalized": 0.7086
+            },
+            "side_high": {
+              "t_s": 206.443288,
+              "strength_normalized": 0.8173
+            }
+          }
+        },
+        {
+          "id": "last_instrument_hit",
+          "reference_s": 206.88,
+          "expected_source_s": 206.796491,
+          "candidate_peaks_near_expected": {
+            "mid_low": {
+              "t_s": 206.878662,
+              "strength_normalized": 0.4777
+            },
+            "mid_speech_band": {
+              "t_s": 206.779977,
+              "strength_normalized": 0.815
+            },
+            "mid_high": {
+              "t_s": 206.779977,
+              "strength_normalized": 0.8248
+            },
+            "side_low": {
+              "t_s": 206.8061,
+              "strength_normalized": 1.0399
+            },
+            "side_speech_band": {
+              "t_s": 206.791587,
+              "strength_normalized": 0.7885
+            },
+            "side_high": {
+              "t_s": 206.74805,
+              "strength_normalized": 0.7909
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

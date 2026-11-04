@@ -1,0 +1,775 @@
+{
+  "baseline_commit": "ae8b77a",
+  "audio_sha256": "b06f195e2a479c25c3282f4ca5b931e293c4a35a941acf6dd5b515ba4890f34a",
+  "audio_file": "media/audio/mili-world-execute-original-bilibili.m4a",
+  "actual_audio_duration_s": 212.33068027210885,
+  "fps": 60,
+  "video_plan_end_frame_exclusive": 12740,
+  "video_plan_duration_s": 212.33333333333334,
+  "final_frame_rounding_hold_ms": 2.6530612244926033,
+  "fixed_offset_s": -0.08350936080898314,
+  "beat_grid": {
+    "bpm": 130,
+    "source_t0_s": 0.26049063919101684
+  },
+  "evidence_boundary": "source alignment, mixed-audio accents and tail energy measured; no isolated-vocal/word listening verification; no video render",
+  "shots": [
+    {
+      "id": "A01",
+      "previous_reference_start_s": 0.0,
+      "previous_reference_end_s": 3.873,
+      "start_frame": 0,
+      "start_s": 0.0,
+      "basis": "inherited line/editorial reference transferred by measured source offset",
+      "end_frame": 227,
+      "end_s": 3.783333333333333,
+      "duration_frames": 227
+    },
+    {
+      "id": "A02",
+      "previous_reference_start_s": 3.873,
+      "previous_reference_end_s": 7.446,
+      "start_frame": 227,
+      "start_s": 3.783333333333333,
+      "basis": "inherited line/editorial reference transferred by measured source offset",
+      "end_frame": 442,
+      "end_s": 7.366666666666666,
+      "duration_frames": 215
+    },
+    {
+      "id": "A03",
+      "previous_reference_start_s": 7.446,
+      "previous_reference_end_s": 11.095,
+      "start_frame": 442,
+      "start_s": 7.366666666666666,
+      "basis": "inherited line/editorial reference transferred by measured source offset",
+      "end_frame": 661,
+      "end_s": 11.016666666666667,
+      "duration_frames": 219
+    },
+    {
+      "id": "A04",
+      "previous_reference_start_s": 11.095,
+      "previous_reference_end_s": 16.0,
+      "start_frame": 661,
+      "start_s": 11.016666666666667,
+      "basis": "inherited line/editorial reference transferred by measured source offset",
+      "end_frame": 955,
+      "end_s": 15.916666666666666,
+      "duration_frames": 294
+    },
+    {
+      "id": "A05",
+      "previous_reference_start_s": 16.0,
+      "previous_reference_end_s": 20.0,
+      "start_frame": 955,
+      "start_s": 15.916666666666666,
+      "basis": "inherited line/editorial reference transferred by measured source offset",
+      "end_frame": 1195,
+      "end_s": 19.916666666666668,
+      "duration_frames": 240
+    },
+    {
+      "id": "A06",
+      "previous_reference_start_s": 20.0,
+      "previous_reference_end_s": 24.344,
+      "start_frame": 1195,
+      "start_s": 19.916666666666668,
+      "basis": "inherited line/editorial reference transferred by measured source offset",
+      "end_frame": 1456,
+      "end_s": 24.266666666666666,
+      "duration_frames": 261
+    },
+    {
+      "id": "A07",
+      "previous_reference_start_s": 24.344,
+      "previous_reference_end_s": 29.709,
+      "start_frame": 1456,
+      "start_s": 24.266666666666666,
+      "basis": "inherited line/editorial reference transferred by measured source offset",
+      "end_frame": 1778,
+      "end_s": 29.633333333333333,
+      "duration_frames": 322
+    },
+    {
+      "id": "B01",
+      "previous_reference_start_s": 29.709,
+      "previous_reference_end_s": 33.412,
+      "start_frame": 1778,
+      "start_s": 29.633333333333333,
+      "basis": "inherited line/editorial reference transferred by measured source offset",
+      "end_frame": 2000,
+      "end_s": 33.333333333333336,
+      "duration_frames": 222
+    },
+    {
+      "id": "B02",
+      "previous_reference_start_s": 33.412,
+      "previous_reference_end_s": 37.067,
+      "start_frame": 2000,
+      "start_s": 33.333333333333336,
+      "basis": "inherited line/editorial reference transferred by measured source offset",
+      "end_frame": 2219,
+      "end_s": 36.983333333333334,
+      "duration_frames": 219
+    },
+    {
+      "id": "B03",
+      "previous_reference_start_s": 37.067,
+      "previous_reference_end_s": 40.706,
+      "start_frame": 2219,
+      "start_s": 36.983333333333334,
+      "basis": "inherited line/editorial reference transferred by measured source offset",
+      "end_frame": 2437,
+      "end_s": 40.61666666666667,
+      "duration_frames": 218
+    },
+    {
+      "id": "B04",
+      "previous_reference_start_s": 40.706,
+      "previous_reference_end_s": 44.452,
+      "start_frame": 2437,
+      "start_s": 40.61666666666667,
+      "basis": "inherited line/editorial reference transferred by measured source offset",
+      "end_frame": 2662,
+      "end_s": 44.36666666666667,
+      "duration_frames": 225
+    },
+    {
+      "id": "B05",
+      "previous_reference_start_s": 44.452,
+      "previous_reference_end_s": 51.363,
+      "start_frame": 2662,
+      "start_s": 44.36666666666667,
+      "basis": "inherited line/editorial reference transferred by measured source offset",
+      "end_frame": 3077,
+      "end_s": 51.28333333333333,
+      "duration_frames": 415
+    },
+    {
+      "id": "B06",
+      "previous_reference_start_s": 51.363,
+      "previous_reference_end_s": 59.223,
+      "start_frame": 3077,
+      "start_s": 51.28333333333333,
+      "basis": "inherited line/editorial reference transferred by measured source offset",
+      "end_frame": 3548,
+      "end_s": 59.13333333333333,
+      "duration_frames": 471
+    },
+    {
+      "id": "B07",
+      "previous_reference_start_s": 59.223,
+      "previous_reference_end_s": 62.589,
+      "start_frame": 3548,
+      "start_s": 59.13333333333333,
+      "basis": "inherited line/editorial reference transferred by measured source offset",
+      "end_frame": 3750,
+      "end_s": 62.5,
+      "duration_frames": 202
+    },
+    {
+      "id": "B08",
+      "previous_reference_start_s": 62.589,
+      "previous_reference_end_s": 66.601,
+      "start_frame": 3750,
+      "start_s": 62.5,
+      "basis": "inherited line/editorial reference transferred by measured source offset",
+      "end_frame": 3991,
+      "end_s": 66.51666666666667,
+      "duration_frames": 241
+    },
+    {
+      "id": "B09",
+      "previous_reference_start_s": 66.601,
+      "previous_reference_end_s": 70.084,
+      "start_frame": 3991,
+      "start_s": 66.51666666666667,
+      "basis": "inherited line/editorial reference transferred by measured source offset",
+      "end_frame": 4200,
+      "end_s": 70.0,
+      "duration_frames": 209
+    },
+    {
+      "id": "B10",
+      "previous_reference_start_s": 70.084,
+      "previous_reference_end_s": 74.045,
+      "start_frame": 4200,
+      "start_s": 70.0,
+      "basis": "inherited line/editorial reference transferred by measured source offset",
+      "end_frame": 4438,
+      "end_s": 73.96666666666667,
+      "duration_frames": 238
+    },
+    {
+      "id": "C01",
+      "previous_reference_start_s": 74.045,
+      "previous_reference_end_s": 77.576,
+      "start_frame": 4438,
+      "start_s": 73.96666666666667,
+      "basis": "inherited line/editorial reference transferred by measured source offset",
+      "end_frame": 4650,
+      "end_s": 77.5,
+      "duration_frames": 212
+    },
+    {
+      "id": "C02",
+      "previous_reference_start_s": 77.576,
+      "previous_reference_end_s": 81.351,
+      "start_frame": 4650,
+      "start_s": 77.5,
+      "basis": "inherited line/editorial reference transferred by measured source offset",
+      "end_frame": 4876,
+      "end_s": 81.26666666666667,
+      "duration_frames": 226
+    },
+    {
+      "id": "C03",
+      "previous_reference_start_s": 81.351,
+      "previous_reference_end_s": 85.078,
+      "start_frame": 4876,
+      "start_s": 81.26666666666667,
+      "basis": "inherited line/editorial reference transferred by measured source offset",
+      "end_frame": 5100,
+      "end_s": 85.0,
+      "duration_frames": 224
+    },
+    {
+      "id": "C04",
+      "previous_reference_start_s": 85.078,
+      "previous_reference_end_s": 88.587,
+      "start_frame": 5100,
+      "start_s": 85.0,
+      "basis": "inherited line/editorial reference transferred by measured source offset",
+      "end_frame": 5310,
+      "end_s": 88.5,
+      "duration_frames": 210
+    },
+    {
+      "id": "C05",
+      "previous_reference_start_s": 88.587,
+      "previous_reference_end_s": 95.465,
+      "start_frame": 5310,
+      "start_s": 88.5,
+      "basis": "inherited line/editorial reference transferred by measured source offset",
+      "end_frame": 5723,
+      "end_s": 95.38333333333334,
+      "duration_frames": 413
+    },
+    {
+      "id": "C06",
+      "previous_reference_start_s": 95.465,
+      "previous_reference_end_s": 99.349,
+      "start_frame": 5723,
+      "start_s": 95.38333333333334,
+      "basis": "inherited line/editorial reference transferred by measured source offset",
+      "end_frame": 5956,
+      "end_s": 99.26666666666667,
+      "duration_frames": 233
+    },
+    {
+      "id": "C07",
+      "previous_reference_start_s": 99.349,
+      "previous_reference_end_s": 103.489,
+      "start_frame": 5956,
+      "start_s": 99.26666666666667,
+      "basis": "inherited line/editorial reference transferred by measured source offset",
+      "end_frame": 6204,
+      "end_s": 103.4,
+      "duration_frames": 248
+    },
+    {
+      "id": "D01",
+      "previous_reference_start_s": 103.489,
+      "previous_reference_end_s": 107.22,
+      "start_frame": 6204,
+      "start_s": 103.4,
+      "basis": "inherited line/editorial reference transferred by measured source offset",
+      "end_frame": 6428,
+      "end_s": 107.13333333333334,
+      "duration_frames": 224
+    },
+    {
+      "id": "D02",
+      "previous_reference_start_s": 107.22,
+      "previous_reference_end_s": 110.9,
+      "start_frame": 6428,
+      "start_s": 107.13333333333334,
+      "basis": "inherited line/editorial reference transferred by measured source offset",
+      "end_frame": 6649,
+      "end_s": 110.81666666666666,
+      "duration_frames": 221
+    },
+    {
+      "id": "D03",
+      "previous_reference_start_s": 110.9,
+      "previous_reference_end_s": 114.18,
+      "start_frame": 6649,
+      "start_s": 110.81666666666666,
+      "basis": "inherited line/editorial reference transferred by measured source offset",
+      "end_frame": 6846,
+      "end_s": 114.1,
+      "duration_frames": 197
+    },
+    {
+      "id": "D04",
+      "previous_reference_start_s": 114.18,
+      "previous_reference_end_s": 117.274,
+      "start_frame": 6846,
+      "start_s": 114.1,
+      "basis": "inherited line/editorial reference transferred by measured source offset",
+      "end_frame": 7031,
+      "end_s": 117.18333333333334,
+      "duration_frames": 185
+    },
+    {
+      "id": "D05",
+      "previous_reference_start_s": 117.274,
+      "previous_reference_end_s": 118.333,
+      "start_frame": 7031,
+      "start_s": 117.18333333333334,
+      "basis": "inherited line/editorial reference transferred by measured source offset",
+      "end_frame": 7095,
+      "end_s": 118.25,
+      "duration_frames": 64
+    },
+    {
+      "id": "E01",
+      "previous_reference_start_s": 118.333,
+      "previous_reference_end_s": 121.728,
+      "start_frame": 7095,
+      "start_s": 118.25,
+      "basis": "inherited line/editorial reference transferred by measured source offset",
+      "end_frame": 7299,
+      "end_s": 121.65,
+      "duration_frames": 204
+    },
+    {
+      "id": "E02",
+      "previous_reference_start_s": 121.728,
+      "previous_reference_end_s": 125.708,
+      "start_frame": 7299,
+      "start_s": 121.65,
+      "basis": "inherited line/editorial reference transferred by measured source offset",
+      "end_frame": 7537,
+      "end_s": 125.61666666666666,
+      "duration_frames": 238
+    },
+    {
+      "id": "E03",
+      "previous_reference_start_s": 125.708,
+      "previous_reference_end_s": 131.224,
+      "start_frame": 7537,
+      "start_s": 125.61666666666666,
+      "basis": "inherited line/editorial reference transferred by measured source offset",
+      "end_frame": 7868,
+      "end_s": 131.13333333333333,
+      "duration_frames": 331
+    },
+    {
+      "id": "E04",
+      "previous_reference_start_s": 131.224,
+      "previous_reference_end_s": 135.224,
+      "start_frame": 7868,
+      "start_s": 131.13333333333333,
+      "basis": "inherited line/editorial reference transferred by measured source offset",
+      "end_frame": 8108,
+      "end_s": 135.13333333333333,
+      "duration_frames": 240
+    },
+    {
+      "id": "E05",
+      "previous_reference_start_s": 135.224,
+      "previous_reference_end_s": 140.652,
+      "start_frame": 8108,
+      "start_s": 135.13333333333333,
+      "basis": "inherited line/editorial reference transferred by measured source offset",
+      "end_frame": 8434,
+      "end_s": 140.56666666666666,
+      "duration_frames": 326
+    },
+    {
+      "id": "E06",
+      "previous_reference_start_s": 140.652,
+      "previous_reference_end_s": 144.344,
+      "start_frame": 8434,
+      "start_s": 140.56666666666666,
+      "basis": "inherited line/editorial reference transferred by measured source offset",
+      "end_frame": 8656,
+      "end_s": 144.26666666666668,
+      "duration_frames": 222
+    },
+    {
+      "id": "E07",
+      "previous_reference_start_s": 144.344,
+      "previous_reference_end_s": 147.66,
+      "start_frame": 8656,
+      "start_s": 144.26666666666668,
+      "basis": "inherited line/editorial reference transferred by measured source offset",
+      "end_frame": 8877,
+      "end_s": 147.95,
+      "duration_frames": 221
+    },
+    {
+      "id": "F01",
+      "previous_reference_start_s": 147.66,
+      "previous_reference_end_s": 151.52,
+      "start_frame": 8877,
+      "start_s": 147.95,
+      "basis": "musical grid transferred using multiband signal alignment; not a verified phoneme onset",
+      "end_frame": 9099,
+      "end_s": 151.65,
+      "duration_frames": 222
+    },
+    {
+      "id": "F02",
+      "previous_reference_start_s": 151.52,
+      "previous_reference_end_s": 155.2,
+      "start_frame": 9099,
+      "start_s": 151.65,
+      "basis": "musical grid transferred using multiband signal alignment; not a verified phoneme onset",
+      "end_frame": 9320,
+      "end_s": 155.33333333333334,
+      "duration_frames": 221
+    },
+    {
+      "id": "F03",
+      "previous_reference_start_s": 155.2,
+      "previous_reference_end_s": 158.9,
+      "start_frame": 9320,
+      "start_s": 155.33333333333334,
+      "basis": "musical grid transferred using multiband signal alignment; not a verified phoneme onset",
+      "end_frame": 9542,
+      "end_s": 159.03333333333333,
+      "duration_frames": 222
+    },
+    {
+      "id": "F04",
+      "previous_reference_start_s": 158.9,
+      "previous_reference_end_s": 161.584,
+      "start_frame": 9542,
+      "start_s": 159.03333333333333,
+      "basis": "musical grid transferred using multiband signal alignment; not a verified phoneme onset",
+      "end_frame": 9708,
+      "end_s": 161.8,
+      "duration_frames": 166
+    },
+    {
+      "id": "F05",
+      "previous_reference_start_s": 161.584,
+      "previous_reference_end_s": 162.632,
+      "start_frame": 9708,
+      "start_s": 161.8,
+      "basis": "musical grid transferred using multiband signal alignment; not a verified phoneme onset",
+      "end_frame": 9753,
+      "end_s": 162.55,
+      "duration_frames": 45
+    },
+    {
+      "id": "F06",
+      "previous_reference_start_s": 162.632,
+      "previous_reference_end_s": 169.824,
+      "start_frame": 9753,
+      "start_s": 162.55,
+      "basis": "inherited line/editorial reference transferred by measured source offset",
+      "end_frame": 10184,
+      "end_s": 169.73333333333332,
+      "duration_frames": 431
+    },
+    {
+      "id": "F07",
+      "previous_reference_start_s": 169.824,
+      "previous_reference_end_s": 173.643,
+      "start_frame": 10184,
+      "start_s": 169.73333333333332,
+      "basis": "inherited line/editorial reference transferred by measured source offset",
+      "end_frame": 10414,
+      "end_s": 173.56666666666666,
+      "duration_frames": 230
+    },
+    {
+      "id": "F08",
+      "previous_reference_start_s": 173.643,
+      "previous_reference_end_s": 177.246,
+      "start_frame": 10414,
+      "start_s": 173.56666666666666,
+      "basis": "inherited line/editorial reference transferred by measured source offset",
+      "end_frame": 10630,
+      "end_s": 177.16666666666666,
+      "duration_frames": 216
+    },
+    {
+      "id": "G01",
+      "previous_reference_start_s": 177.246,
+      "previous_reference_end_s": 180.857,
+      "start_frame": 10630,
+      "start_s": 177.16666666666666,
+      "basis": "inherited line/editorial reference transferred by measured source offset",
+      "end_frame": 10846,
+      "end_s": 180.76666666666668,
+      "duration_frames": 216
+    },
+    {
+      "id": "G02",
+      "previous_reference_start_s": 180.857,
+      "previous_reference_end_s": 184.54,
+      "start_frame": 10846,
+      "start_s": 180.76666666666668,
+      "basis": "inherited line/editorial reference transferred by measured source offset",
+      "end_frame": 11067,
+      "end_s": 184.45,
+      "duration_frames": 221
+    },
+    {
+      "id": "G03",
+      "previous_reference_start_s": 184.54,
+      "previous_reference_end_s": 188.483,
+      "start_frame": 11067,
+      "start_s": 184.45,
+      "basis": "inherited line/editorial reference transferred by measured source offset",
+      "end_frame": 11304,
+      "end_s": 188.4,
+      "duration_frames": 237
+    },
+    {
+      "id": "G04",
+      "previous_reference_start_s": 188.483,
+      "previous_reference_end_s": 193.15,
+      "start_frame": 11304,
+      "start_s": 188.4,
+      "basis": "inherited line/editorial reference transferred by measured source offset",
+      "end_frame": 11584,
+      "end_s": 193.06666666666666,
+      "duration_frames": 280
+    },
+    {
+      "id": "H01",
+      "previous_reference_start_s": 193.15,
+      "previous_reference_end_s": 195.356,
+      "start_frame": 11584,
+      "start_s": 193.06666666666666,
+      "basis": "inherited line/editorial reference transferred by measured source offset",
+      "end_frame": 11702,
+      "end_s": 195.03333333333333,
+      "duration_frames": 118
+    },
+    {
+      "id": "H02",
+      "previous_reference_start_s": 195.356,
+      "previous_reference_end_s": 198.344,
+      "start_frame": 11702,
+      "start_s": 195.03333333333333,
+      "basis": "editorial action on transferred grid; preserves recognition and shared drawing",
+      "end_frame": 11868,
+      "end_s": 197.8,
+      "duration_frames": 166
+    },
+    {
+      "id": "H03",
+      "previous_reference_start_s": 198.344,
+      "previous_reference_end_s": 201.113,
+      "start_frame": 11868,
+      "start_s": 197.8,
+      "basis": "editorial action on transferred grid; preserves recognition and shared drawing",
+      "end_frame": 12034,
+      "end_s": 200.56666666666666,
+      "duration_frames": 166
+    },
+    {
+      "id": "H04",
+      "previous_reference_start_s": 201.113,
+      "previous_reference_end_s": 205.811,
+      "start_frame": 12034,
+      "start_s": 200.56666666666666,
+      "basis": "editorial action on transferred grid; preserves recognition and shared drawing",
+      "end_frame": 12338,
+      "end_s": 205.63333333333333,
+      "duration_frames": 304
+    },
+    {
+      "id": "H05",
+      "previous_reference_start_s": 205.811,
+      "previous_reference_end_s": 207.729,
+      "start_frame": 12338,
+      "start_s": 205.63333333333333,
+      "basis": "two mixed-audio transient methods approximately 205.625-205.631s; selected 60fps accent",
+      "end_frame": 12429,
+      "end_s": 207.15,
+      "duration_frames": 91
+    },
+    {
+      "id": "H06",
+      "previous_reference_start_s": 207.729,
+      "previous_reference_end_s": 211.958,
+      "start_frame": 12429,
+      "start_s": 207.15,
+      "basis": "editorial decay-to-quiet transition supported by measured RMS thresholds",
+      "end_frame": 12740,
+      "end_s": 212.33333333333334,
+      "duration_frames": 311
+    }
+  ],
+  "action_cues": [
+    {
+      "id": "push_01",
+      "candidate_s": 147.9527983314987,
+      "frame60": 8877,
+      "frame_time_s": 147.95,
+      "basis": "transferred music beat; independently inspect accents around this point"
+    },
+    {
+      "id": "push_02",
+      "candidate_s": 148.87587525457562,
+      "frame60": 8933,
+      "frame_time_s": 148.88333333333333,
+      "basis": "transferred music beat; independently inspect accents around this point"
+    },
+    {
+      "id": "push_03",
+      "candidate_s": 149.79895217765255,
+      "frame60": 8988,
+      "frame_time_s": 149.8,
+      "basis": "transferred music beat; independently inspect accents around this point"
+    },
+    {
+      "id": "push_04",
+      "candidate_s": 150.7220291007295,
+      "frame60": 9043,
+      "frame_time_s": 150.71666666666667,
+      "basis": "transferred music beat; independently inspect accents around this point"
+    },
+    {
+      "id": "push_05",
+      "candidate_s": 151.6451060238064,
+      "frame60": 9099,
+      "frame_time_s": 151.65,
+      "basis": "transferred music beat; independently inspect accents around this point"
+    },
+    {
+      "id": "push_06",
+      "candidate_s": 152.56818294688333,
+      "frame60": 9154,
+      "frame_time_s": 152.56666666666666,
+      "basis": "transferred music beat; independently inspect accents around this point"
+    },
+    {
+      "id": "push_07",
+      "candidate_s": 153.49125986996023,
+      "frame60": 9209,
+      "frame_time_s": 153.48333333333332,
+      "basis": "transferred music beat; independently inspect accents around this point"
+    },
+    {
+      "id": "push_08",
+      "candidate_s": 154.41433679303717,
+      "frame60": 9265,
+      "frame_time_s": 154.41666666666666,
+      "basis": "transferred music beat; independently inspect accents around this point"
+    },
+    {
+      "id": "push_09",
+      "candidate_s": 155.3374137161141,
+      "frame60": 9320,
+      "frame_time_s": 155.33333333333334,
+      "basis": "transferred music beat; independently inspect accents around this point"
+    },
+    {
+      "id": "push_10",
+      "candidate_s": 156.260490639191,
+      "frame60": 9376,
+      "frame_time_s": 156.26666666666668,
+      "basis": "transferred music beat; independently inspect accents around this point"
+    },
+    {
+      "id": "push_11",
+      "candidate_s": 157.18356756226794,
+      "frame60": 9431,
+      "frame_time_s": 157.18333333333334,
+      "basis": "transferred music beat; independently inspect accents around this point"
+    },
+    {
+      "id": "push_12",
+      "candidate_s": 158.10664448534487,
+      "frame60": 9486,
+      "frame_time_s": 158.1,
+      "basis": "transferred music beat; independently inspect accents around this point"
+    },
+    {
+      "id": "unlock_01",
+      "candidate_s": 159.02972140842178,
+      "frame60": 9542,
+      "frame_time_s": 159.03333333333333,
+      "basis": "transferred music beat; independently inspect accents around this point"
+    },
+    {
+      "id": "unlock_02",
+      "candidate_s": 159.49125986996023,
+      "frame60": 9569,
+      "frame_time_s": 159.48333333333332,
+      "basis": "transferred music beat; independently inspect accents around this point"
+    },
+    {
+      "id": "unlock_03",
+      "candidate_s": 159.9527983314987,
+      "frame60": 9597,
+      "frame_time_s": 159.95,
+      "basis": "transferred music beat; independently inspect accents around this point"
+    },
+    {
+      "id": "unlock_04",
+      "candidate_s": 160.41433679303717,
+      "frame60": 9625,
+      "frame_time_s": 160.41666666666666,
+      "basis": "transferred music beat; independently inspect accents around this point"
+    },
+    {
+      "id": "unlock_05",
+      "candidate_s": 160.87587525457562,
+      "frame60": 9653,
+      "frame_time_s": 160.88333333333333,
+      "basis": "transferred music beat; independently inspect accents around this point"
+    },
+    {
+      "id": "unlock_06",
+      "candidate_s": 161.3374137161141,
+      "frame60": 9680,
+      "frame_time_s": 161.33333333333334,
+      "basis": "transferred music beat; independently inspect accents around this point"
+    },
+    {
+      "id": "loop_break",
+      "candidate_s": 162.486490639191,
+      "frame60": 9749,
+      "frame_time_s": 162.48333333333332,
+      "basis": "inherited shout subdivision plus measured source offset; phoneme not verified"
+    },
+    {
+      "id": "wing_expand_strong_beat",
+      "candidate_s": 162.7220291007295,
+      "frame60": 9763,
+      "frame_time_s": 162.71666666666667,
+      "basis": "strong beat after inherited vocal pickup"
+    },
+    {
+      "id": "star_light_start",
+      "candidate_s": 205.63333333333333,
+      "frame60": 12338,
+      "frame_time_s": 205.63333333333333,
+      "basis": "mixed-transient accent selected from actual source"
+    },
+    {
+      "id": "star_light_peak",
+      "candidate_s": 206.1,
+      "frame60": 12366,
+      "frame_time_s": 206.1,
+      "basis": "mixed-transient candidates 206.095-206.101s; visual peak"
+    },
+    {
+      "id": "near_silent_tail",
+      "candidate_s": 208.0,
+      "frame60": 12480,
+      "frame_time_s": 208.0,
+      "basis": "source stays below -80 dBFS from approximately 207.987s"
+    }
+  ]
+}

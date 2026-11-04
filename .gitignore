@@ -9,6 +9,9 @@ __pycache__/
 renders/
 exports/
 
+# Local copyrighted reference audio; provenance and timing reports are tracked
+media/audio/
+
 # Local configuration and operating-system files
 .env
 .env.*

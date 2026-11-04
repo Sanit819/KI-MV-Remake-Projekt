@@ -1,0 +1,26 @@
+{
+  "source_kind": "compressed audio from official public upload; not a lossless master",
+  "source_page": "https://www.bilibili.com/video/BV1ds411e7df/",
+  "official_youtube_version_reference": "https://www.youtube.com/watch?v=ESx_hy1n7HA",
+  "uploader": {
+    "name": "ProjectMili",
+    "mid": 23340150
+  },
+  "title": "【Mili】world.execute(me);",
+  "bvid": "BV1ds411e7df",
+  "aid": 4992878,
+  "cid": 8110411,
+  "published_utc": "2016-06-16T12:40:10+00:00",
+  "fetched_utc": "2026-11-04T10:10:04.409865+00:00",
+  "api_duration_seconds": 212,
+  "playback_timelength_ms": 212330,
+  "track_id": 30280,
+  "codec": "mp4a.40.2",
+  "advertised_bandwidth_bps": 164198,
+  "download_host": "xy116x196x142x97xy.mcdn.bilivideo.cn",
+  "local_path": "media/audio/mili-world-execute-original-bilibili.m4a",
+  "bytes": 4358054,
+  "sha256": "b06f195e2a479c25c3282f4ca5b931e293c4a35a941acf6dd5b515ba4890f34a",
+  "authentication": "none; public metadata and public playback only",
+  "use": "local timing analysis; audio bytes excluded from Git"
+}
