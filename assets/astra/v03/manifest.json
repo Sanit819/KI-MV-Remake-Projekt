@@ -1,0 +1,37 @@
+{
+  "version": "v03",
+  "date": "2026-11-04",
+  "status": "new standing character concept for review; user acceptance pending",
+  "generated_with": "built-in imagegen",
+  "request": "完全重新设计，重画一个",
+  "references": [
+    "references/character-design/chatgpt-dragon-reference.jpg",
+    "../references/world-execute-me-lyric-mv/assets/character/f_reach.png",
+    "assets/astra/v02/openai-openwork.png"
+  ],
+  "outputs": [
+    {
+      "file": "standing-draft.png",
+      "generation": "exec-04f095fa-2f58-48cd-94ea-f846e2efbaca.png",
+      "prompt": "prompt.txt"
+    },
+    {
+      "file": "standing-review.png",
+      "generation": "exec-a4aba78b-b739-4ae2-9001-03fb75426069.png",
+      "prompt": "refine-prompt.txt",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alpha_min": 0,
+      "alpha_max": 254,
+      "sha256": "5e918cf788c9e78bf1670c092aae9aa627ecc64e7d8c2948f8bd7c0968bad7cf"
+    }
+  ],
+  "boundaries": [
+    "Concept only, not accepted final identity",
+    "Not a strict three-ink production sprite",
+    "Residual translucent glow remains",
+    "Generated knot topology needs precise verification; no claim of exact official SVG fidelity",
+    "No v02 MV exported"
+  ]
+}
