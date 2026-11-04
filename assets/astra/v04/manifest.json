@@ -1,0 +1,30 @@
+{
+  "version": "v04",
+  "date": "2026-11-04",
+  "status": "static review delivered; user acceptance pending",
+  "request": "修好GPT镂空结饰、透明边缘，气质可爱又帅气",
+  "mode": "built-in imagegen for character editing and underpainting; native SVG ornament and Canvas review composition",
+  "generations": [
+    {
+      "id": "exec-ebeea1e5-49a8-4bbc-aaa7-bb27747b284b.png",
+      "prompt": "prompt.txt",
+      "status": "expression draft; generated ornaments superseded"
+    },
+    {
+      "id": "exec-acdf77f1-4ba7-4cdf-98ba-23631d4c594c.png",
+      "prompt": "cleanup-prompt.txt",
+      "file": "standing-base.png",
+      "status": "preserved generated underpainting"
+    }
+  ],
+  "final": "standing-review.png",
+  "size": [
+    1184,
+    1696
+  ],
+  "ornament": "openai-openwork.svg; exact official path, ivory fill, dark stroke 12, no outer ring/backing",
+  "composition": "review-layout.json",
+  "renderer": "tools/render/render_standing_v04.mjs",
+  "validation": "docs/validation/astra-standing-v04.json",
+  "note": "Full-body source is not native 4K or strict three RGB colors. No new MV export."
+}

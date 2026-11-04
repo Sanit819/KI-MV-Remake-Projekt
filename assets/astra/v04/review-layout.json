@@ -1,0 +1,32 @@
+{
+  "canvas": [
+    1184,
+    1696
+  ],
+  "padding": 80,
+  "layout": {
+    "head": {
+      "x": 600,
+      "y": 211,
+      "width": 80,
+      "rotation": -10
+    },
+    "waist": {
+      "x": 483,
+      "y": 650,
+      "width": 78,
+      "rotation": 6
+    }
+  },
+  "alpha_cleanup": {
+    "below16": "clear RGBA",
+    "atLeast240": "opaque",
+    "cleared": 20699,
+    "solidified": 849740
+  },
+  "layer_order": [
+    "standing-base.png",
+    "openai-openwork.svg"
+  ],
+  "note": "Native review stage. Original generated PNG remains unchanged; exact six-loop SVG has no outer circle, backing, or disk."
+}

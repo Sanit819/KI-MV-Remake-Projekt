@@ -1,0 +1,10 @@
+Edit the first image. It is ASTRA's full-body standing design, holding a pen in both hands. Keep her costume, standing pose, hands, horns, hair, wings, tail, and ivory/lavender/dark-ink graphic style.
+Image 2 is the original character sheet: match its delicate ivory OPENWORK jewelry.
+Image 3 is the exact ornament insert. Reproduce this supplied shape faithfully at both ornament locations, instead of inventing a knot.
+
+Fix these three things:
+- Replace the inaccurate knot on her viewer-right temple and the knot at her waist with the exact SIX-loop interwoven knot in image 3. The center is a clean SIX-SIDED HEXAGON hole, not a triangle or three-blade swirl. The six outer gaps are open too. Narrow ivory ribbon bands have thin dark edges. Hair or sash is visible through every hole. The outside follows the knot's six lobes. There is NO surrounding circle, NO rim, NO medallion and NO solid backing. Keep the tassels. The ornaments should feel like the elegant small openwork jewelry in image 2.
+- Remove every trace of the gray/purple smoky background and halo. Create a sharply isolated RGBA character cutout with genuinely transparent surroundings, transparent gaps between silhouette parts, opaque skin/hair/dress/wings, and only a very thin antialiased contour. No fog, glow, shadow vignette, or partly transparent colored backdrop.
+- Make her expression cute and cool: alert clear lavender eyes slightly larger and more open, looking toward us, subtly confident brows and a tiny warm assured smile. Refined young adult anime heroine with soft cheeks and a gentle jaw. No sleepy look, no exaggerated smirk.
+
+Keep the full figure in frame with space around horns, wings, tail and feet. Flat ivory, lavender and dark ink planes. No text or extra symbols. Prioritize accurate six-loop openwork ornaments and a clean transparent cutout.

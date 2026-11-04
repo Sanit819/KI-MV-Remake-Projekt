@@ -1,0 +1,32 @@
+{
+  "date": "2026-11-04",
+  "output": "assets\\astra\\v04\\standing-review.png",
+  "size": [
+    1184,
+    1696
+  ],
+  "alpha_range": [
+    0,
+    255
+  ],
+  "transparent_pixels": 1146400,
+  "opaque_pixels": 849999,
+  "antialiased_pixels": 11665,
+  "nonzero_rgb_in_zero_alpha": 0,
+  "transparent_margins_ltrb": [
+    116,
+    90,
+    132,
+    88
+  ],
+  "official_path_exact_match": true,
+  "ornament_path_count": 1,
+  "forbidden_backing_shapes": [],
+  "sha256": "ebdbe1b1fa67af3a5213ff8302c8884f51a0840f98c2817b07358fa7d86befeb",
+  "source_sha256": "b595ec6c51e9ab373f70b2ff320e08efa5a0b3c6449fd0861d01dbba7d0c25a5",
+  "visual_checks": [
+    "dark, ivory and checkerboard backgrounds inspected",
+    "temple and waist knot closeups inspected"
+  ],
+  "scope": "Static character review; no new MV export; not a strict three-ink bitmap or a native 4K illustration."
+}
