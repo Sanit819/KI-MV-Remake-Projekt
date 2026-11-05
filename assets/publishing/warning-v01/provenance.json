@@ -1,0 +1,29 @@
+{
+  "created_at": "2026-11-05T04:28:34.974Z",
+  "method": "Native 3840x2160 Canvas text; no ImageGen; screenshot used only as layout reference",
+  "user_reference": {
+    "original_path": "C:/Users/auscar/AppData/Local/Temp/codex-clipboard-f0b3daaa-a2d7-4c8f-befb-f8cc5c499cf8.png",
+    "preserved_file": "user-reference.png",
+    "sha256": "ee02aac5209190e88acb8934d41a4c544597703cf64db4fb35d3c6591aee1e35"
+  },
+  "card": {
+    "file": "card-4k.png",
+    "sha256": "26a6d6777cf7f49f757f712478a8c0cd2e30f3627b9ef61054e84022009034b9",
+    "width": 3840,
+    "height": 2160,
+    "copy": {
+      "title": "PHOTOSENSITIVITY WARNING",
+      "titleZh": "光敏性癫痫警告",
+      "english": [
+        "This video contains flashing lights, strobe-like effects and rapid visual changes",
+        "that may trigger seizures in people with photosensitive epilepsy.",
+        "Viewer discretion is advised. Watch in a well-lit room, at a distance from the screen."
+      ],
+      "chinese": [
+        "本视频含有闪光、频闪与快速的画面变化，可能诱发光敏性癫痫。",
+        "请谨慎观看；观看时保持室内明亮，并与屏幕保持距离。"
+      ]
+    }
+  },
+  "request": "5 seconds stable silent warning; supplied exact English and Chinese text; sparse stars, deep blue-purple, ivory titles, thin divider; hard cut into existing v3; original v3 preserved"
+}

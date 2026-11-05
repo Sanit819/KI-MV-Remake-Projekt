@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-11-05T05:09:04.846Z",
+  "method": "Native 3840x2160 Canvas typography and Path2D knot; no ImageGen; screenshot used only as layout reference",
+  "user_reference": {
+    "original_path": "C:/Users/auscar/AppData/Local/Temp/codex-clipboard-f0b3daaa-a2d7-4c8f-befb-f8cc5c499cf8.png",
+    "preserved_file": "user-reference.png",
+    "sha256": "ee02aac5209190e88acb8934d41a4c544597703cf64db4fb35d3c6591aee1e35"
+  },
+  "card": {
+    "file": "card-4k.png",
+    "sha256": "7dcecef6abaf317aea5ba71de9564a5f8461c2d2af86d76eed715bcdea26358e",
+    "width": 3840,
+    "height": 2160,
+    "palette": {
+      "ink": "#15101d",
+      "edge": "#130f1c",
+      "panel": "#221a2d",
+      "purple": "#b88ce8",
+      "paper": "#f7ead7",
+      "gold": "#edc087",
+      "muted": "#9f87b0",
+      "line": "#5c426f"
+    },
+    "copy": {
+      "title": "PHOTOSENSITIVITY WARNING",
+      "titleZh": "光敏性癫痫警告",
+      "english": [
+        "This video contains flashing lights, strobe-like effects and rapid visual changes",
+        "that may trigger seizures in people with photosensitive epilepsy.",
+        "Viewer discretion is advised. Watch in a well-lit room, at a distance from the screen."
+      ],
+      "chinese": [
+        "本视频含有闪光、频闪与快速的画面变化，可能诱发光敏性癫痫。",
+        "请谨慎观看；观看时保持室内明亮，并与屏幕保持距离。"
+      ]
+    },
+    "knot": {
+      "file": "gpt-openwork.svg",
+      "bounds_at_1920": [
+        912,
+        93,
+        96,
+        96
+      ],
+      "outer_circle": false,
+      "background_disc": false
+    }
+  },
+  "request": "5 seconds stable silent warning; same exact English and Chinese; ASTRA deep purple palette; official openwork GPT knot replaces top star; no circle/disc; ivory text and small gold divider accent; old card and outputs preserved",
+  "knot_source": {
+    "existing_repo_file": "assets/astra/v07/interface-openai.svg",
+    "existing_repo_sha256": "3034a003e17c8d130f9627a4bda4667e2346bfce29f75c99f00028a3694797cf",
+    "original_repo_file": "assets/astra/openai-blossom.svg",
+    "derived_file": "gpt-openwork.svg",
+    "path_geometry_unchanged": true,
+    "fill": "#b88ce8",
+    "stroke_removed": true,
+    "outer_circle": false,
+    "background_disc": false
+  }
+}

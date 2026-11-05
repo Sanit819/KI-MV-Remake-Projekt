@@ -1,0 +1,45 @@
+{
+  "bvid": "BV1Jwhy6BEMJ",
+  "html": "docs\\reference-BV1Jwhy6BEMJ\\index.html",
+  "checkedAt": "2026-11-05T05:04:43.686Z",
+  "checks": {
+    "cards86": true,
+    "shotSelection": true,
+    "nextFrame": true,
+    "next12": true,
+    "sliderMapping": true,
+    "keyboard": true,
+    "search": true,
+    "textareaArrowNotIntercepted": true,
+    "notePersists": true,
+    "notesExport": true,
+    "tailUnpaired": true,
+    "lastFrame": true,
+    "noMobileOverflow": true,
+    "lazyMotionLoads": true,
+    "frameFiles": true,
+    "boardFiles": true,
+    "noExternalRequests": true,
+    "noPageErrors": true
+  },
+  "screenshots": [
+    "exports\\reference-BV1Jwhy6BEMJ-review\\ui\\desktop.png",
+    "exports\\reference-BV1Jwhy6BEMJ-review\\ui\\independent-tail.png",
+    "exports\\reference-BV1Jwhy6BEMJ-review\\ui\\mobile.png"
+  ],
+  "errors": [],
+  "externalRequests": [],
+  "htmlSha256": "5e21ae5c901a71484149c2448931de063f85ed47107985ee51e2393e52575708",
+  "passed": true,
+  "scope": "Actual local file:// page in isolated headless Edge; interaction, files, note export and screenshots. Screenshots require separate visual inspection. Not continuous video/audio review.",
+  "visual_review": {
+    "reviewed": true,
+    "method": "Viewed desktop.png, independent-tail.png and mobile.png; re-viewed desktop and mobile after adding analysis links.",
+    "observations": [
+      "Desktop paired images and frame controls are visible and aligned.",
+      "Independent tail correctly leaves the reference pane blank and displays ASTRA last frame.",
+      "390px mobile view stacks the two images without horizontal overflow."
+    ],
+    "scope": "UI screenshots only; not full-video visual QA."
+  }
+}

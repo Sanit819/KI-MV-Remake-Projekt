@@ -1,0 +1,12 @@
+{
+  "sha256": "a8195021c34ab3c21474d2ec7a8e3e0a14ed36d571d42cf95e1da7979d9b7e26",
+  "source_decoded_bytes": 244116480,
+  "source_samples_per_channel": 40686080,
+  "retained_samples_per_channel": 40674984,
+  "trim_front_samples": 11096,
+  "front_silent_samples": 960000,
+  "tail_silent_samples": 1245016,
+  "expected_total_bytes": 257280000,
+  "expected_total_samples_per_channel": 42880000,
+  "method": "Native signed 24-bit PCM decoded; Python drops first 11096 sample frames, hashes 960000 leading zero sample frames + every remaining source byte + literal zeros to length. No production-filter reuse."
+}

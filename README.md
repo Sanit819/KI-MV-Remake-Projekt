@@ -2,6 +2,18 @@
 
 ASTRA《未写完的世界》——用户与 ASTRA 共同制作的 Mili《world.execute(me);》原创 MV。
 
+## 当前投稿副本：紫色 GPT 警告与无损音轨
+
+[4K60 / 192kHz 24bit ALAC 上传版](exports/astra-world-execute-me-full-v3-warning-v2-hires-4k60.mp4) · [1080p60 AAC 预览](exports/astra-world-execute-me-full-v3-warning-v2-1080p60.mp4) · [发布材料与新版简介](docs/publishing/README.md) · [音频校验](docs/publishing/HIRES_UPLOAD.md) · [警告页](docs/publishing/WARNING_UPLOAD_V2.md)
+
+正片前新增 5 秒静止警告，按用户最新反馈改为深紫黑背景、淡紫镂空 GPT 六环图标；共 13,400 帧、223.333333 秒。保留 v3 正片演出和已批准的 6 秒安静尾声。ALAC 版无损保存用户提供 FLAC 的 192 kHz / 24 bit / 双声道样本；录音母带来源与平台音质标识未核实。旧 v3、第一版警告及 AAC / ALAC 副本均保留。没有上传或制作 Atmos。
+
+## 新参考逐帧对照与视觉优化（2026-11-05）
+
+[逐帧讨论页](docs/reference-BV1Jwhy6BEMJ/index.html) · [优化主提案](docs/reference-BV1Jwhy6BEMJ/OPTIMIZATION_PROPOSAL.md) · [证据与复现](docs/reference-BV1Jwhy6BEMJ/README.md)
+
+新增分析野生大K的 BV1Jwhy6BEMJ：公开 480p24 副本全部 5,086 帧与本片 v3 的 13,100 帧完成解码，对时后生成 86 段比较、原生连续帧和全片半秒总览。人工查看全程总览及重点连续帧，不宣称逐张人工审完全部原生帧。优先提案为高潮焦点接力、清理中的护星选择，以及共画造成的世界变化；目前没有修改已认可的正片演出。
+
 ## 当前交付：完整 v3（2026-11-05）
 
 [4K60 母版](exports/astra-world-execute-me-full-v3-4k60.mp4) · [1080p60 播放版](exports/astra-world-execute-me-full-v3-1080p60.mp4) · [交付与核验](docs/FULL_MV_V3.md)

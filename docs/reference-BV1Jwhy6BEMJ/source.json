@@ -1,0 +1,136 @@
+{
+  "source_page": "https://www.bilibili.com/video/BV1Jwhy6BEMJ/",
+  "bvid": "BV1Jwhy6BEMJ",
+  "aid": 117330755455628,
+  "cid": 42188997140,
+  "title": "GPT6-Astra眼中的world.execute(me)",
+  "uploader": {
+    "name": "野生大K",
+    "mid": 167439
+  },
+  "published_utc": "2026-09-25T08:36:45+00:00",
+  "fetched_utc": "2026-11-05T04:15:12.196475+00:00",
+  "api_duration_seconds": 212,
+  "playback_timelength_ms": 211937,
+  "authentication": "none; new requests Session without browser credentials or cookies",
+  "selection": "highest-resolution AVC openly returned by public playurl, then highest bandwidth; maximum public audio bandwidth",
+  "publicly_returned_avc_tracks": [
+    {
+      "id": 32,
+      "codecs": "avc1.640033",
+      "width": 852,
+      "height": 480,
+      "frameRate": "24.000",
+      "frame_rate": "24.000",
+      "bandwidth": 792399,
+      "mimeType": "video/mp4",
+      "mime_type": "video/mp4"
+    },
+    {
+      "id": 16,
+      "codecs": "avc1.640033",
+      "width": 640,
+      "height": 360,
+      "frameRate": "24.000",
+      "frame_rate": "24.000",
+      "bandwidth": 453157,
+      "mimeType": "video/mp4",
+      "mime_type": "video/mp4"
+    }
+  ],
+  "publicly_returned_audio_tracks": [
+    {
+      "id": 30232,
+      "codecs": "mp4a.40.2",
+      "width": 0,
+      "height": 0,
+      "frameRate": "",
+      "frame_rate": "",
+      "bandwidth": 103412,
+      "mimeType": "audio/mp4",
+      "mime_type": "audio/mp4"
+    },
+    {
+      "id": 30280,
+      "codecs": "mp4a.40.2",
+      "width": 0,
+      "height": 0,
+      "frameRate": "",
+      "frame_rate": "",
+      "bandwidth": 201324,
+      "mimeType": "audio/mp4",
+      "mime_type": "audio/mp4"
+    },
+    {
+      "id": 30216,
+      "codecs": "mp4a.40.2",
+      "width": 0,
+      "height": 0,
+      "frameRate": "",
+      "frame_rate": "",
+      "bandwidth": 65749,
+      "mimeType": "audio/mp4",
+      "mime_type": "audio/mp4"
+    }
+  ],
+  "use": "local frame-by-frame reference analysis; no reupload; existing references preserved",
+  "url_sanitization": "Only public page and CDN hostname persisted; no signed playback URLs or query tokens",
+  "video": {
+    "id": 32,
+    "codecs": "avc1.640033",
+    "width": 852,
+    "height": 480,
+    "frameRate": "24.000",
+    "frame_rate": "24.000",
+    "bandwidth": 792399,
+    "mimeType": "video/mp4",
+    "mime_type": "video/mp4",
+    "path": "D:\\myskills\\updream\\references\\gpt-astra-BV1Jwhy6BEMJ\\reference-video-avc.mp4",
+    "download_host": null,
+    "preserved_prior_download": true,
+    "bytes": 20990887,
+    "sha256": "d76e4e68d53dbe30d79cba07ee4a856f826f80f239f6a7c49c2bb8a62eea711d",
+    "decode": {
+      "passed": true,
+      "full_decode_exit": 0,
+      "stream": "Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 852x480, 124 kb/s, 24 fps, 24 tbr, 16k tbn, start 0.021000 (default)",
+      "width": 852,
+      "height": 480,
+      "fps": 24.0,
+      "decoded_frames": 5086,
+      "duration_from_frames_seconds": 211.91666666666666,
+      "last_decode_progress_seconds": 211.916667,
+      "scope": "Actual complete FFmpeg decode and stream probe; not visual inspection or exact per-packet timestamp certification"
+    }
+  },
+  "audio": {
+    "id": 30280,
+    "codecs": "mp4a.40.2",
+    "width": 0,
+    "height": 0,
+    "frameRate": "",
+    "frame_rate": "",
+    "bandwidth": 201324,
+    "mimeType": "audio/mp4",
+    "mime_type": "audio/mp4",
+    "path": "D:\\myskills\\updream\\references\\gpt-astra-BV1Jwhy6BEMJ\\reference-audio.m4a",
+    "download_host": "cn-jxjj-ct-01-05.bilivideo.com",
+    "bytes": 5333782,
+    "sha256": "40e902c06dd2f5eee367ccc2fb9060a5e72d93870674ff7e3c8b63160e75f409",
+    "public_cdn_transport_failures": [
+      {
+        "host": "xy113x6x91x135xy.mcdn.bilivideo.cn",
+        "transport_error": "ChunkedEncodingError"
+      }
+    ],
+    "decode": {
+      "passed": true,
+      "full_decode_exit": 0,
+      "analysis_sample_rate": 24000,
+      "channels_for_analysis": 1,
+      "decoded_samples": 5086208,
+      "duration_seconds": 211.92533333333333,
+      "scope": "Entire audio decoded to mono float32 at 24kHz for correlation; original compressed stream preserved"
+    }
+  }
+}

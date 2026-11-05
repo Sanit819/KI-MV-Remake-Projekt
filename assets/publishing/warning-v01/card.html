@@ -1,0 +1,29 @@
+<!doctype html><meta charset="utf-8"><title>ASTRA photosensitivity warning</title>
+<style>html,body{margin:0;background:#202139}canvas{display:block;width:100vw;height:auto}</style>
+<canvas id="card" width="3840" height="2160"></canvas>
+<script>
+// Native-resolution typography. No source photograph is composited into the card.
+const copy={title:'PHOTOSENSITIVITY WARNING',titleZh:'光敏性癫痫警告',english:[
+ 'This video contains flashing lights, strobe-like effects and rapid visual changes',
+ 'that may trigger seizures in people with photosensitive epilepsy.',
+ 'Viewer discretion is advised. Watch in a well-lit room, at a distance from the screen.'
+],chinese:[
+ '本视频含有闪光、频闪与快速的画面变化，可能诱发光敏性癫痫。',
+ '请谨慎观看；观看时保持室内明亮，并与屏幕保持距离。'
+]};
+window.cardReady=(async()=>{
+ await document.fonts.load('400 56px SimSun',copy.titleZh);await document.fonts.load('400 32px "Segoe UI"',copy.english[0]);await document.fonts.ready;
+ const c=document.querySelector('canvas'),g=c.getContext('2d',{alpha:false});g.scale(2,2);
+ const bg=g.createLinearGradient(0,0,1920,1080);bg.addColorStop(0,'#20233c');bg.addColorStop(.55,'#25243e');bg.addColorStop(1,'#242239');g.fillStyle=bg;g.fillRect(0,0,1920,1080);
+ let seed=4919;const random=()=>{seed=(Math.imul(seed,1664525)+1013904223)>>>0;return seed/4294967296;};
+ for(let i=0;i<122;i++){const x=random()*1920,y=random()*1080,r=.55+random()*1.05;g.globalAlpha=.12+random()*.24;g.fillStyle='#e1d9cc';g.beginPath();g.arc(x,y,r,0,Math.PI*2);g.fill();}g.globalAlpha=1;
+ g.fillStyle='#eee4ce';g.beginPath();g.moveTo(960,118);g.lineTo(963,137);g.lineTo(981,141);g.lineTo(963,145);g.lineTo(960,164);g.lineTo(957,145);g.lineTo(939,141);g.lineTo(957,137);g.closePath();g.fill();
+ g.textAlign='center';g.textBaseline='alphabetic';g.fillStyle='#f1e9d4';
+ g.font='400 41px Consolas, "Courier New", monospace';g.letterSpacing='7px';g.fillText(copy.title,960,270);g.letterSpacing='0px';
+ g.font='400 64px SimSun, "Songti SC", serif';g.letterSpacing='10px';g.fillText(copy.titleZh,960,373);g.letterSpacing='0px';
+ g.strokeStyle='#777383';g.globalAlpha=.48;g.lineWidth=1;g.beginPath();g.moveTo(492,431);g.lineTo(1428,431);g.stroke();g.globalAlpha=1;
+ g.fillStyle='#d9d2c8';g.font='400 32px "Segoe UI", Arial, sans-serif';copy.english.forEach((s,i)=>g.fillText(s,960,539+i*59));
+ g.font='400 39px SimSun, "Songti SC", serif';copy.chinese.forEach((s,i)=>g.fillText(s,960,800+i*67));
+ window.warningCopy=copy;return {width:c.width,height:c.height,copy};
+})();
+</script>

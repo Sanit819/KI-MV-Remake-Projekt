@@ -1,0 +1,245 @@
+{
+  "checked_at": "2026-11-05",
+  "scope": "Local relative/file links in top-level review Markdown/HTML, image metadata, contiguous cache filenames, UI hash, full-table song ranges; no browser rerun or production edits. Clock wording correction re-read; no links or HTML changed, so existing interaction checks remain applicable.",
+  "local_links_checked": 478,
+  "external_links_skipped": 4,
+  "broken_links": [],
+  "image_boards": {
+    "boards": {
+      "count": 86,
+      "dimensions": {
+        "1536x684": 86
+      },
+      "all_ids": true
+    },
+    "motion": {
+      "count": 86,
+      "dimensions": {
+        "1440x680": 86
+      },
+      "all_ids": true
+    }
+  },
+  "frame_cache": {
+    "reference": {
+      "count": 5086,
+      "expected": 5086,
+      "missing": [],
+      "unexpected": [],
+      "contiguous_complete": true
+    },
+    "astra": {
+      "count": 13100,
+      "expected": 13100,
+      "missing": [],
+      "unexpected": [],
+      "contiguous_complete": true
+    }
+  },
+  "ui_hash": {
+    "current": "5e21ae5c901a71484149c2448931de063f85ed47107985ee51e2393e52575708",
+    "validated": "5e21ae5c901a71484149c2448931de063f85ed47107985ee51e2393e52575708",
+    "matches": true
+  },
+  "table_time_ranges": [
+    {
+      "shots": "R01-R05",
+      "pass": true,
+      "document": [
+        0.0,
+        16.883
+      ],
+      "index": [
+        0,
+        16.883333333333333
+      ]
+    },
+    {
+      "shots": "R06-R08",
+      "pass": true,
+      "document": [
+        16.883,
+        29.333
+      ],
+      "index": [
+        16.883333333333333,
+        29.333333333333332
+      ]
+    },
+    {
+      "shots": "R09-R12",
+      "pass": true,
+      "document": [
+        29.333,
+        44.567
+      ],
+      "index": [
+        29.333333333333332,
+        44.56666666666667
+      ]
+    },
+    {
+      "shots": "R13-R16",
+      "pass": true,
+      "document": [
+        44.567,
+        59.333
+      ],
+      "index": [
+        44.56666666666667,
+        59.333333333333336
+      ]
+    },
+    {
+      "shots": "R17-R25",
+      "pass": true,
+      "document": [
+        59.333,
+        74.567
+      ],
+      "index": [
+        59.333333333333336,
+        74.56666666666666
+      ]
+    },
+    {
+      "shots": "R26-R32",
+      "pass": true,
+      "document": [
+        74.567,
+        88.883
+      ],
+      "index": [
+        74.56666666666666,
+        88.88333333333334
+      ]
+    },
+    {
+      "shots": "R33-R39",
+      "pass": true,
+      "document": [
+        88.883,
+        103.65
+      ],
+      "index": [
+        88.88333333333334,
+        103.65
+      ]
+    },
+    {
+      "shots": "R40-R43",
+      "pass": true,
+      "document": [
+        103.65,
+        110.8
+      ],
+      "index": [
+        103.65,
+        110.8
+      ]
+    },
+    {
+      "shots": "R44-R48",
+      "pass": true,
+      "document": [
+        110.8,
+        121.65
+      ],
+      "index": [
+        110.8,
+        121.65
+      ]
+    },
+    {
+      "shots": "R49-R54",
+      "pass": true,
+      "document": [
+        121.65,
+        136.883
+      ],
+      "index": [
+        121.65,
+        136.88333333333333
+      ]
+    },
+    {
+      "shots": "R55-R63",
+      "pass": true,
+      "document": [
+        136.883,
+        158.817
+      ],
+      "index": [
+        136.88333333333333,
+        158.81666666666666
+      ]
+    },
+    {
+      "shots": "R64-R70",
+      "pass": true,
+      "document": [
+        158.817,
+        162.55
+      ],
+      "index": [
+        158.81666666666666,
+        162.55
+      ]
+    },
+    {
+      "shots": "R71-R77",
+      "pass": true,
+      "document": [
+        162.55,
+        177.167
+      ],
+      "index": [
+        162.55,
+        177.16666666666666
+      ]
+    },
+    {
+      "shots": "R78-R81",
+      "pass": true,
+      "document": [
+        177.167,
+        192.267
+      ],
+      "index": [
+        177.16666666666666,
+        192.26666666666668
+      ]
+    },
+    {
+      "shots": "R82-R85",
+      "pass": true,
+      "document": [
+        192.267,
+        205.733
+      ],
+      "index": [
+        192.26666666666668,
+        205.73333333333332
+      ]
+    },
+    {
+      "shots": "R86-R86",
+      "pass": true,
+      "document": [
+        205.733,
+        218.333
+      ],
+      "index": [
+        205.73333333333332,
+        218.33333333333334
+      ]
+    }
+  ],
+  "facts_review": {
+    "86_shots": "Consistently described as our segments, not the reference shot count.",
+    "reference_ending": "Late report and proposal consistently describe termination without a new reply; ASTRA keeps the independent reply and co-drawing.",
+    "clock_wording_issue": "Resolved and re-read: proposal distinguishes ASTRA song ranges from reference-frame/player observations, and labels reference player 177.271s explicitly."
+  },
+  "passed": true,
+  "proposal_sha256": "ab6fa4d5ec209b986ef2208857d13b79299e56a1d16e626f002cec3d0878191f"
+}

@@ -1,0 +1,507 @@
+{
+  "original_path": "C:\\Users\\auscar\\Desktop\\world.execute (me) ;.flac",
+  "preserved_path": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\media\\audio\\user-world-execute-192k24.flac",
+  "sha256": "19d5b185fe6cff41ae7d0082ca4f9e7cf2828ef1de99c7f5336177a9761acbbc",
+  "bytes": 148549007,
+  "byte_exact_copy": true,
+  "streaminfo": {
+    "sample_rate": 192000,
+    "channels": 2,
+    "bits_per_sample": 24,
+    "total_samples_per_channel": 40686080,
+    "duration_seconds": 211.90666666666667,
+    "decoded_pcm_md5_declared": "4d05f908f456c9d04e512b7c342580df"
+  },
+  "provenance": "User-supplied Desktop file; origin, purchase source and mastering lineage were not provided",
+  "authenticity_boundary": "Header confirms the delivered PCM representation only, not that the recording was originally mastered at this rate/depth",
+  "full_native_decode": {
+    "exit_code": 0,
+    "error_output": "",
+    "decoded_pcm_md5": "4d05f908f456c9d04e512b7c342580df",
+    "matches_streaminfo_md5": true
+  },
+  "comparisons": {
+    "existing_original": {
+      "passed": true,
+      "mapping": "ref_player_seconds = our_song_seconds + offset_seconds",
+      "offset_seconds": 0.057791666666666686,
+      "coarse_search": {
+        "original_window_seconds": [
+          20,
+          60
+        ],
+        "sample_rate": 2000,
+        "offset_seconds": 0.05649999999999977,
+        "correlation": 0.9029187035692242
+      },
+      "fine_sample_rate": 24000,
+      "minimum_correlation_required": 0.9,
+      "maximum_offset_spread_seconds": 0.020833333333333332,
+      "measured_offset_spread_seconds": 0.004499999999993731,
+      "constant_offset_max_measured_error_seconds": 0.0023333333333332984,
+      "strict_raw_waveform_0_95_gate_passed": false,
+      "precision_note": "Frame-level correspondence only; raw correlations and nonzero drift remain visible. A configurable lower correlation gate must not be described as sample-exact matching.",
+      "fit": {
+        "offset_at_song_zero_seconds": 0.055428086371846694,
+        "offset_slope_seconds_per_second": 2.262657334763248e-05,
+        "reference_seconds_per_song_second": 1.0000226265733476,
+        "affine_mapping": "ref_player_seconds = 1.000022626573 * our_song_seconds + 0.055428086372",
+        "drift_ppm": 22.62657334763248,
+        "residual_max_seconds": 1.827517355861008e-05
+      },
+      "windows": [
+        {
+          "song_window_seconds": [
+            1,
+            3.5
+          ],
+          "reference_window_seconds": [
+            1.0554583333333334,
+            3.555458333333333
+          ],
+          "offset_seconds": 0.05545833333333339,
+          "correlation": 0.9547535532634717,
+          "original_rms_dbfs": -9.112420467647315
+        },
+        {
+          "song_window_seconds": [
+            31,
+            33.5
+          ],
+          "reference_window_seconds": [
+            31.056125,
+            33.556125
+          ],
+          "offset_seconds": 0.056125000000001535,
+          "correlation": 0.9505661856877603,
+          "original_rms_dbfs": -8.780924192831405
+        },
+        {
+          "song_window_seconds": [
+            60,
+            62.5
+          ],
+          "reference_window_seconds": [
+            60.05679166666667,
+            62.55679166666667
+          ],
+          "offset_seconds": 0.056791666666669016,
+          "correlation": 0.9349205238757654,
+          "original_rms_dbfs": -5.4891662319146315
+        },
+        {
+          "song_window_seconds": [
+            90,
+            92.5
+          ],
+          "reference_window_seconds": [
+            90.05745833333333,
+            92.55745833333333
+          ],
+          "offset_seconds": 0.05745833333332939,
+          "correlation": 0.9500308713557695,
+          "original_rms_dbfs": -7.71148805886975
+        },
+        {
+          "song_window_seconds": [
+            120,
+            122.5
+          ],
+          "reference_window_seconds": [
+            120.058125,
+            122.558125
+          ],
+          "offset_seconds": 0.05812500000000398,
+          "correlation": 0.9378813124398218,
+          "original_rms_dbfs": -6.033826628436297
+        },
+        {
+          "song_window_seconds": [
+            150,
+            152.5
+          ],
+          "reference_window_seconds": [
+            150.05883333333333,
+            152.55883333333333
+          ],
+          "offset_seconds": 0.0588333333333253,
+          "correlation": 0.9497601449971445,
+          "original_rms_dbfs": -6.827875999441319
+        },
+        {
+          "song_window_seconds": [
+            180,
+            182.5
+          ],
+          "reference_window_seconds": [
+            180.0595,
+            182.5595
+          ],
+          "offset_seconds": 0.0595000000000141,
+          "correlation": 0.9500945652764424,
+          "original_rms_dbfs": -5.422922929298444
+        },
+        {
+          "song_window_seconds": [
+            200,
+            202.5
+          ],
+          "reference_window_seconds": [
+            200.05995833333333,
+            202.55995833333333
+          ],
+          "offset_seconds": 0.05995833333332712,
+          "correlation": 0.947232123704063,
+          "original_rms_dbfs": -8.398479790844812
+        }
+      ],
+      "original_audio": {
+        "path": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\media\\audio\\mili-world-execute-original-bilibili.m4a",
+        "sha256": "b06f195e2a479c25c3282f4ca5b931e293c4a35a941acf6dd5b515ba4890f34a",
+        "decoded_samples": 5095936,
+        "decoded_seconds": 212.33066666666667
+      },
+      "reference_audio": {
+        "path": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\media\\audio\\user-world-execute-192k24.flac",
+        "sha256": "19d5b185fe6cff41ae7d0082ca4f9e7cf2828ef1de99c7f5336177a9761acbbc",
+        "decoded_samples": 5085760,
+        "decoded_seconds": 211.90666666666667
+      },
+      "scope": "Full audio decoded; waveform correlation over one coarse interval plus eight measured windows. No listening or phoneme-level timing claim. Offset maps source-audio/player timelines, not a guessed intro length.",
+      "mapping_role_note": "In this comparison, reference/ ref_player = user FLAC time; original/our_song = comparison input time",
+      "comparison_error": null
+    },
+    "new_reference": {
+      "passed": true,
+      "mapping": "ref_player_seconds = our_song_seconds + offset_seconds",
+      "offset_seconds": 0.0,
+      "coarse_search": {
+        "original_window_seconds": [
+          20,
+          60
+        ],
+        "sample_rate": 2000,
+        "offset_seconds": 0.0,
+        "correlation": 0.9989653242962276
+      },
+      "fine_sample_rate": 24000,
+      "minimum_correlation_required": 0.9,
+      "maximum_offset_spread_seconds": 0.020833333333333332,
+      "measured_offset_spread_seconds": 0.0,
+      "constant_offset_max_measured_error_seconds": 0.0,
+      "strict_raw_waveform_0_95_gate_passed": true,
+      "precision_note": "Frame-level correspondence only; raw correlations and nonzero drift remain visible. A configurable lower correlation gate must not be described as sample-exact matching.",
+      "fit": {
+        "offset_at_song_zero_seconds": 0.0,
+        "offset_slope_seconds_per_second": 0.0,
+        "reference_seconds_per_song_second": 1.0,
+        "affine_mapping": "ref_player_seconds = 1.000000000000 * our_song_seconds + 0.000000000000",
+        "drift_ppm": 0.0,
+        "residual_max_seconds": 0.0
+      },
+      "windows": [
+        {
+          "song_window_seconds": [
+            1,
+            3.5
+          ],
+          "reference_window_seconds": [
+            1.0,
+            3.5
+          ],
+          "offset_seconds": 0.0,
+          "correlation": 0.9992710806252479,
+          "original_rms_dbfs": -9.845689826923449
+        },
+        {
+          "song_window_seconds": [
+            31,
+            33.5
+          ],
+          "reference_window_seconds": [
+            31.0,
+            33.5
+          ],
+          "offset_seconds": 0.0,
+          "correlation": 0.9987187170782785,
+          "original_rms_dbfs": -9.63441918343361
+        },
+        {
+          "song_window_seconds": [
+            60,
+            62.5
+          ],
+          "reference_window_seconds": [
+            60.0,
+            62.5
+          ],
+          "offset_seconds": 0.0,
+          "correlation": 0.9964792941806616,
+          "original_rms_dbfs": -6.63290995995082
+        },
+        {
+          "song_window_seconds": [
+            90,
+            92.5
+          ],
+          "reference_window_seconds": [
+            90.0,
+            92.5
+          ],
+          "offset_seconds": 0.0,
+          "correlation": 0.9983889146763024,
+          "original_rms_dbfs": -8.651977358543355
+        },
+        {
+          "song_window_seconds": [
+            120,
+            122.5
+          ],
+          "reference_window_seconds": [
+            120.0,
+            122.5
+          ],
+          "offset_seconds": 0.0,
+          "correlation": 0.9984576643981723,
+          "original_rms_dbfs": -6.967545299499958
+        },
+        {
+          "song_window_seconds": [
+            150,
+            152.5
+          ],
+          "reference_window_seconds": [
+            150.0,
+            152.5
+          ],
+          "offset_seconds": 0.0,
+          "correlation": 0.9988456032424216,
+          "original_rms_dbfs": -7.394540883149632
+        },
+        {
+          "song_window_seconds": [
+            180,
+            182.5
+          ],
+          "reference_window_seconds": [
+            180.0,
+            182.5
+          ],
+          "offset_seconds": 0.0,
+          "correlation": 0.9956585773635581,
+          "original_rms_dbfs": -6.752270170842964
+        },
+        {
+          "song_window_seconds": [
+            200,
+            202.5
+          ],
+          "reference_window_seconds": [
+            200.0,
+            202.5
+          ],
+          "offset_seconds": 0.0,
+          "correlation": 0.9987382672827587,
+          "original_rms_dbfs": -8.906348835141657
+        }
+      ],
+      "original_audio": {
+        "path": "D:\\myskills\\updream\\references\\gpt-astra-BV1Jwhy6BEMJ\\reference-audio.m4a",
+        "sha256": "40e902c06dd2f5eee367ccc2fb9060a5e72d93870674ff7e3c8b63160e75f409",
+        "decoded_samples": 5086208,
+        "decoded_seconds": 211.92533333333333
+      },
+      "reference_audio": {
+        "path": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\media\\audio\\user-world-execute-192k24.flac",
+        "sha256": "19d5b185fe6cff41ae7d0082ca4f9e7cf2828ef1de99c7f5336177a9761acbbc",
+        "decoded_samples": 5085760,
+        "decoded_seconds": 211.90666666666667
+      },
+      "scope": "Full audio decoded; waveform correlation over one coarse interval plus eight measured windows. No listening or phoneme-level timing claim. Offset maps source-audio/player timelines, not a guessed intro length.",
+      "mapping_role_note": "In this comparison, reference/ ref_player = user FLAC time; original/our_song = comparison input time",
+      "comparison_error": null
+    }
+  },
+  "spectrum": {
+    "method": "Three 8s native-rate stereo windows; sum L/R FFT power, Hann32768, half-overlap; relative integrated band energy",
+    "windows": [
+      {
+        "window_seconds": [
+          30,
+          38
+        ],
+        "welch_segments": 92,
+        "bands": [
+          {
+            "hz": [
+              0,
+              20000
+            ],
+            "energy_db_relative_0_20khz": 0.0
+          },
+          {
+            "hz": [
+              20000,
+              22050
+            ],
+            "energy_db_relative_0_20khz": -53.63444115411491
+          },
+          {
+            "hz": [
+              22050,
+              24000
+            ],
+            "energy_db_relative_0_20khz": -54.383208196092355
+          },
+          {
+            "hz": [
+              24000,
+              48000
+            ],
+            "energy_db_relative_0_20khz": -52.69305895813825
+          },
+          {
+            "hz": [
+              48000,
+              96000
+            ],
+            "energy_db_relative_0_20khz": -62.199757219004425
+          }
+        ],
+        "power_99_99_percent_frequency_hz": 12363.28125
+      },
+      {
+        "window_seconds": [
+          90,
+          98
+        ],
+        "welch_segments": 92,
+        "bands": [
+          {
+            "hz": [
+              0,
+              20000
+            ],
+            "energy_db_relative_0_20khz": 0.0
+          },
+          {
+            "hz": [
+              20000,
+              22050
+            ],
+            "energy_db_relative_0_20khz": -56.47754093418166
+          },
+          {
+            "hz": [
+              22050,
+              24000
+            ],
+            "energy_db_relative_0_20khz": -59.05019367985994
+          },
+          {
+            "hz": [
+              24000,
+              48000
+            ],
+            "energy_db_relative_0_20khz": -57.2272736058812
+          },
+          {
+            "hz": [
+              48000,
+              96000
+            ],
+            "energy_db_relative_0_20khz": -69.21290539739994
+          }
+        ],
+        "power_99_99_percent_frequency_hz": 12919.921875
+      },
+      {
+        "window_seconds": [
+          150,
+          158
+        ],
+        "welch_segments": 92,
+        "bands": [
+          {
+            "hz": [
+              0,
+              20000
+            ],
+            "energy_db_relative_0_20khz": 0.0
+          },
+          {
+            "hz": [
+              20000,
+              22050
+            ],
+            "energy_db_relative_0_20khz": -63.64633524999094
+          },
+          {
+            "hz": [
+              22050,
+              24000
+            ],
+            "energy_db_relative_0_20khz": -66.24300975682544
+          },
+          {
+            "hz": [
+              24000,
+              48000
+            ],
+            "energy_db_relative_0_20khz": -63.83879092157608
+          },
+          {
+            "hz": [
+              48000,
+              96000
+            ],
+            "energy_db_relative_0_20khz": -74.01667423613614
+          }
+        ],
+        "power_99_99_percent_frequency_hz": 11390.625
+      }
+    ],
+    "scope": "Frequency-energy description only. A cutoff or weak ultrasonic energy cannot alone prove lossy transcoding, upsampling, or native-master provenance."
+  },
+  "proposed_constant_trim": {
+    "samples_per_channel": 11096,
+    "rate": 192000,
+    "seconds": 0.057791666666666665,
+    "aligned_source_end_song_seconds": 211.848875,
+    "missing_interval_before_original_timeline_end_seconds": 0.4844583333333503,
+    "total_padding_to_218_333333_seconds": 6.48445833333335,
+    "no_trim_or_resampling_performed_here": true
+  },
+  "tail_level_checks": {
+    "old_audio_interval_after_aligned_flac_end": {
+      "path": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\media\\audio\\mili-world-execute-original-bilibili.m4a",
+      "requested_window_seconds": [
+        211.848875,
+        212.33333333333334
+      ],
+      "sample_rate": 48000,
+      "decoded_samples_per_channel": 23134,
+      "decoded_duration_seconds": 0.4819583333333333,
+      "rms_dbfs": -300.0,
+      "peak_dbfs": -300.0,
+      "all_samples_exact_zero": true,
+      "scope": "Actual decoded stereo samples; zero maps to -300dB display floor"
+    },
+    "user_flac_last_half_second": {
+      "path": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\media\\audio\\user-world-execute-192k24.flac",
+      "requested_window_seconds": [
+        211.40666666666667,
+        211.90666666666667
+      ],
+      "sample_rate": 192000,
+      "decoded_samples_per_channel": 96000,
+      "decoded_duration_seconds": 0.5,
+      "rms_dbfs": -69.75942644625395,
+      "peak_dbfs": -52.36032309203749,
+      "all_samples_exact_zero": false,
+      "scope": "Actual decoded stereo samples; zero maps to -300dB display floor"
+    }
+  },
+  "passed_decode_and_copy": true,
+  "production_audio_changed": false
+}

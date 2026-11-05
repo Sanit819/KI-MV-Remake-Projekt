@@ -1,0 +1,71 @@
+{
+  "passed": true,
+  "phase": "complete",
+  "started_at": "2026-11-05T05:10:53.754Z",
+  "label": "User FLAC / 192 kHz 24-bit ALAC; supplied upload FORMAT requirements met after verification; recording provenance and platform acceptance unverified",
+  "fps": 60,
+  "frames": 13400,
+  "duration_seconds": 223.33333333333334,
+  "audio": {
+    "source": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\media\\audio\\user-world-execute-192k24.flac",
+    "expected_sha256": "19d5b185fe6cff41ae7d0082ca4f9e7cf2828ef1de99c7f5336177a9761acbbc",
+    "sample_rate": 192000,
+    "bit_depth": 24,
+    "channels": 2,
+    "source_samples_per_channel": 40686080,
+    "trim_front_samples": 11096,
+    "retained_source_samples": 40674984,
+    "front_silent_samples": 960000,
+    "tail_padding_samples": 1245016,
+    "total_samples_per_channel": 42880000,
+    "production_decode_count": 0,
+    "alac_encode_count": 0,
+    "resampling": false,
+    "time_stretch": false,
+    "upmix": false,
+    "lossy_audio_encoding": false,
+    "tail_clearance_evidence": "docs/audio/user-flac-analysis.json: old original song 211.848875 s onward all zero; retain full FLAC decay, trim front only",
+    "source_sha256_before": "19d5b185fe6cff41ae7d0082ca4f9e7cf2828ef1de99c7f5336177a9761acbbc",
+    "reference": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\exports\\warning-v3-hires\\user-flac-trimmed-padded.pcm24.wav",
+    "reference_sha256": "a6cf40be4601f4bbdf44865c3bd6ed6ee051716ecb99c27342febc26d25812a4",
+    "encoded_once": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\exports\\warning-v3-hires\\user-flac-trimmed-padded.alac.m4a",
+    "encoded_file_sha256": "6fe79bb1d46e6f576b2eae212f59d28a93ab9bdc4186ab08e8dd941a3a978528",
+    "source_sha256_after": "19d5b185fe6cff41ae7d0082ca4f9e7cf2828ef1de99c7f5336177a9761acbbc",
+    "reused_verified_audio": true,
+    "previous_verification": "exports/warning-v3-hires/verification.json"
+  },
+  "inputs": [
+    {
+      "key": "4k60",
+      "width": 3840,
+      "height": 2160,
+      "input": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\exports\\astra-world-execute-me-full-v3-warning-v2-4k60.mp4",
+      "sha256_before": "8a492b561c374ee1654028216b2c6909a36cc3cfde8acecafe35c6a6f619aef6",
+      "output": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\exports\\astra-world-execute-me-full-v3-warning-v2-hires-4k60.mp4",
+      "bytes": 435540282,
+      "sha256": "fa8aead7b51bf21ec8eaabed035a3a1b078c644085695b29b7e4dadd3a99a248",
+      "sha256_after": "8a492b561c374ee1654028216b2c6909a36cc3cfde8acecafe35c6a6f619aef6",
+      "input_unchanged": true
+    },
+    {
+      "key": "1080p60",
+      "width": 1920,
+      "height": 1080,
+      "input": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\exports\\astra-world-execute-me-full-v3-warning-v2-1080p60.mp4",
+      "sha256_before": "88caf79080084a6ab0ddc87f211d63b637784aaa13ef3d25cd0b3459c65f99da",
+      "output": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\exports\\astra-world-execute-me-full-v3-warning-v2-hires-1080p60.mp4",
+      "bytes": 289818670,
+      "sha256": "c0f9f8fef2b56559a836b896973077029496f5a4a037aea96065d179d74f4f80",
+      "sha256_after": "88caf79080084a6ab0ddc87f211d63b637784aaa13ef3d25cd0b3459c65f99da",
+      "input_unchanged": true
+    }
+  ],
+  "export_succeeded": true,
+  "export_elapsed_seconds": 16.841,
+  "version": "v3-warning-v2-purple-GPT-hires",
+  "card": {
+    "file": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\assets\\publishing\\warning-v02\\card-4k.png",
+    "sha256": "7dcecef6abaf317aea5ba71de9564a5f8461c2d2af86d76eed715bcdea26358e"
+  },
+  "verification_report": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\exports\\warning-v3-v2-hires\\verification.json"
+}

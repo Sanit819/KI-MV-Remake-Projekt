@@ -1,0 +1,464 @@
+{
+  "passed": true,
+  "version": "warning-v3-v2",
+  "expected_frames": 13400,
+  "expected_fps": 60,
+  "duration_seconds": 223.33333333333334,
+  "original_picture_start_frame": 300,
+  "original_picture_start_seconds": 5,
+  "card_is_static_source": true,
+  "items": [
+    {
+      "key": "4k60",
+      "output": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\exports\\astra-world-execute-me-full-v3-warning-v2-4k60.mp4",
+      "bytes": 284360315,
+      "sha256": "8a492b561c374ee1654028216b2c6909a36cc3cfde8acecafe35c6a6f619aef6",
+      "passed": true,
+      "checks": {
+        "full_decode_and_reference_alignment": true,
+        "all_original_video_packets_identical_and_timestamps_correct": true,
+        "eight_windows_against_original_v3_shifted_five_seconds": true,
+        "five_second_head_silent": true,
+        "six_second_tail_silent": true,
+        "original_mp4_unchanged": true,
+        "shared_aac_payload_no_further_encode": true
+      },
+      "full_verify_report": "4k60.full-verify.json",
+      "packet_report": "4k60.packets.json",
+      "original_sha256": "fc5843f714c862d4a405f2a2cee58f958eaeb1597fe872dfe4300d0c1586e90b",
+      "aac_payload_sha256": "025527af3a205573232a918cfb816949a54511d764161ea2b88d84b71b88e1d2",
+      "silence": {
+        "head": {
+          "interval_seconds": [
+            0,
+            5
+          ],
+          "samples_per_channel": 240000,
+          "peak_dbfs": -300.0,
+          "rms_dbfs": -300.0,
+          "exact_zero": true,
+          "passed_below_minus_80_dbfs": true
+        },
+        "tail": {
+          "interval_seconds": [
+            217.33333333333334,
+            223.33333333333334
+          ],
+          "samples_per_channel": 288000,
+          "peak_dbfs": -300.0,
+          "rms_dbfs": -300.0,
+          "exact_zero": true,
+          "passed_below_minus_80_dbfs": true
+        }
+      },
+      "alignment_against_original_v3": [
+        {
+          "sample_window_seconds": [
+            1.0,
+            3.5
+          ],
+          "lag_samples": 0,
+          "lag_seconds": 0.0,
+          "normalized_correlation": 0.9989356343444055,
+          "reference_rms_dbfs": -9.448978650963193,
+          "original_v3_window_seconds": [
+            1.0,
+            3.5
+          ],
+          "upload_window_seconds": [
+            6.0,
+            8.5
+          ],
+          "passed": true
+        },
+        {
+          "sample_window_seconds": [
+            31.0,
+            33.5
+          ],
+          "lag_samples": 0,
+          "lag_seconds": 0.0,
+          "normalized_correlation": 0.9986084281261991,
+          "reference_rms_dbfs": -9.031354232063284,
+          "original_v3_window_seconds": [
+            31.0,
+            33.5
+          ],
+          "upload_window_seconds": [
+            36.0,
+            38.5
+          ],
+          "passed": true
+        },
+        {
+          "sample_window_seconds": [
+            60.0,
+            62.5
+          ],
+          "lag_samples": 0,
+          "lag_seconds": 0.0,
+          "normalized_correlation": 0.9941256218068215,
+          "reference_rms_dbfs": -6.677116711723805,
+          "original_v3_window_seconds": [
+            60.0,
+            62.5
+          ],
+          "upload_window_seconds": [
+            65.0,
+            67.5
+          ],
+          "passed": true
+        },
+        {
+          "sample_window_seconds": [
+            90.0,
+            92.5
+          ],
+          "lag_samples": 0,
+          "lag_seconds": 0.0,
+          "normalized_correlation": 0.9979859144977089,
+          "reference_rms_dbfs": -8.012085170977572,
+          "original_v3_window_seconds": [
+            90.0,
+            92.5
+          ],
+          "upload_window_seconds": [
+            95.0,
+            97.5
+          ],
+          "passed": true
+        },
+        {
+          "sample_window_seconds": [
+            120.0,
+            122.5
+          ],
+          "lag_samples": 0,
+          "lag_seconds": 0.0,
+          "normalized_correlation": 0.9982805713020529,
+          "reference_rms_dbfs": -6.602104017294865,
+          "original_v3_window_seconds": [
+            120.0,
+            122.5
+          ],
+          "upload_window_seconds": [
+            125.0,
+            127.5
+          ],
+          "passed": true
+        },
+        {
+          "sample_window_seconds": [
+            150.0,
+            152.5
+          ],
+          "lag_samples": 0,
+          "lag_seconds": 0.0,
+          "normalized_correlation": 0.9985667756098278,
+          "reference_rms_dbfs": -7.226796931528659,
+          "original_v3_window_seconds": [
+            150.0,
+            152.5
+          ],
+          "upload_window_seconds": [
+            155.0,
+            157.5
+          ],
+          "passed": true
+        },
+        {
+          "sample_window_seconds": [
+            180.0,
+            182.5
+          ],
+          "lag_samples": 0,
+          "lag_seconds": 0.0,
+          "normalized_correlation": 0.9943650067653547,
+          "reference_rms_dbfs": -6.69494200014697,
+          "original_v3_window_seconds": [
+            180.0,
+            182.5
+          ],
+          "upload_window_seconds": [
+            185.0,
+            187.5
+          ],
+          "passed": true
+        },
+        {
+          "sample_window_seconds": [
+            200.0,
+            202.5
+          ],
+          "lag_samples": 0,
+          "lag_seconds": 0.0,
+          "normalized_correlation": 0.9980978312694871,
+          "reference_rms_dbfs": -8.711692228484353,
+          "original_v3_window_seconds": [
+            200.0,
+            202.5
+          ],
+          "upload_window_seconds": [
+            205.0,
+            207.5
+          ],
+          "passed": true
+        }
+      ]
+    },
+    {
+      "key": "1080p60",
+      "output": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\exports\\astra-world-execute-me-full-v3-warning-v2-1080p60.mp4",
+      "bytes": 138638703,
+      "sha256": "88caf79080084a6ab0ddc87f211d63b637784aaa13ef3d25cd0b3459c65f99da",
+      "passed": true,
+      "checks": {
+        "full_decode_and_reference_alignment": true,
+        "all_original_video_packets_identical_and_timestamps_correct": true,
+        "eight_windows_against_original_v3_shifted_five_seconds": true,
+        "five_second_head_silent": true,
+        "six_second_tail_silent": true,
+        "original_mp4_unchanged": true,
+        "shared_aac_payload_no_further_encode": true
+      },
+      "full_verify_report": "1080p60.full-verify.json",
+      "packet_report": "1080p60.packets.json",
+      "original_sha256": "26c6ea3ea2cf0b940b481eaf8b970c0f687a772f45a57bf7c2d18aa39908a23b",
+      "aac_payload_sha256": "025527af3a205573232a918cfb816949a54511d764161ea2b88d84b71b88e1d2",
+      "silence": {
+        "head": {
+          "interval_seconds": [
+            0,
+            5
+          ],
+          "samples_per_channel": 240000,
+          "peak_dbfs": -300.0,
+          "rms_dbfs": -300.0,
+          "exact_zero": true,
+          "passed_below_minus_80_dbfs": true
+        },
+        "tail": {
+          "interval_seconds": [
+            217.33333333333334,
+            223.33333333333334
+          ],
+          "samples_per_channel": 288000,
+          "peak_dbfs": -300.0,
+          "rms_dbfs": -300.0,
+          "exact_zero": true,
+          "passed_below_minus_80_dbfs": true
+        }
+      },
+      "alignment_against_original_v3": [
+        {
+          "sample_window_seconds": [
+            1.0,
+            3.5
+          ],
+          "lag_samples": 0,
+          "lag_seconds": 0.0,
+          "normalized_correlation": 0.9989356343444055,
+          "reference_rms_dbfs": -9.448978650963193,
+          "original_v3_window_seconds": [
+            1.0,
+            3.5
+          ],
+          "upload_window_seconds": [
+            6.0,
+            8.5
+          ],
+          "passed": true
+        },
+        {
+          "sample_window_seconds": [
+            31.0,
+            33.5
+          ],
+          "lag_samples": 0,
+          "lag_seconds": 0.0,
+          "normalized_correlation": 0.9986084281261991,
+          "reference_rms_dbfs": -9.031354232063284,
+          "original_v3_window_seconds": [
+            31.0,
+            33.5
+          ],
+          "upload_window_seconds": [
+            36.0,
+            38.5
+          ],
+          "passed": true
+        },
+        {
+          "sample_window_seconds": [
+            60.0,
+            62.5
+          ],
+          "lag_samples": 0,
+          "lag_seconds": 0.0,
+          "normalized_correlation": 0.9941256218068215,
+          "reference_rms_dbfs": -6.677116711723805,
+          "original_v3_window_seconds": [
+            60.0,
+            62.5
+          ],
+          "upload_window_seconds": [
+            65.0,
+            67.5
+          ],
+          "passed": true
+        },
+        {
+          "sample_window_seconds": [
+            90.0,
+            92.5
+          ],
+          "lag_samples": 0,
+          "lag_seconds": 0.0,
+          "normalized_correlation": 0.9979859144977089,
+          "reference_rms_dbfs": -8.012085170977572,
+          "original_v3_window_seconds": [
+            90.0,
+            92.5
+          ],
+          "upload_window_seconds": [
+            95.0,
+            97.5
+          ],
+          "passed": true
+        },
+        {
+          "sample_window_seconds": [
+            120.0,
+            122.5
+          ],
+          "lag_samples": 0,
+          "lag_seconds": 0.0,
+          "normalized_correlation": 0.9982805713020529,
+          "reference_rms_dbfs": -6.602104017294865,
+          "original_v3_window_seconds": [
+            120.0,
+            122.5
+          ],
+          "upload_window_seconds": [
+            125.0,
+            127.5
+          ],
+          "passed": true
+        },
+        {
+          "sample_window_seconds": [
+            150.0,
+            152.5
+          ],
+          "lag_samples": 0,
+          "lag_seconds": 0.0,
+          "normalized_correlation": 0.9985667756098278,
+          "reference_rms_dbfs": -7.226796931528659,
+          "original_v3_window_seconds": [
+            150.0,
+            152.5
+          ],
+          "upload_window_seconds": [
+            155.0,
+            157.5
+          ],
+          "passed": true
+        },
+        {
+          "sample_window_seconds": [
+            180.0,
+            182.5
+          ],
+          "lag_samples": 0,
+          "lag_seconds": 0.0,
+          "normalized_correlation": 0.9943650067653547,
+          "reference_rms_dbfs": -6.69494200014697,
+          "original_v3_window_seconds": [
+            180.0,
+            182.5
+          ],
+          "upload_window_seconds": [
+            185.0,
+            187.5
+          ],
+          "passed": true
+        },
+        {
+          "sample_window_seconds": [
+            200.0,
+            202.5
+          ],
+          "lag_samples": 0,
+          "lag_seconds": 0.0,
+          "normalized_correlation": 0.9980978312694871,
+          "reference_rms_dbfs": -8.711692228484353,
+          "original_v3_window_seconds": [
+            200.0,
+            202.5
+          ],
+          "upload_window_seconds": [
+            205.0,
+            207.5
+          ],
+          "passed": true
+        }
+      ]
+    }
+  ],
+  "scope": "Complete video/audio decoding, all encoded packet hashes and PTS, eight shifted original-v3 audio windows per output, two-channel silence. Visual review is separately reported; no medical flash-safety certification.",
+  "reference_silence": {
+    "head": {
+      "interval_seconds": [
+        0,
+        5
+      ],
+      "samples_per_channel": 240000,
+      "peak_dbfs": -300.0,
+      "rms_dbfs": -300.0,
+      "exact_zero": true,
+      "passed_below_minus_80_dbfs": true
+    },
+    "tail": {
+      "interval_seconds": [
+        217.33333333333334,
+        223.33333333333334
+      ],
+      "samples_per_channel": 288000,
+      "peak_dbfs": -300.0,
+      "rms_dbfs": -300.0,
+      "exact_zero": true,
+      "passed_below_minus_80_dbfs": true
+    }
+  },
+  "source_audio_unchanged": true,
+  "legacy_warning_outputs_unchanged": {
+    "passed": true,
+    "items": [
+      {
+        "file": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\exports\\astra-world-execute-me-full-v3-warning-4k60.mp4",
+        "expected_sha256": "493a403666e76208c146543bbb94fbf2b100d72387973789d0903c2ce3112deb",
+        "actual_sha256": "493a403666e76208c146543bbb94fbf2b100d72387973789d0903c2ce3112deb",
+        "unchanged": true
+      },
+      {
+        "file": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\exports\\astra-world-execute-me-full-v3-warning-1080p60.mp4",
+        "expected_sha256": "ca870ea978d676648ceae0a24813c5b6611329c1e85018c815b073ddb9f283da",
+        "actual_sha256": "ca870ea978d676648ceae0a24813c5b6611329c1e85018c815b073ddb9f283da",
+        "unchanged": true
+      },
+      {
+        "file": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\exports\\astra-world-execute-me-full-v3-warning-hires-4k60.mp4",
+        "expected_sha256": "d46da4e93c28ef32dcc3aac2605fc4dc10ac816ef9cd8777a0e9d9586aa353cd",
+        "actual_sha256": "d46da4e93c28ef32dcc3aac2605fc4dc10ac816ef9cd8777a0e9d9586aa353cd",
+        "unchanged": true
+      },
+      {
+        "file": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\exports\\astra-world-execute-me-full-v3-warning-hires-1080p60.mp4",
+        "expected_sha256": "9022b7d71c5090eeaa47b0f89f323634b6221df893e91c5c492f9e85af3c1e66",
+        "actual_sha256": "9022b7d71c5090eeaa47b0f89f323634b6221df893e91c5c492f9e85af3c1e66",
+        "unchanged": true
+      }
+    ]
+  },
+  "reuse_scope": "Only the first 300 picture frames were newly encoded. Previously verified AAC/ALAC bitstreams are copied; no new production audio encode or resample. Prior warning-v01 exports retained."
+}

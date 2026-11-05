@@ -1,0 +1,63 @@
+{
+  "passed": true,
+  "phase": "complete",
+  "started_at": "2026-11-05T05:10:41.554Z",
+  "version": "v3-warning-v2-purple-GPT",
+  "fps": 60,
+  "warning_frames": 300,
+  "original_frames": 13100,
+  "total_frames": 13400,
+  "duration": 223.33333333333334,
+  "card": {
+    "file": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\assets\\publishing\\warning-v02\\card-4k.png",
+    "sha256": "7dcecef6abaf317aea5ba71de9564a5f8461c2d2af86d76eed715bcdea26358e"
+  },
+  "audio": {
+    "source": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\media\\audio\\mili-world-execute-original-bilibili.m4a",
+    "sha256": "b06f195e2a479c25c3282f4ca5b931e293c4a35a941acf6dd5b515ba4890f34a",
+    "sample_rate": 48000,
+    "channels": 2,
+    "production_source_decode_count": 0,
+    "aac_encode_count": 0,
+    "bitrate": 192000,
+    "front_samples": 240000,
+    "total_samples": 10720000,
+    "pcm_reference": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\exports\\warning-v3\\warning-original-reference.f32.wav",
+    "pcm_sha256": "2724a5d499b5f1fbb30d194dd7af237505886611f62861101e185708fbf8531a",
+    "encoded_once": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\exports\\warning-v3\\warning-audio.m4a",
+    "encoded_sha256": "46d5a06c4935b0b063bb3116107a585f55a286f288099b2fc97c180688f53a09",
+    "reused_verified_audio": true,
+    "previous_verification": "exports/warning-v3/verification.json"
+  },
+  "inputs": [
+    {
+      "key": "4k60",
+      "width": 3840,
+      "height": 2160,
+      "input": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\exports\\astra-world-execute-me-full-v3-4k60.mp4",
+      "output": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\exports\\astra-world-execute-me-full-v3-warning-v2-4k60.mp4",
+      "sha256_before": "fc5843f714c862d4a405f2a2cee58f958eaeb1597fe872dfe4300d0c1586e90b",
+      "output_sha256": "8a492b561c374ee1654028216b2c6909a36cc3cfde8acecafe35c6a6f619aef6",
+      "output_bytes": 284360315,
+      "sha256_after": "fc5843f714c862d4a405f2a2cee58f958eaeb1597fe872dfe4300d0c1586e90b",
+      "original_unchanged": true,
+      "video_method": "300 new warning frames encoded; original 13100 video packets stream-copied with auto_convert=0; byte equality pending independent verification"
+    },
+    {
+      "key": "1080p60",
+      "width": 1920,
+      "height": 1080,
+      "input": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\exports\\astra-world-execute-me-full-v3-1080p60.mp4",
+      "output": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\exports\\astra-world-execute-me-full-v3-warning-v2-1080p60.mp4",
+      "sha256_before": "26c6ea3ea2cf0b940b481eaf8b970c0f687a772f45a57bf7c2d18aa39908a23b",
+      "output_sha256": "88caf79080084a6ab0ddc87f211d63b637784aaa13ef3d25cd0b3459c65f99da",
+      "output_bytes": 138638703,
+      "sha256_after": "26c6ea3ea2cf0b940b481eaf8b970c0f687a772f45a57bf7c2d18aa39908a23b",
+      "original_unchanged": true,
+      "video_method": "300 new warning frames encoded; original 13100 video packets stream-copied with auto_convert=0; byte equality pending independent verification"
+    }
+  ],
+  "export_succeeded": true,
+  "elapsed_seconds": 12.539,
+  "verification_report": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\exports\\warning-v3-v2\\verification.json"
+}

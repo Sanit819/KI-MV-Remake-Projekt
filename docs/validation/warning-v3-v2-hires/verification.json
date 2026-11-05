@@ -1,0 +1,536 @@
+{
+  "passed": true,
+  "format": "User-supplied FLAC retained as 192 kHz / 24-bit stereo ALAC; recording provenance and platform acceptance unverified",
+  "independent_expected_pcm": {
+    "sha256": "a8195021c34ab3c21474d2ec7a8e3e0a14ed36d571d42cf95e1da7979d9b7e26",
+    "source_decoded_bytes": 244116480,
+    "source_samples_per_channel": 40686080,
+    "retained_samples_per_channel": 40674984,
+    "trim_front_samples": 11096,
+    "front_silent_samples": 960000,
+    "tail_silent_samples": 1245016,
+    "expected_total_bytes": 257280000,
+    "expected_total_samples_per_channel": 42880000,
+    "method": "Native signed 24-bit PCM decoded; Python drops first 11096 sample frames, hashes 960000 leading zero sample frames + every remaining source byte + literal zeros to length. No production-filter reuse."
+  },
+  "production_reference_pcm": {
+    "sha256": "a8195021c34ab3c21474d2ec7a8e3e0a14ed36d571d42cf95e1da7979d9b7e26",
+    "decoded_bytes": 257280000,
+    "decoded_samples_per_channel": 42880000,
+    "head_exact_zero_0_to_5s": true,
+    "tail_exact_zero_last_6s": true,
+    "tail_start_sample": 41728000
+  },
+  "encoded_once_pcm": {
+    "sha256": "a8195021c34ab3c21474d2ec7a8e3e0a14ed36d571d42cf95e1da7979d9b7e26",
+    "decoded_bytes": 257280000,
+    "decoded_samples_per_channel": 42880000,
+    "head_exact_zero_0_to_5s": true,
+    "tail_exact_zero_last_6s": true,
+    "tail_start_sample": 41728000
+  },
+  "encoded_once_config": {
+    "frame_length": 4096,
+    "compatible_version": 0,
+    "bit_depth": 24,
+    "channels": 2,
+    "sample_rate": 192000,
+    "raw_config_hex": "000010000018280a0e02000000006004008ca0000002ee00"
+  },
+  "encoded_once_payload_sha256": "3eebefc53a6091a220385b308cc130ba2a486b50318cc8e86dd5c1e7fbbe6858",
+  "checks": {
+    "source_native_sample_count": true,
+    "front_trim_exact": true,
+    "tail_padding_exact": true,
+    "production_reference_bitexact": true,
+    "alac_once_bitexact": true,
+    "alac_once_native_format": true,
+    "source_flac_unchanged": true,
+    "all_seven_original_inputs_unchanged": true
+  },
+  "items": [
+    {
+      "key": "4k60",
+      "passed": true,
+      "checks": {
+        "full_video_audio_decode": true,
+        "all_video_packet_and_pts_checks": true,
+        "actual_ALACSpecificConfig_192k_24bit_stereo": true,
+        "decoded_audio_bitexact_to_independently_trimmed_padded_FLAC": true,
+        "exact_native_decoded_sample_count": true,
+        "shared_ALAC_payload_no_second_encode": true,
+        "five_second_head_exact_zero": true,
+        "last_six_seconds_exact_zero": true,
+        "all_eight_old_audio_alignment_windows_within_frame": true,
+        "AAC_warning_input_unchanged": true
+      },
+      "output": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\exports\\astra-world-execute-me-full-v3-warning-v2-hires-4k60.mp4",
+      "bytes": 435540282,
+      "sha256": "fa8aead7b51bf21ec8eaabed035a3a1b078c644085695b29b7e4dadd3a99a248",
+      "alac_config": {
+        "frame_length": 4096,
+        "compatible_version": 0,
+        "bit_depth": 24,
+        "channels": 2,
+        "sample_rate": 192000,
+        "raw_config_hex": "000010000018280a0e02000000006004008ca0000002ee00"
+      },
+      "native_pcm": {
+        "sha256": "a8195021c34ab3c21474d2ec7a8e3e0a14ed36d571d42cf95e1da7979d9b7e26",
+        "decoded_bytes": 257280000,
+        "decoded_samples_per_channel": 42880000,
+        "head_exact_zero_0_to_5s": true,
+        "tail_exact_zero_last_6s": true,
+        "tail_start_sample": 41728000
+      },
+      "alac_payload_sha256": "3eebefc53a6091a220385b308cc130ba2a486b50318cc8e86dd5c1e7fbbe6858",
+      "old_audio_alignment_criteria": {
+        "minimum_correlation": 0.9,
+        "maximum_absolute_lag_seconds": 0.016666666666666666,
+        "scope": "Music content and timing correspondence to differently encoded source; not sample identity or lossless proof. Prior source study: docs/audio/user-flac-analysis.json."
+      },
+      "old_audio_alignment_windows": [
+        {
+          "sample_window_seconds": [
+            1.0,
+            3.5
+          ],
+          "lag_samples": -56,
+          "lag_seconds": -0.0023333333333333335,
+          "normalized_correlation": 0.9534589807514423,
+          "reference_rms_dbfs": -9.448978650963193,
+          "original_window_seconds": [
+            1.0,
+            3.5
+          ],
+          "upload_window_seconds": [
+            6.0,
+            8.5
+          ],
+          "passed": true
+        },
+        {
+          "sample_window_seconds": [
+            31.0,
+            33.5
+          ],
+          "lag_samples": -40,
+          "lag_seconds": -0.0016666666666666668,
+          "normalized_correlation": 0.9485933779565605,
+          "reference_rms_dbfs": -9.031354232063284,
+          "original_window_seconds": [
+            31.0,
+            33.5
+          ],
+          "upload_window_seconds": [
+            36.0,
+            38.5
+          ],
+          "passed": true
+        },
+        {
+          "sample_window_seconds": [
+            60.0,
+            62.5
+          ],
+          "lag_samples": -24,
+          "lag_seconds": -0.001,
+          "normalized_correlation": 0.9334469901556672,
+          "reference_rms_dbfs": -6.677116711723805,
+          "original_window_seconds": [
+            60.0,
+            62.5
+          ],
+          "upload_window_seconds": [
+            65.0,
+            67.5
+          ],
+          "passed": true
+        },
+        {
+          "sample_window_seconds": [
+            90.0,
+            92.5
+          ],
+          "lag_samples": -8,
+          "lag_seconds": -0.0003333333333333333,
+          "normalized_correlation": 0.9482657221353264,
+          "reference_rms_dbfs": -8.012085170977572,
+          "original_window_seconds": [
+            90.0,
+            92.5
+          ],
+          "upload_window_seconds": [
+            95.0,
+            97.5
+          ],
+          "passed": true
+        },
+        {
+          "sample_window_seconds": [
+            120.0,
+            122.5
+          ],
+          "lag_samples": 8,
+          "lag_seconds": 0.0003333333333333333,
+          "normalized_correlation": 0.9371528619473943,
+          "reference_rms_dbfs": -6.602104017294865,
+          "original_window_seconds": [
+            120.0,
+            122.5
+          ],
+          "upload_window_seconds": [
+            125.0,
+            127.5
+          ],
+          "passed": true
+        },
+        {
+          "sample_window_seconds": [
+            150.0,
+            152.5
+          ],
+          "lag_samples": 25,
+          "lag_seconds": 0.0010416666666666667,
+          "normalized_correlation": 0.9490968804931321,
+          "reference_rms_dbfs": -7.226796931528659,
+          "original_window_seconds": [
+            150.0,
+            152.5
+          ],
+          "upload_window_seconds": [
+            155.0,
+            157.5
+          ],
+          "passed": true
+        },
+        {
+          "sample_window_seconds": [
+            180.0,
+            182.5
+          ],
+          "lag_samples": 41,
+          "lag_seconds": 0.0017083333333333334,
+          "normalized_correlation": 0.9481145553104092,
+          "reference_rms_dbfs": -6.69494200014697,
+          "original_window_seconds": [
+            180.0,
+            182.5
+          ],
+          "upload_window_seconds": [
+            185.0,
+            187.5
+          ],
+          "passed": true
+        },
+        {
+          "sample_window_seconds": [
+            200.0,
+            202.5
+          ],
+          "lag_samples": 52,
+          "lag_seconds": 0.0021666666666666666,
+          "normalized_correlation": 0.9454451789821333,
+          "reference_rms_dbfs": -8.711692228484353,
+          "original_window_seconds": [
+            200.0,
+            202.5
+          ],
+          "upload_window_seconds": [
+            205.0,
+            207.5
+          ],
+          "passed": true
+        }
+      ],
+      "maximum_absolute_alignment_lag_seconds": 0.0023333333333333335,
+      "full_verify_report": "4k60.full-verify.json",
+      "packet_report": "4k60.packets.json"
+    },
+    {
+      "key": "1080p60",
+      "passed": true,
+      "checks": {
+        "full_video_audio_decode": true,
+        "all_video_packet_and_pts_checks": true,
+        "actual_ALACSpecificConfig_192k_24bit_stereo": true,
+        "decoded_audio_bitexact_to_independently_trimmed_padded_FLAC": true,
+        "exact_native_decoded_sample_count": true,
+        "shared_ALAC_payload_no_second_encode": true,
+        "five_second_head_exact_zero": true,
+        "last_six_seconds_exact_zero": true,
+        "all_eight_old_audio_alignment_windows_within_frame": true,
+        "AAC_warning_input_unchanged": true
+      },
+      "output": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\exports\\astra-world-execute-me-full-v3-warning-v2-hires-1080p60.mp4",
+      "bytes": 289818670,
+      "sha256": "c0f9f8fef2b56559a836b896973077029496f5a4a037aea96065d179d74f4f80",
+      "alac_config": {
+        "frame_length": 4096,
+        "compatible_version": 0,
+        "bit_depth": 24,
+        "channels": 2,
+        "sample_rate": 192000,
+        "raw_config_hex": "000010000018280a0e02000000006004008ca0000002ee00"
+      },
+      "native_pcm": {
+        "sha256": "a8195021c34ab3c21474d2ec7a8e3e0a14ed36d571d42cf95e1da7979d9b7e26",
+        "decoded_bytes": 257280000,
+        "decoded_samples_per_channel": 42880000,
+        "head_exact_zero_0_to_5s": true,
+        "tail_exact_zero_last_6s": true,
+        "tail_start_sample": 41728000
+      },
+      "alac_payload_sha256": "3eebefc53a6091a220385b308cc130ba2a486b50318cc8e86dd5c1e7fbbe6858",
+      "old_audio_alignment_criteria": {
+        "minimum_correlation": 0.9,
+        "maximum_absolute_lag_seconds": 0.016666666666666666,
+        "scope": "Music content and timing correspondence to differently encoded source; not sample identity or lossless proof. Prior source study: docs/audio/user-flac-analysis.json."
+      },
+      "old_audio_alignment_windows": [
+        {
+          "sample_window_seconds": [
+            1.0,
+            3.5
+          ],
+          "lag_samples": -56,
+          "lag_seconds": -0.0023333333333333335,
+          "normalized_correlation": 0.9534589807514423,
+          "reference_rms_dbfs": -9.448978650963193,
+          "original_window_seconds": [
+            1.0,
+            3.5
+          ],
+          "upload_window_seconds": [
+            6.0,
+            8.5
+          ],
+          "passed": true
+        },
+        {
+          "sample_window_seconds": [
+            31.0,
+            33.5
+          ],
+          "lag_samples": -40,
+          "lag_seconds": -0.0016666666666666668,
+          "normalized_correlation": 0.9485933779565605,
+          "reference_rms_dbfs": -9.031354232063284,
+          "original_window_seconds": [
+            31.0,
+            33.5
+          ],
+          "upload_window_seconds": [
+            36.0,
+            38.5
+          ],
+          "passed": true
+        },
+        {
+          "sample_window_seconds": [
+            60.0,
+            62.5
+          ],
+          "lag_samples": -24,
+          "lag_seconds": -0.001,
+          "normalized_correlation": 0.9334469901556672,
+          "reference_rms_dbfs": -6.677116711723805,
+          "original_window_seconds": [
+            60.0,
+            62.5
+          ],
+          "upload_window_seconds": [
+            65.0,
+            67.5
+          ],
+          "passed": true
+        },
+        {
+          "sample_window_seconds": [
+            90.0,
+            92.5
+          ],
+          "lag_samples": -8,
+          "lag_seconds": -0.0003333333333333333,
+          "normalized_correlation": 0.9482657221353264,
+          "reference_rms_dbfs": -8.012085170977572,
+          "original_window_seconds": [
+            90.0,
+            92.5
+          ],
+          "upload_window_seconds": [
+            95.0,
+            97.5
+          ],
+          "passed": true
+        },
+        {
+          "sample_window_seconds": [
+            120.0,
+            122.5
+          ],
+          "lag_samples": 8,
+          "lag_seconds": 0.0003333333333333333,
+          "normalized_correlation": 0.9371528619473943,
+          "reference_rms_dbfs": -6.602104017294865,
+          "original_window_seconds": [
+            120.0,
+            122.5
+          ],
+          "upload_window_seconds": [
+            125.0,
+            127.5
+          ],
+          "passed": true
+        },
+        {
+          "sample_window_seconds": [
+            150.0,
+            152.5
+          ],
+          "lag_samples": 25,
+          "lag_seconds": 0.0010416666666666667,
+          "normalized_correlation": 0.9490968804931321,
+          "reference_rms_dbfs": -7.226796931528659,
+          "original_window_seconds": [
+            150.0,
+            152.5
+          ],
+          "upload_window_seconds": [
+            155.0,
+            157.5
+          ],
+          "passed": true
+        },
+        {
+          "sample_window_seconds": [
+            180.0,
+            182.5
+          ],
+          "lag_samples": 41,
+          "lag_seconds": 0.0017083333333333334,
+          "normalized_correlation": 0.9481145553104092,
+          "reference_rms_dbfs": -6.69494200014697,
+          "original_window_seconds": [
+            180.0,
+            182.5
+          ],
+          "upload_window_seconds": [
+            185.0,
+            187.5
+          ],
+          "passed": true
+        },
+        {
+          "sample_window_seconds": [
+            200.0,
+            202.5
+          ],
+          "lag_samples": 52,
+          "lag_seconds": 0.0021666666666666666,
+          "normalized_correlation": 0.9454451789821333,
+          "reference_rms_dbfs": -8.711692228484353,
+          "original_window_seconds": [
+            200.0,
+            202.5
+          ],
+          "upload_window_seconds": [
+            205.0,
+            207.5
+          ],
+          "passed": true
+        }
+      ],
+      "maximum_absolute_alignment_lag_seconds": 0.0023333333333333335,
+      "full_verify_report": "1080p60.full-verify.json",
+      "packet_report": "1080p60.packets.json"
+    }
+  ],
+  "source_flac_sha256_after": "19d5b185fe6cff41ae7d0082ca4f9e7cf2828ef1de99c7f5336177a9761acbbc",
+  "preserved_inputs": {
+    "passed": true,
+    "items": [
+      {
+        "key": "desktop_flac",
+        "path": "C:\\Users\\auscar\\Desktop\\world.execute (me) ;.flac",
+        "expected_sha256": "19d5b185fe6cff41ae7d0082ca4f9e7cf2828ef1de99c7f5336177a9761acbbc",
+        "measured_sha256": "19d5b185fe6cff41ae7d0082ca4f9e7cf2828ef1de99c7f5336177a9761acbbc",
+        "unchanged": true
+      },
+      {
+        "key": "preserved_flac",
+        "path": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\media\\audio\\user-world-execute-192k24.flac",
+        "expected_sha256": "19d5b185fe6cff41ae7d0082ca4f9e7cf2828ef1de99c7f5336177a9761acbbc",
+        "measured_sha256": "19d5b185fe6cff41ae7d0082ca4f9e7cf2828ef1de99c7f5336177a9761acbbc",
+        "unchanged": true
+      },
+      {
+        "key": "original_AAC",
+        "path": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\media\\audio\\mili-world-execute-original-bilibili.m4a",
+        "expected_sha256": "b06f195e2a479c25c3282f4ca5b931e293c4a35a941acf6dd5b515ba4890f34a",
+        "measured_sha256": "b06f195e2a479c25c3282f4ca5b931e293c4a35a941acf6dd5b515ba4890f34a",
+        "unchanged": true
+      },
+      {
+        "key": "original_v3_4k60",
+        "path": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\exports\\astra-world-execute-me-full-v3-4k60.mp4",
+        "expected_sha256": "fc5843f714c862d4a405f2a2cee58f958eaeb1597fe872dfe4300d0c1586e90b",
+        "measured_sha256": "fc5843f714c862d4a405f2a2cee58f958eaeb1597fe872dfe4300d0c1586e90b",
+        "unchanged": true
+      },
+      {
+        "key": "original_v3_1080p60",
+        "path": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\exports\\astra-world-execute-me-full-v3-1080p60.mp4",
+        "expected_sha256": "26c6ea3ea2cf0b940b481eaf8b970c0f687a772f45a57bf7c2d18aa39908a23b",
+        "measured_sha256": "26c6ea3ea2cf0b940b481eaf8b970c0f687a772f45a57bf7c2d18aa39908a23b",
+        "unchanged": true
+      },
+      {
+        "key": "warning_AAC_4k60",
+        "path": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\exports\\astra-world-execute-me-full-v3-warning-v2-4k60.mp4",
+        "expected_sha256": "8a492b561c374ee1654028216b2c6909a36cc3cfde8acecafe35c6a6f619aef6",
+        "measured_sha256": "8a492b561c374ee1654028216b2c6909a36cc3cfde8acecafe35c6a6f619aef6",
+        "unchanged": true
+      },
+      {
+        "key": "warning_AAC_1080p60",
+        "path": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\exports\\astra-world-execute-me-full-v3-warning-v2-1080p60.mp4",
+        "expected_sha256": "88caf79080084a6ab0ddc87f211d63b637784aaa13ef3d25cd0b3459c65f99da",
+        "measured_sha256": "88caf79080084a6ab0ddc87f211d63b637784aaa13ef3d25cd0b3459c65f99da",
+        "unchanged": true
+      }
+    ]
+  },
+  "scope": "Both complete videos/audio decoded; all video packet payloads and PTS; actual ALAC bit depth from codec cookie; every native PCM byte independently compared with source after trim and literal-zero padding; eight windows against original v3 using 24k analysis copies only. No production resampling; no provenance or platform-upload certification.",
+  "version": "warning-v3-v2-hires",
+  "legacy_warning_outputs_unchanged": {
+    "passed": true,
+    "items": [
+      {
+        "file": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\exports\\astra-world-execute-me-full-v3-warning-4k60.mp4",
+        "expected_sha256": "493a403666e76208c146543bbb94fbf2b100d72387973789d0903c2ce3112deb",
+        "actual_sha256": "493a403666e76208c146543bbb94fbf2b100d72387973789d0903c2ce3112deb",
+        "unchanged": true
+      },
+      {
+        "file": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\exports\\astra-world-execute-me-full-v3-warning-1080p60.mp4",
+        "expected_sha256": "ca870ea978d676648ceae0a24813c5b6611329c1e85018c815b073ddb9f283da",
+        "actual_sha256": "ca870ea978d676648ceae0a24813c5b6611329c1e85018c815b073ddb9f283da",
+        "unchanged": true
+      },
+      {
+        "file": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\exports\\astra-world-execute-me-full-v3-warning-hires-4k60.mp4",
+        "expected_sha256": "d46da4e93c28ef32dcc3aac2605fc4dc10ac816ef9cd8777a0e9d9586aa353cd",
+        "actual_sha256": "d46da4e93c28ef32dcc3aac2605fc4dc10ac816ef9cd8777a0e9d9586aa353cd",
+        "unchanged": true
+      },
+      {
+        "file": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\exports\\astra-world-execute-me-full-v3-warning-hires-1080p60.mp4",
+        "expected_sha256": "9022b7d71c5090eeaa47b0f89f323634b6221df893e91c5c492f9e85af3c1e66",
+        "actual_sha256": "9022b7d71c5090eeaa47b0f89f323634b6221df893e91c5c492f9e85af3c1e66",
+        "unchanged": true
+      }
+    ]
+  },
+  "reuse_scope": "Only the first 300 picture frames were newly encoded. Previously verified AAC/ALAC bitstreams are copied; no new production audio encode or resample. Prior warning-v01 exports retained."
+}

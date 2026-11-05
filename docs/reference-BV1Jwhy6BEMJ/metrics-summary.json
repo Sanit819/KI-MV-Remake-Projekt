@@ -1,0 +1,2155 @@
+{
+  "scope": "Descriptive 12Hz same-music samples only. Different palettes affect luminance; no aesthetic rating or formal flash-safety test.",
+  "shots": [
+    {
+      "id": "R01",
+      "reference": {
+        "samples_12hz": 48,
+        "mean_luma": 4.84,
+        "bright_fraction": 0.0,
+        "dark_fraction": 0.9832,
+        "luma_std_over_time": 1.01,
+        "luma_range": [
+          2.99,
+          6.41
+        ]
+      },
+      "astra": {
+        "samples_12hz": 48,
+        "mean_luma": 17.98,
+        "bright_fraction": 0.0001,
+        "dark_fraction": 0.9523,
+        "luma_std_over_time": 2.15,
+        "luma_range": [
+          14.62,
+          20.57
+        ]
+      }
+    },
+    {
+      "id": "R02",
+      "reference": {
+        "samples_12hz": 45,
+        "mean_luma": 3.58,
+        "bright_fraction": 0.0,
+        "dark_fraction": 0.9933,
+        "luma_std_over_time": 0.77,
+        "luma_range": [
+          3.19,
+          6.77
+        ]
+      },
+      "astra": {
+        "samples_12hz": 45,
+        "mean_luma": 19.16,
+        "bright_fraction": 0.0001,
+        "dark_fraction": 0.9833,
+        "luma_std_over_time": 1.63,
+        "luma_range": [
+          13.78,
+          21.64
+        ]
+      }
+    },
+    {
+      "id": "R03",
+      "reference": {
+        "samples_12hz": 45,
+        "mean_luma": 16.59,
+        "bright_fraction": 0.0,
+        "dark_fraction": 0.8396,
+        "luma_std_over_time": 6.45,
+        "luma_range": [
+          3.43,
+          23.46
+        ]
+      },
+      "astra": {
+        "samples_12hz": 45,
+        "mean_luma": 22.98,
+        "bright_fraction": 0.0002,
+        "dark_fraction": 0.9465,
+        "luma_std_over_time": 0.63,
+        "luma_range": [
+          22.15,
+          24.19
+        ]
+      }
+    },
+    {
+      "id": "R04",
+      "reference": {
+        "samples_12hz": 45,
+        "mean_luma": 5.45,
+        "bright_fraction": 0.0,
+        "dark_fraction": 0.9793,
+        "luma_std_over_time": 1.58,
+        "luma_range": [
+          3.72,
+          7.88
+        ]
+      },
+      "astra": {
+        "samples_12hz": 45,
+        "mean_luma": 22.43,
+        "bright_fraction": 0.0003,
+        "dark_fraction": 0.9623,
+        "luma_std_over_time": 0.4,
+        "luma_range": [
+          21.84,
+          23.07
+        ]
+      }
+    },
+    {
+      "id": "R05",
+      "reference": {
+        "samples_12hz": 23,
+        "mean_luma": 14.14,
+        "bright_fraction": 0.0024,
+        "dark_fraction": 0.9471,
+        "luma_std_over_time": 10.3,
+        "luma_range": [
+          3.61,
+          57.64
+        ]
+      },
+      "astra": {
+        "samples_12hz": 23,
+        "mean_luma": 16.57,
+        "bright_fraction": 0.0007,
+        "dark_fraction": 0.9739,
+        "luma_std_over_time": 0.52,
+        "luma_range": [
+          15.52,
+          17.78
+        ]
+      }
+    },
+    {
+      "id": "R06",
+      "reference": {
+        "samples_12hz": 67,
+        "mean_luma": 14.11,
+        "bright_fraction": 0.0,
+        "dark_fraction": 0.9714,
+        "luma_std_over_time": 2.86,
+        "luma_range": [
+          8.21,
+          16.73
+        ]
+      },
+      "astra": {
+        "samples_12hz": 67,
+        "mean_luma": 22.35,
+        "bright_fraction": 0.0002,
+        "dark_fraction": 0.9652,
+        "luma_std_over_time": 0.08,
+        "luma_range": [
+          22.18,
+          22.51
+        ]
+      }
+    },
+    {
+      "id": "R07",
+      "reference": {
+        "samples_12hz": 45,
+        "mean_luma": 11.4,
+        "bright_fraction": 0.0,
+        "dark_fraction": 0.8856,
+        "luma_std_over_time": 0.78,
+        "luma_range": [
+          8.6,
+          11.91
+        ]
+      },
+      "astra": {
+        "samples_12hz": 45,
+        "mean_luma": 18.63,
+        "bright_fraction": 0.0006,
+        "dark_fraction": 0.9796,
+        "luma_std_over_time": 1.43,
+        "luma_range": [
+          16.19,
+          19.96
+        ]
+      }
+    },
+    {
+      "id": "R08",
+      "reference": {
+        "samples_12hz": 39,
+        "mean_luma": 8.54,
+        "bright_fraction": 0.0,
+        "dark_fraction": 0.9499,
+        "luma_std_over_time": 2.51,
+        "luma_range": [
+          5.68,
+          11.76
+        ]
+      },
+      "astra": {
+        "samples_12hz": 39,
+        "mean_luma": 22.79,
+        "bright_fraction": 0.0002,
+        "dark_fraction": 0.9639,
+        "luma_std_over_time": 0.59,
+        "luma_range": [
+          22.37,
+          24.65
+        ]
+      }
+    },
+    {
+      "id": "R09",
+      "reference": {
+        "samples_12hz": 48,
+        "mean_luma": 4.81,
+        "bright_fraction": 0.0001,
+        "dark_fraction": 0.9864,
+        "luma_std_over_time": 1.56,
+        "luma_range": [
+          3.59,
+          11.08
+        ]
+      },
+      "astra": {
+        "samples_12hz": 48,
+        "mean_luma": 17.04,
+        "bright_fraction": 0.0,
+        "dark_fraction": 0.9555,
+        "luma_std_over_time": 0.48,
+        "luma_range": [
+          15.99,
+          17.8
+        ]
+      }
+    },
+    {
+      "id": "R10",
+      "reference": {
+        "samples_12hz": 45,
+        "mean_luma": 3.71,
+        "bright_fraction": 0.0001,
+        "dark_fraction": 0.9898,
+        "luma_std_over_time": 0.38,
+        "luma_range": [
+          3.15,
+          4.53
+        ]
+      },
+      "astra": {
+        "samples_12hz": 45,
+        "mean_luma": 33.76,
+        "bright_fraction": 0.0,
+        "dark_fraction": 0.804,
+        "luma_std_over_time": 0.12,
+        "luma_range": [
+          33.58,
+          33.91
+        ]
+      }
+    },
+    {
+      "id": "R11",
+      "reference": {
+        "samples_12hz": 45,
+        "mean_luma": 3.92,
+        "bright_fraction": 0.0,
+        "dark_fraction": 0.9924,
+        "luma_std_over_time": 0.14,
+        "luma_range": [
+          3.69,
+          4.15
+        ]
+      },
+      "astra": {
+        "samples_12hz": 45,
+        "mean_luma": 41.68,
+        "bright_fraction": 0.0,
+        "dark_fraction": 0.7361,
+        "luma_std_over_time": 0.11,
+        "luma_range": [
+          41.4,
+          41.79
+        ]
+      }
+    },
+    {
+      "id": "R12",
+      "reference": {
+        "samples_12hz": 48,
+        "mean_luma": 9.62,
+        "bright_fraction": 0.0,
+        "dark_fraction": 0.9289,
+        "luma_std_over_time": 1.16,
+        "luma_range": [
+          3.69,
+          10.33
+        ]
+      },
+      "astra": {
+        "samples_12hz": 48,
+        "mean_luma": 17.21,
+        "bright_fraction": 0.0,
+        "dark_fraction": 0.9472,
+        "luma_std_over_time": 0.88,
+        "luma_range": [
+          16.83,
+          23.04
+        ]
+      }
+    },
+    {
+      "id": "R13",
+      "reference": {
+        "samples_12hz": 45,
+        "mean_luma": 5.8,
+        "bright_fraction": 0.0,
+        "dark_fraction": 0.9656,
+        "luma_std_over_time": 0.98,
+        "luma_range": [
+          3.47,
+          6.41
+        ]
+      },
+      "astra": {
+        "samples_12hz": 45,
+        "mean_luma": 23.27,
+        "bright_fraction": 0.0002,
+        "dark_fraction": 0.9533,
+        "luma_std_over_time": 0.2,
+        "luma_range": [
+          22.99,
+          23.6
+        ]
+      }
+    },
+    {
+      "id": "R14",
+      "reference": {
+        "samples_12hz": 45,
+        "mean_luma": 4.21,
+        "bright_fraction": 0.0,
+        "dark_fraction": 0.9888,
+        "luma_std_over_time": 0.34,
+        "luma_range": [
+          3.59,
+          4.69
+        ]
+      },
+      "astra": {
+        "samples_12hz": 45,
+        "mean_luma": 26.88,
+        "bright_fraction": 0.0005,
+        "dark_fraction": 0.8675,
+        "luma_std_over_time": 2.9,
+        "luma_range": [
+          22.12,
+          29.22
+        ]
+      }
+    },
+    {
+      "id": "R15",
+      "reference": {
+        "samples_12hz": 45,
+        "mean_luma": 4.45,
+        "bright_fraction": 0.0,
+        "dark_fraction": 0.988,
+        "luma_std_over_time": 0.47,
+        "luma_range": [
+          3.4,
+          4.78
+        ]
+      },
+      "astra": {
+        "samples_12hz": 45,
+        "mean_luma": 43.75,
+        "bright_fraction": 0.0,
+        "dark_fraction": 0.7249,
+        "luma_std_over_time": 1.25,
+        "luma_range": [
+          40.76,
+          45.74
+        ]
+      }
+    },
+    {
+      "id": "R16",
+      "reference": {
+        "samples_12hz": 45,
+        "mean_luma": 4.23,
+        "bright_fraction": 0.0,
+        "dark_fraction": 0.9849,
+        "luma_std_over_time": 0.35,
+        "luma_range": [
+          3.43,
+          5.41
+        ]
+      },
+      "astra": {
+        "samples_12hz": 45,
+        "mean_luma": 18.56,
+        "bright_fraction": 0.0,
+        "dark_fraction": 0.9427,
+        "luma_std_over_time": 0.14,
+        "luma_range": [
+          18.32,
+          18.91
+        ]
+      }
+    },
+    {
+      "id": "R17",
+      "reference": {
+        "samples_12hz": 31,
+        "mean_luma": 5.73,
+        "bright_fraction": 0.0,
+        "dark_fraction": 0.9835,
+        "luma_std_over_time": 0.14,
+        "luma_range": [
+          5.37,
+          5.85
+        ]
+      },
+      "astra": {
+        "samples_12hz": 31,
+        "mean_luma": 23.33,
+        "bright_fraction": 0.0002,
+        "dark_fraction": 0.949,
+        "luma_std_over_time": 0.4,
+        "luma_range": [
+          22.52,
+          23.77
+        ]
+      }
+    },
+    {
+      "id": "R18",
+      "reference": {
+        "samples_12hz": 9,
+        "mean_luma": 6.66,
+        "bright_fraction": 0.0,
+        "dark_fraction": 0.9703,
+        "luma_std_over_time": 0.29,
+        "luma_range": [
+          5.86,
+          6.85
+        ]
+      },
+      "astra": {
+        "samples_12hz": 9,
+        "mean_luma": 29.76,
+        "bright_fraction": 0.0157,
+        "dark_fraction": 0.8818,
+        "luma_std_over_time": 2.89,
+        "luma_range": [
+          22.53,
+          31.33
+        ]
+      }
+    },
+    {
+      "id": "R19",
+      "reference": {
+        "samples_12hz": 34,
+        "mean_luma": 5.44,
+        "bright_fraction": 0.0,
+        "dark_fraction": 0.9758,
+        "luma_std_over_time": 0.64,
+        "luma_range": [
+          4.45,
+          6.68
+        ]
+      },
+      "astra": {
+        "samples_12hz": 34,
+        "mean_luma": 23.59,
+        "bright_fraction": 0.0,
+        "dark_fraction": 0.895,
+        "luma_std_over_time": 3.43,
+        "luma_range": [
+          14.03,
+          27.46
+        ]
+      }
+    },
+    {
+      "id": "R20",
+      "reference": {
+        "samples_12hz": 12,
+        "mean_luma": 6.48,
+        "bright_fraction": 0.0,
+        "dark_fraction": 0.9543,
+        "luma_std_over_time": 0.04,
+        "luma_range": [
+          6.36,
+          6.51
+        ]
+      },
+      "astra": {
+        "samples_12hz": 12,
+        "mean_luma": 34.2,
+        "bright_fraction": 0.043,
+        "dark_fraction": 0.8557,
+        "luma_std_over_time": 3.27,
+        "luma_range": [
+          30.29,
+          36.98
+        ]
+      }
+    },
+    {
+      "id": "R21",
+      "reference": {
+        "samples_12hz": 36,
+        "mean_luma": 17.92,
+        "bright_fraction": 0.0,
+        "dark_fraction": 0.8163,
+        "luma_std_over_time": 4.75,
+        "luma_range": [
+          6.49,
+          21.89
+        ]
+      },
+      "astra": {
+        "samples_12hz": 36,
+        "mean_luma": 28.7,
+        "bright_fraction": 0.0,
+        "dark_fraction": 0.8657,
+        "luma_std_over_time": 4.52,
+        "luma_range": [
+          19.67,
+          31.66
+        ]
+      }
+    },
+    {
+      "id": "R22",
+      "reference": {
+        "samples_12hz": 9,
+        "mean_luma": 12.03,
+        "bright_fraction": 0.0,
+        "dark_fraction": 0.9207,
+        "luma_std_over_time": 0.76,
+        "luma_range": [
+          11.01,
+          13.11
+        ]
+      },
+      "astra": {
+        "samples_12hz": 9,
+        "mean_luma": 23.08,
+        "bright_fraction": 0.0,
+        "dark_fraction": 0.9109,
+        "luma_std_over_time": 0.17,
+        "luma_range": [
+          22.84,
+          23.43
+        ]
+      }
+    },
+    {
+      "id": "R23",
+      "reference": {
+        "samples_12hz": 39,
+        "mean_luma": 11.67,
+        "bright_fraction": 0.0,
+        "dark_fraction": 0.9474,
+        "luma_std_over_time": 0.35,
+        "luma_range": [
+          11.01,
+          12.43
+        ]
+      },
+      "astra": {
+        "samples_12hz": 39,
+        "mean_luma": 32.63,
+        "bright_fraction": 0.0002,
+        "dark_fraction": 0.7986,
+        "luma_std_over_time": 6.1,
+        "luma_range": [
+          26.96,
+          42.72
+        ]
+      }
+    },
+    {
+      "id": "R24",
+      "reference": {
+        "samples_12hz": 11,
+        "mean_luma": 12.04,
+        "bright_fraction": 0.0,
+        "dark_fraction": 0.9315,
+        "luma_std_over_time": 0.2,
+        "luma_range": [
+          11.78,
+          12.38
+        ]
+      },
+      "astra": {
+        "samples_12hz": 11,
+        "mean_luma": 23.3,
+        "bright_fraction": 0.0,
+        "dark_fraction": 0.9263,
+        "luma_std_over_time": 1.56,
+        "luma_range": [
+          20.52,
+          24.56
+        ]
+      }
+    },
+    {
+      "id": "R25",
+      "reference": {
+        "samples_12hz": 6,
+        "mean_luma": 7.57,
+        "bright_fraction": 0.0,
+        "dark_fraction": 0.9819,
+        "luma_std_over_time": 0.13,
+        "luma_range": [
+          7.5,
+          7.86
+        ]
+      },
+      "astra": {
+        "samples_12hz": 6,
+        "mean_luma": 17.21,
+        "bright_fraction": 0.0002,
+        "dark_fraction": 0.9787,
+        "luma_std_over_time": 0.09,
+        "luma_range": [
+          17.05,
+          17.29
+        ]
+      }
+    },
+    {
+      "id": "R26",
+      "reference": {
+        "samples_12hz": 36,
+        "mean_luma": 7.45,
+        "bright_fraction": 0.0,
+        "dark_fraction": 0.9824,
+        "luma_std_over_time": 0.13,
+        "luma_range": [
+          7.15,
+          7.58
+        ]
+      },
+      "astra": {
+        "samples_12hz": 36,
+        "mean_luma": 25.93,
+        "bright_fraction": 0.0165,
+        "dark_fraction": 0.89,
+        "luma_std_over_time": 1.09,
+        "luma_range": [
+          24.27,
+          27.2
+        ]
+      }
+    },
+    {
+      "id": "R27",
+      "reference": {
+        "samples_12hz": 9,
+        "mean_luma": 8.03,
+        "bright_fraction": 0.0,
+        "dark_fraction": 0.9839,
+        "luma_std_over_time": 0.04,
+        "luma_range": [
+          7.95,
+          8.07
+        ]
+      },
+      "astra": {
+        "samples_12hz": 9,
+        "mean_luma": 17.82,
+        "bright_fraction": 0.0002,
+        "dark_fraction": 0.9752,
+        "luma_std_over_time": 0.09,
+        "luma_range": [
+          17.66,
+          17.89
+        ]
+      }
+    },
+    {
+      "id": "R28",
+      "reference": {
+        "samples_12hz": 36,
+        "mean_luma": 7.93,
+        "bright_fraction": 0.0,
+        "dark_fraction": 0.9844,
+        "luma_std_over_time": 0.13,
+        "luma_range": [
+          7.67,
+          8.09
+        ]
+      },
+      "astra": {
+        "samples_12hz": 36,
+        "mean_luma": 32.06,
+        "bright_fraction": 0.0208,
+        "dark_fraction": 0.8404,
+        "luma_std_over_time": 1.82,
+        "luma_range": [
+          30.17,
+          34.51
+        ]
+      }
+    },
+    {
+      "id": "R29",
+      "reference": {
+        "samples_12hz": 9,
+        "mean_luma": 7.03,
+        "bright_fraction": 0.0,
+        "dark_fraction": 0.9843,
+        "luma_std_over_time": 0.22,
+        "luma_range": [
+          6.92,
+          7.65
+        ]
+      },
+      "astra": {
+        "samples_12hz": 9,
+        "mean_luma": 19.04,
+        "bright_fraction": 0.0002,
+        "dark_fraction": 0.9639,
+        "luma_std_over_time": 1.69,
+        "luma_range": [
+          17.8,
+          22.23
+        ]
+      }
+    },
+    {
+      "id": "R30",
+      "reference": {
+        "samples_12hz": 36,
+        "mean_luma": 6.97,
+        "bright_fraction": 0.0,
+        "dark_fraction": 0.9834,
+        "luma_std_over_time": 0.18,
+        "luma_range": [
+          6.61,
+          7.17
+        ]
+      },
+      "astra": {
+        "samples_12hz": 36,
+        "mean_luma": 31.67,
+        "bright_fraction": 0.0003,
+        "dark_fraction": 0.834,
+        "luma_std_over_time": 3.41,
+        "luma_range": [
+          21.24,
+          34.3
+        ]
+      }
+    },
+    {
+      "id": "R31",
+      "reference": {
+        "samples_12hz": 6,
+        "mean_luma": 5.08,
+        "bright_fraction": 0.0,
+        "dark_fraction": 0.9877,
+        "luma_std_over_time": 0.71,
+        "luma_range": [
+          4.68,
+          6.65
+        ]
+      },
+      "astra": {
+        "samples_12hz": 6,
+        "mean_luma": 24.8,
+        "bright_fraction": 0.03,
+        "dark_fraction": 0.9349,
+        "luma_std_over_time": 0.11,
+        "luma_range": [
+          24.59,
+          24.91
+        ]
+      }
+    },
+    {
+      "id": "R32",
+      "reference": {
+        "samples_12hz": 42,
+        "mean_luma": 5.0,
+        "bright_fraction": 0.0,
+        "dark_fraction": 0.9835,
+        "luma_std_over_time": 1.03,
+        "luma_range": [
+          4.41,
+          8.16
+        ]
+      },
+      "astra": {
+        "samples_12hz": 42,
+        "mean_luma": 31.59,
+        "bright_fraction": 0.0001,
+        "dark_fraction": 0.8169,
+        "luma_std_over_time": 1.1,
+        "luma_range": [
+          30.68,
+          33.54
+        ]
+      }
+    },
+    {
+      "id": "R33",
+      "reference": {
+        "samples_12hz": 22,
+        "mean_luma": 8.21,
+        "bright_fraction": 0.0,
+        "dark_fraction": 0.9434,
+        "luma_std_over_time": 0.13,
+        "luma_range": [
+          8.11,
+          8.51
+        ]
+      },
+      "astra": {
+        "samples_12hz": 22,
+        "mean_luma": 31.97,
+        "bright_fraction": 0.0024,
+        "dark_fraction": 0.8591,
+        "luma_std_over_time": 3.29,
+        "luma_range": [
+          27.34,
+          35.41
+        ]
+      }
+    },
+    {
+      "id": "R34",
+      "reference": {
+        "samples_12hz": 23,
+        "mean_luma": 8.71,
+        "bright_fraction": 0.0,
+        "dark_fraction": 0.9391,
+        "luma_std_over_time": 1.05,
+        "luma_range": [
+          7.71,
+          10.33
+        ]
+      },
+      "astra": {
+        "samples_12hz": 23,
+        "mean_luma": 33.66,
+        "bright_fraction": 0.0,
+        "dark_fraction": 0.8355,
+        "luma_std_over_time": 0.56,
+        "luma_range": [
+          32.94,
+          34.29
+        ]
+      }
+    },
+    {
+      "id": "R35",
+      "reference": {
+        "samples_12hz": 45,
+        "mean_luma": 9.48,
+        "bright_fraction": 0.0,
+        "dark_fraction": 0.9235,
+        "luma_std_over_time": 1.2,
+        "luma_range": [
+          6.2,
+          10.35
+        ]
+      },
+      "astra": {
+        "samples_12hz": 45,
+        "mean_luma": 29.86,
+        "bright_fraction": 0.0035,
+        "dark_fraction": 0.8658,
+        "luma_std_over_time": 3.91,
+        "luma_range": [
+          25.25,
+          36.46
+        ]
+      }
+    },
+    {
+      "id": "R36",
+      "reference": {
+        "samples_12hz": 45,
+        "mean_luma": 11.99,
+        "bright_fraction": 0.0,
+        "dark_fraction": 0.9442,
+        "luma_std_over_time": 4.73,
+        "luma_range": [
+          3.35,
+          16.06
+        ]
+      },
+      "astra": {
+        "samples_12hz": 45,
+        "mean_luma": 30.02,
+        "bright_fraction": 0.0045,
+        "dark_fraction": 0.837,
+        "luma_std_over_time": 0.25,
+        "luma_range": [
+          29.7,
+          30.33
+        ]
+      }
+    },
+    {
+      "id": "R37",
+      "reference": {
+        "samples_12hz": 6,
+        "mean_luma": 3.52,
+        "bright_fraction": 0.0,
+        "dark_fraction": 0.9931,
+        "luma_std_over_time": 0.06,
+        "luma_range": [
+          3.44,
+          3.63
+        ]
+      },
+      "astra": {
+        "samples_12hz": 6,
+        "mean_luma": 20.43,
+        "bright_fraction": 0.0051,
+        "dark_fraction": 0.9645,
+        "luma_std_over_time": 0.09,
+        "luma_range": [
+          20.29,
+          20.49
+        ]
+      }
+    },
+    {
+      "id": "R38",
+      "reference": {
+        "samples_12hz": 34,
+        "mean_luma": 4.14,
+        "bright_fraction": 0.0,
+        "dark_fraction": 0.9905,
+        "luma_std_over_time": 0.32,
+        "luma_range": [
+          3.67,
+          4.55
+        ]
+      },
+      "astra": {
+        "samples_12hz": 34,
+        "mean_luma": 25.72,
+        "bright_fraction": 0.0001,
+        "dark_fraction": 0.8424,
+        "luma_std_over_time": 0.18,
+        "luma_range": [
+          25.31,
+          25.94
+        ]
+      }
+    },
+    {
+      "id": "R39",
+      "reference": {
+        "samples_12hz": 6,
+        "mean_luma": 4.66,
+        "bright_fraction": 0.0,
+        "dark_fraction": 0.9893,
+        "luma_std_over_time": 0.32,
+        "luma_range": [
+          4.38,
+          5.12
+        ]
+      },
+      "astra": {
+        "samples_12hz": 6,
+        "mean_luma": 23.92,
+        "bright_fraction": 0.0032,
+        "dark_fraction": 0.954,
+        "luma_std_over_time": 0.31,
+        "luma_range": [
+          23.42,
+          24.26
+        ]
+      }
+    },
+    {
+      "id": "R40",
+      "reference": {
+        "samples_12hz": 31,
+        "mean_luma": 5.42,
+        "bright_fraction": 0.0,
+        "dark_fraction": 0.9865,
+        "luma_std_over_time": 0.16,
+        "luma_range": [
+          5.09,
+          5.58
+        ]
+      },
+      "astra": {
+        "samples_12hz": 31,
+        "mean_luma": 33.58,
+        "bright_fraction": 0.0014,
+        "dark_fraction": 0.8367,
+        "luma_std_over_time": 0.56,
+        "luma_range": [
+          32.55,
+          34.15
+        ]
+      }
+    },
+    {
+      "id": "R41",
+      "reference": {
+        "samples_12hz": 14,
+        "mean_luma": 5.31,
+        "bright_fraction": 0.0,
+        "dark_fraction": 0.989,
+        "luma_std_over_time": 0.09,
+        "luma_range": [
+          5.26,
+          5.53
+        ]
+      },
+      "astra": {
+        "samples_12hz": 14,
+        "mean_luma": 31.46,
+        "bright_fraction": 0.0002,
+        "dark_fraction": 0.8215,
+        "luma_std_over_time": 0.23,
+        "luma_range": [
+          31.14,
+          31.79
+        ]
+      }
+    },
+    {
+      "id": "R42",
+      "reference": {
+        "samples_12hz": 34,
+        "mean_luma": 5.53,
+        "bright_fraction": 0.0,
+        "dark_fraction": 0.9863,
+        "luma_std_over_time": 0.12,
+        "luma_range": [
+          5.28,
+          5.62
+        ]
+      },
+      "astra": {
+        "samples_12hz": 34,
+        "mean_luma": 24.73,
+        "bright_fraction": 0.0005,
+        "dark_fraction": 0.9342,
+        "luma_std_over_time": 0.3,
+        "luma_range": [
+          24.0,
+          24.96
+        ]
+      }
+    },
+    {
+      "id": "R43",
+      "reference": {
+        "samples_12hz": 9,
+        "mean_luma": 5.6,
+        "bright_fraction": 0.0,
+        "dark_fraction": 0.9862,
+        "luma_std_over_time": 0.03,
+        "luma_range": [
+          5.56,
+          5.65
+        ]
+      },
+      "astra": {
+        "samples_12hz": 9,
+        "mean_luma": 25.14,
+        "bright_fraction": 0.0135,
+        "dark_fraction": 0.9116,
+        "luma_std_over_time": 0.3,
+        "luma_range": [
+          24.95,
+          25.8
+        ]
+      }
+    },
+    {
+      "id": "R44",
+      "reference": {
+        "samples_12hz": 26,
+        "mean_luma": 6.35,
+        "bright_fraction": 0.0,
+        "dark_fraction": 0.9782,
+        "luma_std_over_time": 0.18,
+        "luma_range": [
+          5.65,
+          6.57
+        ]
+      },
+      "astra": {
+        "samples_12hz": 26,
+        "mean_luma": 23.1,
+        "bright_fraction": 0.0002,
+        "dark_fraction": 0.96,
+        "luma_std_over_time": 1.97,
+        "luma_range": [
+          22.47,
+          32.9
+        ]
+      }
+    },
+    {
+      "id": "R45",
+      "reference": {
+        "samples_12hz": 22,
+        "mean_luma": 6.16,
+        "bright_fraction": 0.0,
+        "dark_fraction": 0.9802,
+        "luma_std_over_time": 0.17,
+        "luma_range": [
+          5.9,
+          6.45
+        ]
+      },
+      "astra": {
+        "samples_12hz": 22,
+        "mean_luma": 32.94,
+        "bright_fraction": 0.0,
+        "dark_fraction": 0.819,
+        "luma_std_over_time": 0.02,
+        "luma_range": [
+          32.9,
+          32.96
+        ]
+      }
+    },
+    {
+      "id": "R46",
+      "reference": {
+        "samples_12hz": 31,
+        "mean_luma": 6.09,
+        "bright_fraction": 0.0,
+        "dark_fraction": 0.9806,
+        "luma_std_over_time": 0.18,
+        "luma_range": [
+          5.77,
+          6.53
+        ]
+      },
+      "astra": {
+        "samples_12hz": 31,
+        "mean_luma": 26.1,
+        "bright_fraction": 0.0024,
+        "dark_fraction": 0.9046,
+        "luma_std_over_time": 0.24,
+        "luma_range": [
+          25.73,
+          26.52
+        ]
+      }
+    },
+    {
+      "id": "R47",
+      "reference": {
+        "samples_12hz": 14,
+        "mean_luma": 7.85,
+        "bright_fraction": 0.0,
+        "dark_fraction": 0.956,
+        "luma_std_over_time": 1.85,
+        "luma_range": [
+          7.2,
+          14.5
+        ]
+      },
+      "astra": {
+        "samples_12hz": 14,
+        "mean_luma": 15.09,
+        "bright_fraction": 0.0017,
+        "dark_fraction": 0.9792,
+        "luma_std_over_time": 0.09,
+        "luma_range": [
+          14.91,
+          15.24
+        ]
+      }
+    },
+    {
+      "id": "R48",
+      "reference": {
+        "samples_12hz": 39,
+        "mean_luma": 12.52,
+        "bright_fraction": 0.0,
+        "dark_fraction": 0.9405,
+        "luma_std_over_time": 1.35,
+        "luma_range": [
+          10.64,
+          14.65
+        ]
+      },
+      "astra": {
+        "samples_12hz": 39,
+        "mean_luma": 31.63,
+        "bright_fraction": 0.0,
+        "dark_fraction": 0.8489,
+        "luma_std_over_time": 0.5,
+        "luma_range": [
+          30.7,
+          32.53
+        ]
+      }
+    },
+    {
+      "id": "R49",
+      "reference": {
+        "samples_12hz": 36,
+        "mean_luma": 16.74,
+        "bright_fraction": 0.0,
+        "dark_fraction": 0.8635,
+        "luma_std_over_time": 3.13,
+        "luma_range": [
+          10.48,
+          19.75
+        ]
+      },
+      "astra": {
+        "samples_12hz": 36,
+        "mean_luma": 33.02,
+        "bright_fraction": 0.0072,
+        "dark_fraction": 0.8646,
+        "luma_std_over_time": 1.9,
+        "luma_range": [
+          30.37,
+          34.5
+        ]
+      }
+    },
+    {
+      "id": "R50",
+      "reference": {
+        "samples_12hz": 11,
+        "mean_luma": 14.97,
+        "bright_fraction": 0.0,
+        "dark_fraction": 0.9114,
+        "luma_std_over_time": 2.24,
+        "luma_range": [
+          13.2,
+          18.78
+        ]
+      },
+      "astra": {
+        "samples_12hz": 11,
+        "mean_luma": 69.1,
+        "bright_fraction": 0.0102,
+        "dark_fraction": 0.5581,
+        "luma_std_over_time": 25.85,
+        "luma_range": [
+          14.27,
+          81.42
+        ]
+      }
+    },
+    {
+      "id": "R51",
+      "reference": {
+        "samples_12hz": 36,
+        "mean_luma": 5.5,
+        "bright_fraction": 0.0,
+        "dark_fraction": 0.9811,
+        "luma_std_over_time": 1.91,
+        "luma_range": [
+          4.6,
+          13.31
+        ]
+      },
+      "astra": {
+        "samples_12hz": 36,
+        "mean_luma": 24.67,
+        "bright_fraction": 0.0002,
+        "dark_fraction": 0.9182,
+        "luma_std_over_time": 0.45,
+        "luma_range": [
+          24.17,
+          25.46
+        ]
+      }
+    },
+    {
+      "id": "R52",
+      "reference": {
+        "samples_12hz": 31,
+        "mean_luma": 5.11,
+        "bright_fraction": 0.0,
+        "dark_fraction": 0.9829,
+        "luma_std_over_time": 0.25,
+        "luma_range": [
+          4.61,
+          5.61
+        ]
+      },
+      "astra": {
+        "samples_12hz": 31,
+        "mean_luma": 18.83,
+        "bright_fraction": 0.0,
+        "dark_fraction": 0.9683,
+        "luma_std_over_time": 0.19,
+        "luma_range": [
+          18.47,
+          18.99
+        ]
+      }
+    },
+    {
+      "id": "R53",
+      "reference": {
+        "samples_12hz": 26,
+        "mean_luma": 5.37,
+        "bright_fraction": 0.0,
+        "dark_fraction": 0.9805,
+        "luma_std_over_time": 0.22,
+        "luma_range": [
+          5.0,
+          5.8
+        ]
+      },
+      "astra": {
+        "samples_12hz": 26,
+        "mean_luma": 26.43,
+        "bright_fraction": 0.0002,
+        "dark_fraction": 0.9084,
+        "luma_std_over_time": 0.13,
+        "luma_range": [
+          26.38,
+          27.07
+        ]
+      }
+    },
+    {
+      "id": "R54",
+      "reference": {
+        "samples_12hz": 45,
+        "mean_luma": 5.43,
+        "bright_fraction": 0.0,
+        "dark_fraction": 0.9821,
+        "luma_std_over_time": 0.29,
+        "luma_range": [
+          4.69,
+          6.05
+        ]
+      },
+      "astra": {
+        "samples_12hz": 45,
+        "mean_luma": 27.58,
+        "bright_fraction": 0.0001,
+        "dark_fraction": 0.9017,
+        "luma_std_over_time": 1.71,
+        "luma_range": [
+          25.39,
+          30.07
+        ]
+      }
+    },
+    {
+      "id": "R55",
+      "reference": {
+        "samples_12hz": 45,
+        "mean_luma": 5.22,
+        "bright_fraction": 0.0,
+        "dark_fraction": 0.9849,
+        "luma_std_over_time": 0.44,
+        "luma_range": [
+          4.5,
+          6.52
+        ]
+      },
+      "astra": {
+        "samples_12hz": 45,
+        "mean_luma": 21.14,
+        "bright_fraction": 0.0002,
+        "dark_fraction": 0.9622,
+        "luma_std_over_time": 1.08,
+        "luma_range": [
+          19.08,
+          22.14
+        ]
+      }
+    },
+    {
+      "id": "R56",
+      "reference": {
+        "samples_12hz": 23,
+        "mean_luma": 5.29,
+        "bright_fraction": 0.0,
+        "dark_fraction": 0.9861,
+        "luma_std_over_time": 0.4,
+        "luma_range": [
+          4.65,
+          6.4
+        ]
+      },
+      "astra": {
+        "samples_12hz": 23,
+        "mean_luma": 25.23,
+        "bright_fraction": 0.0002,
+        "dark_fraction": 0.9141,
+        "luma_std_over_time": 0.0,
+        "luma_range": [
+          25.22,
+          25.23
+        ]
+      }
+    },
+    {
+      "id": "R57",
+      "reference": {
+        "samples_12hz": 23,
+        "mean_luma": 5.31,
+        "bright_fraction": 0.0,
+        "dark_fraction": 0.985,
+        "luma_std_over_time": 0.38,
+        "luma_range": [
+          4.58,
+          5.96
+        ]
+      },
+      "astra": {
+        "samples_12hz": 23,
+        "mean_luma": 32.31,
+        "bright_fraction": 0.0007,
+        "dark_fraction": 0.8644,
+        "luma_std_over_time": 0.81,
+        "luma_range": [
+          31.65,
+          33.52
+        ]
+      }
+    },
+    {
+      "id": "R58",
+      "reference": {
+        "samples_12hz": 36,
+        "mean_luma": 5.4,
+        "bright_fraction": 0.0,
+        "dark_fraction": 0.9834,
+        "luma_std_over_time": 0.31,
+        "luma_range": [
+          4.64,
+          6.01
+        ]
+      },
+      "astra": {
+        "samples_12hz": 36,
+        "mean_luma": 29.79,
+        "bright_fraction": 0.0002,
+        "dark_fraction": 0.8392,
+        "luma_std_over_time": 0.57,
+        "luma_range": [
+          28.35,
+          30.53
+        ]
+      }
+    },
+    {
+      "id": "R59",
+      "reference": {
+        "samples_12hz": 9,
+        "mean_luma": 12.13,
+        "bright_fraction": 0.0079,
+        "dark_fraction": 0.9338,
+        "luma_std_over_time": 7.17,
+        "luma_range": [
+          5.35,
+          21.41
+        ]
+      },
+      "astra": {
+        "samples_12hz": 9,
+        "mean_luma": 13.98,
+        "bright_fraction": 0.0,
+        "dark_fraction": 0.9926,
+        "luma_std_over_time": 0.14,
+        "luma_range": [
+          13.72,
+          14.16
+        ]
+      }
+    },
+    {
+      "id": "R60",
+      "reference": {
+        "samples_12hz": 45,
+        "mean_luma": 25.1,
+        "bright_fraction": 0.025,
+        "dark_fraction": 0.8287,
+        "luma_std_over_time": 4.63,
+        "luma_range": [
+          15.32,
+          34.18
+        ]
+      },
+      "astra": {
+        "samples_12hz": 45,
+        "mean_luma": 22.96,
+        "bright_fraction": 0.0006,
+        "dark_fraction": 0.9122,
+        "luma_std_over_time": 0.33,
+        "luma_range": [
+          22.39,
+          23.62
+        ]
+      }
+    },
+    {
+      "id": "R61",
+      "reference": {
+        "samples_12hz": 45,
+        "mean_luma": 39.63,
+        "bright_fraction": 0.0628,
+        "dark_fraction": 0.7275,
+        "luma_std_over_time": 4.79,
+        "luma_range": [
+          30.08,
+          49.94
+        ]
+      },
+      "astra": {
+        "samples_12hz": 45,
+        "mean_luma": 26.17,
+        "bright_fraction": 0.0031,
+        "dark_fraction": 0.8838,
+        "luma_std_over_time": 0.43,
+        "luma_range": [
+          25.44,
+          26.87
+        ]
+      }
+    },
+    {
+      "id": "R62",
+      "reference": {
+        "samples_12hz": 34,
+        "mean_luma": 51.7,
+        "bright_fraction": 0.0965,
+        "dark_fraction": 0.6472,
+        "luma_std_over_time": 4.24,
+        "luma_range": [
+          43.42,
+          59.74
+        ]
+      },
+      "astra": {
+        "samples_12hz": 34,
+        "mean_luma": 29.13,
+        "bright_fraction": 0.0033,
+        "dark_fraction": 0.8569,
+        "luma_std_over_time": 0.7,
+        "luma_range": [
+          27.95,
+          30.23
+        ]
+      }
+    },
+    {
+      "id": "R63",
+      "reference": {
+        "samples_12hz": 9,
+        "mean_luma": 58.12,
+        "bright_fraction": 0.1159,
+        "dark_fraction": 0.606,
+        "luma_std_over_time": 2.48,
+        "luma_range": [
+          53.92,
+          61.92
+        ]
+      },
+      "astra": {
+        "samples_12hz": 9,
+        "mean_luma": 33.02,
+        "bright_fraction": 0.0035,
+        "dark_fraction": 0.8191,
+        "luma_std_over_time": 0.1,
+        "luma_range": [
+          32.95,
+          33.28
+        ]
+      }
+    },
+    {
+      "id": "R64",
+      "reference": {
+        "samples_12hz": 5,
+        "mean_luma": 22.58,
+        "bright_fraction": 0.0224,
+        "dark_fraction": 0.8425,
+        "luma_std_over_time": 16.89,
+        "luma_range": [
+          13.2,
+          56.33
+        ]
+      },
+      "astra": {
+        "samples_12hz": 5,
+        "mean_luma": 21.4,
+        "bright_fraction": 0.0007,
+        "dark_fraction": 0.936,
+        "luma_std_over_time": 3.52,
+        "luma_range": [
+          14.42,
+          24.01
+        ]
+      }
+    },
+    {
+      "id": "R65",
+      "reference": {
+        "samples_12hz": 5,
+        "mean_luma": 13.39,
+        "bright_fraction": 0.0,
+        "dark_fraction": 0.8995,
+        "luma_std_over_time": 0.41,
+        "luma_range": [
+          12.8,
+          14.06
+        ]
+      },
+      "astra": {
+        "samples_12hz": 5,
+        "mean_luma": 25.09,
+        "bright_fraction": 0.0008,
+        "dark_fraction": 0.9055,
+        "luma_std_over_time": 1.1,
+        "luma_range": [
+          22.9,
+          25.71
+        ]
+      }
+    },
+    {
+      "id": "R66",
+      "reference": {
+        "samples_12hz": 8,
+        "mean_luma": 15.64,
+        "bright_fraction": 0.0,
+        "dark_fraction": 0.8618,
+        "luma_std_over_time": 0.63,
+        "luma_range": [
+          14.06,
+          16.17
+        ]
+      },
+      "astra": {
+        "samples_12hz": 8,
+        "mean_luma": 27.72,
+        "bright_fraction": 0.001,
+        "dark_fraction": 0.8789,
+        "luma_std_over_time": 0.94,
+        "luma_range": [
+          25.55,
+          29.24
+        ]
+      }
+    },
+    {
+      "id": "R67",
+      "reference": {
+        "samples_12hz": 6,
+        "mean_luma": 12.8,
+        "bright_fraction": 0.0,
+        "dark_fraction": 0.9079,
+        "luma_std_over_time": 1.3,
+        "luma_range": [
+          12.09,
+          15.69
+        ]
+      },
+      "astra": {
+        "samples_12hz": 6,
+        "mean_luma": 27.52,
+        "bright_fraction": 0.0006,
+        "dark_fraction": 0.8779,
+        "luma_std_over_time": 0.73,
+        "luma_range": [
+          27.05,
+          29.1
+        ]
+      }
+    },
+    {
+      "id": "R68",
+      "reference": {
+        "samples_12hz": 5,
+        "mean_luma": 13.12,
+        "bright_fraction": 0.0,
+        "dark_fraction": 0.9087,
+        "luma_std_over_time": 0.29,
+        "luma_range": [
+          12.65,
+          13.55
+        ]
+      },
+      "astra": {
+        "samples_12hz": 5,
+        "mean_luma": 29.08,
+        "bright_fraction": 0.0003,
+        "dark_fraction": 0.8591,
+        "luma_std_over_time": 2.45,
+        "luma_range": [
+          27.85,
+          33.98
+        ]
+      }
+    },
+    {
+      "id": "R69",
+      "reference": {
+        "samples_12hz": 6,
+        "mean_luma": 12.75,
+        "bright_fraction": 0.0,
+        "dark_fraction": 0.9089,
+        "luma_std_over_time": 0.41,
+        "luma_range": [
+          12.32,
+          13.47
+        ]
+      },
+      "astra": {
+        "samples_12hz": 6,
+        "mean_luma": 26.37,
+        "bright_fraction": 0.0003,
+        "dark_fraction": 0.8775,
+        "luma_std_over_time": 5.85,
+        "luma_range": [
+          13.3,
+          29.06
+        ]
+      }
+    },
+    {
+      "id": "R70",
+      "reference": {
+        "samples_12hz": 13,
+        "mean_luma": 9.6,
+        "bright_fraction": 0.0,
+        "dark_fraction": 0.9567,
+        "luma_std_over_time": 0.96,
+        "luma_range": [
+          8.92,
+          12.79
+        ]
+      },
+      "astra": {
+        "samples_12hz": 13,
+        "mean_luma": 9.72,
+        "bright_fraction": 0.0,
+        "dark_fraction": 0.9626,
+        "luma_std_over_time": 2.56,
+        "luma_range": [
+          7.42,
+          13.95
+        ]
+      }
+    },
+    {
+      "id": "R71",
+      "reference": {
+        "samples_12hz": 31,
+        "mean_luma": 10.32,
+        "bright_fraction": 0.0,
+        "dark_fraction": 0.9497,
+        "luma_std_over_time": 0.31,
+        "luma_range": [
+          9.36,
+          11.15
+        ]
+      },
+      "astra": {
+        "samples_12hz": 31,
+        "mean_luma": 48.75,
+        "bright_fraction": 0.0,
+        "dark_fraction": 0.6881,
+        "luma_std_over_time": 1.67,
+        "luma_range": [
+          41.73,
+          49.6
+        ]
+      }
+    },
+    {
+      "id": "R72",
+      "reference": {
+        "samples_12hz": 11,
+        "mean_luma": 10.53,
+        "bright_fraction": 0.0,
+        "dark_fraction": 0.9519,
+        "luma_std_over_time": 0.4,
+        "luma_range": [
+          9.93,
+          11.22
+        ]
+      },
+      "astra": {
+        "samples_12hz": 11,
+        "mean_luma": 32.34,
+        "bright_fraction": 0.0,
+        "dark_fraction": 0.8388,
+        "luma_std_over_time": 2.49,
+        "luma_range": [
+          28.85,
+          34.48
+        ]
+      }
+    },
+    {
+      "id": "R73",
+      "reference": {
+        "samples_12hz": 35,
+        "mean_luma": 16.62,
+        "bright_fraction": 0.0001,
+        "dark_fraction": 0.8994,
+        "luma_std_over_time": 1.17,
+        "luma_range": [
+          10.5,
+          18.3
+        ]
+      },
+      "astra": {
+        "samples_12hz": 35,
+        "mean_luma": 38.27,
+        "bright_fraction": 0.0,
+        "dark_fraction": 0.7595,
+        "luma_std_over_time": 0.48,
+        "luma_range": [
+          37.59,
+          38.65
+        ]
+      }
+    },
+    {
+      "id": "R74",
+      "reference": {
+        "samples_12hz": 11,
+        "mean_luma": 15.79,
+        "bright_fraction": 0.0,
+        "dark_fraction": 0.9167,
+        "luma_std_over_time": 0.39,
+        "luma_range": [
+          15.19,
+          16.49
+        ]
+      },
+      "astra": {
+        "samples_12hz": 11,
+        "mean_luma": 46.13,
+        "bright_fraction": 0.0004,
+        "dark_fraction": 0.7144,
+        "luma_std_over_time": 0.2,
+        "luma_range": [
+          45.95,
+          46.52
+        ]
+      }
+    },
+    {
+      "id": "R75",
+      "reference": {
+        "samples_12hz": 35,
+        "mean_luma": 16.62,
+        "bright_fraction": 0.0,
+        "dark_fraction": 0.9108,
+        "luma_std_over_time": 0.8,
+        "luma_range": [
+          15.1,
+          18.05
+        ]
+      },
+      "astra": {
+        "samples_12hz": 35,
+        "mean_luma": 36.53,
+        "bright_fraction": 0.0,
+        "dark_fraction": 0.7598,
+        "luma_std_over_time": 0.45,
+        "luma_range": [
+          35.8,
+          36.87
+        ]
+      }
+    },
+    {
+      "id": "R76",
+      "reference": {
+        "samples_12hz": 12,
+        "mean_luma": 16.64,
+        "bright_fraction": 0.0001,
+        "dark_fraction": 0.9149,
+        "luma_std_over_time": 0.65,
+        "luma_range": [
+          15.95,
+          18.4
+        ]
+      },
+      "astra": {
+        "samples_12hz": 12,
+        "mean_luma": 27.47,
+        "bright_fraction": 0.0031,
+        "dark_fraction": 0.8893,
+        "luma_std_over_time": 0.6,
+        "luma_range": [
+          26.65,
+          28.52
+        ]
+      }
+    },
+    {
+      "id": "R77",
+      "reference": {
+        "samples_12hz": 44,
+        "mean_luma": 18.55,
+        "bright_fraction": 0.0,
+        "dark_fraction": 0.9098,
+        "luma_std_over_time": 0.48,
+        "luma_range": [
+          17.32,
+          19.65
+        ]
+      },
+      "astra": {
+        "samples_12hz": 44,
+        "mean_luma": 37.24,
+        "bright_fraction": 0.0015,
+        "dark_fraction": 0.7881,
+        "luma_std_over_time": 5.14,
+        "luma_range": [
+          28.34,
+          44.58
+        ]
+      }
+    },
+    {
+      "id": "R78",
+      "reference": {
+        "samples_12hz": 44,
+        "mean_luma": 13.02,
+        "bright_fraction": 0.0,
+        "dark_fraction": 0.9491,
+        "luma_std_over_time": 0.9,
+        "luma_range": [
+          12.26,
+          18.31
+        ]
+      },
+      "astra": {
+        "samples_12hz": 44,
+        "mean_luma": 44.99,
+        "bright_fraction": 0.0463,
+        "dark_fraction": 0.7127,
+        "luma_std_over_time": 10.58,
+        "luma_range": [
+          28.8,
+          62.17
+        ]
+      }
+    },
+    {
+      "id": "R79",
+      "reference": {
+        "samples_12hz": 45,
+        "mean_luma": 13.11,
+        "bright_fraction": 0.0,
+        "dark_fraction": 0.9521,
+        "luma_std_over_time": 0.51,
+        "luma_range": [
+          11.88,
+          14.23
+        ]
+      },
+      "astra": {
+        "samples_12hz": 45,
+        "mean_luma": 65.04,
+        "bright_fraction": 0.1598,
+        "dark_fraction": 0.5954,
+        "luma_std_over_time": 27.9,
+        "luma_range": [
+          16.63,
+          108.8
+        ]
+      }
+    },
+    {
+      "id": "R80",
+      "reference": {
+        "samples_12hz": 48,
+        "mean_luma": 13.53,
+        "bright_fraction": 0.0,
+        "dark_fraction": 0.9486,
+        "luma_std_over_time": 0.41,
+        "luma_range": [
+          12.75,
+          14.3
+        ]
+      },
+      "astra": {
+        "samples_12hz": 48,
+        "mean_luma": 21.9,
+        "bright_fraction": 0.0,
+        "dark_fraction": 0.9043,
+        "luma_std_over_time": 0.36,
+        "luma_range": [
+          21.38,
+          22.28
+        ]
+      }
+    },
+    {
+      "id": "R81",
+      "reference": {
+        "samples_12hz": 47,
+        "mean_luma": 8.75,
+        "bright_fraction": 0.0,
+        "dark_fraction": 0.9596,
+        "luma_std_over_time": 0.85,
+        "luma_range": [
+          7.44,
+          13.46
+        ]
+      },
+      "astra": {
+        "samples_12hz": 47,
+        "mean_luma": 36.36,
+        "bright_fraction": 0.0,
+        "dark_fraction": 0.7879,
+        "luma_std_over_time": 0.28,
+        "luma_range": [
+          35.87,
+          36.62
+        ]
+      }
+    },
+    {
+      "id": "R82",
+      "reference": {
+        "samples_12hz": 45,
+        "mean_luma": 5.32,
+        "bright_fraction": 0.0,
+        "dark_fraction": 0.9757,
+        "luma_std_over_time": 0.96,
+        "luma_range": [
+          4.16,
+          8.81
+        ]
+      },
+      "astra": {
+        "samples_12hz": 45,
+        "mean_luma": 37.35,
+        "bright_fraction": 0.0,
+        "dark_fraction": 0.7898,
+        "luma_std_over_time": 2.29,
+        "luma_range": [
+          32.75,
+          39.4
+        ]
+      }
+    },
+    {
+      "id": "R83",
+      "reference": {
+        "samples_12hz": 45,
+        "mean_luma": 5.57,
+        "bright_fraction": 0.0,
+        "dark_fraction": 0.9688,
+        "luma_std_over_time": 0.1,
+        "luma_range": [
+          5.42,
+          5.71
+        ]
+      },
+      "astra": {
+        "samples_12hz": 45,
+        "mean_luma": 33.07,
+        "bright_fraction": 0.0,
+        "dark_fraction": 0.857,
+        "luma_std_over_time": 8.7,
+        "luma_range": [
+          23.21,
+          43.07
+        ]
+      }
+    },
+    {
+      "id": "R84",
+      "reference": {
+        "samples_12hz": 45,
+        "mean_luma": 5.65,
+        "bright_fraction": 0.0,
+        "dark_fraction": 0.9671,
+        "luma_std_over_time": 0.06,
+        "luma_range": [
+          5.59,
+          5.71
+        ]
+      },
+      "astra": {
+        "samples_12hz": 45,
+        "mean_luma": 21.84,
+        "bright_fraction": 0.0,
+        "dark_fraction": 0.9195,
+        "luma_std_over_time": 1.24,
+        "luma_range": [
+          20.38,
+          23.22
+        ]
+      }
+    },
+    {
+      "id": "R85",
+      "reference": {
+        "samples_12hz": 29,
+        "mean_luma": 5.65,
+        "bright_fraction": 0.0,
+        "dark_fraction": 0.9668,
+        "luma_std_over_time": 0.06,
+        "luma_range": [
+          5.59,
+          5.74
+        ]
+      },
+      "astra": {
+        "samples_12hz": 29,
+        "mean_luma": 34.09,
+        "bright_fraction": 0.0,
+        "dark_fraction": 0.8229,
+        "luma_std_over_time": 0.0,
+        "luma_range": [
+          34.09,
+          34.1
+        ]
+      }
+    },
+    {
+      "id": "R86",
+      "reference": {
+        "samples_12hz": 74,
+        "mean_luma": 4.19,
+        "bright_fraction": 0.0,
+        "dark_fraction": 0.9942,
+        "luma_std_over_time": 0.25,
+        "luma_range": [
+          4.03,
+          5.71
+        ]
+      },
+      "astra": {
+        "samples_12hz": 74,
+        "mean_luma": 38.75,
+        "bright_fraction": 0.0062,
+        "dark_fraction": 0.783,
+        "luma_std_over_time": 5.75,
+        "luma_range": [
+          32.08,
+          47.46
+        ]
+      }
+    }
+  ]
+}
