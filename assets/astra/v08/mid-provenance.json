@@ -1,0 +1,31 @@
+{
+  "date": "2026-11-05",
+  "mode": "built-in image_gen",
+  "sources": [
+    "assets/astra/v07/profile-knot.png",
+    "assets/astra/v07/bust-knot.png",
+    "../references/character-design/chatgpt-dragon-reference.jpg"
+  ],
+  "outputs": [
+    {
+      "name": "midWait",
+      "file": "mid-wait.png",
+      "prompt": "mid-wait.prompt.txt",
+      "sourceFile": "C:/Users/auscar/.codex/generated_images/01a1a691-913f-79c2-be15-8b48ae374ff8/exec-af28f6e8-036c-4429-a8ab-5e3556b0347e.png",
+      "width": 1448,
+      "height": 1086,
+      "sha256": "c8836350580f9ecdcd503ffe811b819c3031e924bc261c8e6701661fad42437c"
+    },
+    {
+      "name": "midReceive",
+      "file": "mid-receive.png",
+      "prompt": "mid-receive.prompt.txt",
+      "sourceFile": "C:/Users/auscar/.codex/generated_images/01a1a691-913f-79c2-be15-8b48ae374ff8/exec-187a8424-60a2-43b9-a71e-840fb07d7530.png",
+      "width": 1394,
+      "height": 1128,
+      "sha256": "5ef8890114bb155d28fc8144e5adee26ee3ae3ded4c159450639d5a14a62d4e5"
+    }
+  ],
+  "preservation": "Original generated RGBA bytes copied without raster editing. Runtime uses project-wide three-ink tracing. No separate character logo overlays.",
+  "visualReview": "Both full head/shoulder/arm/wrist chains are connected. Opposing thumb and four fingers distinguish receiving palm. Temple ornaments show six curved lobes and central negative space without external circle. These remain generated drawings, not a certified exact vector topology match; tiny alpha fringe is handled by the shared traced-ink Art renderer, not an independently pasted correction."
+}

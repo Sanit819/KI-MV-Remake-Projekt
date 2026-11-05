@@ -1,0 +1,197 @@
+{
+  "date": "2026-11-05",
+  "owner": "early",
+  "status": "source and composed static-frame QA complete; active images frozen; final full-video encoding verification belongs to root",
+  "assets": [
+    {
+      "asset": "early-circle",
+      "path": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\assets\\astra\\v08\\early-circle.png",
+      "tool": "built-in image_gen.imagegen",
+      "generated_original": "C:/Users/auscar/.codex/generated_images/01a1a690-6b11-7fd0-a69c-e20c852cc090/exec-e8e1ca39-30f0-40f3-94c9-24b80dfe4168.png",
+      "initial_generated": null,
+      "prompt": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\assets\\astra\\v08\\early-circle.prompt.txt",
+      "initial_prompt": null,
+      "references": [
+        "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v07/operating-knot.png",
+        "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v07/reference-gpt-knot.png"
+      ],
+      "sha256": "4bcc297c398464587a9d8145ba92c6cd6266ab77c0f870725589f0b2a457dd8a",
+      "mode": "RGBA",
+      "size": [
+        1672,
+        941
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "alpha_zero_pixels": 853424,
+      "alpha_1_to_15_pixels": 13115,
+      "alpha_16_to_127_pixels": 2654,
+      "alpha_128_plus_pixels": 704159,
+      "bounds_alpha_128": [
+        0,
+        0,
+        1580,
+        941
+      ],
+      "edits": "Only copy of selected generated output. No procedural human anatomy or pasted character logo. Existing three-ink renderer will trace source alpha."
+    },
+    {
+      "asset": "early-tangent",
+      "path": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\assets\\astra\\v08\\early-tangent.png",
+      "tool": "built-in image_gen.imagegen",
+      "generated_original": "C:/Users/auscar/.codex/generated_images/01a1a690-6b11-7fd0-a69c-e20c852cc090/exec-f797aa53-8a22-4bb7-918e-d573829f052d.png",
+      "initial_generated": "C:/Users/auscar/.codex/generated_images/01a1a690-6b11-7fd0-a69c-e20c852cc090/exec-3ffaf889-ac9e-4400-95fb-408d0c1e8023.png",
+      "prompt": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\assets\\astra\\v08\\early-tangent.prompt.txt",
+      "initial_prompt": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\assets\\astra\\v08\\early-tangent-initial.prompt.txt",
+      "references": [
+        "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v07/operating-knot.png",
+        "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v07/reference-gpt-knot.png"
+      ],
+      "sha256": "cec887d27980a65d6a645535f8e03cad11ac3dc8e7dc3e1c7e1c126f92560e14",
+      "mode": "RGBA",
+      "size": [
+        1536,
+        1024
+      ],
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "alpha_zero_pixels": 772960,
+      "alpha_1_to_15_pixels": 8250,
+      "alpha_16_to_127_pixels": 2106,
+      "alpha_128_plus_pixels": 789548,
+      "bounds_alpha_128": [
+        0,
+        0,
+        1305,
+        1024
+      ],
+      "edits": "Only copy of selected generated output. No procedural human anatomy or pasted character logo. Existing three-ink renderer will trace source alpha."
+    },
+    {
+      "asset": "early-travel",
+      "path": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\assets\\astra\\v08\\early-travel.png",
+      "tool": "built-in image_gen.imagegen",
+      "generated_original": "C:/Users/auscar/.codex/generated_images/01a1a690-6b11-7fd0-a69c-e20c852cc090/exec-540bcad2-9085-4f78-96c2-dc9a48a2eed7.png",
+      "initial_generated": "C:/Users/auscar/.codex/generated_images/01a1a690-6b11-7fd0-a69c-e20c852cc090/exec-703eb17f-d448-444e-94c1-f87267d937d6.png",
+      "prompt": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\assets\\astra\\v08\\early-travel.prompt.txt",
+      "initial_prompt": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\assets\\astra\\v08\\early-travel-initial.prompt.txt",
+      "references": [
+        "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v07/operating-knot.png",
+        "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v07/reference-gpt-knot.png"
+      ],
+      "sha256": "34dfb650a88180e77c8d9ff6b5686f6fd9e9669998a06b980e53689b699bb199",
+      "mode": "RGBA",
+      "size": [
+        2048,
+        768
+      ],
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "alpha_zero_pixels": 845547,
+      "alpha_1_to_15_pixels": 7525,
+      "alpha_16_to_127_pixels": 2289,
+      "alpha_128_plus_pixels": 717503,
+      "bounds_alpha_128": [
+        0,
+        0,
+        1628,
+        768
+      ],
+      "edits": "Only copy of selected generated output. No procedural human anatomy or pasted character logo. Existing three-ink renderer will trace source alpha.",
+      "activation": "superseded by natural shoulder reframe, retained as provenance candidate"
+    },
+    {
+      "asset": "early-travel-framed",
+      "path": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\assets\\astra\\v08\\early-travel-framed.png",
+      "tool": "built-in image_gen.imagegen",
+      "generated_original": "C:/Users/auscar/.codex/generated_images/01a1a690-6b11-7fd0-a69c-e20c852cc090/exec-54571241-4f51-4c18-9d59-bcd2d7ddfe43.png",
+      "edit_reference": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\assets\\astra\\v08\\early-travel.png",
+      "prompt": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\assets\\astra\\v08\\early-travel-framed.prompt.txt",
+      "sha256": "0df36e9626f3f5cbebd3683b20745d2ceb07c8c9e2117a170df73fe86c6fcbef",
+      "size": [
+        2048,
+        768
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "alpha_zero_pixels": 1037881,
+      "alpha_128_plus_pixels": 526184,
+      "bounds_alpha_128": [
+        0,
+        132,
+        1628,
+        768
+      ],
+      "activation": "selected by early-assets.json, root merges shared manifest",
+      "reason": "First composed QA showed a horizontal hair/torso crop at y293. Reframed as naturally curved shoulder contour with no character touching source top, preserving existing finger anchors."
+    }
+  ],
+  "visual_qa": {
+    "first_dir": "exports/qa-v3-early",
+    "first_seconds": [
+      33.4,
+      35,
+      36.8,
+      37.05,
+      38,
+      40.5,
+      52.05,
+      53,
+      55.5,
+      75.7,
+      76.4,
+      77.1,
+      79.5,
+      80.3,
+      81.1
+    ],
+    "recheck_dir": "exports/qa-v3-early-recheck",
+    "recheck_seconds": [
+      33.4,
+      35,
+      36.8,
+      37.05,
+      38,
+      40.5,
+      52.05,
+      53,
+      53.8,
+      55.5,
+      74.7,
+      75.7,
+      76.4,
+      77.1,
+      78.4,
+      79.5,
+      80.3,
+      81.1
+    ],
+    "final_r10_dir": "exports/qa-v3-early-final",
+    "final_r10_seconds": [
+      33.4,
+      35,
+      36.8
+    ],
+    "all_listed_frames_individually_viewed": true,
+    "width": 1920,
+    "height": 1080,
+    "continuous_movie_or_music_review": false,
+    "final_encoding_verified": false
+  },
+  "circle_visible_pen_anchor": {
+    "point": [
+      1568,
+      543
+    ],
+    "reason": "Source alpha >=128 and visible purple luminance inspected, final composed point confirmed."
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "assets": {
+    "earlyCircle": {
+      "path": "/assets/astra/v08/early-circle.png",
+      "anchors": {"pen": [1568, 543], "hands": [1434, 400], "shoulder": [367, 253]},
+      "note": "Complete connected shoulder, elbow and right stylus hand. Torso intentionally exits source left/bottom. Pen anchor is the visible purple tip (source luminance/alpha inspected), not the almost-black outer antialias tip at 1577,553. No mirrored placement."
+    },
+    "earlyTangent": {
+      "path": "/assets/astra/v08/early-tangent.png",
+      "anchors": {"pen": [1225, 475], "hands": [1205, 302], "shoulder": [357, 682]},
+      "note": "Distinct high three-quarter writing grip, vertical stylus. Complete shoulder/arm context; source-pixel anchors manually inspected."
+    },
+    "earlyTravel": {
+      "path": "/assets/astra/v08/early-travel-framed.png",
+      "anchors": {"pen": [1625, 490], "hands": [1625, 490], "shoulder": [233, 221]},
+      "note": "Connected reaching shoulder/arm with right index finger. The pen alias denotes finger contact, no physical pen in this asset. Timeline props removed by ImageGen edit."
+    }
+  }
+}

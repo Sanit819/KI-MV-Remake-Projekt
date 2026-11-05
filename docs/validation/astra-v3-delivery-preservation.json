@@ -1,0 +1,29 @@
+{
+  "passed": true,
+  "checked_at": "2026-11-05T03:02:13.671Z",
+  "previous": [
+    {
+      "file": "exports/astra-world-execute-me-full-v2-4k60.mp4",
+      "sha256": "3a52d4f32bdb3ad914b941cf8f96161eaa8dcf627d76dc724e1a01760df45b24",
+      "unchanged": true
+    },
+    {
+      "file": "exports/astra-world-execute-me-full-v2-1080p60.mp4",
+      "sha256": "80fbd62ee2a6876350b12b0198105969d6cd31fe84982523fda0302dd97320d9",
+      "unchanged": true
+    }
+  ],
+  "runtime_inputs_unchanged": true,
+  "delivered_hashes": [
+    {
+      "file": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\exports\\astra-world-execute-me-full-v3-4k60.mp4",
+      "sha256": "fc5843f714c862d4a405f2a2cee58f958eaeb1597fe872dfe4300d0c1586e90b",
+      "bytes": 283245132
+    },
+    {
+      "file": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\exports\\astra-world-execute-me-full-v3-1080p60.mp4",
+      "sha256": "26c6ea3ea2cf0b940b481eaf8b970c0f687a772f45a57bf7c2d18aa39908a23b",
+      "bytes": 138195714
+    }
+  ]
+}

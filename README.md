@@ -2,7 +2,19 @@
 
 ASTRA《未写完的世界》——用户与 ASTRA 共同制作的 Mili《world.execute(me);》原创 MV。
 
-## 当前交付：完整 v2（2026-11-05）
+## 当前交付：完整 v3（2026-11-05）
+
+[4K60 母版](exports/astra-world-execute-me-full-v3-4k60.mp4) · [1080p60 播放版](exports/astra-world-execute-me-full-v3-1080p60.mp4) · [交付与核验](docs/FULL_MV_V3.md)
+
+完整 86 镜、218.333333 秒、13,100 帧。根据本轮十点反馈重画五种上下文动作及原人设眼型，修正果蔬切面、五级等待时间和人物渐进马赛克；128 条歌词按最新要求恢复为上英文、下用户提供的中文译文。保留完整原曲和 6 秒安静尾段，最后两个人继续画下去。
+
+两版完整解码、全部帧时间戳、8 个音频对齐窗口和静默尾段均通过。661 点运行时检查及中段 347 帧连续指标检查通过，人工抽查范围见交付文档。v1/v2 和被否定的眼部中间稿保留；这仍是动作原画、2.5D 镜头与程序动态图形合成。
+
+当前生产入口为 [src/mv3/index.html](src/mv3/index.html)、[v08 manifest](assets/astra/v08/manifest.json)、[v3 时间轴](data/production-v3/timeline.json)及[双语歌词](data/production-v3/lyrics.en-zh.json)。复现用 `npm run full:v3:qa`、`npm run full:v3:4k`、`npm run full:v3:1080`；提示词和反馈记录见 [v3 制作目录](docs/production-v3/USER_FEEDBACK.md)。MP4 在本地交付，未提交进 Git 或发布。
+
+以下各节为历史记录。v2 的无中文决定已由本轮“歌词的中文字幕加上”覆盖，当前以 v3 交付和最新用户反馈为准。
+
+## 历史交付：完整 v2（2026-11-05）
 
 [4K60 母版](exports/astra-world-execute-me-full-v2-4k60.mp4) · [1080p60 播放版](exports/astra-world-execute-me-full-v2-1080p60.mp4) · [交付与核验](docs/FULL_MV_V2.md)
 
@@ -10,9 +22,9 @@ ASTRA《未写完的世界》——用户与 ASTRA 共同制作的 Mili《world.
 
 两版完整解码、全部帧时间戳、8 个音频对齐窗口、静默尾段和 267 点运行时检查均通过。视觉抽样范围见交付文档；这是剪纸角色/动态图形合成，并非全片逐帧手绘。v1 交付文件保留原样。
 
-当前生产入口为 [src/mv2/index.html](src/mv2/index.html)、[v07 manifest](assets/astra/v07/manifest.json)、[v2 时间轴](data/production-v2/timeline.json)。复现用 `npm run full:v2:4k`，再用 `npm run full:v2:1080` 从母版缩制；`npm run full:v2:qa` 执行实际渲染检查。[逐镜落实记录](docs/production-v2/IMPLEMENTATION.md)与[新素材提示词](assets/astra/v07/README.md)已存仓库。
+v2 生产入口为 [src/mv2/index.html](src/mv2/index.html)、[v07 manifest](assets/astra/v07/manifest.json)、[v2 时间轴](data/production-v2/timeline.json)。复现用 `npm run full:v2:4k`，再用 `npm run full:v2:1080` 从母版缩制；`npm run full:v2:qa` 执行实际渲染检查。[逐镜落实记录](docs/production-v2/IMPLEMENTATION.md)与[新素材提示词](assets/astra/v07/README.md)已存仓库。
 
-以下对照讨论和 v1 章节是历史记录；其“待审/未激活/尚未重做”状态已由上述 v2 交付覆盖。最新无中文指示覆盖历史双语字幕计划。
+以下对照讨论和 v1 章节是历史记录；其“待审/未激活/尚未重做”状态已由后续交付覆盖。v2 当时采用无中文要求，v3 已恢复双语。
 
 ## 2026-11-05 对照与修订
 

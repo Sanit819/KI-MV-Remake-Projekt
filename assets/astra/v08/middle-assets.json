@@ -1,0 +1,16 @@
+{
+  "assets": {
+    "midWait": {
+      "path": "/assets/astra/v08/mid-wait.png",
+      "face": {"x": 795, "y": 360, "w": 230, "h": 255},
+      "anchors": {"hands": [210, 600], "wrist": [302, 665], "chest": [1020, 744]},
+      "anchor_note": "Source 1448x1086. Palm interior and wrist inspected on the complete generated pose, +/-15px. Hidden eyes have no inferred iris anchor."
+    },
+    "midReceive": {
+      "path": "/assets/astra/v08/mid-receive.png",
+      "face": {"x": 608, "y": 355, "w": 260, "h": 250},
+      "anchors": {"hands": [1155, 609], "wrist": [1061, 684], "chest": [694, 737]},
+      "anchor_note": "Source 1394x1128. Cupped palm, wrist and near-chest hand inspected, +/-15px. Independently generated pose, never a mirrored source."
+    }
+  }
+}

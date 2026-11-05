@@ -25,10 +25,10 @@ const VIDEO_ONLY_ARG = String(arg('video-only', 'false'));
 if (!['true', 'false'].includes(VIDEO_ONLY_ARG)) throw new Error('--video-only must be true or false');
 const VIDEO_ONLY = VIDEO_ONLY_ARG === 'true';
 const ENTRY = String(arg('entry', 'src/sample/index.html')).replaceAll('\\', '/');
-if (!['src/sample/index.html', 'src/sample-v02/index.html','src/full/index.html','src/mv2/index.html'].includes(ENTRY)) {
+if (!['src/sample/index.html', 'src/sample-v02/index.html','src/full/index.html','src/mv2/index.html','src/mv3/index.html'].includes(ENTRY)) {
   throw new Error('Entry must be a supported project sample or full MV page');
 }
-const VERSION = ENTRY === 'src/mv2/index.html' ? 'full-v02' : ENTRY === 'src/full/index.html' ? 'full-v01' : ENTRY === 'src/sample-v02/index.html' ? 'v02' : 'v01';
+const VERSION = ENTRY === 'src/mv3/index.html' ? 'full-v03' : ENTRY === 'src/mv2/index.html' ? 'full-v02' : ENTRY === 'src/full/index.html' ? 'full-v01' : ENTRY === 'src/sample-v02/index.html' ? 'v02' : 'v01';
 const TRANSPORT = arg('transport', 'png');
 if (!['png', 'rgba'].includes(TRANSPORT)) throw new Error('Transport must be png or rgba');
 const OUT = path.resolve(ROOT, arg('out', STILL_ARG
@@ -88,7 +88,7 @@ const server = http.createServer(async (req, res) => {
     }
     if (req.method !== 'GET') { res.writeHead(405); res.end(); return; }
     // Serve only visual source, current project assets and explicit timeline data.
-    const allowed = pathname.startsWith('/src/sample/') || pathname.startsWith('/src/sample-v02/') || pathname.startsWith('/src/full/') || pathname.startsWith('/src/mv2/') || pathname.startsWith('/assets/') || pathname === '/data/production-v2/timeline.json' || pathname === '/data/production-v2/lyrics.en.json' || pathname === '/docs/audio/calibrated_timeline.json' || pathname === '/media/audio/mili-world-execute-original-bilibili.m4a';
+    const allowed = pathname.startsWith('/src/sample/') || pathname.startsWith('/src/sample-v02/') || pathname.startsWith('/src/full/') || pathname.startsWith('/src/mv2/') || pathname.startsWith('/src/mv3/') || pathname.startsWith('/assets/') || pathname === '/data/production-v2/timeline.json' || pathname === '/data/production-v2/lyrics.en.json' || pathname === '/data/production-v3/timeline.json' || pathname === '/data/production-v3/lyrics.en-zh.json' || pathname === '/docs/audio/calibrated_timeline.json' || pathname === '/media/audio/mili-world-execute-original-bilibili.m4a';
     if (!allowed) { res.writeHead(403); res.end('Forbidden'); return; }
     const file = path.resolve(ROOT, '.' + pathname);
     if (!file.startsWith(ROOT + path.sep)) throw new Error('Path outside workspace');

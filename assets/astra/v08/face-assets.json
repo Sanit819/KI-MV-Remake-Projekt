@@ -1,0 +1,11 @@
+{
+  "assets": {
+    "eye": {
+      "path": "/assets/astra/v08/face-eye-v02.png",
+      "face": { "x": 330, "y": 420, "w": 560, "h": 500 },
+      "anchors": {
+        "eye": [708, 652]
+      }
+    }
+  }
+}

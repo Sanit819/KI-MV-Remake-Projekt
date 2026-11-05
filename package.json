@@ -16,7 +16,12 @@
     "full:v2:4k": "node tools/render/export_full_v2_parallel.mjs",
     "full:v2:1080": "node tools/render/downscale_v2.mjs",
     "full:v2:qa": "node tools/render/qa_v2.mjs --out exports/qa-v2-final",
-    "full:v2:data": "node tools/render/build_v2_data.mjs"
+    "full:v2:data": "node tools/render/build_v2_data.mjs",
+    "full:v3:data": "node tools/render/build_v3_data.mjs",
+    "full:v3:assets": "node tools/render/merge_v3_assets.mjs",
+    "full:v3:qa": "node tools/render/qa_v3.mjs --out exports/qa-v3-final",
+    "full:v3:4k": "node tools/render/export_full_v3_parallel.mjs",
+    "full:v3:1080": "node tools/render/downscale_v3.mjs"
   },
   "dependencies": {
     "playwright-core": "1.64.1"

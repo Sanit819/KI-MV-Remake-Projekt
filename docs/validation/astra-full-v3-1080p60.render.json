@@ -1,0 +1,116 @@
+{
+  "passed": true,
+  "phase": "complete",
+  "version": "v3",
+  "source_master": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\exports\\astra-world-execute-me-full-v3-4k60.mp4",
+  "output": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\exports\\astra-world-execute-me-full-v3-1080p60.mp4",
+  "expected_frames": 13100,
+  "expected_fps": 60,
+  "expected_resolution": [
+    1920,
+    1080
+  ],
+  "expected_duration_seconds": 218.33333333333334,
+  "encoding": {
+    "video_codec": "h264_nvenc",
+    "preset": "p6",
+    "tune": "hq",
+    "rate_control": "vbr",
+    "cq": 19,
+    "scaler": "lanczos",
+    "pixel_format": "yuv420p",
+    "color_space": "BT.709 limited",
+    "fps_mode": "passthrough",
+    "audio": "copy; no re-encoding"
+  },
+  "master_render_report": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\exports\\astra-world-execute-me-full-v3-4k60.parallel.render.json",
+  "logs": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\.cache\\downscale-v3\\2026-11-05T02-46-16-944Z",
+  "started_at": "2026-11-05T02:46:16.950Z",
+  "scope": "1080p60 derivative of a verified 4K master. Complete frame/audio decode, distributed audio alignment, every video packet timestamp, and exact AAC payload equality are checked. No browser render or continuous visual review.",
+  "source_master_sha256": "fc5843f714c862d4a405f2a2cee58f958eaeb1597fe872dfe4300d0c1586e90b",
+  "reference_audio": {
+    "path": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\.cache\\full-export-v3\\3840x2160\\all\\complete\\original-with-approved-silence.f32.wav",
+    "sha256": "2410e10537ccde79266d3785908111597e13aa886982086191f9b7681525e18b",
+    "original": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\media\\audio\\mili-world-execute-original-bilibili.m4a",
+    "original_sha256": "b06f195e2a479c25c3282f4ca5b931e293c4a35a941acf6dd5b515ba4890f34a",
+    "source_start_seconds": 0
+  },
+  "master_verification_report": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\exports\\astra-world-execute-me-full-v3-4k60.full-verify.json",
+  "master_silent_tail_measurement": {
+    "required": true,
+    "passed": true,
+    "output_start_seconds": 212.33333333333334,
+    "source_start_seconds": 212.33333333333334,
+    "expected_seconds": 6,
+    "decoded_samples": 144000,
+    "sample_rate": 24000,
+    "rms_dbfs": -300,
+    "peak_dbfs": -300,
+    "threshold_rms_dbfs": -80,
+    "threshold_peak_dbfs": -65
+  },
+  "transcode_elapsed_seconds": 44.223,
+  "timestamps": {
+    "passed": true,
+    "checks": {
+      "timescale_60000": true,
+      "exact_packet_count": true,
+      "every_pts_exactly_one_sixtieth": true,
+      "every_packet_duration_one_sixtieth": true,
+      "strictly_increasing_dts": true,
+      "high_profile_8bit_420_bt709_limited": true
+    },
+    "video_stream": "Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709/unknown/unknown, progressive), 1920x1080 [SAR 1:1 DAR 16:9], 4864 kb/s, 60 fps, 60 tbr, 60k tbn (default)",
+    "timebase_denominator": 60000,
+    "expected_packet_count": 13100,
+    "actual_packet_count": 13100,
+    "first_pts": 0,
+    "last_pts": 13099000,
+    "first_dts": -2000,
+    "last_dts": 13097000,
+    "former_concat_boundaries": [
+      {
+        "frame": 3300,
+        "seconds": 55,
+        "previous_pts": 3299000,
+        "pts": 3300000,
+        "next_pts": 3301000
+      },
+      {
+        "frame": 6600,
+        "seconds": 110,
+        "previous_pts": 6599000,
+        "pts": 6600000,
+        "next_pts": 6601000
+      },
+      {
+        "frame": 9900,
+        "seconds": 165,
+        "previous_pts": 9899000,
+        "pts": 9900000,
+        "next_pts": 9901000
+      }
+    ],
+    "scope": "Every presentation timestamp equals n/60 with no missing or duplicate frames. B-frame negative initial DTS is allowed; subsequent DTS must strictly increase."
+  },
+  "timestamp_report": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\exports\\astra-world-execute-me-full-v3-1080p60.timestamps.json",
+  "audio_payload": {
+    "passed": true,
+    "algorithm": "SHA256",
+    "method": "FFmpeg hash muxer of copied audio packet bytes",
+    "master": "d1f8b8a0289af95c44e4a26ede2e6537b332fa9626198a23fa3f4bb38e691588",
+    "derivative": "d1f8b8a0289af95c44e4a26ede2e6537b332fa9626198a23fa3f4bb38e691588"
+  },
+  "verification_report": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\exports\\astra-world-execute-me-full-v3-1080p60.full-verify.json",
+  "output_sha256": "26c6ea3ea2cf0b940b481eaf8b970c0f687a772f45a57bf7c2d18aa39908a23b",
+  "output_bytes": 138195714,
+  "checks": {
+    "master_previously_verified": true,
+    "master_unchanged": true,
+    "all_pts_and_color_checks": true,
+    "identical_audio_packet_payload": true,
+    "full_decode_and_distributed_audio_alignment": true,
+    "approved_silent_tail_preserved_from_master": true
+  },
+  "elapsed_seconds": 52.595
+}

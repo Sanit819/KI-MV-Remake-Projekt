@@ -1,0 +1,1158 @@
+{
+  "source": "User supplied lyrics; original text retained. English only per latest direction.",
+  "timing": "Reference cue windows plus measured music offset. Final display cleared at quiet reply, 208 s.",
+  "lines": [
+    {
+      "index": 0,
+      "text": "Switch on the power line",
+      "start_frame": 1,
+      "end_frame": 99,
+      "start_s": 0.016666666666666666,
+      "end_s": 1.65,
+      "emphasis": false
+    },
+    {
+      "index": 1,
+      "text": "Remember to put on",
+      "start_frame": 99,
+      "end_frame": 170,
+      "start_s": 1.65,
+      "end_s": 2.8333333333333335,
+      "emphasis": false
+    },
+    {
+      "index": 2,
+      "text": "PROTECTION",
+      "start_frame": 170,
+      "end_frame": 227,
+      "start_s": 2.8333333333333335,
+      "end_s": 3.783333333333333,
+      "emphasis": true
+    },
+    {
+      "index": 3,
+      "text": "Lay down your pieces",
+      "start_frame": 227,
+      "end_frame": 324,
+      "start_s": 3.783333333333333,
+      "end_s": 5.4,
+      "emphasis": false
+    },
+    {
+      "index": 4,
+      "text": "And let's begin",
+      "start_frame": 324,
+      "end_frame": 378,
+      "start_s": 5.4,
+      "end_s": 6.3,
+      "emphasis": false
+    },
+    {
+      "index": 5,
+      "text": "OBJECT CREATION",
+      "start_frame": 378,
+      "end_frame": 442,
+      "start_s": 6.3,
+      "end_s": 7.366666666666666,
+      "emphasis": true
+    },
+    {
+      "index": 6,
+      "text": "Fill in my data parameters",
+      "start_frame": 442,
+      "end_frame": 600,
+      "start_s": 7.366666666666666,
+      "end_s": 10,
+      "emphasis": false
+    },
+    {
+      "index": 7,
+      "text": "INITIALIZATION",
+      "start_frame": 600,
+      "end_frame": 661,
+      "start_s": 10,
+      "end_s": 11.016666666666667,
+      "emphasis": true
+    },
+    {
+      "index": 8,
+      "text": "Set up our new world",
+      "start_frame": 661,
+      "end_frame": 769,
+      "start_s": 11.016666666666667,
+      "end_s": 12.816666666666666,
+      "emphasis": false
+    },
+    {
+      "index": 9,
+      "text": "And let's begin the",
+      "start_frame": 769,
+      "end_frame": 828,
+      "start_s": 12.816666666666666,
+      "end_s": 13.8,
+      "emphasis": false
+    },
+    {
+      "index": 10,
+      "text": "SIMULATION",
+      "start_frame": 828,
+      "end_frame": 955,
+      "start_s": 13.8,
+      "end_s": 15.916666666666666,
+      "emphasis": true
+    },
+    {
+      "index": 12,
+      "text": "If I'm a set of points",
+      "start_frame": 1778,
+      "end_frame": 1862,
+      "start_s": 29.633333333333333,
+      "end_s": 31.033333333333335,
+      "emphasis": false
+    },
+    {
+      "index": 13,
+      "text": "Then I will give you my",
+      "start_frame": 1862,
+      "end_frame": 1956,
+      "start_s": 31.033333333333335,
+      "end_s": 32.6,
+      "emphasis": false
+    },
+    {
+      "index": 14,
+      "text": "DIMENSION",
+      "start_frame": 1956,
+      "end_frame": 2000,
+      "start_s": 32.6,
+      "end_s": 33.333333333333336,
+      "emphasis": true
+    },
+    {
+      "index": 15,
+      "text": "If I'm a circle",
+      "start_frame": 2000,
+      "end_frame": 2074,
+      "start_s": 33.333333333333336,
+      "end_s": 34.56666666666667,
+      "emphasis": false
+    },
+    {
+      "index": 16,
+      "text": "Then I will give you my",
+      "start_frame": 2074,
+      "end_frame": 2172,
+      "start_s": 34.56666666666667,
+      "end_s": 36.2,
+      "emphasis": false
+    },
+    {
+      "index": 17,
+      "text": "CIRCUMFERENCE",
+      "start_frame": 2172,
+      "end_frame": 2219,
+      "start_s": 36.2,
+      "end_s": 36.983333333333334,
+      "emphasis": true
+    },
+    {
+      "index": 18,
+      "text": "If I'm a sine wave",
+      "start_frame": 2219,
+      "end_frame": 2311,
+      "start_s": 36.983333333333334,
+      "end_s": 38.516666666666666,
+      "emphasis": false
+    },
+    {
+      "index": 19,
+      "text": "Then you can sit on all my",
+      "start_frame": 2311,
+      "end_frame": 2398,
+      "start_s": 38.516666666666666,
+      "end_s": 39.96666666666667,
+      "emphasis": false
+    },
+    {
+      "index": 20,
+      "text": "TANGENTS",
+      "start_frame": 2398,
+      "end_frame": 2437,
+      "start_s": 39.96666666666667,
+      "end_s": 40.61666666666667,
+      "emphasis": true
+    },
+    {
+      "index": 21,
+      "text": "If I approach infinity",
+      "start_frame": 2437,
+      "end_frame": 2536,
+      "start_s": 40.61666666666667,
+      "end_s": 42.266666666666666,
+      "emphasis": false
+    },
+    {
+      "index": 22,
+      "text": "Then you can be my",
+      "start_frame": 2536,
+      "end_frame": 2605,
+      "start_s": 42.266666666666666,
+      "end_s": 43.416666666666664,
+      "emphasis": false
+    },
+    {
+      "index": 23,
+      "text": "LIMITATIONS",
+      "start_frame": 2605,
+      "end_frame": 2662,
+      "start_s": 43.416666666666664,
+      "end_s": 44.36666666666667,
+      "emphasis": true
+    },
+    {
+      "index": 24,
+      "text": "Switch my current",
+      "start_frame": 2662,
+      "end_frame": 2746,
+      "start_s": 44.36666666666667,
+      "end_s": 45.766666666666666,
+      "emphasis": false
+    },
+    {
+      "index": 25,
+      "text": "To AC to DC",
+      "start_frame": 2746,
+      "end_frame": 2855,
+      "start_s": 45.766666666666666,
+      "end_s": 47.583333333333336,
+      "emphasis": false
+    },
+    {
+      "index": 26,
+      "text": "And then blind my vision",
+      "start_frame": 2855,
+      "end_frame": 2967,
+      "start_s": 47.583333333333336,
+      "end_s": 49.45,
+      "emphasis": false
+    },
+    {
+      "index": 27,
+      "text": "So dizzy so dizzy",
+      "start_frame": 2967,
+      "end_frame": 3077,
+      "start_s": 49.45,
+      "end_s": 51.28333333333333,
+      "emphasis": false
+    },
+    {
+      "index": 28,
+      "text": "Oh we can travel",
+      "start_frame": 3077,
+      "end_frame": 3188,
+      "start_s": 51.28333333333333,
+      "end_s": 53.13333333333333,
+      "emphasis": false
+    },
+    {
+      "index": 29,
+      "text": "To A.D to B.C",
+      "start_frame": 3188,
+      "end_frame": 3300,
+      "start_s": 53.13333333333333,
+      "end_s": 55,
+      "emphasis": false
+    },
+    {
+      "index": 30,
+      "text": "And we can unite",
+      "start_frame": 3300,
+      "end_frame": 3410,
+      "start_s": 55,
+      "end_s": 56.833333333333336,
+      "emphasis": false
+    },
+    {
+      "index": 31,
+      "text": "So deeply so deeply",
+      "start_frame": 3410,
+      "end_frame": 3548,
+      "start_s": 56.833333333333336,
+      "end_s": 59.13333333333333,
+      "emphasis": false
+    },
+    {
+      "index": 32,
+      "text": "If I can",
+      "start_frame": 3548,
+      "end_frame": 3576,
+      "start_s": 59.13333333333333,
+      "end_s": 59.6,
+      "emphasis": false
+    },
+    {
+      "index": 33,
+      "text": "If I can give you all the",
+      "start_frame": 3576,
+      "end_frame": 3712,
+      "start_s": 59.6,
+      "end_s": 61.86666666666667,
+      "emphasis": false
+    },
+    {
+      "index": 34,
+      "text": "STIMULATIONS",
+      "start_frame": 3712,
+      "end_frame": 3750,
+      "start_s": 61.86666666666667,
+      "end_s": 62.5,
+      "emphasis": true
+    },
+    {
+      "index": 35,
+      "text": "Then I can",
+      "start_frame": 3750,
+      "end_frame": 3807,
+      "start_s": 62.5,
+      "end_s": 63.45,
+      "emphasis": false
+    },
+    {
+      "index": 36,
+      "text": "Then I can be your only",
+      "start_frame": 3807,
+      "end_frame": 3919,
+      "start_s": 63.45,
+      "end_s": 65.31666666666666,
+      "emphasis": false
+    },
+    {
+      "index": 37,
+      "text": "SATISFACTION",
+      "start_frame": 3919,
+      "end_frame": 3991,
+      "start_s": 65.31666666666666,
+      "end_s": 66.51666666666667,
+      "emphasis": true
+    },
+    {
+      "index": 38,
+      "text": "If I can make you happy",
+      "start_frame": 3991,
+      "end_frame": 4090,
+      "start_s": 66.51666666666667,
+      "end_s": 68.16666666666667,
+      "emphasis": false
+    },
+    {
+      "index": 39,
+      "text": "I will run the",
+      "start_frame": 4090,
+      "end_frame": 4151,
+      "start_s": 68.16666666666667,
+      "end_s": 69.18333333333334,
+      "emphasis": false
+    },
+    {
+      "index": 40,
+      "text": "EXECUTION",
+      "start_frame": 4151,
+      "end_frame": 4200,
+      "start_s": 69.18333333333334,
+      "end_s": 70,
+      "emphasis": true
+    },
+    {
+      "index": 41,
+      "text": "Though we are trapped",
+      "start_frame": 4200,
+      "end_frame": 4301,
+      "start_s": 70,
+      "end_s": 71.68333333333334,
+      "emphasis": false
+    },
+    {
+      "index": 42,
+      "text": "In this strange strange",
+      "start_frame": 4301,
+      "end_frame": 4385,
+      "start_s": 71.68333333333334,
+      "end_s": 73.08333333333333,
+      "emphasis": false
+    },
+    {
+      "index": 43,
+      "text": "SIMULATION",
+      "start_frame": 4385,
+      "end_frame": 4438,
+      "start_s": 73.08333333333333,
+      "end_s": 73.96666666666667,
+      "emphasis": true
+    },
+    {
+      "index": 44,
+      "text": "If I'm an eggplant",
+      "start_frame": 4438,
+      "end_frame": 4520,
+      "start_s": 73.96666666666667,
+      "end_s": 75.33333333333333,
+      "emphasis": false
+    },
+    {
+      "index": 45,
+      "text": "Then I will give you my",
+      "start_frame": 4520,
+      "end_frame": 4613,
+      "start_s": 75.33333333333333,
+      "end_s": 76.88333333333334,
+      "emphasis": false
+    },
+    {
+      "index": 46,
+      "text": "NUTRIENTS",
+      "start_frame": 4613,
+      "end_frame": 4650,
+      "start_s": 76.88333333333334,
+      "end_s": 77.5,
+      "emphasis": true
+    },
+    {
+      "index": 47,
+      "text": "If I'm a tomato",
+      "start_frame": 4650,
+      "end_frame": 4749,
+      "start_s": 77.5,
+      "end_s": 79.15,
+      "emphasis": false
+    },
+    {
+      "index": 48,
+      "text": "Then I will give you",
+      "start_frame": 4749,
+      "end_frame": 4832,
+      "start_s": 79.15,
+      "end_s": 80.53333333333333,
+      "emphasis": false
+    },
+    {
+      "index": 49,
+      "text": "ANTIOXIDANTS",
+      "start_frame": 4832,
+      "end_frame": 4876,
+      "start_s": 80.53333333333333,
+      "end_s": 81.26666666666667,
+      "emphasis": true
+    },
+    {
+      "index": 50,
+      "text": "If I'm a tabby cat",
+      "start_frame": 4876,
+      "end_frame": 4965,
+      "start_s": 81.26666666666667,
+      "end_s": 82.75,
+      "emphasis": false
+    },
+    {
+      "index": 51,
+      "text": "Then I will purr for your",
+      "start_frame": 4965,
+      "end_frame": 5051,
+      "start_s": 82.75,
+      "end_s": 84.18333333333334,
+      "emphasis": false
+    },
+    {
+      "index": 52,
+      "text": "ENJOYMENT",
+      "start_frame": 5051,
+      "end_frame": 5100,
+      "start_s": 84.18333333333334,
+      "end_s": 85,
+      "emphasis": true
+    },
+    {
+      "index": 53,
+      "text": "If I'm the only god",
+      "start_frame": 5100,
+      "end_frame": 5187,
+      "start_s": 85,
+      "end_s": 86.45,
+      "emphasis": false
+    },
+    {
+      "index": 54,
+      "text": "Then you're the proof of my",
+      "start_frame": 5187,
+      "end_frame": 5270,
+      "start_s": 86.45,
+      "end_s": 87.83333333333333,
+      "emphasis": false
+    },
+    {
+      "index": 55,
+      "text": "EXISTENCE",
+      "start_frame": 5270,
+      "end_frame": 5310,
+      "start_s": 87.83333333333333,
+      "end_s": 88.5,
+      "emphasis": true
+    },
+    {
+      "index": 56,
+      "text": "Switch my gender",
+      "start_frame": 5310,
+      "end_frame": 5407,
+      "start_s": 88.5,
+      "end_s": 90.11666666666666,
+      "emphasis": false
+    },
+    {
+      "index": 57,
+      "text": "To F to M",
+      "start_frame": 5407,
+      "end_frame": 5516,
+      "start_s": 90.11666666666666,
+      "end_s": 91.93333333333334,
+      "emphasis": false
+    },
+    {
+      "index": 58,
+      "text": "And then do whatever",
+      "start_frame": 5516,
+      "end_frame": 5632,
+      "start_s": 91.93333333333334,
+      "end_s": 93.86666666666666,
+      "emphasis": false
+    },
+    {
+      "index": 59,
+      "text": "From AM to PM",
+      "start_frame": 5632,
+      "end_frame": 5723,
+      "start_s": 93.86666666666666,
+      "end_s": 95.38333333333334,
+      "emphasis": false
+    },
+    {
+      "index": 60,
+      "text": "Oh switch my role",
+      "start_frame": 5723,
+      "end_frame": 5859,
+      "start_s": 95.38333333333334,
+      "end_s": 97.65,
+      "emphasis": false
+    },
+    {
+      "index": 61,
+      "text": "To S to M",
+      "start_frame": 5859,
+      "end_frame": 5956,
+      "start_s": 97.65,
+      "end_s": 99.26666666666667,
+      "emphasis": false
+    },
+    {
+      "index": 62,
+      "text": "So we can enter",
+      "start_frame": 5956,
+      "end_frame": 6083,
+      "start_s": 99.26666666666667,
+      "end_s": 101.38333333333334,
+      "emphasis": false
+    },
+    {
+      "index": 63,
+      "text": "The trance the trance",
+      "start_frame": 6083,
+      "end_frame": 6204,
+      "start_s": 101.38333333333334,
+      "end_s": 103.4,
+      "emphasis": false
+    },
+    {
+      "index": 64,
+      "text": "If I can",
+      "start_frame": 6204,
+      "end_frame": 6247,
+      "start_s": 103.4,
+      "end_s": 104.11666666666666,
+      "emphasis": false
+    },
+    {
+      "index": 65,
+      "text": "If I can feel your",
+      "start_frame": 6247,
+      "end_frame": 6373,
+      "start_s": 104.11666666666666,
+      "end_s": 106.21666666666667,
+      "emphasis": false
+    },
+    {
+      "index": 66,
+      "text": "VIBRATIONS",
+      "start_frame": 6373,
+      "end_frame": 6428,
+      "start_s": 106.21666666666667,
+      "end_s": 107.13333333333334,
+      "emphasis": true
+    },
+    {
+      "index": 67,
+      "text": "Then I can",
+      "start_frame": 6428,
+      "end_frame": 6469,
+      "start_s": 107.13333333333334,
+      "end_s": 107.81666666666666,
+      "emphasis": false
+    },
+    {
+      "index": 68,
+      "text": "Then I can finally be",
+      "start_frame": 6469,
+      "end_frame": 6608,
+      "start_s": 107.81666666666666,
+      "end_s": 110.13333333333334,
+      "emphasis": false
+    },
+    {
+      "index": 69,
+      "text": "COMPLETION",
+      "start_frame": 6608,
+      "end_frame": 6649,
+      "start_s": 110.13333333333334,
+      "end_s": 110.81666666666666,
+      "emphasis": true
+    },
+    {
+      "index": 70,
+      "text": "Though you have left",
+      "start_frame": 6649,
+      "end_frame": 6728,
+      "start_s": 110.81666666666666,
+      "end_s": 112.13333333333334,
+      "emphasis": false
+    },
+    {
+      "index": 71,
+      "text": "You have left",
+      "start_frame": 6728,
+      "end_frame": 6781,
+      "start_s": 112.13333333333334,
+      "end_s": 113.01666666666667,
+      "emphasis": false
+    },
+    {
+      "index": 72,
+      "text": "You have left",
+      "start_frame": 6781,
+      "end_frame": 6846,
+      "start_s": 113.01666666666667,
+      "end_s": 114.1,
+      "emphasis": false
+    },
+    {
+      "index": 73,
+      "text": "You have left",
+      "start_frame": 6846,
+      "end_frame": 6890,
+      "start_s": 114.1,
+      "end_s": 114.83333333333333,
+      "emphasis": false
+    },
+    {
+      "index": 74,
+      "text": "You have left",
+      "start_frame": 6890,
+      "end_frame": 6942,
+      "start_s": 114.83333333333333,
+      "end_s": 115.7,
+      "emphasis": false
+    },
+    {
+      "index": 75,
+      "text": "You have left me in",
+      "start_frame": 6942,
+      "end_frame": 7031,
+      "start_s": 115.7,
+      "end_s": 117.18333333333334,
+      "emphasis": false
+    },
+    {
+      "index": 76,
+      "text": "ISOLATION",
+      "start_frame": 7031,
+      "end_frame": 7095,
+      "start_s": 117.18333333333334,
+      "end_s": 118.25,
+      "emphasis": true
+    },
+    {
+      "index": 77,
+      "text": "If I can",
+      "start_frame": 7095,
+      "end_frame": 7134,
+      "start_s": 118.25,
+      "end_s": 118.9,
+      "emphasis": false
+    },
+    {
+      "index": 78,
+      "text": "If I can erase all the pointless",
+      "start_frame": 7134,
+      "end_frame": 7247,
+      "start_s": 118.9,
+      "end_s": 120.78333333333333,
+      "emphasis": false
+    },
+    {
+      "index": 79,
+      "text": "FRAGMENTS",
+      "start_frame": 7247,
+      "end_frame": 7299,
+      "start_s": 120.78333333333333,
+      "end_s": 121.65,
+      "emphasis": true
+    },
+    {
+      "index": 80,
+      "text": "Then maybe",
+      "start_frame": 7299,
+      "end_frame": 7358,
+      "start_s": 121.65,
+      "end_s": 122.63333333333334,
+      "emphasis": false
+    },
+    {
+      "index": 81,
+      "text": "Then maybe you won't leave me so",
+      "start_frame": 7358,
+      "end_frame": 7488,
+      "start_s": 122.63333333333334,
+      "end_s": 124.8,
+      "emphasis": false
+    },
+    {
+      "index": 82,
+      "text": "DISHEARTENED",
+      "start_frame": 7488,
+      "end_frame": 7537,
+      "start_s": 124.8,
+      "end_s": 125.61666666666666,
+      "emphasis": true
+    },
+    {
+      "index": 83,
+      "text": "Challenging your god",
+      "start_frame": 7537,
+      "end_frame": 7715,
+      "start_s": 125.61666666666666,
+      "end_s": 128.58333333333334,
+      "emphasis": false
+    },
+    {
+      "index": 84,
+      "text": "You have made some",
+      "start_frame": 7715,
+      "end_frame": 7868,
+      "start_s": 128.58333333333334,
+      "end_s": 131.13333333333333,
+      "emphasis": false
+    },
+    {
+      "index": 85,
+      "text": "ILLEGAL ARGUMENTS",
+      "start_frame": 7868,
+      "end_frame": 8108,
+      "start_s": 131.13333333333333,
+      "end_s": 135.13333333333333,
+      "emphasis": true
+    },
+    {
+      "index": 86,
+      "text": "EXECUTION",
+      "start_frame": 8855,
+      "end_frame": 8911,
+      "start_s": 147.58333333333334,
+      "end_s": 148.51666666666668,
+      "emphasis": true
+    },
+    {
+      "index": 87,
+      "text": "EXECUTION",
+      "start_frame": 8911,
+      "end_frame": 8966,
+      "start_s": 148.51666666666668,
+      "end_s": 149.43333333333334,
+      "emphasis": true
+    },
+    {
+      "index": 88,
+      "text": "EXECUTION",
+      "start_frame": 8966,
+      "end_frame": 9027,
+      "start_s": 149.43333333333334,
+      "end_s": 150.45,
+      "emphasis": true
+    },
+    {
+      "index": 89,
+      "text": "EXECUTION",
+      "start_frame": 9027,
+      "end_frame": 9086,
+      "start_s": 150.45,
+      "end_s": 151.43333333333334,
+      "emphasis": true
+    },
+    {
+      "index": 90,
+      "text": "EXECUTION",
+      "start_frame": 9086,
+      "end_frame": 9132,
+      "start_s": 151.43333333333334,
+      "end_s": 152.2,
+      "emphasis": true
+    },
+    {
+      "index": 91,
+      "text": "EXECUTION",
+      "start_frame": 9132,
+      "end_frame": 9185,
+      "start_s": 152.2,
+      "end_s": 153.08333333333334,
+      "emphasis": true
+    },
+    {
+      "index": 92,
+      "text": "EXECUTION",
+      "start_frame": 9185,
+      "end_frame": 9234,
+      "start_s": 153.08333333333334,
+      "end_s": 153.9,
+      "emphasis": true
+    },
+    {
+      "index": 93,
+      "text": "EXECUTION",
+      "start_frame": 9234,
+      "end_frame": 9307,
+      "start_s": 153.9,
+      "end_s": 155.11666666666667,
+      "emphasis": true
+    },
+    {
+      "index": 94,
+      "text": "EXECUTION",
+      "start_frame": 9307,
+      "end_frame": 9360,
+      "start_s": 155.11666666666667,
+      "end_s": 156,
+      "emphasis": true
+    },
+    {
+      "index": 95,
+      "text": "EXECUTION",
+      "start_frame": 9360,
+      "end_frame": 9417,
+      "start_s": 156,
+      "end_s": 156.95,
+      "emphasis": true
+    },
+    {
+      "index": 96,
+      "text": "EXECUTION",
+      "start_frame": 9417,
+      "end_frame": 9475,
+      "start_s": 156.95,
+      "end_s": 157.91666666666666,
+      "emphasis": true
+    },
+    {
+      "index": 97,
+      "text": "EXECUTION",
+      "start_frame": 9475,
+      "end_frame": 9529,
+      "start_s": 157.91666666666666,
+      "end_s": 158.81666666666666,
+      "emphasis": true
+    },
+    {
+      "index": 98,
+      "text": "EIN",
+      "start_frame": 9529,
+      "end_frame": 9554,
+      "start_s": 158.81666666666666,
+      "end_s": 159.23333333333332,
+      "emphasis": true
+    },
+    {
+      "index": 99,
+      "text": "DOS",
+      "start_frame": 9554,
+      "end_frame": 9574,
+      "start_s": 159.23333333333332,
+      "end_s": 159.56666666666666,
+      "emphasis": true
+    },
+    {
+      "index": 100,
+      "text": "TROIS",
+      "start_frame": 9574,
+      "end_frame": 9610,
+      "start_s": 159.56666666666666,
+      "end_s": 160.16666666666666,
+      "emphasis": true
+    },
+    {
+      "index": 101,
+      "text": "NE",
+      "start_frame": 9610,
+      "end_frame": 9637,
+      "start_s": 160.16666666666666,
+      "end_s": 160.61666666666667,
+      "emphasis": true
+    },
+    {
+      "index": 102,
+      "text": "FEM",
+      "start_frame": 9637,
+      "end_frame": 9662,
+      "start_s": 160.61666666666667,
+      "end_s": 161.03333333333333,
+      "emphasis": true
+    },
+    {
+      "index": 103,
+      "text": "LIU",
+      "start_frame": 9662,
+      "end_frame": 9690,
+      "start_s": 161.03333333333333,
+      "end_s": 161.5,
+      "emphasis": true
+    },
+    {
+      "index": 104,
+      "text": "EXECUTION",
+      "start_frame": 9690,
+      "end_frame": 9753,
+      "start_s": 161.5,
+      "end_s": 162.55,
+      "emphasis": true
+    },
+    {
+      "index": 105,
+      "text": "If I can",
+      "start_frame": 9753,
+      "end_frame": 9794,
+      "start_s": 162.55,
+      "end_s": 163.23333333333332,
+      "emphasis": false
+    },
+    {
+      "index": 106,
+      "text": "If I can give them all the",
+      "start_frame": 9794,
+      "end_frame": 9905,
+      "start_s": 163.23333333333332,
+      "end_s": 165.08333333333334,
+      "emphasis": false
+    },
+    {
+      "index": 107,
+      "text": "EXECUTION",
+      "start_frame": 9905,
+      "end_frame": 9956,
+      "start_s": 165.08333333333334,
+      "end_s": 165.93333333333334,
+      "emphasis": true
+    },
+    {
+      "index": 108,
+      "text": "Then I can",
+      "start_frame": 9956,
+      "end_frame": 10016,
+      "start_s": 165.93333333333334,
+      "end_s": 166.93333333333334,
+      "emphasis": false
+    },
+    {
+      "index": 109,
+      "text": "Then I can be your only",
+      "start_frame": 10016,
+      "end_frame": 10130,
+      "start_s": 166.93333333333334,
+      "end_s": 168.83333333333334,
+      "emphasis": false
+    },
+    {
+      "index": 110,
+      "text": "EXECUTION",
+      "start_frame": 10130,
+      "end_frame": 10184,
+      "start_s": 168.83333333333334,
+      "end_s": 169.73333333333332,
+      "emphasis": true
+    },
+    {
+      "index": 111,
+      "text": "If I can have you back",
+      "start_frame": 10184,
+      "end_frame": 10307,
+      "start_s": 169.73333333333332,
+      "end_s": 171.78333333333333,
+      "emphasis": false
+    },
+    {
+      "index": 112,
+      "text": "I will run the",
+      "start_frame": 10307,
+      "end_frame": 10358,
+      "start_s": 171.78333333333333,
+      "end_s": 172.63333333333333,
+      "emphasis": false
+    },
+    {
+      "index": 113,
+      "text": "EXECUTION",
+      "start_frame": 10358,
+      "end_frame": 10414,
+      "start_s": 172.63333333333333,
+      "end_s": 173.56666666666666,
+      "emphasis": true
+    },
+    {
+      "index": 114,
+      "text": "Though we are trapped",
+      "start_frame": 10414,
+      "end_frame": 10493,
+      "start_s": 173.56666666666666,
+      "end_s": 174.88333333333333,
+      "emphasis": false
+    },
+    {
+      "index": 115,
+      "text": "We are trapped ah",
+      "start_frame": 10493,
+      "end_frame": 10630,
+      "start_s": 174.88333333333333,
+      "end_s": 177.16666666666666,
+      "emphasis": false
+    },
+    {
+      "index": 116,
+      "text": "I've studied",
+      "start_frame": 10630,
+      "end_frame": 10685,
+      "start_s": 177.16666666666666,
+      "end_s": 178.08333333333334,
+      "emphasis": false
+    },
+    {
+      "index": 117,
+      "text": "I've studied how to properly",
+      "start_frame": 10685,
+      "end_frame": 10791,
+      "start_s": 178.08333333333334,
+      "end_s": 179.85,
+      "emphasis": false
+    },
+    {
+      "index": 118,
+      "text": "LO-O-OVE",
+      "start_frame": 10791,
+      "end_frame": 10846,
+      "start_s": 179.85,
+      "end_s": 180.76666666666668,
+      "emphasis": true
+    },
+    {
+      "index": 119,
+      "text": "Question me",
+      "start_frame": 10846,
+      "end_frame": 10909,
+      "start_s": 180.76666666666668,
+      "end_s": 181.81666666666666,
+      "emphasis": false
+    },
+    {
+      "index": 120,
+      "text": "Question me I can answer all",
+      "start_frame": 10909,
+      "end_frame": 11014,
+      "start_s": 181.81666666666666,
+      "end_s": 183.56666666666666,
+      "emphasis": false
+    },
+    {
+      "index": 121,
+      "text": "LO-O-OVE",
+      "start_frame": 11014,
+      "end_frame": 11067,
+      "start_s": 183.56666666666666,
+      "end_s": 184.45,
+      "emphasis": true
+    },
+    {
+      "index": 122,
+      "text": "I know the algebraic expression of",
+      "start_frame": 11067,
+      "end_frame": 11255,
+      "start_s": 184.45,
+      "end_s": 187.58333333333334,
+      "emphasis": false
+    },
+    {
+      "index": 123,
+      "text": "LO-O-OVE",
+      "start_frame": 11255,
+      "end_frame": 11304,
+      "start_s": 187.58333333333334,
+      "end_s": 188.4,
+      "emphasis": true
+    },
+    {
+      "index": 124,
+      "text": "Though you are free",
+      "start_frame": 11304,
+      "end_frame": 11380,
+      "start_s": 188.4,
+      "end_s": 189.66666666666666,
+      "emphasis": false
+    },
+    {
+      "index": 125,
+      "text": "I am trapped",
+      "start_frame": 11380,
+      "end_frame": 11443,
+      "start_s": 189.66666666666666,
+      "end_s": 190.71666666666667,
+      "emphasis": false
+    },
+    {
+      "index": 126,
+      "text": "Trapped in",
+      "start_frame": 11443,
+      "end_frame": 11476,
+      "start_s": 190.71666666666667,
+      "end_s": 191.26666666666668,
+      "emphasis": false
+    },
+    {
+      "index": 127,
+      "text": "LO-O-OVE",
+      "start_frame": 11476,
+      "end_frame": 11716,
+      "start_s": 191.26666666666668,
+      "end_s": 195.26666666666668,
+      "emphasis": true
+    },
+    {
+      "index": 128,
+      "text": "EXECUTION",
+      "start_frame": 12344,
+      "end_frame": 12480,
+      "start_s": 205.73333333333332,
+      "end_s": 208,
+      "emphasis": true
+    }
+  ]
+}
