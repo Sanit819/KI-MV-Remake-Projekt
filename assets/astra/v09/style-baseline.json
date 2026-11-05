@@ -1,0 +1,10 @@
+{
+  "revision": 2,
+  "reason": "User rejected the first side-profile set; original persona + approved v08 eye and v07 recoil take precedence.",
+  "path": "/assets/astra/v09/A10-01-style2.png",
+  "sourceSize": [1024, 1536],
+  "face": {"x": 425, "y": 260, "w": 180, "h": 115},
+  "anchors": {"hands": [519, 458], "wrist": [479, 522], "shoulder": [615, 405]},
+  "provenance": {"tool": "built-in image_gen", "source": "C:/Users/auscar/.codex/generated_images/01a1a5ec-245d-7923-8dd6-2a8b6f24c904/exec-f5b676da-f4ba-4489-80aa-19711489e4f8.png", "prompt": "assets/astra/v09/A10-01-style2.prompt.txt", "inspection": "Image visibly matches compact approved face and original flowing dress; sampled apparent backdrop RGB pixels have alpha zero. Production renderer review pending."},
+  "alpha_note": "The tool preview displays purple backdrop RGB, but outside-contour checks at (100,100),(800,100),(500,10),(100,1100),(1000,1000),(1000,500),(512,1530),(210,120),(310,40),(800,50) all have alpha=0. Do not assume visible RGB haze in tool preview is an opaque backdrop."
+}

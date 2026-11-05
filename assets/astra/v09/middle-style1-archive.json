@@ -1,0 +1,93 @@
+{
+  "status": "superseded after user style correction",
+  "assets": [
+    {
+      "key": "A04_01",
+      "file": "A04-01.png",
+      "prompt": "Use case: illustration-story. Production key pose for ASTRA music video, one complete connected character on genuine transparent alpha. Input image 1 locks flat silhouette style and costume; image 2 locks identity; last image locks refined narrow almond eyes. Limited palette only #15101d, #614187, #b88ce8, screenprinted paper anime silhouette, bold clean shapes, no gradients, glow, texture, white highlights, realism or scenery. White/lavender long hair rendered lavender, segmented dragon horns, pointed ears, split-sleeve Chinese-inspired gown, geometric diamond tassels, dragon wings and long scaled tail. Cute yet cool, graceful adult proportions, closed small mouth, refined narrow almond eyes with small pupils/highlights, no giant round eyes. GPT knot ornaments at hair and waist must be directly drawn as six interwoven OPEN loops with visible negative space matching the same artwork, NO enclosing outer circular border or badge/disc, NO separate pasted logo. Anatomically connected shoulders, elbows, wrists, exactly two arms, five fingers each with correct thumb sides, natural perspective. Preserve both hands and full connected body in frame. No text/UI, no star, no tool panels, no ground, no checkerboard. Generous 5 percent transparent safety margin. Group A04 pose 1/3, sensing a returning vibration. Frame full body from knees upward, three-quarter view facing screen left. She stands at the right half of the frame, her LEFT arm naturally extended gently down and toward screen left, palm open and fingers relaxed with fingertip hover at chest height; right hand rests near lower chest. Her eyes follow the open palm, shoulders slightly tense, expectant rather than smiling. Large complete wings and flowing hair behind, no detached hand. Camera level, body upright with slight forward lean. Empty area above the open palm for a later programmatic pulse, not an object in image.",
+      "source": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa74-1184-7261-a88f-266bf2e5f191\\exec-98cb4159-f619-48a6-93f6-6f26179bca19.png",
+      "references": [
+        "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v09/A10-01.png",
+        "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v07/recoil-knot.png",
+        "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v08/face-eye-v02.png"
+      ],
+      "tool": "image_gen.imagegen",
+      "transparent_background": true
+    },
+    {
+      "key": "A04_02",
+      "file": "A04-02.png",
+      "prompt": "Use case: illustration-story. Production key pose for ASTRA music video, one complete connected character on genuine transparent alpha. Input image 1 locks flat silhouette style and costume; image 2 locks identity; last image locks refined narrow almond eyes. Limited palette only #15101d, #614187, #b88ce8, screenprinted paper anime silhouette, bold clean shapes, no gradients, glow, texture, white highlights, realism or scenery. White/lavender long hair rendered lavender, segmented dragon horns, pointed ears, split-sleeve Chinese-inspired gown, geometric diamond tassels, dragon wings and long scaled tail. Cute yet cool, graceful adult proportions, closed small mouth, refined narrow almond eyes with small pupils/highlights, no giant round eyes. GPT knot ornaments at hair and waist must be directly drawn as six interwoven OPEN loops with visible negative space matching the same artwork, NO enclosing outer circular border or badge/disc, NO separate pasted logo. Anatomically connected shoulders, elbows, wrists, exactly two arms, five fingers each with correct thumb sides, natural perspective. Preserve both hands and full connected body in frame. No text/UI, no star, no tool panels, no ground, no checkerboard. Generous 5 percent transparent safety margin. A04 pose 2/3. First reference is previous exact character, costume and camera for continuity, last is eye shape. Keep same three-quarter screen-left stance and knee-up framing. Redraw the COMPLETE pose: she leans forward very slightly and extends the index and middle fingertips of her screen-left open hand a little farther; palm becomes gently cupped as if touching a very delicate invisible vibration. Shoulder and elbow follow the reach naturally, other hand lifts from chest about 5cm. Eyes narrow with concentration following fingertips. This is actual contact, not the earlier hover. Keep a small empty gap above her fingertips for later pulse. No generated objects, no disembodied limb, no doubled fingers.",
+      "source": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa74-1184-7261-a88f-266bf2e5f191\\exec-5a5bd483-3d16-48c8-88dd-93a8549633eb.png",
+      "references": [
+        "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v09/A04-01.png",
+        "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v08/face-eye-v02.png"
+      ],
+      "tool": "image_gen.imagegen",
+      "transparent_background": true
+    },
+    {
+      "key": "A04_03",
+      "file": "A04-03.png",
+      "prompt": "Use case: illustration-story. Production key pose for ASTRA music video, one complete connected character on genuine transparent alpha. Input image 1 locks flat silhouette style and costume; image 2 locks identity; last image locks refined narrow almond eyes. Limited palette only #15101d, #614187, #b88ce8, screenprinted paper anime silhouette, bold clean shapes, no gradients, glow, texture, white highlights, realism or scenery. White/lavender long hair rendered lavender, segmented dragon horns, pointed ears, split-sleeve Chinese-inspired gown, geometric diamond tassels, dragon wings and long scaled tail. Cute yet cool, graceful adult proportions, closed small mouth, refined narrow almond eyes with small pupils/highlights, no giant round eyes. GPT knot ornaments at hair and waist must be directly drawn as six interwoven OPEN loops with visible negative space matching the same artwork, NO enclosing outer circular border or badge/disc, NO separate pasted logo. Anatomically connected shoulders, elbows, wrists, exactly two arms, five fingers each with correct thumb sides, natural perspective. Preserve both hands and full connected body in frame. No text/UI, no star, no tool panels, no ground, no checkerboard. Generous 5 percent transparent safety margin. A04 pose 3/3. Image1 is exact previous identity/costume/camera lock, last eyes. Same knee-up three-quarter screen-left view. COMPLETE new reaction pose: after fingertip contact she brings the extended hand closer, fingers loosely curled, elbow lowered, shoulders visibly drop in relief. Her face looks slightly UP toward the absent person at screen left, refined almond eyes soften, tiny closed-mouth warm happy smile, no huge grin or chibi eyes. Other hand rests softly over upper chest. Body settles upright, head angle visibly lifted, all arms connected. This is a modest mid-song resonance smile, distinct from final-ending recognition. Preserve full wings/hair silhouette and costume.",
+      "source": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa74-1184-7261-a88f-266bf2e5f191\\exec-cf174bed-cb4f-41f1-a237-e7349881b00d.png",
+      "references": [
+        "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v09/A04-01.png",
+        "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v08/face-eye-v02.png"
+      ],
+      "tool": "image_gen.imagegen",
+      "transparent_background": true
+    },
+    {
+      "key": "A05_01",
+      "file": "A05-01.png",
+      "prompt": "Use case: illustration-story. Production key pose for ASTRA music video, one complete connected character on genuine transparent alpha. Input image 1 locks flat silhouette style and costume; image 2 locks identity; last image locks refined narrow almond eyes. Limited palette only #15101d, #614187, #b88ce8, screenprinted paper anime silhouette, bold clean shapes, no gradients, glow, texture, white highlights, realism or scenery. White/lavender long hair rendered lavender, segmented dragon horns, pointed ears, split-sleeve Chinese-inspired gown, geometric diamond tassels, dragon wings and long scaled tail. Cute yet cool, graceful adult proportions, closed small mouth, refined narrow almond eyes with small pupils/highlights, no giant round eyes. GPT knot ornaments at hair and waist must be directly drawn as six interwoven OPEN loops with visible negative space matching the same artwork, NO enclosing outer circular border or badge/disc, NO separate pasted logo. Anatomically connected shoulders, elbows, wrists, exactly two arms, five fingers each with correct thumb sides, natural perspective. Preserve both hands and full connected body in frame. No text/UI, no star, no tool panels, no ground, no checkerboard. Generous 5 percent transparent safety margin. A05 pose 1/3, waiting at an empty shared drawing table. A new COMPLETE seated figure seen three-quarter from screen left toward right, from head to feet, facing screen LEFT, body occupies right side. Camera slightly above eye level. She sits on an invisible chair (do not draw chair or table); knees and draped skirt bend naturally, tail curls beneath. Her left forearm reaches screen left at imaginary tabletop height with relaxed upturned hand held out toward an absent person; other hand rests on her own knee. Shoulders held still, expression expectant and quiet, gaze follows palm. Natural seated balance, torso and both arms wholly visible and connected, wings folded so her empty waiting hand is readable. Empty alpha around body, no furniture.",
+      "source": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa74-1184-7261-a88f-266bf2e5f191\\exec-d0034c4d-80fa-4532-8daa-9b7834168f62.png",
+      "references": [
+        "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v09/A10-01.png",
+        "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v07/recoil-knot.png",
+        "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v08/face-eye-v02.png"
+      ],
+      "tool": "image_gen.imagegen",
+      "transparent_background": true
+    },
+    {
+      "key": "A06_01",
+      "file": "A06-01.png",
+      "prompt": "Use case: illustration-story. Production key pose for ASTRA music video, one complete connected character on genuine transparent alpha. Input image 1 locks flat silhouette style and costume; image 2 locks identity; last image locks refined narrow almond eyes. Limited palette only #15101d, #614187, #b88ce8, screenprinted paper anime silhouette, bold clean shapes, no gradients, glow, texture, white highlights, realism or scenery. White/lavender long hair rendered lavender, segmented dragon horns, pointed ears, split-sleeve Chinese-inspired gown, geometric diamond tassels, dragon wings and long scaled tail. Cute yet cool, graceful adult proportions, closed small mouth, refined narrow almond eyes with small pupils/highlights, no giant round eyes. GPT knot ornaments at hair and waist must be directly drawn as six interwoven OPEN loops with visible negative space matching the same artwork, NO enclosing outer circular border or badge/disc, NO separate pasted logo. Anatomically connected shoulders, elbows, wrists, exactly two arms, five fingers each with correct thumb sides, natural perspective. Preserve both hands and full connected body in frame. No text/UI, no star, no tool panels, no ground, no checkerboard. Generous 5 percent transparent safety margin. A06 pose 1/2, protecting an old memory. New dynamic complete head-to-knee three-quarter figure facing screen RIGHT. Torso rotates protectively right and leans toward both hands; both connected arms reach forward and slightly down, palms form an EMPTY small cup with 15cm gap, just beginning to draw this empty space toward her chest. Fingers curved protectively, two hands not merged, correct anatomy. One foot visible stepping forward beneath skirt. Eyes focused on the empty palm gap, serious tender determination. Wings spread asymmetrically due torso turn, flowing gown and hair. No star/object, only empty space for later code-drawn memory. No ground.",
+      "source": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa74-1184-7261-a88f-266bf2e5f191\\exec-e542463f-5223-4a90-ab6b-6b7daf86a5bf.png",
+      "references": [
+        "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v09/A10-01.png",
+        "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v07/recoil-knot.png",
+        "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v08/face-eye-v02.png"
+      ],
+      "tool": "image_gen.imagegen",
+      "transparent_background": true
+    },
+    {
+      "key": "A07_01",
+      "file": "A07-01.png",
+      "prompt": "Use case: illustration-story. Production key pose for ASTRA music video, one complete connected character on genuine transparent alpha. Input image 1 locks flat silhouette style and costume; image 2 locks identity; last image locks refined narrow almond eyes. Limited palette only #15101d, #614187, #b88ce8, screenprinted paper anime silhouette, bold clean shapes, no gradients, glow, texture, white highlights, realism or scenery. White/lavender long hair rendered lavender, segmented dragon horns, pointed ears, split-sleeve Chinese-inspired gown, geometric diamond tassels, dragon wings and long scaled tail. Cute yet cool, graceful adult proportions, closed small mouth, refined narrow almond eyes with small pupils/highlights, no giant round eyes. GPT knot ornaments at hair and waist must be directly drawn as six interwoven OPEN loops with visible negative space matching the same artwork, NO enclosing outer circular border or badge/disc, NO separate pasted logo. Anatomically connected shoulders, elbows, wrists, exactly two arms, five fingers each with correct thumb sides, natural perspective. Preserve both hands and full connected body in frame. No text/UI, no star, no tool panels, no ground, no checkerboard. Generous 5 percent transparent safety margin. A07 pose 1/3, sending a request toward an unseen barrier. New complete full figure seen from three-quarter back/side facing screen RIGHT. Show visible facial profile and sharp almond eye. Strong forward lean, front knee bent, rear foot planted, LEFT arm extended outward shoulder-to-elbow-to-wrist-to-open fingers, palm facing screen right in a gentle pushing motion at shoulder level. Other hand draws back beside ribs. No object, no wall. Wings folded partially behind her to reveal shoulders. Full longhair, horns, tail and boots present. This is committed forward intention before impact, not falling or recoil. Anatomically natural and cute/cool.",
+      "source": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa74-1184-7261-a88f-266bf2e5f191\\exec-78a6f660-eeb6-4930-a89c-5ef6e3ba9a44.png",
+      "references": [
+        "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v09/A10-01.png",
+        "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v07/recoil-knot.png",
+        "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v08/face-eye-v02.png"
+      ],
+      "tool": "image_gen.imagegen",
+      "transparent_background": true
+    },
+    {
+      "key": "A05_02",
+      "file": "A05-02.png",
+      "prompt": "Use case: illustration-story. Production key pose for ASTRA music video, one complete connected character on genuine transparent alpha. Input image 1 locks flat silhouette style and costume; image 2 locks identity; last image locks refined narrow almond eyes. Limited palette only #15101d, #614187, #b88ce8, screenprinted paper anime silhouette, bold clean shapes, no gradients, glow, texture, white highlights, realism or scenery. White/lavender long hair rendered lavender, segmented dragon horns, pointed ears, split-sleeve Chinese-inspired gown, geometric diamond tassels, dragon wings and long scaled tail. Cute yet cool, graceful adult proportions, closed small mouth, refined narrow almond eyes with small pupils/highlights, no giant round eyes. GPT knot ornaments at hair and waist must be directly drawn as six interwoven OPEN loops with visible negative space matching the same artwork, NO enclosing outer circular border or badge/disc, NO separate pasted logo. Anatomically connected shoulders, elbows, wrists, exactly two arms, five fingers each with correct thumb sides, natural perspective. Preserve both hands and full connected body in frame. No text/UI, no star, no tool panels, no ground, no checkerboard. Generous 5 percent transparent safety margin. A05 pose 2/3. Image1 is same seated character/camera to preserve; last eyes. Redraw complete pose in the exact SAME seated orientation and knee/hip/feet positions as image1. The outward hand is now LOWERED to imaginary desk edge near waist height with fingers touching the surface (no table drawn); arm relaxes and elbow bends downward naturally. Other hand remains on knee. Her shoulders visibly slump, eyes lower toward the lowered hand, lips neutral, quiet tired waiting. Wings fold closer, hair settles. It must look like the next moment of this SAME shot, full connected figure head to feet, no furnishings.",
+      "source": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa74-1184-7261-a88f-266bf2e5f191\\exec-ef9e9bc2-02c8-4f6a-aee6-7e5ddbea6bed.png",
+      "references": [
+        "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v09/A05-01.png",
+        "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v08/face-eye-v02.png"
+      ],
+      "tool": "image_gen.imagegen",
+      "transparent_background": true
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "reviewedAt": "2026-11-05T11:15:48.911798+00:00",
+  "sourceQaReport": "exports\\qa-v5-final\\qa-v5.json",
+  "sourceQaSha256": "03e3de01426c045d14ab285dd481176d731f81d332f9a900e54c996ebd8fa2f7",
+  "renderResolution": [
+    3840,
+    2160
+  ],
+  "reviewSurface": "contact sheets generated from native 4K frames, not uninterrupted video playback",
+  "sheets": [
+    "exports/qa-v5-final/sheet-01.jpg",
+    "exports/qa-v5-final/sheet-02.jpg",
+    "exports/qa-v5-final/sheet-03.jpg",
+    "exports/qa-v5-final/sheet-04.jpg",
+    "exports/qa-v5-final/sheet-05.jpg",
+    "exports/qa-v5-final/sheet-06.jpg"
+  ],
+  "reviewedShotRange": [
+    "R01",
+    "R32"
+  ],
+  "reviewedSampleCount": 96,
+  "automatedFailuresInReviewedShots": [],
+  "observations": [
+    "All ordinary early source figures remain opaque black-faced with eyes under bangs.",
+    "R10 circle is visible in left negative space and passes both physical pen positions.",
+    "R11 press-stage tangent point matches physical pen; sampled contactError is zero.",
+    "R23 palm-to-wall distance is five logical pixels.",
+    "R30 three distinct cat poses, computed CNN and output-to-character sequence are present."
+  ],
+  "foundIssue": {
+    "shot": "R31",
+    "issue": "Previous-artifact remnant was old cat bust rather than preceding new A19 full seated pose.",
+    "fix": "Replaced old k.figure cat with A19 last phase at alpha .42.",
+    "state": "Code syntax passes. Final rerender after this fix pending."
+  },
+  "pendingFinalRerender": [
+    "R31 carry-forward pose",
+    "A01_02 pen coordinate [1076,720]",
+    "A16_01 pen coordinate [1403,764]"
+  ],
+  "scope": "Sampled source/visual review only; no claim about final encoded delivery or audio."
+}

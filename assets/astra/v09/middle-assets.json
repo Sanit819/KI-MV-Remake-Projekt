@@ -1,0 +1,682 @@
+{
+  "version": 5,
+  "owner": "middle",
+  "assets": {
+    "A05_01": {
+      "path": "/assets/astra/v09/A05-01-shadow.png",
+      "anchors": {
+        "hands": [
+          149,
+          504
+        ],
+        "wrist": [
+          223,
+          530
+        ],
+        "seat": [
+          551,
+          884
+        ],
+        "chest": [
+          564,
+          564
+        ]
+      },
+      "face": {
+        "x": 468,
+        "y": 278,
+        "w": 174,
+        "h": 137
+      },
+      "faceMode": "shadow-bangs",
+      "styleRevision": 3,
+      "faceTreatment": "shadow",
+      "actionGroup": "A05",
+      "phase": 1,
+      "provenance": {
+        "tool": "image_gen.imagegen",
+        "source": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa74-1184-7261-a88f-266bf2e5f191\\exec-a0d679c4-6347-435d-a915-901e0e787964.png",
+        "prompt": "/assets/astra/v09/A05-01-shadow.prompt.txt",
+        "references": [
+          "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v09/A05-01.png",
+          "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v07/recoil-knot.png"
+        ],
+        "originalPoseSource": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa74-1184-7261-a88f-266bf2e5f191\\exec-1ed7c1a3-0eb7-4817-9037-8718c2de5477.png",
+        "inspected": true,
+        "inspection": "Source artwork visually inspected at generation; connected anatomy and source-drawn open knot checked."
+      }
+    },
+    "A06_01": {
+      "path": "/assets/astra/v09/A06-01-shadow.png",
+      "anchors": {
+        "hands": [
+          737,
+          492
+        ],
+        "wrist": [
+          673,
+          563
+        ],
+        "chest": [
+          571,
+          449
+        ]
+      },
+      "face": {
+        "x": 448,
+        "y": 273,
+        "w": 145,
+        "h": 112
+      },
+      "faceMode": "shadow-bangs",
+      "faceTreatment": "shadow",
+      "styleRevision": 3,
+      "actionGroup": "A06",
+      "phase": 1,
+      "provenance": {
+        "tool": "image_gen.imagegen",
+        "source": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa74-1184-7261-a88f-266bf2e5f191\\exec-7596486f-f651-4302-ace7-2e79f51f5bd9.png",
+        "prompt": "/assets/astra/v09/A06-01-shadow.prompt.txt",
+        "references": [
+          "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v09/A06-01.png",
+          "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v07/recoil-knot.png"
+        ],
+        "originalPoseSource": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa74-1184-7261-a88f-266bf2e5f191\\exec-29885660-9ac5-421c-9944-e43c7c360883.png",
+        "inspected": true,
+        "inspection": "Source artwork visually inspected at generation; connected anatomy and source-drawn open knot checked."
+      }
+    },
+    "A07_01": {
+      "path": "/assets/astra/v09/A07-01-shadow.png",
+      "anchors": {
+        "hands": [
+          934,
+          359
+        ],
+        "wrist": [
+          875,
+          402
+        ],
+        "chest": [
+          560,
+          489
+        ]
+      },
+      "face": {
+        "x": 491,
+        "y": 277,
+        "w": 152,
+        "h": 109
+      },
+      "faceMode": "shadow-bangs",
+      "faceTreatment": "shadow",
+      "styleRevision": 3,
+      "actionGroup": "A07",
+      "phase": 1,
+      "provenance": {
+        "tool": "image_gen.imagegen",
+        "source": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa74-1184-7261-a88f-266bf2e5f191\\exec-804fe509-2ee2-4bf9-b6ff-d15102aa54b1.png",
+        "prompt": "/assets/astra/v09/A07-01-shadow.prompt.txt",
+        "references": [
+          "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v09/A07-01.png",
+          "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v07/recoil-knot.png"
+        ],
+        "originalPoseSource": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa74-1184-7261-a88f-266bf2e5f191\\exec-dfdf933f-cbb2-460c-859d-6d49b87ffbbe.png",
+        "inspected": true,
+        "inspection": "Source artwork visually inspected at generation; connected anatomy and source-drawn open knot checked."
+      }
+    },
+    "A04_01": {
+      "path": "/assets/astra/v09/A04-01-shadow.png",
+      "anchors": {
+        "hands": [
+          210,
+          574
+        ],
+        "wrist": [
+          306,
+          614
+        ],
+        "chest": [
+          718,
+          667
+        ]
+      },
+      "face": {
+        "x": 566,
+        "y": 316,
+        "w": 174,
+        "h": 143
+      },
+      "faceMode": "shadow-bangs",
+      "styleRevision": 3,
+      "faceTreatment": "shadow",
+      "actionGroup": "A04",
+      "phase": 1,
+      "provenance": {
+        "tool": "image_gen.imagegen",
+        "source": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa74-1184-7261-a88f-266bf2e5f191\\exec-e220c7a7-9ed9-4d34-81e4-d0814dddd442.png",
+        "prompt": "/assets/astra/v09/A04-01-shadow.prompt.txt",
+        "references": [
+          "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v09/A04-01.png",
+          "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v07/recoil-knot.png"
+        ],
+        "originalPoseSource": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa74-1184-7261-a88f-266bf2e5f191\\exec-2c114ee4-8fbf-4194-afcb-230985a7a5b6.png",
+        "inspected": true,
+        "inspection": "Source artwork visually inspected at generation; connected anatomy and source-drawn open knot checked."
+      }
+    },
+    "A05_02": {
+      "path": "/assets/astra/v09/A05-02-shadow.png",
+      "anchors": {
+        "hands": [
+          132,
+          841
+        ],
+        "wrist": [
+          214,
+          844
+        ],
+        "seat": [
+          550,
+          888
+        ],
+        "chest": [
+          564,
+          575
+        ]
+      },
+      "face": {
+        "x": 457,
+        "y": 318,
+        "w": 173,
+        "h": 115
+      },
+      "faceMode": "shadow-bangs",
+      "faceTreatment": "shadow",
+      "styleRevision": 3,
+      "actionGroup": "A05",
+      "phase": 2,
+      "provenance": {
+        "tool": "image_gen.imagegen",
+        "source": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa74-1184-7261-a88f-266bf2e5f191\\exec-10d9cf12-b442-4b1b-a535-31ff8ef0f405.png",
+        "prompt": "/assets/astra/v09/A05-02-shadow.prompt.txt",
+        "references": [
+          "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v09/A05-02.png",
+          "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v07/recoil-knot.png"
+        ],
+        "originalPoseSource": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa74-1184-7261-a88f-266bf2e5f191\\exec-cf6cec86-61bf-4c5f-961c-59b5784ac0d1.png",
+        "inspected": true,
+        "inspection": "Source artwork visually inspected at generation; connected anatomy and source-drawn open knot checked."
+      }
+    },
+    "A06_02": {
+      "path": "/assets/astra/v09/A06-02-shadow.png",
+      "anchors": {
+        "hands": [
+          551,
+          473
+        ],
+        "wrist": [
+          510,
+          539
+        ],
+        "chest": [
+          550,
+          473
+        ]
+      },
+      "face": {
+        "x": 440,
+        "y": 274,
+        "w": 147,
+        "h": 91
+      },
+      "faceMode": "shadow-bangs",
+      "faceTreatment": "shadow",
+      "styleRevision": 3,
+      "actionGroup": "A06",
+      "phase": 2,
+      "provenance": {
+        "tool": "image_gen.imagegen",
+        "source": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa74-1184-7261-a88f-266bf2e5f191\\exec-da15f75c-0de0-4b2f-b51f-785af86acc1c.png",
+        "prompt": "/assets/astra/v09/A06-02-shadow.prompt.txt",
+        "references": [
+          "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v09/A06-02.png",
+          "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v07/recoil-knot.png"
+        ],
+        "originalPoseSource": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa74-1184-7261-a88f-266bf2e5f191\\exec-c21635c6-ac41-4235-9029-45319fa3ba46.png",
+        "inspected": true,
+        "inspection": "Source artwork visually inspected at generation; connected anatomy and source-drawn open knot checked."
+      }
+    },
+    "A04_02": {
+      "path": "/assets/astra/v09/A04-02-shadow.png",
+      "anchors": {
+        "hands": [
+          188,
+          565
+        ],
+        "wrist": [
+          282,
+          668
+        ],
+        "chest": [
+          678,
+          677
+        ]
+      },
+      "face": {
+        "x": 506,
+        "y": 381,
+        "w": 181,
+        "h": 140
+      },
+      "faceMode": "shadow-bangs",
+      "styleRevision": 3,
+      "faceTreatment": "shadow",
+      "actionGroup": "A04",
+      "phase": 2,
+      "provenance": {
+        "tool": "image_gen.imagegen",
+        "source": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa74-1184-7261-a88f-266bf2e5f191\\exec-d0d9d0dc-b02a-40d8-823c-c8b9ae3ea349.png",
+        "prompt": "/assets/astra/v09/A04-02-shadow.prompt.txt",
+        "references": [
+          "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v09/A04-02.png",
+          "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v07/recoil-knot.png"
+        ],
+        "originalPoseSource": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa74-1184-7261-a88f-266bf2e5f191\\exec-57190c05-cb48-48a5-bf00-ccc4f1aa77b6.png",
+        "inspected": true,
+        "inspection": "Source artwork visually inspected at generation; connected anatomy and source-drawn open knot checked."
+      }
+    },
+    "A20_01": {
+      "path": "/assets/astra/v09/A20-01-shadow.png",
+      "anchors": {
+        "pen": [
+          640,
+          769
+        ],
+        "hands": [
+          564,
+          710
+        ],
+        "wrist": [
+          494,
+          736
+        ],
+        "seat": [
+          576,
+          860
+        ],
+        "chest": [
+          611,
+          553
+        ]
+      },
+      "face": {
+        "x": 540,
+        "y": 309,
+        "w": 161,
+        "h": 119
+      },
+      "faceMode": "shadow-bangs",
+      "faceTreatment": "shadow",
+      "styleRevision": 3,
+      "actionGroup": "A20",
+      "phase": 1,
+      "provenance": {
+        "tool": "image_gen.imagegen",
+        "source": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa74-1184-7261-a88f-266bf2e5f191\\exec-e7af2094-19a1-4939-863c-1a6889d78512.png",
+        "prompt": "/assets/astra/v09/A20-01-shadow.prompt.txt",
+        "references": [
+          "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v09/A20-01.png",
+          "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v07/recoil-knot.png"
+        ],
+        "originalPoseSource": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa74-1184-7261-a88f-266bf2e5f191\\exec-f8e8c3d1-58a9-4127-b044-9f44bc4d8dca.png",
+        "inspected": true,
+        "inspection": "Source artwork visually inspected at generation; connected anatomy and source-drawn open knot checked."
+      }
+    },
+    "A21_01": {
+      "path": "/assets/astra/v09/A21-01-shadow.png",
+      "anchors": {
+        "hands": [
+          877,
+          415
+        ],
+        "wrist": [
+          810,
+          441
+        ],
+        "chest": [
+          548,
+          514
+        ]
+      },
+      "face": {
+        "x": 440,
+        "y": 252,
+        "w": 153,
+        "h": 119
+      },
+      "faceMode": "shadow-bangs",
+      "faceTreatment": "shadow",
+      "styleRevision": 3,
+      "actionGroup": "A21",
+      "phase": 1,
+      "provenance": {
+        "tool": "image_gen.imagegen",
+        "source": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa74-1184-7261-a88f-266bf2e5f191\\exec-b2b38ef4-b37f-4623-9f98-8fca25f1d96f.png",
+        "prompt": "/assets/astra/v09/A21-01-shadow.prompt.txt",
+        "references": [
+          "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v09/A21-01.png",
+          "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v07/recoil-knot.png"
+        ],
+        "originalPoseSource": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa74-1184-7261-a88f-266bf2e5f191\\exec-ab33d7af-50c6-42ff-a294-21d77971a835.png",
+        "inspected": true,
+        "inspection": "Source artwork visually inspected at generation; connected anatomy and source-drawn open knot checked."
+      }
+    },
+    "A07_02": {
+      "path": "/assets/astra/v09/A07-02-shadow.png",
+      "anchors": {
+        "hands": [
+          947,
+          383
+        ],
+        "wrist": [
+          908,
+          435
+        ],
+        "chest": [
+          557,
+          486
+        ]
+      },
+      "face": {
+        "x": 495,
+        "y": 267,
+        "w": 153,
+        "h": 112
+      },
+      "faceMode": "shadow-bangs",
+      "faceTreatment": "shadow",
+      "styleRevision": 3,
+      "actionGroup": "A07",
+      "phase": 2,
+      "provenance": {
+        "tool": "image_gen.imagegen",
+        "source": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa74-1184-7261-a88f-266bf2e5f191\\exec-14597cc9-2eed-43ec-8e7e-4e39284b09fa.png",
+        "prompt": "/assets/astra/v09/A07-02-shadow.prompt.txt",
+        "references": [
+          "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v09/A07-02.png",
+          "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v07/recoil-knot.png"
+        ],
+        "originalPoseSource": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa74-1184-7261-a88f-266bf2e5f191\\exec-0b297285-d456-4d24-aa11-af7eab8f5ec2.png",
+        "inspected": true,
+        "inspection": "Source artwork visually inspected at generation; connected anatomy and source-drawn open knot checked."
+      }
+    },
+    "A05_03": {
+      "path": "/assets/astra/v09/A05-03-shadow.png",
+      "anchors": {
+        "hands": [
+          493,
+          813
+        ],
+        "wrist": [
+          456,
+          842
+        ],
+        "seat": [
+          553,
+          883
+        ],
+        "chest": [
+          552,
+          570
+        ]
+      },
+      "face": {
+        "x": 431,
+        "y": 361,
+        "w": 152,
+        "h": 106
+      },
+      "faceMode": "shadow-bangs",
+      "faceTreatment": "shadow",
+      "styleRevision": 3,
+      "actionGroup": "A05",
+      "phase": 3,
+      "provenance": {
+        "tool": "image_gen.imagegen",
+        "source": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa74-1184-7261-a88f-266bf2e5f191\\exec-770f937b-0f94-4795-90c8-19cc4d27d35c.png",
+        "prompt": "/assets/astra/v09/A05-03-shadow.prompt.txt",
+        "references": [
+          "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v09/A05-03.png",
+          "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v07/recoil-knot.png"
+        ],
+        "originalPoseSource": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa74-1184-7261-a88f-266bf2e5f191\\exec-ccf96a35-4752-438f-87e2-702ca41976c3.png",
+        "inspected": true,
+        "inspection": "Source artwork visually inspected at generation; connected anatomy and source-drawn open knot checked."
+      }
+    },
+    "A04_03": {
+      "path": "/assets/astra/v09/A04-03-shadow.png",
+      "anchors": {
+        "hands": [
+          602,
+          577
+        ],
+        "wrist": [
+          585,
+          654
+        ],
+        "chest": [
+          752,
+          627
+        ]
+      },
+      "face": {
+        "x": 576,
+        "y": 300,
+        "w": 179,
+        "h": 144
+      },
+      "faceMode": "shadow-bangs",
+      "styleRevision": 3,
+      "faceTreatment": "shadow",
+      "actionGroup": "A04",
+      "phase": 3,
+      "provenance": {
+        "tool": "image_gen.imagegen",
+        "source": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa74-1184-7261-a88f-266bf2e5f191\\exec-e0fc2892-c4fa-4fe2-8159-81ddd17fcd87.png",
+        "prompt": "/assets/astra/v09/A04-03-shadow.prompt.txt",
+        "references": [
+          "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v09/A04-03.png",
+          "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v07/recoil-knot.png"
+        ],
+        "originalPoseSource": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa74-1184-7261-a88f-266bf2e5f191\\exec-fcf19acf-28b6-46e0-96c9-41ba7f94ed1e.png",
+        "inspected": true,
+        "inspection": "Source artwork visually inspected at generation; connected anatomy and source-drawn open knot checked."
+      }
+    },
+    "A07_03": {
+      "path": "/assets/astra/v09/A07-03-shadow.png",
+      "anchors": {
+        "hands": [
+          816,
+          420
+        ],
+        "wrist": [
+          803,
+          482
+        ],
+        "chest": [
+          615,
+          525
+        ]
+      },
+      "face": {
+        "x": 499,
+        "y": 276,
+        "w": 160,
+        "h": 115
+      },
+      "faceMode": "shadow-bangs",
+      "faceTreatment": "shadow",
+      "styleRevision": 3,
+      "actionGroup": "A07",
+      "phase": 3,
+      "provenance": {
+        "tool": "image_gen.imagegen",
+        "source": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa74-1184-7261-a88f-266bf2e5f191\\exec-7829a3c1-a788-40bd-b54f-e1c4a166c383.png",
+        "prompt": "/assets/astra/v09/A07-03-shadow.prompt.txt",
+        "references": [
+          "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v09/A07-03.png",
+          "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v07/recoil-knot.png"
+        ],
+        "originalPoseSource": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa74-1184-7261-a88f-266bf2e5f191\\exec-cc0bd6cc-6c9d-4a78-8a04-932a3d108bfa.png",
+        "inspected": true,
+        "inspection": "Source artwork visually inspected at generation; connected anatomy and source-drawn open knot checked."
+      }
+    },
+    "A21_02": {
+      "path": "/assets/astra/v09/A21-02-shadow.png",
+      "anchors": {
+        "hands": [
+          649,
+          519
+        ],
+        "wrist": [
+          660,
+          553
+        ],
+        "chest": [
+          563,
+          505
+        ]
+      },
+      "face": {
+        "x": 450,
+        "y": 270,
+        "w": 155,
+        "h": 110
+      },
+      "faceMode": "shadow-bangs",
+      "faceTreatment": "shadow",
+      "styleRevision": 3,
+      "actionGroup": "A21",
+      "phase": 2,
+      "provenance": {
+        "tool": "image_gen.imagegen",
+        "source": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa74-1184-7261-a88f-266bf2e5f191\\exec-8d0c635d-f2c6-41cf-a82f-f81b5581db48.png",
+        "prompt": "/assets/astra/v09/A21-02-shadow.prompt.txt",
+        "references": [
+          "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v09/A21-02.png",
+          "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v07/recoil-knot.png"
+        ],
+        "originalPoseSource": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa74-1184-7261-a88f-266bf2e5f191\\exec-9c75a9ad-b103-4322-9dcd-cdc4a599e8e1.png",
+        "inspected": true,
+        "inspection": "Source artwork visually inspected at generation; connected anatomy and source-drawn open knot checked."
+      }
+    },
+    "A20_02": {
+      "path": "/assets/astra/v09/A20-02-shadow.png",
+      "anchors": {
+        "pen": [
+          594,
+          606
+        ],
+        "hands": [
+          520,
+          575
+        ],
+        "wrist": [
+          497,
+          650
+        ],
+        "seat": [
+          576,
+          860
+        ],
+        "chest": [
+          616,
+          562
+        ]
+      },
+      "face": {
+        "x": 538,
+        "y": 291,
+        "w": 165,
+        "h": 128
+      },
+      "faceMode": "shadow-bangs",
+      "faceTreatment": "shadow",
+      "styleRevision": 3,
+      "actionGroup": "A20",
+      "phase": 2,
+      "provenance": {
+        "tool": "image_gen.imagegen",
+        "source": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa74-1184-7261-a88f-266bf2e5f191\\exec-ab4ca56d-5e06-4f97-94a3-92632b232476.png",
+        "prompt": "/assets/astra/v09/A20-02-shadow.prompt.txt",
+        "references": [
+          "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v09/A20-02.png",
+          "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v07/recoil-knot.png"
+        ],
+        "originalPoseSource": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa74-1184-7261-a88f-266bf2e5f191\\exec-ff476f63-9a36-4ea3-855f-853610f516bf.png",
+        "inspected": true,
+        "inspection": "Source artwork visually inspected at generation; connected anatomy and source-drawn open knot checked."
+      }
+    },
+    "A20_03": {
+      "path": "/assets/astra/v09/A20-03-shadow.png",
+      "anchors": {
+        "pen": [
+          604,
+          762
+        ],
+        "hands": [
+          528,
+          723
+        ],
+        "wrist": [
+          479,
+          746
+        ],
+        "seat": [
+          576,
+          860
+        ],
+        "chest": [
+          609,
+          555
+        ]
+      },
+      "face": {
+        "x": 486,
+        "y": 246,
+        "w": 159,
+        "h": 123
+      },
+      "faceMode": "shadow-bangs",
+      "faceTreatment": "shadow",
+      "styleRevision": 3,
+      "actionGroup": "A20",
+      "phase": 3,
+      "provenance": {
+        "tool": "image_gen.imagegen",
+        "source": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa74-1184-7261-a88f-266bf2e5f191\\exec-ed775316-d29a-4e8f-95ca-a0975c4e9f26.png",
+        "prompt": "/assets/astra/v09/A20-03-shadow.prompt.txt",
+        "references": [
+          "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v09/A20-03.png",
+          "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v07/recoil-knot.png"
+        ],
+        "originalPoseSource": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa74-1184-7261-a88f-266bf2e5f191\\exec-730b4755-e685-47b8-828c-79bb402e7404.png",
+        "inspected": true,
+        "inspection": "Source artwork visually inspected at generation; connected anatomy and source-drawn open knot checked."
+      }
+    }
+  }
+}

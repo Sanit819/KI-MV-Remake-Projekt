@@ -1,0 +1,180 @@
+{
+  "owner": "root-middle",
+  "revision": 3,
+  "scope": "A08/A09: new full connected poses matched to corrected persona, no composited body parts.",
+  "assets": {
+    "A08_01": {
+      "path": "/assets/astra/v09/A08-01-shadow.png",
+      "anchors": {
+        "hands": [
+          253,
+          568
+        ],
+        "wrist": [
+          290,
+          583
+        ],
+        "chest": [
+          555,
+          480
+        ],
+        "record": [
+          424,
+          708
+        ],
+        "shoulder": [
+          646,
+          426
+        ]
+      },
+      "face": {
+        "x": 418,
+        "y": 301,
+        "w": 184,
+        "h": 111
+      },
+      "actionGroup": "A08",
+      "phase": 1,
+      "styleRevision": 3,
+      "provenance": {
+        "tool": "built-in image_gen",
+        "source": "C:\\Users\\auscar\\.codex\\generated_images\\01a1a5ec-245d-7923-8dd6-2a8b6f24c904\\exec-87447bbd-e9a3-4955-8b10-bde50952732b.png",
+        "prompt": "assets/astra/v09/A08-01-shadow.prompt.txt",
+        "inspected": true,
+        "inspection": "ImageGen face-only shadow edit visually inspected: opaque near-black face, concealed eyes, original complete pose and prop positions preserved. Recheck dimensions and anchors in final renderer.",
+        "previousSource": "C:\\Users\\auscar\\.codex\\generated_images\\01a1a5ec-245d-7923-8dd6-2a8b6f24c904\\exec-5bca6d3e-9cf9-4712-b458-673deee6f594.png"
+      },
+      "faceTreatment": "shadow"
+    },
+    "A08_02": {
+      "path": "/assets/astra/v09/A08-02-shadow.png",
+      "anchors": {
+        "hands": [
+          494,
+          727
+        ],
+        "wrist": [
+          400,
+          659
+        ],
+        "chest": [
+          555,
+          509
+        ],
+        "record": [
+          527,
+          720
+        ],
+        "shoulder": [
+          641,
+          462
+        ]
+      },
+      "face": {
+        "x": 410,
+        "y": 339,
+        "w": 184,
+        "h": 110
+      },
+      "actionGroup": "A08",
+      "phase": 2,
+      "styleRevision": 3,
+      "provenance": {
+        "tool": "built-in image_gen",
+        "source": "C:\\Users\\auscar\\.codex\\generated_images\\01a1a5ec-245d-7923-8dd6-2a8b6f24c904\\exec-8313b7f0-2475-4c08-977b-fb93401f5168.png",
+        "prompt": "assets/astra/v09/A08-02-shadow.prompt.txt",
+        "inspected": true,
+        "inspection": "ImageGen face-only shadow edit visually inspected: opaque near-black face, concealed eyes, original complete pose and prop positions preserved. Recheck dimensions and anchors in final renderer.",
+        "previousSource": "C:\\Users\\auscar\\.codex\\generated_images\\01a1a5ec-245d-7923-8dd6-2a8b6f24c904\\exec-46a286c2-1ba4-47b0-b76b-82f70ad27fbe.png"
+      },
+      "faceTreatment": "shadow"
+    },
+    "A09_01": {
+      "path": "/assets/astra/v09/A09-01-shadow.png",
+      "anchors": {
+        "hands": [
+          143,
+          1140
+        ],
+        "button": [
+          143,
+          1140
+        ],
+        "wrist": [
+          260,
+          984
+        ],
+        "chest": [
+          637,
+          569
+        ],
+        "shoulder": [
+          481,
+          530
+        ]
+      },
+      "face": {
+        "x": 465,
+        "y": 328,
+        "w": 226,
+        "h": 139
+      },
+      "actionGroup": "A09",
+      "phase": 1,
+      "styleRevision": 3,
+      "provenance": {
+        "tool": "built-in image_gen",
+        "source": "C:\\Users\\auscar\\.codex\\generated_images\\01a1a5ec-245d-7923-8dd6-2a8b6f24c904\\exec-2617f48a-8a52-4b8a-81af-d2f425544998.png",
+        "prompt": "assets/astra/v09/A09-01-shadow.prompt.txt",
+        "inspected": true,
+        "inspection": "ImageGen face-only shadow edit visually inspected: opaque near-black face, concealed eyes, original complete pose and prop positions preserved. Recheck dimensions and anchors in final renderer.",
+        "previousSource": "C:\\Users\\auscar\\.codex\\generated_images\\01a1a5ec-245d-7923-8dd6-2a8b6f24c904\\exec-68f4a16b-45ce-4a40-9c7f-91f4bf52df4e.png"
+      },
+      "faceTreatment": "shadow"
+    },
+    "A09_02": {
+      "path": "/assets/astra/v09/A09-02-shadow.png",
+      "anchors": {
+        "hands": [
+          171,
+          840
+        ],
+        "pen": [
+          137,
+          906
+        ],
+        "wrist": [
+          259,
+          809
+        ],
+        "chest": [
+          634,
+          592
+        ],
+        "shoulder": [
+          447,
+          537
+        ]
+      },
+      "face": {
+        "x": 435,
+        "y": 359,
+        "w": 224,
+        "h": 140
+      },
+      "actionGroup": "A09",
+      "phase": 2,
+      "styleRevision": 3,
+      "provenance": {
+        "tool": "built-in image_gen",
+        "source": "C:\\Users\\auscar\\.codex\\generated_images\\01a1a5ec-245d-7923-8dd6-2a8b6f24c904\\exec-b48c3dbf-5bb6-440e-96fe-ab6c3225e3f7.png",
+        "prompt": "assets/astra/v09/A09-02-shadow.prompt.txt",
+        "inspected": true,
+        "inspection": "ImageGen face-only shadow edit visually inspected: opaque near-black face, concealed eyes, original complete pose and prop positions preserved. Recheck dimensions and anchors in final renderer.",
+        "previousSource": "C:\\Users\\auscar\\.codex\\generated_images\\01a1a5ec-245d-7923-8dd6-2a8b6f24c904\\exec-b1f39538-73db-47cb-8ba3-332f11e3cd6b.png"
+      },
+      "faceTreatment": "shadow"
+    }
+  },
+  "facePolicy": "Shadow faces for all ordinary actions; only existing v4 eye/recognition closeups may reveal face."
+}

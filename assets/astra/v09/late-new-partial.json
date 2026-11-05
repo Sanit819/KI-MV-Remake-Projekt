@@ -1,0 +1,490 @@
+{
+  "A10_02": {
+    "path": "/assets/astra/v09/A10-02-style2.png",
+    "sourceSize": [
+      1024,
+      1536
+    ],
+    "anchors": {
+      "hands": [
+        514,
+        647
+      ],
+      "wrist": [
+        478,
+        713
+      ],
+      "shoulder": [
+        638,
+        571
+      ]
+    },
+    "face": {
+      "x": 400,
+      "y": 400,
+      "w": 200,
+      "h": 130
+    },
+    "actionGroup": "A10",
+    "phase": 2,
+    "provenance": {
+      "tool": "built-in image_gen",
+      "source": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa74-6594-76d2-b670-a6654b78a7af\\exec-fb9953a2-c247-487d-94b9-d9bbe475a80e.png",
+      "prompt": "assets/astra/v09/A10-02-style2.prompt.txt",
+      "inspected": true,
+      "styleRevision": 2
+    }
+  },
+  "A10_03": {
+    "path": "/assets/astra/v09/A10-03-style2.png",
+    "sourceSize": [
+      1024,
+      1536
+    ],
+    "anchors": {
+      "hands": [
+        511,
+        779
+      ],
+      "wrist": [
+        448,
+        840
+      ],
+      "shoulder": [
+        659,
+        732
+      ]
+    },
+    "face": {
+      "x": 370,
+      "y": 570,
+      "w": 244,
+      "h": 114
+    },
+    "actionGroup": "A10",
+    "phase": 3,
+    "provenance": {
+      "tool": "built-in image_gen",
+      "source": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa74-6594-76d2-b670-a6654b78a7af\\exec-6e1e5580-a3c1-4a88-a388-d50400f48418.png",
+      "prompt": "assets/astra/v09/A10-03-style2.prompt.txt",
+      "inspected": true,
+      "styleRevision": 2
+    }
+  },
+  "A11_01": {
+    "path": "/assets/astra/v09/A11-01-style2.png",
+    "sourceSize": [
+      1024,
+      1536
+    ],
+    "anchors": {
+      "hands": [
+        875,
+        452
+      ],
+      "wrist": [
+        812,
+        459
+      ],
+      "shoulder": [
+        610,
+        413
+      ]
+    },
+    "face": {
+      "x": 433,
+      "y": 268,
+      "w": 177,
+      "h": 107
+    },
+    "actionGroup": "A11",
+    "phase": 1,
+    "provenance": {
+      "tool": "built-in image_gen",
+      "source": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa74-6594-76d2-b670-a6654b78a7af\\exec-1a4c8125-05b8-4eeb-a040-621c5a216bc2.png",
+      "prompt": "assets/astra/v09/A11-01-style2.prompt.txt",
+      "inspected": true,
+      "styleRevision": 2
+    }
+  },
+  "A11_02": {
+    "path": "/assets/astra/v09/A11-02-style2.png",
+    "sourceSize": [
+      1024,
+      1536
+    ],
+    "anchors": {
+      "hands": [
+        875,
+        448
+      ],
+      "wrist": [
+        817,
+        489
+      ],
+      "shoulder": [
+        615,
+        410
+      ]
+    },
+    "face": {
+      "x": 445,
+      "y": 267,
+      "w": 165,
+      "h": 110
+    },
+    "actionGroup": "A11",
+    "phase": 2,
+    "provenance": {
+      "tool": "built-in image_gen",
+      "source": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa74-6594-76d2-b670-a6654b78a7af\\exec-6a21195c-661f-448e-bea6-bf6904831678.png",
+      "prompt": "assets/astra/v09/A11-02-style2.prompt.txt",
+      "inspected": true,
+      "styleRevision": 2
+    }
+  },
+  "A14_01": {
+    "path": "/assets/astra/v09/A14-01-style2.png",
+    "sourceSize": [
+      1199,
+      1312
+    ],
+    "anchors": {
+      "hands": [
+        1030,
+        827
+      ],
+      "wrist": [
+        958,
+        866
+      ],
+      "pen": [
+        1133,
+        908
+      ],
+      "shoulder": [
+        679,
+        542
+      ]
+    },
+    "face": {
+      "x": 640,
+      "y": 316,
+      "w": 209,
+      "h": 145
+    },
+    "actionGroup": "A14",
+    "phase": 1,
+    "provenance": {
+      "tool": "built-in image_gen",
+      "source": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa74-6594-76d2-b670-a6654b78a7af\\exec-3dd1b488-7445-4cda-b756-708acfec5de3.png",
+      "prompt": "assets/astra/v09/A14-01-style2.prompt.txt",
+      "inspected": true,
+      "styleRevision": 2
+    }
+  },
+  "A14_02": {
+    "path": "/assets/astra/v09/A14-02-style2.png",
+    "sourceSize": [
+      1199,
+      1312
+    ],
+    "anchors": {
+      "hands": [
+        1016,
+        561
+      ],
+      "wrist": [
+        949,
+        639
+      ],
+      "pen": [
+        1109,
+        644
+      ],
+      "shoulder": [
+        683,
+        538
+      ]
+    },
+    "face": {
+      "x": 650,
+      "y": 310,
+      "w": 192,
+      "h": 139
+    },
+    "actionGroup": "A14",
+    "phase": 2,
+    "provenance": {
+      "tool": "built-in image_gen",
+      "source": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa74-6594-76d2-b670-a6654b78a7af\\exec-97e9e8b8-1490-4b92-99ad-b17088caf153.png",
+      "prompt": "assets/astra/v09/A14-02-style2.prompt.txt",
+      "inspected": true,
+      "styleRevision": 2
+    }
+  },
+  "A11_03": {
+    "path": "/assets/astra/v09/A11-03-style2.png",
+    "sourceSize": [
+      1024,
+      1536
+    ],
+    "anchors": {
+      "hands": [
+        518,
+        684
+      ],
+      "wrist": [
+        557,
+        645
+      ],
+      "shoulder": [
+        610,
+        413
+      ]
+    },
+    "face": {
+      "x": 438,
+      "y": 280,
+      "w": 175,
+      "h": 100
+    },
+    "actionGroup": "A11",
+    "phase": 3,
+    "provenance": {
+      "tool": "built-in image_gen",
+      "source": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa74-6594-76d2-b670-a6654b78a7af\\exec-366bddec-d41d-49a7-b912-d2fac44cfd56.png",
+      "prompt": "assets/astra/v09/A11-03-style2.prompt.txt",
+      "inspected": true,
+      "styleRevision": 2
+    }
+  },
+  "A14_03": {
+    "path": "/assets/astra/v09/A14-03-style2.png",
+    "sourceSize": [
+      1199,
+      1312
+    ],
+    "anchors": {
+      "hands": [
+        1040,
+        960
+      ],
+      "wrist": [
+        955,
+        960
+      ],
+      "pen": [
+        1128,
+        1040
+      ],
+      "shoulder": [
+        677,
+        563
+      ]
+    },
+    "face": {
+      "x": 727,
+      "y": 378,
+      "w": 198,
+      "h": 132
+    },
+    "actionGroup": "A14",
+    "phase": 3,
+    "provenance": {
+      "tool": "built-in image_gen",
+      "source": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa74-6594-76d2-b670-a6654b78a7af\\exec-17fea8be-2705-4a2b-a8b6-ab272670094c.png",
+      "prompt": "assets/astra/v09/A14-03-style2.prompt.txt",
+      "inspected": true,
+      "styleRevision": 2
+    }
+  },
+  "A12_01": {
+    "path": "/assets/astra/v09/A12-01-style2.png",
+    "sourceSize": [
+      1024,
+      1536
+    ],
+    "anchors": {
+      "hands": [
+        303,
+        801
+      ],
+      "wrist": [
+        316,
+        861
+      ],
+      "pen": [
+        391,
+        843
+      ],
+      "shoulder": [
+        466,
+        548
+      ]
+    },
+    "face": {
+      "x": 433,
+      "y": 378,
+      "w": 204,
+      "h": 120
+    },
+    "actionGroup": "A12",
+    "phase": 1,
+    "provenance": {
+      "tool": "built-in image_gen",
+      "source": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa74-6594-76d2-b670-a6654b78a7af\\exec-3554295a-92ec-46e0-a224-4f575678c253.png",
+      "prompt": "assets/astra/v09/A12-01-style2.prompt.txt",
+      "inspected": true,
+      "styleRevision": 2
+    }
+  },
+  "A13_01": {
+    "path": "/assets/astra/v09/A13-01-style2.png",
+    "sourceSize": [
+      1024,
+      1536
+    ],
+    "anchors": {
+      "hands": [
+        740,
+        567
+      ],
+      "wrist": [
+        680,
+        609
+      ],
+      "shoulder": [
+        658,
+        539
+      ]
+    },
+    "face": {
+      "x": 430,
+      "y": 370,
+      "w": 204,
+      "h": 115
+    },
+    "actionGroup": "A13",
+    "phase": 1,
+    "provenance": {
+      "tool": "built-in image_gen",
+      "source": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa74-6594-76d2-b670-a6654b78a7af\\exec-5f727263-b65f-4861-88b6-8dfd74328781.png",
+      "prompt": "assets/astra/v09/A13-01-style2.prompt.txt",
+      "inspected": true,
+      "styleRevision": 2
+    }
+  },
+  "A12_02": {
+    "path": "/assets/astra/v09/A12-02-style2.png",
+    "sourceSize": [
+      1024,
+      1536
+    ],
+    "anchors": {
+      "hands": [
+        278,
+        603
+      ],
+      "wrist": [
+        282,
+        704
+      ],
+      "pen": [
+        340,
+        636
+      ],
+      "shoulder": [
+        437,
+        566
+      ]
+    },
+    "face": {
+      "x": 386,
+      "y": 394,
+      "w": 215,
+      "h": 142
+    },
+    "actionGroup": "A12",
+    "phase": 2,
+    "provenance": {
+      "tool": "built-in image_gen",
+      "source": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa74-6594-76d2-b670-a6654b78a7af\\exec-0320b3a6-3b69-4933-8a86-68a3afa0843c.png",
+      "prompt": "assets/astra/v09/A12-02-style2.prompt.txt",
+      "inspected": true,
+      "styleRevision": 2
+    }
+  },
+  "A13_02": {
+    "path": "/assets/astra/v09/A13-02-style2.png",
+    "sourceSize": [
+      1024,
+      1536
+    ],
+    "anchors": {
+      "hands": [
+        790,
+        853
+      ],
+      "wrist": [
+        725,
+        825
+      ],
+      "shoulder": [
+        661,
+        573
+      ]
+    },
+    "face": {
+      "x": 443,
+      "y": 395,
+      "w": 193,
+      "h": 109
+    },
+    "actionGroup": "A13",
+    "phase": 2,
+    "provenance": {
+      "tool": "built-in image_gen",
+      "source": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa74-6594-76d2-b670-a6654b78a7af\\exec-cc146715-9ed1-43ad-8552-dc64f9372e94.png",
+      "prompt": "assets/astra/v09/A13-02-style2.prompt.txt",
+      "inspected": true,
+      "styleRevision": 2
+    }
+  },
+  "A13_03": {
+    "path": "/assets/astra/v09/A13-03-style2.png",
+    "sourceSize": [
+      1024,
+      1536
+    ],
+    "anchors": {
+      "hands": [
+        900,
+        705
+      ],
+      "wrist": [
+        818,
+        728
+      ],
+      "shoulder": [
+        648,
+        570
+      ]
+    },
+    "face": {
+      "x": 409,
+      "y": 361,
+      "w": 207,
+      "h": 132
+    },
+    "actionGroup": "A13",
+    "phase": 3,
+    "provenance": {
+      "tool": "built-in image_gen",
+      "source": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa74-6594-76d2-b670-a6654b78a7af\\exec-efdb3b3f-ed54-43c5-84d0-517acda76663.png",
+      "prompt": "assets/astra/v09/A13-03-style2.prompt.txt",
+      "inspected": true,
+      "styleRevision": 2
+    }
+  }
+}

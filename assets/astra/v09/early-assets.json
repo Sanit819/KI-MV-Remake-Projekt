@@ -1,0 +1,710 @@
+{
+  "styleRevision": 3,
+  "facePolicy": "All early action poses use original-drawn opaque shadow faces; no newly exposed eyes.",
+  "assets": {
+    "A01_01": {
+      "path": "/assets/astra/v09/A01-01-inkface.png",
+      "anchors": {
+        "hands": [
+          952,
+          367
+        ],
+        "wrist": [
+          905,
+          382
+        ],
+        "pen": [
+          1033,
+          424
+        ],
+        "eyes": [
+          647,
+          195
+        ]
+      },
+      "face": {
+        "x": 599,
+        "y": 171,
+        "w": 99,
+        "h": 78
+      },
+      "actionGroup": "A01",
+      "phase": 1,
+      "styleRevision": 3,
+      "faceTreatment": "shadow",
+      "provenance": {
+        "generator": "built-in image_gen",
+        "source": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa73-c60e-7100-b6db-4e43c1ae8e63\\exec-75929d06-8dd2-4163-b5db-07ec40c33c83.png",
+        "prompt": "assets/astra/v09/A01-01-inkface.prompt.txt",
+        "poseSource": "assets/astra/v09/A01-01-style2.png",
+        "posePrompt": "assets/astra/v09/A01-01-style2.prompt.txt",
+        "inspection": "Viewed complete final source: opaque near-black face, both eyes fully hidden by drawn bangs, tiny mouth only; compact face contour; full connected arms, correct held prop side, source-drawn openwork GPT loops without circle. Hand/pen anchors inspected in final source. Alpha/runtime QA separately recorded.",
+        "inspected": true
+      }
+    },
+    "A01_02": {
+      "path": "/assets/astra/v09/A01-02-inkface.png",
+      "anchors": {
+        "hands": [
+          1020,
+          628
+        ],
+        "wrist": [
+          976,
+          606
+        ],
+        "pen": [
+          1076,
+          720
+        ],
+        "eyes": [
+          801,
+          239
+        ]
+      },
+      "face": {
+        "x": 750,
+        "y": 214,
+        "w": 111,
+        "h": 81
+      },
+      "actionGroup": "A01",
+      "phase": 2,
+      "styleRevision": 3,
+      "faceTreatment": "shadow",
+      "provenance": {
+        "generator": "built-in image_gen",
+        "source": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa73-c60e-7100-b6db-4e43c1ae8e63\\exec-6d7a8d06-f977-42e5-b987-b03fd62ccacb.png",
+        "prompt": "assets/astra/v09/A01-02-inkface.prompt.txt",
+        "poseSource": "assets/astra/v09/A01-02-style2.png",
+        "posePrompt": "assets/astra/v09/A01-02-style2.prompt.txt",
+        "inspection": "Viewed complete final source: opaque near-black face, both eyes fully hidden by drawn bangs, tiny mouth only; compact face contour; full connected arms, correct held prop side, source-drawn openwork GPT loops without circle. Hand/pen anchors inspected in final source. Alpha/runtime QA separately recorded.",
+        "inspected": true
+      }
+    },
+    "A02_01": {
+      "path": "/assets/astra/v09/A02-01-inkface.png",
+      "anchors": {
+        "hands": [
+          993,
+          222
+        ],
+        "wrist": [
+          970,
+          267
+        ],
+        "eyes": [
+          799,
+          172
+        ]
+      },
+      "face": {
+        "x": 754,
+        "y": 141,
+        "w": 95,
+        "h": 86
+      },
+      "actionGroup": "A02",
+      "phase": 1,
+      "styleRevision": 3,
+      "faceTreatment": "shadow",
+      "provenance": {
+        "generator": "built-in image_gen",
+        "source": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa73-c60e-7100-b6db-4e43c1ae8e63\\exec-86c9224f-1df5-4001-bb2d-42bbb0c4257d.png",
+        "prompt": "assets/astra/v09/A02-01-inkface.prompt.txt",
+        "poseSource": "assets/astra/v09/A02-01-style2.png",
+        "posePrompt": "assets/astra/v09/A02-01-style2.prompt.txt",
+        "inspection": "Viewed complete final source: opaque near-black face, both eyes fully hidden by drawn bangs, tiny mouth only; compact face contour; full connected arms, correct held prop side, source-drawn openwork GPT loops without circle. Hand/pen anchors inspected in final source. Alpha/runtime QA separately recorded.",
+        "inspected": true
+      }
+    },
+    "A02_02": {
+      "path": "/assets/astra/v09/A02-02-inkface.png",
+      "anchors": {
+        "hands": [
+          1135,
+          199
+        ],
+        "wrist": [
+          1097,
+          247
+        ],
+        "eyes": [
+          836,
+          181
+        ]
+      },
+      "face": {
+        "x": 789,
+        "y": 153,
+        "w": 92,
+        "h": 78
+      },
+      "actionGroup": "A02",
+      "phase": 2,
+      "styleRevision": 3,
+      "faceTreatment": "shadow",
+      "provenance": {
+        "generator": "built-in image_gen",
+        "source": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa73-c60e-7100-b6db-4e43c1ae8e63\\exec-d74d32b8-a9ed-4049-8479-dd89118c4a1b.png",
+        "prompt": "assets/astra/v09/A02-02-inkface.prompt.txt",
+        "poseSource": "assets/astra/v09/A02-02-style2.png",
+        "posePrompt": "assets/astra/v09/A02-02-style2.prompt.txt",
+        "inspection": "Viewed complete final source: opaque near-black face, both eyes fully hidden by drawn bangs, tiny mouth only; compact face contour; full connected arms, correct held prop side, source-drawn openwork GPT loops without circle. Hand/pen anchors inspected in final source. Alpha/runtime QA separately recorded.",
+        "inspected": true
+      }
+    },
+    "A02_03": {
+      "path": "/assets/astra/v09/A02-03-inkface.png",
+      "anchors": {
+        "hands": [
+          862,
+          506
+        ],
+        "wrist": [
+          883,
+          462
+        ],
+        "eyes": [
+          786,
+          187
+        ]
+      },
+      "face": {
+        "x": 738,
+        "y": 157,
+        "w": 100,
+        "h": 78
+      },
+      "actionGroup": "A02",
+      "phase": 3,
+      "styleRevision": 3,
+      "faceTreatment": "shadow",
+      "provenance": {
+        "generator": "built-in image_gen",
+        "source": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa73-c60e-7100-b6db-4e43c1ae8e63\\exec-668a3b75-d860-493d-92b6-5d1a32163b59.png",
+        "prompt": "assets/astra/v09/A02-03-inkface.prompt.txt",
+        "poseSource": "assets/astra/v09/A02-03-style2.png",
+        "posePrompt": "assets/astra/v09/A02-03-style2.prompt.txt",
+        "inspection": "Viewed complete final source: opaque near-black face, both eyes fully hidden by drawn bangs, tiny mouth only; compact face contour; full connected arms, correct held prop side, source-drawn openwork GPT loops without circle. Hand/pen anchors inspected in final source. Alpha/runtime QA separately recorded.",
+        "inspected": true
+      }
+    },
+    "A03_01": {
+      "path": "/assets/astra/v09/A03-01-inkface.png",
+      "anchors": {
+        "hands": [
+          483,
+          616
+        ],
+        "leftPalm": [
+          359,
+          594
+        ],
+        "rightPalm": [
+          487,
+          621
+        ],
+        "wrist": [
+          543,
+          590
+        ],
+        "eyes": [
+          567,
+          265
+        ]
+      },
+      "face": {
+        "x": 505,
+        "y": 228,
+        "w": 128,
+        "h": 93
+      },
+      "actionGroup": "A03",
+      "phase": 1,
+      "styleRevision": 3,
+      "faceTreatment": "shadow",
+      "provenance": {
+        "generator": "built-in image_gen",
+        "source": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa73-c60e-7100-b6db-4e43c1ae8e63\\exec-d327e119-5b5f-41c9-aaf7-b045a8e8f411.png",
+        "prompt": "assets/astra/v09/A03-01-inkface.prompt.txt",
+        "poseSource": "assets/astra/v09/A03-01-style2.png",
+        "posePrompt": "assets/astra/v09/A03-01-style2.prompt.txt",
+        "inspection": "Viewed complete final source: opaque near-black face, both eyes fully hidden by bangs, tiny mouth only; compact face contour; full connected arms, same held prop side, source-drawn hollow GPT loops without outer circle. Anchors inspected again. Actual source alpha and runtime reviewed separately.",
+        "inspected": true
+      }
+    },
+    "A03_02": {
+      "path": "/assets/astra/v09/A03-02-inkface.png",
+      "anchors": {
+        "hands": [
+          448,
+          322
+        ],
+        "leftPalm": [
+          448,
+          322
+        ],
+        "rightPalm": [
+          989,
+          336
+        ],
+        "wrist": [
+          493,
+          339
+        ],
+        "eyes": [
+          739,
+          165
+        ]
+      },
+      "face": {
+        "x": 689,
+        "y": 141,
+        "w": 105,
+        "h": 82
+      },
+      "actionGroup": "A03",
+      "phase": 2,
+      "styleRevision": 3,
+      "faceTreatment": "shadow",
+      "provenance": {
+        "generator": "built-in image_gen",
+        "source": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa73-c60e-7100-b6db-4e43c1ae8e63\\exec-132effa6-e5fe-4198-9b71-41c002d2e39a.png",
+        "prompt": "assets/astra/v09/A03-02-inkface.prompt.txt",
+        "poseSource": "assets/astra/v09/A03-02-style2.png",
+        "posePrompt": "assets/astra/v09/A03-02-style2.prompt.txt",
+        "inspection": "Viewed complete final source: opaque near-black face, both eyes fully hidden by bangs, tiny mouth only; compact face contour; full connected arms, same held prop side, source-drawn hollow GPT loops without outer circle. Anchors inspected again. Actual source alpha and runtime reviewed separately.",
+        "inspected": true
+      }
+    },
+    "A15_01": {
+      "path": "/assets/astra/v09/A15-01-inkface.png",
+      "anchors": {
+        "hands": [
+          500,
+          319
+        ],
+        "wrist": [
+          445,
+          393
+        ],
+        "pen": [
+          603,
+          345
+        ],
+        "support": [
+          622,
+          694
+        ],
+        "eyes": [
+          800,
+          331
+        ]
+      },
+      "face": {
+        "x": 716,
+        "y": 294,
+        "w": 182,
+        "h": 134
+      },
+      "actionGroup": "A15",
+      "phase": 1,
+      "styleRevision": 3,
+      "faceTreatment": "shadow",
+      "provenance": {
+        "generator": "built-in image_gen",
+        "source": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa73-c60e-7100-b6db-4e43c1ae8e63\\exec-e2e42fde-7c7c-45e5-b30f-7a6cfbcfbcf9.png",
+        "prompt": "assets/astra/v09/A15-01-inkface.prompt.txt",
+        "poseSource": "assets/astra/v09/A15-01-style2.png",
+        "posePrompt": "assets/astra/v09/A15-01-style2.prompt.txt",
+        "inspection": "Viewed complete final source: opaque near-black face, both eyes fully hidden by bangs, tiny mouth only; compact face contour; full connected arms, same held prop side, source-drawn hollow GPT loops without outer circle. Anchors inspected again. Actual source alpha and runtime reviewed separately.",
+        "inspected": true
+      }
+    },
+    "A15_02": {
+      "path": "/assets/astra/v09/A15-02-inkface.png",
+      "anchors": {
+        "hands": [
+          534,
+          648
+        ],
+        "wrist": [
+          472,
+          649
+        ],
+        "pen": [
+          614,
+          719
+        ],
+        "support": [
+          528,
+          762
+        ],
+        "eyes": [
+          765,
+          380
+        ]
+      },
+      "face": {
+        "x": 675,
+        "y": 341,
+        "w": 180,
+        "h": 124
+      },
+      "actionGroup": "A15",
+      "phase": 2,
+      "styleRevision": 3,
+      "faceTreatment": "shadow",
+      "provenance": {
+        "generator": "built-in image_gen",
+        "source": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa73-c60e-7100-b6db-4e43c1ae8e63\\exec-11e9d696-6e23-43a3-8e0f-55308fcc6d2a.png",
+        "prompt": "assets/astra/v09/A15-02-inkface.prompt.txt",
+        "poseSource": "assets/astra/v09/A15-02-style2.png",
+        "posePrompt": "assets/astra/v09/A15-02-style2.prompt.txt",
+        "inspection": "Viewed complete final source: opaque near-black face, both eyes fully hidden by bangs, tiny mouth only; compact face contour; full connected arms, same held prop side, source-drawn hollow GPT loops without outer circle. Anchors inspected again. Actual source alpha and runtime reviewed separately.",
+        "inspected": true
+      }
+    },
+    "A16_01": {
+      "path": "/assets/astra/v09/A16-01-inkface.png",
+      "anchors": {
+        "hands": [
+          1299,
+          697
+        ],
+        "wrist": [
+          1204,
+          766
+        ],
+        "pen": [
+          1403,
+          764
+        ],
+        "eyes": [
+          718,
+          326
+        ]
+      },
+      "face": {
+        "x": 625,
+        "y": 304,
+        "w": 190,
+        "h": 125
+      },
+      "actionGroup": "A16",
+      "phase": 1,
+      "styleRevision": 3,
+      "faceTreatment": "shadow",
+      "provenance": {
+        "generator": "built-in image_gen",
+        "source": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa73-c60e-7100-b6db-4e43c1ae8e63\\exec-6b00c490-2669-4b56-b40d-891b370cf1a2.png",
+        "prompt": "assets/astra/v09/A16-01-inkface.prompt.txt",
+        "poseSource": "assets/astra/v09/A16-01-style2.png",
+        "posePrompt": "assets/astra/v09/A16-01-style2.prompt.txt",
+        "inspection": "Viewed complete final source: opaque near-black face, both eyes fully hidden by bangs, tiny mouth only; compact face contour; full connected arms, same held prop side, source-drawn hollow GPT loops without outer circle. Anchors inspected again. Actual source alpha and runtime reviewed separately.",
+        "inspected": true
+      }
+    },
+    "A16_02": {
+      "path": "/assets/astra/v09/A16-02-inkface.png",
+      "anchors": {
+        "hands": [
+          1384,
+          922
+        ],
+        "wrist": [
+          1262,
+          956
+        ],
+        "pen": [
+          1477,
+          1016
+        ],
+        "eyes": [
+          1125,
+          432
+        ]
+      },
+      "face": {
+        "x": 1014,
+        "y": 395,
+        "w": 214,
+        "h": 145
+      },
+      "actionGroup": "A16",
+      "phase": 2,
+      "styleRevision": 3,
+      "faceTreatment": "shadow",
+      "provenance": {
+        "generator": "built-in image_gen",
+        "source": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa73-c60e-7100-b6db-4e43c1ae8e63\\exec-bcebb9f2-7218-49ab-a8a0-a06c3dc89249.png",
+        "prompt": "assets/astra/v09/A16-02-inkface.prompt.txt",
+        "poseSource": "assets/astra/v09/A16-02-style2.png",
+        "posePrompt": "assets/astra/v09/A16-02-style2.prompt.txt",
+        "inspection": "Viewed complete final source: opaque near-black face, both eyes fully hidden by bangs, tiny mouth only; compact face contour; full connected arms, same held prop side, source-drawn hollow GPT loops without outer circle. Anchors inspected again. Actual source alpha and runtime reviewed separately.",
+        "inspected": true
+      }
+    },
+    "A17_01": {
+      "path": "/assets/astra/v09/A17-01-inkface.png",
+      "anchors": {
+        "hands": [
+          919,
+          573
+        ],
+        "wrist": [
+          848,
+          608
+        ],
+        "pen": [
+          979,
+          631
+        ],
+        "eyes": [
+          655,
+          278
+        ]
+      },
+      "face": {
+        "x": 588,
+        "y": 255,
+        "w": 143,
+        "h": 89
+      },
+      "actionGroup": "A17",
+      "phase": 1,
+      "styleRevision": 3,
+      "faceTreatment": "shadow",
+      "provenance": {
+        "generator": "built-in image_gen",
+        "source": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa73-c60e-7100-b6db-4e43c1ae8e63\\exec-25502fc7-9ef3-42a8-ae67-9d9f973205a1.png",
+        "prompt": "assets/astra/v09/A17-01-inkface.prompt.txt",
+        "poseSource": "assets/astra/v09/A17-01-style2.png",
+        "posePrompt": "assets/astra/v09/A17-01-style2.prompt.txt",
+        "inspection": "Viewed complete final source: opaque near-black face, both eyes fully hidden by bangs, tiny mouth only; compact face contour; full connected arms, same held prop side, source-drawn hollow GPT loops without outer circle. Anchors inspected again. Actual source alpha and runtime reviewed separately.",
+        "inspected": true
+      }
+    },
+    "A17_02": {
+      "path": "/assets/astra/v09/A17-02-inkface.png",
+      "anchors": {
+        "hands": [
+          929,
+          745
+        ],
+        "wrist": [
+          855,
+          738
+        ],
+        "pen": [
+          987,
+          811
+        ],
+        "eyes": [
+          696,
+          320
+        ]
+      },
+      "face": {
+        "x": 632,
+        "y": 288,
+        "w": 130,
+        "h": 86
+      },
+      "actionGroup": "A17",
+      "phase": 2,
+      "styleRevision": 3,
+      "faceTreatment": "shadow",
+      "provenance": {
+        "generator": "built-in image_gen",
+        "source": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa73-c60e-7100-b6db-4e43c1ae8e63\\exec-ba4249e4-1890-47b9-a0a4-8fbd2396ca18.png",
+        "prompt": "assets/astra/v09/A17-02-inkface.prompt.txt",
+        "poseSource": "assets/astra/v09/A17-02-style2-r2.png",
+        "posePrompt": "assets/astra/v09/A17-02-style2-r2.prompt.txt",
+        "inspection": "Viewed complete final source: opaque near-black face, both eyes fully hidden by bangs, tiny mouth only; compact face contour; full connected arms, same held prop side, source-drawn hollow GPT loops without outer circle. Anchors inspected again. Actual source alpha and runtime reviewed separately.",
+        "inspected": true
+      }
+    },
+    "A18_01": {
+      "path": "/assets/astra/v09/A18-01-inkface.png",
+      "anchors": {
+        "hands": [
+          548,
+          1123
+        ],
+        "wrist": [
+          493,
+          1057
+        ],
+        "eyes": [
+          626,
+          425
+        ]
+      },
+      "face": {
+        "x": 509,
+        "y": 392,
+        "w": 224,
+        "h": 117
+      },
+      "actionGroup": "A18",
+      "phase": 1,
+      "styleRevision": 3,
+      "faceTreatment": "shadow",
+      "provenance": {
+        "generator": "built-in image_gen",
+        "source": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa73-c60e-7100-b6db-4e43c1ae8e63\\exec-549bfe3f-a17e-451f-a6a4-207c14777ba7.png",
+        "prompt": "assets/astra/v09/A18-01-inkface.prompt.txt",
+        "poseSource": "assets/astra/v09/A18-01-style2.png",
+        "posePrompt": "assets/astra/v09/A18-01-style2.prompt.txt",
+        "inspection": "Viewed complete final source: opaque near-black face, both eyes fully hidden by bangs, tiny mouth only; compact face contour; full connected arms, same held prop side, source-drawn hollow GPT loops without outer circle. Anchors inspected again. Actual source alpha and runtime reviewed separately.",
+        "inspected": true
+      }
+    },
+    "A18_02": {
+      "path": "/assets/astra/v09/A18-02-inkface.png",
+      "anchors": {
+        "hands": [
+          143,
+          1027
+        ],
+        "wrist": [
+          234,
+          984
+        ],
+        "eyes": [
+          625,
+          409
+        ]
+      },
+      "face": {
+        "x": 506,
+        "y": 380,
+        "w": 231,
+        "h": 128
+      },
+      "actionGroup": "A18",
+      "phase": 2,
+      "styleRevision": 3,
+      "faceTreatment": "shadow",
+      "provenance": {
+        "generator": "built-in image_gen",
+        "source": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa73-c60e-7100-b6db-4e43c1ae8e63\\exec-814ed3af-98c8-48b0-9d2f-a1857560067a.png",
+        "prompt": "assets/astra/v09/A18-02-inkface.prompt.txt",
+        "poseSource": "assets/astra/v09/A18-02-style2.png",
+        "posePrompt": "assets/astra/v09/A18-02-style2.prompt.txt",
+        "inspection": "Viewed complete final source: opaque near-black face, both eyes fully hidden by bangs, tiny mouth only; compact face contour; full connected arms, same held prop side, source-drawn hollow GPT loops without outer circle. Anchors inspected again. Actual source alpha and runtime reviewed separately.",
+        "inspected": true
+      }
+    },
+    "A19_01": {
+      "path": "/assets/astra/v09/A19-01-inkface.png",
+      "anchors": {
+        "hands": [
+          453,
+          1047
+        ],
+        "wrist": [
+          417,
+          996
+        ],
+        "eyes": [
+          496,
+          387
+        ]
+      },
+      "face": {
+        "x": 411,
+        "y": 354,
+        "w": 178,
+        "h": 122
+      },
+      "actionGroup": "A19",
+      "phase": 1,
+      "styleRevision": 3,
+      "faceTreatment": "shadow",
+      "provenance": {
+        "generator": "built-in image_gen",
+        "source": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa73-c60e-7100-b6db-4e43c1ae8e63\\exec-2a29beca-1857-4655-8266-f4a9fd953ef3.png",
+        "prompt": "assets/astra/v09/A19-01-inkface.prompt.txt",
+        "poseSource": "assets/astra/v09/A19-01-style2.png",
+        "posePrompt": "assets/astra/v09/A19-01-style2.prompt.txt",
+        "inspection": "Viewed complete final source: opaque near-black face, both eyes fully hidden by bangs, tiny mouth only; compact face contour; full connected arms, same held prop side, source-drawn hollow GPT loops without outer circle. Anchors inspected again. Actual source alpha and runtime reviewed separately.",
+        "inspected": true
+      }
+    },
+    "A19_02": {
+      "path": "/assets/astra/v09/A19-02-inkface.png",
+      "anchors": {
+        "hands": [
+          475,
+          521
+        ],
+        "wrist": [
+          433,
+          548
+        ],
+        "eyes": [
+          496,
+          383
+        ]
+      },
+      "face": {
+        "x": 412,
+        "y": 352,
+        "w": 179,
+        "h": 117
+      },
+      "actionGroup": "A19",
+      "phase": 2,
+      "styleRevision": 3,
+      "faceTreatment": "shadow",
+      "provenance": {
+        "generator": "built-in image_gen",
+        "source": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa73-c60e-7100-b6db-4e43c1ae8e63\\exec-8fef26ec-5151-4e92-b87b-db97e82250ed.png",
+        "prompt": "assets/astra/v09/A19-02-inkface.prompt.txt",
+        "poseSource": "assets/astra/v09/A19-02-style2.png",
+        "posePrompt": "assets/astra/v09/A19-02-style2.prompt.txt",
+        "inspection": "Viewed complete final source: opaque near-black face, both eyes fully hidden by bangs, tiny mouth only; compact face contour; full connected arms, same held prop side, source-drawn hollow GPT loops without outer circle. Anchors inspected again. Actual source alpha and runtime reviewed separately.",
+        "inspected": true
+      }
+    },
+    "A19_03": {
+      "path": "/assets/astra/v09/A19-03-inkface.png",
+      "anchors": {
+        "hands": [
+          480,
+          514
+        ],
+        "wrist": [
+          445,
+          576
+        ],
+        "eyes": [
+          494,
+          383
+        ]
+      },
+      "face": {
+        "x": 410,
+        "y": 349,
+        "w": 181,
+        "h": 125
+      },
+      "actionGroup": "A19",
+      "phase": 3,
+      "styleRevision": 3,
+      "faceTreatment": "shadow",
+      "provenance": {
+        "generator": "built-in image_gen",
+        "source": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa73-c60e-7100-b6db-4e43c1ae8e63\\exec-f4d2287d-d6f3-4482-ad25-1df0087b15eb.png",
+        "prompt": "assets/astra/v09/A19-03-inkface.prompt.txt",
+        "poseSource": "assets/astra/v09/A19-03-style2.png",
+        "posePrompt": "assets/astra/v09/A19-03-style2.prompt.txt",
+        "inspection": "Viewed complete final source: opaque near-black face, both eyes fully hidden by bangs, tiny mouth only; compact face contour; full connected arms, same held prop side, source-drawn hollow GPT loops without outer circle. Anchors inspected again. Actual source alpha and runtime reviewed separately.",
+        "inspected": true
+      }
+    }
+  }
+}

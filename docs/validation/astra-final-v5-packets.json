@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "checks": {
+    "count_13400": true,
+    "body_count_13100": true,
+    "all_pts_n_over_60": true,
+    "all_durations_one_frame": true,
+    "strict_decode_timestamps": true,
+    "warning_300_packets_identical_to_v4": true,
+    "body_13100_packets_preserved": true,
+    "body_shift_exactly_five_seconds": true,
+    "part_1_payload_and_frame_count": true,
+    "part_1_PTS_DTS_shift_exact": true,
+    "part_2_payload_and_frame_count": true,
+    "part_2_PTS_DTS_shift_exact": true,
+    "part_3_payload_and_frame_count": true,
+    "part_3_PTS_DTS_shift_exact": true,
+    "part_4_payload_and_frame_count": true,
+    "part_4_PTS_DTS_shift_exact": true
+  },
+  "timebase": "1/60000",
+  "packet_count": 13400,
+  "body_timebase": "1/60000"
+}

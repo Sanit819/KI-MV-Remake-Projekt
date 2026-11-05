@@ -1,0 +1,1764 @@
+{
+  "width": 3840,
+  "height": 2160,
+  "cages": [
+    {
+      "t": 158.81666666666666,
+      "shot": "R64",
+      "scene": {
+        "lockedDomains": 1,
+        "oldMarkPreserved": true,
+        "imprisonment": {
+          "guest": "guest0",
+          "cellDepth": 185,
+          "closureProgress": 0,
+          "lockProgress": 0,
+          "foregroundBars": 7,
+          "frontOcclusion": 0,
+          "doorDirection": "top-down",
+          "guestScale": 1,
+          "backWall": true,
+          "sideWalls": 2,
+          "floor": true,
+          "frontDrawnAfterGuest": true
+        }
+      },
+      "art": [
+        {
+          "name": "guest0",
+          "x": 771.4,
+          "y": 100,
+          "w": 607.2,
+          "h": 660
+        }
+      ],
+      "u": 0
+    },
+    {
+      "t": 159.00416666666666,
+      "shot": "R64",
+      "scene": {
+        "lockedDomains": 1,
+        "oldMarkPreserved": true,
+        "imprisonment": {
+          "guest": "guest0",
+          "cellDepth": 185,
+          "closureProgress": 0.5381027271532403,
+          "lockProgress": 0,
+          "foregroundBars": 7,
+          "frontOcclusion": 0.14528773633137487,
+          "doorDirection": "top-down",
+          "guestScale": 0.8454992927340318,
+          "backWall": true,
+          "sideWalls": 2,
+          "floor": true,
+          "frontDrawnAfterGuest": true
+        }
+      },
+      "art": [
+        {
+          "name": "guest0",
+          "x": 830.4137260868958,
+          "y": 187.71074452597816,
+          "w": 513.3871705481041,
+          "h": 558.029533204461
+        }
+      ],
+      "u": 0.45
+    },
+    {
+      "t": 159.225,
+      "shot": "R64",
+      "scene": {
+        "lockedDomains": 1,
+        "oldMarkPreserved": true,
+        "imprisonment": {
+          "guest": "guest0",
+          "cellDepth": 185,
+          "closureProgress": 1,
+          "lockProgress": 1,
+          "foregroundBars": 7,
+          "frontOcclusion": 0.27,
+          "doorDirection": "top-down",
+          "guestScale": 0.7128787878787879,
+          "backWall": true,
+          "sideWalls": 2,
+          "floor": true,
+          "frontDrawnAfterGuest": true
+        }
+      },
+      "art": [
+        {
+          "name": "guest0",
+          "x": 881.0699999999999,
+          "y": 263,
+          "w": 432.86,
+          "h": 470.5
+        }
+      ],
+      "u": 0.98
+    },
+    {
+      "t": 159.23333333333332,
+      "shot": "R65",
+      "scene": {
+        "lockedDomains": 2,
+        "oldMarkPreserved": true,
+        "imprisonment": {
+          "guest": "guest1",
+          "cellDepth": 240,
+          "closureProgress": 0,
+          "lockProgress": 0,
+          "foregroundBars": 7,
+          "frontOcclusion": 0,
+          "doorDirection": "split-horizontal",
+          "guestScale": 1,
+          "backWall": true,
+          "sideWalls": 2,
+          "floor": true,
+          "frontDrawnAfterGuest": true
+        }
+      },
+      "art": [
+        {
+          "name": "guest1",
+          "x": 771.4,
+          "y": 100,
+          "w": 607.2,
+          "h": 660
+        }
+      ],
+      "u": 0
+    },
+    {
+      "t": 159.38333333333333,
+      "shot": "R65",
+      "scene": {
+        "lockedDomains": 2,
+        "oldMarkPreserved": true,
+        "imprisonment": {
+          "guest": "guest1",
+          "cellDepth": 240,
+          "closureProgress": 0.5381027271532253,
+          "lockProgress": 0,
+          "foregroundBars": 7,
+          "frontOcclusion": 0.14528773633137082,
+          "doorDirection": "split-horizontal",
+          "guestScale": 0.8141099669834313,
+          "backWall": true,
+          "sideWalls": 2,
+          "floor": true,
+          "frontDrawnAfterGuest": true
+        }
+      },
+      "art": [
+        {
+          "name": "guest1",
+          "x": 802.2763344840521,
+          "y": 205.46813452203207,
+          "w": 494.3275719523395,
+          "h": 537.3125782090647
+        }
+      ],
+      "u": 0.45
+    },
+    {
+      "t": 159.56,
+      "shot": "R65",
+      "scene": {
+        "lockedDomains": 2,
+        "oldMarkPreserved": true,
+        "imprisonment": {
+          "guest": "guest1",
+          "cellDepth": 240,
+          "closureProgress": 1,
+          "lockProgress": 1,
+          "foregroundBars": 7,
+          "frontOcclusion": 0.27,
+          "doorDirection": "split-horizontal",
+          "guestScale": 0.6545454545454545,
+          "backWall": true,
+          "sideWalls": 2,
+          "floor": true,
+          "frontDrawnAfterGuest": true
+        }
+      },
+      "art": [
+        {
+          "name": "guest1",
+          "x": 828.78,
+          "y": 296,
+          "w": 397.44,
+          "h": 432
+        }
+      ],
+      "u": 0.98
+    },
+    {
+      "t": 159.56666666666666,
+      "shot": "R66",
+      "scene": {
+        "lockedDomains": 3,
+        "oldMarkPreserved": true,
+        "imprisonment": {
+          "guest": "guest2",
+          "cellDepth": 210,
+          "closureProgress": 0,
+          "lockProgress": 0,
+          "foregroundBars": 7,
+          "frontOcclusion": 0,
+          "doorDirection": "hinge-left",
+          "guestScale": 1,
+          "backWall": true,
+          "sideWalls": 2,
+          "floor": true,
+          "frontDrawnAfterGuest": true
+        }
+      },
+      "art": [
+        {
+          "name": "guest2",
+          "x": 771.4,
+          "y": 100,
+          "w": 607.2,
+          "h": 660
+        }
+      ],
+      "u": 0
+    },
+    {
+      "t": 159.83666666666667,
+      "shot": "R66",
+      "scene": {
+        "lockedDomains": 3,
+        "oldMarkPreserved": true,
+        "imprisonment": {
+          "guest": "guest2",
+          "cellDepth": 210,
+          "closureProgress": 0.5381027271532683,
+          "lockProgress": 0,
+          "foregroundBars": 7,
+          "frontOcclusion": 0.14528773633138245,
+          "doorDirection": "hinge-left",
+          "guestScale": 0.8312314173928386,
+          "backWall": true,
+          "sideWalls": 2,
+          "floor": true,
+          "frontDrawnAfterGuest": true
+        }
+      },
+      "art": [
+        {
+          "name": "guest2",
+          "x": 834.7454530404829,
+          "y": 195.7822854332818,
+          "w": 504.72371664093157,
+          "h": 548.6127354792734
+        }
+      ],
+      "u": 0.45
+    },
+    {
+      "t": 160.15466666666666,
+      "shot": "R66",
+      "scene": {
+        "lockedDomains": 3,
+        "oldMarkPreserved": true,
+        "imprisonment": {
+          "guest": "guest2",
+          "cellDepth": 210,
+          "closureProgress": 1,
+          "lockProgress": 1,
+          "foregroundBars": 7,
+          "frontOcclusion": 0.27,
+          "doorDirection": "hinge-left",
+          "guestScale": 0.6863636363636364,
+          "backWall": true,
+          "sideWalls": 2,
+          "floor": true,
+          "frontDrawnAfterGuest": true
+        }
+      },
+      "art": [
+        {
+          "name": "guest2",
+          "x": 889.12,
+          "y": 278,
+          "w": 416.76,
+          "h": 453
+        }
+      ],
+      "u": 0.98
+    },
+    {
+      "t": 160.16666666666666,
+      "shot": "R67",
+      "scene": {
+        "lockedDomains": 4,
+        "oldMarkPreserved": true,
+        "imprisonment": {
+          "guest": "guest3",
+          "cellDepth": 270,
+          "closureProgress": 0,
+          "lockProgress": 0,
+          "foregroundBars": 7,
+          "frontOcclusion": 0,
+          "doorDirection": "bottom-up",
+          "guestScale": 1,
+          "backWall": true,
+          "sideWalls": 2,
+          "floor": true,
+          "frontDrawnAfterGuest": true
+        }
+      },
+      "art": [
+        {
+          "name": "guest3",
+          "x": 771.4,
+          "y": 100,
+          "w": 607.2,
+          "h": 660
+        }
+      ],
+      "u": 0
+    },
+    {
+      "t": 160.36916666666667,
+      "shot": "R67",
+      "scene": {
+        "lockedDomains": 4,
+        "oldMarkPreserved": true,
+        "imprisonment": {
+          "guest": "guest3",
+          "cellDepth": 270,
+          "closureProgress": 0.5381027271532544,
+          "lockProgress": 0,
+          "foregroundBars": 7,
+          "frontOcclusion": 0.14528773633137868,
+          "doorDirection": "bottom-up",
+          "guestScale": 0.7969885165739995,
+          "backWall": true,
+          "sideWalls": 2,
+          "floor": true,
+          "frontDrawnAfterGuest": true
+        }
+      },
+      "art": [
+        {
+          "name": "guest3",
+          "x": 807.4744068283542,
+          "y": 215.15398361079644,
+          "w": 483.93142726373253,
+          "h": 526.0124209388397
+        }
+      ],
+      "u": 0.45
+    },
+    {
+      "t": 160.60766666666666,
+      "shot": "R67",
+      "scene": {
+        "lockedDomains": 4,
+        "oldMarkPreserved": true,
+        "imprisonment": {
+          "guest": "guest3",
+          "cellDepth": 270,
+          "closureProgress": 1,
+          "lockProgress": 1,
+          "foregroundBars": 7,
+          "frontOcclusion": 0.27,
+          "doorDirection": "bottom-up",
+          "guestScale": 0.6227272727272727,
+          "backWall": true,
+          "sideWalls": 2,
+          "floor": true,
+          "frontDrawnAfterGuest": true
+        }
+      },
+      "art": [
+        {
+          "name": "guest3",
+          "x": 838.44,
+          "y": 314,
+          "w": 378.12,
+          "h": 411
+        }
+      ],
+      "u": 0.98
+    },
+    {
+      "t": 160.61666666666667,
+      "shot": "R68",
+      "scene": {
+        "lockedDomains": 5,
+        "oldMarkPreserved": true,
+        "imprisonment": {
+          "guest": "guest4",
+          "cellDepth": 180,
+          "closureProgress": 0,
+          "lockProgress": 0,
+          "foregroundBars": 7,
+          "frontOcclusion": 0,
+          "doorDirection": "diagonal-split",
+          "guestScale": 1,
+          "backWall": true,
+          "sideWalls": 2,
+          "floor": true,
+          "frontDrawnAfterGuest": true
+        }
+      },
+      "art": [
+        {
+          "name": "guest4",
+          "x": 771.4,
+          "y": 100,
+          "w": 607.2,
+          "h": 660
+        }
+      ],
+      "u": 0
+    },
+    {
+      "t": 160.80416666666667,
+      "shot": "R68",
+      "scene": {
+        "lockedDomains": 5,
+        "oldMarkPreserved": true,
+        "imprisonment": {
+          "guest": "guest4",
+          "cellDepth": 180,
+          "closureProgress": 0.5381027271532403,
+          "lockProgress": 0,
+          "foregroundBars": 7,
+          "frontOcclusion": 0.14528773633137487,
+          "doorDirection": "diagonal-split",
+          "guestScale": 0.8483528678022686,
+          "backWall": true,
+          "sideWalls": 2,
+          "floor": true,
+          "frontDrawnAfterGuest": true
+        }
+      },
+      "art": [
+        {
+          "name": "guest4",
+          "x": 829.5473806961792,
+          "y": 186.09643634451834,
+          "w": 515.1198613295376,
+          "h": 559.9128927494974
+        }
+      ],
+      "u": 0.45
+    },
+    {
+      "t": 161.025,
+      "shot": "R68",
+      "scene": {
+        "lockedDomains": 5,
+        "oldMarkPreserved": true,
+        "imprisonment": {
+          "guest": "guest4",
+          "cellDepth": 180,
+          "closureProgress": 1,
+          "lockProgress": 1,
+          "foregroundBars": 7,
+          "frontOcclusion": 0.27,
+          "doorDirection": "diagonal-split",
+          "guestScale": 0.7181818181818181,
+          "backWall": true,
+          "sideWalls": 2,
+          "floor": true,
+          "frontDrawnAfterGuest": true
+        }
+      },
+      "art": [
+        {
+          "name": "guest4",
+          "x": 879.46,
+          "y": 260,
+          "w": 436.08000000000004,
+          "h": 474
+        }
+      ],
+      "u": 0.98
+    },
+    {
+      "t": 161.03333333333333,
+      "shot": "R69",
+      "scene": {
+        "lockedDomains": 6,
+        "oldMarkPreserved": true,
+        "imprisonment": {
+          "guest": "guest5",
+          "cellDepth": 250,
+          "closureProgress": 0,
+          "lockProgress": 0,
+          "foregroundBars": 9,
+          "frontOcclusion": 0,
+          "doorDirection": "hinge-right",
+          "guestScale": 1,
+          "backWall": true,
+          "sideWalls": 2,
+          "floor": true,
+          "frontDrawnAfterGuest": true
+        }
+      },
+      "art": [
+        {
+          "name": "guest5",
+          "x": 771.4,
+          "y": 100,
+          "w": 607.2,
+          "h": 660
+        }
+      ],
+      "u": 0
+    },
+    {
+      "t": 161.24333333333334,
+      "shot": "R69",
+      "scene": {
+        "lockedDomains": 6,
+        "oldMarkPreserved": true,
+        "imprisonment": {
+          "guest": "guest5",
+          "cellDepth": 250,
+          "closureProgress": 0.5381027271532529,
+          "lockProgress": 0,
+          "foregroundBars": 9,
+          "frontOcclusion": 0.182954927232106,
+          "doorDirection": "hinge-right",
+          "guestScale": 0.8084028168469478,
+          "backWall": true,
+          "sideWalls": 2,
+          "floor": true,
+          "frontDrawnAfterGuest": true
+        }
+      },
+      "art": [
+        {
+          "name": "guest5",
+          "x": 804.009025265487,
+          "y": 208.69675088495705,
+          "w": 490.8621903894668,
+          "h": 533.5458591189856
+        }
+      ],
+      "u": 0.45
+    },
+    {
+      "t": 161.49066666666667,
+      "shot": "R69",
+      "scene": {
+        "lockedDomains": 6,
+        "oldMarkPreserved": true,
+        "imprisonment": {
+          "guest": "guest5",
+          "cellDepth": 250,
+          "closureProgress": 1,
+          "lockProgress": 1,
+          "foregroundBars": 9,
+          "frontOcclusion": 0.34,
+          "doorDirection": "hinge-right",
+          "guestScale": 0.6439393939393939,
+          "backWall": true,
+          "sideWalls": 2,
+          "floor": true,
+          "frontDrawnAfterGuest": true
+        }
+      },
+      "art": [
+        {
+          "name": "guest5",
+          "x": 832,
+          "y": 302,
+          "w": 391,
+          "h": 425
+        }
+      ],
+      "u": 0.98
+    }
+  ],
+  "waiting": [
+    {
+      "t": 203.45333333333335,
+      "shot": "R85",
+      "scene": {
+        "paperCorners": [
+          [
+            655,
+            190
+          ],
+          [
+            1810,
+            250
+          ],
+          [
+            1805,
+            866
+          ],
+          [
+            600,
+            844
+          ]
+        ],
+        "oldMark": [
+          640,
+          741
+        ],
+        "independentReply": false,
+        "actionGroup": "A14",
+        "actionPhase": 1,
+        "actionAsset": "A14_01",
+        "fullConnectedBody": true,
+        "focus": "draw-half-mark",
+        "sourceDrawnVioletPen": true,
+        "violetPen": [
+          1304.1852224282925,
+          297.10223488109705
+        ],
+        "violetContact": [
+          1304.1852224282925,
+          297.10223488109705
+        ],
+        "writingDetail": true
+      },
+      "art": [
+        {
+          "name": "A14_01",
+          "x": -177.99603717232185,
+          "y": -603.5122044430198,
+          "w": 1900,
+          "h": 1300,
+          "actionGroup": "A14",
+          "phase": 1
+        }
+      ],
+      "u": 0.05
+    },
+    {
+      "t": 203.69333333333333,
+      "shot": "R85",
+      "scene": {
+        "paperCorners": [
+          [
+            655,
+            190
+          ],
+          [
+            1810,
+            250
+          ],
+          [
+            1805,
+            866
+          ],
+          [
+            600,
+            844
+          ]
+        ],
+        "oldMark": [
+          640,
+          741
+        ],
+        "independentReply": false,
+        "actionGroup": "A14",
+        "actionPhase": 1,
+        "actionAsset": "A14_01",
+        "fullConnectedBody": true,
+        "focus": "draw-half-mark",
+        "sourceDrawnVioletPen": true,
+        "violetPen": [
+          1279.6860885940791,
+          360.3132700044745
+        ],
+        "violetContact": [
+          1279.6860885940791,
+          360.3132700044745
+        ],
+        "writingDetail": true
+      },
+      "art": [
+        {
+          "name": "A14_01",
+          "x": -202.4951710065352,
+          "y": -540.3011693196423,
+          "w": 1900,
+          "h": 1300,
+          "actionGroup": "A14",
+          "phase": 1
+        }
+      ],
+      "u": 0.15
+    },
+    {
+      "t": 204.05333333333334,
+      "shot": "R85",
+      "scene": {
+        "paperCorners": [
+          [
+            655,
+            190
+          ],
+          [
+            1810,
+            250
+          ],
+          [
+            1805,
+            866
+          ],
+          [
+            600,
+            844
+          ]
+        ],
+        "oldMark": [
+          640,
+          741
+        ],
+        "independentReply": false,
+        "actionGroup": "A14",
+        "actionPhase": 1,
+        "actionAsset": "A14_01",
+        "fullConnectedBody": true,
+        "focus": "draw-half-mark",
+        "sourceDrawnVioletPen": true,
+        "violetPen": [
+          1233.554406741127,
+          439.1017576074724
+        ],
+        "violetContact": [
+          1233.554406741127,
+          439.1017576074724
+        ],
+        "writingDetail": true
+      },
+      "art": [
+        {
+          "name": "A14_01",
+          "x": -248.62685285948737,
+          "y": -461.5126817166444,
+          "w": 1900,
+          "h": 1300,
+          "actionGroup": "A14",
+          "phase": 1
+        }
+      ],
+      "u": 0.3
+    },
+    {
+      "t": 204.41333333333333,
+      "shot": "R85",
+      "scene": {
+        "paperCorners": [
+          [
+            655,
+            190
+          ],
+          [
+            1810,
+            250
+          ],
+          [
+            1805,
+            866
+          ],
+          [
+            600,
+            844
+          ]
+        ],
+        "oldMark": [
+          640,
+          741
+        ],
+        "independentReply": false,
+        "actionGroup": "A14",
+        "actionPhase": 1,
+        "actionAsset": "A14_01",
+        "fullConnectedBody": true,
+        "focus": "draw-half-mark",
+        "sourceDrawnVioletPen": true,
+        "violetPen": [
+          1277.174528293394,
+          510.2824825855537
+        ],
+        "violetContact": [
+          1277.174528293394,
+          510.2824825855537
+        ],
+        "writingDetail": true
+      },
+      "art": [
+        {
+          "name": "A14_01",
+          "x": -205.00673130722043,
+          "y": -390.3319567385631,
+          "w": 1900,
+          "h": 1300,
+          "actionGroup": "A14",
+          "phase": 1
+        }
+      ],
+      "u": 0.45
+    },
+    {
+      "t": 204.65333333333334,
+      "shot": "R85",
+      "scene": {
+        "paperCorners": [
+          [
+            655,
+            190
+          ],
+          [
+            1810,
+            250
+          ],
+          [
+            1805,
+            866
+          ],
+          [
+            600,
+            844
+          ]
+        ],
+        "oldMark": [
+          640,
+          741
+        ],
+        "independentReply": false,
+        "actionGroup": "A14",
+        "actionPhase": 1,
+        "actionAsset": "A14_01",
+        "fullConnectedBody": true,
+        "focus": "draw-half-mark",
+        "sourceDrawnVioletPen": true,
+        "violetPen": [
+          1305,
+          492.34
+        ],
+        "violetContact": [
+          1305,
+          492.34
+        ],
+        "writingDetail": true
+      },
+      "art": [
+        {
+          "name": "A14_01",
+          "x": -177.18125960061434,
+          "y": -408.2744393241168,
+          "w": 1900,
+          "h": 1300,
+          "actionGroup": "A14",
+          "phase": 1
+        }
+      ],
+      "u": 0.55
+    },
+    {
+      "t": 205.13333333333333,
+      "shot": "R85",
+      "scene": {
+        "paperCorners": [
+          [
+            655,
+            190
+          ],
+          [
+            1810,
+            250
+          ],
+          [
+            1805,
+            866
+          ],
+          [
+            600,
+            844
+          ]
+        ],
+        "oldMark": [
+          640,
+          741
+        ],
+        "independentReply": false,
+        "actionGroup": "A14",
+        "actionPhase": 2,
+        "actionAsset": "A14_02",
+        "fullConnectedBody": true,
+        "focus": "lift-pen-and-wait",
+        "sourceDrawnVioletPen": true,
+        "violetPen": [
+          835.1761102603369,
+          564.7856049004594
+        ],
+        "violetContact": [
+          1305,
+          492.34
+        ],
+        "writingDetail": false
+      },
+      "art": [
+        {
+          "name": "A14_02",
+          "x": 27.87710566615624,
+          "y": 234.52143950995406,
+          "w": 1090,
+          "h": 675,
+          "actionGroup": "A14",
+          "phase": 2
+        }
+      ],
+      "u": 0.75
+    }
+  ],
+  "drawing": [
+    {
+      "t": 211.18333333333334,
+      "shot": "R86",
+      "scene": {
+        "actionGroup": "A14",
+        "actionPhase": 1,
+        "actionAsset": "A14_01",
+        "fullConnectedBody": true,
+        "focus": "two-authors-build-world",
+        "violetPen": [
+          995,
+          674.9999999999999
+        ],
+        "violetContact": [
+          995,
+          674.9999999999999
+        ],
+        "goldPen": [
+          1157.192,
+          657.392
+        ],
+        "seatedShoulder": [
+          768.3486943164362,
+          492.2811059907834
+        ],
+        "paperOffset": [
+          22.191999999999894,
+          2.3920000000000528
+        ],
+        "completedStrokes": 0.10400000000000595,
+        "bridgeFraction": 0.013000000000000744,
+        "terrainCount": 0,
+        "independentReply": true,
+        "sourceDrawnVioletPen": true,
+        "penPausesForOtherAuthor": false,
+        "stillDrawing": true
+      },
+      "art": [
+        {
+          "name": "A14_01",
+          "x": 198.90937019969283,
+          "y": 224.69278033794154,
+          "w": 1060,
+          "h": 650,
+          "actionGroup": "A14",
+          "phase": 1
+        }
+      ],
+      "step": 0,
+      "u": 0.2
+    },
+    {
+      "t": 211.73333333333335,
+      "shot": "R86",
+      "scene": {
+        "actionGroup": "A14",
+        "actionPhase": 1,
+        "actionAsset": "A14_01",
+        "fullConnectedBody": true,
+        "focus": "two-authors-build-world",
+        "violetPen": [
+          995,
+          674.9999999999999
+        ],
+        "violetContact": [
+          995,
+          674.9999999999999
+        ],
+        "goldPen": [
+          1135.8079999999993,
+          675.6080000000004
+        ],
+        "seatedShoulder": [
+          768.3486943164362,
+          492.2811059907834
+        ],
+        "paperOffset": [
+          0.8079999999993106,
+          20.608000000000402
+        ],
+        "completedStrokes": 0.8960000000000238,
+        "bridgeFraction": 0.11200000000000297,
+        "terrainCount": 0,
+        "independentReply": true,
+        "sourceDrawnVioletPen": true,
+        "penPausesForOtherAuthor": false,
+        "stillDrawing": true
+      },
+      "art": [
+        {
+          "name": "A14_01",
+          "x": 198.90937019969283,
+          "y": 224.69278033794154,
+          "w": 1060,
+          "h": 650,
+          "actionGroup": "A14",
+          "phase": 1
+        }
+      ],
+      "step": 0,
+      "u": 0.8
+    },
+    {
+      "t": 212.1,
+      "shot": "R86",
+      "scene": {
+        "actionGroup": "A14",
+        "actionPhase": 2,
+        "actionAsset": "A14_02",
+        "fullConnectedBody": true,
+        "focus": "two-authors-build-world",
+        "violetPen": [
+          980.3701338263903,
+          545.037614413448
+        ],
+        "violetContact": [
+          995,
+          674.9999999999999
+        ],
+        "goldPen": [
+          998.224,
+          673.2319999999999
+        ],
+        "seatedShoulder": [
+          768.3486943164362,
+          492.2811059907834
+        ],
+        "paperOffset": [
+          -2,
+          22.999999999999886
+        ],
+        "completedStrokes": 1.104,
+        "bridgeFraction": 0.138,
+        "terrainCount": 0,
+        "independentReply": true,
+        "sourceDrawnVioletPen": true,
+        "penPausesForOtherAuthor": true,
+        "stillDrawing": true
+      },
+      "art": [
+        {
+          "name": "A14_02",
+          "x": 197.7859071801422,
+          "y": 227.00545514851683,
+          "w": 1060,
+          "h": 650,
+          "actionGroup": "A14",
+          "phase": 2
+        }
+      ],
+      "step": 1,
+      "u": 0.2
+    },
+    {
+      "t": 212.65,
+      "shot": "R86",
+      "scene": {
+        "actionGroup": "A14",
+        "actionPhase": 2,
+        "actionAsset": "A14_02",
+        "fullConnectedBody": true,
+        "focus": "two-authors-build-world",
+        "violetPen": [
+          980.3701338263903,
+          545.037614413448
+        ],
+        "violetContact": [
+          995,
+          674.9999999999999
+        ],
+        "goldPen": [
+          1022.7760000000001,
+          659.7679999999999
+        ],
+        "seatedShoulder": [
+          768.3486943164362,
+          492.2811059907834
+        ],
+        "paperOffset": [
+          -2,
+          22.999999999999886
+        ],
+        "completedStrokes": 1.8960000000000001,
+        "bridgeFraction": 0.23700000000000002,
+        "terrainCount": 1,
+        "independentReply": true,
+        "sourceDrawnVioletPen": true,
+        "penPausesForOtherAuthor": true,
+        "stillDrawing": true
+      },
+      "art": [
+        {
+          "name": "A14_02",
+          "x": 197.7859071801422,
+          "y": 227.00545514851683,
+          "w": 1060,
+          "h": 650,
+          "actionGroup": "A14",
+          "phase": 2
+        }
+      ],
+      "step": 1,
+      "u": 0.8
+    },
+    {
+      "t": 213.01666666666668,
+      "shot": "R86",
+      "scene": {
+        "actionGroup": "A14",
+        "actionPhase": 3,
+        "actionAsset": "A14_03",
+        "fullConnectedBody": true,
+        "focus": "two-authors-build-world",
+        "violetPen": [
+          993.8486943164362,
+          730.7811059907833
+        ],
+        "violetContact": [
+          993.8486943164362,
+          730.7811059907833
+        ],
+        "goldPen": [
+          990.9366943164359,
+          729.8451059907833
+        ],
+        "seatedShoulder": [
+          768.3486943164362,
+          492.2811059907834
+        ],
+        "paperOffset": [
+          -37.06330568356407,
+          94.84510599078328
+        ],
+        "completedStrokes": 2.104000000000006,
+        "bridgeFraction": 0.26300000000000073,
+        "terrainCount": 1,
+        "independentReply": true,
+        "sourceDrawnVioletPen": true,
+        "penPausesForOtherAuthor": false,
+        "stillDrawing": true
+      },
+      "art": [
+        {
+          "name": "A14_03",
+          "x": 199.8486943164362,
+          "y": 215.28110599078332,
+          "w": 1060,
+          "h": 650,
+          "actionGroup": "A14",
+          "phase": 3
+        }
+      ],
+      "step": 2,
+      "u": 0.2
+    },
+    {
+      "t": 213.56666666666666,
+      "shot": "R86",
+      "scene": {
+        "actionGroup": "A14",
+        "actionPhase": 3,
+        "actionAsset": "A14_03",
+        "fullConnectedBody": true,
+        "focus": "two-authors-build-world",
+        "violetPen": [
+          993.8486943164362,
+          730.7811059907833
+        ],
+        "violetContact": [
+          993.8486943164362,
+          730.7811059907833
+        ],
+        "goldPen": [
+          968.7606943164365,
+          722.7171059907834
+        ],
+        "seatedShoulder": [
+          768.3486943164362,
+          492.2811059907834
+        ],
+        "paperOffset": [
+          -59.23930568356354,
+          87.71710599078335
+        ],
+        "completedStrokes": 2.895999999999994,
+        "bridgeFraction": 0.36199999999999927,
+        "terrainCount": 1,
+        "independentReply": true,
+        "sourceDrawnVioletPen": true,
+        "penPausesForOtherAuthor": false,
+        "stillDrawing": true
+      },
+      "art": [
+        {
+          "name": "A14_03",
+          "x": 199.8486943164362,
+          "y": 215.28110599078332,
+          "w": 1060,
+          "h": 650,
+          "actionGroup": "A14",
+          "phase": 3
+        }
+      ],
+      "step": 2,
+      "u": 0.8
+    },
+    {
+      "t": 213.93333333333334,
+      "shot": "R86",
+      "scene": {
+        "actionGroup": "A14",
+        "actionPhase": 2,
+        "actionAsset": "A14_02",
+        "fullConnectedBody": true,
+        "focus": "two-authors-build-world",
+        "violetPen": [
+          980.3701338263903,
+          545.037614413448
+        ],
+        "violetContact": [
+          993.8486943164362,
+          730.7811059907833
+        ],
+        "goldPen": [
+          996.9686943164361,
+          728.8051059907833
+        ],
+        "seatedShoulder": [
+          768.3486943164362,
+          492.2811059907834
+        ],
+        "paperOffset": [
+          -62.151305683563805,
+          86.78110599078332
+        ],
+        "completedStrokes": 3.104,
+        "bridgeFraction": 0.388,
+        "terrainCount": 1,
+        "independentReply": true,
+        "sourceDrawnVioletPen": true,
+        "penPausesForOtherAuthor": true,
+        "stillDrawing": true
+      },
+      "art": [
+        {
+          "name": "A14_02",
+          "x": 197.7859071801422,
+          "y": 227.00545514851683,
+          "w": 1060,
+          "h": 650,
+          "actionGroup": "A14",
+          "phase": 2
+        }
+      ],
+      "step": 3,
+      "u": 0.2
+    },
+    {
+      "t": 214.48333333333335,
+      "shot": "R86",
+      "scene": {
+        "actionGroup": "A14",
+        "actionPhase": 2,
+        "actionAsset": "A14_02",
+        "fullConnectedBody": true,
+        "focus": "two-authors-build-world",
+        "violetPen": [
+          980.3701338263903,
+          545.037614413448
+        ],
+        "violetContact": [
+          993.8486943164362,
+          730.7811059907833
+        ],
+        "goldPen": [
+          1020.7286943164363,
+          713.7571059907833
+        ],
+        "seatedShoulder": [
+          768.3486943164362,
+          492.2811059907834
+        ],
+        "paperOffset": [
+          -62.151305683563805,
+          86.78110599078332
+        ],
+        "completedStrokes": 3.896,
+        "bridgeFraction": 0.487,
+        "terrainCount": 2,
+        "independentReply": true,
+        "sourceDrawnVioletPen": true,
+        "penPausesForOtherAuthor": true,
+        "stillDrawing": true
+      },
+      "art": [
+        {
+          "name": "A14_02",
+          "x": 197.7859071801422,
+          "y": 227.00545514851683,
+          "w": 1060,
+          "h": 650,
+          "actionGroup": "A14",
+          "phase": 2
+        }
+      ],
+      "step": 3,
+      "u": 0.8
+    },
+    {
+      "t": 214.85,
+      "shot": "R86",
+      "scene": {
+        "actionGroup": "A14",
+        "actionPhase": 3,
+        "actionAsset": "A14_03",
+        "fullConnectedBody": true,
+        "focus": "two-authors-build-world",
+        "violetPen": [
+          993.8486943164362,
+          730.7811059907833
+        ],
+        "violetContact": [
+          993.8486943164362,
+          730.7811059907833
+        ],
+        "goldPen": [
+          992.3926943164365,
+          728.1811059907839
+        ],
+        "seatedShoulder": [
+          768.3486943164362,
+          492.2811059907834
+        ],
+        "paperOffset": [
+          -93.60730568356348,
+          103.18110599078386
+        ],
+        "completedStrokes": 4.103999999999976,
+        "bridgeFraction": 0.512999999999997,
+        "terrainCount": 2,
+        "independentReply": true,
+        "sourceDrawnVioletPen": true,
+        "penPausesForOtherAuthor": false,
+        "stillDrawing": true
+      },
+      "art": [
+        {
+          "name": "A14_03",
+          "x": 199.8486943164362,
+          "y": 215.28110599078332,
+          "w": 1060,
+          "h": 650,
+          "actionGroup": "A14",
+          "phase": 3
+        }
+      ],
+      "step": 4,
+      "u": 0.2
+    },
+    {
+      "t": 215.4,
+      "shot": "R86",
+      "scene": {
+        "actionGroup": "A14",
+        "actionPhase": 3,
+        "actionAsset": "A14_03",
+        "fullConnectedBody": true,
+        "focus": "two-authors-build-world",
+        "violetPen": [
+          993.8486943164362,
+          730.7811059907833
+        ],
+        "violetContact": [
+          993.8486943164362,
+          730.7811059907833
+        ],
+        "goldPen": [
+          981.3046943164363,
+          708.3811059907835
+        ],
+        "seatedShoulder": [
+          768.3486943164362,
+          492.2811059907834
+        ],
+        "paperOffset": [
+          -104.69530568356367,
+          83.38110599078345
+        ],
+        "completedStrokes": 4.895999999999994,
+        "bridgeFraction": 0.6119999999999992,
+        "terrainCount": 2,
+        "independentReply": true,
+        "sourceDrawnVioletPen": true,
+        "penPausesForOtherAuthor": false,
+        "stillDrawing": true
+      },
+      "art": [
+        {
+          "name": "A14_03",
+          "x": 199.8486943164362,
+          "y": 215.28110599078332,
+          "w": 1060,
+          "h": 650,
+          "actionGroup": "A14",
+          "phase": 3
+        }
+      ],
+      "step": 4,
+      "u": 0.8
+    },
+    {
+      "t": 215.76666666666668,
+      "shot": "R86",
+      "scene": {
+        "actionGroup": "A14",
+        "actionPhase": 2,
+        "actionAsset": "A14_02",
+        "fullConnectedBody": true,
+        "focus": "two-authors-build-world",
+        "violetPen": [
+          980.3701338263903,
+          545.037614413448
+        ],
+        "violetContact": [
+          993.8486943164362,
+          730.7811059907833
+        ],
+        "goldPen": [
+          991.2486943164361,
+          733.6931059907835
+        ],
+        "seatedShoulder": [
+          768.3486943164362,
+          492.2811059907834
+        ],
+        "paperOffset": [
+          -106.1513056835638,
+          80.78110599078332
+        ],
+        "completedStrokes": 5.104000000000006,
+        "bridgeFraction": 0.6380000000000008,
+        "terrainCount": 2,
+        "independentReply": true,
+        "sourceDrawnVioletPen": true,
+        "penPausesForOtherAuthor": true,
+        "stillDrawing": true
+      },
+      "art": [
+        {
+          "name": "A14_02",
+          "x": 197.7859071801422,
+          "y": 227.00545514851683,
+          "w": 1060,
+          "h": 650,
+          "actionGroup": "A14",
+          "phase": 2
+        }
+      ],
+      "step": 5,
+      "u": 0.2
+    },
+    {
+      "t": 216.31666666666666,
+      "shot": "R86",
+      "scene": {
+        "actionGroup": "A14",
+        "actionPhase": 2,
+        "actionAsset": "A14_02",
+        "fullConnectedBody": true,
+        "focus": "two-authors-build-world",
+        "violetPen": [
+          980.3701338263903,
+          545.037614413448
+        ],
+        "violetContact": [
+          993.8486943164362,
+          730.7811059907833
+        ],
+        "goldPen": [
+          971.4486943164363,
+          755.8691059907832
+        ],
+        "seatedShoulder": [
+          768.3486943164362,
+          492.2811059907834
+        ],
+        "paperOffset": [
+          -106.1513056835638,
+          80.78110599078332
+        ],
+        "completedStrokes": 5.895999999999994,
+        "bridgeFraction": 0.7369999999999992,
+        "terrainCount": 3,
+        "independentReply": true,
+        "sourceDrawnVioletPen": true,
+        "penPausesForOtherAuthor": true,
+        "stillDrawing": true
+      },
+      "art": [
+        {
+          "name": "A14_02",
+          "x": 197.7859071801422,
+          "y": 227.00545514851683,
+          "w": 1060,
+          "h": 650,
+          "actionGroup": "A14",
+          "phase": 2
+        }
+      ],
+      "step": 5,
+      "u": 0.8
+    },
+    {
+      "t": 216.68333333333334,
+      "shot": "R86",
+      "scene": {
+        "actionGroup": "A14",
+        "actionPhase": 3,
+        "actionAsset": "A14_03",
+        "fullConnectedBody": true,
+        "focus": "two-authors-build-world",
+        "violetPen": [
+          993.8486943164362,
+          730.7811059907833
+        ],
+        "violetContact": [
+          993.8486943164362,
+          730.7811059907833
+        ],
+        "goldPen": [
+          990.0006943164362,
+          729.0131059907833
+        ],
+        "seatedShoulder": [
+          768.3486943164362,
+          492.2811059907834
+        ],
+        "paperOffset": [
+          -84.99930568356376,
+          51.01310599078329
+        ],
+        "completedStrokes": 6.104,
+        "bridgeFraction": 0.763,
+        "terrainCount": 3,
+        "independentReply": true,
+        "sourceDrawnVioletPen": true,
+        "penPausesForOtherAuthor": false,
+        "stillDrawing": true
+      },
+      "art": [
+        {
+          "name": "A14_03",
+          "x": 199.8486943164362,
+          "y": 215.28110599078332,
+          "w": 1060,
+          "h": 650,
+          "actionGroup": "A14",
+          "phase": 3
+        }
+      ],
+      "step": 6,
+      "u": 0.2
+    },
+    {
+      "t": 217.23333333333335,
+      "shot": "R86",
+      "scene": {
+        "actionGroup": "A14",
+        "actionPhase": 3,
+        "actionAsset": "A14_03",
+        "fullConnectedBody": true,
+        "focus": "two-authors-build-world",
+        "violetPen": [
+          993.8486943164362,
+          730.7811059907833
+        ],
+        "violetContact": [
+          993.8486943164362,
+          730.7811059907833
+        ],
+        "goldPen": [
+          960.6966943164362,
+          715.5491059907833
+        ],
+        "seatedShoulder": [
+          768.3486943164362,
+          492.2811059907834
+        ],
+        "paperOffset": [
+          -114.30330568356385,
+          37.549105990783346
+        ],
+        "completedStrokes": 6.896,
+        "bridgeFraction": 0.862,
+        "terrainCount": 3,
+        "independentReply": true,
+        "sourceDrawnVioletPen": true,
+        "penPausesForOtherAuthor": false,
+        "stillDrawing": true
+      },
+      "art": [
+        {
+          "name": "A14_03",
+          "x": 199.8486943164362,
+          "y": 215.28110599078332,
+          "w": 1060,
+          "h": 650,
+          "actionGroup": "A14",
+          "phase": 3
+        }
+      ],
+      "step": 6,
+      "u": 0.8
+    },
+    {
+      "t": 217.60000000000002,
+      "shot": "R86",
+      "scene": {
+        "actionGroup": "A14",
+        "actionPhase": 2,
+        "actionAsset": "A14_02",
+        "fullConnectedBody": true,
+        "focus": "two-authors-build-world",
+        "violetPen": [
+          980.3701338263903,
+          545.037614413448
+        ],
+        "violetContact": [
+          993.8486943164362,
+          730.7811059907833
+        ],
+        "goldPen": [
+          997.2806943164364,
+          728.9091059907832
+        ],
+        "seatedShoulder": [
+          768.3486943164362,
+          492.2811059907834
+        ],
+        "paperOffset": [
+          -118.1513056835638,
+          35.78110599078332
+        ],
+        "completedStrokes": 7.104000000000006,
+        "bridgeFraction": 0.8880000000000008,
+        "terrainCount": 3,
+        "independentReply": true,
+        "sourceDrawnVioletPen": true,
+        "penPausesForOtherAuthor": true,
+        "stillDrawing": true
+      },
+      "art": [
+        {
+          "name": "A14_02",
+          "x": 197.7859071801422,
+          "y": 227.00545514851683,
+          "w": 1060,
+          "h": 650,
+          "actionGroup": "A14",
+          "phase": 2
+        }
+      ],
+      "step": 7,
+      "u": 0.2
+    },
+    {
+      "t": 218.15,
+      "shot": "R86",
+      "scene": {
+        "actionGroup": "A14",
+        "actionPhase": 2,
+        "actionAsset": "A14_02",
+        "fullConnectedBody": true,
+        "focus": "two-authors-build-world",
+        "violetPen": [
+          980.3701338263903,
+          545.037614413448
+        ],
+        "violetContact": [
+          993.8486943164362,
+          730.7811059907833
+        ],
+        "goldPen": [
+          1023.416694316436,
+          714.6531059907834
+        ],
+        "seatedShoulder": [
+          768.3486943164362,
+          492.2811059907834
+        ],
+        "paperOffset": [
+          -118.1513056835638,
+          35.78110599078332
+        ],
+        "completedStrokes": 7.895999999999994,
+        "bridgeFraction": 0.9869999999999992,
+        "terrainCount": 3,
+        "independentReply": true,
+        "sourceDrawnVioletPen": true,
+        "penPausesForOtherAuthor": true,
+        "stillDrawing": true
+      },
+      "art": [
+        {
+          "name": "A14_02",
+          "x": 197.7859071801422,
+          "y": 227.00545514851683,
+          "w": 1060,
+          "h": 650,
+          "actionGroup": "A14",
+          "phase": 2
+        }
+      ],
+      "step": 7,
+      "u": 0.8
+    }
+  ],
+  "checks": {
+    "native_4k": true,
+    "no_page_errors": true,
+    "six_unique_guests": true,
+    "six_door_directions": true,
+    "cells_start_open": true,
+    "cells_finish_locked": true,
+    "true_depth_and_front_occlusion": true,
+    "r85_source_nib_on_mark": true,
+    "coda_source_nib_on_mark": true,
+    "coda_seated_shoulder_fixed": true,
+    "coda_pen_lifted_for_other_author": true,
+    "coda_grows_bridge": true,
+    "coda_uses_new_a14_actions": true,
+    "inputs_unchanged_during_check": true
+  },
+  "hashes": {
+    "src/mv5/late.js": "00bd27b75d47650f09c951b85232997406fc61c6edb77807ae17498ae02e168b",
+    "src/mv5/spatial-neural.js": "bdccda032ded86df70afc804ed191e21a930494c57ce61c21b7d0125ce35a8e0",
+    "assets/astra/v09/manifest.json": "542140d1638450c0a0dffed220352009b083bca8a0de658d6e1303ab3753c3fe",
+    "assets/astra/v09/late-assets.json": "7d3c9ea0ab5856afe23cd2a83f4bc8b63d78f11c6cb2aebb21df5725e78cf10e"
+  },
+  "errors": [],
+  "passed": true,
+  "checked_at": "2026-11-05T11:53:44.624Z",
+  "scope": "40 selected real renderer instants at 3840x2160. Verifies scene geometry metadata and actual source mapped pen contacts. Native PNG probes separately inspected. Front occlusion is analytic bar coverage, not measured pixels. Not full-frame continuity, audio or final export validation."
+}

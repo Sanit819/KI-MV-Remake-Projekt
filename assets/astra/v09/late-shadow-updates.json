@@ -1,0 +1,198 @@
+{
+  "A10_01": {
+    "path": "/assets/astra/v09/A10-01-shadow.png",
+    "faceTreatment": "shadow",
+    "styleRevision": 3,
+    "provenance": {
+      "tool": "built-in image_gen",
+      "source": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa74-6594-76d2-b670-a6654b78a7af\\exec-e9e1bd2e-af9c-4888-a316-5960c65fdab1.png",
+      "prompt": "assets/astra/v09/A10-01-shadow.prompt.txt",
+      "editTarget": "assets/astra/v09/A10-01-style2.png",
+      "inspected": true,
+      "styleRevision": 3,
+      "inspection": "Face interior directly redrawn as shadow by ImageGen; no eye/skin visible. Body/hand/pen placement visually preserved. A14 pen cap tassel removed by ImageGen."
+    }
+  },
+  "A10_02": {
+    "path": "/assets/astra/v09/A10-02-shadow.png",
+    "faceTreatment": "shadow",
+    "styleRevision": 3,
+    "provenance": {
+      "tool": "built-in image_gen",
+      "source": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa74-6594-76d2-b670-a6654b78a7af\\exec-2f90ef67-e84d-4297-89a5-c17bd9158d8f.png",
+      "prompt": "assets/astra/v09/A10-02-shadow.prompt.txt",
+      "editTarget": "assets/astra/v09/A10-02-style2.png",
+      "inspected": true,
+      "styleRevision": 3,
+      "inspection": "Face interior directly redrawn as shadow by ImageGen; no eye/skin visible. Body/hand/pen placement visually preserved. A14 pen cap tassel removed by ImageGen."
+    }
+  },
+  "A10_03": {
+    "path": "/assets/astra/v09/A10-03-shadow.png",
+    "faceTreatment": "shadow",
+    "styleRevision": 3,
+    "provenance": {
+      "tool": "built-in image_gen",
+      "source": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa74-6594-76d2-b670-a6654b78a7af\\exec-e217b3b6-4a3d-4582-8450-180bd0e337e2.png",
+      "prompt": "assets/astra/v09/A10-03-shadow.prompt.txt",
+      "editTarget": "assets/astra/v09/A10-03-style2.png",
+      "inspected": true,
+      "styleRevision": 3,
+      "inspection": "Face interior directly redrawn as shadow by ImageGen; no eye/skin visible. Body/hand/pen placement visually preserved. A14 pen cap tassel removed by ImageGen."
+    }
+  },
+  "A11_01": {
+    "path": "/assets/astra/v09/A11-01-shadow.png",
+    "faceTreatment": "shadow",
+    "styleRevision": 3,
+    "provenance": {
+      "tool": "built-in image_gen",
+      "source": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa74-6594-76d2-b670-a6654b78a7af\\exec-a18c897d-8940-440f-bf54-cbb4d6e3d797.png",
+      "prompt": "assets/astra/v09/A11-01-shadow.prompt.txt",
+      "editTarget": "assets/astra/v09/A11-01-style2.png",
+      "inspected": true,
+      "styleRevision": 3,
+      "inspection": "Face interior directly redrawn as shadow by ImageGen; no eye/skin visible. Body/hand/pen placement visually preserved. A14 pen cap tassel removed by ImageGen."
+    }
+  },
+  "A11_02": {
+    "path": "/assets/astra/v09/A11-02-shadow.png",
+    "faceTreatment": "shadow",
+    "styleRevision": 3,
+    "provenance": {
+      "tool": "built-in image_gen",
+      "source": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa74-6594-76d2-b670-a6654b78a7af\\exec-b67953a1-97eb-4631-bb5c-68d9f9763023.png",
+      "prompt": "assets/astra/v09/A11-02-shadow.prompt.txt",
+      "editTarget": "assets/astra/v09/A11-02-style2.png",
+      "inspected": true,
+      "styleRevision": 3,
+      "inspection": "Face interior directly redrawn as shadow by ImageGen; no eye/skin visible. Body/hand/pen placement visually preserved. A14 pen cap tassel removed by ImageGen."
+    }
+  },
+  "A11_03": {
+    "path": "/assets/astra/v09/A11-03-shadow.png",
+    "faceTreatment": "shadow",
+    "styleRevision": 3,
+    "provenance": {
+      "tool": "built-in image_gen",
+      "source": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa74-6594-76d2-b670-a6654b78a7af\\exec-72630e66-1f28-499b-91e2-0a19642a7b7f.png",
+      "prompt": "assets/astra/v09/A11-03-shadow.prompt.txt",
+      "editTarget": "assets/astra/v09/A11-03-style2.png",
+      "inspected": true,
+      "styleRevision": 3,
+      "inspection": "Face interior directly redrawn as shadow by ImageGen; no eye/skin visible. Body/hand/pen placement visually preserved. A14 pen cap tassel removed by ImageGen."
+    }
+  },
+  "A12_01": {
+    "path": "/assets/astra/v09/A12-01-shadow.png",
+    "faceTreatment": "shadow",
+    "styleRevision": 3,
+    "provenance": {
+      "tool": "built-in image_gen",
+      "source": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa74-6594-76d2-b670-a6654b78a7af\\exec-b2791a0b-0c4f-46fc-84f3-fb58080d5cdc.png",
+      "prompt": "assets/astra/v09/A12-01-shadow.prompt.txt",
+      "editTarget": "assets/astra/v09/A12-01-style2.png",
+      "inspected": true,
+      "styleRevision": 3,
+      "inspection": "Face interior directly redrawn as shadow by ImageGen; no eye/skin visible. Body/hand/pen placement visually preserved. A14 pen cap tassel removed by ImageGen."
+    }
+  },
+  "A12_02": {
+    "path": "/assets/astra/v09/A12-02-shadow.png",
+    "faceTreatment": "shadow",
+    "styleRevision": 3,
+    "provenance": {
+      "tool": "built-in image_gen",
+      "source": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa74-6594-76d2-b670-a6654b78a7af\\exec-e1df9482-8b7b-4a44-ab78-a0cb57404b06.png",
+      "prompt": "assets/astra/v09/A12-02-shadow.prompt.txt",
+      "editTarget": "assets/astra/v09/A12-02-style2.png",
+      "inspected": true,
+      "styleRevision": 3,
+      "inspection": "Face interior directly redrawn as shadow by ImageGen; no eye/skin visible. Body/hand/pen placement visually preserved. A14 pen cap tassel removed by ImageGen."
+    }
+  },
+  "A13_01": {
+    "path": "/assets/astra/v09/A13-01-shadow.png",
+    "faceTreatment": "shadow",
+    "styleRevision": 3,
+    "provenance": {
+      "tool": "built-in image_gen",
+      "source": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa74-6594-76d2-b670-a6654b78a7af\\exec-cde0cecb-ec7d-44c2-adc9-5fdd4e1e1fc2.png",
+      "prompt": "assets/astra/v09/A13-01-shadow.prompt.txt",
+      "editTarget": "assets/astra/v09/A13-01-style2.png",
+      "inspected": true,
+      "styleRevision": 3,
+      "inspection": "Face interior directly redrawn as shadow by ImageGen; no eye/skin visible. Body/hand/pen placement visually preserved. A14 pen cap tassel removed by ImageGen."
+    }
+  },
+  "A13_02": {
+    "path": "/assets/astra/v09/A13-02-shadow.png",
+    "faceTreatment": "shadow",
+    "styleRevision": 3,
+    "provenance": {
+      "tool": "built-in image_gen",
+      "source": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa74-6594-76d2-b670-a6654b78a7af\\exec-eb3065bf-c10f-46c3-8ed4-4203dd771af7.png",
+      "prompt": "assets/astra/v09/A13-02-shadow.prompt.txt",
+      "editTarget": "assets/astra/v09/A13-02-style2.png",
+      "inspected": true,
+      "styleRevision": 3,
+      "inspection": "Face interior directly redrawn as shadow by ImageGen; no eye/skin visible. Body/hand/pen placement visually preserved. A14 pen cap tassel removed by ImageGen."
+    }
+  },
+  "A13_03": {
+    "path": "/assets/astra/v09/A13-03-shadow.png",
+    "faceTreatment": "shadow",
+    "styleRevision": 3,
+    "provenance": {
+      "tool": "built-in image_gen",
+      "source": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa74-6594-76d2-b670-a6654b78a7af\\exec-60b46221-0067-431c-80bb-58500066e10d.png",
+      "prompt": "assets/astra/v09/A13-03-shadow.prompt.txt",
+      "editTarget": "assets/astra/v09/A13-03-style2.png",
+      "inspected": true,
+      "styleRevision": 3,
+      "inspection": "Face interior directly redrawn as shadow by ImageGen; no eye/skin visible. Body/hand/pen placement visually preserved. A14 pen cap tassel removed by ImageGen."
+    }
+  },
+  "A14_01": {
+    "path": "/assets/astra/v09/A14-01-shadow.png",
+    "faceTreatment": "shadow",
+    "styleRevision": 3,
+    "provenance": {
+      "tool": "built-in image_gen",
+      "source": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa74-6594-76d2-b670-a6654b78a7af\\exec-c16d8d8e-db79-4d54-ba3b-3e2c9d4cf50e.png",
+      "prompt": "assets/astra/v09/A14-01-shadow.prompt.txt",
+      "editTarget": "assets/astra/v09/A14-01-style2.png",
+      "inspected": true,
+      "styleRevision": 3,
+      "inspection": "Face interior directly redrawn as shadow by ImageGen; no eye/skin visible. Body/hand/pen placement visually preserved. A14 pen cap tassel removed by ImageGen."
+    }
+  },
+  "A14_02": {
+    "path": "/assets/astra/v09/A14-02-shadow.png",
+    "faceTreatment": "shadow",
+    "styleRevision": 3,
+    "provenance": {
+      "tool": "built-in image_gen",
+      "source": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa74-6594-76d2-b670-a6654b78a7af\\exec-13cf3228-6e80-4090-9dc7-9b849fb7be04.png",
+      "prompt": "assets/astra/v09/A14-02-shadow.prompt.txt",
+      "editTarget": "assets/astra/v09/A14-02-style2.png",
+      "inspected": true,
+      "styleRevision": 3,
+      "inspection": "Face interior directly redrawn as shadow by ImageGen; no eye/skin visible. Body/hand/pen placement visually preserved. A14 pen cap tassel removed by ImageGen."
+    }
+  },
+  "A14_03": {
+    "path": "/assets/astra/v09/A14-03-shadow.png",
+    "faceTreatment": "shadow",
+    "styleRevision": 3,
+    "provenance": {
+      "tool": "built-in image_gen",
+      "source": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa74-6594-76d2-b670-a6654b78a7af\\exec-44e74595-0f18-4d6d-b94b-436e47c71d85.png",
+      "prompt": "assets/astra/v09/A14-03-shadow.prompt.txt",
+      "editTarget": "assets/astra/v09/A14-03-style2.png",
+      "inspected": true,
+      "styleRevision": 3,
+      "inspection": "Face interior directly redrawn as shadow by ImageGen; no eye/skin visible. Body/hand/pen placement visually preserved. A14 pen cap tassel removed by ImageGen."
+    }
+  }
+}

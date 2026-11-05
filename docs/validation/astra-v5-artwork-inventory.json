@@ -1,0 +1,3575 @@
+{
+  "passed": true,
+  "checks": {
+    "52_distinct_source_files": true,
+    "21_groups": true,
+    "all_source_checks": true
+  },
+  "scope": "Read-only alpha, dimension, source-hash and saved-prompt inventory. Actual anatomy, knot shape and intentional anchor location require visual inspection. No image transformation.",
+  "items": [
+    {
+      "name": "A01_01",
+      "path": "/assets/astra/v09/A01-01-inkface.png",
+      "actionGroup": "A01",
+      "phase": 1,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "raw_corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "raw_corners_exact_zero": true,
+      "production_alpha_rule": "Existing Art.load discards source alpha < 16 before tracing; no source-image modification.",
+      "alpha_128_bounds_xyxy": [
+        224,
+        4,
+        1036,
+        1023
+      ],
+      "opaque_fraction": 0.3123779296875,
+      "transparent_fraction": 0.6739126841227213,
+      "source_anchors": [
+        {
+          "key": "hands",
+          "source_point": [
+            952,
+            367
+          ],
+          "nearby_max_alpha": 254
+        },
+        {
+          "key": "wrist",
+          "source_point": [
+            905,
+            382
+          ],
+          "nearby_max_alpha": 254
+        },
+        {
+          "key": "pen",
+          "source_point": [
+            1033,
+            424
+          ],
+          "nearby_max_alpha": 252
+        },
+        {
+          "key": "eyes",
+          "source_point": [
+            647,
+            195
+          ],
+          "nearby_max_alpha": 253
+        }
+      ],
+      "checks": {
+        "real_alpha_channel": true,
+        "opaque_foreground_present": true,
+        "fully_transparent_background_present": true,
+        "production_effective_transparent_corners": true,
+        "hash_matches_manifest": true,
+        "prompt_preserved": true,
+        "shadow_face_inspection_declared": true
+      },
+      "passed": true
+    },
+    {
+      "name": "A01_02",
+      "path": "/assets/astra/v09/A01-02-inkface.png",
+      "actionGroup": "A01",
+      "phase": 2,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "raw_corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "raw_corners_exact_zero": true,
+      "production_alpha_rule": "Existing Art.load discards source alpha < 16 before tracing; no source-image modification.",
+      "alpha_128_bounds_xyxy": [
+        274,
+        3,
+        1078,
+        1022
+      ],
+      "opaque_fraction": 0.32286516825358075,
+      "transparent_fraction": 0.6642290751139323,
+      "source_anchors": [
+        {
+          "key": "hands",
+          "source_point": [
+            1020,
+            628
+          ],
+          "nearby_max_alpha": 254
+        },
+        {
+          "key": "wrist",
+          "source_point": [
+            976,
+            606
+          ],
+          "nearby_max_alpha": 254
+        },
+        {
+          "key": "pen",
+          "source_point": [
+            1076,
+            720
+          ],
+          "nearby_max_alpha": 254
+        },
+        {
+          "key": "eyes",
+          "source_point": [
+            801,
+            239
+          ],
+          "nearby_max_alpha": 254
+        }
+      ],
+      "checks": {
+        "real_alpha_channel": true,
+        "opaque_foreground_present": true,
+        "fully_transparent_background_present": true,
+        "production_effective_transparent_corners": true,
+        "hash_matches_manifest": true,
+        "prompt_preserved": true,
+        "shadow_face_inspection_declared": true
+      },
+      "passed": true
+    },
+    {
+      "name": "A02_01",
+      "path": "/assets/astra/v09/A02-01-inkface.png",
+      "actionGroup": "A02",
+      "phase": 1,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "raw_corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "raw_corners_exact_zero": true,
+      "production_alpha_rule": "Existing Art.load discards source alpha < 16 before tracing; no source-image modification.",
+      "alpha_128_bounds_xyxy": [
+        396,
+        6,
+        1133,
+        1017
+      ],
+      "opaque_fraction": 0.29149818420410156,
+      "transparent_fraction": 0.6914768218994141,
+      "source_anchors": [
+        {
+          "key": "hands",
+          "source_point": [
+            993,
+            222
+          ],
+          "nearby_max_alpha": 254
+        },
+        {
+          "key": "wrist",
+          "source_point": [
+            970,
+            267
+          ],
+          "nearby_max_alpha": 254
+        },
+        {
+          "key": "eyes",
+          "source_point": [
+            799,
+            172
+          ],
+          "nearby_max_alpha": 254
+        }
+      ],
+      "checks": {
+        "real_alpha_channel": true,
+        "opaque_foreground_present": true,
+        "fully_transparent_background_present": true,
+        "production_effective_transparent_corners": true,
+        "hash_matches_manifest": true,
+        "prompt_preserved": true,
+        "shadow_face_inspection_declared": true
+      },
+      "passed": true
+    },
+    {
+      "name": "A02_02",
+      "path": "/assets/astra/v09/A02-02-inkface.png",
+      "actionGroup": "A02",
+      "phase": 2,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "raw_corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "raw_corners_exact_zero": true,
+      "production_alpha_rule": "Existing Art.load discards source alpha < 16 before tracing; no source-image modification.",
+      "alpha_128_bounds_xyxy": [
+        321,
+        3,
+        1180,
+        1021
+      ],
+      "opaque_fraction": 0.3271706899007161,
+      "transparent_fraction": 0.6590614318847656,
+      "source_anchors": [
+        {
+          "key": "hands",
+          "source_point": [
+            1135,
+            199
+          ],
+          "nearby_max_alpha": 254
+        },
+        {
+          "key": "wrist",
+          "source_point": [
+            1097,
+            247
+          ],
+          "nearby_max_alpha": 254
+        },
+        {
+          "key": "eyes",
+          "source_point": [
+            836,
+            181
+          ],
+          "nearby_max_alpha": 254
+        }
+      ],
+      "checks": {
+        "real_alpha_channel": true,
+        "opaque_foreground_present": true,
+        "fully_transparent_background_present": true,
+        "production_effective_transparent_corners": true,
+        "hash_matches_manifest": true,
+        "prompt_preserved": true,
+        "shadow_face_inspection_declared": true
+      },
+      "passed": true
+    },
+    {
+      "name": "A02_03",
+      "path": "/assets/astra/v09/A02-03-inkface.png",
+      "actionGroup": "A02",
+      "phase": 3,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "raw_corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "raw_corners_exact_zero": true,
+      "production_alpha_rule": "Existing Art.load discards source alpha < 16 before tracing; no source-image modification.",
+      "alpha_128_bounds_xyxy": [
+        384,
+        2,
+        1149,
+        1018
+      ],
+      "opaque_fraction": 0.29453404744466144,
+      "transparent_fraction": 0.6907806396484375,
+      "source_anchors": [
+        {
+          "key": "hands",
+          "source_point": [
+            862,
+            506
+          ],
+          "nearby_max_alpha": 254
+        },
+        {
+          "key": "wrist",
+          "source_point": [
+            883,
+            462
+          ],
+          "nearby_max_alpha": 254
+        },
+        {
+          "key": "eyes",
+          "source_point": [
+            786,
+            187
+          ],
+          "nearby_max_alpha": 254
+        }
+      ],
+      "checks": {
+        "real_alpha_channel": true,
+        "opaque_foreground_present": true,
+        "fully_transparent_background_present": true,
+        "production_effective_transparent_corners": true,
+        "hash_matches_manifest": true,
+        "prompt_preserved": true,
+        "shadow_face_inspection_declared": true
+      },
+      "passed": true
+    },
+    {
+      "name": "A03_01",
+      "path": "/assets/astra/v09/A03-01-inkface.png",
+      "actionGroup": "A03",
+      "phase": 1,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "raw_corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "raw_corners_exact_zero": true,
+      "production_alpha_rule": "Existing Art.load discards source alpha < 16 before tracing; no source-image modification.",
+      "alpha_128_bounds_xyxy": [
+        253,
+        6,
+        1283,
+        1016
+      ],
+      "opaque_fraction": 0.4293073018391927,
+      "transparent_fraction": 0.5510120391845703,
+      "source_anchors": [
+        {
+          "key": "hands",
+          "source_point": [
+            483,
+            616
+          ],
+          "nearby_max_alpha": 254
+        },
+        {
+          "key": "leftPalm",
+          "source_point": [
+            359,
+            594
+          ],
+          "nearby_max_alpha": 254
+        },
+        {
+          "key": "rightPalm",
+          "source_point": [
+            487,
+            621
+          ],
+          "nearby_max_alpha": 254
+        },
+        {
+          "key": "wrist",
+          "source_point": [
+            543,
+            590
+          ],
+          "nearby_max_alpha": 254
+        },
+        {
+          "key": "eyes",
+          "source_point": [
+            567,
+            265
+          ],
+          "nearby_max_alpha": 254
+        }
+      ],
+      "checks": {
+        "real_alpha_channel": true,
+        "opaque_foreground_present": true,
+        "fully_transparent_background_present": true,
+        "production_effective_transparent_corners": true,
+        "hash_matches_manifest": true,
+        "prompt_preserved": true,
+        "shadow_face_inspection_declared": true
+      },
+      "passed": true
+    },
+    {
+      "name": "A03_02",
+      "path": "/assets/astra/v09/A03-02-inkface.png",
+      "actionGroup": "A03",
+      "phase": 2,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "raw_corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "raw_corners_exact_zero": true,
+      "production_alpha_rule": "Existing Art.load discards source alpha < 16 before tracing; no source-image modification.",
+      "alpha_128_bounds_xyxy": [
+        331,
+        6,
+        1176,
+        1016
+      ],
+      "opaque_fraction": 0.35436439514160156,
+      "transparent_fraction": 0.6325740814208984,
+      "source_anchors": [
+        {
+          "key": "hands",
+          "source_point": [
+            448,
+            322
+          ],
+          "nearby_max_alpha": 254
+        },
+        {
+          "key": "leftPalm",
+          "source_point": [
+            448,
+            322
+          ],
+          "nearby_max_alpha": 254
+        },
+        {
+          "key": "rightPalm",
+          "source_point": [
+            989,
+            336
+          ],
+          "nearby_max_alpha": 254
+        },
+        {
+          "key": "wrist",
+          "source_point": [
+            493,
+            339
+          ],
+          "nearby_max_alpha": 254
+        },
+        {
+          "key": "eyes",
+          "source_point": [
+            739,
+            165
+          ],
+          "nearby_max_alpha": 254
+        }
+      ],
+      "checks": {
+        "real_alpha_channel": true,
+        "opaque_foreground_present": true,
+        "fully_transparent_background_present": true,
+        "production_effective_transparent_corners": true,
+        "hash_matches_manifest": true,
+        "prompt_preserved": true,
+        "shadow_face_inspection_declared": true
+      },
+      "passed": true
+    },
+    {
+      "name": "A15_01",
+      "path": "/assets/astra/v09/A15-01-inkface.png",
+      "actionGroup": "A15",
+      "phase": 1,
+      "size": [
+        1448,
+        1086
+      ],
+      "mode": "RGBA",
+      "raw_corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "raw_corners_exact_zero": true,
+      "production_alpha_rule": "Existing Art.load discards source alpha < 16 before tracing; no source-image modification.",
+      "alpha_128_bounds_xyxy": [
+        127,
+        10,
+        1376,
+        1086
+      ],
+      "opaque_fraction": 0.515852817883052,
+      "transparent_fraction": 0.46389507849780737,
+      "source_anchors": [
+        {
+          "key": "hands",
+          "source_point": [
+            500,
+            319
+          ],
+          "nearby_max_alpha": 254
+        },
+        {
+          "key": "wrist",
+          "source_point": [
+            445,
+            393
+          ],
+          "nearby_max_alpha": 254
+        },
+        {
+          "key": "pen",
+          "source_point": [
+            603,
+            345
+          ],
+          "nearby_max_alpha": 251
+        },
+        {
+          "key": "support",
+          "source_point": [
+            622,
+            694
+          ],
+          "nearby_max_alpha": 254
+        },
+        {
+          "key": "eyes",
+          "source_point": [
+            800,
+            331
+          ],
+          "nearby_max_alpha": 254
+        }
+      ],
+      "checks": {
+        "real_alpha_channel": true,
+        "opaque_foreground_present": true,
+        "fully_transparent_background_present": true,
+        "production_effective_transparent_corners": true,
+        "hash_matches_manifest": true,
+        "prompt_preserved": true,
+        "shadow_face_inspection_declared": true
+      },
+      "passed": true
+    },
+    {
+      "name": "A15_02",
+      "path": "/assets/astra/v09/A15-02-inkface.png",
+      "actionGroup": "A15",
+      "phase": 2,
+      "size": [
+        1448,
+        1086
+      ],
+      "mode": "RGBA",
+      "raw_corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "raw_corners_exact_zero": true,
+      "production_alpha_rule": "Existing Art.load discards source alpha < 16 before tracing; no source-image modification.",
+      "alpha_128_bounds_xyxy": [
+        157,
+        8,
+        1374,
+        1086
+      ],
+      "opaque_fraction": 0.48606384115259,
+      "transparent_fraction": 0.4988756956950846,
+      "source_anchors": [
+        {
+          "key": "hands",
+          "source_point": [
+            534,
+            648
+          ],
+          "nearby_max_alpha": 254
+        },
+        {
+          "key": "wrist",
+          "source_point": [
+            472,
+            649
+          ],
+          "nearby_max_alpha": 254
+        },
+        {
+          "key": "pen",
+          "source_point": [
+            614,
+            719
+          ],
+          "nearby_max_alpha": 254
+        },
+        {
+          "key": "support",
+          "source_point": [
+            528,
+            762
+          ],
+          "nearby_max_alpha": 254
+        },
+        {
+          "key": "eyes",
+          "source_point": [
+            765,
+            380
+          ],
+          "nearby_max_alpha": 254
+        }
+      ],
+      "checks": {
+        "real_alpha_channel": true,
+        "opaque_foreground_present": true,
+        "fully_transparent_background_present": true,
+        "production_effective_transparent_corners": true,
+        "hash_matches_manifest": true,
+        "prompt_preserved": true,
+        "shadow_face_inspection_declared": true
+      },
+      "passed": true
+    },
+    {
+      "name": "A16_01",
+      "path": "/assets/astra/v09/A16-01-inkface.png",
+      "actionGroup": "A16",
+      "phase": 1,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "raw_corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "raw_corners_exact_zero": true,
+      "production_alpha_rule": "Existing Art.load discards source alpha < 16 before tracing; no source-image modification.",
+      "alpha_128_bounds_xyxy": [
+        27,
+        1,
+        1407,
+        1024
+      ],
+      "opaque_fraction": 0.4407215118408203,
+      "transparent_fraction": 0.5477460225423177,
+      "source_anchors": [
+        {
+          "key": "hands",
+          "source_point": [
+            1299,
+            697
+          ],
+          "nearby_max_alpha": 254
+        },
+        {
+          "key": "wrist",
+          "source_point": [
+            1204,
+            766
+          ],
+          "nearby_max_alpha": 254
+        },
+        {
+          "key": "pen",
+          "source_point": [
+            1403,
+            764
+          ],
+          "nearby_max_alpha": 254
+        },
+        {
+          "key": "eyes",
+          "source_point": [
+            718,
+            326
+          ],
+          "nearby_max_alpha": 254
+        }
+      ],
+      "checks": {
+        "real_alpha_channel": true,
+        "opaque_foreground_present": true,
+        "fully_transparent_background_present": true,
+        "production_effective_transparent_corners": true,
+        "hash_matches_manifest": true,
+        "prompt_preserved": true,
+        "shadow_face_inspection_declared": true
+      },
+      "passed": true
+    },
+    {
+      "name": "A16_02",
+      "path": "/assets/astra/v09/A16-02-inkface.png",
+      "actionGroup": "A16",
+      "phase": 2,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "raw_corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "raw_corners_exact_zero": true,
+      "production_alpha_rule": "Existing Art.load discards source alpha < 16 before tracing; no source-image modification.",
+      "alpha_128_bounds_xyxy": [
+        19,
+        15,
+        1481,
+        1024
+      ],
+      "opaque_fraction": 0.5525843302408854,
+      "transparent_fraction": 0.4336802164713542,
+      "source_anchors": [
+        {
+          "key": "hands",
+          "source_point": [
+            1384,
+            922
+          ],
+          "nearby_max_alpha": 254
+        },
+        {
+          "key": "wrist",
+          "source_point": [
+            1262,
+            956
+          ],
+          "nearby_max_alpha": 254
+        },
+        {
+          "key": "pen",
+          "source_point": [
+            1477,
+            1016
+          ],
+          "nearby_max_alpha": 254
+        },
+        {
+          "key": "eyes",
+          "source_point": [
+            1125,
+            432
+          ],
+          "nearby_max_alpha": 254
+        }
+      ],
+      "checks": {
+        "real_alpha_channel": true,
+        "opaque_foreground_present": true,
+        "fully_transparent_background_present": true,
+        "production_effective_transparent_corners": true,
+        "hash_matches_manifest": true,
+        "prompt_preserved": true,
+        "shadow_face_inspection_declared": true
+      },
+      "passed": true
+    },
+    {
+      "name": "A17_01",
+      "path": "/assets/astra/v09/A17-01-inkface.png",
+      "actionGroup": "A17",
+      "phase": 1,
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "raw_corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "raw_corners_exact_zero": true,
+      "production_alpha_rule": "Existing Art.load discards source alpha < 16 before tracing; no source-image modification.",
+      "alpha_128_bounds_xyxy": [
+        10,
+        7,
+        984,
+        1508
+      ],
+      "opaque_fraction": 0.5320027669270834,
+      "transparent_fraction": 0.45027605692545575,
+      "source_anchors": [
+        {
+          "key": "hands",
+          "source_point": [
+            919,
+            573
+          ],
+          "nearby_max_alpha": 254
+        },
+        {
+          "key": "wrist",
+          "source_point": [
+            848,
+            608
+          ],
+          "nearby_max_alpha": 254
+        },
+        {
+          "key": "pen",
+          "source_point": [
+            979,
+            631
+          ],
+          "nearby_max_alpha": 253
+        },
+        {
+          "key": "eyes",
+          "source_point": [
+            655,
+            278
+          ],
+          "nearby_max_alpha": 254
+        }
+      ],
+      "checks": {
+        "real_alpha_channel": true,
+        "opaque_foreground_present": true,
+        "fully_transparent_background_present": true,
+        "production_effective_transparent_corners": true,
+        "hash_matches_manifest": true,
+        "prompt_preserved": true,
+        "shadow_face_inspection_declared": true
+      },
+      "passed": true
+    },
+    {
+      "name": "A17_02",
+      "path": "/assets/astra/v09/A17-02-inkface.png",
+      "actionGroup": "A17",
+      "phase": 2,
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "raw_corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "raw_corners_exact_zero": true,
+      "production_alpha_rule": "Existing Art.load discards source alpha < 16 before tracing; no source-image modification.",
+      "alpha_128_bounds_xyxy": [
+        14,
+        18,
+        990,
+        1513
+      ],
+      "opaque_fraction": 0.5537681579589844,
+      "transparent_fraction": 0.42966334025065106,
+      "source_anchors": [
+        {
+          "key": "hands",
+          "source_point": [
+            929,
+            745
+          ],
+          "nearby_max_alpha": 254
+        },
+        {
+          "key": "wrist",
+          "source_point": [
+            855,
+            738
+          ],
+          "nearby_max_alpha": 254
+        },
+        {
+          "key": "pen",
+          "source_point": [
+            987,
+            811
+          ],
+          "nearby_max_alpha": 254
+        },
+        {
+          "key": "eyes",
+          "source_point": [
+            696,
+            320
+          ],
+          "nearby_max_alpha": 254
+        }
+      ],
+      "checks": {
+        "real_alpha_channel": true,
+        "opaque_foreground_present": true,
+        "fully_transparent_background_present": true,
+        "production_effective_transparent_corners": true,
+        "hash_matches_manifest": true,
+        "prompt_preserved": true,
+        "shadow_face_inspection_declared": true
+      },
+      "passed": true
+    },
+    {
+      "name": "A18_01",
+      "path": "/assets/astra/v09/A18-01-inkface.png",
+      "actionGroup": "A18",
+      "phase": 1,
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "raw_corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "raw_corners_exact_zero": true,
+      "production_alpha_rule": "Existing Art.load discards source alpha < 16 before tracing; no source-image modification.",
+      "alpha_128_bounds_xyxy": [
+        26,
+        13,
+        1226,
+        1254
+      ],
+      "opaque_fraction": 0.5942464178424893,
+      "transparent_fraction": 0.38954579794418626,
+      "source_anchors": [
+        {
+          "key": "hands",
+          "source_point": [
+            548,
+            1123
+          ],
+          "nearby_max_alpha": 254
+        },
+        {
+          "key": "wrist",
+          "source_point": [
+            493,
+            1057
+          ],
+          "nearby_max_alpha": 254
+        },
+        {
+          "key": "eyes",
+          "source_point": [
+            626,
+            425
+          ],
+          "nearby_max_alpha": 253
+        }
+      ],
+      "checks": {
+        "real_alpha_channel": true,
+        "opaque_foreground_present": true,
+        "fully_transparent_background_present": true,
+        "production_effective_transparent_corners": true,
+        "hash_matches_manifest": true,
+        "prompt_preserved": true,
+        "shadow_face_inspection_declared": true
+      },
+      "passed": true
+    },
+    {
+      "name": "A18_02",
+      "path": "/assets/astra/v09/A18-02-inkface.png",
+      "actionGroup": "A18",
+      "phase": 2,
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "raw_corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "raw_corners_exact_zero": true,
+      "production_alpha_rule": "Existing Art.load discards source alpha < 16 before tracing; no source-image modification.",
+      "alpha_128_bounds_xyxy": [
+        12,
+        8,
+        1242,
+        1254
+      ],
+      "opaque_fraction": 0.6304279256936018,
+      "transparent_fraction": 0.35183934535483263,
+      "source_anchors": [
+        {
+          "key": "hands",
+          "source_point": [
+            143,
+            1027
+          ],
+          "nearby_max_alpha": 254
+        },
+        {
+          "key": "wrist",
+          "source_point": [
+            234,
+            984
+          ],
+          "nearby_max_alpha": 254
+        },
+        {
+          "key": "eyes",
+          "source_point": [
+            625,
+            409
+          ],
+          "nearby_max_alpha": 254
+        }
+      ],
+      "checks": {
+        "real_alpha_channel": true,
+        "opaque_foreground_present": true,
+        "fully_transparent_background_present": true,
+        "production_effective_transparent_corners": true,
+        "hash_matches_manifest": true,
+        "prompt_preserved": true,
+        "shadow_face_inspection_declared": true
+      },
+      "passed": true
+    },
+    {
+      "name": "A19_01",
+      "path": "/assets/astra/v09/A19-01-inkface.png",
+      "actionGroup": "A19",
+      "phase": 1,
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "raw_corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "raw_corners_exact_zero": true,
+      "production_alpha_rule": "Existing Art.load discards source alpha < 16 before tracing; no source-image modification.",
+      "alpha_128_bounds_xyxy": [
+        23,
+        16,
+        995,
+        1530
+      ],
+      "opaque_fraction": 0.6206328074137369,
+      "transparent_fraction": 0.3622779846191406,
+      "source_anchors": [
+        {
+          "key": "hands",
+          "source_point": [
+            453,
+            1047
+          ],
+          "nearby_max_alpha": 254
+        },
+        {
+          "key": "wrist",
+          "source_point": [
+            417,
+            996
+          ],
+          "nearby_max_alpha": 254
+        },
+        {
+          "key": "eyes",
+          "source_point": [
+            496,
+            387
+          ],
+          "nearby_max_alpha": 254
+        }
+      ],
+      "checks": {
+        "real_alpha_channel": true,
+        "opaque_foreground_present": true,
+        "fully_transparent_background_present": true,
+        "production_effective_transparent_corners": true,
+        "hash_matches_manifest": true,
+        "prompt_preserved": true,
+        "shadow_face_inspection_declared": true
+      },
+      "passed": true
+    },
+    {
+      "name": "A19_02",
+      "path": "/assets/astra/v09/A19-02-inkface.png",
+      "actionGroup": "A19",
+      "phase": 2,
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "raw_corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "raw_corners_exact_zero": true,
+      "production_alpha_rule": "Existing Art.load discards source alpha < 16 before tracing; no source-image modification.",
+      "alpha_128_bounds_xyxy": [
+        20,
+        10,
+        997,
+        1528
+      ],
+      "opaque_fraction": 0.6360003153483073,
+      "transparent_fraction": 0.347259521484375,
+      "source_anchors": [
+        {
+          "key": "hands",
+          "source_point": [
+            475,
+            521
+          ],
+          "nearby_max_alpha": 254
+        },
+        {
+          "key": "wrist",
+          "source_point": [
+            433,
+            548
+          ],
+          "nearby_max_alpha": 254
+        },
+        {
+          "key": "eyes",
+          "source_point": [
+            496,
+            383
+          ],
+          "nearby_max_alpha": 254
+        }
+      ],
+      "checks": {
+        "real_alpha_channel": true,
+        "opaque_foreground_present": true,
+        "fully_transparent_background_present": true,
+        "production_effective_transparent_corners": true,
+        "hash_matches_manifest": true,
+        "prompt_preserved": true,
+        "shadow_face_inspection_declared": true
+      },
+      "passed": true
+    },
+    {
+      "name": "A19_03",
+      "path": "/assets/astra/v09/A19-03-inkface.png",
+      "actionGroup": "A19",
+      "phase": 3,
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "raw_corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "raw_corners_exact_zero": true,
+      "production_alpha_rule": "Existing Art.load discards source alpha < 16 before tracing; no source-image modification.",
+      "alpha_128_bounds_xyxy": [
+        20,
+        14,
+        996,
+        1528
+      ],
+      "opaque_fraction": 0.6264444986979166,
+      "transparent_fraction": 0.3572559356689453,
+      "source_anchors": [
+        {
+          "key": "hands",
+          "source_point": [
+            480,
+            514
+          ],
+          "nearby_max_alpha": 254
+        },
+        {
+          "key": "wrist",
+          "source_point": [
+            445,
+            576
+          ],
+          "nearby_max_alpha": 254
+        },
+        {
+          "key": "eyes",
+          "source_point": [
+            494,
+            383
+          ],
+          "nearby_max_alpha": 254
+        }
+      ],
+      "checks": {
+        "real_alpha_channel": true,
+        "opaque_foreground_present": true,
+        "fully_transparent_background_present": true,
+        "production_effective_transparent_corners": true,
+        "hash_matches_manifest": true,
+        "prompt_preserved": true,
+        "shadow_face_inspection_declared": true
+      },
+      "passed": true
+    },
+    {
+      "name": "A05_01",
+      "path": "/assets/astra/v09/A05-01-shadow.png",
+      "actionGroup": "A05",
+      "phase": 1,
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "raw_corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "raw_corners_exact_zero": true,
+      "production_alpha_rule": "Existing Art.load discards source alpha < 16 before tracing; no source-image modification.",
+      "alpha_128_bounds_xyxy": [
+        38,
+        17,
+        992,
+        1519
+      ],
+      "opaque_fraction": 0.5895074208577474,
+      "transparent_fraction": 0.39544423421223956,
+      "source_anchors": [
+        {
+          "key": "hands",
+          "source_point": [
+            149,
+            504
+          ],
+          "nearby_max_alpha": 254
+        },
+        {
+          "key": "wrist",
+          "source_point": [
+            223,
+            530
+          ],
+          "nearby_max_alpha": 254
+        },
+        {
+          "key": "seat",
+          "source_point": [
+            551,
+            884
+          ],
+          "nearby_max_alpha": 254
+        },
+        {
+          "key": "chest",
+          "source_point": [
+            564,
+            564
+          ],
+          "nearby_max_alpha": 254
+        }
+      ],
+      "checks": {
+        "real_alpha_channel": true,
+        "opaque_foreground_present": true,
+        "fully_transparent_background_present": true,
+        "production_effective_transparent_corners": true,
+        "hash_matches_manifest": true,
+        "prompt_preserved": true,
+        "shadow_face_inspection_declared": true
+      },
+      "passed": true
+    },
+    {
+      "name": "A06_01",
+      "path": "/assets/astra/v09/A06-01-shadow.png",
+      "actionGroup": "A06",
+      "phase": 1,
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "raw_corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "raw_corners_exact_zero": true,
+      "production_alpha_rule": "Existing Art.load discards source alpha < 16 before tracing; no source-image modification.",
+      "alpha_128_bounds_xyxy": [
+        15,
+        11,
+        1005,
+        1523
+      ],
+      "opaque_fraction": 0.5737177530924479,
+      "transparent_fraction": 0.40547815958658856,
+      "source_anchors": [
+        {
+          "key": "hands",
+          "source_point": [
+            737,
+            492
+          ],
+          "nearby_max_alpha": 254
+        },
+        {
+          "key": "wrist",
+          "source_point": [
+            673,
+            563
+          ],
+          "nearby_max_alpha": 254
+        },
+        {
+          "key": "chest",
+          "source_point": [
+            571,
+            449
+          ],
+          "nearby_max_alpha": 254
+        }
+      ],
+      "checks": {
+        "real_alpha_channel": true,
+        "opaque_foreground_present": true,
+        "fully_transparent_background_present": true,
+        "production_effective_transparent_corners": true,
+        "hash_matches_manifest": true,
+        "prompt_preserved": true,
+        "shadow_face_inspection_declared": true
+      },
+      "passed": true
+    },
+    {
+      "name": "A07_01",
+      "path": "/assets/astra/v09/A07-01-shadow.png",
+      "actionGroup": "A07",
+      "phase": 1,
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "raw_corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "raw_corners_exact_zero": true,
+      "production_alpha_rule": "Existing Art.load discards source alpha < 16 before tracing; no source-image modification.",
+      "alpha_128_bounds_xyxy": [
+        26,
+        20,
+        1010,
+        1518
+      ],
+      "opaque_fraction": 0.5785039265950521,
+      "transparent_fraction": 0.4033203125,
+      "source_anchors": [
+        {
+          "key": "hands",
+          "source_point": [
+            934,
+            359
+          ],
+          "nearby_max_alpha": 254
+        },
+        {
+          "key": "wrist",
+          "source_point": [
+            875,
+            402
+          ],
+          "nearby_max_alpha": 254
+        },
+        {
+          "key": "chest",
+          "source_point": [
+            560,
+            489
+          ],
+          "nearby_max_alpha": 254
+        }
+      ],
+      "checks": {
+        "real_alpha_channel": true,
+        "opaque_foreground_present": true,
+        "fully_transparent_background_present": true,
+        "production_effective_transparent_corners": true,
+        "hash_matches_manifest": true,
+        "prompt_preserved": true,
+        "shadow_face_inspection_declared": true
+      },
+      "passed": true
+    },
+    {
+      "name": "A04_01",
+      "path": "/assets/astra/v09/A04-01-shadow.png",
+      "actionGroup": "A04",
+      "phase": 1,
+      "size": [
+        1132,
+        1390
+      ],
+      "mode": "RGBA",
+      "raw_corner_alpha": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "raw_corners_exact_zero": false,
+      "production_alpha_rule": "Existing Art.load discards source alpha < 16 before tracing; no source-image modification.",
+      "alpha_128_bounds_xyxy": [
+        84,
+        21,
+        1118,
+        1370
+      ],
+      "opaque_fraction": 0.5923971070493429,
+      "transparent_fraction": 0.3910402420113379,
+      "source_anchors": [
+        {
+          "key": "hands",
+          "source_point": [
+            210,
+            574
+          ],
+          "nearby_max_alpha": 255
+        },
+        {
+          "key": "wrist",
+          "source_point": [
+            306,
+            614
+          ],
+          "nearby_max_alpha": 254
+        },
+        {
+          "key": "chest",
+          "source_point": [
+            718,
+            667
+          ],
+          "nearby_max_alpha": 254
+        }
+      ],
+      "checks": {
+        "real_alpha_channel": true,
+        "opaque_foreground_present": true,
+        "fully_transparent_background_present": true,
+        "production_effective_transparent_corners": true,
+        "hash_matches_manifest": true,
+        "prompt_preserved": true,
+        "shadow_face_inspection_declared": true
+      },
+      "passed": true
+    },
+    {
+      "name": "A05_02",
+      "path": "/assets/astra/v09/A05-02-shadow.png",
+      "actionGroup": "A05",
+      "phase": 2,
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "raw_corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "raw_corners_exact_zero": true,
+      "production_alpha_rule": "Existing Art.load discards source alpha < 16 before tracing; no source-image modification.",
+      "alpha_128_bounds_xyxy": [
+        43,
+        13,
+        994,
+        1520
+      ],
+      "opaque_fraction": 0.5451310475667318,
+      "transparent_fraction": 0.4434884389241536,
+      "source_anchors": [
+        {
+          "key": "hands",
+          "source_point": [
+            132,
+            841
+          ],
+          "nearby_max_alpha": 254
+        },
+        {
+          "key": "wrist",
+          "source_point": [
+            214,
+            844
+          ],
+          "nearby_max_alpha": 254
+        },
+        {
+          "key": "seat",
+          "source_point": [
+            550,
+            888
+          ],
+          "nearby_max_alpha": 254
+        },
+        {
+          "key": "chest",
+          "source_point": [
+            564,
+            575
+          ],
+          "nearby_max_alpha": 254
+        }
+      ],
+      "checks": {
+        "real_alpha_channel": true,
+        "opaque_foreground_present": true,
+        "fully_transparent_background_present": true,
+        "production_effective_transparent_corners": true,
+        "hash_matches_manifest": true,
+        "prompt_preserved": true,
+        "shadow_face_inspection_declared": true
+      },
+      "passed": true
+    },
+    {
+      "name": "A06_02",
+      "path": "/assets/astra/v09/A06-02-shadow.png",
+      "actionGroup": "A06",
+      "phase": 2,
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "raw_corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "raw_corners_exact_zero": true,
+      "production_alpha_rule": "Existing Art.load discards source alpha < 16 before tracing; no source-image modification.",
+      "alpha_128_bounds_xyxy": [
+        51,
+        11,
+        968,
+        1523
+      ],
+      "opaque_fraction": 0.5168107350667318,
+      "transparent_fraction": 0.46439488728841144,
+      "source_anchors": [
+        {
+          "key": "hands",
+          "source_point": [
+            551,
+            473
+          ],
+          "nearby_max_alpha": 254
+        },
+        {
+          "key": "wrist",
+          "source_point": [
+            510,
+            539
+          ],
+          "nearby_max_alpha": 254
+        },
+        {
+          "key": "chest",
+          "source_point": [
+            550,
+            473
+          ],
+          "nearby_max_alpha": 254
+        }
+      ],
+      "checks": {
+        "real_alpha_channel": true,
+        "opaque_foreground_present": true,
+        "fully_transparent_background_present": true,
+        "production_effective_transparent_corners": true,
+        "hash_matches_manifest": true,
+        "prompt_preserved": true,
+        "shadow_face_inspection_declared": true
+      },
+      "passed": true
+    },
+    {
+      "name": "A04_02",
+      "path": "/assets/astra/v09/A04-02-shadow.png",
+      "actionGroup": "A04",
+      "phase": 2,
+      "size": [
+        1132,
+        1390
+      ],
+      "mode": "RGBA",
+      "raw_corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "raw_corners_exact_zero": true,
+      "production_alpha_rule": "Existing Art.load discards source alpha < 16 before tracing; no source-image modification.",
+      "alpha_128_bounds_xyxy": [
+        21,
+        23,
+        1110,
+        1376
+      ],
+      "opaque_fraction": 0.6169954495767344,
+      "transparent_fraction": 0.36425502707374735,
+      "source_anchors": [
+        {
+          "key": "hands",
+          "source_point": [
+            188,
+            565
+          ],
+          "nearby_max_alpha": 254
+        },
+        {
+          "key": "wrist",
+          "source_point": [
+            282,
+            668
+          ],
+          "nearby_max_alpha": 254
+        },
+        {
+          "key": "chest",
+          "source_point": [
+            678,
+            677
+          ],
+          "nearby_max_alpha": 254
+        }
+      ],
+      "checks": {
+        "real_alpha_channel": true,
+        "opaque_foreground_present": true,
+        "fully_transparent_background_present": true,
+        "production_effective_transparent_corners": true,
+        "hash_matches_manifest": true,
+        "prompt_preserved": true,
+        "shadow_face_inspection_declared": true
+      },
+      "passed": true
+    },
+    {
+      "name": "A20_01",
+      "path": "/assets/astra/v09/A20-01-shadow.png",
+      "actionGroup": "A20",
+      "phase": 1,
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "raw_corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "raw_corners_exact_zero": true,
+      "production_alpha_rule": "Existing Art.load discards source alpha < 16 before tracing; no source-image modification.",
+      "alpha_128_bounds_xyxy": [
+        22,
+        14,
+        998,
+        1523
+      ],
+      "opaque_fraction": 0.6303749084472656,
+      "transparent_fraction": 0.3566214243570964,
+      "source_anchors": [
+        {
+          "key": "pen",
+          "source_point": [
+            640,
+            769
+          ],
+          "nearby_max_alpha": 254
+        },
+        {
+          "key": "hands",
+          "source_point": [
+            564,
+            710
+          ],
+          "nearby_max_alpha": 254
+        },
+        {
+          "key": "wrist",
+          "source_point": [
+            494,
+            736
+          ],
+          "nearby_max_alpha": 254
+        },
+        {
+          "key": "seat",
+          "source_point": [
+            576,
+            860
+          ],
+          "nearby_max_alpha": 254
+        },
+        {
+          "key": "chest",
+          "source_point": [
+            611,
+            553
+          ],
+          "nearby_max_alpha": 254
+        }
+      ],
+      "checks": {
+        "real_alpha_channel": true,
+        "opaque_foreground_present": true,
+        "fully_transparent_background_present": true,
+        "production_effective_transparent_corners": true,
+        "hash_matches_manifest": true,
+        "prompt_preserved": true,
+        "shadow_face_inspection_declared": true
+      },
+      "passed": true
+    },
+    {
+      "name": "A21_01",
+      "path": "/assets/astra/v09/A21-01-shadow.png",
+      "actionGroup": "A21",
+      "phase": 1,
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "raw_corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "raw_corners_exact_zero": true,
+      "production_alpha_rule": "Existing Art.load discards source alpha < 16 before tracing; no source-image modification.",
+      "alpha_128_bounds_xyxy": [
+        24,
+        10,
+        988,
+        1524
+      ],
+      "opaque_fraction": 0.6116917928059896,
+      "transparent_fraction": 0.37282880147298175,
+      "source_anchors": [
+        {
+          "key": "hands",
+          "source_point": [
+            877,
+            415
+          ],
+          "nearby_max_alpha": 254
+        },
+        {
+          "key": "wrist",
+          "source_point": [
+            810,
+            441
+          ],
+          "nearby_max_alpha": 254
+        },
+        {
+          "key": "chest",
+          "source_point": [
+            548,
+            514
+          ],
+          "nearby_max_alpha": 254
+        }
+      ],
+      "checks": {
+        "real_alpha_channel": true,
+        "opaque_foreground_present": true,
+        "fully_transparent_background_present": true,
+        "production_effective_transparent_corners": true,
+        "hash_matches_manifest": true,
+        "prompt_preserved": true,
+        "shadow_face_inspection_declared": true
+      },
+      "passed": true
+    },
+    {
+      "name": "A07_02",
+      "path": "/assets/astra/v09/A07-02-shadow.png",
+      "actionGroup": "A07",
+      "phase": 2,
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "raw_corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "raw_corners_exact_zero": true,
+      "production_alpha_rule": "Existing Art.load discards source alpha < 16 before tracing; no source-image modification.",
+      "alpha_128_bounds_xyxy": [
+        29,
+        16,
+        987,
+        1503
+      ],
+      "opaque_fraction": 0.5724697113037109,
+      "transparent_fraction": 0.41091664632161456,
+      "source_anchors": [
+        {
+          "key": "hands",
+          "source_point": [
+            947,
+            383
+          ],
+          "nearby_max_alpha": 254
+        },
+        {
+          "key": "wrist",
+          "source_point": [
+            908,
+            435
+          ],
+          "nearby_max_alpha": 254
+        },
+        {
+          "key": "chest",
+          "source_point": [
+            557,
+            486
+          ],
+          "nearby_max_alpha": 254
+        }
+      ],
+      "checks": {
+        "real_alpha_channel": true,
+        "opaque_foreground_present": true,
+        "fully_transparent_background_present": true,
+        "production_effective_transparent_corners": true,
+        "hash_matches_manifest": true,
+        "prompt_preserved": true,
+        "shadow_face_inspection_declared": true
+      },
+      "passed": true
+    },
+    {
+      "name": "A05_03",
+      "path": "/assets/astra/v09/A05-03-shadow.png",
+      "actionGroup": "A05",
+      "phase": 3,
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "raw_corner_alpha": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "raw_corners_exact_zero": false,
+      "production_alpha_rule": "Existing Art.load discards source alpha < 16 before tracing; no source-image modification.",
+      "alpha_128_bounds_xyxy": [
+        31,
+        30,
+        960,
+        1521
+      ],
+      "opaque_fraction": 0.5351848602294922,
+      "transparent_fraction": 0.4537372589111328,
+      "source_anchors": [
+        {
+          "key": "hands",
+          "source_point": [
+            493,
+            813
+          ],
+          "nearby_max_alpha": 254
+        },
+        {
+          "key": "wrist",
+          "source_point": [
+            456,
+            842
+          ],
+          "nearby_max_alpha": 254
+        },
+        {
+          "key": "seat",
+          "source_point": [
+            553,
+            883
+          ],
+          "nearby_max_alpha": 254
+        },
+        {
+          "key": "chest",
+          "source_point": [
+            552,
+            570
+          ],
+          "nearby_max_alpha": 254
+        }
+      ],
+      "checks": {
+        "real_alpha_channel": true,
+        "opaque_foreground_present": true,
+        "fully_transparent_background_present": true,
+        "production_effective_transparent_corners": true,
+        "hash_matches_manifest": true,
+        "prompt_preserved": true,
+        "shadow_face_inspection_declared": true
+      },
+      "passed": true
+    },
+    {
+      "name": "A04_03",
+      "path": "/assets/astra/v09/A04-03-shadow.png",
+      "actionGroup": "A04",
+      "phase": 3,
+      "size": [
+        1132,
+        1390
+      ],
+      "mode": "RGBA",
+      "raw_corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "raw_corners_exact_zero": true,
+      "production_alpha_rule": "Existing Art.load discards source alpha < 16 before tracing; no source-image modification.",
+      "alpha_128_bounds_xyxy": [
+        99,
+        29,
+        1104,
+        1376
+      ],
+      "opaque_fraction": 0.5728620637059257,
+      "transparent_fraction": 0.40723936751658746,
+      "source_anchors": [
+        {
+          "key": "hands",
+          "source_point": [
+            602,
+            577
+          ],
+          "nearby_max_alpha": 254
+        },
+        {
+          "key": "wrist",
+          "source_point": [
+            585,
+            654
+          ],
+          "nearby_max_alpha": 254
+        },
+        {
+          "key": "chest",
+          "source_point": [
+            752,
+            627
+          ],
+          "nearby_max_alpha": 254
+        }
+      ],
+      "checks": {
+        "real_alpha_channel": true,
+        "opaque_foreground_present": true,
+        "fully_transparent_background_present": true,
+        "production_effective_transparent_corners": true,
+        "hash_matches_manifest": true,
+        "prompt_preserved": true,
+        "shadow_face_inspection_declared": true
+      },
+      "passed": true
+    },
+    {
+      "name": "A07_03",
+      "path": "/assets/astra/v09/A07-03-shadow.png",
+      "actionGroup": "A07",
+      "phase": 3,
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "raw_corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "raw_corners_exact_zero": true,
+      "production_alpha_rule": "Existing Art.load discards source alpha < 16 before tracing; no source-image modification.",
+      "alpha_128_bounds_xyxy": [
+        46,
+        20,
+        974,
+        1518
+      ],
+      "opaque_fraction": 0.5480442047119141,
+      "transparent_fraction": 0.430389404296875,
+      "source_anchors": [
+        {
+          "key": "hands",
+          "source_point": [
+            816,
+            420
+          ],
+          "nearby_max_alpha": 254
+        },
+        {
+          "key": "wrist",
+          "source_point": [
+            803,
+            482
+          ],
+          "nearby_max_alpha": 254
+        },
+        {
+          "key": "chest",
+          "source_point": [
+            615,
+            525
+          ],
+          "nearby_max_alpha": 254
+        }
+      ],
+      "checks": {
+        "real_alpha_channel": true,
+        "opaque_foreground_present": true,
+        "fully_transparent_background_present": true,
+        "production_effective_transparent_corners": true,
+        "hash_matches_manifest": true,
+        "prompt_preserved": true,
+        "shadow_face_inspection_declared": true
+      },
+      "passed": true
+    },
+    {
+      "name": "A21_02",
+      "path": "/assets/astra/v09/A21-02-shadow.png",
+      "actionGroup": "A21",
+      "phase": 2,
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "raw_corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "raw_corners_exact_zero": true,
+      "production_alpha_rule": "Existing Art.load discards source alpha < 16 before tracing; no source-image modification.",
+      "alpha_128_bounds_xyxy": [
+        28,
+        8,
+        992,
+        1525
+      ],
+      "opaque_fraction": 0.6186631520589193,
+      "transparent_fraction": 0.36586888631184894,
+      "source_anchors": [
+        {
+          "key": "hands",
+          "source_point": [
+            649,
+            519
+          ],
+          "nearby_max_alpha": 254
+        },
+        {
+          "key": "wrist",
+          "source_point": [
+            660,
+            553
+          ],
+          "nearby_max_alpha": 254
+        },
+        {
+          "key": "chest",
+          "source_point": [
+            563,
+            505
+          ],
+          "nearby_max_alpha": 254
+        }
+      ],
+      "checks": {
+        "real_alpha_channel": true,
+        "opaque_foreground_present": true,
+        "fully_transparent_background_present": true,
+        "production_effective_transparent_corners": true,
+        "hash_matches_manifest": true,
+        "prompt_preserved": true,
+        "shadow_face_inspection_declared": true
+      },
+      "passed": true
+    },
+    {
+      "name": "A20_02",
+      "path": "/assets/astra/v09/A20-02-shadow.png",
+      "actionGroup": "A20",
+      "phase": 2,
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "raw_corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "raw_corners_exact_zero": true,
+      "production_alpha_rule": "Existing Art.load discards source alpha < 16 before tracing; no source-image modification.",
+      "alpha_128_bounds_xyxy": [
+        24,
+        12,
+        1001,
+        1523
+      ],
+      "opaque_fraction": 0.6354821523030599,
+      "transparent_fraction": 0.35126177469889325,
+      "source_anchors": [
+        {
+          "key": "pen",
+          "source_point": [
+            594,
+            606
+          ],
+          "nearby_max_alpha": 254
+        },
+        {
+          "key": "hands",
+          "source_point": [
+            520,
+            575
+          ],
+          "nearby_max_alpha": 254
+        },
+        {
+          "key": "wrist",
+          "source_point": [
+            497,
+            650
+          ],
+          "nearby_max_alpha": 254
+        },
+        {
+          "key": "seat",
+          "source_point": [
+            576,
+            860
+          ],
+          "nearby_max_alpha": 254
+        },
+        {
+          "key": "chest",
+          "source_point": [
+            616,
+            562
+          ],
+          "nearby_max_alpha": 254
+        }
+      ],
+      "checks": {
+        "real_alpha_channel": true,
+        "opaque_foreground_present": true,
+        "fully_transparent_background_present": true,
+        "production_effective_transparent_corners": true,
+        "hash_matches_manifest": true,
+        "prompt_preserved": true,
+        "shadow_face_inspection_declared": true
+      },
+      "passed": true
+    },
+    {
+      "name": "A20_03",
+      "path": "/assets/astra/v09/A20-03-shadow.png",
+      "actionGroup": "A20",
+      "phase": 3,
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "raw_corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "raw_corners_exact_zero": true,
+      "production_alpha_rule": "Existing Art.load discards source alpha < 16 before tracing; no source-image modification.",
+      "alpha_128_bounds_xyxy": [
+        13,
+        11,
+        1001,
+        1524
+      ],
+      "opaque_fraction": 0.6675097147623698,
+      "transparent_fraction": 0.3173974355061849,
+      "source_anchors": [
+        {
+          "key": "pen",
+          "source_point": [
+            604,
+            762
+          ],
+          "nearby_max_alpha": 254
+        },
+        {
+          "key": "hands",
+          "source_point": [
+            528,
+            723
+          ],
+          "nearby_max_alpha": 254
+        },
+        {
+          "key": "wrist",
+          "source_point": [
+            479,
+            746
+          ],
+          "nearby_max_alpha": 254
+        },
+        {
+          "key": "seat",
+          "source_point": [
+            576,
+            860
+          ],
+          "nearby_max_alpha": 254
+        },
+        {
+          "key": "chest",
+          "source_point": [
+            609,
+            555
+          ],
+          "nearby_max_alpha": 254
+        }
+      ],
+      "checks": {
+        "real_alpha_channel": true,
+        "opaque_foreground_present": true,
+        "fully_transparent_background_present": true,
+        "production_effective_transparent_corners": true,
+        "hash_matches_manifest": true,
+        "prompt_preserved": true,
+        "shadow_face_inspection_declared": true
+      },
+      "passed": true
+    },
+    {
+      "name": "A08_01",
+      "path": "/assets/astra/v09/A08-01-shadow.png",
+      "actionGroup": "A08",
+      "phase": 1,
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "raw_corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "raw_corners_exact_zero": true,
+      "production_alpha_rule": "Existing Art.load discards source alpha < 16 before tracing; no source-image modification.",
+      "alpha_128_bounds_xyxy": [
+        6,
+        4,
+        1022,
+        1536
+      ],
+      "opaque_fraction": 0.6291281382242838,
+      "transparent_fraction": 0.3512744903564453,
+      "source_anchors": [
+        {
+          "key": "hands",
+          "source_point": [
+            253,
+            568
+          ],
+          "nearby_max_alpha": 254
+        },
+        {
+          "key": "wrist",
+          "source_point": [
+            290,
+            583
+          ],
+          "nearby_max_alpha": 254
+        },
+        {
+          "key": "chest",
+          "source_point": [
+            555,
+            480
+          ],
+          "nearby_max_alpha": 254
+        },
+        {
+          "key": "record",
+          "source_point": [
+            424,
+            708
+          ],
+          "nearby_max_alpha": 254
+        },
+        {
+          "key": "shoulder",
+          "source_point": [
+            646,
+            426
+          ],
+          "nearby_max_alpha": 254
+        }
+      ],
+      "checks": {
+        "real_alpha_channel": true,
+        "opaque_foreground_present": true,
+        "fully_transparent_background_present": true,
+        "production_effective_transparent_corners": true,
+        "hash_matches_manifest": true,
+        "prompt_preserved": true,
+        "shadow_face_inspection_declared": true
+      },
+      "passed": true
+    },
+    {
+      "name": "A08_02",
+      "path": "/assets/astra/v09/A08-02-shadow.png",
+      "actionGroup": "A08",
+      "phase": 2,
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "raw_corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "raw_corners_exact_zero": true,
+      "production_alpha_rule": "Existing Art.load discards source alpha < 16 before tracing; no source-image modification.",
+      "alpha_128_bounds_xyxy": [
+        6,
+        7,
+        1020,
+        1536
+      ],
+      "opaque_fraction": 0.6455065409342448,
+      "transparent_fraction": 0.3353983561197917,
+      "source_anchors": [
+        {
+          "key": "hands",
+          "source_point": [
+            494,
+            727
+          ],
+          "nearby_max_alpha": 254
+        },
+        {
+          "key": "wrist",
+          "source_point": [
+            400,
+            659
+          ],
+          "nearby_max_alpha": 254
+        },
+        {
+          "key": "chest",
+          "source_point": [
+            555,
+            509
+          ],
+          "nearby_max_alpha": 254
+        },
+        {
+          "key": "record",
+          "source_point": [
+            527,
+            720
+          ],
+          "nearby_max_alpha": 254
+        },
+        {
+          "key": "shoulder",
+          "source_point": [
+            641,
+            462
+          ],
+          "nearby_max_alpha": 254
+        }
+      ],
+      "checks": {
+        "real_alpha_channel": true,
+        "opaque_foreground_present": true,
+        "fully_transparent_background_present": true,
+        "production_effective_transparent_corners": true,
+        "hash_matches_manifest": true,
+        "prompt_preserved": true,
+        "shadow_face_inspection_declared": true
+      },
+      "passed": true
+    },
+    {
+      "name": "A09_01",
+      "path": "/assets/astra/v09/A09-01-shadow.png",
+      "actionGroup": "A09",
+      "phase": 1,
+      "size": [
+        1199,
+        1312
+      ],
+      "mode": "RGBA",
+      "raw_corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "raw_corners_exact_zero": true,
+      "production_alpha_rule": "Existing Art.load discards source alpha < 16 before tracing; no source-image modification.",
+      "alpha_128_bounds_xyxy": [
+        13,
+        10,
+        1178,
+        1307
+      ],
+      "opaque_fraction": 0.6420149413128827,
+      "transparent_fraction": 0.3413655180129783,
+      "source_anchors": [
+        {
+          "key": "hands",
+          "source_point": [
+            143,
+            1140
+          ],
+          "nearby_max_alpha": 254
+        },
+        {
+          "key": "button",
+          "source_point": [
+            143,
+            1140
+          ],
+          "nearby_max_alpha": 254
+        },
+        {
+          "key": "wrist",
+          "source_point": [
+            260,
+            984
+          ],
+          "nearby_max_alpha": 254
+        },
+        {
+          "key": "chest",
+          "source_point": [
+            637,
+            569
+          ],
+          "nearby_max_alpha": 254
+        },
+        {
+          "key": "shoulder",
+          "source_point": [
+            481,
+            530
+          ],
+          "nearby_max_alpha": 254
+        }
+      ],
+      "checks": {
+        "real_alpha_channel": true,
+        "opaque_foreground_present": true,
+        "fully_transparent_background_present": true,
+        "production_effective_transparent_corners": true,
+        "hash_matches_manifest": true,
+        "prompt_preserved": true,
+        "shadow_face_inspection_declared": true
+      },
+      "passed": true
+    },
+    {
+      "name": "A09_02",
+      "path": "/assets/astra/v09/A09-02-shadow.png",
+      "actionGroup": "A09",
+      "phase": 2,
+      "size": [
+        1199,
+        1312
+      ],
+      "mode": "RGBA",
+      "raw_corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "raw_corners_exact_zero": true,
+      "production_alpha_rule": "Existing Art.load discards source alpha < 16 before tracing; no source-image modification.",
+      "alpha_128_bounds_xyxy": [
+        11,
+        6,
+        1185,
+        1309
+      ],
+      "opaque_fraction": 0.6576618726987937,
+      "transparent_fraction": 0.3259614211029516,
+      "source_anchors": [
+        {
+          "key": "hands",
+          "source_point": [
+            171,
+            840
+          ],
+          "nearby_max_alpha": 254
+        },
+        {
+          "key": "pen",
+          "source_point": [
+            137,
+            906
+          ],
+          "nearby_max_alpha": 254
+        },
+        {
+          "key": "wrist",
+          "source_point": [
+            259,
+            809
+          ],
+          "nearby_max_alpha": 254
+        },
+        {
+          "key": "chest",
+          "source_point": [
+            634,
+            592
+          ],
+          "nearby_max_alpha": 254
+        },
+        {
+          "key": "shoulder",
+          "source_point": [
+            447,
+            537
+          ],
+          "nearby_max_alpha": 254
+        }
+      ],
+      "checks": {
+        "real_alpha_channel": true,
+        "opaque_foreground_present": true,
+        "fully_transparent_background_present": true,
+        "production_effective_transparent_corners": true,
+        "hash_matches_manifest": true,
+        "prompt_preserved": true,
+        "shadow_face_inspection_declared": true
+      },
+      "passed": true
+    },
+    {
+      "name": "A10_01",
+      "path": "/assets/astra/v09/A10-01-shadow.png",
+      "actionGroup": "A10",
+      "phase": 1,
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "raw_corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "raw_corners_exact_zero": true,
+      "production_alpha_rule": "Existing Art.load discards source alpha < 16 before tracing; no source-image modification.",
+      "alpha_128_bounds_xyxy": [
+        30,
+        12,
+        995,
+        1530
+      ],
+      "opaque_fraction": 0.5956592559814453,
+      "transparent_fraction": 0.387969970703125,
+      "source_anchors": [
+        {
+          "key": "hands",
+          "source_point": [
+            519,
+            458
+          ],
+          "nearby_max_alpha": 254
+        },
+        {
+          "key": "wrist",
+          "source_point": [
+            479,
+            522
+          ],
+          "nearby_max_alpha": 254
+        },
+        {
+          "key": "shoulder",
+          "source_point": [
+            615,
+            405
+          ],
+          "nearby_max_alpha": 254
+        }
+      ],
+      "checks": {
+        "real_alpha_channel": true,
+        "opaque_foreground_present": true,
+        "fully_transparent_background_present": true,
+        "production_effective_transparent_corners": true,
+        "hash_matches_manifest": true,
+        "prompt_preserved": true,
+        "shadow_face_inspection_declared": true
+      },
+      "passed": true
+    },
+    {
+      "name": "A10_02",
+      "path": "/assets/astra/v09/A10-02-shadow.png",
+      "actionGroup": "A10",
+      "phase": 2,
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "raw_corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "raw_corners_exact_zero": true,
+      "production_alpha_rule": "Existing Art.load discards source alpha < 16 before tracing; no source-image modification.",
+      "alpha_128_bounds_xyxy": [
+        19,
+        53,
+        995,
+        1482
+      ],
+      "opaque_fraction": 0.6047979990641276,
+      "transparent_fraction": 0.3805033365885417,
+      "source_anchors": [
+        {
+          "key": "hands",
+          "source_point": [
+            514,
+            647
+          ],
+          "nearby_max_alpha": 254
+        },
+        {
+          "key": "wrist",
+          "source_point": [
+            478,
+            713
+          ],
+          "nearby_max_alpha": 254
+        },
+        {
+          "key": "shoulder",
+          "source_point": [
+            638,
+            571
+          ],
+          "nearby_max_alpha": 254
+        }
+      ],
+      "checks": {
+        "real_alpha_channel": true,
+        "opaque_foreground_present": true,
+        "fully_transparent_background_present": true,
+        "production_effective_transparent_corners": true,
+        "hash_matches_manifest": true,
+        "prompt_preserved": true,
+        "shadow_face_inspection_declared": true
+      },
+      "passed": true
+    },
+    {
+      "name": "A10_03",
+      "path": "/assets/astra/v09/A10-03-shadow.png",
+      "actionGroup": "A10",
+      "phase": 3,
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "raw_corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "raw_corners_exact_zero": true,
+      "production_alpha_rule": "Existing Art.load discards source alpha < 16 before tracing; no source-image modification.",
+      "alpha_128_bounds_xyxy": [
+        19,
+        90,
+        1006,
+        1429
+      ],
+      "opaque_fraction": 0.6065769195556641,
+      "transparent_fraction": 0.37798436482747394,
+      "source_anchors": [
+        {
+          "key": "hands",
+          "source_point": [
+            511,
+            779
+          ],
+          "nearby_max_alpha": 254
+        },
+        {
+          "key": "wrist",
+          "source_point": [
+            448,
+            840
+          ],
+          "nearby_max_alpha": 254
+        },
+        {
+          "key": "shoulder",
+          "source_point": [
+            659,
+            732
+          ],
+          "nearby_max_alpha": 254
+        }
+      ],
+      "checks": {
+        "real_alpha_channel": true,
+        "opaque_foreground_present": true,
+        "fully_transparent_background_present": true,
+        "production_effective_transparent_corners": true,
+        "hash_matches_manifest": true,
+        "prompt_preserved": true,
+        "shadow_face_inspection_declared": true
+      },
+      "passed": true
+    },
+    {
+      "name": "A11_01",
+      "path": "/assets/astra/v09/A11-01-shadow.png",
+      "actionGroup": "A11",
+      "phase": 1,
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "raw_corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "raw_corners_exact_zero": true,
+      "production_alpha_rule": "Existing Art.load discards source alpha < 16 before tracing; no source-image modification.",
+      "alpha_128_bounds_xyxy": [
+        29,
+        10,
+        979,
+        1532
+      ],
+      "opaque_fraction": 0.6019808451334635,
+      "transparent_fraction": 0.3806050618489583,
+      "source_anchors": [
+        {
+          "key": "hands",
+          "source_point": [
+            875,
+            452
+          ],
+          "nearby_max_alpha": 254
+        },
+        {
+          "key": "wrist",
+          "source_point": [
+            812,
+            459
+          ],
+          "nearby_max_alpha": 254
+        },
+        {
+          "key": "shoulder",
+          "source_point": [
+            610,
+            413
+          ],
+          "nearby_max_alpha": 254
+        }
+      ],
+      "checks": {
+        "real_alpha_channel": true,
+        "opaque_foreground_present": true,
+        "fully_transparent_background_present": true,
+        "production_effective_transparent_corners": true,
+        "hash_matches_manifest": true,
+        "prompt_preserved": true,
+        "shadow_face_inspection_declared": true
+      },
+      "passed": true
+    },
+    {
+      "name": "A11_02",
+      "path": "/assets/astra/v09/A11-02-shadow.png",
+      "actionGroup": "A11",
+      "phase": 2,
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "raw_corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "raw_corners_exact_zero": true,
+      "production_alpha_rule": "Existing Art.load discards source alpha < 16 before tracing; no source-image modification.",
+      "alpha_128_bounds_xyxy": [
+        32,
+        8,
+        979,
+        1532
+      ],
+      "opaque_fraction": 0.6007099151611328,
+      "transparent_fraction": 0.38318824768066406,
+      "source_anchors": [
+        {
+          "key": "hands",
+          "source_point": [
+            875,
+            448
+          ],
+          "nearby_max_alpha": 254
+        },
+        {
+          "key": "wrist",
+          "source_point": [
+            817,
+            489
+          ],
+          "nearby_max_alpha": 254
+        },
+        {
+          "key": "shoulder",
+          "source_point": [
+            615,
+            410
+          ],
+          "nearby_max_alpha": 254
+        }
+      ],
+      "checks": {
+        "real_alpha_channel": true,
+        "opaque_foreground_present": true,
+        "fully_transparent_background_present": true,
+        "production_effective_transparent_corners": true,
+        "hash_matches_manifest": true,
+        "prompt_preserved": true,
+        "shadow_face_inspection_declared": true
+      },
+      "passed": true
+    },
+    {
+      "name": "A14_01",
+      "path": "/assets/astra/v09/A14-01-shadow.png",
+      "actionGroup": "A14",
+      "phase": 1,
+      "size": [
+        1199,
+        1312
+      ],
+      "mode": "RGBA",
+      "raw_corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "raw_corners_exact_zero": true,
+      "production_alpha_rule": "Existing Art.load discards source alpha < 16 before tracing; no source-image modification.",
+      "alpha_128_bounds_xyxy": [
+        38,
+        6,
+        1162,
+        1308
+      ],
+      "opaque_fraction": 0.5267067068085193,
+      "transparent_fraction": 0.45223153440875524,
+      "source_anchors": [
+        {
+          "key": "hands",
+          "source_point": [
+            1030,
+            827
+          ],
+          "nearby_max_alpha": 254
+        },
+        {
+          "key": "wrist",
+          "source_point": [
+            958,
+            866
+          ],
+          "nearby_max_alpha": 254
+        },
+        {
+          "key": "pen",
+          "source_point": [
+            1133,
+            908
+          ],
+          "nearby_max_alpha": 255
+        },
+        {
+          "key": "shoulder",
+          "source_point": [
+            679,
+            542
+          ],
+          "nearby_max_alpha": 254
+        }
+      ],
+      "checks": {
+        "real_alpha_channel": true,
+        "opaque_foreground_present": true,
+        "fully_transparent_background_present": true,
+        "production_effective_transparent_corners": true,
+        "hash_matches_manifest": true,
+        "prompt_preserved": true,
+        "shadow_face_inspection_declared": true
+      },
+      "passed": true
+    },
+    {
+      "name": "A14_02",
+      "path": "/assets/astra/v09/A14-02-shadow.png",
+      "actionGroup": "A14",
+      "phase": 2,
+      "size": [
+        1199,
+        1312
+      ],
+      "mode": "RGBA",
+      "raw_corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "raw_corners_exact_zero": true,
+      "production_alpha_rule": "Existing Art.load discards source alpha < 16 before tracing; no source-image modification.",
+      "alpha_128_bounds_xyxy": [
+        37,
+        5,
+        1166,
+        1311
+      ],
+      "opaque_fraction": 0.5316803637177323,
+      "transparent_fraction": 0.4531863443113163,
+      "source_anchors": [
+        {
+          "key": "hands",
+          "source_point": [
+            1016,
+            561
+          ],
+          "nearby_max_alpha": 254
+        },
+        {
+          "key": "wrist",
+          "source_point": [
+            949,
+            639
+          ],
+          "nearby_max_alpha": 254
+        },
+        {
+          "key": "pen",
+          "source_point": [
+            1109,
+            644
+          ],
+          "nearby_max_alpha": 252
+        },
+        {
+          "key": "shoulder",
+          "source_point": [
+            683,
+            538
+          ],
+          "nearby_max_alpha": 254
+        }
+      ],
+      "checks": {
+        "real_alpha_channel": true,
+        "opaque_foreground_present": true,
+        "fully_transparent_background_present": true,
+        "production_effective_transparent_corners": true,
+        "hash_matches_manifest": true,
+        "prompt_preserved": true,
+        "shadow_face_inspection_declared": true
+      },
+      "passed": true
+    },
+    {
+      "name": "A11_03",
+      "path": "/assets/astra/v09/A11-03-shadow.png",
+      "actionGroup": "A11",
+      "phase": 3,
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "raw_corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "raw_corners_exact_zero": true,
+      "production_alpha_rule": "Existing Art.load discards source alpha < 16 before tracing; no source-image modification.",
+      "alpha_128_bounds_xyxy": [
+        34,
+        8,
+        981,
+        1533
+      ],
+      "opaque_fraction": 0.6029256184895834,
+      "transparent_fraction": 0.37972132364908856,
+      "source_anchors": [
+        {
+          "key": "hands",
+          "source_point": [
+            518,
+            684
+          ],
+          "nearby_max_alpha": 254
+        },
+        {
+          "key": "wrist",
+          "source_point": [
+            557,
+            645
+          ],
+          "nearby_max_alpha": 254
+        },
+        {
+          "key": "shoulder",
+          "source_point": [
+            610,
+            413
+          ],
+          "nearby_max_alpha": 254
+        }
+      ],
+      "checks": {
+        "real_alpha_channel": true,
+        "opaque_foreground_present": true,
+        "fully_transparent_background_present": true,
+        "production_effective_transparent_corners": true,
+        "hash_matches_manifest": true,
+        "prompt_preserved": true,
+        "shadow_face_inspection_declared": true
+      },
+      "passed": true
+    },
+    {
+      "name": "A14_03",
+      "path": "/assets/astra/v09/A14-03-shadow.png",
+      "actionGroup": "A14",
+      "phase": 3,
+      "size": [
+        1199,
+        1312
+      ],
+      "mode": "RGBA",
+      "raw_corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "raw_corners_exact_zero": true,
+      "production_alpha_rule": "Existing Art.load discards source alpha < 16 before tracing; no source-image modification.",
+      "alpha_128_bounds_xyxy": [
+        31,
+        9,
+        1169,
+        1309
+      ],
+      "opaque_fraction": 0.5448856008055494,
+      "transparent_fraction": 0.4363341402388169,
+      "source_anchors": [
+        {
+          "key": "hands",
+          "source_point": [
+            1040,
+            960
+          ],
+          "nearby_max_alpha": 254
+        },
+        {
+          "key": "wrist",
+          "source_point": [
+            955,
+            960
+          ],
+          "nearby_max_alpha": 254
+        },
+        {
+          "key": "pen",
+          "source_point": [
+            1128,
+            1040
+          ],
+          "nearby_max_alpha": 252
+        },
+        {
+          "key": "shoulder",
+          "source_point": [
+            677,
+            563
+          ],
+          "nearby_max_alpha": 254
+        }
+      ],
+      "checks": {
+        "real_alpha_channel": true,
+        "opaque_foreground_present": true,
+        "fully_transparent_background_present": true,
+        "production_effective_transparent_corners": true,
+        "hash_matches_manifest": true,
+        "prompt_preserved": true,
+        "shadow_face_inspection_declared": true
+      },
+      "passed": true
+    },
+    {
+      "name": "A12_01",
+      "path": "/assets/astra/v09/A12-01-shadow.png",
+      "actionGroup": "A12",
+      "phase": 1,
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "raw_corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "raw_corners_exact_zero": true,
+      "production_alpha_rule": "Existing Art.load discards source alpha < 16 before tracing; no source-image modification.",
+      "alpha_128_bounds_xyxy": [
+        2,
+        4,
+        1024,
+        1536
+      ],
+      "opaque_fraction": 0.7080523173014323,
+      "transparent_fraction": 0.2744127909342448,
+      "source_anchors": [
+        {
+          "key": "hands",
+          "source_point": [
+            303,
+            801
+          ],
+          "nearby_max_alpha": 254
+        },
+        {
+          "key": "wrist",
+          "source_point": [
+            316,
+            861
+          ],
+          "nearby_max_alpha": 254
+        },
+        {
+          "key": "pen",
+          "source_point": [
+            391,
+            843
+          ],
+          "nearby_max_alpha": 254
+        },
+        {
+          "key": "shoulder",
+          "source_point": [
+            466,
+            548
+          ],
+          "nearby_max_alpha": 254
+        }
+      ],
+      "checks": {
+        "real_alpha_channel": true,
+        "opaque_foreground_present": true,
+        "fully_transparent_background_present": true,
+        "production_effective_transparent_corners": true,
+        "hash_matches_manifest": true,
+        "prompt_preserved": true,
+        "shadow_face_inspection_declared": true
+      },
+      "passed": true
+    },
+    {
+      "name": "A13_01",
+      "path": "/assets/astra/v09/A13-01-shadow.png",
+      "actionGroup": "A13",
+      "phase": 1,
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "raw_corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "raw_corners_exact_zero": true,
+      "production_alpha_rule": "Existing Art.load discards source alpha < 16 before tracing; no source-image modification.",
+      "alpha_128_bounds_xyxy": [
+        15,
+        8,
+        1002,
+        1532
+      ],
+      "opaque_fraction": 0.6600214640299479,
+      "transparent_fraction": 0.3255462646484375,
+      "source_anchors": [
+        {
+          "key": "hands",
+          "source_point": [
+            740,
+            567
+          ],
+          "nearby_max_alpha": 254
+        },
+        {
+          "key": "wrist",
+          "source_point": [
+            680,
+            609
+          ],
+          "nearby_max_alpha": 254
+        },
+        {
+          "key": "shoulder",
+          "source_point": [
+            658,
+            539
+          ],
+          "nearby_max_alpha": 254
+        }
+      ],
+      "checks": {
+        "real_alpha_channel": true,
+        "opaque_foreground_present": true,
+        "fully_transparent_background_present": true,
+        "production_effective_transparent_corners": true,
+        "hash_matches_manifest": true,
+        "prompt_preserved": true,
+        "shadow_face_inspection_declared": true
+      },
+      "passed": true
+    },
+    {
+      "name": "A12_02",
+      "path": "/assets/astra/v09/A12-02-shadow.png",
+      "actionGroup": "A12",
+      "phase": 2,
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "raw_corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "raw_corners_exact_zero": true,
+      "production_alpha_rule": "Existing Art.load discards source alpha < 16 before tracing; no source-image modification.",
+      "alpha_128_bounds_xyxy": [
+        0,
+        1,
+        1024,
+        1536
+      ],
+      "opaque_fraction": 0.7271499633789062,
+      "transparent_fraction": 0.25574366251627606,
+      "source_anchors": [
+        {
+          "key": "hands",
+          "source_point": [
+            278,
+            603
+          ],
+          "nearby_max_alpha": 254
+        },
+        {
+          "key": "wrist",
+          "source_point": [
+            282,
+            704
+          ],
+          "nearby_max_alpha": 254
+        },
+        {
+          "key": "pen",
+          "source_point": [
+            340,
+            636
+          ],
+          "nearby_max_alpha": 254
+        },
+        {
+          "key": "shoulder",
+          "source_point": [
+            437,
+            566
+          ],
+          "nearby_max_alpha": 253
+        }
+      ],
+      "checks": {
+        "real_alpha_channel": true,
+        "opaque_foreground_present": true,
+        "fully_transparent_background_present": true,
+        "production_effective_transparent_corners": true,
+        "hash_matches_manifest": true,
+        "prompt_preserved": true,
+        "shadow_face_inspection_declared": true
+      },
+      "passed": true
+    },
+    {
+      "name": "A13_02",
+      "path": "/assets/astra/v09/A13-02-shadow.png",
+      "actionGroup": "A13",
+      "phase": 2,
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "raw_corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "raw_corners_exact_zero": true,
+      "production_alpha_rule": "Existing Art.load discards source alpha < 16 before tracing; no source-image modification.",
+      "alpha_128_bounds_xyxy": [
+        11,
+        12,
+        1006,
+        1532
+      ],
+      "opaque_fraction": 0.6560719807942709,
+      "transparent_fraction": 0.3286997477213542,
+      "source_anchors": [
+        {
+          "key": "hands",
+          "source_point": [
+            790,
+            853
+          ],
+          "nearby_max_alpha": 254
+        },
+        {
+          "key": "wrist",
+          "source_point": [
+            725,
+            825
+          ],
+          "nearby_max_alpha": 254
+        },
+        {
+          "key": "shoulder",
+          "source_point": [
+            661,
+            573
+          ],
+          "nearby_max_alpha": 254
+        }
+      ],
+      "checks": {
+        "real_alpha_channel": true,
+        "opaque_foreground_present": true,
+        "fully_transparent_background_present": true,
+        "production_effective_transparent_corners": true,
+        "hash_matches_manifest": true,
+        "prompt_preserved": true,
+        "shadow_face_inspection_declared": true
+      },
+      "passed": true
+    },
+    {
+      "name": "A13_03",
+      "path": "/assets/astra/v09/A13-03-shadow.png",
+      "actionGroup": "A13",
+      "phase": 3,
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "raw_corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "raw_corners_exact_zero": true,
+      "production_alpha_rule": "Existing Art.load discards source alpha < 16 before tracing; no source-image modification.",
+      "alpha_128_bounds_xyxy": [
+        6,
+        8,
+        1012,
+        1532
+      ],
+      "opaque_fraction": 0.6866817474365234,
+      "transparent_fraction": 0.29847971598307294,
+      "source_anchors": [
+        {
+          "key": "hands",
+          "source_point": [
+            900,
+            705
+          ],
+          "nearby_max_alpha": 254
+        },
+        {
+          "key": "wrist",
+          "source_point": [
+            818,
+            728
+          ],
+          "nearby_max_alpha": 254
+        },
+        {
+          "key": "shoulder",
+          "source_point": [
+            648,
+            570
+          ],
+          "nearby_max_alpha": 254
+        }
+      ],
+      "checks": {
+        "real_alpha_channel": true,
+        "opaque_foreground_present": true,
+        "fully_transparent_background_present": true,
+        "production_effective_transparent_corners": true,
+        "hash_matches_manifest": true,
+        "prompt_preserved": true,
+        "shadow_face_inspection_declared": true
+      },
+      "passed": true
+    }
+  ]
+}

@@ -1,0 +1,159 @@
+{
+  "passed": true,
+  "scope": "One native 3840x2160 60fps MP4; entire video/audio decode; every video timestamp and packet; every native 24-bit stereo sample; prior warning and v4 preserved. No platform Hi-Res badge or master provenance certification.",
+  "checks": {
+    "complete_video_audio_decode": true,
+    "all_video_packets_pts_and_durations": true,
+    "source_flac_unchanged": true,
+    "old_v4_unchanged": true,
+    "body_unchanged": true,
+    "output_hash_matches_render": true,
+    "real_ALAC_config_192000_24bit_stereo": true,
+    "source_sample_count_40686080": true,
+    "all_native_PCM_bytes_equal_independent_source_reference": true,
+    "decoded_sample_count_42880000": true,
+    "ALAC_payload_preserved_no_encode": true,
+    "first_five_seconds_exact_zero": true,
+    "last_six_seconds_exact_zero": true,
+    "eight_music_windows_within_one_frame": true
+  },
+  "output": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\exports\\astra-world-execute-me-final-v5-warning-hires-4k60.mp4",
+  "bytes": 392803400,
+  "sha256": "ae6cf8ed08346c0a58e2384ae24d9d8a86d300d684a66d6faf41653f534c73f0",
+  "native_pcm": {
+    "sha256": "a8195021c34ab3c21474d2ec7a8e3e0a14ed36d571d42cf95e1da7979d9b7e26",
+    "decoded_bytes": 257280000,
+    "decoded_samples_per_channel": 42880000,
+    "head_exact_zero_0_to_5s": true,
+    "tail_exact_zero_last_6s": true,
+    "tail_start_sample": 41728000
+  },
+  "independent_expected_pcm": {
+    "sha256": "a8195021c34ab3c21474d2ec7a8e3e0a14ed36d571d42cf95e1da7979d9b7e26",
+    "source_decoded_bytes": 244116480,
+    "source_samples_per_channel": 40686080,
+    "retained_samples_per_channel": 40674984,
+    "trim_front_samples": 11096,
+    "front_silent_samples": 960000,
+    "tail_silent_samples": 1245016,
+    "expected_total_bytes": 257280000,
+    "expected_total_samples_per_channel": 42880000,
+    "method": "Native signed 24-bit PCM decoded; Python drops first 11096 sample frames, hashes 960000 leading zero sample frames + every remaining source byte + literal zeros to length. No production-filter reuse."
+  },
+  "alac_config": {
+    "frame_length": 4096,
+    "compatible_version": 0,
+    "bit_depth": 24,
+    "channels": 2,
+    "sample_rate": 192000,
+    "raw_config_hex": "000010000018280a0e02000000006004008ca0000002ee00"
+  },
+  "alac_payload_sha256": "3eebefc53a6091a220385b308cc130ba2a486b50318cc8e86dd5c1e7fbbe6858",
+  "music_alignment_windows": [
+    {
+      "sample_window_seconds": [
+        1.0,
+        3.5
+      ],
+      "lag_samples": -56,
+      "lag_seconds": -0.0023333333333333335,
+      "normalized_correlation": 0.9547535532634841,
+      "reference_rms_dbfs": -9.112445245567747,
+      "song_start_seconds": 1.0,
+      "output_start_seconds": 6.0,
+      "passed": true
+    },
+    {
+      "sample_window_seconds": [
+        31.0,
+        33.5
+      ],
+      "lag_samples": -40,
+      "lag_seconds": -0.0016666666666666668,
+      "normalized_correlation": 0.9505661856877701,
+      "reference_rms_dbfs": -8.780961731747167,
+      "song_start_seconds": 31.0,
+      "output_start_seconds": 36.0,
+      "passed": true
+    },
+    {
+      "sample_window_seconds": [
+        60.0,
+        62.5
+      ],
+      "lag_samples": -24,
+      "lag_seconds": -0.001,
+      "normalized_correlation": 0.934920523875787,
+      "reference_rms_dbfs": -5.489167045735391,
+      "song_start_seconds": 60.0,
+      "output_start_seconds": 65.0,
+      "passed": true
+    },
+    {
+      "sample_window_seconds": [
+        90.0,
+        92.5
+      ],
+      "lag_samples": -8,
+      "lag_seconds": -0.0003333333333333333,
+      "normalized_correlation": 0.950030871355775,
+      "reference_rms_dbfs": -7.711492129818268,
+      "song_start_seconds": 90.0,
+      "output_start_seconds": 95.0,
+      "passed": true
+    },
+    {
+      "sample_window_seconds": [
+        120.0,
+        122.5
+      ],
+      "lag_samples": 8,
+      "lag_seconds": 0.0003333333333333333,
+      "normalized_correlation": 0.937881312439831,
+      "reference_rms_dbfs": -6.033827392488601,
+      "song_start_seconds": 120.0,
+      "output_start_seconds": 125.0,
+      "passed": true
+    },
+    {
+      "sample_window_seconds": [
+        150.0,
+        152.5
+      ],
+      "lag_samples": 25,
+      "lag_seconds": 0.0010416666666666667,
+      "normalized_correlation": 0.9497601449971481,
+      "reference_rms_dbfs": -6.827882182816256,
+      "song_start_seconds": 150.0,
+      "output_start_seconds": 155.0,
+      "passed": true
+    },
+    {
+      "sample_window_seconds": [
+        180.0,
+        182.5
+      ],
+      "lag_samples": 41,
+      "lag_seconds": 0.0017083333333333334,
+      "normalized_correlation": 0.9500945652764616,
+      "reference_rms_dbfs": -5.42292322026408,
+      "song_start_seconds": 180.0,
+      "output_start_seconds": 185.0,
+      "passed": true
+    },
+    {
+      "sample_window_seconds": [
+        200.0,
+        202.5
+      ],
+      "lag_samples": 52,
+      "lag_seconds": 0.0021666666666666666,
+      "normalized_correlation": 0.9472321237040668,
+      "reference_rms_dbfs": -8.398492912188066,
+      "song_start_seconds": 200.0,
+      "output_start_seconds": 205.0,
+      "passed": true
+    }
+  ],
+  "music_alignment_scope": "AAC vs FLAC music correspondence (>=0.90 correlation, <=1/60s lag); native losslessness proved separately by exact integer PCM hashes."
+}

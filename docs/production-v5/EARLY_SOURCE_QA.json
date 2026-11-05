@@ -1,0 +1,967 @@
+{
+  "createdAt": "2026-11-05T11:02:57.135790+00:00",
+  "scope": "18 final early source images; read-only pixel/metadata/hash checks. This is not rendered-frame QA or export verification.",
+  "manifest": "assets/astra/v09/early-assets.json",
+  "manualReview": "All 18 final generated sources viewed at output. No exposed eyes; original-drawn near-black face with bangs, no added enclosing logo disc; complete poses and held-prop sides checked. A17 phase2 hand-side correction uses style2-r2. Pixel anchor corrections recorded in EARLY.md.",
+  "count": 18,
+  "failures": [],
+  "passed": true,
+  "records": [
+    {
+      "id": "A01_01",
+      "path": "/assets/astra/v09/A01-01-inkface.png",
+      "source": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa73-c60e-7100-b6db-4e43c1ae8e63\\exec-75929d06-8dd2-4163-b5db-07ec40c33c83.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "sha256": "ce018482f13edac67aee42b377ae2d4c6b1e918ed9f7ea9991b91c99f8028469",
+      "alphaRange": [
+        0,
+        254
+      ],
+      "fullyTransparentPixels": 1059973,
+      "fullyTransparentFraction": 0.673913,
+      "cornersAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "anchors": {
+        "hands": {
+          "point": [
+            952,
+            367
+          ],
+          "alpha": 252
+        },
+        "wrist": {
+          "point": [
+            905,
+            382
+          ],
+          "alpha": 253
+        },
+        "pen": {
+          "point": [
+            1033,
+            424
+          ],
+          "alpha": 234
+        }
+      },
+      "checks": {
+        "rgba": true,
+        "hasTransparentPixels": true,
+        "sourceCopyHashMatches": true,
+        "promptExists": true,
+        "poseSourceExists": true,
+        "posePromptExists": true,
+        "shadowDeclared": true,
+        "manualSourceInspected": true,
+        "anchorsOnArtwork": true
+      }
+    },
+    {
+      "id": "A01_02",
+      "path": "/assets/astra/v09/A01-02-inkface.png",
+      "source": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa73-c60e-7100-b6db-4e43c1ae8e63\\exec-6d7a8d06-f977-42e5-b987-b03fd62ccacb.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "sha256": "f3f8f59d3725a393e8c44e9264b99071dceb5762663f7fa96afc40a38a705880",
+      "alphaRange": [
+        0,
+        254
+      ],
+      "fullyTransparentPixels": 1044742,
+      "fullyTransparentFraction": 0.664229,
+      "cornersAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "anchors": {
+        "hands": {
+          "point": [
+            1020,
+            628
+          ],
+          "alpha": 254
+        },
+        "wrist": {
+          "point": [
+            976,
+            606
+          ],
+          "alpha": 253
+        },
+        "pen": {
+          "point": [
+            1076,
+            720
+          ],
+          "alpha": 239
+        }
+      },
+      "checks": {
+        "rgba": true,
+        "hasTransparentPixels": true,
+        "sourceCopyHashMatches": true,
+        "promptExists": true,
+        "poseSourceExists": true,
+        "posePromptExists": true,
+        "shadowDeclared": true,
+        "manualSourceInspected": true,
+        "anchorsOnArtwork": true
+      }
+    },
+    {
+      "id": "A02_01",
+      "path": "/assets/astra/v09/A02-01-inkface.png",
+      "source": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa73-c60e-7100-b6db-4e43c1ae8e63\\exec-86c9224f-1df5-4001-bb2d-42bbb0c4257d.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "sha256": "769fe64991381bf6b9a921103f5acc85371ff87294f9988ab266f6688dfa42f9",
+      "alphaRange": [
+        0,
+        254
+      ],
+      "fullyTransparentPixels": 1087599,
+      "fullyTransparentFraction": 0.691477,
+      "cornersAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "anchors": {
+        "hands": {
+          "point": [
+            993,
+            222
+          ],
+          "alpha": 254
+        },
+        "wrist": {
+          "point": [
+            970,
+            267
+          ],
+          "alpha": 253
+        }
+      },
+      "checks": {
+        "rgba": true,
+        "hasTransparentPixels": true,
+        "sourceCopyHashMatches": true,
+        "promptExists": true,
+        "poseSourceExists": true,
+        "posePromptExists": true,
+        "shadowDeclared": true,
+        "manualSourceInspected": true,
+        "anchorsOnArtwork": true
+      }
+    },
+    {
+      "id": "A02_02",
+      "path": "/assets/astra/v09/A02-02-inkface.png",
+      "source": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa73-c60e-7100-b6db-4e43c1ae8e63\\exec-d74d32b8-a9ed-4049-8479-dd89118c4a1b.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "sha256": "19f33a9c802f3c02fa8b795702688563e14e268642031b73e0d309f82192f29d",
+      "alphaRange": [
+        0,
+        254
+      ],
+      "fullyTransparentPixels": 1036614,
+      "fullyTransparentFraction": 0.659061,
+      "cornersAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "anchors": {
+        "hands": {
+          "point": [
+            1135,
+            199
+          ],
+          "alpha": 253
+        },
+        "wrist": {
+          "point": [
+            1097,
+            247
+          ],
+          "alpha": 253
+        }
+      },
+      "checks": {
+        "rgba": true,
+        "hasTransparentPixels": true,
+        "sourceCopyHashMatches": true,
+        "promptExists": true,
+        "poseSourceExists": true,
+        "posePromptExists": true,
+        "shadowDeclared": true,
+        "manualSourceInspected": true,
+        "anchorsOnArtwork": true
+      }
+    },
+    {
+      "id": "A02_03",
+      "path": "/assets/astra/v09/A02-03-inkface.png",
+      "source": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa73-c60e-7100-b6db-4e43c1ae8e63\\exec-668a3b75-d860-493d-92b6-5d1a32163b59.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "sha256": "2167c79ad9e2846953e4c10c6ad3a35131cc13566c12a7b2fddb563fcbdf78cb",
+      "alphaRange": [
+        0,
+        254
+      ],
+      "fullyTransparentPixels": 1086504,
+      "fullyTransparentFraction": 0.690781,
+      "cornersAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "anchors": {
+        "hands": {
+          "point": [
+            862,
+            506
+          ],
+          "alpha": 254
+        },
+        "wrist": {
+          "point": [
+            883,
+            462
+          ],
+          "alpha": 254
+        }
+      },
+      "checks": {
+        "rgba": true,
+        "hasTransparentPixels": true,
+        "sourceCopyHashMatches": true,
+        "promptExists": true,
+        "poseSourceExists": true,
+        "posePromptExists": true,
+        "shadowDeclared": true,
+        "manualSourceInspected": true,
+        "anchorsOnArtwork": true
+      }
+    },
+    {
+      "id": "A03_01",
+      "path": "/assets/astra/v09/A03-01-inkface.png",
+      "source": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa73-c60e-7100-b6db-4e43c1ae8e63\\exec-d327e119-5b5f-41c9-aaf7-b045a8e8f411.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "sha256": "0c69c0f509ab7ee96891f46dc7b94b3c5427081d5d5044fe3d39bbf1acd6dae8",
+      "alphaRange": [
+        0,
+        254
+      ],
+      "fullyTransparentPixels": 866667,
+      "fullyTransparentFraction": 0.551012,
+      "cornersAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "anchors": {
+        "hands": {
+          "point": [
+            483,
+            616
+          ],
+          "alpha": 254
+        },
+        "wrist": {
+          "point": [
+            543,
+            590
+          ],
+          "alpha": 254
+        }
+      },
+      "checks": {
+        "rgba": true,
+        "hasTransparentPixels": true,
+        "sourceCopyHashMatches": true,
+        "promptExists": true,
+        "poseSourceExists": true,
+        "posePromptExists": true,
+        "shadowDeclared": true,
+        "manualSourceInspected": true,
+        "anchorsOnArtwork": true
+      }
+    },
+    {
+      "id": "A03_02",
+      "path": "/assets/astra/v09/A03-02-inkface.png",
+      "source": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa73-c60e-7100-b6db-4e43c1ae8e63\\exec-132effa6-e5fe-4198-9b71-41c002d2e39a.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "sha256": "c01506cbc8304e434e82ace6f98a4e8b789777d13b031a3ae7fdb81562d17331",
+      "alphaRange": [
+        0,
+        254
+      ],
+      "fullyTransparentPixels": 994953,
+      "fullyTransparentFraction": 0.632574,
+      "cornersAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "anchors": {
+        "hands": {
+          "point": [
+            448,
+            322
+          ],
+          "alpha": 253
+        },
+        "wrist": {
+          "point": [
+            493,
+            339
+          ],
+          "alpha": 254
+        }
+      },
+      "checks": {
+        "rgba": true,
+        "hasTransparentPixels": true,
+        "sourceCopyHashMatches": true,
+        "promptExists": true,
+        "poseSourceExists": true,
+        "posePromptExists": true,
+        "shadowDeclared": true,
+        "manualSourceInspected": true,
+        "anchorsOnArtwork": true
+      }
+    },
+    {
+      "id": "A15_01",
+      "path": "/assets/astra/v09/A15-01-inkface.png",
+      "source": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa73-c60e-7100-b6db-4e43c1ae8e63\\exec-e2e42fde-7c7c-45e5-b30f-7a6cfbcfbcf9.png",
+      "size": [
+        1448,
+        1086
+      ],
+      "mode": "RGBA",
+      "sha256": "3b523f7ebac61af7d6ae6d53327e3b67bf038cf85e59421c68996cf9a5941d3a",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "fullyTransparentPixels": 729488,
+      "fullyTransparentFraction": 0.463895,
+      "cornersAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "anchors": {
+        "hands": {
+          "point": [
+            500,
+            319
+          ],
+          "alpha": 253
+        },
+        "wrist": {
+          "point": [
+            445,
+            393
+          ],
+          "alpha": 254
+        },
+        "pen": {
+          "point": [
+            603,
+            345
+          ],
+          "alpha": 246
+        }
+      },
+      "checks": {
+        "rgba": true,
+        "hasTransparentPixels": true,
+        "sourceCopyHashMatches": true,
+        "promptExists": true,
+        "poseSourceExists": true,
+        "posePromptExists": true,
+        "shadowDeclared": true,
+        "manualSourceInspected": true,
+        "anchorsOnArtwork": true
+      }
+    },
+    {
+      "id": "A15_02",
+      "path": "/assets/astra/v09/A15-02-inkface.png",
+      "source": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa73-c60e-7100-b6db-4e43c1ae8e63\\exec-11e9d696-6e23-43a3-8e0f-55308fcc6d2a.png",
+      "size": [
+        1448,
+        1086
+      ],
+      "mode": "RGBA",
+      "sha256": "ffcf3c32cfc10af2ef046ee6faa3c6cabdce065d7b86a5e57e7db986d4437c6f",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "fullyTransparentPixels": 784496,
+      "fullyTransparentFraction": 0.498876,
+      "cornersAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "anchors": {
+        "hands": {
+          "point": [
+            534,
+            648
+          ],
+          "alpha": 254
+        },
+        "wrist": {
+          "point": [
+            472,
+            649
+          ],
+          "alpha": 254
+        },
+        "pen": {
+          "point": [
+            614,
+            719
+          ],
+          "alpha": 254
+        }
+      },
+      "checks": {
+        "rgba": true,
+        "hasTransparentPixels": true,
+        "sourceCopyHashMatches": true,
+        "promptExists": true,
+        "poseSourceExists": true,
+        "posePromptExists": true,
+        "shadowDeclared": true,
+        "manualSourceInspected": true,
+        "anchorsOnArtwork": true
+      }
+    },
+    {
+      "id": "A16_01",
+      "path": "/assets/astra/v09/A16-01-inkface.png",
+      "source": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa73-c60e-7100-b6db-4e43c1ae8e63\\exec-6b00c490-2669-4b56-b40d-891b370cf1a2.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "sha256": "7c79cda8170f7e842fbb76dafb53bf678acf63e3f08314ce1f18ebc1f4447ffc",
+      "alphaRange": [
+        0,
+        254
+      ],
+      "fullyTransparentPixels": 861530,
+      "fullyTransparentFraction": 0.547746,
+      "cornersAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "anchors": {
+        "hands": {
+          "point": [
+            1299,
+            697
+          ],
+          "alpha": 253
+        },
+        "wrist": {
+          "point": [
+            1204,
+            766
+          ],
+          "alpha": 253
+        },
+        "pen": {
+          "point": [
+            1403,
+            764
+          ],
+          "alpha": 235
+        }
+      },
+      "checks": {
+        "rgba": true,
+        "hasTransparentPixels": true,
+        "sourceCopyHashMatches": true,
+        "promptExists": true,
+        "poseSourceExists": true,
+        "posePromptExists": true,
+        "shadowDeclared": true,
+        "manualSourceInspected": true,
+        "anchorsOnArtwork": true
+      }
+    },
+    {
+      "id": "A16_02",
+      "path": "/assets/astra/v09/A16-02-inkface.png",
+      "source": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa73-c60e-7100-b6db-4e43c1ae8e63\\exec-bcebb9f2-7218-49ab-a8a0-a06c3dc89249.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "sha256": "bbf7b68eaecf94fc29db4c46b81b0173cc2ef5a39db5bb4d3a60d9d0a841c1f4",
+      "alphaRange": [
+        0,
+        254
+      ],
+      "fullyTransparentPixels": 682120,
+      "fullyTransparentFraction": 0.43368,
+      "cornersAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "anchors": {
+        "hands": {
+          "point": [
+            1384,
+            922
+          ],
+          "alpha": 253
+        },
+        "wrist": {
+          "point": [
+            1262,
+            956
+          ],
+          "alpha": 254
+        },
+        "pen": {
+          "point": [
+            1477,
+            1016
+          ],
+          "alpha": 247
+        }
+      },
+      "checks": {
+        "rgba": true,
+        "hasTransparentPixels": true,
+        "sourceCopyHashMatches": true,
+        "promptExists": true,
+        "poseSourceExists": true,
+        "posePromptExists": true,
+        "shadowDeclared": true,
+        "manualSourceInspected": true,
+        "anchorsOnArtwork": true
+      }
+    },
+    {
+      "id": "A17_01",
+      "path": "/assets/astra/v09/A17-01-inkface.png",
+      "source": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa73-c60e-7100-b6db-4e43c1ae8e63\\exec-25502fc7-9ef3-42a8-ae67-9d9f973205a1.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "sha256": "1edc18e4418920ec5edb1d2e6260e828206db37fd413b21edc1006d691d1b039",
+      "alphaRange": [
+        0,
+        254
+      ],
+      "fullyTransparentPixels": 708223,
+      "fullyTransparentFraction": 0.450276,
+      "cornersAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "anchors": {
+        "hands": {
+          "point": [
+            919,
+            573
+          ],
+          "alpha": 254
+        },
+        "wrist": {
+          "point": [
+            848,
+            608
+          ],
+          "alpha": 254
+        },
+        "pen": {
+          "point": [
+            979,
+            631
+          ],
+          "alpha": 246
+        }
+      },
+      "checks": {
+        "rgba": true,
+        "hasTransparentPixels": true,
+        "sourceCopyHashMatches": true,
+        "promptExists": true,
+        "poseSourceExists": true,
+        "posePromptExists": true,
+        "shadowDeclared": true,
+        "manualSourceInspected": true,
+        "anchorsOnArtwork": true
+      }
+    },
+    {
+      "id": "A17_02",
+      "path": "/assets/astra/v09/A17-02-inkface.png",
+      "source": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa73-c60e-7100-b6db-4e43c1ae8e63\\exec-ba4249e4-1890-47b9-a0a4-8fbd2396ca18.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "sha256": "36882cc2abaf74318573eae3755012be16e99edf2ffa0c5b672d90e327d1457d",
+      "alphaRange": [
+        0,
+        254
+      ],
+      "fullyTransparentPixels": 675802,
+      "fullyTransparentFraction": 0.429663,
+      "cornersAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "anchors": {
+        "hands": {
+          "point": [
+            929,
+            745
+          ],
+          "alpha": 253
+        },
+        "wrist": {
+          "point": [
+            855,
+            738
+          ],
+          "alpha": 253
+        },
+        "pen": {
+          "point": [
+            987,
+            811
+          ],
+          "alpha": 251
+        }
+      },
+      "checks": {
+        "rgba": true,
+        "hasTransparentPixels": true,
+        "sourceCopyHashMatches": true,
+        "promptExists": true,
+        "poseSourceExists": true,
+        "posePromptExists": true,
+        "shadowDeclared": true,
+        "manualSourceInspected": true,
+        "anchorsOnArtwork": true
+      }
+    },
+    {
+      "id": "A18_01",
+      "path": "/assets/astra/v09/A18-01-inkface.png",
+      "source": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa73-c60e-7100-b6db-4e43c1ae8e63\\exec-549bfe3f-a17e-451f-a6a4-207c14777ba7.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "sha256": "9a2c41ad34a2b0fdfe2e8fc3c0747ff11220c6b83c9d65e409ec8a6baa9c2c07",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "fullyTransparentPixels": 612567,
+      "fullyTransparentFraction": 0.389546,
+      "cornersAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "anchors": {
+        "hands": {
+          "point": [
+            548,
+            1123
+          ],
+          "alpha": 253
+        },
+        "wrist": {
+          "point": [
+            493,
+            1057
+          ],
+          "alpha": 254
+        }
+      },
+      "checks": {
+        "rgba": true,
+        "hasTransparentPixels": true,
+        "sourceCopyHashMatches": true,
+        "promptExists": true,
+        "poseSourceExists": true,
+        "posePromptExists": true,
+        "shadowDeclared": true,
+        "manualSourceInspected": true,
+        "anchorsOnArtwork": true
+      }
+    },
+    {
+      "id": "A18_02",
+      "path": "/assets/astra/v09/A18-02-inkface.png",
+      "source": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa73-c60e-7100-b6db-4e43c1ae8e63\\exec-814ed3af-98c8-48b0-9d2f-a1857560067a.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "sha256": "2cd996c40c184273aff35b1aacefc8eb46f303c4f54481e72c9af0492a8e4322",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "fullyTransparentPixels": 553273,
+      "fullyTransparentFraction": 0.351839,
+      "cornersAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "anchors": {
+        "hands": {
+          "point": [
+            143,
+            1027
+          ],
+          "alpha": 253
+        },
+        "wrist": {
+          "point": [
+            234,
+            984
+          ],
+          "alpha": 254
+        }
+      },
+      "checks": {
+        "rgba": true,
+        "hasTransparentPixels": true,
+        "sourceCopyHashMatches": true,
+        "promptExists": true,
+        "poseSourceExists": true,
+        "posePromptExists": true,
+        "shadowDeclared": true,
+        "manualSourceInspected": true,
+        "anchorsOnArtwork": true
+      }
+    },
+    {
+      "id": "A19_01",
+      "path": "/assets/astra/v09/A19-01-inkface.png",
+      "source": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa73-c60e-7100-b6db-4e43c1ae8e63\\exec-2a29beca-1857-4655-8266-f4a9fd953ef3.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "sha256": "c7eae82ff98cfad4512df27674a7a62532539d35d7a9f8288046681ae43f2663",
+      "alphaRange": [
+        0,
+        254
+      ],
+      "fullyTransparentPixels": 569814,
+      "fullyTransparentFraction": 0.362278,
+      "cornersAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "anchors": {
+        "hands": {
+          "point": [
+            453,
+            1047
+          ],
+          "alpha": 254
+        },
+        "wrist": {
+          "point": [
+            417,
+            996
+          ],
+          "alpha": 254
+        }
+      },
+      "checks": {
+        "rgba": true,
+        "hasTransparentPixels": true,
+        "sourceCopyHashMatches": true,
+        "promptExists": true,
+        "poseSourceExists": true,
+        "posePromptExists": true,
+        "shadowDeclared": true,
+        "manualSourceInspected": true,
+        "anchorsOnArtwork": true
+      }
+    },
+    {
+      "id": "A19_02",
+      "path": "/assets/astra/v09/A19-02-inkface.png",
+      "source": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa73-c60e-7100-b6db-4e43c1ae8e63\\exec-8fef26ec-5151-4e92-b87b-db97e82250ed.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "sha256": "ef0ed1fbece65edf77534c6dd869e21ffb476db7df99cbc78363bbb145b8c8ff",
+      "alphaRange": [
+        0,
+        254
+      ],
+      "fullyTransparentPixels": 546192,
+      "fullyTransparentFraction": 0.34726,
+      "cornersAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "anchors": {
+        "hands": {
+          "point": [
+            475,
+            521
+          ],
+          "alpha": 254
+        },
+        "wrist": {
+          "point": [
+            433,
+            548
+          ],
+          "alpha": 254
+        }
+      },
+      "checks": {
+        "rgba": true,
+        "hasTransparentPixels": true,
+        "sourceCopyHashMatches": true,
+        "promptExists": true,
+        "poseSourceExists": true,
+        "posePromptExists": true,
+        "shadowDeclared": true,
+        "manualSourceInspected": true,
+        "anchorsOnArtwork": true
+      }
+    },
+    {
+      "id": "A19_03",
+      "path": "/assets/astra/v09/A19-03-inkface.png",
+      "source": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa73-c60e-7100-b6db-4e43c1ae8e63\\exec-f4d2287d-d6f3-4482-ad25-1df0087b15eb.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "sha256": "2c89b303b0d82f6e287f902cb18b6e95f7fff6a59093c40e70353ad7a4c60985",
+      "alphaRange": [
+        0,
+        254
+      ],
+      "fullyTransparentPixels": 561915,
+      "fullyTransparentFraction": 0.357256,
+      "cornersAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "anchors": {
+        "hands": {
+          "point": [
+            480,
+            514
+          ],
+          "alpha": 254
+        },
+        "wrist": {
+          "point": [
+            445,
+            576
+          ],
+          "alpha": 254
+        }
+      },
+      "checks": {
+        "rgba": true,
+        "hasTransparentPixels": true,
+        "sourceCopyHashMatches": true,
+        "promptExists": true,
+        "poseSourceExists": true,
+        "posePromptExists": true,
+        "shadowDeclared": true,
+        "manualSourceInspected": true,
+        "anchorsOnArtwork": true
+      }
+    }
+  ]
+}

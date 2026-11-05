@@ -26,7 +26,11 @@
     "full:v4:math": "node tools/render/check_neural_v4.mjs",
     "full:v4:4k": "node tools/render/export_full_v4_parallel.mjs",
     "full:v4:1080": "node tools/render/downscale_v4.mjs",
-    "full:v4:upload": "node tools/render/package_v4_upload.mjs"
+    "full:v4:upload": "node tools/render/package_v4_upload.mjs",
+    "final:v5:assets": "node tools/render/merge_v5_assets.mjs",
+    "final:v5:qa": "node tools/render/qa_v5.mjs --width 3840 --height 2160 --out exports/qa-v5-final",
+    "final:v5:math": "node tools/render/check_neural_v5.mjs && node tools/render/check_v5_actions.mjs",
+    "final:v5:4k-hires": "node tools/render/export_final_v5.mjs"
   },
   "dependencies": {
     "playwright-core": "1.64.1"
