@@ -1,0 +1,230 @@
+{
+  "passed": true,
+  "version": 4,
+  "checked_at": "2026-11-05T06:02:48.602Z",
+  "checks": {
+    "all_required_reports_passed": true,
+    "all_base_and_final_video_hashes_match": true,
+    "runtime_sources_assets_timeline_lyrics_manifest_match": true,
+    "continuous_and_neural_hashes_match": true,
+    "numeric_math_matches_current_source": true,
+    "original_v3_bases_and_warning_v2_4k_hires_unchanged": true
+  },
+  "previous": [
+    {
+      "file": "exports/astra-world-execute-me-full-v3-4k60.mp4",
+      "sha256": "fc5843f714c862d4a405f2a2cee58f958eaeb1597fe872dfe4300d0c1586e90b",
+      "unchanged": true
+    },
+    {
+      "file": "exports/astra-world-execute-me-full-v3-1080p60.mp4",
+      "sha256": "26c6ea3ea2cf0b940b481eaf8b970c0f687a772f45a57bf7c2d18aa39908a23b",
+      "unchanged": true
+    },
+    {
+      "file": "exports/astra-world-execute-me-full-v3-warning-v2-hires-4k60.mp4",
+      "sha256": "fa8aead7b51bf21ec8eaabed035a3a1b078c644085695b29b7e4dadd3a99a248",
+      "unchanged": true
+    }
+  ],
+  "runtime_inputs_unchanged": true,
+  "delivered_hashes": [
+    {
+      "file": "exports/astra-world-execute-me-full-v4-4k60.mp4",
+      "sha256": "9c472ff8c07887dd72d4aec8566f399abbc400fa467736197473dc7e7eeb08d5",
+      "bytes": 262584123,
+      "resolution": [
+        3840,
+        2160
+      ],
+      "fps": 60,
+      "frames": 13100,
+      "duration_seconds": 218.33333333333334,
+      "kind": "base",
+      "audio": "AAC"
+    },
+    {
+      "file": "exports/astra-world-execute-me-full-v4-1080p60.mp4",
+      "sha256": "27468f5d26431c5cafde118ea800b2432ebd35a7a41b413c7d2820dccb33bdd8",
+      "bytes": 128317537,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "fps": 60,
+      "frames": 13100,
+      "duration_seconds": 218.33333333333334,
+      "kind": "base",
+      "audio": "AAC"
+    },
+    {
+      "file": "exports/astra-world-execute-me-full-v4-warning-4k60.mp4",
+      "sha256": "fa5239d00f2741031e6a335a210a228c6ca34ac7e9c163c1d3bfb21b6c01c0a1",
+      "bytes": 263699052,
+      "resolution": [
+        3840,
+        2160
+      ],
+      "fps": 60,
+      "frames": 13400,
+      "duration_seconds": 223.33333333333334,
+      "kind": "warning-upload",
+      "audio": "AAC"
+    },
+    {
+      "file": "exports/astra-world-execute-me-full-v4-warning-1080p60.mp4",
+      "sha256": "e71f7869f32adcc5c17be698cddf8e1a3a652d691e864506e65324fe40be7bce",
+      "bytes": 128760272,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "fps": 60,
+      "frames": 13400,
+      "duration_seconds": 223.33333333333334,
+      "kind": "warning-upload",
+      "audio": "AAC"
+    },
+    {
+      "file": "exports/astra-world-execute-me-full-v4-warning-hires-4k60.mp4",
+      "sha256": "01b66d81e4892bfe6f7b8f946ecadb80eaa801659a764d096b4ee8f78e4fef19",
+      "bytes": 414879071,
+      "resolution": [
+        3840,
+        2160
+      ],
+      "fps": 60,
+      "frames": 13400,
+      "duration_seconds": 223.33333333333334,
+      "kind": "warning-upload",
+      "audio": "ALAC 192 kHz / 24 bit stereo"
+    },
+    {
+      "file": "exports/astra-world-execute-me-full-v4-warning-hires-1080p60.mp4",
+      "sha256": "571d88512ec1b399ac3b6c0e1df51ded97ff4bddf089cfd3b2818b912509be49",
+      "bytes": 279940291,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "fps": 60,
+      "frames": 13400,
+      "duration_seconds": 223.33333333333334,
+      "kind": "warning-upload",
+      "audio": "ALAC 192 kHz / 24 bit stereo"
+    }
+  ],
+  "evidence": [
+    {
+      "file": "exports/astra-world-execute-me-full-v4-4k60.parallel.render.json",
+      "sha256": "e598f40a5d2fde4627fb6865d69123cecfc95987c8ec4069e5426e31f19bf593",
+      "passed": true
+    },
+    {
+      "file": "exports/astra-world-execute-me-full-v4-4k60.full-verify.json",
+      "sha256": "8862b1ea99e95da1432565369e1136d8008e440111a9d59bca98faf29259e183",
+      "passed": true
+    },
+    {
+      "file": "exports/astra-world-execute-me-full-v4-1080p60.full-verify.json",
+      "sha256": "2d484b4699c8364c35e2bcc5425f3469024b2409142f68ae04eb51fb97811512",
+      "passed": true
+    },
+    {
+      "file": "exports/astra-world-execute-me-full-v4-4k60.timestamps.json",
+      "sha256": "aecaaded53883737477ec2fff42d97843cadb08cc7a1a5f73d8b026ec4b7f30c",
+      "passed": true
+    },
+    {
+      "file": "exports/astra-world-execute-me-full-v4-1080p60.downscale.render.json",
+      "sha256": "0b845d30de846a4dd63cc6e671878be95a44bf1b7d308801a3f77ec7836eaca0",
+      "passed": true
+    },
+    {
+      "file": "exports/astra-world-execute-me-full-v4-1080p60.timestamps.json",
+      "sha256": "1e507c5600b80eedf5b5a432ae61cf03c33a79ea768f4f1398ef11724ac80116",
+      "passed": true
+    },
+    {
+      "file": "exports/qa-v4-final/qa-v4.json",
+      "sha256": "71c446ce0ce79d429fef14589cb2c54d30e26429b212374dc573fd1119805987",
+      "passed": true
+    },
+    {
+      "file": "docs/validation/warning-v4/verification.json",
+      "sha256": "04df754e578d2b2cc1d4b9587ec5f68dea79067dcb997fbf1eb479e54d65ade9",
+      "passed": true
+    },
+    {
+      "file": "docs/validation/warning-v4/render.json",
+      "sha256": "9e9b0e0e8b69b94958dbf4ebbb31274a74c233dd1a7676ff32e6873f4524a387",
+      "passed": true
+    },
+    {
+      "file": "docs/validation/astra-v4-neural-math.json",
+      "sha256": "db41d60ea7f2dc1e83b3d84ca8c7dd4e5d23449eca385789a334e57f0eedb40d",
+      "passed": true
+    },
+    {
+      "file": "docs/validation/warning-v4-hires/verification.json",
+      "sha256": "1bc2f36ee2fc1ab89669e749a7cfd41f073d924981d0df9ef1a753a24610ff46",
+      "passed": true
+    },
+    {
+      "file": "docs/validation/warning-v4-hires/render.json",
+      "sha256": "322b5da980f6acc0e61ea7745d3003c2679243bcc9a60fa3458161cb9e5c146e",
+      "passed": true
+    },
+    {
+      "file": "docs/validation/astra-v4-neural-runtime.json",
+      "sha256": "c0a42ac48b71075f5f86439660e0a1b97028aa5e1c21a63514ffa8a79c817675",
+      "passed": true
+    },
+    {
+      "file": "docs/validation/astra-v4-middle-continuous.json",
+      "sha256": "16c6c6498fada6616dbd4706f3cc6dda44e2e68715678eccf47ca82a7b28394c",
+      "passed": true
+    },
+    {
+      "file": "docs/validation/warning-v4/4k60.full-verify.json",
+      "sha256": "9604262ccb59a6ef3f8b1af27c1146be1c275780a6c6f54f47a45ba1b66fa605",
+      "passed": true
+    },
+    {
+      "file": "docs/validation/warning-v4/4k60.packets.json",
+      "sha256": "7d54b1df0e5949849f7da8b8c54d5f04a8994cbcee8ce96d97bb04a2742ed226",
+      "passed": true
+    },
+    {
+      "file": "docs/validation/warning-v4/1080p60.full-verify.json",
+      "sha256": "6edad74a5bfbef66f23624e6efa9e9111975544af9770bf3aa8380351875629d",
+      "passed": true
+    },
+    {
+      "file": "docs/validation/warning-v4/1080p60.packets.json",
+      "sha256": "7d54b1df0e5949849f7da8b8c54d5f04a8994cbcee8ce96d97bb04a2742ed226",
+      "passed": true
+    },
+    {
+      "file": "docs/validation/warning-v4-hires/4k60.full-verify.json",
+      "sha256": "a6cc55a087b03ea138858c0542d84b2839924037395f61bb06c42ba660811eda",
+      "passed": true
+    },
+    {
+      "file": "docs/validation/warning-v4-hires/4k60.packets.json",
+      "sha256": "ab237e71eba758c40b5cd47fc138684838814b3976cbd0941119060dd5601791",
+      "passed": true
+    },
+    {
+      "file": "docs/validation/warning-v4-hires/1080p60.full-verify.json",
+      "sha256": "65ce9e38a64960d34144e921c06dd6a8aaed29a80f0d4f4744e31408c9c71587",
+      "passed": true
+    },
+    {
+      "file": "docs/validation/warning-v4-hires/1080p60.packets.json",
+      "sha256": "ab237e71eba758c40b5cd47fc138684838814b3976cbd0941119060dd5601791",
+      "passed": true
+    }
+  ],
+  "scope": "Gate over completed runtime, numeric, continuous-frame, full-decode, PTS, PCM and preservation reports, plus current-file SHA256. Not continuous human viewing, official-source provenance, upload acceptance, medical flash certification, or an upload operation."
+}

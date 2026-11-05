@@ -1,6 +1,12 @@
 # 封面与简介
 
-## 当前投稿副本：紫色 GPT 警告 + 无损音轨
+## 当前投稿副本：完整视觉 v4
+
+[4K60 无损上传文件](../../exports/astra-world-execute-me-full-v4-warning-hires-4k60.mp4) · [1080p60 AAC 完整预览](../../exports/astra-world-execute-me-full-v4-warning-1080p60.mp4) · [v4 简介](video-description-v03.txt) · [交付与六份文件核验](../FULL_MV_V4.md)
+
+v4 已加入全连接、CNN、RNN 演示及空间、焦点与结尾共同造世界的优化。保留已确认的封面、5 秒紫色 GPT 警告、上下双语歌词和 6 秒安静尾段。完整上传文件为 13,400 帧 / 223.333333 秒，192 kHz / 24 bit ALAC 音轨已逐样本验证；平台标识与录音母带来源仍未核实。用户报告此前版本已获 B 站观众反馈，本轮没有代用户上传。以下 v3 投稿说明和旧简介作为历史保留。
+
+## 历史投稿副本：紫色 GPT 警告 + 无损音轨
 
 [4K60 上传文件](../../exports/astra-world-execute-me-full-v3-warning-v2-hires-4k60.mp4) · [1080p60 AAC 兼容预览](../../exports/astra-world-execute-me-full-v3-warning-v2-1080p60.mp4) · [最新简介](video-description-v02.txt) · [无损音轨说明与校验](HIRES_UPLOAD.md) · [片头警告说明](WARNING_UPLOAD_V2.md)
 

@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "checks": {
+    "original_count_13100": true,
+    "new_count_13400": true,
+    "all_original_packet_bytes_identical": true,
+    "all_pts_exact_n_over_60": true,
+    "all_packet_durations_one_frame": true,
+    "dts_strictly_increasing": true,
+    "original_pts_shift_exact_5s": true
+  },
+  "new_timebase": "1/60000",
+  "original_timebase": "1/60000",
+  "count": 13400,
+  "first_pts": "0",
+  "last_pts": "13399/60",
+  "method": "SHA256 and size of each stream-copied AVCC packet via FFmpeg framehash; output decode-order packets [300:] must match input packets one-for-one, including VCL and non-VCL payloads."
+}

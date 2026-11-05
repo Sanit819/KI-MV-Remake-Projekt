@@ -122,13 +122,16 @@ def main():
     report={'passed':False,'format':'User-supplied FLAC retained as 192 kHz / 24-bit stereo ALAC; recording provenance and platform acceptance unverified','independent_expected_pcm':expected,'production_reference_pcm':ref_pcm,'encoded_once_pcm':once_pcm,'encoded_once_config':once_config,'encoded_once_payload_sha256':once_hash,'checks':{'source_native_sample_count':expected['source_samples_per_channel']==40686080,'front_trim_exact':expected['retained_samples_per_channel']==40674984,'tail_padding_exact':expected['tail_silent_samples']==1245016,'production_reference_bitexact':expected['sha256']==ref_pcm['sha256'],'alac_once_bitexact':expected['sha256']==once_pcm['sha256'],'alac_once_native_format':once_config['bit_depth']==24 and once_config['sample_rate']==RATE and once_config['channels']==2},'items':[]}
     saved('verification.json',report)
     for item in render['inputs']:
-        key=item['key'];out=Path(item['output']);input_video=Path(item['input']);base=ROOT/f'exports/astra-world-execute-me-full-v3-{key}.mp4'
+        key=item['key'];out=Path(item['output']);input_video=Path(item['input'])
+        # Later visual revisions may declare a different verified picture base;
+        # legacy v3 callers retain their original source and validation behavior.
+        base=ROOT/render.get('base_video_template','exports/astra-world-execute-me-full-v3-{key}.mp4').format(key=key)
         print('[HiRes verify] '+key+' full video/audio decode',flush=True)
         opts=argparse.Namespace(video=out,audio=reference,width=item['width'],height=item['height'],fps=60,frames=13400,source_start=0.,windows=[6.,36.,65.,95.,125.,155.,185.,205.],window_length=2.5,min_correlation=.98,audio_rate=24000,ffmpeg=FF)
         full=verify(opts);saved(key+'.full-verify.json',full)
         before,tb_before=common.packets(input_video,key+'-warning-input')
         after,tb_after=common.packets(out,key+'-hires-output')
-        old,tb_old=common.packets(base,key+'-original-v3')
+        old,tb_old=common.packets(base,key+'-original-picture')
         times=sorted(Fraction(x['pts'])*tb_after for x in after)
         same=lambda a,b: len(a)==len(b) and all((x['sha256'],x['size'])==(y['sha256'],y['size']) for x,y in zip(a,b))
         packet_checks={'video_packet_bytes_equal_warning_input':same(before,after),'original_13100_video_packets_equal':same(old,after[300:]),'all_13400_pts_n_over_60':len(times)==13400 and all(t==Fraction(i,60) for i,t in enumerate(times)),'all_packet_durations_one_frame':all(Fraction(x['duration'])*tb_after==Fraction(1,60) for x in after),'strict_dts':all(after[i]['dts']>after[i-1]['dts'] for i in range(1,len(after))),'original_pts_shifted_5s':len(after[300:])==len(old) and all(Fraction(b['pts'])*tb_after-Fraction(a['pts'])*tb_old==5 for a,b in zip(old,after[300:]))}

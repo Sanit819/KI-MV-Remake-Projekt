@@ -1,0 +1,59 @@
+{
+  "passed": true,
+  "version": "v4-warning",
+  "phase": "complete",
+  "fps": 60,
+  "warning_frames": 300,
+  "original_frames": 13100,
+  "total_frames": 13400,
+  "duration": 223.33333333333334,
+  "started_at": "2026-11-05T06:00:11.231Z",
+  "audio": {
+    "source": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\media\\audio\\mili-world-execute-original-bilibili.m4a",
+    "sha256": "b06f195e2a479c25c3282f4ca5b931e293c4a35a941acf6dd5b515ba4890f34a",
+    "sample_rate": 48000,
+    "channels": 2,
+    "production_source_decode_count": 0,
+    "aac_encode_count": 0,
+    "bitrate": 192000,
+    "front_samples": 240000,
+    "total_samples": 10720000,
+    "pcm_reference": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\exports\\warning-v3\\warning-original-reference.f32.wav",
+    "pcm_sha256": "2724a5d499b5f1fbb30d194dd7af237505886611f62861101e185708fbf8531a",
+    "encoded_once": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\exports\\warning-v3\\warning-audio.m4a",
+    "encoded_sha256": "46d5a06c4935b0b063bb3116107a585f55a286f288099b2fc97c180688f53a09",
+    "reused_verified_audio": true
+  },
+  "inputs": [
+    {
+      "key": "4k60",
+      "width": 3840,
+      "height": 2160,
+      "input": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\exports\\astra-world-execute-me-full-v4-4k60.mp4",
+      "output": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\exports\\astra-world-execute-me-full-v4-warning-4k60.mp4",
+      "sha256_before": "9c472ff8c07887dd72d4aec8566f399abbc400fa467736197473dc7e7eeb08d5",
+      "sha256_after": "9c472ff8c07887dd72d4aec8566f399abbc400fa467736197473dc7e7eeb08d5",
+      "output_sha256": "fa5239d00f2741031e6a335a210a228c6ca34ac7e9c163c1d3bfb21b6c01c0a1",
+      "output_bytes": 263699052,
+      "prefix_source": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\exports\\astra-world-execute-me-full-v3-warning-v2-4k60.mp4",
+      "prefix_source_sha256": "8a492b561c374ee1654028216b2c6909a36cc3cfde8acecafe35c6a6f619aef6",
+      "original_unchanged": true
+    },
+    {
+      "key": "1080p60",
+      "width": 1920,
+      "height": 1080,
+      "input": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\exports\\astra-world-execute-me-full-v4-1080p60.mp4",
+      "output": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\exports\\astra-world-execute-me-full-v4-warning-1080p60.mp4",
+      "sha256_before": "27468f5d26431c5cafde118ea800b2432ebd35a7a41b413c7d2820dccb33bdd8",
+      "sha256_after": "27468f5d26431c5cafde118ea800b2432ebd35a7a41b413c7d2820dccb33bdd8",
+      "output_sha256": "e71f7869f32adcc5c17be698cddf8e1a3a652d691e864506e65324fe40be7bce",
+      "output_bytes": 128760272,
+      "prefix_source": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\exports\\astra-world-execute-me-full-v3-warning-v2-1080p60.mp4",
+      "prefix_source_sha256": "88caf79080084a6ab0ddc87f211d63b637784aaa13ef3d25cd0b3459c65f99da",
+      "original_unchanged": true
+    }
+  ],
+  "export_succeeded": true,
+  "verification_report": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\exports\\warning-v4\\verification.json"
+}

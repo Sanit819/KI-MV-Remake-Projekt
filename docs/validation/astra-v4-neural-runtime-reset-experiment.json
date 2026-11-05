@@ -1,0 +1,7558 @@
+{
+  "checked_at": "2026-11-05T05:48:58.175Z",
+  "experimentalContextReset": true,
+  "scope": "Real v4 canvas at 42 sampled frames; source numerics, audit and same-time raw RGBA determinism after intervening seeks. Not all-frame playback, audio, encoded output, trained networks, or actual GPT architecture.",
+  "hashes": {
+    "src/mv4/art.js": "81ef731809b0a0a2bfff7f918f7f648bf982d16a01588f87b1664684c5cf112e",
+    "src/mv4/early.js": "553de3e7827d373733cf18edd93604de1556ddaac3c59f4e86a66067f2db90d8",
+    "src/mv4/index.html": "ab8f7cc927d2afb768d21db8f4a325cfb4ccb74c0eb1d9f34797f447ae167b1e",
+    "src/mv4/kit.js": "11c87d385d8fcd93f1373bf8205b6f97553facf616a6ef56093b559b1e31c9ee",
+    "src/mv4/late.js": "8b069ea7c5549f6dab65dab875a5be323cdf3593f7614371b16879d85da4399a",
+    "src/mv4/main.js": "5155a9e0a223824149744ce6ac068a06610f3fd23afc4c92ea63380ac353585f",
+    "src/mv4/middle.js": "5d9e2dd51ae7ac85cd507a92170e0a77f11a77cfd38c140f2f3635b3e7d2e738",
+    "src/mv4/neural.js": "c009bbf313862cd910c304f053075f10517da4bdfb896deb67f31536aafe7773",
+    "data/production-v4/timeline.json": "44d57faac918f9f7138f2a2dba0403bf4291d2c5e160611f81a23533518a04aa",
+    "data/production-v4/lyrics.en-zh.json": "25b18174d929a4965eab4e6079917f958879ecd36ce1441fdf5b6301255a799c",
+    "assets/astra/v08/manifest.json": "d7bfbba5f56bcaab301a6d2ebecde0d78b76316bb002d62777cae045178bdf94"
+  },
+  "expected": {
+    "R03": "fc",
+    "R30": "cnn",
+    "R35": "rnn",
+    "R78": "fc",
+    "R79": "cnn",
+    "R80": "rnn"
+  },
+  "errors": [],
+  "samples": [
+    {
+      "shot": "R03",
+      "frame": 459,
+      "time": 7.65,
+      "requestedFraction": 0,
+      "actualFraction": 0,
+      "neural": [
+        {
+          "type": "fc",
+          "layer": 0,
+          "dimensions": [
+            4,
+            5,
+            4,
+            3
+          ],
+          "connections": 52,
+          "values": [
+            [
+              0.9,
+              0.35,
+              0.65,
+              0.2
+            ],
+            [
+              0.7739083398558422,
+              0.3363755443363322,
+              0.6668227728490808,
+              0.6498274636719203,
+              0.44223035604572614
+            ],
+            [
+              0.7093435510402275,
+              0.4859728597000356,
+              0.8468692876298226,
+              0.7681991416712344
+            ],
+            [
+              0.7869008730374545,
+              0.5868310070298763,
+              0.7605198962311747
+            ]
+          ],
+          "preactivations": [
+            [
+              1.0300000000000002,
+              0.35,
+              0.805,
+              0.775,
+              0.475
+            ],
+            [
+              0.8858613527752499,
+              0.5307744474562208,
+              1.244977660859786,
+              1.015919119881267
+            ],
+            [
+              1.0632403001044337,
+              0.6728187679188855,
+              0.9974470503157036
+            ]
+          ],
+          "progress": 0,
+          "bounds": [
+            345,
+            147.60416666666669,
+            1135,
+            614.7916666666666
+          ],
+          "scope": "computed educational toy model; not GPT architecture"
+        }
+      ],
+      "scene": {
+        "neural": [
+          {
+            "type": "fc",
+            "layer": 0,
+            "dimensions": [
+              4,
+              5,
+              4,
+              3
+            ],
+            "connections": 52,
+            "values": [
+              [
+                0.9,
+                0.35,
+                0.65,
+                0.2
+              ],
+              [
+                0.7739083398558422,
+                0.3363755443363322,
+                0.6668227728490808,
+                0.6498274636719203,
+                0.44223035604572614
+              ],
+              [
+                0.7093435510402275,
+                0.4859728597000356,
+                0.8468692876298226,
+                0.7681991416712344
+              ],
+              [
+                0.7869008730374545,
+                0.5868310070298763,
+                0.7605198962311747
+              ]
+            ],
+            "preactivations": [
+              [
+                1.0300000000000002,
+                0.35,
+                0.805,
+                0.775,
+                0.475
+              ],
+              [
+                0.8858613527752499,
+                0.5307744474562208,
+                1.244977660859786,
+                1.015919119881267
+              ],
+              [
+                1.0632403001044337,
+                0.6728187679188855,
+                0.9974470503157036
+              ]
+            ],
+            "progress": 0,
+            "bounds": [
+              345,
+              147.60416666666669,
+              1135,
+              614.7916666666666
+            ],
+            "scope": "computed educational toy model; not GPT architecture"
+          }
+        ],
+        "initialization": {
+          "parameters": 5,
+          "worldGrowth": 0,
+          "unknownParameter": "null"
+        }
+      },
+      "checks": {
+        "correctShot": true,
+        "exactlyOneNetwork": true,
+        "expectedType": true,
+        "allNumericsFinite": true,
+        "legalProgress": true,
+        "networkWithinPicture": true,
+        "pixelsIdentical": true,
+        "auditIdentical": true
+      },
+      "pixels": {
+        "sha256": "b071fe32fe5ff47dfb1edbdb284e29bebf5b0fcf275a27f22d13204cd0340a62",
+        "repeatedSha256": "b071fe32fe5ff47dfb1edbdb284e29bebf5b0fcf275a27f22d13204cd0340a62",
+        "format": "RGBA8",
+        "width": 1920,
+        "height": 1080
+      },
+      "difference": null
+    },
+    {
+      "shot": "R03",
+      "frame": 481,
+      "time": 8.016666666666667,
+      "requestedFraction": 0.1,
+      "actualFraction": 0.09954751131221731,
+      "neural": [
+        {
+          "type": "fc",
+          "layer": 0,
+          "dimensions": [
+            4,
+            5,
+            4,
+            3
+          ],
+          "connections": 52,
+          "values": [
+            [
+              0.9,
+              0.35,
+              0.65,
+              0.2
+            ],
+            [
+              0.7739083398558422,
+              0.3363755443363322,
+              0.6668227728490808,
+              0.6498274636719203,
+              0.44223035604572614
+            ],
+            [
+              0.7093435510402275,
+              0.4859728597000356,
+              0.8468692876298226,
+              0.7681991416712344
+            ],
+            [
+              0.7869008730374545,
+              0.5868310070298763,
+              0.7605198962311747
+            ]
+          ],
+          "preactivations": [
+            [
+              1.0300000000000002,
+              0.35,
+              0.805,
+              0.775,
+              0.475
+            ],
+            [
+              0.8858613527752499,
+              0.5307744474562208,
+              1.244977660859786,
+              1.015919119881267
+            ],
+            [
+              1.0632403001044337,
+              0.6728187679188855,
+              0.9974470503157036
+            ]
+          ],
+          "progress": 0.09957194290871096,
+          "bounds": [
+            345,
+            147.60416666666669,
+            1135,
+            614.7916666666666
+          ],
+          "scope": "computed educational toy model; not GPT architecture"
+        }
+      ],
+      "scene": {
+        "neural": [
+          {
+            "type": "fc",
+            "layer": 0,
+            "dimensions": [
+              4,
+              5,
+              4,
+              3
+            ],
+            "connections": 52,
+            "values": [
+              [
+                0.9,
+                0.35,
+                0.65,
+                0.2
+              ],
+              [
+                0.7739083398558422,
+                0.3363755443363322,
+                0.6668227728490808,
+                0.6498274636719203,
+                0.44223035604572614
+              ],
+              [
+                0.7093435510402275,
+                0.4859728597000356,
+                0.8468692876298226,
+                0.7681991416712344
+              ],
+              [
+                0.7869008730374545,
+                0.5868310070298763,
+                0.7605198962311747
+              ]
+            ],
+            "preactivations": [
+              [
+                1.0300000000000002,
+                0.35,
+                0.805,
+                0.775,
+                0.475
+              ],
+              [
+                0.8858613527752499,
+                0.5307744474562208,
+                1.244977660859786,
+                1.015919119881267
+              ],
+              [
+                1.0632403001044337,
+                0.6728187679188855,
+                0.9974470503157036
+              ]
+            ],
+            "progress": 0.09957194290871096,
+            "bounds": [
+              345,
+              147.60416666666669,
+              1135,
+              614.7916666666666
+            ],
+            "scope": "computed educational toy model; not GPT architecture"
+          }
+        ],
+        "initialization": {
+          "parameters": 5,
+          "worldGrowth": 0,
+          "unknownParameter": "null"
+        }
+      },
+      "checks": {
+        "correctShot": true,
+        "exactlyOneNetwork": true,
+        "expectedType": true,
+        "allNumericsFinite": true,
+        "legalProgress": true,
+        "networkWithinPicture": true,
+        "pixelsIdentical": true,
+        "auditIdentical": true
+      },
+      "pixels": {
+        "sha256": "8c00d7e62303d86c67ec8edc59bd665db363ee5262e1128b72131cee4bb27f0a",
+        "repeatedSha256": "8c00d7e62303d86c67ec8edc59bd665db363ee5262e1128b72131cee4bb27f0a",
+        "format": "RGBA8",
+        "width": 1920,
+        "height": 1080
+      },
+      "difference": null
+    },
+    {
+      "shot": "R03",
+      "frame": 514,
+      "time": 8.566666666666666,
+      "requestedFraction": 0.25,
+      "actualFraction": 0.2488687782805428,
+      "neural": [
+        {
+          "type": "fc",
+          "layer": 1,
+          "dimensions": [
+            4,
+            5,
+            4,
+            3
+          ],
+          "connections": 52,
+          "values": [
+            [
+              0.9,
+              0.35,
+              0.65,
+              0.2
+            ],
+            [
+              0.7739083398558422,
+              0.3363755443363322,
+              0.6668227728490808,
+              0.6498274636719203,
+              0.44223035604572614
+            ],
+            [
+              0.7093435510402275,
+              0.4859728597000356,
+              0.8468692876298226,
+              0.7681991416712344
+            ],
+            [
+              0.7869008730374545,
+              0.5868310070298763,
+              0.7605198962311747
+            ]
+          ],
+          "preactivations": [
+            [
+              1.0300000000000002,
+              0.35,
+              0.805,
+              0.775,
+              0.475
+            ],
+            [
+              0.8858613527752499,
+              0.5307744474562208,
+              1.244977660859786,
+              1.015919119881267
+            ],
+            [
+              1.0632403001044337,
+              0.6728187679188855,
+              0.9974470503157036
+            ]
+          ],
+          "progress": 0.5031823570118458,
+          "bounds": [
+            345,
+            147.60416666666669,
+            1135,
+            614.7916666666666
+          ],
+          "scope": "computed educational toy model; not GPT architecture"
+        }
+      ],
+      "scene": {
+        "neural": [
+          {
+            "type": "fc",
+            "layer": 1,
+            "dimensions": [
+              4,
+              5,
+              4,
+              3
+            ],
+            "connections": 52,
+            "values": [
+              [
+                0.9,
+                0.35,
+                0.65,
+                0.2
+              ],
+              [
+                0.7739083398558422,
+                0.3363755443363322,
+                0.6668227728490808,
+                0.6498274636719203,
+                0.44223035604572614
+              ],
+              [
+                0.7093435510402275,
+                0.4859728597000356,
+                0.8468692876298226,
+                0.7681991416712344
+              ],
+              [
+                0.7869008730374545,
+                0.5868310070298763,
+                0.7605198962311747
+              ]
+            ],
+            "preactivations": [
+              [
+                1.0300000000000002,
+                0.35,
+                0.805,
+                0.775,
+                0.475
+              ],
+              [
+                0.8858613527752499,
+                0.5307744474562208,
+                1.244977660859786,
+                1.015919119881267
+              ],
+              [
+                1.0632403001044337,
+                0.6728187679188855,
+                0.9974470503157036
+              ]
+            ],
+            "progress": 0.5031823570118458,
+            "bounds": [
+              345,
+              147.60416666666669,
+              1135,
+              614.7916666666666
+            ],
+            "scope": "computed educational toy model; not GPT architecture"
+          }
+        ],
+        "initialization": {
+          "parameters": 5,
+          "worldGrowth": 0,
+          "unknownParameter": "null"
+        }
+      },
+      "checks": {
+        "correctShot": true,
+        "exactlyOneNetwork": true,
+        "expectedType": true,
+        "allNumericsFinite": true,
+        "legalProgress": true,
+        "networkWithinPicture": true,
+        "pixelsIdentical": true,
+        "auditIdentical": true
+      },
+      "pixels": {
+        "sha256": "9cde4290f739d18a5ab3175a3f2c51487599d735f3fb00f2762a2823bea85ddf",
+        "repeatedSha256": "9cde4290f739d18a5ab3175a3f2c51487599d735f3fb00f2762a2823bea85ddf",
+        "format": "RGBA8",
+        "width": 1920,
+        "height": 1080
+      },
+      "difference": null
+    },
+    {
+      "shot": "R03",
+      "frame": 569,
+      "time": 9.483333333333333,
+      "requestedFraction": 0.5,
+      "actualFraction": 0.4977375565610856,
+      "neural": [
+        {
+          "type": "fc",
+          "layer": 2,
+          "dimensions": [
+            4,
+            5,
+            4,
+            3
+          ],
+          "connections": 52,
+          "values": [
+            [
+              0.9,
+              0.35,
+              0.65,
+              0.2
+            ],
+            [
+              0.7739083398558422,
+              0.3363755443363322,
+              0.6668227728490808,
+              0.6498274636719203,
+              0.44223035604572614
+            ],
+            [
+              0.7093435510402275,
+              0.4859728597000356,
+              0.8468692876298226,
+              0.7681991416712344
+            ],
+            [
+              0.7869008730374545,
+              0.5868310070298763,
+              0.7605198962311747
+            ]
+          ],
+          "preactivations": [
+            [
+              1.0300000000000002,
+              0.35,
+              0.805,
+              0.775,
+              0.475
+            ],
+            [
+              0.8858613527752499,
+              0.5307744474562208,
+              1.244977660859786,
+              1.015919119881267
+            ],
+            [
+              1.0632403001044337,
+              0.6728187679188855,
+              0.9974470503157036
+            ]
+          ],
+          "progress": 0.8730165394004175,
+          "bounds": [
+            345,
+            147.60416666666669,
+            1135,
+            614.7916666666666
+          ],
+          "scope": "computed educational toy model; not GPT architecture"
+        }
+      ],
+      "scene": {
+        "neural": [
+          {
+            "type": "fc",
+            "layer": 2,
+            "dimensions": [
+              4,
+              5,
+              4,
+              3
+            ],
+            "connections": 52,
+            "values": [
+              [
+                0.9,
+                0.35,
+                0.65,
+                0.2
+              ],
+              [
+                0.7739083398558422,
+                0.3363755443363322,
+                0.6668227728490808,
+                0.6498274636719203,
+                0.44223035604572614
+              ],
+              [
+                0.7093435510402275,
+                0.4859728597000356,
+                0.8468692876298226,
+                0.7681991416712344
+              ],
+              [
+                0.7869008730374545,
+                0.5868310070298763,
+                0.7605198962311747
+              ]
+            ],
+            "preactivations": [
+              [
+                1.0300000000000002,
+                0.35,
+                0.805,
+                0.775,
+                0.475
+              ],
+              [
+                0.8858613527752499,
+                0.5307744474562208,
+                1.244977660859786,
+                1.015919119881267
+              ],
+              [
+                1.0632403001044337,
+                0.6728187679188855,
+                0.9974470503157036
+              ]
+            ],
+            "progress": 0.8730165394004175,
+            "bounds": [
+              345,
+              147.60416666666669,
+              1135,
+              614.7916666666666
+            ],
+            "scope": "computed educational toy model; not GPT architecture"
+          }
+        ],
+        "initialization": {
+          "parameters": 5,
+          "worldGrowth": 0.02373597615941275,
+          "unknownParameter": "null"
+        }
+      },
+      "checks": {
+        "correctShot": true,
+        "exactlyOneNetwork": true,
+        "expectedType": true,
+        "allNumericsFinite": true,
+        "legalProgress": true,
+        "networkWithinPicture": true,
+        "pixelsIdentical": true,
+        "auditIdentical": true
+      },
+      "pixels": {
+        "sha256": "5bc555020a10769c0b6d6a7e63976e647aefb056cbef22cce5962e6bbb64cbba",
+        "repeatedSha256": "5bc555020a10769c0b6d6a7e63976e647aefb056cbef22cce5962e6bbb64cbba",
+        "format": "RGBA8",
+        "width": 1920,
+        "height": 1080
+      },
+      "difference": null
+    },
+    {
+      "shot": "R03",
+      "frame": 624,
+      "time": 10.4,
+      "requestedFraction": 0.75,
+      "actualFraction": 0.7466063348416289,
+      "neural": [
+        {
+          "type": "fc",
+          "layer": 2,
+          "dimensions": [
+            4,
+            5,
+            4,
+            3
+          ],
+          "connections": 52,
+          "values": [
+            [
+              0.9,
+              0.35,
+              0.65,
+              0.2
+            ],
+            [
+              0.7739083398558422,
+              0.3363755443363322,
+              0.6668227728490808,
+              0.6498274636719203,
+              0.44223035604572614
+            ],
+            [
+              0.7093435510402275,
+              0.4859728597000356,
+              0.8468692876298226,
+              0.7681991416712344
+            ],
+            [
+              0.7869008730374545,
+              0.5868310070298763,
+              0.7605198962311747
+            ]
+          ],
+          "preactivations": [
+            [
+              1.0300000000000002,
+              0.35,
+              0.805,
+              0.775,
+              0.475
+            ],
+            [
+              0.8858613527752499,
+              0.5307744474562208,
+              1.244977660859786,
+              1.015919119881267
+            ],
+            [
+              1.0632403001044337,
+              0.6728187679188855,
+              0.9974470503157036
+            ]
+          ],
+          "progress": 0.9903025480488474,
+          "bounds": [
+            345,
+            147.60416666666669,
+            1135,
+            614.7916666666666
+          ],
+          "scope": "computed educational toy model; not GPT architecture"
+        }
+      ],
+      "scene": {
+        "neural": [
+          {
+            "type": "fc",
+            "layer": 2,
+            "dimensions": [
+              4,
+              5,
+              4,
+              3
+            ],
+            "connections": 52,
+            "values": [
+              [
+                0.9,
+                0.35,
+                0.65,
+                0.2
+              ],
+              [
+                0.7739083398558422,
+                0.3363755443363322,
+                0.6668227728490808,
+                0.6498274636719203,
+                0.44223035604572614
+              ],
+              [
+                0.7093435510402275,
+                0.4859728597000356,
+                0.8468692876298226,
+                0.7681991416712344
+              ],
+              [
+                0.7869008730374545,
+                0.5868310070298763,
+                0.7605198962311747
+              ]
+            ],
+            "preactivations": [
+              [
+                1.0300000000000002,
+                0.35,
+                0.805,
+                0.775,
+                0.475
+              ],
+              [
+                0.8858613527752499,
+                0.5307744474562208,
+                1.244977660859786,
+                1.015919119881267
+              ],
+              [
+                1.0632403001044337,
+                0.6728187679188855,
+                0.9974470503157036
+              ]
+            ],
+            "progress": 0.9903025480488474,
+            "bounds": [
+              345,
+              147.60416666666669,
+              1135,
+              614.7916666666666
+            ],
+            "scope": "computed educational toy model; not GPT architecture"
+          }
+        ],
+        "initialization": {
+          "parameters": 5,
+          "worldGrowth": 0.6048974645507286,
+          "unknownParameter": "null"
+        }
+      },
+      "checks": {
+        "correctShot": true,
+        "exactlyOneNetwork": true,
+        "expectedType": true,
+        "allNumericsFinite": true,
+        "legalProgress": true,
+        "networkWithinPicture": true,
+        "pixelsIdentical": true,
+        "auditIdentical": true
+      },
+      "pixels": {
+        "sha256": "5d48016c76e568b47f1fba6239acc3540b1eb3b661ec3099840a2b5691eb0ce9",
+        "repeatedSha256": "5d48016c76e568b47f1fba6239acc3540b1eb3b661ec3099840a2b5691eb0ce9",
+        "format": "RGBA8",
+        "width": 1920,
+        "height": 1080
+      },
+      "difference": null
+    },
+    {
+      "shot": "R03",
+      "frame": 657,
+      "time": 10.95,
+      "requestedFraction": 0.9,
+      "actualFraction": 0.8959276018099545,
+      "neural": [
+        {
+          "type": "fc",
+          "layer": 2,
+          "dimensions": [
+            4,
+            5,
+            4,
+            3
+          ],
+          "connections": 52,
+          "values": [
+            [
+              0.9,
+              0.35,
+              0.65,
+              0.2
+            ],
+            [
+              0.7739083398558422,
+              0.3363755443363322,
+              0.6668227728490808,
+              0.6498274636719203,
+              0.44223035604572614
+            ],
+            [
+              0.7093435510402275,
+              0.4859728597000356,
+              0.8468692876298226,
+              0.7681991416712344
+            ],
+            [
+              0.7869008730374545,
+              0.5868310070298763,
+              0.7605198962311747
+            ]
+          ],
+          "preactivations": [
+            [
+              1.0300000000000002,
+              0.35,
+              0.805,
+              0.775,
+              0.475
+            ],
+            [
+              0.8858613527752499,
+              0.5307744474562208,
+              1.244977660859786,
+              1.015919119881267
+            ],
+            [
+              1.0632403001044337,
+              0.6728187679188855,
+              0.9974470503157036
+            ]
+          ],
+          "progress": 0.9999378111173618,
+          "bounds": [
+            345,
+            147.60416666666669,
+            1135,
+            614.7916666666666
+          ],
+          "scope": "computed educational toy model; not GPT architecture"
+        }
+      ],
+      "scene": {
+        "neural": [
+          {
+            "type": "fc",
+            "layer": 2,
+            "dimensions": [
+              4,
+              5,
+              4,
+              3
+            ],
+            "connections": 52,
+            "values": [
+              [
+                0.9,
+                0.35,
+                0.65,
+                0.2
+              ],
+              [
+                0.7739083398558422,
+                0.3363755443363322,
+                0.6668227728490808,
+                0.6498274636719203,
+                0.44223035604572614
+              ],
+              [
+                0.7093435510402275,
+                0.4859728597000356,
+                0.8468692876298226,
+                0.7681991416712344
+              ],
+              [
+                0.7869008730374545,
+                0.5868310070298763,
+                0.7605198962311747
+              ]
+            ],
+            "preactivations": [
+              [
+                1.0300000000000002,
+                0.35,
+                0.805,
+                0.775,
+                0.475
+              ],
+              [
+                0.8858613527752499,
+                0.5307744474562208,
+                1.244977660859786,
+                1.015919119881267
+              ],
+              [
+                1.0632403001044337,
+                0.6728187679188855,
+                0.9974470503157036
+              ]
+            ],
+            "progress": 0.9999378111173618,
+            "bounds": [
+              345,
+              147.60416666666669,
+              1135,
+              614.7916666666666
+            ],
+            "scope": "computed educational toy model; not GPT architecture"
+          }
+        ],
+        "initialization": {
+          "parameters": 5,
+          "worldGrowth": 0.9449074417676213,
+          "unknownParameter": "null"
+        }
+      },
+      "checks": {
+        "correctShot": true,
+        "exactlyOneNetwork": true,
+        "expectedType": true,
+        "allNumericsFinite": true,
+        "legalProgress": true,
+        "networkWithinPicture": true,
+        "pixelsIdentical": true,
+        "auditIdentical": true
+      },
+      "pixels": {
+        "sha256": "29fdada9bd1ef2f4c109520d5272fac8823533c497414b2b68eb8fd3749613ca",
+        "repeatedSha256": "29fdada9bd1ef2f4c109520d5272fac8823533c497414b2b68eb8fd3749613ca",
+        "format": "RGBA8",
+        "width": 1920,
+        "height": 1080
+      },
+      "difference": null
+    },
+    {
+      "shot": "R03",
+      "frame": 679,
+      "time": 11.316666666666666,
+      "requestedFraction": 1,
+      "actualFraction": 0.9954751131221717,
+      "neural": [
+        {
+          "type": "fc",
+          "layer": 2,
+          "dimensions": [
+            4,
+            5,
+            4,
+            3
+          ],
+          "connections": 52,
+          "values": [
+            [
+              0.9,
+              0.35,
+              0.65,
+              0.2
+            ],
+            [
+              0.7739083398558422,
+              0.3363755443363322,
+              0.6668227728490808,
+              0.6498274636719203,
+              0.44223035604572614
+            ],
+            [
+              0.7093435510402275,
+              0.4859728597000356,
+              0.8468692876298226,
+              0.7681991416712344
+            ],
+            [
+              0.7869008730374545,
+              0.5868310070298763,
+              0.7605198962311747
+            ]
+          ],
+          "preactivations": [
+            [
+              1.0300000000000002,
+              0.35,
+              0.805,
+              0.775,
+              0.475
+            ],
+            [
+              0.8858613527752499,
+              0.5307744474562208,
+              1.244977660859786,
+              1.015919119881267
+            ],
+            [
+              1.0632403001044337,
+              0.6728187679188855,
+              0.9974470503157036
+            ]
+          ],
+          "progress": 1,
+          "bounds": [
+            345,
+            147.60416666666669,
+            1135,
+            614.7916666666666
+          ],
+          "scope": "computed educational toy model; not GPT architecture"
+        }
+      ],
+      "scene": {
+        "neural": [
+          {
+            "type": "fc",
+            "layer": 2,
+            "dimensions": [
+              4,
+              5,
+              4,
+              3
+            ],
+            "connections": 52,
+            "values": [
+              [
+                0.9,
+                0.35,
+                0.65,
+                0.2
+              ],
+              [
+                0.7739083398558422,
+                0.3363755443363322,
+                0.6668227728490808,
+                0.6498274636719203,
+                0.44223035604572614
+              ],
+              [
+                0.7093435510402275,
+                0.4859728597000356,
+                0.8468692876298226,
+                0.7681991416712344
+              ],
+              [
+                0.7869008730374545,
+                0.5868310070298763,
+                0.7605198962311747
+              ]
+            ],
+            "preactivations": [
+              [
+                1.0300000000000002,
+                0.35,
+                0.805,
+                0.775,
+                0.475
+              ],
+              [
+                0.8858613527752499,
+                0.5307744474562208,
+                1.244977660859786,
+                1.015919119881267
+              ],
+              [
+                1.0632403001044337,
+                0.6728187679188855,
+                0.9974470503157036
+              ]
+            ],
+            "progress": 1,
+            "bounds": [
+              345,
+              147.60416666666669,
+              1135,
+              614.7916666666666
+            ],
+            "scope": "computed educational toy model; not GPT architecture"
+          }
+        ],
+        "initialization": {
+          "parameters": 5,
+          "worldGrowth": 1,
+          "unknownParameter": "null"
+        }
+      },
+      "checks": {
+        "correctShot": true,
+        "exactlyOneNetwork": true,
+        "expectedType": true,
+        "allNumericsFinite": true,
+        "legalProgress": true,
+        "networkWithinPicture": true,
+        "pixelsIdentical": true,
+        "auditIdentical": true
+      },
+      "pixels": {
+        "sha256": "10884ae9c16a5f3d437b3aada460584bc156aeea82f4300edb95fecbbeb28c72",
+        "repeatedSha256": "10884ae9c16a5f3d437b3aada460584bc156aeea82f4300edb95fecbbeb28c72",
+        "format": "RGBA8",
+        "width": 1920,
+        "height": 1080
+      },
+      "difference": null
+    },
+    {
+      "shot": "R30",
+      "frame": 4917,
+      "time": 81.95,
+      "requestedFraction": 0,
+      "actualFraction": 0,
+      "neural": [
+        {
+          "type": "cnn",
+          "pattern": "cat",
+          "scanIndex": 0,
+          "phase": "convolution",
+          "convolution": [
+            [
+              -2,
+              0,
+              2
+            ],
+            [
+              -1,
+              0,
+              1
+            ],
+            [
+              1,
+              0,
+              -1
+            ]
+          ],
+          "relu": [
+            [
+              0,
+              0,
+              2
+            ],
+            [
+              0,
+              0,
+              1
+            ],
+            [
+              1,
+              0,
+              0
+            ]
+          ],
+          "pool": [
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "progress": 0,
+          "inputSize": [
+            5,
+            5
+          ],
+          "kernelSize": [
+            3,
+            3
+          ],
+          "outputSize": [
+            3,
+            3
+          ],
+          "poolSize": [
+            2,
+            2
+          ],
+          "bounds": [
+            650,
+            112.29166666666669,
+            1210,
+            655.4166666666666
+          ],
+          "scope": "computed educational toy model; not GPT architecture"
+        }
+      ],
+      "scene": {
+        "neural": [
+          {
+            "type": "cnn",
+            "pattern": "cat",
+            "scanIndex": 0,
+            "phase": "convolution",
+            "convolution": [
+              [
+                -2,
+                0,
+                2
+              ],
+              [
+                -1,
+                0,
+                1
+              ],
+              [
+                1,
+                0,
+                -1
+              ]
+            ],
+            "relu": [
+              [
+                0,
+                0,
+                2
+              ],
+              [
+                0,
+                0,
+                1
+              ],
+              [
+                1,
+                0,
+                0
+              ]
+            ],
+            "pool": [
+              [
+                0,
+                2
+              ],
+              [
+                1,
+                1
+              ]
+            ],
+            "progress": 0,
+            "inputSize": [
+              5,
+              5
+            ],
+            "kernelSize": [
+              3,
+              3
+            ],
+            "outputSize": [
+              3,
+              3
+            ],
+            "poolSize": [
+              2,
+              2
+            ],
+            "bounds": [
+              650,
+              112.29166666666669,
+              1210,
+              655.4166666666666
+            ],
+            "scope": "computed educational toy model; not GPT architecture"
+          }
+        ],
+        "catDemo": {
+          "type": "feature-extraction-not-classification",
+          "completeSourcePose": true,
+          "response": 0
+        }
+      },
+      "checks": {
+        "correctShot": true,
+        "exactlyOneNetwork": true,
+        "expectedType": true,
+        "allNumericsFinite": true,
+        "legalProgress": true,
+        "networkWithinPicture": true,
+        "pixelsIdentical": true,
+        "auditIdentical": true
+      },
+      "pixels": {
+        "sha256": "f8636f0414dd8d4dfc8afaf5d0f928bdee8082e84fef2e680262b3e2f234d1e1",
+        "repeatedSha256": "f8636f0414dd8d4dfc8afaf5d0f928bdee8082e84fef2e680262b3e2f234d1e1",
+        "format": "RGBA8",
+        "width": 1920,
+        "height": 1080
+      },
+      "difference": null
+    },
+    {
+      "shot": "R30",
+      "frame": 4934,
+      "time": 82.23333333333333,
+      "requestedFraction": 0.1,
+      "actualFraction": 0.09444444444444382,
+      "neural": [
+        {
+          "type": "cnn",
+          "pattern": "cat",
+          "scanIndex": 1,
+          "phase": "convolution",
+          "convolution": [
+            [
+              -2,
+              0,
+              2
+            ],
+            [
+              -1,
+              0,
+              1
+            ],
+            [
+              1,
+              0,
+              -1
+            ]
+          ],
+          "relu": [
+            [
+              0,
+              0,
+              2
+            ],
+            [
+              0,
+              0,
+              1
+            ],
+            [
+              1,
+              0,
+              0
+            ]
+          ],
+          "pool": [
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "progress": 0.08364544319600428,
+          "inputSize": [
+            5,
+            5
+          ],
+          "kernelSize": [
+            3,
+            3
+          ],
+          "outputSize": [
+            3,
+            3
+          ],
+          "poolSize": [
+            2,
+            2
+          ],
+          "bounds": [
+            650,
+            112.29166666666669,
+            1210,
+            655.4166666666666
+          ],
+          "scope": "computed educational toy model; not GPT architecture"
+        }
+      ],
+      "scene": {
+        "neural": [
+          {
+            "type": "cnn",
+            "pattern": "cat",
+            "scanIndex": 1,
+            "phase": "convolution",
+            "convolution": [
+              [
+                -2,
+                0,
+                2
+              ],
+              [
+                -1,
+                0,
+                1
+              ],
+              [
+                1,
+                0,
+                -1
+              ]
+            ],
+            "relu": [
+              [
+                0,
+                0,
+                2
+              ],
+              [
+                0,
+                0,
+                1
+              ],
+              [
+                1,
+                0,
+                0
+              ]
+            ],
+            "pool": [
+              [
+                0,
+                2
+              ],
+              [
+                1,
+                1
+              ]
+            ],
+            "progress": 0.08364544319600428,
+            "inputSize": [
+              5,
+              5
+            ],
+            "kernelSize": [
+              3,
+              3
+            ],
+            "outputSize": [
+              3,
+              3
+            ],
+            "poolSize": [
+              2,
+              2
+            ],
+            "bounds": [
+              650,
+              112.29166666666669,
+              1210,
+              655.4166666666666
+            ],
+            "scope": "computed educational toy model; not GPT architecture"
+          }
+        ],
+        "catDemo": {
+          "type": "feature-extraction-not-classification",
+          "completeSourcePose": true,
+          "response": 0
+        }
+      },
+      "checks": {
+        "correctShot": true,
+        "exactlyOneNetwork": true,
+        "expectedType": true,
+        "allNumericsFinite": true,
+        "legalProgress": true,
+        "networkWithinPicture": true,
+        "pixelsIdentical": true,
+        "auditIdentical": true
+      },
+      "pixels": {
+        "sha256": "1ebe109cea4f6592cc82138edb2e4517b8cf2fc8dc28de085b97d265b9bc516d",
+        "repeatedSha256": "1ebe109cea4f6592cc82138edb2e4517b8cf2fc8dc28de085b97d265b9bc516d",
+        "format": "RGBA8",
+        "width": 1920,
+        "height": 1080
+      },
+      "difference": null
+    },
+    {
+      "shot": "R30",
+      "frame": 4961,
+      "time": 82.68333333333334,
+      "requestedFraction": 0.25,
+      "actualFraction": 0.24444444444444477,
+      "neural": [
+        {
+          "type": "cnn",
+          "pattern": "cat",
+          "scanIndex": 3,
+          "phase": "convolution",
+          "convolution": [
+            [
+              -2,
+              0,
+              2
+            ],
+            [
+              -1,
+              0,
+              1
+            ],
+            [
+              1,
+              0,
+              -1
+            ]
+          ],
+          "relu": [
+            [
+              0,
+              0,
+              2
+            ],
+            [
+              0,
+              0,
+              1
+            ],
+            [
+              1,
+              0,
+              0
+            ]
+          ],
+          "pool": [
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "progress": 0.252184769038702,
+          "inputSize": [
+            5,
+            5
+          ],
+          "kernelSize": [
+            3,
+            3
+          ],
+          "outputSize": [
+            3,
+            3
+          ],
+          "poolSize": [
+            2,
+            2
+          ],
+          "bounds": [
+            650,
+            112.29166666666669,
+            1210,
+            655.4166666666666
+          ],
+          "scope": "computed educational toy model; not GPT architecture"
+        }
+      ],
+      "scene": {
+        "neural": [
+          {
+            "type": "cnn",
+            "pattern": "cat",
+            "scanIndex": 3,
+            "phase": "convolution",
+            "convolution": [
+              [
+                -2,
+                0,
+                2
+              ],
+              [
+                -1,
+                0,
+                1
+              ],
+              [
+                1,
+                0,
+                -1
+              ]
+            ],
+            "relu": [
+              [
+                0,
+                0,
+                2
+              ],
+              [
+                0,
+                0,
+                1
+              ],
+              [
+                1,
+                0,
+                0
+              ]
+            ],
+            "pool": [
+              [
+                0,
+                2
+              ],
+              [
+                1,
+                1
+              ]
+            ],
+            "progress": 0.252184769038702,
+            "inputSize": [
+              5,
+              5
+            ],
+            "kernelSize": [
+              3,
+              3
+            ],
+            "outputSize": [
+              3,
+              3
+            ],
+            "poolSize": [
+              2,
+              2
+            ],
+            "bounds": [
+              650,
+              112.29166666666669,
+              1210,
+              655.4166666666666
+            ],
+            "scope": "computed educational toy model; not GPT architecture"
+          }
+        ],
+        "catDemo": {
+          "type": "feature-extraction-not-classification",
+          "completeSourcePose": true,
+          "response": 0
+        }
+      },
+      "checks": {
+        "correctShot": true,
+        "exactlyOneNetwork": true,
+        "expectedType": true,
+        "allNumericsFinite": true,
+        "legalProgress": true,
+        "networkWithinPicture": true,
+        "pixelsIdentical": true,
+        "auditIdentical": true
+      },
+      "pixels": {
+        "sha256": "82eaee3ce2707899f8cc6dca70c6ad3f636538f32c629d9ccbc791a05cf39ea0",
+        "repeatedSha256": "82eaee3ce2707899f8cc6dca70c6ad3f636538f32c629d9ccbc791a05cf39ea0",
+        "format": "RGBA8",
+        "width": 1920,
+        "height": 1080
+      },
+      "difference": null
+    },
+    {
+      "shot": "R30",
+      "frame": 5006,
+      "time": 83.43333333333334,
+      "requestedFraction": 0.5,
+      "actualFraction": 0.49444444444444474,
+      "neural": [
+        {
+          "type": "cnn",
+          "pattern": "cat",
+          "scanIndex": 6,
+          "phase": "convolution",
+          "convolution": [
+            [
+              -2,
+              0,
+              2
+            ],
+            [
+              -1,
+              0,
+              1
+            ],
+            [
+              1,
+              0,
+              -1
+            ]
+          ],
+          "relu": [
+            [
+              0,
+              0,
+              2
+            ],
+            [
+              0,
+              0,
+              1
+            ],
+            [
+              1,
+              0,
+              0
+            ]
+          ],
+          "pool": [
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "progress": 0.5330836454431963,
+          "inputSize": [
+            5,
+            5
+          ],
+          "kernelSize": [
+            3,
+            3
+          ],
+          "outputSize": [
+            3,
+            3
+          ],
+          "poolSize": [
+            2,
+            2
+          ],
+          "bounds": [
+            650,
+            112.29166666666669,
+            1210,
+            655.4166666666666
+          ],
+          "scope": "computed educational toy model; not GPT architecture"
+        }
+      ],
+      "scene": {
+        "neural": [
+          {
+            "type": "cnn",
+            "pattern": "cat",
+            "scanIndex": 6,
+            "phase": "convolution",
+            "convolution": [
+              [
+                -2,
+                0,
+                2
+              ],
+              [
+                -1,
+                0,
+                1
+              ],
+              [
+                1,
+                0,
+                -1
+              ]
+            ],
+            "relu": [
+              [
+                0,
+                0,
+                2
+              ],
+              [
+                0,
+                0,
+                1
+              ],
+              [
+                1,
+                0,
+                0
+              ]
+            ],
+            "pool": [
+              [
+                0,
+                2
+              ],
+              [
+                1,
+                1
+              ]
+            ],
+            "progress": 0.5330836454431963,
+            "inputSize": [
+              5,
+              5
+            ],
+            "kernelSize": [
+              3,
+              3
+            ],
+            "outputSize": [
+              3,
+              3
+            ],
+            "poolSize": [
+              2,
+              2
+            ],
+            "bounds": [
+              650,
+              112.29166666666669,
+              1210,
+              655.4166666666666
+            ],
+            "scope": "computed educational toy model; not GPT architecture"
+          }
+        ],
+        "catDemo": {
+          "type": "feature-extraction-not-classification",
+          "completeSourcePose": true,
+          "response": 0
+        }
+      },
+      "checks": {
+        "correctShot": true,
+        "exactlyOneNetwork": true,
+        "expectedType": true,
+        "allNumericsFinite": true,
+        "legalProgress": true,
+        "networkWithinPicture": true,
+        "pixelsIdentical": true,
+        "auditIdentical": true
+      },
+      "pixels": {
+        "sha256": "525e727f38d8b4581a61904b9446452c3828398b8d7509306b29b9a9474dae6f",
+        "repeatedSha256": "525e727f38d8b4581a61904b9446452c3828398b8d7509306b29b9a9474dae6f",
+        "format": "RGBA8",
+        "width": 1920,
+        "height": 1080
+      },
+      "difference": null
+    },
+    {
+      "shot": "R30",
+      "frame": 5051,
+      "time": 84.18333333333334,
+      "requestedFraction": 0.75,
+      "actualFraction": 0.7444444444444448,
+      "neural": [
+        {
+          "type": "cnn",
+          "pattern": "cat",
+          "scanIndex": 8,
+          "phase": "relu",
+          "convolution": [
+            [
+              -2,
+              0,
+              2
+            ],
+            [
+              -1,
+              0,
+              1
+            ],
+            [
+              1,
+              0,
+              -1
+            ]
+          ],
+          "relu": [
+            [
+              0,
+              0,
+              2
+            ],
+            [
+              0,
+              0,
+              1
+            ],
+            [
+              1,
+              0,
+              0
+            ]
+          ],
+          "pool": [
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "progress": 0.8139825218476907,
+          "inputSize": [
+            5,
+            5
+          ],
+          "kernelSize": [
+            3,
+            3
+          ],
+          "outputSize": [
+            3,
+            3
+          ],
+          "poolSize": [
+            2,
+            2
+          ],
+          "bounds": [
+            650,
+            112.29166666666669,
+            1210,
+            655.4166666666666
+          ],
+          "scope": "computed educational toy model; not GPT architecture"
+        }
+      ],
+      "scene": {
+        "neural": [
+          {
+            "type": "cnn",
+            "pattern": "cat",
+            "scanIndex": 8,
+            "phase": "relu",
+            "convolution": [
+              [
+                -2,
+                0,
+                2
+              ],
+              [
+                -1,
+                0,
+                1
+              ],
+              [
+                1,
+                0,
+                -1
+              ]
+            ],
+            "relu": [
+              [
+                0,
+                0,
+                2
+              ],
+              [
+                0,
+                0,
+                1
+              ],
+              [
+                1,
+                0,
+                0
+              ]
+            ],
+            "pool": [
+              [
+                0,
+                2
+              ],
+              [
+                1,
+                1
+              ]
+            ],
+            "progress": 0.8139825218476907,
+            "inputSize": [
+              5,
+              5
+            ],
+            "kernelSize": [
+              3,
+              3
+            ],
+            "outputSize": [
+              3,
+              3
+            ],
+            "poolSize": [
+              2,
+              2
+            ],
+            "bounds": [
+              650,
+              112.29166666666669,
+              1210,
+              655.4166666666666
+            ],
+            "scope": "computed educational toy model; not GPT architecture"
+          }
+        ],
+        "catDemo": {
+          "type": "feature-extraction-not-classification",
+          "completeSourcePose": true,
+          "response": 0.20788530465949923
+        }
+      },
+      "checks": {
+        "correctShot": true,
+        "exactlyOneNetwork": true,
+        "expectedType": true,
+        "allNumericsFinite": true,
+        "legalProgress": true,
+        "networkWithinPicture": true,
+        "pixelsIdentical": true,
+        "auditIdentical": true
+      },
+      "pixels": {
+        "sha256": "8598bacd0423c6cd02bdfdeb563e5ddd9b54ba7f12e6f9727e9059c8cc65e758",
+        "repeatedSha256": "8598bacd0423c6cd02bdfdeb563e5ddd9b54ba7f12e6f9727e9059c8cc65e758",
+        "format": "RGBA8",
+        "width": 1920,
+        "height": 1080
+      },
+      "difference": null
+    },
+    {
+      "shot": "R30",
+      "frame": 5078,
+      "time": 84.63333333333334,
+      "requestedFraction": 0.9,
+      "actualFraction": 0.8944444444444457,
+      "neural": [
+        {
+          "type": "cnn",
+          "pattern": "cat",
+          "scanIndex": 8,
+          "phase": "pool",
+          "convolution": [
+            [
+              -2,
+              0,
+              2
+            ],
+            [
+              -1,
+              0,
+              1
+            ],
+            [
+              1,
+              0,
+              -1
+            ]
+          ],
+          "relu": [
+            [
+              0,
+              0,
+              2
+            ],
+            [
+              0,
+              0,
+              1
+            ],
+            [
+              1,
+              0,
+              0
+            ]
+          ],
+          "pool": [
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "progress": 0.9825218476903884,
+          "inputSize": [
+            5,
+            5
+          ],
+          "kernelSize": [
+            3,
+            3
+          ],
+          "outputSize": [
+            3,
+            3
+          ],
+          "poolSize": [
+            2,
+            2
+          ],
+          "bounds": [
+            650,
+            112.29166666666669,
+            1210,
+            655.4166666666666
+          ],
+          "scope": "computed educational toy model; not GPT architecture"
+        }
+      ],
+      "scene": {
+        "neural": [
+          {
+            "type": "cnn",
+            "pattern": "cat",
+            "scanIndex": 8,
+            "phase": "pool",
+            "convolution": [
+              [
+                -2,
+                0,
+                2
+              ],
+              [
+                -1,
+                0,
+                1
+              ],
+              [
+                1,
+                0,
+                -1
+              ]
+            ],
+            "relu": [
+              [
+                0,
+                0,
+                2
+              ],
+              [
+                0,
+                0,
+                1
+              ],
+              [
+                1,
+                0,
+                0
+              ]
+            ],
+            "pool": [
+              [
+                0,
+                2
+              ],
+              [
+                1,
+                1
+              ]
+            ],
+            "progress": 0.9825218476903884,
+            "inputSize": [
+              5,
+              5
+            ],
+            "kernelSize": [
+              3,
+              3
+            ],
+            "outputSize": [
+              3,
+              3
+            ],
+            "poolSize": [
+              2,
+              2
+            ],
+            "bounds": [
+              650,
+              112.29166666666669,
+              1210,
+              655.4166666666666
+            ],
+            "scope": "computed educational toy model; not GPT architecture"
+          }
+        ],
+        "catDemo": {
+          "type": "feature-extraction-not-classification",
+          "completeSourcePose": true,
+          "response": 0.6917562724014378
+        }
+      },
+      "checks": {
+        "correctShot": true,
+        "exactlyOneNetwork": true,
+        "expectedType": true,
+        "allNumericsFinite": true,
+        "legalProgress": true,
+        "networkWithinPicture": true,
+        "pixelsIdentical": true,
+        "auditIdentical": true
+      },
+      "pixels": {
+        "sha256": "2a5b68529a1a6744b429e391b1342a95c7fdd49493cae81311814320868d5eb3",
+        "repeatedSha256": "2a5b68529a1a6744b429e391b1342a95c7fdd49493cae81311814320868d5eb3",
+        "format": "RGBA8",
+        "width": 1920,
+        "height": 1080
+      },
+      "difference": null
+    },
+    {
+      "shot": "R30",
+      "frame": 5096,
+      "time": 84.93333333333334,
+      "requestedFraction": 1,
+      "actualFraction": 0.9944444444444448,
+      "neural": [
+        {
+          "type": "cnn",
+          "pattern": "cat",
+          "scanIndex": 8,
+          "phase": "pool",
+          "convolution": [
+            [
+              -2,
+              0,
+              2
+            ],
+            [
+              -1,
+              0,
+              1
+            ],
+            [
+              1,
+              0,
+              -1
+            ]
+          ],
+          "relu": [
+            [
+              0,
+              0,
+              2
+            ],
+            [
+              0,
+              0,
+              1
+            ],
+            [
+              1,
+              0,
+              0
+            ]
+          ],
+          "pool": [
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "progress": 1,
+          "inputSize": [
+            5,
+            5
+          ],
+          "kernelSize": [
+            3,
+            3
+          ],
+          "outputSize": [
+            3,
+            3
+          ],
+          "poolSize": [
+            2,
+            2
+          ],
+          "bounds": [
+            650,
+            112.29166666666669,
+            1210,
+            655.4166666666666
+          ],
+          "scope": "computed educational toy model; not GPT architecture"
+        }
+      ],
+      "scene": {
+        "neural": [
+          {
+            "type": "cnn",
+            "pattern": "cat",
+            "scanIndex": 8,
+            "phase": "pool",
+            "convolution": [
+              [
+                -2,
+                0,
+                2
+              ],
+              [
+                -1,
+                0,
+                1
+              ],
+              [
+                1,
+                0,
+                -1
+              ]
+            ],
+            "relu": [
+              [
+                0,
+                0,
+                2
+              ],
+              [
+                0,
+                0,
+                1
+              ],
+              [
+                1,
+                0,
+                0
+              ]
+            ],
+            "pool": [
+              [
+                0,
+                2
+              ],
+              [
+                1,
+                1
+              ]
+            ],
+            "progress": 1,
+            "inputSize": [
+              5,
+              5
+            ],
+            "kernelSize": [
+              3,
+              3
+            ],
+            "outputSize": [
+              3,
+              3
+            ],
+            "poolSize": [
+              2,
+              2
+            ],
+            "bounds": [
+              650,
+              112.29166666666669,
+              1210,
+              655.4166666666666
+            ],
+            "scope": "computed educational toy model; not GPT architecture"
+          }
+        ],
+        "catDemo": {
+          "type": "feature-extraction-not-classification",
+          "completeSourcePose": true,
+          "response": 1
+        }
+      },
+      "checks": {
+        "correctShot": true,
+        "exactlyOneNetwork": true,
+        "expectedType": true,
+        "allNumericsFinite": true,
+        "legalProgress": true,
+        "networkWithinPicture": true,
+        "pixelsIdentical": true,
+        "auditIdentical": true
+      },
+      "pixels": {
+        "sha256": "ddeace4e73e81bfd62f880a33eaa7ea0686aff86b68e5659e1aab3af6aa76678",
+        "repeatedSha256": "ddeace4e73e81bfd62f880a33eaa7ea0686aff86b68e5659e1aab3af6aa76678",
+        "format": "RGBA8",
+        "width": 1920,
+        "height": 1080
+      },
+      "difference": null
+    },
+    {
+      "shot": "R35",
+      "frame": 5554,
+      "time": 92.56666666666666,
+      "requestedFraction": 0,
+      "actualFraction": 0,
+      "neural": [
+        {
+          "type": "rnn",
+          "activeStep": 0,
+          "steps": [
+            {
+              "t": 0,
+              "x": [
+                1,
+                0.2
+              ],
+              "previous": [
+                0,
+                0
+              ],
+              "pre": [
+                0.6599999999999999,
+                0.31
+              ],
+              "h": [
+                0.5783634130445057,
+                0.3004370971476541
+              ]
+            },
+            {
+              "t": 1,
+              "x": [
+                0.3,
+                0.8
+              ],
+              "previous": [
+                0.5783634130445057,
+                0.3004370971476541
+              ],
+              "pre": [
+                0.4110017830510768,
+                0.6824696266989073
+              ],
+              "h": [
+                0.38932295198105915,
+                0.593122566392045
+              ]
+            },
+            {
+              "t": 2,
+              "x": [
+                0,
+                0
+              ],
+              "previous": [
+                0.38932295198105915,
+                0.593122566392045
+              ],
+              "pre": [
+                0.3620283037464952,
+                0.3662535012763255
+              ],
+              "h": [
+                0.3469993668522337,
+                0.35071035151981317
+              ]
+            }
+          ],
+          "sharedWeights": true,
+          "zeroInputRetainsState": true,
+          "progress": 0,
+          "bounds": [
+            618.4615384615385,
+            215,
+            1043.076923076923,
+            565
+          ],
+          "scope": "computed educational toy model; not GPT architecture"
+        }
+      ],
+      "scene": {
+        "neural": [
+          {
+            "type": "rnn",
+            "activeStep": 0,
+            "steps": [
+              {
+                "t": 0,
+                "x": [
+                  1,
+                  0.2
+                ],
+                "previous": [
+                  0,
+                  0
+                ],
+                "pre": [
+                  0.6599999999999999,
+                  0.31
+                ],
+                "h": [
+                  0.5783634130445057,
+                  0.3004370971476541
+                ]
+              },
+              {
+                "t": 1,
+                "x": [
+                  0.3,
+                  0.8
+                ],
+                "previous": [
+                  0.5783634130445057,
+                  0.3004370971476541
+                ],
+                "pre": [
+                  0.4110017830510768,
+                  0.6824696266989073
+                ],
+                "h": [
+                  0.38932295198105915,
+                  0.593122566392045
+                ]
+              },
+              {
+                "t": 2,
+                "x": [
+                  0,
+                  0
+                ],
+                "previous": [
+                  0.38932295198105915,
+                  0.593122566392045
+                ],
+                "pre": [
+                  0.3620283037464952,
+                  0.3662535012763255
+                ],
+                "h": [
+                  0.3469993668522337,
+                  0.35071035151981317
+                ]
+              }
+            ],
+            "sharedWeights": true,
+            "zeroInputRetainsState": true,
+            "progress": 0,
+            "bounds": [
+              618.4615384615385,
+              215,
+              1043.076923076923,
+              565
+            ],
+            "scope": "computed educational toy model; not GPT architecture"
+          }
+        ],
+        "recurrentScene": "shared-time",
+        "externalReplyGenerated": false
+      },
+      "checks": {
+        "correctShot": true,
+        "exactlyOneNetwork": true,
+        "expectedType": true,
+        "allNumericsFinite": true,
+        "legalProgress": true,
+        "networkWithinPicture": true,
+        "pixelsIdentical": true,
+        "auditIdentical": true
+      },
+      "pixels": {
+        "sha256": "8565e6991ee368d24b741e0a220ad2c1b04add418b73b8fbf701496b3b533a6b",
+        "repeatedSha256": "8565e6991ee368d24b741e0a220ad2c1b04add418b73b8fbf701496b3b533a6b",
+        "format": "RGBA8",
+        "width": 1920,
+        "height": 1080
+      },
+      "difference": null
+    },
+    {
+      "shot": "R35",
+      "frame": 5576,
+      "time": 92.93333333333334,
+      "requestedFraction": 0.1,
+      "actualFraction": 0.09909909909910107,
+      "neural": [
+        {
+          "type": "rnn",
+          "activeStep": 0,
+          "steps": [
+            {
+              "t": 0,
+              "x": [
+                1,
+                0.2
+              ],
+              "previous": [
+                0,
+                0
+              ],
+              "pre": [
+                0.6599999999999999,
+                0.31
+              ],
+              "h": [
+                0.5783634130445057,
+                0.3004370971476541
+              ]
+            },
+            {
+              "t": 1,
+              "x": [
+                0.3,
+                0.8
+              ],
+              "previous": [
+                0.5783634130445057,
+                0.3004370971476541
+              ],
+              "pre": [
+                0.4110017830510768,
+                0.6824696266989073
+              ],
+              "h": [
+                0.38932295198105915,
+                0.593122566392045
+              ]
+            },
+            {
+              "t": 2,
+              "x": [
+                0,
+                0
+              ],
+              "previous": [
+                0.38932295198105915,
+                0.593122566392045
+              ],
+              "pre": [
+                0.3620283037464952,
+                0.3662535012763255
+              ],
+              "h": [
+                0.3469993668522337,
+                0.35071035151981317
+              ]
+            }
+          ],
+          "sharedWeights": true,
+          "zeroInputRetainsState": true,
+          "progress": 0.06566566566566787,
+          "bounds": [
+            618.4615384615385,
+            215,
+            1043.076923076923,
+            565
+          ],
+          "scope": "computed educational toy model; not GPT architecture"
+        }
+      ],
+      "scene": {
+        "neural": [
+          {
+            "type": "rnn",
+            "activeStep": 0,
+            "steps": [
+              {
+                "t": 0,
+                "x": [
+                  1,
+                  0.2
+                ],
+                "previous": [
+                  0,
+                  0
+                ],
+                "pre": [
+                  0.6599999999999999,
+                  0.31
+                ],
+                "h": [
+                  0.5783634130445057,
+                  0.3004370971476541
+                ]
+              },
+              {
+                "t": 1,
+                "x": [
+                  0.3,
+                  0.8
+                ],
+                "previous": [
+                  0.5783634130445057,
+                  0.3004370971476541
+                ],
+                "pre": [
+                  0.4110017830510768,
+                  0.6824696266989073
+                ],
+                "h": [
+                  0.38932295198105915,
+                  0.593122566392045
+                ]
+              },
+              {
+                "t": 2,
+                "x": [
+                  0,
+                  0
+                ],
+                "previous": [
+                  0.38932295198105915,
+                  0.593122566392045
+                ],
+                "pre": [
+                  0.3620283037464952,
+                  0.3662535012763255
+                ],
+                "h": [
+                  0.3469993668522337,
+                  0.35071035151981317
+                ]
+              }
+            ],
+            "sharedWeights": true,
+            "zeroInputRetainsState": true,
+            "progress": 0.06566566566566787,
+            "bounds": [
+              618.4615384615385,
+              215,
+              1043.076923076923,
+              565
+            ],
+            "scope": "computed educational toy model; not GPT architecture"
+          }
+        ],
+        "recurrentScene": "shared-time",
+        "externalReplyGenerated": false
+      },
+      "checks": {
+        "correctShot": true,
+        "exactlyOneNetwork": true,
+        "expectedType": true,
+        "allNumericsFinite": true,
+        "legalProgress": true,
+        "networkWithinPicture": true,
+        "pixelsIdentical": true,
+        "auditIdentical": true
+      },
+      "pixels": {
+        "sha256": "c9febde117012f6696332b2c23f0effa68c4985a69b9dc7a0bb40eb01f7a8692",
+        "repeatedSha256": "c9febde117012f6696332b2c23f0effa68c4985a69b9dc7a0bb40eb01f7a8692",
+        "format": "RGBA8",
+        "width": 1920,
+        "height": 1080
+      },
+      "difference": null
+    },
+    {
+      "shot": "R35",
+      "frame": 5609,
+      "time": 93.48333333333333,
+      "requestedFraction": 0.25,
+      "actualFraction": 0.24774774774774883,
+      "neural": [
+        {
+          "type": "rnn",
+          "activeStep": 0,
+          "steps": [
+            {
+              "t": 0,
+              "x": [
+                1,
+                0.2
+              ],
+              "previous": [
+                0,
+                0
+              ],
+              "pre": [
+                0.6599999999999999,
+                0.31
+              ],
+              "h": [
+                0.5783634130445057,
+                0.3004370971476541
+              ]
+            },
+            {
+              "t": 1,
+              "x": [
+                0.3,
+                0.8
+              ],
+              "previous": [
+                0.5783634130445057,
+                0.3004370971476541
+              ],
+              "pre": [
+                0.4110017830510768,
+                0.6824696266989073
+              ],
+              "h": [
+                0.38932295198105915,
+                0.593122566392045
+              ]
+            },
+            {
+              "t": 2,
+              "x": [
+                0,
+                0
+              ],
+              "previous": [
+                0.38932295198105915,
+                0.593122566392045
+              ],
+              "pre": [
+                0.3620283037464952,
+                0.3662535012763255
+              ],
+              "h": [
+                0.3469993668522337,
+                0.35071035151981317
+              ]
+            }
+          ],
+          "sharedWeights": true,
+          "zeroInputRetainsState": true,
+          "progress": 0.23083083083083203,
+          "bounds": [
+            618.4615384615385,
+            215,
+            1043.076923076923,
+            565
+          ],
+          "scope": "computed educational toy model; not GPT architecture"
+        }
+      ],
+      "scene": {
+        "neural": [
+          {
+            "type": "rnn",
+            "activeStep": 0,
+            "steps": [
+              {
+                "t": 0,
+                "x": [
+                  1,
+                  0.2
+                ],
+                "previous": [
+                  0,
+                  0
+                ],
+                "pre": [
+                  0.6599999999999999,
+                  0.31
+                ],
+                "h": [
+                  0.5783634130445057,
+                  0.3004370971476541
+                ]
+              },
+              {
+                "t": 1,
+                "x": [
+                  0.3,
+                  0.8
+                ],
+                "previous": [
+                  0.5783634130445057,
+                  0.3004370971476541
+                ],
+                "pre": [
+                  0.4110017830510768,
+                  0.6824696266989073
+                ],
+                "h": [
+                  0.38932295198105915,
+                  0.593122566392045
+                ]
+              },
+              {
+                "t": 2,
+                "x": [
+                  0,
+                  0
+                ],
+                "previous": [
+                  0.38932295198105915,
+                  0.593122566392045
+                ],
+                "pre": [
+                  0.3620283037464952,
+                  0.3662535012763255
+                ],
+                "h": [
+                  0.3469993668522337,
+                  0.35071035151981317
+                ]
+              }
+            ],
+            "sharedWeights": true,
+            "zeroInputRetainsState": true,
+            "progress": 0.23083083083083203,
+            "bounds": [
+              618.4615384615385,
+              215,
+              1043.076923076923,
+              565
+            ],
+            "scope": "computed educational toy model; not GPT architecture"
+          }
+        ],
+        "recurrentScene": "shared-time",
+        "externalReplyGenerated": false
+      },
+      "checks": {
+        "correctShot": true,
+        "exactlyOneNetwork": true,
+        "expectedType": true,
+        "allNumericsFinite": true,
+        "legalProgress": true,
+        "networkWithinPicture": true,
+        "pixelsIdentical": true,
+        "auditIdentical": true
+      },
+      "pixels": {
+        "sha256": "aac938a91744ca83e841b6e2294eca96ab88c703585055017e3c28a61088ad23",
+        "repeatedSha256": "aac938a91744ca83e841b6e2294eca96ab88c703585055017e3c28a61088ad23",
+        "format": "RGBA8",
+        "width": 1920,
+        "height": 1080
+      },
+      "difference": null
+    },
+    {
+      "shot": "R35",
+      "frame": 5664,
+      "time": 94.4,
+      "requestedFraction": 0.5,
+      "actualFraction": 0.49549549549549765,
+      "neural": [
+        {
+          "type": "rnn",
+          "activeStep": 1,
+          "steps": [
+            {
+              "t": 0,
+              "x": [
+                1,
+                0.2
+              ],
+              "previous": [
+                0,
+                0
+              ],
+              "pre": [
+                0.6599999999999999,
+                0.31
+              ],
+              "h": [
+                0.5783634130445057,
+                0.3004370971476541
+              ]
+            },
+            {
+              "t": 1,
+              "x": [
+                0.3,
+                0.8
+              ],
+              "previous": [
+                0.5783634130445057,
+                0.3004370971476541
+              ],
+              "pre": [
+                0.4110017830510768,
+                0.6824696266989073
+              ],
+              "h": [
+                0.38932295198105915,
+                0.593122566392045
+              ]
+            },
+            {
+              "t": 2,
+              "x": [
+                0,
+                0
+              ],
+              "previous": [
+                0.38932295198105915,
+                0.593122566392045
+              ],
+              "pre": [
+                0.3620283037464952,
+                0.3662535012763255
+              ],
+              "h": [
+                0.3469993668522337,
+                0.35071035151981317
+              ]
+            }
+          ],
+          "sharedWeights": true,
+          "zeroInputRetainsState": true,
+          "progress": 0.5061061061061086,
+          "bounds": [
+            618.4615384615385,
+            215,
+            1043.076923076923,
+            565
+          ],
+          "scope": "computed educational toy model; not GPT architecture"
+        }
+      ],
+      "scene": {
+        "neural": [
+          {
+            "type": "rnn",
+            "activeStep": 1,
+            "steps": [
+              {
+                "t": 0,
+                "x": [
+                  1,
+                  0.2
+                ],
+                "previous": [
+                  0,
+                  0
+                ],
+                "pre": [
+                  0.6599999999999999,
+                  0.31
+                ],
+                "h": [
+                  0.5783634130445057,
+                  0.3004370971476541
+                ]
+              },
+              {
+                "t": 1,
+                "x": [
+                  0.3,
+                  0.8
+                ],
+                "previous": [
+                  0.5783634130445057,
+                  0.3004370971476541
+                ],
+                "pre": [
+                  0.4110017830510768,
+                  0.6824696266989073
+                ],
+                "h": [
+                  0.38932295198105915,
+                  0.593122566392045
+                ]
+              },
+              {
+                "t": 2,
+                "x": [
+                  0,
+                  0
+                ],
+                "previous": [
+                  0.38932295198105915,
+                  0.593122566392045
+                ],
+                "pre": [
+                  0.3620283037464952,
+                  0.3662535012763255
+                ],
+                "h": [
+                  0.3469993668522337,
+                  0.35071035151981317
+                ]
+              }
+            ],
+            "sharedWeights": true,
+            "zeroInputRetainsState": true,
+            "progress": 0.5061061061061086,
+            "bounds": [
+              618.4615384615385,
+              215,
+              1043.076923076923,
+              565
+            ],
+            "scope": "computed educational toy model; not GPT architecture"
+          }
+        ],
+        "recurrentScene": "shared-time",
+        "externalReplyGenerated": false
+      },
+      "checks": {
+        "correctShot": true,
+        "exactlyOneNetwork": true,
+        "expectedType": true,
+        "allNumericsFinite": true,
+        "legalProgress": true,
+        "networkWithinPicture": true,
+        "pixelsIdentical": true,
+        "auditIdentical": true
+      },
+      "pixels": {
+        "sha256": "af97f71941bd4ac2937b45da6ed5bcfb02434c701119b9f677e345bdbf788330",
+        "repeatedSha256": "af97f71941bd4ac2937b45da6ed5bcfb02434c701119b9f677e345bdbf788330",
+        "format": "RGBA8",
+        "width": 1920,
+        "height": 1080
+      },
+      "difference": null
+    },
+    {
+      "shot": "R35",
+      "frame": 5719,
+      "time": 95.31666666666666,
+      "requestedFraction": 0.75,
+      "actualFraction": 0.7432432432432426,
+      "neural": [
+        {
+          "type": "rnn",
+          "activeStep": 2,
+          "steps": [
+            {
+              "t": 0,
+              "x": [
+                1,
+                0.2
+              ],
+              "previous": [
+                0,
+                0
+              ],
+              "pre": [
+                0.6599999999999999,
+                0.31
+              ],
+              "h": [
+                0.5783634130445057,
+                0.3004370971476541
+              ]
+            },
+            {
+              "t": 1,
+              "x": [
+                0.3,
+                0.8
+              ],
+              "previous": [
+                0.5783634130445057,
+                0.3004370971476541
+              ],
+              "pre": [
+                0.4110017830510768,
+                0.6824696266989073
+              ],
+              "h": [
+                0.38932295198105915,
+                0.593122566392045
+              ]
+            },
+            {
+              "t": 2,
+              "x": [
+                0,
+                0
+              ],
+              "previous": [
+                0.38932295198105915,
+                0.593122566392045
+              ],
+              "pre": [
+                0.3620283037464952,
+                0.3662535012763255
+              ],
+              "h": [
+                0.3469993668522337,
+                0.35071035151981317
+              ]
+            }
+          ],
+          "sharedWeights": true,
+          "zeroInputRetainsState": true,
+          "progress": 0.7813813813813808,
+          "bounds": [
+            618.4615384615385,
+            215,
+            1043.076923076923,
+            565
+          ],
+          "scope": "computed educational toy model; not GPT architecture"
+        }
+      ],
+      "scene": {
+        "neural": [
+          {
+            "type": "rnn",
+            "activeStep": 2,
+            "steps": [
+              {
+                "t": 0,
+                "x": [
+                  1,
+                  0.2
+                ],
+                "previous": [
+                  0,
+                  0
+                ],
+                "pre": [
+                  0.6599999999999999,
+                  0.31
+                ],
+                "h": [
+                  0.5783634130445057,
+                  0.3004370971476541
+                ]
+              },
+              {
+                "t": 1,
+                "x": [
+                  0.3,
+                  0.8
+                ],
+                "previous": [
+                  0.5783634130445057,
+                  0.3004370971476541
+                ],
+                "pre": [
+                  0.4110017830510768,
+                  0.6824696266989073
+                ],
+                "h": [
+                  0.38932295198105915,
+                  0.593122566392045
+                ]
+              },
+              {
+                "t": 2,
+                "x": [
+                  0,
+                  0
+                ],
+                "previous": [
+                  0.38932295198105915,
+                  0.593122566392045
+                ],
+                "pre": [
+                  0.3620283037464952,
+                  0.3662535012763255
+                ],
+                "h": [
+                  0.3469993668522337,
+                  0.35071035151981317
+                ]
+              }
+            ],
+            "sharedWeights": true,
+            "zeroInputRetainsState": true,
+            "progress": 0.7813813813813808,
+            "bounds": [
+              618.4615384615385,
+              215,
+              1043.076923076923,
+              565
+            ],
+            "scope": "computed educational toy model; not GPT architecture"
+          }
+        ],
+        "recurrentScene": "shared-time",
+        "externalReplyGenerated": false
+      },
+      "checks": {
+        "correctShot": true,
+        "exactlyOneNetwork": true,
+        "expectedType": true,
+        "allNumericsFinite": true,
+        "legalProgress": true,
+        "networkWithinPicture": true,
+        "pixelsIdentical": true,
+        "auditIdentical": true
+      },
+      "pixels": {
+        "sha256": "1fa6bbf585929d2af3370d0fe410d5fdedc1c2150df63642f85b208d1a943be4",
+        "repeatedSha256": "1fa6bbf585929d2af3370d0fe410d5fdedc1c2150df63642f85b208d1a943be4",
+        "format": "RGBA8",
+        "width": 1920,
+        "height": 1080
+      },
+      "difference": null
+    },
+    {
+      "shot": "R35",
+      "frame": 5752,
+      "time": 95.86666666666666,
+      "requestedFraction": 0.9,
+      "actualFraction": 0.8918918918918904,
+      "neural": [
+        {
+          "type": "rnn",
+          "activeStep": 2,
+          "steps": [
+            {
+              "t": 0,
+              "x": [
+                1,
+                0.2
+              ],
+              "previous": [
+                0,
+                0
+              ],
+              "pre": [
+                0.6599999999999999,
+                0.31
+              ],
+              "h": [
+                0.5783634130445057,
+                0.3004370971476541
+              ]
+            },
+            {
+              "t": 1,
+              "x": [
+                0.3,
+                0.8
+              ],
+              "previous": [
+                0.5783634130445057,
+                0.3004370971476541
+              ],
+              "pre": [
+                0.4110017830510768,
+                0.6824696266989073
+              ],
+              "h": [
+                0.38932295198105915,
+                0.593122566392045
+              ]
+            },
+            {
+              "t": 2,
+              "x": [
+                0,
+                0
+              ],
+              "previous": [
+                0.38932295198105915,
+                0.593122566392045
+              ],
+              "pre": [
+                0.3620283037464952,
+                0.3662535012763255
+              ],
+              "h": [
+                0.3469993668522337,
+                0.35071035151981317
+              ]
+            }
+          ],
+          "sharedWeights": true,
+          "zeroInputRetainsState": true,
+          "progress": 0.946546546546545,
+          "bounds": [
+            618.4615384615385,
+            215,
+            1043.076923076923,
+            565
+          ],
+          "scope": "computed educational toy model; not GPT architecture"
+        }
+      ],
+      "scene": {
+        "neural": [
+          {
+            "type": "rnn",
+            "activeStep": 2,
+            "steps": [
+              {
+                "t": 0,
+                "x": [
+                  1,
+                  0.2
+                ],
+                "previous": [
+                  0,
+                  0
+                ],
+                "pre": [
+                  0.6599999999999999,
+                  0.31
+                ],
+                "h": [
+                  0.5783634130445057,
+                  0.3004370971476541
+                ]
+              },
+              {
+                "t": 1,
+                "x": [
+                  0.3,
+                  0.8
+                ],
+                "previous": [
+                  0.5783634130445057,
+                  0.3004370971476541
+                ],
+                "pre": [
+                  0.4110017830510768,
+                  0.6824696266989073
+                ],
+                "h": [
+                  0.38932295198105915,
+                  0.593122566392045
+                ]
+              },
+              {
+                "t": 2,
+                "x": [
+                  0,
+                  0
+                ],
+                "previous": [
+                  0.38932295198105915,
+                  0.593122566392045
+                ],
+                "pre": [
+                  0.3620283037464952,
+                  0.3662535012763255
+                ],
+                "h": [
+                  0.3469993668522337,
+                  0.35071035151981317
+                ]
+              }
+            ],
+            "sharedWeights": true,
+            "zeroInputRetainsState": true,
+            "progress": 0.946546546546545,
+            "bounds": [
+              618.4615384615385,
+              215,
+              1043.076923076923,
+              565
+            ],
+            "scope": "computed educational toy model; not GPT architecture"
+          }
+        ],
+        "recurrentScene": "shared-time",
+        "externalReplyGenerated": false
+      },
+      "checks": {
+        "correctShot": true,
+        "exactlyOneNetwork": true,
+        "expectedType": true,
+        "allNumericsFinite": true,
+        "legalProgress": true,
+        "networkWithinPicture": true,
+        "pixelsIdentical": true,
+        "auditIdentical": true
+      },
+      "pixels": {
+        "sha256": "e4e7c82934eecc87ca2dba9e4b38253850a3a9585939e8ad2c12da875d86e02b",
+        "repeatedSha256": "e4e7c82934eecc87ca2dba9e4b38253850a3a9585939e8ad2c12da875d86e02b",
+        "format": "RGBA8",
+        "width": 1920,
+        "height": 1080
+      },
+      "difference": null
+    },
+    {
+      "shot": "R35",
+      "frame": 5775,
+      "time": 96.25,
+      "requestedFraction": 1,
+      "actualFraction": 0.9954954954954958,
+      "neural": [
+        {
+          "type": "rnn",
+          "activeStep": 2,
+          "steps": [
+            {
+              "t": 0,
+              "x": [
+                1,
+                0.2
+              ],
+              "previous": [
+                0,
+                0
+              ],
+              "pre": [
+                0.6599999999999999,
+                0.31
+              ],
+              "h": [
+                0.5783634130445057,
+                0.3004370971476541
+              ]
+            },
+            {
+              "t": 1,
+              "x": [
+                0.3,
+                0.8
+              ],
+              "previous": [
+                0.5783634130445057,
+                0.3004370971476541
+              ],
+              "pre": [
+                0.4110017830510768,
+                0.6824696266989073
+              ],
+              "h": [
+                0.38932295198105915,
+                0.593122566392045
+              ]
+            },
+            {
+              "t": 2,
+              "x": [
+                0,
+                0
+              ],
+              "previous": [
+                0.38932295198105915,
+                0.593122566392045
+              ],
+              "pre": [
+                0.3620283037464952,
+                0.3662535012763255
+              ],
+              "h": [
+                0.3469993668522337,
+                0.35071035151981317
+              ]
+            }
+          ],
+          "sharedWeights": true,
+          "zeroInputRetainsState": true,
+          "progress": 1,
+          "bounds": [
+            618.4615384615385,
+            215,
+            1043.076923076923,
+            565
+          ],
+          "scope": "computed educational toy model; not GPT architecture"
+        }
+      ],
+      "scene": {
+        "neural": [
+          {
+            "type": "rnn",
+            "activeStep": 2,
+            "steps": [
+              {
+                "t": 0,
+                "x": [
+                  1,
+                  0.2
+                ],
+                "previous": [
+                  0,
+                  0
+                ],
+                "pre": [
+                  0.6599999999999999,
+                  0.31
+                ],
+                "h": [
+                  0.5783634130445057,
+                  0.3004370971476541
+                ]
+              },
+              {
+                "t": 1,
+                "x": [
+                  0.3,
+                  0.8
+                ],
+                "previous": [
+                  0.5783634130445057,
+                  0.3004370971476541
+                ],
+                "pre": [
+                  0.4110017830510768,
+                  0.6824696266989073
+                ],
+                "h": [
+                  0.38932295198105915,
+                  0.593122566392045
+                ]
+              },
+              {
+                "t": 2,
+                "x": [
+                  0,
+                  0
+                ],
+                "previous": [
+                  0.38932295198105915,
+                  0.593122566392045
+                ],
+                "pre": [
+                  0.3620283037464952,
+                  0.3662535012763255
+                ],
+                "h": [
+                  0.3469993668522337,
+                  0.35071035151981317
+                ]
+              }
+            ],
+            "sharedWeights": true,
+            "zeroInputRetainsState": true,
+            "progress": 1,
+            "bounds": [
+              618.4615384615385,
+              215,
+              1043.076923076923,
+              565
+            ],
+            "scope": "computed educational toy model; not GPT architecture"
+          }
+        ],
+        "recurrentScene": "shared-time",
+        "externalReplyGenerated": false
+      },
+      "checks": {
+        "correctShot": true,
+        "exactlyOneNetwork": true,
+        "expectedType": true,
+        "allNumericsFinite": true,
+        "legalProgress": true,
+        "networkWithinPicture": true,
+        "pixelsIdentical": true,
+        "auditIdentical": true
+      },
+      "pixels": {
+        "sha256": "bcf68ebc6fbc549ef2f9f5fa41e15b6868bb02f3e84d59c2ffd00aaa9d7ca6ed",
+        "repeatedSha256": "bcf68ebc6fbc549ef2f9f5fa41e15b6868bb02f3e84d59c2ffd00aaa9d7ca6ed",
+        "format": "RGBA8",
+        "width": 1920,
+        "height": 1080
+      },
+      "difference": null
+    },
+    {
+      "shot": "R78",
+      "frame": 10630,
+      "time": 177.16666666666666,
+      "requestedFraction": 0,
+      "actualFraction": 0,
+      "neural": [
+        {
+          "type": "fc",
+          "layer": 0,
+          "dimensions": [
+            4,
+            5,
+            4,
+            3
+          ],
+          "connections": 52,
+          "values": [
+            [
+              0.9,
+              0.35,
+              0.65,
+              0.2
+            ],
+            [
+              0.7739083398558422,
+              0.3363755443363322,
+              0.6668227728490808,
+              0.6498274636719203,
+              0.44223035604572614
+            ],
+            [
+              0.7093435510402275,
+              0.4859728597000356,
+              0.8468692876298226,
+              0.7681991416712344
+            ],
+            [
+              0.7869008730374545,
+              0.5868310070298763,
+              0.7605198962311747
+            ]
+          ],
+          "preactivations": [
+            [
+              1.0300000000000002,
+              0.35,
+              0.805,
+              0.775,
+              0.475
+            ],
+            [
+              0.8858613527752499,
+              0.5307744474562208,
+              1.244977660859786,
+              1.015919119881267
+            ],
+            [
+              1.0632403001044337,
+              0.6728187679188855,
+              0.9974470503157036
+            ]
+          ],
+          "progress": 0,
+          "bounds": [
+            546.9230769230769,
+            135,
+            1126.1538461538462,
+            610
+          ],
+          "scope": "computed educational toy model; not GPT architecture"
+        }
+      ],
+      "scene": {
+        "neural": [
+          {
+            "type": "fc",
+            "layer": 0,
+            "dimensions": [
+              4,
+              5,
+              4,
+              3
+            ],
+            "connections": 52,
+            "values": [
+              [
+                0.9,
+                0.35,
+                0.65,
+                0.2
+              ],
+              [
+                0.7739083398558422,
+                0.3363755443363322,
+                0.6668227728490808,
+                0.6498274636719203,
+                0.44223035604572614
+              ],
+              [
+                0.7093435510402275,
+                0.4859728597000356,
+                0.8468692876298226,
+                0.7681991416712344
+              ],
+              [
+                0.7869008730374545,
+                0.5868310070298763,
+                0.7605198962311747
+              ]
+            ],
+            "preactivations": [
+              [
+                1.0300000000000002,
+                0.35,
+                0.805,
+                0.775,
+                0.475
+              ],
+              [
+                0.8858613527752499,
+                0.5307744474562208,
+                1.244977660859786,
+                1.015919119881267
+              ],
+              [
+                1.0632403001044337,
+                0.6728187679188855,
+                0.9974470503157036
+              ]
+            ],
+            "progress": 0,
+            "bounds": [
+              546.9230769230769,
+              135,
+              1126.1538461538462,
+              610
+            ],
+            "scope": "computed educational toy model; not GPT architecture"
+          }
+        ],
+        "learningType": "fc",
+        "authorshipPen": [
+          249.0743609604957,
+          802.1165762974438
+        ],
+        "predictedOutput": true,
+        "independentReply": false
+      },
+      "checks": {
+        "correctShot": true,
+        "exactlyOneNetwork": true,
+        "expectedType": true,
+        "allNumericsFinite": true,
+        "legalProgress": true,
+        "networkWithinPicture": true,
+        "pixelsIdentical": true,
+        "auditIdentical": true
+      },
+      "pixels": {
+        "sha256": "859eeeea12d267608576b3c09048ee083bc126f1b8f0de01bf1547b356f21d02",
+        "repeatedSha256": "859eeeea12d267608576b3c09048ee083bc126f1b8f0de01bf1547b356f21d02",
+        "format": "RGBA8",
+        "width": 1920,
+        "height": 1080
+      },
+      "difference": null
+    },
+    {
+      "shot": "R78",
+      "frame": 10651,
+      "time": 177.51666666666668,
+      "requestedFraction": 0.1,
+      "actualFraction": 0.09722222222222793,
+      "neural": [
+        {
+          "type": "fc",
+          "layer": 0,
+          "dimensions": [
+            4,
+            5,
+            4,
+            3
+          ],
+          "connections": 52,
+          "values": [
+            [
+              0.9,
+              0.35,
+              0.65,
+              0.2
+            ],
+            [
+              0.7739083398558422,
+              0.3363755443363322,
+              0.6668227728490808,
+              0.6498274636719203,
+              0.44223035604572614
+            ],
+            [
+              0.7093435510402275,
+              0.4859728597000356,
+              0.8468692876298226,
+              0.7681991416712344
+            ],
+            [
+              0.7869008730374545,
+              0.5868310070298763,
+              0.7605198962311747
+            ]
+          ],
+          "preactivations": [
+            [
+              1.0300000000000002,
+              0.35,
+              0.805,
+              0.775,
+              0.475
+            ],
+            [
+              0.8858613527752499,
+              0.5307744474562208,
+              1.244977660859786,
+              1.015919119881267
+            ],
+            [
+              1.0632403001044337,
+              0.6728187679188855,
+              0.9974470503157036
+            ]
+          ],
+          "progress": 0.024935531220625955,
+          "bounds": [
+            546.9230769230769,
+            135,
+            1126.1538461538462,
+            610
+          ],
+          "scope": "computed educational toy model; not GPT architecture"
+        }
+      ],
+      "scene": {
+        "neural": [
+          {
+            "type": "fc",
+            "layer": 0,
+            "dimensions": [
+              4,
+              5,
+              4,
+              3
+            ],
+            "connections": 52,
+            "values": [
+              [
+                0.9,
+                0.35,
+                0.65,
+                0.2
+              ],
+              [
+                0.7739083398558422,
+                0.3363755443363322,
+                0.6668227728490808,
+                0.6498274636719203,
+                0.44223035604572614
+              ],
+              [
+                0.7093435510402275,
+                0.4859728597000356,
+                0.8468692876298226,
+                0.7681991416712344
+              ],
+              [
+                0.7869008730374545,
+                0.5868310070298763,
+                0.7605198962311747
+              ]
+            ],
+            "preactivations": [
+              [
+                1.0300000000000002,
+                0.35,
+                0.805,
+                0.775,
+                0.475
+              ],
+              [
+                0.8858613527752499,
+                0.5307744474562208,
+                1.244977660859786,
+                1.015919119881267
+              ],
+              [
+                1.0632403001044337,
+                0.6728187679188855,
+                0.9974470503157036
+              ]
+            ],
+            "progress": 0.024935531220625955,
+            "bounds": [
+              546.9230769230769,
+              135,
+              1126.1538461538462,
+              610
+            ],
+            "scope": "computed educational toy model; not GPT architecture"
+          }
+        ],
+        "learningType": "fc",
+        "authorshipPen": [
+          249.0743609604957,
+          802.1165762974438
+        ],
+        "predictedOutput": true,
+        "independentReply": false
+      },
+      "checks": {
+        "correctShot": true,
+        "exactlyOneNetwork": true,
+        "expectedType": true,
+        "allNumericsFinite": true,
+        "legalProgress": true,
+        "networkWithinPicture": true,
+        "pixelsIdentical": true,
+        "auditIdentical": true
+      },
+      "pixels": {
+        "sha256": "93b1b064e77dfbd3658fa8f018ebc8c46ef9f86a4734e4980bccb7967a2a7f8b",
+        "repeatedSha256": "93b1b064e77dfbd3658fa8f018ebc8c46ef9f86a4734e4980bccb7967a2a7f8b",
+        "format": "RGBA8",
+        "width": 1920,
+        "height": 1080
+      },
+      "difference": null
+    },
+    {
+      "shot": "R78",
+      "frame": 10683,
+      "time": 178.05,
+      "requestedFraction": 0.25,
+      "actualFraction": 0.2453703703703746,
+      "neural": [
+        {
+          "type": "fc",
+          "layer": 0,
+          "dimensions": [
+            4,
+            5,
+            4,
+            3
+          ],
+          "connections": 52,
+          "values": [
+            [
+              0.9,
+              0.35,
+              0.65,
+              0.2
+            ],
+            [
+              0.7739083398558422,
+              0.3363755443363322,
+              0.6668227728490808,
+              0.6498274636719203,
+              0.44223035604572614
+            ],
+            [
+              0.7093435510402275,
+              0.4859728597000356,
+              0.8468692876298226,
+              0.7681991416712344
+            ],
+            [
+              0.7869008730374545,
+              0.5868310070298763,
+              0.7605198962311747
+            ]
+          ],
+          "preactivations": [
+            [
+              1.0300000000000002,
+              0.35,
+              0.805,
+              0.775,
+              0.475
+            ],
+            [
+              0.8858613527752499,
+              0.5307744474562208,
+              1.244977660859786,
+              1.015919119881267
+            ],
+            [
+              1.0632403001044337,
+              0.6728187679188855,
+              0.9974470503157036
+            ]
+          ],
+          "progress": 0.1850921746669509,
+          "bounds": [
+            546.9230769230769,
+            135,
+            1126.1538461538462,
+            610
+          ],
+          "scope": "computed educational toy model; not GPT architecture"
+        }
+      ],
+      "scene": {
+        "neural": [
+          {
+            "type": "fc",
+            "layer": 0,
+            "dimensions": [
+              4,
+              5,
+              4,
+              3
+            ],
+            "connections": 52,
+            "values": [
+              [
+                0.9,
+                0.35,
+                0.65,
+                0.2
+              ],
+              [
+                0.7739083398558422,
+                0.3363755443363322,
+                0.6668227728490808,
+                0.6498274636719203,
+                0.44223035604572614
+              ],
+              [
+                0.7093435510402275,
+                0.4859728597000356,
+                0.8468692876298226,
+                0.7681991416712344
+              ],
+              [
+                0.7869008730374545,
+                0.5868310070298763,
+                0.7605198962311747
+              ]
+            ],
+            "preactivations": [
+              [
+                1.0300000000000002,
+                0.35,
+                0.805,
+                0.775,
+                0.475
+              ],
+              [
+                0.8858613527752499,
+                0.5307744474562208,
+                1.244977660859786,
+                1.015919119881267
+              ],
+              [
+                1.0632403001044337,
+                0.6728187679188855,
+                0.9974470503157036
+              ]
+            ],
+            "progress": 0.1850921746669509,
+            "bounds": [
+              546.9230769230769,
+              135,
+              1126.1538461538462,
+              610
+            ],
+            "scope": "computed educational toy model; not GPT architecture"
+          }
+        ],
+        "learningType": "fc",
+        "authorshipPen": [
+          249.0743609604957,
+          802.1165762974438
+        ],
+        "predictedOutput": true,
+        "independentReply": false
+      },
+      "checks": {
+        "correctShot": true,
+        "exactlyOneNetwork": true,
+        "expectedType": true,
+        "allNumericsFinite": true,
+        "legalProgress": true,
+        "networkWithinPicture": true,
+        "pixelsIdentical": true,
+        "auditIdentical": true
+      },
+      "pixels": {
+        "sha256": "066b815fba6bde753f02e8f83e04e759186642544202bc608875509dc4a4c619",
+        "repeatedSha256": "066b815fba6bde753f02e8f83e04e759186642544202bc608875509dc4a4c619",
+        "format": "RGBA8",
+        "width": 1920,
+        "height": 1080
+      },
+      "difference": null
+    },
+    {
+      "shot": "R78",
+      "frame": 10737,
+      "time": 178.95,
+      "requestedFraction": 0.5,
+      "actualFraction": 0.49537037037036674,
+      "neural": [
+        {
+          "type": "fc",
+          "layer": 1,
+          "dimensions": [
+            4,
+            5,
+            4,
+            3
+          ],
+          "connections": 52,
+          "values": [
+            [
+              0.9,
+              0.35,
+              0.65,
+              0.2
+            ],
+            [
+              0.7739083398558422,
+              0.3363755443363322,
+              0.6668227728490808,
+              0.6498274636719203,
+              0.44223035604572614
+            ],
+            [
+              0.7093435510402275,
+              0.4859728597000356,
+              0.8468692876298226,
+              0.7681991416712344
+            ],
+            [
+              0.7869008730374545,
+              0.5868310070298763,
+              0.7605198962311747
+            ]
+          ],
+          "preactivations": [
+            [
+              1.0300000000000002,
+              0.35,
+              0.805,
+              0.775,
+              0.475
+            ],
+            [
+              0.8858613527752499,
+              0.5307744474562208,
+              1.244977660859786,
+              1.015919119881267
+            ],
+            [
+              1.0632403001044337,
+              0.6728187679188855,
+              0.9974470503157036
+            ]
+          ],
+          "progress": 0.618566661589193,
+          "bounds": [
+            546.9230769230769,
+            135,
+            1126.1538461538462,
+            610
+          ],
+          "scope": "computed educational toy model; not GPT architecture"
+        }
+      ],
+      "scene": {
+        "neural": [
+          {
+            "type": "fc",
+            "layer": 1,
+            "dimensions": [
+              4,
+              5,
+              4,
+              3
+            ],
+            "connections": 52,
+            "values": [
+              [
+                0.9,
+                0.35,
+                0.65,
+                0.2
+              ],
+              [
+                0.7739083398558422,
+                0.3363755443363322,
+                0.6668227728490808,
+                0.6498274636719203,
+                0.44223035604572614
+              ],
+              [
+                0.7093435510402275,
+                0.4859728597000356,
+                0.8468692876298226,
+                0.7681991416712344
+              ],
+              [
+                0.7869008730374545,
+                0.5868310070298763,
+                0.7605198962311747
+              ]
+            ],
+            "preactivations": [
+              [
+                1.0300000000000002,
+                0.35,
+                0.805,
+                0.775,
+                0.475
+              ],
+              [
+                0.8858613527752499,
+                0.5307744474562208,
+                1.244977660859786,
+                1.015919119881267
+              ],
+              [
+                1.0632403001044337,
+                0.6728187679188855,
+                0.9974470503157036
+              ]
+            ],
+            "progress": 0.618566661589193,
+            "bounds": [
+              546.9230769230769,
+              135,
+              1126.1538461538462,
+              610
+            ],
+            "scope": "computed educational toy model; not GPT architecture"
+          }
+        ],
+        "learningType": "fc",
+        "authorshipPen": [
+          249.0743609604957,
+          802.1165762974438
+        ],
+        "predictedOutput": true,
+        "independentReply": false
+      },
+      "checks": {
+        "correctShot": true,
+        "exactlyOneNetwork": true,
+        "expectedType": true,
+        "allNumericsFinite": true,
+        "legalProgress": true,
+        "networkWithinPicture": true,
+        "pixelsIdentical": true,
+        "auditIdentical": true
+      },
+      "pixels": {
+        "sha256": "10b58d1c940956ad4235d2fb5c80c55a2efa53cfec85fc32ca8aca25c56083e6",
+        "repeatedSha256": "10b58d1c940956ad4235d2fb5c80c55a2efa53cfec85fc32ca8aca25c56083e6",
+        "format": "RGBA8",
+        "width": 1920,
+        "height": 1080
+      },
+      "difference": null
+    },
+    {
+      "shot": "R78",
+      "frame": 10791,
+      "time": 179.85,
+      "requestedFraction": 0.75,
+      "actualFraction": 0.7453703703703667,
+      "neural": [
+        {
+          "type": "fc",
+          "layer": 2,
+          "dimensions": [
+            4,
+            5,
+            4,
+            3
+          ],
+          "connections": 52,
+          "values": [
+            [
+              0.9,
+              0.35,
+              0.65,
+              0.2
+            ],
+            [
+              0.7739083398558422,
+              0.3363755443363322,
+              0.6668227728490808,
+              0.6498274636719203,
+              0.44223035604572614
+            ],
+            [
+              0.7093435510402275,
+              0.4859728597000356,
+              0.8468692876298226,
+              0.7681991416712344
+            ],
+            [
+              0.7869008730374545,
+              0.5868310070298763,
+              0.7605198962311747
+            ]
+          ],
+          "preactivations": [
+            [
+              1.0300000000000002,
+              0.35,
+              0.805,
+              0.775,
+              0.475
+            ],
+            [
+              0.8858613527752499,
+              0.5307744474562208,
+              1.244977660859786,
+              1.015919119881267
+            ],
+            [
+              1.0632403001044337,
+              0.6728187679188855,
+              0.9974470503157036
+            ]
+          ],
+          "progress": 0.9631209032709267,
+          "bounds": [
+            546.9230769230769,
+            135,
+            1126.1538461538462,
+            610
+          ],
+          "scope": "computed educational toy model; not GPT architecture"
+        }
+      ],
+      "scene": {
+        "neural": [
+          {
+            "type": "fc",
+            "layer": 2,
+            "dimensions": [
+              4,
+              5,
+              4,
+              3
+            ],
+            "connections": 52,
+            "values": [
+              [
+                0.9,
+                0.35,
+                0.65,
+                0.2
+              ],
+              [
+                0.7739083398558422,
+                0.3363755443363322,
+                0.6668227728490808,
+                0.6498274636719203,
+                0.44223035604572614
+              ],
+              [
+                0.7093435510402275,
+                0.4859728597000356,
+                0.8468692876298226,
+                0.7681991416712344
+              ],
+              [
+                0.7869008730374545,
+                0.5868310070298763,
+                0.7605198962311747
+              ]
+            ],
+            "preactivations": [
+              [
+                1.0300000000000002,
+                0.35,
+                0.805,
+                0.775,
+                0.475
+              ],
+              [
+                0.8858613527752499,
+                0.5307744474562208,
+                1.244977660859786,
+                1.015919119881267
+              ],
+              [
+                1.0632403001044337,
+                0.6728187679188855,
+                0.9974470503157036
+              ]
+            ],
+            "progress": 0.9631209032709267,
+            "bounds": [
+              546.9230769230769,
+              135,
+              1126.1538461538462,
+              610
+            ],
+            "scope": "computed educational toy model; not GPT architecture"
+          }
+        ],
+        "learningType": "fc",
+        "authorshipPen": [
+          249.0743609604957,
+          802.1165762974438
+        ],
+        "predictedOutput": true,
+        "independentReply": false
+      },
+      "checks": {
+        "correctShot": true,
+        "exactlyOneNetwork": true,
+        "expectedType": true,
+        "allNumericsFinite": true,
+        "legalProgress": true,
+        "networkWithinPicture": true,
+        "pixelsIdentical": true,
+        "auditIdentical": true
+      },
+      "pixels": {
+        "sha256": "5ea8ba8ee0fc4753c3d9d1358af57e8cc8b33cfd68832cfe94e8be4ca2b2fb2f",
+        "repeatedSha256": "5ea8ba8ee0fc4753c3d9d1358af57e8cc8b33cfd68832cfe94e8be4ca2b2fb2f",
+        "format": "RGBA8",
+        "width": 1920,
+        "height": 1080
+      },
+      "difference": null
+    },
+    {
+      "shot": "R78",
+      "frame": 10823,
+      "time": 180.38333333333333,
+      "requestedFraction": 0.9,
+      "actualFraction": 0.8935185185185134,
+      "neural": [
+        {
+          "type": "fc",
+          "layer": 2,
+          "dimensions": [
+            4,
+            5,
+            4,
+            3
+          ],
+          "connections": 52,
+          "values": [
+            [
+              0.9,
+              0.35,
+              0.65,
+              0.2
+            ],
+            [
+              0.7739083398558422,
+              0.3363755443363322,
+              0.6668227728490808,
+              0.6498274636719203,
+              0.44223035604572614
+            ],
+            [
+              0.7093435510402275,
+              0.4859728597000356,
+              0.8468692876298226,
+              0.7681991416712344
+            ],
+            [
+              0.7869008730374545,
+              0.5868310070298763,
+              0.7605198962311747
+            ]
+          ],
+          "preactivations": [
+            [
+              1.0300000000000002,
+              0.35,
+              0.805,
+              0.775,
+              0.475
+            ],
+            [
+              0.8858613527752499,
+              0.5307744474562208,
+              1.244977660859786,
+              1.015919119881267
+            ],
+            [
+              1.0632403001044337,
+              0.6728187679188855,
+              0.9974470503157036
+            ]
+          ],
+          "progress": 1,
+          "bounds": [
+            546.9230769230769,
+            135,
+            1126.1538461538462,
+            610
+          ],
+          "scope": "computed educational toy model; not GPT architecture"
+        }
+      ],
+      "scene": {
+        "neural": [
+          {
+            "type": "fc",
+            "layer": 2,
+            "dimensions": [
+              4,
+              5,
+              4,
+              3
+            ],
+            "connections": 52,
+            "values": [
+              [
+                0.9,
+                0.35,
+                0.65,
+                0.2
+              ],
+              [
+                0.7739083398558422,
+                0.3363755443363322,
+                0.6668227728490808,
+                0.6498274636719203,
+                0.44223035604572614
+              ],
+              [
+                0.7093435510402275,
+                0.4859728597000356,
+                0.8468692876298226,
+                0.7681991416712344
+              ],
+              [
+                0.7869008730374545,
+                0.5868310070298763,
+                0.7605198962311747
+              ]
+            ],
+            "preactivations": [
+              [
+                1.0300000000000002,
+                0.35,
+                0.805,
+                0.775,
+                0.475
+              ],
+              [
+                0.8858613527752499,
+                0.5307744474562208,
+                1.244977660859786,
+                1.015919119881267
+              ],
+              [
+                1.0632403001044337,
+                0.6728187679188855,
+                0.9974470503157036
+              ]
+            ],
+            "progress": 1,
+            "bounds": [
+              546.9230769230769,
+              135,
+              1126.1538461538462,
+              610
+            ],
+            "scope": "computed educational toy model; not GPT architecture"
+          }
+        ],
+        "learningType": "fc",
+        "authorshipPen": [
+          249.0743609604957,
+          802.1165762974438
+        ],
+        "predictedOutput": true,
+        "independentReply": false
+      },
+      "checks": {
+        "correctShot": true,
+        "exactlyOneNetwork": true,
+        "expectedType": true,
+        "allNumericsFinite": true,
+        "legalProgress": true,
+        "networkWithinPicture": true,
+        "pixelsIdentical": true,
+        "auditIdentical": true
+      },
+      "pixels": {
+        "sha256": "9847b3bd745d15e1db54f3fa76932ae0fc8e91790e25694926ea29c3c106e490",
+        "repeatedSha256": "9847b3bd745d15e1db54f3fa76932ae0fc8e91790e25694926ea29c3c106e490",
+        "format": "RGBA8",
+        "width": 1920,
+        "height": 1080
+      },
+      "difference": null
+    },
+    {
+      "shot": "R78",
+      "frame": 10845,
+      "time": 180.75,
+      "requestedFraction": 1,
+      "actualFraction": 0.9953703703703667,
+      "neural": [
+        {
+          "type": "fc",
+          "layer": 2,
+          "dimensions": [
+            4,
+            5,
+            4,
+            3
+          ],
+          "connections": 52,
+          "values": [
+            [
+              0.9,
+              0.35,
+              0.65,
+              0.2
+            ],
+            [
+              0.7739083398558422,
+              0.3363755443363322,
+              0.6668227728490808,
+              0.6498274636719203,
+              0.44223035604572614
+            ],
+            [
+              0.7093435510402275,
+              0.4859728597000356,
+              0.8468692876298226,
+              0.7681991416712344
+            ],
+            [
+              0.7869008730374545,
+              0.5868310070298763,
+              0.7605198962311747
+            ]
+          ],
+          "preactivations": [
+            [
+              1.0300000000000002,
+              0.35,
+              0.805,
+              0.775,
+              0.475
+            ],
+            [
+              0.8858613527752499,
+              0.5307744474562208,
+              1.244977660859786,
+              1.015919119881267
+            ],
+            [
+              1.0632403001044337,
+              0.6728187679188855,
+              0.9974470503157036
+            ]
+          ],
+          "progress": 1,
+          "bounds": [
+            546.9230769230769,
+            135,
+            1126.1538461538462,
+            610
+          ],
+          "scope": "computed educational toy model; not GPT architecture"
+        }
+      ],
+      "scene": {
+        "neural": [
+          {
+            "type": "fc",
+            "layer": 2,
+            "dimensions": [
+              4,
+              5,
+              4,
+              3
+            ],
+            "connections": 52,
+            "values": [
+              [
+                0.9,
+                0.35,
+                0.65,
+                0.2
+              ],
+              [
+                0.7739083398558422,
+                0.3363755443363322,
+                0.6668227728490808,
+                0.6498274636719203,
+                0.44223035604572614
+              ],
+              [
+                0.7093435510402275,
+                0.4859728597000356,
+                0.8468692876298226,
+                0.7681991416712344
+              ],
+              [
+                0.7869008730374545,
+                0.5868310070298763,
+                0.7605198962311747
+              ]
+            ],
+            "preactivations": [
+              [
+                1.0300000000000002,
+                0.35,
+                0.805,
+                0.775,
+                0.475
+              ],
+              [
+                0.8858613527752499,
+                0.5307744474562208,
+                1.244977660859786,
+                1.015919119881267
+              ],
+              [
+                1.0632403001044337,
+                0.6728187679188855,
+                0.9974470503157036
+              ]
+            ],
+            "progress": 1,
+            "bounds": [
+              546.9230769230769,
+              135,
+              1126.1538461538462,
+              610
+            ],
+            "scope": "computed educational toy model; not GPT architecture"
+          }
+        ],
+        "learningType": "fc",
+        "authorshipPen": [
+          249.0743609604957,
+          802.1165762974438
+        ],
+        "predictedOutput": true,
+        "independentReply": false
+      },
+      "checks": {
+        "correctShot": true,
+        "exactlyOneNetwork": true,
+        "expectedType": true,
+        "allNumericsFinite": true,
+        "legalProgress": true,
+        "networkWithinPicture": true,
+        "pixelsIdentical": true,
+        "auditIdentical": true
+      },
+      "pixels": {
+        "sha256": "7692d425df331973083203f3867b0b20113c2b28645eee0d07c14fa377705c20",
+        "repeatedSha256": "7692d425df331973083203f3867b0b20113c2b28645eee0d07c14fa377705c20",
+        "format": "RGBA8",
+        "width": 1920,
+        "height": 1080
+      },
+      "difference": null
+    },
+    {
+      "shot": "R79",
+      "frame": 10846,
+      "time": 180.76666666666668,
+      "requestedFraction": 0,
+      "actualFraction": 0,
+      "neural": [
+        {
+          "type": "cnn",
+          "pattern": "star",
+          "scanIndex": 0,
+          "phase": "convolution",
+          "convolution": [
+            [
+              2,
+              0,
+              -2
+            ],
+            [
+              1,
+              0,
+              -1
+            ],
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "relu": [
+            [
+              2,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "pool": [
+            [
+              2,
+              0
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "progress": 0,
+          "inputSize": [
+            5,
+            5
+          ],
+          "kernelSize": [
+            3,
+            3
+          ],
+          "outputSize": [
+            3,
+            3
+          ],
+          "poolSize": [
+            2,
+            2
+          ],
+          "bounds": [
+            546.9230769230769,
+            135,
+            1126.1538461538462,
+            610
+          ],
+          "scope": "computed educational toy model; not GPT architecture"
+        }
+      ],
+      "scene": {
+        "neural": [
+          {
+            "type": "cnn",
+            "pattern": "star",
+            "scanIndex": 0,
+            "phase": "convolution",
+            "convolution": [
+              [
+                2,
+                0,
+                -2
+              ],
+              [
+                1,
+                0,
+                -1
+              ],
+              [
+                0,
+                0,
+                0
+              ]
+            ],
+            "relu": [
+              [
+                2,
+                0,
+                0
+              ],
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0
+              ]
+            ],
+            "pool": [
+              [
+                2,
+                0
+              ],
+              [
+                1,
+                0
+              ]
+            ],
+            "progress": 0,
+            "inputSize": [
+              5,
+              5
+            ],
+            "kernelSize": [
+              3,
+              3
+            ],
+            "outputSize": [
+              3,
+              3
+            ],
+            "poolSize": [
+              2,
+              2
+            ],
+            "bounds": [
+              546.9230769230769,
+              135,
+              1126.1538461538462,
+              610
+            ],
+            "scope": "computed educational toy model; not GPT architecture"
+          }
+        ],
+        "learningType": "cnn",
+        "authorshipPen": [
+          249.0743609604957,
+          802.1165762974438
+        ],
+        "predictedOutput": true,
+        "independentReply": false
+      },
+      "checks": {
+        "correctShot": true,
+        "exactlyOneNetwork": true,
+        "expectedType": true,
+        "allNumericsFinite": true,
+        "legalProgress": true,
+        "networkWithinPicture": true,
+        "pixelsIdentical": true,
+        "auditIdentical": true
+      },
+      "pixels": {
+        "sha256": "a6e6138a08c80520e96edf91299aac710cb4e9404241cb4efd06338c2d96a7eb",
+        "repeatedSha256": "a6e6138a08c80520e96edf91299aac710cb4e9404241cb4efd06338c2d96a7eb",
+        "format": "RGBA8",
+        "width": 1920,
+        "height": 1080
+      },
+      "difference": null
+    },
+    {
+      "shot": "R79",
+      "frame": 10868,
+      "time": 181.13333333333333,
+      "requestedFraction": 0.1,
+      "actualFraction": 0.0995475113122122,
+      "neural": [
+        {
+          "type": "cnn",
+          "pattern": "star",
+          "scanIndex": 0,
+          "phase": "convolution",
+          "convolution": [
+            [
+              2,
+              0,
+              -2
+            ],
+            [
+              1,
+              0,
+              -1
+            ],
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "relu": [
+            [
+              2,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "pool": [
+            [
+              2,
+              0
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "progress": 0.026406468276166165,
+          "inputSize": [
+            5,
+            5
+          ],
+          "kernelSize": [
+            3,
+            3
+          ],
+          "outputSize": [
+            3,
+            3
+          ],
+          "poolSize": [
+            2,
+            2
+          ],
+          "bounds": [
+            546.9230769230769,
+            135,
+            1126.1538461538462,
+            610
+          ],
+          "scope": "computed educational toy model; not GPT architecture"
+        }
+      ],
+      "scene": {
+        "neural": [
+          {
+            "type": "cnn",
+            "pattern": "star",
+            "scanIndex": 0,
+            "phase": "convolution",
+            "convolution": [
+              [
+                2,
+                0,
+                -2
+              ],
+              [
+                1,
+                0,
+                -1
+              ],
+              [
+                0,
+                0,
+                0
+              ]
+            ],
+            "relu": [
+              [
+                2,
+                0,
+                0
+              ],
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0
+              ]
+            ],
+            "pool": [
+              [
+                2,
+                0
+              ],
+              [
+                1,
+                0
+              ]
+            ],
+            "progress": 0.026406468276166165,
+            "inputSize": [
+              5,
+              5
+            ],
+            "kernelSize": [
+              3,
+              3
+            ],
+            "outputSize": [
+              3,
+              3
+            ],
+            "poolSize": [
+              2,
+              2
+            ],
+            "bounds": [
+              546.9230769230769,
+              135,
+              1126.1538461538462,
+              610
+            ],
+            "scope": "computed educational toy model; not GPT architecture"
+          }
+        ],
+        "learningType": "cnn",
+        "authorshipPen": [
+          249.0743609604957,
+          802.1165762974438
+        ],
+        "predictedOutput": true,
+        "independentReply": false
+      },
+      "checks": {
+        "correctShot": true,
+        "exactlyOneNetwork": true,
+        "expectedType": true,
+        "allNumericsFinite": true,
+        "legalProgress": true,
+        "networkWithinPicture": true,
+        "pixelsIdentical": true,
+        "auditIdentical": true
+      },
+      "pixels": {
+        "sha256": "f810b5bb530cdeb3b5fc454981353234a137ab7362e8ce94be603cb7429d18a3",
+        "repeatedSha256": "f810b5bb530cdeb3b5fc454981353234a137ab7362e8ce94be603cb7429d18a3",
+        "format": "RGBA8",
+        "width": 1920,
+        "height": 1080
+      },
+      "difference": null
+    },
+    {
+      "shot": "R79",
+      "frame": 10901,
+      "time": 181.68333333333334,
+      "requestedFraction": 0.25,
+      "actualFraction": 0.24886877828054207,
+      "neural": [
+        {
+          "type": "cnn",
+          "pattern": "star",
+          "scanIndex": 2,
+          "phase": "convolution",
+          "convolution": [
+            [
+              2,
+              0,
+              -2
+            ],
+            [
+              1,
+              0,
+              -1
+            ],
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "relu": [
+            [
+              2,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "pool": [
+            [
+              2,
+              0
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "progress": 0.19021840985832772,
+          "inputSize": [
+            5,
+            5
+          ],
+          "kernelSize": [
+            3,
+            3
+          ],
+          "outputSize": [
+            3,
+            3
+          ],
+          "poolSize": [
+            2,
+            2
+          ],
+          "bounds": [
+            546.9230769230769,
+            135,
+            1126.1538461538462,
+            610
+          ],
+          "scope": "computed educational toy model; not GPT architecture"
+        }
+      ],
+      "scene": {
+        "neural": [
+          {
+            "type": "cnn",
+            "pattern": "star",
+            "scanIndex": 2,
+            "phase": "convolution",
+            "convolution": [
+              [
+                2,
+                0,
+                -2
+              ],
+              [
+                1,
+                0,
+                -1
+              ],
+              [
+                0,
+                0,
+                0
+              ]
+            ],
+            "relu": [
+              [
+                2,
+                0,
+                0
+              ],
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0
+              ]
+            ],
+            "pool": [
+              [
+                2,
+                0
+              ],
+              [
+                1,
+                0
+              ]
+            ],
+            "progress": 0.19021840985832772,
+            "inputSize": [
+              5,
+              5
+            ],
+            "kernelSize": [
+              3,
+              3
+            ],
+            "outputSize": [
+              3,
+              3
+            ],
+            "poolSize": [
+              2,
+              2
+            ],
+            "bounds": [
+              546.9230769230769,
+              135,
+              1126.1538461538462,
+              610
+            ],
+            "scope": "computed educational toy model; not GPT architecture"
+          }
+        ],
+        "learningType": "cnn",
+        "authorshipPen": [
+          249.0743609604957,
+          802.1165762974438
+        ],
+        "predictedOutput": true,
+        "independentReply": false
+      },
+      "checks": {
+        "correctShot": true,
+        "exactlyOneNetwork": true,
+        "expectedType": true,
+        "allNumericsFinite": true,
+        "legalProgress": true,
+        "networkWithinPicture": true,
+        "pixelsIdentical": true,
+        "auditIdentical": true
+      },
+      "pixels": {
+        "sha256": "e1ff915e3784559d4722ff545f2b0cabd5cc5a3f05e9deed9ff5bae7819dfb3e",
+        "repeatedSha256": "e1ff915e3784559d4722ff545f2b0cabd5cc5a3f05e9deed9ff5bae7819dfb3e",
+        "format": "RGBA8",
+        "width": 1920,
+        "height": 1080
+      },
+      "difference": null
+    },
+    {
+      "shot": "R79",
+      "frame": 10956,
+      "time": 182.6,
+      "requestedFraction": 0.5,
+      "actualFraction": 0.49773755656108415,
+      "neural": [
+        {
+          "type": "cnn",
+          "pattern": "star",
+          "scanIndex": 7,
+          "phase": "convolution",
+          "convolution": [
+            [
+              2,
+              0,
+              -2
+            ],
+            [
+              1,
+              0,
+              -1
+            ],
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "relu": [
+            [
+              2,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "pool": [
+            [
+              2,
+              0
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "progress": 0.6227827670680838,
+          "inputSize": [
+            5,
+            5
+          ],
+          "kernelSize": [
+            3,
+            3
+          ],
+          "outputSize": [
+            3,
+            3
+          ],
+          "poolSize": [
+            2,
+            2
+          ],
+          "bounds": [
+            546.9230769230769,
+            135,
+            1126.1538461538462,
+            610
+          ],
+          "scope": "computed educational toy model; not GPT architecture"
+        }
+      ],
+      "scene": {
+        "neural": [
+          {
+            "type": "cnn",
+            "pattern": "star",
+            "scanIndex": 7,
+            "phase": "convolution",
+            "convolution": [
+              [
+                2,
+                0,
+                -2
+              ],
+              [
+                1,
+                0,
+                -1
+              ],
+              [
+                0,
+                0,
+                0
+              ]
+            ],
+            "relu": [
+              [
+                2,
+                0,
+                0
+              ],
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0
+              ]
+            ],
+            "pool": [
+              [
+                2,
+                0
+              ],
+              [
+                1,
+                0
+              ]
+            ],
+            "progress": 0.6227827670680838,
+            "inputSize": [
+              5,
+              5
+            ],
+            "kernelSize": [
+              3,
+              3
+            ],
+            "outputSize": [
+              3,
+              3
+            ],
+            "poolSize": [
+              2,
+              2
+            ],
+            "bounds": [
+              546.9230769230769,
+              135,
+              1126.1538461538462,
+              610
+            ],
+            "scope": "computed educational toy model; not GPT architecture"
+          }
+        ],
+        "learningType": "cnn",
+        "authorshipPen": [
+          249.0743609604957,
+          802.1165762974438
+        ],
+        "predictedOutput": true,
+        "independentReply": false
+      },
+      "checks": {
+        "correctShot": true,
+        "exactlyOneNetwork": true,
+        "expectedType": true,
+        "allNumericsFinite": true,
+        "legalProgress": true,
+        "networkWithinPicture": true,
+        "pixelsIdentical": true,
+        "auditIdentical": true
+      },
+      "pixels": {
+        "sha256": "c0f005dd7c440b456422ac1e2258da8aa364c7a242316ad732bd83520d7924c3",
+        "repeatedSha256": "c0f005dd7c440b456422ac1e2258da8aa364c7a242316ad732bd83520d7924c3",
+        "format": "RGBA8",
+        "width": 1920,
+        "height": 1080
+      },
+      "difference": null
+    },
+    {
+      "shot": "R79",
+      "frame": 11011,
+      "time": 183.51666666666668,
+      "requestedFraction": 0.75,
+      "actualFraction": 0.746606334841634,
+      "neural": [
+        {
+          "type": "cnn",
+          "pattern": "star",
+          "scanIndex": 8,
+          "phase": "pool",
+          "convolution": [
+            [
+              2,
+              0,
+              -2
+            ],
+            [
+              1,
+              0,
+              -1
+            ],
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "relu": [
+            [
+              2,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "pool": [
+            [
+              2,
+              0
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "progress": 0.9640388684048549,
+          "inputSize": [
+            5,
+            5
+          ],
+          "kernelSize": [
+            3,
+            3
+          ],
+          "outputSize": [
+            3,
+            3
+          ],
+          "poolSize": [
+            2,
+            2
+          ],
+          "bounds": [
+            546.9230769230769,
+            135,
+            1126.1538461538462,
+            610
+          ],
+          "scope": "computed educational toy model; not GPT architecture"
+        }
+      ],
+      "scene": {
+        "neural": [
+          {
+            "type": "cnn",
+            "pattern": "star",
+            "scanIndex": 8,
+            "phase": "pool",
+            "convolution": [
+              [
+                2,
+                0,
+                -2
+              ],
+              [
+                1,
+                0,
+                -1
+              ],
+              [
+                0,
+                0,
+                0
+              ]
+            ],
+            "relu": [
+              [
+                2,
+                0,
+                0
+              ],
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0
+              ]
+            ],
+            "pool": [
+              [
+                2,
+                0
+              ],
+              [
+                1,
+                0
+              ]
+            ],
+            "progress": 0.9640388684048549,
+            "inputSize": [
+              5,
+              5
+            ],
+            "kernelSize": [
+              3,
+              3
+            ],
+            "outputSize": [
+              3,
+              3
+            ],
+            "poolSize": [
+              2,
+              2
+            ],
+            "bounds": [
+              546.9230769230769,
+              135,
+              1126.1538461538462,
+              610
+            ],
+            "scope": "computed educational toy model; not GPT architecture"
+          }
+        ],
+        "learningType": "cnn",
+        "authorshipPen": [
+          249.0743609604957,
+          802.1165762974438
+        ],
+        "predictedOutput": true,
+        "independentReply": false
+      },
+      "checks": {
+        "correctShot": true,
+        "exactlyOneNetwork": true,
+        "expectedType": true,
+        "allNumericsFinite": true,
+        "legalProgress": true,
+        "networkWithinPicture": true,
+        "pixelsIdentical": true,
+        "auditIdentical": true
+      },
+      "pixels": {
+        "sha256": "0379cae52169d81c691f2c8a12f3330254f97aaa2477ae01df34ba7f44292761",
+        "repeatedSha256": "0379cae52169d81c691f2c8a12f3330254f97aaa2477ae01df34ba7f44292761",
+        "format": "RGBA8",
+        "width": 1920,
+        "height": 1080
+      },
+      "difference": null
+    },
+    {
+      "shot": "R79",
+      "frame": 11044,
+      "time": 184.06666666666666,
+      "requestedFraction": 0.9,
+      "actualFraction": 0.8959276018099561,
+      "neural": [
+        {
+          "type": "cnn",
+          "pattern": "star",
+          "scanIndex": 8,
+          "phase": "pool",
+          "convolution": [
+            [
+              2,
+              0,
+              -2
+            ],
+            [
+              1,
+              0,
+              -1
+            ],
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "relu": [
+            [
+              2,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "pool": [
+            [
+              2,
+              0
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "progress": 1,
+          "inputSize": [
+            5,
+            5
+          ],
+          "kernelSize": [
+            3,
+            3
+          ],
+          "outputSize": [
+            3,
+            3
+          ],
+          "poolSize": [
+            2,
+            2
+          ],
+          "bounds": [
+            546.9230769230769,
+            135,
+            1126.1538461538462,
+            610
+          ],
+          "scope": "computed educational toy model; not GPT architecture"
+        }
+      ],
+      "scene": {
+        "neural": [
+          {
+            "type": "cnn",
+            "pattern": "star",
+            "scanIndex": 8,
+            "phase": "pool",
+            "convolution": [
+              [
+                2,
+                0,
+                -2
+              ],
+              [
+                1,
+                0,
+                -1
+              ],
+              [
+                0,
+                0,
+                0
+              ]
+            ],
+            "relu": [
+              [
+                2,
+                0,
+                0
+              ],
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0
+              ]
+            ],
+            "pool": [
+              [
+                2,
+                0
+              ],
+              [
+                1,
+                0
+              ]
+            ],
+            "progress": 1,
+            "inputSize": [
+              5,
+              5
+            ],
+            "kernelSize": [
+              3,
+              3
+            ],
+            "outputSize": [
+              3,
+              3
+            ],
+            "poolSize": [
+              2,
+              2
+            ],
+            "bounds": [
+              546.9230769230769,
+              135,
+              1126.1538461538462,
+              610
+            ],
+            "scope": "computed educational toy model; not GPT architecture"
+          }
+        ],
+        "learningType": "cnn",
+        "authorshipPen": [
+          249.0743609604957,
+          802.1165762974438
+        ],
+        "predictedOutput": true,
+        "independentReply": false
+      },
+      "checks": {
+        "correctShot": true,
+        "exactlyOneNetwork": true,
+        "expectedType": true,
+        "allNumericsFinite": true,
+        "legalProgress": true,
+        "networkWithinPicture": true,
+        "pixelsIdentical": true,
+        "auditIdentical": true
+      },
+      "pixels": {
+        "sha256": "8c9427e992ea0e294543b8aa803fc7a0e270dc3425ef49ca4dc248199bbf13d1",
+        "repeatedSha256": "8c9427e992ea0e294543b8aa803fc7a0e270dc3425ef49ca4dc248199bbf13d1",
+        "format": "RGBA8",
+        "width": 1920,
+        "height": 1080
+      },
+      "difference": null
+    },
+    {
+      "shot": "R79",
+      "frame": 11066,
+      "time": 184.43333333333334,
+      "requestedFraction": 1,
+      "actualFraction": 0.9954751131221761,
+      "neural": [
+        {
+          "type": "cnn",
+          "pattern": "star",
+          "scanIndex": 8,
+          "phase": "pool",
+          "convolution": [
+            [
+              2,
+              0,
+              -2
+            ],
+            [
+              1,
+              0,
+              -1
+            ],
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "relu": [
+            [
+              2,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "pool": [
+            [
+              2,
+              0
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "progress": 1,
+          "inputSize": [
+            5,
+            5
+          ],
+          "kernelSize": [
+            3,
+            3
+          ],
+          "outputSize": [
+            3,
+            3
+          ],
+          "poolSize": [
+            2,
+            2
+          ],
+          "bounds": [
+            546.9230769230769,
+            135,
+            1126.1538461538462,
+            610
+          ],
+          "scope": "computed educational toy model; not GPT architecture"
+        }
+      ],
+      "scene": {
+        "neural": [
+          {
+            "type": "cnn",
+            "pattern": "star",
+            "scanIndex": 8,
+            "phase": "pool",
+            "convolution": [
+              [
+                2,
+                0,
+                -2
+              ],
+              [
+                1,
+                0,
+                -1
+              ],
+              [
+                0,
+                0,
+                0
+              ]
+            ],
+            "relu": [
+              [
+                2,
+                0,
+                0
+              ],
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0
+              ]
+            ],
+            "pool": [
+              [
+                2,
+                0
+              ],
+              [
+                1,
+                0
+              ]
+            ],
+            "progress": 1,
+            "inputSize": [
+              5,
+              5
+            ],
+            "kernelSize": [
+              3,
+              3
+            ],
+            "outputSize": [
+              3,
+              3
+            ],
+            "poolSize": [
+              2,
+              2
+            ],
+            "bounds": [
+              546.9230769230769,
+              135,
+              1126.1538461538462,
+              610
+            ],
+            "scope": "computed educational toy model; not GPT architecture"
+          }
+        ],
+        "learningType": "cnn",
+        "authorshipPen": [
+          249.0743609604957,
+          802.1165762974438
+        ],
+        "predictedOutput": true,
+        "independentReply": false
+      },
+      "checks": {
+        "correctShot": true,
+        "exactlyOneNetwork": true,
+        "expectedType": true,
+        "allNumericsFinite": true,
+        "legalProgress": true,
+        "networkWithinPicture": true,
+        "pixelsIdentical": true,
+        "auditIdentical": true
+      },
+      "pixels": {
+        "sha256": "e1e34d9565448b1f49c72ac5dd60b67b5948473f2eb0ca2efb13d854aa4a895b",
+        "repeatedSha256": "e1e34d9565448b1f49c72ac5dd60b67b5948473f2eb0ca2efb13d854aa4a895b",
+        "format": "RGBA8",
+        "width": 1920,
+        "height": 1080
+      },
+      "difference": null
+    },
+    {
+      "shot": "R80",
+      "frame": 11067,
+      "time": 184.45,
+      "requestedFraction": 0,
+      "actualFraction": 0,
+      "neural": [
+        {
+          "type": "rnn",
+          "activeStep": 0,
+          "steps": [
+            {
+              "t": 0,
+              "x": [
+                1,
+                0.2
+              ],
+              "previous": [
+                0,
+                0
+              ],
+              "pre": [
+                0.6599999999999999,
+                0.31
+              ],
+              "h": [
+                0.5783634130445057,
+                0.3004370971476541
+              ]
+            },
+            {
+              "t": 1,
+              "x": [
+                0.3,
+                0.8
+              ],
+              "previous": [
+                0.5783634130445057,
+                0.3004370971476541
+              ],
+              "pre": [
+                0.4110017830510768,
+                0.6824696266989073
+              ],
+              "h": [
+                0.38932295198105915,
+                0.593122566392045
+              ]
+            },
+            {
+              "t": 2,
+              "x": [
+                0,
+                0
+              ],
+              "previous": [
+                0.38932295198105915,
+                0.593122566392045
+              ],
+              "pre": [
+                0.3620283037464952,
+                0.3662535012763255
+              ],
+              "h": [
+                0.3469993668522337,
+                0.35071035151981317
+              ]
+            }
+          ],
+          "sharedWeights": true,
+          "zeroInputRetainsState": true,
+          "progress": 0,
+          "bounds": [
+            546.9230769230769,
+            135,
+            1126.1538461538462,
+            610
+          ],
+          "scope": "computed educational toy model; not GPT architecture"
+        }
+      ],
+      "scene": {
+        "neural": [
+          {
+            "type": "rnn",
+            "activeStep": 0,
+            "steps": [
+              {
+                "t": 0,
+                "x": [
+                  1,
+                  0.2
+                ],
+                "previous": [
+                  0,
+                  0
+                ],
+                "pre": [
+                  0.6599999999999999,
+                  0.31
+                ],
+                "h": [
+                  0.5783634130445057,
+                  0.3004370971476541
+                ]
+              },
+              {
+                "t": 1,
+                "x": [
+                  0.3,
+                  0.8
+                ],
+                "previous": [
+                  0.5783634130445057,
+                  0.3004370971476541
+                ],
+                "pre": [
+                  0.4110017830510768,
+                  0.6824696266989073
+                ],
+                "h": [
+                  0.38932295198105915,
+                  0.593122566392045
+                ]
+              },
+              {
+                "t": 2,
+                "x": [
+                  0,
+                  0
+                ],
+                "previous": [
+                  0.38932295198105915,
+                  0.593122566392045
+                ],
+                "pre": [
+                  0.3620283037464952,
+                  0.3662535012763255
+                ],
+                "h": [
+                  0.3469993668522337,
+                  0.35071035151981317
+                ]
+              }
+            ],
+            "sharedWeights": true,
+            "zeroInputRetainsState": true,
+            "progress": 0,
+            "bounds": [
+              546.9230769230769,
+              135,
+              1126.1538461538462,
+              610
+            ],
+            "scope": "computed educational toy model; not GPT architecture"
+          }
+        ],
+        "learningType": "rnn",
+        "authorshipPen": [
+          249.0743609604957,
+          802.1165762974438
+        ],
+        "predictedOutput": true,
+        "independentReply": false,
+        "sameSourcePens": 2,
+        "pensStoppedTogether": false,
+        "source": [
+          249.0743609604957,
+          802.1165762974438
+        ]
+      },
+      "checks": {
+        "correctShot": true,
+        "exactlyOneNetwork": true,
+        "expectedType": true,
+        "allNumericsFinite": true,
+        "legalProgress": true,
+        "networkWithinPicture": true,
+        "pixelsIdentical": true,
+        "auditIdentical": true
+      },
+      "pixels": {
+        "sha256": "76809e22d091f934d7b17ee0abf4c029ac1e4aa24dcc0b3ad74beb3cd1fb370e",
+        "repeatedSha256": "76809e22d091f934d7b17ee0abf4c029ac1e4aa24dcc0b3ad74beb3cd1fb370e",
+        "format": "RGBA8",
+        "width": 1920,
+        "height": 1080
+      },
+      "difference": null
+    },
+    {
+      "shot": "R80",
+      "frame": 11090,
+      "time": 184.83333333333334,
+      "requestedFraction": 0.1,
+      "actualFraction": 0.09704641350211456,
+      "neural": [
+        {
+          "type": "rnn",
+          "activeStep": 0,
+          "steps": [
+            {
+              "t": 0,
+              "x": [
+                1,
+                0.2
+              ],
+              "previous": [
+                0,
+                0
+              ],
+              "pre": [
+                0.6599999999999999,
+                0.31
+              ],
+              "h": [
+                0.5783634130445057,
+                0.3004370971476541
+              ]
+            },
+            {
+              "t": 1,
+              "x": [
+                0.3,
+                0.8
+              ],
+              "previous": [
+                0.5783634130445057,
+                0.3004370971476541
+              ],
+              "pre": [
+                0.4110017830510768,
+                0.6824696266989073
+              ],
+              "h": [
+                0.38932295198105915,
+                0.593122566392045
+              ]
+            },
+            {
+              "t": 2,
+              "x": [
+                0,
+                0
+              ],
+              "previous": [
+                0.38932295198105915,
+                0.593122566392045
+              ],
+              "pre": [
+                0.3620283037464952,
+                0.3662535012763255
+              ],
+              "h": [
+                0.3469993668522337,
+                0.35071035151981317
+              ]
+            }
+          ],
+          "sharedWeights": true,
+          "zeroInputRetainsState": true,
+          "progress": 0.024825906619779927,
+          "bounds": [
+            546.9230769230769,
+            135,
+            1126.1538461538462,
+            610
+          ],
+          "scope": "computed educational toy model; not GPT architecture"
+        }
+      ],
+      "scene": {
+        "neural": [
+          {
+            "type": "rnn",
+            "activeStep": 0,
+            "steps": [
+              {
+                "t": 0,
+                "x": [
+                  1,
+                  0.2
+                ],
+                "previous": [
+                  0,
+                  0
+                ],
+                "pre": [
+                  0.6599999999999999,
+                  0.31
+                ],
+                "h": [
+                  0.5783634130445057,
+                  0.3004370971476541
+                ]
+              },
+              {
+                "t": 1,
+                "x": [
+                  0.3,
+                  0.8
+                ],
+                "previous": [
+                  0.5783634130445057,
+                  0.3004370971476541
+                ],
+                "pre": [
+                  0.4110017830510768,
+                  0.6824696266989073
+                ],
+                "h": [
+                  0.38932295198105915,
+                  0.593122566392045
+                ]
+              },
+              {
+                "t": 2,
+                "x": [
+                  0,
+                  0
+                ],
+                "previous": [
+                  0.38932295198105915,
+                  0.593122566392045
+                ],
+                "pre": [
+                  0.3620283037464952,
+                  0.3662535012763255
+                ],
+                "h": [
+                  0.3469993668522337,
+                  0.35071035151981317
+                ]
+              }
+            ],
+            "sharedWeights": true,
+            "zeroInputRetainsState": true,
+            "progress": 0.024825906619779927,
+            "bounds": [
+              546.9230769230769,
+              135,
+              1126.1538461538462,
+              610
+            ],
+            "scope": "computed educational toy model; not GPT architecture"
+          }
+        ],
+        "learningType": "rnn",
+        "authorshipPen": [
+          249.0743609604957,
+          802.1165762974438
+        ],
+        "predictedOutput": true,
+        "independentReply": false,
+        "sameSourcePens": 2,
+        "pensStoppedTogether": false,
+        "source": [
+          249.0743609604957,
+          802.1165762974438
+        ]
+      },
+      "checks": {
+        "correctShot": true,
+        "exactlyOneNetwork": true,
+        "expectedType": true,
+        "allNumericsFinite": true,
+        "legalProgress": true,
+        "networkWithinPicture": true,
+        "pixelsIdentical": true,
+        "auditIdentical": true
+      },
+      "pixels": {
+        "sha256": "022f7407d2359a8666c594b3f7db21b8b677c917c26db12661884bf9b313fca4",
+        "repeatedSha256": "022f7407d2359a8666c594b3f7db21b8b677c917c26db12661884bf9b313fca4",
+        "format": "RGBA8",
+        "width": 1920,
+        "height": 1080
+      },
+      "difference": null
+    },
+    {
+      "shot": "R80",
+      "frame": 11126,
+      "time": 185.43333333333334,
+      "requestedFraction": 0.25,
+      "actualFraction": 0.24894514767932766,
+      "neural": [
+        {
+          "type": "rnn",
+          "activeStep": 0,
+          "steps": [
+            {
+              "t": 0,
+              "x": [
+                1,
+                0.2
+              ],
+              "previous": [
+                0,
+                0
+              ],
+              "pre": [
+                0.6599999999999999,
+                0.31
+              ],
+              "h": [
+                0.5783634130445057,
+                0.3004370971476541
+              ]
+            },
+            {
+              "t": 1,
+              "x": [
+                0.3,
+                0.8
+              ],
+              "previous": [
+                0.5783634130445057,
+                0.3004370971476541
+              ],
+              "pre": [
+                0.4110017830510768,
+                0.6824696266989073
+              ],
+              "h": [
+                0.38932295198105915,
+                0.593122566392045
+              ]
+            },
+            {
+              "t": 2,
+              "x": [
+                0,
+                0
+              ],
+              "previous": [
+                0.38932295198105915,
+                0.593122566392045
+              ],
+              "pre": [
+                0.3620283037464952,
+                0.3662535012763255
+              ],
+              "h": [
+                0.3469993668522337,
+                0.35071035151981317
+              ]
+            }
+          ],
+          "sharedWeights": true,
+          "zeroInputRetainsState": true,
+          "progress": 0.19033085583221582,
+          "bounds": [
+            546.9230769230769,
+            135,
+            1126.1538461538462,
+            610
+          ],
+          "scope": "computed educational toy model; not GPT architecture"
+        }
+      ],
+      "scene": {
+        "neural": [
+          {
+            "type": "rnn",
+            "activeStep": 0,
+            "steps": [
+              {
+                "t": 0,
+                "x": [
+                  1,
+                  0.2
+                ],
+                "previous": [
+                  0,
+                  0
+                ],
+                "pre": [
+                  0.6599999999999999,
+                  0.31
+                ],
+                "h": [
+                  0.5783634130445057,
+                  0.3004370971476541
+                ]
+              },
+              {
+                "t": 1,
+                "x": [
+                  0.3,
+                  0.8
+                ],
+                "previous": [
+                  0.5783634130445057,
+                  0.3004370971476541
+                ],
+                "pre": [
+                  0.4110017830510768,
+                  0.6824696266989073
+                ],
+                "h": [
+                  0.38932295198105915,
+                  0.593122566392045
+                ]
+              },
+              {
+                "t": 2,
+                "x": [
+                  0,
+                  0
+                ],
+                "previous": [
+                  0.38932295198105915,
+                  0.593122566392045
+                ],
+                "pre": [
+                  0.3620283037464952,
+                  0.3662535012763255
+                ],
+                "h": [
+                  0.3469993668522337,
+                  0.35071035151981317
+                ]
+              }
+            ],
+            "sharedWeights": true,
+            "zeroInputRetainsState": true,
+            "progress": 0.19033085583221582,
+            "bounds": [
+              546.9230769230769,
+              135,
+              1126.1538461538462,
+              610
+            ],
+            "scope": "computed educational toy model; not GPT architecture"
+          }
+        ],
+        "learningType": "rnn",
+        "authorshipPen": [
+          249.0743609604957,
+          802.1165762974438
+        ],
+        "predictedOutput": true,
+        "independentReply": false,
+        "sameSourcePens": 2,
+        "pensStoppedTogether": false,
+        "source": [
+          249.0743609604957,
+          802.1165762974438
+        ]
+      },
+      "checks": {
+        "correctShot": true,
+        "exactlyOneNetwork": true,
+        "expectedType": true,
+        "allNumericsFinite": true,
+        "legalProgress": true,
+        "networkWithinPicture": true,
+        "pixelsIdentical": true,
+        "auditIdentical": true
+      },
+      "pixels": {
+        "sha256": "bc5d4ca0d1879282e1105693cf5904342391c3527bccfe512c0e75788a41e590",
+        "repeatedSha256": "bc5d4ca0d1879282e1105693cf5904342391c3527bccfe512c0e75788a41e590",
+        "format": "RGBA8",
+        "width": 1920,
+        "height": 1080
+      },
+      "difference": null
+    },
+    {
+      "shot": "R80",
+      "frame": 11185,
+      "time": 186.41666666666666,
+      "requestedFraction": 0.5,
+      "actualFraction": 0.4978902953586481,
+      "neural": [
+        {
+          "type": "rnn",
+          "activeStep": 1,
+          "steps": [
+            {
+              "t": 0,
+              "x": [
+                1,
+                0.2
+              ],
+              "previous": [
+                0,
+                0
+              ],
+              "pre": [
+                0.6599999999999999,
+                0.31
+              ],
+              "h": [
+                0.5783634130445057,
+                0.3004370971476541
+              ]
+            },
+            {
+              "t": 1,
+              "x": [
+                0.3,
+                0.8
+              ],
+              "previous": [
+                0.5783634130445057,
+                0.3004370971476541
+              ],
+              "pre": [
+                0.4110017830510768,
+                0.6824696266989073
+              ],
+              "h": [
+                0.38932295198105915,
+                0.593122566392045
+              ]
+            },
+            {
+              "t": 2,
+              "x": [
+                0,
+                0
+              ],
+              "previous": [
+                0.38932295198105915,
+                0.593122566392045
+              ],
+              "pre": [
+                0.3620283037464952,
+                0.3662535012763255
+              ],
+              "h": [
+                0.3469993668522337,
+                0.35071035151981317
+              ]
+            }
+          ],
+          "sharedWeights": true,
+          "zeroInputRetainsState": true,
+          "progress": 0.6230545237239349,
+          "bounds": [
+            546.9230769230769,
+            135,
+            1126.1538461538462,
+            610
+          ],
+          "scope": "computed educational toy model; not GPT architecture"
+        }
+      ],
+      "scene": {
+        "neural": [
+          {
+            "type": "rnn",
+            "activeStep": 1,
+            "steps": [
+              {
+                "t": 0,
+                "x": [
+                  1,
+                  0.2
+                ],
+                "previous": [
+                  0,
+                  0
+                ],
+                "pre": [
+                  0.6599999999999999,
+                  0.31
+                ],
+                "h": [
+                  0.5783634130445057,
+                  0.3004370971476541
+                ]
+              },
+              {
+                "t": 1,
+                "x": [
+                  0.3,
+                  0.8
+                ],
+                "previous": [
+                  0.5783634130445057,
+                  0.3004370971476541
+                ],
+                "pre": [
+                  0.4110017830510768,
+                  0.6824696266989073
+                ],
+                "h": [
+                  0.38932295198105915,
+                  0.593122566392045
+                ]
+              },
+              {
+                "t": 2,
+                "x": [
+                  0,
+                  0
+                ],
+                "previous": [
+                  0.38932295198105915,
+                  0.593122566392045
+                ],
+                "pre": [
+                  0.3620283037464952,
+                  0.3662535012763255
+                ],
+                "h": [
+                  0.3469993668522337,
+                  0.35071035151981317
+                ]
+              }
+            ],
+            "sharedWeights": true,
+            "zeroInputRetainsState": true,
+            "progress": 0.6230545237239349,
+            "bounds": [
+              546.9230769230769,
+              135,
+              1126.1538461538462,
+              610
+            ],
+            "scope": "computed educational toy model; not GPT architecture"
+          }
+        ],
+        "learningType": "rnn",
+        "authorshipPen": [
+          249.0743609604957,
+          802.1165762974438
+        ],
+        "predictedOutput": true,
+        "independentReply": false,
+        "sameSourcePens": 2,
+        "pensStoppedTogether": false,
+        "source": [
+          249.0743609604957,
+          802.1165762974438
+        ]
+      },
+      "checks": {
+        "correctShot": true,
+        "exactlyOneNetwork": true,
+        "expectedType": true,
+        "allNumericsFinite": true,
+        "legalProgress": true,
+        "networkWithinPicture": true,
+        "pixelsIdentical": true,
+        "auditIdentical": true
+      },
+      "pixels": {
+        "sha256": "859b5d3b5f65de7d80f870d0dbecc1989d8717be723b8b70d1f791c821ed75dd",
+        "repeatedSha256": "859b5d3b5f65de7d80f870d0dbecc1989d8717be723b8b70d1f791c821ed75dd",
+        "format": "RGBA8",
+        "width": 1920,
+        "height": 1080
+      },
+      "difference": null
+    },
+    {
+      "shot": "R80",
+      "frame": 11244,
+      "time": 187.4,
+      "requestedFraction": 0.75,
+      "actualFraction": 0.7468354430379758,
+      "neural": [
+        {
+          "type": "rnn",
+          "activeStep": 2,
+          "steps": [
+            {
+              "t": 0,
+              "x": [
+                1,
+                0.2
+              ],
+              "previous": [
+                0,
+                0
+              ],
+              "pre": [
+                0.6599999999999999,
+                0.31
+              ],
+              "h": [
+                0.5783634130445057,
+                0.3004370971476541
+              ]
+            },
+            {
+              "t": 1,
+              "x": [
+                0.3,
+                0.8
+              ],
+              "previous": [
+                0.5783634130445057,
+                0.3004370971476541
+              ],
+              "pre": [
+                0.4110017830510768,
+                0.6824696266989073
+              ],
+              "h": [
+                0.38932295198105915,
+                0.593122566392045
+              ]
+            },
+            {
+              "t": 2,
+              "x": [
+                0,
+                0
+              ],
+              "previous": [
+                0.38932295198105915,
+                0.593122566392045
+              ],
+              "pre": [
+                0.3620283037464952,
+                0.3662535012763255
+              ],
+              "h": [
+                0.3469993668522337,
+                0.35071035151981317
+              ]
+            }
+          ],
+          "sharedWeights": true,
+          "zeroInputRetainsState": true,
+          "progress": 0.9642078744869298,
+          "bounds": [
+            546.9230769230769,
+            135,
+            1126.1538461538462,
+            610
+          ],
+          "scope": "computed educational toy model; not GPT architecture"
+        }
+      ],
+      "scene": {
+        "neural": [
+          {
+            "type": "rnn",
+            "activeStep": 2,
+            "steps": [
+              {
+                "t": 0,
+                "x": [
+                  1,
+                  0.2
+                ],
+                "previous": [
+                  0,
+                  0
+                ],
+                "pre": [
+                  0.6599999999999999,
+                  0.31
+                ],
+                "h": [
+                  0.5783634130445057,
+                  0.3004370971476541
+                ]
+              },
+              {
+                "t": 1,
+                "x": [
+                  0.3,
+                  0.8
+                ],
+                "previous": [
+                  0.5783634130445057,
+                  0.3004370971476541
+                ],
+                "pre": [
+                  0.4110017830510768,
+                  0.6824696266989073
+                ],
+                "h": [
+                  0.38932295198105915,
+                  0.593122566392045
+                ]
+              },
+              {
+                "t": 2,
+                "x": [
+                  0,
+                  0
+                ],
+                "previous": [
+                  0.38932295198105915,
+                  0.593122566392045
+                ],
+                "pre": [
+                  0.3620283037464952,
+                  0.3662535012763255
+                ],
+                "h": [
+                  0.3469993668522337,
+                  0.35071035151981317
+                ]
+              }
+            ],
+            "sharedWeights": true,
+            "zeroInputRetainsState": true,
+            "progress": 0.9642078744869298,
+            "bounds": [
+              546.9230769230769,
+              135,
+              1126.1538461538462,
+              610
+            ],
+            "scope": "computed educational toy model; not GPT architecture"
+          }
+        ],
+        "learningType": "rnn",
+        "authorshipPen": [
+          249.0743609604957,
+          802.1165762974438
+        ],
+        "predictedOutput": true,
+        "independentReply": false,
+        "sameSourcePens": 2,
+        "pensStoppedTogether": true,
+        "source": [
+          249.0743609604957,
+          802.1165762974438
+        ]
+      },
+      "checks": {
+        "correctShot": true,
+        "exactlyOneNetwork": true,
+        "expectedType": true,
+        "allNumericsFinite": true,
+        "legalProgress": true,
+        "networkWithinPicture": true,
+        "pixelsIdentical": true,
+        "auditIdentical": true
+      },
+      "pixels": {
+        "sha256": "122468f61ebcfd262e44823c79aa5128089b9b94ef00fc4b7538fc61da55ee43",
+        "repeatedSha256": "122468f61ebcfd262e44823c79aa5128089b9b94ef00fc4b7538fc61da55ee43",
+        "format": "RGBA8",
+        "width": 1920,
+        "height": 1080
+      },
+      "difference": null
+    },
+    {
+      "shot": "R80",
+      "frame": 11279,
+      "time": 187.98333333333332,
+      "requestedFraction": 0.9,
+      "actualFraction": 0.8945147679324851,
+      "neural": [
+        {
+          "type": "rnn",
+          "activeStep": 2,
+          "steps": [
+            {
+              "t": 0,
+              "x": [
+                1,
+                0.2
+              ],
+              "previous": [
+                0,
+                0
+              ],
+              "pre": [
+                0.6599999999999999,
+                0.31
+              ],
+              "h": [
+                0.5783634130445057,
+                0.3004370971476541
+              ]
+            },
+            {
+              "t": 1,
+              "x": [
+                0.3,
+                0.8
+              ],
+              "previous": [
+                0.5783634130445057,
+                0.3004370971476541
+              ],
+              "pre": [
+                0.4110017830510768,
+                0.6824696266989073
+              ],
+              "h": [
+                0.38932295198105915,
+                0.593122566392045
+              ]
+            },
+            {
+              "t": 2,
+              "x": [
+                0,
+                0
+              ],
+              "previous": [
+                0.38932295198105915,
+                0.593122566392045
+              ],
+              "pre": [
+                0.3620283037464952,
+                0.3662535012763255
+              ],
+              "h": [
+                0.3469993668522337,
+                0.35071035151981317
+              ]
+            }
+          ],
+          "sharedWeights": true,
+          "zeroInputRetainsState": true,
+          "progress": 1,
+          "bounds": [
+            546.9230769230769,
+            135,
+            1126.1538461538462,
+            610
+          ],
+          "scope": "computed educational toy model; not GPT architecture"
+        }
+      ],
+      "scene": {
+        "neural": [
+          {
+            "type": "rnn",
+            "activeStep": 2,
+            "steps": [
+              {
+                "t": 0,
+                "x": [
+                  1,
+                  0.2
+                ],
+                "previous": [
+                  0,
+                  0
+                ],
+                "pre": [
+                  0.6599999999999999,
+                  0.31
+                ],
+                "h": [
+                  0.5783634130445057,
+                  0.3004370971476541
+                ]
+              },
+              {
+                "t": 1,
+                "x": [
+                  0.3,
+                  0.8
+                ],
+                "previous": [
+                  0.5783634130445057,
+                  0.3004370971476541
+                ],
+                "pre": [
+                  0.4110017830510768,
+                  0.6824696266989073
+                ],
+                "h": [
+                  0.38932295198105915,
+                  0.593122566392045
+                ]
+              },
+              {
+                "t": 2,
+                "x": [
+                  0,
+                  0
+                ],
+                "previous": [
+                  0.38932295198105915,
+                  0.593122566392045
+                ],
+                "pre": [
+                  0.3620283037464952,
+                  0.3662535012763255
+                ],
+                "h": [
+                  0.3469993668522337,
+                  0.35071035151981317
+                ]
+              }
+            ],
+            "sharedWeights": true,
+            "zeroInputRetainsState": true,
+            "progress": 1,
+            "bounds": [
+              546.9230769230769,
+              135,
+              1126.1538461538462,
+              610
+            ],
+            "scope": "computed educational toy model; not GPT architecture"
+          }
+        ],
+        "learningType": "rnn",
+        "authorshipPen": [
+          249.0743609604957,
+          802.1165762974438
+        ],
+        "predictedOutput": true,
+        "independentReply": false,
+        "sameSourcePens": 2,
+        "pensStoppedTogether": true,
+        "source": [
+          249.0743609604957,
+          802.1165762974438
+        ]
+      },
+      "checks": {
+        "correctShot": true,
+        "exactlyOneNetwork": true,
+        "expectedType": true,
+        "allNumericsFinite": true,
+        "legalProgress": true,
+        "networkWithinPicture": true,
+        "pixelsIdentical": true,
+        "auditIdentical": true
+      },
+      "pixels": {
+        "sha256": "3aa4efcd53c888690d243e9d4a83ec7d8307bc5722f2af2577454de3af0cc24f",
+        "repeatedSha256": "3aa4efcd53c888690d243e9d4a83ec7d8307bc5722f2af2577454de3af0cc24f",
+        "format": "RGBA8",
+        "width": 1920,
+        "height": 1080
+      },
+      "difference": null
+    },
+    {
+      "shot": "R80",
+      "frame": 11303,
+      "time": 188.38333333333333,
+      "requestedFraction": 1,
+      "actualFraction": 0.9957805907172962,
+      "neural": [
+        {
+          "type": "rnn",
+          "activeStep": 2,
+          "steps": [
+            {
+              "t": 0,
+              "x": [
+                1,
+                0.2
+              ],
+              "previous": [
+                0,
+                0
+              ],
+              "pre": [
+                0.6599999999999999,
+                0.31
+              ],
+              "h": [
+                0.5783634130445057,
+                0.3004370971476541
+              ]
+            },
+            {
+              "t": 1,
+              "x": [
+                0.3,
+                0.8
+              ],
+              "previous": [
+                0.5783634130445057,
+                0.3004370971476541
+              ],
+              "pre": [
+                0.4110017830510768,
+                0.6824696266989073
+              ],
+              "h": [
+                0.38932295198105915,
+                0.593122566392045
+              ]
+            },
+            {
+              "t": 2,
+              "x": [
+                0,
+                0
+              ],
+              "previous": [
+                0.38932295198105915,
+                0.593122566392045
+              ],
+              "pre": [
+                0.3620283037464952,
+                0.3662535012763255
+              ],
+              "h": [
+                0.3469993668522337,
+                0.35071035151981317
+              ]
+            }
+          ],
+          "sharedWeights": true,
+          "zeroInputRetainsState": true,
+          "progress": 1,
+          "bounds": [
+            546.9230769230769,
+            135,
+            1126.1538461538462,
+            610
+          ],
+          "scope": "computed educational toy model; not GPT architecture"
+        }
+      ],
+      "scene": {
+        "neural": [
+          {
+            "type": "rnn",
+            "activeStep": 2,
+            "steps": [
+              {
+                "t": 0,
+                "x": [
+                  1,
+                  0.2
+                ],
+                "previous": [
+                  0,
+                  0
+                ],
+                "pre": [
+                  0.6599999999999999,
+                  0.31
+                ],
+                "h": [
+                  0.5783634130445057,
+                  0.3004370971476541
+                ]
+              },
+              {
+                "t": 1,
+                "x": [
+                  0.3,
+                  0.8
+                ],
+                "previous": [
+                  0.5783634130445057,
+                  0.3004370971476541
+                ],
+                "pre": [
+                  0.4110017830510768,
+                  0.6824696266989073
+                ],
+                "h": [
+                  0.38932295198105915,
+                  0.593122566392045
+                ]
+              },
+              {
+                "t": 2,
+                "x": [
+                  0,
+                  0
+                ],
+                "previous": [
+                  0.38932295198105915,
+                  0.593122566392045
+                ],
+                "pre": [
+                  0.3620283037464952,
+                  0.3662535012763255
+                ],
+                "h": [
+                  0.3469993668522337,
+                  0.35071035151981317
+                ]
+              }
+            ],
+            "sharedWeights": true,
+            "zeroInputRetainsState": true,
+            "progress": 1,
+            "bounds": [
+              546.9230769230769,
+              135,
+              1126.1538461538462,
+              610
+            ],
+            "scope": "computed educational toy model; not GPT architecture"
+          }
+        ],
+        "learningType": "rnn",
+        "authorshipPen": [
+          249.0743609604957,
+          802.1165762974438
+        ],
+        "predictedOutput": true,
+        "independentReply": false,
+        "sameSourcePens": 2,
+        "pensStoppedTogether": true,
+        "source": [
+          249.0743609604957,
+          802.1165762974438
+        ]
+      },
+      "checks": {
+        "correctShot": true,
+        "exactlyOneNetwork": true,
+        "expectedType": true,
+        "allNumericsFinite": true,
+        "legalProgress": true,
+        "networkWithinPicture": true,
+        "pixelsIdentical": true,
+        "auditIdentical": true
+      },
+      "pixels": {
+        "sha256": "dc8d375603bd44c4d0a0fa94bbf195e9038695fd2d73425ba61b838a52d53d33",
+        "repeatedSha256": "dc8d375603bd44c4d0a0fa94bbf195e9038695fd2d73425ba61b838a52d53d33",
+        "format": "RGBA8",
+        "width": 1920,
+        "height": 1080
+      },
+      "difference": null
+    }
+  ],
+  "renderer": "ASTRA v4 · 86 scenes · 6 second quiet coda · English and Chinese lyrics",
+  "canvas": [
+    1920,
+    1080
+  ],
+  "checks": {
+    "allSixShots": true,
+    "allRuntimeChecks": true,
+    "progressMonotone": true,
+    "eachNetworkHasEarlyAndCompletedStates": true,
+    "animationChangesPixels": true,
+    "positiveTeachingScope": true,
+    "latePredictionsNotNewReplies": true,
+    "rnnStatesAndSharedWeights": true,
+    "noPageErrors": true,
+    "inputsUnchangedDuringCheck": true
+  },
+  "passed": true
+}

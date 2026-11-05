@@ -56,7 +56,7 @@ def main():
     reference=Path(render['audio']['pcm_reference'])
     original,err=audio_track(FF,Path(render['inputs'][0]['input']),24000)
     if err: raise RuntimeError(err)
-    report={'passed':False,'version':'v3-warning','expected_frames':FRAMES,'expected_fps':FPS,'duration_seconds':FRAMES/FPS,'original_picture_start_frame':300,'original_picture_start_seconds':5,'card_is_static_source':True,'items':[],'scope':'Complete video/audio decoding, all encoded packet hashes and PTS, eight shifted original-v3 audio windows per output, two-channel silence. Visual review is separately reported; no medical flash-safety certification.'}
+    report={'passed':False,'version':render.get('version','v3-warning'),'expected_frames':FRAMES,'expected_fps':FPS,'duration_seconds':FRAMES/FPS,'original_picture_start_frame':300,'original_picture_start_seconds':5,'card_is_static_source':True,'items':[],'scope':'Complete video/audio decoding, all encoded packet hashes and PTS, eight shifted base-picture audio windows per output, two-channel silence. Visual review is separately reported; no medical flash-safety certification.'}
     pcm_reference=stereo_pcm(reference)
     report['reference_silence']={'head':silent_stats(pcm_reference,0,5),'tail':silent_stats(pcm_reference,5+13100/60-6,FRAMES/FPS)}
     shared_audio_hash=audio_hash(Path(render['audio']['encoded_once']))

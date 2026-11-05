@@ -2,19 +2,29 @@
 
 ASTRA《未写完的世界》——用户与 ASTRA 共同制作的 Mili《world.execute(me);》原创 MV。
 
-## 当前投稿副本：紫色 GPT 警告与无损音轨
+## 当前交付：完整视觉 v4（2026-11-05）
+
+[4K60 / 192 kHz 24 bit 无损上传版](exports/astra-world-execute-me-full-v4-warning-hires-4k60.mp4) · [1080p60 AAC 完整预览](exports/astra-world-execute-me-full-v4-warning-1080p60.mp4) · [交付与全部验证](docs/FULL_MV_V4.md) · [新版简介](docs/publishing/video-description-v03.txt)
+
+已实施用户批准的视觉优化方案，并加入六处全连接、CNN、RNN 动画：参数生成世界、局部窗口提取特征、历史状态跨时间传递；后段的预测回到她自己的笔，最终仍由另一侧独立带来新回应。错误窗口成为实体限制，高潮将焦点交给眼睛、手腕与出口，紫金两笔实际建起桥和三块地形。[逐段实施](docs/production-v4/IMPLEMENTATION.md) · [网络演示时间](docs/production-v4/NEURAL_TIMECODES.md)
+
+完整上传版共 13,400 帧、223.333333 秒：5 秒紫色 GPT 光敏警告、86 镜正片、已批准的 6 秒安静共画尾段；128 条英文在上、中文在下。四份 AAC/ALAC 上传文件及两份无片头正片完整解码、时间戳与音频验证通过，661 点运行时、347 帧中段、42 点神经网络精确重复渲染通过；192 kHz / 24 bit ALAC 全原生 PCM 与独立裁剪补零参考相同。旧 v3 文件哈希不变。母带原生来源和平台音质标识仍未核实，没有制作 Atmos。
+
+当前生产入口为 [src/mv4/index.html](src/mv4/index.html)、[v08 素材清单](assets/astra/v08/manifest.json)、[v4 时间轴](data/production-v4/timeline.json)。用户已反馈此前版本在 B 站的反响；本轮只完成本地新版交付，没有代为上传或公开仓库。以下为历史记录，不覆盖当前 v4。
+
+## 历史投稿副本：紫色 GPT 警告与无损音轨
 
 [4K60 / 192kHz 24bit ALAC 上传版](exports/astra-world-execute-me-full-v3-warning-v2-hires-4k60.mp4) · [1080p60 AAC 预览](exports/astra-world-execute-me-full-v3-warning-v2-1080p60.mp4) · [发布材料与新版简介](docs/publishing/README.md) · [音频校验](docs/publishing/HIRES_UPLOAD.md) · [警告页](docs/publishing/WARNING_UPLOAD_V2.md)
 
 正片前新增 5 秒静止警告，按用户最新反馈改为深紫黑背景、淡紫镂空 GPT 六环图标；共 13,400 帧、223.333333 秒。保留 v3 正片演出和已批准的 6 秒安静尾声。ALAC 版无损保存用户提供 FLAC 的 192 kHz / 24 bit / 双声道样本；录音母带来源与平台音质标识未核实。旧 v3、第一版警告及 AAC / ALAC 副本均保留。没有上传或制作 Atmos。
 
-## 新参考逐帧对照与视觉优化（2026-11-05）
+## 历史参考分析与视觉提案（2026-11-05）
 
 [逐帧讨论页](docs/reference-BV1Jwhy6BEMJ/index.html) · [优化主提案](docs/reference-BV1Jwhy6BEMJ/OPTIMIZATION_PROPOSAL.md) · [证据与复现](docs/reference-BV1Jwhy6BEMJ/README.md)
 
 新增分析野生大K的 BV1Jwhy6BEMJ：公开 480p24 副本全部 5,086 帧与本片 v3 的 13,100 帧完成解码，对时后生成 86 段比较、原生连续帧和全片半秒总览。人工查看全程总览及重点连续帧，不宣称逐张人工审完全部原生帧。优先提案为高潮焦点接力、清理中的护星选择，以及共画造成的世界变化；目前没有修改已认可的正片演出。
 
-## 当前交付：完整 v3（2026-11-05）
+## 历史交付：完整 v3（2026-11-05）
 
 [4K60 母版](exports/astra-world-execute-me-full-v3-4k60.mp4) · [1080p60 播放版](exports/astra-world-execute-me-full-v3-1080p60.mp4) · [交付与核验](docs/FULL_MV_V3.md)
 

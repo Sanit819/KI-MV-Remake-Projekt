@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "checks": {
+    "video_packet_bytes_equal_warning_input": true,
+    "original_13100_video_packets_equal": true,
+    "all_13400_pts_n_over_60": true,
+    "all_packet_durations_one_frame": true,
+    "strict_dts": true,
+    "original_pts_shifted_5s": true
+  },
+  "output_timebase": "1/60000",
+  "source_warning_timebase": "1/60000",
+  "original_v3_timebase": "1/60000"
+}
