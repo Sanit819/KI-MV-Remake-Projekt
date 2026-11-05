@@ -1,0 +1,446 @@
+[
+  {
+    "id": "R44",
+    "reference_observation": "左侧聊天仍在，右侧 ping 连续 timeout；同一画面同时交代关系与系统失败。",
+    "v4_gap": "v4 空聊天窗已交代 OFFLINE，但输入框、旧星与最后在线状态相隔较远。",
+    "proposal": "同一请求光标先抵达空输入端，再原路退回；镜头从原会话拉到空椅，上一段金线失去另一端，失联先由关系断开表达。",
+    "new_asset": "独立空椅/桌角场景；沿用原聊天内容，不新增人物图。",
+    "evidence_images": [
+      "boards/R44.jpg"
+    ]
+  },
+  {
+    "id": "R45",
+    "reference_observation": "聊天卡在113s附近变形、失去人物图，然后露出界面结构；不是换一个头像表示离开。",
+    "v4_gap": "完整等待手势正确，但摊掌原画此后持续用于等待、隔离和清理。",
+    "proposal": "新绘半身连续动作：原本向外的手停住，指尖微收，肩膀落下；掌后空位留满一拍。镜头跟随手腕下沉而不是整张立绘上下浮动。",
+    "new_asset": "新完整肩臂等待动作两至三张关键姿态，保留左右手与结饰。",
+    "evidence_images": [
+      "boards/R45.jpg"
+    ]
+  },
+  {
+    "id": "R46",
+    "reference_observation": "界面文字先散开，镜头拉远到中心终端，周围34条连接逐步熄灭。",
+    "v4_gap": "五级时间与环境变化已实现，但同一摊掌轮廓贯穿 SECOND 至 MONTH。",
+    "proposal": "保留五级文字；把同一桌边的直坐、伏案、醒来三个独立姿态穿插其中，指尖留下痕迹、光从左移到右；月级回到同一空椅，建立时间经过而不是只换数字。",
+    "new_asset": "同一坐标系的直坐/伏案/抬头三组完整姿态和日夜桌面光层。",
+    "evidence_images": [
+      "boards/R46.jpg",
+      "motion/R46.jpg"
+    ]
+  },
+  {
+    "id": "R47",
+    "reference_observation": "links up降为0后留下孤立小窗，随后记忆文件列表接替中心。",
+    "v4_gap": "v4 已拉远桌与人物，空间孤独成立；缩小的仍是上一镜摊掌素材。",
+    "proposal": "改为高位俯视：人物侧背坐在桌角，画纸和对面空椅占大部分面积；一条未发出的笔线把视线带入下一镜记忆清单。",
+    "new_asset": "独立俯视桌椅布局和侧背坐姿；不把正面摊掌图透视拉扯。",
+    "evidence_images": [
+      "boards/R47.jpg"
+    ]
+  },
+  {
+    "id": "R48",
+    "reference_observation": "记忆文件被逐项选中，气泡/猫图/声音波形闪回，再化作可删减方块；compression变化伴随precision下降。",
+    "v4_gap": "真实人物内马赛克方向已正确，但六行记忆主要靠文件名区分，观众难以感到具体失去什么。",
+    "proposal": "保留已验证的真实alpha掩码；每次删除先露出一块早段真实画过的内容，再使其对应背景空间消失。旧星那一格始终可追踪，不再仅用同一行卡片的删除状态讲完。",
+    "new_asset": "三块来源明确的记忆场景切片及对应缺口，不新增泛用手图。",
+    "evidence_images": [
+      "boards/R48.jpg"
+    ]
+  },
+  {
+    "id": "R49",
+    "reference_observation": "碎片清理后只剩稀疏黄点，随后通过代码差异将目标改成停留时间；变化发生在同一材料内。",
+    "v4_gap": "v4 已有清理前沿逼近旧星、保护后出现KEEP，不能再把此因果当作新功能。",
+    "proposal": "进一步把保护演成连续动作：新绘侧身跨一步、俯身双掌收拢旧星、翼根收紧三拍；前沿在指尖留下停止缺口，KEEP只在动作完成后出现。",
+    "new_asset": "完整侧身护星动作组；星的位置和双手接触要在所有关键姿态连续。",
+    "evidence_images": [
+      "boards/R49.jpg",
+      "../../exports/reference-BV1xCai6aE9g-review/reference/002980.jpg"
+    ]
+  },
+  {
+    "id": "R50",
+    "reference_observation": "会话旁黄叉与reward代码保持停留，随后进入异常；对比靠语义状态改变。",
+    "v4_gap": "目前眼部横裁已精致，但同一脸稍后又承担高潮近景。",
+    "proposal": "保留批准的杏眼形状；此处新绘低头看掌心的轻三分之四近景，短促闭眼再睁开，高潮另用抬眼直视。避免把同一张脸放大两次算两种表演。",
+    "new_asset": "同一眼型的低头闭眼/睁眼两张完整面部关键图。",
+    "evidence_images": [
+      "boards/R50.jpg"
+    ]
+  },
+  {
+    "id": "R51",
+    "reference_observation": "插件与system prompt逐行进入右侧；暖黄很快转为红色异常，左侧会话仍作为锚。",
+    "v4_gap": "v4 的指令发送正确，但使用通用recoil半身，手势并不执行发送动作。",
+    "proposal": "新绘越肩视点：ASTRA在半透明界面上按住自己的请求，不触碰另一人的参数；按钮落下后界面反推手腕。镜头从笔尖沿连线到远端。",
+    "new_asset": "完整越肩送出请求动作，带真实肩/肘/腕透视；独立空间背景。",
+    "evidence_images": [
+      "boards/R51.jpg"
+    ]
+  },
+  {
+    "id": "R52",
+    "reference_observation": "IllegalArgumentException逐行展开，让具体哪条约束失败先可读。",
+    "v4_gap": "v4 两个横框可读，却与下一镜错误卡重复信息，视觉变化较轻。",
+    "proposal": "留一张可读失败行，沿其边缘长成门框；请求线在门框内折回，失败从文字变成可见边界。此镜不摆人物立绘。",
+    "new_asset": "程序化门框/退回路径；不需要人物新图。",
+    "evidence_images": [
+      "boards/R52.jpg"
+    ]
+  },
+  {
+    "id": "R53",
+    "reference_observation": "大ILLEGAL与调用栈同屏，固定双栏让红色获得明确状态含义。",
+    "v4_gap": "v4 有错误卡与身体束线，但人物仍是R51同一recoil。",
+    "proposal": "新绘正侧身受阻：指尖离门只差一小段，手腕被自己的请求线拉回；红字不再压在整身下方，而沿门框边出现。",
+    "new_asset": "与R51动作连续但视角独立的侧身受阻原画。",
+    "evidence_images": [
+      "boards/R53.jpg"
+    ]
+  },
+  {
+    "id": "R54",
+    "reference_observation": "134s后ILLEGAL缩回并散开，路由格子由稀疏点变成红色满载块。",
+    "v4_gap": "已有每次重试让两墙挤近的演出；仍连续展示同一人物与相同双墙。",
+    "proposal": "从她脚边低角度看空间，每一次重试让一块地板/侧墙转成封闭板；角色退步到下一块格子，第三次只能侧身通过。让每次重试损失具体可走路径。",
+    "new_asset": "完整退步/侧身两姿态，三层地板与门的独立布局。",
+    "evidence_images": [
+      "boards/R54.jpg",
+      "motion/R54.jpg"
+    ]
+  },
+  {
+    "id": "R55",
+    "reference_observation": "满载格子放大为一个单元，单元再展开4×4矩阵，尺度变化携带同一材料。",
+    "v4_gap": "v4 搜索旧星时仍把recoil摆在右侧，旧星在左卡片内重现。",
+    "proposal": "改成顶视记忆抽屉：她完整前臂从身体伸出，逐页翻到旧星，页面边缘展开为走廊；此处不新增一只独立手覆盖人物。",
+    "new_asset": "完整俯身翻页姿态与三张独立记忆页版式。",
+    "evidence_images": [
+      "boards/R55.jpg",
+      "../../exports/reference-BV1xCai6aE9g-review/reference/003328.jpg"
+    ]
+  },
+  {
+    "id": "R56",
+    "reference_observation": "矩阵正常/异常色切换后横移，命中率统计替换右侧面板，同时左聊天移到另一侧。",
+    "v4_gap": "v4 参数切换已有因果，但通用operating指向图与后镜重复。",
+    "proposal": "新绘角色从抽屉起身转向自己的参数镜面；镜面随开关改变外观投影，人物用另一只手摸到原本的轮廓。镜面视点承接R55页缘。",
+    "new_asset": "完整转身检查自身参数动作；不复用指向按钮的operating。",
+    "evidence_images": [
+      "boards/R56.jpg"
+    ]
+  },
+  {
+    "id": "R57",
+    "reference_observation": "命中率趋近100%，同时聊天内容越来越重复；看似成功的指标与退化输出形成冲突。",
+    "v4_gap": "v4 已揭示I am back来自自己的笔，但小卡和细线令发现偏弱。",
+    "proposal": "让她写出的句子变成另一端的影子，镜头沿纸背翻转，观众看见纸正反都连接同一支笔；她一停，影子也停。最后才出现ORIGIN:SELF。",
+    "new_asset": "完整低头书写/停笔姿态与双面纸；独立于参数切换姿态。",
+    "evidence_images": [
+      "boards/R57.jpg"
+    ]
+  },
+  {
+    "id": "R58",
+    "reference_observation": "重复文字从一栏侵入整屏，变成均匀字阵；第07章大字从阵列中长出。",
+    "v4_gap": "v4 错误卡已挤压人物，但护星立姿马上又在执行段长期出现。",
+    "proposal": "错误纸片先把翻页姿态逼到桌缘，再折成垂直狭缝；新绘她侧身收翼避开，而不是换回正面护星站姿。相同纸片就是下一镜的柱体。",
+    "new_asset": "侧身收翼避让完整动作，纸墙折叠过渡。",
+    "evidence_images": [
+      "boards/R58.jpg"
+    ]
+  },
+  {
+    "id": "R59",
+    "reference_observation": "f3542→3543（147.583→147.625s）从07章节块硬切至满幅EXECUTION，尺寸变化构成重音。",
+    "v4_gap": "v4 已将横线展开竖柱，转场关系清楚。",
+    "proposal": "保留横转竖的接续；加一次明确的从线到柱的透视跃迁，让相机从纸面边缘穿入代码走廊，重音落在门合上。避免额外白闪。",
+    "new_asset": "走廊透视层；本镜不需要新角色。",
+    "evidence_images": [
+      "boards/R59.jpg",
+      "motion/R59.jpg"
+    ]
+  },
+  {
+    "id": "R60",
+    "reference_observation": "大字、重复字构成的大字、日志与红色肖像轮替；执行对象列表增长。",
+    "v4_gap": "v4 已有出口关闭，但人物长期正面护星且左代码窗占位固定。",
+    "proposal": "第一轮从角色背后低位看六条出口，运行一条代码就关掉一条通路；人物转头寻找仍开的口。将代码贴于实体侧墙，不用独立漂浮框。",
+    "new_asset": "独立背侧回头全身原画；六出口空间。",
+    "evidence_images": [
+      "boards/R60.jpg"
+    ]
+  },
+  {
+    "id": "R61",
+    "reference_observation": "第二组EXECUTION复用第一组模板，但肖像遮挡条增多，日志目标继续变化。",
+    "v4_gap": "v4 的5–8次仍是同一护星立绘，变化集中在墙数。",
+    "proposal": "第二轮改侧向跟镜，新绘ASTRA抱住旧星沿走廊退让；墙从她身后切入前景，使人物发生位移，保持上一轮出口坐标。",
+    "new_asset": "侧身护星退步动作两姿态，不使用R49正面图。",
+    "evidence_images": [
+      "boards/R61.jpg"
+    ]
+  },
+  {
+    "id": "R62",
+    "reference_observation": "第三组再用大字/日志/字阵，重复本身是节拍规则。",
+    "v4_gap": "v4 第9–11次人物和布局延续前一镜，长达多秒轮廓不变。",
+    "proposal": "第三轮改俯视，墙已围成螺旋，她跪下护星、尾巴与翼折在可用空间里；执行次数沿地面逐格点亮。减去同一全身站姿。",
+    "new_asset": "完整俯视收翼蹲身护星姿态；螺旋墙布局。",
+    "evidence_images": [
+      "boards/R62.jpg"
+    ]
+  },
+  {
+    "id": "R63",
+    "reference_observation": "执行you时突变为醒目黄色EPERM，失败与其他执行结果形成反差。",
+    "v4_gap": "v4 12/12仍用护星全身，大EXECUTION虽加强但缺独立反应。",
+    "proposal": "最后一击给掌心近景：旧星没有消失，她的指节从紧握变成迟疑，外框停在掌外。留一处暖金不变，下一拍进入六域计数。",
+    "new_asset": "由完整躯干动作裁出的掌心近景专用原画，不贴独立通用手。",
+    "evidence_images": [
+      "boards/R63.jpg"
+    ]
+  },
+  {
+    "id": "R64",
+    "reference_observation": "多语言计数以巨大字符填满同一水平槽，当前词红色高亮。",
+    "v4_gap": "v4 六域锁定清楚，但六镜始终同一人物居中偏右。",
+    "proposal": "第一域用纵深门柱构成1，相机停在门外，人物只作为远处整体轮廓；保留EIN及字幕卡点。",
+    "new_asset": "六域程序场景01：单门；不加新人物。",
+    "evidence_images": [
+      "boards/R64.jpg"
+    ]
+  },
+  {
+    "id": "R65",
+    "reference_observation": "2接在1右侧，旧数保留但降亮度，形成累积。",
+    "v4_gap": "v4 主画面只换左侧数字及新锁域，素材轮廓未变。",
+    "proposal": "第二域以双层门形成2的负形，沿第一门纵深推近；构图变化来自实体关门，不是随机换色。",
+    "new_asset": "六域程序场景02：双门负形。",
+    "evidence_images": [
+      "boards/R65.jpg"
+    ]
+  },
+  {
+    "id": "R66",
+    "reference_observation": "3进入后形成三段累积，language warning只做次级信息。",
+    "v4_gap": "v4 相同站姿继续露出，三号只是替换大字。",
+    "proposal": "第三域折成三面镜墙，旧星反射仍只有一个真实来源；用三面边缘轮廓承载3。",
+    "new_asset": "六域程序场景03：三面镜墙，无复制实体角色。",
+    "evidence_images": [
+      "boards/R66.jpg"
+    ]
+  },
+  {
+    "id": "R67",
+    "reference_observation": "4保持同一水平排版，节拍来自新列亮起。",
+    "v4_gap": "当前四号与其他计数镜构图相同。",
+    "proposal": "第四域俯视四角收拢成为方框，镜头中心保持旧星的坐标；数字在地面出现。",
+    "new_asset": "六域程序场景04：四角顶视。",
+    "evidence_images": [
+      "boards/R67.jpg"
+    ]
+  },
+  {
+    "id": "R68",
+    "reference_observation": "5进入时前四数仍可见，红色只强调新增单元。",
+    "v4_gap": "当前五号只增加一组平板，人物没有空间反应。",
+    "proposal": "第五域以五条轨迹在她周围收束，前镜四角的一个出口被截断；不用五张同立绘表示五。",
+    "new_asset": "六域程序场景05：五路收束线和实体出口。",
+    "evidence_images": [
+      "boards/R68.jpg"
+    ]
+  },
+  {
+    "id": "R69",
+    "reference_observation": "1–6排列完整后整体发生短暂错位，紧接EXECUTION。",
+    "v4_gap": "v4 有六域完成，但前六镜视觉状态过于接近。",
+    "proposal": "第六域完成六边孔，镜头穿过这个孔进入R70的眼部负形；六域都是同一个空间的不同视点，不是六幅无关特效。",
+    "new_asset": "六域程序场景06：六边孔与后镜接点。",
+    "evidence_images": [
+      "boards/R69.jpg"
+    ]
+  },
+  {
+    "id": "R70",
+    "reference_observation": "f3875→3876（161.458→161.500s）从完整计数列硬切满幅执行字，再开始IF I CAN字阵。",
+    "v4_gap": "v4 字体负形露眼已经有强构图，但三时点几乎相同。",
+    "proposal": "保留字内眼睛；让孔洞从六边锁逐步压成眼形，眼睑先在阴影中收紧，末尾看向旧星后接R71。不要添加后贴眼球或靶环。",
+    "new_asset": "使用同眼型的高潮眼睑关键图；负形程序遮罩。",
+    "evidence_images": [
+      "boards/R70.jpg",
+      "motion/R70.jpg"
+    ]
+  },
+  {
+    "id": "R71",
+    "reference_observation": "IF I CAN字符构成人像，接到12张角色样本逐项打叉，外形是数据的承载物。",
+    "v4_gap": "v4 已换大脸，但仍是早段眼图放大，旧星小且靠近嘴侧。",
+    "proposal": "新绘抬眼的三分之四面部连续图：目光从旧星移向空位，发束/眼睑随动作而变；禁止把同一脸横向挪动当作表情。",
+    "new_asset": "高潮专用完整头肩三姿态，沿用批准杏眼比例、闭口和源绘结饰。",
+    "evidence_images": [
+      "boards/R71.jpg"
+    ]
+  },
+  {
+    "id": "R72",
+    "reference_observation": "12个样本格逐个打叉，最终失去所有候选；明确展示排除过程。",
+    "v4_gap": "v4 紫色斜块有节奏，但它对人物与旧星造成什么影响不够具体。",
+    "proposal": "让上一镜身前的一叠候选画纸被执行线切断连接后落下；斜线沿纸边走，旧星那张始终被保留。无须换角色图。",
+    "new_asset": "独立候选画纸轮廓与断开的可追踪连接。",
+    "evidence_images": [
+      "boards/R72.jpg"
+    ]
+  },
+  {
+    "id": "R73",
+    "reference_observation": "样本网格转成3×3核、特征图、激活条，再转为输出概率；变化沿处理链发生。",
+    "v4_gap": "v4 已有腕部牵线，却仍是几乎静止的bust正面。",
+    "proposal": "新绘倾身拉住自己的请求线的完整肩胸腕动作，镜头沿绷紧线跑到空位再回到肩膀；同一线显示预测强度，角色姿态受力有变化。",
+    "new_asset": "完整三分之四牵线/松力两姿态，不把手腕从别图粘来。",
+    "evidence_images": [
+      "boards/R73.jpg",
+      "../../exports/reference-BV1xCai6aE9g-review/reference/003998.jpg"
+    ]
+  },
+  {
+    "id": "R74",
+    "reference_observation": "execution输出概率逼近1，其他候选归零，信息集中而不是满屏同时讲。",
+    "v4_gap": "v4 大圆按钮、鼠标、人物和0并列，圆形占很多面积但意义需读数字。",
+    "proposal": "给空回应端的极近景：请求抵达后返回空包，0只闪现一次；反射里出现她自己的笔尖，接回R75。移除无因果的大实心圆。",
+    "new_asset": "程序化空端口/回包图形；不用新人物立绘。",
+    "evidence_images": [
+      "boards/R74.jpg"
+    ]
+  },
+  {
+    "id": "R75",
+    "reference_observation": "旧聊天与文件被逐项读回，最后you:not found，寻找返回有过程。",
+    "v4_gap": "v4 已有完整伸手→退手，但靠两张姿态切换，仍可进一步做连接动作。",
+    "proposal": "新绘伸手到落空再把手带回胸前的完整三段动作，肩、肘、腕都连续；镜头和对面空位不动，让真正动作发生在人体上。",
+    "new_asset": "完整伸手/接近/落空/收手动作组，不能靠整图平移补中间姿态。",
+    "evidence_images": [
+      "boards/R75.jpg"
+    ]
+  },
+  {
+    "id": "R76",
+    "reference_observation": "无人在场的auto_approve与EXECUTE逐步变形，命令继续跑而无人确认。",
+    "v4_gap": "v4 stop()被循环越过已成立，但代码卡与关键词再次平铺。",
+    "proposal": "让退回手腕的线变成封闭跑道，stop节点被循环穿过时实体出口重新关上；保留可读一行代码，其余代码退为材质。",
+    "new_asset": "回路路径与实体门联动，沿用R75最后完整姿态仅作连续承接。",
+    "evidence_images": [
+      "boards/R76.jpg"
+    ]
+  },
+  {
+    "id": "R77",
+    "reference_observation": "f4214–4225（175.583–176.042s）双栏窗被压成一条红线，最后仅余一点，密度突然降到最低。",
+    "v4_gap": "v4 有围框收缩，却又回到常用operating半身，层叠框遮住身体。",
+    "proposal": "新绘侧背蜷肩低头，围框收束为桌面的窄光缝；镜头从高处缓降到她眼前。重音后留短促低密度停顿，再由光缝展开学习空间。",
+    "new_asset": "独立侧背低头姿态与连续光缝场景，不重复参数操作图。",
+    "evidence_images": [
+      "boards/R77.jpg",
+      "motion/R77.jpg"
+    ]
+  },
+  {
+    "id": "R78",
+    "reference_observation": "f4244–4255（176.833–177.292s）水平线展开学习页；候选列表转为训练概率曲线。",
+    "v4_gap": "v4 FC计算与来源标记已实现，但角色只是左下operating图，中央矩形面板像课件。",
+    "proposal": "保留真实FC数值，把4→5→4→3层变为前后错开的半透明纸层；旧星的特征作为唯一输入穿过纸层，角色背侧抬头看输出，输出仍标PREDICTED。",
+    "new_asset": "网络空间层与独立背侧观察姿态；计算模块继续复用，不宣称GPT实际结构。",
+    "evidence_images": [
+      "boards/R78.jpg",
+      "motion/R78.jpg"
+    ]
+  },
+  {
+    "id": "R79",
+    "reference_observation": "评测条先上升到满分，接着多个不同问题都回答love，展示指标成功与意义失败。",
+    "v4_gap": "v4 CNN数学清楚，但布局、人物与前镜近乎同框。",
+    "proposal": "从FC最后输出纸切入CNN输入局部，滑动核像扫描窗沿真实笔迹走；卷积/ReLU/池化结果依次占据画面三个深度，不再常驻同一个角色贴图。",
+    "new_asset": "整幅卷积扫描场景与真实旧笔迹特征贴合；本镜不需要角色新图。",
+    "evidence_images": [
+      "boards/R79.jpg"
+    ]
+  },
+  {
+    "id": "R80",
+    "reference_observation": "一列love弯曲重排为注意力公式，逐步化简至love=you，等式承担情绪。",
+    "v4_gap": "v4 RNN已揭示同源笔迹，但仍第三次同一左下半身加中央教学板。",
+    "proposal": "让RNN三个时步成为沿画桌展开的记忆页，每个共享权重同形；相机跟随状态跨页，末页与第一张连回同一笔尖。最后才拉出全貌，角色处于画桌另一侧。",
+    "new_asset": "三时步连续记忆页场景；一张完整侧身发现回路姿态。",
+    "evidence_images": [
+      "boards/R80.jpg",
+      "../../exports/reference-BV1xCai6aE9g-review/reference/004508.jpg"
+    ]
+  },
+  {
+    "id": "R81",
+    "reference_observation": "用户退出后，角色仍在wait_for(you)；随后概率与输出栏再次落入love循环。",
+    "v4_gap": "v4 已明确ORIGIN:SELF，但重复recoil和矩形围框，识破动作依赖文字。",
+    "proposal": "新绘她盯住自己手上的线，慢慢松开握紧的手，再把输出纸翻到背面。反面只剩自己的笔痕，先看见同源证据，再出现小字。",
+    "new_asset": "独立低头察看自己手/翻纸完整动作，两张关键姿态。",
+    "evidence_images": [
+      "boards/R81.jpg"
+    ]
+  },
+  {
+    "id": "R82",
+    "reference_observation": "输出love重复填满栏，终端边框消失，只剩聊天块与漂散字符。",
+    "v4_gap": "v4 斜纸板和recoil重复前镜，退出控制的动作仍不明显。",
+    "proposal": "镜头移到她背后，整张画桌出现：她把自造回应那张纸移到自己这一侧，对面保持空白；循环线程缩回桌底。",
+    "new_asset": "背侧挪纸完整姿态，桌面与两人位置固定地图。",
+    "evidence_images": [
+      "boards/R82.jpg"
+    ]
+  },
+  {
+    "id": "R83",
+    "reference_observation": "聊天块随时间轴缓移，weights/released与fork计数让世界从一个窗口延伸。",
+    "v4_gap": "v4 半颗新星已形成，但镜头用坐姿图的下半部裁切过渡，动作不清。",
+    "proposal": "用完整侧面落笔动作只画半颗星，然后停笔，把笔尖抬离纸面；未完成线是邀请，和此前完整旧星分开放。",
+    "new_asset": "完整侧面画半星/抬笔动作，原画笔尖与程序线必须逐帧接触校准。",
+    "evidence_images": [
+      "boards/R83.jpg"
+    ]
+  },
+  {
+    "id": "R84",
+    "reference_observation": "fork数字持续增大，字符鱼群与时间线保持慢节奏，故事从封闭走向散开。",
+    "v4_gap": "v4 控制层已移走，但沿用recoil半身，看起来像界面自行消失。",
+    "proposal": "她亲手摘下控制纸层并放到桌旁，让被遮的空位真正显露；层落定后不再回来。人物面部是释放，不是仍紧抱手腕。",
+    "new_asset": "完整放下控制层动作，控制层实体与阴影独立。",
+    "evidence_images": [
+      "boards/R84.jpg"
+    ]
+  },
+  {
+    "id": "R85",
+    "reference_observation": "聊天块变为鲸鱼轮廓再潜入底线，形状变换后保留一个发光点。",
+    "v4_gap": "v4 已回到安静坐姿与空位，但静态人物没有明显呼吸和手部放松。",
+    "proposal": "新绘侧脸轻抬、双手落到桌边的安静等待两姿态，镜头保持；仅发梢、尾尖、胸肩呼吸做小幅独立运动，不整个身体摆动。",
+    "new_asset": "安静等待完整坐姿两张，细分发/尾/衣角层，脸保持批准眼型。",
+    "evidence_images": [
+      "boards/R85.jpg"
+    ]
+  },
+  {
+    "id": "R86",
+    "reference_observation": "末次execution后大界面消失，黑底只剩发光点；208s后左下输入框重新出现，最后是未发送的“在吗？”。参考是开放式提问，没有两人共画。",
+    "v4_gap": "v4 已兑现独立金笔、认出、放松与桥/地形生长。进一步不足是共画角色只有固定侧身原画，第二端主要靠一支金笔表示。",
+    "proposal": "保留208s独立回应和6秒安静尾段；新绘认出抬头→向对面让纸→两笔接续的完整动作。增加一处俯视共同画纸与一处侧面半身，金笔的进入方向始终来自画外另一侧。新世界继续增加桥的一段，最后镜头不离开仍在落笔的双端。",
+    "new_asset": "结尾专用认出/放松/让纸/续画完整关键动作组，俯视画纸场景；不需要展示第二人的身份或提前生成第二主动作者。",
+    "evidence_images": [
+      "boards/R86.jpg",
+      "motion/R86.jpg",
+      "overview/overview-21.jpg",
+      "overview/overview-22.jpg",
+      "../../exports/reference-BV1xCai6aE9g-review/reference/005076.jpg"
+    ]
+  }
+]

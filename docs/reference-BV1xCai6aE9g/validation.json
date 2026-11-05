@@ -1,0 +1,35 @@
+{
+  "analysis_artifacts_valid": true,
+  "date": "2026-11-05",
+  "bvid": "BV1xCai6aE9g",
+  "comparison_version": "accepted_v4",
+  "reviewed_segments": 86,
+  "comparison_boards": 86,
+  "native_motion_boards": 86,
+  "full_duration_half_second_overview_sheets": 22,
+  "decoded_and_numerically_measured_frames": {
+    "reference": 5085,
+    "astra": 13100
+  },
+  "distinct_reference_frames_present_in_actually_viewed_evidence": 962,
+  "human_visual_scope": "All half-second overviews and 86 same-music boards, selected native consecutive strips and full-size frames. Some boards were viewed in combined thumbnails. Not manual inspection of every native frame or continuous audio/video playback.",
+  "source_sha256": {
+    "reference": "f9a28e990d799933445d550c9becebfc5eac906b906a7287b24d58881954b011",
+    "astra": "27468f5d26431c5cafde118ea800b2432ebd35a7a41b413c7d2820dccb33bdd8"
+  },
+  "audio_alignment_strict_0_95_passed": false,
+  "audio_mapping_use": "Visual correspondence at 24 fps only; strict correlation gate failure retained, no sample-exact synchronization claim.",
+  "v4_sources_and_used_art_unchanged": true,
+  "v4_4k_alac_upload_unchanged_sha256": "01b66d81e4892bfe6f7b8f946ecadb80eaa801659a764d096b4ee8f78e4fef19",
+  "v4_source_call_crosscheck_samples": 661,
+  "ui_validation_sha256": "7f7357d235a65f38c78e7cd6048785ec97bf6e05674c09f763035880246b7a49",
+  "html_sha256": "3b5504956bbca7de0a8e8eb75483a32a7243835683ae9840408ce3cc67afaa99",
+  "proposal_status": "21 action groups / 52 complete key poses proposed; no final-edition production implemented",
+  "checked_documents": {
+    "OPTIMIZATION_PROPOSAL.md": "1877a9c69044bff05835e3f68e5317a585fce9972b36e0c5f96f0c17716a7c66",
+    "REFERENCE_EARLY.md": "8cfca161b977789965b710ab274c34622c8856d694799381d64795a38483b299",
+    "REFERENCE_LATE.md": "236f2404e02351b7d5c714dbdf376e6da0b21744efac9f823020081b3cdcf8d6",
+    "V4_REUSE_AUDIT.md": "3326ad222835df30629796e10128ea1afc5c1e29d424916a1ed680db896d7886",
+    "UI_REVIEW.md": "79e53b57c964a83f287a27318706da126b5f438b22ec18989a35810587bc4b94"
+  }
+}

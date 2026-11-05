@@ -1,0 +1,2369 @@
+{
+  "version": 1,
+  "date": "2026-11-05",
+  "mode": "source-function execution at all 13100 source frames using no-op canvas, not video pixel visibility",
+  "limitations": [
+    "No-op text width, clips, masks and occlusion are not pixels. Zero-area clips may submit a source.",
+    "R48 uses dummy raster alpha for control flow; no claim about actual alpha coverage. Its one midWait submission agrees with real-browser samples.",
+    "A reused source moved, cropped, recolored or masked remains the same artwork. Calls include simultaneous artworks; their durations are not additive film time."
+  ],
+  "fps": 60,
+  "total_frames": 13100,
+  "body_seconds": 218.33333333333334,
+  "warning_seconds": 5,
+  "source_hashes": {
+    "src/mv4/art.js": "81ef731809b0a0a2bfff7f918f7f648bf982d16a01588f87b1664684c5cf112e",
+    "src/mv4/early.js": "553de3e7827d373733cf18edd93604de1556ddaac3c59f4e86a66067f2db90d8",
+    "src/mv4/index.html": "ab8f7cc927d2afb768d21db8f4a325cfb4ccb74c0eb1d9f34797f447ae167b1e",
+    "src/mv4/kit.js": "11c87d385d8fcd93f1373bf8205b6f97553facf616a6ef56093b559b1e31c9ee",
+    "src/mv4/late.js": "8b069ea7c5549f6dab65dab875a5be323cdf3593f7614371b16879d85da4399a",
+    "src/mv4/main.js": "336dda1fcc94c82622ce599d616af84ac58fdcef7080e29e6cab766c7d06cf2e",
+    "src/mv4/middle.js": "5d9e2dd51ae7ac85cd507a92170e0a77f11a77cfd38c140f2f3635b3e7d2e738",
+    "src/mv4/neural.js": "c009bbf313862cd910c304f053075f10517da4bdfb896deb67f31536aafe7773"
+  },
+  "manifest_sha256": "d7bfbba5f56bcaab301a6d2ebecde0d78b76316bb002d62777cae045178bdf94",
+  "actual_qa_sha256": "71c446ce0ce79d429fef14589cb2c54d30e26429b212374dc573fd1119805987",
+  "crosscheck": {
+    "actual_browser_samples": 661,
+    "compared_samples": 661,
+    "matching": 661,
+    "mismatches": []
+  },
+  "summary": {
+    "loaded_assets": 27,
+    "used_assets": 23,
+    "used_astra_assets": 17,
+    "used_guests": 6,
+    "any_art_submission_frames": 9144,
+    "astra_submission_frames": 8978,
+    "astra_submission_seconds": 149.63333333333333,
+    "total_draw_submissions": 10085,
+    "top_three": [
+      "recoil",
+      "operating",
+      "protect"
+    ],
+    "top_three_union_frames": 4485,
+    "top_three_union_seconds": 74.75,
+    "top_three_union_share_of_astra_submission_frames": 0.49955446647360213
+  },
+  "assets": [
+    {
+      "name": "recoil",
+      "path": "/assets/astra/v07/recoil-knot.png",
+      "sha256": "27cb70e1257236db1f7ae8e6a6faca13d02f77c3869cec735a7d692bfe6b6fb8",
+      "frame_submissions": 1688,
+      "call_count": 1688,
+      "nonzero_alpha_submission_frames": 1688,
+      "shots": [
+        "R51",
+        "R53",
+        "R54",
+        "R55",
+        "R74",
+        "R75",
+        "R81",
+        "R82",
+        "R84",
+        "R86"
+      ],
+      "submission_seconds": 28.133333333333333,
+      "share_of_astra_source_frames": 0.18801514813989753,
+      "is_guest": false
+    },
+    {
+      "name": "operating",
+      "path": "/assets/astra/v07/operating-knot.png",
+      "sha256": "39b090e4e5547b9754ac6261af8b80da1c7f7b3fbacf21c3c0e1afd82489b5d2",
+      "frame_submissions": 1624,
+      "call_count": 1624,
+      "nonzero_alpha_submission_frames": 1624,
+      "shots": [
+        "R23",
+        "R32",
+        "R33",
+        "R56",
+        "R57",
+        "R77",
+        "R78",
+        "R79",
+        "R80"
+      ],
+      "submission_seconds": 27.066666666666666,
+      "share_of_astra_source_frames": 0.18088661171753173,
+      "is_guest": false
+    },
+    {
+      "name": "protect",
+      "path": "/assets/astra/final/protect-knot.png",
+      "sha256": "7274e78017c42cdb16325a1853398fae60bfe54cddfcbbdeb6d6bfb036995e68",
+      "frame_submissions": 1173,
+      "call_count": 1173,
+      "nonzero_alpha_submission_frames": 1173,
+      "shots": [
+        "R49",
+        "R58",
+        "R60",
+        "R61",
+        "R62",
+        "R63",
+        "R64",
+        "R65",
+        "R66",
+        "R67",
+        "R68",
+        "R69"
+      ],
+      "submission_seconds": 19.55,
+      "share_of_astra_source_frames": 0.13065270661617287,
+      "is_guest": false
+    },
+    {
+      "name": "bust",
+      "path": "/assets/astra/v07/bust-knot.png",
+      "sha256": "e459b40bd2276f3c9296a66cc1f308f1129ce547012689c2afcfc5fb081c2ca6",
+      "frame_submissions": 853,
+      "call_count": 853,
+      "nonzero_alpha_submission_frames": 853,
+      "shots": [
+        "R21",
+        "R34",
+        "R35",
+        "R38",
+        "R73"
+      ],
+      "submission_seconds": 14.216666666666667,
+      "share_of_astra_source_frames": 0.09501002450434395,
+      "is_guest": false
+    },
+    {
+      "name": "midReceive",
+      "path": "/assets/astra/v08/mid-receive.png",
+      "sha256": "5ef8890114bb155d28fc8144e5adee26ee3ae3ded4c159450639d5a14a62d4e5",
+      "frame_submissions": 650,
+      "call_count": 650,
+      "nonzero_alpha_submission_frames": 650,
+      "shots": [
+        "R36",
+        "R40",
+        "R41",
+        "R42",
+        "R43"
+      ],
+      "submission_seconds": 10.833333333333334,
+      "share_of_astra_source_frames": 0.07239919803965249,
+      "is_guest": false
+    },
+    {
+      "name": "midWait",
+      "path": "/assets/astra/v08/mid-wait.png",
+      "sha256": "c8836350580f9ecdcd503ffe811b819c3031e924bc261c8e6701661fad42437c",
+      "frame_submissions": 526,
+      "call_count": 526,
+      "nonzero_alpha_submission_frames": 526,
+      "shots": [
+        "R45",
+        "R46",
+        "R47",
+        "R48"
+      ],
+      "submission_seconds": 8.766666666666667,
+      "share_of_astra_source_frames": 0.058587658721318776,
+      "is_guest": false
+    },
+    {
+      "name": "earlyTangent",
+      "path": "/assets/astra/v08/early-tangent.png",
+      "sha256": "cec887d27980a65d6a645535f8e03cad11ac3dc8e7dc3e1c7e1c126f92560e14",
+      "frame_submissions": 459,
+      "call_count": 459,
+      "nonzero_alpha_submission_frames": 399,
+      "shots": [
+        "R01",
+        "R11"
+      ],
+      "submission_seconds": 7.65,
+      "share_of_astra_source_frames": 0.0511249721541546,
+      "is_guest": false
+    },
+    {
+      "name": "back",
+      "path": "/assets/astra/v07/back-knot.png",
+      "sha256": "d24000f5124d6614f9d5225d0603528203e6c76716f214322877d59bd9b97410",
+      "frame_submissions": 440,
+      "call_count": 440,
+      "nonzero_alpha_submission_frames": 440,
+      "shots": [
+        "R86"
+      ],
+      "submission_seconds": 7.333333333333333,
+      "share_of_astra_source_frames": 0.04900868790376476,
+      "is_guest": false
+    },
+    {
+      "name": "sit",
+      "path": "/assets/astra/final/sit-knot.png",
+      "sha256": "4e6f8e950ea7fcfe19ca65a64d8798c886759c8468ed616a819a3559b9939ed4",
+      "frame_submissions": 437,
+      "call_count": 437,
+      "nonzero_alpha_submission_frames": 437,
+      "shots": [
+        "R83",
+        "R85",
+        "R86"
+      ],
+      "submission_seconds": 7.283333333333333,
+      "share_of_astra_source_frames": 0.04867453775896636,
+      "is_guest": false
+    },
+    {
+      "name": "eye",
+      "path": "/assets/astra/v08/face-eye-v02.png",
+      "sha256": "876997f390bc0e6f6b32ede584f4f3a030b24b5c33ec096201a2df9a2077c480",
+      "frame_submissions": 270,
+      "call_count": 270,
+      "nonzero_alpha_submission_frames": 270,
+      "shots": [
+        "R50",
+        "R70",
+        "R71"
+      ],
+      "submission_seconds": 4.5,
+      "share_of_astra_source_frames": 0.030073513031855646,
+      "is_guest": false
+    },
+    {
+      "name": "earlyTravel",
+      "path": "/assets/astra/v08/early-travel-framed.png",
+      "sha256": "0df36e9626f3f5cbebd3683b20745d2ceb07c8c9e2117a170df73fe86c6fcbef",
+      "frame_submissions": 222,
+      "call_count": 222,
+      "nonzero_alpha_submission_frames": 222,
+      "shots": [
+        "R15"
+      ],
+      "submission_seconds": 3.7,
+      "share_of_astra_source_frames": 0.02472711071508131,
+      "is_guest": false
+    },
+    {
+      "name": "earlyCircle",
+      "path": "/assets/astra/v08/early-circle.png",
+      "sha256": "4bcc297c398464587a9d8145ba92c6cd6266ab77c0f870725589f0b2a457dd8a",
+      "frame_submissions": 221,
+      "call_count": 221,
+      "nonzero_alpha_submission_frames": 221,
+      "shots": [
+        "R10"
+      ],
+      "submission_seconds": 3.683333333333333,
+      "share_of_astra_source_frames": 0.024615727333481843,
+      "is_guest": false
+    },
+    {
+      "name": "cat",
+      "path": "/assets/astra/v07/cat-knot.png",
+      "sha256": "c02461813af3c9bf00fc6e1e530c2935bf379eff591582d10bc172245aa8b90c",
+      "frame_submissions": 208,
+      "call_count": 208,
+      "nonzero_alpha_submission_frames": 208,
+      "shots": [
+        "R30",
+        "R31"
+      ],
+      "submission_seconds": 3.466666666666667,
+      "share_of_astra_source_frames": 0.023167743372688794,
+      "is_guest": false
+    },
+    {
+      "name": "guest0",
+      "path": "/assets/astra/v07/guest0.png",
+      "sha256": "18633c3868189a3957b3cfc45bd1b77fb0d260b655fd911d327c6aac3b36eecf",
+      "frame_submissions": 166,
+      "call_count": 166,
+      "nonzero_alpha_submission_frames": 165,
+      "shots": [
+        "R19"
+      ],
+      "submission_seconds": 2.7666666666666666,
+      "share_of_astra_source_frames": 0.01848964134551125,
+      "is_guest": true
+    },
+    {
+      "name": "guest1",
+      "path": "/assets/astra/v07/guest1.png",
+      "sha256": "4e653f2a0fbfee1e309cf70df7af481e4ceb06ae498d6e1992b593af7795451a",
+      "frame_submissions": 166,
+      "call_count": 166,
+      "nonzero_alpha_submission_frames": 159,
+      "shots": [
+        "R19"
+      ],
+      "submission_seconds": 2.7666666666666666,
+      "share_of_astra_source_frames": 0.01848964134551125,
+      "is_guest": true
+    },
+    {
+      "name": "guest2",
+      "path": "/assets/astra/v07/guest2.png",
+      "sha256": "afdac5749cb37eeaba6436c34278aaf097a200a7ac5c39e17c86335abde9d736",
+      "frame_submissions": 166,
+      "call_count": 166,
+      "nonzero_alpha_submission_frames": 152,
+      "shots": [
+        "R19"
+      ],
+      "submission_seconds": 2.7666666666666666,
+      "share_of_astra_source_frames": 0.01848964134551125,
+      "is_guest": true
+    },
+    {
+      "name": "guest3",
+      "path": "/assets/astra/v07/guest3.png",
+      "sha256": "617217f25f58f2102396a64a7c013692ad39a68ca40c7484f61ac0ce379e2911",
+      "frame_submissions": 166,
+      "call_count": 166,
+      "nonzero_alpha_submission_frames": 146,
+      "shots": [
+        "R19"
+      ],
+      "submission_seconds": 2.7666666666666666,
+      "share_of_astra_source_frames": 0.01848964134551125,
+      "is_guest": true
+    },
+    {
+      "name": "guest4",
+      "path": "/assets/astra/v07/guest4.png",
+      "sha256": "73fbc3461789363e7c43d83f01097b0a4b94b2a14d8058ae12d3386c27faa3ff",
+      "frame_submissions": 166,
+      "call_count": 166,
+      "nonzero_alpha_submission_frames": 139,
+      "shots": [
+        "R19"
+      ],
+      "submission_seconds": 2.7666666666666666,
+      "share_of_astra_source_frames": 0.01848964134551125,
+      "is_guest": true
+    },
+    {
+      "name": "guest5",
+      "path": "/assets/astra/v07/guest5.png",
+      "sha256": "269ea1f2debc345146db37c466f9e03e3a88f6ae356996c761dce92a24217ad8",
+      "frame_submissions": 166,
+      "call_count": 166,
+      "nonzero_alpha_submission_frames": 132,
+      "shots": [
+        "R19"
+      ],
+      "submission_seconds": 2.7666666666666666,
+      "share_of_astra_source_frames": 0.01848964134551125,
+      "is_guest": true
+    },
+    {
+      "name": "male",
+      "path": "/assets/astra/v07/male-knot.png",
+      "sha256": "1bed896dafc87437a14b073a9a10caa0caed1554e4bd2d29448076037acb0638",
+      "frame_submissions": 111,
+      "call_count": 111,
+      "nonzero_alpha_submission_frames": 111,
+      "shots": [
+        "R34"
+      ],
+      "submission_seconds": 1.85,
+      "share_of_astra_source_frames": 0.012363555357540655,
+      "is_guest": false
+    },
+    {
+      "name": "reach",
+      "path": "/assets/astra/final/reach-knot.png",
+      "sha256": "3ee9912a28573a170ecee14710f8ea12d7547582c1879bed9613b9009faa9d4e",
+      "frame_submissions": 98,
+      "call_count": 98,
+      "nonzero_alpha_submission_frames": 98,
+      "shots": [
+        "R75"
+      ],
+      "submission_seconds": 1.6333333333333333,
+      "share_of_astra_source_frames": 0.010915571396747606,
+      "is_guest": false
+    },
+    {
+      "name": "sitSmile",
+      "path": "/assets/astra/v06-eye-study/smile-candidate.png",
+      "sha256": "8c9677167630c939407b7f5c41c9d97228dcd54599d1511d111712d6e545d026",
+      "frame_submissions": 56,
+      "call_count": 56,
+      "nonzero_alpha_submission_frames": 56,
+      "shots": [
+        "R86"
+      ],
+      "submission_seconds": 0.9333333333333333,
+      "share_of_astra_source_frames": 0.00623746936957006,
+      "is_guest": false
+    },
+    {
+      "name": "surprise",
+      "path": "/assets/astra/v06-eye-study/surprise-candidate.png",
+      "sha256": "c5c7cd4b94843b967cc90478f7a29f55bbb82f8a8bb48197a7d96e525446babc",
+      "frame_submissions": 53,
+      "call_count": 53,
+      "nonzero_alpha_submission_frames": 53,
+      "shots": [
+        "R86"
+      ],
+      "submission_seconds": 0.8833333333333333,
+      "share_of_astra_source_frames": 0.005903319224771664,
+      "is_guest": false
+    }
+  ],
+  "shots": [
+    {
+      "id": "R01",
+      "start_frame": 0,
+      "end_frame": 237,
+      "song_start": 0,
+      "song_end": 3.95,
+      "upload_start": 5,
+      "upload_end": 8.95,
+      "assets": {
+        "earlyTangent": {
+          "submission_frames": 237,
+          "submission_seconds": 3.95
+        }
+      },
+      "source_groups": []
+    },
+    {
+      "id": "R02",
+      "start_frame": 237,
+      "end_frame": 459,
+      "song_start": 3.95,
+      "song_end": 7.65,
+      "upload_start": 8.95,
+      "upload_end": 12.65,
+      "assets": {},
+      "source_groups": []
+    },
+    {
+      "id": "R03",
+      "start_frame": 459,
+      "end_frame": 680,
+      "song_start": 7.65,
+      "song_end": 11.333333333333334,
+      "upload_start": 12.65,
+      "upload_end": 16.333333333333336,
+      "assets": {},
+      "source_groups": []
+    },
+    {
+      "id": "R04",
+      "start_frame": 680,
+      "end_frame": 902,
+      "song_start": 11.333333333333334,
+      "song_end": 15.033333333333333,
+      "upload_start": 16.333333333333336,
+      "upload_end": 20.03333333333333,
+      "assets": {},
+      "source_groups": []
+    },
+    {
+      "id": "R05",
+      "start_frame": 902,
+      "end_frame": 1013,
+      "song_start": 15.033333333333333,
+      "song_end": 16.883333333333333,
+      "upload_start": 20.03333333333333,
+      "upload_end": 21.883333333333333,
+      "assets": {},
+      "source_groups": []
+    },
+    {
+      "id": "R06",
+      "start_frame": 1013,
+      "end_frame": 1345,
+      "song_start": 16.883333333333333,
+      "song_end": 22.416666666666668,
+      "upload_start": 21.883333333333333,
+      "upload_end": 27.416666666666668,
+      "assets": {},
+      "source_groups": []
+    },
+    {
+      "id": "R07",
+      "start_frame": 1345,
+      "end_frame": 1566,
+      "song_start": 22.416666666666668,
+      "song_end": 26.1,
+      "upload_start": 27.416666666666668,
+      "upload_end": 31.1,
+      "assets": {},
+      "source_groups": []
+    },
+    {
+      "id": "R08",
+      "start_frame": 1566,
+      "end_frame": 1760,
+      "song_start": 26.1,
+      "song_end": 29.333333333333332,
+      "upload_start": 31.1,
+      "upload_end": 34.33333333333333,
+      "assets": {},
+      "source_groups": []
+    },
+    {
+      "id": "R09",
+      "start_frame": 1760,
+      "end_frame": 1996,
+      "song_start": 29.333333333333332,
+      "song_end": 33.266666666666666,
+      "upload_start": 34.33333333333333,
+      "upload_end": 38.266666666666666,
+      "assets": {},
+      "source_groups": []
+    },
+    {
+      "id": "R10",
+      "start_frame": 1996,
+      "end_frame": 2217,
+      "song_start": 33.266666666666666,
+      "song_end": 36.95,
+      "upload_start": 38.266666666666666,
+      "upload_end": 41.95,
+      "assets": {
+        "earlyCircle": {
+          "submission_frames": 221,
+          "submission_seconds": 3.683333333333333
+        }
+      },
+      "source_groups": []
+    },
+    {
+      "id": "R11",
+      "start_frame": 2217,
+      "end_frame": 2439,
+      "song_start": 36.95,
+      "song_end": 40.65,
+      "upload_start": 41.95,
+      "upload_end": 45.65,
+      "assets": {
+        "earlyTangent": {
+          "submission_frames": 222,
+          "submission_seconds": 3.7
+        }
+      },
+      "source_groups": []
+    },
+    {
+      "id": "R12",
+      "start_frame": 2439,
+      "end_frame": 2674,
+      "song_start": 40.65,
+      "song_end": 44.56666666666667,
+      "upload_start": 45.65,
+      "upload_end": 49.56666666666667,
+      "assets": {},
+      "source_groups": []
+    },
+    {
+      "id": "R13",
+      "start_frame": 2674,
+      "end_frame": 2896,
+      "song_start": 44.56666666666667,
+      "song_end": 48.266666666666666,
+      "upload_start": 49.56666666666667,
+      "upload_end": 53.266666666666666,
+      "assets": {},
+      "source_groups": []
+    },
+    {
+      "id": "R14",
+      "start_frame": 2896,
+      "end_frame": 3117,
+      "song_start": 48.266666666666666,
+      "song_end": 51.95,
+      "upload_start": 53.266666666666666,
+      "upload_end": 56.95,
+      "assets": {},
+      "source_groups": []
+    },
+    {
+      "id": "R15",
+      "start_frame": 3117,
+      "end_frame": 3339,
+      "song_start": 51.95,
+      "song_end": 55.65,
+      "upload_start": 56.95,
+      "upload_end": 60.65,
+      "assets": {
+        "earlyTravel": {
+          "submission_frames": 222,
+          "submission_seconds": 3.7
+        }
+      },
+      "source_groups": []
+    },
+    {
+      "id": "R16",
+      "start_frame": 3339,
+      "end_frame": 3560,
+      "song_start": 55.65,
+      "song_end": 59.333333333333336,
+      "upload_start": 60.65,
+      "upload_end": 64.33333333333334,
+      "assets": {},
+      "source_groups": []
+    },
+    {
+      "id": "R17",
+      "start_frame": 3560,
+      "end_frame": 3713,
+      "song_start": 59.333333333333336,
+      "song_end": 61.88333333333333,
+      "upload_start": 64.33333333333334,
+      "upload_end": 66.88333333333333,
+      "assets": {},
+      "source_groups": []
+    },
+    {
+      "id": "R18",
+      "start_frame": 3713,
+      "end_frame": 3754,
+      "song_start": 61.88333333333333,
+      "song_end": 62.56666666666667,
+      "upload_start": 66.88333333333333,
+      "upload_end": 67.56666666666666,
+      "assets": {},
+      "source_groups": []
+    },
+    {
+      "id": "R19",
+      "start_frame": 3754,
+      "end_frame": 3920,
+      "song_start": 62.56666666666667,
+      "song_end": 65.33333333333333,
+      "upload_start": 67.56666666666666,
+      "upload_end": 70.33333333333333,
+      "assets": {
+        "guest0": {
+          "submission_frames": 166,
+          "submission_seconds": 2.7666666666666666
+        },
+        "guest1": {
+          "submission_frames": 166,
+          "submission_seconds": 2.7666666666666666
+        },
+        "guest2": {
+          "submission_frames": 166,
+          "submission_seconds": 2.7666666666666666
+        },
+        "guest3": {
+          "submission_frames": 166,
+          "submission_seconds": 2.7666666666666666
+        },
+        "guest4": {
+          "submission_frames": 166,
+          "submission_seconds": 2.7666666666666666
+        },
+        "guest5": {
+          "submission_frames": 166,
+          "submission_seconds": 2.7666666666666666
+        }
+      },
+      "source_groups": []
+    },
+    {
+      "id": "R20",
+      "start_frame": 3920,
+      "end_frame": 3976,
+      "song_start": 65.33333333333333,
+      "song_end": 66.26666666666667,
+      "upload_start": 70.33333333333333,
+      "upload_end": 71.26666666666667,
+      "assets": {},
+      "source_groups": []
+    },
+    {
+      "id": "R21",
+      "start_frame": 3976,
+      "end_frame": 4156,
+      "song_start": 66.26666666666667,
+      "song_end": 69.26666666666667,
+      "upload_start": 71.26666666666667,
+      "upload_end": 74.26666666666667,
+      "assets": {
+        "bust": {
+          "submission_frames": 180,
+          "submission_seconds": 3
+        }
+      },
+      "source_groups": []
+    },
+    {
+      "id": "R22",
+      "start_frame": 4156,
+      "end_frame": 4197,
+      "song_start": 69.26666666666667,
+      "song_end": 69.95,
+      "upload_start": 74.26666666666667,
+      "upload_end": 74.95,
+      "assets": {},
+      "source_groups": []
+    },
+    {
+      "id": "R23",
+      "start_frame": 4197,
+      "end_frame": 4391,
+      "song_start": 69.95,
+      "song_end": 73.18333333333334,
+      "upload_start": 74.95,
+      "upload_end": 78.18333333333334,
+      "assets": {
+        "operating": {
+          "submission_frames": 194,
+          "submission_seconds": 3.2333333333333334
+        }
+      },
+      "source_groups": []
+    },
+    {
+      "id": "R24",
+      "start_frame": 4391,
+      "end_frame": 4446,
+      "song_start": 73.18333333333334,
+      "song_end": 74.1,
+      "upload_start": 78.18333333333334,
+      "upload_end": 79.1,
+      "assets": {},
+      "source_groups": []
+    },
+    {
+      "id": "R25",
+      "start_frame": 4446,
+      "end_frame": 4474,
+      "song_start": 74.1,
+      "song_end": 74.56666666666666,
+      "upload_start": 79.1,
+      "upload_end": 79.56666666666666,
+      "assets": {},
+      "source_groups": []
+    },
+    {
+      "id": "R26",
+      "start_frame": 4474,
+      "end_frame": 4654,
+      "song_start": 74.56666666666666,
+      "song_end": 77.56666666666666,
+      "upload_start": 79.56666666666666,
+      "upload_end": 82.56666666666666,
+      "assets": {},
+      "source_groups": []
+    },
+    {
+      "id": "R27",
+      "start_frame": 4654,
+      "end_frame": 4696,
+      "song_start": 77.56666666666666,
+      "song_end": 78.26666666666667,
+      "upload_start": 82.56666666666666,
+      "upload_end": 83.26666666666667,
+      "assets": {},
+      "source_groups": []
+    },
+    {
+      "id": "R28",
+      "start_frame": 4696,
+      "end_frame": 4876,
+      "song_start": 78.26666666666667,
+      "song_end": 81.26666666666667,
+      "upload_start": 83.26666666666667,
+      "upload_end": 86.26666666666667,
+      "assets": {},
+      "source_groups": []
+    },
+    {
+      "id": "R29",
+      "start_frame": 4876,
+      "end_frame": 4917,
+      "song_start": 81.26666666666667,
+      "song_end": 81.95,
+      "upload_start": 86.26666666666667,
+      "upload_end": 86.95,
+      "assets": {},
+      "source_groups": []
+    },
+    {
+      "id": "R30",
+      "start_frame": 4917,
+      "end_frame": 5097,
+      "song_start": 81.95,
+      "song_end": 84.95,
+      "upload_start": 86.95,
+      "upload_end": 89.95,
+      "assets": {
+        "cat": {
+          "submission_frames": 180,
+          "submission_seconds": 3
+        }
+      },
+      "source_groups": []
+    },
+    {
+      "id": "R31",
+      "start_frame": 5097,
+      "end_frame": 5125,
+      "song_start": 84.95,
+      "song_end": 85.41666666666667,
+      "upload_start": 89.95,
+      "upload_end": 90.41666666666667,
+      "assets": {
+        "cat": {
+          "submission_frames": 28,
+          "submission_seconds": 0.4666666666666667
+        }
+      },
+      "source_groups": []
+    },
+    {
+      "id": "R32",
+      "start_frame": 5125,
+      "end_frame": 5333,
+      "song_start": 85.41666666666667,
+      "song_end": 88.88333333333334,
+      "upload_start": 90.41666666666667,
+      "upload_end": 93.88333333333334,
+      "assets": {
+        "operating": {
+          "submission_frames": 208,
+          "submission_seconds": 3.466666666666667
+        }
+      },
+      "source_groups": []
+    },
+    {
+      "id": "R33",
+      "start_frame": 5333,
+      "end_frame": 5443,
+      "song_start": 88.88333333333334,
+      "song_end": 90.71666666666667,
+      "upload_start": 93.88333333333334,
+      "upload_end": 95.71666666666667,
+      "assets": {
+        "operating": {
+          "submission_frames": 110,
+          "submission_seconds": 1.8333333333333333
+        }
+      },
+      "source_groups": []
+    },
+    {
+      "id": "R34",
+      "start_frame": 5443,
+      "end_frame": 5554,
+      "song_start": 90.71666666666667,
+      "song_end": 92.56666666666666,
+      "upload_start": 95.71666666666667,
+      "upload_end": 97.56666666666666,
+      "assets": {
+        "bust": {
+          "submission_frames": 111,
+          "submission_seconds": 1.85
+        },
+        "male": {
+          "submission_frames": 111,
+          "submission_seconds": 1.85
+        }
+      },
+      "source_groups": []
+    },
+    {
+      "id": "R35",
+      "start_frame": 5554,
+      "end_frame": 5776,
+      "song_start": 92.56666666666666,
+      "song_end": 96.26666666666667,
+      "upload_start": 97.56666666666666,
+      "upload_end": 101.26666666666667,
+      "assets": {
+        "bust": {
+          "submission_frames": 222,
+          "submission_seconds": 3.7
+        }
+      },
+      "source_groups": []
+    },
+    {
+      "id": "R36",
+      "start_frame": 5776,
+      "end_frame": 5997,
+      "song_start": 96.26666666666667,
+      "song_end": 99.95,
+      "upload_start": 101.26666666666667,
+      "upload_end": 104.95,
+      "assets": {
+        "midReceive": {
+          "submission_frames": 221,
+          "submission_seconds": 3.683333333333333
+        }
+      },
+      "source_groups": []
+    },
+    {
+      "id": "R37",
+      "start_frame": 5997,
+      "end_frame": 6025,
+      "song_start": 99.95,
+      "song_end": 100.41666666666667,
+      "upload_start": 104.95,
+      "upload_end": 105.41666666666667,
+      "assets": {},
+      "source_groups": []
+    },
+    {
+      "id": "R38",
+      "start_frame": 6025,
+      "end_frame": 6191,
+      "song_start": 100.41666666666667,
+      "song_end": 103.18333333333334,
+      "upload_start": 105.41666666666667,
+      "upload_end": 108.18333333333334,
+      "assets": {
+        "bust": {
+          "submission_frames": 166,
+          "submission_seconds": 2.7666666666666666
+        }
+      },
+      "source_groups": []
+    },
+    {
+      "id": "R39",
+      "start_frame": 6191,
+      "end_frame": 6219,
+      "song_start": 103.18333333333334,
+      "song_end": 103.65,
+      "upload_start": 108.18333333333334,
+      "upload_end": 108.65,
+      "assets": {},
+      "source_groups": []
+    },
+    {
+      "id": "R40",
+      "start_frame": 6219,
+      "end_frame": 6371,
+      "song_start": 103.65,
+      "song_end": 106.18333333333334,
+      "upload_start": 108.65,
+      "upload_end": 111.18333333333334,
+      "assets": {
+        "midReceive": {
+          "submission_frames": 152,
+          "submission_seconds": 2.533333333333333
+        }
+      },
+      "source_groups": []
+    },
+    {
+      "id": "R41",
+      "start_frame": 6371,
+      "end_frame": 6440,
+      "song_start": 106.18333333333334,
+      "song_end": 107.33333333333333,
+      "upload_start": 111.18333333333334,
+      "upload_end": 112.33333333333333,
+      "assets": {
+        "midReceive": {
+          "submission_frames": 69,
+          "submission_seconds": 1.15
+        }
+      },
+      "source_groups": []
+    },
+    {
+      "id": "R42",
+      "start_frame": 6440,
+      "end_frame": 6606,
+      "song_start": 107.33333333333333,
+      "song_end": 110.1,
+      "upload_start": 112.33333333333333,
+      "upload_end": 115.1,
+      "assets": {
+        "midReceive": {
+          "submission_frames": 166,
+          "submission_seconds": 2.7666666666666666
+        }
+      },
+      "source_groups": []
+    },
+    {
+      "id": "R43",
+      "start_frame": 6606,
+      "end_frame": 6648,
+      "song_start": 110.1,
+      "song_end": 110.8,
+      "upload_start": 115.1,
+      "upload_end": 115.8,
+      "assets": {
+        "midReceive": {
+          "submission_frames": 42,
+          "submission_seconds": 0.7
+        }
+      },
+      "source_groups": []
+    },
+    {
+      "id": "R44",
+      "start_frame": 6648,
+      "end_frame": 6773,
+      "song_start": 110.8,
+      "song_end": 112.88333333333334,
+      "upload_start": 115.8,
+      "upload_end": 117.88333333333334,
+      "assets": {},
+      "source_groups": []
+    },
+    {
+      "id": "R45",
+      "start_frame": 6773,
+      "end_frame": 6883,
+      "song_start": 112.88333333333334,
+      "song_end": 114.71666666666667,
+      "upload_start": 117.88333333333334,
+      "upload_end": 119.71666666666667,
+      "assets": {
+        "midWait": {
+          "submission_frames": 110,
+          "submission_seconds": 1.8333333333333333
+        }
+      },
+      "source_groups": []
+    },
+    {
+      "id": "R46",
+      "start_frame": 6883,
+      "end_frame": 7036,
+      "song_start": 114.71666666666667,
+      "song_end": 117.26666666666667,
+      "upload_start": 119.71666666666667,
+      "upload_end": 122.26666666666667,
+      "assets": {
+        "midWait": {
+          "submission_frames": 153,
+          "submission_seconds": 2.55
+        }
+      },
+      "source_groups": []
+    },
+    {
+      "id": "R47",
+      "start_frame": 7036,
+      "end_frame": 7105,
+      "song_start": 117.26666666666667,
+      "song_end": 118.41666666666667,
+      "upload_start": 122.26666666666667,
+      "upload_end": 123.41666666666667,
+      "assets": {
+        "midWait": {
+          "submission_frames": 69,
+          "submission_seconds": 1.15
+        }
+      },
+      "source_groups": []
+    },
+    {
+      "id": "R48",
+      "start_frame": 7105,
+      "end_frame": 7299,
+      "song_start": 118.41666666666667,
+      "song_end": 121.65,
+      "upload_start": 123.41666666666667,
+      "upload_end": 126.65,
+      "assets": {
+        "midWait": {
+          "submission_frames": 194,
+          "submission_seconds": 3.2333333333333334
+        }
+      },
+      "source_groups": []
+    },
+    {
+      "id": "R49",
+      "start_frame": 7299,
+      "end_frame": 7479,
+      "song_start": 121.65,
+      "song_end": 124.65,
+      "upload_start": 126.65,
+      "upload_end": 129.65,
+      "assets": {
+        "protect": {
+          "submission_frames": 180,
+          "submission_seconds": 3
+        }
+      },
+      "source_groups": []
+    },
+    {
+      "id": "R50",
+      "start_frame": 7479,
+      "end_frame": 7534,
+      "song_start": 124.65,
+      "song_end": 125.56666666666666,
+      "upload_start": 129.65,
+      "upload_end": 130.56666666666666,
+      "assets": {
+        "eye": {
+          "submission_frames": 55,
+          "submission_seconds": 0.9166666666666666
+        }
+      },
+      "source_groups": []
+    },
+    {
+      "id": "R51",
+      "start_frame": 7534,
+      "end_frame": 7714,
+      "song_start": 125.56666666666666,
+      "song_end": 128.56666666666666,
+      "upload_start": 130.56666666666666,
+      "upload_end": 133.56666666666666,
+      "assets": {
+        "recoil": {
+          "submission_frames": 180,
+          "submission_seconds": 3
+        }
+      },
+      "source_groups": []
+    },
+    {
+      "id": "R52",
+      "start_frame": 7714,
+      "end_frame": 7866,
+      "song_start": 128.56666666666666,
+      "song_end": 131.1,
+      "upload_start": 133.56666666666666,
+      "upload_end": 136.1,
+      "assets": {},
+      "source_groups": []
+    },
+    {
+      "id": "R53",
+      "start_frame": 7866,
+      "end_frame": 7991,
+      "song_start": 131.1,
+      "song_end": 133.18333333333334,
+      "upload_start": 136.1,
+      "upload_end": 138.18333333333334,
+      "assets": {
+        "recoil": {
+          "submission_frames": 125,
+          "submission_seconds": 2.0833333333333335
+        }
+      },
+      "source_groups": []
+    },
+    {
+      "id": "R54",
+      "start_frame": 7991,
+      "end_frame": 8213,
+      "song_start": 133.18333333333334,
+      "song_end": 136.88333333333333,
+      "upload_start": 138.18333333333334,
+      "upload_end": 141.88333333333333,
+      "assets": {
+        "recoil": {
+          "submission_frames": 222,
+          "submission_seconds": 3.7
+        }
+      },
+      "source_groups": []
+    },
+    {
+      "id": "R55",
+      "start_frame": 8213,
+      "end_frame": 8434,
+      "song_start": 136.88333333333333,
+      "song_end": 140.56666666666666,
+      "upload_start": 141.88333333333333,
+      "upload_end": 145.56666666666666,
+      "assets": {
+        "recoil": {
+          "submission_frames": 221,
+          "submission_seconds": 3.683333333333333
+        }
+      },
+      "source_groups": []
+    },
+    {
+      "id": "R56",
+      "start_frame": 8434,
+      "end_frame": 8545,
+      "song_start": 140.56666666666666,
+      "song_end": 142.41666666666666,
+      "upload_start": 145.56666666666666,
+      "upload_end": 147.41666666666666,
+      "assets": {
+        "operating": {
+          "submission_frames": 111,
+          "submission_seconds": 1.85
+        }
+      },
+      "source_groups": []
+    },
+    {
+      "id": "R57",
+      "start_frame": 8545,
+      "end_frame": 8656,
+      "song_start": 142.41666666666666,
+      "song_end": 144.26666666666668,
+      "upload_start": 147.41666666666666,
+      "upload_end": 149.26666666666668,
+      "assets": {
+        "operating": {
+          "submission_frames": 111,
+          "submission_seconds": 1.85
+        }
+      },
+      "source_groups": []
+    },
+    {
+      "id": "R58",
+      "start_frame": 8656,
+      "end_frame": 8836,
+      "song_start": 144.26666666666668,
+      "song_end": 147.26666666666668,
+      "upload_start": 149.26666666666668,
+      "upload_end": 152.26666666666668,
+      "assets": {
+        "protect": {
+          "submission_frames": 180,
+          "submission_seconds": 3
+        }
+      },
+      "source_groups": []
+    },
+    {
+      "id": "R59",
+      "start_frame": 8836,
+      "end_frame": 8877,
+      "song_start": 147.26666666666668,
+      "song_end": 147.95,
+      "upload_start": 152.26666666666668,
+      "upload_end": 152.95,
+      "assets": {},
+      "source_groups": []
+    },
+    {
+      "id": "R60",
+      "start_frame": 8877,
+      "end_frame": 9099,
+      "song_start": 147.95,
+      "song_end": 151.65,
+      "upload_start": 152.95,
+      "upload_end": 156.65,
+      "assets": {
+        "protect": {
+          "submission_frames": 222,
+          "submission_seconds": 3.7
+        }
+      },
+      "source_groups": []
+    },
+    {
+      "id": "R61",
+      "start_frame": 9099,
+      "end_frame": 9320,
+      "song_start": 151.65,
+      "song_end": 155.33333333333334,
+      "upload_start": 156.65,
+      "upload_end": 160.33333333333334,
+      "assets": {
+        "protect": {
+          "submission_frames": 221,
+          "submission_seconds": 3.683333333333333
+        }
+      },
+      "source_groups": []
+    },
+    {
+      "id": "R62",
+      "start_frame": 9320,
+      "end_frame": 9486,
+      "song_start": 155.33333333333334,
+      "song_end": 158.1,
+      "upload_start": 160.33333333333334,
+      "upload_end": 163.1,
+      "assets": {
+        "protect": {
+          "submission_frames": 166,
+          "submission_seconds": 2.7666666666666666
+        }
+      },
+      "source_groups": []
+    },
+    {
+      "id": "R63",
+      "start_frame": 9486,
+      "end_frame": 9529,
+      "song_start": 158.1,
+      "song_end": 158.81666666666666,
+      "upload_start": 163.1,
+      "upload_end": 163.81666666666666,
+      "assets": {
+        "protect": {
+          "submission_frames": 43,
+          "submission_seconds": 0.7166666666666667
+        }
+      },
+      "source_groups": []
+    },
+    {
+      "id": "R64",
+      "start_frame": 9529,
+      "end_frame": 9554,
+      "song_start": 158.81666666666666,
+      "song_end": 159.23333333333332,
+      "upload_start": 163.81666666666666,
+      "upload_end": 164.23333333333332,
+      "assets": {
+        "protect": {
+          "submission_frames": 25,
+          "submission_seconds": 0.4166666666666667
+        }
+      },
+      "source_groups": []
+    },
+    {
+      "id": "R65",
+      "start_frame": 9554,
+      "end_frame": 9574,
+      "song_start": 159.23333333333332,
+      "song_end": 159.56666666666666,
+      "upload_start": 164.23333333333332,
+      "upload_end": 164.56666666666666,
+      "assets": {
+        "protect": {
+          "submission_frames": 20,
+          "submission_seconds": 0.3333333333333333
+        }
+      },
+      "source_groups": []
+    },
+    {
+      "id": "R66",
+      "start_frame": 9574,
+      "end_frame": 9610,
+      "song_start": 159.56666666666666,
+      "song_end": 160.16666666666666,
+      "upload_start": 164.56666666666666,
+      "upload_end": 165.16666666666666,
+      "assets": {
+        "protect": {
+          "submission_frames": 36,
+          "submission_seconds": 0.6
+        }
+      },
+      "source_groups": []
+    },
+    {
+      "id": "R67",
+      "start_frame": 9610,
+      "end_frame": 9637,
+      "song_start": 160.16666666666666,
+      "song_end": 160.61666666666667,
+      "upload_start": 165.16666666666666,
+      "upload_end": 165.61666666666667,
+      "assets": {
+        "protect": {
+          "submission_frames": 27,
+          "submission_seconds": 0.45
+        }
+      },
+      "source_groups": []
+    },
+    {
+      "id": "R68",
+      "start_frame": 9637,
+      "end_frame": 9662,
+      "song_start": 160.61666666666667,
+      "song_end": 161.03333333333333,
+      "upload_start": 165.61666666666667,
+      "upload_end": 166.03333333333333,
+      "assets": {
+        "protect": {
+          "submission_frames": 25,
+          "submission_seconds": 0.4166666666666667
+        }
+      },
+      "source_groups": []
+    },
+    {
+      "id": "R69",
+      "start_frame": 9662,
+      "end_frame": 9690,
+      "song_start": 161.03333333333333,
+      "song_end": 161.5,
+      "upload_start": 166.03333333333333,
+      "upload_end": 166.5,
+      "assets": {
+        "protect": {
+          "submission_frames": 28,
+          "submission_seconds": 0.4666666666666667
+        }
+      },
+      "source_groups": []
+    },
+    {
+      "id": "R70",
+      "start_frame": 9690,
+      "end_frame": 9753,
+      "song_start": 161.5,
+      "song_end": 162.55,
+      "upload_start": 166.5,
+      "upload_end": 167.55,
+      "assets": {
+        "eye": {
+          "submission_frames": 63,
+          "submission_seconds": 1.05
+        }
+      },
+      "source_groups": []
+    },
+    {
+      "id": "R71",
+      "start_frame": 9753,
+      "end_frame": 9905,
+      "song_start": 162.55,
+      "song_end": 165.08333333333334,
+      "upload_start": 167.55,
+      "upload_end": 170.08333333333334,
+      "assets": {
+        "eye": {
+          "submission_frames": 152,
+          "submission_seconds": 2.533333333333333
+        }
+      },
+      "source_groups": []
+    },
+    {
+      "id": "R72",
+      "start_frame": 9905,
+      "end_frame": 9956,
+      "song_start": 165.08333333333334,
+      "song_end": 165.93333333333334,
+      "upload_start": 170.08333333333334,
+      "upload_end": 170.93333333333334,
+      "assets": {},
+      "source_groups": []
+    },
+    {
+      "id": "R73",
+      "start_frame": 9956,
+      "end_frame": 10130,
+      "song_start": 165.93333333333334,
+      "song_end": 168.83333333333334,
+      "upload_start": 170.93333333333334,
+      "upload_end": 173.83333333333334,
+      "assets": {
+        "bust": {
+          "submission_frames": 174,
+          "submission_seconds": 2.9
+        }
+      },
+      "source_groups": []
+    },
+    {
+      "id": "R74",
+      "start_frame": 10130,
+      "end_frame": 10184,
+      "song_start": 168.83333333333334,
+      "song_end": 169.73333333333332,
+      "upload_start": 173.83333333333334,
+      "upload_end": 174.73333333333332,
+      "assets": {
+        "recoil": {
+          "submission_frames": 54,
+          "submission_seconds": 0.9
+        }
+      },
+      "source_groups": []
+    },
+    {
+      "id": "R75",
+      "start_frame": 10184,
+      "end_frame": 10358,
+      "song_start": 169.73333333333332,
+      "song_end": 172.63333333333333,
+      "upload_start": 174.73333333333332,
+      "upload_end": 177.63333333333333,
+      "assets": {
+        "reach": {
+          "submission_frames": 98,
+          "submission_seconds": 1.6333333333333333
+        },
+        "recoil": {
+          "submission_frames": 76,
+          "submission_seconds": 1.2666666666666666
+        }
+      },
+      "source_groups": []
+    },
+    {
+      "id": "R76",
+      "start_frame": 10358,
+      "end_frame": 10414,
+      "song_start": 172.63333333333333,
+      "song_end": 173.56666666666666,
+      "upload_start": 177.63333333333333,
+      "upload_end": 178.56666666666666,
+      "assets": {},
+      "source_groups": []
+    },
+    {
+      "id": "R77",
+      "start_frame": 10414,
+      "end_frame": 10630,
+      "song_start": 173.56666666666666,
+      "song_end": 177.16666666666666,
+      "upload_start": 178.56666666666666,
+      "upload_end": 182.16666666666666,
+      "assets": {
+        "operating": {
+          "submission_frames": 216,
+          "submission_seconds": 3.6
+        }
+      },
+      "source_groups": []
+    },
+    {
+      "id": "R78",
+      "start_frame": 10630,
+      "end_frame": 10846,
+      "song_start": 177.16666666666666,
+      "song_end": 180.76666666666668,
+      "upload_start": 182.16666666666666,
+      "upload_end": 185.76666666666668,
+      "assets": {
+        "operating": {
+          "submission_frames": 216,
+          "submission_seconds": 3.6
+        }
+      },
+      "source_groups": []
+    },
+    {
+      "id": "R79",
+      "start_frame": 10846,
+      "end_frame": 11067,
+      "song_start": 180.76666666666668,
+      "song_end": 184.45,
+      "upload_start": 185.76666666666668,
+      "upload_end": 189.45,
+      "assets": {
+        "operating": {
+          "submission_frames": 221,
+          "submission_seconds": 3.683333333333333
+        }
+      },
+      "source_groups": []
+    },
+    {
+      "id": "R80",
+      "start_frame": 11067,
+      "end_frame": 11304,
+      "song_start": 184.45,
+      "song_end": 188.4,
+      "upload_start": 189.45,
+      "upload_end": 193.4,
+      "assets": {
+        "operating": {
+          "submission_frames": 237,
+          "submission_seconds": 3.95
+        }
+      },
+      "source_groups": []
+    },
+    {
+      "id": "R81",
+      "start_frame": 11304,
+      "end_frame": 11536,
+      "song_start": 188.4,
+      "song_end": 192.26666666666668,
+      "upload_start": 193.4,
+      "upload_end": 197.26666666666668,
+      "assets": {
+        "recoil": {
+          "submission_frames": 232,
+          "submission_seconds": 3.8666666666666667
+        }
+      },
+      "source_groups": []
+    },
+    {
+      "id": "R82",
+      "start_frame": 11536,
+      "end_frame": 11757,
+      "song_start": 192.26666666666668,
+      "song_end": 195.95,
+      "upload_start": 197.26666666666668,
+      "upload_end": 200.95,
+      "assets": {
+        "recoil": {
+          "submission_frames": 221,
+          "submission_seconds": 3.683333333333333
+        }
+      },
+      "source_groups": []
+    },
+    {
+      "id": "R83",
+      "start_frame": 11757,
+      "end_frame": 11979,
+      "song_start": 195.95,
+      "song_end": 199.65,
+      "upload_start": 200.95,
+      "upload_end": 204.65,
+      "assets": {
+        "sit": {
+          "submission_frames": 222,
+          "submission_seconds": 3.7
+        }
+      },
+      "source_groups": []
+    },
+    {
+      "id": "R84",
+      "start_frame": 11979,
+      "end_frame": 12200,
+      "song_start": 199.65,
+      "song_end": 203.33333333333334,
+      "upload_start": 204.65,
+      "upload_end": 208.33333333333334,
+      "assets": {
+        "recoil": {
+          "submission_frames": 221,
+          "submission_seconds": 3.683333333333333
+        }
+      },
+      "source_groups": []
+    },
+    {
+      "id": "R85",
+      "start_frame": 12200,
+      "end_frame": 12344,
+      "song_start": 203.33333333333334,
+      "song_end": 205.73333333333332,
+      "upload_start": 208.33333333333334,
+      "upload_end": 210.73333333333332,
+      "assets": {
+        "sit": {
+          "submission_frames": 144,
+          "submission_seconds": 2.4
+        }
+      },
+      "source_groups": []
+    },
+    {
+      "id": "R86",
+      "start_frame": 12344,
+      "end_frame": 13100,
+      "song_start": 205.73333333333332,
+      "song_end": 218.33333333333334,
+      "upload_start": 210.73333333333332,
+      "upload_end": 223.33333333333334,
+      "assets": {
+        "recoil": {
+          "submission_frames": 136,
+          "submission_seconds": 2.2666666666666666
+        },
+        "sit": {
+          "submission_frames": 71,
+          "submission_seconds": 1.1833333333333333
+        },
+        "surprise": {
+          "submission_frames": 53,
+          "submission_seconds": 0.8833333333333333
+        },
+        "sitSmile": {
+          "submission_frames": 56,
+          "submission_seconds": 0.9333333333333333
+        },
+        "back": {
+          "submission_frames": 440,
+          "submission_seconds": 7.333333333333333
+        }
+      },
+      "source_groups": []
+    }
+  ],
+  "runs": [
+    {
+      "start_frame": 0,
+      "end_frame": 237,
+      "assets": [
+        "earlyTangent"
+      ],
+      "shots": [
+        "R01"
+      ],
+      "seconds": 3.95,
+      "song_start": 0,
+      "song_end": 3.95
+    },
+    {
+      "start_frame": 237,
+      "end_frame": 1996,
+      "assets": [],
+      "shots": [
+        "R02",
+        "R03",
+        "R04",
+        "R05",
+        "R06",
+        "R07",
+        "R08",
+        "R09"
+      ],
+      "seconds": 29.316666666666666,
+      "song_start": 3.95,
+      "song_end": 33.266666666666666
+    },
+    {
+      "start_frame": 1996,
+      "end_frame": 2217,
+      "assets": [
+        "earlyCircle"
+      ],
+      "shots": [
+        "R10"
+      ],
+      "seconds": 3.683333333333333,
+      "song_start": 33.266666666666666,
+      "song_end": 36.95
+    },
+    {
+      "start_frame": 2217,
+      "end_frame": 2439,
+      "assets": [
+        "earlyTangent"
+      ],
+      "shots": [
+        "R11"
+      ],
+      "seconds": 3.7,
+      "song_start": 36.95,
+      "song_end": 40.65
+    },
+    {
+      "start_frame": 2439,
+      "end_frame": 3117,
+      "assets": [],
+      "shots": [
+        "R12",
+        "R13",
+        "R14"
+      ],
+      "seconds": 11.3,
+      "song_start": 40.65,
+      "song_end": 51.95
+    },
+    {
+      "start_frame": 3117,
+      "end_frame": 3339,
+      "assets": [
+        "earlyTravel"
+      ],
+      "shots": [
+        "R15"
+      ],
+      "seconds": 3.7,
+      "song_start": 51.95,
+      "song_end": 55.65
+    },
+    {
+      "start_frame": 3339,
+      "end_frame": 3754,
+      "assets": [],
+      "shots": [
+        "R16",
+        "R17",
+        "R18"
+      ],
+      "seconds": 6.916666666666667,
+      "song_start": 55.65,
+      "song_end": 62.56666666666667
+    },
+    {
+      "start_frame": 3754,
+      "end_frame": 3920,
+      "assets": [
+        "guest0",
+        "guest1",
+        "guest2",
+        "guest3",
+        "guest4",
+        "guest5"
+      ],
+      "shots": [
+        "R19"
+      ],
+      "seconds": 2.7666666666666666,
+      "song_start": 62.56666666666667,
+      "song_end": 65.33333333333333
+    },
+    {
+      "start_frame": 3920,
+      "end_frame": 3976,
+      "assets": [],
+      "shots": [
+        "R20"
+      ],
+      "seconds": 0.9333333333333333,
+      "song_start": 65.33333333333333,
+      "song_end": 66.26666666666667
+    },
+    {
+      "start_frame": 3976,
+      "end_frame": 4156,
+      "assets": [
+        "bust"
+      ],
+      "shots": [
+        "R21"
+      ],
+      "seconds": 3,
+      "song_start": 66.26666666666667,
+      "song_end": 69.26666666666667
+    },
+    {
+      "start_frame": 4156,
+      "end_frame": 4197,
+      "assets": [],
+      "shots": [
+        "R22"
+      ],
+      "seconds": 0.6833333333333333,
+      "song_start": 69.26666666666667,
+      "song_end": 69.95
+    },
+    {
+      "start_frame": 4197,
+      "end_frame": 4391,
+      "assets": [
+        "operating"
+      ],
+      "shots": [
+        "R23"
+      ],
+      "seconds": 3.2333333333333334,
+      "song_start": 69.95,
+      "song_end": 73.18333333333334
+    },
+    {
+      "start_frame": 4391,
+      "end_frame": 4917,
+      "assets": [],
+      "shots": [
+        "R24",
+        "R25",
+        "R26",
+        "R27",
+        "R28",
+        "R29"
+      ],
+      "seconds": 8.766666666666667,
+      "song_start": 73.18333333333334,
+      "song_end": 81.95
+    },
+    {
+      "start_frame": 4917,
+      "end_frame": 5125,
+      "assets": [
+        "cat"
+      ],
+      "shots": [
+        "R30",
+        "R31"
+      ],
+      "seconds": 3.466666666666667,
+      "song_start": 81.95,
+      "song_end": 85.41666666666667
+    },
+    {
+      "start_frame": 5125,
+      "end_frame": 5443,
+      "assets": [
+        "operating"
+      ],
+      "shots": [
+        "R32",
+        "R33"
+      ],
+      "seconds": 5.3,
+      "song_start": 85.41666666666667,
+      "song_end": 90.71666666666667
+    },
+    {
+      "start_frame": 5443,
+      "end_frame": 5554,
+      "assets": [
+        "bust",
+        "male"
+      ],
+      "shots": [
+        "R34"
+      ],
+      "seconds": 1.85,
+      "song_start": 90.71666666666667,
+      "song_end": 92.56666666666666
+    },
+    {
+      "start_frame": 5554,
+      "end_frame": 5776,
+      "assets": [
+        "bust"
+      ],
+      "shots": [
+        "R35"
+      ],
+      "seconds": 3.7,
+      "song_start": 92.56666666666666,
+      "song_end": 96.26666666666667
+    },
+    {
+      "start_frame": 5776,
+      "end_frame": 5997,
+      "assets": [
+        "midReceive"
+      ],
+      "shots": [
+        "R36"
+      ],
+      "seconds": 3.683333333333333,
+      "song_start": 96.26666666666667,
+      "song_end": 99.95
+    },
+    {
+      "start_frame": 5997,
+      "end_frame": 6025,
+      "assets": [],
+      "shots": [
+        "R37"
+      ],
+      "seconds": 0.4666666666666667,
+      "song_start": 99.95,
+      "song_end": 100.41666666666667
+    },
+    {
+      "start_frame": 6025,
+      "end_frame": 6191,
+      "assets": [
+        "bust"
+      ],
+      "shots": [
+        "R38"
+      ],
+      "seconds": 2.7666666666666666,
+      "song_start": 100.41666666666667,
+      "song_end": 103.18333333333334
+    },
+    {
+      "start_frame": 6191,
+      "end_frame": 6219,
+      "assets": [],
+      "shots": [
+        "R39"
+      ],
+      "seconds": 0.4666666666666667,
+      "song_start": 103.18333333333334,
+      "song_end": 103.65
+    },
+    {
+      "start_frame": 6219,
+      "end_frame": 6648,
+      "assets": [
+        "midReceive"
+      ],
+      "shots": [
+        "R40",
+        "R41",
+        "R42",
+        "R43"
+      ],
+      "seconds": 7.15,
+      "song_start": 103.65,
+      "song_end": 110.8
+    },
+    {
+      "start_frame": 6648,
+      "end_frame": 6773,
+      "assets": [],
+      "shots": [
+        "R44"
+      ],
+      "seconds": 2.0833333333333335,
+      "song_start": 110.8,
+      "song_end": 112.88333333333334
+    },
+    {
+      "start_frame": 6773,
+      "end_frame": 7299,
+      "assets": [
+        "midWait"
+      ],
+      "shots": [
+        "R45",
+        "R46",
+        "R47",
+        "R48"
+      ],
+      "seconds": 8.766666666666667,
+      "song_start": 112.88333333333334,
+      "song_end": 121.65
+    },
+    {
+      "start_frame": 7299,
+      "end_frame": 7479,
+      "assets": [
+        "protect"
+      ],
+      "shots": [
+        "R49"
+      ],
+      "seconds": 3,
+      "song_start": 121.65,
+      "song_end": 124.65
+    },
+    {
+      "start_frame": 7479,
+      "end_frame": 7534,
+      "assets": [
+        "eye"
+      ],
+      "shots": [
+        "R50"
+      ],
+      "seconds": 0.9166666666666666,
+      "song_start": 124.65,
+      "song_end": 125.56666666666666
+    },
+    {
+      "start_frame": 7534,
+      "end_frame": 7714,
+      "assets": [
+        "recoil"
+      ],
+      "shots": [
+        "R51"
+      ],
+      "seconds": 3,
+      "song_start": 125.56666666666666,
+      "song_end": 128.56666666666666
+    },
+    {
+      "start_frame": 7714,
+      "end_frame": 7866,
+      "assets": [],
+      "shots": [
+        "R52"
+      ],
+      "seconds": 2.533333333333333,
+      "song_start": 128.56666666666666,
+      "song_end": 131.1
+    },
+    {
+      "start_frame": 7866,
+      "end_frame": 8434,
+      "assets": [
+        "recoil"
+      ],
+      "shots": [
+        "R53",
+        "R54",
+        "R55"
+      ],
+      "seconds": 9.466666666666667,
+      "song_start": 131.1,
+      "song_end": 140.56666666666666
+    },
+    {
+      "start_frame": 8434,
+      "end_frame": 8656,
+      "assets": [
+        "operating"
+      ],
+      "shots": [
+        "R56",
+        "R57"
+      ],
+      "seconds": 3.7,
+      "song_start": 140.56666666666666,
+      "song_end": 144.26666666666668
+    },
+    {
+      "start_frame": 8656,
+      "end_frame": 8836,
+      "assets": [
+        "protect"
+      ],
+      "shots": [
+        "R58"
+      ],
+      "seconds": 3,
+      "song_start": 144.26666666666668,
+      "song_end": 147.26666666666668
+    },
+    {
+      "start_frame": 8836,
+      "end_frame": 8877,
+      "assets": [],
+      "shots": [
+        "R59"
+      ],
+      "seconds": 0.6833333333333333,
+      "song_start": 147.26666666666668,
+      "song_end": 147.95
+    },
+    {
+      "start_frame": 8877,
+      "end_frame": 9690,
+      "assets": [
+        "protect"
+      ],
+      "shots": [
+        "R60",
+        "R61",
+        "R62",
+        "R63",
+        "R64",
+        "R65",
+        "R66",
+        "R67",
+        "R68",
+        "R69"
+      ],
+      "seconds": 13.55,
+      "song_start": 147.95,
+      "song_end": 161.5
+    },
+    {
+      "start_frame": 9690,
+      "end_frame": 9905,
+      "assets": [
+        "eye"
+      ],
+      "shots": [
+        "R70",
+        "R71"
+      ],
+      "seconds": 3.5833333333333335,
+      "song_start": 161.5,
+      "song_end": 165.08333333333334
+    },
+    {
+      "start_frame": 9905,
+      "end_frame": 9956,
+      "assets": [],
+      "shots": [
+        "R72"
+      ],
+      "seconds": 0.85,
+      "song_start": 165.08333333333334,
+      "song_end": 165.93333333333334
+    },
+    {
+      "start_frame": 9956,
+      "end_frame": 10130,
+      "assets": [
+        "bust"
+      ],
+      "shots": [
+        "R73"
+      ],
+      "seconds": 2.9,
+      "song_start": 165.93333333333334,
+      "song_end": 168.83333333333334
+    },
+    {
+      "start_frame": 10130,
+      "end_frame": 10184,
+      "assets": [
+        "recoil"
+      ],
+      "shots": [
+        "R74"
+      ],
+      "seconds": 0.9,
+      "song_start": 168.83333333333334,
+      "song_end": 169.73333333333332
+    },
+    {
+      "start_frame": 10184,
+      "end_frame": 10282,
+      "assets": [
+        "reach"
+      ],
+      "shots": [
+        "R75"
+      ],
+      "seconds": 1.6333333333333333,
+      "song_start": 169.73333333333332,
+      "song_end": 171.36666666666667
+    },
+    {
+      "start_frame": 10282,
+      "end_frame": 10358,
+      "assets": [
+        "recoil"
+      ],
+      "shots": [
+        "R75"
+      ],
+      "seconds": 1.2666666666666666,
+      "song_start": 171.36666666666667,
+      "song_end": 172.63333333333333
+    },
+    {
+      "start_frame": 10358,
+      "end_frame": 10414,
+      "assets": [],
+      "shots": [
+        "R76"
+      ],
+      "seconds": 0.9333333333333333,
+      "song_start": 172.63333333333333,
+      "song_end": 173.56666666666666
+    },
+    {
+      "start_frame": 10414,
+      "end_frame": 11304,
+      "assets": [
+        "operating"
+      ],
+      "shots": [
+        "R77",
+        "R78",
+        "R79",
+        "R80"
+      ],
+      "seconds": 14.833333333333334,
+      "song_start": 173.56666666666666,
+      "song_end": 188.4
+    },
+    {
+      "start_frame": 11304,
+      "end_frame": 11757,
+      "assets": [
+        "recoil"
+      ],
+      "shots": [
+        "R81",
+        "R82"
+      ],
+      "seconds": 7.55,
+      "song_start": 188.4,
+      "song_end": 195.95
+    },
+    {
+      "start_frame": 11757,
+      "end_frame": 11979,
+      "assets": [
+        "sit"
+      ],
+      "shots": [
+        "R83"
+      ],
+      "seconds": 3.7,
+      "song_start": 195.95,
+      "song_end": 199.65
+    },
+    {
+      "start_frame": 11979,
+      "end_frame": 12200,
+      "assets": [
+        "recoil"
+      ],
+      "shots": [
+        "R84"
+      ],
+      "seconds": 3.683333333333333,
+      "song_start": 199.65,
+      "song_end": 203.33333333333334
+    },
+    {
+      "start_frame": 12200,
+      "end_frame": 12344,
+      "assets": [
+        "sit"
+      ],
+      "shots": [
+        "R85"
+      ],
+      "seconds": 2.4,
+      "song_start": 203.33333333333334,
+      "song_end": 205.73333333333332
+    },
+    {
+      "start_frame": 12344,
+      "end_frame": 12480,
+      "assets": [
+        "recoil"
+      ],
+      "shots": [
+        "R86"
+      ],
+      "seconds": 2.2666666666666666,
+      "song_start": 205.73333333333332,
+      "song_end": 208
+    },
+    {
+      "start_frame": 12480,
+      "end_frame": 12551,
+      "assets": [
+        "sit"
+      ],
+      "shots": [
+        "R86"
+      ],
+      "seconds": 1.1833333333333333,
+      "song_start": 208,
+      "song_end": 209.18333333333334
+    },
+    {
+      "start_frame": 12551,
+      "end_frame": 12604,
+      "assets": [
+        "surprise"
+      ],
+      "shots": [
+        "R86"
+      ],
+      "seconds": 0.8833333333333333,
+      "song_start": 209.18333333333334,
+      "song_end": 210.06666666666666
+    },
+    {
+      "start_frame": 12604,
+      "end_frame": 12660,
+      "assets": [
+        "sitSmile"
+      ],
+      "shots": [
+        "R86"
+      ],
+      "seconds": 0.9333333333333333,
+      "song_start": 210.06666666666666,
+      "song_end": 211
+    },
+    {
+      "start_frame": 12660,
+      "end_frame": 13100,
+      "assets": [
+        "back"
+      ],
+      "shots": [
+        "R86"
+      ],
+      "seconds": 7.333333333333333,
+      "song_start": 211,
+      "song_end": 218.33333333333334
+    }
+  ]
+}

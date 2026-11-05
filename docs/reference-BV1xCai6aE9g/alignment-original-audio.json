@@ -1,0 +1,148 @@
+{
+  "passed": false,
+  "mapping": "ref_player_seconds = our_song_seconds + offset_seconds",
+  "offset_seconds": -0.06670833333333093,
+  "coarse_search": {
+    "original_window_seconds": [
+      20,
+      60
+    ],
+    "sample_rate": 2000,
+    "offset_seconds": -0.06800000000000139,
+    "correlation": 0.9030844688323527
+  },
+  "fine_sample_rate": 24000,
+  "minimum_correlation_required": 0.95,
+  "maximum_offset_spread_seconds": 0.016666666666666666,
+  "measured_offset_spread_seconds": 0.004500000000010385,
+  "constant_offset_max_measured_error_seconds": 0.002333333333335741,
+  "strict_raw_waveform_0_95_gate_passed": false,
+  "precision_note": "Frame-level correspondence only; raw correlations and nonzero drift remain visible. A configurable lower correlation gate must not be described as sample-exact matching.",
+  "fit": {
+    "offset_at_song_zero_seconds": -0.0690719136281559,
+    "offset_slope_seconds_per_second": 2.262657334768178e-05,
+    "reference_seconds_per_song_second": 1.0000226265733476,
+    "affine_mapping": "ref_player_seconds = 1.000022626573 * our_song_seconds + -0.069071913628",
+    "drift_ppm": 22.62657334768178,
+    "residual_max_seconds": 1.8275173559539892e-05
+  },
+  "windows": [
+    {
+      "song_window_seconds": [
+        1,
+        3.5
+      ],
+      "reference_window_seconds": [
+        0.9309583333333333,
+        3.4309583333333333
+      ],
+      "offset_seconds": -0.06904166666666667,
+      "correlation": 0.9545846700260019,
+      "original_rms_dbfs": -9.112420467647315
+    },
+    {
+      "song_window_seconds": [
+        31,
+        33.5
+      ],
+      "reference_window_seconds": [
+        30.931625,
+        33.431625
+      ],
+      "offset_seconds": -0.06837499999999963,
+      "correlation": 0.9496590120196933,
+      "original_rms_dbfs": -8.780924192831405
+    },
+    {
+      "song_window_seconds": [
+        60,
+        62.5
+      ],
+      "reference_window_seconds": [
+        59.932291666666664,
+        62.432291666666664
+      ],
+      "offset_seconds": -0.0677083333333357,
+      "correlation": 0.9349769014037947,
+      "original_rms_dbfs": -5.4891662319146315
+    },
+    {
+      "song_window_seconds": [
+        90,
+        92.5
+      ],
+      "reference_window_seconds": [
+        89.93295833333333,
+        92.43295833333333
+      ],
+      "offset_seconds": -0.06704166666666822,
+      "correlation": 0.9481076382047766,
+      "original_rms_dbfs": -7.71148805886975
+    },
+    {
+      "song_window_seconds": [
+        120,
+        122.5
+      ],
+      "reference_window_seconds": [
+        119.933625,
+        122.433625
+      ],
+      "offset_seconds": -0.06637499999999363,
+      "correlation": 0.9361802176322975,
+      "original_rms_dbfs": -6.033826628436297
+    },
+    {
+      "song_window_seconds": [
+        150,
+        152.5
+      ],
+      "reference_window_seconds": [
+        149.93433333333334,
+        152.43433333333334
+      ],
+      "offset_seconds": -0.0656666666666581,
+      "correlation": 0.9497315303406211,
+      "original_rms_dbfs": -6.827875999441319
+    },
+    {
+      "song_window_seconds": [
+        180,
+        182.5
+      ],
+      "reference_window_seconds": [
+        179.935,
+        182.435
+      ],
+      "offset_seconds": -0.06499999999999773,
+      "correlation": 0.9479026322649184,
+      "original_rms_dbfs": -5.422922929298444
+    },
+    {
+      "song_window_seconds": [
+        200,
+        202.5
+      ],
+      "reference_window_seconds": [
+        199.93545833333334,
+        202.43545833333334
+      ],
+      "offset_seconds": -0.06454166666665628,
+      "correlation": 0.9470336983503577,
+      "original_rms_dbfs": -8.398479790844812
+    }
+  ],
+  "original_audio": {
+    "path": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\media\\audio\\mili-world-execute-original-bilibili.m4a",
+    "sha256": "b06f195e2a479c25c3282f4ca5b931e293c4a35a941acf6dd5b515ba4890f34a",
+    "decoded_samples": 5095936,
+    "decoded_seconds": 212.33066666666667
+  },
+  "reference_audio": {
+    "path": "D:\\myskills\\updream\\references\\gpt-astra-BV1xCai6aE9g\\reference-audio.m4a",
+    "sha256": "8b7a415ffbc5100c4e3ab5f7230cdfd3a5e02d87e1af8b5437dbff40b2900db5",
+    "decoded_samples": 5085728,
+    "decoded_seconds": 211.90533333333335
+  },
+  "scope": "Full audio decoded; waveform correlation over one coarse interval plus eight measured windows. No listening or phoneme-level timing claim. Offset maps source-audio/player timelines, not a guessed intro length."
+}

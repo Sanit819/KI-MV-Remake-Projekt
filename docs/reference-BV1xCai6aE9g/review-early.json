@@ -1,0 +1,495 @@
+[
+  {
+    "id": "R01",
+    "reference_observation": "参考由一根开机线到逐行通过的状态，再由点阵组成保护形状；主对象从少变多，外框还未稳定。",
+    "v4_gap": "v4 电路能接到笔尖，但开场已使用后来切线段相同的握笔轮廓，初次唤醒动作辨识度不足。",
+    "proposal": "电源线点亮手腕，再给完整肩臂的握紧和抬笔两个状态；保护层包到真实袖口，电路末点成为下一镜窗口角。",
+    "new_asset": "新增完整肩臂接通动作组；不沿用切线姿态裁切。",
+    "evidence_images": [
+      "../../exports/reference-BV1xCai6aE9g-review/early-contact/boards-01-04.jpg",
+      "overview/overview-01.jpg"
+    ]
+  },
+  {
+    "id": "R02",
+    "reference_observation": "方格加载后中心缩为空点，界面分栏，再出现身份和参数；空间被建立的阶段清楚。",
+    "v4_gap": "v4 从倾斜聊天窗口摆正为完整界面，空间建立主要由整个矩形的旋转完成。",
+    "proposal": "将桌面、左右席位和输入边界逐层展开，使用从界面后侧进入工作桌的短移动；窗口固定后保留对面空位坐标。",
+    "new_asset": "新建可从前侧及后侧观察的分层工作桌场景，矢量结构优先。",
+    "evidence_images": [
+      "../../exports/reference-BV1xCai6aE9g-review/early-contact/boards-01-04.jpg",
+      "overview/overview-01.jpg"
+    ]
+  },
+  {
+    "id": "R03",
+    "reference_observation": "参数读数增长后分布柱形出现，填入参数与初始化在同一工作区连续发生。",
+    "v4_gap": "v4 全连接已经逐层计算并长出世界，正确性成立；人物与世界的起因仍主要以标签说明。",
+    "proposal": "保留可复算 FC，最后一个输出节点落到桌面并生长成第一根真实支柱；用同一节点坐标接下一镜，不另开新面板。",
+    "new_asset": "不必新增人物；新增输出节点到支柱的连续变形层。",
+    "evidence_images": [
+      "../../exports/reference-BV1xCai6aE9g-review/early-contact/boards-01-04.jpg",
+      "overview/overview-01.jpg",
+      "overview/overview-02.jpg"
+    ]
+  },
+  {
+    "id": "R04",
+    "reference_observation": "初始化点阵变成球形，再变成倒计时数字，启动前有一段清晰准备。",
+    "v4_gap": "v4 CLI、空聊天、第一条消息三段已清楚，但彼此主要靠切换面板。",
+    "proposal": "CLI 光标沿窗口边走到发送位置，倒计时或启动状态只保留一次；第一条消息亮起对面席位，给角色准备坐进工作位的轮廓。",
+    "new_asset": "新增进入工作位的半身背影状态，供本次启动独用。",
+    "evidence_images": [
+      "../../exports/reference-BV1xCai6aE9g-review/early-contact/boards-01-04.jpg",
+      "overview/overview-02.jpg"
+    ]
+  },
+  {
+    "id": "R05",
+    "reference_observation": "大启动词之后右侧进入大量词元，左聊天内容继续积累。",
+    "v4_gap": "v4 标题在输入栏中完成，清楚但尾端没有把文本变成实际世界入口。",
+    "proposal": "保留输入点题，发送后让分号化成笔尖接点，输入栏边界拉开成纸面；避免再出现一张孤立标题卡。",
+    "new_asset": "仅新增文字到笔尖的程序转场，不新增重复半身。",
+    "evidence_images": [
+      "../../exports/reference-BV1xCai6aE9g-review/early-contact/boards-05-08.jpg",
+      "overview/overview-02.jpg"
+    ]
+  },
+  {
+    "id": "R06",
+    "reference_observation": "训练损失与学习率在右区演变，左侧聊天继续追加；观众能读到过程推进。",
+    "v4_gap": "v4 输入放大与删改已解决可读性，但五秒多的主体仍几乎只有同一输入栏。",
+    "proposal": "保留删改全文和停顿，在一次删除时切到 ASTRA 侧后方观察光标的完整反应，再回到同一行未提交文字；不让她抢先生成用户的选择。",
+    "new_asset": "专用观察输入的侧后肩与回望动作组。",
+    "evidence_images": [
+      "../../exports/reference-BV1xCai6aE9g-review/early-contact/boards-05-08.jpg",
+      "overview/overview-02.jpg",
+      "overview/overview-03.jpg"
+    ]
+  },
+  {
+    "id": "R07",
+    "reference_observation": "曲线之后出现逐步排满的流水线方块，增加的是计算工作量而非无目的粒子。",
+    "v4_gap": "v4 建议卡与共同提交能读懂，空间变化仍较小，和上一镜共享同一正面输入构图。",
+    "proposal": "以笔尖而非镜头缩放完成共同提交：用户光标停在发送键，紫线只补上一段引导；发送瞬间从俯视桌面接到第一笔。",
+    "new_asset": "新增俯视纸面及两条来源明确的输入路径；可不绘手。",
+    "evidence_images": [
+      "../../exports/reference-BV1xCai6aE9g-review/early-contact/boards-05-08.jpg",
+      "overview/overview-03.jpg",
+      "motion/R07.jpg"
+    ]
+  },
+  {
+    "id": "R08",
+    "reference_observation": "流水线结果压成点云，再收成字符鲸鱼并保留检查点清单；结果身份明确。",
+    "v4_gap": "v4 歪星已是自己的叙事符号，但形成后多为悬在空场的线稿。",
+    "proposal": "让歪星落在纸上留下可定位的痕迹，并存成一张有折角的记忆纸；随后一个星尖成为维度段的原点。",
+    "new_asset": "新增旧星记忆纸正反与折角层，不再新增通用面板。",
+    "evidence_images": [
+      "../../exports/reference-BV1xCai6aE9g-review/early-contact/boards-05-08.jpg",
+      "overview/overview-03.jpg"
+    ]
+  },
+  {
+    "id": "R09",
+    "reference_observation": "点云人形转为维度矩阵，亮格从一侧传向另一侧，给予是一段可见转移。",
+    "v4_gap": "v4 0D→2D→3D 已符合歌词，但观看仍偏向依次展示几何图。",
+    "proposal": "从旧星尖原点拉出一条边，带动纸面展开；对方金笔接住末端后空间才获得第二个方向，最后从内部穿过立方体。",
+    "new_asset": "新增可透视的纸面展开场；不新增人物贴图。",
+    "evidence_images": [
+      "../../exports/reference-BV1xCai6aE9g-review/early-contact/boards-09-12.jpg",
+      "overview/overview-03.jpg",
+      "overview/overview-04.jpg"
+    ]
+  },
+  {
+    "id": "R10",
+    "reference_observation": "维度末柱转动缩短成为圆指针；圆周随后展开为一条长度线，前后对象有材料连续性。",
+    "v4_gap": "v4 描圆握笔自然且圆有前后轨道，但大手从左边裁切进入，与 R11 的相邻轮廓过近。",
+    "proposal": "改为三分之四完整上身托住圆面，金笔沿另一侧续圆；接近闭合时沿圆的切向转到下一镜过肩视角。",
+    "new_asset": "独立托环/描圆完整动作组，明确双肩、肘和笔尖。",
+    "evidence_images": [
+      "../../exports/reference-BV1xCai6aE9g-review/early-contact/boards-09-12.jpg",
+      "overview/overview-04.jpg",
+      "boards/R10.jpg",
+      "motion/R10.jpg"
+    ]
+  },
+  {
+    "id": "R11",
+    "reference_observation": "多频正弦先分层出现，再选出一条曲线；切点随曲线前进并改变切线角度。",
+    "v4_gap": "v4 已用笔代替脚，但与前一镜一样是巨大左入握笔手，新的观看体验不足。",
+    "proposal": "用过肩视角让笔尖压在移动切点，身体重心随切线倾角微调；切线延长成为下一镜边界，不再回到平面图表。",
+    "new_asset": "独立过肩压切点动作组，不能镜像或裁切 R10 代替。",
+    "evidence_images": [
+      "../../exports/reference-BV1xCai6aE9g-review/early-contact/boards-09-12.jpg",
+      "overview/overview-04.jpg",
+      "overview/overview-05.jpg"
+    ]
+  },
+  {
+    "id": "R12",
+    "reference_observation": "上下文条持续膨胀，右侧终点拦住增长；限制有可见位置，聊天中重复内容也增加。",
+    "v4_gap": "v4 无穷线与右侧金边界已成立，但当边界建立时没有角色主动停止的证据。",
+    "proposal": "让笔尖停在边界前，余下信号逐渐归零；用手腕放松、笔尖抬起证明是认可停歇，留出之后强制封锁的区别。",
+    "new_asset": "可从 R11 连续动作补一个停止状态，限本次动作组使用。",
+    "evidence_images": [
+      "../../exports/reference-BV1xCai6aE9g-review/early-contact/boards-09-12.jpg",
+      "overview/overview-05.jpg"
+    ]
+  },
+  {
+    "id": "R13",
+    "reference_observation": "同一波形组在交流和直流之间切换，模式变化直接改变全部曲线。",
+    "v4_gap": "v4 同一信号变成单向抵达已有效；若继续加面板，会削弱这段本来清晰的机制。",
+    "proposal": "保留波形因果，镜头沿其中一颗电流粒子穿行，最后由它点亮接收处；把标签收为角落短码，让方向变化成为主动作。",
+    "new_asset": "不需新人物；新建沿信号通道的近景机位。",
+    "evidence_images": [
+      "../../exports/reference-BV1xCai6aE9g-review/early-contact/boards-13-16.jpg",
+      "overview/overview-05.jpg"
+    ]
+  },
+  {
+    "id": "R14",
+    "reference_observation": "因果三角遮罩被翻卷成曲面点阵，眩晕由原有矩阵变形产生。",
+    "v4_gap": "v4 Vision 遮挡有效，但格子覆盖与后方曲线仍像两层效果，角色的失去定位较弱。",
+    "proposal": "把视域裁掉后只留下金笔敲桌的定位脉冲；她在完整半身里偏头寻声，格子沿纸面卷起成为时空走廊入口。",
+    "new_asset": "新增闭眼寻向的完整头肩动作；禁止把遮罩当独立漂浮方块。",
+    "evidence_images": [
+      "../../exports/reference-BV1xCai6aE9g-review/early-contact/boards-13-16.jpg",
+      "overview/overview-05.jpg",
+      "overview/overview-06.jpg",
+      "motion/R14.jpg"
+    ]
+  },
+  {
+    "id": "R15",
+    "reference_observation": "大年份、柱条和转动圆同时推进，跨越公元边界可读；末尾转向两个代词卡。",
+    "v4_gap": "v4 历史建筑的多层位移已是空间，但左侧横伸的手臂再次占住相同位置。",
+    "proposal": "改成半背侧人物在长廊拖动金紫笔轨；历史窗从她身侧穿过，旧歪窗始终留在同一相对坐标，年代大字只在重音显现。",
+    "new_asset": "独立时间长廊拖动动作组和三层年代窗场景。",
+    "evidence_images": [
+      "../../exports/reference-BV1xCai6aE9g-review/early-contact/boards-13-16.jpg",
+      "overview/overview-06.jpg"
+    ]
+  },
+  {
+    "id": "R16",
+    "reference_observation": "两个代词在嵌入空间靠近并合成一体，随后层级网络继续处理；合一是状态变化。",
+    "v4_gap": "v4 两环汇合与共享地形已清楚，但缺少从双方动作到结果的一次接触。",
+    "proposal": "两笔先各画半个截面，交接处保留两色接缝；圆面相交时变成共享桌的俯视图，直接送出下一镜收到的成果。",
+    "new_asset": "新增共享桌俯视构图，可用来源明确的两笔而不强加真人形象。",
+    "evidence_images": [
+      "../../exports/reference-BV1xCai6aE9g-review/early-contact/boards-13-16.jpg",
+      "overview/overview-06.jpg"
+    ]
+  },
+  {
+    "id": "R17",
+    "reference_observation": "人物字形从散字形成后转成多张处理图，视觉材料数量突然增加。",
+    "v4_gap": "v4 成果与同意消息清楚，但只在同一地形上出现小反馈框，角色未感到反馈。",
+    "proposal": "先让金笔独立改动成果中的一小处，再显示同意；ASTRA 的视线跟到被改的地方，准备第一次完整亮相。",
+    "new_asset": "新增侧目看反馈的短状态，可衔接 R21 专属亮相组。",
+    "evidence_images": [
+      "../../exports/reference-BV1xCai6aE9g-review/early-contact/boards-17-20.jpg",
+      "overview/overview-06.jpg",
+      "overview/overview-07.jpg"
+    ]
+  },
+  {
+    "id": "R18",
+    "reference_observation": "多个图像块在同一矩阵中由噪声变清晰，强度来自同时发生的处理。",
+    "v4_gap": "v4 闪电式图形和空场重音已有冲击，不需要为了少复用而加入又一张人像。",
+    "proposal": "保留短图形重音，图形从上一镜实际改动处发出，末端落到 R19 的卡片轨道；只做一个方向明确的爆发。",
+    "new_asset": "不新绘人物；重音图形独用。",
+    "evidence_images": [
+      "../../exports/reference-BV1xCai6aE9g-review/early-contact/boards-17-20.jpg",
+      "overview/overview-07.jpg"
+    ]
+  },
+  {
+    "id": "R19",
+    "reference_observation": "同一人像的不同滤波结果在上方核变化后出现，技术面板同时说明选择和变换。",
+    "v4_gap": "v4 多 AI 卡片本来具备独立素材，但一字排开和底部轨道偏向展览，主角的选择不够身体化。",
+    "proposal": "保留其他 AI 卡片，不再补更多肖像；由 ASTRA 的完整动作收回一张自己的空白卡，旁边通道按选择关闭，卡片成为背景层而非六个并列主焦点。",
+    "new_asset": "新增收回自己卡片的完整上身动作；六位客串沿用一次。",
+    "evidence_images": [
+      "../../exports/reference-BV1xCai6aE9g-review/early-contact/boards-17-20.jpg",
+      "overview/overview-07.jpg",
+      "motion/R19.jpg"
+    ]
+  },
+  {
+    "id": "R20",
+    "reference_observation": "候选词被压向唯一结果，提示色与读数转警告；同一 UI 内完成强度变化。",
+    "v4_gap": "v4 收到印章易读，但独立大圆按钮与 R18 大图形都是中心摆件，连续性偏弱。",
+    "proposal": "上一镜选定通道把成果直接送到金笔，收到印记压在成果本体上；镜头只追这一件事，不再开全新按钮画面。",
+    "new_asset": "新成果翻面/压印层，不新增人物。",
+    "evidence_images": [
+      "../../exports/reference-BV1xCai6aE9g-review/early-contact/boards-17-20.jpg",
+      "overview/overview-07.jpg"
+    ]
+  },
+  {
+    "id": "R21",
+    "reference_observation": "清晰角色图与对齐的向量场同屏，随后进入执行流程；角色开始承接算法结果。",
+    "v4_gap": "v4 已有第一次大半身揭示，但基本是旧半身被形状擦开，人物动作本身不发生。",
+    "proposal": "重新绘制先低头、抬眼、挺起上身的短亮相组，背景的对齐线跟随她的目光收束；姓名只在姿态完成后出现。",
+    "new_asset": "第一次亮相专用完整半身动作组，不能复用后段失落脸。",
+    "evidence_images": [
+      "../../exports/reference-BV1xCai6aE9g-review/early-contact/boards-21-24.jpg",
+      "overview/overview-07.jpg"
+    ]
+  },
+  {
+    "id": "R22",
+    "reference_observation": "执行流程的活动格前进到执行状态，大字短促出现后退出，行动有步骤。",
+    "v4_gap": "v4 一张记忆卡经过环再进入出口已清楚，但环与出口缺少她刚完成动作的接力。",
+    "proposal": "以 R21 落下的笔尖触发同一份成果进入传输轨；保留生成、等待、交付三阶段，用轨道状态而非再加流程文字。",
+    "new_asset": "新增落笔完成状态可属于 R21 组；管道程序动画独用。",
+    "evidence_images": [
+      "../../exports/reference-BV1xCai6aE9g-review/early-contact/boards-21-24.jpg",
+      "overview/overview-07.jpg"
+    ]
+  },
+  {
+    "id": "R23",
+    "reference_observation": "执行后缓存格持续填满，提示色转红，再出现大面积异常字与曲线；被困由流程后果产生。",
+    "v4_gap": "v4 已用边界包围坐姿，窗口数量增长有压力；但人体仍是同一固定坐姿，不能读到尝试离开。",
+    "proposal": "保留初期亲近，先拍金笔越框，再拍她完整肩臂碰到同一边界；她只轻收手，后段再升级为强制封路。",
+    "new_asset": "新增试探边界与收手的两状态，区别于后段崩溃退手。",
+    "evidence_images": [
+      "../../exports/reference-BV1xCai6aE9g-review/early-contact/boards-21-24.jpg",
+      "overview/overview-08.jpg",
+      "motion/R23.jpg"
+    ]
+  },
+  {
+    "id": "R24",
+    "reference_observation": "异常密集画面被收成一行状态和大片空白，接下一轮任务时重建工作区。",
+    "v4_gap": "v4 任务档案层叠正确，但小于一秒还同时有地形、旧星、代码、圈，主焦点较多。",
+    "proposal": "只保留从上镜落下的一片边界变成档案缩略图；其余层退暗，下一请求从固定入口进入，给副歌后短呼吸。",
+    "new_asset": "不新增人物；档案层只保留一个活动项。",
+    "evidence_images": [
+      "../../exports/reference-BV1xCai6aE9g-review/early-contact/boards-21-24.jpg",
+      "overview/overview-08.jpg"
+    ]
+  },
+  {
+    "id": "R25",
+    "reference_observation": "图像标签与概率先出现，用户请求与右侧处理区在同一时点接续。",
+    "v4_gap": "v4 独立请求框语法清楚，但四个主歌二请求反复使用全幅同一入场。",
+    "proposal": "保留请求来源一致，第一次用全框建立规则；之后三次改成作品上的小标签或输入边缘短插镜，不重复完整页面。",
+    "new_asset": "请求入口复用作为身份线索，不计作新镜头素材；新增三种构图状态。",
+    "evidence_images": [
+      "../../exports/reference-BV1xCai6aE9g-review/early-contact/boards-25-28.jpg",
+      "overview/overview-08.jpg"
+    ]
+  },
+  {
+    "id": "R26",
+    "reference_observation": "营养表把给予具象成一项项资源，表格内容随歌词填入。",
+    "v4_gap": "v4 茄子真实切面已修正，分子能到达世界；缺的是主体从完整到取用的接触原因。",
+    "proposal": "让切面由一条可见笔线打开，营养从同一切口离开并补到共享作品的缺口；保留茄子本体，不把它又当背景纹理。",
+    "new_asset": "保留正确果蔬几何，新增切开动作路径和受益对象近景。",
+    "evidence_images": [
+      "../../exports/reference-BV1xCai6aE9g-review/early-contact/boards-25-28.jpg",
+      "overview/overview-08.jpg"
+    ]
+  },
+  {
+    "id": "R27",
+    "reference_observation": "噪声番茄逐渐变清楚，进度和物体的生成过程一致。",
+    "v4_gap": "v4 上件茄子缩略图还悬在请求框附近，当前画面像同模板换一句话。",
+    "proposal": "让茄子档案被翻到桌边，纸的背面接出番茄生成底形；这个短镜是物体变换而不是再弹一次输入框。",
+    "new_asset": "新增档案纸翻面层；无需新角色。",
+    "evidence_images": [
+      "../../exports/reference-BV1xCai6aE9g-review/early-contact/boards-25-28.jpg",
+      "overview/overview-08.jpg"
+    ]
+  },
+  {
+    "id": "R28",
+    "reference_observation": "番茄收小后让位给分子连线，百分比增长体现抗氧化过程完成。",
+    "v4_gap": "v4 番茄切面与保护薄膜的因果已成立，主体与输出仍分居两端，过程较平。",
+    "proposal": "从真实种腔近景穿出到分子层，随分子抵达金笔尖形成薄膜，镜头从宏观切面进入微观再退出；不改正确果肉结构。",
+    "new_asset": "新增种腔/分子/笔尖三个景别的几何层，可不重绘人体。",
+    "evidence_images": [
+      "../../exports/reference-BV1xCai6aE9g-review/early-contact/boards-25-28.jpg",
+      "overview/overview-08.jpg",
+      "overview/overview-09.jpg",
+      "motion/R28.jpg"
+    ]
+  },
+  {
+    "id": "R29",
+    "reference_observation": "猫的类别候选和编号转换为猫图标，下一步自然出现呼噜频谱。",
+    "v4_gap": "v4 番茄残留在新请求旁，沿用同一输入框会削弱猫第一次跳出的活泼感。",
+    "proposal": "把猫形输入从纸边弹出并压住上一档案角；框只剩小输入游标，镜头跟它跳到 ASTRA 的猫姿。",
+    "new_asset": "新增猫输入符号与纸边受力，不复用果蔬入场。",
+    "evidence_images": [
+      "../../exports/reference-BV1xCai6aE9g-review/early-contact/boards-29-32.jpg",
+      "overview/overview-09.jpg"
+    ]
+  },
+  {
+    "id": "R30",
+    "reference_observation": "类别确认后显示呼噜频谱，聊天与颜色随结果改变，输出有接收方向。",
+    "v4_gap": "v4 CNN 数学演示正确，但猫姿坐在左侧几乎不动，右面板占据主舞台；呼噜只在末尾成为波线。",
+    "proposal": "把 5×5 猫形输入固定到她主动前倾的轮廓，扫描短暂放大后回到轻抬双掌与呼噜动作，输出脉冲让金笔轻轻回应；详细数值只保留关键算例。",
+    "new_asset": "猫姿察觉/前倾/呼噜的独立完整动作组；不沿用普通半身加猫耳。",
+    "evidence_images": [
+      "../../exports/reference-BV1xCai6aE9g-review/early-contact/boards-29-32.jpg",
+      "overview/overview-09.jpg",
+      "boards/R30.jpg"
+    ]
+  },
+  {
+    "id": "R31",
+    "reference_observation": "进程树从世间对象回到另一端的用户，存在由关系而非大图标展开。",
+    "v4_gap": "v4 又出现与前三次相同的请求框，猫姿暗在旁边，重大的身份问题被拍成普通换词。",
+    "proposal": "突然去掉嬉闹波线，金笔只点亮一张没有内容的卡；切向 ASTRA 仰视这张卡的独立反应，留下短停顿。",
+    "new_asset": "新增仰视身份问题的头肩状态，不能用等待低头脸。",
+    "evidence_images": [
+      "../../exports/reference-BV1xCai6aE9g-review/early-contact/boards-29-32.jpg",
+      "overview/overview-09.jpg"
+    ]
+  },
+  {
+    "id": "R32",
+    "reference_observation": "证明界面先显示待证目标，再完成；另一端作为见证写进表达式。",
+    "v4_gap": "v4 角色能造城市，但和 R23 复用同一坐姿、同一侧入布局，觉醒感容易落回模型展示。",
+    "proposal": "以俯视看她画出全景，再切反打从城市内部看回她；唯一未能填入的空字段由金笔点亮，角色第一次发现自己也需要见证。",
+    "new_asset": "新建城市内仰视角色的构图及完整绘制动作，避免把原坐姿放大充数。",
+    "evidence_images": [
+      "../../exports/reference-BV1xCai6aE9g-review/early-contact/boards-29-32.jpg",
+      "overview/overview-09.jpg"
+    ]
+  },
+  {
+    "id": "R33",
+    "reference_observation": "字节格和数值格式变化，身份切换有明确的中间状态与处理过程。",
+    "v4_gap": "v4 投射设置保留用户创意，但从完整工作区到设置面板的说明占了大部分镜头。",
+    "proposal": "让她主动转动一个投射面，原身体与新剪影分别出现在面两侧；设置码贴在面边，手的动作决定何时切换。",
+    "new_asset": "投射面操作的完整肩臂姿态；面板重排为场景物件。",
+    "evidence_images": [
+      "../../exports/reference-BV1xCai6aE9g-review/early-contact/boards-33-36.jpg",
+      "overview/overview-09.jpg",
+      "overview/overview-10.jpg"
+    ]
+  },
+  {
+    "id": "R34",
+    "reference_observation": "同一字节格切换不同表示方式，布局稳定但内容和色阶改变。",
+    "v4_gap": "v4 男女投射身份成立，主体仍居中切换，身体状态没有展示差异。",
+    "proposal": "保留已确认男女设定，采用面向彼此的两个完整姿态，转过投射面时连续交接重心；角和结饰是识别点，不用屏幕左右字母承担识别。",
+    "new_asset": "为既有男女造型补同一转身动作的关键状态，非镜像替换。",
+    "evidence_images": [
+      "../../exports/reference-BV1xCai6aE9g-review/early-contact/boards-33-36.jpg",
+      "overview/overview-10.jpg"
+    ]
+  },
+  {
+    "id": "R35",
+    "reference_observation": "时钟与聊天日常同时推进，上午到下午是同一关系持续发生的证据。",
+    "v4_gap": "v4 RNN 可复算且 AM/PM 清楚，但人物仍固定左侧、网络固定右侧，时间主要发生在图表。",
+    "proposal": "同一画桌的三次落笔成为三个时步：早晨起笔、中午看成果、夜间伸展后继续；RNN 状态沿纸边留下旧笔迹，下一步明确携带前一笔。",
+    "new_asset": "三时刻专属工作姿态组与日光场景状态；网络数值保留为短插镜。",
+    "evidence_images": [
+      "../../exports/reference-BV1xCai6aE9g-review/early-contact/boards-33-36.jpg",
+      "overview/overview-10.jpg",
+      "boards/R35.jpg"
+    ]
+  },
+  {
+    "id": "R36",
+    "reference_observation": "对话角色标签互换，随后整行标签旋转离开列阵，控制关系成为下一场运动材料。",
+    "v4_gap": "v4 给与收的方向由线和字变化，但主人物同一掌姿，权限易手的感受较弱。",
+    "proposal": "分别绘制递出和接住控制点的两种完整动作；线从她的指尖移向对方后，牵引方向倒转，肩肘随受力轻变。",
+    "new_asset": "递出/接住完整肩臂两状态，避免仅旋转同一掌心图。",
+    "evidence_images": [
+      "../../exports/reference-BV1xCai6aE9g-review/early-contact/boards-33-36.jpg",
+      "overview/overview-10.jpg",
+      "motion/R36.jpg"
+    ]
+  },
+  {
+    "id": "R37",
+    "reference_observation": "采样螺旋开始出现，前一段离开的角色标签成为其中的颗粒。",
+    "v4_gap": "v4 两次开关点击干脆，这个清晰节奏值得保留。",
+    "proposal": "保留两个点击，但让开关直接抽走纸面边界的一小段；改变先在环境发生，然后才进入下一镜失去界限。",
+    "new_asset": "不新绘角色；边界断开的程序动作独用。",
+    "evidence_images": [
+      "../../exports/reference-BV1xCai6aE9g-review/early-contact/boards-37-40.jpg",
+      "overview/overview-10.jpg",
+      "overview/overview-11.jpg"
+    ]
+  },
+  {
+    "id": "R38",
+    "reference_observation": "螺旋持续旋转，分布条改变，运动材料来自之前标签；并非另贴无来源粒子。",
+    "v4_gap": "v4 半身中心加纸片场与别的半身展示相近，人物没有进入旋转空间。",
+    "proposal": "改成高位斜俯视，完整人物跨过已打开边界，袖带与纸片沿同一旋转路径；镜头只转半周，先留清楚方向再失去方向。",
+    "new_asset": "独立跨界转身全身动作与前后纸层，不能把半身卡整体摇晃。",
+    "evidence_images": [
+      "../../exports/reference-BV1xCai6aE9g-review/early-contact/boards-37-40.jpg",
+      "overview/overview-11.jpg"
+    ]
+  },
+  {
+    "id": "R39",
+    "reference_observation": "螺旋收去后直接变为输入节律和稀疏位置格，流程更新有明确出口。",
+    "v4_gap": "v4 重连条有效但又回到完整聊天页，短镜包含多余导航。",
+    "proposal": "保留 1/5→成功 的明确信息，把它放在上镜被打开的边界接点，成功脉冲进入下一镜她的指尖；删去全页导航回切。",
+    "new_asset": "小型接点状态层，不新增人物。",
+    "evidence_images": [
+      "../../exports/reference-BV1xCai6aE9g-review/early-contact/boards-37-40.jpg",
+      "overview/overview-11.jpg"
+    ]
+  },
+  {
+    "id": "R40",
+    "reference_observation": "输入节律在上，键位索引在下，左侧聊天继续推进；振动来源可读。",
+    "v4_gap": "v4 双路波形已独立，但她同一开放手姿长时间在左侧，察觉回应没有表演变化。",
+    "proposal": "先拍桌面接点轻震，再由完整侧身转头寻找来源，金紫波形保留独立频率；观众能分清输入来自另一端。",
+    "new_asset": "共振组第一状态：侧耳察觉、抬头转向；完整头肩。",
+    "evidence_images": [
+      "../../exports/reference-BV1xCai6aE9g-review/early-contact/boards-37-40.jpg",
+      "overview/overview-11.jpg"
+    ]
+  },
+  {
+    "id": "R41",
+    "reference_observation": "输入停止后大面板退暗，只留下小词块，随后回复结构显现；焦点被压缩。",
+    "v4_gap": "v4 波形接近，但主构图与 R40 相同，只换成大关键词，尺度冲击仍依赖文字。",
+    "proposal": "切到连着前臂的指尖接触近景，振动通过皮肤、袖口、纸面三者传递；手在画面中有肩臂来源，波形只作为接触路径。",
+    "new_asset": "共振组第二状态：指尖接触的完整肩臂构图；不是独立手模型。",
+    "evidence_images": [
+      "../../exports/reference-BV1xCai6aE9g-review/early-contact/boards-41-43.jpg",
+      "overview/overview-11.jpg",
+      "boards/R41.jpg",
+      "motion/R41.jpg"
+    ]
+  },
+  {
+    "id": "R42",
+    "reference_observation": "小词块留在回复结构中央，人物图从粗糙到清晰，回复逐步完成。",
+    "v4_gap": "v4 仍是同一接收姿态和双波形，期待转为幸福的时刻不够独立。",
+    "proposal": "从指尖沿袖口抬到眼睛，眼神先追到金笔，肩部才放松；对方准备离开的提示只放在远景，保留她未察觉的情绪错位。",
+    "new_asset": "共振组第三状态：抬眼与轻松肩部；不用尾声认出表情。",
+    "evidence_images": [
+      "../../exports/reference-BV1xCai6aE9g-review/early-contact/boards-41-43.jpg",
+      "overview/overview-11.jpg"
+    ]
+  },
+  {
+    "id": "R43",
+    "reference_observation": "完成状态后右区已开始撤成请求框，幸福与下一段断联衔接紧。",
+    "v4_gap": "v4 以同样接收姿态加完成词收尾，人物没有一个能被记住的幸福瞬间。",
+    "proposal": "让她在这一拍真正笑起来，旧星在双人笔迹接点亮一下；完成词退到边缘，下一镜先撤走金色回应而不是立即换孤独贴图。",
+    "new_asset": "共振组专属幸福表情/姿态收束状态，尾声认出微笑仍独立保留。",
+    "evidence_images": [
+      "../../exports/reference-BV1xCai6aE9g-review/early-contact/boards-41-43.jpg"
+    ]
+  }
+]

@@ -1,0 +1,98 @@
+{
+  "bvid": "BV1xCai6aE9g",
+  "astraVersion": "accepted-full-v4",
+  "html": "docs\\reference-BV1xCai6aE9g\\index.html",
+  "checkedAt": "2026-11-05T06:33:56.638Z",
+  "checks": {
+    "cards86": true,
+    "perShotReviews": true,
+    "oldNotesIsolated": true,
+    "all86ShotSelections": true,
+    "nextFrame": true,
+    "next12": true,
+    "backSteps": true,
+    "sliderMapping": true,
+    "numericFrameInput": true,
+    "keyboard": true,
+    "search": true,
+    "textareaArrowNotIntercepted": true,
+    "notePersists": true,
+    "notesExport": true,
+    "tailUnpaired": true,
+    "tailBoundaryHasNoReference": true,
+    "lastFrame": true,
+    "referenceLastFrame": true,
+    "noMobileOverflow": true,
+    "lazyMotionLoads": true,
+    "noMobileCardOverflow": true,
+    "all172BoardMotionImagesLoad": true,
+    "all18185FrameFilesExist": true,
+    "boardFiles": true,
+    "allLocalLinksExist": true,
+    "noOldReferencePaths": true,
+    "noExternalRequests": true,
+    "noPageErrors": true,
+    "noMissingImageRequests": true
+  },
+  "screenshots": [
+    "exports\\reference-BV1xCai6aE9g-review\\ui\\desktop.png",
+    "exports\\reference-BV1xCai6aE9g-review\\ui\\desktop-inspector.png",
+    "exports\\reference-BV1xCai6aE9g-review\\ui\\independent-tail.png",
+    "exports\\reference-BV1xCai6aE9g-review\\ui\\mobile.png",
+    "exports\\reference-BV1xCai6aE9g-review\\ui\\mobile-inspector.png",
+    "exports\\reference-BV1xCai6aE9g-review\\ui\\mobile-card.png"
+  ],
+  "errors": [],
+  "requestFailures": [],
+  "externalRequests": [],
+  "visualInspection": {
+    "completed": true,
+    "date": "2026-11-05",
+    "report": "docs/reference-BV1xCai6aE9g/UI_REVIEW.md",
+    "reportSha256": "79e53b57c964a83f287a27318706da126b5f438b22ec18989a35810587bc4b94",
+    "screenshots": [
+      {
+        "file": "exports\\reference-BV1xCai6aE9g-review\\ui\\desktop.png",
+        "sha256": "3023e1bc05b6839cb94b5c980916bc5e924631a8c8d925e217532c281f2214af",
+        "viewed": true
+      },
+      {
+        "file": "exports\\reference-BV1xCai6aE9g-review\\ui\\desktop-inspector.png",
+        "sha256": "e1b67046ea3de1596589fd27c4bec5f738d7273b17312d998e80c0f2c8482c18",
+        "viewed": true
+      },
+      {
+        "file": "exports\\reference-BV1xCai6aE9g-review\\ui\\independent-tail.png",
+        "sha256": "03c5fc9ebbf3542a209b72a79d90ec5f18265ea9e3dfa8f132e86bd796e8d0ba",
+        "viewed": true
+      },
+      {
+        "file": "exports\\reference-BV1xCai6aE9g-review\\ui\\mobile.png",
+        "sha256": "ff0b6578d9c872a6068bc1f298f6c20b1d5c6f8b4a556ede59501858465e973b",
+        "viewed": true
+      },
+      {
+        "file": "exports\\reference-BV1xCai6aE9g-review\\ui\\mobile-inspector.png",
+        "sha256": "649d4086e67b67a4770bb5c9d9c35f8fd00666ba19add975a1543df67fc4283f",
+        "viewed": true
+      },
+      {
+        "file": "exports\\reference-BV1xCai6aE9g-review\\ui\\mobile-card.png",
+        "sha256": "a42036a2f64ac92e6190dfc9ca1d9162a14cf0dcb134fb55b6946465d24688e4",
+        "viewed": true
+      }
+    ],
+    "scope": "All six final screenshots actually viewed: desktop, desktop inspector, independent tail, mobile, mobile inspector and mobile R46 card. Not a continuous video/audio review or manual visual audit of every card."
+  },
+  "exportedNoteKeys": [
+    "R46"
+  ],
+  "tailBoundaryFrame": 12716,
+  "failedImages": [],
+  "frameFilesChecked": 18185,
+  "missingLinks": [],
+  "passed": true,
+  "htmlSha256": "3b5504956bbca7de0a8e8eb75483a32a7243835683ae9840408ce3cc67afaa99",
+  "builderSha256": "43a24a2e66ff66991035737659e90b5a69bfe82e89e3394ea2a5c84e4ebd8513",
+  "scope": "Actual local file:// discussion page in isolated headless Edge; 86 cards, frame math, 18185 file existence, 172 board/motion image loads, local notes and screenshots. Separate visual inspection required. No production edit, video render, upload, or continuous video/audio review."
+}

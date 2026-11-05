@@ -1,0 +1,131 @@
+{
+  "source_page": "https://www.bilibili.com/video/BV1xCai6aE9g/",
+  "bvid": "BV1xCai6aE9g",
+  "aid": 117346878490933,
+  "cid": 42266724206,
+  "title": "【4K】如果聊天窗口就是她的整个世界 —— world.execute(me)",
+  "uploader": {
+    "name": "西西弗斯的风车",
+    "mid": 6992634
+  },
+  "published_utc": "2026-09-28T04:57:57+00:00",
+  "fetched_utc": "2026-11-05T06:18:36.454517+00:00",
+  "api_duration_seconds": 212,
+  "playback_timelength_ms": 211905,
+  "authentication": "none; new requests Session without browser credentials or cookies",
+  "selection": "highest-resolution AVC openly returned by public playurl, then highest bandwidth; maximum public audio bandwidth",
+  "publicly_returned_avc_tracks": [
+    {
+      "id": 32,
+      "codecs": "avc1.64001F",
+      "width": 852,
+      "height": 480,
+      "frameRate": "24.000",
+      "frame_rate": "24.000",
+      "bandwidth": 321467,
+      "mimeType": "video/mp4",
+      "mime_type": "video/mp4"
+    },
+    {
+      "id": 16,
+      "codecs": "avc1.64001E",
+      "width": 640,
+      "height": 360,
+      "frameRate": "24.000",
+      "frame_rate": "24.000",
+      "bandwidth": 193613,
+      "mimeType": "video/mp4",
+      "mime_type": "video/mp4"
+    }
+  ],
+  "publicly_returned_audio_tracks": [
+    {
+      "id": 30232,
+      "codecs": "mp4a.40.2",
+      "width": 0,
+      "height": 0,
+      "frameRate": "",
+      "frame_rate": "",
+      "bandwidth": 97355,
+      "mimeType": "audio/mp4",
+      "mime_type": "audio/mp4"
+    },
+    {
+      "id": 30216,
+      "codecs": "mp4a.40.2",
+      "width": 0,
+      "height": 0,
+      "frameRate": "",
+      "frame_rate": "",
+      "bandwidth": 65610,
+      "mimeType": "audio/mp4",
+      "mime_type": "audio/mp4"
+    },
+    {
+      "id": 30280,
+      "codecs": "mp4a.40.2",
+      "width": 0,
+      "height": 0,
+      "frameRate": "",
+      "frame_rate": "",
+      "bandwidth": 192739,
+      "mimeType": "audio/mp4",
+      "mime_type": "audio/mp4"
+    }
+  ],
+  "use": "local frame-by-frame reference analysis; no reupload; existing references preserved",
+  "url_sanitization": "Only public page and CDN hostname persisted; no signed playback URLs or query tokens",
+  "video": {
+    "id": 32,
+    "codecs": "avc1.64001F",
+    "width": 852,
+    "height": 480,
+    "frameRate": "24.000",
+    "frame_rate": "24.000",
+    "bandwidth": 321467,
+    "mimeType": "video/mp4",
+    "mime_type": "video/mp4",
+    "path": "D:\\myskills\\updream\\references\\gpt-astra-BV1xCai6aE9g\\reference-video-avc.mp4",
+    "download_host": "cn-jsnt-ct-01-11.bilivideo.com",
+    "bytes": 8514409,
+    "sha256": "f9a28e990d799933445d550c9becebfc5eac906b906a7287b24d58881954b011",
+    "public_cdn_transport_failures": [],
+    "decode": {
+      "passed": true,
+      "full_decode_exit": 0,
+      "stream": "Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 852x480 [SAR 640:639 DAR 16:9], 213 kb/s, 24 fps, 24 tbr, 16k tbn (default)",
+      "width": 852,
+      "height": 480,
+      "fps": 24.0,
+      "decoded_frames": 5085,
+      "duration_from_frames_seconds": 211.875,
+      "last_decode_progress_seconds": 211.875,
+      "scope": "Actual complete FFmpeg decode and stream probe; not visual inspection or exact per-packet timestamp certification"
+    }
+  },
+  "audio": {
+    "id": 30280,
+    "codecs": "mp4a.40.2",
+    "width": 0,
+    "height": 0,
+    "frameRate": "",
+    "frame_rate": "",
+    "bandwidth": 192739,
+    "mimeType": "audio/mp4",
+    "mime_type": "audio/mp4",
+    "path": "D:\\myskills\\updream\\references\\gpt-astra-BV1xCai6aE9g\\reference-audio.m4a",
+    "download_host": "xy106x41x194x142xy.mcdn.bilivideo.cn",
+    "bytes": 5105873,
+    "sha256": "8b7a415ffbc5100c4e3ab5f7230cdfd3a5e02d87e1af8b5437dbff40b2900db5",
+    "public_cdn_transport_failures": [],
+    "decode": {
+      "passed": true,
+      "full_decode_exit": 0,
+      "analysis_sample_rate": 24000,
+      "channels_for_analysis": 1,
+      "decoded_samples": 5085728,
+      "duration_seconds": 211.90533333333335,
+      "scope": "Entire audio decoded to mono float32 at 24kHz for correlation; original compressed stream preserved"
+    }
+  }
+}

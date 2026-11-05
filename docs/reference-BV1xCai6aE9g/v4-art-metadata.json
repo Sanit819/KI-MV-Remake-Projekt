@@ -1,0 +1,622 @@
+{
+  "bust": {
+    "path": "/assets/astra/v07/bust-knot.png",
+    "anchors": {
+      "hands": [
+        840,
+        885
+      ],
+      "wrist": [
+        890,
+        955
+      ]
+    },
+    "face": {
+      "x": 320,
+      "y": 100,
+      "w": 650,
+      "h": 600
+    },
+    "w": 1308,
+    "h": 1203,
+    "bounds": {
+      "x": 15,
+      "y": 22,
+      "w": 1278,
+      "h": 1166
+    },
+    "sha256": "e459b40bd2276f3c9296a66cc1f308f1129ce547012689c2afcfc5fb081c2ca6"
+  },
+  "eye": {
+    "path": "/assets/astra/v08/face-eye-v02.png",
+    "face": {
+      "x": 330,
+      "y": 420,
+      "w": 560,
+      "h": 500
+    },
+    "anchors": {
+      "eye": [
+        708,
+        652
+      ]
+    },
+    "tonalThresholds": [
+      65,
+      16,
+      160,
+      22
+    ],
+    "w": 1254,
+    "h": 1254,
+    "bounds": {
+      "x": 30,
+      "y": 15,
+      "w": 1201,
+      "h": 1239
+    },
+    "sha256": "876997f390bc0e6f6b32ede584f4f3a030b24b5c33ec096201a2df9a2077c480"
+  },
+  "profile": {
+    "path": "/assets/astra/v07/profile-knot.png",
+    "anchors": {},
+    "face": {
+      "x": 200,
+      "y": 280,
+      "w": 600,
+      "h": 580
+    },
+    "w": 1390,
+    "h": 1132,
+    "bounds": {
+      "x": 25,
+      "y": 19,
+      "w": 1340,
+      "h": 1099
+    },
+    "sha256": "aa34d5423a6b334e4f667efed615757411a5061c0cef4530aa6945de5bcd9935"
+  },
+  "hand": {
+    "path": "/assets/astra/v07/hand-knot.png",
+    "anchors": {
+      "hands": [
+        711,
+        375
+      ],
+      "wrist": [
+        898,
+        386
+      ]
+    },
+    "w": 1795,
+    "h": 876,
+    "bounds": {
+      "x": 27,
+      "y": 24,
+      "w": 1744,
+      "h": 830
+    },
+    "sha256": "bd6e53ba68c7aefe4501c2a381d34db672effbd3c6ee9cc099e4d656f013fc0c"
+  },
+  "foot": {
+    "path": "/assets/astra/v07/foot-knot.png",
+    "anchors": {
+      "toe": [
+        174,
+        1115
+      ]
+    },
+    "w": 1385,
+    "h": 1136,
+    "bounds": {
+      "x": 153,
+      "y": 6,
+      "w": 1222,
+      "h": 1121
+    },
+    "sha256": "20a52aabf2ae3a8605862c92cb3ca4ee4483b0afb14ef695724ec3ef8c882a14"
+  },
+  "operating": {
+    "path": "/assets/astra/v07/operating-knot.png",
+    "anchors": {
+      "hands": [
+        1302,
+        1015
+      ],
+      "wrist": [
+        1035,
+        994
+      ],
+      "pen": [
+        721,
+        974
+      ],
+      "holding": [
+        609,
+        931
+      ]
+    },
+    "w": 1337,
+    "h": 1176,
+    "bounds": {
+      "x": 20,
+      "y": 17,
+      "w": 1291,
+      "h": 1155
+    },
+    "sha256": "39b090e4e5547b9754ac6261af8b80da1c7f7b3fbacf21c3c0e1afd82489b5d2"
+  },
+  "cat": {
+    "path": "/assets/astra/v07/cat-knot.png",
+    "anchors": {},
+    "w": 1319,
+    "h": 1193,
+    "bounds": {
+      "x": 16,
+      "y": 15,
+      "w": 1295,
+      "h": 1169
+    },
+    "sha256": "c02461813af3c9bf00fc6e1e530c2935bf379eff591582d10bc172245aa8b90c"
+  },
+  "male": {
+    "path": "/assets/astra/v07/male-knot.png",
+    "anchors": {},
+    "w": 1337,
+    "h": 1176,
+    "bounds": {
+      "x": 5,
+      "y": 10,
+      "w": 1326,
+      "h": 1166
+    },
+    "sha256": "1bed896dafc87437a14b073a9a10caa0caed1554e4bd2d29448076037acb0638"
+  },
+  "back": {
+    "path": "/assets/astra/v07/back-knot.png",
+    "anchors": {
+      "pen": [
+        1292,
+        1096
+      ]
+    },
+    "w": 1337,
+    "h": 1176,
+    "bounds": {
+      "x": 20,
+      "y": 20,
+      "w": 1276,
+      "h": 1150
+    },
+    "sha256": "d24000f5124d6614f9d5225d0603528203e6c76716f214322877d59bd9b97410"
+  },
+  "recoil": {
+    "path": "/assets/astra/v07/recoil-knot.png",
+    "anchors": {
+      "hands": [
+        421,
+        661
+      ],
+      "wrist": [
+        446,
+        752
+      ],
+      "grasp": [
+        465,
+        821
+      ]
+    },
+    "w": 1312,
+    "h": 1199,
+    "bounds": {
+      "x": 14,
+      "y": 11,
+      "w": 1293,
+      "h": 1188
+    },
+    "sha256": "27cb70e1257236db1f7ae8e6a6faca13d02f77c3869cec735a7d692bfe6b6fb8"
+  },
+  "guest0": {
+    "path": "/assets/astra/v07/guest0.png",
+    "anchors": {},
+    "w": 1199,
+    "h": 1312,
+    "bounds": {
+      "x": 5,
+      "y": 4,
+      "w": 1189,
+      "h": 1308
+    },
+    "sha256": "18633c3868189a3957b3cfc45bd1b77fb0d260b655fd911d327c6aac3b36eecf"
+  },
+  "guest1": {
+    "path": "/assets/astra/v07/guest1.png",
+    "anchors": {},
+    "w": 1084,
+    "h": 1451,
+    "bounds": {
+      "x": 51,
+      "y": 13,
+      "w": 884,
+      "h": 1438
+    },
+    "sha256": "4e653f2a0fbfee1e309cf70df7af481e4ceb06ae498d6e1992b593af7795451a"
+  },
+  "guest2": {
+    "path": "/assets/astra/v07/guest2.png",
+    "anchors": {},
+    "w": 1194,
+    "h": 1317,
+    "bounds": {
+      "x": 10,
+      "y": 7,
+      "w": 1173,
+      "h": 1310
+    },
+    "sha256": "afdac5749cb37eeaba6436c34278aaf097a200a7ac5c39e17c86335abde9d736"
+  },
+  "guest3": {
+    "path": "/assets/astra/v07/guest3.png",
+    "anchors": {},
+    "w": 1199,
+    "h": 1312,
+    "bounds": {
+      "x": 42,
+      "y": 8,
+      "w": 1121,
+      "h": 1304
+    },
+    "sha256": "617217f25f58f2102396a64a7c013692ad39a68ca40c7484f61ac0ce379e2911"
+  },
+  "guest4": {
+    "path": "/assets/astra/v07/guest4.png",
+    "anchors": {},
+    "w": 1169,
+    "h": 1346,
+    "bounds": {
+      "x": 36,
+      "y": 21,
+      "w": 1113,
+      "h": 1325
+    },
+    "sha256": "73fbc3461789363e7c43d83f01097b0a4b94b2a14d8058ae12d3386c27faa3ff"
+  },
+  "guest5": {
+    "path": "/assets/astra/v07/guest5.png",
+    "anchors": {},
+    "w": 1312,
+    "h": 1199,
+    "bounds": {
+      "x": 14,
+      "y": 4,
+      "w": 1287,
+      "h": 1195
+    },
+    "sha256": "269ea1f2debc345146db37c466f9e03e3a88f6ae356996c761dce92a24217ad8"
+  },
+  "stand": {
+    "path": "/assets/astra/final/stand-knot.png",
+    "face": {
+      "x": 340,
+      "y": 100,
+      "w": 380,
+      "h": 310
+    },
+    "anchors": {
+      "hands": [
+        610,
+        410
+      ],
+      "pen": [
+        280,
+        1005
+      ]
+    },
+    "w": 1024,
+    "h": 1535,
+    "bounds": {
+      "x": 72,
+      "y": 10,
+      "w": 887,
+      "h": 1514
+    },
+    "sha256": "7692119f9bd214fd860108254c51c5bc2055748ac8cd86000ae94422b798ff0c"
+  },
+  "reach": {
+    "path": "/assets/astra/final/reach-knot.png",
+    "face": {
+      "x": 480,
+      "y": 85,
+      "w": 360,
+      "h": 300
+    },
+    "anchors": {
+      "hands": [
+        1100,
+        250
+      ],
+      "pen": [
+        735,
+        505
+      ],
+      "wrist": [
+        1010,
+        293
+      ]
+    },
+    "w": 1230,
+    "h": 1278,
+    "bounds": {
+      "x": 3,
+      "y": 1,
+      "w": 1221,
+      "h": 1277
+    },
+    "sha256": "3ee9912a28573a170ecee14710f8ea12d7547582c1879bed9613b9009faa9d4e"
+  },
+  "protect": {
+    "path": "/assets/astra/final/protect-knot.png",
+    "face": {
+      "x": 340,
+      "y": 110,
+      "w": 380,
+      "h": 310
+    },
+    "anchors": {
+      "hands": [
+        540,
+        505
+      ],
+      "pen": [
+        540,
+        505
+      ]
+    },
+    "w": 1024,
+    "h": 1536,
+    "bounds": {
+      "x": 13,
+      "y": 8,
+      "w": 997,
+      "h": 1519
+    },
+    "sha256": "7274e78017c42cdb16325a1853398fae60bfe54cddfcbbdeb6d6bfb036995e68"
+  },
+  "sit": {
+    "path": "/assets/astra/final/sit-knot.png",
+    "face": {
+      "x": 415,
+      "y": 125,
+      "w": 380,
+      "h": 310
+    },
+    "anchors": {
+      "hands": [
+        790,
+        715
+      ],
+      "pen": [
+        944,
+        778
+      ]
+    },
+    "w": 1111,
+    "h": 1416,
+    "bounds": {
+      "x": 40,
+      "y": 0,
+      "w": 1042,
+      "h": 1412
+    },
+    "sha256": "4e6f8e950ea7fcfe19ca65a64d8798c886759c8468ed616a819a3559b9939ed4"
+  },
+  "surprise": {
+    "path": "/assets/astra/v06-eye-study/surprise-candidate.png",
+    "face": {
+      "x": 415,
+      "y": 125,
+      "w": 380,
+      "h": 310
+    },
+    "anchors": {
+      "hands": [
+        790,
+        715
+      ],
+      "pen": [
+        944,
+        778
+      ]
+    },
+    "w": 1111,
+    "h": 1416,
+    "bounds": {
+      "x": 34,
+      "y": 0,
+      "w": 1056,
+      "h": 1415
+    },
+    "sha256": "c5c7cd4b94843b967cc90478f7a29f55bbb82f8a8bb48197a7d96e525446babc"
+  },
+  "sitSmile": {
+    "path": "/assets/astra/v06-eye-study/smile-candidate.png",
+    "face": {
+      "x": 415,
+      "y": 125,
+      "w": 380,
+      "h": 310
+    },
+    "anchors": {
+      "hands": [
+        790,
+        715
+      ],
+      "pen": [
+        944,
+        778
+      ]
+    },
+    "w": 1111,
+    "h": 1415,
+    "bounds": {
+      "x": 32,
+      "y": 0,
+      "w": 1060,
+      "h": 1415
+    },
+    "sha256": "8c9677167630c939407b7f5c41c9d97228dcd54599d1511d111712d6e545d026"
+  },
+  "earlyCircle": {
+    "path": "/assets/astra/v08/early-circle.png",
+    "anchors": {
+      "pen": [
+        1568,
+        543
+      ],
+      "hands": [
+        1434,
+        400
+      ],
+      "shoulder": [
+        367,
+        253
+      ]
+    },
+    "note": "Complete connected shoulder, elbow and right stylus hand. Torso intentionally exits source left/bottom. Pen anchor is the visible purple tip (source luminance/alpha inspected), not the almost-black outer antialias tip at 1577,553. No mirrored placement.",
+    "w": 1672,
+    "h": 941,
+    "bounds": {
+      "x": 0,
+      "y": 0,
+      "w": 1580,
+      "h": 941
+    },
+    "sha256": "4bcc297c398464587a9d8145ba92c6cd6266ab77c0f870725589f0b2a457dd8a"
+  },
+  "earlyTangent": {
+    "path": "/assets/astra/v08/early-tangent.png",
+    "anchors": {
+      "pen": [
+        1225,
+        475
+      ],
+      "hands": [
+        1205,
+        302
+      ],
+      "shoulder": [
+        357,
+        682
+      ]
+    },
+    "note": "Distinct high three-quarter writing grip, vertical stylus. Complete shoulder/arm context; source-pixel anchors manually inspected.",
+    "w": 1536,
+    "h": 1024,
+    "bounds": {
+      "x": 0,
+      "y": 0,
+      "w": 1305,
+      "h": 1024
+    },
+    "sha256": "cec887d27980a65d6a645535f8e03cad11ac3dc8e7dc3e1c7e1c126f92560e14"
+  },
+  "earlyTravel": {
+    "path": "/assets/astra/v08/early-travel-framed.png",
+    "anchors": {
+      "pen": [
+        1625,
+        490
+      ],
+      "hands": [
+        1625,
+        490
+      ],
+      "shoulder": [
+        233,
+        221
+      ]
+    },
+    "note": "Connected reaching shoulder/arm with right index finger. The pen alias denotes finger contact, no physical pen in this asset. Timeline props removed by ImageGen edit.",
+    "w": 2048,
+    "h": 768,
+    "bounds": {
+      "x": 0,
+      "y": 132,
+      "w": 1628,
+      "h": 636
+    },
+    "sha256": "0df36e9626f3f5cbebd3683b20745d2ceb07c8c9e2117a170df73fe86c6fcbef"
+  },
+  "midWait": {
+    "path": "/assets/astra/v08/mid-wait.png",
+    "face": {
+      "x": 795,
+      "y": 360,
+      "w": 230,
+      "h": 255
+    },
+    "anchors": {
+      "hands": [
+        210,
+        600
+      ],
+      "wrist": [
+        302,
+        665
+      ],
+      "chest": [
+        1020,
+        744
+      ]
+    },
+    "anchor_note": "Source 1448x1086. Palm interior and wrist inspected on the complete generated pose, +/-15px. Hidden eyes have no inferred iris anchor.",
+    "tonalThresholds": [
+      40,
+      12,
+      125,
+      22
+    ],
+    "w": 1448,
+    "h": 1086,
+    "bounds": {
+      "x": 44,
+      "y": 23,
+      "w": 1366,
+      "h": 1042
+    },
+    "sha256": "c8836350580f9ecdcd503ffe811b819c3031e924bc261c8e6701661fad42437c"
+  },
+  "midReceive": {
+    "path": "/assets/astra/v08/mid-receive.png",
+    "face": {
+      "x": 608,
+      "y": 355,
+      "w": 260,
+      "h": 250
+    },
+    "anchors": {
+      "hands": [
+        1155,
+        609
+      ],
+      "wrist": [
+        1061,
+        684
+      ],
+      "chest": [
+        694,
+        737
+      ]
+    },
+    "anchor_note": "Source 1394x1128. Cupped palm, wrist and near-chest hand inspected, +/-15px. Independently generated pose, never a mirrored source.",
+    "w": 1394,
+    "h": 1128,
+    "bounds": {
+      "x": 26,
+      "y": 6,
+      "w": 1304,
+      "h": 1110
+    },
+    "sha256": "5ef8890114bb155d28fc8144e5adee26ee3ae3ded4c159450639d5a14a62d4e5"
+  }
+}

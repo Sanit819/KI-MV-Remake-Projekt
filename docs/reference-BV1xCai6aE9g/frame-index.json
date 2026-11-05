@@ -1,0 +1,8271 @@
+{
+  "reference": "D:\\myskills\\updream\\references\\gpt-astra-BV1xCai6aE9g\\reference-video-avc.mp4",
+  "astra": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\exports\\astra-world-execute-me-full-v4-1080p60.mp4",
+  "reference_page": "https://www.bilibili.com/video/BV1xCai6aE9g/",
+  "source_sha256": {
+    "reference": "f9a28e990d799933445d550c9becebfc5eac906b906a7287b24d58881954b011",
+    "astra": "27468f5d26431c5cafde118ea800b2432ebd35a7a41b413c7d2820dccb33bdd8"
+  },
+  "decoded_frames": {
+    "reference": 5085,
+    "astra": 13100
+  },
+  "fps": {
+    "reference": 24,
+    "astra": 60
+  },
+  "frame_image_size": [
+    852,
+    480
+  ],
+  "reference_first_frame_pts_s": 0.0,
+  "audio_mapping": {
+    "equation": "reference_player = slope * astra_song + offset",
+    "slope": 1.0000226265733476,
+    "offset": -0.0690719136281559,
+    "frame_equation": "reference frame = round((reference_player - 0.0) * 24)",
+    "evidence": "../../../references/gpt-astra-BV1xCai6aE9g/alignment.json",
+    "strict_waveform_gate_passed": false,
+    "minimum_window_correlation": 0.9335206980481056,
+    "scope": "Eight-window fit against v4 base audio; strict .95 correlation threshold failed. Offset spread is under one frame. Used only for 24fps visual correspondence, not sample-exact audio matching."
+  },
+  "overview": [
+    {
+      "file": "overview/overview-01.jpg",
+      "frames": [
+        0,
+        12,
+        24,
+        36,
+        48,
+        60,
+        72,
+        84,
+        96,
+        108,
+        120,
+        132,
+        144,
+        156,
+        168,
+        180,
+        192,
+        204,
+        216,
+        228
+      ],
+      "player_start_s": 0.0,
+      "player_end_s": 9.5
+    },
+    {
+      "file": "overview/overview-02.jpg",
+      "frames": [
+        240,
+        252,
+        264,
+        276,
+        288,
+        300,
+        312,
+        324,
+        336,
+        348,
+        360,
+        372,
+        384,
+        396,
+        408,
+        420,
+        432,
+        444,
+        456,
+        468
+      ],
+      "player_start_s": 10.0,
+      "player_end_s": 19.5
+    },
+    {
+      "file": "overview/overview-03.jpg",
+      "frames": [
+        480,
+        492,
+        504,
+        516,
+        528,
+        540,
+        552,
+        564,
+        576,
+        588,
+        600,
+        612,
+        624,
+        636,
+        648,
+        660,
+        672,
+        684,
+        696,
+        708
+      ],
+      "player_start_s": 20.0,
+      "player_end_s": 29.5
+    },
+    {
+      "file": "overview/overview-04.jpg",
+      "frames": [
+        720,
+        732,
+        744,
+        756,
+        768,
+        780,
+        792,
+        804,
+        816,
+        828,
+        840,
+        852,
+        864,
+        876,
+        888,
+        900,
+        912,
+        924,
+        936,
+        948
+      ],
+      "player_start_s": 30.0,
+      "player_end_s": 39.5
+    },
+    {
+      "file": "overview/overview-05.jpg",
+      "frames": [
+        960,
+        972,
+        984,
+        996,
+        1008,
+        1020,
+        1032,
+        1044,
+        1056,
+        1068,
+        1080,
+        1092,
+        1104,
+        1116,
+        1128,
+        1140,
+        1152,
+        1164,
+        1176,
+        1188
+      ],
+      "player_start_s": 40.0,
+      "player_end_s": 49.5
+    },
+    {
+      "file": "overview/overview-06.jpg",
+      "frames": [
+        1200,
+        1212,
+        1224,
+        1236,
+        1248,
+        1260,
+        1272,
+        1284,
+        1296,
+        1308,
+        1320,
+        1332,
+        1344,
+        1356,
+        1368,
+        1380,
+        1392,
+        1404,
+        1416,
+        1428
+      ],
+      "player_start_s": 50.0,
+      "player_end_s": 59.5
+    },
+    {
+      "file": "overview/overview-07.jpg",
+      "frames": [
+        1440,
+        1452,
+        1464,
+        1476,
+        1488,
+        1500,
+        1512,
+        1524,
+        1536,
+        1548,
+        1560,
+        1572,
+        1584,
+        1596,
+        1608,
+        1620,
+        1632,
+        1644,
+        1656,
+        1668
+      ],
+      "player_start_s": 60.0,
+      "player_end_s": 69.5
+    },
+    {
+      "file": "overview/overview-08.jpg",
+      "frames": [
+        1680,
+        1692,
+        1704,
+        1716,
+        1728,
+        1740,
+        1752,
+        1764,
+        1776,
+        1788,
+        1800,
+        1812,
+        1824,
+        1836,
+        1848,
+        1860,
+        1872,
+        1884,
+        1896,
+        1908
+      ],
+      "player_start_s": 70.0,
+      "player_end_s": 79.5
+    },
+    {
+      "file": "overview/overview-09.jpg",
+      "frames": [
+        1920,
+        1932,
+        1944,
+        1956,
+        1968,
+        1980,
+        1992,
+        2004,
+        2016,
+        2028,
+        2040,
+        2052,
+        2064,
+        2076,
+        2088,
+        2100,
+        2112,
+        2124,
+        2136,
+        2148
+      ],
+      "player_start_s": 80.0,
+      "player_end_s": 89.5
+    },
+    {
+      "file": "overview/overview-10.jpg",
+      "frames": [
+        2160,
+        2172,
+        2184,
+        2196,
+        2208,
+        2220,
+        2232,
+        2244,
+        2256,
+        2268,
+        2280,
+        2292,
+        2304,
+        2316,
+        2328,
+        2340,
+        2352,
+        2364,
+        2376,
+        2388
+      ],
+      "player_start_s": 90.0,
+      "player_end_s": 99.5
+    },
+    {
+      "file": "overview/overview-11.jpg",
+      "frames": [
+        2400,
+        2412,
+        2424,
+        2436,
+        2448,
+        2460,
+        2472,
+        2484,
+        2496,
+        2508,
+        2520,
+        2532,
+        2544,
+        2556,
+        2568,
+        2580,
+        2592,
+        2604,
+        2616,
+        2628
+      ],
+      "player_start_s": 100.0,
+      "player_end_s": 109.5
+    },
+    {
+      "file": "overview/overview-12.jpg",
+      "frames": [
+        2640,
+        2652,
+        2664,
+        2676,
+        2688,
+        2700,
+        2712,
+        2724,
+        2736,
+        2748,
+        2760,
+        2772,
+        2784,
+        2796,
+        2808,
+        2820,
+        2832,
+        2844,
+        2856,
+        2868
+      ],
+      "player_start_s": 110.0,
+      "player_end_s": 119.5
+    },
+    {
+      "file": "overview/overview-13.jpg",
+      "frames": [
+        2880,
+        2892,
+        2904,
+        2916,
+        2928,
+        2940,
+        2952,
+        2964,
+        2976,
+        2988,
+        3000,
+        3012,
+        3024,
+        3036,
+        3048,
+        3060,
+        3072,
+        3084,
+        3096,
+        3108
+      ],
+      "player_start_s": 120.0,
+      "player_end_s": 129.5
+    },
+    {
+      "file": "overview/overview-14.jpg",
+      "frames": [
+        3120,
+        3132,
+        3144,
+        3156,
+        3168,
+        3180,
+        3192,
+        3204,
+        3216,
+        3228,
+        3240,
+        3252,
+        3264,
+        3276,
+        3288,
+        3300,
+        3312,
+        3324,
+        3336,
+        3348
+      ],
+      "player_start_s": 130.0,
+      "player_end_s": 139.5
+    },
+    {
+      "file": "overview/overview-15.jpg",
+      "frames": [
+        3360,
+        3372,
+        3384,
+        3396,
+        3408,
+        3420,
+        3432,
+        3444,
+        3456,
+        3468,
+        3480,
+        3492,
+        3504,
+        3516,
+        3528,
+        3540,
+        3552,
+        3564,
+        3576,
+        3588
+      ],
+      "player_start_s": 140.0,
+      "player_end_s": 149.5
+    },
+    {
+      "file": "overview/overview-16.jpg",
+      "frames": [
+        3600,
+        3612,
+        3624,
+        3636,
+        3648,
+        3660,
+        3672,
+        3684,
+        3696,
+        3708,
+        3720,
+        3732,
+        3744,
+        3756,
+        3768,
+        3780,
+        3792,
+        3804,
+        3816,
+        3828
+      ],
+      "player_start_s": 150.0,
+      "player_end_s": 159.5
+    },
+    {
+      "file": "overview/overview-17.jpg",
+      "frames": [
+        3840,
+        3852,
+        3864,
+        3876,
+        3888,
+        3900,
+        3912,
+        3924,
+        3936,
+        3948,
+        3960,
+        3972,
+        3984,
+        3996,
+        4008,
+        4020,
+        4032,
+        4044,
+        4056,
+        4068
+      ],
+      "player_start_s": 160.0,
+      "player_end_s": 169.5
+    },
+    {
+      "file": "overview/overview-18.jpg",
+      "frames": [
+        4080,
+        4092,
+        4104,
+        4116,
+        4128,
+        4140,
+        4152,
+        4164,
+        4176,
+        4188,
+        4200,
+        4212,
+        4224,
+        4236,
+        4248,
+        4260,
+        4272,
+        4284,
+        4296,
+        4308
+      ],
+      "player_start_s": 170.0,
+      "player_end_s": 179.5
+    },
+    {
+      "file": "overview/overview-19.jpg",
+      "frames": [
+        4320,
+        4332,
+        4344,
+        4356,
+        4368,
+        4380,
+        4392,
+        4404,
+        4416,
+        4428,
+        4440,
+        4452,
+        4464,
+        4476,
+        4488,
+        4500,
+        4512,
+        4524,
+        4536,
+        4548
+      ],
+      "player_start_s": 180.0,
+      "player_end_s": 189.5
+    },
+    {
+      "file": "overview/overview-20.jpg",
+      "frames": [
+        4560,
+        4572,
+        4584,
+        4596,
+        4608,
+        4620,
+        4632,
+        4644,
+        4656,
+        4668,
+        4680,
+        4692,
+        4704,
+        4716,
+        4728,
+        4740,
+        4752,
+        4764,
+        4776,
+        4788
+      ],
+      "player_start_s": 190.0,
+      "player_end_s": 199.5
+    },
+    {
+      "file": "overview/overview-21.jpg",
+      "frames": [
+        4800,
+        4812,
+        4824,
+        4836,
+        4848,
+        4860,
+        4872,
+        4884,
+        4896,
+        4908,
+        4920,
+        4932,
+        4944,
+        4956,
+        4968,
+        4980,
+        4992,
+        5004,
+        5016,
+        5028
+      ],
+      "player_start_s": 200.0,
+      "player_end_s": 209.5
+    },
+    {
+      "file": "overview/overview-22.jpg",
+      "frames": [
+        5040,
+        5052,
+        5064,
+        5076
+      ],
+      "player_start_s": 210.0,
+      "player_end_s": 211.5
+    }
+  ],
+  "shots": [
+    {
+      "id": "R01",
+      "song_start_s": 0,
+      "song_end_s": 3.95,
+      "points": [
+        {
+          "requested_song_s": 0.474,
+          "reference_frame": 10,
+          "reference_player_s": 0.4166666666666667,
+          "astra_frame": 28,
+          "astra_song_s": 0.4666666666666667
+        },
+        {
+          "requested_song_s": 1.975,
+          "reference_frame": 46,
+          "reference_player_s": 1.9166666666666667,
+          "astra_frame": 118,
+          "astra_song_s": 1.9666666666666666
+        },
+        {
+          "requested_song_s": 3.476,
+          "reference_frame": 82,
+          "reference_player_s": 3.4166666666666665,
+          "astra_frame": 209,
+          "astra_song_s": 3.4833333333333334
+        }
+      ],
+      "board": "boards/R01.jpg",
+      "motion": {
+        "sequences": [
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          [
+            82,
+            83,
+            84,
+            85,
+            86,
+            87,
+            88,
+            89,
+            90,
+            91,
+            92,
+            93
+          ]
+        ],
+        "peak_frame": 88,
+        "peak_difference": 6.1266
+      },
+      "motion_file": "motion/R01.jpg"
+    },
+    {
+      "id": "R02",
+      "song_start_s": 3.95,
+      "song_end_s": 7.65,
+      "points": [
+        {
+          "requested_song_s": 4.394,
+          "reference_frame": 104,
+          "reference_player_s": 4.333333333333333,
+          "astra_frame": 264,
+          "astra_song_s": 4.4
+        },
+        {
+          "requested_song_s": 5.800000000000001,
+          "reference_frame": 138,
+          "reference_player_s": 5.75,
+          "astra_frame": 348,
+          "astra_song_s": 5.8
+        },
+        {
+          "requested_song_s": 7.206,
+          "reference_frame": 171,
+          "reference_player_s": 7.125,
+          "astra_frame": 432,
+          "astra_song_s": 7.2
+        }
+      ],
+      "board": "boards/R02.jpg",
+      "motion": {
+        "sequences": [
+          [
+            87,
+            88,
+            89,
+            90,
+            91,
+            92,
+            93,
+            94,
+            95,
+            96,
+            97,
+            98
+          ],
+          [
+            113,
+            114,
+            115,
+            116,
+            117,
+            118,
+            119,
+            120,
+            121,
+            122,
+            123,
+            124
+          ]
+        ],
+        "peak_frame": 119,
+        "peak_difference": 10.1901
+      },
+      "motion_file": "motion/R02.jpg"
+    },
+    {
+      "id": "R03",
+      "song_start_s": 7.65,
+      "song_end_s": 11.333333333333334,
+      "points": [
+        {
+          "requested_song_s": 8.092,
+          "reference_frame": 193,
+          "reference_player_s": 8.041666666666666,
+          "astra_frame": 486,
+          "astra_song_s": 8.1
+        },
+        {
+          "requested_song_s": 9.491666666666667,
+          "reference_frame": 226,
+          "reference_player_s": 9.416666666666666,
+          "astra_frame": 570,
+          "astra_song_s": 9.5
+        },
+        {
+          "requested_song_s": 10.891333333333334,
+          "reference_frame": 260,
+          "reference_player_s": 10.833333333333334,
+          "astra_frame": 653,
+          "astra_song_s": 10.883333333333333
+        }
+      ],
+      "board": "boards/R03.jpg",
+      "motion": {
+        "sequences": [
+          [
+            176,
+            177,
+            178,
+            179,
+            180,
+            181,
+            182,
+            183,
+            184,
+            185,
+            186,
+            187
+          ],
+          [
+            254,
+            255,
+            256,
+            257,
+            258,
+            259,
+            260,
+            261,
+            262,
+            263,
+            264,
+            265
+          ]
+        ],
+        "peak_frame": 260,
+        "peak_difference": 8.0786
+      },
+      "motion_file": "motion/R03.jpg"
+    },
+    {
+      "id": "R04",
+      "song_start_s": 11.333333333333334,
+      "song_end_s": 15.033333333333333,
+      "points": [
+        {
+          "requested_song_s": 11.777333333333333,
+          "reference_frame": 281,
+          "reference_player_s": 11.708333333333334,
+          "astra_frame": 707,
+          "astra_song_s": 11.783333333333333
+        },
+        {
+          "requested_song_s": 13.183333333333334,
+          "reference_frame": 315,
+          "reference_player_s": 13.125,
+          "astra_frame": 791,
+          "astra_song_s": 13.183333333333334
+        },
+        {
+          "requested_song_s": 14.589333333333332,
+          "reference_frame": 348,
+          "reference_player_s": 14.5,
+          "astra_frame": 875,
+          "astra_song_s": 14.583333333333334
+        }
+      ],
+      "board": "boards/R04.jpg",
+      "motion": {
+        "sequences": [
+          [
+            264,
+            265,
+            266,
+            267,
+            268,
+            269,
+            270,
+            271,
+            272,
+            273,
+            274,
+            275
+          ],
+          [
+            294,
+            295,
+            296,
+            297,
+            298,
+            299,
+            300,
+            301,
+            302,
+            303,
+            304,
+            305
+          ]
+        ],
+        "peak_frame": 300,
+        "peak_difference": 4.4264
+      },
+      "motion_file": "motion/R04.jpg"
+    },
+    {
+      "id": "R05",
+      "song_start_s": 15.033333333333333,
+      "song_end_s": 16.883333333333333,
+      "points": [
+        {
+          "requested_song_s": 15.255333333333333,
+          "reference_frame": 364,
+          "reference_player_s": 15.166666666666666,
+          "astra_frame": 915,
+          "astra_song_s": 15.25
+        },
+        {
+          "requested_song_s": 15.958333333333332,
+          "reference_frame": 381,
+          "reference_player_s": 15.875,
+          "astra_frame": 957,
+          "astra_song_s": 15.95
+        },
+        {
+          "requested_song_s": 16.66133333333333,
+          "reference_frame": 398,
+          "reference_player_s": 16.583333333333332,
+          "astra_frame": 1000,
+          "astra_song_s": 16.666666666666668
+        }
+      ],
+      "board": "boards/R05.jpg",
+      "motion": {
+        "sequences": [
+          [
+            353,
+            354,
+            355,
+            356,
+            357,
+            358,
+            359,
+            360,
+            361,
+            362,
+            363,
+            364
+          ],
+          [
+            382,
+            383,
+            384,
+            385,
+            386,
+            387,
+            388,
+            389,
+            390,
+            391,
+            392,
+            393
+          ]
+        ],
+        "peak_frame": 388,
+        "peak_difference": 6.7314
+      },
+      "motion_file": "motion/R05.jpg"
+    },
+    {
+      "id": "R06",
+      "song_start_s": 16.883333333333333,
+      "song_end_s": 22.416666666666668,
+      "points": [
+        {
+          "requested_song_s": 17.547333333333334,
+          "reference_frame": 419,
+          "reference_player_s": 17.458333333333332,
+          "astra_frame": 1053,
+          "astra_song_s": 17.55
+        },
+        {
+          "requested_song_s": 19.65,
+          "reference_frame": 470,
+          "reference_player_s": 19.583333333333332,
+          "astra_frame": 1179,
+          "astra_song_s": 19.65
+        },
+        {
+          "requested_song_s": 21.752666666666666,
+          "reference_frame": 520,
+          "reference_player_s": 21.666666666666668,
+          "astra_frame": 1305,
+          "astra_song_s": 21.75
+        }
+      ],
+      "board": "boards/R06.jpg",
+      "motion": {
+        "sequences": [
+          [
+            398,
+            399,
+            400,
+            401,
+            402,
+            403,
+            404,
+            405,
+            406,
+            407,
+            408,
+            409
+          ],
+          [
+            466,
+            467,
+            468,
+            469,
+            470,
+            471,
+            472,
+            473,
+            474,
+            475,
+            476,
+            477
+          ]
+        ],
+        "peak_frame": 472,
+        "peak_difference": 4.7952
+      },
+      "motion_file": "motion/R06.jpg"
+    },
+    {
+      "id": "R07",
+      "song_start_s": 22.416666666666668,
+      "song_end_s": 26.1,
+      "points": [
+        {
+          "requested_song_s": 22.858666666666668,
+          "reference_frame": 547,
+          "reference_player_s": 22.791666666666668,
+          "astra_frame": 1372,
+          "astra_song_s": 22.866666666666667
+        },
+        {
+          "requested_song_s": 24.258333333333333,
+          "reference_frame": 581,
+          "reference_player_s": 24.208333333333332,
+          "astra_frame": 1456,
+          "astra_song_s": 24.266666666666666
+        },
+        {
+          "requested_song_s": 25.658,
+          "reference_frame": 614,
+          "reference_player_s": 25.583333333333332,
+          "astra_frame": 1539,
+          "astra_song_s": 25.65
+        }
+      ],
+      "board": "boards/R07.jpg",
+      "motion": {
+        "sequences": [
+          [
+            530,
+            531,
+            532,
+            533,
+            534,
+            535,
+            536,
+            537,
+            538,
+            539,
+            540,
+            541
+          ],
+          [
+            577,
+            578,
+            579,
+            580,
+            581,
+            582,
+            583,
+            584,
+            585,
+            586,
+            587,
+            588
+          ]
+        ],
+        "peak_frame": 583,
+        "peak_difference": 4.1657
+      },
+      "motion_file": "motion/R07.jpg"
+    },
+    {
+      "id": "R08",
+      "song_start_s": 26.1,
+      "song_end_s": 29.333333333333332,
+      "points": [
+        {
+          "requested_song_s": 26.488,
+          "reference_frame": 634,
+          "reference_player_s": 26.416666666666668,
+          "astra_frame": 1589,
+          "astra_song_s": 26.483333333333334
+        },
+        {
+          "requested_song_s": 27.71666666666667,
+          "reference_frame": 664,
+          "reference_player_s": 27.666666666666668,
+          "astra_frame": 1663,
+          "astra_song_s": 27.716666666666665
+        },
+        {
+          "requested_song_s": 28.945333333333334,
+          "reference_frame": 693,
+          "reference_player_s": 28.875,
+          "astra_frame": 1737,
+          "astra_song_s": 28.95
+        }
+      ],
+      "board": "boards/R08.jpg",
+      "motion": {
+        "sequences": [
+          [
+            619,
+            620,
+            621,
+            622,
+            623,
+            624,
+            625,
+            626,
+            627,
+            628,
+            629,
+            630
+          ],
+          [
+            628,
+            629,
+            630,
+            631,
+            632,
+            633,
+            634,
+            635,
+            636,
+            637,
+            638,
+            639
+          ]
+        ],
+        "peak_frame": 634,
+        "peak_difference": 5.1083
+      },
+      "motion_file": "motion/R08.jpg"
+    },
+    {
+      "id": "R09",
+      "song_start_s": 29.333333333333332,
+      "song_end_s": 33.266666666666666,
+      "points": [
+        {
+          "requested_song_s": 29.805333333333333,
+          "reference_frame": 714,
+          "reference_player_s": 29.75,
+          "astra_frame": 1788,
+          "astra_song_s": 29.8
+        },
+        {
+          "requested_song_s": 31.299999999999997,
+          "reference_frame": 750,
+          "reference_player_s": 31.25,
+          "astra_frame": 1878,
+          "astra_song_s": 31.3
+        },
+        {
+          "requested_song_s": 32.794666666666664,
+          "reference_frame": 785,
+          "reference_player_s": 32.708333333333336,
+          "astra_frame": 1968,
+          "astra_song_s": 32.8
+        }
+      ],
+      "board": "boards/R09.jpg",
+      "motion": {
+        "sequences": [
+          [
+            696,
+            697,
+            698,
+            699,
+            700,
+            701,
+            702,
+            703,
+            704,
+            705,
+            706,
+            707
+          ],
+          [
+            785,
+            786,
+            787,
+            788,
+            789,
+            790,
+            791,
+            792,
+            793,
+            794,
+            795,
+            796
+          ]
+        ],
+        "peak_frame": 791,
+        "peak_difference": 6.6955
+      },
+      "motion_file": "motion/R09.jpg"
+    },
+    {
+      "id": "R10",
+      "song_start_s": 33.266666666666666,
+      "song_end_s": 36.95,
+      "points": [
+        {
+          "requested_song_s": 33.708666666666666,
+          "reference_frame": 807,
+          "reference_player_s": 33.625,
+          "astra_frame": 2023,
+          "astra_song_s": 33.71666666666667
+        },
+        {
+          "requested_song_s": 35.108333333333334,
+          "reference_frame": 841,
+          "reference_player_s": 35.041666666666664,
+          "astra_frame": 2106,
+          "astra_song_s": 35.1
+        },
+        {
+          "requested_song_s": 36.508,
+          "reference_frame": 875,
+          "reference_player_s": 36.458333333333336,
+          "astra_frame": 2190,
+          "astra_song_s": 36.5
+        }
+      ],
+      "board": "boards/R10.jpg",
+      "motion": {
+        "sequences": [
+          [
+            791,
+            792,
+            793,
+            794,
+            795,
+            796,
+            797,
+            798,
+            799,
+            800,
+            801,
+            802
+          ],
+          [
+            797,
+            798,
+            799,
+            800,
+            801,
+            802,
+            803,
+            804,
+            805,
+            806,
+            807,
+            808
+          ]
+        ],
+        "peak_frame": 803,
+        "peak_difference": 4.6366
+      },
+      "motion_file": "motion/R10.jpg"
+    },
+    {
+      "id": "R11",
+      "song_start_s": 36.95,
+      "song_end_s": 40.65,
+      "points": [
+        {
+          "requested_song_s": 37.394000000000005,
+          "reference_frame": 896,
+          "reference_player_s": 37.333333333333336,
+          "astra_frame": 2244,
+          "astra_song_s": 37.4
+        },
+        {
+          "requested_song_s": 38.8,
+          "reference_frame": 930,
+          "reference_player_s": 38.75,
+          "astra_frame": 2328,
+          "astra_song_s": 38.8
+        },
+        {
+          "requested_song_s": 40.205999999999996,
+          "reference_frame": 963,
+          "reference_player_s": 40.125,
+          "astra_frame": 2412,
+          "astra_song_s": 40.2
+        }
+      ],
+      "board": "boards/R11.jpg",
+      "motion": {
+        "sequences": [
+          [
+            879,
+            880,
+            881,
+            882,
+            883,
+            884,
+            885,
+            886,
+            887,
+            888,
+            889,
+            890
+          ],
+          [
+            963,
+            964,
+            965,
+            966,
+            967,
+            968,
+            969,
+            970,
+            971,
+            972,
+            973,
+            974
+          ]
+        ],
+        "peak_frame": 969,
+        "peak_difference": 8.2482
+      },
+      "motion_file": "motion/R11.jpg"
+    },
+    {
+      "id": "R12",
+      "song_start_s": 40.65,
+      "song_end_s": 44.56666666666667,
+      "points": [
+        {
+          "requested_song_s": 41.12,
+          "reference_frame": 985,
+          "reference_player_s": 41.041666666666664,
+          "astra_frame": 2467,
+          "astra_song_s": 41.11666666666667
+        },
+        {
+          "requested_song_s": 42.608333333333334,
+          "reference_frame": 1021,
+          "reference_player_s": 42.541666666666664,
+          "astra_frame": 2556,
+          "astra_song_s": 42.6
+        },
+        {
+          "requested_song_s": 44.09666666666667,
+          "reference_frame": 1057,
+          "reference_player_s": 44.041666666666664,
+          "astra_frame": 2646,
+          "astra_song_s": 44.1
+        }
+      ],
+      "board": "boards/R12.jpg",
+      "motion": {
+        "sequences": [
+          [
+            968,
+            969,
+            970,
+            971,
+            972,
+            973,
+            974,
+            975,
+            976,
+            977,
+            978,
+            979
+          ],
+          [
+            1054,
+            1055,
+            1056,
+            1057,
+            1058,
+            1059,
+            1060,
+            1061,
+            1062,
+            1063,
+            1064,
+            1065
+          ]
+        ],
+        "peak_frame": 1060,
+        "peak_difference": 7.3176
+      },
+      "motion_file": "motion/R12.jpg"
+    },
+    {
+      "id": "R13",
+      "song_start_s": 44.56666666666667,
+      "song_end_s": 48.266666666666666,
+      "points": [
+        {
+          "requested_song_s": 45.01066666666667,
+          "reference_frame": 1079,
+          "reference_player_s": 44.958333333333336,
+          "astra_frame": 2701,
+          "astra_song_s": 45.016666666666666
+        },
+        {
+          "requested_song_s": 46.41666666666667,
+          "reference_frame": 1112,
+          "reference_player_s": 46.333333333333336,
+          "astra_frame": 2785,
+          "astra_song_s": 46.416666666666664
+        },
+        {
+          "requested_song_s": 47.82266666666666,
+          "reference_frame": 1146,
+          "reference_player_s": 47.75,
+          "astra_frame": 2869,
+          "astra_song_s": 47.81666666666667
+        }
+      ],
+      "board": "boards/R13.jpg",
+      "motion": {
+        "sequences": [
+          [
+            1062,
+            1063,
+            1064,
+            1065,
+            1066,
+            1067,
+            1068,
+            1069,
+            1070,
+            1071,
+            1072,
+            1073
+          ],
+          [
+            1129,
+            1130,
+            1131,
+            1132,
+            1133,
+            1134,
+            1135,
+            1136,
+            1137,
+            1138,
+            1139,
+            1140
+          ]
+        ],
+        "peak_frame": 1135,
+        "peak_difference": 8.7756
+      },
+      "motion_file": "motion/R13.jpg"
+    },
+    {
+      "id": "R14",
+      "song_start_s": 48.266666666666666,
+      "song_end_s": 51.95,
+      "points": [
+        {
+          "requested_song_s": 48.708666666666666,
+          "reference_frame": 1167,
+          "reference_player_s": 48.625,
+          "astra_frame": 2923,
+          "astra_song_s": 48.71666666666667
+        },
+        {
+          "requested_song_s": 50.108333333333334,
+          "reference_frame": 1201,
+          "reference_player_s": 50.041666666666664,
+          "astra_frame": 3006,
+          "astra_song_s": 50.1
+        },
+        {
+          "requested_song_s": 51.508,
+          "reference_frame": 1235,
+          "reference_player_s": 51.458333333333336,
+          "astra_frame": 3090,
+          "astra_song_s": 51.5
+        }
+      ],
+      "board": "boards/R14.jpg",
+      "motion": {
+        "sequences": [
+          [
+            1151,
+            1152,
+            1153,
+            1154,
+            1155,
+            1156,
+            1157,
+            1158,
+            1159,
+            1160,
+            1161,
+            1162
+          ],
+          [
+            1177,
+            1178,
+            1179,
+            1180,
+            1181,
+            1182,
+            1183,
+            1184,
+            1185,
+            1186,
+            1187,
+            1188
+          ]
+        ],
+        "peak_frame": 1183,
+        "peak_difference": 8.5838
+      },
+      "motion_file": "motion/R14.jpg"
+    },
+    {
+      "id": "R15",
+      "song_start_s": 51.95,
+      "song_end_s": 55.65,
+      "points": [
+        {
+          "requested_song_s": 52.394000000000005,
+          "reference_frame": 1256,
+          "reference_player_s": 52.333333333333336,
+          "astra_frame": 3144,
+          "astra_song_s": 52.4
+        },
+        {
+          "requested_song_s": 53.8,
+          "reference_frame": 1290,
+          "reference_player_s": 53.75,
+          "astra_frame": 3228,
+          "astra_song_s": 53.8
+        },
+        {
+          "requested_song_s": 55.205999999999996,
+          "reference_frame": 1323,
+          "reference_player_s": 55.125,
+          "astra_frame": 3312,
+          "astra_song_s": 55.2
+        }
+      ],
+      "board": "boards/R15.jpg",
+      "motion": {
+        "sequences": [
+          [
+            1239,
+            1240,
+            1241,
+            1242,
+            1243,
+            1244,
+            1245,
+            1246,
+            1247,
+            1248,
+            1249,
+            1250
+          ],
+          [
+            1301,
+            1302,
+            1303,
+            1304,
+            1305,
+            1306,
+            1307,
+            1308,
+            1309,
+            1310,
+            1311,
+            1312
+          ]
+        ],
+        "peak_frame": 1307,
+        "peak_difference": 9.8498
+      },
+      "motion_file": "motion/R15.jpg"
+    },
+    {
+      "id": "R16",
+      "song_start_s": 55.65,
+      "song_end_s": 59.333333333333336,
+      "points": [
+        {
+          "requested_song_s": 56.092,
+          "reference_frame": 1345,
+          "reference_player_s": 56.041666666666664,
+          "astra_frame": 3366,
+          "astra_song_s": 56.1
+        },
+        {
+          "requested_song_s": 57.49166666666667,
+          "reference_frame": 1378,
+          "reference_player_s": 57.416666666666664,
+          "astra_frame": 3450,
+          "astra_song_s": 57.5
+        },
+        {
+          "requested_song_s": 58.891333333333336,
+          "reference_frame": 1412,
+          "reference_player_s": 58.833333333333336,
+          "astra_frame": 3533,
+          "astra_song_s": 58.88333333333333
+        }
+      ],
+      "board": "boards/R16.jpg",
+      "motion": {
+        "sequences": [
+          [
+            1328,
+            1329,
+            1330,
+            1331,
+            1332,
+            1333,
+            1334,
+            1335,
+            1336,
+            1337,
+            1338,
+            1339
+          ],
+          [
+            1363,
+            1364,
+            1365,
+            1366,
+            1367,
+            1368,
+            1369,
+            1370,
+            1371,
+            1372,
+            1373,
+            1374
+          ]
+        ],
+        "peak_frame": 1369,
+        "peak_difference": 9.0926
+      },
+      "motion_file": "motion/R16.jpg"
+    },
+    {
+      "id": "R17",
+      "song_start_s": 59.333333333333336,
+      "song_end_s": 61.88333333333333,
+      "points": [
+        {
+          "requested_song_s": 59.63933333333333,
+          "reference_frame": 1430,
+          "reference_player_s": 59.583333333333336,
+          "astra_frame": 3578,
+          "astra_song_s": 59.63333333333333
+        },
+        {
+          "requested_song_s": 60.608333333333334,
+          "reference_frame": 1453,
+          "reference_player_s": 60.541666666666664,
+          "astra_frame": 3636,
+          "astra_song_s": 60.6
+        },
+        {
+          "requested_song_s": 61.577333333333335,
+          "reference_frame": 1476,
+          "reference_player_s": 61.5,
+          "astra_frame": 3695,
+          "astra_song_s": 61.583333333333336
+        }
+      ],
+      "board": "boards/R17.jpg",
+      "motion": {
+        "sequences": [
+          [
+            1416,
+            1417,
+            1418,
+            1419,
+            1420,
+            1421,
+            1422,
+            1423,
+            1424,
+            1425,
+            1426,
+            1427
+          ],
+          [
+            1449,
+            1450,
+            1451,
+            1452,
+            1453,
+            1454,
+            1455,
+            1456,
+            1457,
+            1458,
+            1459,
+            1460
+          ]
+        ],
+        "peak_frame": 1455,
+        "peak_difference": 7.1324
+      },
+      "motion_file": "motion/R17.jpg"
+    },
+    {
+      "id": "R18",
+      "song_start_s": 61.88333333333333,
+      "song_end_s": 62.56666666666667,
+      "points": [
+        {
+          "requested_song_s": 61.965333333333334,
+          "reference_frame": 1486,
+          "reference_player_s": 61.916666666666664,
+          "astra_frame": 3718,
+          "astra_song_s": 61.96666666666667
+        },
+        {
+          "requested_song_s": 62.225,
+          "reference_frame": 1492,
+          "reference_player_s": 62.166666666666664,
+          "astra_frame": 3734,
+          "astra_song_s": 62.233333333333334
+        },
+        {
+          "requested_song_s": 62.48466666666667,
+          "reference_frame": 1498,
+          "reference_player_s": 62.416666666666664,
+          "astra_frame": 3749,
+          "astra_song_s": 62.483333333333334
+        }
+      ],
+      "board": "boards/R18.jpg",
+      "motion": {
+        "sequences": [
+          [
+            1478,
+            1479,
+            1480,
+            1481,
+            1482,
+            1483,
+            1484,
+            1485,
+            1486,
+            1487,
+            1488,
+            1489
+          ],
+          [
+            1484,
+            1485,
+            1486,
+            1487,
+            1488,
+            1489,
+            1490,
+            1491,
+            1492,
+            1493,
+            1494,
+            1495
+          ]
+        ],
+        "peak_frame": 1490,
+        "peak_difference": 5.0152
+      },
+      "motion_file": "motion/R18.jpg"
+    },
+    {
+      "id": "R19",
+      "song_start_s": 62.56666666666667,
+      "song_end_s": 65.33333333333333,
+      "points": [
+        {
+          "requested_song_s": 62.89866666666667,
+          "reference_frame": 1508,
+          "reference_player_s": 62.833333333333336,
+          "astra_frame": 3774,
+          "astra_song_s": 62.9
+        },
+        {
+          "requested_song_s": 63.95,
+          "reference_frame": 1533,
+          "reference_player_s": 63.875,
+          "astra_frame": 3837,
+          "astra_song_s": 63.95
+        },
+        {
+          "requested_song_s": 65.00133333333333,
+          "reference_frame": 1558,
+          "reference_player_s": 64.91666666666667,
+          "astra_frame": 3900,
+          "astra_song_s": 65.0
+        }
+      ],
+      "board": "boards/R19.jpg",
+      "motion": {
+        "sequences": [
+          [
+            1494,
+            1495,
+            1496,
+            1497,
+            1498,
+            1499,
+            1500,
+            1501,
+            1502,
+            1503,
+            1504,
+            1505
+          ],
+          [
+            1516,
+            1517,
+            1518,
+            1519,
+            1520,
+            1521,
+            1522,
+            1523,
+            1524,
+            1525,
+            1526,
+            1527
+          ]
+        ],
+        "peak_frame": 1522,
+        "peak_difference": 7.6172
+      },
+      "motion_file": "motion/R19.jpg"
+    },
+    {
+      "id": "R20",
+      "song_start_s": 65.33333333333333,
+      "song_end_s": 66.26666666666667,
+      "points": [
+        {
+          "requested_song_s": 65.44533333333332,
+          "reference_frame": 1569,
+          "reference_player_s": 65.375,
+          "astra_frame": 3927,
+          "astra_song_s": 65.45
+        },
+        {
+          "requested_song_s": 65.8,
+          "reference_frame": 1578,
+          "reference_player_s": 65.75,
+          "astra_frame": 3948,
+          "astra_song_s": 65.8
+        },
+        {
+          "requested_song_s": 66.15466666666667,
+          "reference_frame": 1586,
+          "reference_player_s": 66.08333333333333,
+          "astra_frame": 3969,
+          "astra_song_s": 66.15
+        }
+      ],
+      "board": "boards/R20.jpg",
+      "motion": {
+        "sequences": [
+          [
+            1560,
+            1561,
+            1562,
+            1563,
+            1564,
+            1565,
+            1566,
+            1567,
+            1568,
+            1569,
+            1570,
+            1571
+          ],
+          [
+            1576,
+            1577,
+            1578,
+            1579,
+            1580,
+            1581,
+            1582,
+            1583,
+            1584,
+            1585,
+            1586,
+            1587
+          ]
+        ],
+        "peak_frame": 1582,
+        "peak_difference": 4.094
+      },
+      "motion_file": "motion/R20.jpg"
+    },
+    {
+      "id": "R21",
+      "song_start_s": 66.26666666666667,
+      "song_end_s": 69.26666666666667,
+      "points": [
+        {
+          "requested_song_s": 66.62666666666667,
+          "reference_frame": 1597,
+          "reference_player_s": 66.54166666666667,
+          "astra_frame": 3998,
+          "astra_song_s": 66.63333333333334
+        },
+        {
+          "requested_song_s": 67.76666666666667,
+          "reference_frame": 1625,
+          "reference_player_s": 67.70833333333333,
+          "astra_frame": 4066,
+          "astra_song_s": 67.76666666666667
+        },
+        {
+          "requested_song_s": 68.90666666666667,
+          "reference_frame": 1652,
+          "reference_player_s": 68.83333333333333,
+          "astra_frame": 4134,
+          "astra_song_s": 68.9
+        }
+      ],
+      "board": "boards/R21.jpg",
+      "motion": {
+        "sequences": [
+          [
+            1583,
+            1584,
+            1585,
+            1586,
+            1587,
+            1588,
+            1589,
+            1590,
+            1591,
+            1592,
+            1593,
+            1594
+          ],
+          [
+            1638,
+            1639,
+            1640,
+            1641,
+            1642,
+            1643,
+            1644,
+            1645,
+            1646,
+            1647,
+            1648,
+            1649
+          ]
+        ],
+        "peak_frame": 1644,
+        "peak_difference": 10.2719
+      },
+      "motion_file": "motion/R21.jpg"
+    },
+    {
+      "id": "R22",
+      "song_start_s": 69.26666666666667,
+      "song_end_s": 69.95,
+      "points": [
+        {
+          "requested_song_s": 69.34866666666666,
+          "reference_frame": 1663,
+          "reference_player_s": 69.29166666666667,
+          "astra_frame": 4161,
+          "astra_song_s": 69.35
+        },
+        {
+          "requested_song_s": 69.60833333333333,
+          "reference_frame": 1669,
+          "reference_player_s": 69.54166666666667,
+          "astra_frame": 4176,
+          "astra_song_s": 69.6
+        },
+        {
+          "requested_song_s": 69.86800000000001,
+          "reference_frame": 1675,
+          "reference_player_s": 69.79166666666667,
+          "astra_frame": 4192,
+          "astra_song_s": 69.86666666666666
+        }
+      ],
+      "board": "boards/R22.jpg",
+      "motion": {
+        "sequences": [
+          [
+            1655,
+            1656,
+            1657,
+            1658,
+            1659,
+            1660,
+            1661,
+            1662,
+            1663,
+            1664,
+            1665,
+            1666
+          ],
+          [
+            1660,
+            1661,
+            1662,
+            1663,
+            1664,
+            1665,
+            1666,
+            1667,
+            1668,
+            1669,
+            1670,
+            1671
+          ]
+        ],
+        "peak_frame": 1666,
+        "peak_difference": 6.6867
+      },
+      "motion_file": "motion/R22.jpg"
+    },
+    {
+      "id": "R23",
+      "song_start_s": 69.95,
+      "song_end_s": 73.18333333333334,
+      "points": [
+        {
+          "requested_song_s": 70.33800000000001,
+          "reference_frame": 1686,
+          "reference_player_s": 70.25,
+          "astra_frame": 4220,
+          "astra_song_s": 70.33333333333333
+        },
+        {
+          "requested_song_s": 71.56666666666666,
+          "reference_frame": 1716,
+          "reference_player_s": 71.5,
+          "astra_frame": 4294,
+          "astra_song_s": 71.56666666666666
+        },
+        {
+          "requested_song_s": 72.79533333333333,
+          "reference_frame": 1745,
+          "reference_player_s": 72.70833333333333,
+          "astra_frame": 4368,
+          "astra_song_s": 72.8
+        }
+      ],
+      "board": "boards/R23.jpg",
+      "motion": {
+        "sequences": [
+          [
+            1671,
+            1672,
+            1673,
+            1674,
+            1675,
+            1676,
+            1677,
+            1678,
+            1679,
+            1680,
+            1681,
+            1682
+          ],
+          [
+            1715,
+            1716,
+            1717,
+            1718,
+            1719,
+            1720,
+            1721,
+            1722,
+            1723,
+            1724,
+            1725,
+            1726
+          ]
+        ],
+        "peak_frame": 1721,
+        "peak_difference": 14.8346
+      },
+      "motion_file": "motion/R23.jpg"
+    },
+    {
+      "id": "R24",
+      "song_start_s": 73.18333333333334,
+      "song_end_s": 74.1,
+      "points": [
+        {
+          "requested_song_s": 73.29333333333334,
+          "reference_frame": 1757,
+          "reference_player_s": 73.20833333333333,
+          "astra_frame": 4398,
+          "astra_song_s": 73.3
+        },
+        {
+          "requested_song_s": 73.64166666666667,
+          "reference_frame": 1766,
+          "reference_player_s": 73.58333333333333,
+          "astra_frame": 4418,
+          "astra_song_s": 73.63333333333334
+        },
+        {
+          "requested_song_s": 73.99,
+          "reference_frame": 1774,
+          "reference_player_s": 73.91666666666667,
+          "astra_frame": 4439,
+          "astra_song_s": 73.98333333333333
+        }
+      ],
+      "board": "boards/R24.jpg",
+      "motion": {
+        "sequences": [
+          [
+            1749,
+            1750,
+            1751,
+            1752,
+            1753,
+            1754,
+            1755,
+            1756,
+            1757,
+            1758,
+            1759,
+            1760
+          ],
+          [
+            1753,
+            1754,
+            1755,
+            1756,
+            1757,
+            1758,
+            1759,
+            1760,
+            1761,
+            1762,
+            1763,
+            1764
+          ]
+        ],
+        "peak_frame": 1759,
+        "peak_difference": 11.1742
+      },
+      "motion_file": "motion/R24.jpg"
+    },
+    {
+      "id": "R25",
+      "song_start_s": 74.1,
+      "song_end_s": 74.56666666666666,
+      "points": [
+        {
+          "requested_song_s": 74.15599999999999,
+          "reference_frame": 1778,
+          "reference_player_s": 74.08333333333333,
+          "astra_frame": 4449,
+          "astra_song_s": 74.15
+        },
+        {
+          "requested_song_s": 74.33333333333333,
+          "reference_frame": 1782,
+          "reference_player_s": 74.25,
+          "astra_frame": 4460,
+          "astra_song_s": 74.33333333333333
+        },
+        {
+          "requested_song_s": 74.51066666666667,
+          "reference_frame": 1787,
+          "reference_player_s": 74.45833333333333,
+          "astra_frame": 4471,
+          "astra_song_s": 74.51666666666667
+        }
+      ],
+      "board": "boards/R25.jpg",
+      "motion": {
+        "sequences": [
+          [
+            1771,
+            1772,
+            1773,
+            1774,
+            1775,
+            1776,
+            1777,
+            1778,
+            1779,
+            1780,
+            1781,
+            1782
+          ],
+          [
+            1771,
+            1772,
+            1773,
+            1774,
+            1775,
+            1776,
+            1777,
+            1778,
+            1779,
+            1780,
+            1781,
+            1782
+          ]
+        ],
+        "peak_frame": 1777,
+        "peak_difference": 1.1713
+      },
+      "motion_file": "motion/R25.jpg"
+    },
+    {
+      "id": "R26",
+      "song_start_s": 74.56666666666666,
+      "song_end_s": 77.56666666666666,
+      "points": [
+        {
+          "requested_song_s": 74.92666666666666,
+          "reference_frame": 1797,
+          "reference_player_s": 74.875,
+          "astra_frame": 4496,
+          "astra_song_s": 74.93333333333334
+        },
+        {
+          "requested_song_s": 76.06666666666666,
+          "reference_frame": 1824,
+          "reference_player_s": 76.0,
+          "astra_frame": 4564,
+          "astra_song_s": 76.06666666666666
+        },
+        {
+          "requested_song_s": 77.20666666666666,
+          "reference_frame": 1851,
+          "reference_player_s": 77.125,
+          "astra_frame": 4632,
+          "astra_song_s": 77.2
+        }
+      ],
+      "board": "boards/R26.jpg",
+      "motion": {
+        "sequences": [
+          [
+            1782,
+            1783,
+            1784,
+            1785,
+            1786,
+            1787,
+            1788,
+            1789,
+            1790,
+            1791,
+            1792,
+            1793
+          ],
+          [
+            1850,
+            1851,
+            1852,
+            1853,
+            1854,
+            1855,
+            1856,
+            1857,
+            1858,
+            1859,
+            1860,
+            1861
+          ]
+        ],
+        "peak_frame": 1856,
+        "peak_difference": 8.0867
+      },
+      "motion_file": "motion/R26.jpg"
+    },
+    {
+      "id": "R27",
+      "song_start_s": 77.56666666666666,
+      "song_end_s": 78.26666666666667,
+      "points": [
+        {
+          "requested_song_s": 77.65066666666667,
+          "reference_frame": 1862,
+          "reference_player_s": 77.58333333333333,
+          "astra_frame": 4659,
+          "astra_song_s": 77.65
+        },
+        {
+          "requested_song_s": 77.91666666666666,
+          "reference_frame": 1868,
+          "reference_player_s": 77.83333333333333,
+          "astra_frame": 4675,
+          "astra_song_s": 77.91666666666667
+        },
+        {
+          "requested_song_s": 78.18266666666666,
+          "reference_frame": 1875,
+          "reference_player_s": 78.125,
+          "astra_frame": 4691,
+          "astra_song_s": 78.18333333333334
+        }
+      ],
+      "board": "boards/R27.jpg",
+      "motion": {
+        "sequences": [
+          [
+            1854,
+            1855,
+            1856,
+            1857,
+            1858,
+            1859,
+            1860,
+            1861,
+            1862,
+            1863,
+            1864,
+            1865
+          ],
+          [
+            1860,
+            1861,
+            1862,
+            1863,
+            1864,
+            1865,
+            1866,
+            1867,
+            1868,
+            1869,
+            1870,
+            1871
+          ]
+        ],
+        "peak_frame": 1866,
+        "peak_difference": 7.148
+      },
+      "motion_file": "motion/R27.jpg"
+    },
+    {
+      "id": "R28",
+      "song_start_s": 78.26666666666667,
+      "song_end_s": 81.26666666666667,
+      "points": [
+        {
+          "requested_song_s": 78.62666666666667,
+          "reference_frame": 1885,
+          "reference_player_s": 78.54166666666667,
+          "astra_frame": 4718,
+          "astra_song_s": 78.63333333333334
+        },
+        {
+          "requested_song_s": 79.76666666666667,
+          "reference_frame": 1913,
+          "reference_player_s": 79.70833333333333,
+          "astra_frame": 4786,
+          "astra_song_s": 79.76666666666667
+        },
+        {
+          "requested_song_s": 80.90666666666667,
+          "reference_frame": 1940,
+          "reference_player_s": 80.83333333333333,
+          "astra_frame": 4854,
+          "astra_song_s": 80.9
+        }
+      ],
+      "board": "boards/R28.jpg",
+      "motion": {
+        "sequences": [
+          [
+            1871,
+            1872,
+            1873,
+            1874,
+            1875,
+            1876,
+            1877,
+            1878,
+            1879,
+            1880,
+            1881,
+            1882
+          ],
+          [
+            1888,
+            1889,
+            1890,
+            1891,
+            1892,
+            1893,
+            1894,
+            1895,
+            1896,
+            1897,
+            1898,
+            1899
+          ]
+        ],
+        "peak_frame": 1894,
+        "peak_difference": 8.0828
+      },
+      "motion_file": "motion/R28.jpg"
+    },
+    {
+      "id": "R29",
+      "song_start_s": 81.26666666666667,
+      "song_end_s": 81.95,
+      "points": [
+        {
+          "requested_song_s": 81.34866666666666,
+          "reference_frame": 1951,
+          "reference_player_s": 81.29166666666667,
+          "astra_frame": 4881,
+          "astra_song_s": 81.35
+        },
+        {
+          "requested_song_s": 81.60833333333333,
+          "reference_frame": 1957,
+          "reference_player_s": 81.54166666666667,
+          "astra_frame": 4896,
+          "astra_song_s": 81.6
+        },
+        {
+          "requested_song_s": 81.86800000000001,
+          "reference_frame": 1963,
+          "reference_player_s": 81.79166666666667,
+          "astra_frame": 4912,
+          "astra_song_s": 81.86666666666666
+        }
+      ],
+      "board": "boards/R29.jpg",
+      "motion": {
+        "sequences": [
+          [
+            1943,
+            1944,
+            1945,
+            1946,
+            1947,
+            1948,
+            1949,
+            1950,
+            1951,
+            1952,
+            1953,
+            1954
+          ],
+          [
+            1951,
+            1952,
+            1953,
+            1954,
+            1955,
+            1956,
+            1957,
+            1958,
+            1959,
+            1960,
+            1961,
+            1962
+          ]
+        ],
+        "peak_frame": 1957,
+        "peak_difference": 3.693
+      },
+      "motion_file": "motion/R29.jpg"
+    },
+    {
+      "id": "R30",
+      "song_start_s": 81.95,
+      "song_end_s": 84.95,
+      "points": [
+        {
+          "requested_song_s": 82.31,
+          "reference_frame": 1974,
+          "reference_player_s": 82.25,
+          "astra_frame": 4939,
+          "astra_song_s": 82.31666666666666
+        },
+        {
+          "requested_song_s": 83.45,
+          "reference_frame": 2001,
+          "reference_player_s": 83.375,
+          "astra_frame": 5007,
+          "astra_song_s": 83.45
+        },
+        {
+          "requested_song_s": 84.59,
+          "reference_frame": 2029,
+          "reference_player_s": 84.54166666666667,
+          "astra_frame": 5075,
+          "astra_song_s": 84.58333333333333
+        }
+      ],
+      "board": "boards/R30.jpg",
+      "motion": {
+        "sequences": [
+          [
+            1959,
+            1960,
+            1961,
+            1962,
+            1963,
+            1964,
+            1965,
+            1966,
+            1967,
+            1968,
+            1969,
+            1970
+          ],
+          [
+            2025,
+            2026,
+            2027,
+            2028,
+            2029,
+            2030,
+            2031,
+            2032,
+            2033,
+            2034,
+            2035,
+            2036
+          ]
+        ],
+        "peak_frame": 2031,
+        "peak_difference": 12.6347
+      },
+      "motion_file": "motion/R30.jpg"
+    },
+    {
+      "id": "R31",
+      "song_start_s": 84.95,
+      "song_end_s": 85.41666666666667,
+      "points": [
+        {
+          "requested_song_s": 85.006,
+          "reference_frame": 2039,
+          "reference_player_s": 84.95833333333333,
+          "astra_frame": 5100,
+          "astra_song_s": 85.0
+        },
+        {
+          "requested_song_s": 85.18333333333334,
+          "reference_frame": 2043,
+          "reference_player_s": 85.125,
+          "astra_frame": 5111,
+          "astra_song_s": 85.18333333333334
+        },
+        {
+          "requested_song_s": 85.36066666666667,
+          "reference_frame": 2047,
+          "reference_player_s": 85.29166666666667,
+          "astra_frame": 5122,
+          "astra_song_s": 85.36666666666666
+        }
+      ],
+      "board": "boards/R31.jpg",
+      "motion": {
+        "sequences": [
+          [
+            2031,
+            2032,
+            2033,
+            2034,
+            2035,
+            2036,
+            2037,
+            2038,
+            2039,
+            2040,
+            2041,
+            2042
+          ],
+          [
+            2038,
+            2039,
+            2040,
+            2041,
+            2042,
+            2043,
+            2044,
+            2045,
+            2046,
+            2047,
+            2048,
+            2049
+          ]
+        ],
+        "peak_frame": 2044,
+        "peak_difference": 4.0177
+      },
+      "motion_file": "motion/R31.jpg"
+    },
+    {
+      "id": "R32",
+      "song_start_s": 85.41666666666667,
+      "song_end_s": 88.88333333333334,
+      "points": [
+        {
+          "requested_song_s": 85.83266666666667,
+          "reference_frame": 2058,
+          "reference_player_s": 85.75,
+          "astra_frame": 5150,
+          "astra_song_s": 85.83333333333333
+        },
+        {
+          "requested_song_s": 87.15,
+          "reference_frame": 2090,
+          "reference_player_s": 87.08333333333333,
+          "astra_frame": 5229,
+          "astra_song_s": 87.15
+        },
+        {
+          "requested_song_s": 88.46733333333334,
+          "reference_frame": 2122,
+          "reference_player_s": 88.41666666666667,
+          "astra_frame": 5308,
+          "astra_song_s": 88.46666666666667
+        }
+      ],
+      "board": "boards/R32.jpg",
+      "motion": {
+        "sequences": [
+          [
+            2042,
+            2043,
+            2044,
+            2045,
+            2046,
+            2047,
+            2048,
+            2049,
+            2050,
+            2051,
+            2052,
+            2053
+          ],
+          [
+            2119,
+            2120,
+            2121,
+            2122,
+            2123,
+            2124,
+            2125,
+            2126,
+            2127,
+            2128,
+            2129,
+            2130
+          ]
+        ],
+        "peak_frame": 2125,
+        "peak_difference": 4.9284
+      },
+      "motion_file": "motion/R32.jpg"
+    },
+    {
+      "id": "R33",
+      "song_start_s": 88.88333333333334,
+      "song_end_s": 90.71666666666667,
+      "points": [
+        {
+          "requested_song_s": 89.10333333333334,
+          "reference_frame": 2137,
+          "reference_player_s": 89.04166666666667,
+          "astra_frame": 5346,
+          "astra_song_s": 89.1
+        },
+        {
+          "requested_song_s": 89.80000000000001,
+          "reference_frame": 2154,
+          "reference_player_s": 89.75,
+          "astra_frame": 5388,
+          "astra_song_s": 89.8
+        },
+        {
+          "requested_song_s": 90.49666666666667,
+          "reference_frame": 2170,
+          "reference_player_s": 90.41666666666667,
+          "astra_frame": 5430,
+          "astra_song_s": 90.5
+        }
+      ],
+      "board": "boards/R33.jpg",
+      "motion": {
+        "sequences": [
+          [
+            2126,
+            2127,
+            2128,
+            2129,
+            2130,
+            2131,
+            2132,
+            2133,
+            2134,
+            2135,
+            2136,
+            2137
+          ],
+          [
+            2153,
+            2154,
+            2155,
+            2156,
+            2157,
+            2158,
+            2159,
+            2160,
+            2161,
+            2162,
+            2163,
+            2164
+          ]
+        ],
+        "peak_frame": 2159,
+        "peak_difference": 5.0221
+      },
+      "motion_file": "motion/R33.jpg"
+    },
+    {
+      "id": "R34",
+      "song_start_s": 90.71666666666667,
+      "song_end_s": 92.56666666666666,
+      "points": [
+        {
+          "requested_song_s": 90.93866666666666,
+          "reference_frame": 2181,
+          "reference_player_s": 90.875,
+          "astra_frame": 5456,
+          "astra_song_s": 90.93333333333334
+        },
+        {
+          "requested_song_s": 91.64166666666667,
+          "reference_frame": 2198,
+          "reference_player_s": 91.58333333333333,
+          "astra_frame": 5498,
+          "astra_song_s": 91.63333333333334
+        },
+        {
+          "requested_song_s": 92.34466666666667,
+          "reference_frame": 2215,
+          "reference_player_s": 92.29166666666667,
+          "astra_frame": 5541,
+          "astra_song_s": 92.35
+        }
+      ],
+      "board": "boards/R34.jpg",
+      "motion": {
+        "sequences": [
+          [
+            2170,
+            2171,
+            2172,
+            2173,
+            2174,
+            2175,
+            2176,
+            2177,
+            2178,
+            2179,
+            2180,
+            2181
+          ],
+          [
+            2195,
+            2196,
+            2197,
+            2198,
+            2199,
+            2200,
+            2201,
+            2202,
+            2203,
+            2204,
+            2205,
+            2206
+          ]
+        ],
+        "peak_frame": 2201,
+        "peak_difference": 7.3153
+      },
+      "motion_file": "motion/R34.jpg"
+    },
+    {
+      "id": "R35",
+      "song_start_s": 92.56666666666666,
+      "song_end_s": 96.26666666666667,
+      "points": [
+        {
+          "requested_song_s": 93.01066666666667,
+          "reference_frame": 2231,
+          "reference_player_s": 92.95833333333333,
+          "astra_frame": 5581,
+          "astra_song_s": 93.01666666666667
+        },
+        {
+          "requested_song_s": 94.41666666666666,
+          "reference_frame": 2264,
+          "reference_player_s": 94.33333333333333,
+          "astra_frame": 5665,
+          "astra_song_s": 94.41666666666667
+        },
+        {
+          "requested_song_s": 95.82266666666666,
+          "reference_frame": 2298,
+          "reference_player_s": 95.75,
+          "astra_frame": 5749,
+          "astra_song_s": 95.81666666666666
+        }
+      ],
+      "board": "boards/R35.jpg",
+      "motion": {
+        "sequences": [
+          [
+            2214,
+            2215,
+            2216,
+            2217,
+            2218,
+            2219,
+            2220,
+            2221,
+            2222,
+            2223,
+            2224,
+            2225
+          ],
+          [
+            2288,
+            2289,
+            2290,
+            2291,
+            2292,
+            2293,
+            2294,
+            2295,
+            2296,
+            2297,
+            2298,
+            2299
+          ]
+        ],
+        "peak_frame": 2294,
+        "peak_difference": 8.0662
+      },
+      "motion_file": "motion/R35.jpg"
+    },
+    {
+      "id": "R36",
+      "song_start_s": 96.26666666666667,
+      "song_end_s": 99.95,
+      "points": [
+        {
+          "requested_song_s": 96.70866666666667,
+          "reference_frame": 2319,
+          "reference_player_s": 96.625,
+          "astra_frame": 5803,
+          "astra_song_s": 96.71666666666667
+        },
+        {
+          "requested_song_s": 98.10833333333333,
+          "reference_frame": 2353,
+          "reference_player_s": 98.04166666666667,
+          "astra_frame": 5886,
+          "astra_song_s": 98.1
+        },
+        {
+          "requested_song_s": 99.508,
+          "reference_frame": 2387,
+          "reference_player_s": 99.45833333333333,
+          "astra_frame": 5970,
+          "astra_song_s": 99.5
+        }
+      ],
+      "board": "boards/R36.jpg",
+      "motion": {
+        "sequences": [
+          [
+            2303,
+            2304,
+            2305,
+            2306,
+            2307,
+            2308,
+            2309,
+            2310,
+            2311,
+            2312,
+            2313,
+            2314
+          ],
+          [
+            2360,
+            2361,
+            2362,
+            2363,
+            2364,
+            2365,
+            2366,
+            2367,
+            2368,
+            2369,
+            2370,
+            2371
+          ]
+        ],
+        "peak_frame": 2366,
+        "peak_difference": 6.3235
+      },
+      "motion_file": "motion/R36.jpg"
+    },
+    {
+      "id": "R37",
+      "song_start_s": 99.95,
+      "song_end_s": 100.41666666666667,
+      "points": [
+        {
+          "requested_song_s": 100.006,
+          "reference_frame": 2399,
+          "reference_player_s": 99.95833333333333,
+          "astra_frame": 6000,
+          "astra_song_s": 100.0
+        },
+        {
+          "requested_song_s": 100.18333333333334,
+          "reference_frame": 2403,
+          "reference_player_s": 100.125,
+          "astra_frame": 6011,
+          "astra_song_s": 100.18333333333334
+        },
+        {
+          "requested_song_s": 100.36066666666667,
+          "reference_frame": 2407,
+          "reference_player_s": 100.29166666666667,
+          "astra_frame": 6022,
+          "astra_song_s": 100.36666666666666
+        }
+      ],
+      "board": "boards/R37.jpg",
+      "motion": {
+        "sequences": [
+          [
+            2391,
+            2392,
+            2393,
+            2394,
+            2395,
+            2396,
+            2397,
+            2398,
+            2399,
+            2400,
+            2401,
+            2402
+          ],
+          [
+            2400,
+            2401,
+            2402,
+            2403,
+            2404,
+            2405,
+            2406,
+            2407,
+            2408,
+            2409,
+            2410,
+            2411
+          ]
+        ],
+        "peak_frame": 2406,
+        "peak_difference": 2.4497
+      },
+      "motion_file": "motion/R37.jpg"
+    },
+    {
+      "id": "R38",
+      "song_start_s": 100.41666666666667,
+      "song_end_s": 103.18333333333334,
+      "points": [
+        {
+          "requested_song_s": 100.74866666666667,
+          "reference_frame": 2416,
+          "reference_player_s": 100.66666666666667,
+          "astra_frame": 6045,
+          "astra_song_s": 100.75
+        },
+        {
+          "requested_song_s": 101.80000000000001,
+          "reference_frame": 2442,
+          "reference_player_s": 101.75,
+          "astra_frame": 6108,
+          "astra_song_s": 101.8
+        },
+        {
+          "requested_song_s": 102.85133333333334,
+          "reference_frame": 2467,
+          "reference_player_s": 102.79166666666667,
+          "astra_frame": 6171,
+          "astra_song_s": 102.85
+        }
+      ],
+      "board": "boards/R38.jpg",
+      "motion": {
+        "sequences": [
+          [
+            2402,
+            2403,
+            2404,
+            2405,
+            2406,
+            2407,
+            2408,
+            2409,
+            2410,
+            2411,
+            2412,
+            2413
+          ],
+          [
+            2425,
+            2426,
+            2427,
+            2428,
+            2429,
+            2430,
+            2431,
+            2432,
+            2433,
+            2434,
+            2435,
+            2436
+          ]
+        ],
+        "peak_frame": 2431,
+        "peak_difference": 3.1095
+      },
+      "motion_file": "motion/R38.jpg"
+    },
+    {
+      "id": "R39",
+      "song_start_s": 103.18333333333334,
+      "song_end_s": 103.65,
+      "points": [
+        {
+          "requested_song_s": 103.23933333333333,
+          "reference_frame": 2476,
+          "reference_player_s": 103.16666666666667,
+          "astra_frame": 6194,
+          "astra_song_s": 103.23333333333333
+        },
+        {
+          "requested_song_s": 103.41666666666667,
+          "reference_frame": 2480,
+          "reference_player_s": 103.33333333333333,
+          "astra_frame": 6205,
+          "astra_song_s": 103.41666666666667
+        },
+        {
+          "requested_song_s": 103.59400000000001,
+          "reference_frame": 2485,
+          "reference_player_s": 103.54166666666667,
+          "astra_frame": 6216,
+          "astra_song_s": 103.6
+        }
+      ],
+      "board": "boards/R39.jpg",
+      "motion": {
+        "sequences": [
+          [
+            2469,
+            2470,
+            2471,
+            2472,
+            2473,
+            2474,
+            2475,
+            2476,
+            2477,
+            2478,
+            2479,
+            2480
+          ],
+          [
+            2479,
+            2480,
+            2481,
+            2482,
+            2483,
+            2484,
+            2485,
+            2486,
+            2487,
+            2488,
+            2489,
+            2490
+          ]
+        ],
+        "peak_frame": 2485,
+        "peak_difference": 3.6681
+      },
+      "motion_file": "motion/R39.jpg"
+    },
+    {
+      "id": "R40",
+      "song_start_s": 103.65,
+      "song_end_s": 106.18333333333334,
+      "points": [
+        {
+          "requested_song_s": 103.95400000000001,
+          "reference_frame": 2493,
+          "reference_player_s": 103.875,
+          "astra_frame": 6237,
+          "astra_song_s": 103.95
+        },
+        {
+          "requested_song_s": 104.91666666666667,
+          "reference_frame": 2516,
+          "reference_player_s": 104.83333333333333,
+          "astra_frame": 6295,
+          "astra_song_s": 104.91666666666667
+        },
+        {
+          "requested_song_s": 105.87933333333334,
+          "reference_frame": 2540,
+          "reference_player_s": 105.83333333333333,
+          "astra_frame": 6353,
+          "astra_song_s": 105.88333333333334
+        }
+      ],
+      "board": "boards/R40.jpg",
+      "motion": {
+        "sequences": [
+          [
+            2480,
+            2481,
+            2482,
+            2483,
+            2484,
+            2485,
+            2486,
+            2487,
+            2488,
+            2489,
+            2490,
+            2491
+          ],
+          [
+            2480,
+            2481,
+            2482,
+            2483,
+            2484,
+            2485,
+            2486,
+            2487,
+            2488,
+            2489,
+            2490,
+            2491
+          ]
+        ],
+        "peak_frame": 2486,
+        "peak_difference": 2.5339
+      },
+      "motion_file": "motion/R40.jpg"
+    },
+    {
+      "id": "R41",
+      "song_start_s": 106.18333333333334,
+      "song_end_s": 107.33333333333333,
+      "points": [
+        {
+          "requested_song_s": 106.32133333333334,
+          "reference_frame": 2550,
+          "reference_player_s": 106.25,
+          "astra_frame": 6379,
+          "astra_song_s": 106.31666666666666
+        },
+        {
+          "requested_song_s": 106.75833333333333,
+          "reference_frame": 2561,
+          "reference_player_s": 106.70833333333333,
+          "astra_frame": 6406,
+          "astra_song_s": 106.76666666666667
+        },
+        {
+          "requested_song_s": 107.19533333333332,
+          "reference_frame": 2571,
+          "reference_player_s": 107.125,
+          "astra_frame": 6432,
+          "astra_song_s": 107.2
+        }
+      ],
+      "board": "boards/R41.jpg",
+      "motion": {
+        "sequences": [
+          [
+            2541,
+            2542,
+            2543,
+            2544,
+            2545,
+            2546,
+            2547,
+            2548,
+            2549,
+            2550,
+            2551,
+            2552
+          ],
+          [
+            2566,
+            2567,
+            2568,
+            2569,
+            2570,
+            2571,
+            2572,
+            2573,
+            2574,
+            2575,
+            2576,
+            2577
+          ]
+        ],
+        "peak_frame": 2572,
+        "peak_difference": 2.8451
+      },
+      "motion_file": "motion/R41.jpg"
+    },
+    {
+      "id": "R42",
+      "song_start_s": 107.33333333333333,
+      "song_end_s": 110.1,
+      "points": [
+        {
+          "requested_song_s": 107.66533333333332,
+          "reference_frame": 2582,
+          "reference_player_s": 107.58333333333333,
+          "astra_frame": 6460,
+          "astra_song_s": 107.66666666666667
+        },
+        {
+          "requested_song_s": 108.71666666666667,
+          "reference_frame": 2608,
+          "reference_player_s": 108.66666666666667,
+          "astra_frame": 6523,
+          "astra_song_s": 108.71666666666667
+        },
+        {
+          "requested_song_s": 109.768,
+          "reference_frame": 2633,
+          "reference_player_s": 109.70833333333333,
+          "astra_frame": 6586,
+          "astra_song_s": 109.76666666666667
+        }
+      ],
+      "board": "boards/R42.jpg",
+      "motion": {
+        "sequences": [
+          [
+            2568,
+            2569,
+            2570,
+            2571,
+            2572,
+            2573,
+            2574,
+            2575,
+            2576,
+            2577,
+            2578,
+            2579
+          ],
+          [
+            2611,
+            2612,
+            2613,
+            2614,
+            2615,
+            2616,
+            2617,
+            2618,
+            2619,
+            2620,
+            2621,
+            2622
+          ]
+        ],
+        "peak_frame": 2617,
+        "peak_difference": 4.3391
+      },
+      "motion_file": "motion/R42.jpg"
+    },
+    {
+      "id": "R43",
+      "song_start_s": 110.1,
+      "song_end_s": 110.8,
+      "points": [
+        {
+          "requested_song_s": 110.184,
+          "reference_frame": 2643,
+          "reference_player_s": 110.125,
+          "astra_frame": 6611,
+          "astra_song_s": 110.18333333333334
+        },
+        {
+          "requested_song_s": 110.44999999999999,
+          "reference_frame": 2649,
+          "reference_player_s": 110.375,
+          "astra_frame": 6627,
+          "astra_song_s": 110.45
+        },
+        {
+          "requested_song_s": 110.716,
+          "reference_frame": 2656,
+          "reference_player_s": 110.66666666666667,
+          "astra_frame": 6643,
+          "astra_song_s": 110.71666666666667
+        }
+      ],
+      "board": "boards/R43.jpg",
+      "motion": {
+        "sequences": [
+          [
+            2635,
+            2636,
+            2637,
+            2638,
+            2639,
+            2640,
+            2641,
+            2642,
+            2643,
+            2644,
+            2645,
+            2646
+          ],
+          [
+            2640,
+            2641,
+            2642,
+            2643,
+            2644,
+            2645,
+            2646,
+            2647,
+            2648,
+            2649,
+            2650,
+            2651
+          ]
+        ],
+        "peak_frame": 2646,
+        "peak_difference": 6.9266
+      },
+      "motion_file": "motion/R43.jpg"
+    },
+    {
+      "id": "R44",
+      "song_start_s": 110.8,
+      "song_end_s": 112.88333333333334,
+      "points": [
+        {
+          "requested_song_s": 111.05,
+          "reference_frame": 2664,
+          "reference_player_s": 111.0,
+          "astra_frame": 6663,
+          "astra_song_s": 111.05
+        },
+        {
+          "requested_song_s": 111.84166666666667,
+          "reference_frame": 2683,
+          "reference_player_s": 111.79166666666667,
+          "astra_frame": 6710,
+          "astra_song_s": 111.83333333333333
+        },
+        {
+          "requested_song_s": 112.63333333333334,
+          "reference_frame": 2702,
+          "reference_player_s": 112.58333333333333,
+          "astra_frame": 6758,
+          "astra_song_s": 112.63333333333334
+        }
+      ],
+      "board": "boards/R44.jpg",
+      "motion": {
+        "sequences": [
+          [
+            2652,
+            2653,
+            2654,
+            2655,
+            2656,
+            2657,
+            2658,
+            2659,
+            2660,
+            2661,
+            2662,
+            2663
+          ],
+          [
+            2652,
+            2653,
+            2654,
+            2655,
+            2656,
+            2657,
+            2658,
+            2659,
+            2660,
+            2661,
+            2662,
+            2663
+          ]
+        ],
+        "peak_frame": 2658,
+        "peak_difference": 3.3116
+      },
+      "motion_file": "motion/R44.jpg"
+    },
+    {
+      "id": "R45",
+      "song_start_s": 112.88333333333334,
+      "song_end_s": 114.71666666666667,
+      "points": [
+        {
+          "requested_song_s": 113.10333333333334,
+          "reference_frame": 2713,
+          "reference_player_s": 113.04166666666667,
+          "astra_frame": 6786,
+          "astra_song_s": 113.1
+        },
+        {
+          "requested_song_s": 113.80000000000001,
+          "reference_frame": 2730,
+          "reference_player_s": 113.75,
+          "astra_frame": 6828,
+          "astra_song_s": 113.8
+        },
+        {
+          "requested_song_s": 114.49666666666667,
+          "reference_frame": 2746,
+          "reference_player_s": 114.41666666666667,
+          "astra_frame": 6870,
+          "astra_song_s": 114.5
+        }
+      ],
+      "board": "boards/R45.jpg",
+      "motion": {
+        "sequences": [
+          [
+            2702,
+            2703,
+            2704,
+            2705,
+            2706,
+            2707,
+            2708,
+            2709,
+            2710,
+            2711,
+            2712,
+            2713
+          ],
+          [
+            2724,
+            2725,
+            2726,
+            2727,
+            2728,
+            2729,
+            2730,
+            2731,
+            2732,
+            2733,
+            2734,
+            2735
+          ]
+        ],
+        "peak_frame": 2730,
+        "peak_difference": 10.8175
+      },
+      "motion_file": "motion/R45.jpg"
+    },
+    {
+      "id": "R46",
+      "song_start_s": 114.71666666666667,
+      "song_end_s": 117.26666666666667,
+      "points": [
+        {
+          "requested_song_s": 115.02266666666667,
+          "reference_frame": 2759,
+          "reference_player_s": 114.95833333333333,
+          "astra_frame": 6901,
+          "astra_song_s": 115.01666666666667
+        },
+        {
+          "requested_song_s": 115.99166666666667,
+          "reference_frame": 2782,
+          "reference_player_s": 115.91666666666667,
+          "astra_frame": 6960,
+          "astra_song_s": 116.0
+        },
+        {
+          "requested_song_s": 116.96066666666667,
+          "reference_frame": 2805,
+          "reference_player_s": 116.875,
+          "astra_frame": 7018,
+          "astra_song_s": 116.96666666666667
+        }
+      ],
+      "board": "boards/R46.jpg",
+      "motion": {
+        "sequences": [
+          [
+            2746,
+            2747,
+            2748,
+            2749,
+            2750,
+            2751,
+            2752,
+            2753,
+            2754,
+            2755,
+            2756,
+            2757
+          ],
+          [
+            2768,
+            2769,
+            2770,
+            2771,
+            2772,
+            2773,
+            2774,
+            2775,
+            2776,
+            2777,
+            2778,
+            2779
+          ]
+        ],
+        "peak_frame": 2774,
+        "peak_difference": 3.0705
+      },
+      "motion_file": "motion/R46.jpg"
+    },
+    {
+      "id": "R47",
+      "song_start_s": 117.26666666666667,
+      "song_end_s": 118.41666666666667,
+      "points": [
+        {
+          "requested_song_s": 117.40466666666667,
+          "reference_frame": 2816,
+          "reference_player_s": 117.33333333333333,
+          "astra_frame": 7044,
+          "astra_song_s": 117.4
+        },
+        {
+          "requested_song_s": 117.84166666666667,
+          "reference_frame": 2827,
+          "reference_player_s": 117.79166666666667,
+          "astra_frame": 7070,
+          "astra_song_s": 117.83333333333333
+        },
+        {
+          "requested_song_s": 118.27866666666667,
+          "reference_frame": 2837,
+          "reference_player_s": 118.20833333333333,
+          "astra_frame": 7097,
+          "astra_song_s": 118.28333333333333
+        }
+      ],
+      "board": "boards/R47.jpg",
+      "motion": {
+        "sequences": [
+          [
+            2807,
+            2808,
+            2809,
+            2810,
+            2811,
+            2812,
+            2813,
+            2814,
+            2815,
+            2816,
+            2817,
+            2818
+          ],
+          [
+            2832,
+            2833,
+            2834,
+            2835,
+            2836,
+            2837,
+            2838,
+            2839,
+            2840,
+            2841,
+            2842,
+            2843
+          ]
+        ],
+        "peak_frame": 2838,
+        "peak_difference": 3.8451
+      },
+      "motion_file": "motion/R47.jpg"
+    },
+    {
+      "id": "R48",
+      "song_start_s": 118.41666666666667,
+      "song_end_s": 121.65,
+      "points": [
+        {
+          "requested_song_s": 118.80466666666668,
+          "reference_frame": 2850,
+          "reference_player_s": 118.75,
+          "astra_frame": 7128,
+          "astra_song_s": 118.8
+        },
+        {
+          "requested_song_s": 120.03333333333333,
+          "reference_frame": 2879,
+          "reference_player_s": 119.95833333333333,
+          "astra_frame": 7202,
+          "astra_song_s": 120.03333333333333
+        },
+        {
+          "requested_song_s": 121.262,
+          "reference_frame": 2909,
+          "reference_player_s": 121.20833333333333,
+          "astra_frame": 7276,
+          "astra_song_s": 121.26666666666667
+        }
+      ],
+      "board": "boards/R48.jpg",
+      "motion": {
+        "sequences": [
+          [
+            2834,
+            2835,
+            2836,
+            2837,
+            2838,
+            2839,
+            2840,
+            2841,
+            2842,
+            2843,
+            2844,
+            2845
+          ],
+          [
+            2873,
+            2874,
+            2875,
+            2876,
+            2877,
+            2878,
+            2879,
+            2880,
+            2881,
+            2882,
+            2883,
+            2884
+          ]
+        ],
+        "peak_frame": 2879,
+        "peak_difference": 10.5842
+      },
+      "motion_file": "motion/R48.jpg"
+    },
+    {
+      "id": "R49",
+      "song_start_s": 121.65,
+      "song_end_s": 124.65,
+      "points": [
+        {
+          "requested_song_s": 122.01,
+          "reference_frame": 2927,
+          "reference_player_s": 121.95833333333333,
+          "astra_frame": 7321,
+          "astra_song_s": 122.01666666666667
+        },
+        {
+          "requested_song_s": 123.15,
+          "reference_frame": 2954,
+          "reference_player_s": 123.08333333333333,
+          "astra_frame": 7389,
+          "astra_song_s": 123.15
+        },
+        {
+          "requested_song_s": 124.29,
+          "reference_frame": 2981,
+          "reference_player_s": 124.20833333333333,
+          "astra_frame": 7457,
+          "astra_song_s": 124.28333333333333
+        }
+      ],
+      "board": "boards/R49.jpg",
+      "motion": {
+        "sequences": [
+          [
+            2912,
+            2913,
+            2914,
+            2915,
+            2916,
+            2917,
+            2918,
+            2919,
+            2920,
+            2921,
+            2922,
+            2923
+          ],
+          [
+            2915,
+            2916,
+            2917,
+            2918,
+            2919,
+            2920,
+            2921,
+            2922,
+            2923,
+            2924,
+            2925,
+            2926
+          ]
+        ],
+        "peak_frame": 2921,
+        "peak_difference": 11.2176
+      },
+      "motion_file": "motion/R49.jpg"
+    },
+    {
+      "id": "R50",
+      "song_start_s": 124.65,
+      "song_end_s": 125.56666666666666,
+      "points": [
+        {
+          "requested_song_s": 124.76,
+          "reference_frame": 2993,
+          "reference_player_s": 124.70833333333333,
+          "astra_frame": 7486,
+          "astra_song_s": 124.76666666666667
+        },
+        {
+          "requested_song_s": 125.10833333333333,
+          "reference_frame": 3001,
+          "reference_player_s": 125.04166666666667,
+          "astra_frame": 7506,
+          "astra_song_s": 125.1
+        },
+        {
+          "requested_song_s": 125.45666666666666,
+          "reference_frame": 3009,
+          "reference_player_s": 125.375,
+          "astra_frame": 7527,
+          "astra_song_s": 125.45
+        }
+      ],
+      "board": "boards/R50.jpg",
+      "motion": {
+        "sequences": [
+          [
+            2984,
+            2985,
+            2986,
+            2987,
+            2988,
+            2989,
+            2990,
+            2991,
+            2992,
+            2993,
+            2994,
+            2995
+          ],
+          [
+            3004,
+            3005,
+            3006,
+            3007,
+            3008,
+            3009,
+            3010,
+            3011,
+            3012,
+            3013,
+            3014,
+            3015
+          ]
+        ],
+        "peak_frame": 3010,
+        "peak_difference": 3.0641
+      },
+      "motion_file": "motion/R50.jpg"
+    },
+    {
+      "id": "R51",
+      "song_start_s": 125.56666666666666,
+      "song_end_s": 128.56666666666666,
+      "points": [
+        {
+          "requested_song_s": 125.92666666666666,
+          "reference_frame": 3021,
+          "reference_player_s": 125.875,
+          "astra_frame": 7556,
+          "astra_song_s": 125.93333333333334
+        },
+        {
+          "requested_song_s": 127.06666666666666,
+          "reference_frame": 3048,
+          "reference_player_s": 127.0,
+          "astra_frame": 7624,
+          "astra_song_s": 127.06666666666666
+        },
+        {
+          "requested_song_s": 128.20666666666665,
+          "reference_frame": 3075,
+          "reference_player_s": 128.125,
+          "astra_frame": 7692,
+          "astra_song_s": 128.2
+        }
+      ],
+      "board": "boards/R51.jpg",
+      "motion": {
+        "sequences": [
+          [
+            3006,
+            3007,
+            3008,
+            3009,
+            3010,
+            3011,
+            3012,
+            3013,
+            3014,
+            3015,
+            3016,
+            3017
+          ],
+          [
+            3042,
+            3043,
+            3044,
+            3045,
+            3046,
+            3047,
+            3048,
+            3049,
+            3050,
+            3051,
+            3052,
+            3053
+          ]
+        ],
+        "peak_frame": 3048,
+        "peak_difference": 2.3048
+      },
+      "motion_file": "motion/R51.jpg"
+    },
+    {
+      "id": "R52",
+      "song_start_s": 128.56666666666666,
+      "song_end_s": 131.1,
+      "points": [
+        {
+          "requested_song_s": 128.87066666666666,
+          "reference_frame": 3091,
+          "reference_player_s": 128.79166666666666,
+          "astra_frame": 7732,
+          "astra_song_s": 128.86666666666667
+        },
+        {
+          "requested_song_s": 129.83333333333331,
+          "reference_frame": 3114,
+          "reference_player_s": 129.75,
+          "astra_frame": 7790,
+          "astra_song_s": 129.83333333333334
+        },
+        {
+          "requested_song_s": 130.796,
+          "reference_frame": 3138,
+          "reference_player_s": 130.75,
+          "astra_frame": 7848,
+          "astra_song_s": 130.8
+        }
+      ],
+      "board": "boards/R52.jpg",
+      "motion": {
+        "sequences": [
+          [
+            3078,
+            3079,
+            3080,
+            3081,
+            3082,
+            3083,
+            3084,
+            3085,
+            3086,
+            3087,
+            3088,
+            3089
+          ],
+          [
+            3086,
+            3087,
+            3088,
+            3089,
+            3090,
+            3091,
+            3092,
+            3093,
+            3094,
+            3095,
+            3096,
+            3097
+          ]
+        ],
+        "peak_frame": 3092,
+        "peak_difference": 3.204
+      },
+      "motion_file": "motion/R52.jpg"
+    },
+    {
+      "id": "R53",
+      "song_start_s": 131.1,
+      "song_end_s": 133.18333333333334,
+      "points": [
+        {
+          "requested_song_s": 131.35,
+          "reference_frame": 3151,
+          "reference_player_s": 131.29166666666666,
+          "astra_frame": 7881,
+          "astra_song_s": 131.35
+        },
+        {
+          "requested_song_s": 132.14166666666665,
+          "reference_frame": 3170,
+          "reference_player_s": 132.08333333333334,
+          "astra_frame": 7928,
+          "astra_song_s": 132.13333333333333
+        },
+        {
+          "requested_song_s": 132.93333333333334,
+          "reference_frame": 3189,
+          "reference_player_s": 132.875,
+          "astra_frame": 7976,
+          "astra_song_s": 132.93333333333334
+        }
+      ],
+      "board": "boards/R53.jpg",
+      "motion": {
+        "sequences": [
+          [
+            3139,
+            3140,
+            3141,
+            3142,
+            3143,
+            3144,
+            3145,
+            3146,
+            3147,
+            3148,
+            3149,
+            3150
+          ],
+          [
+            3150,
+            3151,
+            3152,
+            3153,
+            3154,
+            3155,
+            3156,
+            3157,
+            3158,
+            3159,
+            3160,
+            3161
+          ]
+        ],
+        "peak_frame": 3156,
+        "peak_difference": 4.2023
+      },
+      "motion_file": "motion/R53.jpg"
+    },
+    {
+      "id": "R54",
+      "song_start_s": 133.18333333333334,
+      "song_end_s": 136.88333333333333,
+      "points": [
+        {
+          "requested_song_s": 133.62733333333333,
+          "reference_frame": 3205,
+          "reference_player_s": 133.54166666666666,
+          "astra_frame": 8018,
+          "astra_song_s": 133.63333333333333
+        },
+        {
+          "requested_song_s": 135.03333333333333,
+          "reference_frame": 3239,
+          "reference_player_s": 134.95833333333334,
+          "astra_frame": 8102,
+          "astra_song_s": 135.03333333333333
+        },
+        {
+          "requested_song_s": 136.43933333333334,
+          "reference_frame": 3273,
+          "reference_player_s": 136.375,
+          "astra_frame": 8186,
+          "astra_song_s": 136.43333333333334
+        }
+      ],
+      "board": "boards/R54.jpg",
+      "motion": {
+        "sequences": [
+          [
+            3189,
+            3190,
+            3191,
+            3192,
+            3193,
+            3194,
+            3195,
+            3196,
+            3197,
+            3198,
+            3199,
+            3200
+          ],
+          [
+            3222,
+            3223,
+            3224,
+            3225,
+            3226,
+            3227,
+            3228,
+            3229,
+            3230,
+            3231,
+            3232,
+            3233
+          ]
+        ],
+        "peak_frame": 3228,
+        "peak_difference": 8.7143
+      },
+      "motion_file": "motion/R54.jpg"
+    },
+    {
+      "id": "R55",
+      "song_start_s": 136.88333333333333,
+      "song_end_s": 140.56666666666666,
+      "points": [
+        {
+          "requested_song_s": 137.32533333333333,
+          "reference_frame": 3294,
+          "reference_player_s": 137.25,
+          "astra_frame": 8240,
+          "astra_song_s": 137.33333333333334
+        },
+        {
+          "requested_song_s": 138.725,
+          "reference_frame": 3328,
+          "reference_player_s": 138.66666666666666,
+          "astra_frame": 8324,
+          "astra_song_s": 138.73333333333332
+        },
+        {
+          "requested_song_s": 140.12466666666666,
+          "reference_frame": 3361,
+          "reference_player_s": 140.04166666666666,
+          "astra_frame": 8407,
+          "astra_song_s": 140.11666666666667
+        }
+      ],
+      "board": "boards/R55.jpg",
+      "motion": {
+        "sequences": [
+          [
+            3278,
+            3279,
+            3280,
+            3281,
+            3282,
+            3283,
+            3284,
+            3285,
+            3286,
+            3287,
+            3288,
+            3289
+          ],
+          [
+            3316,
+            3317,
+            3318,
+            3319,
+            3320,
+            3321,
+            3322,
+            3323,
+            3324,
+            3325,
+            3326,
+            3327
+          ]
+        ],
+        "peak_frame": 3322,
+        "peak_difference": 35.1759
+      },
+      "motion_file": "motion/R55.jpg"
+    },
+    {
+      "id": "R56",
+      "song_start_s": 140.56666666666666,
+      "song_end_s": 142.41666666666666,
+      "points": [
+        {
+          "requested_song_s": 140.78866666666667,
+          "reference_frame": 3377,
+          "reference_player_s": 140.70833333333334,
+          "astra_frame": 8447,
+          "astra_song_s": 140.78333333333333
+        },
+        {
+          "requested_song_s": 141.49166666666667,
+          "reference_frame": 3394,
+          "reference_player_s": 141.41666666666666,
+          "astra_frame": 8490,
+          "astra_song_s": 141.5
+        },
+        {
+          "requested_song_s": 142.19466666666665,
+          "reference_frame": 3411,
+          "reference_player_s": 142.125,
+          "astra_frame": 8532,
+          "astra_song_s": 142.2
+        }
+      ],
+      "board": "boards/R56.jpg",
+      "motion": {
+        "sequences": [
+          [
+            3366,
+            3367,
+            3368,
+            3369,
+            3370,
+            3371,
+            3372,
+            3373,
+            3374,
+            3375,
+            3376,
+            3377
+          ],
+          [
+            3390,
+            3391,
+            3392,
+            3393,
+            3394,
+            3395,
+            3396,
+            3397,
+            3398,
+            3399,
+            3400,
+            3401
+          ]
+        ],
+        "peak_frame": 3396,
+        "peak_difference": 8.3116
+      },
+      "motion_file": "motion/R56.jpg"
+    },
+    {
+      "id": "R57",
+      "song_start_s": 142.41666666666666,
+      "song_end_s": 144.26666666666668,
+      "points": [
+        {
+          "requested_song_s": 142.63866666666667,
+          "reference_frame": 3422,
+          "reference_player_s": 142.58333333333334,
+          "astra_frame": 8558,
+          "astra_song_s": 142.63333333333333
+        },
+        {
+          "requested_song_s": 143.34166666666667,
+          "reference_frame": 3439,
+          "reference_player_s": 143.29166666666666,
+          "astra_frame": 8600,
+          "astra_song_s": 143.33333333333334
+        },
+        {
+          "requested_song_s": 144.04466666666667,
+          "reference_frame": 3455,
+          "reference_player_s": 143.95833333333334,
+          "astra_frame": 8643,
+          "astra_song_s": 144.05
+        }
+      ],
+      "board": "boards/R57.jpg",
+      "motion": {
+        "sequences": [
+          [
+            3410,
+            3411,
+            3412,
+            3413,
+            3414,
+            3415,
+            3416,
+            3417,
+            3418,
+            3419,
+            3420,
+            3421
+          ],
+          [
+            3452,
+            3453,
+            3454,
+            3455,
+            3456,
+            3457,
+            3458,
+            3459,
+            3460,
+            3461,
+            3462,
+            3463
+          ]
+        ],
+        "peak_frame": 3458,
+        "peak_difference": 4.63
+      },
+      "motion_file": "motion/R57.jpg"
+    },
+    {
+      "id": "R58",
+      "song_start_s": 144.26666666666668,
+      "song_end_s": 147.26666666666668,
+      "points": [
+        {
+          "requested_song_s": 144.6266666666667,
+          "reference_frame": 3469,
+          "reference_player_s": 144.54166666666666,
+          "astra_frame": 8678,
+          "astra_song_s": 144.63333333333333
+        },
+        {
+          "requested_song_s": 145.76666666666668,
+          "reference_frame": 3497,
+          "reference_player_s": 145.70833333333334,
+          "astra_frame": 8746,
+          "astra_song_s": 145.76666666666668
+        },
+        {
+          "requested_song_s": 146.90666666666667,
+          "reference_frame": 3524,
+          "reference_player_s": 146.83333333333334,
+          "astra_frame": 8814,
+          "astra_song_s": 146.9
+        }
+      ],
+      "board": "boards/R58.jpg",
+      "motion": {
+        "sequences": [
+          [
+            3455,
+            3456,
+            3457,
+            3458,
+            3459,
+            3460,
+            3461,
+            3462,
+            3463,
+            3464,
+            3465,
+            3466
+          ],
+          [
+            3504,
+            3505,
+            3506,
+            3507,
+            3508,
+            3509,
+            3510,
+            3511,
+            3512,
+            3513,
+            3514,
+            3515
+          ]
+        ],
+        "peak_frame": 3510,
+        "peak_difference": 31.9619
+      },
+      "motion_file": "motion/R58.jpg"
+    },
+    {
+      "id": "R59",
+      "song_start_s": 147.26666666666668,
+      "song_end_s": 147.95,
+      "points": [
+        {
+          "requested_song_s": 147.34866666666667,
+          "reference_frame": 3535,
+          "reference_player_s": 147.29166666666666,
+          "astra_frame": 8841,
+          "astra_song_s": 147.35
+        },
+        {
+          "requested_song_s": 147.60833333333335,
+          "reference_frame": 3541,
+          "reference_player_s": 147.54166666666666,
+          "astra_frame": 8856,
+          "astra_song_s": 147.6
+        },
+        {
+          "requested_song_s": 147.868,
+          "reference_frame": 3547,
+          "reference_player_s": 147.79166666666666,
+          "astra_frame": 8872,
+          "astra_song_s": 147.86666666666667
+        }
+      ],
+      "board": "boards/R59.jpg",
+      "motion": {
+        "sequences": [
+          [
+            3527,
+            3528,
+            3529,
+            3530,
+            3531,
+            3532,
+            3533,
+            3534,
+            3535,
+            3536,
+            3537,
+            3538
+          ],
+          [
+            3537,
+            3538,
+            3539,
+            3540,
+            3541,
+            3542,
+            3543,
+            3544,
+            3545,
+            3546,
+            3547,
+            3548
+          ]
+        ],
+        "peak_frame": 3543,
+        "peak_difference": 24.5233
+      },
+      "motion_file": "motion/R59.jpg"
+    },
+    {
+      "id": "R60",
+      "song_start_s": 147.95,
+      "song_end_s": 151.65,
+      "points": [
+        {
+          "requested_song_s": 148.39399999999998,
+          "reference_frame": 3560,
+          "reference_player_s": 148.33333333333334,
+          "astra_frame": 8904,
+          "astra_song_s": 148.4
+        },
+        {
+          "requested_song_s": 149.8,
+          "reference_frame": 3594,
+          "reference_player_s": 149.75,
+          "astra_frame": 8988,
+          "astra_song_s": 149.8
+        },
+        {
+          "requested_song_s": 151.20600000000002,
+          "reference_frame": 3627,
+          "reference_player_s": 151.125,
+          "astra_frame": 9072,
+          "astra_song_s": 151.2
+        }
+      ],
+      "board": "boards/R60.jpg",
+      "motion": {
+        "sequences": [
+          [
+            3543,
+            3544,
+            3545,
+            3546,
+            3547,
+            3548,
+            3549,
+            3550,
+            3551,
+            3552,
+            3553,
+            3554
+          ],
+          [
+            3560,
+            3561,
+            3562,
+            3563,
+            3564,
+            3565,
+            3566,
+            3567,
+            3568,
+            3569,
+            3570,
+            3571
+          ]
+        ],
+        "peak_frame": 3566,
+        "peak_difference": 22.1977
+      },
+      "motion_file": "motion/R60.jpg"
+    },
+    {
+      "id": "R61",
+      "song_start_s": 151.65,
+      "song_end_s": 155.33333333333334,
+      "points": [
+        {
+          "requested_song_s": 152.092,
+          "reference_frame": 3649,
+          "reference_player_s": 152.04166666666666,
+          "astra_frame": 9126,
+          "astra_song_s": 152.1
+        },
+        {
+          "requested_song_s": 153.49166666666667,
+          "reference_frame": 3682,
+          "reference_player_s": 153.41666666666666,
+          "astra_frame": 9210,
+          "astra_song_s": 153.5
+        },
+        {
+          "requested_song_s": 154.89133333333334,
+          "reference_frame": 3716,
+          "reference_player_s": 154.83333333333334,
+          "astra_frame": 9293,
+          "astra_song_s": 154.88333333333333
+        }
+      ],
+      "board": "boards/R61.jpg",
+      "motion": {
+        "sequences": [
+          [
+            3632,
+            3633,
+            3634,
+            3635,
+            3636,
+            3637,
+            3638,
+            3639,
+            3640,
+            3641,
+            3642,
+            3643
+          ],
+          [
+            3698,
+            3699,
+            3700,
+            3701,
+            3702,
+            3703,
+            3704,
+            3705,
+            3706,
+            3707,
+            3708,
+            3709
+          ]
+        ],
+        "peak_frame": 3704,
+        "peak_difference": 24.4145
+      },
+      "motion_file": "motion/R61.jpg"
+    },
+    {
+      "id": "R62",
+      "song_start_s": 155.33333333333334,
+      "song_end_s": 158.1,
+      "points": [
+        {
+          "requested_song_s": 155.66533333333334,
+          "reference_frame": 3734,
+          "reference_player_s": 155.58333333333334,
+          "astra_frame": 9340,
+          "astra_song_s": 155.66666666666666
+        },
+        {
+          "requested_song_s": 156.71666666666667,
+          "reference_frame": 3760,
+          "reference_player_s": 156.66666666666666,
+          "astra_frame": 9403,
+          "astra_song_s": 156.71666666666667
+        },
+        {
+          "requested_song_s": 157.768,
+          "reference_frame": 3785,
+          "reference_player_s": 157.70833333333334,
+          "astra_frame": 9466,
+          "astra_song_s": 157.76666666666668
+        }
+      ],
+      "board": "boards/R62.jpg",
+      "motion": {
+        "sequences": [
+          [
+            3720,
+            3721,
+            3722,
+            3723,
+            3724,
+            3725,
+            3726,
+            3727,
+            3728,
+            3729,
+            3730,
+            3731
+          ],
+          [
+            3720,
+            3721,
+            3722,
+            3723,
+            3724,
+            3725,
+            3726,
+            3727,
+            3728,
+            3729,
+            3730,
+            3731
+          ]
+        ],
+        "peak_frame": 3726,
+        "peak_difference": 27.6899
+      },
+      "motion_file": "motion/R62.jpg"
+    },
+    {
+      "id": "R63",
+      "song_start_s": 158.1,
+      "song_end_s": 158.81666666666666,
+      "points": [
+        {
+          "requested_song_s": 158.186,
+          "reference_frame": 3795,
+          "reference_player_s": 158.125,
+          "astra_frame": 9491,
+          "astra_song_s": 158.18333333333334
+        },
+        {
+          "requested_song_s": 158.45833333333331,
+          "reference_frame": 3801,
+          "reference_player_s": 158.375,
+          "astra_frame": 9507,
+          "astra_song_s": 158.45
+        },
+        {
+          "requested_song_s": 158.73066666666665,
+          "reference_frame": 3808,
+          "reference_player_s": 158.66666666666666,
+          "astra_frame": 9524,
+          "astra_song_s": 158.73333333333332
+        }
+      ],
+      "board": "boards/R63.jpg",
+      "motion": {
+        "sequences": [
+          [
+            3787,
+            3788,
+            3789,
+            3790,
+            3791,
+            3792,
+            3793,
+            3794,
+            3795,
+            3796,
+            3797,
+            3798
+          ],
+          [
+            3787,
+            3788,
+            3789,
+            3790,
+            3791,
+            3792,
+            3793,
+            3794,
+            3795,
+            3796,
+            3797,
+            3798
+          ]
+        ],
+        "peak_frame": 3793,
+        "peak_difference": 18.2457
+      },
+      "motion_file": "motion/R63.jpg"
+    },
+    {
+      "id": "R64",
+      "song_start_s": 158.81666666666666,
+      "song_end_s": 159.23333333333332,
+      "points": [
+        {
+          "requested_song_s": 158.86666666666667,
+          "reference_frame": 3811,
+          "reference_player_s": 158.79166666666666,
+          "astra_frame": 9532,
+          "astra_song_s": 158.86666666666667
+        },
+        {
+          "requested_song_s": 159.02499999999998,
+          "reference_frame": 3815,
+          "reference_player_s": 158.95833333333334,
+          "astra_frame": 9541,
+          "astra_song_s": 159.01666666666668
+        },
+        {
+          "requested_song_s": 159.1833333333333,
+          "reference_frame": 3819,
+          "reference_player_s": 159.125,
+          "astra_frame": 9551,
+          "astra_song_s": 159.18333333333334
+        }
+      ],
+      "board": "boards/R64.jpg",
+      "motion": {
+        "sequences": [
+          [
+            3804,
+            3805,
+            3806,
+            3807,
+            3808,
+            3809,
+            3810,
+            3811,
+            3812,
+            3813,
+            3814,
+            3815
+          ],
+          [
+            3809,
+            3810,
+            3811,
+            3812,
+            3813,
+            3814,
+            3815,
+            3816,
+            3817,
+            3818,
+            3819,
+            3820
+          ]
+        ],
+        "peak_frame": 3815,
+        "peak_difference": 2.1721
+      },
+      "motion_file": "motion/R64.jpg"
+    },
+    {
+      "id": "R65",
+      "song_start_s": 159.23333333333332,
+      "song_end_s": 159.56666666666666,
+      "points": [
+        {
+          "requested_song_s": 159.2733333333333,
+          "reference_frame": 3821,
+          "reference_player_s": 159.20833333333334,
+          "astra_frame": 9556,
+          "astra_song_s": 159.26666666666668
+        },
+        {
+          "requested_song_s": 159.39999999999998,
+          "reference_frame": 3824,
+          "reference_player_s": 159.33333333333334,
+          "astra_frame": 9564,
+          "astra_song_s": 159.4
+        },
+        {
+          "requested_song_s": 159.52666666666667,
+          "reference_frame": 3827,
+          "reference_player_s": 159.45833333333334,
+          "astra_frame": 9572,
+          "astra_song_s": 159.53333333333333
+        }
+      ],
+      "board": "boards/R65.jpg",
+      "motion": {
+        "sequences": [
+          [
+            3814,
+            3815,
+            3816,
+            3817,
+            3818,
+            3819,
+            3820,
+            3821,
+            3822,
+            3823,
+            3824,
+            3825
+          ],
+          [
+            3820,
+            3821,
+            3822,
+            3823,
+            3824,
+            3825,
+            3826,
+            3827,
+            3828,
+            3829,
+            3830,
+            3831
+          ]
+        ],
+        "peak_frame": 3826,
+        "peak_difference": 3.2452
+      },
+      "motion_file": "motion/R65.jpg"
+    },
+    {
+      "id": "R66",
+      "song_start_s": 159.56666666666666,
+      "song_end_s": 160.16666666666666,
+      "points": [
+        {
+          "requested_song_s": 159.63866666666667,
+          "reference_frame": 3830,
+          "reference_player_s": 159.58333333333334,
+          "astra_frame": 9578,
+          "astra_song_s": 159.63333333333333
+        },
+        {
+          "requested_song_s": 159.86666666666667,
+          "reference_frame": 3835,
+          "reference_player_s": 159.79166666666666,
+          "astra_frame": 9592,
+          "astra_song_s": 159.86666666666667
+        },
+        {
+          "requested_song_s": 160.09466666666665,
+          "reference_frame": 3841,
+          "reference_player_s": 160.04166666666666,
+          "astra_frame": 9606,
+          "astra_song_s": 160.1
+        }
+      ],
+      "board": "boards/R66.jpg",
+      "motion": {
+        "sequences": [
+          [
+            3822,
+            3823,
+            3824,
+            3825,
+            3826,
+            3827,
+            3828,
+            3829,
+            3830,
+            3831,
+            3832,
+            3833
+          ],
+          [
+            3831,
+            3832,
+            3833,
+            3834,
+            3835,
+            3836,
+            3837,
+            3838,
+            3839,
+            3840,
+            3841,
+            3842
+          ]
+        ],
+        "peak_frame": 3837,
+        "peak_difference": 2.3403
+      },
+      "motion_file": "motion/R66.jpg"
+    },
+    {
+      "id": "R67",
+      "song_start_s": 160.16666666666666,
+      "song_end_s": 160.61666666666667,
+      "points": [
+        {
+          "requested_song_s": 160.22066666666666,
+          "reference_frame": 3844,
+          "reference_player_s": 160.16666666666666,
+          "astra_frame": 9613,
+          "astra_song_s": 160.21666666666667
+        },
+        {
+          "requested_song_s": 160.39166666666665,
+          "reference_frame": 3848,
+          "reference_player_s": 160.33333333333334,
+          "astra_frame": 9624,
+          "astra_song_s": 160.4
+        },
+        {
+          "requested_song_s": 160.56266666666667,
+          "reference_frame": 3852,
+          "reference_player_s": 160.5,
+          "astra_frame": 9634,
+          "astra_song_s": 160.56666666666666
+        }
+      ],
+      "board": "boards/R67.jpg",
+      "motion": {
+        "sequences": [
+          [
+            3836,
+            3837,
+            3838,
+            3839,
+            3840,
+            3841,
+            3842,
+            3843,
+            3844,
+            3845,
+            3846,
+            3847
+          ],
+          [
+            3843,
+            3844,
+            3845,
+            3846,
+            3847,
+            3848,
+            3849,
+            3850,
+            3851,
+            3852,
+            3853,
+            3854
+          ]
+        ],
+        "peak_frame": 3849,
+        "peak_difference": 2.6433
+      },
+      "motion_file": "motion/R67.jpg"
+    },
+    {
+      "id": "R68",
+      "song_start_s": 160.61666666666667,
+      "song_end_s": 161.03333333333333,
+      "points": [
+        {
+          "requested_song_s": 160.66666666666669,
+          "reference_frame": 3854,
+          "reference_player_s": 160.58333333333334,
+          "astra_frame": 9640,
+          "astra_song_s": 160.66666666666666
+        },
+        {
+          "requested_song_s": 160.825,
+          "reference_frame": 3858,
+          "reference_player_s": 160.75,
+          "astra_frame": 9650,
+          "astra_song_s": 160.83333333333334
+        },
+        {
+          "requested_song_s": 160.98333333333332,
+          "reference_frame": 3862,
+          "reference_player_s": 160.91666666666666,
+          "astra_frame": 9659,
+          "astra_song_s": 160.98333333333332
+        }
+      ],
+      "board": "boards/R68.jpg",
+      "motion": {
+        "sequences": [
+          [
+            3847,
+            3848,
+            3849,
+            3850,
+            3851,
+            3852,
+            3853,
+            3854,
+            3855,
+            3856,
+            3857,
+            3858
+          ],
+          [
+            3854,
+            3855,
+            3856,
+            3857,
+            3858,
+            3859,
+            3860,
+            3861,
+            3862,
+            3863,
+            3864,
+            3865
+          ]
+        ],
+        "peak_frame": 3860,
+        "peak_difference": 2.4618
+      },
+      "motion_file": "motion/R68.jpg"
+    },
+    {
+      "id": "R69",
+      "song_start_s": 161.03333333333333,
+      "song_end_s": 161.5,
+      "points": [
+        {
+          "requested_song_s": 161.08933333333334,
+          "reference_frame": 3865,
+          "reference_player_s": 161.04166666666666,
+          "astra_frame": 9665,
+          "astra_song_s": 161.08333333333334
+        },
+        {
+          "requested_song_s": 161.26666666666665,
+          "reference_frame": 3869,
+          "reference_player_s": 161.20833333333334,
+          "astra_frame": 9676,
+          "astra_song_s": 161.26666666666668
+        },
+        {
+          "requested_song_s": 161.444,
+          "reference_frame": 3873,
+          "reference_player_s": 161.375,
+          "astra_frame": 9687,
+          "astra_song_s": 161.45
+        }
+      ],
+      "board": "boards/R69.jpg",
+      "motion": {
+        "sequences": [
+          [
+            3857,
+            3858,
+            3859,
+            3860,
+            3861,
+            3862,
+            3863,
+            3864,
+            3865,
+            3866,
+            3867,
+            3868
+          ],
+          [
+            3862,
+            3863,
+            3864,
+            3865,
+            3866,
+            3867,
+            3868,
+            3869,
+            3870,
+            3871,
+            3872,
+            3873
+          ]
+        ],
+        "peak_frame": 3868,
+        "peak_difference": 0.1439
+      },
+      "motion_file": "motion/R69.jpg"
+    },
+    {
+      "id": "R70",
+      "song_start_s": 161.5,
+      "song_end_s": 162.55,
+      "points": [
+        {
+          "requested_song_s": 161.626,
+          "reference_frame": 3877,
+          "reference_player_s": 161.54166666666666,
+          "astra_frame": 9698,
+          "astra_song_s": 161.63333333333333
+        },
+        {
+          "requested_song_s": 162.025,
+          "reference_frame": 3887,
+          "reference_player_s": 161.95833333333334,
+          "astra_frame": 9722,
+          "astra_song_s": 162.03333333333333
+        },
+        {
+          "requested_song_s": 162.424,
+          "reference_frame": 3897,
+          "reference_player_s": 162.375,
+          "astra_frame": 9745,
+          "astra_song_s": 162.41666666666666
+        }
+      ],
+      "board": "boards/R70.jpg",
+      "motion": {
+        "sequences": [
+          [
+            3868,
+            3869,
+            3870,
+            3871,
+            3872,
+            3873,
+            3874,
+            3875,
+            3876,
+            3877,
+            3878,
+            3879
+          ],
+          [
+            3870,
+            3871,
+            3872,
+            3873,
+            3874,
+            3875,
+            3876,
+            3877,
+            3878,
+            3879,
+            3880,
+            3881
+          ]
+        ],
+        "peak_frame": 3876,
+        "peak_difference": 18.3829
+      },
+      "motion_file": "motion/R70.jpg"
+    },
+    {
+      "id": "R71",
+      "song_start_s": 162.55,
+      "song_end_s": 165.08333333333334,
+      "points": [
+        {
+          "requested_song_s": 162.854,
+          "reference_frame": 3907,
+          "reference_player_s": 162.79166666666666,
+          "astra_frame": 9771,
+          "astra_song_s": 162.85
+        },
+        {
+          "requested_song_s": 163.81666666666666,
+          "reference_frame": 3930,
+          "reference_player_s": 163.75,
+          "astra_frame": 9829,
+          "astra_song_s": 163.81666666666666
+        },
+        {
+          "requested_song_s": 164.77933333333334,
+          "reference_frame": 3953,
+          "reference_player_s": 164.70833333333334,
+          "astra_frame": 9887,
+          "astra_song_s": 164.78333333333333
+        }
+      ],
+      "board": "boards/R71.jpg",
+      "motion": {
+        "sequences": [
+          [
+            3894,
+            3895,
+            3896,
+            3897,
+            3898,
+            3899,
+            3900,
+            3901,
+            3902,
+            3903,
+            3904,
+            3905
+          ],
+          [
+            3937,
+            3938,
+            3939,
+            3940,
+            3941,
+            3942,
+            3943,
+            3944,
+            3945,
+            3946,
+            3947,
+            3948
+          ]
+        ],
+        "peak_frame": 3943,
+        "peak_difference": 3.3417
+      },
+      "motion_file": "motion/R71.jpg"
+    },
+    {
+      "id": "R72",
+      "song_start_s": 165.08333333333334,
+      "song_end_s": 165.93333333333334,
+      "points": [
+        {
+          "requested_song_s": 165.18533333333335,
+          "reference_frame": 3963,
+          "reference_player_s": 165.125,
+          "astra_frame": 9911,
+          "astra_song_s": 165.18333333333334
+        },
+        {
+          "requested_song_s": 165.50833333333333,
+          "reference_frame": 3971,
+          "reference_player_s": 165.45833333333334,
+          "astra_frame": 9930,
+          "astra_song_s": 165.5
+        },
+        {
+          "requested_song_s": 165.83133333333333,
+          "reference_frame": 3978,
+          "reference_player_s": 165.75,
+          "astra_frame": 9950,
+          "astra_song_s": 165.83333333333334
+        }
+      ],
+      "board": "boards/R72.jpg",
+      "motion": {
+        "sequences": [
+          [
+            3954,
+            3955,
+            3956,
+            3957,
+            3958,
+            3959,
+            3960,
+            3961,
+            3962,
+            3963,
+            3964,
+            3965
+          ],
+          [
+            3973,
+            3974,
+            3975,
+            3976,
+            3977,
+            3978,
+            3979,
+            3980,
+            3981,
+            3982,
+            3983,
+            3984
+          ]
+        ],
+        "peak_frame": 3979,
+        "peak_difference": 1.5801
+      },
+      "motion_file": "motion/R72.jpg"
+    },
+    {
+      "id": "R73",
+      "song_start_s": 165.93333333333334,
+      "song_end_s": 168.83333333333334,
+      "points": [
+        {
+          "requested_song_s": 166.28133333333335,
+          "reference_frame": 3989,
+          "reference_player_s": 166.20833333333334,
+          "astra_frame": 9977,
+          "astra_song_s": 166.28333333333333
+        },
+        {
+          "requested_song_s": 167.38333333333333,
+          "reference_frame": 4016,
+          "reference_player_s": 167.33333333333334,
+          "astra_frame": 10043,
+          "astra_song_s": 167.38333333333333
+        },
+        {
+          "requested_song_s": 168.48533333333333,
+          "reference_frame": 4042,
+          "reference_player_s": 168.41666666666666,
+          "astra_frame": 10109,
+          "astra_song_s": 168.48333333333332
+        }
+      ],
+      "board": "boards/R73.jpg",
+      "motion": {
+        "sequences": [
+          [
+            3975,
+            3976,
+            3977,
+            3978,
+            3979,
+            3980,
+            3981,
+            3982,
+            3983,
+            3984,
+            3985,
+            3986
+          ],
+          [
+            4000,
+            4001,
+            4002,
+            4003,
+            4004,
+            4005,
+            4006,
+            4007,
+            4008,
+            4009,
+            4010,
+            4011
+          ]
+        ],
+        "peak_frame": 4006,
+        "peak_difference": 3.4341
+      },
+      "motion_file": "motion/R73.jpg"
+    },
+    {
+      "id": "R74",
+      "song_start_s": 168.83333333333334,
+      "song_end_s": 169.73333333333332,
+      "points": [
+        {
+          "requested_song_s": 168.94133333333335,
+          "reference_frame": 4053,
+          "reference_player_s": 168.875,
+          "astra_frame": 10136,
+          "astra_song_s": 168.93333333333334
+        },
+        {
+          "requested_song_s": 169.28333333333333,
+          "reference_frame": 4061,
+          "reference_player_s": 169.20833333333334,
+          "astra_frame": 10157,
+          "astra_song_s": 169.28333333333333
+        },
+        {
+          "requested_song_s": 169.62533333333332,
+          "reference_frame": 4069,
+          "reference_player_s": 169.54166666666666,
+          "astra_frame": 10178,
+          "astra_song_s": 169.63333333333333
+        }
+      ],
+      "board": "boards/R74.jpg",
+      "motion": {
+        "sequences": [
+          [
+            4044,
+            4045,
+            4046,
+            4047,
+            4048,
+            4049,
+            4050,
+            4051,
+            4052,
+            4053,
+            4054,
+            4055
+          ],
+          [
+            4064,
+            4065,
+            4066,
+            4067,
+            4068,
+            4069,
+            4070,
+            4071,
+            4072,
+            4073,
+            4074,
+            4075
+          ]
+        ],
+        "peak_frame": 4070,
+        "peak_difference": 0.9511
+      },
+      "motion_file": "motion/R74.jpg"
+    },
+    {
+      "id": "R75",
+      "song_start_s": 169.73333333333332,
+      "song_end_s": 172.63333333333333,
+      "points": [
+        {
+          "requested_song_s": 170.08133333333333,
+          "reference_frame": 4080,
+          "reference_player_s": 170.0,
+          "astra_frame": 10205,
+          "astra_song_s": 170.08333333333334
+        },
+        {
+          "requested_song_s": 171.18333333333334,
+          "reference_frame": 4107,
+          "reference_player_s": 171.125,
+          "astra_frame": 10271,
+          "astra_song_s": 171.18333333333334
+        },
+        {
+          "requested_song_s": 172.2853333333333,
+          "reference_frame": 4133,
+          "reference_player_s": 172.20833333333334,
+          "astra_frame": 10337,
+          "astra_song_s": 172.28333333333333
+        }
+      ],
+      "board": "boards/R75.jpg",
+      "motion": {
+        "sequences": [
+          [
+            4066,
+            4067,
+            4068,
+            4069,
+            4070,
+            4071,
+            4072,
+            4073,
+            4074,
+            4075,
+            4076,
+            4077
+          ],
+          [
+            4131,
+            4132,
+            4133,
+            4134,
+            4135,
+            4136,
+            4137,
+            4138,
+            4139,
+            4140,
+            4141,
+            4142
+          ]
+        ],
+        "peak_frame": 4137,
+        "peak_difference": 5.1051
+      },
+      "motion_file": "motion/R75.jpg"
+    },
+    {
+      "id": "R76",
+      "song_start_s": 172.63333333333333,
+      "song_end_s": 173.56666666666666,
+      "points": [
+        {
+          "requested_song_s": 172.74533333333332,
+          "reference_frame": 4144,
+          "reference_player_s": 172.66666666666666,
+          "astra_frame": 10365,
+          "astra_song_s": 172.75
+        },
+        {
+          "requested_song_s": 173.1,
+          "reference_frame": 4153,
+          "reference_player_s": 173.04166666666666,
+          "astra_frame": 10386,
+          "astra_song_s": 173.1
+        },
+        {
+          "requested_song_s": 173.45466666666667,
+          "reference_frame": 4161,
+          "reference_player_s": 173.375,
+          "astra_frame": 10407,
+          "astra_song_s": 173.45
+        }
+      ],
+      "board": "boards/R76.jpg",
+      "motion": {
+        "sequences": [
+          [
+            4136,
+            4137,
+            4138,
+            4139,
+            4140,
+            4141,
+            4142,
+            4143,
+            4144,
+            4145,
+            4146,
+            4147
+          ],
+          [
+            4150,
+            4151,
+            4152,
+            4153,
+            4154,
+            4155,
+            4156,
+            4157,
+            4158,
+            4159,
+            4160,
+            4161
+          ]
+        ],
+        "peak_frame": 4156,
+        "peak_difference": 3.8702
+      },
+      "motion_file": "motion/R76.jpg"
+    },
+    {
+      "id": "R77",
+      "song_start_s": 173.56666666666666,
+      "song_end_s": 177.16666666666666,
+      "points": [
+        {
+          "requested_song_s": 173.99866666666665,
+          "reference_frame": 4174,
+          "reference_player_s": 173.91666666666666,
+          "astra_frame": 10440,
+          "astra_song_s": 174.0
+        },
+        {
+          "requested_song_s": 175.36666666666667,
+          "reference_frame": 4207,
+          "reference_player_s": 175.29166666666666,
+          "astra_frame": 10522,
+          "astra_song_s": 175.36666666666667
+        },
+        {
+          "requested_song_s": 176.73466666666667,
+          "reference_frame": 4240,
+          "reference_player_s": 176.66666666666666,
+          "astra_frame": 10604,
+          "astra_song_s": 176.73333333333332
+        }
+      ],
+      "board": "boards/R77.jpg",
+      "motion": {
+        "sequences": [
+          [
+            4158,
+            4159,
+            4160,
+            4161,
+            4162,
+            4163,
+            4164,
+            4165,
+            4166,
+            4167,
+            4168,
+            4169
+          ],
+          [
+            4214,
+            4215,
+            4216,
+            4217,
+            4218,
+            4219,
+            4220,
+            4221,
+            4222,
+            4223,
+            4224,
+            4225
+          ]
+        ],
+        "peak_frame": 4220,
+        "peak_difference": 7.8634
+      },
+      "motion_file": "motion/R77.jpg"
+    },
+    {
+      "id": "R78",
+      "song_start_s": 177.16666666666666,
+      "song_end_s": 180.76666666666668,
+      "points": [
+        {
+          "requested_song_s": 177.59866666666667,
+          "reference_frame": 4261,
+          "reference_player_s": 177.54166666666666,
+          "astra_frame": 10656,
+          "astra_song_s": 177.6
+        },
+        {
+          "requested_song_s": 178.96666666666667,
+          "reference_frame": 4294,
+          "reference_player_s": 178.91666666666666,
+          "astra_frame": 10738,
+          "astra_song_s": 178.96666666666667
+        },
+        {
+          "requested_song_s": 180.33466666666666,
+          "reference_frame": 4326,
+          "reference_player_s": 180.25,
+          "astra_frame": 10820,
+          "astra_song_s": 180.33333333333334
+        }
+      ],
+      "board": "boards/R78.jpg",
+      "motion": {
+        "sequences": [
+          [
+            4244,
+            4245,
+            4246,
+            4247,
+            4248,
+            4249,
+            4250,
+            4251,
+            4252,
+            4253,
+            4254,
+            4255
+          ],
+          [
+            4244,
+            4245,
+            4246,
+            4247,
+            4248,
+            4249,
+            4250,
+            4251,
+            4252,
+            4253,
+            4254,
+            4255
+          ]
+        ],
+        "peak_frame": 4250,
+        "peak_difference": 7.736
+      },
+      "motion_file": "motion/R78.jpg"
+    },
+    {
+      "id": "R79",
+      "song_start_s": 180.76666666666668,
+      "song_end_s": 184.45,
+      "points": [
+        {
+          "requested_song_s": 181.2086666666667,
+          "reference_frame": 4347,
+          "reference_player_s": 181.125,
+          "astra_frame": 10873,
+          "astra_song_s": 181.21666666666667
+        },
+        {
+          "requested_song_s": 182.60833333333335,
+          "reference_frame": 4381,
+          "reference_player_s": 182.54166666666666,
+          "astra_frame": 10956,
+          "astra_song_s": 182.6
+        },
+        {
+          "requested_song_s": 184.00799999999998,
+          "reference_frame": 4415,
+          "reference_player_s": 183.95833333333334,
+          "astra_frame": 11040,
+          "astra_song_s": 184.0
+        }
+      ],
+      "board": "boards/R79.jpg",
+      "motion": {
+        "sequences": [
+          [
+            4331,
+            4332,
+            4333,
+            4334,
+            4335,
+            4336,
+            4337,
+            4338,
+            4339,
+            4340,
+            4341,
+            4342
+          ],
+          [
+            4370,
+            4371,
+            4372,
+            4373,
+            4374,
+            4375,
+            4376,
+            4377,
+            4378,
+            4379,
+            4380,
+            4381
+          ]
+        ],
+        "peak_frame": 4376,
+        "peak_difference": 11.665
+      },
+      "motion_file": "motion/R79.jpg"
+    },
+    {
+      "id": "R80",
+      "song_start_s": 184.45,
+      "song_end_s": 188.4,
+      "points": [
+        {
+          "requested_song_s": 184.92399999999998,
+          "reference_frame": 4437,
+          "reference_player_s": 184.875,
+          "astra_frame": 11095,
+          "astra_song_s": 184.91666666666666
+        },
+        {
+          "requested_song_s": 186.425,
+          "reference_frame": 4473,
+          "reference_player_s": 186.375,
+          "astra_frame": 11186,
+          "astra_song_s": 186.43333333333334
+        },
+        {
+          "requested_song_s": 187.92600000000002,
+          "reference_frame": 4509,
+          "reference_player_s": 187.875,
+          "astra_frame": 11276,
+          "astra_song_s": 187.93333333333334
+        }
+      ],
+      "board": "boards/R80.jpg",
+      "motion": {
+        "sequences": [
+          [
+            4419,
+            4420,
+            4421,
+            4422,
+            4423,
+            4424,
+            4425,
+            4426,
+            4427,
+            4428,
+            4429,
+            4430
+          ],
+          [
+            4425,
+            4426,
+            4427,
+            4428,
+            4429,
+            4430,
+            4431,
+            4432,
+            4433,
+            4434,
+            4435,
+            4436
+          ]
+        ],
+        "peak_frame": 4431,
+        "peak_difference": 4.813
+      },
+      "motion_file": "motion/R80.jpg"
+    },
+    {
+      "id": "R81",
+      "song_start_s": 188.4,
+      "song_end_s": 192.26666666666668,
+      "points": [
+        {
+          "requested_song_s": 188.864,
+          "reference_frame": 4531,
+          "reference_player_s": 188.79166666666666,
+          "astra_frame": 11332,
+          "astra_song_s": 188.86666666666667
+        },
+        {
+          "requested_song_s": 190.33333333333334,
+          "reference_frame": 4566,
+          "reference_player_s": 190.25,
+          "astra_frame": 11420,
+          "astra_song_s": 190.33333333333334
+        },
+        {
+          "requested_song_s": 191.80266666666668,
+          "reference_frame": 4602,
+          "reference_player_s": 191.75,
+          "astra_frame": 11508,
+          "astra_song_s": 191.8
+        }
+      ],
+      "board": "boards/R81.jpg",
+      "motion": {
+        "sequences": [
+          [
+            4514,
+            4515,
+            4516,
+            4517,
+            4518,
+            4519,
+            4520,
+            4521,
+            4522,
+            4523,
+            4524,
+            4525
+          ],
+          [
+            4606,
+            4607,
+            4608,
+            4609,
+            4610,
+            4611,
+            4612,
+            4613,
+            4614,
+            4615,
+            4616,
+            4617
+          ]
+        ],
+        "peak_frame": 4612,
+        "peak_difference": 3.1164
+      },
+      "motion_file": "motion/R81.jpg"
+    },
+    {
+      "id": "R82",
+      "song_start_s": 192.26666666666668,
+      "song_end_s": 195.95,
+      "points": [
+        {
+          "requested_song_s": 192.7086666666667,
+          "reference_frame": 4623,
+          "reference_player_s": 192.625,
+          "astra_frame": 11563,
+          "astra_song_s": 192.71666666666667
+        },
+        {
+          "requested_song_s": 194.10833333333335,
+          "reference_frame": 4657,
+          "reference_player_s": 194.04166666666666,
+          "astra_frame": 11646,
+          "astra_song_s": 194.1
+        },
+        {
+          "requested_song_s": 195.50799999999998,
+          "reference_frame": 4691,
+          "reference_player_s": 195.45833333333334,
+          "astra_frame": 11730,
+          "astra_song_s": 195.5
+        }
+      ],
+      "board": "boards/R82.jpg",
+      "motion": {
+        "sequences": [
+          [
+            4607,
+            4608,
+            4609,
+            4610,
+            4611,
+            4612,
+            4613,
+            4614,
+            4615,
+            4616,
+            4617,
+            4618
+          ],
+          [
+            4647,
+            4648,
+            4649,
+            4650,
+            4651,
+            4652,
+            4653,
+            4654,
+            4655,
+            4656,
+            4657,
+            4658
+          ]
+        ],
+        "peak_frame": 4653,
+        "peak_difference": 6.5049
+      },
+      "motion_file": "motion/R82.jpg"
+    },
+    {
+      "id": "R83",
+      "song_start_s": 195.95,
+      "song_end_s": 199.65,
+      "points": [
+        {
+          "requested_song_s": 196.39399999999998,
+          "reference_frame": 4712,
+          "reference_player_s": 196.33333333333334,
+          "astra_frame": 11784,
+          "astra_song_s": 196.4
+        },
+        {
+          "requested_song_s": 197.8,
+          "reference_frame": 4746,
+          "reference_player_s": 197.75,
+          "astra_frame": 11868,
+          "astra_song_s": 197.8
+        },
+        {
+          "requested_song_s": 199.20600000000002,
+          "reference_frame": 4779,
+          "reference_player_s": 199.125,
+          "astra_frame": 11952,
+          "astra_song_s": 199.2
+        }
+      ],
+      "board": "boards/R83.jpg",
+      "motion": {
+        "sequences": [
+          [
+            4695,
+            4696,
+            4697,
+            4698,
+            4699,
+            4700,
+            4701,
+            4702,
+            4703,
+            4704,
+            4705,
+            4706
+          ],
+          [
+            4741,
+            4742,
+            4743,
+            4744,
+            4745,
+            4746,
+            4747,
+            4748,
+            4749,
+            4750,
+            4751,
+            4752
+          ]
+        ],
+        "peak_frame": 4747,
+        "peak_difference": 1.2972
+      },
+      "motion_file": "motion/R83.jpg"
+    },
+    {
+      "id": "R84",
+      "song_start_s": 199.65,
+      "song_end_s": 203.33333333333334,
+      "points": [
+        {
+          "requested_song_s": 200.092,
+          "reference_frame": 4801,
+          "reference_player_s": 200.04166666666666,
+          "astra_frame": 12006,
+          "astra_song_s": 200.1
+        },
+        {
+          "requested_song_s": 201.49166666666667,
+          "reference_frame": 4834,
+          "reference_player_s": 201.41666666666666,
+          "astra_frame": 12090,
+          "astra_song_s": 201.5
+        },
+        {
+          "requested_song_s": 202.89133333333334,
+          "reference_frame": 4868,
+          "reference_player_s": 202.83333333333334,
+          "astra_frame": 12173,
+          "astra_song_s": 202.88333333333333
+        }
+      ],
+      "board": "boards/R84.jpg",
+      "motion": {
+        "sequences": [
+          [
+            4784,
+            4785,
+            4786,
+            4787,
+            4788,
+            4789,
+            4790,
+            4791,
+            4792,
+            4793,
+            4794,
+            4795
+          ],
+          [
+            4789,
+            4790,
+            4791,
+            4792,
+            4793,
+            4794,
+            4795,
+            4796,
+            4797,
+            4798,
+            4799,
+            4800
+          ]
+        ],
+        "peak_frame": 4795,
+        "peak_difference": 1.0786
+      },
+      "motion_file": "motion/R84.jpg"
+    },
+    {
+      "id": "R85",
+      "song_start_s": 203.33333333333334,
+      "song_end_s": 205.73333333333332,
+      "points": [
+        {
+          "requested_song_s": 203.62133333333335,
+          "reference_frame": 4885,
+          "reference_player_s": 203.54166666666666,
+          "astra_frame": 12217,
+          "astra_song_s": 203.61666666666667
+        },
+        {
+          "requested_song_s": 204.53333333333333,
+          "reference_frame": 4907,
+          "reference_player_s": 204.45833333333334,
+          "astra_frame": 12272,
+          "astra_song_s": 204.53333333333333
+        },
+        {
+          "requested_song_s": 205.4453333333333,
+          "reference_frame": 4929,
+          "reference_player_s": 205.375,
+          "astra_frame": 12327,
+          "astra_song_s": 205.45
+        }
+      ],
+      "board": "boards/R85.jpg",
+      "motion": {
+        "sequences": [
+          [
+            4872,
+            4873,
+            4874,
+            4875,
+            4876,
+            4877,
+            4878,
+            4879,
+            4880,
+            4881,
+            4882,
+            4883
+          ],
+          [
+            4928,
+            4929,
+            4930,
+            4931,
+            4932,
+            4933,
+            4934,
+            4935,
+            4936,
+            4937,
+            4938,
+            4939
+          ]
+        ],
+        "peak_frame": 4934,
+        "peak_difference": 22.4104
+      },
+      "motion_file": "motion/R85.jpg"
+    },
+    {
+      "id": "R86",
+      "song_start_s": 205.73333333333332,
+      "song_end_s": 218.33333333333334,
+      "points": [
+        {
+          "requested_song_s": 207.24533333333332,
+          "reference_frame": 4972,
+          "reference_player_s": 207.16666666666666,
+          "astra_frame": 12435,
+          "astra_song_s": 207.25
+        },
+        {
+          "requested_song_s": 212.03333333333333,
+          "reference_frame": null,
+          "reference_player_s": null,
+          "astra_frame": 12722,
+          "astra_song_s": 212.03333333333333
+        },
+        {
+          "requested_song_s": 216.82133333333334,
+          "reference_frame": null,
+          "reference_player_s": null,
+          "astra_frame": 13009,
+          "astra_song_s": 216.81666666666666
+        }
+      ],
+      "board": "boards/R86.jpg",
+      "motion": {
+        "sequences": [
+          [
+            4930,
+            4931,
+            4932,
+            4933,
+            4934,
+            4935,
+            4936,
+            4937,
+            4938,
+            4939,
+            4940,
+            4941
+          ],
+          [
+            4964,
+            4965,
+            4966,
+            4967,
+            4968,
+            4969,
+            4970,
+            4971,
+            4972,
+            4973,
+            4974,
+            4975
+          ]
+        ],
+        "peak_frame": 4970,
+        "peak_difference": 9.6364
+      },
+      "motion_file": "motion/R86.jpg"
+    }
+  ],
+  "same_music_summary": [
+    {
+      "id": "R01",
+      "reference": {
+        "samples_12hz": 47,
+        "mean_luma": 8.05,
+        "bright_fraction": 0.0014,
+        "dark_fraction": 0.9797,
+        "luma_std_over_time": 4.48,
+        "luma_range": [
+          0.3,
+          21.41
+        ]
+      },
+      "astra": {
+        "samples_12hz": 48,
+        "mean_luma": 28.08,
+        "bright_fraction": 0.0001,
+        "dark_fraction": 0.8521,
+        "luma_std_over_time": 10.48,
+        "luma_range": [
+          13.67,
+          40.88
+        ]
+      }
+    },
+    {
+      "id": "R02",
+      "reference": {
+        "samples_12hz": 45,
+        "mean_luma": 19.7,
+        "bright_fraction": 0.0143,
+        "dark_fraction": 0.9033,
+        "luma_std_over_time": 15.71,
+        "luma_range": [
+          7.97,
+          64.9
+        ]
+      },
+      "astra": {
+        "samples_12hz": 45,
+        "mean_luma": 19.15,
+        "bright_fraction": 0.0001,
+        "dark_fraction": 0.9833,
+        "luma_std_over_time": 1.63,
+        "luma_range": [
+          13.78,
+          21.64
+        ]
+      }
+    },
+    {
+      "id": "R03",
+      "reference": {
+        "samples_12hz": 45,
+        "mean_luma": 15.73,
+        "bright_fraction": 0.01,
+        "dark_fraction": 0.9342,
+        "luma_std_over_time": 8.1,
+        "luma_range": [
+          10.07,
+          35.58
+        ]
+      },
+      "astra": {
+        "samples_12hz": 45,
+        "mean_luma": 18.43,
+        "bright_fraction": 0.0,
+        "dark_fraction": 0.9486,
+        "luma_std_over_time": 1.25,
+        "luma_range": [
+          16.23,
+          20.37
+        ]
+      }
+    },
+    {
+      "id": "R04",
+      "reference": {
+        "samples_12hz": 45,
+        "mean_luma": 14.73,
+        "bright_fraction": 0.0026,
+        "dark_fraction": 0.9408,
+        "luma_std_over_time": 0.78,
+        "luma_range": [
+          13.5,
+          16.36
+        ]
+      },
+      "astra": {
+        "samples_12hz": 45,
+        "mean_luma": 22.43,
+        "bright_fraction": 0.0003,
+        "dark_fraction": 0.9622,
+        "luma_std_over_time": 0.4,
+        "luma_range": [
+          21.84,
+          23.06
+        ]
+      }
+    },
+    {
+      "id": "R05",
+      "reference": {
+        "samples_12hz": 23,
+        "mean_luma": 15.97,
+        "bright_fraction": 0.0067,
+        "dark_fraction": 0.9384,
+        "luma_std_over_time": 1.29,
+        "luma_range": [
+          14.1,
+          18.61
+        ]
+      },
+      "astra": {
+        "samples_12hz": 23,
+        "mean_luma": 16.57,
+        "bright_fraction": 0.0007,
+        "dark_fraction": 0.9739,
+        "luma_std_over_time": 0.52,
+        "luma_range": [
+          15.52,
+          17.78
+        ]
+      }
+    },
+    {
+      "id": "R06",
+      "reference": {
+        "samples_12hz": 67,
+        "mean_luma": 14.46,
+        "bright_fraction": 0.0009,
+        "dark_fraction": 0.9508,
+        "luma_std_over_time": 0.37,
+        "luma_range": [
+          13.73,
+          15.21
+        ]
+      },
+      "astra": {
+        "samples_12hz": 67,
+        "mean_luma": 17.59,
+        "bright_fraction": 0.0008,
+        "dark_fraction": 0.9882,
+        "luma_std_over_time": 0.26,
+        "luma_range": [
+          16.72,
+          18.13
+        ]
+      }
+    },
+    {
+      "id": "R07",
+      "reference": {
+        "samples_12hz": 45,
+        "mean_luma": 20.29,
+        "bright_fraction": 0.0089,
+        "dark_fraction": 0.8976,
+        "luma_std_over_time": 6.95,
+        "luma_range": [
+          13.63,
+          34.13
+        ]
+      },
+      "astra": {
+        "samples_12hz": 45,
+        "mean_luma": 18.62,
+        "bright_fraction": 0.0006,
+        "dark_fraction": 0.9797,
+        "luma_std_over_time": 1.43,
+        "luma_range": [
+          16.19,
+          19.96
+        ]
+      }
+    },
+    {
+      "id": "R08",
+      "reference": {
+        "samples_12hz": 39,
+        "mean_luma": 19.28,
+        "bright_fraction": 0.0031,
+        "dark_fraction": 0.8855,
+        "luma_std_over_time": 4.49,
+        "luma_range": [
+          16.41,
+          34.81
+        ]
+      },
+      "astra": {
+        "samples_12hz": 39,
+        "mean_luma": 13.91,
+        "bright_fraction": 0.0,
+        "dark_fraction": 0.989,
+        "luma_std_over_time": 0.15,
+        "luma_range": [
+          13.56,
+          14.16
+        ]
+      }
+    },
+    {
+      "id": "R09",
+      "reference": {
+        "samples_12hz": 48,
+        "mean_luma": 21.55,
+        "bright_fraction": 0.0063,
+        "dark_fraction": 0.8814,
+        "luma_std_over_time": 6.4,
+        "luma_range": [
+          15.17,
+          30.18
+        ]
+      },
+      "astra": {
+        "samples_12hz": 48,
+        "mean_luma": 15.72,
+        "bright_fraction": 0.0002,
+        "dark_fraction": 0.9711,
+        "luma_std_over_time": 1.05,
+        "luma_range": [
+          14.27,
+          17.16
+        ]
+      }
+    },
+    {
+      "id": "R10",
+      "reference": {
+        "samples_12hz": 45,
+        "mean_luma": 14.22,
+        "bright_fraction": 0.0013,
+        "dark_fraction": 0.9509,
+        "luma_std_over_time": 0.68,
+        "luma_range": [
+          13.13,
+          16.08
+        ]
+      },
+      "astra": {
+        "samples_12hz": 45,
+        "mean_luma": 31.47,
+        "bright_fraction": 0.0,
+        "dark_fraction": 0.8306,
+        "luma_std_over_time": 0.9,
+        "luma_range": [
+          29.91,
+          32.68
+        ]
+      }
+    },
+    {
+      "id": "R11",
+      "reference": {
+        "samples_12hz": 45,
+        "mean_luma": 15.0,
+        "bright_fraction": 0.002,
+        "dark_fraction": 0.9441,
+        "luma_std_over_time": 0.9,
+        "luma_range": [
+          13.4,
+          18.12
+        ]
+      },
+      "astra": {
+        "samples_12hz": 45,
+        "mean_luma": 39.03,
+        "bright_fraction": 0.0001,
+        "dark_fraction": 0.7577,
+        "luma_std_over_time": 1.09,
+        "luma_range": [
+          36.4,
+          40.25
+        ]
+      }
+    },
+    {
+      "id": "R12",
+      "reference": {
+        "samples_12hz": 48,
+        "mean_luma": 20.87,
+        "bright_fraction": 0.006,
+        "dark_fraction": 0.8789,
+        "luma_std_over_time": 2.43,
+        "luma_range": [
+          15.29,
+          23.89
+        ]
+      },
+      "astra": {
+        "samples_12hz": 48,
+        "mean_luma": 15.77,
+        "bright_fraction": 0.0001,
+        "dark_fraction": 0.9653,
+        "luma_std_over_time": 1.04,
+        "luma_range": [
+          14.49,
+          17.6
+        ]
+      }
+    },
+    {
+      "id": "R13",
+      "reference": {
+        "samples_12hz": 45,
+        "mean_luma": 20.51,
+        "bright_fraction": 0.0063,
+        "dark_fraction": 0.8979,
+        "luma_std_over_time": 8.74,
+        "luma_range": [
+          13.68,
+          39.38
+        ]
+      },
+      "astra": {
+        "samples_12hz": 45,
+        "mean_luma": 15.76,
+        "bright_fraction": 0.0007,
+        "dark_fraction": 0.9671,
+        "luma_std_over_time": 0.74,
+        "luma_range": [
+          15.03,
+          17.45
+        ]
+      }
+    },
+    {
+      "id": "R14",
+      "reference": {
+        "samples_12hz": 45,
+        "mean_luma": 21.09,
+        "bright_fraction": 0.0104,
+        "dark_fraction": 0.8956,
+        "luma_std_over_time": 6.34,
+        "luma_range": [
+          14.77,
+          32.92
+        ]
+      },
+      "astra": {
+        "samples_12hz": 45,
+        "mean_luma": 26.88,
+        "bright_fraction": 0.0005,
+        "dark_fraction": 0.8675,
+        "luma_std_over_time": 2.89,
+        "luma_range": [
+          22.12,
+          29.22
+        ]
+      }
+    },
+    {
+      "id": "R15",
+      "reference": {
+        "samples_12hz": 45,
+        "mean_luma": 18.71,
+        "bright_fraction": 0.009,
+        "dark_fraction": 0.9151,
+        "luma_std_over_time": 2.43,
+        "luma_range": [
+          14.8,
+          24.38
+        ]
+      },
+      "astra": {
+        "samples_12hz": 45,
+        "mean_luma": 44.16,
+        "bright_fraction": 0.0,
+        "dark_fraction": 0.7141,
+        "luma_std_over_time": 1.39,
+        "luma_range": [
+          40.76,
+          46.16
+        ]
+      }
+    },
+    {
+      "id": "R16",
+      "reference": {
+        "samples_12hz": 45,
+        "mean_luma": 21.66,
+        "bright_fraction": 0.0034,
+        "dark_fraction": 0.8631,
+        "luma_std_over_time": 4.94,
+        "luma_range": [
+          15.06,
+          30.5
+        ]
+      },
+      "astra": {
+        "samples_12hz": 45,
+        "mean_luma": 19.03,
+        "bright_fraction": 0.0,
+        "dark_fraction": 0.9315,
+        "luma_std_over_time": 0.83,
+        "luma_range": [
+          18.16,
+          20.33
+        ]
+      }
+    },
+    {
+      "id": "R17",
+      "reference": {
+        "samples_12hz": 31,
+        "mean_luma": 17.56,
+        "bright_fraction": 0.0008,
+        "dark_fraction": 0.9035,
+        "luma_std_over_time": 3.47,
+        "luma_range": [
+          12.08,
+          22.61
+        ]
+      },
+      "astra": {
+        "samples_12hz": 31,
+        "mean_luma": 19.29,
+        "bright_fraction": 0.0,
+        "dark_fraction": 0.9289,
+        "luma_std_over_time": 0.46,
+        "luma_range": [
+          18.33,
+          19.71
+        ]
+      }
+    },
+    {
+      "id": "R18",
+      "reference": {
+        "samples_12hz": 9,
+        "mean_luma": 19.04,
+        "bright_fraction": 0.0017,
+        "dark_fraction": 0.9009,
+        "luma_std_over_time": 0.3,
+        "luma_range": [
+          18.48,
+          19.42
+        ]
+      },
+      "astra": {
+        "samples_12hz": 9,
+        "mean_luma": 29.76,
+        "bright_fraction": 0.0157,
+        "dark_fraction": 0.8818,
+        "luma_std_over_time": 2.89,
+        "luma_range": [
+          22.53,
+          31.33
+        ]
+      }
+    },
+    {
+      "id": "R19",
+      "reference": {
+        "samples_12hz": 34,
+        "mean_luma": 21.0,
+        "bright_fraction": 0.0027,
+        "dark_fraction": 0.8823,
+        "luma_std_over_time": 2.17,
+        "luma_range": [
+          17.69,
+          24.71
+        ]
+      },
+      "astra": {
+        "samples_12hz": 34,
+        "mean_luma": 23.7,
+        "bright_fraction": 0.0,
+        "dark_fraction": 0.8887,
+        "luma_std_over_time": 3.27,
+        "luma_range": [
+          14.86,
+          26.12
+        ]
+      }
+    },
+    {
+      "id": "R20",
+      "reference": {
+        "samples_12hz": 12,
+        "mean_luma": 18.53,
+        "bright_fraction": 0.0028,
+        "dark_fraction": 0.9137,
+        "luma_std_over_time": 0.3,
+        "luma_range": [
+          18.17,
+          19.19
+        ]
+      },
+      "astra": {
+        "samples_12hz": 12,
+        "mean_luma": 34.2,
+        "bright_fraction": 0.043,
+        "dark_fraction": 0.8557,
+        "luma_std_over_time": 3.27,
+        "luma_range": [
+          30.29,
+          36.98
+        ]
+      }
+    },
+    {
+      "id": "R21",
+      "reference": {
+        "samples_12hz": 36,
+        "mean_luma": 22.89,
+        "bright_fraction": 0.0063,
+        "dark_fraction": 0.8775,
+        "luma_std_over_time": 4.04,
+        "luma_range": [
+          16.67,
+          30.4
+        ]
+      },
+      "astra": {
+        "samples_12hz": 36,
+        "mean_luma": 35.53,
+        "bright_fraction": 0.0,
+        "dark_fraction": 0.7918,
+        "luma_std_over_time": 9.05,
+        "luma_range": [
+          16.21,
+          42.35
+        ]
+      }
+    },
+    {
+      "id": "R22",
+      "reference": {
+        "samples_12hz": 9,
+        "mean_luma": 19.66,
+        "bright_fraction": 0.0068,
+        "dark_fraction": 0.9021,
+        "luma_std_over_time": 1.44,
+        "luma_range": [
+          17.36,
+          20.96
+        ]
+      },
+      "astra": {
+        "samples_12hz": 9,
+        "mean_luma": 19.41,
+        "bright_fraction": 0.0,
+        "dark_fraction": 0.9293,
+        "luma_std_over_time": 0.49,
+        "luma_range": [
+          18.69,
+          20.02
+        ]
+      }
+    },
+    {
+      "id": "R23",
+      "reference": {
+        "samples_12hz": 39,
+        "mean_luma": 33.67,
+        "bright_fraction": 0.0029,
+        "dark_fraction": 0.7609,
+        "luma_std_over_time": 12.07,
+        "luma_range": [
+          17.55,
+          49.6
+        ]
+      },
+      "astra": {
+        "samples_12hz": 39,
+        "mean_luma": 36.03,
+        "bright_fraction": 0.0001,
+        "dark_fraction": 0.77,
+        "luma_std_over_time": 2.71,
+        "luma_range": [
+          33.11,
+          40.5
+        ]
+      }
+    },
+    {
+      "id": "R24",
+      "reference": {
+        "samples_12hz": 11,
+        "mean_luma": 12.21,
+        "bright_fraction": 0.0041,
+        "dark_fraction": 0.9589,
+        "luma_std_over_time": 3.42,
+        "luma_range": [
+          9.9,
+          19.22
+        ]
+      },
+      "astra": {
+        "samples_12hz": 11,
+        "mean_luma": 21.42,
+        "bright_fraction": 0.0,
+        "dark_fraction": 0.9396,
+        "luma_std_over_time": 0.78,
+        "luma_range": [
+          19.75,
+          22.19
+        ]
+      }
+    },
+    {
+      "id": "R25",
+      "reference": {
+        "samples_12hz": 6,
+        "mean_luma": 14.49,
+        "bright_fraction": 0.0014,
+        "dark_fraction": 0.9499,
+        "luma_std_over_time": 0.75,
+        "luma_range": [
+          12.97,
+          15.08
+        ]
+      },
+      "astra": {
+        "samples_12hz": 6,
+        "mean_luma": 16.89,
+        "bright_fraction": 0.0001,
+        "dark_fraction": 0.9615,
+        "luma_std_over_time": 0.4,
+        "luma_range": [
+          16.06,
+          17.15
+        ]
+      }
+    },
+    {
+      "id": "R26",
+      "reference": {
+        "samples_12hz": 36,
+        "mean_luma": 17.03,
+        "bright_fraction": 0.0012,
+        "dark_fraction": 0.9221,
+        "luma_std_over_time": 4.26,
+        "luma_range": [
+          13.4,
+          36.8
+        ]
+      },
+      "astra": {
+        "samples_12hz": 36,
+        "mean_luma": 31.52,
+        "bright_fraction": 0.0166,
+        "dark_fraction": 0.8627,
+        "luma_std_over_time": 1.41,
+        "luma_range": [
+          29.27,
+          33.3
+        ]
+      }
+    },
+    {
+      "id": "R27",
+      "reference": {
+        "samples_12hz": 9,
+        "mean_luma": 29.85,
+        "bright_fraction": 0.0045,
+        "dark_fraction": 0.8313,
+        "luma_std_over_time": 3.03,
+        "luma_range": [
+          27.12,
+          35.75
+        ]
+      },
+      "astra": {
+        "samples_12hz": 9,
+        "mean_luma": 19.26,
+        "bright_fraction": 0.0038,
+        "dark_fraction": 0.9422,
+        "luma_std_over_time": 0.34,
+        "luma_range": [
+          18.44,
+          19.46
+        ]
+      }
+    },
+    {
+      "id": "R28",
+      "reference": {
+        "samples_12hz": 36,
+        "mean_luma": 19.83,
+        "bright_fraction": 0.0071,
+        "dark_fraction": 0.9042,
+        "luma_std_over_time": 4.92,
+        "luma_range": [
+          14.88,
+          30.72
+        ]
+      },
+      "astra": {
+        "samples_12hz": 36,
+        "mean_luma": 39.13,
+        "bright_fraction": 0.0234,
+        "dark_fraction": 0.8008,
+        "luma_std_over_time": 2.32,
+        "luma_range": [
+          35.46,
+          41.39
+        ]
+      }
+    },
+    {
+      "id": "R29",
+      "reference": {
+        "samples_12hz": 9,
+        "mean_luma": 16.25,
+        "bright_fraction": 0.0036,
+        "dark_fraction": 0.9365,
+        "luma_std_over_time": 1.07,
+        "luma_range": [
+          15.3,
+          18.05
+        ]
+      },
+      "astra": {
+        "samples_12hz": 9,
+        "mean_luma": 22.36,
+        "bright_fraction": 0.0089,
+        "dark_fraction": 0.9132,
+        "luma_std_over_time": 0.27,
+        "luma_range": [
+          21.74,
+          22.53
+        ]
+      }
+    },
+    {
+      "id": "R30",
+      "reference": {
+        "samples_12hz": 36,
+        "mean_luma": 26.2,
+        "bright_fraction": 0.0038,
+        "dark_fraction": 0.8455,
+        "luma_std_over_time": 5.66,
+        "luma_range": [
+          15.44,
+          34.18
+        ]
+      },
+      "astra": {
+        "samples_12hz": 36,
+        "mean_luma": 25.79,
+        "bright_fraction": 0.0001,
+        "dark_fraction": 0.856,
+        "luma_std_over_time": 0.28,
+        "luma_range": [
+          25.32,
+          26.21
+        ]
+      }
+    },
+    {
+      "id": "R31",
+      "reference": {
+        "samples_12hz": 6,
+        "mean_luma": 17.71,
+        "bright_fraction": 0.0019,
+        "dark_fraction": 0.891,
+        "luma_std_over_time": 0.68,
+        "luma_range": [
+          16.62,
+          18.25
+        ]
+      },
+      "astra": {
+        "samples_12hz": 6,
+        "mean_luma": 20.2,
+        "bright_fraction": 0.0001,
+        "dark_fraction": 0.8953,
+        "luma_std_over_time": 0.42,
+        "luma_range": [
+          19.31,
+          20.47
+        ]
+      }
+    },
+    {
+      "id": "R32",
+      "reference": {
+        "samples_12hz": 42,
+        "mean_luma": 19.88,
+        "bright_fraction": 0.0013,
+        "dark_fraction": 0.8779,
+        "luma_std_over_time": 1.73,
+        "luma_range": [
+          16.83,
+          22.73
+        ]
+      },
+      "astra": {
+        "samples_12hz": 42,
+        "mean_luma": 32.83,
+        "bright_fraction": 0.0,
+        "dark_fraction": 0.7987,
+        "luma_std_over_time": 1.74,
+        "luma_range": [
+          29.37,
+          34.42
+        ]
+      }
+    },
+    {
+      "id": "R33",
+      "reference": {
+        "samples_12hz": 22,
+        "mean_luma": 24.17,
+        "bright_fraction": 0.0071,
+        "dark_fraction": 0.8451,
+        "luma_std_over_time": 2.65,
+        "luma_range": [
+          21.48,
+          27.83
+        ]
+      },
+      "astra": {
+        "samples_12hz": 22,
+        "mean_luma": 31.98,
+        "bright_fraction": 0.0024,
+        "dark_fraction": 0.8591,
+        "luma_std_over_time": 3.28,
+        "luma_range": [
+          27.34,
+          35.4
+        ]
+      }
+    },
+    {
+      "id": "R34",
+      "reference": {
+        "samples_12hz": 23,
+        "mean_luma": 20.27,
+        "bright_fraction": 0.0093,
+        "dark_fraction": 0.8873,
+        "luma_std_over_time": 1.49,
+        "luma_range": [
+          17.9,
+          24.43
+        ]
+      },
+      "astra": {
+        "samples_12hz": 23,
+        "mean_luma": 26.88,
+        "bright_fraction": 0.0,
+        "dark_fraction": 0.8553,
+        "luma_std_over_time": 0.51,
+        "luma_range": [
+          26.05,
+          27.44
+        ]
+      }
+    },
+    {
+      "id": "R35",
+      "reference": {
+        "samples_12hz": 45,
+        "mean_luma": 19.9,
+        "bright_fraction": 0.0018,
+        "dark_fraction": 0.8848,
+        "luma_std_over_time": 2.73,
+        "luma_range": [
+          12.97,
+          21.91
+        ]
+      },
+      "astra": {
+        "samples_12hz": 45,
+        "mean_luma": 22.79,
+        "bright_fraction": 0.0012,
+        "dark_fraction": 0.9037,
+        "luma_std_over_time": 0.12,
+        "luma_range": [
+          22.61,
+          23.0
+        ]
+      }
+    },
+    {
+      "id": "R36",
+      "reference": {
+        "samples_12hz": 45,
+        "mean_luma": 15.43,
+        "bright_fraction": 0.0015,
+        "dark_fraction": 0.9378,
+        "luma_std_over_time": 1.24,
+        "luma_range": [
+          13.16,
+          16.96
+        ]
+      },
+      "astra": {
+        "samples_12hz": 45,
+        "mean_luma": 28.69,
+        "bright_fraction": 0.0009,
+        "dark_fraction": 0.8451,
+        "luma_std_over_time": 0.36,
+        "luma_range": [
+          28.15,
+          29.13
+        ]
+      }
+    },
+    {
+      "id": "R37",
+      "reference": {
+        "samples_12hz": 6,
+        "mean_luma": 13.97,
+        "bright_fraction": 0.0022,
+        "dark_fraction": 0.9568,
+        "luma_std_over_time": 0.04,
+        "luma_range": [
+          13.92,
+          14.04
+        ]
+      },
+      "astra": {
+        "samples_12hz": 6,
+        "mean_luma": 20.43,
+        "bright_fraction": 0.0051,
+        "dark_fraction": 0.9645,
+        "luma_std_over_time": 0.09,
+        "luma_range": [
+          20.3,
+          20.5
+        ]
+      }
+    },
+    {
+      "id": "R38",
+      "reference": {
+        "samples_12hz": 34,
+        "mean_luma": 14.99,
+        "bright_fraction": 0.0031,
+        "dark_fraction": 0.947,
+        "luma_std_over_time": 0.71,
+        "luma_range": [
+          14.13,
+          16.46
+        ]
+      },
+      "astra": {
+        "samples_12hz": 34,
+        "mean_luma": 29.82,
+        "bright_fraction": 0.0017,
+        "dark_fraction": 0.8357,
+        "luma_std_over_time": 0.02,
+        "luma_range": [
+          29.79,
+          29.85
+        ]
+      }
+    },
+    {
+      "id": "R39",
+      "reference": {
+        "samples_12hz": 6,
+        "mean_luma": 14.45,
+        "bright_fraction": 0.0023,
+        "dark_fraction": 0.9512,
+        "luma_std_over_time": 0.59,
+        "luma_range": [
+          13.82,
+          15.61
+        ]
+      },
+      "astra": {
+        "samples_12hz": 6,
+        "mean_luma": 23.92,
+        "bright_fraction": 0.0032,
+        "dark_fraction": 0.954,
+        "luma_std_over_time": 0.31,
+        "luma_range": [
+          23.42,
+          24.26
+        ]
+      }
+    },
+    {
+      "id": "R40",
+      "reference": {
+        "samples_12hz": 31,
+        "mean_luma": 15.02,
+        "bright_fraction": 0.0005,
+        "dark_fraction": 0.9449,
+        "luma_std_over_time": 0.37,
+        "luma_range": [
+          14.41,
+          15.79
+        ]
+      },
+      "astra": {
+        "samples_12hz": 31,
+        "mean_luma": 29.52,
+        "bright_fraction": 0.0,
+        "dark_fraction": 0.8311,
+        "luma_std_over_time": 0.17,
+        "luma_range": [
+          29.15,
+          29.62
+        ]
+      }
+    },
+    {
+      "id": "R41",
+      "reference": {
+        "samples_12hz": 14,
+        "mean_luma": 14.56,
+        "bright_fraction": 0.0016,
+        "dark_fraction": 0.9417,
+        "luma_std_over_time": 0.67,
+        "luma_range": [
+          13.57,
+          15.46
+        ]
+      },
+      "astra": {
+        "samples_12hz": 14,
+        "mean_luma": 29.77,
+        "bright_fraction": 0.0,
+        "dark_fraction": 0.8281,
+        "luma_std_over_time": 0.05,
+        "luma_range": [
+          29.7,
+          29.94
+        ]
+      }
+    },
+    {
+      "id": "R42",
+      "reference": {
+        "samples_12hz": 34,
+        "mean_luma": 14.96,
+        "bright_fraction": 0.0051,
+        "dark_fraction": 0.9356,
+        "luma_std_over_time": 1.4,
+        "luma_range": [
+          13.34,
+          17.3
+        ]
+      },
+      "astra": {
+        "samples_12hz": 34,
+        "mean_luma": 29.79,
+        "bright_fraction": 0.0001,
+        "dark_fraction": 0.8281,
+        "luma_std_over_time": 0.23,
+        "luma_range": [
+          29.33,
+          29.95
+        ]
+      }
+    },
+    {
+      "id": "R43",
+      "reference": {
+        "samples_12hz": 9,
+        "mean_luma": 14.38,
+        "bright_fraction": 0.0063,
+        "dark_fraction": 0.9422,
+        "luma_std_over_time": 1.86,
+        "luma_range": [
+          12.01,
+          16.83
+        ]
+      },
+      "astra": {
+        "samples_12hz": 9,
+        "mean_luma": 30.1,
+        "bright_fraction": 0.0003,
+        "dark_fraction": 0.8255,
+        "luma_std_over_time": 0.07,
+        "luma_range": [
+          30.07,
+          30.3
+        ]
+      }
+    },
+    {
+      "id": "R44",
+      "reference": {
+        "samples_12hz": 26,
+        "mean_luma": 12.34,
+        "bright_fraction": 0.002,
+        "dark_fraction": 0.9593,
+        "luma_std_over_time": 0.55,
+        "luma_range": [
+          11.42,
+          13.23
+        ]
+      },
+      "astra": {
+        "samples_12hz": 26,
+        "mean_luma": 23.1,
+        "bright_fraction": 0.0002,
+        "dark_fraction": 0.9599,
+        "luma_std_over_time": 1.97,
+        "luma_range": [
+          22.47,
+          32.9
+        ]
+      }
+    },
+    {
+      "id": "R45",
+      "reference": {
+        "samples_12hz": 22,
+        "mean_luma": 15.62,
+        "bright_fraction": 0.0044,
+        "dark_fraction": 0.9438,
+        "luma_std_over_time": 3.84,
+        "luma_range": [
+          11.0,
+          21.35
+        ]
+      },
+      "astra": {
+        "samples_12hz": 22,
+        "mean_luma": 32.94,
+        "bright_fraction": 0.0,
+        "dark_fraction": 0.819,
+        "luma_std_over_time": 0.02,
+        "luma_range": [
+          32.9,
+          32.96
+        ]
+      }
+    },
+    {
+      "id": "R46",
+      "reference": {
+        "samples_12hz": 31,
+        "mean_luma": 9.65,
+        "bright_fraction": 0.0,
+        "dark_fraction": 0.9832,
+        "luma_std_over_time": 1.55,
+        "luma_range": [
+          8.06,
+          13.2
+        ]
+      },
+      "astra": {
+        "samples_12hz": 31,
+        "mean_luma": 26.74,
+        "bright_fraction": 0.0025,
+        "dark_fraction": 0.8931,
+        "luma_std_over_time": 0.43,
+        "luma_range": [
+          26.2,
+          27.54
+        ]
+      }
+    },
+    {
+      "id": "R47",
+      "reference": {
+        "samples_12hz": 14,
+        "mean_luma": 8.75,
+        "bright_fraction": 0.0003,
+        "dark_fraction": 0.9875,
+        "luma_std_over_time": 0.76,
+        "luma_range": [
+          8.09,
+          10.96
+        ]
+      },
+      "astra": {
+        "samples_12hz": 14,
+        "mean_luma": 18.51,
+        "bright_fraction": 0.0025,
+        "dark_fraction": 0.9574,
+        "luma_std_over_time": 1.4,
+        "luma_range": [
+          17.22,
+          21.86
+        ]
+      }
+    },
+    {
+      "id": "R48",
+      "reference": {
+        "samples_12hz": 39,
+        "mean_luma": 14.27,
+        "bright_fraction": 0.004,
+        "dark_fraction": 0.9412,
+        "luma_std_over_time": 2.74,
+        "luma_range": [
+          10.1,
+          19.09
+        ]
+      },
+      "astra": {
+        "samples_12hz": 39,
+        "mean_luma": 31.63,
+        "bright_fraction": 0.0,
+        "dark_fraction": 0.8489,
+        "luma_std_over_time": 0.5,
+        "luma_range": [
+          30.7,
+          32.53
+        ]
+      }
+    },
+    {
+      "id": "R49",
+      "reference": {
+        "samples_12hz": 36,
+        "mean_luma": 11.52,
+        "bright_fraction": 0.0014,
+        "dark_fraction": 0.9697,
+        "luma_std_over_time": 1.84,
+        "luma_range": [
+          9.88,
+          17.38
+        ]
+      },
+      "astra": {
+        "samples_12hz": 36,
+        "mean_luma": 28.04,
+        "bright_fraction": 0.0004,
+        "dark_fraction": 0.8522,
+        "luma_std_over_time": 1.33,
+        "luma_range": [
+          26.38,
+          30.41
+        ]
+      }
+    },
+    {
+      "id": "R50",
+      "reference": {
+        "samples_12hz": 11,
+        "mean_luma": 11.63,
+        "bright_fraction": 0.0002,
+        "dark_fraction": 0.9634,
+        "luma_std_over_time": 1.34,
+        "luma_range": [
+          10.42,
+          13.83
+        ]
+      },
+      "astra": {
+        "samples_12hz": 11,
+        "mean_luma": 88.94,
+        "bright_fraction": 0.0112,
+        "dark_fraction": 0.3871,
+        "luma_std_over_time": 0.49,
+        "luma_range": [
+          88.2,
+          89.44
+        ]
+      }
+    },
+    {
+      "id": "R51",
+      "reference": {
+        "samples_12hz": 36,
+        "mean_luma": 13.63,
+        "bright_fraction": 0.0004,
+        "dark_fraction": 0.9489,
+        "luma_std_over_time": 1.29,
+        "luma_range": [
+          11.75,
+          16.4
+        ]
+      },
+      "astra": {
+        "samples_12hz": 36,
+        "mean_luma": 39.53,
+        "bright_fraction": 0.0,
+        "dark_fraction": 0.7365,
+        "luma_std_over_time": 0.52,
+        "luma_range": [
+          38.92,
+          40.46
+        ]
+      }
+    },
+    {
+      "id": "R52",
+      "reference": {
+        "samples_12hz": 31,
+        "mean_luma": 13.35,
+        "bright_fraction": 0.0006,
+        "dark_fraction": 0.9536,
+        "luma_std_over_time": 0.43,
+        "luma_range": [
+          12.7,
+          14.12
+        ]
+      },
+      "astra": {
+        "samples_12hz": 31,
+        "mean_luma": 18.83,
+        "bright_fraction": 0.0,
+        "dark_fraction": 0.9682,
+        "luma_std_over_time": 0.2,
+        "luma_range": [
+          18.48,
+          19.0
+        ]
+      }
+    },
+    {
+      "id": "R53",
+      "reference": {
+        "samples_12hz": 26,
+        "mean_luma": 16.07,
+        "bright_fraction": 0.0007,
+        "dark_fraction": 0.925,
+        "luma_std_over_time": 1.21,
+        "luma_range": [
+          13.8,
+          17.11
+        ]
+      },
+      "astra": {
+        "samples_12hz": 26,
+        "mean_luma": 42.56,
+        "bright_fraction": 0.0,
+        "dark_fraction": 0.6839,
+        "luma_std_over_time": 0.38,
+        "luma_range": [
+          41.72,
+          43.1
+        ]
+      }
+    },
+    {
+      "id": "R54",
+      "reference": {
+        "samples_12hz": 45,
+        "mean_luma": 21.9,
+        "bright_fraction": 0.0092,
+        "dark_fraction": 0.8587,
+        "luma_std_over_time": 6.52,
+        "luma_range": [
+          13.76,
+          32.76
+        ]
+      },
+      "astra": {
+        "samples_12hz": 45,
+        "mean_luma": 43.08,
+        "bright_fraction": 0.0,
+        "dark_fraction": 0.6688,
+        "luma_std_over_time": 0.65,
+        "luma_range": [
+          41.72,
+          44.26
+        ]
+      }
+    },
+    {
+      "id": "R55",
+      "reference": {
+        "samples_12hz": 45,
+        "mean_luma": 30.35,
+        "bright_fraction": 0.0014,
+        "dark_fraction": 0.7514,
+        "luma_std_over_time": 4.76,
+        "luma_range": [
+          23.82,
+          45.77
+        ]
+      },
+      "astra": {
+        "samples_12hz": 45,
+        "mean_luma": 44.16,
+        "bright_fraction": 0.0,
+        "dark_fraction": 0.6374,
+        "luma_std_over_time": 0.33,
+        "luma_range": [
+          43.84,
+          44.71
+        ]
+      }
+    },
+    {
+      "id": "R56",
+      "reference": {
+        "samples_12hz": 23,
+        "mean_luma": 18.3,
+        "bright_fraction": 0.0009,
+        "dark_fraction": 0.8984,
+        "luma_std_over_time": 4.43,
+        "luma_range": [
+          13.11,
+          25.15
+        ]
+      },
+      "astra": {
+        "samples_12hz": 23,
+        "mean_luma": 46.33,
+        "bright_fraction": 0.0027,
+        "dark_fraction": 0.6316,
+        "luma_std_over_time": 0.12,
+        "luma_range": [
+          46.13,
+          46.46
+        ]
+      }
+    },
+    {
+      "id": "R57",
+      "reference": {
+        "samples_12hz": 23,
+        "mean_luma": 17.89,
+        "bright_fraction": 0.0013,
+        "dark_fraction": 0.9155,
+        "luma_std_over_time": 1.36,
+        "luma_range": [
+          15.94,
+          19.67
+        ]
+      },
+      "astra": {
+        "samples_12hz": 23,
+        "mean_luma": 47.37,
+        "bright_fraction": 0.0003,
+        "dark_fraction": 0.607,
+        "luma_std_over_time": 0.44,
+        "luma_range": [
+          46.94,
+          47.98
+        ]
+      }
+    },
+    {
+      "id": "R58",
+      "reference": {
+        "samples_12hz": 36,
+        "mean_luma": 20.12,
+        "bright_fraction": 0.0037,
+        "dark_fraction": 0.9419,
+        "luma_std_over_time": 6.4,
+        "luma_range": [
+          15.09,
+          41.99
+        ]
+      },
+      "astra": {
+        "samples_12hz": 36,
+        "mean_luma": 45.65,
+        "bright_fraction": 0.0,
+        "dark_fraction": 0.6066,
+        "luma_std_over_time": 1.44,
+        "luma_range": [
+          43.54,
+          47.77
+        ]
+      }
+    },
+    {
+      "id": "R59",
+      "reference": {
+        "samples_12hz": 9,
+        "mean_luma": 26.33,
+        "bright_fraction": 0.0,
+        "dark_fraction": 0.8323,
+        "luma_std_over_time": 3.48,
+        "luma_range": [
+          18.71,
+          32.21
+        ]
+      },
+      "astra": {
+        "samples_12hz": 9,
+        "mean_luma": 17.12,
+        "bright_fraction": 0.0,
+        "dark_fraction": 0.9406,
+        "luma_std_over_time": 3.08,
+        "luma_range": [
+          14.23,
+          22.04
+        ]
+      }
+    },
+    {
+      "id": "R60",
+      "reference": {
+        "samples_12hz": 45,
+        "mean_luma": 20.53,
+        "bright_fraction": 0.0005,
+        "dark_fraction": 0.8637,
+        "luma_std_over_time": 6.46,
+        "luma_range": [
+          11.44,
+          29.59
+        ]
+      },
+      "astra": {
+        "samples_12hz": 45,
+        "mean_luma": 35.36,
+        "bright_fraction": 0.0009,
+        "dark_fraction": 0.7682,
+        "luma_std_over_time": 0.84,
+        "luma_range": [
+          34.02,
+          36.82
+        ]
+      }
+    },
+    {
+      "id": "R61",
+      "reference": {
+        "samples_12hz": 45,
+        "mean_luma": 22.63,
+        "bright_fraction": 0.0019,
+        "dark_fraction": 0.8462,
+        "luma_std_over_time": 8.11,
+        "luma_range": [
+          11.85,
+          42.45
+        ]
+      },
+      "astra": {
+        "samples_12hz": 45,
+        "mean_luma": 37.95,
+        "bright_fraction": 0.0,
+        "dark_fraction": 0.7514,
+        "luma_std_over_time": 1.51,
+        "luma_range": [
+          36.03,
+          40.42
+        ]
+      }
+    },
+    {
+      "id": "R62",
+      "reference": {
+        "samples_12hz": 34,
+        "mean_luma": 18.89,
+        "bright_fraction": 0.0001,
+        "dark_fraction": 0.8807,
+        "luma_std_over_time": 5.4,
+        "luma_range": [
+          11.75,
+          25.98
+        ]
+      },
+      "astra": {
+        "samples_12hz": 34,
+        "mean_luma": 41.99,
+        "bright_fraction": 0.0,
+        "dark_fraction": 0.689,
+        "luma_std_over_time": 1.37,
+        "luma_range": [
+          40.06,
+          43.74
+        ]
+      }
+    },
+    {
+      "id": "R63",
+      "reference": {
+        "samples_12hz": 9,
+        "mean_luma": 15.19,
+        "bright_fraction": 0.0082,
+        "dark_fraction": 0.9445,
+        "luma_std_over_time": 1.6,
+        "luma_range": [
+          10.68,
+          15.89
+        ]
+      },
+      "astra": {
+        "samples_12hz": 9,
+        "mean_luma": 40.96,
+        "bright_fraction": 0.0,
+        "dark_fraction": 0.721,
+        "luma_std_over_time": 0.02,
+        "luma_range": [
+          40.93,
+          40.99
+        ]
+      }
+    },
+    {
+      "id": "R64",
+      "reference": {
+        "samples_12hz": 5,
+        "mean_luma": 10.78,
+        "bright_fraction": 0.0,
+        "dark_fraction": 0.9742,
+        "luma_std_over_time": 0.13,
+        "luma_range": [
+          10.67,
+          11.0
+        ]
+      },
+      "astra": {
+        "samples_12hz": 5,
+        "mean_luma": 37.8,
+        "bright_fraction": 0.0002,
+        "dark_fraction": 0.7705,
+        "luma_std_over_time": 0.03,
+        "luma_range": [
+          37.78,
+          37.87
+        ]
+      }
+    },
+    {
+      "id": "R65",
+      "reference": {
+        "samples_12hz": 5,
+        "mean_luma": 10.78,
+        "bright_fraction": 0.0,
+        "dark_fraction": 0.9762,
+        "luma_std_over_time": 0.59,
+        "luma_range": [
+          10.12,
+          11.46
+        ]
+      },
+      "astra": {
+        "samples_12hz": 5,
+        "mean_luma": 42.83,
+        "bright_fraction": 0.0003,
+        "dark_fraction": 0.7146,
+        "luma_std_over_time": 0.87,
+        "luma_range": [
+          42.39,
+          44.56
+        ]
+      }
+    },
+    {
+      "id": "R66",
+      "reference": {
+        "samples_12hz": 8,
+        "mean_luma": 11.67,
+        "bright_fraction": 0.0,
+        "dark_fraction": 0.9659,
+        "luma_std_over_time": 0.31,
+        "luma_range": [
+          11.36,
+          12.1
+        ]
+      },
+      "astra": {
+        "samples_12hz": 8,
+        "mean_luma": 44.69,
+        "bright_fraction": 0.0013,
+        "dark_fraction": 0.693,
+        "luma_std_over_time": 0.05,
+        "luma_range": [
+          44.56,
+          44.72
+        ]
+      }
+    },
+    {
+      "id": "R67",
+      "reference": {
+        "samples_12hz": 6,
+        "mean_luma": 12.37,
+        "bright_fraction": 0.0,
+        "dark_fraction": 0.9587,
+        "luma_std_over_time": 0.37,
+        "luma_range": [
+          12.1,
+          12.89
+        ]
+      },
+      "astra": {
+        "samples_12hz": 6,
+        "mean_luma": 45.77,
+        "bright_fraction": 0.0006,
+        "dark_fraction": 0.6693,
+        "luma_std_over_time": 0.02,
+        "luma_range": [
+          45.72,
+          45.79
+        ]
+      }
+    },
+    {
+      "id": "R68",
+      "reference": {
+        "samples_12hz": 5,
+        "mean_luma": 12.97,
+        "bright_fraction": 0.0,
+        "dark_fraction": 0.9536,
+        "luma_std_over_time": 0.27,
+        "luma_range": [
+          12.77,
+          13.5
+        ]
+      },
+      "astra": {
+        "samples_12hz": 5,
+        "mean_luma": 47.4,
+        "bright_fraction": 0.0006,
+        "dark_fraction": 0.6439,
+        "luma_std_over_time": 0.03,
+        "luma_range": [
+          47.34,
+          47.42
+        ]
+      }
+    },
+    {
+      "id": "R69",
+      "reference": {
+        "samples_12hz": 6,
+        "mean_luma": 13.53,
+        "bright_fraction": 0.0,
+        "dark_fraction": 0.9455,
+        "luma_std_over_time": 0.02,
+        "luma_range": [
+          13.51,
+          13.57
+        ]
+      },
+      "astra": {
+        "samples_12hz": 6,
+        "mean_luma": 49.51,
+        "bright_fraction": 0.0,
+        "dark_fraction": 0.6172,
+        "luma_std_over_time": 0.05,
+        "luma_range": [
+          49.39,
+          49.54
+        ]
+      }
+    },
+    {
+      "id": "R70",
+      "reference": {
+        "samples_12hz": 13,
+        "mean_luma": 22.5,
+        "bright_fraction": 0.0,
+        "dark_fraction": 0.8363,
+        "luma_std_over_time": 4.02,
+        "luma_range": [
+          13.58,
+          29.26
+        ]
+      },
+      "astra": {
+        "samples_12hz": 13,
+        "mean_luma": 29.28,
+        "bright_fraction": 0.0,
+        "dark_fraction": 0.7936,
+        "luma_std_over_time": 0.0,
+        "luma_range": [
+          29.28,
+          29.28
+        ]
+      }
+    },
+    {
+      "id": "R71",
+      "reference": {
+        "samples_12hz": 31,
+        "mean_luma": 14.79,
+        "bright_fraction": 0.0001,
+        "dark_fraction": 0.9273,
+        "luma_std_over_time": 2.97,
+        "luma_range": [
+          10.13,
+          18.62
+        ]
+      },
+      "astra": {
+        "samples_12hz": 31,
+        "mean_luma": 78.75,
+        "bright_fraction": 0.0,
+        "dark_fraction": 0.4649,
+        "luma_std_over_time": 4.27,
+        "luma_range": [
+          57.73,
+          80.87
+        ]
+      }
+    },
+    {
+      "id": "R72",
+      "reference": {
+        "samples_12hz": 11,
+        "mean_luma": 17.15,
+        "bright_fraction": 0.0004,
+        "dark_fraction": 0.9269,
+        "luma_std_over_time": 0.39,
+        "luma_range": [
+          16.65,
+          17.87
+        ]
+      },
+      "astra": {
+        "samples_12hz": 11,
+        "mean_luma": 32.34,
+        "bright_fraction": 0.0,
+        "dark_fraction": 0.8388,
+        "luma_std_over_time": 2.49,
+        "luma_range": [
+          28.85,
+          34.48
+        ]
+      }
+    },
+    {
+      "id": "R73",
+      "reference": {
+        "samples_12hz": 35,
+        "mean_luma": 16.26,
+        "bright_fraction": 0.0005,
+        "dark_fraction": 0.9319,
+        "luma_std_over_time": 1.26,
+        "luma_range": [
+          13.72,
+          17.8
+        ]
+      },
+      "astra": {
+        "samples_12hz": 35,
+        "mean_luma": 43.36,
+        "bright_fraction": 0.0,
+        "dark_fraction": 0.7298,
+        "luma_std_over_time": 0.14,
+        "luma_range": [
+          43.14,
+          43.48
+        ]
+      }
+    },
+    {
+      "id": "R74",
+      "reference": {
+        "samples_12hz": 11,
+        "mean_luma": 14.08,
+        "bright_fraction": 0.0004,
+        "dark_fraction": 0.952,
+        "luma_std_over_time": 0.18,
+        "luma_range": [
+          13.87,
+          14.35
+        ]
+      },
+      "astra": {
+        "samples_12hz": 11,
+        "mean_luma": 46.13,
+        "bright_fraction": 0.0004,
+        "dark_fraction": 0.7144,
+        "luma_std_over_time": 0.2,
+        "luma_range": [
+          45.95,
+          46.52
+        ]
+      }
+    },
+    {
+      "id": "R75",
+      "reference": {
+        "samples_12hz": 35,
+        "mean_luma": 14.21,
+        "bright_fraction": 0.0007,
+        "dark_fraction": 0.9493,
+        "luma_std_over_time": 1.1,
+        "luma_range": [
+          12.73,
+          17.93
+        ]
+      },
+      "astra": {
+        "samples_12hz": 35,
+        "mean_luma": 36.61,
+        "bright_fraction": 0.0,
+        "dark_fraction": 0.7673,
+        "luma_std_over_time": 1.0,
+        "luma_range": [
+          35.76,
+          38.07
+        ]
+      }
+    },
+    {
+      "id": "R76",
+      "reference": {
+        "samples_12hz": 12,
+        "mean_luma": 20.16,
+        "bright_fraction": 0.0006,
+        "dark_fraction": 0.8662,
+        "luma_std_over_time": 1.79,
+        "luma_range": [
+          18.0,
+          24.33
+        ]
+      },
+      "astra": {
+        "samples_12hz": 12,
+        "mean_luma": 27.48,
+        "bright_fraction": 0.0031,
+        "dark_fraction": 0.8891,
+        "luma_std_over_time": 0.6,
+        "luma_range": [
+          26.65,
+          28.52
+        ]
+      }
+    },
+    {
+      "id": "R77",
+      "reference": {
+        "samples_12hz": 44,
+        "mean_luma": 22.28,
+        "bright_fraction": 0.0003,
+        "dark_fraction": 0.7457,
+        "luma_std_over_time": 10.74,
+        "luma_range": [
+          1.74,
+          32.62
+        ]
+      },
+      "astra": {
+        "samples_12hz": 44,
+        "mean_luma": 43.15,
+        "bright_fraction": 0.0,
+        "dark_fraction": 0.6983,
+        "luma_std_over_time": 4.22,
+        "luma_range": [
+          36.64,
+          48.17
+        ]
+      }
+    },
+    {
+      "id": "R78",
+      "reference": {
+        "samples_12hz": 44,
+        "mean_luma": 12.42,
+        "bright_fraction": 0.0001,
+        "dark_fraction": 0.9676,
+        "luma_std_over_time": 0.67,
+        "luma_range": [
+          11.25,
+          14.36
+        ]
+      },
+      "astra": {
+        "samples_12hz": 44,
+        "mean_luma": 28.05,
+        "bright_fraction": 0.0,
+        "dark_fraction": 0.893,
+        "luma_std_over_time": 0.69,
+        "luma_range": [
+          26.61,
+          28.9
+        ]
+      }
+    },
+    {
+      "id": "R79",
+      "reference": {
+        "samples_12hz": 45,
+        "mean_luma": 14.53,
+        "bright_fraction": 0.0002,
+        "dark_fraction": 0.9391,
+        "luma_std_over_time": 3.87,
+        "luma_range": [
+          10.76,
+          22.3
+        ]
+      },
+      "astra": {
+        "samples_12hz": 45,
+        "mean_luma": 28.84,
+        "bright_fraction": 0.0,
+        "dark_fraction": 0.8673,
+        "luma_std_over_time": 0.41,
+        "luma_range": [
+          28.14,
+          29.49
+        ]
+      }
+    },
+    {
+      "id": "R80",
+      "reference": {
+        "samples_12hz": 48,
+        "mean_luma": 13.59,
+        "bright_fraction": 0.0004,
+        "dark_fraction": 0.9503,
+        "luma_std_over_time": 0.53,
+        "luma_range": [
+          12.43,
+          14.64
+        ]
+      },
+      "astra": {
+        "samples_12hz": 48,
+        "mean_luma": 28.0,
+        "bright_fraction": 0.0,
+        "dark_fraction": 0.8909,
+        "luma_std_over_time": 0.3,
+        "luma_range": [
+          27.49,
+          28.57
+        ]
+      }
+    },
+    {
+      "id": "R81",
+      "reference": {
+        "samples_12hz": 47,
+        "mean_luma": 13.16,
+        "bright_fraction": 0.0002,
+        "dark_fraction": 0.9531,
+        "luma_std_over_time": 1.59,
+        "luma_range": [
+          11.09,
+          17.68
+        ]
+      },
+      "astra": {
+        "samples_12hz": 47,
+        "mean_luma": 36.82,
+        "bright_fraction": 0.0,
+        "dark_fraction": 0.7711,
+        "luma_std_over_time": 0.41,
+        "luma_range": [
+          36.37,
+          37.35
+        ]
+      }
+    },
+    {
+      "id": "R82",
+      "reference": {
+        "samples_12hz": 45,
+        "mean_luma": 16.23,
+        "bright_fraction": 0.0001,
+        "dark_fraction": 0.9291,
+        "luma_std_over_time": 2.77,
+        "luma_range": [
+          13.32,
+          20.58
+        ]
+      },
+      "astra": {
+        "samples_12hz": 45,
+        "mean_luma": 37.76,
+        "bright_fraction": 0.0,
+        "dark_fraction": 0.7868,
+        "luma_std_over_time": 1.96,
+        "luma_range": [
+          33.82,
+          39.62
+        ]
+      }
+    },
+    {
+      "id": "R83",
+      "reference": {
+        "samples_12hz": 45,
+        "mean_luma": 12.94,
+        "bright_fraction": 0.0,
+        "dark_fraction": 0.9463,
+        "luma_std_over_time": 0.45,
+        "luma_range": [
+          11.99,
+          13.5
+        ]
+      },
+      "astra": {
+        "samples_12hz": 45,
+        "mean_luma": 34.02,
+        "bright_fraction": 0.0001,
+        "dark_fraction": 0.8535,
+        "luma_std_over_time": 9.8,
+        "luma_range": [
+          22.78,
+          45.4
+        ]
+      }
+    },
+    {
+      "id": "R84",
+      "reference": {
+        "samples_12hz": 45,
+        "mean_luma": 10.98,
+        "bright_fraction": 0.0,
+        "dark_fraction": 0.9655,
+        "luma_std_over_time": 0.58,
+        "luma_range": [
+          9.91,
+          12.02
+        ]
+      },
+      "astra": {
+        "samples_12hz": 45,
+        "mean_luma": 32.69,
+        "bright_fraction": 0.0,
+        "dark_fraction": 0.8295,
+        "luma_std_over_time": 1.12,
+        "luma_range": [
+          31.02,
+          33.83
+        ]
+      }
+    },
+    {
+      "id": "R85",
+      "reference": {
+        "samples_12hz": 29,
+        "mean_luma": 10.64,
+        "bright_fraction": 0.0001,
+        "dark_fraction": 0.9782,
+        "luma_std_over_time": 3.93,
+        "luma_range": [
+          8.34,
+          30.57
+        ]
+      },
+      "astra": {
+        "samples_12hz": 29,
+        "mean_luma": 34.9,
+        "bright_fraction": 0.0,
+        "dark_fraction": 0.8165,
+        "luma_std_over_time": 0.0,
+        "luma_range": [
+          34.89,
+          34.9
+        ]
+      }
+    },
+    {
+      "id": "R86",
+      "reference": {
+        "samples_12hz": 74,
+        "mean_luma": 2.98,
+        "bright_fraction": 0.0,
+        "dark_fraction": 0.9937,
+        "luma_std_over_time": 4.07,
+        "luma_range": [
+          0.03,
+          18.26
+        ]
+      },
+      "astra": {
+        "samples_12hz": 74,
+        "mean_luma": 39.05,
+        "bright_fraction": 0.0062,
+        "dark_fraction": 0.7804,
+        "luma_std_over_time": 5.41,
+        "luma_range": [
+          32.32,
+          47.18
+        ]
+      }
+    }
+  ],
+  "scope": "5085 reference and 13100 ASTRA v4 frames decoded and measured. 0.5s full-duration overview; 86 ASTRA musical-segment comparison boards plus native consecutive-frame strips. These are not a claim of 86 reference shots or manual viewing of every frame."
+}

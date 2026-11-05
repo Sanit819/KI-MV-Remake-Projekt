@@ -2,6 +2,12 @@
 
 ASTRA《未写完的世界》——用户与 ASTRA 共同制作的 Mili《world.execute(me);》原创 MV。
 
+## 最新研究：最终版视觉方案（2026-11-05）
+
+[86 段逐帧对照与笔记](docs/reference-BV1xCai6aE9g/index.html) · [最终版优化方案](docs/reference-BV1xCai6aE9g/OPTIMIZATION_PROPOSAL.md) · [v4 素材复用审计](docs/reference-BV1xCai6aE9g/V4_REUSE_AUDIT.md)
+
+新增研究西西弗斯的风车 BV1xCai6aE9g：公开 480p24 参考的 5,085 帧与实际 v4 的 13,100 帧全部提取，配有全程半秒总览、86 段三时点对照和原生连续帧。实看关键帧与分段图板，不冒称逐张人工审完全部帧。重点方案为完整动作阶段、材料接续和三种不同的计算空间；综合复用审计与前半观察，建议 21 组动作 / 52 张完整关键姿态，最高三张源图覆盖目标从 49.96% 降到 ≤30%（源图提交口径）。**本轮是分析和提案，未实施最终版，当前可播放成片仍为下面的 v4。**
+
 ## 当前交付：完整视觉 v4（2026-11-05）
 
 [4K60 / 192 kHz 24 bit 无损上传版](exports/astra-world-execute-me-full-v4-warning-hires-4k60.mp4) · [1080p60 AAC 完整预览](exports/astra-world-execute-me-full-v4-warning-1080p60.mp4) · [交付与全部验证](docs/FULL_MV_V4.md) · [新版简介](docs/publishing/video-description-v03.txt)
