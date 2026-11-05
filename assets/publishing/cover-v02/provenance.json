@@ -1,0 +1,20 @@
+{
+  "date": "2026-11-05",
+  "tool": "built-in image_gen",
+  "mode": "image edit from user-selected frame",
+  "status": "current cover candidate edited from user-selected film frame",
+  "file": "assets/publishing/cover-v02/astra-world-execute-me-cover-v02.png",
+  "size": [
+    1672,
+    941
+  ],
+  "color_mode": "RGB",
+  "bytes": 1960321,
+  "sha256": "f106c0532ee94554d909fe511f6c8b8b51461cf90cf2a22cbac50aa6cb974adc",
+  "original_generated_file": "C:/Users/auscar/.codex/generated_images/01a1a5ec-245d-7923-8dd6-2a8b6f24c904/exec-b5a5a5bc-ec91-49eb-8315-528f4dd77c53.png",
+  "prompt_file": "prompt.txt",
+  "post_generation_pixel_edits": false,
+  "note": "4K/60FPS text describes the delivered MV; PNG dimensions are recorded above and are not claimed as 4K.",
+  "reference_file": "user-selected-frame.png",
+  "reference_sha256": "086069becb802ff941d7a5e6d8da7553338a5b18fd97ac7c59a384142d31bde8"
+}
