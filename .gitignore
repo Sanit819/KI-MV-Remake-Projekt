@@ -1,0 +1,10 @@
+# Generated caches and temporary files
+/.cache/
+/.tmp/
+/node_modules/
+/__pycache__/
+/.venv/
+
+# Generated exports and locally retained source media
+/exports/
+/local-source/
