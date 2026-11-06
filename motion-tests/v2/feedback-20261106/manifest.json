@@ -1,0 +1,22 @@
+{
+  "date": "2026-11-06",
+  "source": "user feedback attachments",
+  "files": [
+    {
+      "source": "C:\\Users\\auscar\\AppData\\Local\\Temp\\codex-clipboard-f760b479-6fed-4e31-8a73-1e97fc6040a4.png",
+      "copy": "motion-tests/v2/feedback-20261106/01-flower-soil-contact.png",
+      "issue": "flower_soil_contact",
+      "sha256": "c74222b10a8cbb5ef120a2c5e56f36151cd3135a709a0c4c786c74ceaa26912f",
+      "bytes": 32896,
+      "processing": "Byte-for-byte copy; no image edit"
+    },
+    {
+      "source": "C:\\Users\\auscar\\AppData\\Local\\Temp\\codex-clipboard-c14fb862-f38e-4618-8aa6-867c68b188a4.png",
+      "copy": "motion-tests/v2/feedback-20261106/02-rex-no-cockpit.png",
+      "issue": "rex_cockpit_and_cloud_motion",
+      "sha256": "ab494cfec7b222b44e3c02aff52e3e0b559ceb66437c057cc3779321c8937513",
+      "bytes": 599200,
+      "processing": "Byte-for-byte copy; no image edit"
+    }
+  ]
+}
