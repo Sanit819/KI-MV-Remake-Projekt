@@ -1,0 +1,65 @@
+{
+  "scope": "Project 02 research only; source media and frame sheets are local caches, not committed.",
+  "sources": [
+    {
+      "kind": "worldview",
+      "source_url": "https://www.bilibili.com/video/BV1hXG36SEJK/",
+      "checked_date": "2026-11-06",
+      "local_media": ".cache/worldview-BV1hXG36SEJK/BV1hXG36SEJK-360p.mp4",
+      "media_bytes": 6648668,
+      "sha256": "5b8f5b25b1f6c371b230744c2e0cd53db6af168c1cab7d4a17f72b03def45c87",
+      "width": 640,
+      "height": 360,
+      "fps": 24.000001432322836,
+      "frames": 8378,
+      "video_duration_seconds": 349.0833125,
+      "sample_start_seconds": 0.5,
+      "sample_interval_seconds": 1,
+      "subtitle_samples": 349,
+      "subtitle_sheets": 10,
+      "reading_scope": "Burned-in subtitle samples across the whole duration, with selected full frames. No continuous audiovisual viewing or direct auditory audition."
+    },
+    {
+      "kind": "story",
+      "source_url": "https://www.bilibili.com/video/BV1BuHC6rERJ/",
+      "checked_date": "2026-11-06",
+      "local_media": ".cache/story-BV1BuHC6rERJ/BV1BuHC6rERJ-360p.mp4",
+      "media_bytes": 28824316,
+      "sha256": "a82c0abcb9f78c54bbc1ac6f056cd988357089a7a5436c9c2e0971ce701414c2",
+      "width": 640,
+      "height": 360,
+      "fps": 30.000001973892118,
+      "frames": 18998,
+      "video_duration_seconds": 633.266625,
+      "sample_start_seconds": 0.5,
+      "sample_interval_seconds": 1,
+      "subtitle_samples": 633,
+      "subtitle_sheets": 19,
+      "reading_scope": "Burned-in subtitle samples across the whole duration, with selected full frames. No continuous audiovisual viewing or direct auditory audition."
+    },
+    {
+      "kind": "moon11",
+      "source_url": "https://www.bilibili.com/video/BV19TaZ6vE5K/",
+      "checked_date": "2026-11-06",
+      "local_media": ".cache/moon11-BV19TaZ6vE5K/BV19TaZ6vE5K-video-480p.m4s",
+      "media_bytes": 80143693,
+      "sha256": "b0dc80e767330c4bdf4409df36d0f3877eaa628b514b78d8e92254b8abaa949b",
+      "width": 852,
+      "height": 480,
+      "fps": 30.0,
+      "frames": 22569,
+      "video_duration_seconds": 752.3,
+      "sample_start_seconds": 0.5,
+      "sample_interval_seconds": 2,
+      "subtitle_samples": 376,
+      "subtitle_sheets": 16,
+      "reading_scope": "Burned-in subtitle samples across the whole duration, with selected full frames. No continuous audiovisual viewing or direct auditory audition.",
+      "audio": {
+        "local_file": ".cache/moon11-BV19TaZ6vE5K/BV19TaZ6vE5K-audio.m4s",
+        "bytes": 16269125,
+        "sha256": "b2419b13a0e293688529bd5b2a1e709befd3ac338fdc8520ccaf8398f578b136",
+        "analysis": "Decoded to mono 16 kHz for mixed-audio RMS checks. No stem separation, instrumentation recognition, precise song onset identification, or direct audition."
+      }
+    }
+  ]
+}
