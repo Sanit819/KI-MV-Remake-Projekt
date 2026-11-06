@@ -2,5 +2,5 @@
 /style-tests/v1/*.prompt.txt text eol=lf
 /storyboard/drawings-v1/*.prompt.txt text eol=lf
 /motion-tests/v2/assets/*.prompt.txt text eol=lf
-/motion-tests/v2/*.json -text
+/motion-tests/v2/*.json -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
 /tools/*.py text eol=lf
