@@ -1,0 +1,125 @@
+{
+  "reviewed_on": "2026-11-06",
+  "decision": "reviewable_motion_mechanism_demo_no_new_blocker",
+  "scope": "修正版720p30秒预览的动作与合成审查；可供用户评价机制，不代表全片、最终装备、最终4K输出或艺术卡点已通过。",
+  "preview": {
+    "file": "exports/motion-v2/hortus-motion-v2-preview.mp4",
+    "sha256": "462262bfcee20dc773d35af5bd76af10a9339c51af1f5cf0265d57163d7fd28b",
+    "bytes": 30793019,
+    "duration_seconds": 30,
+    "pixels": [
+      1280,
+      720
+    ],
+    "fps": 60,
+    "source_song_range_seconds": [
+      72.5,
+      102.5
+    ]
+  },
+  "browser_check": {
+    "normal_playback_rate": 1,
+    "normal_actual_playback_seconds": [
+      0,
+      30
+    ],
+    "ended": true,
+    "decoded_video_frames": 1800,
+    "dropped_video_frames": 0,
+    "audio_decoded_bytes": 1216372,
+    "errors": [],
+    "audio_output_muted": true,
+    "direct_listening_claimed": false,
+    "slow_playback_rate": 0.25,
+    "slow_windows_start_seconds": [
+      12.9,
+      19.8
+    ],
+    "slow_window_last_capture_times_seconds": [
+      14.22,
+      21.383127
+    ]
+  },
+  "visual_method": "实际播放期间抓取24张画面，并对两个换姿短窗0.25x实际播放抓取14张画面；亲看3张由这些截图组成的联系表，另看导出方接触表。截图是时间区间采样，不宣称人工连续看到全部1800帧。实际截取时间以浏览器JSON中的before/after为准，普通截图约0.3秒延迟，短窗慢放将对应媒体区间缩至约0.1秒。",
+  "segments": [
+    {
+      "range_seconds": [
+        0,
+        12
+      ],
+      "subject": "花根与三景别",
+      "result": "pass_for_demo",
+      "observations": [
+        "在B远景、A较近景、C近景的实际播放截图中，茎基保持插入浅盆土面，没有可见脱盆或盆与花各自滑走。",
+        "6秒与9.4秒附近是明确景别/花姿态切换；可读为不同镜头，不宣称三花态已连续形变。",
+        "盆前沿/土面遮住根末端，花瓣留色、灰阶背景关系清楚；盆底随景别接近画面下缘属于构图变化。"
+      ],
+      "limitation": "这是实际画面抽样的接触检查，没有逐帧像素测量全部风动根点。"
+    },
+    {
+      "range_seconds": [
+        12.9,
+        14.23
+      ],
+      "subject": "13.3/13.85抬头换姿",
+      "result": "pass_for_demo",
+      "observations": [
+        "A低头→B抬头→C近正面的行动方向可读。",
+        "每个阶段只有一个头部、面罩和管线，没有跨姿态透明双脸或双肩。",
+        "下胸/肩的注册保持稳定；有源姿态固有的小幅衣褶/头盔轮廓变化，但未见阻断性的肩部横跳或颈部断裂。"
+      ]
+    },
+    {
+      "range_seconds": [
+        19.8,
+        21.39
+      ],
+      "subject": "20–20.95扫视回返",
+      "result": "pass_for_demo",
+      "observations": [
+        "C→B→A→B→C可以读成短暂扫视后回到前方。",
+        "未使用D态，因此未出现先前指出的呼吸管侧接口拓扑变化。",
+        "0.25x下仍能看到离散关键姿态切点；这与有限动画机制一致，不冒称无缝逐帧人体动画。",
+        "面罩反射/前景云经过时未新增第二张脸或脱离身体的头。"
+      ]
+    },
+    {
+      "range_seconds": [
+        18,
+        30
+      ],
+      "subject": "后段连续性与展示价值",
+      "result": "reviewable",
+      "observations": [
+        "背景/前景云、相机和局部惯性持续变化，配合第二次扫视，比单图轻推拉提供更多可见动作信息。",
+        "足以向用户展示较强后段运动与前段克制风动的机制差别；不据浏览器解码或信号强度判断乐感是否最终合适。",
+        "运动仍以三套胸像关键态和局部变形为基础；实际60fps/60Hz运动更新不等于每秒60张独立人物姿态。"
+      ]
+    }
+  ],
+  "blocking_findings": [],
+  "required_changes_before_4k": [],
+  "known_fix_scope": "审查文件SHA已与修复后的稳定预览相同；不再把旧局部云遮罩矩形边列为待办。",
+  "unchanged_boundaries": [
+    "用户采纳灰阶风格，不等于已经采纳这批具体新画稿。",
+    "Rex头盔侧徽记、装备细节的正式准确性沿用ASSET_REVIEW.json限制，本次不予最终批准。",
+    "样片没有机体外景与可核座舱，不是飞机或座舱几何验收。",
+    "当前审的是1280x720预览；4K编码完成后需由导出方按实际输出验证。",
+    "未直接耳听，不宣称全曲歌词对时、配器分析或艺术音画同步通过。"
+  ],
+  "evidence": {
+    "normal_browser_json": ".cache/motion-v2-motion-review/browser-playback.json",
+    "slow_browser_json": ".cache/motion-v2-motion-review/browser-slowplay.json",
+    "actually_viewed_sheets": [
+      ".cache/motion-v2-motion-review/flowers-playback-sheet.jpg",
+      ".cache/motion-v2-motion-review/heads-playback-sheet.jpg",
+      ".cache/motion-v2-motion-review/slowplay-heads-sheet.jpg",
+      "exports/motion-v2/hortus-motion-v2-preview-contact-sheet.jpg"
+    ],
+    "screenshots_count_normal": 24,
+    "screenshots_count_slow": 14,
+    "frozen_input": ".cache/motion-v2-motion-review/review-input.mp4"
+  },
+  "first_project_modified": false,
+  "source_artwork_modified": false
+}

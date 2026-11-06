@@ -1,3 +1,6 @@
 # Prompt hashes must survive Windows checkout without line-ending conversion.
 /style-tests/v1/*.prompt.txt text eol=lf
 /storyboard/drawings-v1/*.prompt.txt text eol=lf
+/motion-tests/v2/assets/*.prompt.txt text eol=lf
+/motion-tests/v2/*.json -text
+/tools/*.py text eol=lf

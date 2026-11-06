@@ -1,0 +1,164 @@
+{
+  "date": "2026-11-06",
+  "user_style_choice": "original graphite/grayscale storyboard with selective red anemone",
+  "color_trial_v1": "archived_not_primary",
+  "assets": [
+    {
+      "id": "window-plate",
+      "operation": "new illustration generation",
+      "generator": "built-in image_gen",
+      "image": {
+        "path": "motion-tests/v2/assets/window-plate.png",
+        "bytes": 2687164,
+        "sha256": "e92329075d452fe058e91c3cb9ae78cd85312bd25e39b9b6e55690a990bd7507",
+        "dimensions": [
+          1672,
+          941
+        ],
+        "mode": "RGB"
+      },
+      "prompt": {
+        "path": "motion-tests/v2/assets/window-plate.prompt.txt",
+        "bytes": 1085,
+        "sha256": "ca3d8376c1c97827684e8baa9d104b6794578bac616707fb512f0679449b0832"
+      },
+      "references": [
+        {
+          "path": "storyboard/drawings-v1/batch-01-v2.png",
+          "bytes": 2299724,
+          "sha256": "ee830728ce28d5e01a92756f59f0cc11a79f3b8f73f20da94b19a2669615700b",
+          "dimensions": [
+            1672,
+            941
+          ],
+          "mode": "RGB"
+        }
+      ],
+      "new_art_final_approved": false
+    },
+    {
+      "id": "flower-poses",
+      "operation": "new illustration generation",
+      "generator": "built-in image_gen",
+      "image": {
+        "path": "motion-tests/v2/assets/flower-poses.png",
+        "bytes": 895870,
+        "sha256": "b17d7d2128ca01860fce5549e8abfbc5a76040a7d58754fb91642ff0995572a1",
+        "dimensions": [
+          1261,
+          1247
+        ],
+        "mode": "RGBA"
+      },
+      "prompt": {
+        "path": "motion-tests/v2/assets/flower-poses.prompt.txt",
+        "bytes": 1523,
+        "sha256": "eb7c1e4470cc964db2df06d1d5068eb816f64ed067c8f3f5f8d538f6630a4d0c"
+      },
+      "references": [
+        {
+          "path": "storyboard/drawings-v1/batch-01-v2.png",
+          "bytes": 2299724,
+          "sha256": "ee830728ce28d5e01a92756f59f0cc11a79f3b8f73f20da94b19a2669615700b",
+          "dimensions": [
+            1672,
+            941
+          ],
+          "mode": "RGB"
+        }
+      ],
+      "new_art_final_approved": false
+    },
+    {
+      "id": "cloud-plate",
+      "operation": "new illustration generation",
+      "generator": "built-in image_gen",
+      "image": {
+        "path": "motion-tests/v2/assets/cloud-plate.png",
+        "bytes": 2579583,
+        "sha256": "bee3f2243a6e4797c912dd47208b4d8882743b24282c578a6bd5204f48fd7eae",
+        "dimensions": [
+          1672,
+          941
+        ],
+        "mode": "RGB"
+      },
+      "prompt": {
+        "path": "motion-tests/v2/assets/cloud-plate.prompt.txt",
+        "bytes": 826,
+        "sha256": "40e40c473dbc8022c5021bf560aeca9aa9dbe2ada6543195eaf85913e6396d2b"
+      },
+      "references": [
+        {
+          "path": "storyboard/drawings-v1/batch-01-v2.png",
+          "bytes": 2299724,
+          "sha256": "ee830728ce28d5e01a92756f59f0cc11a79f3b8f73f20da94b19a2669615700b",
+          "dimensions": [
+            1672,
+            941
+          ],
+          "mode": "RGB"
+        }
+      ],
+      "new_art_final_approved": false
+    },
+    {
+      "id": "rex-poses",
+      "operation": "new illustration generation",
+      "generator": "built-in image_gen",
+      "image": {
+        "path": "motion-tests/v2/assets/rex-poses.png",
+        "bytes": 2066250,
+        "sha256": "2c0ed07a13d07e880c7cd639a42cf0cd6bb803ccd093ced6795dd1f87024748c",
+        "dimensions": [
+          1245,
+          1263
+        ],
+        "mode": "RGBA"
+      },
+      "prompt": {
+        "path": "motion-tests/v2/assets/rex-poses.prompt.txt",
+        "bytes": 2080,
+        "sha256": "1dbc0d6e844b49ed59d282ea1a288211b0fec17d0cb1558b9fa80dbb3e0bc87f"
+      },
+      "references": [
+        {
+          "path": "references/characters/source-assets/joker/m4-OK.jpg",
+          "bytes": 366283,
+          "sha256": "d83c2d655708be621c86a2b4bc947e4fde6771a13f7827963f0597efe5e67d1a"
+        },
+        {
+          "path": "references/characters/source-assets/joker/rex-helmet-prop-official.jpg",
+          "bytes": 404260,
+          "sha256": "9a05150de7a1aa86a80ddae93b831f0ed2d19722544dd85a337c3dc0e21f1a17"
+        },
+        {
+          "path": "storyboard/drawings-v1/batch-01-v2.png",
+          "bytes": 2299724,
+          "sha256": "ee830728ce28d5e01a92756f59f0cc11a79f3b8f73f20da94b19a2669615700b",
+          "dimensions": [
+            1672,
+            941
+          ],
+          "mode": "RGB"
+        }
+      ],
+      "new_art_final_approved": false
+    }
+  ],
+  "rex_states_used": [
+    "A",
+    "B",
+    "C"
+  ],
+  "rex_states_excluded": {
+    "D": "mask and breathing-hose connection drift"
+  },
+  "output_target": [
+    3840,
+    2160,
+    60
+  ],
+  "source_native_4k": false,
+  "audio_original_unchanged": true
+}

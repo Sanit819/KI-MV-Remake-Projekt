@@ -1,0 +1,172 @@
+{
+  "reviewed_on": "2026-11-06",
+  "review_scope": "新原画和诊断alpha合成，只判断30秒分层动作示范的可用性；未检查完整动画、音乐对时或编码成片。",
+  "user_approved_style": "铅笔灰阶＋红花留色",
+  "user_approved_these_specific_new_assets": false,
+  "overall_decision": "conditional_demo_use_supported",
+  "production_artwork_approved": false,
+  "official_equipment_final_approved": false,
+  "native_4k_artwork": false,
+  "recommended_action": "使用花三态和浅盆、Rex A/B/C、窗台与云底板制作示范；暂不使用Rex D。若仅用三态，文档与片上说明应写三态，不能继续宣称四态均使用。",
+  "method": [
+    "逐张实际查看四份源PNG",
+    "读取尺寸/模式/alpha分布并计算SHA256",
+    "实际查看诊断alpha叠加图",
+    "重新查看官方Rex头盔道具与M4遮面飞行员参考"
+  ],
+  "diagnostic_only_artifact": "../../.cache/motion-v2-asset-review/alpha-composite-check.png",
+  "diagnostic_artifact_note": "背景和四格仅为透明合成检查而缩放排列，不是正式镜头、最终姿态对齐或风动验收。原始四份PNG未修改。",
+  "official_references_rechecked": [
+    "../../references/characters/source-assets/joker/rex-helmet-prop-official.jpg",
+    "../../references/characters/source-assets/joker/m4-OK.jpg"
+  ],
+  "assets": [
+    {
+      "file": "assets/window-plate.png",
+      "sha256": "e92329075d452fe058e91c3cb9ae78cd85312bd25e39b9b6e55690a990bd7507",
+      "pixels": [
+        1672,
+        941
+      ],
+      "mode": "RGB",
+      "actual_image_viewed": true,
+      "original_unchanged": true,
+      "decision": "usable_for_demo",
+      "notes": [
+        "窗台、左侧自然光与灰阶排线可为花提供空间。",
+        "RGB整幅背景，窗框/远景不是已经独立拆好的层；目前只能作为底板或另按明确分层方案使用。",
+        "花盆需要落在台面并有合理接触影，不能悬浮。"
+      ]
+    },
+    {
+      "file": "assets/flower-poses.png",
+      "sha256": "b17d7d2128ca01860fce5549e8abfbc5a76040a7d58754fb91642ff0995572a1",
+      "pixels": [
+        1261,
+        1247
+      ],
+      "mode": "RGBA",
+      "actual_image_viewed": true,
+      "original_unchanged": true,
+      "alpha": {
+        "range": [
+          0,
+          255
+        ],
+        "transparent_fraction": 0.802789502100839,
+        "opaque_fraction": 0.0006270401858989728,
+        "partial_fraction": 0.19658345771326202,
+        "nonzero_median": 252.0,
+        "interpretation": "主体大多约252/253，接近不透明；不能因只有少数255像素而误判全图半透明。"
+      },
+      "decision": "usable_for_demo_with_anchor_alignment",
+      "pose_order": [
+        "A_top_left: bend_left",
+        "B_top_right: near_upright",
+        "C_bottom_left: bend_right"
+      ],
+      "basin": "D_bottom_right",
+      "notes": [
+        "实际查看原图和正常alpha合成：没有烘焙棋盘格或实心背景；花的红色与灰叶能正常叠到窗边暗墙。",
+        "三态花根在各单元内坐标不一致。必须以根部锚点对齐，而非每格中心或整张包围框中心；尺寸亦应按花茎/主体尺度统一。",
+        "白盆可见宽高比约3.30，浅盆通过本轮示范的视觉要求。",
+        "花、叶和花蕾细节有轻微形变，不视为逐轮廓校准完成。短幅度风动可用；快速长距离摆动与跨态溶解仍需实际动画审查。",
+        "源图存在极低alpha杂点与少量边缘痕迹；当前背景下的诊断合成未见阻断性光晕，放大近景仍应检查。"
+      ],
+      "approx_stem_root_atlas_pixels": {
+        "A": [
+          366.2,
+          570
+        ],
+        "B": [
+          930.4,
+          570
+        ],
+        "C": [
+          285.2,
+          1179
+        ]
+      },
+      "anchor_method": "alpha>=128最大连通主体末端12行的横向均值；仅定位辅助，应以最终合成接触检查为准。",
+      "composition_requirement": "根点插入灰土后由盆的前沿/土表遮挡，盆固定，花风动；不要把整个盆和花一起摇摆或把根放在盆外。"
+    },
+    {
+      "file": "assets/rex-poses.png",
+      "sha256": "2c0ed07a13d07e880c7cd639a42cf0cd6bb803ccd093ced6795dd1f87024748c",
+      "pixels": [
+        1245,
+        1263
+      ],
+      "mode": "RGBA",
+      "actual_image_viewed": true,
+      "original_unchanged": true,
+      "alpha": {
+        "range": [
+          0,
+          255
+        ],
+        "transparent_fraction": 0.459878468744336,
+        "opaque_fraction": 0.00041082779256376256,
+        "partial_fraction": 0.5397107034631002,
+        "nonzero_median": 253.0,
+        "interpretation": "主体大多约252/253，接近不透明；不能因只有少数255像素而误判全图半透明。"
+      },
+      "decision": "conditional_demo_use_A_B_C_exclude_D",
+      "recommended_demo_poses": [
+        "A_top_left",
+        "B_top_right",
+        "C_bottom_left"
+      ],
+      "excluded_pose": "D_bottom_right",
+      "identity_boundary": "四态均保持黑色不透明面罩/护目与氧气面罩，未借用持头盔者或Cope的脸。可作为遮面Rex动作示意，不能据此证明正式装备造型准确。",
+      "pose_observations": {
+        "A": "头略低、朝画面左；可作仪表检查前态。",
+        "B": "头抬起、仍略朝左；可作抬头中间态。",
+        "C": "接近正面、头较平；可作看向前方后态。",
+        "D": "转向画面右，但呼吸管连接由前下方明显偏移到更高侧部，面罩连接件/形状亦变化；连续切换会读成换装备，建议排除。此判断不是仅因左右转头或双侧徽记而判镜像。"
+      },
+      "issues": [
+        {
+          "severity": "blocks_D_in_continuous_demo",
+          "detail": "D面罩/呼吸管接口拓扑跳变。保留源图，但本次演示选择A/B/C。"
+        },
+        {
+          "severity": "production_fidelity_not_approved",
+          "detail": "头盔侧图形被简化为较小鹰首/翼状图案，与官方道具的大幅翼形、条带和REX字样不一致。可在明确标注的动作示范中暂留，不能称官方头盔定稿。"
+        },
+        {
+          "severity": "compositing_check_required",
+          "detail": "A/B/C的肩位、束带与胸口轮廓也有细微变化；不是同一固定躯干下完全一致的头部替换。以胸/肩锚对齐，不能只按全幅center放置，也不能直接宣称精准头颈rig。"
+        },
+        {
+          "severity": "composition_requirement",
+          "detail": "胸部有直线裁切边，四格未达到提示词要求的完整6%留边。下缘应位于画外或被合理前景遮挡，不让胸像在云上悬浮；本资产没有座舱，不代表机型座舱核对通过。"
+        }
+      ],
+      "alpha_composite_result": "在云背景诊断叠加中主体可辨，无阻断性透明穿透；白边在个别头盔边缘仍可见，正式近景需复核。"
+    },
+    {
+      "file": "assets/cloud-plate.png",
+      "sha256": "bee3f2243a6e4797c912dd47208b4d8882743b24282c578a6bd5204f48fd7eae",
+      "pixels": [
+        1672,
+        941
+      ],
+      "mode": "RGB",
+      "actual_image_viewed": true,
+      "original_unchanged": true,
+      "decision": "usable_for_demo",
+      "notes": [
+        "灰阶云海与天空留白适合独立于人物移动。",
+        "RGB不透明整板，尚不是多张前中后云透明层；单板平移/裁切可测人物背景相对运动，不能据此宣称真实多层云深度或3D飞行。",
+        "纹理固定在本层，移动应控制范围与衔接，避免循环边界和整个画面同步抖动。"
+      ]
+    }
+  ],
+  "next_validation": [
+    "在实际画面检验花根与盆前沿的遮挡/接触",
+    "查看A→B→C切换前后肩、颈、面罩与管线是否跳位；避免整个人体跨态溶解",
+    "检查云和相机运动、姿态更新节奏的实际连续性，不以60fps编码代替角色动作验证",
+    "源像素按实际记录，放大4K输出不称原生4K绘制"
+  ]
+}

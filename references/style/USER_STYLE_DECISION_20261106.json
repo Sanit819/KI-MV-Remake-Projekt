@@ -1,0 +1,20 @@
+{
+  "date": "2026-11-06",
+  "user_instruction": [
+    "还是按你原来的这个画风来吧",
+    "像我们企划一那样，伪动画的感觉",
+    "越到最高潮和鼓点密集的部分画面越流畅"
+  ],
+  "approved_scope": "graphite/grayscale plus selective red visual direction and progressively smoother pseudo-animation approach",
+  "not_approved_by_this_message": [
+    "specific new art pose accuracy",
+    "old F/A-18F geometry",
+    "completed full MV"
+  ],
+  "reference_screenshot": {
+    "file": "references/style/source-assets/user-selected-graphite-20261106.png",
+    "sha256": "632a6cde4a2d7222e8c1e68946dd0b86c2bf9d2349c445feb8ec8673a5ae80ec"
+  },
+  "current_motion_entry": "motion-tests/v2/index.html",
+  "old_color_trial_status": "retained_as_history_not_primary"
+}

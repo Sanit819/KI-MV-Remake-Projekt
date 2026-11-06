@@ -3,6 +3,7 @@
 /.tmp/
 /node_modules/
 /__pycache__/
+**/__pycache__/
 /.venv/
 
 # Generated exports and locally retained source media

@@ -1,0 +1,210 @@
+{
+  "reviewed_on": "2026-11-06",
+  "page": "motion-tests/v2/index.html",
+  "page_sha256": "0aa28f73d7284d025b7a3dbd048d1c09dea69ef6ddb1964e5bde84b339742bd3",
+  "method": "Hidden independent Edge profile. Layout and UI first use a DOM-only replacement with the validated 720p preview. Then restore the actual 4K source for metadata/short playback only. Audio output muted.",
+  "checks": [
+    {
+      "name": "temporary video 720p",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "name": "atlas count",
+      "actual": 2,
+      "expected": 2,
+      "pass": true
+    },
+    {
+      "name": "chart count",
+      "actual": 2,
+      "expected": 2,
+      "pass": true
+    },
+    {
+      "name": "all four images decode",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "name": "composite flower poster source",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "name": "desktop no overflow",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "name": "clock advances during playback",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "name": "intensity changes with playback",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "name": "preview audio decodes",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "name": "details expands",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "name": "mobile no overflow",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "name": "mobile atlas single column",
+      "actual": 1,
+      "expected": 1,
+      "pass": true
+    },
+    {
+      "name": "mobile expanded no overflow",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "name": "real 4K metadata",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "name": "real 4K short playback",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "name": "runtime errors",
+      "actual": 0,
+      "expected": 0,
+      "pass": true
+    }
+  ],
+  "screenshots": [
+    "desktop-poster.png",
+    "desktop-atlases.png",
+    "desktop-charts.png",
+    "mobile-top.png",
+    "mobile-atlases.png",
+    "mobile-charts.png",
+    "final-4k-short-play.png"
+  ],
+  "errors": [],
+  "final_4k": {
+    "source": "../../exports/motion-v2/hortus-motion-v2-4k60.mp4",
+    "width": 3840,
+    "height": 2160,
+    "duration": 30,
+    "currentTime": 0.366918,
+    "ready": 4,
+    "error": null,
+    "audio_decoded_bytes": 25601,
+    "video_decoded_frames": 24,
+    "file_sha256": "28240c3a236e38a2d642549a228272ceb54ff8328bf90d63260ed826f3c17bbe",
+    "bytes": 178530950,
+    "original_page_source_restored": true
+  },
+  "dom_video_replacement": {
+    "original": "../../exports/motion-v2/hortus-motion-v2-4k60.mp4",
+    "temporary": "../../exports/motion-v2/hortus-motion-v2-preview.mp4",
+    "file_changed": false,
+    "width": 1280,
+    "height": 720,
+    "duration": 30
+  },
+  "images": [
+    {
+      "src": "assets/flower-poses.png",
+      "width": 1261,
+      "height": 1247,
+      "loaded": true
+    },
+    {
+      "src": "assets/rex-poses.png",
+      "width": 1245,
+      "height": 1263,
+      "loaded": true
+    },
+    {
+      "src": "../../references/rhythm-v2/selected-30s-curves.png",
+      "width": 2080,
+      "height": 1170,
+      "loaded": true
+    },
+    {
+      "src": "../../references/rhythm-v2/full-track-curves.png",
+      "width": 2080,
+      "height": 1170,
+      "loaded": true
+    }
+  ],
+  "poster": {
+    "src": "../../exports/motion-v2/hortus-motion-v2-preview-key-01.png",
+    "width": 1280,
+    "height": 720
+  },
+  "ui_playback": {
+    "before": {
+      "time": 0,
+      "clock": "当前原曲 01:12.50",
+      "level": ""
+    },
+    "after": {
+      "time": 1.255643,
+      "clock": "当前原曲 01:13.63",
+      "level": "3.15%",
+      "audio_decoded_bytes": 60531
+    },
+    "late": {
+      "time": 22.446887,
+      "clock": "当前原曲 01:34.69",
+      "level": "79.87%"
+    }
+  },
+  "ui_result": "pass",
+  "result": "pass",
+  "visual_inspection": {
+    "desktop_1440": "pass",
+    "mobile_390": "pass",
+    "poster": "composited flower and shallow basin visible",
+    "two_atlases": "visible, separate desktop columns and single mobile column",
+    "two_charts": "both images decode and appear within expanded details; mobile shows scaled overviews",
+    "screenshots_actually_viewed": [
+      "desktop-poster.png",
+      "desktop-atlases.png",
+      "desktop-charts.png",
+      "mobile-top.png",
+      "mobile-atlases.png",
+      "mobile-charts.png",
+      "final-4k-short-play.png"
+    ],
+    "final_4k_short_play": "pass: actual decoded flower scene displayed in the original page video element"
+  },
+  "scope_limitations": [
+    "720p was temporarily assigned only in the browser DOM for the UI stage; source HTML unchanged.",
+    "Audio output muted; playback and decoded bytes do not constitute direct listening.",
+    "Source clock follows the media timeupdate event; not a frame-exact lyric timing proof.",
+    "4K check covers browser metadata and approximately0.37s actual playback only; no repeat of full30s or character-action review."
+  ]
+}

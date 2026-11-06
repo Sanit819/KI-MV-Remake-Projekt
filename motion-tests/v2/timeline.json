@@ -1,0 +1,292 @@
+{
+  "schema_version": 1,
+  "duration_seconds": 30,
+  "output_fps": 60,
+  "output_frames": 1800,
+  "source_audio": {
+    "file": "local-source/audio/motion-v2-72.5-102.5.flac",
+    "sha256": "4b030a0f0a60a6edebee57bcfd1549a66cdb2840c704632c4b755c8fdd837830",
+    "bytes": 3493774,
+    "source_start_seconds": 72.5,
+    "source_end_seconds_exclusive": 102.5,
+    "duration_seconds": 30.0,
+    "start_sample": 3480000,
+    "end_sample_exclusive": 4920000,
+    "samples_per_channel": 1440000,
+    "sample_rate_hz": 48000,
+    "bits_per_sample": 16,
+    "channels": 2,
+    "decoded_pcm_sha256": "75393a552c04c7988bed5c3b5474e917403446a467243272e1c4a9a16f6d8003",
+    "decoded_pcm_equals_source_slice": true,
+    "gain_changed": false,
+    "fade_added": false,
+    "resampled": false,
+    "alac_created": false,
+    "command": [
+      ".cache\\python-deps\\imageio_ffmpeg\\binaries\\ffmpeg-win-x86_64-v9.0.2.exe",
+      "-v",
+      "error",
+      "-y",
+      "-i",
+      "local-source\\audio\\Hortus+Regis+Alti+游戏版多轨混缩.flac",
+      "-af",
+      "atrim=start_sample=3480000:end_sample=4920000,asetpts=PTS-STARTPTS",
+      "-c:a",
+      "flac",
+      "-sample_fmt",
+      "s16",
+      "-compression_level",
+      "5",
+      "-map_metadata",
+      "-1",
+      "local-source\\audio\\motion-v2-72.5-102.5.flac"
+    ],
+    "ffprobe_verified": {
+      "codec": "flac",
+      "sample_rate_hz": 48000,
+      "channels": 2,
+      "bits_per_raw_sample": 16,
+      "duration_ts": 1440000,
+      "time_base": "1/48000",
+      "duration_seconds": 30.0
+    }
+  },
+  "original_audio_sha256": "b5c12da908cd258dc27616a077adcd39ef7d53ab5ce1e570e9b9e63c320a6c68",
+  "assets_sha256": {
+    "cloud-plate.png": "bee3f2243a6e4797c912dd47208b4d8882743b24282c578a6bd5204f48fd7eae",
+    "flower-poses.png": "b17d7d2128ca01860fce5549e8abfbc5a76040a7d58754fb91642ff0995572a1",
+    "rex-poses.png": "2c0ed07a13d07e880c7cd639a42cf0cd6bb803ccd093ced6795dd1f87024748c",
+    "window-plate.png": "e92329075d452fe058e91c3cb9ae78cd85312bd25e39b9b6e55690a990bd7507"
+  },
+  "asset_dimensions": {
+    "window-plate.png": [
+      1672,
+      941
+    ],
+    "cloud-plate.png": [
+      1672,
+      941
+    ],
+    "flower-poses.png": [
+      1261,
+      1247
+    ],
+    "rex-poses.png": [
+      1245,
+      1263
+    ]
+  },
+  "artwork_resolution_note": "Enlarged composites; source plates1672x941 and sprites smaller. Not native4K illustration.",
+  "character_poses_used": [
+    "A",
+    "B",
+    "C"
+  ],
+  "character_pose_D_used": false,
+  "pose_D_exclusion": "Respiratory hose attachment continuity issue in supplied atlas.",
+  "character_identity_boundary": "Experimental fan-art mask/rig, not an official accurate character model.",
+  "shots": [
+    {
+      "range": [
+        0,
+        6
+      ],
+      "scene": "window/flower B, independent rooted wind"
+    },
+    {
+      "range": [
+        6,
+        9.4
+      ],
+      "scene": "intentional closer framing/flower A"
+    },
+    {
+      "range": [
+        9.4,
+        12
+      ],
+      "scene": "flower C close detail"
+    },
+    {
+      "range": [
+        12,
+        13.3
+      ],
+      "scene": "Rex A lowering head; cloud background"
+    },
+    {
+      "range": [
+        13.3,
+        13.85
+      ],
+      "scene": "Rex B lifting gaze; local cloud occlusion"
+    },
+    {
+      "range": [
+        13.85,
+        30
+      ],
+      "scene": "Rex C near frontal; breathing/head inertia, foreground and background cloud flow"
+    }
+  ],
+  "local_animation_sampling": [
+    {
+      "range": [
+        0,
+        12
+      ],
+      "hz": 7,
+      "layers": "flower bend and rooted rotation"
+    },
+    {
+      "range": [
+        12,
+        18
+      ],
+      "hz": 12,
+      "layers": "Rex local rig/body inertia"
+    },
+    {
+      "range": [
+        18,
+        30
+      ],
+      "hz": 60,
+      "layers": "Rex rig/body, cloud, camera"
+    }
+  ],
+  "camera_sampling_hz": 60,
+  "background_cloud_sampling_hz": 60,
+  "second_scan_sequence": [
+    {
+      "range": [
+        20,
+        20.25
+      ],
+      "pose": "B"
+    },
+    {
+      "range": [
+        20.25,
+        20.55
+      ],
+      "pose": "A"
+    },
+    {
+      "range": [
+        20.55,
+        20.95
+      ],
+      "pose": "B"
+    },
+    {
+      "range": [
+        20.95,
+        30
+      ],
+      "pose": "C"
+    }
+  ],
+  "cloud_layer_provenance": "One original cloud plate transformed separately as background and procedural foreground/reflection masks; not separately painted cloud layers.",
+  "cross_pose_alpha_dissolve": false,
+  "camera_absolute_time": true,
+  "flower_regions": [
+    [
+      53,
+      69,
+      505,
+      571
+    ],
+    [
+      772,
+      63,
+      1079,
+      571
+    ],
+    [
+      117,
+      657,
+      565,
+      1180
+    ]
+  ],
+  "flower_root_anchors_in_atlas": [
+    [
+      366,
+      567
+    ],
+    [
+      930,
+      568
+    ],
+    [
+      286,
+      1178
+    ]
+  ],
+  "rex_regions": [
+    [
+      21,
+      72,
+      616,
+      614
+    ],
+    [
+      630,
+      64,
+      1225,
+      614
+    ],
+    [
+      21,
+      659,
+      616,
+      1221
+    ]
+  ],
+  "rex_registration": "600x580 canvas;595px equal shoulder width; bottom-centre chest registration",
+  "alpha_processing": {
+    "premultiplied": true,
+    "memory_only_tiny_component_filter": [
+      {
+        "tiny_components_removed": 0,
+        "component_floor_pixels": 8,
+        "source_file_unchanged": true
+      },
+      {
+        "tiny_components_removed": 1,
+        "component_floor_pixels": 8,
+        "source_file_unchanged": true
+      },
+      {
+        "tiny_components_removed": 0,
+        "component_floor_pixels": 8,
+        "source_file_unchanged": true
+      },
+      {
+        "tiny_components_removed": 0,
+        "component_floor_pixels": 8,
+        "source_file_unchanged": true
+      },
+      {
+        "tiny_components_removed": 0,
+        "component_floor_pixels": 8,
+        "source_file_unchanged": true
+      },
+      {
+        "tiny_components_removed": 0,
+        "component_floor_pixels": 8,
+        "source_file_unchanged": true
+      },
+      {
+        "tiny_components_removed": 0,
+        "component_floor_pixels": 8,
+        "source_file_unchanged": true
+      }
+    ],
+    "original_pngs_unchanged": true
+  },
+  "music_control": "references/rhythm-v2/analysis.json sample_envelope + curated mixed-transient accents; not separated drums",
+  "key_pose_count_is_not_drawing_fps": true,
+  "no_aircraft_exterior_or_cockpit_geometry": true
+}

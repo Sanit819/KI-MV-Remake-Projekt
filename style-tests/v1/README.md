@@ -1,6 +1,8 @@
-# 首轮带音乐风格试片
+# 首轮彩色风格试片（留档）
 
-状态：供用户比较与决定是否采用，尚未采纳为全片画风。使用内置 imagegen 生成／修订原画，再渲染真实 60 fps 的轻微镜头运动；不是角色动画或完整 MV。
+状态更新：用户已选择回到 `storyboard/drawings-v1/` 的**铅笔灰阶＋红花留色**。本目录彩色候选保留作比较与制作记录，不再作为全片主用画风。它使用内置 imagegen 生成／修订原画，再渲染真实 60 fps 的轻微镜头运动；不是角色动画或完整 MV。
+
+新的主入口为 [动作试验 v2](../../motion-tests/v2/index.html)（正在制作，尚未完成渲染核验）。本轮使用原曲72.5–102.5秒的连续30秒，拟验证花的分层风动、Rex四姿态头部动作及独立云层；当前状态与方法见 [项目首页](../../README.md)和[伪动画方案](../../docs/PSEUDO_ANIMATION_V2.md)。
 
 从 [试听页](index.html) 打开，或直接播放 [38.3秒合辑](../../exports/style-tests-v1/00-style-trials-4k60.mp4)。合辑顺序为故土记忆→Joker同行→托付。视频和原始参考只保留本地；原画及提示词进入本企划 Git。
 
@@ -15,7 +17,7 @@
 ## 原画与提示词
 
 - Joker 初稿：[01-joker.png](01-joker.png)／[提示词](01-joker.prompt.txt)。
-- Joker 二维化修订：[01-joker-v2.png](01-joker-v2.png)／[修订提示词](01-joker-v2.prompt.txt)，默认试听采用此图。
+- Joker 二维化修订：[01-joker-v2.png](01-joker-v2.png)／[修订提示词](01-joker-v2.prompt.txt)，本目录历史试听采用此图。
 - Tewy 记忆：[02-memory.png](02-memory.png)／[提示词](02-memory.prompt.txt)。
 - Tewy 手部：[03-handover.png](03-handover.png)／[提示词](03-handover.prompt.txt)。
 
@@ -33,4 +35,4 @@
 
 本机依赖与已核验切片保留时，运行 `python tools/render_style_trials.py --combine` 可重建三段与合辑，Joker默认选择v2。脚本依赖本地OpenCV、NumPy、Pillow及`.cache`中的FFmpeg/ffprobe与音频切片；不是无缓存环境的一键安装器。
 
-最终原画还需解决部分徽记、纹身与面部风格的一致性，正式成片仍需完整歌词对时与逐镜动作设计。先等用户评价本轮候选，再确定后续美术方向。
+这批彩色候选仍有部分徽记、纹身与面部风格的一致性问题，保留在原审阅记录。后续按已选定的铅笔灰阶方向制作，正式成片仍需完整歌词对时与逐镜动作设计；不因这批历史试片技术检查通过而宣布新画风动画完成。
