@@ -11,7 +11,7 @@
     "Su-35S",
     "FA-36 Game"
   ],
-  "source_count": 16,
+  "source_count": 17,
   "search_scope": [
     "AC8 official AIRCRAFT page and actual public JavaScript asset mapping",
     "UAC Su-57 product information (program/prototype distinction; no manufacturer orthographic asset downloaded)",
@@ -647,6 +647,26 @@
       "first_party_aircraft_manufacturer": false,
       "three_view_complete_for_requested_model": false,
       "exact_requested_model_verified": true
+    },
+    {
+      "id": "su57-ac8-official-top-icon",
+      "source_url": "https://enso-order.acecombat.jp/assets/img/aircraft/icon/off_30.webp",
+      "retrieved_date": "2026-11-06",
+      "local_file": "references/aircraft/source-assets/su-57/ac8-su57-top-icon-120.webp",
+      "bytes": 1580,
+      "sha256": "f7ceb9e297e6e51611e5064fd5cecbab8962c94152601c9a20b2185ae67d6ebf",
+      "pixel_dimensions": [
+        120,
+        120
+      ],
+      "depicted_model": "AC8 Su-57 Felon",
+      "views": [
+        "top identification icon"
+      ],
+      "source_kind": "Bandai Namco official game-site resource",
+      "exact_three_view_ready": false,
+      "use_boundary": "120px icon is silhouette evidence, not a precision three-view; final target is the AC8 model, not an assumed latest production variant.",
+      "license": "Source attribution retained; local drawing-reference research, no blanket open reuse license asserted."
     }
   ]
 }

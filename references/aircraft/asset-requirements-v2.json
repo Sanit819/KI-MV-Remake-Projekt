@@ -5,9 +5,14 @@
     {
       "id": "FA18F",
       "model": "F/A-18F Super Hornet",
-      "reference_status": "reference_incomplete",
+      "reference_status": "exact_top_side_and_shared_front_candidate",
       "reference_manifest": "WESTERN_SOURCES.json",
-      "source_ids": [],
+      "source_ids": [
+        "fa18f-usace-2013-two-views",
+        "fa18ef-usaf-2006-shared-three-views",
+        "fa18f-ac8-official-top-icon",
+        "fa18f-ac8-official-perspective"
+      ],
       "used_in_shots": [
         "HRA-007",
         "HRA-010",
@@ -24,7 +29,7 @@
         "side",
         "front"
       ],
-      "note": "Cope/Rex early shared aircraft; exact F three-view still missing."
+      "note": "Cope/Rex early shared aircraft. Official F top/side and E/F common front candidate acquired; scale/version/game-shape crosscheck pending. Geometry not approved."
     },
     {
       "id": "FA18C",
@@ -72,7 +77,8 @@
         "su-57-ac8-official",
         "su57-toprak-m18-0090.5-022-detail",
         "su57-toprak-m18-0092.5-front-quarter",
-        "su57-toprak-m28-0312.5-side-detail"
+        "su57-toprak-m28-0312.5-side-detail",
+        "su57-ac8-official-top-icon"
       ],
       "used_in_shots": [
         "HRA-012",
@@ -91,7 +97,7 @@
         "side",
         "front"
       ],
-      "note": "T-50 historical orthographic is not accepted as production or AC8 equivalent."
+      "note": "Official AC8 top icon added. Compare historical T-50 references with actual game geometry; do not assume latest real production model is the target."
     },
     {
       "id": "X40",

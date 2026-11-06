@@ -7,9 +7,14 @@
   "aircraft": [
     {
       "aircraft": "F/A-18F",
-      "available_source_ids": [],
+      "available_source_ids": [
+        "fa18f-usace-2013-two-views",
+        "fa18ef-usaf-2006-shared-three-views",
+        "fa18f-ac8-official-top-icon",
+        "fa18f-ac8-official-perspective"
+      ],
       "exact_three_view_ready": false,
-      "gap": "Exact F top/side/front not acquired. Do not combine E body or legacy C/D canopy to fabricate F."
+      "gap": "Official exact F top/side obtained; E/F shared front candidate also obtained. Uniform scale, common front applicability and AC8 exterior still to crosscheck. No drawing approval yet."
     },
     {
       "aircraft": "F/A-18C",
@@ -325,6 +330,89 @@
         385
       ],
       "status": "downloaded"
+    },
+    {
+      "id": "fa18f-usace-2013-two-views",
+      "source_url": "https://transportation.erdc.dren.mil/tsmcx/downloads/Military%20Aircraft%20Characteristics%20TSC%2013-2%20Dec%2013%20Rev%202.pdf#page=243",
+      "retrieved_date": "2026-11-06",
+      "local_file": "references/aircraft/source-assets/western/fa18f-usace-2013-p243.png",
+      "bytes": 141050,
+      "sha256": "12f38d6f227b59e2961d7f8e7f0b48d3c3f662700bca4d3a151096c1cd6dcfec",
+      "pixel_dimensions": [
+        1530,
+        1980
+      ],
+      "depicted_model": "F/A-18F (Boeing)",
+      "views": [
+        "top",
+        "side"
+      ],
+      "source_kind": "USACE/AFCEC official publicly downloadable 2013 report, page 243",
+      "exact_three_view_ready": false,
+      "use_boundary": "Exact F top/side. Front absent. Starred secondary dimensions are labelled NOT VERIFIED. Not a factory production blueprint.",
+      "license": "Source attribution retained; local drawing-reference research, no blanket open reuse license asserted."
+    },
+    {
+      "id": "fa18ef-usaf-2006-shared-three-views",
+      "source_url": "https://0x4d.net/files/AF1/R11%20Segment%2024.pdf#page=36",
+      "retrieved_date": "2026-11-06",
+      "local_file": "references/aircraft/source-assets/western/fa18ef-usaf-r11-2006-segment24-p36.png",
+      "bytes": 484042,
+      "sha256": "19101f141b890873d5e8fcff125e99558ee890ec54569f8fd45f40dc829cace5",
+      "pixel_dimensions": [
+        1980,
+        1530
+      ],
+      "depicted_model": "F/A-18E/F family",
+      "views": [
+        "top",
+        "side",
+        "front"
+      ],
+      "source_kind": "Public-release 2006 USAF manual, obtained from third-party mirror",
+      "exact_three_view_ready": false,
+      "use_boundary": "Page applies to E/F but side silhouette is single-seat E; front is a shared-family candidate. Combine only after scale/version/game-shape crosscheck; retain exact F side from USACE.",
+      "license": "Source attribution retained; local drawing-reference research, no blanket open reuse license asserted."
+    },
+    {
+      "id": "fa18f-ac8-official-top-icon",
+      "source_url": "https://enso-order.acecombat.jp/assets/img/aircraft/icon/off_08.webp",
+      "retrieved_date": "2026-11-06",
+      "local_file": "references/aircraft/source-assets/fa-18f/ac8-fa18f-top-icon-120.webp",
+      "bytes": 1740,
+      "sha256": "7e4d8ecde412e180bbeae00acd91f336572221f2181b02d91c3e6812bd50dfb0",
+      "pixel_dimensions": [
+        120,
+        120
+      ],
+      "depicted_model": "AC8 F/A-18F Super Hornet",
+      "views": [
+        "top identification icon"
+      ],
+      "source_kind": "Bandai Namco official game-site resource",
+      "exact_three_view_ready": false,
+      "use_boundary": "120px icon includes text/frame; silhouette check only, not a precision orthographic master.",
+      "license": "Source attribution retained; local drawing-reference research, no blanket open reuse license asserted."
+    },
+    {
+      "id": "fa18f-ac8-official-perspective",
+      "source_url": "https://enso-order.acecombat.jp/assets/img/aircraft/ss_08.webp",
+      "retrieved_date": "2026-11-06",
+      "local_file": "references/aircraft/source-assets/fa-18f/ac8-fa18f-official-perspective.webp",
+      "bytes": 352444,
+      "sha256": "8934718b63fa560f58f9e30424bce4fe4a080bc86b965e10263f4f038be38061",
+      "pixel_dimensions": [
+        1920,
+        1080
+      ],
+      "depicted_model": "AC8 F/A-18F Super Hornet",
+      "views": [
+        "oblique perspective"
+      ],
+      "source_kind": "Bandai Namco official game-site screenshot",
+      "exact_three_view_ready": false,
+      "use_boundary": "Game appearance and twin-seat identification only; not orthographic.",
+      "license": "Source attribution retained; local drawing-reference research, no blanket open reuse license asserted."
     }
   ],
   "manual_cache": [
@@ -424,5 +512,6 @@
       "bytes": 3373,
       "sha256": "507b21c5bb56f32b56cdcbf25245335eecb35961ea642970b18086ab6dad007b"
     }
-  ]
+  ],
+  "followup_note": "2026-11-06 targeted official-source followup supersedes earlier no-drawing-acquired status for F/A-18F."
 }
