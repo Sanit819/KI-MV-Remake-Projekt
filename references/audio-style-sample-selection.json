@@ -1,0 +1,558 @@
+{
+  "schema_version": 1,
+  "checked_date": "2026-11-06",
+  "purpose": "Three 10-14.3 second 4K60 music visual-style tests using the user-provided FLAC",
+  "summary_zh": "已用社区硬字幕和独立波形相关定位第一节，能支持红花往事L01–02与Joker出发L05–06的样片选段；归乡L13–16尚不能可靠映射到用户FLAC。第三段为实录信号验证的终战区间，不冒称归乡演唱句。",
+  "source_audio": {
+    "file": "local-source/audio/Hortus+Regis+Alti+游戏版多轨混缩.flac",
+    "sha256_before": "b5c12da908cd258dc27616a077adcd39ef7d53ab5ce1e570e9b9e63c320a6c68",
+    "sha256_after": "b5c12da908cd258dc27616a077adcd39ef7d53ab5ce1e570e9b9e63c320a6c68",
+    "sample_rate_hz": 48000,
+    "bits_per_sample": 16,
+    "channels": 2,
+    "duration_seconds": 350.76922916666666,
+    "original_preserved": true,
+    "alac_created": false,
+    "upsampling_performed": false
+  },
+  "subtitle_source": {
+    "url": "https://www.bilibili.com/video/BV1zcHr6uE2F/",
+    "kind": "community_bilingual_hard_subtitle_music_video",
+    "uploader": "兔狲manuruneko",
+    "duration_seconds": 325.8666666666667,
+    "official_lyric_timing_source": false,
+    "downloads": [
+      {
+        "kind": "video-480p",
+        "file": ".cache\\audio-style-lyrics-BV1zcHr6uE2F\\BV1zcHr6uE2F-video-480p.m4s",
+        "bytes": 2204204,
+        "sha256": "914b499c07c6371043cd4e0d145cdb59be7125f8a6dcf87421b4948b8f7650b0"
+      },
+      {
+        "kind": "audio",
+        "file": ".cache\\audio-style-lyrics-BV1zcHr6uE2F\\BV1zcHr6uE2F-audio.m4s",
+        "bytes": 8177693,
+        "sha256": "b0d074a6c2d3b3bd62850dc3da5649d0a37f6083ce28859d86c845730549245c"
+      }
+    ],
+    "coverage": "Every5s overview; every1s subtitles at34-98 and150-183; selected transition brackets at0.25s. No continuous audiovisual viewing or direct auditory review.",
+    "lyric_text_policy": "Keep user-provided original. This community video has spelling/translation differences; do not overwrite user text.",
+    "alternative_official_music_listing": {
+      "url": "https://s.awa.fm/track/1f0a0844cdabfd0b5b07",
+      "observed": "Track listed 5:25 and lyrics unavailable; not a timing map to the 350.769s user file."
+    }
+  },
+  "signal_verification": {
+    "analysis_only_sample_rate_hz": 11025,
+    "analysis_downsampling_did_not_change_source_or_deliverables": true,
+    "coarse_method": "48-band log-mel local spectral contrast;16s windows;8s steps",
+    "independent_method": "Pre-emphasized mono waveform NCC;6s windows; +/-0.5s lag search",
+    "first_verse_validated_lyric_pcm_window_starts": [
+      36,
+      42,
+      48,
+      54,
+      60,
+      66,
+      72,
+      78,
+      84
+    ],
+    "first_verse_validated_window_coverage_seconds": [
+      36,
+      90
+    ],
+    "user_minus_lyric_video_offset_seconds": -6.6269387755102045,
+    "practical_offset_used_seconds": -6.627,
+    "waveform_correlation_min": 0.7959975770991852,
+    "waveform_correlation_max": 0.9267975808309786,
+    "waveform_correlation_median": 0.884335180921262,
+    "wrong_offset_control_max_abs": 0.04377003071151335,
+    "source_aac_pts_check": {
+      "first": {
+        "pcm_start": 0.0,
+        "pts": 0.0,
+        "delta": 0.0
+      },
+      "near_40": {
+        "pcm_start": 40.0,
+        "pts": 40.0,
+        "delta": 0.0
+      },
+      "near_80": {
+        "pcm_start": 80.0,
+        "pts": 80.0,
+        "delta": 0.0
+      },
+      "last": {
+        "pcm_start": 325.8666666666667,
+        "pts": 325.866667,
+        "delta": 3.3333333249174757e-07
+      }
+    },
+    "navigation_tolerance_seconds": 0.15,
+    "navigation_tolerance_is_not_lyric_singing_accuracy": true,
+    "later_stanza_limit": "At lyric120-168s, best tested spectral-aligned waveform candidates have abs correlation roughly0.03-0.08. Shared cadence after174s is insufficient to certify L13-L16. No whole-track global offset accepted.",
+    "evidence_files": [
+      ".cache/audio-style-lyrics-BV1zcHr6uE2F/spectral-map.json",
+      ".cache/audio-style-lyrics-BV1zcHr6uE2F/waveform-map.json",
+      ".cache/audio-style-lyrics-BV1zcHr6uE2F/handoff-scene-map.json",
+      ".cache/audio-style-lyrics-BV1zcHr6uE2F/candidate-boundaries-quarter-second.png"
+    ]
+  },
+  "community_display_cues": [
+    {
+      "user_lyric_id": 1,
+      "community_display_start_bracket_seconds": [
+        37.5,
+        37.75
+      ],
+      "community_display_end_bracket_seconds": [
+        44.75,
+        45
+      ],
+      "first_verse_signal_map_supported": true,
+      "user_flac_display_start_bracket_seconds": [
+        30.873,
+        31.123
+      ],
+      "user_flac_display_end_bracket_seconds": [
+        38.123,
+        38.373
+      ],
+      "certified_sung_start_seconds": null,
+      "certified_sung_end_seconds": null
+    },
+    {
+      "user_lyric_id": 2,
+      "community_display_start_bracket_seconds": [
+        44.75,
+        45
+      ],
+      "community_display_end_bracket_seconds": [
+        51.25,
+        51.5
+      ],
+      "first_verse_signal_map_supported": true,
+      "user_flac_display_start_bracket_seconds": [
+        38.123,
+        38.373
+      ],
+      "user_flac_display_end_bracket_seconds": [
+        44.623,
+        44.873
+      ],
+      "certified_sung_start_seconds": null,
+      "certified_sung_end_seconds": null
+    },
+    {
+      "user_lyric_id": 3,
+      "community_display_start_bracket_seconds": [
+        51.5,
+        51.75
+      ],
+      "community_display_end_bracket_seconds": [
+        59,
+        60
+      ],
+      "first_verse_signal_map_supported": true,
+      "user_flac_display_start_bracket_seconds": [
+        44.873,
+        45.123
+      ],
+      "user_flac_display_end_bracket_seconds": [
+        52.373,
+        53.373
+      ],
+      "certified_sung_start_seconds": null,
+      "certified_sung_end_seconds": null
+    },
+    {
+      "user_lyric_id": 4,
+      "community_display_start_bracket_seconds": [
+        59,
+        60
+      ],
+      "community_display_end_bracket_seconds": [
+        66,
+        66.25
+      ],
+      "first_verse_signal_map_supported": true,
+      "user_flac_display_start_bracket_seconds": [
+        52.373,
+        53.373
+      ],
+      "user_flac_display_end_bracket_seconds": [
+        59.373,
+        59.623
+      ],
+      "certified_sung_start_seconds": null,
+      "certified_sung_end_seconds": null
+    },
+    {
+      "user_lyric_id": 5,
+      "community_display_start_bracket_seconds": [
+        66.25,
+        66.5
+      ],
+      "community_display_end_bracket_seconds": [
+        73.5,
+        73.75
+      ],
+      "first_verse_signal_map_supported": true,
+      "user_flac_display_start_bracket_seconds": [
+        59.623,
+        59.873
+      ],
+      "user_flac_display_end_bracket_seconds": [
+        66.873,
+        67.123
+      ],
+      "certified_sung_start_seconds": null,
+      "certified_sung_end_seconds": null
+    },
+    {
+      "user_lyric_id": 6,
+      "community_display_start_bracket_seconds": [
+        73.5,
+        73.75
+      ],
+      "community_display_end_bracket_seconds": [
+        80.5,
+        80.75
+      ],
+      "first_verse_signal_map_supported": true,
+      "user_flac_display_start_bracket_seconds": [
+        66.873,
+        67.123
+      ],
+      "user_flac_display_end_bracket_seconds": [
+        73.873,
+        74.123
+      ],
+      "certified_sung_start_seconds": null,
+      "certified_sung_end_seconds": null
+    },
+    {
+      "user_lyric_id": 7,
+      "community_display_start_bracket_seconds": [
+        80.5,
+        80.75
+      ],
+      "community_display_end_bracket_seconds": [
+        88,
+        89
+      ],
+      "first_verse_signal_map_supported": true,
+      "user_flac_display_start_bracket_seconds": [
+        73.873,
+        74.123
+      ],
+      "user_flac_display_end_bracket_seconds": [
+        81.373,
+        82.373
+      ],
+      "certified_sung_start_seconds": null,
+      "certified_sung_end_seconds": null
+    },
+    {
+      "user_lyric_id": 8,
+      "community_display_start_bracket_seconds": [
+        88,
+        89
+      ],
+      "community_display_end_bracket_seconds": [
+        95,
+        96
+      ],
+      "first_verse_signal_map_supported": false,
+      "user_flac_display_start_bracket_seconds": null,
+      "user_flac_display_end_bracket_seconds": null,
+      "certified_sung_start_seconds": null,
+      "certified_sung_end_seconds": null,
+      "limit": "Window at video90s has only partial coherence; do not promote whole ending line to a certified cue."
+    },
+    {
+      "user_lyric_id": 13,
+      "community_display_start_bracket_seconds": [
+        151,
+        152
+      ],
+      "community_display_end_bracket_seconds": [
+        157,
+        158
+      ],
+      "first_verse_signal_map_supported": false,
+      "user_flac_display_start_bracket_seconds": null,
+      "user_flac_display_end_bracket_seconds": null,
+      "certified_sung_start_seconds": null,
+      "certified_sung_end_seconds": null,
+      "limit": "Source subtitle visible, but its musical section has no reliable one-to-one mapping to user FLAC; do not map by a global offset."
+    },
+    {
+      "user_lyric_id": 14,
+      "community_display_start_bracket_seconds": [
+        158,
+        159
+      ],
+      "community_display_end_bracket_seconds": [
+        164,
+        165
+      ],
+      "first_verse_signal_map_supported": false,
+      "user_flac_display_start_bracket_seconds": null,
+      "user_flac_display_end_bracket_seconds": null,
+      "certified_sung_start_seconds": null,
+      "certified_sung_end_seconds": null,
+      "limit": "Source subtitle visible, but its musical section has no reliable one-to-one mapping to user FLAC; do not map by a global offset."
+    },
+    {
+      "user_lyric_id": 15,
+      "community_display_start_bracket_seconds": [
+        165,
+        166
+      ],
+      "community_display_end_bracket_seconds": [
+        172,
+        173
+      ],
+      "first_verse_signal_map_supported": false,
+      "user_flac_display_start_bracket_seconds": null,
+      "user_flac_display_end_bracket_seconds": null,
+      "certified_sung_start_seconds": null,
+      "certified_sung_end_seconds": null,
+      "limit": "Source subtitle visible, but its musical section has no reliable one-to-one mapping to user FLAC; do not map by a global offset."
+    },
+    {
+      "user_lyric_id": 16,
+      "community_display_start_bracket_seconds": [
+        172,
+        173
+      ],
+      "community_display_end_bracket_seconds": [
+        182,
+        183
+      ],
+      "first_verse_signal_map_supported": false,
+      "user_flac_display_start_bracket_seconds": null,
+      "user_flac_display_end_bracket_seconds": null,
+      "certified_sung_start_seconds": null,
+      "certified_sung_end_seconds": null,
+      "limit": "Source subtitle visible, but its musical section has no reliable one-to-one mapping to user FLAC; do not map by a global offset."
+    }
+  ],
+  "selected_samples": [
+    {
+      "id": "tasha-joker-departure",
+      "label_zh": "Tasha / Joker 出发",
+      "start_seconds": 59.6,
+      "end_seconds": 73.9,
+      "duration_seconds": 14.300000000000004,
+      "start_sample_48khz": 2860800,
+      "end_sample_48khz_exclusive": 3547200,
+      "samples_per_channel": 686400,
+      "video_60fps_frames": 858,
+      "audio_file": ".cache/style-audio-selections/tasha-joker-departure.flac",
+      "audio_bytes": 1433615,
+      "audio_sha256": "27dc443ace72d1c1aca55d0ea8fc6698dd8667a9b91691785e03b27c20c40962",
+      "decoded_pcm_sha256": "78bde2fed4d83f6d840f11105079b7a9667d63040654c2bffd2e63ee1805fb91",
+      "pcm_exactly_equals_original_slice": true,
+      "sample_rate_hz": 48000,
+      "bits_per_sample": 16,
+      "channels": 2,
+      "gain_changed": false,
+      "fade_added": false,
+      "rms_dbfs": -21.71944525719626,
+      "peak_dbfs": -8.571129273005248,
+      "semantic_lyric_ids": [
+        5,
+        6
+      ],
+      "selection_basis": "matched_first_verse_community_cues",
+      "lyric_subtitles_enabled_by_default": false,
+      "direct_auditory_review": false,
+      "boundary_finalized_by_ear": false,
+      "community_video_interval_seconds": [
+        66.227,
+        80.527
+      ],
+      "flac_streaminfo_verified": {
+        "sample_rate_hz": 48000,
+        "channels": 2,
+        "bits_per_sample": 16,
+        "samples_per_channel": 686400
+      }
+    },
+    {
+      "id": "tewy-red-flower-memory",
+      "label_zh": "Tewy 红花往事",
+      "start_seconds": 30.85,
+      "end_seconds": 44.85,
+      "duration_seconds": 14.0,
+      "start_sample_48khz": 1480800,
+      "end_sample_48khz_exclusive": 2152800,
+      "samples_per_channel": 672000,
+      "video_60fps_frames": 840,
+      "audio_file": ".cache/style-audio-selections/tewy-red-flower-memory.flac",
+      "audio_bytes": 1324624,
+      "audio_sha256": "4444cb8ef15cf3671889eee077c65f189ac8fb2c57719b4371de26f77ec0f44a",
+      "decoded_pcm_sha256": "59f68ac258dd4d68962865a87fc10ed225f839cf8aff3441b57f57c2b894ea44",
+      "pcm_exactly_equals_original_slice": true,
+      "sample_rate_hz": 48000,
+      "bits_per_sample": 16,
+      "channels": 2,
+      "gain_changed": false,
+      "fade_added": false,
+      "rms_dbfs": -23.79549054829246,
+      "peak_dbfs": -10.653627154174119,
+      "semantic_lyric_ids": [
+        1,
+        2
+      ],
+      "selection_basis": "matched_first_verse_community_cues",
+      "lyric_subtitles_enabled_by_default": false,
+      "direct_auditory_review": false,
+      "boundary_finalized_by_ear": false,
+      "community_video_interval_seconds": [
+        37.477000000000004,
+        51.477000000000004
+      ],
+      "flac_streaminfo_verified": {
+        "sample_rate_hz": 48000,
+        "channels": 2,
+        "bits_per_sample": 16,
+        "samples_per_channel": 672000
+      }
+    },
+    {
+      "id": "moon11-handover",
+      "label_zh": "Moon 11 托付 / 音乐风格试片",
+      "start_seconds": 178.0,
+      "end_seconds": 188.0,
+      "duration_seconds": 10.0,
+      "start_sample_48khz": 8544000,
+      "end_sample_48khz_exclusive": 9024000,
+      "samples_per_channel": 480000,
+      "video_60fps_frames": 600,
+      "audio_file": ".cache/style-audio-selections/moon11-handover.flac",
+      "audio_bytes": 1343836,
+      "audio_sha256": "c45b5cfe3c001e904ce2adf57bc1c18d45ab8e48d9e208cf23a53735fd32e97d",
+      "decoded_pcm_sha256": "36f8ddaefac854dd352bfe8df578e1191b0066b7d64be05d010911c342019327",
+      "pcm_exactly_equals_original_slice": true,
+      "sample_rate_hz": 48000,
+      "bits_per_sample": 16,
+      "channels": 2,
+      "gain_changed": false,
+      "fade_added": false,
+      "rms_dbfs": -16.313343446040413,
+      "peak_dbfs": -1.706852300860001,
+      "semantic_lyric_ids": [],
+      "selection_basis": "Locally verified M29 music overlap, followed by creative style-test composition. Not a frame-exact recreation of the original cutscene.",
+      "lyric_subtitles_enabled_by_default": false,
+      "direct_auditory_review": false,
+      "boundary_finalized_by_ear": false,
+      "m29_approximate_video_interval_seconds": [
+        576.271,
+        586.271
+      ],
+      "flac_streaminfo_verified": {
+        "sample_rate_hz": 48000,
+        "channels": 2,
+        "bits_per_sample": 16,
+        "samples_per_channel": 480000
+      },
+      "local_music_evidence": {
+        "file": ".cache/style-audio-selections/handover-178-190-verification.json",
+        "two_second_window_starts": [
+          178,
+          180,
+          182,
+          184,
+          186
+        ],
+        "correlations": [
+          0.5568708499137645,
+          0.41425654576418924,
+          0.3888294289676739,
+          0.40010023131507566,
+          0.3003890128167809
+        ],
+        "common_game_pcm_offset_seconds": 398.25233560090703,
+        "game_video_presentation_offset_seconds_approx": 398.271,
+        "limit": "Evidence supports local shared music only. No lyrics inferred; drawing is a fan illustration, not original game pixels. Correlation weakens after FLAC188s and the longer map fails near190s."
+      }
+    }
+  ],
+  "alternatives": [
+    {
+      "id": "tasha-wind-announces-departure",
+      "start_seconds": 45.0,
+      "end_seconds": 59.6,
+      "duration_seconds": 14.6,
+      "semantic_lyric_ids": [
+        3,
+        4
+      ],
+      "basis": "Same validated first-verse signal map; user line3 spelling retained. No audio cut produced for this alternative."
+    },
+    {
+      "id": "moon11-handoff-creative-placement",
+      "start_seconds": 176.0,
+      "end_seconds": 190.0,
+      "duration_seconds": 14.0,
+      "semantic_lyric_ids": [],
+      "basis": "Near the tail of the existing gameplay match. An artistic placement for handoff imagery, not proof of the complete original handoff-scene soundtrack.",
+      "original_handoff_visual_seconds": [
+        584,
+        592
+      ],
+      "limit": "Game584s maps near FLAC185.73s, but original offset loses support nearFLAC190s. New6s window search aftergame586s did not establish a stable full match. Do not label an entire14s handoff clip as original scene audio."
+    },
+    {
+      "id": "moon11-final-battle",
+      "label_zh": "Moon 11 终战",
+      "start_seconds": 134.0,
+      "end_seconds": 149.0,
+      "duration_seconds": 15.0,
+      "start_sample_48khz": 6432000,
+      "end_sample_48khz_exclusive": 7152000,
+      "samples_per_channel": 720000,
+      "video_60fps_frames": 900,
+      "audio_file": ".cache/style-audio-selections/moon11-final-battle.flac",
+      "audio_bytes": 1956905,
+      "audio_sha256": "c8b72d45ea73d7c86369d5f7bdef0f4bb5d07ad40622762d3294069b14e4ca8b",
+      "decoded_pcm_sha256": "f65248e8a9aaba24bace539c9ff97981943946828f25e2b20aed83fcb311df70",
+      "pcm_exactly_equals_original_slice": true,
+      "sample_rate_hz": 48000,
+      "bits_per_sample": 16,
+      "channels": 2,
+      "gain_changed": false,
+      "fade_added": false,
+      "rms_dbfs": -14.446275833407656,
+      "peak_dbfs": -0.00026507636037961915,
+      "semantic_lyric_ids": [],
+      "selection_basis": "existing_m29_signal_match_not_return_lyric",
+      "lyric_subtitles_enabled_by_default": false,
+      "direct_auditory_review": false,
+      "boundary_finalized_by_ear": false,
+      "m29_approximate_video_interval_seconds": [
+        532.271,
+        547.271
+      ],
+      "flac_streaminfo_verified": {
+        "sample_rate_hz": 48000,
+        "channels": 2,
+        "bits_per_sample": 16,
+        "samples_per_channel": 720000
+      }
+    }
+  ],
+  "delivery_rules": {
+    "use_user_flac_not_downloaded_lyric_video_audio": true,
+    "preserve_48k_16bit_stereo": true,
+    "do_not_add_unverified_lyric_cues": true,
+    "lyrics_json_modified": false,
+    "sample_audio_normalized": false,
+    "next_boundary_review": "Audition final picture+audio for phrase tails and transitions; current samples are source-backed preview cuts, not ear-approved word timing."
+  }
+}

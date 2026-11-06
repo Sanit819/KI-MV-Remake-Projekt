@@ -1,0 +1,378 @@
+{
+  "reviewed_on": "2026-11-06",
+  "page": "style-tests/v1/index.html",
+  "method": "Independent hidden Edge profile, local file page, media actually played/seeked. Audio output muted by browser switch; no direct listening claimed.",
+  "checks": [
+    {
+      "name": "video count",
+      "actual": 4,
+      "expected": 4,
+      "pass": true
+    },
+    {
+      "name": "audio count",
+      "actual": 3,
+      "expected": 3,
+      "pass": true
+    },
+    {
+      "name": "image loading",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "name": "poster loading",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "name": "durations",
+      "actual": [
+        38.3,
+        14,
+        14,
+        14.3,
+        14.3,
+        10,
+        10
+      ],
+      "expected": [
+        38.3,
+        14,
+        14,
+        14.3,
+        14.3,
+        10,
+        10
+      ],
+      "pass": true
+    },
+    {
+      "name": "desktop overflow",
+      "actual": false,
+      "expected": false,
+      "pass": true
+    },
+    {
+      "name": "media 0 playback advances",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "name": "media 0 no playback error",
+      "actual": null,
+      "expected": null,
+      "pass": true
+    },
+    {
+      "name": "media 0 audio available",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "name": "media 1 playback advances",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "name": "media 1 no playback error",
+      "actual": null,
+      "expected": null,
+      "pass": true
+    },
+    {
+      "name": "media 1 audio available",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "name": "media 2 playback advances",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "name": "media 2 no playback error",
+      "actual": null,
+      "expected": null,
+      "pass": true
+    },
+    {
+      "name": "media 2 audio available",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "name": "media 3 playback advances",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "name": "media 3 no playback error",
+      "actual": null,
+      "expected": null,
+      "pass": true
+    },
+    {
+      "name": "media 3 audio available",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "name": "media 4 playback advances",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "name": "media 4 no playback error",
+      "actual": null,
+      "expected": null,
+      "pass": true
+    },
+    {
+      "name": "media 4 audio available",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "name": "media 5 playback advances",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "name": "media 5 no playback error",
+      "actual": null,
+      "expected": null,
+      "pass": true
+    },
+    {
+      "name": "media 5 audio available",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "name": "media 6 playback advances",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "name": "media 6 no playback error",
+      "actual": null,
+      "expected": null,
+      "pass": true
+    },
+    {
+      "name": "media 6 audio available",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "name": "another video pauses first video",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "name": "audio pauses video",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "name": "video 0 middle seek decoded",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "name": "video 1 middle seek decoded",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "name": "video 2 middle seek decoded",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "name": "video 3 middle seek decoded",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "name": "mobile overflow",
+      "actual": false,
+      "expected": false,
+      "pass": true
+    },
+    {
+      "name": "runtime errors",
+      "actual": 0,
+      "expected": 0,
+      "pass": true
+    }
+  ],
+  "media": [
+    {
+      "index": 0,
+      "tag": "VIDEO",
+      "source": "../../exports/style-tests-v1/00-style-trials-4k60.mp4",
+      "duration": 38.3,
+      "readyState": 4,
+      "paused": false,
+      "time_before": 0,
+      "time_after": 0.352631,
+      "advanced": true,
+      "audio_decoded_bytes": 26099,
+      "video_decoded_frames": 26,
+      "error": null,
+      "capture_error": "SecurityError: Failed to execute 'captureStream' on 'HTMLMediaElement': Cannot capture from element with cross-origin data",
+      "middle_seek": {
+        "target": 19.15,
+        "actual": 19.270982,
+        "width": 3840,
+        "height": 2160,
+        "ready": 4
+      }
+    },
+    {
+      "index": 1,
+      "tag": "VIDEO",
+      "source": "../../exports/style-tests-v1/02-memory-4k60.mp4",
+      "duration": 14,
+      "readyState": 4,
+      "paused": false,
+      "time_before": 0,
+      "time_after": 0.355182,
+      "advanced": true,
+      "audio_decoded_bytes": 26099,
+      "video_decoded_frames": 15,
+      "error": null,
+      "capture_error": "SecurityError: Failed to execute 'captureStream' on 'HTMLMediaElement': Cannot capture from element with cross-origin data",
+      "middle_seek": {
+        "target": 7,
+        "actual": 7.119483,
+        "width": 3840,
+        "height": 2160,
+        "ready": 4
+      }
+    },
+    {
+      "index": 2,
+      "tag": "AUDIO",
+      "source": "../../.cache/style-audio-selections/tewy-red-flower-memory.flac",
+      "duration": 14,
+      "readyState": 4,
+      "paused": false,
+      "time_before": 0,
+      "time_after": 0.327968,
+      "advanced": true,
+      "audio_decoded_bytes": 59156,
+      "video_decoded_frames": null,
+      "error": null,
+      "capture_error": "SecurityError: Failed to execute 'captureStream' on 'HTMLMediaElement': Cannot capture from element with cross-origin data"
+    },
+    {
+      "index": 3,
+      "tag": "VIDEO",
+      "source": "../../exports/style-tests-v1/01-joker-4k60.mp4",
+      "duration": 14.3,
+      "readyState": 4,
+      "paused": false,
+      "time_before": 0,
+      "time_after": 0.355739,
+      "advanced": true,
+      "audio_decoded_bytes": 26323,
+      "video_decoded_frames": 15,
+      "error": null,
+      "capture_error": "SecurityError: Failed to execute 'captureStream' on 'HTMLMediaElement': Cannot capture from element with cross-origin data",
+      "middle_seek": {
+        "target": 7.15,
+        "actual": 7.271044,
+        "width": 3840,
+        "height": 2160,
+        "ready": 4
+      }
+    },
+    {
+      "index": 4,
+      "tag": "AUDIO",
+      "source": "../../.cache/style-audio-selections/tasha-joker-departure.flac",
+      "duration": 14.3,
+      "readyState": 4,
+      "paused": false,
+      "time_before": 0,
+      "time_after": 0.176256,
+      "advanced": true,
+      "audio_decoded_bytes": 52581,
+      "video_decoded_frames": null,
+      "error": null,
+      "capture_error": "SecurityError: Failed to execute 'captureStream' on 'HTMLMediaElement': Cannot capture from element with cross-origin data"
+    },
+    {
+      "index": 5,
+      "tag": "VIDEO",
+      "source": "../../exports/style-tests-v1/03-handover-4k60.mp4",
+      "duration": 10,
+      "readyState": 4,
+      "paused": false,
+      "time_before": 0,
+      "time_after": 0.327832,
+      "advanced": true,
+      "audio_decoded_bytes": 25281,
+      "video_decoded_frames": 15,
+      "error": null,
+      "capture_error": "SecurityError: Failed to execute 'captureStream' on 'HTMLMediaElement': Cannot capture from element with cross-origin data",
+      "middle_seek": {
+        "target": 5,
+        "actual": 5.120293,
+        "width": 3840,
+        "height": 2160,
+        "ready": 4
+      }
+    },
+    {
+      "index": 6,
+      "tag": "AUDIO",
+      "source": "../../.cache/style-audio-selections/moon11-handover.flac",
+      "duration": 10,
+      "readyState": 4,
+      "paused": false,
+      "time_before": 0,
+      "time_after": 0.169151,
+      "advanced": true,
+      "audio_decoded_bytes": 59953,
+      "video_decoded_frames": null,
+      "error": null,
+      "capture_error": "SecurityError: Failed to execute 'captureStream' on 'HTMLMediaElement': Cannot capture from element with cross-origin data"
+    }
+  ],
+  "screenshots": [
+    "desktop.png",
+    "video-0-middle.png",
+    "video-1-middle.png",
+    "video-2-middle.png",
+    "video-3-middle.png",
+    "mobile.png"
+  ],
+  "errors": [],
+  "result": "pass"
+}

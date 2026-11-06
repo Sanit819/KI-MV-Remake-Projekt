@@ -1,0 +1,45 @@
+{
+  "date": "2026-11-06",
+  "user_constraint": "Use actual AC8 game geometry; complete reference confirmation before storyboard drawing. User states no local game installation.",
+  "supplemental_sources": [
+    {
+      "id": "x40-community-database-identification-icon",
+      "page_url": "https://ac8-database.pages.dev/aircraft/x40a/",
+      "source_url": "https://ac8-database.pages.dev/images/aircraft/x40a.webp",
+      "local_file": "references/aircraft/source-assets/x-40/x40-database-identification-icon-256.webp",
+      "bytes": 12000,
+      "sha256": "3a963a98c853137ddcbabf9251b4fcb660b9e787549a41df175a35e24e4ba98f",
+      "dimensions": [
+        256,
+        256
+      ],
+      "observed": "White pixel-stepped identification silhouette. No visible surface structure or calibrated projection.",
+      "source_kind": "community_database_hosted_icon",
+      "approved_as_orthographic_reference": false,
+      "reason": "An image labeled top view is not a detailed measurable orthographic drawing; game extraction provenance was not independently validated."
+    },
+    {
+      "id": "x40-booth-fan-prop-excluded",
+      "page_url": "https://booth.pm/en/items/8966888",
+      "source_kind": "fan_reconstruction",
+      "downloaded": false,
+      "approved_as_game_model": false,
+      "reason": "Author explicitly calls this an X-40-like VRChat prop; 3024 polygons. Cannot substitute for the AC8 model."
+    },
+    {
+      "id": "x40-simpleplanes-fan-model-excluded",
+      "page_url": "https://www.simpleplanes.com/a/HQ45A9/X-40-Nightmare-REX",
+      "source_kind": "fan_reconstruction",
+      "downloaded": false,
+      "approved_as_game_model": false,
+      "reason": "Author-created SimplePlanes model with added gameplay features; neither a source-game mesh nor a verified orthographic set."
+    }
+  ],
+  "unproductive_search_scope": [
+    "X-40 Nightmare 3D / Sketchfab / model download",
+    "X-40 三面図 / 正面 / 設定画",
+    "ACES at WAR 2029 152 X-40",
+    "X-40 Ace Combat 8 ArtStation"
+  ],
+  "scope_note": "These query results did not yield a new verified model or full orthographic set during this check. This is not proof that no such reference exists anywhere."
+}

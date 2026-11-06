@@ -1,0 +1,326 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-06",
+  "aircraft": "X-40 Nightmare",
+  "scope": "Source-derived common-scale reference board only; no original aircraft art or game mesh generated",
+  "source": {
+    "file": "references/aircraft/source-assets/x-40/aaw2029-artsee-mirror-p153.webp",
+    "bytes": 242522,
+    "sha256": "c3fecb6089821776c03c7da34ced1eddb5dbdc650b5a274097351996f657ea5d",
+    "pixels": [
+      1654,
+      2340
+    ]
+  },
+  "source_url": "https://qc.artsee.cc/images/350b75c9-6370-47d8-a03b-defc5ed1840c-00158.webp",
+  "source_publication": "ACES at WAR: A HISTORY 2029, printed page 153",
+  "host_page": "https://www.artsee.cc/collection/584",
+  "official_host": false,
+  "printed_dimensions_m": {
+    "length": 26.9,
+    "span": 22.17,
+    "height_gear_off": 2.94,
+    "height_parked": 4.13
+  },
+  "board_px_per_m": 60.0,
+  "views": {
+    "top": {
+      "crop_xyxy": [
+        105,
+        1090,
+        825,
+        1688
+      ],
+      "polygon_crop_xy": [
+        [
+          105,
+          1090
+        ],
+        [
+          825,
+          1090
+        ],
+        [
+          825,
+          1688
+        ],
+        [
+          735,
+          1688
+        ],
+        [
+          440,
+          1545
+        ],
+        [
+          300,
+          1465
+        ],
+        [
+          105,
+          1420
+        ]
+      ],
+      "calibration": "Nose x121 to aftmost planform x809: 688 px = 26.9 m",
+      "calibration_px": 688,
+      "calibration_m": 26.9,
+      "anchors": {
+        "N": [
+          121,
+          1389
+        ],
+        "AFT": [
+          809,
+          1642
+        ],
+        "W1": [
+          765,
+          1104
+        ],
+        "W2": [
+          767,
+          1672
+        ]
+      },
+      "span_px": 568,
+      "source_px_per_m": 25.576208178438662,
+      "uniform_scale_factor": 2.3459302325581395,
+      "endpoint_uncertainty_px": 3,
+      "board_origin_xy": [
+        182,
+        232
+      ],
+      "resampling": "Pillow affine BICUBIC, identical scalar on x/y; transparent polygon-crop exterior"
+    },
+    "side": {
+      "crop_xyxy": [
+        105,
+        2060,
+        825,
+        2160
+      ],
+      "polygon_crop_xy": null,
+      "calibration": "Nose x128 to aftmost planform x807: 679 px = 26.9 m",
+      "calibration_px": 679,
+      "calibration_m": 26.9,
+      "anchors": {
+        "N": [
+          128,
+          2120
+        ],
+        "AFT": [
+          807,
+          2108
+        ],
+        "HTOP": [
+          351,
+          2072
+        ],
+        "HLOW": [
+          620,
+          2148
+        ]
+      },
+      "height_px": 76,
+      "height_basis": "Visible gear-up side envelope, canopy to lower aft silhouette; projected stores cannot all be separated in this view.",
+      "source_px_per_m": 25.241635687732344,
+      "uniform_scale_factor": 2.377025036818851,
+      "endpoint_uncertainty_px": 3,
+      "board_origin_xy": [
+        165,
+        1850
+      ],
+      "resampling": "Pillow affine BICUBIC, identical scalar on x/y; transparent polygon-crop exterior"
+    },
+    "front": {
+      "crop_xyxy": [
+        230,
+        1948,
+        830,
+        2051
+      ],
+      "polygon_crop_xy": [
+        [
+          230,
+          2008
+        ],
+        [
+          370,
+          1958
+        ],
+        [
+          590,
+          1948
+        ],
+        [
+          830,
+          1948
+        ],
+        [
+          830,
+          2051
+        ],
+        [
+          230,
+          2051
+        ]
+      ],
+      "calibration": "Outer wing tips x245 to x813: 568 px = 22.17 m",
+      "calibration_px": 568,
+      "calibration_m": 22.17,
+      "anchors": {
+        "WL": [
+          245,
+          2016
+        ],
+        "WR": [
+          813,
+          2015
+        ],
+        "HTOP": [
+          529,
+          1961
+        ],
+        "BODYLOW": [
+          586,
+          2037
+        ],
+        "UAVLOW": [
+          665,
+          2038
+        ]
+      },
+      "airframe_height_px": 76,
+      "with_uav_height_px": 77,
+      "height_basis": "Canopy top to distinguishable main nacelle underside. Inner UAV underside is measured separately, approximately one source pixel lower.",
+      "source_px_per_m": 25.62020748759585,
+      "uniform_scale_factor": 2.3419014084507044,
+      "endpoint_uncertainty_px": 3,
+      "board_origin_xy": [
+        350,
+        2264
+      ],
+      "resampling": "Pillow affine BICUBIC, identical scalar on x/y; transparent polygon-crop exterior"
+    }
+  },
+  "metrics": {
+    "top_span_m": 22.20813953488372,
+    "top_span_difference_percent": 0.1720321826058635,
+    "side_height_m": 3.010898379970545,
+    "side_height_difference_percent": 2.411509522807642,
+    "front_airframe_height_m": 2.9664084507042254,
+    "front_airframe_height_difference_percent": 0.8982466225927022,
+    "front_with_uav_height_m": 3.005440140845071,
+    "front_with_uav_height_difference_percent": 2.2258551307847263,
+    "relative_side_to_top_uniform_scale": 1.0132547864506627,
+    "side_minus_front_height_m": 0.04448992926631945
+  },
+  "worst_case_endpoint_only_ranges_m": {
+    "top_span_m": [
+      21.7835734870317,
+      22.64017595307918
+    ],
+    "side_height_m": [
+      2.748905109489051,
+      3.277563150074294
+    ],
+    "front_airframe_height_m": [
+      2.703658536585366,
+      3.2347686832740217
+    ],
+    "front_with_uav_height_m": [
+      2.742282229965157,
+      3.274217081850534
+    ]
+  },
+  "height_check": {
+    "side_includes_nominal_in_reading_range": true,
+    "front_includes_nominal_in_reading_range": true,
+    "side_datum": "canopy y2072 to visible lower aft envelope y2148; stores may overlap the side projection",
+    "front_airframe_datum": "canopy y1961 to distinguishable main nacelle underside y2037",
+    "front_uav_datum": "canopy y1961 to inner UAV underside y2038",
+    "height_was_independent_check_not_calibration": true,
+    "uncertainty_kind": "Worst-case source endpoint reading only; not statistical confidence or publication accuracy"
+  },
+  "operations": [
+    "rectangular crop, original unaltered source retained",
+    "polygon crop only through empty grey gaps to exclude adjacent printed views",
+    "single scalar per view applied identically in x and y",
+    "review labels, dimension lines and height guides on separate board"
+  ],
+  "not_performed": [
+    "anisotropic stretch",
+    "outline repaint",
+    "perspective correction",
+    "hidden-geometry inference",
+    "detached nose three-view reconstruction",
+    "game mesh inspection"
+  ],
+  "outputs": [
+    {
+      "file": "references/aircraft/source-assets/x-40/scale-review/x40-common-scale-reference.png",
+      "bytes": 1925526,
+      "sha256": "602375e5fd5757d0ec70925e74cf162f71f0f8ffaad6d08cf5bcb03b5b919c25",
+      "pixels": [
+        2100,
+        2960
+      ]
+    },
+    {
+      "file": "references/aircraft/source-assets/x-40/scale-review/x40-front-isolated-crop.png",
+      "bytes": 48731,
+      "sha256": "a6368ac412a160340fe49a3170943588613eaea9889175c8f26650977f25dc4e",
+      "pixels": [
+        600,
+        103
+      ]
+    },
+    {
+      "file": "references/aircraft/source-assets/x-40/scale-review/x40-front-source-crop.png",
+      "bytes": 47047,
+      "sha256": "960ef203e9293858019ae17a253dcdecb2395c4ac800086c84285c0ade436b31",
+      "pixels": [
+        600,
+        103
+      ]
+    },
+    {
+      "file": "references/aircraft/source-assets/x-40/scale-review/x40-side-isolated-crop.png",
+      "bytes": 54067,
+      "sha256": "85445dfe9ef465b06e17daf77926d4b92dcdb8254f44592523434b02d47d5eee",
+      "pixels": [
+        720,
+        100
+      ]
+    },
+    {
+      "file": "references/aircraft/source-assets/x-40/scale-review/x40-side-source-crop.png",
+      "bytes": 51853,
+      "sha256": "799245f534283caf477c34fe1ae5499a8cbb1d323d4a740a42c88537c1886607",
+      "pixels": [
+        720,
+        100
+      ]
+    },
+    {
+      "file": "references/aircraft/source-assets/x-40/scale-review/x40-top-isolated-crop.png",
+      "bytes": 350261,
+      "sha256": "eff2dc5ed5c790b80b84057e2d1648f7237dbde1261e7e6324289ab0ea68df8f",
+      "pixels": [
+        720,
+        598
+      ]
+    },
+    {
+      "file": "references/aircraft/source-assets/x-40/scale-review/x40-top-source-crop.png",
+      "bytes": 340229,
+      "sha256": "0452b304f3aa143625b8326912fee9452663d5fbc8749affa8f4a3f002094b21",
+      "pixels": [
+        720,
+        598
+      ]
+    }
+  ],
+  "original_source_sha256_after": "c3fecb6089821776c03c7da34ced1eddb5dbdc650b5a274097351996f657ea5d",
+  "result": "Common-scale source board usable with scan/height/stores limitations; not finished drawing approval"
+}

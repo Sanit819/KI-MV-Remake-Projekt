@@ -5,7 +5,7 @@
     {
       "id": "FA18F",
       "model": "F/A-18F Super Hornet",
-      "reference_status": "exact_top_side_and_shared_front_candidate",
+      "reference_status": "conditional_scale_reviewed_f_top_side_shared_front_baseline",
       "reference_manifest": "WESTERN_SOURCES.json",
       "source_ids": [
         "fa18f-usace-2013-two-views",
@@ -29,7 +29,10 @@
         "side",
         "front"
       ],
-      "note": "Cope/Rex early shared aircraft. Official F top/side and E/F common front candidate acquired; scale/version/game-shape crosscheck pending. Geometry not approved."
+      "note": "Cope/Rex early shared aircraft. Exact F top/side scale reviewed; Bahner E/F front supplies conditional layout reference with distinct stores-envelope limits. Old USAF front is secondary due height/span mismatch. First HRA-007 composition needs canopy, fin and framing corrections; line art/camera geometry remain unapproved.",
+      "reference_review_manifest": "FA18F_SCALE_REVIEW.json",
+      "reference_review_report": "FA18F_SCALE_REVIEW.md",
+      "first_composition_review": "../../storyboard/drawings-v1/FA18F_FIRST_FRAME_REVIEW.json"
     },
     {
       "id": "FA18C",
@@ -70,7 +73,7 @@
     {
       "id": "SU57",
       "model": "Su-57 Felon / Toprak 022",
-      "reference_status": "prototype_not_equivalent",
+      "reference_status": "source_traced_game_crosschecked_outline_baseline",
       "reference_manifest": "EASTERN_FICTIONAL_SOURCES.json",
       "source_ids": [
         "su57-t50-historical-orthographic",
@@ -97,12 +100,15 @@
         "side",
         "front"
       ],
-      "note": "Official AC8 top icon added. Compare historical T-50 references with actual game geometry; do not assume latest real production model is the target."
+      "note": "Patent-traced common-source orthographics are internally scale-consistent; major visible AC8/022 structures crosschecked. Usable outline baseline, not certification of latest real production version. Hidden belly/gear/sensor and nozzle-state close-ups remain limited; drawing/livery unapproved.",
+      "reference_review_manifest": "SU57_GAME_GEOMETRY_SOURCES.json",
+      "reference_review_report": "SU57_GAME_GEOMETRY_REVIEW.md",
+      "reference_version": "SU57-AC8-BASE-REF-v1"
     },
     {
       "id": "X40",
       "model": "X-40 / Moon 11 intact",
-      "reference_status": "perspectives_only",
+      "reference_status": "official_publication_multiview_scale_reviewed_baseline",
       "reference_manifest": "EASTERN_FICTIONAL_SOURCES.json",
       "source_ids": [
         "x40-m28-0291.5-side-perspective",
@@ -123,12 +129,15 @@
         "side",
         "front"
       ],
-      "note": "Intact top/side/front orthographics missing; original obliques cannot be stretched into orthographics."
+      "note": "AAW2029 printed p153 top/bottom/front/side acquired via attributed third-party scan, uniformly scaled and compared with major game structures. Intact-airframe baseline usable; actual drawing, livery and shot geometry remain unapproved.",
+      "reference_review_manifest": "X40_GEOMETRY_SOURCES.json",
+      "reference_review_report": "X40_GEOMETRY_REVIEW.md",
+      "reference_scale_manifest": "X40_SCALE_REVIEW.json"
     },
     {
       "id": "X40_NOSE",
       "model": "X-40 separated nose unit",
-      "reference_status": "perspectives_only",
+      "reference_status": "dimensions_and_visible_surface_constraints_partial_independent_geometry",
       "reference_manifest": "EASTERN_FICTIONAL_SOURCES.json",
       "source_ids": [
         "x40-m29-0544-nose-separation",
@@ -145,7 +154,9 @@
         "side",
         "front"
       ],
-      "note": "Independent damaged asset; flames and wreckage are not normal geometry."
+      "note": "Independent damaged asset. Publication gives nose-unit dimensions and separated perspective; combined views constrain visible nose surfaces. Independent rear/interface/occluded belly geometry is incomplete. Removing the lower wing does not create complete nose-only orthographics; flames/wreckage are not normal geometry.",
+      "reference_review_manifest": "X40_GEOMETRY_SOURCES.json",
+      "reference_review_report": "X40_GEOMETRY_REVIEW.md"
     },
     {
       "id": "RAFALEM",

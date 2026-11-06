@@ -1,0 +1,192 @@
+{
+  "schema_version": 1,
+  "reviewed_on": "2026-11-06",
+  "review_scope": "Independent actual-image QA for identity, gross anatomy, scene boundaries and broad style/composition. Acceptance is only for showing style trials to the user, not final art or precise geometry certification.",
+  "overall_decision": "all_three_reviewable_with_notes",
+  "user_adoption_status": "pending_user_decision",
+  "final_style_match_claimed": false,
+  "overall_findings": [
+    "三张可作为有原曲试听的风格审阅草图；未见需要先挡下展示的错误。",
+    "01与02更偏写实叙事插画，01尤其接近电影/3D质感；03厚涂云层更明显。",
+    "三张均落实了环绕构图，但用户参考里的细线、概括明暗与轻盈角色比例只部分达到；不能把写实细节多直接等同于参考风格。",
+    "官方身份的主要辨识点保持。后续定稿仍需校回夹克材质、袖章/胸贴、纹身与衣领装饰。",
+    "03为单只Tewy右手手背，没有Rex/握手/实体救援。"
+  ],
+  "images": [
+    {
+      "file": "01-joker.png",
+      "decision": "reviewable_with_notes",
+      "identity": "Baxter、Tasha、Coster可辨；三人并非把同一张脸换发色。Tasha金根粉短发/银夹克/粉表，Baxter平头/眼镜/胡须，Coster刘海/胡须/灰T与部分纹身均保留。",
+      "anatomy": "对话手势、指书手和持播放器手未见明显多指或断接；相互遮挡处不作逐骨骼保证。",
+      "scene": "Baxter仍在世的舰上学习/休息关系成立；没有额外第四人、飞机、死后同场或浪漫关系暗示。画面是原创舰内空间，不能作为Endurance具体舱室复原。",
+      "style": "三张中最偏电影写实/3D宣传图质感。皮肤毛孔、金属反光和皮革/银衣微纹理很强，细线与概括的赛璐璐明暗不够主导。",
+      "composition": "圆角窗/顶管拱线形成环绕，书本→二人目光→右后Coster的层次清楚。Tasha是此镜重心，但Baxter也占显著重量；这一镜未覆盖五人不能单独视为全片权重失衡。",
+      "issues": [
+        {
+          "severity": "medium",
+          "kind": "style",
+          "detail": "写实材质压过用户参考的清晰线条和大色块；若用户要更明确的日系绘画感，需要减少皮肤/衣料微纹理，增大可读阴影形状。"
+        },
+        {
+          "severity": "medium",
+          "kind": "costume",
+          "detail": "Baxter黑夹克显得像强磨损皮革，官网更接近平滑飞行夹克材质。"
+        },
+        {
+          "severity": "minor",
+          "kind": "identity_detail",
+          "detail": "Tasha的VISITOR胸贴未清晰保留；Coster左前臂的大型剑/放射纹样不清晰，当前只明显保留右臂马形与上臂条纹。定稿时核回，草图不因此拦截。"
+        }
+      ],
+      "recommended_next": "保留人物关系和环绕舱体构图，交用户判断是否喜欢这种写实倾向；不要宣称已达参考画风。",
+      "path": "style-tests/v1/01-joker.png",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "sha256": "0504cdc7fa712719e554d847f54fbc36ceaaf79bcf8cdd618a3947b57e7b45b9",
+      "accepted_for_style_review": true,
+      "production_art_approved": false,
+      "blocking_issues": []
+    },
+    {
+      "file": "02-memory.png",
+      "decision": "reviewable_with_notes",
+      "identity": "深色后梳发、成熟脸、强眉与白金高领能联系到Tewy的出版物无墨镜脸/制服。只有头颈，未暗示她在既定轮椅阶段站立。",
+      "anatomy": "眼鼻颏、耳与颈部关系未见明显结构性异常。画面背侧头发被裁断，不能凭此确定完整发长。",
+      "scene": "红花与人物视线相连，浅白盆明显宽而浅，较前构图稿的深碗问题已解决。是窗/山谷/巨幅人物的诗性叠化，非与Cope相见或新增实际地点；破裂釉面和枝蔓属于创作意象。",
+      "style": "成熟叙事插画，脸部仍偏写实，但背景与枝叶有更明确的绘画笔触。比01更接近概括的冷暖色块，仍不等于用户参考的细线角色插画。",
+      "composition": "枝条从边缘包围但未遮眼，红花为唯一高饱和焦点；脸→花轴线清楚，阴郁环境与细金边符合记忆意境。",
+      "issues": [
+        {
+          "severity": "minor",
+          "kind": "costume",
+          "detail": "高领增加了较密的金色菱纹/织锦感，官方设计的领部线条与纹样需在最终设定校回。"
+        },
+        {
+          "severity": "minor",
+          "kind": "scene_boundary",
+          "detail": "大幅Tewy肖像与山谷组合应在片中保持记忆/叠化语法，不能剪成她真实站在这个窗边的全身连续动作。"
+        },
+        {
+          "severity": "minor",
+          "kind": "style",
+          "detail": "皮肤体积和面部细节仍偏写实；若统一向细线厚涂，应与01同步收敛材质。"
+        }
+      ],
+      "recommended_next": "可作为记忆段的构图和色调样本；保留浅盆与红花，衣领细节后续精修。",
+      "path": "style-tests/v1/02-memory.png",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "sha256": "2dbad843b06b97bd4fcd1ed65f0e84b7c3ed0b72bc70d68ca9b0bd0723533f8b",
+      "accepted_for_style_review": true,
+      "production_art_approved": false,
+      "blocking_issues": []
+    },
+    {
+      "file": "03-handover.png",
+      "decision": "reviewable_with_notes",
+      "identity": "主体是Tewy右手的手背特写：拇指在画面左侧、总计五指，白技术手套/压力袖、红线与金属腕锁。与M29 592秒实录的基本朝向和装备吻合。没有Rex、第二只手或握手。",
+      "anatomy": "五指分离与手背/拇指根/腕部连接可读，未见阻断级手部错位；手掌显得较强健和有力，虚弱感主要靠气氛而非肌肉姿态。",
+      "scene": "未把白礼服袖口套进驾驶状态，也未增加两人实体接触。背景大幅替换为旋转云层与金光，只能作为主观诗性转绘；不是原作倾斜城市背景的忠实复原。",
+      "style": "三张里云层最有厚涂笔触，细轮廓与衣褶较清楚；仍带写实的布纹和金属高光，但整体绘画感强于01。",
+      "composition": "前臂斜线引向亮处，云带完成环绕；上方光口带希望感，存在被读为升天/凯旋的可能，剪辑与歌词需要维持临终托付语境。",
+      "issues": [
+        {
+          "severity": "minor",
+          "kind": "emotion",
+          "detail": "张开的手和集中日光偏主动、壮丽，弱化了实录中失力/濒危感；后续可收紧光口、降低高光面积，手指略松。"
+        },
+        {
+          "severity": "minor",
+          "kind": "scene_boundary",
+          "detail": "没有城市/机首上下文时身份和情境只靠前后镜成立；此图不可独立标为原作场景复原。"
+        },
+        {
+          "severity": "minor",
+          "kind": "prop_detail",
+          "detail": "腕锁细节在图中被锐化展开；可作风格草图，不能据此给全部压力服接口建立精确设计。"
+        }
+      ],
+      "recommended_next": "可直接纳入风格试片；注明是单手托付意象，不是握手或Rex接住她。",
+      "path": "style-tests/v1/03-handover.png",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "sha256": "6f0bf33f2bdbd6ab884fd5527e43d4ff26f6e1b4f7030502523e5fc0e2ecb17a",
+      "accepted_for_style_review": true,
+      "production_art_approved": false,
+      "blocking_issues": []
+    },
+    {
+      "file": "01-joker-v2.png",
+      "path": "style-tests/v1/01-joker-v2.png",
+      "revision_of": "01-joker.png",
+      "reviewed_on": "2026-11-06",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "sha256": "c10bfa905e3786905f9544ab34c77eef481c84de7127abceb773288618a3b2a1",
+      "decision": "reviewable_preferred_revision",
+      "accepted_for_style_review": true,
+      "production_art_approved": false,
+      "blocking_issues": [],
+      "identity": "三位人物辨识保留，Baxter深肤平头/眼镜胡须、Tasha金根粉短发/粉表吊牌、Coster长刘海/胡须/灰T均连续。没有新增人物或错误身份。",
+      "anatomy": "对话手势、指书动作和持播放器动作保持；未见新增多指、手腕倒接或断肢等阻断错误。",
+      "scene": "与v1同一舰上学习/休息空间和同伴关系，Baxter在世阶段成立。环绕窗框/顶管与书本到脸部的视线结构保留。",
+      "style": "已明显转为手绘二维叙事插画：面部与手部用可读色面，深蓝/紫红轮廓线、头发线束、大片赛璐璐明暗清楚；不再只是写实图覆纸纹。比v1更接近细线、概括明暗与绘画高光的要求。部分外轮廓仍略厚、材质细节仍较密，可由用户决定是否继续简化。",
+      "resolved_from_v1": [
+        "Tasha胸前补回黑底倒置VISITOR胸贴，方向符合官网参考。",
+        "Baxter夹克已变为布质飞行夹克的宽面褶皱，不再以破裂皮革噪点为主。",
+        "Tasha银白外套不再像强烈镜面金属，使用较清楚的缎布明暗块。",
+        "皮肤写实微纹理减少，眼鼻和手的线条/色块更明确。"
+      ],
+      "issues": [
+        {
+          "severity": "minor",
+          "kind": "identity_detail",
+          "detail": "Coster左前臂的大型剑/放射纹身仍未清晰保留；右前臂马形与上臂条纹可见。正式原画需按设定页补回。"
+        },
+        {
+          "severity": "minor",
+          "kind": "set_consistency",
+          "detail": "与目前02-memory的写实脸部、03-handover的厚涂云层仍有媒介差异；当前为风格比较样片可以并置，采纳后再统一，不应宣称三镜已全片风格定稿。"
+        }
+      ],
+      "recommended_next": "主试片优先采用v2；保留v1供比较，让用户决定是否采纳这个更明确的二维方向。"
+    }
+  ],
+  "evidence": [
+    "style-tests/v1/01-joker.prompt.txt",
+    "style-tests/v1/02-memory.prompt.txt",
+    "style-tests/v1/03-handover.prompt.txt",
+    "references/characters/JOKER_OFFICIAL_VISUALS.json",
+    "references/characters/JOKER_PUBLICATION_SUPPLEMENT.json",
+    "references/characters/QUEEN_SHADOWS_OFFICIAL_VISUALS.json",
+    "references/characters/source-assets/carmille-tewy/aaw2029-p182-artsee.webp",
+    "references/characters/source-assets/carmille-tewy/m29-BV19TaZ6vE5K-0592s-hand.png",
+    "references/characters/source-assets/carmille-tewy/m29-BV19TaZ6vE5K-0600s-handover-context.png",
+    "references/style/source-assets/user-reference-01.png",
+    "references/style/source-assets/user-reference-02.png",
+    "references/style/source-assets/user-reference-03.png",
+    "references/style/source-assets/user-reference-04.png",
+    "style-tests/v1/01-joker-v2.prompt.txt"
+  ],
+  "method": "Used view_image on all three final samples, all four user style references, the Tewy book page and M29 evidence frames; prior official Joker references were already actually inspected. No image edits performed.",
+  "latest_review_summary": {
+    "preferred_joker_sample": "style-tests/v1/01-joker-v2.png",
+    "active_preview_samples": [
+      "style-tests/v1/01-joker-v2.png",
+      "style-tests/v1/02-memory.png",
+      "style-tests/v1/03-handover.png"
+    ],
+    "decision": "all_active_samples_reviewable_with_notes",
+    "v2_change": "明确二维线稿/赛璐璐色块已落实，VISITOR与Baxter布夹克修正通过；建议作为主Joker风格样图。",
+    "user_adoption_status": "pending_user_decision",
+    "previous_review_preserved": true
+  }
+}

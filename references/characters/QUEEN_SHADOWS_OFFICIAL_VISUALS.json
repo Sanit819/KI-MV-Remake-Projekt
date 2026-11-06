@@ -1,0 +1,375 @@
+{
+  "schema_version": 1,
+  "reviewed_on": "2026-11-06",
+  "scope": "Official visual references for Kate Evans, Carmille Tewy and Girish Toprak; no fan art used and no new character art generated",
+  "characters": {
+    "kate-evans": {
+      "canonical_website_name": "Kate Evans",
+      "publication_name": "Katherine Evans",
+      "role_scope": "Queen Flight leader; name and role from official character pages",
+      "visible_identity": [
+        "Dark nearly black hair, straight fringe, hair gathered in a low braided bun; side locks visible.",
+        "Official full render: black long-sleeved top, white shoulder/chest and forearm tape/bandage shapes, two dog tags, olive flight-suit upper half tied at waist, olive flight trousers, dark boots.",
+        "Official helmet: white shell, yellow lower side, black angular graphics and bee emblem; separate oxygen mask and visor.",
+        "Book page adds face/profile expressions, rear hair, rear rest outfit and equipped olive flight outfit."
+      ],
+      "stage_boundary": "Distinguish off-duty/rest outfit from equipped flight outfit; no exact mission number inferred from the publicity render. Do not apply the white tape arrangement to every story stage automatically.",
+      "unresolved": [
+        "Exact eye colour under neutral light",
+        "Damage/tape progression by mission",
+        "Hidden equipment side and precise insignia lettering at this scan resolution"
+      ]
+    },
+    "carmille-tewy": {
+      "canonical_website_name": "Carmille Tewy",
+      "role_scope": "Lux Lunae commander in official character page; Moon 11 identity comes from separately recorded game HUD, not the character render filename",
+      "visible_identity": [
+        "Official render: white peaked cap with gold emblem and trim, dark visor, black sunglasses, dark hair visible at temples.",
+        "White high-collar double-breasted uniform, gold cords/buttons/trim, red chest strap, white gloves, long lower coat panels, black boots and ornamented sheathed blade at waist/lap.",
+        "White enclosed-wheel mobility chair with large covered side wheels, small front wheels, arm supports and footplate.",
+        "Book page adds uncovered face/head designs, standing front/back costume design, headgear back cloth, white pressure-suit concept, chair and blade details."
+      ],
+      "stage_boundary": "Seated commander appearance is directly supported by website render. Standing costume turnaround is design reference, not proof of walking ability in this stage. Pressure-suit concept is official-publication art; its exact mission association is not independently verified here.",
+      "unresolved": [
+        "Rendered uncovered eye/face match beyond the book concept",
+        "Pressure-suit mission/state correspondence",
+        "Exact injury and mobility depiction per shot",
+        "Tiny medal and hardware details"
+      ]
+    },
+    "girish-toprak": {
+      "canonical_website_name": "Girish Toprak",
+      "role_scope": "Tewy subordinate / Sotoa ace per official character page; Shadow 22/Ares identity uses project separate gameplay/community evidence",
+      "visible_identity": [
+        "Silver/grey-white swept-back short hair is explicit in book uncovered-head designs; the official cap shadow must not be misread as black hair.",
+        "Narrow dark moustache, pronounced sideburns, small dark patch below lower lip in the render; mature angular face.",
+        "Black peaked cap with pale metallic emblem and gold trim, black high-collared dress uniform and long cape, gold cords/trim, white shirt and dark tie, black gloves, decorated broad belt and curved sheathed blade.",
+        "Book page adds facial profiles, rear cape, costume and accessories; no full flight suit/helmet set collected here."
+      ],
+      "stage_boundary": "Official formal ground/command outfit, not automatically cockpit flight gear. Silver hair visible outside cap must remain consistent.",
+      "unresolved": [
+        "Task-specific flight suit and oxygen mask",
+        "Precise medal/rank interpretation",
+        "Hidden full cape fastening and gear side"
+      ]
+    }
+  },
+  "assets": [
+    {
+      "character": "kate-evans",
+      "path": "references/characters/source-assets/kate-evans/official-jp-full.webp",
+      "url": "https://enso-order.acecombat.jp/assets/img/character/chara_5.webp",
+      "bytes": 324754,
+      "sha256": "374f5d50ebe0674927b90875d8cad0c03aebba0791edec4e7dfe9a57b6dd58d3",
+      "pixels": [
+        2050,
+        4730
+      ],
+      "retrieved_on": "2026-11-06",
+      "actual_image_viewed": true,
+      "image_mode": "RGBA",
+      "original_bytes_retained": true,
+      "edited": false,
+      "license": "No open redistribution licence verified; Bandai Namco / PROJECT ACES copyrighted reference. Preserve attribution; local visual research reference.",
+      "source_kind": "official_website_character_render",
+      "host_is_official": true,
+      "source_page": "https://enso-order.acecombat.jp/character/",
+      "discovery": "Public HTML data-character 5/9/10 and public project.js modal chara_${id}.webp mapping",
+      "stage": "Kate: rest/partial flight outfit; Tewy: seated commander dress; Toprak: formal ground dress",
+      "coverage": "High-resolution near-full-body official render, face/headgear, visible costume and equipment; one oblique view",
+      "limitations": "No rear view; exact mission not specified; dark lighting/headgear can hide hair/eyes"
+    },
+    {
+      "character": "carmille-tewy",
+      "path": "references/characters/source-assets/carmille-tewy/official-jp-full.webp",
+      "url": "https://enso-order.acecombat.jp/assets/img/character/chara_9.webp",
+      "bytes": 254202,
+      "sha256": "ac7eaa93afc62b5c1dc746ca0b1c786c70f082f67ff39201a71e44abf9aa3598",
+      "pixels": [
+        2050,
+        3200
+      ],
+      "retrieved_on": "2026-11-06",
+      "actual_image_viewed": true,
+      "image_mode": "RGBA",
+      "original_bytes_retained": true,
+      "edited": false,
+      "license": "No open redistribution licence verified; Bandai Namco / PROJECT ACES copyrighted reference. Preserve attribution; local visual research reference.",
+      "source_kind": "official_website_character_render",
+      "host_is_official": true,
+      "source_page": "https://enso-order.acecombat.jp/character/",
+      "discovery": "Public HTML data-character 5/9/10 and public project.js modal chara_${id}.webp mapping",
+      "stage": "Kate: rest/partial flight outfit; Tewy: seated commander dress; Toprak: formal ground dress",
+      "coverage": "High-resolution near-full-body official render, face/headgear, visible costume and equipment; one oblique view",
+      "limitations": "No rear view; exact mission not specified; dark lighting/headgear can hide hair/eyes"
+    },
+    {
+      "character": "girish-toprak",
+      "path": "references/characters/source-assets/girish-toprak/official-jp-full.webp",
+      "url": "https://enso-order.acecombat.jp/assets/img/character/chara_10.webp",
+      "bytes": 373018,
+      "sha256": "0ac736fd045ec5f35dfc9e72b7a10db1a7f3f3920ea64e66c6041dfc4c0f3010",
+      "pixels": [
+        2050,
+        4730
+      ],
+      "retrieved_on": "2026-11-06",
+      "actual_image_viewed": true,
+      "image_mode": "RGBA",
+      "original_bytes_retained": true,
+      "edited": false,
+      "license": "No open redistribution licence verified; Bandai Namco / PROJECT ACES copyrighted reference. Preserve attribution; local visual research reference.",
+      "source_kind": "official_website_character_render",
+      "host_is_official": true,
+      "source_page": "https://enso-order.acecombat.jp/character/",
+      "discovery": "Public HTML data-character 5/9/10 and public project.js modal chara_${id}.webp mapping",
+      "stage": "Kate: rest/partial flight outfit; Tewy: seated commander dress; Toprak: formal ground dress",
+      "coverage": "High-resolution near-full-body official render, face/headgear, visible costume and equipment; one oblique view",
+      "limitations": "No rear view; exact mission not specified; dark lighting/headgear can hide hair/eyes"
+    },
+    {
+      "character": "kate-evans",
+      "path": "references/characters/source-assets/kate-evans/official-eu-scene.jpg",
+      "url": "https://static.bandainamcoent.eu/high/ace-combat/ace-combat-8/03-characters/screenshots/screenshot-kate-evans.jpg",
+      "bytes": 229725,
+      "sha256": "23392412a6a196240e80b6095533dc7d64bb989e051627d47012aa6f2ba95144",
+      "pixels": [
+        1280,
+        720
+      ],
+      "retrieved_on": "2026-11-06",
+      "actual_image_viewed": true,
+      "image_mode": "RGB",
+      "original_bytes_retained": true,
+      "edited": false,
+      "license": "No open redistribution licence verified; Bandai Namco / PROJECT ACES copyrighted reference. Preserve attribution; local visual research reference.",
+      "source_kind": "official_website_character_gallery",
+      "host_is_official": true,
+      "source_page": "https://en.bandainamcoent.eu/ace-combat/ace-combat-8-wings-of-theve/characters/kate-evans",
+      "stage": "Character publicity gallery; exact mission not assigned",
+      "coverage": "Kate side-profile in ship interior",
+      "limitations": "1280x720; scene uses warm light; helmet shows only one oblique angle"
+    },
+    {
+      "character": "kate-evans",
+      "path": "references/characters/source-assets/kate-evans/official-eu-helmet.jpg",
+      "url": "https://static.bandainamcoent.eu/high/ace-combat/ace-combat-8/03-characters/screenshots/evans-helmet.jpg",
+      "bytes": 49202,
+      "sha256": "7e83add642b453c70d7e71bddff1c3cbda2a41b58f23c7758dd0d38dc72a4074",
+      "pixels": [
+        1280,
+        720
+      ],
+      "retrieved_on": "2026-11-06",
+      "actual_image_viewed": true,
+      "image_mode": "RGB",
+      "original_bytes_retained": true,
+      "edited": false,
+      "license": "No open redistribution licence verified; Bandai Namco / PROJECT ACES copyrighted reference. Preserve attribution; local visual research reference.",
+      "source_kind": "official_website_character_gallery",
+      "host_is_official": true,
+      "source_page": "https://en.bandainamcoent.eu/ace-combat/ace-combat-8-wings-of-theve/characters/kate-evans",
+      "stage": "Character publicity gallery; exact mission not assigned",
+      "coverage": "Kate dedicated white/yellow/black flight helmet, visor and mask oblique view",
+      "limitations": "1280x720; scene uses warm light; helmet shows only one oblique angle"
+    },
+    {
+      "character": "kate-evans",
+      "path": "references/characters/source-assets/kate-evans/aaw2029-p178-artsee.webp",
+      "url": "https://qc.artsee.cc/images/f34756b3-e9e3-4ff9-9e87-73eddef69b82-00183.webp",
+      "bytes": 229962,
+      "sha256": "0e4d5bdce3ce011ce7e759e5f1493270b920a1190df284ef5a5b398d7c6a4b89",
+      "pixels": [
+        1654,
+        2340
+      ],
+      "reader_index": 183,
+      "printed_page": 178,
+      "source_kind": "official_publication_third_party_scan",
+      "host_is_official": false,
+      "retrieved_on": "2026-11-06",
+      "actual_image_viewed": true,
+      "image_mode": "RGB",
+      "original_bytes_retained": true,
+      "edited": false,
+      "license": "No open redistribution licence verified; Bandai Namco / PROJECT ACES copyrighted reference. Preserve attribution; local visual research reference.",
+      "source_page": "https://www.artsee.cc/collection/584",
+      "original_publication": "ACES at WAR A HISTORY 2029",
+      "official_publication_reference": "https://store.bandainamcoent.com/games/ace-combat/ace-combat-8/joker-flight-pack",
+      "stage": "Official publication character concept/render sheet; mixed costumes/design views, not one chronological moment",
+      "coverage": "Multiple face/costume/equipment views; scanned page at 1654x2340; small print and minute emblems are limited",
+      "limitations": "Third-party scan hosting; publication provenance distinguished from official server hosting. Standing costume drawings do not establish story-stage ability or action."
+    },
+    {
+      "character": "carmille-tewy",
+      "path": "references/characters/source-assets/carmille-tewy/aaw2029-p182-artsee.webp",
+      "url": "https://qc.artsee.cc/images/8dbe1f56-45f2-478f-bbd3-e6bf4b553179-00187.webp",
+      "bytes": 271006,
+      "sha256": "c75e7ce6b2713971ca24028b23649074f38ada7dda501bced95bc71a63dc1cb8",
+      "pixels": [
+        1654,
+        2340
+      ],
+      "reader_index": 187,
+      "printed_page": 182,
+      "source_kind": "official_publication_third_party_scan",
+      "host_is_official": false,
+      "retrieved_on": "2026-11-06",
+      "actual_image_viewed": true,
+      "image_mode": "RGB",
+      "original_bytes_retained": true,
+      "edited": false,
+      "license": "No open redistribution licence verified; Bandai Namco / PROJECT ACES copyrighted reference. Preserve attribution; local visual research reference.",
+      "source_page": "https://www.artsee.cc/collection/584",
+      "original_publication": "ACES at WAR A HISTORY 2029",
+      "official_publication_reference": "https://store.bandainamcoent.com/games/ace-combat/ace-combat-8/joker-flight-pack",
+      "stage": "Official publication character concept/render sheet; mixed costumes/design views, not one chronological moment",
+      "coverage": "Multiple face/costume/equipment views; scanned page at 1654x2340; small print and minute emblems are limited",
+      "limitations": "Third-party scan hosting; publication provenance distinguished from official server hosting. Standing costume drawings do not establish story-stage ability or action."
+    },
+    {
+      "character": "girish-toprak",
+      "path": "references/characters/source-assets/girish-toprak/aaw2029-p183-artsee.webp",
+      "url": "https://qc.artsee.cc/images/1b9cb18b-9d2e-4189-b55a-fb384bc5eaf6-00188.webp",
+      "bytes": 215212,
+      "sha256": "b17e42f6ff5138aa427e086e896674c73a8b15b020beb8e69ecc6e5da0572c2f",
+      "pixels": [
+        1654,
+        2340
+      ],
+      "reader_index": 188,
+      "printed_page": 183,
+      "source_kind": "official_publication_third_party_scan",
+      "host_is_official": false,
+      "retrieved_on": "2026-11-06",
+      "actual_image_viewed": true,
+      "image_mode": "RGB",
+      "original_bytes_retained": true,
+      "edited": false,
+      "license": "No open redistribution licence verified; Bandai Namco / PROJECT ACES copyrighted reference. Preserve attribution; local visual research reference.",
+      "source_page": "https://www.artsee.cc/collection/584",
+      "original_publication": "ACES at WAR A HISTORY 2029",
+      "official_publication_reference": "https://store.bandainamcoent.com/games/ace-combat/ace-combat-8/joker-flight-pack",
+      "stage": "Official publication character concept/render sheet; mixed costumes/design views, not one chronological moment",
+      "coverage": "Multiple face/costume/equipment views; scanned page at 1654x2340; small print and minute emblems are limited",
+      "limitations": "Third-party scan hosting; publication provenance distinguished from official server hosting. Standing costume drawings do not establish story-stage ability or action."
+    },
+    {
+      "character": "carmille-tewy",
+      "path": "references/characters/source-assets/carmille-tewy/m29-BV19TaZ6vE5K-0584s-hand.png",
+      "url": "https://www.bilibili.com/video/BV19TaZ6vE5K/",
+      "time_seconds": 584,
+      "source_kind": "community_gameplay_recording_of_game_cutscene",
+      "host_is_official": false,
+      "source_page": "https://www.bilibili.com/video/BV19TaZ6vE5K/",
+      "retrieved_on": "2026-11-06",
+      "bytes": 223440,
+      "sha256": "9ec10950eecd4238474566b677084f98ad827bba9a653b03baf46970801286dd",
+      "pixels": [
+        852,
+        480
+      ],
+      "actual_image_viewed": true,
+      "original_bytes_retained": true,
+      "edited": false,
+      "stage": "M29 final handover cutscene, pressure-suit right sleeve and glove; distinct from formal white uniform",
+      "coverage": "White glove, red piping on white pressure sleeve, metallic wrist clasp; hand lifting into tilted city/sky view",
+      "limitations": "852x480 public video frame, uploader watermark/subtitles preserved; no face or frontal helmet in these frames; no live physical transfer of hands is shown",
+      "license": "Game imagery retained as local reference, uploader source attributed; no open redistribution licence verified",
+      "video_source_sha256": "b0dc80e767330c4bdf4409df36d0f3877eaa628b514b78d8e92254b8abaa949b"
+    },
+    {
+      "character": "carmille-tewy",
+      "path": "references/characters/source-assets/carmille-tewy/m29-BV19TaZ6vE5K-0592s-hand.png",
+      "url": "https://www.bilibili.com/video/BV19TaZ6vE5K/",
+      "time_seconds": 592,
+      "source_kind": "community_gameplay_recording_of_game_cutscene",
+      "host_is_official": false,
+      "source_page": "https://www.bilibili.com/video/BV19TaZ6vE5K/",
+      "retrieved_on": "2026-11-06",
+      "bytes": 280929,
+      "sha256": "5f60e2335c2214d3f15b65c7b5956fc512bc38d731817e50891fbd4fe7b4781c",
+      "pixels": [
+        852,
+        480
+      ],
+      "actual_image_viewed": true,
+      "original_bytes_retained": true,
+      "edited": false,
+      "stage": "M29 final handover cutscene, pressure-suit right sleeve and glove; distinct from formal white uniform",
+      "coverage": "White glove, red piping on white pressure sleeve, metallic wrist clasp; hand lifting into tilted city/sky view",
+      "limitations": "852x480 public video frame, uploader watermark/subtitles preserved; no face or frontal helmet in these frames; no live physical transfer of hands is shown",
+      "license": "Game imagery retained as local reference, uploader source attributed; no open redistribution licence verified",
+      "video_source_sha256": "b0dc80e767330c4bdf4409df36d0f3877eaa628b514b78d8e92254b8abaa949b"
+    },
+    {
+      "character": "carmille-tewy",
+      "path": "references/characters/source-assets/carmille-tewy/m29-BV19TaZ6vE5K-0600s-handover-context.png",
+      "url": "https://www.bilibili.com/video/BV19TaZ6vE5K/",
+      "time_seconds": 600,
+      "source_kind": "community_gameplay_recording_of_game_cutscene",
+      "host_is_official": false,
+      "source_page": "https://www.bilibili.com/video/BV19TaZ6vE5K/",
+      "retrieved_on": "2026-11-06",
+      "bytes": 360180,
+      "sha256": "fb2bd03ab0852f70dfda439357f07960d6cea7cafc730e8097e20a60056bdbea",
+      "pixels": [
+        852,
+        480
+      ],
+      "actual_image_viewed": true,
+      "original_bytes_retained": true,
+      "edited": false,
+      "stage": "M29 final handover cutscene, burning separated nose-unit exterior",
+      "coverage": "Burning nose unit with open upper section and tiny pilot silhouette; the shot situates the preceding hand close-up in its own aircraft",
+      "limitations": "852x480; face/helmet/body details too small for reliable design extraction. This is a context frame, not a hand detail reference.",
+      "license": "Game imagery retained as local reference, uploader source attributed; no open redistribution licence verified",
+      "video_source_sha256": "b0dc80e767330c4bdf4409df36d0f3877eaa628b514b78d8e92254b8abaa949b"
+    }
+  ],
+  "coverage": {
+    "official_full_renders": 3,
+    "official_gallery_images": 2,
+    "official_publication_mirror_pages": 3,
+    "book_printed_pages_actually_read": [
+      178,
+      182,
+      183
+    ],
+    "book_thumbnail_range_inspected": [
+      169,
+      194
+    ],
+    "book_scan_index_note": "Reader index = printed page + 5 for the selected character pages; page number visually verified. Index/cover pages were used for navigation only.",
+    "official_video_audio_viewed": false,
+    "social_media_visuals_used": false,
+    "community_fanart_used": false,
+    "m29_game_cutscene_full_frames": "2 hand detail frames plus 1 exterior context frame",
+    "m29_face_or_helmet_directly_confirmed_in_selected_frames": false
+  },
+  "source_boundary": [
+    "Official character render and official-page artwork have first-party hosting.",
+    "AAW2029 sheets reproduce official publication material but were read on Artsee, a third-party scan mirror.",
+    "Website role labels, gameplay callsigns, publication concepts and chronological outfit assignments are kept distinct."
+  ],
+  "generator_reference_priority": {
+    "Kate": [
+      "references/characters/source-assets/kate-evans/official-jp-full.webp",
+      "references/characters/source-assets/kate-evans/aaw2029-p178-artsee.webp",
+      "references/characters/source-assets/kate-evans/official-eu-helmet.jpg"
+    ],
+    "Tewy": [
+      "references/characters/source-assets/carmille-tewy/official-jp-full.webp",
+      "references/characters/source-assets/carmille-tewy/aaw2029-p182-artsee.webp"
+    ],
+    "Toprak": [
+      "references/characters/source-assets/girish-toprak/official-jp-full.webp",
+      "references/characters/source-assets/girish-toprak/aaw2029-p183-artsee.webp"
+    ],
+    "Tewy_M29_handover": [
+      "references/characters/source-assets/carmille-tewy/m29-BV19TaZ6vE5K-0592s-hand.png",
+      "references/characters/source-assets/carmille-tewy/m29-BV19TaZ6vE5K-0584s-hand.png",
+      "references/characters/source-assets/carmille-tewy/aaw2029-p182-artsee.webp"
+    ]
+  }
+}

@@ -1,0 +1,358 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-06",
+  "shot_id": "HRA-007",
+  "scope": "Independent visual review of first composition draft; no source image edited and no final geometry approval",
+  "inputs": {
+    "sheet": {
+      "path": "storyboard/drawings-v1/batch-01-v1.png",
+      "sha256": "b43fe7e2edd18987aae2886353fd4c2b525abb48f369a9eb5d634b5cb0c86aa0",
+      "bytes": 2456022,
+      "pixels": [
+        1672,
+        941
+      ]
+    },
+    "reference": {
+      "path": "references/aircraft/source-assets/fa-18f/scale-review/side-source-crop.png",
+      "sha256": "34a6bb6120f2cbefc7f27b643ed9a58b747a30b424a16e56993e0dc993d610fc",
+      "bytes": 31044,
+      "pixels": [
+        905,
+        255
+      ]
+    }
+  },
+  "panel_bounds_full_sheet_xyxy": [
+    845,
+    513,
+    1654,
+    920
+  ],
+  "reference_variant": "Explicit F/A-18F USACE 2013 side view; crop origin in original page = [240,1255]",
+  "method": {
+    "registration": "2D uniform similarity transform: aircraft nose and aftmost tail anchor pair; no independent horizontal/vertical stretching",
+    "formula": "q = (p - source_nose) * complex_similarity + target_nose",
+    "uniform_scale": 0.8764078397482464,
+    "rotation_degrees": 0.05663479747436154,
+    "complex_multiplier": [
+      0.8764074115965574,
+      0.0008662971836344384
+    ],
+    "source_coordinates": "Unmodified 905x255 side-source-crop.png",
+    "target_coordinates": "Unmodified full 1672x941 batch-01-v1.png",
+    "limitations": [
+      "Anchor reading is manual and approximate, with line-thickness/semantic-edge uncertainty.",
+      "Reference and illustration are compared as near-side views; actual camera pose is not solved.",
+      "Nose and aftmost tail residuals are zero by construction and are not independent accuracy checks.",
+      "Ground contact, parallel main wheels and canopy trailing boundary have illustration ambiguity.",
+      "No arbitrary engineering pass tolerance is applied."
+    ]
+  },
+  "anchors": {
+    "nose": {
+      "source_crop_xy": [
+        12,
+        164
+      ],
+      "target_full_sheet_xy": [
+        865,
+        742
+      ],
+      "predicted_target_xy": [
+        865.0,
+        742.0
+      ],
+      "residual_xy_px": [
+        0.0,
+        0.0
+      ],
+      "residual_distance_px": 0.0,
+      "target_reading_uncertainty_per_endpoint_px": 2,
+      "source_reading_uncertainty_per_endpoint_px": 2,
+      "source_longitudinal_fraction": 0.0,
+      "target_longitudinal_fraction": 0.0
+    },
+    "aftmost_tail": {
+      "source_crop_xy": [
+        894,
+        154
+      ],
+      "target_full_sheet_xy": [
+        1638,
+        734
+      ],
+      "predicted_target_xy": [
+        1638.0,
+        734.0
+      ],
+      "residual_xy_px": [
+        0.0,
+        0.0
+      ],
+      "residual_distance_px": 0.0,
+      "target_reading_uncertainty_per_endpoint_px": 2,
+      "source_reading_uncertainty_per_endpoint_px": 2,
+      "source_longitudinal_fraction": 1.0,
+      "target_longitudinal_fraction": 1.0
+    },
+    "canopy_front": {
+      "source_crop_xy": [
+        173,
+        119
+      ],
+      "target_full_sheet_xy": [
+        1006,
+        699
+      ],
+      "predicted_target_xy": [
+        1006.1405766403093,
+        702.7011403247201
+      ],
+      "residual_xy_px": [
+        -0.14057664030929118,
+        -3.701140324720086
+      ],
+      "residual_distance_px": 3.703809052187997,
+      "target_reading_uncertainty_per_endpoint_px": 3,
+      "source_reading_uncertainty_per_endpoint_px": 2,
+      "source_longitudinal_fraction": 0.18253968253968253,
+      "target_longitudinal_fraction": 0.18240620957309184
+    },
+    "canopy_crown": {
+      "source_crop_xy": [
+        254,
+        84
+      ],
+      "target_full_sheet_xy": [
+        1113,
+        663
+      ],
+      "predicted_target_xy": [
+        1077.1598973810576,
+        672.0970509907149
+      ],
+      "residual_xy_px": [
+        35.84010261894241,
+        -9.097050990714934
+      ],
+      "residual_distance_px": 36.97660466381399,
+      "target_reading_uncertainty_per_endpoint_px": 4,
+      "source_reading_uncertainty_per_endpoint_px": 2,
+      "source_longitudinal_fraction": 0.2743764172335601,
+      "target_longitudinal_fraction": 0.3208279430789133
+    },
+    "canopy_rear_break": {
+      "source_crop_xy": [
+        356,
+        95
+      ],
+      "target_full_sheet_xy": [
+        1201,
+        682
+      ],
+      "predicted_target_xy": [
+        1166.5439240948865,
+        681.8258948310078
+      ],
+      "residual_xy_px": [
+        34.456075905113494,
+        0.1741051689922415
+      ],
+      "residual_distance_px": 34.456515775522234,
+      "target_reading_uncertainty_per_endpoint_px": 5,
+      "source_reading_uncertainty_per_endpoint_px": 2,
+      "source_longitudinal_fraction": 0.3900226757369615,
+      "target_longitudinal_fraction": 0.4346701164294955
+    },
+    "fin_top_leading": {
+      "source_crop_xy": [
+        745,
+        12
+      ],
+      "target_full_sheet_xy": [
+        1515,
+        599
+      ],
+      "predicted_target_xy": [
+        1507.538309872189,
+        609.4210692729273
+      ],
+      "residual_xy_px": [
+        7.461690127810925,
+        -10.421069272927298
+      ],
+      "residual_distance_px": 12.81700059899431,
+      "target_reading_uncertainty_per_endpoint_px": 3,
+      "source_reading_uncertainty_per_endpoint_px": 2,
+      "source_longitudinal_fraction": 0.8310657596371882,
+      "target_longitudinal_fraction": 0.8408796895213454
+    },
+    "fin_top_trailing": {
+      "source_crop_xy": [
+        793,
+        12
+      ],
+      "target_full_sheet_xy": [
+        1567,
+        599
+      ],
+      "predicted_target_xy": [
+        1549.6058656288237,
+        609.4626515377417
+      ],
+      "residual_xy_px": [
+        17.39413437117628,
+        -10.462651537741749
+      ],
+      "residual_distance_px": 20.298349384192445,
+      "target_reading_uncertainty_per_endpoint_px": 3,
+      "source_reading_uncertainty_per_endpoint_px": 2,
+      "source_longitudinal_fraction": 0.8854875283446711,
+      "target_longitudinal_fraction": 0.908150064683053
+    },
+    "fin_trailing_base": {
+      "source_crop_xy": [
+        772,
+        125
+      ],
+      "target_full_sheet_xy": [
+        1539,
+        708
+      ],
+      "predicted_target_xy": [
+        1531.1034184035454,
+        708.4784968072964
+      ],
+      "residual_xy_px": [
+        7.896581596454553,
+        -0.4784968072964375
+      ],
+      "residual_distance_px": 7.9110656743613,
+      "target_reading_uncertainty_per_endpoint_px": 3,
+      "source_reading_uncertainty_per_endpoint_px": 2,
+      "source_longitudinal_fraction": 0.8616780045351474,
+      "target_longitudinal_fraction": 0.871927554980595
+    },
+    "nose_wheel_center": {
+      "source_crop_xy": [
+        278,
+        233
+      ],
+      "target_full_sheet_xy": [
+        1103,
+        803
+      ],
+      "predicted_target_xy": [
+        1098.0645969790135,
+        802.7025464510092
+      ],
+      "residual_xy_px": [
+        4.935403020986541,
+        0.2974535489908021
+      ],
+      "residual_distance_px": 4.9443585623789765,
+      "target_reading_uncertainty_per_endpoint_px": 3,
+      "source_reading_uncertainty_per_endpoint_px": 2,
+      "source_longitudinal_fraction": 0.30158730158730157,
+      "target_longitudinal_fraction": 0.3078913324708926
+    },
+    "near_main_wheel_center": {
+      "source_crop_xy": [
+        558,
+        232
+      ],
+      "target_full_sheet_xy": [
+        1350,
+        800
+      ],
+      "predicted_target_xy": [
+        1343.4595385232333,
+        802.0687022508303
+      ],
+      "residual_xy_px": [
+        6.540461476766723,
+        -2.068702250830256
+      ],
+      "residual_distance_px": 6.8598225437440945,
+      "target_reading_uncertainty_per_endpoint_px": 3,
+      "source_reading_uncertainty_per_endpoint_px": 2,
+      "source_longitudinal_fraction": 0.6190476190476191,
+      "target_longitudinal_fraction": 0.6274256144890039
+    },
+    "ground_level_near_main": {
+      "source_crop_xy": [
+        558,
+        247
+      ],
+      "target_full_sheet_xy": [
+        1350,
+        816
+      ],
+      "predicted_target_xy": [
+        1343.4465440654787,
+        815.2148134247786
+      ],
+      "residual_xy_px": [
+        6.553455934521253,
+        0.7851865752213598
+      ],
+      "residual_distance_px": 6.600325949801243,
+      "target_reading_uncertainty_per_endpoint_px": 3,
+      "source_reading_uncertainty_per_endpoint_px": 2,
+      "source_longitudinal_fraction": 0.6190476190476191,
+      "target_longitudinal_fraction": 0.6274256144890039
+    }
+  },
+  "metrics": {
+    "aircraft_horizontal_length_px": 773,
+    "panel_inner_horizontal_width_px": 809,
+    "panel_width_occupied_percent": 95.55006180469717,
+    "prompt_requested_occupation_percent": 75,
+    "source_canopy_front_to_rear_horizontal_px": 183,
+    "target_canopy_front_to_rear_horizontal_px": 195,
+    "expected_canopy_span_px": 160.3826346739291,
+    "canopy_horizontal_span_excess_percent": 21.584235348453284,
+    "source_fin_top_chord_horizontal_px": 48,
+    "target_fin_top_chord_horizontal_px": 52,
+    "expected_fin_top_chord_px": 42.06757630791583,
+    "fin_top_chord_excess_percent": 23.610639270927503,
+    "source_ground_to_fin_top_px": 235,
+    "target_ground_to_fin_top_px": 217,
+    "expected_ground_to_fin_top_px": 205.9558423408379,
+    "total_height_excess_percent": 5.362391051225934
+  },
+  "observations": {
+    "seats": "Exactly two small helmeted people visible, front at left and rear at right; identities cannot be independently established from anonymous silhouettes.",
+    "canopy": "Front aligns; crown and rear shift aft and crown rises. Canopy elongated relative to F reference.",
+    "fuselage": "Nose, intake-side area and wing-root side layout remain broadly source-aligned; detailed inlet opening and far-side structures cannot be reviewed.",
+    "tail": "One overlapped side-projection fin silhouette, no third fin; fin higher and upper chord wider than normalized reference.",
+    "gear": "Nose/main gear are down and near source longitudinal positions. An offset second main-wheel silhouette indicates mild obliquity/invention relative to strictly overlapping side projection.",
+    "framing": "Aircraft fills about 95.6% of panel width instead of requested 75%; no clipping but very small nose/tail margins."
+  },
+  "corrections": [
+    "Restore F canopy crown and rear boundary to reference after uniform registration; retain exactly two small occupants.",
+    "Correct fin top height and upper chord to source, preserving legitimate overlapping twin-fin side silhouette.",
+    "Reconcile near/far main-wheel overlap with a locked side camera and check landing-gear detail rather than inventing it.",
+    "Reduce aircraft framing toward intended 75% if retaining the prompt composition; keep nose/tail margins."
+  ],
+  "decision": {
+    "composition_draft_usable": true,
+    "aircraft_corrections_required": true,
+    "line_art_geometry_approved": false,
+    "camera_geometry_approved": false,
+    "final_shot_approved": false,
+    "source_images_unchanged": true
+  },
+  "evidence_images_viewed": [
+    "full storyboard sheet",
+    "unmodified source crop",
+    "2x coordinate-grid inspection crops generated under .cache/fa18f-first-frame-review"
+  ],
+  "not_reviewed": [
+    "Other three storyboard frames in this aircraft-only review",
+    "Game-specific markings absent from draft",
+    "Full 3D camera/occlusion solution",
+    "Hidden inlet face, opposite landing gear structure and exact engine nozzle state"
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "reviewed_on": "2026-11-06",
+  "scope": "Joker four character pages in ACES at WAR A HISTORY 2029, as mirrored by Artsee",
+  "host_is_official": false,
+  "provenance": "Official book inclusion is confirmed by Bandai Namco product site. These particular scans are supplied by third-party mirror Artsee; no first-party bit-identical master was obtained. Page titles, printed page numbers and visuals were checked against official character renders.",
+  "assets": [
+    {
+      "id": "cope-aaw2029-p174",
+      "character": "Jan Cope",
+      "reader_index": 179,
+      "printed_page": 174,
+      "url": "https://qc.artsee.cc/images/86b8c4cd-af66-4ca7-8fa2-731e3fda61ff-00179.webp",
+      "path": "references/characters/source-assets/joker/cope-aaw2029-p174-artsee.webp",
+      "dimensions": [
+        1654,
+        2340
+      ],
+      "bytes": 203986,
+      "sha256": "13bc6b79ca0c34181a54e0c6edadcc177974d104e1c8a1be00b927156ad2854f",
+      "source_kind": "official_publication_third_party_scan",
+      "host_is_official": false,
+      "retrieved_on": "2026-11-06",
+      "source_page": "https://artsee.cc/collection/584",
+      "original_publication": "ACES at WAR A HISTORY 2029",
+      "official_publication_reference": "https://en.bandainamcoent.eu/ace-combat/ace-combat-8-wings-of-theve",
+      "stage": "设定出版物的模型/概念设计汇集；非单一剧情时刻",
+      "coverage": "整身飞行装、多个不戴墨镜的正/侧/斜侧头像与表情，戴墨镜头像，REX头盔侧前与正面。",
+      "limitations": "这些脸属于Jan Cope。玩家继承REX身份/头盔并不继承Cope的五官；整页是设计汇集，不是同一时间点动作。",
+      "actual_image_viewed": true,
+      "original_bytes_retained": true,
+      "license": "Bandai Namco / PROJECT ACES copyrighted publication material; Artsee is a third-party mirror, not an official host. No open redistribution licence verified."
+    },
+    {
+      "id": "baxter-aaw2029-p175",
+      "character": "Ellington Baxter",
+      "reader_index": 180,
+      "printed_page": 175,
+      "url": "https://qc.artsee.cc/images/603d17fd-358d-492c-93d4-d233182c83d1-00180.webp",
+      "path": "references/characters/source-assets/joker/baxter-aaw2029-p175-artsee.webp",
+      "dimensions": [
+        1654,
+        2340
+      ],
+      "bytes": 191754,
+      "sha256": "a532d43b40621d8bb9ee56593180c2d748a4626a57153ded1bdb023e3643c63b",
+      "source_kind": "official_publication_third_party_scan",
+      "host_is_official": false,
+      "retrieved_on": "2026-11-06",
+      "source_page": "https://artsee.cc/collection/584",
+      "original_publication": "ACES at WAR A HISTORY 2029",
+      "official_publication_reference": "https://en.bandainamcoent.eu/ace-combat/ace-combat-8-wings-of-theve",
+      "stage": "设定出版物的模型/概念设计汇集；非单一剧情时刻",
+      "coverage": "多角度头部和表情、眼镜单件、黑夹克全身、橄榄飞行装背部、头盔、腕表、身份牌和靴子视图。",
+      "limitations": "有摘眼镜的设计视角。小字姓名牌/腕表内容受扫描分辨率限制，不放大推定；背面飞行装与黑外套状态分开。",
+      "actual_image_viewed": true,
+      "original_bytes_retained": true,
+      "license": "Bandai Namco / PROJECT ACES copyrighted publication material; Artsee is a third-party mirror, not an official host. No open redistribution licence verified."
+    },
+    {
+      "id": "tasha-aaw2029-p176",
+      "character": "Tasha Severskaya",
+      "reader_index": 181,
+      "printed_page": 176,
+      "url": "https://qc.artsee.cc/images/09d5c7d1-2cd7-4e58-91cf-89f4cce50d17-00181.webp",
+      "path": "references/characters/source-assets/joker/tasha-aaw2029-p176-artsee.webp",
+      "dimensions": [
+        1654,
+        2340
+      ],
+      "bytes": 252844,
+      "sha256": "872203d2ff80b99679ee8bdc58ad4780e5902f56f294b2ebeab7317862a0f2ac",
+      "source_kind": "official_publication_third_party_scan",
+      "host_is_official": false,
+      "retrieved_on": "2026-11-06",
+      "source_page": "https://artsee.cc/collection/584",
+      "original_publication": "ACES at WAR A HISTORY 2029",
+      "official_publication_reference": "https://en.bandainamcoent.eu/ace-combat/ace-combat-8-wings-of-theve",
+      "stage": "设定出版物的模型/概念设计汇集；非单一剧情时刻",
+      "coverage": "多种正侧脸与表情，银白夹克正面、白无袖上衣状态，专属头盔、粉表/吊牌/胸针与鞋多视图。",
+      "limitations": "页名为Anastasia Severskaya，正文称Tasha为昵称；保持官网Tasha检索名。概念头像在发量/颜色/脸部比例上有变化，当前游戏造型以官网模型为锚；不能把所有设计混为一次定装。",
+      "actual_image_viewed": true,
+      "original_bytes_retained": true,
+      "license": "Bandai Namco / PROJECT ACES copyrighted publication material; Artsee is a third-party mirror, not an official host. No open redistribution licence verified."
+    },
+    {
+      "id": "coster-aaw2029-p177",
+      "character": "William Coster",
+      "reader_index": 182,
+      "printed_page": 177,
+      "url": "https://qc.artsee.cc/images/87043d52-598d-41cd-9dcf-4c459e8de85b-00182.webp",
+      "path": "references/characters/source-assets/joker/coster-aaw2029-p177-artsee.webp",
+      "dimensions": [
+        1654,
+        2340
+      ],
+      "bytes": 239142,
+      "sha256": "ccdd0bec68a5846c022d52232b5d983e02590384d46d091250b0f92904a6bdd2",
+      "source_kind": "official_publication_third_party_scan",
+      "host_is_official": false,
+      "retrieved_on": "2026-11-06",
+      "source_page": "https://artsee.cc/collection/584",
+      "original_publication": "ACES at WAR A HISTORY 2029",
+      "official_publication_reference": "https://en.bandainamcoent.eu/ace-combat/ace-combat-8-wings-of-theve",
+      "stage": "设定出版物的模型/概念设计汇集；非单一剧情时刻",
+      "coverage": "正侧头像、表情、灰T恤/腰系飞行装全身、专属头盔、墨镜、纹身图样，另有较短发型设计。",
+      "limitations": "当前官网模型的长刘海为视觉锚。短发/不同蓬松度概念不能自动写成已核实剧情阶段；不从图稿排版推演理发时间。",
+      "actual_image_viewed": true,
+      "original_bytes_retained": true,
+      "license": "Bandai Namco / PROJECT ACES copyrighted publication material; Artsee is a third-party mirror, not an official host. No open redistribution licence verified."
+    }
+  ]
+}

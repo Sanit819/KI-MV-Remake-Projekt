@@ -1,0 +1,3 @@
+# Prompt hashes must survive Windows checkout without line-ending conversion.
+/style-tests/v1/*.prompt.txt text eol=lf
+/storyboard/drawings-v1/*.prompt.txt text eol=lf

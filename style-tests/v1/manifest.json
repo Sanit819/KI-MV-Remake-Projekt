@@ -1,0 +1,289 @@
+{
+  "date": "2026-11-06",
+  "adoption_status": "awaiting_user_style_choice",
+  "generation_mode": "built-in image_gen",
+  "assets": [
+    {
+      "id": "01-joker",
+      "mode": "built-in image_gen",
+      "operation": "generate",
+      "approval": "unadopted_style_trial",
+      "image": {
+        "path": "style-tests/v1/01-joker.png",
+        "sha256": "0504cdc7fa712719e554d847f54fbc36ceaaf79bcf8cdd618a3947b57e7b45b9",
+        "bytes": 2987751,
+        "dimensions": [
+          1672,
+          941
+        ]
+      },
+      "prompt": {
+        "path": "style-tests/v1/01-joker.prompt.txt",
+        "sha256": "9b2f9876819f7ebe283eab1669269061148e6c648e00c7f3d0e266387081c9b8",
+        "bytes": 2961
+      },
+      "inputs": [
+        {
+          "path": "references/characters/source-assets/joker/tasha-us.webp",
+          "sha256": "b956afdd6e33bb7ef458fff6d311981311307b6d1a8c3985078ba691babc9cd5",
+          "bytes": 123676,
+          "role": "official Tasha identity"
+        },
+        {
+          "path": "references/characters/source-assets/joker/baxter-us.webp",
+          "sha256": "0623d4e7073017267a5aee0e4133c22f9a98d87ca4fddd35c4ea33fd1f63ac47",
+          "bytes": 100776,
+          "role": "official Baxter identity"
+        },
+        {
+          "path": "references/characters/source-assets/joker/coster-us.webp",
+          "sha256": "58b4f0b38dfcb23fc73a54bdd1d32772fc240e003faeaa35df1a3a0ecf508b2a",
+          "bytes": 93126,
+          "role": "official Coster identity"
+        },
+        {
+          "path": "references/style/source-assets/user-reference-03.png",
+          "sha256": "59becbc0a3df3007a921036075e6bf9b881e83c4360f11030cfff43cec8fd395",
+          "bytes": 8186044,
+          "dimensions": [
+            2560,
+            2560
+          ],
+          "role": "broad visual-language reference"
+        },
+        {
+          "path": "references/style/source-assets/user-reference-04.png",
+          "sha256": "3524332c501deb4057a35da7529ac3d15dd7ca4ca83db1e0e6dfb0d666144920",
+          "bytes": 7525281,
+          "dimensions": [
+            2423,
+            2180
+          ],
+          "role": "broad visual-language reference"
+        }
+      ]
+    },
+    {
+      "id": "01-joker-v2",
+      "mode": "built-in image_gen",
+      "operation": "edit",
+      "approval": "unadopted_style_trial",
+      "image": {
+        "path": "style-tests/v1/01-joker-v2.png",
+        "sha256": "c10bfa905e3786905f9544ab34c77eef481c84de7127abceb773288618a3b2a1",
+        "bytes": 2976914,
+        "dimensions": [
+          1672,
+          941
+        ]
+      },
+      "prompt": {
+        "path": "style-tests/v1/01-joker-v2.prompt.txt",
+        "sha256": "19307765728b17fc2c3abd600723f13cdae65cb997f10e0e1ff0bda216386798",
+        "bytes": 2612
+      },
+      "inputs": [
+        {
+          "path": "style-tests/v1/01-joker.png",
+          "sha256": "0504cdc7fa712719e554d847f54fbc36ceaaf79bcf8cdd618a3947b57e7b45b9",
+          "bytes": 2987751,
+          "dimensions": [
+            1672,
+            941
+          ],
+          "role": "edit target"
+        },
+        {
+          "path": "references/style/source-assets/user-reference-03.png",
+          "sha256": "59becbc0a3df3007a921036075e6bf9b881e83c4360f11030cfff43cec8fd395",
+          "bytes": 8186044,
+          "dimensions": [
+            2560,
+            2560
+          ],
+          "role": "broad visual-language reference"
+        },
+        {
+          "path": "references/style/source-assets/user-reference-04.png",
+          "sha256": "3524332c501deb4057a35da7529ac3d15dd7ca4ca83db1e0e6dfb0d666144920",
+          "bytes": 7525281,
+          "dimensions": [
+            2423,
+            2180
+          ],
+          "role": "broad visual-language reference"
+        },
+        {
+          "path": "references/characters/source-assets/joker/tasha-us.webp",
+          "sha256": "b956afdd6e33bb7ef458fff6d311981311307b6d1a8c3985078ba691babc9cd5",
+          "bytes": 123676,
+          "role": "official Tasha identity"
+        }
+      ]
+    },
+    {
+      "id": "02-memory",
+      "mode": "built-in image_gen",
+      "operation": "generate",
+      "approval": "unadopted_style_trial",
+      "image": {
+        "path": "style-tests/v1/02-memory.png",
+        "sha256": "2dbad843b06b97bd4fcd1ed65f0e84b7c3ed0b72bc70d68ca9b0bd0723533f8b",
+        "bytes": 3219279,
+        "dimensions": [
+          1672,
+          941
+        ]
+      },
+      "prompt": {
+        "path": "style-tests/v1/02-memory.prompt.txt",
+        "sha256": "76ea76836445d375ec43b66660db1b2828f27e33185ece6fa1d186fabe89401c",
+        "bytes": 2880
+      },
+      "inputs": [
+        {
+          "path": "references/characters/source-assets/carmille-tewy/official-jp-full.webp",
+          "sha256": "ac7eaa93afc62b5c1dc746ca0b1c786c70f082f67ff39201a71e44abf9aa3598",
+          "bytes": 254202,
+          "role": "official uniform"
+        },
+        {
+          "path": "references/characters/source-assets/carmille-tewy/aaw2029-p182-artsee.webp",
+          "sha256": "c75e7ce6b2713971ca24028b23649074f38ada7dda501bced95bc71a63dc1cb8",
+          "bytes": 271006,
+          "role": "official face design via third-party scan"
+        },
+        {
+          "path": "references/style/source-assets/user-reference-02.png",
+          "sha256": "d20211fff16277a7d45062fff7b0032f96acb38ffbf38b1e4043a7ef0a528cb4",
+          "bytes": 3359678,
+          "dimensions": [
+            2048,
+            2048
+          ],
+          "role": "broad visual-language reference"
+        },
+        {
+          "path": "references/style/source-assets/user-reference-01.png",
+          "sha256": "cdb912e19213738128a59f7f4abc323c755d2ef2bef3c6bcdba1075db9f47e6e",
+          "bytes": 7602130,
+          "dimensions": [
+            2336,
+            2336
+          ],
+          "role": "broad visual-language reference"
+        }
+      ]
+    },
+    {
+      "id": "03-handover",
+      "mode": "built-in image_gen",
+      "operation": "generate",
+      "approval": "unadopted_style_trial",
+      "image": {
+        "path": "style-tests/v1/03-handover.png",
+        "sha256": "6f0bf33f2bdbd6ab884fd5527e43d4ff26f6e1b4f7030502523e5fc0e2ecb17a",
+        "bytes": 2522491,
+        "dimensions": [
+          1672,
+          941
+        ]
+      },
+      "prompt": {
+        "path": "style-tests/v1/03-handover.prompt.txt",
+        "sha256": "9d0ba118ab7d3ff78be9ea4d4c72411dcee757dbd172ebc45b1191ff7582f4b7",
+        "bytes": 2782
+      },
+      "inputs": [
+        {
+          "path": "references/characters/source-assets/carmille-tewy/m29-BV19TaZ6vE5K-0592s-hand.png",
+          "sha256": "5f60e2335c2214d3f15b65c7b5956fc512bc38d731817e50891fbd4fe7b4781c",
+          "bytes": 280929,
+          "dimensions": [
+            852,
+            480
+          ],
+          "role": "gameplay glove and gesture"
+        },
+        {
+          "path": "references/characters/source-assets/carmille-tewy/aaw2029-p182-artsee.webp",
+          "sha256": "c75e7ce6b2713971ca24028b23649074f38ada7dda501bced95bc71a63dc1cb8",
+          "bytes": 271006,
+          "role": "official pressure suit design via third-party scan"
+        },
+        {
+          "path": "references/style/source-assets/user-reference-04.png",
+          "sha256": "3524332c501deb4057a35da7529ac3d15dd7ca4ca83db1e0e6dfb0d666144920",
+          "bytes": 7525281,
+          "dimensions": [
+            2423,
+            2180
+          ],
+          "role": "broad visual-language reference"
+        },
+        {
+          "path": "references/style/source-assets/user-reference-03.png",
+          "sha256": "59becbc0a3df3007a921036075e6bf9b881e83c4360f11030cfff43cec8fd395",
+          "bytes": 8186044,
+          "dimensions": [
+            2560,
+            2560
+          ],
+          "role": "broad visual-language reference"
+        }
+      ]
+    }
+  ],
+  "shots": [
+    {
+      "id": "02-memory",
+      "image": "02-memory.png",
+      "title": "01 / 红花与故土",
+      "tag": "TEWY · 记忆",
+      "interval": "00:30.85–00:44.85",
+      "duration": 14,
+      "description": "昔日欢悦的原野，如今已然枯槁。目光、白浅盆与红银莲花叠入失去的故土。",
+      "basis": "L01–02；HRA-003 / 047 的记忆意象。肖像与故土是叠化构图，不是新增真实会面。",
+      "audio": "tewy-red-flower-memory",
+      "audio_path": "../../.cache/style-audio-selections/tewy-red-flower-memory.flac"
+    },
+    {
+      "id": "01-joker",
+      "image": "01-joker-v2.png",
+      "title": "02 / 同行的人",
+      "tag": "TASHA · BAXTER · COSTER",
+      "interval": "00:59.60–01:13.90",
+      "duration": 14.3,
+      "description": "启程吧，偕亲友同行。书页与音乐把三位同伴放回战争中的日常。",
+      "basis": "L05–06；HRA-017 / 018 的同人延伸。二维修订作为当前试听图，初稿保留供比较。",
+      "audio": "tasha-joker-departure",
+      "audio_path": "../../.cache/style-audio-selections/tasha-joker-departure.flac"
+    },
+    {
+      "id": "03-handover",
+      "image": "03-handover.png",
+      "title": "03 / 托付",
+      "tag": "MOON 11 · 白手套",
+      "interval": "02:58.00–03:08.00",
+      "duration": 10,
+      "description": "手伸向天空，将无法亲自抵达的归处托付出去。白压力袖、红线与金属腕扣沿用实录。",
+      "basis": "HRA-057；只有 Tewy 自己的右手，没有实体握手。局部音乐对应，不添加未定时的归乡歌词。",
+      "audio": "moon11-handoff",
+      "audio_path": "../../.cache/style-audio-selections/moon11-handover.flac"
+    }
+  ],
+  "delivery": {
+    "size": [
+      3840,
+      2160
+    ],
+    "fps": 60,
+    "source_images_native_4k": false,
+    "character_animation": false,
+    "audio_original": "FLAC 48000 Hz / 16-bit / stereo",
+    "preview_audio": "AAC",
+    "lossless_audio": "FLAC in MKV",
+    "alac": false,
+    "upsampling": false
+  }
+}

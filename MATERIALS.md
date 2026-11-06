@@ -33,6 +33,8 @@
 
 **本企划保留用户提供的 FLAC 原曲，后续流程不安排转为 ALAC。** 用户已说明其 Bilibili 交付采用 FLAC 的偏好；不要沿用第一企划的 ALAC 转换步骤。
 
+2026-11-06 首轮画风试听已经从原曲切出30.85–44.85、59.60–73.90、178–188秒三段；切片和MKV母版音轨均保持48kHz／16-bit双声道，解码PCM逐样本等于原曲对应范围。另制AAC MP4仅供直接试听。全部音源与导出说明见[选段记录](references/audio-style-sample-selection.json)和[试片说明](style-tests/v1/README.md)。原件未改，没有ALAC，也没有升采样。
+
 ## 歌词
 
 - [用户原样文本](lyrics/user-provided-2026-11-06.txt)：16 组拉丁文／中文，共 32 行，保留字句、标点及原拼写。

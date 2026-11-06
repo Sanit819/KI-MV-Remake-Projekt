@@ -1,0 +1,137 @@
+{
+  "checks": [
+    {
+      "name": "eight person cards",
+      "actual": 8,
+      "expected": 8,
+      "pass": true
+    },
+    {
+      "name": "unique image count",
+      "actual": 37,
+      "expected": 37,
+      "pass": true
+    },
+    {
+      "name": "mirror page count",
+      "actual": 7,
+      "expected": 7,
+      "pass": true
+    },
+    {
+      "name": "only local image paths",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "name": "images load: rex",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "name": "images load: cope",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "name": "images load: baxter",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "name": "images load: tasha",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "name": "images load: coster",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "name": "images load: kate",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "name": "images load: tewy",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "name": "images load: toprak",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "name": "Sotoa filter",
+      "actual": 2,
+      "expected": 2,
+      "pass": true
+    },
+    {
+      "name": "Chinese name search",
+      "actual": 1,
+      "expected": 1,
+      "pass": true
+    },
+    {
+      "name": "Tasha mirror filter",
+      "actual": 1,
+      "expected": 1,
+      "pass": true
+    },
+    {
+      "name": "Tewy gameplay filter",
+      "actual": 3,
+      "expected": 3,
+      "pass": true
+    },
+    {
+      "name": "Gameplay not labeled official hosting",
+      "actual": false,
+      "expected": false,
+      "pass": true
+    },
+    {
+      "name": "Tewy official excludes gameplay",
+      "actual": 1,
+      "expected": 1,
+      "pass": true
+    },
+    {
+      "name": "desktop overflow",
+      "actual": false,
+      "expected": false,
+      "pass": true
+    },
+    {
+      "name": "mobile overflow",
+      "actual": false,
+      "expected": false,
+      "pass": true
+    },
+    {
+      "name": "runtime errors",
+      "actual": 0,
+      "expected": 0,
+      "pass": true
+    }
+  ],
+  "screenshots": [
+    "desktop.png",
+    "detail.png",
+    "mobile.png"
+  ],
+  "errors": [],
+  "result": "pass"
+}

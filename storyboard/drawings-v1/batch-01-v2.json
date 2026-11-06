@@ -1,0 +1,11 @@
+{
+  "date": "2026-11-06",
+  "generator": "built-in image_gen",
+  "image_file": "batch-01-v2.png",
+  "sha256": "ee830728ce28d5e01a92756f59f0cc11a79f3b8f73f20da94b19a2669615700b",
+  "prompt_file": "batch-01-v2.prompt.txt",
+  "edit_target": "batch-01-v1.png",
+  "status": "superseded_direction_candidate_not_geometry_approved",
+  "final_shot_approval": false,
+  "note": "Local bowl/plane composition edit; no independent second-version geometry approval. Current user priority is style-tests/v1."
+}

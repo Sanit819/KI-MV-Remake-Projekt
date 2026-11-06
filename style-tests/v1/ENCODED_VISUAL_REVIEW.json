@@ -1,0 +1,30 @@
+{
+  "checked_date": "2026-11-06",
+  "method": "Extracted actual encoded MP4 midframe at7s/7s/5s and viewed images; also reviewed rendered first/mid/end contact sheet for initial Joker. Full video decode and per-frame timestamp checks are separately in render metadata.",
+  "reviews": [
+    {
+      "id": "01-joker",
+      "encoded_mp4_midframe": "exports/style-tests-v1/01-joker-decoded-mid.png",
+      "image_sha256": "49c0c29988c60b69bd2978f788c2ceeeeefe27cd0b266e6b9cffa3060392a8e7",
+      "current_mp4_sha256": "50ebf270c0ebfae23fc8cc4b7f04b48440a8e2978cb01692db0fd0c9e5369632",
+      "observed": "Correct source composition, no black border, visible source linework/textures, no added captions. Single midframe inspection only; motion smoothness not certified by visual playback."
+    },
+    {
+      "id": "02-memory",
+      "encoded_mp4_midframe": "exports/style-tests-v1/02-memory-decoded-mid.png",
+      "image_sha256": "86289e716fe00a12b30bc9f3b81cc6d74e902f0d735a6aacc797972daf457f47",
+      "current_mp4_sha256": "0c42550afe737aa7cdfa74ef8b9b961e644615a77e8cef451ec7b1cb91e3a829",
+      "observed": "Correct source composition, no black border, visible source linework/textures, no added captions. Single midframe inspection only; motion smoothness not certified by visual playback."
+    },
+    {
+      "id": "03-handover",
+      "encoded_mp4_midframe": "exports/style-tests-v1/03-handover-decoded-mid.png",
+      "image_sha256": "800bd070c9594cc85ef808a6f616a2a02a253f41f0fec35ee48ef211e56efb29",
+      "current_mp4_sha256": "8453fe6c924340bfe22f8559f6faf9fb1b42ca961150bd5b08bd45e76d6cd167",
+      "observed": "Correct source composition, no black border, visible source linework/textures, no added captions. Single midframe inspection only; motion smoothness not certified by visual playback."
+    }
+  ],
+  "direct_audio_listening": false,
+  "native_4k_artwork": false,
+  "style_art_not_final_mv": true
+}

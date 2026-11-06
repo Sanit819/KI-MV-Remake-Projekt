@@ -1,0 +1,498 @@
+{
+  "schema_version": 1,
+  "checked_date": "2026-11-06",
+  "target": "AC8 Su-57 / Toprak 022 visible game geometry, not a preselected real-world production batch",
+  "reference_version": "SU57-AC8-BASE-REF-v1",
+  "decision": "BASE_SHAPE_REFERENCE_ACCEPTED_WITH_LIMITS",
+  "decision_scope": "Patent-derived coherent top/side/front may be used as the proportion and silhouette reference for MV drafting; game-observed exterior details override generic patent simplifications. This is not approval of an as-yet-undrawn line art, shot, model or exact metric match.",
+  "real_world_batch_identification_required": false,
+  "game_geometry_certification_claimed": false,
+  "cross_view_scale_check": {
+    "source": {
+      "file": "references/aircraft/source-assets/su-57/t50-prototype-commons-3view-preview.png",
+      "bytes": 49643,
+      "sha256": "4cb15e7c20b47bba2634454df6819dd65eafe408331a3979ac95eb9144643e56",
+      "pixels": [
+        1280,
+        664
+      ]
+    },
+    "method": "Fixed non-overlapping view regions, alpha>=128 silhouette bounding boxes; raster bounds include antialiased/stroked outline. Check only internal scale consistency, not aircraft dimensions.",
+    "results": {
+      "top": {
+        "crop": [
+          0,
+          0,
+          740,
+          525
+        ],
+        "bbox_xyxy": [
+          18,
+          18,
+          727,
+          523
+        ],
+        "width": 709,
+        "height": 505
+      },
+      "side": {
+        "crop": [
+          0,
+          525,
+          740,
+          664
+        ],
+        "bbox_xyxy": [
+          18,
+          528,
+          727,
+          646
+        ],
+        "width": 709,
+        "height": 118
+      },
+      "front": {
+        "crop": [
+          740,
+          525,
+          1280,
+          664
+        ],
+        "bbox_xyxy": [
+          757,
+          528,
+          1262,
+          646
+        ],
+        "width": 505,
+        "height": 118
+      }
+    },
+    "length_top_side_px": [
+      709,
+      709
+    ],
+    "span_top_front_px": [
+      505,
+      505
+    ],
+    "height_side_front_px": [
+      118,
+      118
+    ],
+    "normalized_span_length": 0.7122708039492243,
+    "normalized_height_length": 0.16643159379407615,
+    "cross_view_bbox_disagreement_px": 0,
+    "physical_dimensions_used": null
+  },
+  "existing_sources_reused": [
+    {
+      "file": "references/aircraft/source-assets/su-57/t50-prototype-commons-xahyman-3view.svg",
+      "bytes": 75147,
+      "sha256": "55c8ea3c0b967e3d776f1e09eb56dd3dd8fb4a965bd187d0a8c075dced0c85c2"
+    },
+    {
+      "file": "references/aircraft/source-assets/su-57/t50-prototype-commons-3view-preview.png",
+      "bytes": 49643,
+      "sha256": "4cb15e7c20b47bba2634454df6819dd65eafe408331a3979ac95eb9144643e56",
+      "pixels": [
+        1280,
+        664
+      ]
+    },
+    {
+      "file": "references/aircraft/source-assets/su-57/ac8-official-su57-perspective.webp",
+      "bytes": 129902,
+      "sha256": "0ad048d2cbcc1b67af4ca3d31f5dc2141c8e2c7388db822e8960e3728c0d687a",
+      "pixels": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "file": "references/aircraft/source-assets/su-57/ac8-su57-top-icon-120.webp",
+      "bytes": 1580,
+      "sha256": "f7ceb9e297e6e51611e5064fd5cecbab8962c94152601c9a20b2185ae67d6ebf",
+      "pixels": [
+        120,
+        120
+      ]
+    },
+    {
+      "file": "references/aircraft/source-assets/su-57/su57-toprak-m18-0090.5-022-detail.png",
+      "bytes": 391471,
+      "sha256": "8532a6267edc35a0cebb36e9865d5e68249e3fcf24c7c36be92118f9056d118b",
+      "pixels": [
+        852,
+        480
+      ]
+    },
+    {
+      "file": "references/aircraft/source-assets/su-57/su57-toprak-m18-0092.5-front-quarter.png",
+      "bytes": 368468,
+      "sha256": "45c80a028a80b9f4a9849d433a507ff28ece0e311294b9e1e77baa2e773eafa0",
+      "pixels": [
+        852,
+        480
+      ]
+    },
+    {
+      "file": "references/aircraft/source-assets/su-57/su57-toprak-m28-0312.5-side-detail.png",
+      "bytes": 368704,
+      "sha256": "bd9dcb8dc83fad971409cc03b24d5b6d1082ab27568c0377e611b000f1b7c59b",
+      "pixels": [
+        852,
+        480
+      ]
+    }
+  ],
+  "new_sources": [
+    {
+      "id": "su57-primary-sukhoi-patent-RU2440916C1",
+      "source_page": "https://patents.google.com/patent/RU2440916C1/en",
+      "download_url": "https://patentimages.storage.googleapis.com/e0/32/aa/920006c3031e2c/RU2440916C1.pdf",
+      "source_kind": "Primary patent publication hosted by Google Patents",
+      "applicant": "Sukhoi Design Bureau and Sukhoi Aviation Holding Company",
+      "application_date": "2010-07-28",
+      "publication_date": "2012-01-27",
+      "views": {
+        "pdf_page_2": "Figure 1 top view",
+        "pdf_page_11": "Figure 2 side, Figure 3 front; Figure 4 nozzle-axis schematic is not a fourth aircraft view"
+      },
+      "traceability": "Existing XaHyMaH SVG dc:description explicitly names RU 2440916 C1; source PDF inspected, matching planform and view layouts.",
+      "license": "No blanket open image license asserted for patent scans. Existing XaHyMaH redrawing is separately CC BY-SA 3.0. Internal geometry reference.",
+      "status": "primary_provenance_verified; not a certificate of any numbered prototype or latest production batch",
+      "files": [
+        {
+          "file": "references/aircraft/source-assets/su-57/sukhoi-RU2440916C1.pdf",
+          "bytes": 279362,
+          "sha256": "8cc8eff85f00622a9ed3885a4f0520d106a1e82dbec1e4c246421e1d2905fbbf"
+        },
+        {
+          "file": "references/aircraft/source-assets/su-57/sukhoi-patent-01.png",
+          "bytes": 396838,
+          "sha256": "ff8c0cfc391661d1c88b928d89b3ec335b2f62952ae7adeb2f1972e9c7a6f674",
+          "pixels": [
+            1488,
+            2105
+          ]
+        },
+        {
+          "file": "references/aircraft/source-assets/su-57/sukhoi-patent-02.png",
+          "bytes": 99554,
+          "sha256": "f8f755bcdf648fe170cf433b05007337436e3443a37b849e8f06663dc500239d",
+          "pixels": [
+            1488,
+            2105
+          ]
+        },
+        {
+          "file": "references/aircraft/source-assets/su-57/sukhoi-patent-11.png",
+          "bytes": 119146,
+          "sha256": "b1b88ddf1785f0a6791cf080ce1ecaac1e1faf82173e4c684c5021dc946c4c3d",
+          "pixels": [
+            1488,
+            2105
+          ]
+        }
+      ],
+      "render": "pdftoppm 180 dpi; whole pages, no warping or redrawing",
+      "retrieved_date": "2026-11-06"
+    },
+    {
+      "id": "su57-patent-hosted-figure2",
+      "source_page": "https://patents.google.com/patent/RU2440916C1/en",
+      "download_url": "https://patentimages.storage.googleapis.com/a6/aa/30/c53ae12328137e/00000002.png",
+      "source_kind": "Google Patents hosted figure raster, from same primary publication",
+      "view": "side Figure 2 only",
+      "status": "inspected; not a separate independent aircraft reference",
+      "license": "Same patent-source boundary",
+      "files": [
+        {
+          "file": "references/aircraft/source-assets/su-57/sukhoi-patent-figure2-hosted.png",
+          "bytes": 10257,
+          "sha256": "efb8e62989a240bc26bc32e7c91f9ee23f683253c5313cf7ec48be7618f87f61",
+          "pixels": [
+            432,
+            120
+          ]
+        }
+      ],
+      "retrieved_date": "2026-11-06"
+    },
+    {
+      "id": "su57-ac8-us-official-vertical",
+      "source_page": "https://www.bandainamcoent.com/games/ace-combat-8/aircraft",
+      "download_url": "https://us-east-1-bandai.graphassets.com/AXzioIclSWilEjFtsMJPwz/cmsf15gr53tdy07lci20tauwd",
+      "source_kind": "Bandai Namco official website linked image",
+      "view": "front low oblique, gear down, vertical crop/composition",
+      "status": "visually inspected; same camera scene as Japanese ss_30.webp, NOT an independent angle",
+      "license": "Bandai Namco / respective rights holders, no open reuse license located",
+      "files": [
+        {
+          "file": "references/aircraft/source-assets/su-57/ac8-us-official-su57.webp",
+          "bytes": 103448,
+          "sha256": "57d2c0b61cb59898a6521756e028797abfb2742af455652335de01e1ceaa81f9",
+          "pixels": [
+            1448,
+            1624
+          ]
+        }
+      ],
+      "retrieved_date": "2026-11-06"
+    },
+    {
+      "id": "su57-ac8-frame-91.75",
+      "source_page": "https://www.bilibili.com/video/BV1qsHS6REg9/",
+      "source_kind": "Directly observed game frame in user-specified third-party recording",
+      "source_video": {
+        "file": ".cache/squadron-BV1qsHS6REg9/BV1qsHS6REg9-video-480p.m4s",
+        "bytes": 14840847,
+        "sha256": "5161c920f2b131054337c6d9c76a36d5f6ffc32688e619abbc1d20c55e06c745"
+      },
+      "requested_seconds": 91.75,
+      "decoded_reported_seconds": 91.7666875,
+      "decoded_frame_index": 2753,
+      "extraction": "OpenCV seek, full decoded 852x480 frame; unchanged watermarks/UI; no upscale, perspective rectification or audio claim",
+      "view": "front upper oblique",
+      "status": "actual frame visually inspected; perspective, not orthographic",
+      "license": "Game and uploader rights retained; internal research, not clean MV art",
+      "files": [
+        {
+          "file": "references/aircraft/source-assets/su-57/ac8-toprak-0091.75s.png",
+          "bytes": 318554,
+          "sha256": "e99f2bde18cfaa59e6c8bd4e0249c9653439795dfd180e04f8ceeff4d069dd8e",
+          "pixels": [
+            852,
+            480
+          ]
+        }
+      ],
+      "retrieved_date": "2026-11-06"
+    },
+    {
+      "id": "su57-ac8-frame-94.0",
+      "source_page": "https://www.bilibili.com/video/BV1qsHS6REg9/",
+      "source_kind": "Directly observed game frame in user-specified third-party recording",
+      "source_video": {
+        "file": ".cache/squadron-BV1qsHS6REg9/BV1qsHS6REg9-video-480p.m4s",
+        "bytes": 14840847,
+        "sha256": "5161c920f2b131054337c6d9c76a36d5f6ffc32688e619abbc1d20c55e06c745"
+      },
+      "requested_seconds": 94.0,
+      "decoded_reported_seconds": 94.0,
+      "decoded_frame_index": 2820,
+      "extraction": "OpenCV seek, full decoded 852x480 frame; unchanged watermarks/UI; no upscale, perspective rectification or audio claim",
+      "view": "front upper oblique",
+      "status": "actual frame visually inspected; perspective, not orthographic",
+      "license": "Game and uploader rights retained; internal research, not clean MV art",
+      "files": [
+        {
+          "file": "references/aircraft/source-assets/su-57/ac8-toprak-0094.00s.png",
+          "bytes": 374188,
+          "sha256": "cf39886939eca134f868aeada9fb44d97d5da5b6366e4711f3b6ca978709a4b2",
+          "pixels": [
+            852,
+            480
+          ]
+        }
+      ],
+      "retrieved_date": "2026-11-06"
+    },
+    {
+      "id": "su57-ac8-frame-309.75",
+      "source_page": "https://www.bilibili.com/video/BV1qsHS6REg9/",
+      "source_kind": "Directly observed game frame in user-specified third-party recording",
+      "source_video": {
+        "file": ".cache/squadron-BV1qsHS6REg9/BV1qsHS6REg9-video-480p.m4s",
+        "bytes": 14840847,
+        "sha256": "5161c920f2b131054337c6d9c76a36d5f6ffc32688e619abbc1d20c55e06c745"
+      },
+      "requested_seconds": 309.75,
+      "decoded_reported_seconds": 309.7666875,
+      "decoded_frame_index": 9293,
+      "extraction": "OpenCV seek, full decoded 852x480 frame; unchanged watermarks/UI; no upscale, perspective rectification or audio claim",
+      "view": "rear upper oblique; varying crop",
+      "status": "actual frame visually inspected; perspective, not orthographic",
+      "license": "Game and uploader rights retained; internal research, not clean MV art",
+      "files": [
+        {
+          "file": "references/aircraft/source-assets/su-57/ac8-toprak-0309.75s.png",
+          "bytes": 333647,
+          "sha256": "9a50d019180953c56202c27c7ca62920cd5fc97483fb565317a9c38cf98c44aa",
+          "pixels": [
+            852,
+            480
+          ]
+        }
+      ],
+      "retrieved_date": "2026-11-06"
+    },
+    {
+      "id": "su57-ac8-frame-310.5",
+      "source_page": "https://www.bilibili.com/video/BV1qsHS6REg9/",
+      "source_kind": "Directly observed game frame in user-specified third-party recording",
+      "source_video": {
+        "file": ".cache/squadron-BV1qsHS6REg9/BV1qsHS6REg9-video-480p.m4s",
+        "bytes": 14840847,
+        "sha256": "5161c920f2b131054337c6d9c76a36d5f6ffc32688e619abbc1d20c55e06c745"
+      },
+      "requested_seconds": 310.5,
+      "decoded_reported_seconds": 310.5,
+      "decoded_frame_index": 9315,
+      "extraction": "OpenCV seek, full decoded 852x480 frame; unchanged watermarks/UI; no upscale, perspective rectification or audio claim",
+      "view": "rear upper oblique; varying crop",
+      "status": "actual frame visually inspected; perspective, not orthographic",
+      "license": "Game and uploader rights retained; internal research, not clean MV art",
+      "files": [
+        {
+          "file": "references/aircraft/source-assets/su-57/ac8-toprak-0310.50s.png",
+          "bytes": 378527,
+          "sha256": "391a7437d6beaadad5f5c3836388e420083f39c4127d9591a3e8a9d68707bd53",
+          "pixels": [
+            852,
+            480
+          ]
+        }
+      ],
+      "retrieved_date": "2026-11-06"
+    },
+    {
+      "id": "su57-ac8-frame-311.25",
+      "source_page": "https://www.bilibili.com/video/BV1qsHS6REg9/",
+      "source_kind": "Directly observed game frame in user-specified third-party recording",
+      "source_video": {
+        "file": ".cache/squadron-BV1qsHS6REg9/BV1qsHS6REg9-video-480p.m4s",
+        "bytes": 14840847,
+        "sha256": "5161c920f2b131054337c6d9c76a36d5f6ffc32688e619abbc1d20c55e06c745"
+      },
+      "requested_seconds": 311.25,
+      "decoded_reported_seconds": 311.2666875,
+      "decoded_frame_index": 9338,
+      "extraction": "OpenCV seek, full decoded 852x480 frame; unchanged watermarks/UI; no upscale, perspective rectification or audio claim",
+      "view": "rear upper oblique; varying crop",
+      "status": "actual frame visually inspected; perspective, not orthographic",
+      "license": "Game and uploader rights retained; internal research, not clean MV art",
+      "files": [
+        {
+          "file": "references/aircraft/source-assets/su-57/ac8-toprak-0311.25s.png",
+          "bytes": 411378,
+          "sha256": "7f9ffdfec171484f8970d679e6c86dfe42984c666a59f08ad107bdf87c027829",
+          "pixels": [
+            852,
+            480
+          ]
+        }
+      ],
+      "retrieved_date": "2026-11-06"
+    }
+  ],
+  "geometry_findings": [
+    {
+      "region": "nose_and_canopy",
+      "result": "usable_base_shape",
+      "evidence": [
+        "official Japanese/US game image",
+        "M18 91.75s",
+        "M28 311.25s",
+        "patent Figures 1/2/3"
+      ],
+      "finding": "Pointed flattened forebody; single-seat canopy with windscreen frame; no long nose boom in these game views. No visible contradiction to base drawing.",
+      "limit": "Game nose appears wider in low-angle closeup because of perspective; do not infer a new subtype from that apparent width."
+    },
+    {
+      "region": "wing_root_and_planform",
+      "result": "usable_base_shape",
+      "evidence": [
+        "M18 91.75/94.00s",
+        "M28 310.50s",
+        "official 120px icon",
+        "patent Figure 1"
+      ],
+      "finding": "Broad blended centerbody and swept trapezoid wings; root leading-edge surfaces immediately above intakes; horizontal tail separate behind main wing. Shared layout is visible.",
+      "limit": "120px icon is an identification symbol; cannot certify fine sweep angle or edge offsets. No pixel-size claim of game-to-drawing identity."
+    },
+    {
+      "region": "intakes",
+      "result": "usable_base_shape_with_detail_limit",
+      "evidence": [
+        "official game image",
+        "M18 94s",
+        "patent Figures 2/3"
+      ],
+      "finding": "Two separated, dark, angular inlet openings below the forward wing-root area. Game and drawing agree on this external topology.",
+      "limit": "Front aperture angles/width and internal ramps are not measured from an orthographic game view; use drawing cross-section for base and official perspective for appearance, not fabricated ducts."
+    },
+    {
+      "region": "tails_and_nozzles",
+      "result": "usable_base_shape_with_detail_limit",
+      "evidence": [
+        "M28 309.75/310.50s",
+        "M18 94s",
+        "patent Figures 1/2/3"
+      ],
+      "finding": "Outward-canted twin fins; separated round nozzles; central tapered tail fairing between them; separate swept horizontal tail. No flat rectangular exhaust in the observed AC8 model.",
+      "limit": "No exact fin cant angle inferred; small tail-root fairing/inlet details and nozzle-deflection state need game closeups for close shots."
+    },
+    {
+      "region": "surface_and_underside",
+      "result": "not_fully_determined",
+      "evidence": [
+        "official gear-down view",
+        "M28 311.25/312.5s"
+      ],
+      "finding": "Some nose sensor bulges, lights/gear and upper fuselage panels are visible. Toprak 022/gold stripe is game-specific.",
+      "limit": "Full belly bay-door boundaries, opposite-side marking layout and rear small apertures remain unobserved. Do not substitute real-aircraft latest-production details."
+    }
+  ],
+  "remaining_closeup_limits": [
+    "Exact game tail-root small inlets/antenna/sensor geometry",
+    "Full belly and bay-door layout; open bays not authorized by these references",
+    "Opposite-side Toprak 022 markings and serial layout",
+    "Exact nozzle deflection and control-surface positions for a given shot"
+  ],
+  "failed_or_incomplete_channels": [
+    {
+      "url": "https://www.uacrussia.ru/en/aircraft/lineup/military/su-57/",
+      "result": "web timeout"
+    },
+    {
+      "url": "https://uacrussia.ru/en/aircraft/lineup/lineup/su-57/",
+      "result": "web timeout"
+    },
+    {
+      "url": "https://uacrussia.ru/ru/aircraft/lineup/military/su-57/",
+      "result": "web timeout"
+    },
+    {
+      "url": "https://roe.ru/pdfs/pdf_6929.pdf",
+      "result": "requests read timeout; PowerShell untrusted-root certificate error; no PDF acquired, no contents claimed verified"
+    },
+    {
+      "url": "https://twitter.com/PROJECT_ACES/status/2037363983234326748",
+      "result": "official post located via secondary pointer, direct web cache miss; image not acquired; not geometry evidence"
+    }
+  ],
+  "analysis_artifacts": [
+    {
+      "file": ".cache/su57-geometry/geometry-review-board.jpg",
+      "bytes": 489563,
+      "sha256": "4512624bf53c900be7ad6252a94ada7a9d4c7c551fc927330dbefaf9805c8686",
+      "pixels": [
+        1704,
+        1560
+      ]
+    },
+    {
+      "file": ".cache/su57-geometry/threeview-scale-check.json",
+      "bytes": 602,
+      "sha256": "78c872625ceb95b899e976bdc0be5e8e416299088de1fa7c2cb5dd11b42f47d6"
+    },
+    {
+      "file": ".cache/su57-geometry/extracted-frames.json",
+      "bytes": 805,
+      "sha256": "7b04a21af2b2796600b79f2650dae15d024c293f971754c5e8364646272e84d6"
+    }
+  ],
+  "unadopted_channel": "Community freecam mod page surfaced, but no software downloaded/installed and modded-gallery geometry not used as an unmodified game baseline."
+}

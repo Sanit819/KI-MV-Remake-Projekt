@@ -3,6 +3,8 @@
 本目录仅用于“Hortus Regis Alti 崇高君王之苑”。先读 `README.md`、`docs/STORYBOARD_V2.md`、`docs/CONTINUITY_V2.md`，再按需读 `RESEARCH_SUMMARY.md`。用户已确定制作粉丝向同人 MV，授权助手决定剧情；最新指示允许 Joker／索托亚交替作为叙事主体，Rex 不必始终是主角。剧情须贴近歌词、意境与已核对的设定。当前基线为 66 镜分镜 v2；v1 的唯一主角限制已被新指示覆盖，不再沿用。
 
 - 工作在 `project-02/hortus-regis-alti` 分支；与第一企划冻结目录、分支及标签分离。
+- 当前用户优先事项是官方人设收集与带音乐的画风试验，入口 `style-tests/v1/index.html` 与 `references/characters/index.html`。首轮三段试片已完成，画风仍待用户决定，不自动扩成整片或把内部草图审阅当用户采纳。
+- 用户给定成品目标 Hi-Res／4K／60fps。记录实际音频参数；不把1672×941原画的4K输出叫原生4K绘制，不把轻微运镜叫角色动画。
 - 不修改 `../KI-MV-Remake-Projekt` 内第一企划的内容，不解除其分支保护，不重画或覆盖其成片。
 - 区分用户给定、官方网页、游戏实录可见、社区解说和研究推断。未核实的游戏、曲目、任务名称及关联关系保留待核对标记。
 - 阅读视频时记录实际获得的内容与范围；仅有页面、摘要、片段或字幕时，不宣称完整观看。
@@ -12,3 +14,4 @@
 - 用户要求机体严格依对应三视图绘制。先读 `docs/AIRCRAFT_DRAWING_SPEC.md` 和 `references/aircraft/README.md`；准确子型号、顶／侧／前视不齐时不能宣布几何通过。Su-57 的早期 T-50 图、Rafale B 图、游戏透视截图都不能冒充对应量产型／M 型／正投影三视。
 - 当前分镜逐句语义已写，实际音频起止仍为 null；不把 66 镜编号或 16 组歌词均分成真实时间轴。源音频与歌词原稿保持不变。
 - `references/aircraft/source-assets/` 是已实际搜集的本地资料原件，Git 忽略；来源索引、许可、哈希与绘制缺口入 Git。下载成功不等于机型准确或三视验收通过。
+- `references/characters/source-assets/`、`references/style/source-assets/` 同为本地原件；官网图、官方出版物第三方扫描、游戏实录与用户画风参考分开标记。Rex的遮面装备可用，不把Cope或持头盔人的脸画成Rex。

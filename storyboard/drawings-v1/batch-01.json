@@ -1,0 +1,30 @@
+{
+  "date": "2026-11-06",
+  "generator": "built-in image_gen",
+  "prompt_file": "batch-01.prompt.txt",
+  "image_file": "batch-01-v1.png",
+  "sha256": "b43fe7e2edd18987aae2886353fd4c2b525abb48f369a9eb5d634b5cb0c86aa0",
+  "bytes": 2456022,
+  "size": [
+    1672,
+    941
+  ],
+  "shot_ids": [
+    "HRA-001",
+    "HRA-002",
+    "HRA-003",
+    "HRA-007"
+  ],
+  "status": "composition_draft_under_review",
+  "final_shot_approval": false,
+  "timing_aligned": false,
+  "input_references": [
+    "references/aircraft/source-assets/fa-18f/scale-review/side-source-crop.png",
+    "references/aircraft/source-assets/fa-18f/scale-review/top-source-crop.png"
+  ],
+  "limitations": [
+    "This is a four-keyframe opening selection, not all 66 storyboard shots.",
+    "Generated artwork requires independent aircraft geometry and continuity review.",
+    "The shallow flower bowl and aircraft shape are being checked before accepting this candidate."
+  ]
+}
