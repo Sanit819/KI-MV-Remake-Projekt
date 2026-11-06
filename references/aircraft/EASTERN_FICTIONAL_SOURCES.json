@@ -1,0 +1,652 @@
+{
+  "schema_version": 1,
+  "checked_date": "2026-11-06",
+  "recorded_at_utc": "2026-11-06T08:19:52.553291+00:00",
+  "purpose": "Eastern and fictional aircraft drawing-reference provenance; strict orthographic completeness and exact-variant limits recorded separately",
+  "requested_models": [
+    "Su-57 / Toprak 022",
+    "X-40 Nightmare / Moon 11",
+    "Su-33",
+    "MiG-29A",
+    "Su-35S",
+    "FA-36 Game"
+  ],
+  "source_count": 16,
+  "search_scope": [
+    "AC8 official AIRCRAFT page and actual public JavaScript asset mapping",
+    "UAC Su-57 product information (program/prototype distinction; no manufacturer orthographic asset downloaded)",
+    "Wikimedia Commons T-50 and MiG-29 file pages",
+    "Eagle Dynamics Su-33 official flight manual",
+    "Begemot Su-35S decal diagram via Hannants",
+    "User-specified Bilibili M28/M29 recordings; selected frames only",
+    "Targeted web queries for X-40 Nightmare and FA-36 orthographics; no verified three-view/model viewer obtained"
+  ],
+  "status_by_requested_model": {
+    "Su-57 / Toprak 022": "INCOMPLETE: early T-50 orthographic set must not substitute for production/AC8 Su-57; official game image and exact 022 livery frames available",
+    "X-40 Nightmare / Moon 11": "INCOMPLETE: intact-airframe obliques and detached-nose evidence only; all orthographic axes missing",
+    "Su-33": "THREE-VIEW AVAILABLE: exact named simulator-manual top/side/front; not manufacturer-certified engineering data",
+    "MiG-29A": "VARIANT UNVERIFIED: complete generic MiG-29 three-view, not proven A/9-12",
+    "Su-35S": "INCOMPLETE: exact named top/bottom/left/right stencil drawing; front orthographic missing",
+    "FA-36 Game": "INCOMPLETE: official frontal perspective and Gemma gameplay upper/front perspectives; no orthographic set"
+  },
+  "sources": [
+    {
+      "id": "su57-t50-historical-orthographic",
+      "requested_model": "Su-57 / Toprak 022",
+      "depicted_model": "Sukhoi PAK-FA T-50 prototype-era drawing",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Sukhoi_T-50_3-view.svg",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/4/47/Sukhoi_T-50_3-view.svg",
+      "preview_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Sukhoi_T-50_3-view.svg/1280px-Sukhoi_T-50_3-view.svg.png",
+      "author": "XaHyMaH",
+      "source_kind": "Community vector redrawing; page says derived from a patent picture, but exact patent document was not independently verified in this pass",
+      "first_party_aircraft_manufacturer": false,
+      "source_creation_date": "2012-02-14",
+      "source_revision_date": "2013-12-06",
+      "license": "CC BY-SA 3.0 Unported",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "views": [
+        "top",
+        "side",
+        "front"
+      ],
+      "three_view_complete_for_depicted_model": true,
+      "three_view_complete_for_requested_model": false,
+      "exact_requested_model_verified": false,
+      "use_boundary": "Historical baseline only. Not accepted as a production Su-57 or AC8 Su-57 022 orthographic set. Production changes, game model details and livery require separate checks. Original SVG and hosted PNG unchanged.",
+      "files": [
+        {
+          "local_file": "references/aircraft/source-assets/su-57/t50-prototype-commons-xahyman-3view.svg",
+          "bytes": 75147,
+          "sha256": "55c8ea3c0b967e3d776f1e09eb56dd3dd8fb4a965bd187d0a8c075dced0c85c2",
+          "svg_width": "3545.459",
+          "svg_height": "1838.9805",
+          "viewBox": null
+        },
+        {
+          "local_file": "references/aircraft/source-assets/su-57/t50-prototype-commons-3view-preview.png",
+          "bytes": 49643,
+          "sha256": "4cb15e7c20b47bba2634454df6819dd65eafe408331a3979ac95eb9144643e56",
+          "pixel_dimensions": [
+            1280,
+            664
+          ]
+        }
+      ],
+      "checked_date": "2026-11-06"
+    },
+    {
+      "id": "su-57-ac8-official",
+      "requested_model": "Su-57 Felon",
+      "depicted_model": "Su-57 Felon",
+      "source_page": "https://enso-order.acecombat.jp/aircraft/",
+      "source_url": "https://enso-order.acecombat.jp/assets/img/aircraft/ss_30.webp",
+      "mapping_evidence": "Public page data-index=30 / data-name=Su-57 Felon; public project.js replaces ss_N.webp with selected data-index.",
+      "mapping_script_url": "https://enso-order.acecombat.jp/assets/js/project.js",
+      "source_kind": "Bandai Namco official game publicity screenshot",
+      "first_party_game_publisher": true,
+      "first_party_aircraft_manufacturer": false,
+      "author": "Bandai Namco Entertainment / Project Aces",
+      "license": "Copyright Bandai Namco Entertainment and respective aircraft rights holders; no open reuse license located",
+      "views": [
+        "front-left low oblique; landing gear down"
+      ],
+      "three_view_complete_for_requested_model": false,
+      "exact_requested_model_verified": true,
+      "missing_views": [
+        "orthographic top",
+        "orthographic side",
+        "orthographic front"
+      ],
+      "use_boundary": "Visual game-model reference. Perspective screenshot is not an orthographic drawing or dimensional engineering authority. Su-57 image is not Toprak livery.",
+      "files": [
+        {
+          "local_file": "references/aircraft/source-assets/su-57/ac8-official-su57-perspective.webp",
+          "bytes": 129902,
+          "sha256": "0ad048d2cbcc1b67af4ca3d31f5dc2141c8e2c7388db822e8960e3728c0d687a",
+          "pixel_dimensions": [
+            1920,
+            1080
+          ]
+        }
+      ],
+      "checked_date": "2026-11-06"
+    },
+    {
+      "id": "fa-36-ac8-official",
+      "requested_model": "FA-36 Game",
+      "depicted_model": "FA-36 Game",
+      "source_page": "https://enso-order.acecombat.jp/aircraft/",
+      "source_url": "https://enso-order.acecombat.jp/assets/img/aircraft/ss_32.webp",
+      "mapping_evidence": "Public page data-index=32 / data-name=FA-36 Game; public project.js replaces ss_N.webp with selected data-index.",
+      "mapping_script_url": "https://enso-order.acecombat.jp/assets/js/project.js",
+      "source_kind": "Bandai Namco official game publicity screenshot",
+      "first_party_game_publisher": true,
+      "first_party_aircraft_manufacturer": false,
+      "author": "Bandai Namco Entertainment / Project Aces",
+      "license": "Copyright Bandai Namco Entertainment and respective aircraft rights holders; no open reuse license located",
+      "views": [
+        "frontal perspective on carrier; landing gear down; wingtips raised"
+      ],
+      "three_view_complete_for_requested_model": false,
+      "exact_requested_model_verified": true,
+      "missing_views": [
+        "orthographic top",
+        "orthographic side",
+        "orthographic front"
+      ],
+      "use_boundary": "Visual game-model reference. Perspective screenshot is not an orthographic drawing or dimensional engineering authority. Su-57 image is not Toprak livery.",
+      "files": [
+        {
+          "local_file": "references/aircraft/source-assets/fa-36/ac8-official-fa36-perspective.webp",
+          "bytes": 95412,
+          "sha256": "3ab9f7661ae5ab9fc83d4803782ee27b961abc306cf8be5f5233f7128682ff8d",
+          "pixel_dimensions": [
+            1920,
+            1080
+          ]
+        }
+      ],
+      "checked_date": "2026-11-06"
+    },
+    {
+      "id": "su57-toprak-m18-0090.5-022-detail",
+      "requested_model": "Su-57 / Toprak 022",
+      "depicted_model": "Su-57 / Toprak 022",
+      "source_page": "https://www.bilibili.com/video/BV1qsHS6REg9/",
+      "source_time_seconds": 90.5,
+      "source_local_video": ".cache/squadron-BV1qsHS6REg9/BV1qsHS6REg9-video-480p.m4s",
+      "source_video_sha256": "5161c920f2b131054337c6d9c76a36d5f6ffc32688e619abbc1d20c55e06c745",
+      "source_kind": "Frame extracted from user-specified publicly accessible third-party gameplay recording; game visuals are direct observation, recording itself is not publisher-hosted",
+      "first_party_game_publisher": false,
+      "author": "Game: Bandai Namco Entertainment / Project Aces; recording and overlays: Bilibili uploader",
+      "license": "Game/recording copyrighted; no open reuse license located. Retain original watermark/UI for source traceability; not a clean production asset.",
+      "views": [
+        "M18 close oblique of canopy/022/gold stripe"
+      ],
+      "three_view_complete_for_requested_model": false,
+      "exact_requested_model_verified": true,
+      "missing_views": [
+        "orthographic top",
+        "orthographic side",
+        "orthographic front"
+      ],
+      "extraction": "OpenCV seek to stated video playback time, decoded full 852x480 frame saved PNG; no upscaling, cleanup or projection synthesis; no audio listened in this task",
+      "use_boundary": "Perspective and livery reference only. Do not copy uploader yellow labels, caricature overlay, watermarks or HUD into MV art. Preserve intact X-40 versus detached nose distinction.",
+      "files": [
+        {
+          "local_file": "references/aircraft/source-assets/su-57/su57-toprak-m18-0090.5-022-detail.png",
+          "bytes": 391471,
+          "sha256": "8532a6267edc35a0cebb36e9865d5e68249e3fcf24c7c36be92118f9056d118b",
+          "pixel_dimensions": [
+            852,
+            480
+          ]
+        }
+      ],
+      "checked_date": "2026-11-06"
+    },
+    {
+      "id": "su57-toprak-m18-0092.5-front-quarter",
+      "requested_model": "Su-57 / Toprak 022",
+      "depicted_model": "Su-57 / Toprak 022",
+      "source_page": "https://www.bilibili.com/video/BV1qsHS6REg9/",
+      "source_time_seconds": 92.5,
+      "source_local_video": ".cache/squadron-BV1qsHS6REg9/BV1qsHS6REg9-video-480p.m4s",
+      "source_video_sha256": "5161c920f2b131054337c6d9c76a36d5f6ffc32688e619abbc1d20c55e06c745",
+      "source_kind": "Frame extracted from user-specified publicly accessible third-party gameplay recording; game visuals are direct observation, recording itself is not publisher-hosted",
+      "first_party_game_publisher": false,
+      "author": "Game: Bandai Namco Entertainment / Project Aces; recording and overlays: Bilibili uploader",
+      "license": "Game/recording copyrighted; no open reuse license located. Retain original watermark/UI for source traceability; not a clean production asset.",
+      "views": [
+        "M18 front-upper quarter with 22ND UNIT card"
+      ],
+      "three_view_complete_for_requested_model": false,
+      "exact_requested_model_verified": true,
+      "missing_views": [
+        "orthographic top",
+        "orthographic side",
+        "orthographic front"
+      ],
+      "extraction": "OpenCV seek to stated video playback time, decoded full 852x480 frame saved PNG; no upscaling, cleanup or projection synthesis; no audio listened in this task",
+      "use_boundary": "Perspective and livery reference only. Do not copy uploader yellow labels, caricature overlay, watermarks or HUD into MV art. Preserve intact X-40 versus detached nose distinction.",
+      "files": [
+        {
+          "local_file": "references/aircraft/source-assets/su-57/su57-toprak-m18-0092.5-front-quarter.png",
+          "bytes": 368468,
+          "sha256": "45c80a028a80b9f4a9849d433a507ff28ece0e311294b9e1e77baa2e773eafa0",
+          "pixel_dimensions": [
+            852,
+            480
+          ]
+        }
+      ],
+      "checked_date": "2026-11-06"
+    },
+    {
+      "id": "su57-toprak-m28-0312.5-side-detail",
+      "requested_model": "Su-57 / Toprak 022",
+      "depicted_model": "Su-57 / Toprak 022",
+      "source_page": "https://www.bilibili.com/video/BV1qsHS6REg9/",
+      "source_time_seconds": 312.5,
+      "source_local_video": ".cache/squadron-BV1qsHS6REg9/BV1qsHS6REg9-video-480p.m4s",
+      "source_video_sha256": "5161c920f2b131054337c6d9c76a36d5f6ffc32688e619abbc1d20c55e06c745",
+      "source_kind": "Frame extracted from user-specified publicly accessible third-party gameplay recording; game visuals are direct observation, recording itself is not publisher-hosted",
+      "first_party_game_publisher": false,
+      "author": "Game: Bandai Namco Entertainment / Project Aces; recording and overlays: Bilibili uploader",
+      "license": "Game/recording copyrighted; no open reuse license located. Retain original watermark/UI for source traceability; not a clean production asset.",
+      "views": [
+        "M28 side-upper cockpit detail; rear fuselage cropped"
+      ],
+      "three_view_complete_for_requested_model": false,
+      "exact_requested_model_verified": true,
+      "missing_views": [
+        "orthographic top",
+        "orthographic side",
+        "orthographic front"
+      ],
+      "extraction": "OpenCV seek to stated video playback time, decoded full 852x480 frame saved PNG; no upscaling, cleanup or projection synthesis; no audio listened in this task",
+      "use_boundary": "Perspective and livery reference only. Do not copy uploader yellow labels, caricature overlay, watermarks or HUD into MV art. Preserve intact X-40 versus detached nose distinction.",
+      "files": [
+        {
+          "local_file": "references/aircraft/source-assets/su-57/su57-toprak-m28-0312.5-side-detail.png",
+          "bytes": 368704,
+          "sha256": "bd9dcb8dc83fad971409cc03b24d5b6d1082ab27568c0377e611b000f1b7c59b",
+          "pixel_dimensions": [
+            852,
+            480
+          ]
+        }
+      ],
+      "checked_date": "2026-11-06"
+    },
+    {
+      "id": "fa36-gemma-m23-0119.5-upper-quarter",
+      "requested_model": "FA-36 Game / Gemma",
+      "depicted_model": "FA-36 Game / Gemma",
+      "source_page": "https://www.bilibili.com/video/BV1qsHS6REg9/",
+      "source_time_seconds": 119.5,
+      "source_local_video": ".cache/squadron-BV1qsHS6REg9/BV1qsHS6REg9-video-480p.m4s",
+      "source_video_sha256": "5161c920f2b131054337c6d9c76a36d5f6ffc32688e619abbc1d20c55e06c745",
+      "source_kind": "Frame extracted from user-specified publicly accessible third-party gameplay recording; game visuals are direct observation, recording itself is not publisher-hosted",
+      "first_party_game_publisher": false,
+      "author": "Game: Bandai Namco Entertainment / Project Aces; recording and overlays: Bilibili uploader",
+      "license": "Game/recording copyrighted; no open reuse license located. Retain original watermark/UI for source traceability; not a clean production asset.",
+      "views": [
+        "M23 upper oblique; rear partly cropped"
+      ],
+      "three_view_complete_for_requested_model": false,
+      "exact_requested_model_verified": true,
+      "missing_views": [
+        "orthographic top",
+        "orthographic side",
+        "orthographic front"
+      ],
+      "extraction": "OpenCV seek to stated video playback time, decoded full 852x480 frame saved PNG; no upscaling, cleanup or projection synthesis; no audio listened in this task",
+      "use_boundary": "Perspective and livery reference only. Do not copy uploader yellow labels, caricature overlay, watermarks or HUD into MV art. Preserve intact X-40 versus detached nose distinction.",
+      "files": [
+        {
+          "local_file": "references/aircraft/source-assets/fa-36/fa36-gemma-m23-0119.5-upper-quarter.png",
+          "bytes": 233690,
+          "sha256": "0d20b3008aad97670b8cdf68605372e29977d4648bc3120e52211a718d6f8dd1",
+          "pixel_dimensions": [
+            852,
+            480
+          ]
+        }
+      ],
+      "checked_date": "2026-11-06"
+    },
+    {
+      "id": "fa36-gemma-m23-0122.5-unit-card",
+      "requested_model": "FA-36 Game / Gemma",
+      "depicted_model": "FA-36 Game / Gemma",
+      "source_page": "https://www.bilibili.com/video/BV1qsHS6REg9/",
+      "source_time_seconds": 122.5,
+      "source_local_video": ".cache/squadron-BV1qsHS6REg9/BV1qsHS6REg9-video-480p.m4s",
+      "source_video_sha256": "5161c920f2b131054337c6d9c76a36d5f6ffc32688e619abbc1d20c55e06c745",
+      "source_kind": "Frame extracted from user-specified publicly accessible third-party gameplay recording; game visuals are direct observation, recording itself is not publisher-hosted",
+      "first_party_game_publisher": false,
+      "author": "Game: Bandai Namco Entertainment / Project Aces; recording and overlays: Bilibili uploader",
+      "license": "Game/recording copyrighted; no open reuse license located. Retain original watermark/UI for source traceability; not a clean production asset.",
+      "views": [
+        "M23 upper oblique with GEMMA card"
+      ],
+      "three_view_complete_for_requested_model": false,
+      "exact_requested_model_verified": true,
+      "missing_views": [
+        "orthographic top",
+        "orthographic side",
+        "orthographic front"
+      ],
+      "extraction": "OpenCV seek to stated video playback time, decoded full 852x480 frame saved PNG; no upscaling, cleanup or projection synthesis; no audio listened in this task",
+      "use_boundary": "Perspective and livery reference only. Do not copy uploader yellow labels, caricature overlay, watermarks or HUD into MV art. Preserve intact X-40 versus detached nose distinction.",
+      "files": [
+        {
+          "local_file": "references/aircraft/source-assets/fa-36/fa36-gemma-m23-0122.5-unit-card.png",
+          "bytes": 347167,
+          "sha256": "b0828d5bc4a46a0f713156945839a93d0e356dbb55802a52a1c4d913ec208284",
+          "pixel_dimensions": [
+            852,
+            480
+          ]
+        }
+      ],
+      "checked_date": "2026-11-06"
+    },
+    {
+      "id": "fa36-gemma-m23-0125.5-front-perspective",
+      "requested_model": "FA-36 Game / Gemma",
+      "depicted_model": "FA-36 Game / Gemma",
+      "source_page": "https://www.bilibili.com/video/BV1qsHS6REg9/",
+      "source_time_seconds": 125.5,
+      "source_local_video": ".cache/squadron-BV1qsHS6REg9/BV1qsHS6REg9-video-480p.m4s",
+      "source_video_sha256": "5161c920f2b131054337c6d9c76a36d5f6ffc32688e619abbc1d20c55e06c745",
+      "source_kind": "Frame extracted from user-specified publicly accessible third-party gameplay recording; game visuals are direct observation, recording itself is not publisher-hosted",
+      "first_party_game_publisher": false,
+      "author": "Game: Bandai Namco Entertainment / Project Aces; recording and overlays: Bilibili uploader",
+      "license": "Game/recording copyrighted; no open reuse license located. Retain original watermark/UI for source traceability; not a clean production asset.",
+      "views": [
+        "M23 distant frontal perspective; current Ventus speaker is not aircraft identity"
+      ],
+      "three_view_complete_for_requested_model": false,
+      "exact_requested_model_verified": true,
+      "missing_views": [
+        "orthographic top",
+        "orthographic side",
+        "orthographic front"
+      ],
+      "extraction": "OpenCV seek to stated video playback time, decoded full 852x480 frame saved PNG; no upscaling, cleanup or projection synthesis; no audio listened in this task",
+      "use_boundary": "Perspective and livery reference only. Do not copy uploader yellow labels, caricature overlay, watermarks or HUD into MV art. Preserve intact X-40 versus detached nose distinction.",
+      "files": [
+        {
+          "local_file": "references/aircraft/source-assets/fa-36/fa36-gemma-m23-0125.5-front-perspective.png",
+          "bytes": 160588,
+          "sha256": "bc8df4218ac0155f44b7d8b2164897f3b6b6446318065f6a5cef71055d798d7f",
+          "pixel_dimensions": [
+            852,
+            480
+          ]
+        }
+      ],
+      "checked_date": "2026-11-06"
+    },
+    {
+      "id": "x40-m28-0291.5-side-perspective",
+      "requested_model": "X-40 / Moon 11",
+      "depicted_model": "X-40 / Moon 11",
+      "source_page": "https://www.bilibili.com/video/BV1qsHS6REg9/",
+      "source_time_seconds": 291.5,
+      "source_local_video": ".cache/squadron-BV1qsHS6REg9/BV1qsHS6REg9-video-480p.m4s",
+      "source_video_sha256": "5161c920f2b131054337c6d9c76a36d5f6ffc32688e619abbc1d20c55e06c745",
+      "source_kind": "Frame extracted from user-specified publicly accessible third-party gameplay recording; game visuals are direct observation, recording itself is not publisher-hosted",
+      "first_party_game_publisher": false,
+      "author": "Game: Bandai Namco Entertainment / Project Aces; recording and overlays: Bilibili uploader",
+      "license": "Game/recording copyrighted; no open reuse license located. Retain original watermark/UI for source traceability; not a clean production asset.",
+      "views": [
+        "M28 left-side oblique flyby; motion blur"
+      ],
+      "three_view_complete_for_requested_model": false,
+      "exact_requested_model_verified": true,
+      "missing_views": [
+        "orthographic top",
+        "orthographic side",
+        "orthographic front"
+      ],
+      "extraction": "OpenCV seek to stated video playback time, decoded full 852x480 frame saved PNG; no upscaling, cleanup or projection synthesis; no audio listened in this task",
+      "use_boundary": "Perspective and livery reference only. Do not copy uploader yellow labels, caricature overlay, watermarks or HUD into MV art. Preserve intact X-40 versus detached nose distinction.",
+      "files": [
+        {
+          "local_file": "references/aircraft/source-assets/x-40/x40-m28-0291.5-side-perspective.png",
+          "bytes": 231013,
+          "sha256": "a9467cbdc447a3ca187fd94fc060aa59d0ab4a1b8dcd4003843c9128e45498a6",
+          "pixel_dimensions": [
+            852,
+            480
+          ]
+        }
+      ],
+      "checked_date": "2026-11-06",
+      "identity_evidence": "X-40 / Moon 11 identity cross-checked with M29 HUD in prior MOON11_SCENE_STUDY; current frames primarily establish visible geometry and intact/detached phase. Nightmare name remains community-supplemented."
+    },
+    {
+      "id": "x40-m29-0032-oblique-upper",
+      "requested_model": "X-40 / Moon 11",
+      "depicted_model": "X-40 / Moon 11",
+      "source_page": "https://www.bilibili.com/video/BV19TaZ6vE5K/",
+      "source_time_seconds": 32,
+      "source_local_video": ".cache/moon11-BV19TaZ6vE5K/BV19TaZ6vE5K-video-480p.m4s",
+      "source_video_sha256": "b0dc80e767330c4bdf4409df36d0f3877eaa628b514b78d8e92254b8abaa949b",
+      "source_kind": "Frame extracted from user-specified publicly accessible third-party gameplay recording; game visuals are direct observation, recording itself is not publisher-hosted",
+      "first_party_game_publisher": false,
+      "author": "Game: Bandai Namco Entertainment / Project Aces; recording and overlays: Bilibili uploader",
+      "license": "Game/recording copyrighted; no open reuse license located. Retain original watermark/UI for source traceability; not a clean production asset.",
+      "views": [
+        "M29 upper-left oblique: 011 nose, gold canopy, forward/central structure; aft/right region cropped"
+      ],
+      "three_view_complete_for_requested_model": false,
+      "exact_requested_model_verified": true,
+      "missing_views": [
+        "orthographic top",
+        "orthographic side",
+        "orthographic front"
+      ],
+      "extraction": "OpenCV seek to stated video playback time, decoded full 852x480 frame saved PNG; no upscaling, cleanup or projection synthesis; no audio listened in this task",
+      "use_boundary": "Perspective and livery reference only. Do not copy uploader yellow labels, caricature overlay, watermarks or HUD into MV art. Preserve intact X-40 versus detached nose distinction.",
+      "files": [
+        {
+          "local_file": "references/aircraft/source-assets/x-40/x40-m29-0032-oblique-upper.png",
+          "bytes": 252579,
+          "sha256": "78f6281fa61f1b3dbf351faed1a4e58baf743ba5b94519c9e73dc281733f3a79",
+          "pixel_dimensions": [
+            852,
+            480
+          ]
+        }
+      ],
+      "checked_date": "2026-11-06",
+      "identity_evidence": "X-40 / Moon 11 identity cross-checked with M29 HUD in prior MOON11_SCENE_STUDY; current frames primarily establish visible geometry and intact/detached phase. Nightmare name remains community-supplemented."
+    },
+    {
+      "id": "x40-m29-0544-nose-separation",
+      "requested_model": "X-40 nose unit / Moon 11",
+      "depicted_model": "X-40 nose unit / Moon 11",
+      "source_page": "https://www.bilibili.com/video/BV19TaZ6vE5K/",
+      "source_time_seconds": 544,
+      "source_local_video": ".cache/moon11-BV19TaZ6vE5K/BV19TaZ6vE5K-video-480p.m4s",
+      "source_video_sha256": "b0dc80e767330c4bdf4409df36d0f3877eaa628b514b78d8e92254b8abaa949b",
+      "source_kind": "Frame extracted from user-specified publicly accessible third-party gameplay recording; game visuals are direct observation, recording itself is not publisher-hosted",
+      "first_party_game_publisher": false,
+      "author": "Game: Bandai Namco Entertainment / Project Aces; recording and overlays: Bilibili uploader",
+      "license": "Game/recording copyrighted; no open reuse license located. Retain original watermark/UI for source traceability; not a clean production asset.",
+      "views": [
+        "M29 detached nose unit forward of exploding carrier airframe; not intact X-40 geometry"
+      ],
+      "three_view_complete_for_requested_model": false,
+      "exact_requested_model_verified": true,
+      "missing_views": [
+        "orthographic top",
+        "orthographic side",
+        "orthographic front"
+      ],
+      "extraction": "OpenCV seek to stated video playback time, decoded full 852x480 frame saved PNG; no upscaling, cleanup or projection synthesis; no audio listened in this task",
+      "use_boundary": "Perspective and livery reference only. Do not copy uploader yellow labels, caricature overlay, watermarks or HUD into MV art. Preserve intact X-40 versus detached nose distinction.",
+      "files": [
+        {
+          "local_file": "references/aircraft/source-assets/x-40/x40-m29-0544-nose-separation.png",
+          "bytes": 443573,
+          "sha256": "dfb78c5826833786cf73b9d201613c675704112b6c84608efbe97399689faee2",
+          "pixel_dimensions": [
+            852,
+            480
+          ]
+        }
+      ],
+      "checked_date": "2026-11-06",
+      "identity_evidence": "X-40 / Moon 11 identity cross-checked with M29 HUD in prior MOON11_SCENE_STUDY; current frames primarily establish visible geometry and intact/detached phase. Nightmare name remains community-supplemented."
+    },
+    {
+      "id": "x40-m29-0624-detached-nose-burning",
+      "requested_model": "X-40 nose unit / Moon 11",
+      "depicted_model": "X-40 nose unit / Moon 11",
+      "source_page": "https://www.bilibili.com/video/BV19TaZ6vE5K/",
+      "source_time_seconds": 624,
+      "source_local_video": ".cache/moon11-BV19TaZ6vE5K/BV19TaZ6vE5K-video-480p.m4s",
+      "source_video_sha256": "b0dc80e767330c4bdf4409df36d0f3877eaa628b514b78d8e92254b8abaa949b",
+      "source_kind": "Frame extracted from user-specified publicly accessible third-party gameplay recording; game visuals are direct observation, recording itself is not publisher-hosted",
+      "first_party_game_publisher": false,
+      "author": "Game: Bandai Namco Entertainment / Project Aces; recording and overlays: Bilibili uploader",
+      "license": "Game/recording copyrighted; no open reuse license located. Retain original watermark/UI for source traceability; not a clean production asset.",
+      "views": [
+        "M29 close oblique of damaged/burning detached nose; not intact X-40 geometry"
+      ],
+      "three_view_complete_for_requested_model": false,
+      "exact_requested_model_verified": true,
+      "missing_views": [
+        "orthographic top",
+        "orthographic side",
+        "orthographic front"
+      ],
+      "extraction": "OpenCV seek to stated video playback time, decoded full 852x480 frame saved PNG; no upscaling, cleanup or projection synthesis; no audio listened in this task",
+      "use_boundary": "Perspective and livery reference only. Do not copy uploader yellow labels, caricature overlay, watermarks or HUD into MV art. Preserve intact X-40 versus detached nose distinction.",
+      "files": [
+        {
+          "local_file": "references/aircraft/source-assets/x-40/x40-m29-0624-detached-nose-burning.png",
+          "bytes": 385405,
+          "sha256": "6568b24f347f174a448b8aabd31d986fb891df004077336d7f70b0c557abf579",
+          "pixel_dimensions": [
+            852,
+            480
+          ]
+        }
+      ],
+      "checked_date": "2026-11-06",
+      "identity_evidence": "X-40 / Moon 11 identity cross-checked with M29 HUD in prior MOON11_SCENE_STUDY; current frames primarily establish visible geometry and intact/detached phase. Nightmare name remains community-supplemented."
+    },
+    {
+      "model": "Su-33",
+      "source_page": "https://www.digitalcombatsimulator.com/it/downloads/documentation/dcs-su-33_flight_manual_en/",
+      "source_url": "https://www.digitalcombatsimulator.com/upload/iblock/e28/DCS_Su33_FC3_Flight_Manual_EN.pdf",
+      "source_kind": "Eagle Dynamics official simulator manual; not aircraft-manufacturer engineering drawing",
+      "author": "Eagle Dynamics / The Fighter Collection",
+      "license": "No open reuse license located; retain as research reference, not an independently licensed production asset",
+      "three_view_complete": true,
+      "views": [
+        "top",
+        "side",
+        "front"
+      ],
+      "source_locator": "PDF page 20, printed page 14, Figure 3: Su-33 drawings",
+      "source_pdf_sha256": "c45d4dc134d881f11551e87982a5ea0aa2485eb8d0d422ad627e4ff91972303e",
+      "notes": "Downloaded public PDF into memory, rendered the complete relevant page at 144 dpi with Poppler. Source PDF 10504794 bytes not retained. Drawing includes canards, folding-panel seams and landing gear. Shape reference; no claim of engineering dimensional certification.",
+      "checked_date": "2026-11-06",
+      "files": [
+        {
+          "local_file": "references/aircraft/source-assets/su-33/dcs-su33-manual-p020-three-view.png",
+          "bytes": 339582,
+          "sha256": "1f44bc396a0ae25eeba7a579826ad3724d978a121f504e2903478269f818bbcc",
+          "pixel_dimensions": [
+            976,
+            1276
+          ]
+        }
+      ],
+      "id": "su-33-supporting-source",
+      "first_party_aircraft_manufacturer": false,
+      "three_view_complete_for_requested_model": true,
+      "exact_requested_model_verified": true
+    },
+    {
+      "model": "MiG-29; intended MiG-29A (9-12) use remains variant-unverified",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Mikoyan_MiG-29_3-view.svg",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/0/05/Mikoyan_MiG-29_3-view.svg",
+      "preview_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Mikoyan_MiG-29_3-view.svg/1920px-Mikoyan_MiG-29_3-view.svg.png",
+      "upstream_source": "http://airwar.ru/other/draw/mig29-2.html",
+      "source_kind": "Community vector drawing derived according to Airwar; not manufacturer data",
+      "author": "Kaboldy",
+      "license": "CC BY-SA 3.0 Unported (alternative GFDL 1.2+ offered)",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "three_view_complete": true,
+      "views": [
+        "top",
+        "side",
+        "front"
+      ],
+      "svg_nominal_dimensions": [
+        1348.184,
+        978.185
+      ],
+      "notes": "All three orthographic views visually inspected. Commons description identifies generic MiG-29 only; do not mark 9-12/9-12A variant verified. Source drawing has slim-spine early-MiG appearance but that visual inference alone is insufficient. Neither source file nor hosted thumbnail altered.",
+      "checked_date": "2026-11-06",
+      "files": [
+        {
+          "local_file": "references/aircraft/source-assets/mig-29a/commons-kaboldy-mig29-three-view-1920.png",
+          "bytes": 209757,
+          "sha256": "94ae813d1bbe57bbce7e9fac1788639355dd16201835c5e18ba8eb6ab8cf5432",
+          "pixel_dimensions": [
+            1920,
+            1394
+          ]
+        },
+        {
+          "local_file": "references/aircraft/source-assets/mig-29a/commons-kaboldy-mig29-three-view.svg",
+          "bytes": 741694,
+          "sha256": "624d9362b2774e69009a11b79af06e435e6337daccf25f30e1436a12bf29bcd2"
+        }
+      ],
+      "id": "mig-29a-supporting-source",
+      "first_party_aircraft_manufacturer": false,
+      "three_view_complete_for_requested_model": false,
+      "exact_requested_model_verified": false
+    },
+    {
+      "model": "Su-35S",
+      "source_page": "https://media.hannants.co.uk/pdfs/begemot/72-055_2.pdf",
+      "source_url": "https://media.hannants.co.uk/pdfs/begemot/72-055_2.pdf",
+      "source_kind": "Begemot decal maker diagram carried by retailer Hannants; not Sukhoi engineering drawing",
+      "author": "Begemot",
+      "license": "No open reuse license located; retain as research reference, not an independently licensed production asset",
+      "three_view_complete": false,
+      "views": [
+        "top",
+        "bottom",
+        "port side",
+        "starboard side"
+      ],
+      "missing_views": [
+        "front orthographic"
+      ],
+      "source_locator": "PDF pages 1-2; pages 3-4 included in downloaded original but not used for aircraft-shape audit",
+      "notes": "Both page drawings explicitly label Su-35S. Top/side views show no canards, so not substituted with original Su-27M/Su-35. Diagrams are decal placement art with many callouts; no engineering scale/tolerance validation. Complete PDF downloaded unchanged; relevant pages rendered at 144 dpi with Poppler.",
+      "checked_date": "2026-11-06",
+      "files": [
+        {
+          "local_file": "references/aircraft/source-assets/su-35s/begemot-72-055-2-p01.png",
+          "bytes": 533753,
+          "sha256": "44da9a5d5df86d88487d139d77aa718e02cb5060ba5024d58994afa882a7534c",
+          "pixel_dimensions": [
+            960,
+            1355
+          ]
+        },
+        {
+          "local_file": "references/aircraft/source-assets/su-35s/begemot-72-055-2-p02.png",
+          "bytes": 800040,
+          "sha256": "9982ce96a7a6a954903927c68c04ceec6bf739257f40c7d3dd26a87f73af93d2",
+          "pixel_dimensions": [
+            960,
+            1355
+          ]
+        },
+        {
+          "local_file": "references/aircraft/source-assets/su-35s/begemot-72-055-2-su35s-stencils.pdf",
+          "bytes": 776403,
+          "sha256": "5fddaf3147b8fc7d50d56f8612d29258df2aca952e431b69655613f4b2f64020"
+        }
+      ],
+      "id": "su-35s-supporting-source",
+      "first_party_aircraft_manufacturer": false,
+      "three_view_complete_for_requested_model": false,
+      "exact_requested_model_verified": true
+    }
+  ]
+}

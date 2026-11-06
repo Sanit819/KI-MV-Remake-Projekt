@@ -1,0 +1,244 @@
+{
+  "date": "2026-11-06",
+  "scope": "Assets actually requested by storyboard v2. Available orthographic references do not mean drawings have passed review.",
+  "assets": [
+    {
+      "id": "FA18F",
+      "model": "F/A-18F Super Hornet",
+      "reference_status": "reference_incomplete",
+      "reference_manifest": "WESTERN_SOURCES.json",
+      "source_ids": [],
+      "used_in_shots": [
+        "HRA-007",
+        "HRA-010",
+        "HRA-014",
+        "HRA-015",
+        "HRA-021",
+        "HRA-023",
+        "HRA-053"
+      ],
+      "geometry_approved": false,
+      "livery_approved": false,
+      "view_requirements": [
+        "top",
+        "side",
+        "front"
+      ],
+      "note": "Cope/Rex early shared aircraft; exact F three-view still missing."
+    },
+    {
+      "id": "FA18C",
+      "model": "F/A-18C Hornet",
+      "reference_status": "partial_variant_views",
+      "reference_manifest": "WESTERN_SOURCES.json",
+      "source_ids": [
+        "hornet-generic-usarmy",
+        "hornet-cd-hrvatski"
+      ],
+      "used_in_shots": [
+        "HRA-015",
+        "HRA-025",
+        "HRA-026",
+        "HRA-031",
+        "HRA-032",
+        "HRA-034",
+        "HRA-035",
+        "HRA-038",
+        "HRA-043",
+        "HRA-045",
+        "HRA-048",
+        "HRA-052",
+        "HRA-053",
+        "HRA-054",
+        "HRA-056",
+        "HRA-058"
+      ],
+      "geometry_approved": false,
+      "livery_approved": false,
+      "view_requirements": [
+        "top",
+        "side",
+        "front"
+      ],
+      "note": "Chosen Joker configuration; C side documented, exact C top/front must be checked."
+    },
+    {
+      "id": "SU57",
+      "model": "Su-57 Felon / Toprak 022",
+      "reference_status": "prototype_not_equivalent",
+      "reference_manifest": "EASTERN_FICTIONAL_SOURCES.json",
+      "source_ids": [
+        "su57-t50-historical-orthographic",
+        "su-57-ac8-official",
+        "su57-toprak-m18-0090.5-022-detail",
+        "su57-toprak-m18-0092.5-front-quarter",
+        "su57-toprak-m28-0312.5-side-detail"
+      ],
+      "used_in_shots": [
+        "HRA-012",
+        "HRA-016",
+        "HRA-022",
+        "HRA-037",
+        "HRA-041",
+        "HRA-042",
+        "HRA-043",
+        "HRA-050"
+      ],
+      "geometry_approved": false,
+      "livery_approved": false,
+      "view_requirements": [
+        "top",
+        "side",
+        "front"
+      ],
+      "note": "T-50 historical orthographic is not accepted as production or AC8 equivalent."
+    },
+    {
+      "id": "X40",
+      "model": "X-40 / Moon 11 intact",
+      "reference_status": "perspectives_only",
+      "reference_manifest": "EASTERN_FICTIONAL_SOURCES.json",
+      "source_ids": [
+        "x40-m28-0291.5-side-perspective",
+        "x40-m29-0032-oblique-upper"
+      ],
+      "used_in_shots": [
+        "HRA-041",
+        "HRA-044",
+        "HRA-045",
+        "HRA-046",
+        "HRA-049",
+        "HRA-054"
+      ],
+      "geometry_approved": false,
+      "livery_approved": false,
+      "view_requirements": [
+        "top",
+        "side",
+        "front"
+      ],
+      "note": "Intact top/side/front orthographics missing; original obliques cannot be stretched into orthographics."
+    },
+    {
+      "id": "X40_NOSE",
+      "model": "X-40 separated nose unit",
+      "reference_status": "perspectives_only",
+      "reference_manifest": "EASTERN_FICTIONAL_SOURCES.json",
+      "source_ids": [
+        "x40-m29-0544-nose-separation",
+        "x40-m29-0624-detached-nose-burning"
+      ],
+      "used_in_shots": [
+        "HRA-055",
+        "HRA-056"
+      ],
+      "geometry_approved": false,
+      "livery_approved": false,
+      "view_requirements": [
+        "top",
+        "side",
+        "front"
+      ],
+      "note": "Independent damaged asset; flames and wreckage are not normal geometry."
+    },
+    {
+      "id": "RAFALEM",
+      "model": "Rafale M",
+      "reference_status": "partial_variant_views",
+      "reference_manifest": "WESTERN_SOURCES.json",
+      "source_ids": [
+        "rafale-family-newresid",
+        "rafale-m-profile",
+        "rafale-bcm-hrvatski"
+      ],
+      "used_in_shots": [
+        "HRA-040",
+        "HRA-043"
+      ],
+      "geometry_approved": false,
+      "livery_approved": false,
+      "view_requirements": [
+        "top",
+        "side",
+        "front"
+      ],
+      "note": "Kate M28; exact M side available, B top cannot substitute."
+    },
+    {
+      "id": "F16C",
+      "model": "F-16C Fighting Falcon",
+      "reference_status": "reference_incomplete",
+      "reference_manifest": "WESTERN_SOURCES.json",
+      "source_ids": [],
+      "used_in_shots": [
+        "HRA-038"
+      ],
+      "geometry_approved": false,
+      "livery_approved": false,
+      "view_requirements": [
+        "top",
+        "side",
+        "front"
+      ],
+      "note": "Green M28; precise subtype/block top/side/front not acquired."
+    },
+    {
+      "id": "F4E",
+      "model": "F-4E Phantom II",
+      "reference_status": "family_outline_only",
+      "reference_manifest": "WESTERN_SOURCES.json",
+      "source_ids": [
+        "f4ef-usarmy"
+      ],
+      "used_in_shots": [
+        "HRA-039"
+      ],
+      "geometry_approved": false,
+      "livery_approved": false,
+      "view_requirements": [
+        "top",
+        "side",
+        "front"
+      ],
+      "note": "Flying Mole M28; low resolution E/F family outline not an exact production E master."
+    },
+    {
+      "id": "F15C",
+      "model": "F-15C Eagle",
+      "reference_status": "reference_incomplete",
+      "reference_manifest": "WESTERN_SOURCES.json",
+      "source_ids": [],
+      "used_in_shots": [
+        "HRA-039"
+      ],
+      "geometry_approved": false,
+      "livery_approved": false,
+      "view_requirements": [
+        "top",
+        "side",
+        "front"
+      ],
+      "note": "Shark; source metadata without downloaded drawing does not qualify."
+    },
+    {
+      "id": "SU33",
+      "model": "Su-33 Flanker-D",
+      "reference_status": "three_view_available",
+      "reference_manifest": "EASTERN_FICTIONAL_SOURCES.json",
+      "source_ids": [
+        "su-33-supporting-source"
+      ],
+      "used_in_shots": [
+        "HRA-039"
+      ],
+      "geometry_approved": false,
+      "livery_approved": false,
+      "view_requirements": [
+        "top",
+        "side",
+        "front"
+      ],
+      "note": "Shilage volunteers; simulator manual top/side/front available, drawing and livery still unapproved."
+    }
+  ]
+}

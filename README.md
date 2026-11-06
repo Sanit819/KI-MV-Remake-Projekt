@@ -1,8 +1,10 @@
 # Hortus Regis Alti 崇高君王之苑
 
-第二企划，开始于 2026-11-06。用户已明确制作粉丝向同人 MV，以 FCU Joker 队与索托亚 Shadows／Moon 11 的角度呈现故事，授权助手决定剧情。**Rex 是主角，剧情贴近原曲歌词、意境与已整理的设定。** 当前进入剧情设计与中队／机体核对。
+第二企划，开始于 2026-11-06。用户已明确制作粉丝向同人 MV，以 FCU Joker 队与索托亚 Shadows／Moon 11 的角度呈现故事，授权助手决定剧情。**最新指示允许两侧交替作为叙事主体，Rex 不必始终是主角；每段贴近歌词与意境，人物与机体遵循已核对设定，飞机严格依据对应三视图绘制。**
 
-**剧情入口：[MV 剧情方案 v1](docs/STORY_TREATMENT_V1.md)。** Rex 主线、Moon 11 对照、Shadow 22 宿敌；从接过 Cope 的名号，走到接过敌人留下的归乡托付。该方案是当前叙事基线，尚未生成逐句音乐时间轴或成片。
+**当前入口：[可筛选分镜阅读版](storyboard/index.html)／[66 镜逐句分镜 v2](docs/STORYBOARD_V2.md)。** 覆盖 16 组歌词，Joker、索托亚与双方生活交替展开。Rex 的身份承接保留，Tewy 与其他人物拥有独立主观段落；实际歌词时间仍待对时，尚未绘制原画或生成成片。旧 [剧情 v1](docs/STORY_TREATMENT_V1.md)保留为历史。
+
+人物机号、阶段配机与原作时序见[连续性表](docs/CONTINUITY_V2.md)；绘机前使用[三视图规范](docs/AIRCRAFT_DRAWING_SPEC.md)与[参考档案](references/aircraft/README.md)。本地原始参考图已另存，三视未齐的型号明确保留缺口。
 
 背景依据：[首轮研究汇总](RESEARCH_SUMMARY.md)。前三支用户指定视频的全时段字幕／画面采样、官方背景补充和阅读边界均已整理。
 

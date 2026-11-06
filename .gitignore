@@ -8,3 +8,6 @@
 # Generated exports and locally retained source media
 /exports/
 /local-source/
+
+# Local reference originals; provenance manifests are versioned separately
+/references/aircraft/source-assets/

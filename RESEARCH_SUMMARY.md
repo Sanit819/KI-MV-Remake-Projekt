@@ -1,5 +1,7 @@
 # Hortus Regis Alti 崇高君王之苑 · 首轮研究汇总
 
+> 当前制作入口已更新为[逐句分镜 v2](docs/STORYBOARD_V2.md)：用户允许两侧交替成为主体，并要求机体按准确三视图绘制。本文下方保留研究与前一阶段方案的来源脉络，不以历史的 Rex 唯一主角表述覆盖新指示。
+
 2026-11-06。包含《皇牌空战8》完整剧情及 Moon 11 对决剧透。
 
 **第二企划已在原 Git 仓库建立独立分支 `project-02/hortus-regis-alti`，本地目录为 `D:/myskills/updream/Hortus-Regis-Alti`。** 本文汇总前三支指定视频与官方背景资料。后续用户已确定制作粉丝向同人 MV，授权助手决定剧情，要求 Rex 为主角、Joker 与 Shadows／Moon 11 双侧呈现，并贴近歌词与设定。当前叙事基线见 [剧情方案 v1](docs/STORY_TREATMENT_V1.md)；本文保留为研究依据。

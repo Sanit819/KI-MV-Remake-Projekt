@@ -1,0 +1,2118 @@
+{
+  "title": "Hortus Regis Alti 崇高君王之苑",
+  "version": "storyboard-v2",
+  "date": "2026-11-06",
+  "status": "逐句语义分镜；尚未音频逐句对时、绘制原画或生成成片",
+  "user_revision": "允许 Joker／索托亚交替成为叙事主体，取消 Rex 必须始终为主角的限制。",
+  "audio": {
+    "path": "../local-source/audio/Hortus+Regis+Alti+游戏版多轨混缩.flac",
+    "duration_seconds": 350.76922916666666,
+    "preserve_flac": true
+  },
+  "timing_policy": "所有时间为 null。16 组歌词是语义锚点，不宣称真实演唱只出现一次；重复、间奏与镜头长度在原曲对时后调整。",
+  "display_normalization": "Only backslash-escaped quotation marks are displayed as ordinary quotes; archived lyric text and spellings remain unchanged.",
+  "reference_policy": "参考文件确认事件背景与配属；同人动作、构图和意象连接另标。三视图未验收的机体不得进入外形定稿。",
+  "sources": {
+    "CHAR": "references/OFFICIAL_CHARACTERS.md",
+    "STORY": "references/AC8_STORY_READING.md",
+    "M29": "references/MOON11_SCENE_STUDY.md",
+    "ENTRY": "references/SQUADRON_ENTRANCES_READING.md",
+    "AIR": "references/SQUADRON_AIRCRAFT.md"
+  },
+  "groups": [
+    {
+      "lyric": {
+        "id": 1,
+        "latin": "Prata olim laeta nunc aruuntur,",
+        "chinese": "昔日欢悦的原野，如今已然枯槁",
+        "start": null,
+        "end": null,
+        "source": "user-provided"
+      },
+      "title": "土地先于王牌",
+      "subject": "索托亚的离乡者；不经由 Rex 的回忆进入。",
+      "shot_ids": [
+        "HRA-001",
+        "HRA-002",
+        "HRA-003"
+      ]
+    },
+    {
+      "lyric": {
+        "id": 2,
+        "latin": "et tempus fertile cum vento praeteriit.",
+        "chinese": "丰饶时节，随风消逝",
+        "start": null,
+        "end": null,
+        "source": "user-provided"
+      },
+      "title": "丰饶成为过去",
+      "subject": "从索托亚的失去转向 FCU 的失去。",
+      "shot_ids": [
+        "HRA-004",
+        "HRA-005",
+        "HRA-006"
+      ]
+    },
+    {
+      "lyric": {
+        "id": 3,
+        "latin": "Venti per caelum flantes nobis nuntian,",
+        "chinese": "长风穿穹而过，向我们宣告",
+        "start": null,
+        "end": null,
+        "source": "user-provided"
+      },
+      "title": "同一阵风，两种命令",
+      "subject": "Joker 与索托亚都听见出发，但出发的后果并不相同。",
+      "shot_ids": [
+        "HRA-007",
+        "HRA-008",
+        "HRA-009"
+      ]
+    },
+    {
+      "lyric": {
+        "id": 4,
+        "latin": "tempus discedendi advenisse.",
+        "chinese": "动身远行之时已至",
+        "start": null,
+        "end": null,
+        "source": "user-provided"
+      },
+      "title": "离开原来的位置",
+      "subject": "从普通人的离开，落到 Cope 与 Rex 的第一次同行。",
+      "shot_ids": [
+        "HRA-010",
+        "HRA-011",
+        "HRA-012",
+        "HRA-013"
+      ]
+    },
+    {
+      "lyric": {
+        "id": 5,
+        "latin": "Proficiscamur, ad novas terras,",
+        "chinese": "启程吧，向着陌生的大地",
+        "start": null,
+        "end": null,
+        "source": "user-provided"
+      },
+      "title": "去往陌生天空",
+      "subject": "Joker 的共同出发为这一句的主要动作，敌侧提供压力。",
+      "shot_ids": [
+        "HRA-014",
+        "HRA-015",
+        "HRA-016"
+      ]
+    },
+    {
+      "lyric": {
+        "id": 6,
+        "latin": "cum amicis et familia.",
+        "chinese": "偕亲友，同族人一道",
+        "start": null,
+        "end": null,
+        "source": "user-provided"
+      },
+      "title": "曾经坐在身边的人",
+      "subject": "第一次“亲友”：共同生活仍完整；双方都不是抽象图标。",
+      "shot_ids": [
+        "HRA-017",
+        "HRA-018",
+        "HRA-019",
+        "HRA-020"
+      ]
+    },
+    {
+      "lyric": {
+        "id": 7,
+        "latin": "Proficiscamur, ad mundum ditiorem.",
+        "chinese": "启程吧，去往更为丰饶的国度",
+        "start": null,
+        "end": null,
+        "source": "user-provided"
+      },
+      "title": "丰饶与坠落",
+      "subject": "在回家愿望仍被歌唱时，战争第一次切断同行。",
+      "shot_ids": [
+        "HRA-021",
+        "HRA-022",
+        "HRA-023"
+      ]
+    },
+    {
+      "lyric": {
+        "id": 8,
+        "latin": "Noli respicire. Perge progredi.",
+        "chinese": "勿回头，只管向前行",
+        "start": null,
+        "end": null,
+        "source": "user-provided"
+      },
+      "title": "回头以后仍然向前",
+      "subject": "Rex 此段成为中心，重点是承担，不是突然获得传奇能力。",
+      "shot_ids": [
+        "HRA-024",
+        "HRA-025",
+        "HRA-026",
+        "HRA-027"
+      ]
+    },
+    {
+      "lyric": {
+        "id": 9,
+        "latin": "Montes sacri, protegite populum nostrum.",
+        "chinese": "圣山啊，请庇佑吾民",
+        "start": null,
+        "end": null,
+        "source": "user-provided"
+      },
+      "title": "谁在庇佑谁",
+      "subject": "把祈愿交还给普通人；敌境相遇让双方从目标成为人。",
+      "shot_ids": [
+        "HRA-028",
+        "HRA-029",
+        "HRA-030",
+        "HRA-031"
+      ]
+    },
+    {
+      "lyric": {
+        "id": 10,
+        "latin": "Perge, vestigia integra pergunt.",
+        "chinese": "前行，步履坚定不移",
+        "start": null,
+        "end": null,
+        "source": "user-provided"
+      },
+      "title": "步履中的空缺",
+      "subject": "Baxter 的牺牲改变队伍；坚定不等于没有痛感。",
+      "shot_ids": [
+        "HRA-032",
+        "HRA-033",
+        "HRA-034"
+      ]
+    },
+    {
+      "lyric": {
+        "id": 11,
+        "latin": "Per flumina et valles, progredimur.",
+        "chinese": "跨河谷，越山涧，我们继续前行",
+        "start": null,
+        "end": null,
+        "source": "user-provided"
+      },
+      "title": "穿过的土地",
+      "subject": "地理行进与两侧所承担的后果并置，不压缩成新战役。",
+      "shot_ids": [
+        "HRA-035",
+        "HRA-036",
+        "HRA-037"
+      ]
+    },
+    {
+      "lyric": {
+        "id": 12,
+        "latin": "Aliquando ad \"Hortus Regis Alti\" perveniemus.",
+        "chinese": "终有一日，我们将抵达「至高之王的花园」",
+        "start": null,
+        "end": null,
+        "source": "user-provided"
+      },
+      "title": "应许之地有了不同答案",
+      "subject": "M28 群像聚拢，再分出 Toprak 与 Tewy 的选择。",
+      "shot_ids": [
+        "HRA-038",
+        "HRA-039",
+        "HRA-040",
+        "HRA-041",
+        "HRA-042",
+        "HRA-043",
+        "HRA-044"
+      ]
+    },
+    {
+      "lyric": {
+        "id": 13,
+        "latin": "Revertimini ad terram nostram,",
+        "chinese": "归去吧，回到故土之上",
+        "start": null,
+        "end": null,
+        "source": "user-provided"
+      },
+      "title": "她想回去的故土",
+      "subject": "M29 以 Tewy 主观为重心，Theve 平民与 Joker 责任提供现实尺度。",
+      "shot_ids": [
+        "HRA-045",
+        "HRA-046",
+        "HRA-047",
+        "HRA-048",
+        "HRA-049"
+      ]
+    },
+    {
+      "lyric": {
+        "id": 14,
+        "latin": "cum amicis et familia.",
+        "chinese": "偕亲友，同族人一道",
+        "start": null,
+        "end": null,
+        "source": "user-provided"
+      },
+      "title": "第二次同行，已经有人缺席",
+      "subject": "Tewy 的同袍记忆与 Joker 的当下同行交替，二者不合并成实际团聚。",
+      "shot_ids": [
+        "HRA-050",
+        "HRA-051",
+        "HRA-052",
+        "HRA-053",
+        "HRA-054",
+        "HRA-055"
+      ]
+    },
+    {
+      "lyric": {
+        "id": 15,
+        "latin": "Revertimini ad mundum ditiorem.",
+        "chinese": "归去吧，去往丰饶的国度",
+        "start": null,
+        "end": null,
+        "source": "user-provided"
+      },
+      "title": "归处被交给别人",
+      "subject": "由 Tewy 的行动转为托付，再由 Rex 承接；不把击坠改写成救活。",
+      "shot_ids": [
+        "HRA-056",
+        "HRA-057",
+        "HRA-058",
+        "HRA-059",
+        "HRA-060",
+        "HRA-061"
+      ]
+    },
+    {
+      "lyric": {
+        "id": 16,
+        "latin": "Noli dubitare. Proficisce te nunc.",
+        "chinese": "不必迟疑，此刻就踏上旅途",
+        "start": null,
+        "end": null,
+        "source": "user-provided"
+      },
+      "title": "把下一程留给生者",
+      "subject": "从既定战役收束到仍将继续的生活；不是 M29 一结束就天下太平。",
+      "shot_ids": [
+        "HRA-062",
+        "HRA-063",
+        "HRA-064",
+        "HRA-065",
+        "HRA-066"
+      ]
+    }
+  ],
+  "shots": [
+    {
+      "id": "HRA-001",
+      "lyric_id": 1,
+      "pov": "索托亚",
+      "phase": "故土记忆",
+      "people": [],
+      "aircraft": [],
+      "camera": "极远景，固定低机位",
+      "action": "草地占画面下半部，风把草压向一侧。保留足够天空，让观众先认得一片可以生活的土地。",
+      "lyric_connection": "先建立“昔日欢悦”的可失之物。",
+      "transition": "同构图切换季节与地表。",
+      "evidence_class": "意象剪辑",
+      "priority": "核心",
+      "references": [
+        "STORY",
+        "M29"
+      ],
+      "audio_start": null,
+      "audio_end": null,
+      "duration": null,
+      "orthographic_required": false,
+      "drawing_status": "构图脚本"
+    },
+    {
+      "id": "HRA-002",
+      "lyric_id": 1,
+      "pov": "索托亚",
+      "phase": "迁徙记忆",
+      "people": [
+        "Cope"
+      ],
+      "aircraft": [],
+      "camera": "远景，同机位叠切",
+      "action": "同一画面位置出现枯草与尘土；Cope 所属的迁徙人群从远处经过，人物小于土地。服饰与行囊细节另依设定核对。",
+      "lyric_connection": "枯槁由地表和生活空间的变化表达，不添加未经证实的灾害原因。",
+      "transition": "风中布料接下一镜窗边的光。",
+      "evidence_class": "同人补足画面",
+      "priority": "核心",
+      "references": [
+        "STORY",
+        "M29"
+      ],
+      "audio_start": null,
+      "audio_end": null,
+      "duration": null,
+      "orthographic_required": false,
+      "drawing_status": "构图脚本"
+    },
+    {
+      "id": "HRA-003",
+      "lyric_id": 1,
+      "pov": "索托亚",
+      "phase": "Tewy 的旧日记忆",
+      "people": [
+        "Tewy"
+      ],
+      "aircraft": [],
+      "camera": "近景，缓慢推进",
+      "action": "红银莲花与白色浅盆。镜头只给花、窗边的光与 Tewy 的注视，不将她放进 Cope 的牧民家庭。",
+      "lyric_connection": "同一故土承载不同人的生活。",
+      "transition": "花的轮廓留到下一句的空处。",
+      "evidence_class": "原作意象重组",
+      "priority": "核心",
+      "references": [
+        "STORY",
+        "M29"
+      ],
+      "audio_start": null,
+      "audio_end": null,
+      "duration": null,
+      "orthographic_required": false,
+      "drawing_status": "构图脚本"
+    },
+    {
+      "id": "HRA-004",
+      "lyric_id": 2,
+      "pov": "索托亚",
+      "phase": "故土记忆",
+      "people": [],
+      "aircraft": [],
+      "camera": "物件特写，横移",
+      "action": "行囊收拢，手掌压住被风掀起的布；最后留下无人拾起的干草。匿名人物，不设为某位王牌亲属。",
+      "lyric_connection": "离乡落在可带走与带不走的东西上。",
+      "transition": "布边扫过画面，接撤离者衣角。",
+      "evidence_class": "同人补足动作",
+      "priority": "可合并",
+      "references": [
+        "STORY",
+        "M29",
+        "CHAR"
+      ],
+      "audio_start": null,
+      "audio_end": null,
+      "duration": null,
+      "orthographic_required": false,
+      "drawing_status": "构图脚本"
+    },
+    {
+      "id": "HRA-005",
+      "lyric_id": 2,
+      "pov": "Joker",
+      "phase": "FCU 遭入侵后的撤离",
+      "people": [],
+      "aircraft": [],
+      "camera": "中远景，平视跟随",
+      "action": "FCU 平民带行李沿登舰通道前行；用船体与人流说明地点，不把索托亚迁徙直接剪成同一支队伍。",
+      "lyric_connection": "风带走的生活也发生在战争另一侧。",
+      "transition": "沿队伍视线抬向甲板。",
+      "evidence_class": "剧情背景重构",
+      "priority": "核心",
+      "references": [
+        "STORY",
+        "M29",
+        "CHAR"
+      ],
+      "audio_start": null,
+      "audio_end": null,
+      "duration": null,
+      "orthographic_required": false,
+      "drawing_status": "构图脚本"
+    },
+    {
+      "id": "HRA-006",
+      "lyric_id": 2,
+      "pov": "Joker",
+      "phase": "Endurance 的日常",
+      "people": [
+        "Pike",
+        "Santos"
+      ],
+      "aircraft": [],
+      "camera": "中景，缓移",
+      "action": "舰员为撤离者让出通道、整理临时安置处；镜头停在一张有人守候的床边。动作是同人补足，不另造救援战果。",
+      "lyric_connection": "丰饶首先意味着能够安顿下来。",
+      "transition": "室内光切到甲板天空。",
+      "evidence_class": "同人补足动作",
+      "priority": "可合并",
+      "references": [
+        "STORY",
+        "M29",
+        "CHAR"
+      ],
+      "audio_start": null,
+      "audio_end": null,
+      "duration": null,
+      "orthographic_required": false,
+      "drawing_status": "构图脚本"
+    },
+    {
+      "id": "HRA-007",
+      "lyric_id": 3,
+      "pov": "Joker",
+      "phase": "早期 Endurance",
+      "people": [
+        "Cope",
+        "Rex"
+      ],
+      "aircraft": [
+        "FA18F"
+      ],
+      "camera": "全景，从甲板移向机体侧面",
+      "action": "海风掠过甲板，双座 F/A-18F 等待出击。前后座的区别在此建立，先不依赖面部特写。",
+      "lyric_connection": "风把天空从风景变成要进入的空间。",
+      "transition": "座舱边缘接指挥室玻璃边缘。",
+      "evidence_class": "原作事件重构",
+      "priority": "核心",
+      "references": [
+        "CHAR",
+        "STORY",
+        "AIR"
+      ],
+      "audio_start": null,
+      "audio_end": null,
+      "duration": null,
+      "orthographic_required": true,
+      "drawing_status": "待机体参考验收"
+    },
+    {
+      "id": "HRA-008",
+      "lyric_id": 3,
+      "pov": "索托亚",
+      "phase": "早期追击任务",
+      "people": [
+        "Tewy",
+        "Toprak"
+      ],
+      "aircraft": [],
+      "camera": "双人中景，停留",
+      "action": "Tewy 的指挥位置与 Toprak 的受令动作交替出现；镜头在二人之间保留距离，不虚构亲密关系或新对白。",
+      "lyric_connection": "“宣告”在敌侧成为行动方向。",
+      "transition": "Toprak 转身接下一镜起身动作。",
+      "evidence_class": "同人补足动作",
+      "priority": "核心",
+      "references": [
+        "CHAR",
+        "STORY",
+        "AIR"
+      ],
+      "audio_start": null,
+      "audio_end": null,
+      "duration": null,
+      "orthographic_required": false,
+      "drawing_status": "构图脚本"
+    },
+    {
+      "id": "HRA-009",
+      "lyric_id": 3,
+      "pov": "双侧",
+      "phase": "两个阵营的出发准备",
+      "people": [],
+      "aircraft": [],
+      "camera": "特写匹配剪辑",
+      "action": "两侧飞行手套分别扣紧，镜头不让手真的相触；最后切回等待起飞的天空。",
+      "lyric_connection": "相似的身体经验容纳不同的选择。",
+      "transition": "手的动作续接前后座入舱。",
+      "evidence_class": "意象剪辑",
+      "priority": "可合并",
+      "references": [
+        "CHAR",
+        "STORY",
+        "AIR"
+      ],
+      "audio_start": null,
+      "audio_end": null,
+      "duration": null,
+      "orthographic_required": false,
+      "drawing_status": "构图脚本"
+    },
+    {
+      "id": "HRA-010",
+      "lyric_id": 4,
+      "pov": "Joker",
+      "phase": "Cope 生前",
+      "people": [
+        "Cope",
+        "Rex"
+      ],
+      "aircraft": [
+        "FA18F"
+      ],
+      "camera": "侧面中近景，横向观察",
+      "action": "用两个连续镜位明确 Cope 在前、Rex 在后；禁止用两架飞机代替这段共同经历。",
+      "lyric_connection": "启程意味着真正进入同一段命运。",
+      "transition": "座舱盖闭合接岸线远去。",
+      "evidence_class": "原作事件重构",
+      "priority": "核心",
+      "references": [
+        "CHAR",
+        "STORY",
+        "AIR"
+      ],
+      "audio_start": null,
+      "audio_end": null,
+      "duration": null,
+      "orthographic_required": true,
+      "drawing_status": "待机体参考验收"
+    },
+    {
+      "id": "HRA-011",
+      "lyric_id": 4,
+      "pov": "Joker",
+      "phase": "早期航行",
+      "people": [],
+      "aircraft": [],
+      "camera": "远景，缓慢后退",
+      "action": "舰艉留下航迹，岸线渐远。平民留在舰内，甲板保持作业逻辑，不让人群站进起降通道。",
+      "lyric_connection": "“远行之时”包含无法轻易回去的事实。",
+      "transition": "航迹接索托亚机场跑道线。",
+      "evidence_class": "同人补足画面",
+      "priority": "核心",
+      "references": [
+        "CHAR",
+        "STORY",
+        "AIR"
+      ],
+      "audio_start": null,
+      "audio_end": null,
+      "duration": null,
+      "orthographic_required": false,
+      "drawing_status": "构图脚本"
+    },
+    {
+      "id": "HRA-012",
+      "lyric_id": 4,
+      "pov": "索托亚",
+      "phase": "早期追击准备",
+      "people": [
+        "Toprak"
+      ],
+      "aircraft": [
+        "SU57"
+      ],
+      "camera": "机身侧面近景，短移",
+      "action": "022 机身号与金色线条依入场实录呈现；Toprak 准备出击。此处不凭空增加队员姓名与战前誓词。",
+      "lyric_connection": "他也在启程，但这次行动将造成另一方的失去。",
+      "transition": "沿机身方向切至起飞动作。",
+      "evidence_class": "原作角色与机体重构",
+      "priority": "核心",
+      "references": [
+        "CHAR",
+        "STORY",
+        "AIR"
+      ],
+      "audio_start": null,
+      "audio_end": null,
+      "duration": null,
+      "orthographic_required": true,
+      "drawing_status": "待机体参考验收"
+    },
+    {
+      "id": "HRA-013",
+      "lyric_id": 4,
+      "pov": "双侧",
+      "phase": "离乡与出击的并置",
+      "people": [],
+      "aircraft": [],
+      "camera": "地面中景，固定",
+      "action": "索托亚迁徙者的背影短暂重现，再接 FCU 舰内相依的撤离者；不把军事进攻包装成平民迁徙的必然正当结果。",
+      "lyric_connection": "保留歌词的民众主体。",
+      "transition": "人群前行方向接战机驶离。",
+      "evidence_class": "意象剪辑",
+      "priority": "可合并",
+      "references": [
+        "CHAR",
+        "STORY",
+        "AIR"
+      ],
+      "audio_start": null,
+      "audio_end": null,
+      "duration": null,
+      "orthographic_required": false,
+      "drawing_status": "构图脚本"
+    },
+    {
+      "id": "HRA-014",
+      "lyric_id": 5,
+      "pov": "Joker",
+      "phase": "Cope 生前出击",
+      "people": [
+        "Cope",
+        "Rex"
+      ],
+      "aircraft": [
+        "FA18F"
+      ],
+      "camera": "侧面全景，机位固定",
+      "action": "F/A-18F 通过甲板前景后驶入天空；起落架与舰载起飞姿态须按参考核对，不在一镜里变换机型。",
+      "lyric_connection": "陌生土地先以陌生天空出现。",
+      "transition": "保持机头方向接编队远景。",
+      "evidence_class": "原作事件重构",
+      "priority": "核心",
+      "references": [
+        "CHAR",
+        "STORY",
+        "AIR"
+      ],
+      "audio_start": null,
+      "audio_end": null,
+      "duration": null,
+      "orthographic_required": true,
+      "drawing_status": "待机体参考验收"
+    },
+    {
+      "id": "HRA-015",
+      "lyric_id": 5,
+      "pov": "Joker",
+      "phase": "Cope 生前出击",
+      "people": [
+        "Cope",
+        "Rex",
+        "Baxter",
+        "Tasha",
+        "Coster"
+      ],
+      "aircraft": [
+        "FA18F",
+        "FA18C"
+      ],
+      "camera": "编队远景，平行跟拍",
+      "action": "前座 Cope 与后座 Rex 共占一机，其余三名成员形成早期四机编队。僚机 C 型是本片选用配置，不声称唯一官方配机。",
+      "lyric_connection": "“我们”第一次成为具体队伍。",
+      "transition": "云层遮挡，切入敌侧同向飞行。",
+      "evidence_class": "同人配机选择与原作编制",
+      "priority": "核心",
+      "references": [
+        "CHAR",
+        "STORY",
+        "AIR"
+      ],
+      "audio_start": null,
+      "audio_end": null,
+      "duration": null,
+      "orthographic_required": true,
+      "drawing_status": "待机体参考验收"
+    },
+    {
+      "id": "HRA-016",
+      "lyric_id": 5,
+      "pov": "索托亚",
+      "phase": "同一阶段的追击",
+      "people": [
+        "Toprak"
+      ],
+      "aircraft": [
+        "SU57"
+      ],
+      "camera": "前侧中景，缓慢靠近",
+      "action": "Su-57 从云边进入；冷静的航向与前镜的共同出发并置。标识与轮廓清楚，不靠夸张怪物化造型塑造威胁。",
+      "lyric_connection": "两条行进路线开始相撞。",
+      "transition": "发动机后的空气扰动切入舰上往事。",
+      "evidence_class": "原作角色重构",
+      "priority": "核心",
+      "references": [
+        "CHAR",
+        "STORY",
+        "AIR"
+      ],
+      "audio_start": null,
+      "audio_end": null,
+      "duration": null,
+      "orthographic_required": true,
+      "drawing_status": "待机体参考验收"
+    },
+    {
+      "id": "HRA-017",
+      "lyric_id": 6,
+      "pov": "Joker",
+      "phase": "早期舰上日常",
+      "people": [
+        "Baxter",
+        "Tasha"
+      ],
+      "aircraft": [],
+      "camera": "双人中景，固定",
+      "action": "食堂或学习处，Baxter 向 Tasha 指示书页，Tasha 抬头回应。取官方师生式相处特征，动作另行创作。",
+      "lyric_connection": "同行不止于空中的互相掩护。",
+      "transition": "指尖停顿接播放器按键。",
+      "evidence_class": "同人补足动作",
+      "priority": "核心",
+      "references": [
+        "CHAR",
+        "STORY"
+      ],
+      "audio_start": null,
+      "audio_end": null,
+      "duration": null,
+      "orthographic_required": false,
+      "drawing_status": "构图脚本"
+    },
+    {
+      "id": "HRA-018",
+      "lyric_id": 6,
+      "pov": "Joker",
+      "phase": "早期舰上日常",
+      "people": [
+        "Coster",
+        "Rex"
+      ],
+      "aircraft": [],
+      "camera": "中近景，轻微横移",
+      "action": "Coster 收起小型音乐播放器，给身旁的人留出位置；Rex 进入画面边缘。无需替他新增台词。",
+      "lyric_connection": "“亲友”也包括战争中逐渐形成的关系。",
+      "transition": "桌面空白接另一侧的整备台。",
+      "evidence_class": "同人补足动作",
+      "priority": "可合并",
+      "references": [
+        "CHAR",
+        "STORY"
+      ],
+      "audio_start": null,
+      "audio_end": null,
+      "duration": null,
+      "orthographic_required": false,
+      "drawing_status": "构图脚本"
+    },
+    {
+      "id": "HRA-019",
+      "lyric_id": 6,
+      "pov": "索托亚",
+      "phase": "Shadows 的作战日常",
+      "people": [
+        "Toprak"
+      ],
+      "aircraft": [],
+      "camera": "手部近景，低幅度移动",
+      "action": "Toprak 与未具名队员检查飞行装备；只表现专业协作，不编造共同童年、家属或救助平民事件。",
+      "lyric_connection": "敌人有同袍关系，也有自己的行动责任。",
+      "transition": "整齐排列的装备接早期编队。",
+      "evidence_class": "同人补足动作",
+      "priority": "核心",
+      "references": [
+        "CHAR",
+        "STORY"
+      ],
+      "audio_start": null,
+      "audio_end": null,
+      "duration": null,
+      "orthographic_required": false,
+      "drawing_status": "构图脚本"
+    },
+    {
+      "id": "HRA-020",
+      "lyric_id": 6,
+      "pov": "双侧",
+      "phase": "完整队伍的记忆",
+      "people": [],
+      "aircraft": [],
+      "camera": "两组固定构图，交替",
+      "action": "将两侧此前已经建立的共同生活各停留一次；不把同一张桌子或同一片天空当作真实会面。",
+      "lyric_connection": "为后半句同样歌词中的缺席建立参照。",
+      "transition": "保留构图，转入即将被打破的队形。",
+      "evidence_class": "意象剪辑",
+      "priority": "核心",
+      "references": [
+        "CHAR",
+        "STORY"
+      ],
+      "audio_start": null,
+      "audio_end": null,
+      "duration": null,
+      "orthographic_required": false,
+      "drawing_status": "构图脚本"
+    },
+    {
+      "id": "HRA-021",
+      "lyric_id": 7,
+      "pov": "Joker",
+      "phase": "Cope 生前最后交战",
+      "people": [
+        "Cope",
+        "Rex"
+      ],
+      "aircraft": [
+        "FA18F"
+      ],
+      "camera": "后座视角，中近景",
+      "action": "Rex 越过仪表与前座看向天空，攻击威胁进入视野；不在此新增他亲自操纵飞机的动作。",
+      "lyric_connection": "渴望前往的明亮天空被战斗占据。",
+      "transition": "目光方向接 Toprak 的交战镜头。",
+      "evidence_class": "原作事件重构",
+      "priority": "核心",
+      "references": [
+        "STORY",
+        "AIR"
+      ],
+      "audio_start": null,
+      "audio_end": null,
+      "duration": null,
+      "orthographic_required": true,
+      "drawing_status": "待机体参考验收"
+    },
+    {
+      "id": "HRA-022",
+      "lyric_id": 7,
+      "pov": "索托亚",
+      "phase": "Cope 生前最后交战",
+      "people": [
+        "Toprak"
+      ],
+      "aircraft": [
+        "SU57"
+      ],
+      "camera": "机体侧后中景，短促跟随",
+      "action": "Toprak 的追击与 Cope 飞机受创组成因果。具体武器、距离和机动路线留待原场景复核，不编造炫技招式。",
+      "lyric_connection": "保留伤害由谁造成。",
+      "transition": "受创方向接海面，避免连续展示爆炸奇观。",
+      "evidence_class": "原作事件压缩",
+      "priority": "核心",
+      "references": [
+        "STORY",
+        "AIR"
+      ],
+      "audio_start": null,
+      "audio_end": null,
+      "duration": null,
+      "orthographic_required": true,
+      "drawing_status": "待机体参考验收"
+    },
+    {
+      "id": "HRA-023",
+      "lyric_id": 7,
+      "pov": "Joker",
+      "phase": "Cope 牺牲后的海面",
+      "people": [
+        "Rex",
+        "Cope"
+      ],
+      "aircraft": [
+        "FA18F"
+      ],
+      "camera": "水下近景至水面远景",
+      "action": "Rex 生还、身份牌被带出；Cope 的死亡以缺失的前座与沉入水中的受损 F 型机体关系交代，不绘未经核对的遗体细节。",
+      "lyric_connection": "“更丰饶的国度”暂时变成无法共同抵达的愿望。",
+      "transition": "水面亮点接手里的身份牌。",
+      "evidence_class": "原作事件压缩",
+      "priority": "核心",
+      "references": [
+        "STORY",
+        "AIR"
+      ],
+      "audio_start": null,
+      "audio_end": null,
+      "duration": null,
+      "orthographic_required": true,
+      "drawing_status": "待机体参考验收"
+    },
+    {
+      "id": "HRA-024",
+      "lyric_id": 8,
+      "pov": "Joker",
+      "phase": "继承称号",
+      "people": [
+        "Rex"
+      ],
+      "aircraft": [],
+      "camera": "手部特写，固定",
+      "action": "身份牌躺在 Rex 手里；另一只手替他递来飞行装备。接任通过物件与动作交代，不制作新的军方任命文书。",
+      "lyric_connection": "歌词要求前行，人物仍需要消化失去。",
+      "transition": "手握紧后切向座舱。",
+      "evidence_class": "同人补足动作",
+      "priority": "核心",
+      "references": [
+        "CHAR",
+        "STORY",
+        "AIR"
+      ],
+      "audio_start": null,
+      "audio_end": null,
+      "duration": null,
+      "orthographic_required": false,
+      "drawing_status": "构图脚本"
+    },
+    {
+      "id": "HRA-025",
+      "lyric_id": 8,
+      "pov": "Joker",
+      "phase": "继承称号后的出击",
+      "people": [
+        "Rex"
+      ],
+      "aircraft": [
+        "FA18C"
+      ],
+      "camera": "机体侧面中景到单座舱近景",
+      "action": "Rex 走向本片选用的单座 F/A-18C。与早期双座 F 型明确区分：他的目光回到航母与旧物，而不是看向 C 型不存在的后座。",
+      "lyric_connection": "“勿回头”并不抹去记忆。",
+      "transition": "回望的目光转回前方。",
+      "evidence_class": "同人配机选择与原作事件",
+      "priority": "核心",
+      "references": [
+        "CHAR",
+        "STORY",
+        "AIR"
+      ],
+      "audio_start": null,
+      "audio_end": null,
+      "duration": null,
+      "orthographic_required": true,
+      "drawing_status": "待机体参考验收"
+    },
+    {
+      "id": "HRA-026",
+      "lyric_id": 8,
+      "pov": "Joker",
+      "phase": "继承称号后的出击",
+      "people": [
+        "Baxter",
+        "Tasha",
+        "Coster",
+        "Rex"
+      ],
+      "aircraft": [
+        "FA18C"
+      ],
+      "camera": "编队远景，缓慢拉开",
+      "action": "其余三机与新队长保持队形；保留各自机号，不让 Coster 提前成为二号。",
+      "lyric_connection": "新的同行让他能够继续出发。",
+      "transition": "队形边缘接敌侧监视中的天空。",
+      "evidence_class": "原作编制重构",
+      "priority": "核心",
+      "references": [
+        "CHAR",
+        "STORY",
+        "AIR"
+      ],
+      "audio_start": null,
+      "audio_end": null,
+      "duration": null,
+      "orthographic_required": true,
+      "drawing_status": "待机体参考验收"
+    },
+    {
+      "id": "HRA-027",
+      "lyric_id": 8,
+      "pov": "索托亚",
+      "phase": "追击延续",
+      "people": [
+        "Toprak",
+        "Tewy"
+      ],
+      "aircraft": [],
+      "camera": "人物近景，分别固定",
+      "action": "Toprak 再次面对仍在飞行的“飞翼”；Tewy 的判断以表情与既有指挥场景呈现，不加新的识破身份台词。",
+      "lyric_connection": "同一名号在两侧有不同含义。",
+      "transition": "视线切入地面、山与屋檐。",
+      "evidence_class": "同人补足动作",
+      "priority": "可合并",
+      "references": [
+        "CHAR",
+        "STORY",
+        "AIR"
+      ],
+      "audio_start": null,
+      "audio_end": null,
+      "duration": null,
+      "orthographic_required": false,
+      "drawing_status": "构图脚本"
+    },
+    {
+      "id": "HRA-028",
+      "lyric_id": 9,
+      "pov": "索托亚",
+      "phase": "敌境段的地面空间",
+      "people": [],
+      "aircraft": [],
+      "camera": "远景，固定",
+      "action": "山脊下有低矮的居所，人走入屋檐的阴影。山作为歌词意象，不命名为新创的官方圣山或宗教遗址。",
+      "lyric_connection": "庇佑先成为可容身的地方。",
+      "transition": "屋檐阴影接室内桌面。",
+      "evidence_class": "同人补足画面",
+      "priority": "核心",
+      "references": [
+        "STORY",
+        "CHAR"
+      ],
+      "audio_start": null,
+      "audio_end": null,
+      "duration": null,
+      "orthographic_required": false,
+      "drawing_status": "构图脚本"
+    },
+    {
+      "id": "HRA-029",
+      "lyric_id": 9,
+      "pov": "双侧",
+      "phase": "敌境民居相遇",
+      "people": [
+        "Rex",
+        "Baxter",
+        "Tewy",
+        "Toprak"
+      ],
+      "aircraft": [],
+      "camera": "室内全景，固定轴线",
+      "action": "以已有剧情为基础安排四人的空间关系；先完整交代同处一屋，再切特写。位置不暗示秘密同盟。",
+      "lyric_connection": "祈求庇佑的人与交战的人落在同一个生活空间。",
+      "transition": "沿桌面切向茶杯。",
+      "evidence_class": "原作事件重构",
+      "priority": "核心",
+      "references": [
+        "STORY",
+        "CHAR"
+      ],
+      "audio_start": null,
+      "audio_end": null,
+      "duration": null,
+      "orthographic_required": false,
+      "drawing_status": "构图脚本"
+    },
+    {
+      "id": "HRA-030",
+      "lyric_id": 9,
+      "pov": "双侧",
+      "phase": "敌境民居相遇",
+      "people": [
+        "Rex",
+        "Tewy"
+      ],
+      "aircraft": [],
+      "camera": "两组近景，留停顿",
+      "action": "茶杯、手与彼此注视交替。两人各有经历，不用 Rex 的主观回忆替 Tewy 解释人生。",
+      "lyric_connection": "相认是看见具体的人，不是免除责任。",
+      "transition": "杯口圆形接甲板灯的光。",
+      "evidence_class": "同人补足动作",
+      "priority": "核心",
+      "references": [
+        "STORY",
+        "CHAR"
+      ],
+      "audio_start": null,
+      "audio_end": null,
+      "duration": null,
+      "orthographic_required": false,
+      "drawing_status": "构图脚本"
+    },
+    {
+      "id": "HRA-031",
+      "lyric_id": 9,
+      "pov": "Joker",
+      "phase": "此后的保护与返航",
+      "people": [
+        "Joker"
+      ],
+      "aircraft": [
+        "FA18C"
+      ],
+      "camera": "远景到地面中景",
+      "action": "先给回到舰上的飞机，再落到等候的人；不新增一场未经核对的具体营救任务。",
+      "lyric_connection": "“庇佑吾民”落到保护能够继续生活的人。",
+      "transition": "返航脚步接下一句继续前行。",
+      "evidence_class": "原作背景与同人动作",
+      "priority": "可合并",
+      "references": [
+        "STORY",
+        "CHAR"
+      ],
+      "audio_start": null,
+      "audio_end": null,
+      "duration": null,
+      "orthographic_required": true,
+      "drawing_status": "待机体参考验收"
+    },
+    {
+      "id": "HRA-032",
+      "lyric_id": 10,
+      "pov": "Joker",
+      "phase": "Baxter 牺牲",
+      "people": [
+        "Baxter",
+        "Rex"
+      ],
+      "aircraft": [
+        "FA18C"
+      ],
+      "camera": "空战中远景，保持清楚轴线",
+      "action": "Baxter 保护 Rex 的因果依已核对剧情重构；攻击来源、拦截路线等细节不自行补写。损失之后留空域停顿。",
+      "lyric_connection": "继续前行有真实代价。",
+      "transition": "空域缺口接舰上空位。",
+      "evidence_class": "原作事件压缩",
+      "priority": "核心",
+      "references": [
+        "STORY",
+        "M29",
+        "CHAR"
+      ],
+      "audio_start": null,
+      "audio_end": null,
+      "duration": null,
+      "orthographic_required": true,
+      "drawing_status": "待机体参考验收"
+    },
+    {
+      "id": "HRA-033",
+      "lyric_id": 10,
+      "pov": "Joker",
+      "phase": "Baxter 牺牲之后",
+      "people": [
+        "Tasha",
+        "Coster"
+      ],
+      "aircraft": [],
+      "camera": "与第 6 句同构图的中景",
+      "action": "回到此前学习处与音乐播放器；原本有人回应的位置现在空着，Tasha 与 Coster 无需解释性对白。",
+      "lyric_connection": "坚定从失去之后重新开始。",
+      "transition": "空椅边缘接新编队位置。",
+      "evidence_class": "同人补足动作",
+      "priority": "核心",
+      "references": [
+        "STORY",
+        "M29",
+        "CHAR"
+      ],
+      "audio_start": null,
+      "audio_end": null,
+      "duration": null,
+      "orthographic_required": false,
+      "drawing_status": "构图脚本"
+    },
+    {
+      "id": "HRA-034",
+      "lyric_id": 10,
+      "pov": "Joker",
+      "phase": "Coster 接替二号",
+      "people": [
+        "Rex",
+        "Coster",
+        "Tasha"
+      ],
+      "aircraft": [
+        "FA18C"
+      ],
+      "camera": "三机关系远景，平行跟拍",
+      "action": "只突出 Rex、Coster、Tasha 的关系与二号位置的接替；此时不让尚未归来的 Kate 出现在队形中。",
+      "lyric_connection": "职位可以接替，失去的人仍被记得。",
+      "transition": "机群越过地形接下一句河谷。",
+      "evidence_class": "原作编制重构",
+      "priority": "核心",
+      "references": [
+        "STORY",
+        "M29",
+        "CHAR"
+      ],
+      "audio_start": null,
+      "audio_end": null,
+      "duration": null,
+      "orthographic_required": true,
+      "drawing_status": "待机体参考验收"
+    },
+    {
+      "id": "HRA-035",
+      "lyric_id": 11,
+      "pov": "Joker",
+      "phase": "反攻与行进的压缩段",
+      "people": [
+        "Rex",
+        "Coster",
+        "Tasha"
+      ],
+      "aircraft": [
+        "FA18C"
+      ],
+      "camera": "俯视远景，沿河谷移动",
+      "action": "河谷与海岸在战机下展开，采取已知战区的视觉参考；不凭歌词新增一个实际任务地点。",
+      "lyric_connection": "跨越距离成为持续的行动。",
+      "transition": "河流曲线接故乡记忆中的地貌。",
+      "evidence_class": "意象剪辑",
+      "priority": "核心",
+      "references": [
+        "STORY",
+        "AIR"
+      ],
+      "audio_start": null,
+      "audio_end": null,
+      "duration": null,
+      "orthographic_required": true,
+      "drawing_status": "待机体参考验收"
+    },
+    {
+      "id": "HRA-036",
+      "lyric_id": 11,
+      "pov": "索托亚",
+      "phase": "Tewy 的故土记忆",
+      "people": [
+        "Tewy"
+      ],
+      "aircraft": [],
+      "camera": "地貌远景与人物近景",
+      "action": "短切索托亚土地与 Tewy。保留她所怀念的故土与当前战场 Theve 的区别，不把两地画成同一座城。",
+      "lyric_connection": "同样的前行，也可能离归处越来越远。",
+      "transition": "人物视线接双方战机的远方。",
+      "evidence_class": "原作意象重组",
+      "priority": "核心",
+      "references": [
+        "STORY",
+        "AIR"
+      ],
+      "audio_start": null,
+      "audio_end": null,
+      "duration": null,
+      "orthographic_required": false,
+      "drawing_status": "构图脚本"
+    },
+    {
+      "id": "HRA-037",
+      "lyric_id": 11,
+      "pov": "索托亚",
+      "phase": "Shadows 的战争代价",
+      "people": [
+        "Toprak"
+      ],
+      "aircraft": [
+        "SU57"
+      ],
+      "camera": "机体中景后转装备静物",
+      "action": "现存的 022 飞机与先前已建立的装备空间并置；空处仅表现主观失去，不按未核定名册排列具体阵亡人数。",
+      "lyric_connection": "河谷不是风景巡礼，也是人未能走完的路。",
+      "transition": "视野扩开，进入 M28 集结。",
+      "evidence_class": "意象剪辑",
+      "priority": "可合并",
+      "references": [
+        "STORY",
+        "AIR"
+      ],
+      "audio_start": null,
+      "audio_end": null,
+      "duration": null,
+      "orthographic_required": true,
+      "drawing_status": "待机体参考验收"
+    },
+    {
+      "id": "HRA-038",
+      "lyric_id": 12,
+      "pov": "Joker",
+      "phase": "M28 盟友集结",
+      "people": [
+        "Rex",
+        "Coster",
+        "Tasha"
+      ],
+      "aircraft": [
+        "FA18C",
+        "F16C"
+      ],
+      "camera": "远景，前景机群侧向留白",
+      "action": "Green 的两架 F-16C 从留白处进入，与曾经的相遇形成回声。角色编号与涂装按合集核对。",
+      "lyric_connection": "共同抵达由他人的回应变得可见。",
+      "transition": "同向运动接其他增援。",
+      "evidence_class": "原作事件重构",
+      "priority": "核心",
+      "references": [
+        "ENTRY",
+        "STORY",
+        "AIR"
+      ],
+      "audio_start": null,
+      "audio_end": null,
+      "duration": null,
+      "orthographic_required": true,
+      "drawing_status": "待机体参考验收"
+    },
+    {
+      "id": "HRA-039",
+      "lyric_id": 12,
+      "pov": "Joker",
+      "phase": "M28 盟友集结",
+      "people": [
+        "Flying Mole",
+        "Shark",
+        "Shilage volunteers"
+      ],
+      "aircraft": [
+        "F4E",
+        "F15C",
+        "SU33"
+      ],
+      "camera": "三个短远景，可合并",
+      "action": "飞鼹鼠、Shark 与 Shilage 志愿队各取一个有辨识度的入场；不报完整履历，也不把全部飞机画成同型复制。",
+      "lyric_connection": "“我们”超出 Joker 原来的四机编队。",
+      "transition": "最后一支编队让出画面中心。",
+      "evidence_class": "原作事件压缩",
+      "priority": "可合并",
+      "references": [
+        "ENTRY",
+        "STORY",
+        "AIR"
+      ],
+      "audio_start": null,
+      "audio_end": null,
+      "duration": null,
+      "orthographic_required": true,
+      "drawing_status": "待机体参考验收"
+    },
+    {
+      "id": "HRA-040",
+      "lyric_id": 12,
+      "pov": "Joker",
+      "phase": "M28 Kate 归来",
+      "people": [
+        "Kate",
+        "Tasha",
+        "Coster"
+      ],
+      "aircraft": [
+        "RAFALEM"
+      ],
+      "camera": "机体中景到人物反应",
+      "action": "Kate 随萨维亚佣兵的 Rafale M 出现，再给 Joker 的认出与回应。海军雇佣兵线由已知标识带出，不塞入整段说明字幕。",
+      "lyric_connection": "“终有一日”先兑现为仍有人能够回来。",
+      "transition": "Rafale 的运动方向接更大编队。",
+      "evidence_class": "原作事件重构",
+      "priority": "核心",
+      "references": [
+        "ENTRY",
+        "STORY",
+        "AIR"
+      ],
+      "audio_start": null,
+      "audio_end": null,
+      "duration": null,
+      "orthographic_required": true,
+      "drawing_status": "待机体参考验收"
+    },
+    {
+      "id": "HRA-041",
+      "lyric_id": 12,
+      "pov": "索托亚",
+      "phase": "M28 Moon 11 先行离去",
+      "people": [
+        "Tewy",
+        "Toprak"
+      ],
+      "aircraft": [
+        "X40",
+        "SU57"
+      ],
+      "camera": "双方中远景，建立追赶方向",
+      "action": "先给 Moon 11 离去的 X-40，再给 Toprak 主动留下阻截追赶。离去先于宿敌对决，镜头保持两架机体的方向可读。",
+      "lyric_connection": "同一天空中，抵达与阻止抵达同时发生。",
+      "transition": "022 机身号接其驾驶动作。",
+      "evidence_class": "原作事件重构",
+      "priority": "核心",
+      "references": [
+        "ENTRY",
+        "STORY",
+        "AIR"
+      ],
+      "audio_start": null,
+      "audio_end": null,
+      "duration": null,
+      "orthographic_required": true,
+      "drawing_status": "待机体参考验收"
+    },
+    {
+      "id": "HRA-042",
+      "lyric_id": 12,
+      "pov": "索托亚",
+      "phase": "M28 Toprak 最后较量",
+      "people": [
+        "Toprak"
+      ],
+      "aircraft": [
+        "SU57"
+      ],
+      "camera": "近景到机体侧面跟拍",
+      "action": "保留他主动留下、执著与“飞翼”较量的意志。没有新造的临终忏悔，也不把他写成被 Tewy 强迫送死。",
+      "lyric_connection": "愿望不能消除他作过的选择。",
+      "transition": "其凝视接 Rex 对当前目标的判断。",
+      "evidence_class": "原作事件重构",
+      "priority": "核心",
+      "references": [
+        "ENTRY",
+        "STORY",
+        "AIR"
+      ],
+      "audio_start": null,
+      "audio_end": null,
+      "duration": null,
+      "orthographic_required": true,
+      "drawing_status": "待机体参考验收"
+    },
+    {
+      "id": "HRA-043",
+      "lyric_id": 12,
+      "pov": "Joker",
+      "phase": "M28 Toprak 被击败",
+      "people": [
+        "Rex",
+        "Coster",
+        "Tasha",
+        "Kate"
+      ],
+      "aircraft": [
+        "FA18C",
+        "RAFALEM",
+        "SU57"
+      ],
+      "camera": "交战远景后缓慢拉远",
+      "action": "Rex 赢下对决；具体命中次序依原任务核验后排，僚机关系仅作剪辑呼应，不虚构夹击致胜。Kate 此时保持 Rafale M；后接空出的天空。",
+      "lyric_connection": "抵达并非无损的胜利巡游。",
+      "transition": "空域停顿后再转 Theve。",
+      "evidence_class": "原作事件压缩",
+      "priority": "核心",
+      "references": [
+        "ENTRY",
+        "STORY",
+        "AIR"
+      ],
+      "audio_start": null,
+      "audio_end": null,
+      "duration": null,
+      "orthographic_required": true,
+      "drawing_status": "待机体参考验收"
+    },
+    {
+      "id": "HRA-044",
+      "lyric_id": 12,
+      "pov": "索托亚",
+      "phase": "M28 结束后转入 M29",
+      "people": [
+        "Tewy"
+      ],
+      "aircraft": [
+        "X40"
+      ],
+      "camera": "城市上空远景，留足负空间",
+      "action": "章节转场之后，给已在 Theve 上空的 X-40 与 Tewy，让下一场交战拥有她自己的主观时间。这里不是再次从 M28 离队。",
+      "lyric_connection": "她所追求的应许之地，与仍有活人的城市开始冲突。",
+      "transition": "城市方向接下一句的风险范围。",
+      "evidence_class": "原作事件重组",
+      "priority": "核心",
+      "references": [
+        "ENTRY",
+        "STORY",
+        "AIR"
+      ],
+      "audio_start": null,
+      "audio_end": null,
+      "duration": null,
+      "orthographic_required": true,
+      "drawing_status": "待机体参考验收"
+    },
+    {
+      "id": "HRA-045",
+      "lyric_id": 13,
+      "pov": "双侧",
+      "phase": "M29 Theve 上空",
+      "people": [],
+      "aircraft": [
+        "X40",
+        "FA18C"
+      ],
+      "camera": "城市与空域的极远景",
+      "action": "明确眼下地点是 Theve；陆上战舰与受威胁城区建立空间关系，飞机远小于城市。",
+      "lyric_connection": "“归去”首先面临一个仍有人生活的地方。",
+      "transition": "从威胁范围切入 Tewy 座舱。",
+      "evidence_class": "原作事件重构",
+      "priority": "核心",
+      "references": [
+        "M29",
+        "STORY",
+        "AIR"
+      ],
+      "audio_start": null,
+      "audio_end": null,
+      "duration": null,
+      "orthographic_required": true,
+      "drawing_status": "待机体参考验收"
+    },
+    {
+      "id": "HRA-046",
+      "lyric_id": 13,
+      "pov": "索托亚",
+      "phase": "M29 神经连接越限",
+      "people": [
+        "Tewy"
+      ],
+      "aircraft": [
+        "X40"
+      ],
+      "camera": "面部与手部近景",
+      "action": "Tewy 主动解除保护；系统数值与身体受损事实依据实录，具体面部表演为同人补足，不把越限画成无代价的神力。",
+      "lyric_connection": "她再次飞行的愿望与毁灭性选择同时成立。",
+      "transition": "看向天空的目光接故土片段。",
+      "evidence_class": "原作事件＋同人表演补足",
+      "priority": "核心",
+      "references": [
+        "M29",
+        "STORY",
+        "AIR"
+      ],
+      "audio_start": null,
+      "audio_end": null,
+      "duration": null,
+      "orthographic_required": true,
+      "drawing_status": "待机体参考验收"
+    },
+    {
+      "id": "HRA-047",
+      "lyric_id": 13,
+      "pov": "索托亚",
+      "phase": "Tewy 主观记忆",
+      "people": [
+        "Tewy",
+        "Cope"
+      ],
+      "aircraft": [],
+      "camera": "两个不同时空的近景",
+      "action": "故土、红花与 Cope 的旧识片段短暂浮现；不设置牵手、告白、童年恋爱或双方从未确认的共同家庭。",
+      "lyric_connection": "她的“故土”通过具体记忆被看见。",
+      "transition": "花的红色退去，切回仪表告警。",
+      "evidence_class": "原作意象重组",
+      "priority": "核心",
+      "references": [
+        "M29",
+        "STORY",
+        "AIR"
+      ],
+      "audio_start": null,
+      "audio_end": null,
+      "duration": null,
+      "orthographic_required": false,
+      "drawing_status": "构图脚本"
+    },
+    {
+      "id": "HRA-048",
+      "lyric_id": 13,
+      "pov": "Joker",
+      "phase": "M29 持续阻止攻击",
+      "people": [
+        "Rex",
+        "Coster",
+        "Tasha",
+        "Kate"
+      ],
+      "aircraft": [
+        "FA18C"
+      ],
+      "camera": "编队远景与 Rex 中近景",
+      "action": "Joker 继续阻止控射计划，镜头保留地面的风险。M29 为本片选用 F/A-18C 配置；Kate 的阶段变化不画成空中换机。",
+      "lyric_connection": "守住眼前家园，是另一种归乡。",
+      "transition": "目标方向接 X-40 的动作。",
+      "evidence_class": "同人配机选择与原作事件",
+      "priority": "核心",
+      "references": [
+        "M29",
+        "STORY",
+        "AIR"
+      ],
+      "audio_start": null,
+      "audio_end": null,
+      "duration": null,
+      "orthographic_required": true,
+      "drawing_status": "待机体参考验收"
+    },
+    {
+      "id": "HRA-049",
+      "lyric_id": 13,
+      "pov": "索托亚",
+      "phase": "M29 超负荷交战",
+      "people": [
+        "Tewy"
+      ],
+      "aircraft": [
+        "X40"
+      ],
+      "camera": "机体中远景与眼部近景交替",
+      "action": "机动越激烈，Tewy 的视力与判断越受损；眼部表演为依据原作事实的同人补足。空间镜头保留 X-40 真实轮廓，禁止为了速度任意增减翼面。",
+      "lyric_connection": "回归天空的愿望消耗了她能够回去的身体。",
+      "transition": "短暂停顿接下一句亲友记忆。",
+      "evidence_class": "原作事件＋同人表演补足",
+      "priority": "核心",
+      "references": [
+        "M29",
+        "STORY",
+        "AIR"
+      ],
+      "audio_start": null,
+      "audio_end": null,
+      "duration": null,
+      "orthographic_required": true,
+      "drawing_status": "待机体参考验收"
+    },
+    {
+      "id": "HRA-050",
+      "lyric_id": 14,
+      "pov": "索托亚",
+      "phase": "Tewy 主观记忆",
+      "people": [
+        "Tewy",
+        "Toprak"
+      ],
+      "aircraft": [
+        "SU57"
+      ],
+      "camera": "与早期同构图的中景",
+      "action": "重现此前 Toprak 受令或队伍出发的构图；从完整画面切回 Tewy 独自承受负荷的现在。不是亡者在当前天空现身。",
+      "lyric_connection": "同样的“亲友”，如今以记忆存在。",
+      "transition": "同构图中少去人影，接早期物件。",
+      "evidence_class": "意象剪辑",
+      "priority": "核心",
+      "references": [
+        "M29",
+        "CHAR",
+        "STORY",
+        "AIR"
+      ],
+      "audio_start": null,
+      "audio_end": null,
+      "duration": null,
+      "orthographic_required": true,
+      "drawing_status": "待机体参考验收"
+    },
+    {
+      "id": "HRA-051",
+      "lyric_id": 14,
+      "pov": "索托亚",
+      "phase": "Tewy 主观记忆",
+      "people": [],
+      "aircraft": [],
+      "camera": "装备近景，静止",
+      "action": "回到第 6 句的整备台，保留一个空处与未收起的飞行手套；不标出未经证实的死者名单。",
+      "lyric_connection": "用缺席而非阵亡统计承载悲伤。",
+      "transition": "手套接 Joker 仍在行动的手。",
+      "evidence_class": "同人补足画面",
+      "priority": "可合并",
+      "references": [
+        "M29",
+        "CHAR",
+        "STORY",
+        "AIR"
+      ],
+      "audio_start": null,
+      "audio_end": null,
+      "duration": null,
+      "orthographic_required": false,
+      "drawing_status": "构图脚本"
+    },
+    {
+      "id": "HRA-052",
+      "lyric_id": 14,
+      "pov": "Joker",
+      "phase": "M29 当下",
+      "people": [
+        "Coster",
+        "Tasha",
+        "Kate"
+      ],
+      "aircraft": [
+        "FA18C"
+      ],
+      "camera": "独立座舱近景，按角色接续",
+      "action": "三人分别保持自己的飞行与应答；各自在 C 型座舱，不能共享一个舱位或使用双座 F 型背景。",
+      "lyric_connection": "仍活着的同伴是必须守住的关系。",
+      "transition": "回应切到 Rex，再进入旧日短闪回。",
+      "evidence_class": "同人配机选择与原作事件",
+      "priority": "核心",
+      "references": [
+        "M29",
+        "CHAR",
+        "STORY",
+        "AIR"
+      ],
+      "audio_start": null,
+      "audio_end": null,
+      "duration": null,
+      "orthographic_required": true,
+      "drawing_status": "待机体参考验收"
+    },
+    {
+      "id": "HRA-053",
+      "lyric_id": 14,
+      "pov": "Joker",
+      "phase": "Rex 的短暂记忆",
+      "people": [
+        "Rex",
+        "Cope",
+        "Baxter"
+      ],
+      "aircraft": [
+        "FA18F",
+        "FA18C"
+      ],
+      "camera": "旧镜重现后切回当下",
+      "action": "只复用已建立的 F 型前座 Cope 与舰上 Baxter 记忆，紧接 Rex 当前 C 型座舱动作；清楚标明记忆而非死者重新加入编队。",
+      "lyric_connection": "他带着失去继续飞行，也不能让眼前的人再消失。",
+      "transition": "操纵动作连接当前攻击。",
+      "evidence_class": "意象剪辑",
+      "priority": "核心",
+      "references": [
+        "M29",
+        "CHAR",
+        "STORY",
+        "AIR"
+      ],
+      "audio_start": null,
+      "audio_end": null,
+      "duration": null,
+      "orthographic_required": true,
+      "drawing_status": "待机体参考验收"
+    },
+    {
+      "id": "HRA-054",
+      "lyric_id": 14,
+      "pov": "双侧",
+      "phase": "M29 X-40 主体被击毁",
+      "people": [
+        "Rex",
+        "Tewy"
+      ],
+      "aircraft": [
+        "FA18C",
+        "X40"
+      ],
+      "camera": "清楚的中远景，少切",
+      "action": "主体受创与结构分离须按实录顺序呈现；不从几帧透视图自行发明内部结构、变形或新武器舱。",
+      "lyric_connection": "不能共同归去的事实逼近。",
+      "transition": "主体残骸离开画面后仍保留机首。",
+      "evidence_class": "原作事件重构",
+      "priority": "核心",
+      "references": [
+        "M29",
+        "CHAR",
+        "STORY",
+        "AIR"
+      ],
+      "audio_start": null,
+      "audio_end": null,
+      "duration": null,
+      "orthographic_required": true,
+      "drawing_status": "待机体参考验收"
+    },
+    {
+      "id": "HRA-055",
+      "lyric_id": 14,
+      "pov": "索托亚",
+      "phase": "M29 分离机首仍上传",
+      "people": [
+        "Tewy"
+      ],
+      "aircraft": [
+        "X40_NOSE"
+      ],
+      "camera": "分离部近景与远景交替",
+      "action": "机首仍在继续上传，屏幕与姿态证明危机未解除；这一环节保留到下一句，不提前剪成安息结局。",
+      "lyric_connection": "她还在行动，悲伤不能替代停止灾难。",
+      "transition": "上传动作延续进入最后追击。",
+      "evidence_class": "原作事件重构",
+      "priority": "核心",
+      "references": [
+        "M29",
+        "CHAR",
+        "STORY",
+        "AIR"
+      ],
+      "audio_start": null,
+      "audio_end": null,
+      "duration": null,
+      "orthographic_required": true,
+      "drawing_status": "待机体参考验收"
+    },
+    {
+      "id": "HRA-056",
+      "lyric_id": 15,
+      "pov": "Joker",
+      "phase": "M29 最后阻止上传",
+      "people": [
+        "Rex"
+      ],
+      "aircraft": [
+        "FA18C",
+        "X40_NOSE"
+      ],
+      "camera": "追击远景，建立距离后切近",
+      "action": "Rex 追上仍在上传的分离机首。保留仍必须攻击的因果，具体弹种与命中镜位以原录核对。",
+      "lyric_connection": "通向归处之前，必须阻止更多人失去家园。",
+      "transition": "攻击结束后才转向身体与手。",
+      "evidence_class": "原作事件重构",
+      "priority": "核心",
+      "references": [
+        "M29",
+        "STORY"
+      ],
+      "audio_start": null,
+      "audio_end": null,
+      "duration": null,
+      "orthographic_required": true,
+      "drawing_status": "待机体参考验收"
+    },
+    {
+      "id": "HRA-057",
+      "lyric_id": 15,
+      "pov": "索托亚",
+      "phase": "M29 临终托付",
+      "people": [
+        "Tewy"
+      ],
+      "aircraft": [],
+      "camera": "白手套特写，缓慢抬升",
+      "action": "白手套、红色缝线与既有饰物按原镜核对；手伸向天空，背景逐渐留白，不添加握住她的实体人物。",
+      "lyric_connection": "她无法自己抵达的地方，开始成为托付。",
+      "transition": "手的方向接 Rex 手的位置。",
+      "evidence_class": "原作事件重构",
+      "priority": "核心",
+      "references": [
+        "M29",
+        "STORY"
+      ],
+      "audio_start": null,
+      "audio_end": null,
+      "duration": null,
+      "orthographic_required": false,
+      "drawing_status": "构图脚本"
+    },
+    {
+      "id": "HRA-058",
+      "lyric_id": 15,
+      "pov": "Joker",
+      "phase": "M29 托付的承接",
+      "people": [
+        "Rex"
+      ],
+      "aircraft": [
+        "FA18C"
+      ],
+      "camera": "操纵杆与手部近景，固定",
+      "action": "Rex 的手仍在驾驶舱内。与前镜通过位置、动作和明暗相接，两只手没有跨空间握在一起。",
+      "lyric_connection": "击坠者成为受托者，责任由动作接住。",
+      "transition": "再回到 Tewy，让称呼改变发生。",
+      "evidence_class": "意象剪辑",
+      "priority": "核心",
+      "references": [
+        "M29",
+        "STORY"
+      ],
+      "audio_start": null,
+      "audio_end": null,
+      "duration": null,
+      "orthographic_required": true,
+      "drawing_status": "待机体参考验收"
+    },
+    {
+      "id": "HRA-059",
+      "lyric_id": 15,
+      "pov": "索托亚",
+      "phase": "M29 临终托付",
+      "people": [
+        "Tewy"
+      ],
+      "aircraft": [],
+      "camera": "人物近景，充分停留",
+      "action": "以“碎命五指”到“希望之手”的原作转变组织表情与字幕。歌词优先；原台词是否混入声音另在混音阶段决定。",
+      "lyric_connection": "丰饶之地此时指向同胞灵魂的归处与被保留的记忆。",
+      "transition": "人物视线淡出，进入 Cope 回忆。",
+      "evidence_class": "原作事件重构",
+      "priority": "核心",
+      "references": [
+        "M29",
+        "STORY"
+      ],
+      "audio_start": null,
+      "audio_end": null,
+      "duration": null,
+      "orthographic_required": false,
+      "drawing_status": "构图脚本"
+    },
+    {
+      "id": "HRA-060",
+      "lyric_id": 15,
+      "pov": "双侧",
+      "phase": "Cope 与 Tewy 的红花回忆",
+      "people": [
+        "Cope",
+        "Tewy"
+      ],
+      "aircraft": [],
+      "camera": "白色浅盆与花的近景",
+      "action": "回到开头那朵红银莲花，保留两人曾共同见过它的联系。此处是实录中的回忆，不是 Rex 已在战后摆放花盆。",
+      "lyric_connection": "歌词里的丰饶重新变成一个小而具体的记忆。",
+      "transition": "花色与远处光线连接下一镜。",
+      "evidence_class": "原作意象重组",
+      "priority": "核心",
+      "references": [
+        "M29",
+        "STORY"
+      ],
+      "audio_start": null,
+      "audio_end": null,
+      "duration": null,
+      "orthographic_required": false,
+      "drawing_status": "构图脚本"
+    },
+    {
+      "id": "HRA-061",
+      "lyric_id": 15,
+      "pov": "双侧",
+      "phase": "托付之后的停留",
+      "people": [],
+      "aircraft": [],
+      "camera": "天空远景，轻微移动",
+      "action": "留出短暂停顿，让上一镜离开；不增加黄金宫殿、天堂重逢或亡者复活。若实曲没有停留空间，可与花镜合并。",
+      "lyric_connection": "给“归去”留下未被解释完的余地。",
+      "transition": "切入现实中的轨道打击。",
+      "evidence_class": "意象剪辑",
+      "priority": "可合并",
+      "references": [
+        "M29",
+        "STORY"
+      ],
+      "audio_start": null,
+      "audio_end": null,
+      "duration": null,
+      "orthographic_required": false,
+      "drawing_status": "构图脚本"
+    },
+    {
+      "id": "HRA-062",
+      "lyric_id": 16,
+      "pov": "双侧",
+      "phase": "M29 收束",
+      "people": [],
+      "aircraft": [],
+      "camera": "城市极远景，克制停留",
+      "action": "轨道武器落在恩索特区，城区损伤被压低。遵守“托付—红花回忆—打击落下”顺序，不将爆炸全部抹去。",
+      "lyric_connection": "生者接下来的路仍在真实后果之中。",
+      "transition": "明确的章节转场进入后续事件。",
+      "evidence_class": "原作事件压缩",
+      "priority": "核心",
+      "references": [
+        "M29",
+        "STORY",
+        "CHAR"
+      ],
+      "audio_start": null,
+      "audio_end": null,
+      "duration": null,
+      "orthographic_required": false,
+      "drawing_status": "构图脚本"
+    },
+    {
+      "id": "HRA-063",
+      "lyric_id": 16,
+      "pov": "Joker",
+      "phase": "M30 与战役收束的压缩段",
+      "people": [
+        "D.D.",
+        "Endurance crew"
+      ],
+      "aircraft": [],
+      "camera": "屏幕与人物反应中景",
+      "action": "用已核对的后门线索、证据公开和舰员存续的短镜交代托付继续起作用；不再铺开完整潜艇战，不杜撰技术界面字段。",
+      "lyric_connection": "“此刻启程”需要实际完成尚未结束的责任。",
+      "transition": "屏幕光切到平常日光。",
+      "evidence_class": "剧情解说事件压缩",
+      "priority": "核心",
+      "references": [
+        "M29",
+        "STORY",
+        "CHAR"
+      ],
+      "audio_start": null,
+      "audio_end": null,
+      "duration": null,
+      "orthographic_required": false,
+      "drawing_status": "构图脚本"
+    },
+    {
+      "id": "HRA-064",
+      "lyric_id": 16,
+      "pov": "Joker",
+      "phase": "后续返航与生活",
+      "people": [
+        "Rex",
+        "Coster",
+        "Tasha",
+        "Kate"
+      ],
+      "aircraft": [],
+      "camera": "中景，跟随人物下甲板",
+      "action": "幸存者回到普通生活，手松开装备，身边仍有无法填满的缺席；用小动作收束，不排成英雄领奖合影。",
+      "lyric_connection": "旅途交给能够继续活下去的人。",
+      "transition": "落地脚步接草地与花。",
+      "evidence_class": "同人补足动作",
+      "priority": "核心",
+      "references": [
+        "M29",
+        "STORY",
+        "CHAR"
+      ],
+      "audio_start": null,
+      "audio_end": null,
+      "duration": null,
+      "orthographic_required": false,
+      "drawing_status": "构图脚本"
+    },
+    {
+      "id": "HRA-065",
+      "lyric_id": 16,
+      "pov": "双侧",
+      "phase": "战后物件",
+      "people": [],
+      "aircraft": [],
+      "camera": "身份牌与红花特写，固定",
+      "action": "战后身份牌与银莲花采用对应参考，与先前白盆回忆保持不同地点和摆放；不推定物件属于未经核定的新墓地。",
+      "lyric_connection": "身份的传承与故乡的记忆在此相邻。",
+      "transition": "焦点从物件缓缓移向风中的草。",
+      "evidence_class": "原作意象重组",
+      "priority": "核心",
+      "references": [
+        "M29",
+        "STORY",
+        "CHAR"
+      ],
+      "audio_start": null,
+      "audio_end": null,
+      "duration": null,
+      "orthographic_required": false,
+      "drawing_status": "构图脚本"
+    },
+    {
+      "id": "HRA-066",
+      "lyric_id": 16,
+      "pov": "双侧",
+      "phase": "尾声的继续",
+      "people": [],
+      "aircraft": [],
+      "camera": "草与天空的远景，缓慢拉远",
+      "action": "风再次吹过仍有生命的地表。这里只是一处继续生长的地方，不用一片绿地宣称整个索托亚已恢复繁荣。",
+      "lyric_connection": "与开头枯槁相应，留下继续生活的方向。",
+      "transition": "自然停留后出片名与署名；是否有余音尾黑由实曲决定。",
+      "evidence_class": "意象剪辑",
+      "priority": "核心",
+      "references": [
+        "M29",
+        "STORY",
+        "CHAR"
+      ],
+      "audio_start": null,
+      "audio_end": null,
+      "duration": null,
+      "orthographic_required": false,
+      "drawing_status": "构图脚本"
+    }
+  ]
+}

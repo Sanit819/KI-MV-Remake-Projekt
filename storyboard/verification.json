@@ -1,0 +1,22 @@
+{
+  "date": "2026-11-06",
+  "storyboard_shots": 66,
+  "lyric_groups": 16,
+  "core_shots": 55,
+  "mergeable_shots": 11,
+  "actual_audio_timestamps": "all null",
+  "aircraft_assets": 10,
+  "aircraft_geometry_approved": 0,
+  "local_links_checked": 69,
+  "reference_files_hash_verified": 34,
+  "unresolved_local_hash_records": [],
+  "source_audio_unchanged": true,
+  "browser_checks": "8 passed; desktop/mobile screenshots inspected",
+  "failure_count": 0,
+  "failures": [],
+  "limits": [
+    "No rendered aircraft artwork exists.",
+    "Exact-subtype orthographic gaps remain as listed in source audits.",
+    "No per-lyric listening or timed animatic is claimed."
+  ]
+}
