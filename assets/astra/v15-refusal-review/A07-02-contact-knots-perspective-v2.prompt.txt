@@ -1,0 +1,20 @@
+Use case: precise-object-edit / identity-preserve.
+Input image 1 is the EDIT TARGET: A07-02-contact.png, the accepted 1024x1536 full-body pose. Input image 2 is TOPOLOGY REFERENCE ONLY: the true six-band OpenAI openwork knot. Do NOT paste image 2 onto the character and do NOT make frontal stamps.
+
+Make one carefully localized revision to image 1: redraw only the seven larger knot ornaments and the two tiny shoe knots, in the existing ornament positions and footprint sizes. Everything else is locked: same head, face, bangs, mouth, horns, hair silhouette, two hands and all fingers, arms, shoulders, torso, waist, knees, calves, ankles, shoe shapes and heels, tail, wings, cloth folds, tassels, pose, framing, proportions and colors. Retain the full source silhouette and original transparent background. Do not repaint the anatomy. Keep the same 1024x1536 canvas, no cropping, no enlargement of the ornaments.
+
+Topology requirement: every ornament is a DRAWN-IN openwork interwoven knot with SIX continuous flat ribbon bands, six alternating over/under crossings and a genuinely open central angular aperture. The source's five-lobed pinwheel spirals and nested C/S hooks are wrong. Replace those wrong shapes. Use image 2 to understand connectivity and negative-space channels; preserve those connections under the view projection. The central opening may be an oblique narrow quadrilateral/hexagonal shape due to perspective; never force a regular frontal hexagon. Clear ribbon edges and exposed hair/cloth through real holes, no center bead, no solid flower, no circular disk, no outer border, no sticker shadow, no chrome, no photographic badge.
+
+Perspective is mandatory and DIFFERENT at each site, matching the target image:
+1. Hair knot near (769,192): attached to the turned right temple, drawn on its oblique plane with the head's gentle turn. Keep the attached tassel exactly.
+2. Screen-left shoulder near (490,458): small vertically oblique knot on the outside of the near upper-arm cuff. Its loops and central opening are visibly foreshortened with that curved cuff, with a tilted long axis.
+3. Screen-right shoulder near (776,424): a DIFFERENT much narrower, nearly edge-on oval projection, along the raised far upper-arm cuff. This is a six-band knot seen at a steep slant, not nested C-hooks and not a frontal round logo.
+4. Near waist at (459,670): modest oblique projection following the curved near hip/waist belt. Keep original location, tassel and garment join.
+5. Far waist at (585,683): slightly smaller and distinctly horizontally foreshortened relative to the near one, following the belt turning away. Do not make identical twin frontal symbols.
+6. Screen-left hem at (195,1258): draw the six-band topology into the draping cloth plane with the existing slant and fold. Preserve the diamond above and border below.
+7. Screen-right hem at (743,1331): match its different outward-sloping fabric plane, taper and cloth fold; do not reuse the left projection.
+8-9. Both tiny toe knots at (399,1447) and (750,1478): small angled, flattened top-down projections conforming to the slanted shoe uppers, with all six-band connectivity suggested clearly at native scale. Do not turn them into upright badges or change shoes/feet.
+
+The result must look like the same illustrator corrected the ornaments INSIDE the original drawing: same near-black outlines, pale lavender bands and deep-purple local shadows. Do not add new light, glow, background, text, guide marks or labels. Give one complete transparent-background edited character image, not a contact sheet or crops.
+
+For the small shoulder and shoe symbols, keep the design as six INTERWOVEN RIBBONS around an OPEN CENTER even under heavy foreshortening; do not simplify them to a five-petal spiral. Draw thin enough dark channel lines that the six loops remain legible, while preserving each existing small ornament size.

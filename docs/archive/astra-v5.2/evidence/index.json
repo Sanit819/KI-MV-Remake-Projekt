@@ -1,0 +1,168 @@
+{
+  "date": "2026-11-06",
+  "files": [
+    {
+      "source": "exports/final-v5.2/render.json",
+      "archive": "docs/archive/astra-v5.2/evidence/final-v5.2/render.json",
+      "bytes": 25175,
+      "sha256": "19c563424f9632331aa4641a2e77c310fcee43d2fd5fce22ded30caa48c1eb75"
+    },
+    {
+      "source": "exports/final-v5.2/verification.json",
+      "archive": "docs/archive/astra-v5.2/evidence/final-v5.2/verification.json",
+      "bytes": 47270,
+      "sha256": "e5c8d716b094c1f83bea4608f076debe642b6c443787b86bcf8286cc9bd8fce9"
+    },
+    {
+      "source": "exports/final-v5.2/full-verify.json",
+      "archive": "docs/archive/astra-v5.2/evidence/final-v5.2/full-verify.json",
+      "bytes": 5324,
+      "sha256": "5decc2111f2c1a505f14a243ff15af2fb15cff64e18396bf796710d73a93e582"
+    },
+    {
+      "source": "exports/final-v5.2/packets.json",
+      "archive": "docs/archive/astra-v5.2/evidence/final-v5.2/packets.json",
+      "bytes": 4807,
+      "sha256": "cadde5ab01cb14e9741174acb119825f05875477e427d856e9c847c51bec09ce"
+    },
+    {
+      "source": "exports/final-v5.2/audio-packets.json",
+      "archive": "docs/archive/astra-v5.2/evidence/final-v5.2/audio-packets.json",
+      "bytes": 259,
+      "sha256": "1bd3efacc7946e7b9e530db77dd94381f61c9590364a9d5e0b5a621535f18eae"
+    },
+    {
+      "source": "exports/final-v5.2/warning-decoded-verification.json",
+      "archive": "docs/archive/astra-v5.2/evidence/final-v5.2/warning-decoded-verification.json",
+      "bytes": 156,
+      "sha256": "af790f950873c237626ad71bbc90ef085966174734747bf5480b1ce7c7ae1218"
+    },
+    {
+      "source": "exports/final-v5.2/delivery.json",
+      "archive": "docs/archive/astra-v5.2/evidence/final-v5.2/delivery.json",
+      "bytes": 2505,
+      "sha256": "c26b64a4652dec66f4c45a655db723892ac265cdff668bb3e6e4d1f1dbfec46a"
+    },
+    {
+      "source": "exports/final-v5.2/encoded-visual-root.json",
+      "archive": "docs/archive/astra-v5.2/evidence/final-v5.2/encoded-visual-root.json",
+      "bytes": 7105,
+      "sha256": "8deacb7d0bc79d1e5e28af87a15467b87152a29cc471a591a41a3404b5a53978"
+    },
+    {
+      "source": "exports/final-v5.2/encoded-visual-independent.json",
+      "archive": "docs/archive/astra-v5.2/evidence/final-v5.2/encoded-visual-independent.json",
+      "bytes": 26007,
+      "sha256": "e0b6942b57e7bb00eea3c35a936b4aff25c6635746d8912c2c79331ab7e371a9"
+    },
+    {
+      "source": "exports/qa-v52-final/runtime.json",
+      "archive": "docs/archive/astra-v5.2/evidence/qa-v52-final/runtime.json",
+      "bytes": 5899082,
+      "sha256": "ca625395f86c1c1dc627ce6103ce7f9c8797486bad09d81ebee03d08c31a4c64"
+    },
+    {
+      "source": "exports/qa-v52-final/root-visual-review.json",
+      "archive": "docs/archive/astra-v5.2/evidence/qa-v52-final/root-visual-review.json",
+      "bytes": 1209,
+      "sha256": "59048b6d512552f70a702c49a6fd4229c18ca649de96aaa9e044faa2856d7530"
+    },
+    {
+      "source": "exports/qa-v52-final/independent-visual.json",
+      "archive": "docs/archive/astra-v5.2/evidence/qa-v52-final/independent-visual.json",
+      "bytes": 11147,
+      "sha256": "5faa4f69bbd8a46e5fde2ba6d9026074d4703af9cd54c4ad2acb01d58f3d064d"
+    },
+    {
+      "source": "exports/final-v5.2/encoded-stills/index.json",
+      "archive": "docs/archive/astra-v5.2/evidence/final-v5.2/encoded-stills/index.json",
+      "bytes": 19101,
+      "sha256": "8cb15a90c06f2476ac564d46017feca871cc36a9b91c99e1ec498ccd7d5c4500"
+    },
+    {
+      "source": "exports/archive-smoke/reproduce-2s.render.json",
+      "archive": "docs/archive/astra-v5.2/evidence/archive-smoke/reproduce-2s.render.json",
+      "bytes": 2393,
+      "sha256": "1a2999b62b1cc339969e129d5d710cecb38ccbed8562b18c5d7c525ee5496c23"
+    },
+    {
+      "source": "exports/qa-v52-final/sheets/midpoints-01.jpg",
+      "archive": "docs/archive/astra-v5.2/evidence/qa-v52-final/sheets/midpoints-01.jpg",
+      "bytes": 308996,
+      "sha256": "811c37914f083efb70b54c6b0ed6b068bb9dffb3d4f3bbee04b122786fef688f"
+    },
+    {
+      "source": "exports/qa-v52-final/sheets/midpoints-02.jpg",
+      "archive": "docs/archive/astra-v5.2/evidence/qa-v52-final/sheets/midpoints-02.jpg",
+      "bytes": 370952,
+      "sha256": "1818bf3e35e2d275f4ebca2c6ddbc438b1f8a8548af8bb0629fcb5a3043abd51"
+    },
+    {
+      "source": "exports/qa-v52-final/sheets/midpoints-03.jpg",
+      "archive": "docs/archive/astra-v5.2/evidence/qa-v52-final/sheets/midpoints-03.jpg",
+      "bytes": 377724,
+      "sha256": "ae93119062b7e5914d53300e6f97acdf4f04beb710b6feae5c6be0deed5061b0"
+    },
+    {
+      "source": "exports/qa-v52-final/sheets/midpoints-04.jpg",
+      "archive": "docs/archive/astra-v5.2/evidence/qa-v52-final/sheets/midpoints-04.jpg",
+      "bytes": 426434,
+      "sha256": "1a45b4c87f98e037bb0186a2f9962e6c586fb92385a98b69ccdc0d65880ef1bf"
+    },
+    {
+      "source": "exports/qa-v52-final/sheets/midpoints-05.jpg",
+      "archive": "docs/archive/astra-v5.2/evidence/qa-v52-final/sheets/midpoints-05.jpg",
+      "bytes": 462895,
+      "sha256": "24179129c2f8878b8773a490cb255c8950f96b6e1340960793ce22bcffa14f24"
+    },
+    {
+      "source": "exports/qa-v52-final/sheets/midpoints-06.jpg",
+      "archive": "docs/archive/astra-v5.2/evidence/qa-v52-final/sheets/midpoints-06.jpg",
+      "bytes": 188242,
+      "sha256": "f4d06a8ca410ae71f5c9678bed09cde24983712fa48873eae260d7886b6106d0"
+    },
+    {
+      "source": "exports/final-v5.2/encoded-stills/06-boundary-contact-f004589.png",
+      "archive": "docs/archive/astra-v5.2/evidence/final-v5.2/encoded-stills/06-boundary-contact-f004589.png",
+      "bytes": 2658585,
+      "sha256": "0a112624742157b70af69051e266b496ff97b2f13cca3d7cdcfaab35543e6368"
+    },
+    {
+      "source": "exports/final-v5.2/encoded-stills/13-wave-new-hands-f006780.png",
+      "archive": "docs/archive/astra-v5.2/evidence/final-v5.2/encoded-stills/13-wave-new-hands-f006780.png",
+      "bytes": 2593712,
+      "sha256": "e4a2fb6a4b0182de971cdde8226c5062eac875724e491e7dddfe456a2dc83dd9"
+    },
+    {
+      "source": "exports/final-v5.2/encoded-stills/20-book-turn-f008574.png",
+      "archive": "docs/archive/astra-v5.2/evidence/final-v5.2/encoded-stills/20-book-turn-f008574.png",
+      "bytes": 2469806,
+      "sha256": "5be50755f3fb8b97c39b00ab06db058d9af8562ac3b59fdf78460eac098f0504"
+    },
+    {
+      "source": "exports/final-v5.2/encoded-stills/23-book-point-reading-f008670.png",
+      "archive": "docs/archive/astra-v5.2/evidence/final-v5.2/encoded-stills/23-book-point-reading-f008670.png",
+      "bytes": 2642721,
+      "sha256": "254dc9e7f7c28c511d0d74ed97c765ce8fe33253935b30efc73187b2f2a1ccf7"
+    },
+    {
+      "source": "exports/final-v5.2/encoded-stills/24-wrist-recoil-f010458.png",
+      "archive": "docs/archive/astra-v5.2/evidence/final-v5.2/encoded-stills/24-wrist-recoil-f010458.png",
+      "bytes": 2940280,
+      "sha256": "3e1cc7fdb7bc728be1c6c95bb172c068f68038b2a8ccae95397c4070f6bf9e4b"
+    },
+    {
+      "source": "exports/final-v5.2/encoded-stills/26-ending-smile-f012924.png",
+      "archive": "docs/archive/astra-v5.2/evidence/final-v5.2/encoded-stills/26-ending-smile-f012924.png",
+      "bytes": 1974993,
+      "sha256": "4cdc66ab3ee6f08a037b4e4d92f35779d3f001c64db66603cf5bdd592f93af6e"
+    },
+    {
+      "source": "exports/final-v5.2/encoded-stills/28-quiet-tail-last-f013399.png",
+      "archive": "docs/archive/astra-v5.2/evidence/final-v5.2/encoded-stills/28-quiet-tail-last-f013399.png",
+      "bytes": 2271519,
+      "sha256": "d623cff61bef75efdcf062dfde904fce048f0b857971b25e08fc0bbe04d867cb"
+    }
+  ],
+  "scope": "Byte-for-byte copies of selected completed-delivery evidence. Absolute original paths in reports describe the historical machine, not portable dependencies. Full movies and source audio are local-only."
+}

@@ -1,0 +1,511 @@
+{
+  "passed": true,
+  "source": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\exports\\astra-world-execute-me-final-v5.2-lighting-artwork-hires-4k60.mp4",
+  "source_sha256": "e76f5208861df5e10f4fc64f515d36b50dd9daf8b6e563f24ac56f99200e8402",
+  "source_frames": 13400,
+  "fps": 60,
+  "prefix_frames": 300,
+  "count": 28,
+  "records": [
+    {
+      "label": "warning-last",
+      "file": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\exports\\final-v5.2\\encoded-stills\\01-warning-last-f000299.png",
+      "shot": "R00",
+      "full_film_frame": 299,
+      "full_film_seconds": 4.983333333333333,
+      "full_film_time_exact": "299/60",
+      "body_frame": null,
+      "body_seconds": null,
+      "purpose": "Last unchanged warning frame; immediately before the body",
+      "sha256": "099a42999ab8685a70711f6664bbf0ce4a7feb9e95e20ff63cae6699ca071924",
+      "bytes": 1217763,
+      "dimensions": [
+        3840,
+        2160
+      ]
+    },
+    {
+      "label": "opening-first",
+      "file": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\exports\\final-v5.2\\encoded-stills\\02-opening-first-f000300.png",
+      "shot": "R01",
+      "full_film_frame": 300,
+      "full_film_seconds": 5.0,
+      "full_film_time_exact": "5",
+      "body_frame": 0,
+      "body_seconds": 0.0,
+      "purpose": "First body frame; immediately after the warning",
+      "sha256": "a0940a0bb4544b9842f022e9dcbf56fd5025f0531fbedef24c9e331c66795650",
+      "bytes": 1228215,
+      "dimensions": [
+        3840,
+        2160
+      ]
+    },
+    {
+      "label": "extra-light-workspace",
+      "file": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\exports\\final-v5.2\\encoded-stills\\03-extra-light-workspace-f000648.png",
+      "shot": "R02",
+      "full_film_frame": 648,
+      "full_film_seconds": 10.8,
+      "full_film_time_exact": "54/5",
+      "body_frame": 348,
+      "body_seconds": 5.8,
+      "purpose": "Added workspace illumination",
+      "sha256": "0d8eac033ac36602d7ffeab5d2c71f4f18fb90e56ae5f31f48306eed6e518535",
+      "bytes": 1710400,
+      "dimensions": [
+        3840,
+        2160
+      ]
+    },
+    {
+      "label": "extra-light-tangent",
+      "file": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\exports\\final-v5.2\\encoded-stills\\04-extra-light-tangent-f003306.png",
+      "shot": "R14",
+      "full_film_frame": 3306,
+      "full_film_seconds": 55.1,
+      "full_film_time_exact": "551/10",
+      "body_frame": 3006,
+      "body_seconds": 50.1,
+      "purpose": "Added scene illumination",
+      "sha256": "38bcdc28edbb9e36f6b09d53c73977e8860b592a399b2ec174872560bd04ec39",
+      "bytes": 874164,
+      "dimensions": [
+        3840,
+        2160
+      ]
+    },
+    {
+      "label": "boundary-approach",
+      "file": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\exports\\final-v5.2\\encoded-stills\\05-boundary-approach-f004517.png",
+      "shot": "R23",
+      "full_film_frame": 4517,
+      "full_film_seconds": 75.28333333333333,
+      "full_film_time_exact": "4517/60",
+      "body_frame": 4217,
+      "body_seconds": 70.28333333333333,
+      "purpose": "A02_01 approved leg redraw",
+      "sha256": "b17047fe515d1e8087e58020d67ae0eeb7a1a99850c0dc8054a7f74510e6c11c",
+      "bytes": 2699603,
+      "dimensions": [
+        3840,
+        2160
+      ]
+    },
+    {
+      "label": "boundary-contact",
+      "file": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\exports\\final-v5.2\\encoded-stills\\06-boundary-contact-f004589.png",
+      "shot": "R23",
+      "full_film_frame": 4589,
+      "full_film_seconds": 76.48333333333333,
+      "full_film_time_exact": "4589/60",
+      "body_frame": 4289,
+      "body_seconds": 71.48333333333333,
+      "purpose": "A02_02 preserved approved contact anatomy",
+      "sha256": "0a112624742157b70af69051e266b496ff97b2f13cca3d7cdcfaab35543e6368",
+      "bytes": 2658585,
+      "dimensions": [
+        3840,
+        2160
+      ]
+    },
+    {
+      "label": "boundary-withdraw",
+      "file": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\exports\\final-v5.2\\encoded-stills\\07-boundary-withdraw-f004657.png",
+      "shot": "R23",
+      "full_film_frame": 4657,
+      "full_film_seconds": 77.61666666666666,
+      "full_film_time_exact": "4657/60",
+      "body_frame": 4357,
+      "body_seconds": 72.61666666666666,
+      "purpose": "A02_03 approved leg redraw",
+      "sha256": "9b7b8559b139423e0bda4f49e7b231b4b068a91a661b72a7943bb0bc84171631",
+      "bytes": 2581662,
+      "dimensions": [
+        3840,
+        2160
+      ]
+    },
+    {
+      "label": "cat-pose-1",
+      "file": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\exports\\final-v5.2\\encoded-stills\\08-cat-pose-1-f005237.png",
+      "shot": "R30",
+      "full_film_frame": 5237,
+      "full_film_seconds": 87.28333333333333,
+      "full_film_time_exact": "5237/60",
+      "body_frame": 4937,
+      "body_seconds": 82.28333333333333,
+      "purpose": "Approved cat original pose",
+      "sha256": "28f8d0eb622f4fd992b16455c132712ecf917735758cd6083b38a24d53278603",
+      "bytes": 2399671,
+      "dimensions": [
+        3840,
+        2160
+      ]
+    },
+    {
+      "label": "cat-pose-2",
+      "file": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\exports\\final-v5.2\\encoded-stills\\09-cat-pose-2-f005300.png",
+      "shot": "R30",
+      "full_film_frame": 5300,
+      "full_film_seconds": 88.33333333333333,
+      "full_film_time_exact": "265/3",
+      "body_frame": 5000,
+      "body_seconds": 83.33333333333333,
+      "purpose": "Approved cat raised-paw pose",
+      "sha256": "5fed0e78c6cb9890dfcae4e82152c831e6c067dce0885d53392b866b2fbdf1b0",
+      "bytes": 2128254,
+      "dimensions": [
+        3840,
+        2160
+      ]
+    },
+    {
+      "label": "cat-pose-3",
+      "file": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\exports\\final-v5.2\\encoded-stills\\10-cat-pose-3-f005374.png",
+      "shot": "R30",
+      "full_film_frame": 5374,
+      "full_film_seconds": 89.56666666666666,
+      "full_film_time_exact": "2687/30",
+      "body_frame": 5074,
+      "body_seconds": 84.56666666666666,
+      "purpose": "Approved cat relaxed-paw pose",
+      "sha256": "0adaf190f1a20c7377a19b406717648fdb17e906181f75d56a46ccad6b83e561",
+      "bytes": 2470828,
+      "dimensions": [
+        3840,
+        2160
+      ]
+    },
+    {
+      "label": "wave-cut1-before",
+      "file": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\exports\\final-v5.2\\encoded-stills\\11-wave-cut1-before-f006656.png",
+      "shot": "R40",
+      "full_film_frame": 6656,
+      "full_film_seconds": 110.93333333333334,
+      "full_film_time_exact": "1664/15",
+      "body_frame": 6356,
+      "body_seconds": 105.93333333333334,
+      "purpose": "Last frame before A04_01 to A04_02 source cut",
+      "sha256": "6569f2f9850de4f8ba4b7345345b749f9a6293a0da74dcac02714f2d10d99fe1",
+      "bytes": 2735416,
+      "dimensions": [
+        3840,
+        2160
+      ]
+    },
+    {
+      "label": "wave-cut1-after",
+      "file": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\exports\\final-v5.2\\encoded-stills\\12-wave-cut1-after-f006657.png",
+      "shot": "R40",
+      "full_film_frame": 6657,
+      "full_film_seconds": 110.95,
+      "full_film_time_exact": "2219/20",
+      "body_frame": 6357,
+      "body_seconds": 105.95,
+      "purpose": "First A04_02 frame after the first source cut",
+      "sha256": "fb5207e39b1bae4ee146d5b26fc02ef7daf0ffeac13595739b05fcebf831fd31",
+      "bytes": 2583153,
+      "dimensions": [
+        3840,
+        2160
+      ]
+    },
+    {
+      "label": "wave-new-hands",
+      "file": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\exports\\final-v5.2\\encoded-stills\\13-wave-new-hands-f006780.png",
+      "shot": "R42",
+      "full_film_frame": 6780,
+      "full_film_seconds": 113.0,
+      "full_film_time_exact": "113",
+      "body_frame": 6480,
+      "body_seconds": 108.0,
+      "purpose": "New receiving/chest hands and continuous yellow line at body 108s",
+      "sha256": "e4a2fb6a4b0182de971cdde8226c5062eac875724e491e7dddfe456a2dc83dd9",
+      "bytes": 2593712,
+      "dimensions": [
+        3840,
+        2160
+      ]
+    },
+    {
+      "label": "wave-cut2-before",
+      "file": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\exports\\final-v5.2\\encoded-stills\\14-wave-cut2-before-f006827.png",
+      "shot": "R42",
+      "full_film_frame": 6827,
+      "full_film_seconds": 113.78333333333333,
+      "full_film_time_exact": "6827/60",
+      "body_frame": 6527,
+      "body_seconds": 108.78333333333333,
+      "purpose": "Last A04_02 frame before the second source cut",
+      "sha256": "5ece9e502e0ba58d1c423f902276049df5215a95f45630967037a2716f258892",
+      "bytes": 2767078,
+      "dimensions": [
+        3840,
+        2160
+      ]
+    },
+    {
+      "label": "wave-cut2-after",
+      "file": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\exports\\final-v5.2\\encoded-stills\\15-wave-cut2-after-f006828.png",
+      "shot": "R42",
+      "full_film_frame": 6828,
+      "full_film_seconds": 113.8,
+      "full_film_time_exact": "569/5",
+      "body_frame": 6528,
+      "body_seconds": 108.8,
+      "purpose": "First A04_03 frame after the second source cut",
+      "sha256": "a5333a192deff595f0b7667e055adad82e203aae6c582ec4fc6a03f9f349f0ef",
+      "bytes": 2566312,
+      "dimensions": [
+        3840,
+        2160
+      ]
+    },
+    {
+      "label": "extra-light-request",
+      "file": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\exports\\final-v5.2\\encoded-stills\\16-extra-light-request-f008090.png",
+      "shot": "R52",
+      "full_film_frame": 8090,
+      "full_film_seconds": 134.83333333333334,
+      "full_film_time_exact": "809/6",
+      "body_frame": 7790,
+      "body_seconds": 129.83333333333334,
+      "purpose": "Added request/system scene illumination",
+      "sha256": "e5e72e275f2fc154a0dbddef99f46d8b15cc342f4241279d9c71d3cff6f4bbed",
+      "bytes": 1166376,
+      "dimensions": [
+        3840,
+        2160
+      ]
+    },
+    {
+      "label": "refusal-request",
+      "file": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\exports\\final-v5.2\\encoded-stills\\17-refusal-request-f008191.png",
+      "shot": "R53",
+      "full_film_frame": 8191,
+      "full_film_seconds": 136.51666666666668,
+      "full_film_time_exact": "8191/60",
+      "body_frame": 7891,
+      "body_seconds": 131.51666666666668,
+      "purpose": "A07_01 request pose",
+      "sha256": "89c14275fcc69aeceba1e82ca785e9a3dd5fe8b29cacdf6e800c59acb809dffc",
+      "bytes": 2043194,
+      "dimensions": [
+        3840,
+        2160
+      ]
+    },
+    {
+      "label": "refusal-contact-alpha",
+      "file": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\exports\\final-v5.2\\encoded-stills\\18-refusal-contact-alpha-f008250.png",
+      "shot": "R53",
+      "full_film_frame": 8250,
+      "full_film_seconds": 137.5,
+      "full_film_time_exact": "275/2",
+      "body_frame": 7950,
+      "body_seconds": 132.5,
+      "purpose": "A07_02 transparent-background source in final composite at body 132.5s",
+      "sha256": "63db6ef32cd24697dbd3daac1a427812de5a589a7ae7abc5829e49de486ffdea",
+      "bytes": 2177914,
+      "dimensions": [
+        3840,
+        2160
+      ]
+    },
+    {
+      "label": "refusal-retreat",
+      "file": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\exports\\final-v5.2\\encoded-stills\\19-refusal-retreat-f008411.png",
+      "shot": "R54",
+      "full_film_frame": 8411,
+      "full_film_seconds": 140.18333333333334,
+      "full_film_time_exact": "8411/60",
+      "body_frame": 8111,
+      "body_seconds": 135.18333333333334,
+      "purpose": "A07_03 retreat pose",
+      "sha256": "e3b4760bdb824c7080de9a068020f131dec700bd1a5ceeafebe2f7b0d711fb4e",
+      "bytes": 2111378,
+      "dimensions": [
+        3840,
+        2160
+      ]
+    },
+    {
+      "label": "book-turn",
+      "file": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\exports\\final-v5.2\\encoded-stills\\20-book-turn-f008574.png",
+      "shot": "R55",
+      "full_film_frame": 8574,
+      "full_film_seconds": 142.9,
+      "full_film_time_exact": "1429/10",
+      "body_frame": 8274,
+      "body_seconds": 137.9,
+      "purpose": "A08_01 approved head/body redraw and thin book",
+      "sha256": "5be50755f3fb8b97c39b00ab06db058d9af8562ac3b59fdf78460eac098f0504",
+      "bytes": 2469806,
+      "dimensions": [
+        3840,
+        2160
+      ]
+    },
+    {
+      "label": "book-cut-before",
+      "file": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\exports\\final-v5.2\\encoded-stills\\21-book-cut-before-f008627.png",
+      "shot": "R55",
+      "full_film_frame": 8627,
+      "full_film_seconds": 143.78333333333333,
+      "full_film_time_exact": "8627/60",
+      "body_frame": 8327,
+      "body_seconds": 138.78333333333333,
+      "purpose": "Last turning-page pose before phase u=0.52",
+      "sha256": "04f4690298b53afda7cc681600759c55ef183d74be62080338c32735b9322e43",
+      "bytes": 2582805,
+      "dimensions": [
+        3840,
+        2160
+      ]
+    },
+    {
+      "label": "book-cut-after",
+      "file": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\exports\\final-v5.2\\encoded-stills\\22-book-cut-after-f008628.png",
+      "shot": "R55",
+      "full_film_frame": 8628,
+      "full_film_seconds": 143.8,
+      "full_film_time_exact": "719/5",
+      "body_frame": 8328,
+      "body_seconds": 138.8,
+      "purpose": "First pointing-page pose after phase u=0.52",
+      "sha256": "dfd9bc5a5d2d6f1a5bf5c79384a4f017650f118eb570c9af7c9bee5b8f68105c",
+      "bytes": 2560585,
+      "dimensions": [
+        3840,
+        2160
+      ]
+    },
+    {
+      "label": "book-point-reading",
+      "file": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\exports\\final-v5.2\\encoded-stills\\23-book-point-reading-f008670.png",
+      "shot": "R55",
+      "full_film_frame": 8670,
+      "full_film_seconds": 144.5,
+      "full_film_time_exact": "289/2",
+      "body_frame": 8370,
+      "body_seconds": 139.5,
+      "purpose": "Latest approved A08_02 pointing at the page",
+      "sha256": "254dc9e7f7c28c511d0d74ed97c765ce8fe33253935b30efc73187b2f2a1ccf7",
+      "bytes": 2642721,
+      "dimensions": [
+        3840,
+        2160
+      ]
+    },
+    {
+      "label": "wrist-recoil",
+      "file": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\exports\\final-v5.2\\encoded-stills\\24-wrist-recoil-f010458.png",
+      "shot": "R74",
+      "full_film_frame": 10458,
+      "full_film_seconds": 174.3,
+      "full_film_time_exact": "1743/10",
+      "body_frame": 10158,
+      "body_seconds": 169.3,
+      "purpose": "New wrist recoil and red wrist line at body 169.3s",
+      "sha256": "3e1cc7fdb7bc728be1c6c95bb172c068f68038b2a8ccae95397c4070f6bf9e4b",
+      "bytes": 2940280,
+      "dimensions": [
+        3840,
+        2160
+      ]
+    },
+    {
+      "label": "ending-surprise",
+      "file": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\exports\\final-v5.2\\encoded-stills\\25-ending-surprise-f012882.png",
+      "shot": "R86",
+      "full_film_frame": 12882,
+      "full_film_seconds": 214.7,
+      "full_film_time_exact": "2147/10",
+      "body_frame": 12582,
+      "body_seconds": 209.7,
+      "purpose": "Recognition surprise at body 209.7s",
+      "sha256": "8187bb386797f62cc6662bf6e84ee101d6ac3dbf2500763d145040d34a06189b",
+      "bytes": 1904180,
+      "dimensions": [
+        3840,
+        2160
+      ]
+    },
+    {
+      "label": "ending-smile",
+      "file": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\exports\\final-v5.2\\encoded-stills\\26-ending-smile-f012924.png",
+      "shot": "R86",
+      "full_film_frame": 12924,
+      "full_film_seconds": 215.4,
+      "full_film_time_exact": "1077/5",
+      "body_frame": 12624,
+      "body_seconds": 210.4,
+      "purpose": "Recognition smile at body 210.4s",
+      "sha256": "4cdc66ab3ee6f08a037b4e4d92f35779d3f001c64db66603cf5bdd592f93af6e",
+      "bytes": 1974993,
+      "dimensions": [
+        3840,
+        2160
+      ]
+    },
+    {
+      "label": "quiet-tail-middle",
+      "file": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\exports\\final-v5.2\\encoded-stills\\27-quiet-tail-middle-f013140.png",
+      "shot": "R86",
+      "full_film_frame": 13140,
+      "full_film_seconds": 219.0,
+      "full_film_time_exact": "219",
+      "body_frame": 12840,
+      "body_seconds": 214.0,
+      "purpose": "Quiet co-drawing tail at body 214s",
+      "sha256": "69824025f0107ba5d757e5cc88e6bde1ed65fd83c903a972bc79a76108bb3373",
+      "bytes": 2356454,
+      "dimensions": [
+        3840,
+        2160
+      ]
+    },
+    {
+      "label": "quiet-tail-last",
+      "file": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\exports\\final-v5.2\\encoded-stills\\28-quiet-tail-last-f013399.png",
+      "shot": "R86",
+      "full_film_frame": 13399,
+      "full_film_seconds": 223.31666666666666,
+      "full_film_time_exact": "13399/60",
+      "body_frame": 13099,
+      "body_seconds": 218.31666666666666,
+      "purpose": "Last native video frame; body 218.3166667s",
+      "sha256": "d623cff61bef75efdcf062dfde904fce048f0b857971b25e08fc0bbe04d867cb",
+      "bytes": 2271519,
+      "dimensions": [
+        3840,
+        2160
+      ]
+    }
+  ],
+  "command": [
+    "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\.cache\\python\\imageio_ffmpeg\\binaries\\ffmpeg-win-x86_64-v9.0.2.exe",
+    "-hide_banner",
+    "-loglevel",
+    "error",
+    "-n",
+    "-i",
+    "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\exports\\astra-world-execute-me-final-v5.2-lighting-artwork-hires-4k60.mp4",
+    "-map",
+    "0:v:0",
+    "-an",
+    "-vf",
+    "select=eq(n\\,299)+eq(n\\,300)+eq(n\\,648)+eq(n\\,3306)+eq(n\\,4517)+eq(n\\,4589)+eq(n\\,4657)+eq(n\\,5237)+eq(n\\,5300)+eq(n\\,5374)+eq(n\\,6656)+eq(n\\,6657)+eq(n\\,6780)+eq(n\\,6827)+eq(n\\,6828)+eq(n\\,8090)+eq(n\\,8191)+eq(n\\,8250)+eq(n\\,8411)+eq(n\\,8574)+eq(n\\,8627)+eq(n\\,8628)+eq(n\\,8670)+eq(n\\,10458)+eq(n\\,12882)+eq(n\\,12924)+eq(n\\,13140)+eq(n\\,13399)",
+    "-fps_mode",
+    "passthrough",
+    "-frames:v",
+    "28",
+    "-c:v",
+    "png",
+    "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\exports\\final-v5.2\\encoded-stills\\extraction-20261106T021420396712Z\\selected-%03d.png"
+  ],
+  "extraction_log": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\exports\\final-v5.2\\encoded-stills\\extraction-20261106T021420396712Z\\ffmpeg.log",
+  "time_basis": "All selection uses zero-based encoded full_film_frame; for body frames full_film_frame = body_frame + 300. No warning offset is applied twice.",
+  "scope": "28 exact decoded native 3840x2160 frames from the completed encoded final MP4, selected in one FFmpeg decoding pass. PNG display conversion only; no resizing, overlays, reconstruction or source changes. This is a targeted sample for visual review, not every-frame human viewing."
+}

@@ -1,0 +1,19 @@
+Use case: precise-object-edit. Perform a MINIMAL LOCAL ORNAMENT CORRECTION on Image 1. This character's whole body, pose and legs are approved. Do not redraw, recompose, rescale, move or redesign the character.
+
+INPUTS: Image 1 is the approved ASTRA contact pose with the corrected HEAD ornament. The head ornament is NOW CORRECT: keep it unchanged. Image 2 is the exact standard OpenAI/GPT SIX-BAND interwoven knot geometry reference. Use its structural geometry for the eight remaining incorrect small ornaments listed below.
+
+ONLY EDIT THESE EIGHT EXISTING KNOT SHAPES, in place, on the 1189x1323 target canvas:
+1. Screen-left upper-arm/sleeve clasp, centered approximately (598,400), within (560,365)-(635,440).
+2. Screen-right upper-arm/sleeve clasp, centered (803,390), within (770,355)-(845,430).
+3. Near/foreground waist-belt clasp, centered (630,580), within (575,530)-(680,635).
+4. Far/receding waist-belt clasp, centered (707,585), within (675,545)-(735,625). Keep its existing narrower perspective, but preserve the six-band knot topology.
+5. Screen-left lower skirt/hem emblem, centered (265,1115), within (215,1068)-(300,1153).
+6. Screen-right lower skirt/hem emblem, centered (753,1136), within (710,1093)-(790,1173).
+7. Rear shoe emblem, centered (496,1210), within (455,1178)-(520,1243).
+8. Near/front shoe emblem, centered (736,1280), within (695,1242)-(775,1322).
+
+All eight currently resemble curled petals or pinwheels meeting at a filled central dot. Correct each to the SAME accurate SIX continuous interwoven ribbon-loop OpenAI knot from Image 2: six outer lobes, six appropriately over-under interlaced band sections, a clearly OPEN CENTRAL HEXAGON, and the surrounding open negative spaces. Do not leave a central filled hub, and do not create a five-petal flower, six-petal flower, vortex, spiral, rosette, circle badge or solid disk. Do not merely change the number of petals: the interwoven band construction and hexagonal open center are essential. Preserve the recognizable canonical structure even at the smaller shoe emblems. Clean, precise small emblem linework, not blurry swirling strokes.
+
+STYLE / INTEGRATION: Match the existing pale-lavender bands and crisp dark-purple outlines. The holes show the existing fabric/hair/shoe beneath. No circular backing. Keep each ornament at its existing attachment, similar size, and consistent local perspective; keep belt cords, tassels, clasps, garment folds and footwear unchanged. This must be an image-generated local edit integrated into the artwork, not a collage or a giant floating logo. Do not add new ornaments.
+
+INVARIANTS: The already-correct head GPT ornament, both horns, ears, black face, eye-covering bangs, every hair lock, both hands and fingers, arms, shoulders, chest, torso, rotated pelvis, continuous near supporting leg, far leg behind the skirt, both knees, ankles and shoe silhouettes, wings, tail, skirt and all outer contours remain as Image 1. Absolutely no new anatomy or pose changes. Keep the same canvas, full framing, proportions, colors, alpha transparency and composition. Only change the drawn ribbon structures inside these eight existing badges. No extra text, no labels, no comparison panels, no background, no floor and no effects.

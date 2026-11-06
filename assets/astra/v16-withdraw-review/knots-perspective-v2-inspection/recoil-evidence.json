@@ -1,0 +1,99 @@
+{
+  "key": "recoil",
+  "candidate": "assets/astra/v16-withdraw-review/recoil-redraw-knots-perspective-v2.png",
+  "original": "assets/astra/v16-withdraw-review/recoil-redraw.png",
+  "prompt": "assets/astra/v16-withdraw-review/recoil-redraw-knots-perspective-v2.prompt.txt",
+  "generator": "built-in image_gen",
+  "source": "C:\\Users\\auscar\\.codex\\generated_images\\01a1acd4-3d6c-7fc3-9df6-24f2c44de01f\\exec-b1bf954e-a804-44a3-bd51-2bd2ad3cbbd7.png",
+  "source_copy_identical": true,
+  "sha256": "85ce8c1b6fa88ec3c2ac9c0cb43e0694b2ec28ed2a1c9507fda64c675334bbca",
+  "original_sha256": "9613da1ec08802ec2a027c085ebc7af36e1655a3c453c8a95f5eb42d8ca07914",
+  "original_unchanged": true,
+  "width": 1254,
+  "height": 1254,
+  "mode": "RGBA",
+  "alpha_extrema": [
+    0,
+    255
+  ],
+  "ornament_regions": [
+    [
+      "hair",
+      [
+        689,
+        176,
+        836,
+        305
+      ]
+    ],
+    [
+      "shoulder",
+      [
+        804,
+        596,
+        905,
+        696
+      ]
+    ],
+    [
+      "waist-near",
+      [
+        438,
+        865,
+        580,
+        1006
+      ]
+    ],
+    [
+      "waist-far",
+      [
+        646,
+        869,
+        778,
+        1000
+      ]
+    ]
+  ],
+  "protected_regions": [
+    [
+      "face",
+      [
+        487,
+        310,
+        719,
+        465
+      ]
+    ],
+    [
+      "hand-contact",
+      [
+        355,
+        330,
+        578,
+        756
+      ]
+    ]
+  ],
+  "protected_pixel_differences": {
+    "face": {
+      "mean_abs_channel_delta": 38.76442575083426,
+      "exact_pixel_fraction": 0.0010011123470522803,
+      "maxchannel_over16_fraction": 0.43195216907675194
+    },
+    "hand-contact": {
+      "mean_abs_channel_delta": 26.261687088149223,
+      "exact_pixel_fraction": 0.07982273311017074,
+      "maxchannel_over16_fraction": 0.3256173814185562
+    }
+  },
+  "pixel_invariance_claimed": false,
+  "status": "review_only_not_integrated",
+  "production_modified": false,
+  "inspection": {
+    "full_image_viewed": true,
+    "crop_boards_viewed": true,
+    "independent_review": "review_bundle",
+    "notes": "Viewed full saved PNG and all 4 ornament crops plus face/hand-contact comparison. Open angular centers replace small center dots; shoulder remains oblique, far waist remains narrower. Centers can show underlying lavender cloth. No obvious new hand-contact or jaw displacement. Independently reviewed by review_bundle; user approval pending.",
+    "limits": "Visual comparison, not mathematical topology or pixel-invariance certification; new runtime anchors unmeasured."
+  }
+}

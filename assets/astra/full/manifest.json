@@ -1,0 +1,169 @@
+{
+  "status": "superseded",
+  "rejection": "User rejected old character designs and separate GPT SVG overlays; use directly illustrated v05 style baseline before rebuilding full MV assets.",
+  "date": "2026-11-04",
+  "basis": "User broadly accepted v04, authorized full MV. Built-in imagegen pose/expression edits; exact native ornament path; three-ink mapping at load; no old rejected faces.",
+  "assets": {
+    "stand": {
+      "path": "/assets/astra/v04/standing-base.png",
+      "face": {
+        "x": 345,
+        "y": 125,
+        "w": 340,
+        "h": 290
+      },
+      "ornaments": [
+        {
+          "x": 600,
+          "y": 211,
+          "width": 80,
+          "rotation": -10
+        },
+        {
+          "x": 483,
+          "y": 650,
+          "width": 78,
+          "rotation": 6
+        }
+      ]
+    },
+    "reach": {
+      "path": "/assets/astra/full/reach.png",
+      "face": {
+        "x": 410,
+        "y": 135,
+        "w": 280,
+        "h": 240
+      },
+      "ornaments": [
+        {
+          "x": 625,
+          "y": 253,
+          "width": 68,
+          "rotation": 8
+        },
+        {
+          "x": 497,
+          "y": 624,
+          "width": 73,
+          "rotation": -8
+        }
+      ]
+    },
+    "protect": {
+      "path": "/assets/astra/full/protect.png",
+      "face": {
+        "x": 365,
+        "y": 145,
+        "w": 310,
+        "h": 255
+      },
+      "ornaments": [
+        {
+          "x": 600,
+          "y": 225,
+          "width": 75,
+          "rotation": 0
+        },
+        {
+          "x": 463,
+          "y": 652,
+          "width": 76,
+          "rotation": 8
+        }
+      ]
+    },
+    "sit": {
+      "path": "/assets/astra/full/sit.png",
+      "face": {
+        "x": 390,
+        "y": 140,
+        "w": 310,
+        "h": 270
+      },
+      "ornaments": [
+        {
+          "x": 646,
+          "y": 238,
+          "width": 69,
+          "rotation": 10
+        },
+        {
+          "x": 490,
+          "y": 703,
+          "width": 74,
+          "rotation": -8
+        }
+      ]
+    },
+    "sitSmile": {
+      "path": "/assets/astra/full/sitSmile.png",
+      "face": {
+        "x": 390,
+        "y": 140,
+        "w": 310,
+        "h": 270
+      },
+      "ornaments": [
+        {
+          "x": 646,
+          "y": 238,
+          "width": 69,
+          "rotation": 10
+        },
+        {
+          "x": 490,
+          "y": 703,
+          "width": 74,
+          "rotation": -8
+        }
+      ]
+    },
+    "surprise": {
+      "path": "/assets/astra/full/surprise.png",
+      "face": {
+        "x": 390,
+        "y": 140,
+        "w": 310,
+        "h": 270
+      },
+      "ornaments": [
+        {
+          "x": 646,
+          "y": 238,
+          "width": 69,
+          "rotation": 10
+        },
+        {
+          "x": 490,
+          "y": 703,
+          "width": 74,
+          "rotation": -8
+        }
+      ]
+    },
+    "sleep": {
+      "path": "/assets/astra/full/sleep.png",
+      "face": {
+        "x": 345,
+        "y": 125,
+        "w": 340,
+        "h": 290
+      },
+      "ornaments": [
+        {
+          "x": 600,
+          "y": 211,
+          "width": 80,
+          "rotation": -10
+        },
+        {
+          "x": 483,
+          "y": 650,
+          "width": 78,
+          "rotation": 6
+        }
+      ]
+    }
+  }
+}

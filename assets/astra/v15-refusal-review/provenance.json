@@ -1,0 +1,254 @@
+{
+  "date": "2026-11-06",
+  "status": "review_only_not_integrated",
+  "assets": [
+    {
+      "key": "A07_01",
+      "path": "assets/astra/v15-refusal-review/A07-01-request.png",
+      "prompt": "assets/astra/v15-refusal-review/A07-01.prompt.txt",
+      "source": "C:/Users/auscar/.codex/generated_images/01a1ac2d-7ea7-7951-b77e-1a8a2fff677e/exec-e2545bd8-c8ec-4bb3-804a-7a85dc72f25a.png",
+      "generator": "built-in image_gen",
+      "intent": "new full drawing; reference-only inputs; not local repair",
+      "references": [
+        "C:/Users/auscar/Documents/Tencent Files/2470641710/nt_qq/nt_data/Pic/2026-11/Ori/e0ec7a1db8d1862fe1135298bd354581.jpg",
+        "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v09/A01-01-inkface.png"
+      ],
+      "bytes": 2008090,
+      "sha256": "0c50eca6d9977f17137a85f21dec9106156f6337ce70b639ce883a4103a9ab1a",
+      "source_sha256": "0c50eca6d9977f17137a85f21dec9106156f6337ce70b639ce883a4103a9ab1a",
+      "source_copy_identical": true,
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "alpha_nonzero_bounds": [
+        25,
+        13,
+        1010,
+        1536
+      ],
+      "alpha128_bounds": [
+        32,
+        16,
+        983,
+        1521
+      ],
+      "sample_alpha": [
+        {
+          "xy": [
+            0,
+            0
+          ],
+          "alpha": 0
+        },
+        {
+          "xy": [
+            1023,
+            0
+          ],
+          "alpha": 0
+        },
+        {
+          "xy": [
+            0,
+            1535
+          ],
+          "alpha": 0
+        },
+        {
+          "xy": [
+            1023,
+            1535
+          ],
+          "alpha": 0
+        },
+        {
+          "xy": [
+            20,
+            200
+          ],
+          "alpha": 0
+        },
+        {
+          "xy": [
+            1004,
+            200
+          ],
+          "alpha": 0
+        }
+      ],
+      "visual_review": "Viewed actual generated output and saved source at original detail. Shadow face and costume retained. New complete anatomy inspected for connected limbs; no mathematical logo or anatomy certification. User review remains pending.",
+      "status": "review_only_not_integrated",
+      "anchors_measured": false
+    },
+    {
+      "key": "A07_02",
+      "path": "assets/astra/v15-refusal-review/A07-02-contact.png",
+      "prompt": "assets/astra/v15-refusal-review/A07-02.prompt.txt",
+      "source": "C:/Users/auscar/.codex/generated_images/01a1ac2d-7ea7-7951-b77e-1a8a2fff677e/exec-187f05cb-75b8-41a2-859f-4124e9977593.png",
+      "generator": "built-in image_gen",
+      "intent": "new full drawing; reference-only inputs; not local repair",
+      "references": [
+        "C:/Users/auscar/Documents/Tencent Files/2470641710/nt_qq/nt_data/Pic/2026-11/Ori/e0ec7a1db8d1862fe1135298bd354581.jpg",
+        "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v15-refusal-review/A07-01-request.png"
+      ],
+      "bytes": 2013631,
+      "sha256": "da43af9075729f2480d8891e4222aea6f0a019af79b5fce4c79e29dd085597e7",
+      "source_sha256": "da43af9075729f2480d8891e4222aea6f0a019af79b5fce4c79e29dd085597e7",
+      "source_copy_identical": true,
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "alpha_nonzero_bounds": [
+        0,
+        17,
+        1010,
+        1521
+      ],
+      "alpha128_bounds": [
+        25,
+        20,
+        1005,
+        1516
+      ],
+      "sample_alpha": [
+        {
+          "xy": [
+            0,
+            0
+          ],
+          "alpha": 0
+        },
+        {
+          "xy": [
+            1023,
+            0
+          ],
+          "alpha": 0
+        },
+        {
+          "xy": [
+            0,
+            1535
+          ],
+          "alpha": 0
+        },
+        {
+          "xy": [
+            1023,
+            1535
+          ],
+          "alpha": 0
+        },
+        {
+          "xy": [
+            20,
+            200
+          ],
+          "alpha": 0
+        },
+        {
+          "xy": [
+            1004,
+            200
+          ],
+          "alpha": 0
+        }
+      ],
+      "visual_review": "Viewed actual generated output and saved source at original detail. Shadow face and costume retained. New complete anatomy inspected for connected limbs; no mathematical logo or anatomy certification. User review remains pending.",
+      "status": "review_only_not_integrated",
+      "anchors_measured": false
+    },
+    {
+      "key": "A07_03",
+      "path": "assets/astra/v15-refusal-review/A07-03-retreat.png",
+      "prompt": "assets/astra/v15-refusal-review/A07-03.prompt.txt",
+      "source": "C:/Users/auscar/.codex/generated_images/01a1ac2d-7ea7-7951-b77e-1a8a2fff677e/exec-98bc55c6-83d7-4185-a19a-90e66105c5da.png",
+      "generator": "built-in image_gen",
+      "intent": "new full drawing; reference-only inputs; not local repair",
+      "references": [
+        "C:/Users/auscar/Documents/Tencent Files/2470641710/nt_qq/nt_data/Pic/2026-11/Ori/e0ec7a1db8d1862fe1135298bd354581.jpg",
+        "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v15-refusal-review/A07-01-request.png"
+      ],
+      "bytes": 1910418,
+      "sha256": "56d582b8bf055de989879df03646ccf4645a3f0844046e4fe0d092be60af3186",
+      "source_sha256": "56d582b8bf055de989879df03646ccf4645a3f0844046e4fe0d092be60af3186",
+      "source_copy_identical": true,
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "alpha_nonzero_bounds": [
+        0,
+        9,
+        976,
+        1516
+      ],
+      "alpha128_bounds": [
+        62,
+        12,
+        965,
+        1511
+      ],
+      "sample_alpha": [
+        {
+          "xy": [
+            0,
+            0
+          ],
+          "alpha": 0
+        },
+        {
+          "xy": [
+            1023,
+            0
+          ],
+          "alpha": 0
+        },
+        {
+          "xy": [
+            0,
+            1535
+          ],
+          "alpha": 0
+        },
+        {
+          "xy": [
+            1023,
+            1535
+          ],
+          "alpha": 0
+        },
+        {
+          "xy": [
+            20,
+            200
+          ],
+          "alpha": 0
+        },
+        {
+          "xy": [
+            1004,
+            200
+          ],
+          "alpha": 0
+        }
+      ],
+      "visual_review": "Viewed actual generated output and saved source at original detail. Shadow face and costume retained. New complete anatomy inspected for connected limbs; no mathematical logo or anatomy certification. User review remains pending.",
+      "status": "review_only_not_integrated",
+      "anchors_measured": false
+    }
+  ],
+  "generation_count": 3,
+  "production_modified": false
+}

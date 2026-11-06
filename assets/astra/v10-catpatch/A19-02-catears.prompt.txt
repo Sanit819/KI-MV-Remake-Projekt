@@ -1,0 +1,6 @@
+Use case: precise-object-edit.
+Edit target Image 1: existing ASTRA seated full body phase 2 with BOTH hands raised in cat-paw gestures.
+Image 2: approved added cat ears design, SAME character, use its head-top ears ONLY; do not copy Image2 hands/pose.
+Change only top of the head: add TWO clearly visible small triangular feline ears in the hair IN FRONT OF and BETWEEN the TWO existing segmented dragon horns, exactly like Image2. Lavender outer fur, near-black inner triangles with two small pale tufts. Keep BOTH tall dragon horns, ahoge, hair, all hollow six-loop GPT ornaments and tassels unchanged.
+Exact pose preservation: BOTH hands remain raised under chin, wrists bent down like paws, same natural fingers, same arms and wing positions, same seated crossed legs/dress/shoes. Keep all body, head scale and framing identical to Image1, 1024x1536 full body. NOT a redesign.
+Near-black face and bangs fully conceal both eyes, tiny smiling mouth only, NO eyes/nose revealed. Match original lavender/nearblack linework and flat shading. Genuine transparent alpha background, no checkerboard, no glow. No text or props; no outer circle/badge on GPT ornaments.

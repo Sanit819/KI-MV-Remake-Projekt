@@ -1,0 +1,102 @@
+{
+  "protected_originals": {
+    "src/mv52/art.js": true,
+    "src/mv52/early.js": true,
+    "src/mv52/index.html": true,
+    "src/mv52/kit.js": true,
+    "src/mv52/late.js": true,
+    "src/mv52/lighting.js": true,
+    "src/mv52/main.js": true,
+    "src/mv52/middle.js": true,
+    "src/mv52/neural.js": true,
+    "src/mv52/spatial-neural.js": true,
+    "src/mv5cat/art.js": true,
+    "src/mv5cat/early.js": true,
+    "src/mv5cat/index.html": true,
+    "src/mv5cat/kit.js": true,
+    "src/mv5cat/late.js": true,
+    "src/mv5cat/main.js": true,
+    "src/mv5cat/middle.js": true,
+    "src/mv5cat/neural.js": true,
+    "src/mv5cat/spatial-neural.js": true,
+    "assets/astra/v12-approved-cat/manifest.json": true
+  },
+  "all_protected_unchanged": true,
+  "review_binary_identical_modules": {
+    "early.js": true,
+    "kit.js": true,
+    "late.js": true,
+    "lighting.js": true,
+    "middle.js": true,
+    "neural.js": true,
+    "spatial-neural.js": true
+  },
+  "all_core_modules_identical": true,
+  "main_has_only_expected_review_hook": true,
+  "native_4k_stills": [
+    {
+      "path": "exports/preview-v52-combination/stills-initial/source-108.000.audit.json",
+      "shot": "R42",
+      "body_time": 108,
+      "extra_inactive": true,
+      "gold_connector": {
+        "singleStroke": true,
+        "waveEnd": [
+          770,
+          348.139821497212
+        ],
+        "connectorStart": [
+          770,
+          348.139821497212
+        ],
+        "connectorEnd": [
+          1059.8405253283302,
+          369.1857410881801
+        ],
+        "handAnchor": [
+          1059.8405253283302,
+          369.1857410881801
+        ],
+        "controls": [
+          [
+            832.2415786415781,
+            287.09453203875245
+          ],
+          [
+            978.6851782363977,
+            363.292883602709
+          ]
+        ],
+        "waveEndTangent": [
+          6.399999999999977,
+          -6.276991378768685
+        ],
+        "connectorStartTangent": [
+          62.241578641578144,
+          -61.045289458459536
+        ],
+        "startGap": 0,
+        "handGap": 0,
+        "alwaysConnected": true
+      }
+    },
+    {
+      "path": "exports/preview-v52-combination/stills-initial/source-137.600.audit.json",
+      "shot": "R55",
+      "body_time": 137.6,
+      "extra_inactive": true,
+      "gold_connector": null
+    },
+    {
+      "path": "exports/preview-v52-combination/stills-initial/source-139.500.audit.json",
+      "shot": "R55",
+      "body_time": 139.5,
+      "extra_inactive": true,
+      "gold_connector": null
+    }
+  ],
+  "review_video_files_created": [],
+  "final_map_confirmed": false,
+  "report_scope": "Historical initial setup evidence only; final state is superseded by delivery.json",
+  "superseded_by": "exports/preview-v52-combination/delivery.json"
+}

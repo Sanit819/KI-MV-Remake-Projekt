@@ -1,0 +1,104 @@
+{
+  "date": "2026-11-06",
+  "status": "user-approved-static-source",
+  "user_feedback": "A02_01 A02_03 腿不对; A02_02对",
+  "method": "builtin image_gen, one full-character generation per pose using accepted contact as anatomical master and old pose as action-only reference; source PNG bytes preserved",
+  "user_approved": true,
+  "production_integrated": false,
+  "outputs": [
+    {
+      "path": "assets\\astra\\v14-boundary-review\\A02-01-approach-v3-leg-redraw.png",
+      "generated_source": "C:\\Users\\auscar\\.codex\\generated_images\\01a1ae4d-16a9-7fd0-84fd-dcce96ca530b\\exec-73e5f95d-6f73-4281-b887-ef661f79c9d7.png",
+      "bytes": 1653393,
+      "sha256": "726880792942ff23853b32e8df13f593af9a16eaecf333d01e0f13f59f45b430",
+      "source_bytes_equal": true,
+      "size": [
+        1189,
+        1323
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "alpha_bbox": [
+        0,
+        0,
+        1173,
+        1323
+      ],
+      "alpha_gt32_bbox": [
+        34,
+        7,
+        1128,
+        1312
+      ],
+      "corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "path": "assets\\astra\\v14-boundary-review\\A02-03-withdraw-v3-leg-redraw.png",
+      "generated_source": "C:\\Users\\auscar\\.codex\\generated_images\\01a1ae4d-16a9-7fd0-84fd-dcce96ca530b\\exec-6ddaebfc-0af1-43db-a8b5-64f5fbc38eb7.png",
+      "bytes": 1512003,
+      "sha256": "a80a3aa018db6e0e6d91a10a3cef7a2042d34e7a448248d29cfc0df27d4f0486",
+      "source_bytes_equal": true,
+      "size": [
+        1189,
+        1323
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "alpha_bbox": [
+        2,
+        0,
+        1169,
+        1323
+      ],
+      "alpha_gt32_bbox": [
+        31,
+        7,
+        1088,
+        1312
+      ],
+      "corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "approved_reference": {
+    "path": "assets\\astra\\v14-boundary-review\\A02-02-contact-v6-perspective.png",
+    "sha256": "b393e4c3218a53c8be5089684a6958e3ee9dfdca0907f8cf928ac3ba28e4488e",
+    "expected_sha256": "b393e4c3218a53c8be5089684a6958e3ee9dfdca0907f8cf928ac3ba28e4488e",
+    "unchanged": true
+  },
+  "visual_review": {
+    "scope": "Both complete native generated outputs visually inspected, compared with approved contact and rejected poses. Static source only; no runtime composite or animation test.",
+    "observations": [
+      "Both revised poses now use the accepted right-facing oblique pelvis and staggered leg depth instead of the rejected frontal spread thighs.",
+      "Near thigh-knee-calf-ankle-shoe reads as one continuous limb; far upper thigh is obscured by dress/near leg and rear shoe is smaller and higher.",
+      "Approach has relaxed reaching fingers; withdraw has far hand near chin and near hand lowered. Hands use natural overlap, not all digits forced visible.",
+      "Dark face/chin, horns, wings, tail and dress remain present; no evident new detached limb in the full-view inspection."
+    ],
+    "limits": [
+      "Not a proof of anatomically exact skeleton or every small ornament topology.",
+      "Generated line/colour changes outside requested anatomy are present; no pixel lock claimed.",
+      "Actual render anchor coordinates and transition continuity must be remeasured after user selection.",
+      "Low-alpha edge noise reaches canvas bounds; opaque silhouette above alpha 32 remains inside margins. Runtime transparency on light and dark scene backgrounds has not been verified."
+    ]
+  },
+  "latest_user_review": {
+    "date": "2026-11-06",
+    "user_text": "点读态头也歪了；其他的ok",
+    "scope": "Four new static sources displayed in round2: A08_01-v6, A02_01/03-v3 and A04_02-v6 approved. A08_02-v5 explicitly rejected. Does not approve unseen artwork or old/new combination videos."
+  }
+}

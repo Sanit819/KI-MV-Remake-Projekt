@@ -1,0 +1,5 @@
+{
+  "passed": true,
+  "count": 300,
+  "scope": "Every warning frame decoded to native 3840x2160 yuv420p and SHA256 compared, including frame times."
+}

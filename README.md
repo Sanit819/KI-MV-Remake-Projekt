@@ -2,7 +2,44 @@
 
 ASTRA《未写完的世界》——用户与 ASTRA 共同制作的 Mili《world.execute(me);》原创 MV。
 
-## 当前交付：完整最终版 v5（2026-11-05）
+## 第一企划归档 · ASTRA v5.2
+
+第一企划已完成并封存，后续企划使用新的工作区／分支，不再修改本归档。推荐复刻分支为 **`archive/astra-world-execute-me-v5.2`**；原 **`world.execute(me);`** 分支与提交历史同样保留，固定标签为 **`astra-world-execute-me-v5.2-final`**。
+
+[归档说明与版本边界](ARCHIVE.md) · [从干净克隆复刻](tools/archive/README.md) · [已保存的成片核验证据与样本](docs/archive/astra-v5.2/evidence/index.json) · [第三方来源](NOTICE.md)
+
+```text
+git clone --branch archive/astra-world-execute-me-v5.2 https://github.com/Sanit819/KI-MV-Remake-Projekt.git
+cd KI-MV-Remake-Projekt
+npm ci
+npm run archive:check
+npx playwright-core install chromium
+npm run archive:preview
+```
+
+仓库包含画面源码、79 张活动原画及历史稿、提示词、数据、字幕与精简核验证据。音乐和完整 MP4 不随 Git 上传；下方历史交付中的 `exports/` 链接是原制作机本地文件。复刻请使用新增 `tools/archive` 入口；旧 `tools/render` 留作历史生产记录，可能需要已清理的旧成片、缓存和本机路径。新入口可以直接生成静音画面，自备音源的对齐与封装见说明。
+
+## 当前交付：最终版 v5.2 原画与全片光感（2026-11-06）
+
+[完整 4K60 / ALAC 无损音轨 MV](exports/astra-world-execute-me-final-v5.2-lighting-artwork-hires-4k60.mp4) · [标题](docs/publishing/video-title-v07.txt) · [可复制简介](docs/publishing/video-description-v07.txt) · [封面](assets/publishing/cover-v03/astra-world-execute-me-cat-cover-v03.png) · [交付与验证](docs/FULL_MV_V5_2.md)
+
+已按用户「ok了，全部接入视频吧，期待成品！」完成 12 张原画替换，包含最后认可的翻书／点读头部、边界第一／第三态腿部和接线姿态的另一只手；17 段光感与 12 镜补光全部接入。保留用户选定猫猫三态、86 镜、128 条双语歌词、5 秒警告及 6 秒安静尾声。
+
+成片 **3840×2160 /60 fps、13,400 帧、223.333333 秒、816,343,779 bytes**，SHA-256 `e76f5208861df5e10f4fc64f515d36b50dd9daf8b6e563f24ac56f99200e8402`。完整解码、全部视频包／拼接点、原片头与 ALAC 192kHz／24bit 双声道全包及全部原生 PCM 核验通过；音轨与 v5.1 完全一致。运行时 1,859 点检查及实际视觉抽样范围见交付报告，不冒称连续人工审完全部影片。
+
+当前入口为 [src/mv52final/index.html](src/mv52final/index.html)，清单为 [production-v52final/manifest.json](data/production-v52final/manifest.json)。旧 v5／v5.1、原画、生产源码与审核试片保留；首轮审核 map 含当时退回稿，不是当前生产清单。没有上传发布或新增 AAC／1080p。
+
+## 历史交付：最终版 v5.1 猫猫动作接续（2026-11-05）
+
+[完整 4K60 / 192 kHz 24 bit 无损 MV](exports/astra-world-execute-me-final-v5.1-cat-warning-hires-4k60.mp4) · [标题](docs/publishing/video-title-v06.txt) · [可复制简介](docs/publishing/video-description-v06.txt) · [封面](assets/publishing/cover-v03/astra-world-execute-me-cat-cover-v03.png) · [交付与验证](docs/FULL_MV_V5_1.md)
+
+按用户最新选定的猫猫半身原画完成动作接续：主猫爪图逐字节保留，补画抬爪与放松收手两个姿态，接入完整视频 **86.950–90.4167 秒**的 R30/R31，衔接至 “Be the only god.”。当前仍为 21 组、52 个动作姿态，其中三个 A19 槽位已替换；v10/v11 被否定稿不参与成片。[原画、来源与提示词](assets/astra/v12-approved-cat/README.md)
+
+成片已导出并通过整片验证：**3840×2160 /60 fps、13,400 帧、223.333333 秒，390,382,524 bytes**；保留 5 秒警告、128 条双语歌词和 6 秒安静共画尾声。完整解码、逐包时间戳、全部原生 PCM 与 ALAC 音频包一致性通过，原 v5 成片与生产源保持不变。R30/R31 的 208 帧运行时检查通过，并实际抽查编码后的 6 张关键帧。[技术报告](docs/validation/astra-final-v5.1-cat-verification.json) · [视觉检查范围](docs/production-v5/CAT_V51_VISUAL_QA.md)
+
+当前生产入口为 [src/mv5cat/index.html](src/mv5cat/index.html)，清单为 [v12-approved-cat](assets/astra/v12-approved-cat/manifest.json)。本次未新增 1080p 或 AAC 副本，未上传发布；旧 v5 AAC 文件仍是修订前画面。以下 v5 的 16.48% 复用率属于历史报告，本次未重新统计。
+
+## 历史交付：完整最终版 v5（2026-11-05）
 
 [4K60 / 192 kHz 24 bit 无损完整 MV](exports/astra-world-execute-me-final-v5-warning-hires-4k60.mp4) · [交付与验证](docs/FULL_MV_V5.md) · [52 张动作原画及提示词](assets/astra/v09/README.md)
 

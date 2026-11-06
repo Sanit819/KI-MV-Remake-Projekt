@@ -1,0 +1,72 @@
+{
+  "key": "smile",
+  "candidate": "assets/astra/v17-ending-review/recognition-smile-knots-perspective-v2.png",
+  "original": "assets/astra/v17-ending-review/recognition-smile.png",
+  "prompt": "assets/astra/v17-ending-review/recognition-smile-knots-perspective-v2.prompt.txt",
+  "generator": "built-in image_gen",
+  "source": "C:\\Users\\auscar\\.codex\\generated_images\\01a1acd4-3d6c-7fc3-9df6-24f2c44de01f\\exec-eee0e776-b9bf-41d5-ae7c-2ee6fb310258.png",
+  "source_copy_identical": true,
+  "sha256": "e77695402069392baa30a451e72711d87e07cc677d80a334fa3adc1cdb9b2b01",
+  "original_sha256": "9622111277caa22233933e0b9f524bd04e3ccaf89c511e2a0968ca2c9b38053d",
+  "original_unchanged": true,
+  "width": 1254,
+  "height": 1254,
+  "mode": "RGBA",
+  "alpha_extrema": [
+    0,
+    255
+  ],
+  "ornament_regions": [
+    [
+      "shoulder",
+      [
+        933,
+        1098,
+        1065,
+        1229
+      ]
+    ]
+  ],
+  "protected_regions": [
+    [
+      "protected-hair",
+      [
+        768,
+        325,
+        1022,
+        545
+      ]
+    ],
+    [
+      "face",
+      [
+        423,
+        526,
+        834,
+        882
+      ]
+    ]
+  ],
+  "protected_pixel_differences": {
+    "protected-hair": {
+      "mean_abs_channel_delta": 6.527116141732283,
+      "exact_pixel_fraction": 0.17442734430923407,
+      "maxchannel_over16_fraction": 0.11853972798854688
+    },
+    "face": {
+      "mean_abs_channel_delta": 4.832598622160256,
+      "exact_pixel_fraction": 1.3669045080510675e-05,
+      "maxchannel_over16_fraction": 0.08074304929057656
+    }
+  },
+  "pixel_invariance_claimed": false,
+  "status": "review_only_not_integrated",
+  "production_modified": false,
+  "inspection": {
+    "full_image_viewed": true,
+    "crop_boards_viewed": true,
+    "independent_review": "review_bundle",
+    "notes": "Viewed full saved PNG and shoulder, protected hair and face comparison. Shoulder has six visible woven lobes around open angular center, vertically oblique. Closed smiling eyes, small smile, jaw and hair ornament visually maintained. Independently reviewed by review_bundle; user approval pending.",
+    "limits": "Visual comparison, not mathematical topology or pixel-invariance certification; new runtime anchors unmeasured."
+  }
+}

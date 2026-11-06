@@ -1,0 +1,556 @@
+{
+  "status": "review_only_not_integrated",
+  "generator": "built-in image_gen",
+  "edit_scope": "source-drawn knot ornaments with local surface perspective; no compositing or programmatic replacement of artwork",
+  "topology_reference": "assets/astra/v02/openai-openwork.png",
+  "formal_manifest_or_renderer_modified": false,
+  "assets": [
+    {
+      "key": "A07_01",
+      "original": "assets/astra/v15-refusal-review/A07-01-request.png",
+      "candidate": "assets/astra/v15-refusal-review/A07-01-request-knots-perspective-v2.png",
+      "prompt": "assets/astra/v15-refusal-review/A07-01-request-knots-perspective-v2.prompt.txt",
+      "native_generated_file": "C:\\Users\\auscar\\.codex\\generated_images\\01a1acd4-3d6c-7fc3-9df6-24f2c44de01f\\exec-10847501-b8e5-4227-8080-714b845d7d2f.png",
+      "original_sha256": "0c50eca6d9977f17137a85f21dec9106156f6337ce70b639ce883a4103a9ab1a",
+      "original_unchanged_from_previous_provenance": true,
+      "candidate_sha256": "d3716551e89c0f3259bdebb4378124ddc23345700f5b4c09c77ef5feef1af8a8",
+      "generated_copy_identical": true,
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "outside_ornament_regions": {
+        "identical_pixel_fraction": 0.020014927296548465,
+        "mean_abs_channel_difference": 4.170364315975429,
+        "fraction_pixels_delta_gt_16": 0.05922995554028222
+      },
+      "exact_pixel_preservation_claim": false,
+      "anatomy_review": "visual pose / limb / hands / foot placement comparison; not numerical anatomy certification",
+      "knot_review": "large ornaments visually reviewed; tiny shoe topology remains uncertain at native size; user perspective approval pending",
+      "inspection": "knots-perspective-v2-inspection/A07-01-knots-before-after.png",
+      "regions": [
+        {
+          "group": "v15-01",
+          "source": "assets/astra/v15-refusal-review/A07-01-request.png",
+          "label": "hair",
+          "bbox_xyxy": [
+            617,
+            129,
+            725,
+            233
+          ],
+          "native_crop_size": [
+            108,
+            104
+          ],
+          "preview_scale": 2.3703703703703702,
+          "preview_method": "nearest-neighbor crop enlargement; source PNG unchanged"
+        },
+        {
+          "group": "v15-01",
+          "source": "assets/astra/v15-refusal-review/A07-01-request.png",
+          "label": "shoulder-near",
+          "bbox_xyxy": [
+            387,
+            413,
+            466,
+            496
+          ],
+          "native_crop_size": [
+            79,
+            83
+          ],
+          "preview_scale": 3.0843373493975905,
+          "preview_method": "nearest-neighbor crop enlargement; source PNG unchanged"
+        },
+        {
+          "group": "v15-01",
+          "source": "assets/astra/v15-refusal-review/A07-01-request.png",
+          "label": "shoulder-far",
+          "bbox_xyxy": [
+            658,
+            377,
+            729,
+            449
+          ],
+          "native_crop_size": [
+            71,
+            72
+          ],
+          "preview_scale": 3.5555555555555554,
+          "preview_method": "nearest-neighbor crop enlargement; source PNG unchanged"
+        },
+        {
+          "group": "v15-01",
+          "source": "assets/astra/v15-refusal-review/A07-01-request.png",
+          "label": "waist-near",
+          "bbox_xyxy": [
+            377,
+            589,
+            499,
+            714
+          ],
+          "native_crop_size": [
+            122,
+            125
+          ],
+          "preview_scale": 2.048,
+          "preview_method": "nearest-neighbor crop enlargement; source PNG unchanged"
+        },
+        {
+          "group": "v15-01",
+          "source": "assets/astra/v15-refusal-review/A07-01-request.png",
+          "label": "waist-far",
+          "bbox_xyxy": [
+            540,
+            612,
+            642,
+            717
+          ],
+          "native_crop_size": [
+            102,
+            105
+          ],
+          "preview_scale": 2.4380952380952383,
+          "preview_method": "nearest-neighbor crop enlargement; source PNG unchanged"
+        },
+        {
+          "group": "v15-01",
+          "source": "assets/astra/v15-refusal-review/A07-01-request.png",
+          "label": "hem-left",
+          "bbox_xyxy": [
+            141,
+            1156,
+            248,
+            1260
+          ],
+          "native_crop_size": [
+            107,
+            104
+          ],
+          "preview_scale": 2.392523364485981,
+          "preview_method": "nearest-neighbor crop enlargement; source PNG unchanged"
+        },
+        {
+          "group": "v15-01",
+          "source": "assets/astra/v15-refusal-review/A07-01-request.png",
+          "label": "hem-right",
+          "bbox_xyxy": [
+            713,
+            1246,
+            817,
+            1353
+          ],
+          "native_crop_size": [
+            104,
+            107
+          ],
+          "preview_scale": 2.392523364485981,
+          "preview_method": "nearest-neighbor crop enlargement; source PNG unchanged"
+        },
+        {
+          "group": "v15-01",
+          "source": "assets/astra/v15-refusal-review/A07-01-request.png",
+          "label": "shoe-left",
+          "bbox_xyxy": [
+            397,
+            1371,
+            474,
+            1450
+          ],
+          "native_crop_size": [
+            77,
+            79
+          ],
+          "preview_scale": 3.240506329113924,
+          "preview_method": "nearest-neighbor crop enlargement; source PNG unchanged"
+        },
+        {
+          "group": "v15-01",
+          "source": "assets/astra/v15-refusal-review/A07-01-request.png",
+          "label": "shoe-right",
+          "bbox_xyxy": [
+            699,
+            1439,
+            775,
+            1515
+          ],
+          "native_crop_size": [
+            76,
+            76
+          ],
+          "preview_scale": 3.3684210526315788,
+          "preview_method": "nearest-neighbor crop enlargement; source PNG unchanged"
+        }
+      ]
+    },
+    {
+      "key": "A07_02",
+      "original": "assets/astra/v15-refusal-review/A07-02-contact.png",
+      "candidate": "assets/astra/v15-refusal-review/A07-02-contact-knots-perspective-v2.png",
+      "prompt": "assets/astra/v15-refusal-review/A07-02-contact-knots-perspective-v2.prompt.txt",
+      "native_generated_file": "C:\\Users\\auscar\\.codex\\generated_images\\01a1acd4-3d6c-7fc3-9df6-24f2c44de01f\\exec-4a0a4e1d-eaef-460a-b284-14d02f981e71.png",
+      "original_sha256": "da43af9075729f2480d8891e4222aea6f0a019af79b5fce4c79e29dd085597e7",
+      "original_unchanged_from_previous_provenance": true,
+      "candidate_sha256": "5b380c216fa40b224e3f02cddbd2f62b49364e18efbd07bc704e841560911243",
+      "generated_copy_identical": true,
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "outside_ornament_regions": {
+        "identical_pixel_fraction": 0.028443741105055074,
+        "mean_abs_channel_difference": 5.209867146508362,
+        "fraction_pixels_delta_gt_16": 0.07697482839366834
+      },
+      "exact_pixel_preservation_claim": false,
+      "anatomy_review": "visual pose / limb / hands / foot placement comparison; not numerical anatomy certification",
+      "knot_review": "Independent review found far waist and both hem centers still blocked in v2; not selected. v3 also failed; selected candidate is v4. Shoes remain uncertain.",
+      "inspection": "knots-perspective-v2-inspection/A07-02-knots-before-after.png",
+      "regions": [
+        {
+          "group": "v15-02",
+          "source": "assets/astra/v15-refusal-review/A07-02-contact.png",
+          "label": "hair",
+          "bbox_xyxy": [
+            710,
+            128,
+            819,
+            236
+          ],
+          "native_crop_size": [
+            109,
+            108
+          ],
+          "preview_scale": 2.3486238532110093,
+          "preview_method": "nearest-neighbor crop enlargement; source PNG unchanged"
+        },
+        {
+          "group": "v15-02",
+          "source": "assets/astra/v15-refusal-review/A07-02-contact.png",
+          "label": "shoulder-near",
+          "bbox_xyxy": [
+            446,
+            413,
+            526,
+            496
+          ],
+          "native_crop_size": [
+            80,
+            83
+          ],
+          "preview_scale": 3.0843373493975905,
+          "preview_method": "nearest-neighbor crop enlargement; source PNG unchanged"
+        },
+        {
+          "group": "v15-02",
+          "source": "assets/astra/v15-refusal-review/A07-02-contact.png",
+          "label": "shoulder-far",
+          "bbox_xyxy": [
+            746,
+            381,
+            820,
+            459
+          ],
+          "native_crop_size": [
+            74,
+            78
+          ],
+          "preview_scale": 3.282051282051282,
+          "preview_method": "nearest-neighbor crop enlargement; source PNG unchanged"
+        },
+        {
+          "group": "v15-02",
+          "source": "assets/astra/v15-refusal-review/A07-02-contact.png",
+          "label": "waist-near",
+          "bbox_xyxy": [
+            402,
+            612,
+            518,
+            728
+          ],
+          "native_crop_size": [
+            116,
+            116
+          ],
+          "preview_scale": 2.206896551724138,
+          "preview_method": "nearest-neighbor crop enlargement; source PNG unchanged"
+        },
+        {
+          "group": "v15-02",
+          "source": "assets/astra/v15-refusal-review/A07-02-contact.png",
+          "label": "waist-far",
+          "bbox_xyxy": [
+            535,
+            628,
+            635,
+            730
+          ],
+          "native_crop_size": [
+            100,
+            102
+          ],
+          "preview_scale": 2.5098039215686274,
+          "preview_method": "nearest-neighbor crop enlargement; source PNG unchanged"
+        },
+        {
+          "group": "v15-02",
+          "source": "assets/astra/v15-refusal-review/A07-02-contact.png",
+          "label": "hem-left",
+          "bbox_xyxy": [
+            145,
+            1202,
+            239,
+            1301
+          ],
+          "native_crop_size": [
+            94,
+            99
+          ],
+          "preview_scale": 2.585858585858586,
+          "preview_method": "nearest-neighbor crop enlargement; source PNG unchanged"
+        },
+        {
+          "group": "v15-02",
+          "source": "assets/astra/v15-refusal-review/A07-02-contact.png",
+          "label": "hem-right",
+          "bbox_xyxy": [
+            692,
+            1283,
+            792,
+            1385
+          ],
+          "native_crop_size": [
+            100,
+            102
+          ],
+          "preview_scale": 2.5098039215686274,
+          "preview_method": "nearest-neighbor crop enlargement; source PNG unchanged"
+        },
+        {
+          "group": "v15-02",
+          "source": "assets/astra/v15-refusal-review/A07-02-contact.png",
+          "label": "shoe-left",
+          "bbox_xyxy": [
+            360,
+            1406,
+            439,
+            1479
+          ],
+          "native_crop_size": [
+            79,
+            73
+          ],
+          "preview_scale": 3.240506329113924,
+          "preview_method": "nearest-neighbor crop enlargement; source PNG unchanged"
+        },
+        {
+          "group": "v15-02",
+          "source": "assets/astra/v15-refusal-review/A07-02-contact.png",
+          "label": "shoe-right",
+          "bbox_xyxy": [
+            711,
+            1440,
+            790,
+            1515
+          ],
+          "native_crop_size": [
+            79,
+            75
+          ],
+          "preview_scale": 3.240506329113924,
+          "preview_method": "nearest-neighbor crop enlargement; source PNG unchanged"
+        }
+      ],
+      "selection_status": "superseded_due_to_three_blocked_centers"
+    },
+    {
+      "key": "A07_03",
+      "original": "assets/astra/v15-refusal-review/A07-03-retreat.png",
+      "candidate": "assets/astra/v15-refusal-review/A07-03-retreat-knots-perspective-v2.png",
+      "prompt": "assets/astra/v15-refusal-review/A07-03-retreat-knots-perspective-v2.prompt.txt",
+      "native_generated_file": "C:\\Users\\auscar\\.codex\\generated_images\\01a1acd4-3d6c-7fc3-9df6-24f2c44de01f\\exec-330a9183-4a70-496e-be24-fea7950a07a1.png",
+      "original_sha256": "56d582b8bf055de989879df03646ccf4645a3f0844046e4fe0d092be60af3186",
+      "original_unchanged_from_previous_provenance": true,
+      "candidate_sha256": "83bb617d5a33accab7353c21184e65a8dc82b43ba7ae1d75cadc16a2befd0d35",
+      "generated_copy_identical": true,
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "outside_ornament_regions": {
+        "identical_pixel_fraction": 0.055494282386964404,
+        "mean_abs_channel_difference": 3.0997242037354447,
+        "fraction_pixels_delta_gt_16": 0.04761505917290603
+      },
+      "exact_pixel_preservation_claim": false,
+      "anatomy_review": "visual pose / limb / hands / foot placement comparison; not numerical anatomy certification",
+      "knot_review": "large ornaments visually reviewed; tiny shoe topology remains uncertain at native size; user perspective approval pending",
+      "inspection": "knots-perspective-v2-inspection/A07-03-knots-before-after.png",
+      "regions": [
+        {
+          "group": "v15-03",
+          "source": "assets/astra/v15-refusal-review/A07-03-retreat.png",
+          "label": "hair",
+          "bbox_xyxy": [
+            643,
+            137,
+            735,
+            244
+          ],
+          "native_crop_size": [
+            92,
+            107
+          ],
+          "preview_scale": 2.392523364485981,
+          "preview_method": "nearest-neighbor crop enlargement; source PNG unchanged"
+        },
+        {
+          "group": "v15-03",
+          "source": "assets/astra/v15-refusal-review/A07-03-retreat.png",
+          "label": "shoulder-near",
+          "bbox_xyxy": [
+            403,
+            401,
+            481,
+            483
+          ],
+          "native_crop_size": [
+            78,
+            82
+          ],
+          "preview_scale": 3.1219512195121952,
+          "preview_method": "nearest-neighbor crop enlargement; source PNG unchanged"
+        },
+        {
+          "group": "v15-03",
+          "source": "assets/astra/v15-refusal-review/A07-03-retreat.png",
+          "label": "shoulder-far",
+          "bbox_xyxy": [
+            641,
+            420,
+            716,
+            501
+          ],
+          "native_crop_size": [
+            75,
+            81
+          ],
+          "preview_scale": 3.1604938271604937,
+          "preview_method": "nearest-neighbor crop enlargement; source PNG unchanged"
+        },
+        {
+          "group": "v15-03",
+          "source": "assets/astra/v15-refusal-review/A07-03-retreat.png",
+          "label": "waist-near",
+          "bbox_xyxy": [
+            438,
+            570,
+            558,
+            690
+          ],
+          "native_crop_size": [
+            120,
+            120
+          ],
+          "preview_scale": 2.1333333333333333,
+          "preview_method": "nearest-neighbor crop enlargement; source PNG unchanged"
+        },
+        {
+          "group": "v15-03",
+          "source": "assets/astra/v15-refusal-review/A07-03-retreat.png",
+          "label": "waist-far",
+          "bbox_xyxy": [
+            603,
+            585,
+            709,
+            694
+          ],
+          "native_crop_size": [
+            106,
+            109
+          ],
+          "preview_scale": 2.3486238532110093,
+          "preview_method": "nearest-neighbor crop enlargement; source PNG unchanged"
+        },
+        {
+          "group": "v15-03",
+          "source": "assets/astra/v15-refusal-review/A07-03-retreat.png",
+          "label": "hem-left",
+          "bbox_xyxy": [
+            195,
+            1240,
+            291,
+            1338
+          ],
+          "native_crop_size": [
+            96,
+            98
+          ],
+          "preview_scale": 2.6122448979591835,
+          "preview_method": "nearest-neighbor crop enlargement; source PNG unchanged"
+        },
+        {
+          "group": "v15-03",
+          "source": "assets/astra/v15-refusal-review/A07-03-retreat.png",
+          "label": "hem-right",
+          "bbox_xyxy": [
+            696,
+            1297,
+            794,
+            1398
+          ],
+          "native_crop_size": [
+            98,
+            101
+          ],
+          "preview_scale": 2.5346534653465347,
+          "preview_method": "nearest-neighbor crop enlargement; source PNG unchanged"
+        },
+        {
+          "group": "v15-03",
+          "source": "assets/astra/v15-refusal-review/A07-03-retreat.png",
+          "label": "shoe-left",
+          "bbox_xyxy": [
+            394,
+            1377,
+            473,
+            1456
+          ],
+          "native_crop_size": [
+            79,
+            79
+          ],
+          "preview_scale": 3.240506329113924,
+          "preview_method": "nearest-neighbor crop enlargement; source PNG unchanged"
+        },
+        {
+          "group": "v15-03",
+          "source": "assets/astra/v15-refusal-review/A07-03-retreat.png",
+          "label": "shoe-right",
+          "bbox_xyxy": [
+            621,
+            1440,
+            703,
+            1521
+          ],
+          "native_crop_size": [
+            82,
+            81
+          ],
+          "preview_scale": 3.1219512195121952,
+          "preview_method": "nearest-neighbor crop enlargement; source PNG unchanged"
+        }
+      ]
+    }
+  ]
+}

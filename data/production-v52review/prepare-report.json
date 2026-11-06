@@ -1,0 +1,405 @@
+{
+  "protected_files_checked": 20,
+  "protected_unchanged": true,
+  "active_provisional_overrides": [
+    {
+      "asset": "A04_02",
+      "old_path": "/assets/astra/v09/A04-02-shadow.png",
+      "new_path": "/assets/astra/v18-wave-hand-review/A04-02-wave-receive-v5.png",
+      "sha256": "b498b4cc6e2364472557eefc0a653a547ccc7700344aac36a0b88e45c65c3c45",
+      "anchors": {
+        "hands": [
+          263,
+          511
+        ],
+        "wrist": [
+          296,
+          558
+        ],
+        "chest": [
+          646,
+          615
+        ],
+        "fingertip": [
+          211,
+          416
+        ]
+      },
+      "face": {
+        "x": 531,
+        "y": 340,
+        "w": 197,
+        "h": 123
+      },
+      "bounds": {
+        "x": 158,
+        "y": 115,
+        "w": 890,
+        "h": 1066
+      }
+    },
+    {
+      "asset": "A08_01",
+      "old_path": "/assets/astra/v09/A08-01-shadow.png",
+      "new_path": "/assets/astra/v13-book-review/A08-01-seated-turn-v5.png",
+      "sha256": "088c5669fc7ae80676f864d3fae3ce7b612c3f037f12772ac48021a74dd1a7a1",
+      "anchors": {
+        "hands": [
+          620,
+          632
+        ],
+        "wrist": [
+          704,
+          658
+        ],
+        "chest": [
+          591,
+          522
+        ],
+        "record": [
+          575,
+          723
+        ],
+        "shoulder": [
+          704,
+          452
+        ]
+      },
+      "face": {
+        "x": 468,
+        "y": 278,
+        "w": 175,
+        "h": 121
+      },
+      "bounds": {
+        "x": 18,
+        "y": 1,
+        "w": 1084,
+        "h": 1414
+      }
+    },
+    {
+      "asset": "A08_02",
+      "old_path": "/assets/astra/v09/A08-02-shadow.png",
+      "new_path": "/assets/astra/v13-book-review/A08-02-seated-record-v5.png",
+      "sha256": "aa5049abb789467a4eacb8237ea8f5ef6264846bd82680487301dd9a4ab97cc2",
+      "anchors": {
+        "hands": [
+          556,
+          693
+        ],
+        "wrist": [
+          676,
+          628
+        ],
+        "chest": [
+          591,
+          522
+        ],
+        "record": [
+          556,
+          701
+        ],
+        "shoulder": [
+          704,
+          452
+        ]
+      },
+      "face": {
+        "x": 468,
+        "y": 278,
+        "w": 175,
+        "h": 121
+      },
+      "bounds": {
+        "x": 19,
+        "y": 4,
+        "w": 1080,
+        "h": 1411
+      }
+    },
+    {
+      "asset": "surprise",
+      "old_path": "/assets/astra/v06-eye-study/surprise-candidate.png",
+      "new_path": "/assets/astra/v17-ending-review/recognition-surprise-knots-perspective-v2.png",
+      "sha256": "8f508066335b79f4bb0cc5ac81dbcaba4be0f82271a4c3e1bb519187e76e69dc",
+      "anchors": {
+        "eyes": [
+          645,
+          631
+        ],
+        "mouth": [
+          648,
+          774
+        ]
+      },
+      "face": {
+        "x": 355,
+        "y": 320,
+        "w": 590,
+        "h": 610
+      },
+      "bounds": {
+        "x": 11,
+        "y": 10,
+        "w": 1232,
+        "h": 1244
+      }
+    },
+    {
+      "asset": "sitSmile",
+      "old_path": "/assets/astra/v06-eye-study/smile-candidate.png",
+      "new_path": "/assets/astra/v17-ending-review/recognition-smile-knots-perspective-v2.png",
+      "sha256": "e77695402069392baa30a451e72711d87e07cc677d80a334fa3adc1cdb9b2b01",
+      "anchors": {
+        "eyes": [
+          645,
+          643
+        ],
+        "mouth": [
+          654,
+          777
+        ]
+      },
+      "face": {
+        "x": 355,
+        "y": 320,
+        "w": 590,
+        "h": 610
+      },
+      "bounds": {
+        "x": 11,
+        "y": 11,
+        "w": 1232,
+        "h": 1243
+      }
+    },
+    {
+      "asset": "A02_01",
+      "old_path": "/assets/astra/v09/A02-01-inkface.png",
+      "new_path": "/assets/astra/v14-boundary-review/A02-01-approach-knots-perspective-v2.png",
+      "sha256": "3cac63b1b5b94f6a5b221c0ee17f32a52d43e2ac7a3e1027caae28050ac8b792",
+      "anchors": {
+        "hands": [
+          1061,
+          350
+        ],
+        "wrist": [
+          1020,
+          379
+        ],
+        "eyes": [
+          699,
+          242
+        ]
+      },
+      "face": {
+        "x": 638,
+        "y": 201,
+        "w": 113,
+        "h": 102
+      },
+      "bounds": {
+        "x": 35,
+        "y": 9,
+        "w": 1104,
+        "h": 1304
+      }
+    },
+    {
+      "asset": "A02_02",
+      "old_path": "/assets/astra/v09/A02-02-inkface.png",
+      "new_path": "/assets/astra/v14-boundary-review/A02-02-contact-v6-perspective.png",
+      "sha256": "b393e4c3218a53c8be5089684a6958e3ee9dfdca0907f8cf928ac3ba28e4488e",
+      "anchors": {
+        "hands": [
+          1105,
+          347
+        ],
+        "wrist": [
+          1041,
+          405
+        ],
+        "eyes": [
+          740,
+          259
+        ]
+      },
+      "face": {
+        "x": 692,
+        "y": 225,
+        "w": 87,
+        "h": 91
+      },
+      "bounds": {
+        "x": 37,
+        "y": 8,
+        "w": 1074,
+        "h": 1302
+      }
+    },
+    {
+      "asset": "A02_03",
+      "old_path": "/assets/astra/v09/A02-03-inkface.png",
+      "new_path": "/assets/astra/v14-boundary-review/A02-03-withdraw-knots-perspective-v2.png",
+      "sha256": "417783e103480a1a418ab4bcc4c7da9c63d8fc54f295a4cf039de7b9ffcf157b",
+      "anchors": {
+        "hands": [
+          713,
+          378
+        ],
+        "wrist": [
+          739,
+          420
+        ],
+        "eyes": [
+          689,
+          281
+        ]
+      },
+      "face": {
+        "x": 630,
+        "y": 241,
+        "w": 113,
+        "h": 108
+      },
+      "bounds": {
+        "x": 54,
+        "y": 10,
+        "w": 1044,
+        "h": 1296
+      }
+    },
+    {
+      "asset": "A07_01",
+      "old_path": "/assets/astra/v09/A07-01-shadow.png",
+      "new_path": "/assets/astra/v15-refusal-review/A07-01-request-knots-perspective-v2.png",
+      "sha256": "d3716551e89c0f3259bdebb4378124ddc23345700f5b4c09c77ef5feef1af8a8",
+      "anchors": {
+        "hands": [
+          929,
+          416
+        ],
+        "wrist": [
+          889,
+          444
+        ],
+        "chest": [
+          574,
+          461
+        ]
+      },
+      "face": {
+        "x": 530,
+        "y": 242,
+        "w": 132,
+        "h": 106
+      },
+      "bounds": {
+        "x": 31,
+        "y": 14,
+        "w": 952,
+        "h": 1508
+      }
+    },
+    {
+      "asset": "A07_02",
+      "old_path": "/assets/astra/v09/A07-02-shadow.png",
+      "new_path": "/assets/astra/v15-refusal-review/A07-02-contact-knots-perspective-v5-alpha.png",
+      "sha256": "66d270bbb771ed348449fc9b112514eb6ce34c3c29bebf5920b0f067cf35685f",
+      "anchors": {
+        "hands": [
+          997,
+          410
+        ],
+        "wrist": [
+          954,
+          450
+        ],
+        "chest": [
+          647,
+          474
+        ]
+      },
+      "face": {
+        "x": 626,
+        "y": 263,
+        "w": 132,
+        "h": 105
+      },
+      "bounds": {
+        "x": 23,
+        "y": 19,
+        "w": 984,
+        "h": 1500
+      }
+    },
+    {
+      "asset": "A07_03",
+      "old_path": "/assets/astra/v09/A07-03-shadow.png",
+      "new_path": "/assets/astra/v15-refusal-review/A07-03-retreat-knots-perspective-v2.png",
+      "sha256": "83bb617d5a33accab7353c21184e65a8dc82b43ba7ae1d75cadc16a2befd0d35",
+      "anchors": {
+        "hands": [
+          736,
+          418
+        ],
+        "wrist": [
+          745,
+          473
+        ],
+        "chest": [
+          593,
+          461
+        ]
+      },
+      "face": {
+        "x": 542,
+        "y": 247,
+        "w": 131,
+        "h": 102
+      },
+      "bounds": {
+        "x": 61,
+        "y": 11,
+        "w": 904,
+        "h": 1501
+      }
+    },
+    {
+      "asset": "recoil",
+      "old_path": "/assets/astra/v07/recoil-knot.png",
+      "new_path": "/assets/astra/v16-withdraw-review/recoil-redraw-knots-perspective-v2.png",
+      "sha256": "85ce8c1b6fa88ec3c2ac9c0cb43e0694b2ec28ed2a1c9507fda64c675334bbca",
+      "anchors": {
+        "hands": [
+          431,
+          474
+        ],
+        "wrist": [
+          451,
+          558
+        ],
+        "grasp": [
+          462,
+          627
+        ]
+      },
+      "face": {
+        "x": 537,
+        "y": 321,
+        "w": 179,
+        "h": 124
+      },
+      "bounds": {
+        "x": 71,
+        "y": 5,
+        "w": 1111,
+        "h": 1249
+      }
+    }
+  ],
+  "final_map_confirmed": true,
+  "report_scope": "Manifest preparation only; current export status is in exports/preview-v52-combination/delivery.json",
+  "render_performed_by_this_script": false
+}

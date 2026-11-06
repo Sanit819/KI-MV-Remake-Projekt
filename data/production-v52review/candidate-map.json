@@ -1,0 +1,339 @@
+{
+  "schema_version": 1,
+  "review_only": true,
+  "final_map_confirmed": true,
+  "approval_scope": "Root selected this map for independent trial only. Not user approval; not production integration.",
+  "time_basis": {
+    "render": "body seconds",
+    "full_film_offset_seconds": 5,
+    "fps": 60,
+    "preview_has_warning": false
+  },
+  "assets": {
+    "A04_02": {
+      "enabled": true,
+      "path": "assets/astra/v18-wave-hand-review/A04-02-wave-receive-v5.png",
+      "anchors": {
+        "hands": [
+          263,
+          511
+        ],
+        "wrist": [
+          296,
+          558
+        ],
+        "chest": [
+          646,
+          615
+        ],
+        "fingertip": [
+          211,
+          416
+        ]
+      },
+      "face": {
+        "x": 531,
+        "y": 340,
+        "w": 197,
+        "h": 123
+      },
+      "measurement_note": "Receiving palm center, cuff/wrist center and sternum measured on 1199x1312 source; fingertip is additional reference, not connector endpoint."
+    },
+    "A08_01": {
+      "enabled": true,
+      "path": "assets/astra/v13-book-review/A08-01-seated-turn-v5.png",
+      "anchors": {
+        "hands": [
+          620,
+          632
+        ],
+        "wrist": [
+          704,
+          658
+        ],
+        "chest": [
+          591,
+          522
+        ],
+        "record": [
+          575,
+          723
+        ],
+        "shoulder": [
+          704,
+          452
+        ]
+      },
+      "face": {
+        "x": 468,
+        "y": 278,
+        "w": 175,
+        "h": 121
+      },
+      "measurement_note": "hands is turning-finger/page contact, record is on visible right book page; separate from supporting left hand."
+    },
+    "A08_02": {
+      "enabled": true,
+      "path": "assets/astra/v13-book-review/A08-02-seated-record-v5.png",
+      "anchors": {
+        "hands": [
+          556,
+          693
+        ],
+        "wrist": [
+          676,
+          628
+        ],
+        "chest": [
+          591,
+          522
+        ],
+        "record": [
+          556,
+          701
+        ],
+        "shoulder": [
+          704,
+          452
+        ]
+      },
+      "face": {
+        "x": 468,
+        "y": 278,
+        "w": 175,
+        "h": 121
+      },
+      "measurement_note": "hands is pointing index fingertip on page; record is 8 px below it on the actual page."
+    },
+    "surprise": {
+      "enabled": true,
+      "path": "assets/astra/v17-ending-review/recognition-surprise-knots-perspective-v2.png",
+      "anchors": {
+        "eyes": [
+          645,
+          631
+        ],
+        "mouth": [
+          648,
+          774
+        ]
+      },
+      "face": {
+        "x": 355,
+        "y": 320,
+        "w": 590,
+        "h": 610
+      },
+      "measurement_note": "Proposed consistent close-up includes bangs, both eyes, mouth, chin and some collar; excludes horn tips intentionally. Root selected for independent review; runtime crop check pending."
+    },
+    "sitSmile": {
+      "enabled": true,
+      "path": "assets/astra/v17-ending-review/recognition-smile-knots-perspective-v2.png",
+      "anchors": {
+        "eyes": [
+          645,
+          643
+        ],
+        "mouth": [
+          654,
+          777
+        ]
+      },
+      "face": {
+        "x": 355,
+        "y": 320,
+        "w": 590,
+        "h": 610
+      },
+      "measurement_note": "Same framing as surprise to avoid a crop jump. Root selected for independent review; runtime crop check pending."
+    },
+    "A02_01": {
+      "enabled": true,
+      "path": "assets/astra/v14-boundary-review/A02-01-approach-knots-perspective-v2.png",
+      "anchors": {
+        "hands": [
+          1061,
+          350
+        ],
+        "wrist": [
+          1020,
+          379
+        ],
+        "eyes": [
+          699,
+          242
+        ]
+      },
+      "face": {
+        "x": 638,
+        "y": 201,
+        "w": 113,
+        "h": 102
+      },
+      "measurement_note": "Approaching extended hand palm center; wrist at cuff, eyes below bangs."
+    },
+    "A02_02": {
+      "enabled": true,
+      "path": "assets/astra/v14-boundary-review/A02-02-contact-v6-perspective.png",
+      "anchors": {
+        "hands": [
+          1105,
+          347
+        ],
+        "wrist": [
+          1041,
+          405
+        ],
+        "eyes": [
+          740,
+          259
+        ]
+      },
+      "face": {
+        "x": 692,
+        "y": 225,
+        "w": 87,
+        "h": 91
+      },
+      "measurement_note": "Boundary contact point on outer thumb/palm contour; fingers extend only 5 source px farther. Wrist at the cuff. Measured on native contact-v6, no old anchors."
+    },
+    "A02_03": {
+      "enabled": true,
+      "path": "assets/astra/v14-boundary-review/A02-03-withdraw-knots-perspective-v2.png",
+      "anchors": {
+        "hands": [
+          713,
+          378
+        ],
+        "wrist": [
+          739,
+          420
+        ],
+        "eyes": [
+          689,
+          281
+        ]
+      },
+      "face": {
+        "x": 630,
+        "y": 241,
+        "w": 113,
+        "h": 108
+      },
+      "measurement_note": "Previously extended far arm is now withdrawn to upper chest/chin: hands tracks this raised hand, not the separate hanging near hand."
+    },
+    "A07_01": {
+      "enabled": true,
+      "path": "assets/astra/v15-refusal-review/A07-01-request-knots-perspective-v2.png",
+      "anchors": {
+        "hands": [
+          929,
+          416
+        ],
+        "wrist": [
+          889,
+          444
+        ],
+        "chest": [
+          574,
+          461
+        ]
+      },
+      "face": {
+        "x": 530,
+        "y": 242,
+        "w": 132,
+        "h": 106
+      },
+      "measurement_note": "Extended request palm center and wrist cuff measured on native 1024x1536 candidate."
+    },
+    "A07_02": {
+      "enabled": true,
+      "path": "assets/astra/v15-refusal-review/A07-02-contact-knots-perspective-v5-alpha.png",
+      "anchors": {
+        "hands": [
+          997,
+          410
+        ],
+        "wrist": [
+          954,
+          450
+        ],
+        "chest": [
+          647,
+          474
+        ]
+      },
+      "face": {
+        "x": 626,
+        "y": 263,
+        "w": 132,
+        "h": 105
+      },
+      "measurement_note": "Rechecked on imagegen alpha-extraction v5: hands is outer palm/thumb contact contour, wrist at cuff. Source-only alpha repair; body placement uses newly computed alpha bounds."
+    },
+    "A07_03": {
+      "enabled": true,
+      "path": "assets/astra/v15-refusal-review/A07-03-retreat-knots-perspective-v2.png",
+      "anchors": {
+        "hands": [
+          736,
+          418
+        ],
+        "wrist": [
+          745,
+          473
+        ],
+        "chest": [
+          593,
+          461
+        ]
+      },
+      "face": {
+        "x": 542,
+        "y": 247,
+        "w": 131,
+        "h": 102
+      },
+      "measurement_note": "Retreat palm center and lower cuff of raised far hand; does not reuse previous extended-palm coordinates."
+    },
+    "recoil": {
+      "enabled": true,
+      "path": "assets/astra/v16-withdraw-review/recoil-redraw-knots-perspective-v2.png",
+      "anchors": {
+        "hands": [
+          431,
+          474
+        ],
+        "wrist": [
+          451,
+          558
+        ],
+        "grasp": [
+          462,
+          627
+        ]
+      },
+      "face": {
+        "x": 537,
+        "y": 321,
+        "w": 179,
+        "h": 124
+      },
+      "measurement_note": "Wrist is exposed left-screen wrist/cuff immediately below raised palm; grasp identifies the other hand around the forearm."
+    }
+  },
+  "review_map_ready": true,
+  "pending_assets": [],
+  "blocked_clip_ids": [],
+  "blocked_clip_reason": null,
+  "alpha_repair_runtime_checked": {
+    "asset": "A07_02",
+    "path": "assets/astra/v15-refusal-review/A07-02-contact-knots-perspective-v5-alpha.png",
+    "stills": [
+      "exports/preview-v52-combination/stills-alpha-fixed/source-132.500.png",
+      "exports/preview-v52-combination/stills-alpha-fixed/source-133.400.png"
+    ],
+    "result": "No external alpha-island blocks; palm/wrist continuous; reviewed at native render resolution"
+  }
+}

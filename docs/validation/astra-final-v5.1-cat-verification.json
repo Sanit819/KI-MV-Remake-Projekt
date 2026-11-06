@@ -1,0 +1,795 @@
+{
+  "passed": true,
+  "checks": {
+    "full_video_audio_decode_and_sync": true,
+    "all_video_packet_checks": true,
+    "ALAC_payload_identical_no_audio_encode": true,
+    "every_native_PCM_byte_identical": true,
+    "native_192000_24bit_stereo": true,
+    "native_samples_42880000": true,
+    "head_5s_and_tail_6s_exact_silence": true,
+    "old_complete_v5_unchanged": true,
+    "old_all_production_inputs_unchanged": true,
+    "all_patch_inputs_frozen": true,
+    "old_all_four_parts_unchanged": true,
+    "unaffected_6_native_canvas_frames_identical": true,
+    "final_hash_matches_render": true,
+    "cat_runtime_qa_matches_frozen_sources": true
+  },
+  "output": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\exports\\astra-world-execute-me-final-v5.1-cat-warning-hires-4k60.mp4",
+  "bytes": 390382524,
+  "sha256": "19f4a76abfc61c1990d056d018e164ec61e93d147af1436f244cfa57261b7407",
+  "original_sha256": "ae6cf8ed08346c0a58e2384ae24d9d8a86d300d684a66d6faf41653f534c73f0",
+  "native_pcm": {
+    "sha256": "a8195021c34ab3c21474d2ec7a8e3e0a14ed36d571d42cf95e1da7979d9b7e26",
+    "decoded_bytes": 257280000,
+    "decoded_samples_per_channel": 42880000,
+    "head_exact_zero_0_to_5s": true,
+    "tail_exact_zero_last_6s": true,
+    "tail_start_sample": 41728000
+  },
+  "original_native_pcm": {
+    "sha256": "a8195021c34ab3c21474d2ec7a8e3e0a14ed36d571d42cf95e1da7979d9b7e26",
+    "decoded_bytes": 257280000,
+    "decoded_samples_per_channel": 42880000,
+    "head_exact_zero_0_to_5s": true,
+    "tail_exact_zero_last_6s": true,
+    "tail_start_sample": 41728000
+  },
+  "alac_config": {
+    "frame_length": 4096,
+    "compatible_version": 0,
+    "bit_depth": 24,
+    "channels": 2,
+    "sample_rate": 192000,
+    "raw_config_hex": "000010000018280a0e02000000006004008ca0000002ee00"
+  },
+  "ALAC_payload_sha256": "3eebefc53a6091a220385b308cc130ba2a486b50318cc8e86dd5c1e7fbbe6858",
+  "source_preservation": [
+    {
+      "path": "assets/astra/final/protect-knot.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/astra/final/reach-knot.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/astra/final/sit-knot.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/astra/final/stand-knot.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/astra/v06-eye-study/smile-candidate.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/astra/v06-eye-study/surprise-candidate.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/astra/v07/back-knot.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/astra/v07/bust-knot.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/astra/v07/cat-knot.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/astra/v07/foot-knot.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/astra/v07/guest0.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/astra/v07/guest1.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/astra/v07/guest2.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/astra/v07/guest3.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/astra/v07/guest4.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/astra/v07/guest5.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/astra/v07/hand-knot.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/astra/v07/male-knot.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/astra/v07/operating-knot.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/astra/v07/profile-knot.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/astra/v07/recoil-knot.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/astra/v08/early-circle.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/astra/v08/early-tangent.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/astra/v08/early-travel-framed.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/astra/v08/face-eye-v02.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/astra/v08/mid-receive.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/astra/v08/mid-wait.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/astra/v09/A01-01-inkface.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/astra/v09/A01-02-inkface.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/astra/v09/A02-01-inkface.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/astra/v09/A02-02-inkface.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/astra/v09/A02-03-inkface.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/astra/v09/A03-01-inkface.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/astra/v09/A03-02-inkface.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/astra/v09/A04-01-shadow.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/astra/v09/A04-02-shadow.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/astra/v09/A04-03-shadow.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/astra/v09/A05-01-shadow.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/astra/v09/A05-02-shadow.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/astra/v09/A05-03-shadow.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/astra/v09/A06-01-shadow.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/astra/v09/A06-02-shadow.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/astra/v09/A07-01-shadow.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/astra/v09/A07-02-shadow.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/astra/v09/A07-03-shadow.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/astra/v09/A08-01-shadow.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/astra/v09/A08-02-shadow.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/astra/v09/A09-01-shadow.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/astra/v09/A09-02-shadow.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/astra/v09/A10-01-shadow.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/astra/v09/A10-02-shadow.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/astra/v09/A10-03-shadow.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/astra/v09/A11-01-shadow.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/astra/v09/A11-02-shadow.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/astra/v09/A11-03-shadow.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/astra/v09/A12-01-shadow.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/astra/v09/A12-02-shadow.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/astra/v09/A13-01-shadow.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/astra/v09/A13-02-shadow.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/astra/v09/A13-03-shadow.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/astra/v09/A14-01-shadow.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/astra/v09/A14-02-shadow.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/astra/v09/A14-03-shadow.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/astra/v09/A15-01-inkface.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/astra/v09/A15-02-inkface.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/astra/v09/A16-01-inkface.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/astra/v09/A16-02-inkface.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/astra/v09/A17-01-inkface.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/astra/v09/A17-02-inkface.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/astra/v09/A18-01-inkface.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/astra/v09/A18-02-inkface.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/astra/v09/A19-01-inkface.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/astra/v09/A19-02-inkface.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/astra/v09/A19-03-inkface.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/astra/v09/A20-01-shadow.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/astra/v09/A20-02-shadow.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/astra/v09/A20-03-shadow.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/astra/v09/A21-01-shadow.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/astra/v09/A21-02-shadow.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/astra/v09/manifest.json",
+      "unchanged": true
+    },
+    {
+      "path": "data/production-v5/lyrics.en-zh.json",
+      "unchanged": true
+    },
+    {
+      "path": "data/production-v5/timeline.json",
+      "unchanged": true
+    },
+    {
+      "path": "src/full/vendor/trace.js",
+      "unchanged": true
+    },
+    {
+      "path": "src/mv5/art.js",
+      "unchanged": true
+    },
+    {
+      "path": "src/mv5/early.js",
+      "unchanged": true
+    },
+    {
+      "path": "src/mv5/index.html",
+      "unchanged": true
+    },
+    {
+      "path": "src/mv5/kit.js",
+      "unchanged": true
+    },
+    {
+      "path": "src/mv5/late.js",
+      "unchanged": true
+    },
+    {
+      "path": "src/mv5/main.js",
+      "unchanged": true
+    },
+    {
+      "path": "src/mv5/middle.js",
+      "unchanged": true
+    },
+    {
+      "path": "src/mv5/neural.js",
+      "unchanged": true
+    },
+    {
+      "path": "src/mv5/spatial-neural.js",
+      "unchanged": true
+    }
+  ],
+  "patch_inputs": [
+    {
+      "path": "assets/astra/final/protect-knot.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/astra/final/reach-knot.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/astra/final/sit-knot.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/astra/final/stand-knot.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/astra/v06-eye-study/smile-candidate.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/astra/v06-eye-study/surprise-candidate.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/astra/v07/back-knot.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/astra/v07/bust-knot.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/astra/v07/cat-knot.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/astra/v07/foot-knot.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/astra/v07/guest0.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/astra/v07/guest1.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/astra/v07/guest2.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/astra/v07/guest3.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/astra/v07/guest4.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/astra/v07/guest5.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/astra/v07/hand-knot.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/astra/v07/male-knot.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/astra/v07/operating-knot.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/astra/v07/profile-knot.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/astra/v07/recoil-knot.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/astra/v08/early-circle.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/astra/v08/early-tangent.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/astra/v08/early-travel-framed.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/astra/v08/face-eye-v02.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/astra/v08/mid-receive.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/astra/v08/mid-wait.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/astra/v09/A01-01-inkface.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/astra/v09/A01-02-inkface.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/astra/v09/A02-01-inkface.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/astra/v09/A02-02-inkface.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/astra/v09/A02-03-inkface.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/astra/v09/A03-01-inkface.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/astra/v09/A03-02-inkface.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/astra/v09/A04-01-shadow.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/astra/v09/A04-02-shadow.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/astra/v09/A04-03-shadow.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/astra/v09/A05-01-shadow.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/astra/v09/A05-02-shadow.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/astra/v09/A05-03-shadow.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/astra/v09/A06-01-shadow.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/astra/v09/A06-02-shadow.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/astra/v09/A07-01-shadow.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/astra/v09/A07-02-shadow.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/astra/v09/A07-03-shadow.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/astra/v09/A08-01-shadow.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/astra/v09/A08-02-shadow.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/astra/v09/A09-01-shadow.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/astra/v09/A09-02-shadow.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/astra/v09/A10-01-shadow.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/astra/v09/A10-02-shadow.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/astra/v09/A10-03-shadow.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/astra/v09/A11-01-shadow.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/astra/v09/A11-02-shadow.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/astra/v09/A11-03-shadow.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/astra/v09/A12-01-shadow.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/astra/v09/A12-02-shadow.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/astra/v09/A13-01-shadow.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/astra/v09/A13-02-shadow.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/astra/v09/A13-03-shadow.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/astra/v09/A14-01-shadow.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/astra/v09/A14-02-shadow.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/astra/v09/A14-03-shadow.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/astra/v09/A15-01-inkface.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/astra/v09/A15-02-inkface.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/astra/v09/A16-01-inkface.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/astra/v09/A16-02-inkface.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/astra/v09/A17-01-inkface.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/astra/v09/A17-02-inkface.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/astra/v09/A18-01-inkface.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/astra/v09/A18-02-inkface.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/astra/v09/A20-01-shadow.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/astra/v09/A20-02-shadow.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/astra/v09/A20-03-shadow.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/astra/v09/A21-01-shadow.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/astra/v09/A21-02-shadow.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/astra/v12-approved-cat/A19-01-anticipate.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/astra/v12-approved-cat/A19-02-approved.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/astra/v12-approved-cat/A19-03-listen.png",
+      "unchanged": true
+    },
+    {
+      "path": "assets/astra/v12-approved-cat/manifest.json",
+      "unchanged": true
+    },
+    {
+      "path": "src/mv5cat/art.js",
+      "unchanged": true
+    },
+    {
+      "path": "src/mv5cat/early.js",
+      "unchanged": true
+    },
+    {
+      "path": "src/mv5cat/index.html",
+      "unchanged": true
+    },
+    {
+      "path": "src/mv5cat/kit.js",
+      "unchanged": true
+    },
+    {
+      "path": "src/mv5cat/late.js",
+      "unchanged": true
+    },
+    {
+      "path": "src/mv5cat/main.js",
+      "unchanged": true
+    },
+    {
+      "path": "src/mv5cat/middle.js",
+      "unchanged": true
+    },
+    {
+      "path": "src/mv5cat/neural.js",
+      "unchanged": true
+    },
+    {
+      "path": "src/mv5cat/spatial-neural.js",
+      "unchanged": true
+    }
+  ],
+  "old_parts": [
+    {
+      "index": 1,
+      "unchanged": true
+    },
+    {
+      "index": 2,
+      "unchanged": true
+    },
+    {
+      "index": 3,
+      "unchanged": true
+    },
+    {
+      "index": 4,
+      "unchanged": true
+    }
+  ],
+  "scope": "Complete 4K60 video/audio decode; all video packet timestamps; all packets outside one re-encoded picture part preserved; source hashes; all original 192kHz/24bit PCM bytes and ALAC packets identical. No audio conversion/encoding or 1080p output. Visual inspection separately recorded by cat-scene QA."
+}

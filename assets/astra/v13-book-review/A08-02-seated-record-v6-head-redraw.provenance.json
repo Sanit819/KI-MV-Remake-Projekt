@@ -1,0 +1,70 @@
+{
+  "date": "2026-11-06",
+  "status": "candidate_pending_user_review",
+  "user_approved": false,
+  "production_integrated": false,
+  "feedback": "User explicitly rejected A08_02 v5 tilted/deformed head after approving the other round-2 revised candidates, including A08_01 v6. A08_01 approval does not extend to this new A08_02.",
+  "method": "Built-in image_gen full coherent adjacent-pose redraw using approved A08_01 v6 as primary geometry reference and old A08_02 v5 solely as pointing-hand/book-action reference. Original generated PNG copied verbatim; no pasted head, code editing or post-generation image repair.",
+  "path": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\assets\\astra\\v13-book-review\\A08-02-seated-record-v6-head-redraw.png",
+  "source": "C:\\Users\\auscar\\.codex\\generated_images\\01a1ae4c-e39f-7550-b421-129b78083bba\\exec-4ef84bc2-363a-4be6-8960-a0645c5a72c4.png",
+  "sha256": "36af57dff7f2875c0a00ee31f5e4d3fde80c22216c8a3f7dcab5240a14ca283a",
+  "source_sha256": "36af57dff7f2875c0a00ee31f5e4d3fde80c22216c8a3f7dcab5240a14ca283a",
+  "source_bytes_match": true,
+  "bytes": 1964368,
+  "size": [
+    1106,
+    1422
+  ],
+  "mode": "RGBA",
+  "alpha_extrema": [
+    0,
+    255
+  ],
+  "alpha_bbox_nonzero": [
+    17,
+    4,
+    1106,
+    1422
+  ],
+  "alpha_bbox_above_128": [
+    19,
+    7,
+    1103,
+    1417
+  ],
+  "alpha_corners": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "prompt": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\assets\\astra\\v13-book-review\\A08-02-seated-record-v6-head-redraw.prompt.txt",
+  "inputs": [
+    "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\assets\\astra\\v13-book-review\\A08-01-seated-turn-v6-head-redraw.png",
+    "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\assets\\astra\\v13-book-review\\A08-02-seated-record-v5.png"
+  ],
+  "visual_review": {
+    "head_pair": "New full source and approved A08_01 v6 both viewed at original dimensions. Skull axis, jaw/chin, visible neck, near ear, paired horn roots and hair cap read as the same orientation and framing. The old record-v5 cramped tilted lower-face structure is no longer present. This is a visual continuity judgment, not pixel identity.",
+    "book_hands": "Screen-left hand still supports the thin underside. Screen-right index points onto the visible right page; other digits curl naturally. Wrist and forearm remain connected. The turned leaf is flat; two pale page planes share one gutter with narrow cover edges, no broad vertical box wall.",
+    "legs": "Two uncrossed knee-shin-ankle-shoe chains retain the approved seated geometry at full-source inspection; no observed ankle swap.",
+    "ornaments": "Large ornaments retain interwoven open centers and local orientations. Small shoe/shoulder details are not certified as exact six-band vector topology.",
+    "limits": "Static source-only check; no runtime transparent compositing, animation crop/transition or encoded-video verification. Whole-figure generation may alter local lines/colors outside the action. No pixel-lock or user-approval claim."
+  },
+  "protected": [
+    {
+      "path": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\assets\\astra\\v13-book-review\\A08-01-seated-turn-v6-head-redraw.png",
+      "sha256": "71e54fdff66097fef4cd8e49122b1cc74906dd75a7c63a4b827556977baede72",
+      "matches_prior_delivery": true
+    },
+    {
+      "path": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\assets\\astra\\v13-book-review\\A08-02-seated-record-v5.png",
+      "sha256": "aa5049abb789467a4eacb8237ea8f5ef6264846bd82680487301dd9a4ab97cc2",
+      "matches_prior_delivery": true
+    },
+    {
+      "path": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\assets\\astra\\v13-book-review\\A08-01-seated-turn-v5.png",
+      "sha256": "088c5669fc7ae80676f864d3fae3ce7b612c3f037f12772ac48021a74dd1a7a1",
+      "matches_prior_delivery": true
+    }
+  ]
+}

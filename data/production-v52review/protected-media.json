@@ -1,0 +1,17 @@
+[
+  {
+    "path": "exports/astra-world-execute-me-final-v5-playback-4k60.mp4",
+    "sha256_before": "65d6ebc725912a6b8c2eaee2c378cde3eab204342b025d127dd829890cf50e17",
+    "expected": "65d6ebc725912a6b8c2eaee2c378cde3eab204342b025d127dd829890cf50e17"
+  },
+  {
+    "path": "exports/astra-world-execute-me-final-v5.1-cat-warning-hires-4k60.mp4",
+    "sha256_before": "19f4a76abfc61c1990d056d018e164ec61e93d147af1436f244cfa57261b7407",
+    "expected": "19f4a76abfc61c1990d056d018e164ec61e93d147af1436f244cfa57261b7407"
+  },
+  {
+    "path": "exports/astra-world-execute-me-final-v5-warning-hires-4k60.mp4",
+    "sha256_before": "ae6cf8ed08346c0a58e2384ae24d9d8a86d300d684a66d6faf41653f534c73f0",
+    "expected": "ae6cf8ed08346c0a58e2384ae24d9d8a86d300d684a66d6faf41653f534c73f0"
+  }
+]

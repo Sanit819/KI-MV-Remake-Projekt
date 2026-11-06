@@ -1,0 +1,174 @@
+{
+  "date": "2026-11-06",
+  "tool": "built-in image_gen",
+  "generation_calls": 2,
+  "intent": "New complete head-and-shoulders portraits; old cropped face screenshots used only to understand feedback, not as generation inputs. Second call uses first new portrait as identity/framing reference. No pixel compositing, body-part patching or code image editing.",
+  "assets": [
+    {
+      "key": "surprise",
+      "file": "assets/astra/v17-ending-review/recognition-surprise.png",
+      "prompt": "assets/astra/v17-ending-review/recognition-surprise.prompt.txt",
+      "source": "C:/Users/auscar/.codex/generated_images/01a1ac2d-7ea7-7951-b77e-1a8a2fff677e/exec-f428638a-86a9-4f60-be2c-07b0546736d8.png",
+      "references": [
+        "C:/Users/auscar/Documents/Tencent Files/2470641710/nt_qq/nt_data/Pic/2026-11/Ori/e0ec7a1db8d1862fe1135298bd354581.jpg",
+        "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v09/A01-01-inkface.png",
+        "C:/Users/auscar/AppData/Local/Temp/codex-clipboard-af5e99d9-3c9e-4e2f-a912-392632af36ab.png"
+      ],
+      "source_copy_identical": true,
+      "sha256": "bea54a8b2620468aab02a48e9fb07e21cc25de258bc836a71fae5fde530502ff",
+      "source_sha256": "bea54a8b2620468aab02a48e9fb07e21cc25de258bc836a71fae5fde530502ff",
+      "bytes": 1652892,
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "alpha128_bounds": [
+        13,
+        13,
+        1242,
+        1254
+      ],
+      "sample_alpha": [
+        {
+          "xy": [
+            0,
+            0
+          ],
+          "alpha": 0
+        },
+        {
+          "xy": [
+            1253,
+            0
+          ],
+          "alpha": 0
+        },
+        {
+          "xy": [
+            0,
+            1253
+          ],
+          "alpha": 0
+        },
+        {
+          "xy": [
+            1253,
+            1253
+          ],
+          "alpha": 0
+        },
+        {
+          "xy": [
+            20,
+            200
+          ],
+          "alpha": 0
+        },
+        {
+          "xy": [
+            1234,
+            200
+          ],
+          "alpha": 0
+        }
+      ],
+      "visual_review": {
+        "viewed_generated_output": true,
+        "viewed_saved_native_source": true,
+        "deep_ink_face": true,
+        "expression_readable": true,
+        "one_pair_of_pointed_ears_visually_checked": true,
+        "no_stacked_ear_layers_observed": true,
+        "hair_knot_source_drawn": true,
+        "limitations": "Visual review only. No mathematical logo topology certification or user acceptance. No integration/crop-rectangle/runtime checks."
+      },
+      "status": "review_only_not_integrated"
+    },
+    {
+      "key": "sitSmile",
+      "file": "assets/astra/v17-ending-review/recognition-smile.png",
+      "prompt": "assets/astra/v17-ending-review/recognition-smile.prompt.txt",
+      "source": "C:/Users/auscar/.codex/generated_images/01a1ac2d-7ea7-7951-b77e-1a8a2fff677e/exec-b26a2f58-62dc-42d0-a68d-067d0acb183c.png",
+      "references": [
+        "C:/Users/auscar/Documents/Tencent Files/2470641710/nt_qq/nt_data/Pic/2026-11/Ori/e0ec7a1db8d1862fe1135298bd354581.jpg",
+        "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v17-ending-review/recognition-surprise.png"
+      ],
+      "source_copy_identical": true,
+      "sha256": "9622111277caa22233933e0b9f524bd04e3ccaf89c511e2a0968ca2c9b38053d",
+      "source_sha256": "9622111277caa22233933e0b9f524bd04e3ccaf89c511e2a0968ca2c9b38053d",
+      "bytes": 1654943,
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "alpha128_bounds": [
+        13,
+        11,
+        1242,
+        1254
+      ],
+      "sample_alpha": [
+        {
+          "xy": [
+            0,
+            0
+          ],
+          "alpha": 0
+        },
+        {
+          "xy": [
+            1253,
+            0
+          ],
+          "alpha": 0
+        },
+        {
+          "xy": [
+            0,
+            1253
+          ],
+          "alpha": 0
+        },
+        {
+          "xy": [
+            1253,
+            1253
+          ],
+          "alpha": 0
+        },
+        {
+          "xy": [
+            20,
+            200
+          ],
+          "alpha": 0
+        },
+        {
+          "xy": [
+            1234,
+            200
+          ],
+          "alpha": 0
+        }
+      ],
+      "visual_review": {
+        "viewed_generated_output": true,
+        "viewed_saved_native_source": true,
+        "deep_ink_face": true,
+        "expression_readable": true,
+        "one_pair_of_pointed_ears_visually_checked": true,
+        "no_stacked_ear_layers_observed": true,
+        "hair_knot_source_drawn": true,
+        "limitations": "Visual review only. No mathematical logo topology certification or user acceptance. No integration/crop-rectangle/runtime checks."
+      },
+      "status": "review_only_not_integrated"
+    }
+  ],
+  "production_modified": false
+}

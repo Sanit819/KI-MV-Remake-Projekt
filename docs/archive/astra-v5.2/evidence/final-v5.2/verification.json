@@ -1,0 +1,855 @@
+{
+  "passed": true,
+  "phase": "complete",
+  "checks": {
+    "full_video_audio_decode_and_alignment": true,
+    "all_video_packets_and_joins": true,
+    "all_300_decoded_warning_frames_identical": true,
+    "all_ALAC_packet_payloads_and_times_identical": true,
+    "all_native_PCM_bytes_identical": true,
+    "native_192000_24bit_stereo": true,
+    "ALAC_codec_config_identical": true,
+    "native_samples_42880000": true,
+    "first_5_seconds_exact_silence": true,
+    "last_6_seconds_exact_silence": true,
+    "all_declared_render_inputs_frozen": true,
+    "render_input_fingerprint_matches": true,
+    "all_protected_baseline_files_unchanged": true,
+    "protected_v51_hash_unchanged": true,
+    "output_hash_matches_render": true,
+    "reported_video_dimensions_and_counts": true
+  },
+  "output": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\exports\\astra-world-execute-me-final-v5.2-lighting-artwork-hires-4k60.mp4",
+  "bytes": 816343779,
+  "sha256": "e76f5208861df5e10f4fc64f515d36b50dd9daf8b6e563f24ac56f99200e8402",
+  "original": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\exports\\astra-world-execute-me-final-v5.1-cat-warning-hires-4k60.mp4",
+  "original_sha256": "19f4a76abfc61c1990d056d018e164ec61e93d147af1436f244cfa57261b7407",
+  "frames": 13400,
+  "fps": 60,
+  "duration_seconds": 223.33333333333334,
+  "native_pcm": {
+    "sha256": "a8195021c34ab3c21474d2ec7a8e3e0a14ed36d571d42cf95e1da7979d9b7e26",
+    "decoded_bytes": 257280000,
+    "decoded_samples_per_channel": 42880000,
+    "head_exact_zero_0_to_5s": true,
+    "tail_exact_zero_last_6s": true,
+    "tail_start_sample": 41728000
+  },
+  "original_native_pcm": {
+    "sha256": "a8195021c34ab3c21474d2ec7a8e3e0a14ed36d571d42cf95e1da7979d9b7e26",
+    "decoded_bytes": 257280000,
+    "decoded_samples_per_channel": 42880000,
+    "head_exact_zero_0_to_5s": true,
+    "tail_exact_zero_last_6s": true,
+    "tail_start_sample": 41728000
+  },
+  "alac_config": {
+    "frame_length": 4096,
+    "compatible_version": 0,
+    "bit_depth": 24,
+    "channels": 2,
+    "sample_rate": 192000,
+    "raw_config_hex": "000010000018280a0e02000000006004008ca0000002ee00"
+  },
+  "audio_packets": {
+    "passed": true,
+    "packet_count_original": 10469,
+    "packet_count_final": 10469,
+    "all_packet_sizes_payloads_identical": true,
+    "all_packet_pts_dts_durations_identical": true,
+    "original_timebase": "1/192000",
+    "final_timebase": "1/192000"
+  },
+  "warning_decoded": {
+    "passed": true,
+    "count": 300,
+    "scope": "Every warning frame decoded to native 3840x2160 yuv420p and SHA256 compared, including frame times."
+  },
+  "render_inputs": {
+    "passed": true,
+    "items": [
+      {
+        "path": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\assets\\astra\\final\\protect-knot.png",
+        "expected_sha256": "7274e78017c42cdb16325a1853398fae60bfe54cddfcbbdeb6d6bfb036995e68",
+        "actual_sha256": "7274e78017c42cdb16325a1853398fae60bfe54cddfcbbdeb6d6bfb036995e68",
+        "unchanged": true
+      },
+      {
+        "path": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\assets\\astra\\final\\reach-knot.png",
+        "expected_sha256": "3ee9912a28573a170ecee14710f8ea12d7547582c1879bed9613b9009faa9d4e",
+        "actual_sha256": "3ee9912a28573a170ecee14710f8ea12d7547582c1879bed9613b9009faa9d4e",
+        "unchanged": true
+      },
+      {
+        "path": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\assets\\astra\\final\\sit-knot.png",
+        "expected_sha256": "4e6f8e950ea7fcfe19ca65a64d8798c886759c8468ed616a819a3559b9939ed4",
+        "actual_sha256": "4e6f8e950ea7fcfe19ca65a64d8798c886759c8468ed616a819a3559b9939ed4",
+        "unchanged": true
+      },
+      {
+        "path": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\assets\\astra\\final\\stand-knot.png",
+        "expected_sha256": "7692119f9bd214fd860108254c51c5bc2055748ac8cd86000ae94422b798ff0c",
+        "actual_sha256": "7692119f9bd214fd860108254c51c5bc2055748ac8cd86000ae94422b798ff0c",
+        "unchanged": true
+      },
+      {
+        "path": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\assets\\astra\\v07\\back-knot.png",
+        "expected_sha256": "d24000f5124d6614f9d5225d0603528203e6c76716f214322877d59bd9b97410",
+        "actual_sha256": "d24000f5124d6614f9d5225d0603528203e6c76716f214322877d59bd9b97410",
+        "unchanged": true
+      },
+      {
+        "path": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\assets\\astra\\v07\\bust-knot.png",
+        "expected_sha256": "e459b40bd2276f3c9296a66cc1f308f1129ce547012689c2afcfc5fb081c2ca6",
+        "actual_sha256": "e459b40bd2276f3c9296a66cc1f308f1129ce547012689c2afcfc5fb081c2ca6",
+        "unchanged": true
+      },
+      {
+        "path": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\assets\\astra\\v07\\cat-knot.png",
+        "expected_sha256": "c02461813af3c9bf00fc6e1e530c2935bf379eff591582d10bc172245aa8b90c",
+        "actual_sha256": "c02461813af3c9bf00fc6e1e530c2935bf379eff591582d10bc172245aa8b90c",
+        "unchanged": true
+      },
+      {
+        "path": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\assets\\astra\\v07\\foot-knot.png",
+        "expected_sha256": "20a52aabf2ae3a8605862c92cb3ca4ee4483b0afb14ef695724ec3ef8c882a14",
+        "actual_sha256": "20a52aabf2ae3a8605862c92cb3ca4ee4483b0afb14ef695724ec3ef8c882a14",
+        "unchanged": true
+      },
+      {
+        "path": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\assets\\astra\\v07\\guest0.png",
+        "expected_sha256": "18633c3868189a3957b3cfc45bd1b77fb0d260b655fd911d327c6aac3b36eecf",
+        "actual_sha256": "18633c3868189a3957b3cfc45bd1b77fb0d260b655fd911d327c6aac3b36eecf",
+        "unchanged": true
+      },
+      {
+        "path": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\assets\\astra\\v07\\guest1.png",
+        "expected_sha256": "4e653f2a0fbfee1e309cf70df7af481e4ceb06ae498d6e1992b593af7795451a",
+        "actual_sha256": "4e653f2a0fbfee1e309cf70df7af481e4ceb06ae498d6e1992b593af7795451a",
+        "unchanged": true
+      },
+      {
+        "path": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\assets\\astra\\v07\\guest2.png",
+        "expected_sha256": "afdac5749cb37eeaba6436c34278aaf097a200a7ac5c39e17c86335abde9d736",
+        "actual_sha256": "afdac5749cb37eeaba6436c34278aaf097a200a7ac5c39e17c86335abde9d736",
+        "unchanged": true
+      },
+      {
+        "path": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\assets\\astra\\v07\\guest3.png",
+        "expected_sha256": "617217f25f58f2102396a64a7c013692ad39a68ca40c7484f61ac0ce379e2911",
+        "actual_sha256": "617217f25f58f2102396a64a7c013692ad39a68ca40c7484f61ac0ce379e2911",
+        "unchanged": true
+      },
+      {
+        "path": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\assets\\astra\\v07\\guest4.png",
+        "expected_sha256": "73fbc3461789363e7c43d83f01097b0a4b94b2a14d8058ae12d3386c27faa3ff",
+        "actual_sha256": "73fbc3461789363e7c43d83f01097b0a4b94b2a14d8058ae12d3386c27faa3ff",
+        "unchanged": true
+      },
+      {
+        "path": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\assets\\astra\\v07\\guest5.png",
+        "expected_sha256": "269ea1f2debc345146db37c466f9e03e3a88f6ae356996c761dce92a24217ad8",
+        "actual_sha256": "269ea1f2debc345146db37c466f9e03e3a88f6ae356996c761dce92a24217ad8",
+        "unchanged": true
+      },
+      {
+        "path": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\assets\\astra\\v07\\hand-knot.png",
+        "expected_sha256": "bd6e53ba68c7aefe4501c2a381d34db672effbd3c6ee9cc099e4d656f013fc0c",
+        "actual_sha256": "bd6e53ba68c7aefe4501c2a381d34db672effbd3c6ee9cc099e4d656f013fc0c",
+        "unchanged": true
+      },
+      {
+        "path": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\assets\\astra\\v07\\interface-openai.svg",
+        "expected_sha256": "3034a003e17c8d130f9627a4bda4667e2346bfce29f75c99f00028a3694797cf",
+        "actual_sha256": "3034a003e17c8d130f9627a4bda4667e2346bfce29f75c99f00028a3694797cf",
+        "unchanged": true
+      },
+      {
+        "path": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\assets\\astra\\v07\\male-knot.png",
+        "expected_sha256": "1bed896dafc87437a14b073a9a10caa0caed1554e4bd2d29448076037acb0638",
+        "actual_sha256": "1bed896dafc87437a14b073a9a10caa0caed1554e4bd2d29448076037acb0638",
+        "unchanged": true
+      },
+      {
+        "path": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\assets\\astra\\v07\\operating-knot.png",
+        "expected_sha256": "39b090e4e5547b9754ac6261af8b80da1c7f7b3fbacf21c3c0e1afd82489b5d2",
+        "actual_sha256": "39b090e4e5547b9754ac6261af8b80da1c7f7b3fbacf21c3c0e1afd82489b5d2",
+        "unchanged": true
+      },
+      {
+        "path": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\assets\\astra\\v07\\profile-knot.png",
+        "expected_sha256": "aa34d5423a6b334e4f667efed615757411a5061c0cef4530aa6945de5bcd9935",
+        "actual_sha256": "aa34d5423a6b334e4f667efed615757411a5061c0cef4530aa6945de5bcd9935",
+        "unchanged": true
+      },
+      {
+        "path": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\assets\\astra\\v08\\early-circle.png",
+        "expected_sha256": "4bcc297c398464587a9d8145ba92c6cd6266ab77c0f870725589f0b2a457dd8a",
+        "actual_sha256": "4bcc297c398464587a9d8145ba92c6cd6266ab77c0f870725589f0b2a457dd8a",
+        "unchanged": true
+      },
+      {
+        "path": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\assets\\astra\\v08\\early-tangent.png",
+        "expected_sha256": "cec887d27980a65d6a645535f8e03cad11ac3dc8e7dc3e1c7e1c126f92560e14",
+        "actual_sha256": "cec887d27980a65d6a645535f8e03cad11ac3dc8e7dc3e1c7e1c126f92560e14",
+        "unchanged": true
+      },
+      {
+        "path": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\assets\\astra\\v08\\early-travel-framed.png",
+        "expected_sha256": "0df36e9626f3f5cbebd3683b20745d2ceb07c8c9e2117a170df73fe86c6fcbef",
+        "actual_sha256": "0df36e9626f3f5cbebd3683b20745d2ceb07c8c9e2117a170df73fe86c6fcbef",
+        "unchanged": true
+      },
+      {
+        "path": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\assets\\astra\\v08\\face-eye-v02.png",
+        "expected_sha256": "876997f390bc0e6f6b32ede584f4f3a030b24b5c33ec096201a2df9a2077c480",
+        "actual_sha256": "876997f390bc0e6f6b32ede584f4f3a030b24b5c33ec096201a2df9a2077c480",
+        "unchanged": true
+      },
+      {
+        "path": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\assets\\astra\\v08\\mid-receive.png",
+        "expected_sha256": "5ef8890114bb155d28fc8144e5adee26ee3ae3ded4c159450639d5a14a62d4e5",
+        "actual_sha256": "5ef8890114bb155d28fc8144e5adee26ee3ae3ded4c159450639d5a14a62d4e5",
+        "unchanged": true
+      },
+      {
+        "path": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\assets\\astra\\v08\\mid-wait.png",
+        "expected_sha256": "c8836350580f9ecdcd503ffe811b819c3031e924bc261c8e6701661fad42437c",
+        "actual_sha256": "c8836350580f9ecdcd503ffe811b819c3031e924bc261c8e6701661fad42437c",
+        "unchanged": true
+      },
+      {
+        "path": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\assets\\astra\\v09\\A01-01-inkface.png",
+        "expected_sha256": "ce018482f13edac67aee42b377ae2d4c6b1e918ed9f7ea9991b91c99f8028469",
+        "actual_sha256": "ce018482f13edac67aee42b377ae2d4c6b1e918ed9f7ea9991b91c99f8028469",
+        "unchanged": true
+      },
+      {
+        "path": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\assets\\astra\\v09\\A01-02-inkface.png",
+        "expected_sha256": "f3f8f59d3725a393e8c44e9264b99071dceb5762663f7fa96afc40a38a705880",
+        "actual_sha256": "f3f8f59d3725a393e8c44e9264b99071dceb5762663f7fa96afc40a38a705880",
+        "unchanged": true
+      },
+      {
+        "path": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\assets\\astra\\v09\\A03-01-inkface.png",
+        "expected_sha256": "0c69c0f509ab7ee96891f46dc7b94b3c5427081d5d5044fe3d39bbf1acd6dae8",
+        "actual_sha256": "0c69c0f509ab7ee96891f46dc7b94b3c5427081d5d5044fe3d39bbf1acd6dae8",
+        "unchanged": true
+      },
+      {
+        "path": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\assets\\astra\\v09\\A03-02-inkface.png",
+        "expected_sha256": "c01506cbc8304e434e82ace6f98a4e8b789777d13b031a3ae7fdb81562d17331",
+        "actual_sha256": "c01506cbc8304e434e82ace6f98a4e8b789777d13b031a3ae7fdb81562d17331",
+        "unchanged": true
+      },
+      {
+        "path": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\assets\\astra\\v09\\A04-01-shadow.png",
+        "expected_sha256": "fbca1fe8e04d9e2d4dbb93ace79479be63a3fee8241dae2e33d96e8c19ecf1a7",
+        "actual_sha256": "fbca1fe8e04d9e2d4dbb93ace79479be63a3fee8241dae2e33d96e8c19ecf1a7",
+        "unchanged": true
+      },
+      {
+        "path": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\assets\\astra\\v09\\A04-03-shadow.png",
+        "expected_sha256": "604716f07eb6c39e425e97b5960929127008f324d313f8bc2e33fbea18c96281",
+        "actual_sha256": "604716f07eb6c39e425e97b5960929127008f324d313f8bc2e33fbea18c96281",
+        "unchanged": true
+      },
+      {
+        "path": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\assets\\astra\\v09\\A05-01-shadow.png",
+        "expected_sha256": "0925bd00a4774f47c33ea8caaf612cab5f9b75632eef752f55ddaa660be3cab5",
+        "actual_sha256": "0925bd00a4774f47c33ea8caaf612cab5f9b75632eef752f55ddaa660be3cab5",
+        "unchanged": true
+      },
+      {
+        "path": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\assets\\astra\\v09\\A05-02-shadow.png",
+        "expected_sha256": "7f19e47e36d8a99d27293bb67810abd373ccf58e2edd451f6de9a1b8d3610f18",
+        "actual_sha256": "7f19e47e36d8a99d27293bb67810abd373ccf58e2edd451f6de9a1b8d3610f18",
+        "unchanged": true
+      },
+      {
+        "path": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\assets\\astra\\v09\\A05-03-shadow.png",
+        "expected_sha256": "8d117a5f058fa27ed5e2cca32434a86532a2943a9f541304f6fb27be9c77cc53",
+        "actual_sha256": "8d117a5f058fa27ed5e2cca32434a86532a2943a9f541304f6fb27be9c77cc53",
+        "unchanged": true
+      },
+      {
+        "path": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\assets\\astra\\v09\\A06-01-shadow.png",
+        "expected_sha256": "42fa882e3a3497b0772775f6f31a2526f6aba6f8c1f3a9570c5c94bf90bce657",
+        "actual_sha256": "42fa882e3a3497b0772775f6f31a2526f6aba6f8c1f3a9570c5c94bf90bce657",
+        "unchanged": true
+      },
+      {
+        "path": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\assets\\astra\\v09\\A06-02-shadow.png",
+        "expected_sha256": "d0bd5ffea8210af20866e87b0682995711418214470243d6900c2c7b2c1940ab",
+        "actual_sha256": "d0bd5ffea8210af20866e87b0682995711418214470243d6900c2c7b2c1940ab",
+        "unchanged": true
+      },
+      {
+        "path": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\assets\\astra\\v09\\A09-01-shadow.png",
+        "expected_sha256": "0e2d9086bef4db7c9f893d84cf2c206bc469798eacd43db98e03ae206486e0b0",
+        "actual_sha256": "0e2d9086bef4db7c9f893d84cf2c206bc469798eacd43db98e03ae206486e0b0",
+        "unchanged": true
+      },
+      {
+        "path": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\assets\\astra\\v09\\A09-02-shadow.png",
+        "expected_sha256": "60e571559406acd581adb7f09023d88d41029886710cb0166a920c4813f502f1",
+        "actual_sha256": "60e571559406acd581adb7f09023d88d41029886710cb0166a920c4813f502f1",
+        "unchanged": true
+      },
+      {
+        "path": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\assets\\astra\\v09\\A10-01-shadow.png",
+        "expected_sha256": "b1a24e193cfe6d2ee85bc8c3ba9f2fdc3c13b8924b99dad796af3ac8e25db77d",
+        "actual_sha256": "b1a24e193cfe6d2ee85bc8c3ba9f2fdc3c13b8924b99dad796af3ac8e25db77d",
+        "unchanged": true
+      },
+      {
+        "path": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\assets\\astra\\v09\\A10-02-shadow.png",
+        "expected_sha256": "afe91abf358390538d23f30916a2be9d6b1c7c62924c2dc3af10038074af7ed1",
+        "actual_sha256": "afe91abf358390538d23f30916a2be9d6b1c7c62924c2dc3af10038074af7ed1",
+        "unchanged": true
+      },
+      {
+        "path": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\assets\\astra\\v09\\A10-03-shadow.png",
+        "expected_sha256": "9ceb7ef49da5dfce905ca75cfcb6f704d24df60eb8795d8965f43e2c16ba5884",
+        "actual_sha256": "9ceb7ef49da5dfce905ca75cfcb6f704d24df60eb8795d8965f43e2c16ba5884",
+        "unchanged": true
+      },
+      {
+        "path": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\assets\\astra\\v09\\A11-01-shadow.png",
+        "expected_sha256": "ab1aa408c64e04dcb6c1bcd82bd441300efbe55d3ac064f130290395d236e222",
+        "actual_sha256": "ab1aa408c64e04dcb6c1bcd82bd441300efbe55d3ac064f130290395d236e222",
+        "unchanged": true
+      },
+      {
+        "path": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\assets\\astra\\v09\\A11-02-shadow.png",
+        "expected_sha256": "06cc23aa4ae9f989f3ce71160ca5f2eb5accd09d4e5e8fd4a6008fe956c8fd84",
+        "actual_sha256": "06cc23aa4ae9f989f3ce71160ca5f2eb5accd09d4e5e8fd4a6008fe956c8fd84",
+        "unchanged": true
+      },
+      {
+        "path": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\assets\\astra\\v09\\A11-03-shadow.png",
+        "expected_sha256": "1fc8433e63419fa8eb690c0af24ac9435a2267af95f9cb5b05bfe99e08b930b9",
+        "actual_sha256": "1fc8433e63419fa8eb690c0af24ac9435a2267af95f9cb5b05bfe99e08b930b9",
+        "unchanged": true
+      },
+      {
+        "path": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\assets\\astra\\v09\\A12-01-shadow.png",
+        "expected_sha256": "510d3190972934e5f1e3d2b7ae04996a6f23aafbbf8a8ea68c69381d605eb105",
+        "actual_sha256": "510d3190972934e5f1e3d2b7ae04996a6f23aafbbf8a8ea68c69381d605eb105",
+        "unchanged": true
+      },
+      {
+        "path": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\assets\\astra\\v09\\A12-02-shadow.png",
+        "expected_sha256": "9081895880cf81b900635bc7046770dd0e08a1f171ee94c5ff355522e4532171",
+        "actual_sha256": "9081895880cf81b900635bc7046770dd0e08a1f171ee94c5ff355522e4532171",
+        "unchanged": true
+      },
+      {
+        "path": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\assets\\astra\\v09\\A13-01-shadow.png",
+        "expected_sha256": "b1bdd9adee571ff3680d6e59ab0727b1aa2531f3e127d94d0a866eb52c175bf7",
+        "actual_sha256": "b1bdd9adee571ff3680d6e59ab0727b1aa2531f3e127d94d0a866eb52c175bf7",
+        "unchanged": true
+      },
+      {
+        "path": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\assets\\astra\\v09\\A13-02-shadow.png",
+        "expected_sha256": "faa8826f94ea295a2efad94afd89ba8e521ffc90702010e94b1ecbf4ac4c77a6",
+        "actual_sha256": "faa8826f94ea295a2efad94afd89ba8e521ffc90702010e94b1ecbf4ac4c77a6",
+        "unchanged": true
+      },
+      {
+        "path": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\assets\\astra\\v09\\A13-03-shadow.png",
+        "expected_sha256": "1cdb35419408cc2e05a1746ba0adf5b1bcf1bffd0ae8b8082d509e754bce03f0",
+        "actual_sha256": "1cdb35419408cc2e05a1746ba0adf5b1bcf1bffd0ae8b8082d509e754bce03f0",
+        "unchanged": true
+      },
+      {
+        "path": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\assets\\astra\\v09\\A14-01-shadow.png",
+        "expected_sha256": "0772669d5ead599d27502c844f6bcf5e2ce8a1995fc0494a9bcf568fe7139fc5",
+        "actual_sha256": "0772669d5ead599d27502c844f6bcf5e2ce8a1995fc0494a9bcf568fe7139fc5",
+        "unchanged": true
+      },
+      {
+        "path": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\assets\\astra\\v09\\A14-02-shadow.png",
+        "expected_sha256": "c5b3c17a26f6bcd2128d97cedcc9d219763c98f320c2fbaefcc3876480492762",
+        "actual_sha256": "c5b3c17a26f6bcd2128d97cedcc9d219763c98f320c2fbaefcc3876480492762",
+        "unchanged": true
+      },
+      {
+        "path": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\assets\\astra\\v09\\A14-03-shadow.png",
+        "expected_sha256": "8a6d4700897c50889403970211752ce6edf4c419474f9e83452e79820520a273",
+        "actual_sha256": "8a6d4700897c50889403970211752ce6edf4c419474f9e83452e79820520a273",
+        "unchanged": true
+      },
+      {
+        "path": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\assets\\astra\\v09\\A15-01-inkface.png",
+        "expected_sha256": "3b523f7ebac61af7d6ae6d53327e3b67bf038cf85e59421c68996cf9a5941d3a",
+        "actual_sha256": "3b523f7ebac61af7d6ae6d53327e3b67bf038cf85e59421c68996cf9a5941d3a",
+        "unchanged": true
+      },
+      {
+        "path": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\assets\\astra\\v09\\A15-02-inkface.png",
+        "expected_sha256": "ffcf3c32cfc10af2ef046ee6faa3c6cabdce065d7b86a5e57e7db986d4437c6f",
+        "actual_sha256": "ffcf3c32cfc10af2ef046ee6faa3c6cabdce065d7b86a5e57e7db986d4437c6f",
+        "unchanged": true
+      },
+      {
+        "path": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\assets\\astra\\v09\\A16-01-inkface.png",
+        "expected_sha256": "7c79cda8170f7e842fbb76dafb53bf678acf63e3f08314ce1f18ebc1f4447ffc",
+        "actual_sha256": "7c79cda8170f7e842fbb76dafb53bf678acf63e3f08314ce1f18ebc1f4447ffc",
+        "unchanged": true
+      },
+      {
+        "path": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\assets\\astra\\v09\\A16-02-inkface.png",
+        "expected_sha256": "bbf7b68eaecf94fc29db4c46b81b0173cc2ef5a39db5bb4d3a60d9d0a841c1f4",
+        "actual_sha256": "bbf7b68eaecf94fc29db4c46b81b0173cc2ef5a39db5bb4d3a60d9d0a841c1f4",
+        "unchanged": true
+      },
+      {
+        "path": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\assets\\astra\\v09\\A17-01-inkface.png",
+        "expected_sha256": "1edc18e4418920ec5edb1d2e6260e828206db37fd413b21edc1006d691d1b039",
+        "actual_sha256": "1edc18e4418920ec5edb1d2e6260e828206db37fd413b21edc1006d691d1b039",
+        "unchanged": true
+      },
+      {
+        "path": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\assets\\astra\\v09\\A17-02-inkface.png",
+        "expected_sha256": "36882cc2abaf74318573eae3755012be16e99edf2ffa0c5b672d90e327d1457d",
+        "actual_sha256": "36882cc2abaf74318573eae3755012be16e99edf2ffa0c5b672d90e327d1457d",
+        "unchanged": true
+      },
+      {
+        "path": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\assets\\astra\\v09\\A18-01-inkface.png",
+        "expected_sha256": "9a2c41ad34a2b0fdfe2e8fc3c0747ff11220c6b83c9d65e409ec8a6baa9c2c07",
+        "actual_sha256": "9a2c41ad34a2b0fdfe2e8fc3c0747ff11220c6b83c9d65e409ec8a6baa9c2c07",
+        "unchanged": true
+      },
+      {
+        "path": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\assets\\astra\\v09\\A18-02-inkface.png",
+        "expected_sha256": "2cd996c40c184273aff35b1aacefc8eb46f303c4f54481e72c9af0492a8e4322",
+        "actual_sha256": "2cd996c40c184273aff35b1aacefc8eb46f303c4f54481e72c9af0492a8e4322",
+        "unchanged": true
+      },
+      {
+        "path": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\assets\\astra\\v09\\A20-01-shadow.png",
+        "expected_sha256": "48751b072d4247b015ec1033d4bccbb13686691c4a2c33620b3915186d6c1a1a",
+        "actual_sha256": "48751b072d4247b015ec1033d4bccbb13686691c4a2c33620b3915186d6c1a1a",
+        "unchanged": true
+      },
+      {
+        "path": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\assets\\astra\\v09\\A20-02-shadow.png",
+        "expected_sha256": "875d6153dff99234eb4489886ba59152f192a89364670234b93d534ce98b2b2a",
+        "actual_sha256": "875d6153dff99234eb4489886ba59152f192a89364670234b93d534ce98b2b2a",
+        "unchanged": true
+      },
+      {
+        "path": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\assets\\astra\\v09\\A20-03-shadow.png",
+        "expected_sha256": "339d4922c2a3a73fd22f592874552c577ec272d372949c751ab28079a2347d77",
+        "actual_sha256": "339d4922c2a3a73fd22f592874552c577ec272d372949c751ab28079a2347d77",
+        "unchanged": true
+      },
+      {
+        "path": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\assets\\astra\\v09\\A21-01-shadow.png",
+        "expected_sha256": "0c607c9fc0f2865e093cfdc969e5dfc0a1c9ab513fe66b5ab1e87bb3bfa3c91e",
+        "actual_sha256": "0c607c9fc0f2865e093cfdc969e5dfc0a1c9ab513fe66b5ab1e87bb3bfa3c91e",
+        "unchanged": true
+      },
+      {
+        "path": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\assets\\astra\\v09\\A21-02-shadow.png",
+        "expected_sha256": "ae4a21dbc30b545ce398ca2a09a761b18379b4dfcdac73d587f5cd58206a3381",
+        "actual_sha256": "ae4a21dbc30b545ce398ca2a09a761b18379b4dfcdac73d587f5cd58206a3381",
+        "unchanged": true
+      },
+      {
+        "path": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\assets\\astra\\v12-approved-cat\\A19-01-anticipate.png",
+        "expected_sha256": "5f02028d99a4ae088b24ea4c794793bbd315307655cb2974b3bae88581fc0969",
+        "actual_sha256": "5f02028d99a4ae088b24ea4c794793bbd315307655cb2974b3bae88581fc0969",
+        "unchanged": true
+      },
+      {
+        "path": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\assets\\astra\\v12-approved-cat\\A19-02-approved.png",
+        "expected_sha256": "c02461813af3c9bf00fc6e1e530c2935bf379eff591582d10bc172245aa8b90c",
+        "actual_sha256": "c02461813af3c9bf00fc6e1e530c2935bf379eff591582d10bc172245aa8b90c",
+        "unchanged": true
+      },
+      {
+        "path": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\assets\\astra\\v12-approved-cat\\A19-03-listen.png",
+        "expected_sha256": "8b6affdec25238cb0eddc45fcb188408a583e321683bffc72c2a1faa04907ba1",
+        "actual_sha256": "8b6affdec25238cb0eddc45fcb188408a583e321683bffc72c2a1faa04907ba1",
+        "unchanged": true
+      },
+      {
+        "path": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\assets\\astra\\v13-book-review\\A08-01-seated-turn-v6-head-redraw.png",
+        "expected_sha256": "71e54fdff66097fef4cd8e49122b1cc74906dd75a7c63a4b827556977baede72",
+        "actual_sha256": "71e54fdff66097fef4cd8e49122b1cc74906dd75a7c63a4b827556977baede72",
+        "unchanged": true
+      },
+      {
+        "path": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\assets\\astra\\v13-book-review\\A08-02-seated-record-v6-head-redraw.png",
+        "expected_sha256": "36af57dff7f2875c0a00ee31f5e4d3fde80c22216c8a3f7dcab5240a14ca283a",
+        "actual_sha256": "36af57dff7f2875c0a00ee31f5e4d3fde80c22216c8a3f7dcab5240a14ca283a",
+        "unchanged": true
+      },
+      {
+        "path": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\assets\\astra\\v14-boundary-review\\A02-01-approach-v3-leg-redraw.png",
+        "expected_sha256": "726880792942ff23853b32e8df13f593af9a16eaecf333d01e0f13f59f45b430",
+        "actual_sha256": "726880792942ff23853b32e8df13f593af9a16eaecf333d01e0f13f59f45b430",
+        "unchanged": true
+      },
+      {
+        "path": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\assets\\astra\\v14-boundary-review\\A02-02-contact-v6-perspective.png",
+        "expected_sha256": "b393e4c3218a53c8be5089684a6958e3ee9dfdca0907f8cf928ac3ba28e4488e",
+        "actual_sha256": "b393e4c3218a53c8be5089684a6958e3ee9dfdca0907f8cf928ac3ba28e4488e",
+        "unchanged": true
+      },
+      {
+        "path": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\assets\\astra\\v14-boundary-review\\A02-03-withdraw-v3-leg-redraw.png",
+        "expected_sha256": "a80a3aa018db6e0e6d91a10a3cef7a2042d34e7a448248d29cfc0df27d4f0486",
+        "actual_sha256": "a80a3aa018db6e0e6d91a10a3cef7a2042d34e7a448248d29cfc0df27d4f0486",
+        "unchanged": true
+      },
+      {
+        "path": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\assets\\astra\\v15-refusal-review\\A07-01-request-knots-perspective-v2.png",
+        "expected_sha256": "d3716551e89c0f3259bdebb4378124ddc23345700f5b4c09c77ef5feef1af8a8",
+        "actual_sha256": "d3716551e89c0f3259bdebb4378124ddc23345700f5b4c09c77ef5feef1af8a8",
+        "unchanged": true
+      },
+      {
+        "path": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\assets\\astra\\v15-refusal-review\\A07-02-contact-knots-perspective-v5-alpha.png",
+        "expected_sha256": "66d270bbb771ed348449fc9b112514eb6ce34c3c29bebf5920b0f067cf35685f",
+        "actual_sha256": "66d270bbb771ed348449fc9b112514eb6ce34c3c29bebf5920b0f067cf35685f",
+        "unchanged": true
+      },
+      {
+        "path": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\assets\\astra\\v15-refusal-review\\A07-03-retreat-knots-perspective-v2.png",
+        "expected_sha256": "83bb617d5a33accab7353c21184e65a8dc82b43ba7ae1d75cadc16a2befd0d35",
+        "actual_sha256": "83bb617d5a33accab7353c21184e65a8dc82b43ba7ae1d75cadc16a2befd0d35",
+        "unchanged": true
+      },
+      {
+        "path": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\assets\\astra\\v16-withdraw-review\\recoil-redraw-knots-perspective-v2.png",
+        "expected_sha256": "85ce8c1b6fa88ec3c2ac9c0cb43e0694b2ec28ed2a1c9507fda64c675334bbca",
+        "actual_sha256": "85ce8c1b6fa88ec3c2ac9c0cb43e0694b2ec28ed2a1c9507fda64c675334bbca",
+        "unchanged": true
+      },
+      {
+        "path": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\assets\\astra\\v17-ending-review\\recognition-smile-knots-perspective-v2.png",
+        "expected_sha256": "e77695402069392baa30a451e72711d87e07cc677d80a334fa3adc1cdb9b2b01",
+        "actual_sha256": "e77695402069392baa30a451e72711d87e07cc677d80a334fa3adc1cdb9b2b01",
+        "unchanged": true
+      },
+      {
+        "path": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\assets\\astra\\v17-ending-review\\recognition-surprise-knots-perspective-v2.png",
+        "expected_sha256": "8f508066335b79f4bb0cc5ac81dbcaba4be0f82271a4c3e1bb519187e76e69dc",
+        "actual_sha256": "8f508066335b79f4bb0cc5ac81dbcaba4be0f82271a4c3e1bb519187e76e69dc",
+        "unchanged": true
+      },
+      {
+        "path": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\assets\\astra\\v18-wave-hand-review\\A04-02-wave-receive-v6-hand-redraw.png",
+        "expected_sha256": "63f2c6192072abb12a2ff55e5970c0783fa074ed9ee4c626d8913774c33cd443",
+        "actual_sha256": "63f2c6192072abb12a2ff55e5970c0783fa074ed9ee4c626d8913774c33cd443",
+        "unchanged": true
+      },
+      {
+        "path": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\data\\production-v5\\lyrics.en-zh.json",
+        "expected_sha256": "eedc44428b46369d7bd8517a1afa0f89d5f7b7e2c7c3f8f2f74d06d10b7d1b38",
+        "actual_sha256": "eedc44428b46369d7bd8517a1afa0f89d5f7b7e2c7c3f8f2f74d06d10b7d1b38",
+        "unchanged": true
+      },
+      {
+        "path": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\data\\production-v5\\timeline.json",
+        "expected_sha256": "87ed12a597aa936fb0c20cb924d296aa392c13b1effa947d1e983ff32a1aebf3",
+        "actual_sha256": "87ed12a597aa936fb0c20cb924d296aa392c13b1effa947d1e983ff32a1aebf3",
+        "unchanged": true
+      },
+      {
+        "path": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\data\\production-v52\\audio-accents.json",
+        "expected_sha256": "409dd5bf2c37321c2c045144b54620710904c2efe32bc7d2c7bef1dcdd2e713e",
+        "actual_sha256": "409dd5bf2c37321c2c045144b54620710904c2efe32bc7d2c7bef1dcdd2e713e",
+        "unchanged": true
+      },
+      {
+        "path": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\data\\production-v52final\\candidate-map.json",
+        "expected_sha256": "a35062c820f259092903410dfae5d91c448cecc75be8b4983d198af032782840",
+        "actual_sha256": "a35062c820f259092903410dfae5d91c448cecc75be8b4983d198af032782840",
+        "unchanged": true
+      },
+      {
+        "path": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\data\\production-v52final\\manifest.json",
+        "expected_sha256": "aea2ec5ad6eda446fafe1644eb74252ddd4fade607ccfa0c23cc2ce9b1263d02",
+        "actual_sha256": "aea2ec5ad6eda446fafe1644eb74252ddd4fade607ccfa0c23cc2ce9b1263d02",
+        "unchanged": true
+      },
+      {
+        "path": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\data\\production-v52final\\prepare-report.json",
+        "expected_sha256": "b311d2fd5afd89f83117c31b2a10274fd78e6dbdb7c8065ce2fa7196f91e1392",
+        "actual_sha256": "b311d2fd5afd89f83117c31b2a10274fd78e6dbdb7c8065ce2fa7196f91e1392",
+        "unchanged": true
+      },
+      {
+        "path": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\docs\\production-v52\\feedback-round2\\protected-baseline.json",
+        "expected_sha256": "422d2c95a9d131dd9590a6974fa3227f67035ccff2e5934848fc1f47895f2c4c",
+        "actual_sha256": "422d2c95a9d131dd9590a6974fa3227f67035ccff2e5934848fc1f47895f2c4c",
+        "unchanged": true
+      },
+      {
+        "path": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\exports\\astra-world-execute-me-final-v5-playback-4k60.mp4",
+        "expected_sha256": "65d6ebc725912a6b8c2eaee2c378cde3eab204342b025d127dd829890cf50e17",
+        "actual_sha256": "65d6ebc725912a6b8c2eaee2c378cde3eab204342b025d127dd829890cf50e17",
+        "unchanged": true
+      },
+      {
+        "path": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\exports\\astra-world-execute-me-final-v5.1-cat-warning-hires-4k60.mp4",
+        "expected_sha256": "19f4a76abfc61c1990d056d018e164ec61e93d147af1436f244cfa57261b7407",
+        "actual_sha256": "19f4a76abfc61c1990d056d018e164ec61e93d147af1436f244cfa57261b7407",
+        "unchanged": true
+      },
+      {
+        "path": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\media\\audio\\mili-world-execute-original-bilibili.m4a",
+        "expected_sha256": "b06f195e2a479c25c3282f4ca5b931e293c4a35a941acf6dd5b515ba4890f34a",
+        "actual_sha256": "b06f195e2a479c25c3282f4ca5b931e293c4a35a941acf6dd5b515ba4890f34a",
+        "unchanged": true
+      },
+      {
+        "path": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\src\\full\\vendor\\trace.js",
+        "expected_sha256": "ad118d4691a2ebc19c81bac71fb95e111ca68170b103d35bfe35030bf7d6c0b4",
+        "actual_sha256": "ad118d4691a2ebc19c81bac71fb95e111ca68170b103d35bfe35030bf7d6c0b4",
+        "unchanged": true
+      },
+      {
+        "path": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\src\\mv52final\\art.js",
+        "expected_sha256": "be9a32ab17d8525a94f5a5c602aae2ec2119e96136377541366128e359ef6bd0",
+        "actual_sha256": "be9a32ab17d8525a94f5a5c602aae2ec2119e96136377541366128e359ef6bd0",
+        "unchanged": true
+      },
+      {
+        "path": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\src\\mv52final\\early.js",
+        "expected_sha256": "a3981d5a6046c59bf5b5e669ec1e51fb0229f76763841f5cc51082280e9d5724",
+        "actual_sha256": "a3981d5a6046c59bf5b5e669ec1e51fb0229f76763841f5cc51082280e9d5724",
+        "unchanged": true
+      },
+      {
+        "path": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\src\\mv52final\\extra-light.js",
+        "expected_sha256": "1db97b8c2e91b4c412c0d7054dd61d376a3a600901d79fe2fe10f55fe5a44224",
+        "actual_sha256": "1db97b8c2e91b4c412c0d7054dd61d376a3a600901d79fe2fe10f55fe5a44224",
+        "unchanged": true
+      },
+      {
+        "path": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\src\\mv52final\\index.html",
+        "expected_sha256": "0ff7d066722fdc1792156a38cace6e27817d7999fc0400992caaeb05ef991b07",
+        "actual_sha256": "0ff7d066722fdc1792156a38cace6e27817d7999fc0400992caaeb05ef991b07",
+        "unchanged": true
+      },
+      {
+        "path": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\src\\mv52final\\kit.js",
+        "expected_sha256": "0b945e5ae274cb766eb064dfdd0f26e547d71797f1a620fcc54dc927fc48b3ea",
+        "actual_sha256": "0b945e5ae274cb766eb064dfdd0f26e547d71797f1a620fcc54dc927fc48b3ea",
+        "unchanged": true
+      },
+      {
+        "path": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\src\\mv52final\\late.js",
+        "expected_sha256": "00bd27b75d47650f09c951b85232997406fc61c6edb77807ae17498ae02e168b",
+        "actual_sha256": "00bd27b75d47650f09c951b85232997406fc61c6edb77807ae17498ae02e168b",
+        "unchanged": true
+      },
+      {
+        "path": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\src\\mv52final\\lighting.js",
+        "expected_sha256": "af5e4fee772efcae372ffe37077d796edb8bfa938342fa8af090f35238a431cd",
+        "actual_sha256": "af5e4fee772efcae372ffe37077d796edb8bfa938342fa8af090f35238a431cd",
+        "unchanged": true
+      },
+      {
+        "path": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\src\\mv52final\\main.js",
+        "expected_sha256": "bb643cfe5bd97c1d2b8c13a2f1f75650e6d9403ebf5f41041fe780e9eb29c03b",
+        "actual_sha256": "bb643cfe5bd97c1d2b8c13a2f1f75650e6d9403ebf5f41041fe780e9eb29c03b",
+        "unchanged": true
+      },
+      {
+        "path": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\src\\mv52final\\middle.js",
+        "expected_sha256": "abfdc056862ecb5d2cb46eb3d0bdaed52c94ba19863c9ac460aa7e9645246789",
+        "actual_sha256": "abfdc056862ecb5d2cb46eb3d0bdaed52c94ba19863c9ac460aa7e9645246789",
+        "unchanged": true
+      },
+      {
+        "path": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\src\\mv52final\\neural.js",
+        "expected_sha256": "8efccaa883b1c4a929d1b82a11a676c3830febb4e70639818f12cf09de098847",
+        "actual_sha256": "8efccaa883b1c4a929d1b82a11a676c3830febb4e70639818f12cf09de098847",
+        "unchanged": true
+      },
+      {
+        "path": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\src\\mv52final\\spatial-neural.js",
+        "expected_sha256": "bdccda032ded86df70afc804ed191e21a930494c57ce61c21b7d0125ce35a8e0",
+        "actual_sha256": "bdccda032ded86df70afc804ed191e21a930494c57ce61c21b7d0125ce35a8e0",
+        "unchanged": true
+      },
+      {
+        "path": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\tools\\render\\export_final_v52.mjs",
+        "expected_sha256": "23bbe9969bcebc8a7536f52c638669bcf49b8bef6840c8a334f9f98224711234",
+        "actual_sha256": "23bbe9969bcebc8a7536f52c638669bcf49b8bef6840c8a334f9f98224711234",
+        "unchanged": true
+      },
+      {
+        "path": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\tools\\render\\export_v52_frames.mjs",
+        "expected_sha256": "0415c379a62a654e8bdc44c473494bc1d548b7328c3bfe86ffec2e7f22173623",
+        "actual_sha256": "0415c379a62a654e8bdc44c473494bc1d548b7328c3bfe86ffec2e7f22173623",
+        "unchanged": true
+      }
+    ]
+  },
+  "protected_baseline": {
+    "passed": true,
+    "items": [
+      {
+        "path": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\assets\\astra\\v14-boundary-review\\A02-02-contact-v6-perspective.png",
+        "expected_sha256": "b393e4c3218a53c8be5089684a6958e3ee9dfdca0907f8cf928ac3ba28e4488e",
+        "actual_sha256": "b393e4c3218a53c8be5089684a6958e3ee9dfdca0907f8cf928ac3ba28e4488e",
+        "unchanged": true
+      },
+      {
+        "path": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\assets\\astra\\v13-book-review\\A08-02-seated-record-v5.png",
+        "expected_sha256": "aa5049abb789467a4eacb8237ea8f5ef6264846bd82680487301dd9a4ab97cc2",
+        "actual_sha256": "aa5049abb789467a4eacb8237ea8f5ef6264846bd82680487301dd9a4ab97cc2",
+        "unchanged": true
+      },
+      {
+        "path": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\assets\\astra\\v12-approved-cat\\manifest.json",
+        "expected_sha256": "6a8651a9e6626fc715d63e57b9c0258c3e73ed794e88199e52a69aabd14937f6",
+        "actual_sha256": "6a8651a9e6626fc715d63e57b9c0258c3e73ed794e88199e52a69aabd14937f6",
+        "unchanged": true
+      },
+      {
+        "path": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\data\\production-v52review\\candidate-map.json",
+        "expected_sha256": "d44ba6a1126d326370259190a07aa8d2977eb4b9e1baea52002bc9c12d3dd3ef",
+        "actual_sha256": "d44ba6a1126d326370259190a07aa8d2977eb4b9e1baea52002bc9c12d3dd3ef",
+        "unchanged": true
+      },
+      {
+        "path": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\exports\\astra-world-execute-me-final-v5.1-cat-warning-hires-4k60.mp4",
+        "expected_sha256": "19f4a76abfc61c1990d056d018e164ec61e93d147af1436f244cfa57261b7407",
+        "actual_sha256": "19f4a76abfc61c1990d056d018e164ec61e93d147af1436f244cfa57261b7407",
+        "unchanged": true
+      },
+      {
+        "path": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\src\\mv5cat\\art.js",
+        "expected_sha256": "f3493cc972e6e0b4ec3e760ab81c60aab027fa7e22579809d8421fd484dd9d06",
+        "actual_sha256": "f3493cc972e6e0b4ec3e760ab81c60aab027fa7e22579809d8421fd484dd9d06",
+        "unchanged": true
+      },
+      {
+        "path": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\src\\mv5cat\\early.js",
+        "expected_sha256": "6a824d06183a6d81ca7816eb930f4cfdb7397938135ea79798bd6195e08a9fdf",
+        "actual_sha256": "6a824d06183a6d81ca7816eb930f4cfdb7397938135ea79798bd6195e08a9fdf",
+        "unchanged": true
+      },
+      {
+        "path": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\src\\mv5cat\\index.html",
+        "expected_sha256": "ab8f7cc927d2afb768d21db8f4a325cfb4ccb74c0eb1d9f34797f447ae167b1e",
+        "actual_sha256": "ab8f7cc927d2afb768d21db8f4a325cfb4ccb74c0eb1d9f34797f447ae167b1e",
+        "unchanged": true
+      },
+      {
+        "path": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\src\\mv5cat\\kit.js",
+        "expected_sha256": "0b945e5ae274cb766eb064dfdd0f26e547d71797f1a620fcc54dc927fc48b3ea",
+        "actual_sha256": "0b945e5ae274cb766eb064dfdd0f26e547d71797f1a620fcc54dc927fc48b3ea",
+        "unchanged": true
+      },
+      {
+        "path": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\src\\mv5cat\\late.js",
+        "expected_sha256": "00bd27b75d47650f09c951b85232997406fc61c6edb77807ae17498ae02e168b",
+        "actual_sha256": "00bd27b75d47650f09c951b85232997406fc61c6edb77807ae17498ae02e168b",
+        "unchanged": true
+      },
+      {
+        "path": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\src\\mv5cat\\main.js",
+        "expected_sha256": "fa3ff12055bc7a79ce7bdb84dee2dd88ce5c6d979f0791a464aae5ced8494f22",
+        "actual_sha256": "fa3ff12055bc7a79ce7bdb84dee2dd88ce5c6d979f0791a464aae5ced8494f22",
+        "unchanged": true
+      },
+      {
+        "path": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\src\\mv5cat\\middle.js",
+        "expected_sha256": "793b27d8687cc48649c6a268bb39f7e91d38f24008f6ef2d42e7c9b03700edf5",
+        "actual_sha256": "793b27d8687cc48649c6a268bb39f7e91d38f24008f6ef2d42e7c9b03700edf5",
+        "unchanged": true
+      },
+      {
+        "path": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\src\\mv5cat\\neural.js",
+        "expected_sha256": "8efccaa883b1c4a929d1b82a11a676c3830febb4e70639818f12cf09de098847",
+        "actual_sha256": "8efccaa883b1c4a929d1b82a11a676c3830febb4e70639818f12cf09de098847",
+        "unchanged": true
+      },
+      {
+        "path": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\src\\mv5cat\\spatial-neural.js",
+        "expected_sha256": "bdccda032ded86df70afc804ed191e21a930494c57ce61c21b7d0125ce35a8e0",
+        "actual_sha256": "bdccda032ded86df70afc804ed191e21a930494c57ce61c21b7d0125ce35a8e0",
+        "unchanged": true
+      },
+      {
+        "path": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\src\\mv5\\art.js",
+        "expected_sha256": "8bcca064188ed49e73d9fab9c54a66887ec6a0793193454dce7f4b678e122de3",
+        "actual_sha256": "8bcca064188ed49e73d9fab9c54a66887ec6a0793193454dce7f4b678e122de3",
+        "unchanged": true
+      },
+      {
+        "path": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\src\\mv5\\early.js",
+        "expected_sha256": "05a0428af8ff6a239b477b0ae870b1c5718ca9ef71399645d8ed57f27c7a98fc",
+        "actual_sha256": "05a0428af8ff6a239b477b0ae870b1c5718ca9ef71399645d8ed57f27c7a98fc",
+        "unchanged": true
+      },
+      {
+        "path": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\src\\mv5\\index.html",
+        "expected_sha256": "ab8f7cc927d2afb768d21db8f4a325cfb4ccb74c0eb1d9f34797f447ae167b1e",
+        "actual_sha256": "ab8f7cc927d2afb768d21db8f4a325cfb4ccb74c0eb1d9f34797f447ae167b1e",
+        "unchanged": true
+      },
+      {
+        "path": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\src\\mv5\\kit.js",
+        "expected_sha256": "0b945e5ae274cb766eb064dfdd0f26e547d71797f1a620fcc54dc927fc48b3ea",
+        "actual_sha256": "0b945e5ae274cb766eb064dfdd0f26e547d71797f1a620fcc54dc927fc48b3ea",
+        "unchanged": true
+      },
+      {
+        "path": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\src\\mv5\\late.js",
+        "expected_sha256": "00bd27b75d47650f09c951b85232997406fc61c6edb77807ae17498ae02e168b",
+        "actual_sha256": "00bd27b75d47650f09c951b85232997406fc61c6edb77807ae17498ae02e168b",
+        "unchanged": true
+      },
+      {
+        "path": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\src\\mv5\\main.js",
+        "expected_sha256": "fa3ff12055bc7a79ce7bdb84dee2dd88ce5c6d979f0791a464aae5ced8494f22",
+        "actual_sha256": "fa3ff12055bc7a79ce7bdb84dee2dd88ce5c6d979f0791a464aae5ced8494f22",
+        "unchanged": true
+      },
+      {
+        "path": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\src\\mv5\\middle.js",
+        "expected_sha256": "793b27d8687cc48649c6a268bb39f7e91d38f24008f6ef2d42e7c9b03700edf5",
+        "actual_sha256": "793b27d8687cc48649c6a268bb39f7e91d38f24008f6ef2d42e7c9b03700edf5",
+        "unchanged": true
+      },
+      {
+        "path": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\src\\mv5\\neural.js",
+        "expected_sha256": "8efccaa883b1c4a929d1b82a11a676c3830febb4e70639818f12cf09de098847",
+        "actual_sha256": "8efccaa883b1c4a929d1b82a11a676c3830febb4e70639818f12cf09de098847",
+        "unchanged": true
+      },
+      {
+        "path": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\src\\mv5\\spatial-neural.js",
+        "expected_sha256": "bdccda032ded86df70afc804ed191e21a930494c57ce61c21b7d0125ce35a8e0",
+        "actual_sha256": "bdccda032ded86df70afc804ed191e21a930494c57ce61c21b7d0125ce35a8e0",
+        "unchanged": true
+      }
+    ],
+    "baseline_path": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\docs\\production-v52\\feedback-round2\\protected-baseline.json",
+    "baseline_sha256": "422d2c95a9d131dd9590a6974fa3227f67035ccff2e5934848fc1f47895f2c4c",
+    "baseline_expected_sha256": "422d2c95a9d131dd9590a6974fa3227f67035ccff2e5934848fc1f47895f2c4c",
+    "baseline_file_unchanged": true
+  },
+  "fingerprint": {
+    "declared": "d6e32ee8b1b85035ffc9f46da55521bbf80fc4a708c733d23aee322da7da4d93",
+    "computed": "d6e32ee8b1b85035ffc9f46da55521bbf80fc4a708c733d23aee322da7da4d93"
+  },
+  "reports": [
+    "full-verify.json",
+    "packets.json",
+    "warning-decoded-verification.json",
+    "audio-packets.json"
+  ],
+  "scope": "Complete 13400-frame 4K60 decode; every video and ALAC packet; exact timestamps and joins; 300 unchanged warning frames decoded and compared; every native 192kHz/24bit stereo PCM byte compared with protected v5.1; eight distributed audio alignments; frozen-source and protection hashes. Changed body is compared with new render parts, not v5.1 pictures. Does not claim continuous human viewing/listening, every-frame visual acceptance, vocal/lyric fine timing, or platform Hi-Res certification."
+}

@@ -1,0 +1,120 @@
+{
+  "scope": "Historical helper scripts originally kept in ignored exports. Preserved as evidence; original relative paths and local dependencies apply. Use tools/archive/reproduce_v52.mjs for new reproduction.",
+  "files": [
+    {
+      "source": "exports/preview-v52-extra-light/render-extra-clips.py",
+      "archive": "docs/archive/astra-v5.2/historical-local-scripts/preview-v52-extra-light/render-extra-clips.py",
+      "sha256": "19cd6ecf5304311ffe1dff0809ed7c68a900f9860530df015c3d13ca2a55eb5f"
+    },
+    {
+      "source": "exports/preview-v52-lighting/create_review_aac.py",
+      "archive": "docs/archive/astra-v5.2/historical-local-scripts/preview-v52-lighting/create_review_aac.py",
+      "sha256": "5c3a8b0fb4454069e478d1c59882541e82264c63797954053512d19127e5344c"
+    },
+    {
+      "source": "exports/preview-v52-lighting/export-preview.mjs",
+      "archive": "docs/archive/astra-v5.2/historical-local-scripts/preview-v52-lighting/export-preview.mjs",
+      "sha256": "973ab269dce3ecdc2c9ec30fa5e741baae71827b5a64008025ea9f5ae07a6bf1"
+    },
+    {
+      "source": "exports/preview-v52-lighting/inspect-lighting.mjs",
+      "archive": "docs/archive/astra-v5.2/historical-local-scripts/preview-v52-lighting/inspect-lighting.mjs",
+      "sha256": "55cb871f222f35de41e17d6acb92564ddc89571ff5442f1e1ff017f711210f5c"
+    },
+    {
+      "source": "exports/preview-v52-lighting/inspect-scene-clips.mjs",
+      "archive": "docs/archive/astra-v5.2/historical-local-scripts/preview-v52-lighting/inspect-scene-clips.mjs",
+      "sha256": "30b595116697ff6ff783edb506d0f5976be856714ab4065089a444ab684d006a"
+    },
+    {
+      "source": "exports/preview-v52-lighting/lighting-before-scene-clips.js",
+      "archive": "docs/archive/astra-v5.2/historical-local-scripts/preview-v52-lighting/lighting-before-scene-clips.js",
+      "sha256": "e0b9e7af26bad87e5d1fdee809c68e212be764b8f7d92b3d9bab2537e93a703a"
+    },
+    {
+      "source": "exports/preview-v52-lighting/render-reel.mjs",
+      "archive": "docs/archive/astra-v5.2/historical-local-scripts/preview-v52-lighting/render-reel.mjs",
+      "sha256": "38779b1bb7b3a778b6157a70d819db119240a286abbf1c1fef05bad277d8a68b"
+    },
+    {
+      "source": "exports/preview-v52-lighting/validate-lighting.py",
+      "archive": "docs/archive/astra-v5.2/historical-local-scripts/preview-v52-lighting/validate-lighting.py",
+      "sha256": "84f618bf4f9f098091b87a1c2d0c254baa0267db305bf567491caabbe4bdc088"
+    },
+    {
+      "source": "exports/preview-v52-opening/export-preview.mjs",
+      "archive": "docs/archive/astra-v5.2/historical-local-scripts/preview-v52-opening/export-preview.mjs",
+      "sha256": "72e6305e37c658cf4b3c88170c67cab2a39e00f21176c496dadeef68a77dde41"
+    },
+    {
+      "source": "exports/preview-v52-opening/qa-opening.mjs",
+      "archive": "docs/archive/astra-v5.2/historical-local-scripts/preview-v52-opening/qa-opening.mjs",
+      "sha256": "e37a5f7e6c8817cee876d08352d168a8a05982ab7f49f6a9de74cd8217e0d3f7"
+    },
+    {
+      "source": "exports/preview-v52-wave/qa-wave.mjs",
+      "archive": "docs/archive/astra-v5.2/historical-local-scripts/preview-v52-wave/qa-wave.mjs",
+      "sha256": "3c71cbbb07e84380cc2cb74de6024bebfe3a5dab8729ead9717c8a4703e78539"
+    },
+    {
+      "source": "exports/review-v52/add-combination-review.py",
+      "archive": "docs/archive/astra-v5.2/historical-local-scripts/review-v52/add-combination-review.py",
+      "sha256": "daaf9775cc38751dfcc454930af02137e4a3d20acaa5ce976bdac3b38c4bc73a"
+    },
+    {
+      "source": "exports/review-v52/build-coverage.py",
+      "archive": "docs/archive/astra-v5.2/historical-local-scripts/review-v52/build-coverage.py",
+      "sha256": "68390638e401a894bc0716861a4727f982be700621a31ff69acaabced7d3b285"
+    },
+    {
+      "source": "exports/review-v52/inspect-extra-light.mjs",
+      "archive": "docs/archive/astra-v5.2/historical-local-scripts/review-v52/inspect-extra-light.mjs",
+      "sha256": "9289d0fdfaa8221a2bf7e63fc7ef789af71f5a66c8c637d365d1c2e5c695f0bc"
+    },
+    {
+      "source": "exports/review-v52/qa-review.mjs",
+      "archive": "docs/archive/astra-v5.2/historical-local-scripts/review-v52/qa-review.mjs",
+      "sha256": "fba997e5e6540de467d4b03e0cf55c4886f671999ea8fff9ce12faa799e78ef4"
+    },
+    {
+      "source": "exports/review-v52/round2-qa.mjs",
+      "archive": "docs/archive/astra-v5.2/historical-local-scripts/review-v52/round2-qa.mjs",
+      "sha256": "65934c3d2dc38a95f35542a265a5f4f24d1adf4045322d6182b114ce4f7b7ed8"
+    },
+    {
+      "source": "exports/review-v52/update-gallery.py",
+      "archive": "docs/archive/astra-v5.2/historical-local-scripts/review-v52/update-gallery.py",
+      "sha256": "cfa83546f0a0b4459901d23fa0e97eb5d2e05d7715c6ad21f51e4c53bc921668"
+    },
+    {
+      "source": "exports/review-v52/update-latest-review.py",
+      "archive": "docs/archive/astra-v5.2/historical-local-scripts/review-v52/update-latest-review.py",
+      "sha256": "cd0866d5dd1b6041260cc77774a2ad41dab1be7d95d3665432ce690e45688df8"
+    },
+    {
+      "source": "exports/revision-audit-20261105/audit-poses.mjs",
+      "archive": "docs/archive/astra-v5.2/historical-local-scripts/revision-audit-20261105/audit-poses.mjs",
+      "sha256": "307f5a678a2b6fe0dce636dd7b894b40071f77b8bd195814c6781624e26fd969"
+    },
+    {
+      "source": "exports/revision-audit-20261105/extract-comparisons.py",
+      "archive": "docs/archive/astra-v5.2/historical-local-scripts/revision-audit-20261105/extract-comparisons.py",
+      "sha256": "7de39cd1abc9e17a89c24b86d040adb295833602ed9925b04df364eb99d06b2c"
+    },
+    {
+      "source": "exports/revision-audit-20261105/make-eye-comparison.py",
+      "archive": "docs/archive/astra-v5.2/historical-local-scripts/revision-audit-20261105/make-eye-comparison.py",
+      "sha256": "e35901ff9b65710d427238de4e1d5df50c41210b921ba88faead032023edd074"
+    },
+    {
+      "source": "exports/revisions/v2-rc1/late.js",
+      "archive": "docs/archive/astra-v5.2/historical-local-scripts/revisions/v2-rc1/late.js",
+      "sha256": "95d6d816fd638aa454734936e270853b7b528130567eca80d1836134210f172c"
+    },
+    {
+      "source": "exports/review-v52/knot-inspection/build-recoil-ending-candidates.py",
+      "archive": "docs/archive/astra-v5.2/historical-local-scripts/review-v52/knot-inspection/build-recoil-ending-candidates.py",
+      "sha256": "0b692338fe2b97bbc662a8afb59703a5aa2e8e6343a04deea3e1988f800b834a"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+Use case: precise-object-edit / identity-preserve.
+Image 1 is the exact EDIT TARGET: recognition-smile.png. Image 2 is TOPOLOGY REFERENCE ONLY for the six-band OpenAI knot. Do NOT paste it as a frontal logo.
+
+Change ONLY the small shoulder ornament at the lower screen-right, approximately centered at (993,1178), within the upper-arm cuff. Its current four-lobed chain-loop shape is wrong. Replace it with SIX flat interwoven bands around a clearly OPEN central angular aperture, alternating over and under; no band through the center, no dot/bead in the center. This tiny motif must be drawn directly into the source illustration in the same near-black outline and lavender inks.
+
+Its plane is the curved upper-arm cuff angled away from the viewer: retain the existing small footprint, placement, diagonal tilt and vertical/oblique foreshortening. The result is slightly narrower in the receding dimension and curves with the cuff. A projected center may be narrow or skewed; no rigid regular frontal hexagon, no round front-facing sticker, no outer circular badge, no photographic metal or drop shadow.
+
+EVERYTHING ELSE IS LOCKED. Preserve the large hair knot completely unchanged, including its topology, outline, angle, size and tassel. Preserve the entire approved SMILING expression: both softly closed smiling eyes, eyebrows, warm small smile, dark face, nose mark, cheeks, short soft chin, jaw, head angle, hair/bangs, horns, ears, shoulders and neckline. Do not redraw, widen, warp or beautify the face. Preserve original anatomy, pose, crop and scale. Keep the same native 1254x1254 RGBA transparent square if possible; do not crop the head or add margins.
+
+The sole edit should look like the original illustrator corrected that shoulder knot. No other edits, no extra light, no background, no text, no contact sheet. Return one complete transparent portrait.

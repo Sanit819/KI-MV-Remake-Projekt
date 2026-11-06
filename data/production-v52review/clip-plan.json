@@ -1,0 +1,108 @@
+{
+  "schema_version": 1,
+  "review_only": true,
+  "final_map_confirmed": true,
+  "entry": "src/mv52review/index.html",
+  "width": 3840,
+  "height": 2160,
+  "fps": 60,
+  "warning_included": false,
+  "time_basis": "Renderer uses unpadded body seconds; source AAC begins body+5 seconds; reel time is concatenated clip time, not full-film time.",
+  "audio_source": "exports/astra-world-execute-me-final-v5-playback-4k60.mp4",
+  "audio_codec_policy": "AAC stream copy only; never music re-encode",
+  "combined_frames": 1425,
+  "combined_duration": 23.75,
+  "clips": [
+    {
+      "id": "01-boundary",
+      "shots": [
+        "R23"
+      ],
+      "start_frame": 4197,
+      "end_frame_exclusive": 4391,
+      "frames": 194,
+      "body_start": 69.95,
+      "body_end": 73.18333333333334,
+      "audio_full_start": 74.95,
+      "duration": 3.2333333333333334,
+      "reel_start_frame": 0,
+      "reel_end_frame_exclusive": 194,
+      "reel_start": 0.0,
+      "reel_end": 3.2333333333333334
+    },
+    {
+      "id": "02-waveform",
+      "shots": [
+        "R40",
+        "R41",
+        "R42",
+        "R43"
+      ],
+      "start_frame": 6219,
+      "end_frame_exclusive": 6648,
+      "frames": 429,
+      "body_start": 103.65,
+      "body_end": 110.8,
+      "audio_full_start": 108.65,
+      "duration": 7.15,
+      "reel_start_frame": 194,
+      "reel_end_frame_exclusive": 623,
+      "reel_start": 3.2333333333333334,
+      "reel_end": 10.383333333333333
+    },
+    {
+      "id": "03-refusal-book",
+      "shots": [
+        "R53",
+        "R54",
+        "R55"
+      ],
+      "start_frame": 7866,
+      "end_frame_exclusive": 8434,
+      "frames": 568,
+      "body_start": 131.1,
+      "body_end": 140.56666666666666,
+      "audio_full_start": 136.1,
+      "duration": 9.466666666666667,
+      "reel_start_frame": 623,
+      "reel_end_frame_exclusive": 1191,
+      "reel_start": 10.383333333333333,
+      "reel_end": 19.85
+    },
+    {
+      "id": "04-wrist",
+      "shots": [
+        "R74"
+      ],
+      "start_frame": 10130,
+      "end_frame_exclusive": 10184,
+      "frames": 54,
+      "body_start": 168.83333333333334,
+      "body_end": 169.73333333333332,
+      "audio_full_start": 173.83333333333334,
+      "duration": 0.9,
+      "reel_start_frame": 1191,
+      "reel_end_frame_exclusive": 1245,
+      "reel_start": 19.85,
+      "reel_end": 20.75
+    },
+    {
+      "id": "05-ending-expression",
+      "shots": [
+        "R86"
+      ],
+      "start_frame": 12480,
+      "end_frame_exclusive": 12660,
+      "frames": 180,
+      "body_start": 208.0,
+      "body_end": 211.0,
+      "audio_full_start": 213.0,
+      "duration": 3.0,
+      "reel_start_frame": 1245,
+      "reel_end_frame_exclusive": 1425,
+      "reel_start": 20.75,
+      "reel_end": 23.75
+    }
+  ],
+  "note": "R86 is the 208-211 body-second reply/recognition portion; no quiet coda. R74 exact native shot is 0.9 s. Root may revise ranges before final map."
+}

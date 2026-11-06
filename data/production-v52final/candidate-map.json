@@ -1,0 +1,493 @@
+{
+  "schema_version": 2,
+  "review_only": false,
+  "final_map_confirmed": true,
+  "approval_scope": "User approved latest A08_02 point-reading revision and authorized integrating the current full v5.2 artwork/lighting package into a separate complete final video.",
+  "approval": {
+    "date": "2026-11-06",
+    "user_text": "ok了，全部接入视频吧，期待成品！",
+    "scope": "User approved latest A08_02 point-reading revision and authorized integrating the current full v5.2 artwork/lighting package into a separate complete final video.",
+    "user_approved": true,
+    "integration_authorized": true,
+    "full_export_authorized": true,
+    "evidence_boundary": "Authorization is not a claim that final runtime rendering or exported video validation has already passed."
+  },
+  "time_basis": {
+    "render": "body seconds",
+    "full_film_offset_seconds": 5,
+    "fps": 60,
+    "full_video_has_warning": true
+  },
+  "base_manifest": "assets/astra/v12-approved-cat/manifest.json",
+  "prior_review_map": "data/production-v52review/candidate-map.json",
+  "assets": {
+    "A04_02": {
+      "enabled": true,
+      "path": "assets/astra/v18-wave-hand-review/A04-02-wave-receive-v6-hand-redraw.png",
+      "anchors": {
+        "hands": [
+          196,
+          487
+        ],
+        "wrist": [
+          243,
+          526
+        ],
+        "chest": [
+          705,
+          608
+        ],
+        "fingertip": [
+          155,
+          412
+        ]
+      },
+      "face": {
+        "x": 534,
+        "y": 320,
+        "w": 200,
+        "h": 120
+      },
+      "measurement_note": "Remeasured on native 1199x1312 v6: hands is receiving-palm interior center (not chest-side hand); wrist is receiving-hand base immediately before cuff; chest follows visible sternum/center costume line below the chest-side hand. Fingertip is the uppermost raised digit tip reference, not the line endpoint. Face crop includes bang-covered face, mouth, jaw and upper neck.",
+      "user_approved": true,
+      "approval_reference": "Current user approval on 2026-11-06: ok了，全部接入视频吧，期待成品！",
+      "source_measurement": "remeasured_native_source_round2",
+      "source_width": 1199,
+      "source_height": 1312,
+      "sha256": "63f2c6192072abb12a2ff55e5970c0783fa074ed9ee4c626d8913774c33cd443",
+      "bounds": {
+        "x": 74,
+        "y": 47,
+        "w": 1037,
+        "h": 1180
+      }
+    },
+    "A08_01": {
+      "enabled": true,
+      "path": "assets/astra/v13-book-review/A08-01-seated-turn-v6-head-redraw.png",
+      "anchors": {
+        "hands": [
+          618,
+          642
+        ],
+        "wrist": [
+          704,
+          654
+        ],
+        "chest": [
+          582,
+          517
+        ],
+        "record": [
+          600,
+          712
+        ],
+        "shoulder": [
+          702,
+          449
+        ]
+      },
+      "face": {
+        "x": 466,
+        "y": 289,
+        "w": 168,
+        "h": 115
+      },
+      "measurement_note": "Remeasured on native 1106x1422 v6: hands is pinching-finger/lifted-leaf contact; wrist is screen-right turning wrist at cuff; record is inside visible reading surface of lifted right leaf; chest follows sternum and shoulder is screen-right skin shoulder. The common face crop includes matching bangs, mouth, jaw and top of neck across v6 book pair.",
+      "user_approved": true,
+      "approval_reference": "Current user approval on 2026-11-06: ok了，全部接入视频吧，期待成品！",
+      "source_measurement": "remeasured_native_source_round2",
+      "source_width": 1106,
+      "source_height": 1422,
+      "sha256": "71e54fdff66097fef4cd8e49122b1cc74906dd75a7c63a4b827556977baede72",
+      "bounds": {
+        "x": 19,
+        "y": 6,
+        "w": 1082,
+        "h": 1411
+      }
+    },
+    "A08_02": {
+      "enabled": true,
+      "path": "assets/astra/v13-book-review/A08-02-seated-record-v6-head-redraw.png",
+      "anchors": {
+        "hands": [
+          572,
+          723
+        ],
+        "wrist": [
+          689,
+          642
+        ],
+        "chest": [
+          582,
+          517
+        ],
+        "record": [
+          576,
+          730
+        ],
+        "shoulder": [
+          702,
+          449
+        ]
+      },
+      "face": {
+        "x": 466,
+        "y": 289,
+        "w": 168,
+        "h": 115
+      },
+      "measurement_note": "Remeasured on native 1106x1422 v6: hands is pointing index tip touching right page; record is 4 px right and 7 px below on the actual flat page; wrist is screen-right pointing wrist inside cuff. Sternum/shoulder and face crop were checked on the new matching body/head and deliberately match v6 turn pose. No old v5 hand/wrist/face coordinates inherited.",
+      "user_approved": true,
+      "approval_reference": "Current user approval on 2026-11-06: ok了，全部接入视频吧，期待成品！",
+      "source_measurement": "remeasured_native_source_round2",
+      "source_width": 1106,
+      "source_height": 1422,
+      "sha256": "36af57dff7f2875c0a00ee31f5e4d3fde80c22216c8a3f7dcab5240a14ca283a",
+      "bounds": {
+        "x": 19,
+        "y": 7,
+        "w": 1084,
+        "h": 1410
+      }
+    },
+    "surprise": {
+      "enabled": true,
+      "path": "assets/astra/v17-ending-review/recognition-surprise-knots-perspective-v2.png",
+      "anchors": {
+        "eyes": [
+          645,
+          631
+        ],
+        "mouth": [
+          648,
+          774
+        ]
+      },
+      "face": {
+        "x": 355,
+        "y": 320,
+        "w": 590,
+        "h": 610
+      },
+      "measurement_note": "Unchanged source and matching face crop retained from the actual first-round independent review render: includes bangs, eyes, mouth, chin and some collar, excludes horn tips. Current user authorization now includes final integration; final renderer validation remains separate.",
+      "user_approved": true,
+      "approval_reference": "Current user approval on 2026-11-06: ok了，全部接入视频吧，期待成品！",
+      "source_measurement": "unchanged_source_review_measurement_retained",
+      "source_width": 1254,
+      "source_height": 1254,
+      "sha256": "8f508066335b79f4bb0cc5ac81dbcaba4be0f82271a4c3e1bb519187e76e69dc",
+      "bounds": {
+        "x": 11,
+        "y": 10,
+        "w": 1232,
+        "h": 1244
+      }
+    },
+    "sitSmile": {
+      "enabled": true,
+      "path": "assets/astra/v17-ending-review/recognition-smile-knots-perspective-v2.png",
+      "anchors": {
+        "eyes": [
+          645,
+          643
+        ],
+        "mouth": [
+          654,
+          777
+        ]
+      },
+      "face": {
+        "x": 355,
+        "y": 320,
+        "w": 590,
+        "h": 610
+      },
+      "measurement_note": "Unchanged source and matching face crop retained from the actual first-round independent review render: includes bangs, eyes, mouth, chin and some collar, excludes horn tips. Current user authorization now includes final integration; final renderer validation remains separate.",
+      "user_approved": true,
+      "approval_reference": "Current user approval on 2026-11-06: ok了，全部接入视频吧，期待成品！",
+      "source_measurement": "unchanged_source_review_measurement_retained",
+      "source_width": 1254,
+      "source_height": 1254,
+      "sha256": "e77695402069392baa30a451e72711d87e07cc677d80a334fa3adc1cdb9b2b01",
+      "bounds": {
+        "x": 11,
+        "y": 11,
+        "w": 1232,
+        "h": 1243
+      }
+    },
+    "A02_01": {
+      "enabled": true,
+      "path": "assets/astra/v14-boundary-review/A02-01-approach-v3-leg-redraw.png",
+      "anchors": {
+        "hands": [
+          1035,
+          374
+        ],
+        "wrist": [
+          998,
+          401
+        ],
+        "eyes": [
+          748,
+          245
+        ]
+      },
+      "face": {
+        "x": 682,
+        "y": 216,
+        "w": 110,
+        "h": 107
+      },
+      "measurement_note": "Remeasured on native 1189x1323 v3: hands is reaching palm center, wrist is reaching-hand base/cuff. Legacy key eyes is a face-focus proxy on dark face below bangs; no visible iris is invented. Face crop follows newly turned cheek/jaw silhouette. Raised chest hand is not the reach anchor.",
+      "user_approved": true,
+      "approval_reference": "Current user approval on 2026-11-06: ok了，全部接入视频吧，期待成品！",
+      "source_measurement": "remeasured_native_source_round2",
+      "source_width": 1189,
+      "source_height": 1323,
+      "sha256": "726880792942ff23853b32e8df13f593af9a16eaecf333d01e0f13f59f45b430",
+      "bounds": {
+        "x": 35,
+        "y": 8,
+        "w": 1093,
+        "h": 1303
+      }
+    },
+    "A02_02": {
+      "enabled": true,
+      "path": "assets/astra/v14-boundary-review/A02-02-contact-v6-perspective.png",
+      "anchors": {
+        "hands": [
+          1105,
+          347
+        ],
+        "wrist": [
+          1041,
+          405
+        ],
+        "eyes": [
+          740,
+          259
+        ]
+      },
+      "face": {
+        "x": 692,
+        "y": 225,
+        "w": 87,
+        "h": 91
+      },
+      "measurement_note": "Boundary contact point on outer thumb/palm contour; fingers extend only 5 source px farther. Wrist at the cuff. Measured on native contact-v6, no old anchors.",
+      "user_approved": true,
+      "approval_reference": "Current user approval on 2026-11-06: ok了，全部接入视频吧，期待成品！",
+      "source_measurement": "unchanged_source_review_measurement_retained",
+      "source_width": 1189,
+      "source_height": 1323,
+      "sha256": "b393e4c3218a53c8be5089684a6958e3ee9dfdca0907f8cf928ac3ba28e4488e",
+      "bounds": {
+        "x": 37,
+        "y": 8,
+        "w": 1074,
+        "h": 1302
+      }
+    },
+    "A02_03": {
+      "enabled": true,
+      "path": "assets/astra/v14-boundary-review/A02-03-withdraw-v3-leg-redraw.png",
+      "anchors": {
+        "hands": [
+          739,
+          365
+        ],
+        "wrist": [
+          766,
+          401
+        ],
+        "eyes": [
+          725,
+          264
+        ]
+      },
+      "face": {
+        "x": 666,
+        "y": 224,
+        "w": 112,
+        "h": 104
+      },
+      "measurement_note": "Remeasured on native 1189x1323 v3: hands is the raised withdrawn hand below chin, wrist is that hand's cuff base. Does not track separate hanging near hand. Legacy eyes key is a dark-face focus proxy under bangs, not a visible eye. Face crop follows new jaw/cheek.",
+      "user_approved": true,
+      "approval_reference": "Current user approval on 2026-11-06: ok了，全部接入视频吧，期待成品！",
+      "source_measurement": "remeasured_native_source_round2",
+      "source_width": 1189,
+      "source_height": 1323,
+      "sha256": "a80a3aa018db6e0e6d91a10a3cef7a2042d34e7a448248d29cfc0df27d4f0486",
+      "bounds": {
+        "x": 32,
+        "y": 8,
+        "w": 1056,
+        "h": 1304
+      }
+    },
+    "A07_01": {
+      "enabled": true,
+      "path": "assets/astra/v15-refusal-review/A07-01-request-knots-perspective-v2.png",
+      "anchors": {
+        "hands": [
+          929,
+          416
+        ],
+        "wrist": [
+          889,
+          444
+        ],
+        "chest": [
+          574,
+          461
+        ]
+      },
+      "face": {
+        "x": 530,
+        "y": 242,
+        "w": 132,
+        "h": 106
+      },
+      "measurement_note": "Extended request palm center and wrist cuff measured on native 1024x1536 candidate.",
+      "user_approved": true,
+      "approval_reference": "Current user approval on 2026-11-06: ok了，全部接入视频吧，期待成品！",
+      "source_measurement": "unchanged_source_review_measurement_retained",
+      "source_width": 1024,
+      "source_height": 1536,
+      "sha256": "d3716551e89c0f3259bdebb4378124ddc23345700f5b4c09c77ef5feef1af8a8",
+      "bounds": {
+        "x": 31,
+        "y": 14,
+        "w": 952,
+        "h": 1508
+      }
+    },
+    "A07_02": {
+      "enabled": true,
+      "path": "assets/astra/v15-refusal-review/A07-02-contact-knots-perspective-v5-alpha.png",
+      "anchors": {
+        "hands": [
+          997,
+          410
+        ],
+        "wrist": [
+          954,
+          450
+        ],
+        "chest": [
+          647,
+          474
+        ]
+      },
+      "face": {
+        "x": 626,
+        "y": 263,
+        "w": 132,
+        "h": 105
+      },
+      "measurement_note": "Rechecked on imagegen alpha-extraction v5: hands is outer palm/thumb contact contour, wrist at cuff. Source-only alpha repair; body placement uses newly computed alpha bounds.",
+      "user_approved": true,
+      "approval_reference": "Current user approval on 2026-11-06: ok了，全部接入视频吧，期待成品！",
+      "source_measurement": "unchanged_source_review_measurement_retained",
+      "source_width": 1024,
+      "source_height": 1536,
+      "sha256": "66d270bbb771ed348449fc9b112514eb6ce34c3c29bebf5920b0f067cf35685f",
+      "bounds": {
+        "x": 23,
+        "y": 19,
+        "w": 984,
+        "h": 1500
+      }
+    },
+    "A07_03": {
+      "enabled": true,
+      "path": "assets/astra/v15-refusal-review/A07-03-retreat-knots-perspective-v2.png",
+      "anchors": {
+        "hands": [
+          736,
+          418
+        ],
+        "wrist": [
+          745,
+          473
+        ],
+        "chest": [
+          593,
+          461
+        ]
+      },
+      "face": {
+        "x": 542,
+        "y": 247,
+        "w": 131,
+        "h": 102
+      },
+      "measurement_note": "Retreat palm center and lower cuff of raised far hand; does not reuse previous extended-palm coordinates.",
+      "user_approved": true,
+      "approval_reference": "Current user approval on 2026-11-06: ok了，全部接入视频吧，期待成品！",
+      "source_measurement": "unchanged_source_review_measurement_retained",
+      "source_width": 1024,
+      "source_height": 1536,
+      "sha256": "83bb617d5a33accab7353c21184e65a8dc82b43ba7ae1d75cadc16a2befd0d35",
+      "bounds": {
+        "x": 61,
+        "y": 11,
+        "w": 904,
+        "h": 1501
+      }
+    },
+    "recoil": {
+      "enabled": true,
+      "path": "assets/astra/v16-withdraw-review/recoil-redraw-knots-perspective-v2.png",
+      "anchors": {
+        "hands": [
+          431,
+          474
+        ],
+        "wrist": [
+          451,
+          558
+        ],
+        "grasp": [
+          462,
+          627
+        ]
+      },
+      "face": {
+        "x": 537,
+        "y": 321,
+        "w": 179,
+        "h": 124
+      },
+      "measurement_note": "Wrist is exposed left-screen wrist/cuff immediately below raised palm; grasp identifies the other hand around the forearm.",
+      "user_approved": true,
+      "approval_reference": "Current user approval on 2026-11-06: ok了，全部接入视频吧，期待成品！",
+      "source_measurement": "unchanged_source_review_measurement_retained",
+      "source_width": 1254,
+      "source_height": 1254,
+      "sha256": "85ce8c1b6fa88ec3c2ac9c0cb43e0694b2ec28ed2a1c9507fda64c675334bbca",
+      "bounds": {
+        "x": 71,
+        "y": 5,
+        "w": 1111,
+        "h": 1249
+      }
+    }
+  },
+  "map_ready": true,
+  "pending_assets": [],
+  "runtime_validation_status": "pending final renderer verification",
+  "alpha_repair_history": {
+    "asset": "A07_02",
+    "path": "assets/astra/v15-refusal-review/A07-02-contact-knots-perspective-v5-alpha.png",
+    "stills": [
+      "exports/preview-v52-combination/stills-alpha-fixed/source-132.500.png",
+      "exports/preview-v52-combination/stills-alpha-fixed/source-133.400.png"
+    ],
+    "result": "No external alpha-island blocks; palm/wrist continuous; reviewed at native render resolution"
+  }
+}

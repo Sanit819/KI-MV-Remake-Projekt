@@ -1,0 +1,26 @@
+{
+  "created": "2026-11-06",
+  "purpose": "review isolation; preserve current mv52/mv5cat and production manifest",
+  "sha256": {
+    "src/mv52/art.js": "d49d0e8f1121546adfab579f0f8b7da8eaeb106b47fc6759f9254791810aa6e6",
+    "src/mv52/early.js": "a3981d5a6046c59bf5b5e669ec1e51fb0229f76763841f5cc51082280e9d5724",
+    "src/mv52/index.html": "ab8f7cc927d2afb768d21db8f4a325cfb4ccb74c0eb1d9f34797f447ae167b1e",
+    "src/mv52/kit.js": "0b945e5ae274cb766eb064dfdd0f26e547d71797f1a620fcc54dc927fc48b3ea",
+    "src/mv52/late.js": "00bd27b75d47650f09c951b85232997406fc61c6edb77807ae17498ae02e168b",
+    "src/mv52/lighting.js": "beff0af605acef46a5865a1f60b507dd21ebdbae129287d22536c765b4aa066b",
+    "src/mv52/main.js": "543382aed853a59a787fb6273d11b022044e113b304c7f0aa0a5272f407dc121",
+    "src/mv52/middle.js": "abfdc056862ecb5d2cb46eb3d0bdaed52c94ba19863c9ac460aa7e9645246789",
+    "src/mv52/neural.js": "8efccaa883b1c4a929d1b82a11a676c3830febb4e70639818f12cf09de098847",
+    "src/mv52/spatial-neural.js": "bdccda032ded86df70afc804ed191e21a930494c57ce61c21b7d0125ce35a8e0",
+    "src/mv5cat/art.js": "f3493cc972e6e0b4ec3e760ab81c60aab027fa7e22579809d8421fd484dd9d06",
+    "src/mv5cat/early.js": "6a824d06183a6d81ca7816eb930f4cfdb7397938135ea79798bd6195e08a9fdf",
+    "src/mv5cat/index.html": "ab8f7cc927d2afb768d21db8f4a325cfb4ccb74c0eb1d9f34797f447ae167b1e",
+    "src/mv5cat/kit.js": "0b945e5ae274cb766eb064dfdd0f26e547d71797f1a620fcc54dc927fc48b3ea",
+    "src/mv5cat/late.js": "00bd27b75d47650f09c951b85232997406fc61c6edb77807ae17498ae02e168b",
+    "src/mv5cat/main.js": "fa3ff12055bc7a79ce7bdb84dee2dd88ce5c6d979f0791a464aae5ced8494f22",
+    "src/mv5cat/middle.js": "793b27d8687cc48649c6a268bb39f7e91d38f24008f6ef2d42e7c9b03700edf5",
+    "src/mv5cat/neural.js": "8efccaa883b1c4a929d1b82a11a676c3830febb4e70639818f12cf09de098847",
+    "src/mv5cat/spatial-neural.js": "bdccda032ded86df70afc804ed191e21a930494c57ce61c21b7d0125ce35a8e0",
+    "assets/astra/v12-approved-cat/manifest.json": "6a8651a9e6626fc715d63e57b9c0258c3e73ed794e88199e52a69aabd14937f6"
+  }
+}

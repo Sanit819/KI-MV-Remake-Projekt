@@ -1,0 +1,15 @@
+Use case: compositing / identity-preserve.
+Asset type: polished 16:9 Bilibili music-video cover, widescreen 3840x2160 if supported.
+Image 1 is the layout/typography edit target, the existing ASTRA MV cover. Image 2 is the exact character identity and new cat pose reference. Make a NEW final-edition cover following image1's strong left typography / right very large character composition. Replace the right portrait with a beautifully refined version of the SAME cat ASTRA from image2.
+CHARACTER INVARIANTS: lavender white long flowing hair, TWO segmented dragon horns PLUS TWO clearly visible small pointed fluffy CAT EARS between/in front of the horns, one curled ahoge, long elf ears, petite elegant adult anime silhouette, original Chinese fantasy dress and diamond tassels, small bat wings visible framing shoulders. Both connected arms raised in adorable loose cat-paw gestures near chest/cheeks, correct wrists/five fingers/no duplicated limbs. Cute and cool, quietly playful. Face remains fully opaque dark purple-black, fringe covers ALL eyes. Only the tiny curved cat smile is visible. NO lit face, NO visible eyes, NO skin shading on face. Refine fine hair cutouts, clear layered horn segmentation, fine cuffs and tassels while retaining clean bold limited-ink silhouette.
+GPT knots must be drawn AS PART OF the illustration, original exact six-interwoven-loop openwork knot at hair and waist, negative spaces clearly open, no outer circle, no disc or badge, no pasted-looking logo.
+COMPOSITION: roughly left46% textual hierarchy and right54% character, large confident crop, keep both cat ears and horn tips within frame, both paws readable, avoid covering the title or hiding the ears. Dark near-black purple background, layered thin purple application-window outlines receding behind text, small code traces, diagonal lavender panels behind character, no messy generic neon explosion. Strong thumbnail impact through silhouette, warm-ivory type and bright lavender edges. Warm thin gold hand-drawn star with crooked comet tail at lowerleft continues toward character, retaining story motif.
+TEXT render exactly and cleanly:
+top-left small label: "Hi-Res / 4K / 60FPS"
+above title: "GPT-6 ASTRA ULTRA"
+large warm ivory serif title on two lines: "world." and "execute(me);"
+below in clear Chinese: "未写完的世界"
+small final-edition tag: "最终版"
+bottom-left monospace: "await you.nextStroke();"
+Do not add any other slogans, watermarks, platform logos or lyrics. The full long video upload title is not to be crammed onto this cover.
+Style: match existing MV's refined purple paper-cut/anime graphic art, almost flat inks nearblack #15101d, shadowviolet #614187, lightlavender #b88ce8, ivory #f4e9cf, restrained warmgold #edc77d. Crisp deliberate linework, no photo, no 3D, no rainbow colors. Opaque finished poster background.

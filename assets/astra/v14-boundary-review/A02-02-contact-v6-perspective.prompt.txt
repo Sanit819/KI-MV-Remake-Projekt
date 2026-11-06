@@ -1,0 +1,16 @@
+Use case: precise-object-edit / identity-preserve.
+Image 1 is the EXACT EDIT TARGET, A02-02-contact-v5-perspective.png: the accepted complete side-facing reaching character. Image 2 is TOPOLOGY REFERENCE ONLY for the six-band OpenAI knot. Do NOT paste image 2, and do not copy its frontal perspective anywhere.
+
+Edit ONLY TWO small ornaments in image 1:
+1. The near, screen-left shoulder knot, centered approximately (588,402), bounded by x550..630 y364..436 in the original 1189x1323 image.
+2. The screen-left skirt-hem knot, centered approximately (272,1107), bounded by x229..312 y1064..1149.
+
+Within these two existing ornament footprints, correct the current tiny central plug/dot and inward-spiral reading. Draw six interwoven ribbon bands circulating AROUND a visibly open angular central aperture; alternating over/under crossings occur around it. Nothing crosses or fills the central opening. Show the underlying local cloth through the opening, which need not be black. Match image 2 only in band connectivity and open-center topology.
+
+CRITICAL LOCAL PERSPECTIVE: Retain the exact existing outer size, position, slant and foreshortening of each of these two ornaments. The shoulder follows its current rounded, oblique upper-arm cuff; the skirt ornament follows its current sloping cloth plane. An oblique, narrow, skewed central opening is correct. Do not turn either surface toward the camera. Do not force a regular hexagon, frontal round seal, sticker or medallion onto it. The two motifs must remain different local surface projections, drawn in the same lavender/near-black source ink and existing line weight.
+
+EVERYTHING ELSE IS LOCKED. Do not modify the already accepted near-waist knot, which has a readable opening. Do not modify the hair knot, far shoulder, far waist, opposite skirt hem, either shoe ornament, tassels or belt. Especially preserve all their existing strongly compressed, narrow and slanted projections. Do not repair, expand or standardize those other motifs. No global logo replacement.
+
+Preserve the complete body and expression: dark side-profile face, mouth, chin, head angle, horns, pointed ear, hair, wings, extended arm and naturally edge-on raised palm, fingers, wrist, chest hand, dress folds, both legs, ankle straps, shoes and heels, tail, pose proportions, framing and scale. Do not warp or beautify the face, straighten the palm, add digits, change hand contact, or redraw the body. Keep the same native 1189x1323 RGBA layout and transparent surroundings if possible, with no new crop or margins.
+
+The sole visible change should be the original illustrator correcting the internal ribbon paths of these TWO knots. Return one complete transparent image, no contact sheet, no annotation, no text. No floating/photographic logo, no embossed badge, no new light, no background.

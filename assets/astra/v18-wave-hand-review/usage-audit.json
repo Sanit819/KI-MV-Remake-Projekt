@@ -1,0 +1,234 @@
+{
+  "schema_version": 1,
+  "scope": "read-only active mv5cat mapping; no manifest/code/video modifications",
+  "user_screenshot": {
+    "path": "C:/Users/auscar/AppData/Local/Temp/codex-clipboard-02a82788-193b-435f-a798-6b7f4cd349a2.png"
+  },
+  "full_time_seconds": 113,
+  "warning_prefix_seconds": 5,
+  "body_time_seconds": 108,
+  "body_frame_60fps": 6480,
+  "full_frame_60fps": 6780,
+  "source_loader": {
+    "path": "src/mv5cat/art.js",
+    "line": 9,
+    "manifest": "assets/astra/v12-approved-cat/manifest.json"
+  },
+  "scene_function": {
+    "path": "src/mv5cat/middle.js",
+    "line": 325,
+    "name": "resonance",
+    "callers": [
+      "R40",
+      "R41",
+      "R42",
+      "R43"
+    ],
+    "action_line": 328,
+    "progress": "clamp((t-103.65)/(110.8-103.65))",
+    "phase_cuts": [
+      0.32,
+      0.72
+    ],
+    "q_at_body108": 0.6083916083916083
+  },
+  "phase_selection": {
+    "asset_id": "A04_02",
+    "phase": 2,
+    "continuous_body_interval_start_inclusive_end_exclusive": [
+      105.938,
+      108.798
+    ],
+    "first_sampled_body_frame": 6357,
+    "end_sampled_body_frame_exclusive": 6528
+  },
+  "active_source": {
+    "path": "/assets/astra/v09/A04-02-shadow.png",
+    "anchors": {
+      "hands": [
+        188,
+        565
+      ],
+      "wrist": [
+        282,
+        668
+      ],
+      "chest": [
+        678,
+        677
+      ]
+    },
+    "face": {
+      "x": 506,
+      "y": 381,
+      "w": 181,
+      "h": 140
+    },
+    "faceMode": "shadow-bangs",
+    "styleRevision": 3,
+    "faceTreatment": "shadow",
+    "actionGroup": "A04",
+    "phase": 2,
+    "provenance": {
+      "tool": "image_gen.imagegen",
+      "source": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa74-1184-7261-a88f-266bf2e5f191\\exec-d0d9d0dc-b02a-40d8-823c-c8b9ae3ea349.png",
+      "prompt": "assets/astra/v09/A04-02-shadow.prompt.txt",
+      "references": [
+        "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v09/A04-02.png",
+        "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v07/recoil-knot.png"
+      ],
+      "originalPoseSource": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa74-1184-7261-a88f-266bf2e5f191\\exec-57190c05-cb48-48a5-bf00-ccc4f1aa77b6.png",
+      "inspected": true,
+      "inspection": "Source artwork visually inspected at generation; connected anatomy and source-drawn open knot checked."
+    },
+    "sha256": "6e1a9c6b0a0bad0277077ad8a61ac5ac7b92c53bc23054a66357c9657e2dec67",
+    "source_width": 1132,
+    "source_height": 1390
+  },
+  "related_source_assets": {
+    "A04_01": "/assets/astra/v09/A04-01-shadow.png",
+    "A04_02": "/assets/astra/v09/A04-02-shadow.png",
+    "A04_03": "/assets/astra/v09/A04-03-shadow.png"
+  },
+  "important": "hands is an anchor name, not the source filename. New image dimensions/geometry differ: existing anchors must not be reused without new measurement. No integration performed.",
+  "related_phase_hand_review_20261106": {
+    "date": "2026-11-06",
+    "scope": "Read-only check of both hands in A04_01 and A04_03 base/shadow/style1; six full source PNGs and twelve hand crops",
+    "result": "No definite extra fingers, extra palm or wrong wrist attachment found sufficient to require complete redraw. Naturally occluded curled fingers not counted as missing. Not detailed anatomy certification.",
+    "production_modified": false,
+    "artwork_modified": false,
+    "sources": [
+      {
+        "source": "assets/astra/v09/A04-01.png",
+        "sha256": "783d98f2a7c6684114ef282fede03f240a1da88c58cf1bd05ccf5793f78676a5",
+        "hand_boxes": [
+          [
+            85,
+            510,
+            340,
+            680
+          ],
+          [
+            686,
+            515,
+            838,
+            705
+          ]
+        ],
+        "original_unchanged_after_readonly_review": true,
+        "full_image_viewed": true,
+        "both_hand_crops_viewed": true
+      },
+      {
+        "source": "assets/astra/v09/A04-01-shadow.png",
+        "sha256": "fbca1fe8e04d9e2d4dbb93ace79479be63a3fee8241dae2e33d96e8c19ecf1a7",
+        "hand_boxes": [
+          [
+            85,
+            510,
+            340,
+            680
+          ],
+          [
+            686,
+            515,
+            838,
+            705
+          ]
+        ],
+        "original_unchanged_after_readonly_review": true,
+        "full_image_viewed": true,
+        "both_hand_crops_viewed": true
+      },
+      {
+        "source": "assets/astra/v09/A04-01-style1.png",
+        "sha256": "60d4e9eb5343c701d7b6268a63b32c29dd5b950a448a9e6a87c90eee546ffe43",
+        "hand_boxes": [
+          [
+            80,
+            445,
+            302,
+            610
+          ],
+          [
+            661,
+            589,
+            817,
+            751
+          ]
+        ],
+        "original_unchanged_after_readonly_review": true,
+        "full_image_viewed": true,
+        "both_hand_crops_viewed": true
+      },
+      {
+        "source": "assets/astra/v09/A04-03.png",
+        "sha256": "669aad080f1ed9454e745760962d2be0cb7ded1b290edcf87ec7c8592a08bb05",
+        "hand_boxes": [
+          [
+            534,
+            500,
+            657,
+            700
+          ],
+          [
+            663,
+            541,
+            866,
+            733
+          ]
+        ],
+        "original_unchanged_after_readonly_review": true,
+        "full_image_viewed": true,
+        "both_hand_crops_viewed": true
+      },
+      {
+        "source": "assets/astra/v09/A04-03-shadow.png",
+        "sha256": "604716f07eb6c39e425e97b5960929127008f324d313f8bc2e33fbea18c96281",
+        "hand_boxes": [
+          [
+            534,
+            500,
+            657,
+            700
+          ],
+          [
+            663,
+            541,
+            866,
+            733
+          ]
+        ],
+        "original_unchanged_after_readonly_review": true,
+        "full_image_viewed": true,
+        "both_hand_crops_viewed": true
+      },
+      {
+        "source": "assets/astra/v09/A04-03-style1.png",
+        "sha256": "0fbf74cc921260557d9a673ef0f0b7452be43105b6135fdff39774185d570d00",
+        "hand_boxes": [
+          [
+            322,
+            521,
+            441,
+            720
+          ],
+          [
+            620,
+            562,
+            805,
+            730
+          ]
+        ],
+        "original_unchanged_after_readonly_review": true,
+        "full_image_viewed": true,
+        "both_hand_crops_viewed": true
+      }
+    ],
+    "boards": [
+      "exports/review-v52/knot-inspection/A04-01-all-variants-hands.png",
+      "exports/review-v52/knot-inspection/A04-03-all-variants-hands.png"
+    ],
+    "report": "assets/astra/v18-wave-hand-review/RELATED_PHASE_HAND_READONLY_REVIEW.md"
+  }
+}

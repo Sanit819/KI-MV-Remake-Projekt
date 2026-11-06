@@ -1,0 +1,42 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import {createHash} from 'node:crypto';
+import {fileURLToPath,pathToFileURL} from 'node:url';
+import {chromium} from 'playwright-core';
+
+const OUT=path.dirname(fileURLToPath(import.meta.url));
+const ROOT=path.resolve(OUT,'../..');
+const PAGE=path.join(OUT,'index.html');
+const expected='19f4a76abfc61c1990d056d018e164ec61e93d147af1436f244cfa57261b7407';
+const movie=path.join(ROOT,'exports/astra-world-execute-me-final-v5.1-cat-warning-hires-4k60.mp4');
+const digest=async file=>{const hash=createHash('sha256');for await(const chunk of fs.createReadStream(file))hash.update(chunk);return hash.digest('hex');};
+const hash=await digest(movie);
+const html=fs.readFileSync(PAGE,'utf8');
+const links=await Promise.all([...new Set([...html.matchAll(/\b(?:href|src|poster)="([^"]+)"/g)].map(m=>m[1]).filter(s=>!s.startsWith('#')&&!/^[a-z]+:/i.test(s)))].map(async href=>{const file=path.resolve(OUT,decodeURIComponent(href));const exists=fs.existsSync(file);return {href,path:file,inside_repository:!path.relative(ROOT,file).startsWith('..'),exists,bytes:exists?fs.statSync(file).size:null,sha256:exists?await digest(file):null};}));
+const errors=[],abortedMediaRequests=[];let browser;
+try{
+  browser=await chromium.launch({executablePath:'C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe',headless:true});
+  const page=await browser.newPage({viewport:{width:1600,height:1100},deviceScaleFactor:1});
+  page.on('pageerror',e=>errors.push(String(e)));
+  page.on('requestfailed',r=>{const message=r.url()+': '+r.failure()?.errorText;if(r.resourceType()==='media'&&r.failure()?.errorText==='net::ERR_ABORTED')abortedMediaRequests.push(message);else errors.push(message);});
+  await page.goto(pathToFileURL(PAGE).href,{waitUntil:'load'});
+  await page.evaluate(async()=>{for(const img of document.images)img.loading='eager';await Promise.all([...document.images].map(img=>img.decode()));await Promise.all([...document.querySelectorAll('video')].map(v=>v.readyState>=1?Promise.resolve():new Promise((resolve,reject)=>{v.addEventListener('loadedmetadata',resolve,{once:true});v.addEventListener('error',()=>reject(new Error(v.error?.message||'Video load failed')),{once:true});})));});
+  const media=await page.evaluate(()=>({images:[...document.images].map(i=>({src:i.getAttribute('src'),width:i.naturalWidth,height:i.naturalHeight,complete:i.complete})),videos:[...document.querySelectorAll('video')].map(v=>({src:v.getAttribute('src'),width:v.videoWidth,height:v.videoHeight,duration:v.duration,readyState:v.readyState,error:v.error?.message||null})),pending:[...document.querySelectorAll('.pending')].map(n=>n.innerText),horizontalOverflow:document.documentElement.scrollWidth>innerWidth}));
+  await page.screenshot({path:path.join(OUT,'qa-desktop.png'),fullPage:true});
+  await page.locator('#book').screenshot({path:path.join(OUT,'qa-book.png')});
+  await page.locator('#boundary').screenshot({path:path.join(OUT,'qa-boundary.png')});
+  await page.locator('#ending').screenshot({path:path.join(OUT,'qa-ending.png')});
+  await page.locator('#lighting').screenshot({path:path.join(OUT,'qa-lighting.png')});
+  await page.locator('#refusal').screenshot({path:path.join(OUT,'qa-refusal.png')});
+  if(await page.locator('#extra-light').count())await page.locator('#extra-light').screenshot({path:path.join(OUT,'qa-extra-light.png')});
+  if(await page.locator('#combination').count())await page.locator('#combination').screenshot({path:path.join(OUT,'qa-combination.png')});
+  await page.setViewportSize({width:390,height:844});
+  await page.evaluate(()=>scrollTo(0,0));
+  const mobileOverflow=await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth);
+  await page.screenshot({path:path.join(OUT,'qa-mobile-top.png')});
+  const checks={all_local_links_exist:links.every(r=>r.exists),all_local_links_inside_repository:links.every(r=>r.inside_repository),all_images_decoded:media.images.every(r=>r.complete&&r.width>0&&r.height>0),all_video_metadata_loaded:media.videos.every(r=>r.width>0&&r.height>0&&Number.isFinite(r.duration)&&!r.error),no_browser_errors:errors.length===0,no_desktop_horizontal_overflow:!media.horizontalOverflow,no_mobile_horizontal_overflow:!mobileOverflow,formal_v51_hash_unchanged:hash===expected};
+  const result={timestamp:new Date().toISOString(),passed:Object.values(checks).every(Boolean),scope:'Review page link/media load and layout checks only; no full video playback or manual full-frame audit; hash read does not modify movie. Native video metadata preload may abort a media request once enough bytes are read; these are recorded separately and only accepted when every video has valid loaded metadata with no media error.',checks,formal_v51:{file:path.relative(ROOT,movie),expected,actual:hash},links,media,errors,abortedMediaRequests};
+  fs.writeFileSync(path.join(OUT,'qa-review.json'),JSON.stringify(result,null,2)+'\n');
+  console.log(JSON.stringify({passed:result.passed,checks,images:media.images.length,videos:media.videos.length,pending:media.pending,errors},null,2));
+  if(!result.passed)process.exitCode=1;
+}finally{await browser?.close();}

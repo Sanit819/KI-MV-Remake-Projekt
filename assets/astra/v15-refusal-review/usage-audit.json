@@ -1,0 +1,203 @@
+{
+  "status": "review_only_not_integrated",
+  "date": "2026-11-06",
+  "scope": "All current source-art submissions from retained full-13100-frame audit, validated by unchanged relevant current renderer hashes; source-call coverage, not visible-pixel measurement. New artwork has not been integrated/rendered.",
+  "current_entry": "src/mv5cat/index.html",
+  "production_manifest": "assets/astra/v12-approved-cat/manifest.json",
+  "evidence_audit": "docs/validation/astra-v5-reuse-audit.json",
+  "evidence_audit_sha256": "127ff02a7036afc210488fa99aa2867145ee83b6257c3aa7643f83ce441e3ca2",
+  "relevant_source_hash_checks": [
+    {
+      "path": "src/mv5cat/middle.js",
+      "sha256": "793b27d8687cc48649c6a268bb39f7e91d38f24008f6ef2d42e7c9b03700edf5",
+      "matches_original_full_frame_audit_source": true
+    },
+    {
+      "path": "src/mv5cat/late.js",
+      "sha256": "00bd27b75d47650f09c951b85232997406fc61c6edb77807ae17498ae02e168b",
+      "matches_original_full_frame_audit_source": true
+    }
+  ],
+  "assets": [
+    {
+      "name": "A07_03",
+      "path": "/assets/astra/v09/A07-03-shadow.png",
+      "sha256": "95c8bb6e850010f0d7445e720fb0e388db85dc4a87d1187c6206ff11a26dc714",
+      "frame_submissions": 182,
+      "call_count": 182,
+      "nonzero_alpha_submission_frames": 182,
+      "shots": [
+        "R54"
+      ],
+      "submission_seconds": 3.033333333333333,
+      "share_of_astra_source_frames": 0.022855707647871405,
+      "is_guest": false
+    },
+    {
+      "name": "A07_02",
+      "path": "/assets/astra/v09/A07-02-shadow.png",
+      "sha256": "7905e0c2fb9219c309668fe41945505429378e49292236bf6f834273810598f4",
+      "frame_submissions": 110,
+      "call_count": 110,
+      "nonzero_alpha_submission_frames": 110,
+      "shots": [
+        "R53",
+        "R54"
+      ],
+      "submission_seconds": 1.8333333333333333,
+      "share_of_astra_source_frames": 0.013813889237724475,
+      "is_guest": false
+    },
+    {
+      "name": "A07_01",
+      "path": "/assets/astra/v09/A07-01-shadow.png",
+      "sha256": "dc916d75820971c38e308b3d75fba23295aa77f6c400dd85839f993c48ef8d4a",
+      "frame_submissions": 55,
+      "call_count": 55,
+      "nonzero_alpha_submission_frames": 55,
+      "shots": [
+        "R53"
+      ],
+      "submission_seconds": 0.9166666666666666,
+      "share_of_astra_source_frames": 0.006906944618862237,
+      "is_guest": false
+    }
+  ],
+  "runs": [
+    {
+      "start_frame": 7866,
+      "end_frame": 7921,
+      "assets": [
+        "A07_01"
+      ],
+      "shots": [
+        "R53"
+      ],
+      "seconds": 0.9166666666666666,
+      "song_start": 131.1,
+      "song_end": 132.01666666666668,
+      "full_video_start_s": 136.1,
+      "full_video_end_s": 137.01666666666668
+    },
+    {
+      "start_frame": 7921,
+      "end_frame": 8031,
+      "assets": [
+        "A07_02"
+      ],
+      "shots": [
+        "R53",
+        "R54"
+      ],
+      "seconds": 1.8333333333333333,
+      "song_start": 132.01666666666668,
+      "song_end": 133.85,
+      "full_video_start_s": 137.01666666666668,
+      "full_video_end_s": 138.85
+    },
+    {
+      "start_frame": 8031,
+      "end_frame": 8213,
+      "assets": [
+        "A07_03"
+      ],
+      "shots": [
+        "R54"
+      ],
+      "seconds": 3.033333333333333,
+      "song_start": 133.85,
+      "song_end": 136.88333333333333,
+      "full_video_start_s": 138.85,
+      "full_video_end_s": 141.88333333333333
+    }
+  ],
+  "shots": [
+    {
+      "id": "R53",
+      "source_id": "err-first",
+      "start_frame": 7866,
+      "end_frame": 7991,
+      "note": "先让观众完整读懂一张错误卡，再在后面逐步加速 Reconnecting... 1/5",
+      "reference_start": 131.190023,
+      "reference_end": 133.266944,
+      "start_s": 131.1,
+      "end_s": 133.18333333333334,
+      "full_video_start_s": 136.1,
+      "full_video_end_s": 138.18333333333334,
+      "lyrics": [
+        {
+          "index": 84,
+          "text": "You have made some",
+          "start_frame": 7715,
+          "end_frame": 7868,
+          "start_s": 128.58333333333334,
+          "end_s": 131.13333333333333,
+          "emphasis": false,
+          "translation": "你传给我的是"
+        },
+        {
+          "index": 85,
+          "text": "ILLEGAL ARGUMENTS",
+          "start_frame": 7868,
+          "end_frame": 8108,
+          "start_s": 131.13333333333333,
+          "end_s": 135.13333333333333,
+          "emphasis": true,
+          "translation": "非法参数"
+        }
+      ]
+    },
+    {
+      "id": "R54",
+      "source_id": "err-send",
+      "start_frame": 7991,
+      "end_frame": 8213,
+      "note": "Reconnecting... 2/5 Reconnecting... 3/5 Reconnecting... 4/5 Reconnecting... 5/5 让反复连线变得令人不安，让观众先于她意识到次数再多也不能换来对方回来",
+      "reference_start": 133.266944,
+      "reference_end": 136.959248,
+      "start_s": 133.18333333333334,
+      "end_s": 136.88333333333333,
+      "full_video_start_s": 138.18333333333334,
+      "full_video_end_s": 141.88333333333333,
+      "lyrics": [
+        {
+          "index": 85,
+          "text": "ILLEGAL ARGUMENTS",
+          "start_frame": 7868,
+          "end_frame": 8108,
+          "start_s": 131.13333333333333,
+          "end_s": 135.13333333333333,
+          "emphasis": true,
+          "translation": "非法参数"
+        }
+      ]
+    }
+  ],
+  "all_source_references": [
+    {
+      "path": "src/mv5cat/middle.js",
+      "line": 239,
+      "function": "R53",
+      "group": "A07",
+      "phases": [
+        1,
+        2
+      ]
+    },
+    {
+      "path": "src/mv5cat/middle.js",
+      "line": 255,
+      "function": "R54",
+      "group": "A07",
+      "phases": [
+        2,
+        3
+      ]
+    }
+  ],
+  "notes": [
+    "2:20 full-video screenshot matches A07_03 during R54.",
+    "Three complete new source drawings cover the full A07 action cycle and both current shot usages.",
+    "Future accepted integration must measure new palm/wrist/chest anchors for each pose; old anchors are not transferable."
+  ]
+}

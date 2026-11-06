@@ -1,0 +1,1331 @@
+{
+  "date": "2026-11-06",
+  "report_scope": "Approved final DATA mapping preparation only; no renderer or exporter execution.",
+  "approval": {
+    "date": "2026-11-06",
+    "user_text": "ok了，全部接入视频吧，期待成品！",
+    "scope": "User approved latest A08_02 point-reading revision and authorized integrating the current full v5.2 artwork/lighting package into a separate complete final video.",
+    "user_approved": true,
+    "integration_authorized": true,
+    "full_export_authorized": true,
+    "evidence_boundary": "Authorization is not a claim that final runtime rendering or exported video validation has already passed."
+  },
+  "base_manifest": "assets/astra/v12-approved-cat/manifest.json",
+  "base_asset_count": 79,
+  "final_asset_count": 79,
+  "overrides_count": 12,
+  "newly_remeasured_count": 5,
+  "unchanged_entry_count": 67,
+  "unchanged_entries_identical": true,
+  "unchanged_entries": [
+    "bust",
+    "eye",
+    "profile",
+    "hand",
+    "foot",
+    "operating",
+    "cat",
+    "male",
+    "back",
+    "guest0",
+    "guest1",
+    "guest2",
+    "guest3",
+    "guest4",
+    "guest5",
+    "stand",
+    "reach",
+    "protect",
+    "sit",
+    "earlyCircle",
+    "earlyTangent",
+    "earlyTravel",
+    "midWait",
+    "midReceive",
+    "A01_01",
+    "A01_02",
+    "A03_01",
+    "A03_02",
+    "A15_01",
+    "A15_02",
+    "A16_01",
+    "A16_02",
+    "A17_01",
+    "A17_02",
+    "A18_01",
+    "A18_02",
+    "A19_01",
+    "A19_02",
+    "A19_03",
+    "A05_01",
+    "A06_01",
+    "A04_01",
+    "A05_02",
+    "A06_02",
+    "A20_01",
+    "A21_01",
+    "A05_03",
+    "A04_03",
+    "A21_02",
+    "A20_02",
+    "A20_03",
+    "A09_01",
+    "A09_02",
+    "A10_01",
+    "A10_02",
+    "A10_03",
+    "A11_01",
+    "A11_02",
+    "A14_01",
+    "A14_02",
+    "A11_03",
+    "A14_03",
+    "A12_01",
+    "A13_01",
+    "A12_02",
+    "A13_02",
+    "A13_03"
+  ],
+  "action_groups_unchanged": true,
+  "approved_cat_entries_unchanged": true,
+  "protected_files_checked": 22,
+  "protected_unchanged": true,
+  "protected_sha256": {
+    "src/mv52/art.js": "d49d0e8f1121546adfab579f0f8b7da8eaeb106b47fc6759f9254791810aa6e6",
+    "src/mv52/early.js": "a3981d5a6046c59bf5b5e669ec1e51fb0229f76763841f5cc51082280e9d5724",
+    "src/mv52/index.html": "ab8f7cc927d2afb768d21db8f4a325cfb4ccb74c0eb1d9f34797f447ae167b1e",
+    "src/mv52/kit.js": "0b945e5ae274cb766eb064dfdd0f26e547d71797f1a620fcc54dc927fc48b3ea",
+    "src/mv52/late.js": "00bd27b75d47650f09c951b85232997406fc61c6edb77807ae17498ae02e168b",
+    "src/mv52/lighting.js": "beff0af605acef46a5865a1f60b507dd21ebdbae129287d22536c765b4aa066b",
+    "src/mv52/main.js": "543382aed853a59a787fb6273d11b022044e113b304c7f0aa0a5272f407dc121",
+    "src/mv52/middle.js": "abfdc056862ecb5d2cb46eb3d0bdaed52c94ba19863c9ac460aa7e9645246789",
+    "src/mv52/neural.js": "8efccaa883b1c4a929d1b82a11a676c3830febb4e70639818f12cf09de098847",
+    "src/mv52/spatial-neural.js": "bdccda032ded86df70afc804ed191e21a930494c57ce61c21b7d0125ce35a8e0",
+    "src/mv5cat/art.js": "f3493cc972e6e0b4ec3e760ab81c60aab027fa7e22579809d8421fd484dd9d06",
+    "src/mv5cat/early.js": "6a824d06183a6d81ca7816eb930f4cfdb7397938135ea79798bd6195e08a9fdf",
+    "src/mv5cat/index.html": "ab8f7cc927d2afb768d21db8f4a325cfb4ccb74c0eb1d9f34797f447ae167b1e",
+    "src/mv5cat/kit.js": "0b945e5ae274cb766eb064dfdd0f26e547d71797f1a620fcc54dc927fc48b3ea",
+    "src/mv5cat/late.js": "00bd27b75d47650f09c951b85232997406fc61c6edb77807ae17498ae02e168b",
+    "src/mv5cat/main.js": "fa3ff12055bc7a79ce7bdb84dee2dd88ce5c6d979f0791a464aae5ced8494f22",
+    "src/mv5cat/middle.js": "793b27d8687cc48649c6a268bb39f7e91d38f24008f6ef2d42e7c9b03700edf5",
+    "src/mv5cat/neural.js": "8efccaa883b1c4a929d1b82a11a676c3830febb4e70639818f12cf09de098847",
+    "src/mv5cat/spatial-neural.js": "bdccda032ded86df70afc804ed191e21a930494c57ce61c21b7d0125ce35a8e0",
+    "assets/astra/v12-approved-cat/manifest.json": "6a8651a9e6626fc715d63e57b9c0258c3e73ed794e88199e52a69aabd14937f6",
+    "data/production-v52review/candidate-map.json": "d44ba6a1126d326370259190a07aa8d2977eb4b9e1baea52002bc9c12d3dd3ef",
+    "data/production-v52review/manifest.json": "22884f892abac0800b8422887d52d7c19b0607ec200207fa21bfcfa41b1f9bb4"
+  },
+  "measurement_method": "Native source images inspected with view_image; separate coordinate-grid diagnostic crops used to select semantic source-pixel points. Every final anchor independently checked for bounds and source alpha >=128. Production PNG bytes never edited.",
+  "face_crop_policy": "Book v6 pair uses matching crop checked against both new heads; all five replacement sources received new measured face rectangles. Existing seven candidates retain identical source and measured geometry.",
+  "bounds_policy": "PIL alpha >=128 bounding box, right/bottom exclusive; x/y/w/h matches art.js source layout convention.",
+  "anchor_semantics_evidence": [
+    "src/mv52review/art.js: actionLayout, anchorRect, portrait",
+    "src/mv52review/early.js: R23",
+    "src/mv52review/middle.js: resonance and R55"
+  ],
+  "overrides": [
+    {
+      "asset": "A04_02",
+      "base_path": "/assets/astra/v09/A04-02-shadow.png",
+      "review_path": "assets/astra/v18-wave-hand-review/A04-02-wave-receive-v5.png",
+      "final_path": "assets/astra/v18-wave-hand-review/A04-02-wave-receive-v6-hand-redraw.png",
+      "new_source_since_review": true,
+      "source_sha256": "63f2c6192072abb12a2ff55e5970c0783fa074ed9ee4c626d8913774c33cd443",
+      "bytes": 1541322,
+      "source_size": [
+        1199,
+        1312
+      ],
+      "alpha_bbox_128": [
+        74,
+        47,
+        1111,
+        1227
+      ],
+      "bounds": {
+        "x": 74,
+        "y": 47,
+        "w": 1037,
+        "h": 1180
+      },
+      "old_review_anchors": {
+        "hands": [
+          263,
+          511
+        ],
+        "wrist": [
+          296,
+          558
+        ],
+        "chest": [
+          646,
+          615
+        ],
+        "fingertip": [
+          211,
+          416
+        ]
+      },
+      "new_anchors": {
+        "hands": [
+          196,
+          487
+        ],
+        "wrist": [
+          243,
+          526
+        ],
+        "chest": [
+          705,
+          608
+        ],
+        "fingertip": [
+          155,
+          412
+        ]
+      },
+      "old_review_face": {
+        "x": 531,
+        "y": 340,
+        "w": 197,
+        "h": 123
+      },
+      "new_face": {
+        "x": 534,
+        "y": 320,
+        "w": 200,
+        "h": 120
+      },
+      "anchor_alpha_checks": {
+        "hands": {
+          "point": [
+            196,
+            487
+          ],
+          "alpha": 253,
+          "visible_at_alpha_128": true
+        },
+        "wrist": {
+          "point": [
+            243,
+            526
+          ],
+          "alpha": 253,
+          "visible_at_alpha_128": true
+        },
+        "chest": {
+          "point": [
+            705,
+            608
+          ],
+          "alpha": 254,
+          "visible_at_alpha_128": true
+        },
+        "fingertip": {
+          "point": [
+            155,
+            412
+          ],
+          "alpha": 253,
+          "visible_at_alpha_128": true
+        }
+      },
+      "measurement_note": "Remeasured on native 1199x1312 v6: hands is receiving-palm interior center (not chest-side hand); wrist is receiving-hand base immediately before cuff; chest follows visible sternum/center costume line below the chest-side hand. Fingertip is the uppermost raised digit tip reference, not the line endpoint. Face crop includes bang-covered face, mouth, jaw and upper neck.",
+      "diagnostic_crops": [
+        "data/production-v52final/measurement-diagnostics/A04_02-0.png",
+        "data/production-v52final/measurement-diagnostics/A04_02-1.png"
+      ],
+      "unchanged_geometry_reused": false
+    },
+    {
+      "asset": "A08_01",
+      "base_path": "/assets/astra/v09/A08-01-shadow.png",
+      "review_path": "assets/astra/v13-book-review/A08-01-seated-turn-v5.png",
+      "final_path": "assets/astra/v13-book-review/A08-01-seated-turn-v6-head-redraw.png",
+      "new_source_since_review": true,
+      "source_sha256": "71e54fdff66097fef4cd8e49122b1cc74906dd75a7c63a4b827556977baede72",
+      "bytes": 1984473,
+      "source_size": [
+        1106,
+        1422
+      ],
+      "alpha_bbox_128": [
+        19,
+        6,
+        1101,
+        1417
+      ],
+      "bounds": {
+        "x": 19,
+        "y": 6,
+        "w": 1082,
+        "h": 1411
+      },
+      "old_review_anchors": {
+        "hands": [
+          620,
+          632
+        ],
+        "wrist": [
+          704,
+          658
+        ],
+        "chest": [
+          591,
+          522
+        ],
+        "record": [
+          575,
+          723
+        ],
+        "shoulder": [
+          704,
+          452
+        ]
+      },
+      "new_anchors": {
+        "hands": [
+          618,
+          642
+        ],
+        "wrist": [
+          704,
+          654
+        ],
+        "chest": [
+          582,
+          517
+        ],
+        "record": [
+          600,
+          712
+        ],
+        "shoulder": [
+          702,
+          449
+        ]
+      },
+      "old_review_face": {
+        "x": 468,
+        "y": 278,
+        "w": 175,
+        "h": 121
+      },
+      "new_face": {
+        "x": 466,
+        "y": 289,
+        "w": 168,
+        "h": 115
+      },
+      "anchor_alpha_checks": {
+        "hands": {
+          "point": [
+            618,
+            642
+          ],
+          "alpha": 254,
+          "visible_at_alpha_128": true
+        },
+        "wrist": {
+          "point": [
+            704,
+            654
+          ],
+          "alpha": 253,
+          "visible_at_alpha_128": true
+        },
+        "chest": {
+          "point": [
+            582,
+            517
+          ],
+          "alpha": 254,
+          "visible_at_alpha_128": true
+        },
+        "record": {
+          "point": [
+            600,
+            712
+          ],
+          "alpha": 253,
+          "visible_at_alpha_128": true
+        },
+        "shoulder": {
+          "point": [
+            702,
+            449
+          ],
+          "alpha": 254,
+          "visible_at_alpha_128": true
+        }
+      },
+      "measurement_note": "Remeasured on native 1106x1422 v6: hands is pinching-finger/lifted-leaf contact; wrist is screen-right turning wrist at cuff; record is inside visible reading surface of lifted right leaf; chest follows sternum and shoulder is screen-right skin shoulder. The common face crop includes matching bangs, mouth, jaw and top of neck across v6 book pair.",
+      "diagnostic_crops": [
+        "data/production-v52final/measurement-diagnostics/A08_01-0.png",
+        "data/production-v52final/measurement-diagnostics/A08_01-1.png"
+      ],
+      "unchanged_geometry_reused": false
+    },
+    {
+      "asset": "A08_02",
+      "base_path": "/assets/astra/v09/A08-02-shadow.png",
+      "review_path": "assets/astra/v13-book-review/A08-02-seated-record-v5.png",
+      "final_path": "assets/astra/v13-book-review/A08-02-seated-record-v6-head-redraw.png",
+      "new_source_since_review": true,
+      "source_sha256": "36af57dff7f2875c0a00ee31f5e4d3fde80c22216c8a3f7dcab5240a14ca283a",
+      "bytes": 1964368,
+      "source_size": [
+        1106,
+        1422
+      ],
+      "alpha_bbox_128": [
+        19,
+        7,
+        1103,
+        1417
+      ],
+      "bounds": {
+        "x": 19,
+        "y": 7,
+        "w": 1084,
+        "h": 1410
+      },
+      "old_review_anchors": {
+        "hands": [
+          556,
+          693
+        ],
+        "wrist": [
+          676,
+          628
+        ],
+        "chest": [
+          591,
+          522
+        ],
+        "record": [
+          556,
+          701
+        ],
+        "shoulder": [
+          704,
+          452
+        ]
+      },
+      "new_anchors": {
+        "hands": [
+          572,
+          723
+        ],
+        "wrist": [
+          689,
+          642
+        ],
+        "chest": [
+          582,
+          517
+        ],
+        "record": [
+          576,
+          730
+        ],
+        "shoulder": [
+          702,
+          449
+        ]
+      },
+      "old_review_face": {
+        "x": 468,
+        "y": 278,
+        "w": 175,
+        "h": 121
+      },
+      "new_face": {
+        "x": 466,
+        "y": 289,
+        "w": 168,
+        "h": 115
+      },
+      "anchor_alpha_checks": {
+        "hands": {
+          "point": [
+            572,
+            723
+          ],
+          "alpha": 254,
+          "visible_at_alpha_128": true
+        },
+        "wrist": {
+          "point": [
+            689,
+            642
+          ],
+          "alpha": 254,
+          "visible_at_alpha_128": true
+        },
+        "chest": {
+          "point": [
+            582,
+            517
+          ],
+          "alpha": 254,
+          "visible_at_alpha_128": true
+        },
+        "record": {
+          "point": [
+            576,
+            730
+          ],
+          "alpha": 253,
+          "visible_at_alpha_128": true
+        },
+        "shoulder": {
+          "point": [
+            702,
+            449
+          ],
+          "alpha": 254,
+          "visible_at_alpha_128": true
+        }
+      },
+      "measurement_note": "Remeasured on native 1106x1422 v6: hands is pointing index tip touching right page; record is 4 px right and 7 px below on the actual flat page; wrist is screen-right pointing wrist inside cuff. Sternum/shoulder and face crop were checked on the new matching body/head and deliberately match v6 turn pose. No old v5 hand/wrist/face coordinates inherited.",
+      "diagnostic_crops": [
+        "data/production-v52final/measurement-diagnostics/A08_02-0.png",
+        "data/production-v52final/measurement-diagnostics/A08_02-1.png"
+      ],
+      "unchanged_geometry_reused": false
+    },
+    {
+      "asset": "surprise",
+      "base_path": "/assets/astra/v06-eye-study/surprise-candidate.png",
+      "review_path": "assets/astra/v17-ending-review/recognition-surprise-knots-perspective-v2.png",
+      "final_path": "assets/astra/v17-ending-review/recognition-surprise-knots-perspective-v2.png",
+      "new_source_since_review": false,
+      "source_sha256": "8f508066335b79f4bb0cc5ac81dbcaba4be0f82271a4c3e1bb519187e76e69dc",
+      "bytes": 1664680,
+      "source_size": [
+        1254,
+        1254
+      ],
+      "alpha_bbox_128": [
+        11,
+        10,
+        1243,
+        1254
+      ],
+      "bounds": {
+        "x": 11,
+        "y": 10,
+        "w": 1232,
+        "h": 1244
+      },
+      "old_review_anchors": {
+        "eyes": [
+          645,
+          631
+        ],
+        "mouth": [
+          648,
+          774
+        ]
+      },
+      "new_anchors": {
+        "eyes": [
+          645,
+          631
+        ],
+        "mouth": [
+          648,
+          774
+        ]
+      },
+      "old_review_face": {
+        "x": 355,
+        "y": 320,
+        "w": 590,
+        "h": 610
+      },
+      "new_face": {
+        "x": 355,
+        "y": 320,
+        "w": 590,
+        "h": 610
+      },
+      "anchor_alpha_checks": {
+        "eyes": {
+          "point": [
+            645,
+            631
+          ],
+          "alpha": 254,
+          "visible_at_alpha_128": true
+        },
+        "mouth": {
+          "point": [
+            648,
+            774
+          ],
+          "alpha": 254,
+          "visible_at_alpha_128": true
+        }
+      },
+      "measurement_note": "Unchanged source and matching face crop retained from the actual first-round independent review render: includes bangs, eyes, mouth, chin and some collar, excludes horn tips. Current user authorization now includes final integration; final renderer validation remains separate.",
+      "diagnostic_crops": [],
+      "unchanged_geometry_reused": true
+    },
+    {
+      "asset": "sitSmile",
+      "base_path": "/assets/astra/v06-eye-study/smile-candidate.png",
+      "review_path": "assets/astra/v17-ending-review/recognition-smile-knots-perspective-v2.png",
+      "final_path": "assets/astra/v17-ending-review/recognition-smile-knots-perspective-v2.png",
+      "new_source_since_review": false,
+      "source_sha256": "e77695402069392baa30a451e72711d87e07cc677d80a334fa3adc1cdb9b2b01",
+      "bytes": 1694574,
+      "source_size": [
+        1254,
+        1254
+      ],
+      "alpha_bbox_128": [
+        11,
+        11,
+        1243,
+        1254
+      ],
+      "bounds": {
+        "x": 11,
+        "y": 11,
+        "w": 1232,
+        "h": 1243
+      },
+      "old_review_anchors": {
+        "eyes": [
+          645,
+          643
+        ],
+        "mouth": [
+          654,
+          777
+        ]
+      },
+      "new_anchors": {
+        "eyes": [
+          645,
+          643
+        ],
+        "mouth": [
+          654,
+          777
+        ]
+      },
+      "old_review_face": {
+        "x": 355,
+        "y": 320,
+        "w": 590,
+        "h": 610
+      },
+      "new_face": {
+        "x": 355,
+        "y": 320,
+        "w": 590,
+        "h": 610
+      },
+      "anchor_alpha_checks": {
+        "eyes": {
+          "point": [
+            645,
+            643
+          ],
+          "alpha": 254,
+          "visible_at_alpha_128": true
+        },
+        "mouth": {
+          "point": [
+            654,
+            777
+          ],
+          "alpha": 253,
+          "visible_at_alpha_128": true
+        }
+      },
+      "measurement_note": "Unchanged source and matching face crop retained from the actual first-round independent review render: includes bangs, eyes, mouth, chin and some collar, excludes horn tips. Current user authorization now includes final integration; final renderer validation remains separate.",
+      "diagnostic_crops": [],
+      "unchanged_geometry_reused": true
+    },
+    {
+      "asset": "A02_01",
+      "base_path": "/assets/astra/v09/A02-01-inkface.png",
+      "review_path": "assets/astra/v14-boundary-review/A02-01-approach-knots-perspective-v2.png",
+      "final_path": "assets/astra/v14-boundary-review/A02-01-approach-v3-leg-redraw.png",
+      "new_source_since_review": true,
+      "source_sha256": "726880792942ff23853b32e8df13f593af9a16eaecf333d01e0f13f59f45b430",
+      "bytes": 1653393,
+      "source_size": [
+        1189,
+        1323
+      ],
+      "alpha_bbox_128": [
+        35,
+        8,
+        1128,
+        1311
+      ],
+      "bounds": {
+        "x": 35,
+        "y": 8,
+        "w": 1093,
+        "h": 1303
+      },
+      "old_review_anchors": {
+        "hands": [
+          1061,
+          350
+        ],
+        "wrist": [
+          1020,
+          379
+        ],
+        "eyes": [
+          699,
+          242
+        ]
+      },
+      "new_anchors": {
+        "hands": [
+          1035,
+          374
+        ],
+        "wrist": [
+          998,
+          401
+        ],
+        "eyes": [
+          748,
+          245
+        ]
+      },
+      "old_review_face": {
+        "x": 638,
+        "y": 201,
+        "w": 113,
+        "h": 102
+      },
+      "new_face": {
+        "x": 682,
+        "y": 216,
+        "w": 110,
+        "h": 107
+      },
+      "anchor_alpha_checks": {
+        "hands": {
+          "point": [
+            1035,
+            374
+          ],
+          "alpha": 254,
+          "visible_at_alpha_128": true
+        },
+        "wrist": {
+          "point": [
+            998,
+            401
+          ],
+          "alpha": 253,
+          "visible_at_alpha_128": true
+        },
+        "eyes": {
+          "point": [
+            748,
+            245
+          ],
+          "alpha": 253,
+          "visible_at_alpha_128": true
+        }
+      },
+      "measurement_note": "Remeasured on native 1189x1323 v3: hands is reaching palm center, wrist is reaching-hand base/cuff. Legacy key eyes is a face-focus proxy on dark face below bangs; no visible iris is invented. Face crop follows newly turned cheek/jaw silhouette. Raised chest hand is not the reach anchor.",
+      "diagnostic_crops": [
+        "data/production-v52final/measurement-diagnostics/A02_01-0.png",
+        "data/production-v52final/measurement-diagnostics/A02_01-1.png"
+      ],
+      "unchanged_geometry_reused": false
+    },
+    {
+      "asset": "A02_02",
+      "base_path": "/assets/astra/v09/A02-02-inkface.png",
+      "review_path": "assets/astra/v14-boundary-review/A02-02-contact-v6-perspective.png",
+      "final_path": "assets/astra/v14-boundary-review/A02-02-contact-v6-perspective.png",
+      "new_source_since_review": false,
+      "source_sha256": "b393e4c3218a53c8be5089684a6958e3ee9dfdca0907f8cf928ac3ba28e4488e",
+      "bytes": 1691631,
+      "source_size": [
+        1189,
+        1323
+      ],
+      "alpha_bbox_128": [
+        37,
+        8,
+        1111,
+        1310
+      ],
+      "bounds": {
+        "x": 37,
+        "y": 8,
+        "w": 1074,
+        "h": 1302
+      },
+      "old_review_anchors": {
+        "hands": [
+          1105,
+          347
+        ],
+        "wrist": [
+          1041,
+          405
+        ],
+        "eyes": [
+          740,
+          259
+        ]
+      },
+      "new_anchors": {
+        "hands": [
+          1105,
+          347
+        ],
+        "wrist": [
+          1041,
+          405
+        ],
+        "eyes": [
+          740,
+          259
+        ]
+      },
+      "old_review_face": {
+        "x": 692,
+        "y": 225,
+        "w": 87,
+        "h": 91
+      },
+      "new_face": {
+        "x": 692,
+        "y": 225,
+        "w": 87,
+        "h": 91
+      },
+      "anchor_alpha_checks": {
+        "hands": {
+          "point": [
+            1105,
+            347
+          ],
+          "alpha": 253,
+          "visible_at_alpha_128": true
+        },
+        "wrist": {
+          "point": [
+            1041,
+            405
+          ],
+          "alpha": 253,
+          "visible_at_alpha_128": true
+        },
+        "eyes": {
+          "point": [
+            740,
+            259
+          ],
+          "alpha": 253,
+          "visible_at_alpha_128": true
+        }
+      },
+      "measurement_note": "Boundary contact point on outer thumb/palm contour; fingers extend only 5 source px farther. Wrist at the cuff. Measured on native contact-v6, no old anchors.",
+      "diagnostic_crops": [],
+      "unchanged_geometry_reused": true
+    },
+    {
+      "asset": "A02_03",
+      "base_path": "/assets/astra/v09/A02-03-inkface.png",
+      "review_path": "assets/astra/v14-boundary-review/A02-03-withdraw-knots-perspective-v2.png",
+      "final_path": "assets/astra/v14-boundary-review/A02-03-withdraw-v3-leg-redraw.png",
+      "new_source_since_review": true,
+      "source_sha256": "a80a3aa018db6e0e6d91a10a3cef7a2042d34e7a448248d29cfc0df27d4f0486",
+      "bytes": 1512003,
+      "source_size": [
+        1189,
+        1323
+      ],
+      "alpha_bbox_128": [
+        32,
+        8,
+        1088,
+        1312
+      ],
+      "bounds": {
+        "x": 32,
+        "y": 8,
+        "w": 1056,
+        "h": 1304
+      },
+      "old_review_anchors": {
+        "hands": [
+          713,
+          378
+        ],
+        "wrist": [
+          739,
+          420
+        ],
+        "eyes": [
+          689,
+          281
+        ]
+      },
+      "new_anchors": {
+        "hands": [
+          739,
+          365
+        ],
+        "wrist": [
+          766,
+          401
+        ],
+        "eyes": [
+          725,
+          264
+        ]
+      },
+      "old_review_face": {
+        "x": 630,
+        "y": 241,
+        "w": 113,
+        "h": 108
+      },
+      "new_face": {
+        "x": 666,
+        "y": 224,
+        "w": 112,
+        "h": 104
+      },
+      "anchor_alpha_checks": {
+        "hands": {
+          "point": [
+            739,
+            365
+          ],
+          "alpha": 254,
+          "visible_at_alpha_128": true
+        },
+        "wrist": {
+          "point": [
+            766,
+            401
+          ],
+          "alpha": 254,
+          "visible_at_alpha_128": true
+        },
+        "eyes": {
+          "point": [
+            725,
+            264
+          ],
+          "alpha": 254,
+          "visible_at_alpha_128": true
+        }
+      },
+      "measurement_note": "Remeasured on native 1189x1323 v3: hands is the raised withdrawn hand below chin, wrist is that hand's cuff base. Does not track separate hanging near hand. Legacy eyes key is a dark-face focus proxy under bangs, not a visible eye. Face crop follows new jaw/cheek.",
+      "diagnostic_crops": [
+        "data/production-v52final/measurement-diagnostics/A02_03-0.png"
+      ],
+      "unchanged_geometry_reused": false
+    },
+    {
+      "asset": "A07_01",
+      "base_path": "/assets/astra/v09/A07-01-shadow.png",
+      "review_path": "assets/astra/v15-refusal-review/A07-01-request-knots-perspective-v2.png",
+      "final_path": "assets/astra/v15-refusal-review/A07-01-request-knots-perspective-v2.png",
+      "new_source_since_review": false,
+      "source_sha256": "d3716551e89c0f3259bdebb4378124ddc23345700f5b4c09c77ef5feef1af8a8",
+      "bytes": 2017979,
+      "source_size": [
+        1024,
+        1536
+      ],
+      "alpha_bbox_128": [
+        31,
+        14,
+        983,
+        1522
+      ],
+      "bounds": {
+        "x": 31,
+        "y": 14,
+        "w": 952,
+        "h": 1508
+      },
+      "old_review_anchors": {
+        "hands": [
+          929,
+          416
+        ],
+        "wrist": [
+          889,
+          444
+        ],
+        "chest": [
+          574,
+          461
+        ]
+      },
+      "new_anchors": {
+        "hands": [
+          929,
+          416
+        ],
+        "wrist": [
+          889,
+          444
+        ],
+        "chest": [
+          574,
+          461
+        ]
+      },
+      "old_review_face": {
+        "x": 530,
+        "y": 242,
+        "w": 132,
+        "h": 106
+      },
+      "new_face": {
+        "x": 530,
+        "y": 242,
+        "w": 132,
+        "h": 106
+      },
+      "anchor_alpha_checks": {
+        "hands": {
+          "point": [
+            929,
+            416
+          ],
+          "alpha": 254,
+          "visible_at_alpha_128": true
+        },
+        "wrist": {
+          "point": [
+            889,
+            444
+          ],
+          "alpha": 254,
+          "visible_at_alpha_128": true
+        },
+        "chest": {
+          "point": [
+            574,
+            461
+          ],
+          "alpha": 254,
+          "visible_at_alpha_128": true
+        }
+      },
+      "measurement_note": "Extended request palm center and wrist cuff measured on native 1024x1536 candidate.",
+      "diagnostic_crops": [],
+      "unchanged_geometry_reused": true
+    },
+    {
+      "asset": "A07_02",
+      "base_path": "/assets/astra/v09/A07-02-shadow.png",
+      "review_path": "assets/astra/v15-refusal-review/A07-02-contact-knots-perspective-v5-alpha.png",
+      "final_path": "assets/astra/v15-refusal-review/A07-02-contact-knots-perspective-v5-alpha.png",
+      "new_source_since_review": false,
+      "source_sha256": "66d270bbb771ed348449fc9b112514eb6ce34c3c29bebf5920b0f067cf35685f",
+      "bytes": 2052523,
+      "source_size": [
+        1024,
+        1536
+      ],
+      "alpha_bbox_128": [
+        23,
+        19,
+        1007,
+        1519
+      ],
+      "bounds": {
+        "x": 23,
+        "y": 19,
+        "w": 984,
+        "h": 1500
+      },
+      "old_review_anchors": {
+        "hands": [
+          997,
+          410
+        ],
+        "wrist": [
+          954,
+          450
+        ],
+        "chest": [
+          647,
+          474
+        ]
+      },
+      "new_anchors": {
+        "hands": [
+          997,
+          410
+        ],
+        "wrist": [
+          954,
+          450
+        ],
+        "chest": [
+          647,
+          474
+        ]
+      },
+      "old_review_face": {
+        "x": 626,
+        "y": 263,
+        "w": 132,
+        "h": 105
+      },
+      "new_face": {
+        "x": 626,
+        "y": 263,
+        "w": 132,
+        "h": 105
+      },
+      "anchor_alpha_checks": {
+        "hands": {
+          "point": [
+            997,
+            410
+          ],
+          "alpha": 253,
+          "visible_at_alpha_128": true
+        },
+        "wrist": {
+          "point": [
+            954,
+            450
+          ],
+          "alpha": 254,
+          "visible_at_alpha_128": true
+        },
+        "chest": {
+          "point": [
+            647,
+            474
+          ],
+          "alpha": 254,
+          "visible_at_alpha_128": true
+        }
+      },
+      "measurement_note": "Rechecked on imagegen alpha-extraction v5: hands is outer palm/thumb contact contour, wrist at cuff. Source-only alpha repair; body placement uses newly computed alpha bounds.",
+      "diagnostic_crops": [],
+      "unchanged_geometry_reused": true
+    },
+    {
+      "asset": "A07_03",
+      "base_path": "/assets/astra/v09/A07-03-shadow.png",
+      "review_path": "assets/astra/v15-refusal-review/A07-03-retreat-knots-perspective-v2.png",
+      "final_path": "assets/astra/v15-refusal-review/A07-03-retreat-knots-perspective-v2.png",
+      "new_source_since_review": false,
+      "source_sha256": "83bb617d5a33accab7353c21184e65a8dc82b43ba7ae1d75cadc16a2befd0d35",
+      "bytes": 1919227,
+      "source_size": [
+        1024,
+        1536
+      ],
+      "alpha_bbox_128": [
+        61,
+        11,
+        965,
+        1512
+      ],
+      "bounds": {
+        "x": 61,
+        "y": 11,
+        "w": 904,
+        "h": 1501
+      },
+      "old_review_anchors": {
+        "hands": [
+          736,
+          418
+        ],
+        "wrist": [
+          745,
+          473
+        ],
+        "chest": [
+          593,
+          461
+        ]
+      },
+      "new_anchors": {
+        "hands": [
+          736,
+          418
+        ],
+        "wrist": [
+          745,
+          473
+        ],
+        "chest": [
+          593,
+          461
+        ]
+      },
+      "old_review_face": {
+        "x": 542,
+        "y": 247,
+        "w": 131,
+        "h": 102
+      },
+      "new_face": {
+        "x": 542,
+        "y": 247,
+        "w": 131,
+        "h": 102
+      },
+      "anchor_alpha_checks": {
+        "hands": {
+          "point": [
+            736,
+            418
+          ],
+          "alpha": 254,
+          "visible_at_alpha_128": true
+        },
+        "wrist": {
+          "point": [
+            745,
+            473
+          ],
+          "alpha": 254,
+          "visible_at_alpha_128": true
+        },
+        "chest": {
+          "point": [
+            593,
+            461
+          ],
+          "alpha": 254,
+          "visible_at_alpha_128": true
+        }
+      },
+      "measurement_note": "Retreat palm center and lower cuff of raised far hand; does not reuse previous extended-palm coordinates.",
+      "diagnostic_crops": [],
+      "unchanged_geometry_reused": true
+    },
+    {
+      "asset": "recoil",
+      "base_path": "/assets/astra/v07/recoil-knot.png",
+      "review_path": "assets/astra/v16-withdraw-review/recoil-redraw-knots-perspective-v2.png",
+      "final_path": "assets/astra/v16-withdraw-review/recoil-redraw-knots-perspective-v2.png",
+      "new_source_since_review": false,
+      "source_sha256": "85ce8c1b6fa88ec3c2ac9c0cb43e0694b2ec28ed2a1c9507fda64c675334bbca",
+      "bytes": 1719856,
+      "source_size": [
+        1254,
+        1254
+      ],
+      "alpha_bbox_128": [
+        71,
+        5,
+        1182,
+        1254
+      ],
+      "bounds": {
+        "x": 71,
+        "y": 5,
+        "w": 1111,
+        "h": 1249
+      },
+      "old_review_anchors": {
+        "hands": [
+          431,
+          474
+        ],
+        "wrist": [
+          451,
+          558
+        ],
+        "grasp": [
+          462,
+          627
+        ]
+      },
+      "new_anchors": {
+        "hands": [
+          431,
+          474
+        ],
+        "wrist": [
+          451,
+          558
+        ],
+        "grasp": [
+          462,
+          627
+        ]
+      },
+      "old_review_face": {
+        "x": 537,
+        "y": 321,
+        "w": 179,
+        "h": 124
+      },
+      "new_face": {
+        "x": 537,
+        "y": 321,
+        "w": 179,
+        "h": 124
+      },
+      "anchor_alpha_checks": {
+        "hands": {
+          "point": [
+            431,
+            474
+          ],
+          "alpha": 254,
+          "visible_at_alpha_128": true
+        },
+        "wrist": {
+          "point": [
+            451,
+            558
+          ],
+          "alpha": 253,
+          "visible_at_alpha_128": true
+        },
+        "grasp": {
+          "point": [
+            462,
+            627
+          ],
+          "alpha": 253,
+          "visible_at_alpha_128": true
+        }
+      },
+      "measurement_note": "Wrist is exposed left-screen wrist/cuff immediately below raised palm; grasp identifies the other hand around the forearm.",
+      "diagnostic_crops": [],
+      "unchanged_geometry_reused": true
+    }
+  ],
+  "render_performed": false,
+  "full_export_performed": false,
+  "runtime_checks_required": [
+    "All final sources load with no JS errors",
+    "New A04_02 gold endpoint/palm and chest path across all 429 R40-R43 frames",
+    "New A02 R23 contact stages and scale/crop",
+    "New A08 book-page record marker and source-point contacts",
+    "Source alpha/traced silhouette composition and final encoded frames"
+  ],
+  "limits": [
+    "Manual semantic anchor localization is not subpixel anatomical certification. Approximate uncertainty is 3-8 native pixels for contact/center points.",
+    "All points are visible source pixels, but visibility alone does not prove runtime compositing alignment; final render must be inspected.",
+    "Face keys for ordinary dark-face artwork frame face geometry; eyes keys in A02 are focus proxies, not claims of visible eyes."
+  ]
+}

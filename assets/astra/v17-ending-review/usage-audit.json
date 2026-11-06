@@ -1,0 +1,168 @@
+{
+  "status": "review_only_not_integrated",
+  "date": "2026-11-06",
+  "current_entry": "src/mv5cat/index.html",
+  "current_manifest": "assets/astra/v12-approved-cat/manifest.json",
+  "keys": [
+    "surprise",
+    "sitSmile"
+  ],
+  "current_source_entries": {
+    "surprise": {
+      "path": "/assets/astra/v06-eye-study/surprise-candidate.png",
+      "face": {
+        "x": 415,
+        "y": 125,
+        "w": 380,
+        "h": 310
+      },
+      "anchors": {
+        "hands": [
+          790,
+          715
+        ],
+        "pen": [
+          944,
+          778
+        ]
+      }
+    },
+    "sitSmile": {
+      "path": "/assets/astra/v06-eye-study/smile-candidate.png",
+      "face": {
+        "x": 415,
+        "y": 125,
+        "w": 380,
+        "h": 310
+      },
+      "anchors": {
+        "hands": [
+          790,
+          715
+        ],
+        "pen": [
+          944,
+          778
+        ]
+      }
+    }
+  },
+  "source_reference": {
+    "file": "src/mv5cat/late.js",
+    "line": 453,
+    "function": "recognition",
+    "shot": "R86",
+    "condition": "Called only for song 209.18 <= t < 211; surprise before 210.06, sitSmile after."
+  },
+  "current_late_sha256": "00bd27b75d47650f09c951b85232997406fc61c6edb77807ae17498ae02e168b",
+  "matches_retained_full_frame_audit_source": true,
+  "evidence_audit": "docs/validation/astra-v5-reuse-audit.json",
+  "evidence_sha256": "127ff02a7036afc210488fa99aa2867145ee83b6257c3aa7643f83ce441e3ca2",
+  "assets": [
+    {
+      "name": "sitSmile",
+      "path": "/assets/astra/v06-eye-study/smile-candidate.png",
+      "frame_submissions": 56,
+      "call_count": 56,
+      "nonzero_alpha_submission_frames": 56,
+      "shots": [
+        "R86"
+      ],
+      "submission_seconds": 0.9333333333333333,
+      "share_of_astra_source_frames": 0.007032525430114279,
+      "is_guest": false
+    },
+    {
+      "name": "surprise",
+      "path": "/assets/astra/v06-eye-study/surprise-candidate.png",
+      "frame_submissions": 53,
+      "call_count": 53,
+      "nonzero_alpha_submission_frames": 53,
+      "shots": [
+        "R86"
+      ],
+      "submission_seconds": 0.8833333333333333,
+      "share_of_astra_source_frames": 0.006655782996358156,
+      "is_guest": false
+    }
+  ],
+  "runs": [
+    {
+      "start_frame": 12551,
+      "end_frame": 12604,
+      "assets": [
+        "surprise"
+      ],
+      "shots": [
+        "R86"
+      ],
+      "seconds": 0.8833333333333333,
+      "song_start": 209.18333333333334,
+      "song_end": 210.06666666666666,
+      "full_video_start_s": 214.18333333333334,
+      "full_video_end_s": 215.06666666666666
+    },
+    {
+      "start_frame": 12604,
+      "end_frame": 12660,
+      "assets": [
+        "sitSmile"
+      ],
+      "shots": [
+        "R86"
+      ],
+      "seconds": 0.9333333333333333,
+      "song_start": 210.06666666666666,
+      "song_end": 211,
+      "full_video_start_s": 215.06666666666666,
+      "full_video_end_s": 216
+    }
+  ],
+  "R85_and_R86_current_assets": [
+    {
+      "id": "R85",
+      "assets": {
+        "A14_01": {
+          "submission_frames": 83,
+          "submission_seconds": 1.3833333333333333
+        },
+        "A14_02": {
+          "submission_frames": 61,
+          "submission_seconds": 1.0166666666666666
+        }
+      }
+    },
+    {
+      "id": "R86",
+      "assets": {
+        "A14_02": {
+          "submission_frames": 426,
+          "submission_seconds": 7.1
+        },
+        "surprise": {
+          "submission_frames": 53,
+          "submission_seconds": 0.8833333333333333
+        },
+        "sitSmile": {
+          "submission_frames": 56,
+          "submission_seconds": 0.9333333333333333
+        },
+        "A14_01": {
+          "submission_frames": 56,
+          "submission_seconds": 0.9333333333333333
+        },
+        "A14_03": {
+          "submission_frames": 165,
+          "submission_seconds": 2.75
+        }
+      }
+    }
+  ],
+  "notes": [
+    "R85 does not submit either face artwork; both expression source keys occur only in R86.",
+    "All use counts are source-drawing submissions, not pixel visibility or manual viewing of every frame.",
+    "No lyrics during these expression shots: bilingual display has already cleared at song 208s.",
+    "Existing source entries use face crop x415/y125/w380/h310 from seated full illustrations. New complete head-and-shoulders portrait dimensions differ; old face crop must not be reused without new framing inspection.",
+    "User review remains pending. No production source, manifest, timeline, crop or video changed."
+  ]
+}

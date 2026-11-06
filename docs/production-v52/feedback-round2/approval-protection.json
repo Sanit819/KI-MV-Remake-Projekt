@@ -1,0 +1,34 @@
+{
+  "date": "2026-11-06",
+  "user_text": "点读态头也歪了；其他的ok",
+  "scope": "Four new static sources shown on round2 page; point-read head excluded",
+  "approved_static_sources": [
+    {
+      "slot": "A08_01",
+      "path": "assets/astra/v13-book-review/A08-01-seated-turn-v6-head-redraw.png",
+      "sha256": "71e54fdff66097fef4cd8e49122b1cc74906dd75a7c63a4b827556977baede72",
+      "matches": true
+    },
+    {
+      "slot": "A02_01",
+      "path": "assets/astra/v14-boundary-review/A02-01-approach-v3-leg-redraw.png",
+      "sha256": "726880792942ff23853b32e8df13f593af9a16eaecf333d01e0f13f59f45b430",
+      "matches": true
+    },
+    {
+      "slot": "A02_03",
+      "path": "assets/astra/v14-boundary-review/A02-03-withdraw-v3-leg-redraw.png",
+      "sha256": "a80a3aa018db6e0e6d91a10a3cef7a2042d34e7a448248d29cfc0df27d4f0486",
+      "matches": true
+    },
+    {
+      "slot": "A04_02",
+      "path": "assets/astra/v18-wave-hand-review/A04-02-wave-receive-v6-hand-redraw.png",
+      "sha256": "63f2c6192072abb12a2ff55e5970c0783fa074ed9ee4c626d8913774c33cd443",
+      "matches": true
+    }
+  ],
+  "protected_original_files_checked": 23,
+  "changed_original_files": [],
+  "production_integrated": false
+}

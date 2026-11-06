@@ -1,0 +1,260 @@
+{
+  "status": "rejected-by-user-perspective-not-integrated",
+  "user_feedback": "不能这样直接贴上来，要符合透视啊",
+  "overall_asset_verdict": "REJECTED: six-band structure readability did not establish correct attachment-plane perspective.",
+  "perspective_review_document": "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v14-boundary-review/CONTACT_V4_PERSPECTIVE_REJECTION.md",
+  "approved_anatomy_baseline": "A02-02-contact-v2.png, explicitly approved by user before ornament edits",
+  "generator": "built-in image_gen",
+  "generation_intent": "Fix only eight failed GPT ornaments in contact-v3; preserve already-correct hair ornament, body and pose. No source SVG pasted into final image.",
+  "path": "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v14-boundary-review/A02-02-contact-v4-knots.png",
+  "source": "C:/Users/auscar/.codex/generated_images/01a1acd5-4240-7a52-bce1-fcd2e1dc582b/exec-c3acc13d-03d2-48e8-ac3b-dfa513aee4d4.png",
+  "sha256": "52f40cda5630449e111d8da51980e0df6130ee64a72e5aa72280e4f10eb5ee6a",
+  "source_sha256": "52f40cda5630449e111d8da51980e0df6130ee64a72e5aa72280e4f10eb5ee6a",
+  "bytes": 1592775,
+  "width": 1189,
+  "height": 1323,
+  "mode": "RGBA",
+  "alpha_range": [
+    0,
+    255
+  ],
+  "fully_transparent_pixels": 789525,
+  "alpha_gt15_bbox": [
+    36,
+    9,
+    1102,
+    1310
+  ],
+  "prompt_path": "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v14-boundary-review/A02-02-contact-v4-knots.prompt.txt",
+  "prompt_sha256": "c5ecf8857d9d62b41855212b45b1b92ac61b85309374a7d97cc02e5f487055ee",
+  "generation_reference_paths": [
+    "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v14-boundary-review/A02-02-contact-v3-knot.png",
+    "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v02/openai-openwork.png"
+  ],
+  "positions": [
+    {
+      "site": "hair",
+      "inspection_crop_xyxy": [
+        755,
+        115,
+        845,
+        205
+      ],
+      "v3_verdict": "pass",
+      "v3_reason": "Six interwoven bands and central hexagonal opening were already legible; preserve requested.",
+      "v4_structure_verdict": "six-band-structure-readable-at-magnification-only",
+      "v4_perspective_verdict": "not-accepted; see complete-figure perspective review",
+      "v4_observation": "Six outer interwoven band loops and central hexagonal negative space are readable; no pinwheel/petal hub or backing circle.",
+      "requested_change": false
+    },
+    {
+      "site": "arm-left",
+      "inspection_crop_xyxy": [
+        560,
+        365,
+        635,
+        440
+      ],
+      "v3_verdict": "fail",
+      "v3_reason": "Curled petals meet at filled central point, not a hexagonal open knot.",
+      "v4_structure_verdict": "six-band-structure-readable-at-magnification-only",
+      "v4_perspective_verdict": "not-accepted; see complete-figure perspective review",
+      "v4_observation": "Six outer interwoven band loops and central hexagonal negative space are readable; no pinwheel/petal hub or backing circle.",
+      "requested_change": true
+    },
+    {
+      "site": "arm-right",
+      "inspection_crop_xyxy": [
+        770,
+        355,
+        845,
+        430
+      ],
+      "v3_verdict": "fail",
+      "v3_reason": "Compressed pinwheel lacks canonical six-band construction and central hexagon.",
+      "v4_structure_verdict": "six-band-structure-readable-at-magnification-only",
+      "v4_perspective_verdict": "not-accepted; see complete-figure perspective review",
+      "v4_observation": "Six outer interwoven band loops and central hexagonal negative space are readable; no pinwheel/petal hub or backing circle.",
+      "requested_change": true
+    },
+    {
+      "site": "waist-near",
+      "inspection_crop_xyxy": [
+        575,
+        530,
+        680,
+        635
+      ],
+      "v3_verdict": "fail",
+      "v3_reason": "Large curled flower-like hub rather than open hexagonal negative space.",
+      "v4_structure_verdict": "six-band-structure-readable-at-magnification-only",
+      "v4_perspective_verdict": "not-accepted; see complete-figure perspective review",
+      "v4_observation": "Six outer interwoven band loops and central hexagonal negative space are readable; no pinwheel/petal hub or backing circle.",
+      "requested_change": true
+    },
+    {
+      "site": "waist-far",
+      "inspection_crop_xyxy": [
+        675,
+        545,
+        735,
+        625
+      ],
+      "v3_verdict": "fail",
+      "v3_reason": "Foreshortening does not explain missing six-band structure and central opening.",
+      "v4_structure_verdict": "six-band-structure-readable-at-magnification-only",
+      "v4_perspective_verdict": "not-accepted; see complete-figure perspective review",
+      "v4_observation": "Six outer interwoven band loops and central hexagonal negative space are readable; no pinwheel/petal hub or backing circle.",
+      "requested_change": true
+    },
+    {
+      "site": "hem-left",
+      "inspection_crop_xyxy": [
+        215,
+        1068,
+        300,
+        1153
+      ],
+      "v3_verdict": "fail",
+      "v3_reason": "Spiral petals rather than interwoven six-band knot.",
+      "v4_structure_verdict": "six-band-structure-readable-at-magnification-only",
+      "v4_perspective_verdict": "not-accepted; see complete-figure perspective review",
+      "v4_observation": "Six outer interwoven band loops and central hexagonal negative space are readable; no pinwheel/petal hub or backing circle.",
+      "requested_change": true
+    },
+    {
+      "site": "hem-right",
+      "inspection_crop_xyxy": [
+        710,
+        1093,
+        790,
+        1173
+      ],
+      "v3_verdict": "fail",
+      "v3_reason": "Spiral petals with filled center.",
+      "v4_structure_verdict": "six-band-structure-readable-at-magnification-only",
+      "v4_perspective_verdict": "not-accepted; see complete-figure perspective review",
+      "v4_observation": "Six outer interwoven band loops and central hexagonal negative space are readable; no pinwheel/petal hub or backing circle.",
+      "requested_change": true
+    },
+    {
+      "site": "shoe-rear",
+      "inspection_crop_xyxy": [
+        455,
+        1178,
+        520,
+        1243
+      ],
+      "v3_verdict": "fail",
+      "v3_reason": "Magnification confirms vortex, not a canonical six-band knot.",
+      "v4_structure_verdict": "six-band-structure-readable-at-magnification-only",
+      "v4_perspective_verdict": "not-accepted; see complete-figure perspective review",
+      "v4_observation": "Six outer interwoven band loops and central hexagonal negative space are readable; no pinwheel/petal hub or backing circle.",
+      "requested_change": true
+    },
+    {
+      "site": "shoe-near",
+      "inspection_crop_xyxy": [
+        695,
+        1242,
+        775,
+        1322
+      ],
+      "v3_verdict": "fail",
+      "v3_reason": "Small pinwheel; size does not excuse incorrect topology.",
+      "v4_structure_verdict": "six-band-structure-readable-at-magnification-only",
+      "v4_perspective_verdict": "not-accepted; see complete-figure perspective review",
+      "v4_observation": "Six outer interwoven band loops and central hexagonal negative space are readable; no pinwheel/petal hub or backing circle.",
+      "requested_change": true
+    }
+  ],
+  "visual_review": {
+    "full_image_reviewed": true,
+    "all_nine_positions_individually_magnified": true,
+    "small_shoe_emblems_individually_checked": true,
+    "human_pose_assessment": "Approved near-leg support and occluded rear-leg relation remain visually the same; no new anatomical pose was requested or observed.",
+    "boundary": "Prior magnified raster STRUCTURE review only. User rejected v4 perspective: marks remain too frontal and do not follow head/arm/waist/cloth/shoe planes. Overall artwork is not accepted."
+  },
+  "difference_method": "Raw same-canvas comparison without alignment/warping; compare RGB premultiplied by alpha over black. Silhouette IoU uses alpha>128. Source color and antialiasing drift is explicitly measured, not hidden by restoring baseline pixels.",
+  "difference_vs_immediate_v3": {
+    "baseline": "A02-02-contact-v3-knot.png",
+    "pixel_identical_outside_edited_rois": false,
+    "outside_roi_visible_union_pixels": 716496,
+    "outside_roi_mean_max_abs_premultiplied_rgb_difference_0_to_255": 19.40594501629061,
+    "outside_roi_percent_visible_pixels_difference_gt8": 37.34075277461423,
+    "outside_roi_percent_visible_pixels_difference_gt32": 16.11313950112771,
+    "outside_roi_difference_gt8_bbox_xyxy": [
+      35,
+      8,
+      1102,
+      1306
+    ],
+    "outside_roi_alpha_gt128_silhouette_iou": 0.9838487812517195,
+    "body_below_y300_alpha_gt128_silhouette_iou": 0.9861480664152318
+  },
+  "difference_vs_user_approved_v2": {
+    "baseline": "A02-02-contact-v2.png",
+    "pixel_identical_outside_edited_rois": false,
+    "outside_roi_visible_union_pixels": 709812,
+    "outside_roi_mean_max_abs_premultiplied_rgb_difference_0_to_255": 31.35188953098103,
+    "outside_roi_percent_visible_pixels_difference_gt8": 58.01324857849684,
+    "outside_roi_percent_visible_pixels_difference_gt32": 24.55227581387748,
+    "outside_roi_difference_gt8_bbox_xyxy": [
+      36,
+      9,
+      1102,
+      1305
+    ],
+    "outside_roi_alpha_gt128_silhouette_iou": 0.9684163922710843,
+    "body_below_y300_alpha_gt128_silhouette_iou": 0.971446788130937
+  },
+  "pixel_lock_achieved": false,
+  "pixel_lock_boundary": "Generative output changes linework/color/antialiasing outside ornament ROIs as well. All old source images remain byte-identical; final output is not claimed to preserve their pixels.",
+  "protected_files": [
+    {
+      "path": "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v14-boundary-review/A02-01-approach.png",
+      "sha256_before": "ecd92ec70f34a521cee9a681a928b744d99f234c01f53cd3d0b23e50b4442f27",
+      "sha256_after": "ecd92ec70f34a521cee9a681a928b744d99f234c01f53cd3d0b23e50b4442f27",
+      "unchanged": true
+    },
+    {
+      "path": "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v14-boundary-review/A02-02-contact.png",
+      "sha256_before": "b4448c6c6cb6032dbe3915ef91a7aa618d4e8f217a731e088ff16c85b6996d79",
+      "sha256_after": "b4448c6c6cb6032dbe3915ef91a7aa618d4e8f217a731e088ff16c85b6996d79",
+      "unchanged": true
+    },
+    {
+      "path": "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v14-boundary-review/A02-02-contact-v2.png",
+      "sha256_before": "461e4f04df416c66e1d8129861f3714ebd010b4c5778d2229c720f391a13b200",
+      "sha256_after": "461e4f04df416c66e1d8129861f3714ebd010b4c5778d2229c720f391a13b200",
+      "unchanged": true
+    },
+    {
+      "path": "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v14-boundary-review/A02-02-contact-v3-knot.png",
+      "sha256_before": "cc68d3139ab8243d3257d02276ce2da55cc1937f427f44c380ba48d717aa199e",
+      "sha256_after": "cc68d3139ab8243d3257d02276ce2da55cc1937f427f44c380ba48d717aa199e",
+      "unchanged": true
+    },
+    {
+      "path": "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v14-boundary-review/A02-03-withdraw.png",
+      "sha256_before": "13766afc9a82de875e1b1bce5f1a48c317506d1a926dc953ca0bbefcf7f3ae85",
+      "sha256_after": "13766afc9a82de875e1b1bce5f1a48c317506d1a926dc953ca0bbefcf7f3ae85",
+      "unchanged": true
+    }
+  ],
+  "validation": {
+    "raw_generated_source_matches_workspace_copy": true,
+    "all_five_protected_images_unchanged": true,
+    "same_rgba_dimensions_as_approved_v2": true,
+    "real_alpha_transparency": true,
+    "four_corners_alpha_zero": true,
+    "visible_subject_inside_canvas": true
+  },
+  "inspection_artifacts": [
+    "contact-v3-all-knots-inspection.png",
+    "contact-v4-all-knots-inspection.png",
+    "contact-v4-vs-approved-v2-legs-qa.png"
+  ],
+  "inspection_boundary": "Diagnostic crops/magnifications only; final PNG is the unchanged generated source, not a code-composited or locally repaired image.",
+  "production_manifest_or_src_modified": false
+}

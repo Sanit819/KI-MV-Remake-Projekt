@@ -1,0 +1,74 @@
+{
+  "date": "2026-11-06",
+  "candidate": "assets/astra/v15-refusal-review/A07-02-contact-knots-perspective-v5-alpha.png",
+  "candidate_sha256": "66d270bbb771ed348449fc9b112514eb6ce34c3c29bebf5920b0f067cf35685f",
+  "status": "native_4k_sampled_composites_pass_exterior_alpha_check",
+  "reviewers": [
+    "audio_accents",
+    "lighting_finish"
+  ],
+  "current_independent_manifest_sha256": "22884f892abac0800b8422887d52d7c19b0607ec200207fa21bfcfa41b1f9bb4",
+  "images": [
+    {
+      "path": "exports/preview-v52-combination/stills-alpha-fixed/source-132.500.png",
+      "sha256": "4ba0080c3dcbfa3952c825cd6fe8a3cebc452203710bb2bd3077a7d3fae7a4be",
+      "size": [
+        3840,
+        2160
+      ],
+      "body_time": 132.5,
+      "full_film_time": 137.5,
+      "shot": "R53",
+      "actionAsset": "A07_02",
+      "runtime_audit": "exports/preview-v52-combination/stills-alpha-fixed/source-132.500.audit.json",
+      "viewed": true,
+      "observation": "No broad detached black exterior blocks observed; character silhouette and placement visually coherent."
+    },
+    {
+      "path": "exports/preview-v52-combination/stills-alpha-fixed/source-133.400.png",
+      "sha256": "a7e411dcaa545df324f4cb503e4c7a89dd287df4b5e3c0527e65cc5d7fd11991",
+      "size": [
+        3840,
+        2160
+      ],
+      "body_time": 133.4,
+      "full_film_time": 138.4,
+      "shot": "R54",
+      "actionAsset": "A07_02",
+      "runtime_audit": "exports/preview-v52-combination/stills-alpha-fixed/source-133.400.audit.json",
+      "viewed": true,
+      "observation": "No broad detached black exterior blocks observed; character silhouette and placement visually coherent."
+    },
+    {
+      "path": "exports/preview-v52-combination/stills-candidates/source-131.400.png",
+      "sha256": "4e6c62b0bfed364301cd2207fd494fb7bbbf54a5a6fd8713e55bc5e8d76281db",
+      "size": [
+        3840,
+        2160
+      ],
+      "body_time": 131.4,
+      "full_film_time": 136.4,
+      "shot": "R53",
+      "actionAsset": "A07_01",
+      "runtime_audit": "exports/preview-v52-combination/stills-candidates/source-131.400.audit.json",
+      "viewed": true,
+      "observation": "No broad detached black exterior blocks observed; character silhouette and placement visually coherent."
+    },
+    {
+      "path": "exports/preview-v52-combination/stills-candidates/source-135.400.png",
+      "sha256": "f4a9e00a9956ed068d6e46a1e219117bc9c8bdd6574b614aab330450e0c15adf",
+      "size": [
+        3840,
+        2160
+      ],
+      "body_time": 135.4,
+      "full_film_time": 140.4,
+      "shot": "R54",
+      "actionAsset": "A07_03",
+      "runtime_audit": "exports/preview-v52-combination/stills-candidates/source-135.400.audit.json",
+      "viewed": true,
+      "observation": "No broad detached black exterior blocks observed; character silhouette and placement visually coherent."
+    }
+  ],
+  "notes": "132.5 / 133.4 use repaired A07_02; 131.4 / 135.4 check unchanged A07_01/A07_03. PNGs are native 4K; tool display may downscale. This checks exterior alpha contamination and placement, not per-pixel body invariance, complete movie playback or final user acceptance."
+}

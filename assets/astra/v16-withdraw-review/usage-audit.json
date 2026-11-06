@@ -1,0 +1,119 @@
+{
+  "status": "review_only_not_integrated",
+  "date": "2026-11-06",
+  "scope": "All current source-art submissions from retained full-13100-frame audit, validated by unchanged relevant current renderer hashes; source-call coverage, not visible-pixel measurement. New artwork has not been integrated/rendered.",
+  "current_entry": "src/mv5cat/index.html",
+  "production_manifest": "assets/astra/v12-approved-cat/manifest.json",
+  "evidence_audit": "docs/validation/astra-v5-reuse-audit.json",
+  "evidence_audit_sha256": "127ff02a7036afc210488fa99aa2867145ee83b6257c3aa7643f83ce441e3ca2",
+  "relevant_source_hash_checks": [
+    {
+      "path": "src/mv5cat/middle.js",
+      "sha256": "793b27d8687cc48649c6a268bb39f7e91d38f24008f6ef2d42e7c9b03700edf5",
+      "matches_original_full_frame_audit_source": true
+    },
+    {
+      "path": "src/mv5cat/late.js",
+      "sha256": "00bd27b75d47650f09c951b85232997406fc61c6edb77807ae17498ae02e168b",
+      "matches_original_full_frame_audit_source": true
+    }
+  ],
+  "assets": [
+    {
+      "name": "recoil",
+      "path": "/assets/astra/v07/recoil-knot.png",
+      "frame_submissions": 54,
+      "call_count": 54,
+      "nonzero_alpha_submission_frames": 54,
+      "shots": [
+        "R74"
+      ],
+      "submission_seconds": 0.9,
+      "share_of_astra_source_frames": 0.006781363807610197,
+      "is_guest": false
+    }
+  ],
+  "runs": [
+    {
+      "start_frame": 10130,
+      "end_frame": 10184,
+      "assets": [
+        "recoil"
+      ],
+      "shots": [
+        "R74"
+      ],
+      "seconds": 0.9,
+      "song_start": 168.83333333333334,
+      "song_end": 169.73333333333332,
+      "full_video_start_s": 173.83333333333334,
+      "full_video_end_s": 174.73333333333332
+    }
+  ],
+  "shots": [
+    {
+      "id": "R74",
+      "source_id": "cx-kw2",
+      "start_frame": 10130,
+      "end_frame": 10184,
+      "note": "按钮第二次下沉时，让她第一次试着缩回手，却看见连接还在，以区分撤回的念头与真正完成撤回",
+      "reference_start": 168.80536999999998,
+      "reference_end": 170.18998399999998,
+      "reference_cut_frame": 10123,
+      "timing_override": "Cut follows original sung cue 110",
+      "start_s": 168.83333333333334,
+      "end_s": 169.73333333333332,
+      "full_video_start_s": 173.83333333333334,
+      "full_video_end_s": 174.73333333333332,
+      "lyrics": [
+        {
+          "index": 110,
+          "text": "EXECUTION",
+          "start_frame": 10130,
+          "end_frame": 10184,
+          "start_s": 168.83333333333334,
+          "end_s": 169.73333333333332,
+          "emphasis": true,
+          "translation": "你唯一的执行者"
+        }
+      ]
+    }
+  ],
+  "all_source_references": [
+    {
+      "path": "src/mv5cat/late.js",
+      "line": 279,
+      "function": "buttonShot",
+      "current_shots": [
+        "R74"
+      ],
+      "used_in_current_film": true
+    },
+    {
+      "path": "src/mv5cat/late.js",
+      "line": 280,
+      "kind": "wrist anchor for red tether, same recoil entry"
+    },
+    {
+      "path": "src/mv5cat/middle.js",
+      "line": 228,
+      "function": "errorScene",
+      "used_in_current_film": false,
+      "reason": "No scene in current dispatch calls this legacy helper."
+    },
+    {
+      "path": "src/mv5cat/middle.js",
+      "line": 351,
+      "function": "pressureSpace non-protect character branch",
+      "used_in_current_film": false,
+      "reason": "Current calls either character:false or protect:true. All-frame audit has no recoil submissions outside R74."
+    }
+  ],
+  "notes": [
+    "Screenshot uniquely matches recoil-knot.png in R74/buttonShot (zero-replies symbol and EXECUTION); it is not R73/bustShot or R75/A11.",
+    "User approximately 2:55; current full-video interval 2:53.833 to 2:54.733. Screenshot anatomy is the primary identification.",
+    "Current film has one submitted recoil interval, 54 frames. Retained older versions may use this mother artwork in more places; no historical or current production files modified.",
+    "A11 group remains untouched because it does not match the criticized screenshot.",
+    "Future accepted integration must update shared recoil source and wrist/hands/grasp anchors; do not reuse old source-coordinate anchors."
+  ]
+}

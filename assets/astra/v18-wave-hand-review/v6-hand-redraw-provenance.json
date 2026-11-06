@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-06",
+  "status": "user-approved-static-source",
+  "user_approved": true,
+  "production_integrated": false,
+  "feedback": "User rejected the chest-side other hand in A04_02 v5 as deformed; this supersedes earlier internal five-digit inspection.",
+  "tool": "builtin image_gen.imagegen",
+  "mode": "whole-character coherent redraw using v5 for identity/style/pose context",
+  "generation_source": "C:\\Users\\auscar\\.codex\\generated_images\\01a1ae4d-4e2f-7e71-9ce6-7c9c1fc2cfd2\\exec-6f66a51a-6f34-47c6-9bd3-a253e90c96bf.png",
+  "project_file": "assets\\astra\\v18-wave-hand-review\\A04-02-wave-receive-v6-hand-redraw.png",
+  "prompt": "assets\\astra\\v18-wave-hand-review\\A04-02-wave-receive-v6-hand-redraw.prompt.txt",
+  "input_images": [
+    "assets\\astra\\v18-wave-hand-review\\A04-02-wave-receive-v5.png"
+  ],
+  "source_bytes_preserved": true,
+  "sha256": "63f2c6192072abb12a2ff55e5970c0783fa074ed9ee4c626d8913774c33cd443",
+  "bytes": 1541322,
+  "dimensions": [
+    1199,
+    1312
+  ],
+  "mode_pixels": "RGBA",
+  "alpha_extrema": [
+    0,
+    255
+  ],
+  "alpha_above_8_bbox": [
+    73,
+    47,
+    1112,
+    1228
+  ],
+  "corner_alpha": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "protected_v5": {
+    "actual_sha256": "b498b4cc6e2364472557eefc0a653a547ccc7700344aac36a0b88e45c65c3c45",
+    "expected_sha256": "b498b4cc6e2364472557eefc0a653a547ccc7700344aac36a0b88e45c65c3c45",
+    "unchanged": true
+  },
+  "visual_inspection": [
+    "Whole generated preview inspected. Chest-side hand is redesigned as a resting hand, fingers toward collarbone, rather than a broadly fanned palm.",
+    "Viewer-right arm is the character left arm. The palm faces the chest and dorsal surface faces viewer; upper-right thumb/radial edge is consistent with that orientation. No palm crease design is shown on the dorsal surface. This is a visual anatomical reading, not a formal anatomical proof.",
+    "Four relaxed elongated fingers with overlapping/near-together contours and a distinct short thumb are readable. The cuff leads into the wrist without the old fan-like palm pose.",
+    "Receiving hand now tilts more horizontally. Its four long fingers and upper thumb, wrist and forearm are readable in the full preview. This changed gesture must be judged in context later.",
+    "Horn, wing, sleeve hem and tail outline fit within transparent margins. Dark face and covered eyes are retained.",
+    "Six-ribbon ornament design remains source-drawn. Small or oblique ornament crossings and all center-hole topology are not mathematically certified."
+  ],
+  "anchor_estimates_native_source_pixels_not_activated": {
+    "receiving_palm": [
+      199,
+      494
+    ],
+    "receiving_wrist": [
+      248,
+      535
+    ],
+    "chest_hand": [
+      727,
+      578
+    ]
+  },
+  "anchor_limit": "Visual estimates only. Old [263,511] is invalid for new drawing; remeasure and run continuous line runtime checks only if candidate proceeds to independent trial.",
+  "verification_scope": "PNG decode, alpha numeric check, raw-byte/source equality, old v5 SHA protection and static generated-preview inspection. No runtime composite, video export, continuous playback or user acceptance.",
+  "display_note": "This worker view_image returned a nearly black display while ordinary source RGBA pixels were nonzero. Root independently reported normal view_image display of this exact PNG. A sandboxed headless Edge diagnostic attempt failed before screenshot creation; no derived images or browser-verification claim made.",
+  "no_pixel_repair": true,
+  "limitations": [
+    "Whole redraw changes composition and source-pixel anchors; not pixel-locked to v5.",
+    "Alpha contains low-opacity outline pixels; no background cleanup applied.",
+    "User approval pending."
+  ],
+  "latest_user_review": {
+    "date": "2026-11-06",
+    "user_text": "点读态头也歪了；其他的ok",
+    "scope": "Four new static sources displayed in round2: A08_01-v6, A02_01/03-v3 and A04_02-v6 approved. A08_02-v5 explicitly rejected. Does not approve unseen artwork or old/new combination videos."
+  }
+}

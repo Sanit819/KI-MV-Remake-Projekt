@@ -1,0 +1,20 @@
+Use case: precise-object-edit. Edit image 1, the full-body ASTRA approach pose. Image 2 is a topology diagram ONLY: use it to understand the six interwoven OpenAI/GPT bands, never paste this flat frontal diagram onto the character.
+
+Change ONLY the nine existing GPT knot ornaments in image 1. The user has approved the entire body, leg perspective, hands, pose, silhouette, head, horns, ears, skirt, hair, tail, wings and frame. Preserve those, the original lavender/pink palette, dark outlines, black shadow face, closed eyes hidden by bangs, transparent background and original framing. Do not re-pose, re-proportion or redraw anatomy. Keep every ornament's original center, size, attachment and local overlap.
+
+Correct all nine knots as small source-drawn clothing/hair ornaments: six continuous interlacing bands, alternating over/under crossings, six outer loops, central negative opening. The hole may become a narrow slanted hexagon under perspective. Match the surrounding illustration's hand-drawn dark outline and lavender fills; no white logo, no background badge, no circle, no sticker edge, no extruded new medallion.
+
+CRITICAL: Each ornament lies on a DIFFERENT 3D surface. Reconstruct its local perspective from the existing garment/hair, do NOT make them all face the viewer. A regular front-facing six-sided hole on every body surface would be a failure. Preserve natural elliptic foreshortening, rotated axes, surface curvature and occlusion. The topology reference is not the orientation reference.
+
+Nine positions in the 1189 x 1323 target, approximately:
+1 Hair knot at (756,150): sits on the right temple following the head's turn toward screen-right, mildly narrow and oblique, with the existing hair/ornament overlaps retained.
+2 Near upper-arm band knot (545,423): lies on the cylindrical upper-arm band, not frontal; diagonal ellipse following this shoulder/arm plane.
+3 Far upper-arm knot (788,378): on the upper/outward face of the extended arm; its plane is markedly tilted away and more flattened than the near shoulder. Keep existing band/sleeve occlusions. Never replace this with a full round frontal symbol.
+4 Near waist knot (574,585): follows the oblique near-facing belt around the pelvis, broad but not flat-front.
+5 Far waist knot (697,570): turns around the far hip and is distinctly narrower/foreshortened than the near waist; do not give both waist knots equal frontal orientation.
+6 Left skirt-hem knot (238,1100): follows this particular sloping cloth panel and folds.
+7 Right skirt-hem knot (765,1160): follows its different skirt panel angle, independent of the left one; do not rotate the skirt to suit the logo.
+8 Rear shoe knot (448,1240): lies flat against the sloping shoe instep, small and elliptically compressed; follow the receding shoe toe, not a vertical frontal badge.
+9 Front shoe knot (707,1276): also flat on its own instep slope, with a different depth/scale from the rear shoe; readable six-band structure as far as the tiny size permits, without enlarging it.
+
+Keep all nine symbols drawn naturally into their original surfaces. Do not change the approved character to display logos. No text or watermark. Return one complete transparent PNG in the original full-body composition.

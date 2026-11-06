@@ -1,0 +1,65 @@
+{
+  "passed": true,
+  "scope": "File identity, RGBA dimensions, transparency bounds and native-source visual inspection; not a pixel equality claim for generated ornaments.",
+  "user_selected_main_pose_preserved": true,
+  "rejected_versions_inactive": [
+    "v10-catpatch",
+    "v11-catredraw"
+  ],
+  "sources": [
+    {
+      "name": "A19_01",
+      "file": "assets/astra/v12-approved-cat/A19-01-anticipate.png",
+      "width": 1319,
+      "height": 1193,
+      "sha256": "5f02028d99a4ae088b24ea4c794793bbd315307655cb2974b3bae88581fc0969",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "alpha128_bounds": [
+        11,
+        10,
+        1310,
+        1190
+      ],
+      "direct_user_source": false
+    },
+    {
+      "name": "A19_02",
+      "file": "assets/astra/v12-approved-cat/A19-02-approved.png",
+      "width": 1319,
+      "height": 1193,
+      "sha256": "c02461813af3c9bf00fc6e1e530c2935bf379eff591582d10bc172245aa8b90c",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "alpha128_bounds": [
+        16,
+        15,
+        1311,
+        1184
+      ],
+      "direct_user_source": true
+    },
+    {
+      "name": "A19_03",
+      "file": "assets/astra/v12-approved-cat/A19-03-listen.png",
+      "width": 1319,
+      "height": 1193,
+      "sha256": "8b6affdec25238cb0eddc45fcb188408a583e321683bffc72c2a1faa04907ba1",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "alpha128_bounds": [
+        12,
+        9,
+        1312,
+        1190
+      ],
+      "direct_user_source": false
+    }
+  ]
+}

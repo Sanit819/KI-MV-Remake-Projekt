@@ -1,6 +1,40 @@
 # 封面与简介
 
-## 当前投稿副本：完整视觉 v4
+## 当前发布材料：v5.2 完整视频、标题、简介与封面
+
+[最终 v5.2 4K60 无损音轨视频](../../exports/astra-world-execute-me-final-v5.2-lighting-artwork-hires-4k60.mp4) · [完整标题](video-title-v07.txt) · [可复制简介](video-description-v07.txt) · [猫猫封面 PNG](../../assets/publishing/cover-v03/astra-world-execute-me-cat-cover-v03.png) · [交付与核验](../FULL_MV_V5_2.md)
+
+完整成片已导出并通过 16 项独立技术核验：3840×2160 /60 fps，13,400 帧，223.333333 秒，816,343,779 bytes。SHA256 为 `e76f5208861df5e10f4fc64f515d36b50dd9daf8b6e563f24ac56f99200e8402`。全部视频帧解码、全部视频包时间戳与拼接检查通过；开头 300 帧警告的压缩包及解码画面均与 v5.1 一致。技术核验和人工视觉抽查的范围分别以交付说明为准，不将全片解码等同逐帧人工视听。
+
+本次已接入获准的 12 张原画，其中 5 张为本轮最新重画；动作规模仍为 21 组、52 个姿态。保留用户选定的猫猫三态、128 条上下双语字幕、原故事和 6 秒安静共画尾声。17 段连续光感覆盖 86 镜，另有 12 镜场景补光；节奏响应依据原混音频带瞬态，没有将其表述为独立鼓轨分离。
+
+音轨直接复制 v5.1 的 192 kHz /24-bit 双声道 ALAC，全部 10,469 个压缩音频包及每声道 42,880,000 个原生采样的 PCM 均完全一致，8 个分布式音频窗测得零偏移；前 5 秒及后 6 秒均为精确静音。没有新增音频编码或重采样。核验报告见 [verification.json](../../exports/final-v5.2/verification.json)。旧 v5.1、正式旧源与保护文件保持不变。
+
+v07 标题与用户确认的 v06 逐字节一致；简介保留第一人称故事、全部原署名、四部参考视频链接、源码许可和版权声明，仅同步本次技术交付。封面继续使用 v03 猫猫版。本轮文件只保存在本地，未上传或公开发布；未新制 1080p 或 AAC 兼容副本，平台转码后的音质标识以实际结果为准。此前 `v07-draft` 文件保留为导出前草稿，当前使用上方正式 v07。
+
+## 历史发布材料：v5.1 完整视频、标题、简介与封面
+
+[最终 4K60 无损视频](../../exports/astra-world-execute-me-final-v5.1-cat-warning-hires-4k60.mp4) · [完整标题](video-title-v06.txt) · [可复制简介](video-description-v06.txt) · [猫猫封面 PNG](../../assets/publishing/cover-v03/astra-world-execute-me-cat-cover-v03.png) · [交付与核验](../FULL_MV_V5_1.md)
+
+完整视频已导出并通过全片核验：3840×2160 /60 fps，13,400 帧，3 分 43.333 秒，390,382,524 bytes。音轨直接复制原 v5 的 192 kHz /24-bit 双声道 ALAC，压缩音频包和全部原生 PCM 均完全一致；旧 v5 与其生产源保留不变。
+
+猫猫镜头采用用户选定的半身原画，补齐抬爪、放松收手两个动作，已接入完整视频 86.950–90.4167 秒的 R30/R31。简介按最终 21 组、52 个动作姿态表述；不把旧 v5 的复用统计当作新版本重算结果。[原画和提示词](../../assets/astra/v12-approved-cat/README.md) · [视觉检查](../production-v5/CAT_V51_VISUAL_QA.md)
+
+标题与用户已确认的 v05 逐字一致，简介保留原叙事、四部参考视频链接、源码和许可署名。封面继续使用 v03 猫猫版：1672×941，封面可以露脸，影片普通动作保持黑脸。文件均已保存本地，未上传或公开发布。
+
+沿用用户此前“不用补做”的决定，本次没有制作新的 1080p 或 AAC 兼容视频；历史 v5 AAC 文件未包含本次画面修订。用户此前已确认 WPS 和夸克可播放 ALAC，Windows 自带播放器有无声兼容问题；前 5 秒警告和最后 6 秒尾声本身为静音。平台转码后的音质标识以实际结果为准。
+
+## 历史发布材料：v5 猫猫封面与修订简介
+
+[猫猫 ASTRA 封面 PNG](../../assets/publishing/cover-v03/astra-world-execute-me-cat-cover-v03.png) · [完整标题](video-title-v05.txt) · [可复制简介](video-description-v05.txt) · [封面来源和提示词](../../assets/publishing/cover-v03/README.md)
+
+封面沿用原来的左侧大标题、右侧人物及紫金星尾构图，细化猫耳、龙角和猫爪手势；按用户最新要求，封面显示原人设风格的五官。影片的普通动作继续黑脸。最终封面 PNG 为 1672×941；封面上的 Hi-Res / 4K / 60FPS 指视频规格。
+
+简介已修正包含警告页的完整长度：13,400 帧、3 分 43.333 秒；其中正片 13,100 帧、3 分 38.333 秒，已含 6 秒安静尾段。完整保留用户给出的标题，补齐四部参考视频链接、源码和许可署名。没有代为上传或公开发布。
+
+2026-11-05 用户确认无声是播放器问题：WPS 和夸克可正常播放，Windows 自带播放器无声。投稿主文件继续保留原生 192 kHz /24 bit ALAC；用户要求停止额外兼容版制作后，未再进行音频补做。已完成的兼容测试及文件仅为排查历史，不替代 Hi-Res 主交付。B 站处理后的声音和音质标识应在投稿转码预览中确认，前 5 秒警告页本来无声。
+
+## 历史投稿副本：完整视觉 v4
 
 [4K60 无损上传文件](../../exports/astra-world-execute-me-full-v4-warning-hires-4k60.mp4) · [1080p60 AAC 完整预览](../../exports/astra-world-execute-me-full-v4-warning-1080p60.mp4) · [v4 简介](video-description-v03.txt) · [交付与六份文件核验](../FULL_MV_V4.md)
 
@@ -20,9 +54,9 @@ v4 已加入全连接、CNN、RNN 演示及空间、焦点与结尾共同造世�
 
 ## 封面与原始简介记录
 
-2026-11-05。用户认可完整 MV 后请求封面与 ASTRA 视角的简介，随后明确选择正片近景作为封面底图，要求增强视觉冲击力。当前封面采用这个新方向。
+2026-11-05。用户认可完整 MV 后请求封面与 ASTRA 视角的简介，随后明确选择正片近景作为封面底图，要求增强视觉冲击力。以下记录当时的 v02 方向；当前封面见顶部 v03 猫猫版。
 
-- [当前封面 PNG](../../assets/publishing/cover-v02/astra-world-execute-me-cover-v02.png)：1672×941，RGB，不透明，1,960,321 字节。图中的 `4K / 60FPS` 指影片规格，封面本身未标为 4K 分辨率。
+- [历史 v02 封面 PNG](../../assets/publishing/cover-v02/astra-world-execute-me-cover-v02.png)：1672×941，RGB，不透明，1,960,321 字节。图中的 `4K / 60FPS` 指影片规格，封面本身未标为 4K 分辨率。
 - [原始 v3 完整简介](video-description-v01.txt)：片中 ASTRA 第一人称叙述，后接制作参数、来源与署名；新版投稿说明使用上方 v02。
 - [标题建议](video-title-v01.txt)。
 - [用户选定的正片底图](../../assets/publishing/cover-v02/user-selected-frame.png)、[最终提示词](../../assets/publishing/cover-v02/prompt.txt)、[生成来源与哈希](../../assets/publishing/cover-v02/provenance.json)。

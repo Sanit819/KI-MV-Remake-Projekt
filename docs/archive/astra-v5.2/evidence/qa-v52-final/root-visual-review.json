@@ -1,0 +1,27 @@
+{
+  "date": "2026-11-06",
+  "reviewer": "root",
+  "scope": "Actual visual inspection of six contact sheets covering all 86 shot midpoints plus three individually displayed native4K source renders. Tool resized individual3840x2160 PNGs to2048x1152; no continuous or every-frame human viewing.",
+  "contact_sheets": [
+    "sheets/midpoints-01.jpg",
+    "sheets/midpoints-02.jpg",
+    "sheets/midpoints-03.jpg",
+    "sheets/midpoints-04.jpg",
+    "sheets/midpoints-05.jpg",
+    "sheets/midpoints-06.jpg"
+  ],
+  "individual_frames": [
+    8246,
+    8400,
+    12624
+  ],
+  "findings": [
+    "All86 shot thumbnails retain scene and subtitle composition; no observed full-canvas alpha blocks or newly blank shot.",
+    "R55 new turn/pointread head axis coherent; fingertip and record marker relate to right page. Marker is a digital scene overlay; its tail extends beyond page.",
+    "R86 smile facial crop has both eyes, mouth and chin; dark face preserved.",
+    "Opening has circuitry/protection and no character; existing cats and quiet/empty pauses remain visible in their intended shots."
+  ],
+  "blockers": [],
+  "runtime_machine_passed": true,
+  "continuous_human_review": false
+}

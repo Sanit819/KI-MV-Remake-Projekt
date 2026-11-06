@@ -1,0 +1,61 @@
+{
+  "passed": true,
+  "date": "2026-11-06",
+  "authorization": "ok了，全部接入视频吧，期待成品！",
+  "output": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\exports\\astra-world-execute-me-final-v5.2-lighting-artwork-hires-4k60.mp4",
+  "bytes": 816343779,
+  "sha256": "e76f5208861df5e10f4fc64f515d36b50dd9daf8b6e563f24ac56f99200e8402",
+  "width": 3840,
+  "height": 2160,
+  "fps": 60,
+  "frames": 13400,
+  "duration_seconds": 223.33333333333334,
+  "audio": "ALAC 192kHz/24bit stereo; identical to protected v5.1",
+  "technical_verification_passed": true,
+  "runtime_samples": 1859,
+  "encoded_frames_actually_viewed": 28,
+  "encoded_visual_review_reports": [
+    "encoded-visual-root.json",
+    "encoded-visual-independent.json"
+  ],
+  "all_selected_frames_actually_viewed": true,
+  "production_entry": "src/mv52final/index.html",
+  "production_manifest": "data/production-v52final/manifest.json",
+  "protected_baseline_files_unchanged": true,
+  "proofs": [
+    {
+      "path": "docs/FULL_MV_V5_2.md",
+      "sha256": "aa8d2d6d2a8b6e12fcfdbd5d5b17c6ef60fccb7b23e08aacbaf860de3a91c6ef"
+    },
+    {
+      "path": "docs/publishing/video-title-v07.txt",
+      "sha256": "2c3708de90ad37dd8a8343c28603c12f409d419a81ca6d9a9054b838b1e52176"
+    },
+    {
+      "path": "docs/publishing/video-description-v07.txt",
+      "sha256": "335906d4773d7f8e9611059b132b07cadcd95fd39e482e27cdff7ad828068abe"
+    },
+    {
+      "path": "exports/final-v5.2/render.json",
+      "sha256": "19c563424f9632331aa4641a2e77c310fcee43d2fd5fce22ded30caa48c1eb75"
+    },
+    {
+      "path": "exports/final-v5.2/verification.json",
+      "sha256": "e5c8d716b094c1f83bea4608f076debe642b6c443787b86bcf8286cc9bd8fce9"
+    },
+    {
+      "path": "exports/final-v5.2/encoded-stills/index.json",
+      "sha256": "8cb15a90c06f2476ac564d46017feca871cc36a9b91c99e1ec498ccd7d5c4500"
+    },
+    {
+      "path": "exports/final-v5.2/encoded-visual-root.json",
+      "sha256": "8deacb7d0bc79d1e5e28af87a15467b87152a29cc471a591a41a3404b5a53978"
+    },
+    {
+      "path": "exports/final-v5.2/encoded-visual-independent.json",
+      "sha256": "e0b6942b57e7bb00eea3c35a936b4aff25c6635746d8912c2c79331ab7e371a9"
+    }
+  ],
+  "publication": "local delivery only; no upload",
+  "scope": "Technical verification of complete media plus explicit 28-frame encoded-output visual sampling and documented runtime review. Not continuous human viewing/listening or platform verification."
+}

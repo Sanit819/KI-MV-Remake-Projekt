@@ -1,0 +1,2938 @@
+{
+  "date": "2026-11-06",
+  "scope": "read-only source inspection + existing measured runtime records; no new formal render",
+  "user_light_rhythm_approval": true,
+  "formal_integration": false,
+  "shot_count": 86,
+  "runtime_samples": 258,
+  "all_samples_enabled": true,
+  "all_sections_sampled": 17,
+  "low_extraction_shots": [
+    "R02",
+    "R04",
+    "R05",
+    "R06",
+    "R08",
+    "R09",
+    "R14",
+    "R25",
+    "R31",
+    "R39",
+    "R44",
+    "R47",
+    "R50",
+    "R52"
+  ],
+  "brightness_metric_limitation": "Extraction mask pixel fraction BEFORE blur/composite, includes bright character pixels; not screen luminance, improvement delta, or physical light-source count. Only 3 instants/shot.",
+  "source_sha256": {
+    "src/mv52/main.js": "543382aed853a59a787fb6273d11b022044e113b304c7f0aa0a5272f407dc121",
+    "src/mv52/lighting.js": "beff0af605acef46a5865a1f60b507dd21ebdbae129287d22536c765b4aa066b",
+    "src/mv52/early.js": "a3981d5a6046c59bf5b5e669ec1e51fb0229f76763841f5cc51082280e9d5724",
+    "src/mv52/middle.js": "abfdc056862ecb5d2cb46eb3d0bdaed52c94ba19863c9ac460aa7e9645246789",
+    "src/mv52/late.js": "00bd27b75d47650f09c951b85232997406fc61c6edb77807ae17498ae02e168b",
+    "src/mv52/kit.js": "0b945e5ae274cb766eb064dfdd0f26e547d71797f1a620fcc54dc927fc48b3ea",
+    "src/mv52/art.js": "d49d0e8f1121546adfab579f0f8b7da8eaeb106b47fc6759f9254791810aa6e6",
+    "data/production-v5/timeline.json": "87ed12a597aa936fb0c20cb924d296aa392c13b1effa947d1e983ff32a1aebf3",
+    "data/production-v52/audio-accents.json": "409dd5bf2c37321c2c045144b54620710904c2efe32bc7d2c7bef1dcdd2e713e",
+    "exports/preview-v52-lighting/runtime-review.json": "364d290c34bc68b4f579340999ea88a78c96f6d3cd48cd5973cab2acf6b40b20"
+  },
+  "sections": [
+    {
+      "body_start": 0.0,
+      "body_end": 15.033333333,
+      "name": "boot",
+      "bloom": 0.58,
+      "rim": 0.28,
+      "room": 0.58,
+      "motion": 0.3,
+      "warmth": 0.36
+    },
+    {
+      "body_start": 15.033333333,
+      "body_end": 29.333333333,
+      "name": "conversation",
+      "bloom": 0.32,
+      "rim": 0.26,
+      "room": 0.32,
+      "motion": 0.08,
+      "warmth": 0.3
+    },
+    {
+      "body_start": 29.333333333,
+      "body_end": 44.566666667,
+      "name": "geometry",
+      "bloom": 0.48,
+      "rim": 0.46,
+      "room": 0.44,
+      "motion": 0.3,
+      "warmth": 0.31
+    },
+    {
+      "body_start": 44.566666667,
+      "body_end": 59.333333333,
+      "name": "approach",
+      "bloom": 0.64,
+      "rim": 0.57,
+      "room": 0.54,
+      "motion": 0.42,
+      "warmth": 0.37
+    },
+    {
+      "body_start": 59.333333333,
+      "body_end": 74.1,
+      "name": "chorus-one",
+      "bloom": 0.92,
+      "rim": 0.82,
+      "room": 0.79,
+      "motion": 0.75,
+      "warmth": 0.43
+    },
+    {
+      "body_start": 74.1,
+      "body_end": 88.883333333,
+      "name": "play",
+      "bloom": 0.62,
+      "rim": 0.53,
+      "room": 0.48,
+      "motion": 0.32,
+      "warmth": 0.4
+    },
+    {
+      "body_start": 88.883333333,
+      "body_end": 103.65,
+      "name": "parameter-trance",
+      "bloom": 0.65,
+      "rim": 0.57,
+      "room": 0.52,
+      "motion": 0.42,
+      "warmth": 0.36
+    },
+    {
+      "body_start": 103.65,
+      "body_end": 110.8,
+      "name": "resonance",
+      "bloom": 0.91,
+      "rim": 0.7,
+      "room": 0.67,
+      "motion": 0.55,
+      "warmth": 0.52
+    },
+    {
+      "body_start": 110.8,
+      "body_end": 125.566666667,
+      "name": "waiting",
+      "bloom": 0.2,
+      "rim": 0.15,
+      "room": 0.19,
+      "motion": 0.0,
+      "warmth": 0.24
+    },
+    {
+      "body_start": 125.566666667,
+      "body_end": 147.266666667,
+      "name": "pressure",
+      "bloom": 0.72,
+      "rim": 0.61,
+      "room": 0.54,
+      "motion": 0.58,
+      "warmth": 0.27
+    },
+    {
+      "body_start": 147.266666667,
+      "body_end": 147.95,
+      "name": "breath",
+      "bloom": 0.1,
+      "rim": 0.08,
+      "room": 0.12,
+      "motion": 0.0,
+      "warmth": 0.22
+    },
+    {
+      "body_start": 147.95,
+      "body_end": 161.5,
+      "name": "execution",
+      "bloom": 0.89,
+      "rim": 0.79,
+      "room": 0.68,
+      "motion": 0.8,
+      "warmth": 0.38
+    },
+    {
+      "body_start": 161.5,
+      "body_end": 177.166666667,
+      "name": "climax",
+      "bloom": 1.0,
+      "rim": 0.94,
+      "room": 0.85,
+      "motion": 1.0,
+      "warmth": 0.47
+    },
+    {
+      "body_start": 177.166666667,
+      "body_end": 192.266666667,
+      "name": "network",
+      "bloom": 0.58,
+      "rim": 0.4,
+      "room": 0.42,
+      "motion": 0.28,
+      "warmth": 0.31
+    },
+    {
+      "body_start": 192.266666667,
+      "body_end": 205.733333333,
+      "name": "release",
+      "bloom": 0.26,
+      "rim": 0.25,
+      "room": 0.24,
+      "motion": 0.06,
+      "warmth": 0.36
+    },
+    {
+      "body_start": 205.733333333,
+      "body_end": 212.333333333,
+      "name": "reply",
+      "bloom": 0.51,
+      "rim": 0.45,
+      "room": 0.51,
+      "motion": 0.0,
+      "warmth": 0.79
+    },
+    {
+      "body_start": 212.333333333,
+      "body_end": 218.333333334,
+      "name": "quiet-coda",
+      "bloom": 0.28,
+      "rim": 0.3,
+      "room": 0.36,
+      "motion": 0.0,
+      "warmth": 0.88
+    }
+  ],
+  "shots": [
+    {
+      "shot": "R01",
+      "full_start": 5,
+      "full_end": 8.95,
+      "body_start": 0,
+      "body_end": 3.95,
+      "source_geometry": "电源通路、计算核心、保护外壳；明确科技光源",
+      "sections": [
+        "boot"
+      ],
+      "sample_frames": [
+        0,
+        118,
+        236
+      ],
+      "bright_extraction_percent": [
+        0.21412,
+        1.052662,
+        0.018326
+      ],
+      "bright_percent_min": 0.01832561728395062,
+      "bright_percent_max": 1.052662037037037,
+      "actor_counts": [
+        0,
+        0,
+        0
+      ],
+      "character_light_scope": "无人或未提交人物蒙版",
+      "low_extraction_all_three": false,
+      "manual_full_shot_viewed": false
+    },
+    {
+      "shot": "R02",
+      "full_start": 8.95,
+      "full_end": 12.65,
+      "body_start": 3.95,
+      "body_end": 7.65,
+      "source_geometry": "工作区部件组装、透视格线与角点；亮线稀疏",
+      "sections": [
+        "boot"
+      ],
+      "sample_frames": [
+        237,
+        347,
+        458
+      ],
+      "bright_extraction_percent": [
+        0,
+        0.301312,
+        0.135417
+      ],
+      "bright_percent_min": 0,
+      "bright_percent_max": 0.30131172839506176,
+      "actor_counts": [
+        0,
+        0,
+        0
+      ],
+      "character_light_scope": "无人或未提交人物蒙版",
+      "low_extraction_all_three": true,
+      "manual_full_shot_viewed": false
+    },
+    {
+      "shot": "R03",
+      "full_start": 12.65,
+      "full_end": 16.333333333333336,
+      "body_start": 7.65,
+      "body_end": 11.333333333333334,
+      "source_geometry": "激活网络、参数节点、输出柱与地面空间",
+      "sections": [
+        "boot"
+      ],
+      "sample_frames": [
+        459,
+        569,
+        679
+      ],
+      "bright_extraction_percent": [
+        0.905285,
+        1.024113,
+        3.519483
+      ],
+      "bright_percent_min": 0.9052854938271605,
+      "bright_percent_max": 3.5194830246913584,
+      "actor_counts": [
+        0,
+        0,
+        0
+      ],
+      "character_light_scope": "无人或未提交人物蒙版",
+      "low_extraction_all_three": false,
+      "manual_full_shot_viewed": false
+    },
+    {
+      "shot": "R04",
+      "full_start": 16.333333333333336,
+      "full_end": 20.03333333333333,
+      "body_start": 11.333333333333334,
+      "body_end": 15.033333333333333,
+      "source_geometry": "工作区命令行、光标、短紫线；无大型能量光源",
+      "sections": [
+        "boot"
+      ],
+      "sample_frames": [
+        680,
+        790,
+        901
+      ],
+      "bright_extraction_percent": [
+        0.234761,
+        0.422454,
+        0.582369
+      ],
+      "bright_percent_min": 0.2347608024691358,
+      "bright_percent_max": 0.5823688271604939,
+      "actor_counts": [
+        0,
+        0,
+        0
+      ],
+      "character_light_scope": "无人或未提交人物蒙版",
+      "low_extraction_all_three": true,
+      "manual_full_shot_viewed": false
+    },
+    {
+      "shot": "R05",
+      "full_start": 20.03333333333333,
+      "full_end": 21.883333333333333,
+      "body_start": 15.033333333333333,
+      "body_end": 16.883333333333333,
+      "source_geometry": "标题格线、发送点击与爆点；亮源集中小范围",
+      "sections": [
+        "conversation"
+      ],
+      "sample_frames": [
+        902,
+        957,
+        1012
+      ],
+      "bright_extraction_percent": [
+        0.181134,
+        0.617284,
+        0.629437
+      ],
+      "bright_percent_min": 0.18113425925925927,
+      "bright_percent_max": 0.6294367283950617,
+      "actor_counts": [
+        0,
+        0,
+        0
+      ],
+      "character_light_scope": "无人或未提交人物蒙版",
+      "low_extraction_all_three": true,
+      "manual_full_shot_viewed": false
+    },
+    {
+      "shot": "R06",
+      "full_start": 21.883333333333333,
+      "full_end": 27.416666666666668,
+      "body_start": 16.883333333333333,
+      "body_end": 22.416666666666668,
+      "source_geometry": "聊天输入框、犹豫删除线、淡背景；无大型发光结构",
+      "sections": [
+        "conversation"
+      ],
+      "sample_frames": [
+        1013,
+        1178,
+        1344
+      ],
+      "bright_extraction_percent": [
+        0.299769,
+        0.296489,
+        0.254437
+      ],
+      "bright_percent_min": 0.25443672839506176,
+      "bright_percent_max": 0.29976851851851855,
+      "actor_counts": [
+        0,
+        0,
+        0
+      ],
+      "character_light_scope": "无人或未提交人物蒙版",
+      "low_extraction_all_three": true,
+      "manual_full_shot_viewed": false
+    },
+    {
+      "shot": "R07",
+      "full_start": 27.416666666666668,
+      "full_end": 31.1,
+      "body_start": 22.416666666666668,
+      "body_end": 26.1,
+      "source_geometry": "建议卡片、网格、光标轨迹、发送环",
+      "sections": [
+        "conversation"
+      ],
+      "sample_frames": [
+        1345,
+        1455,
+        1565
+      ],
+      "bright_extraction_percent": [
+        0.320216,
+        0.975694,
+        1.260417
+      ],
+      "bright_percent_min": 0.32021604938271603,
+      "bright_percent_max": 1.2604166666666665,
+      "actor_counts": [
+        0,
+        0,
+        0
+      ],
+      "character_light_scope": "无人或未提交人物蒙版",
+      "low_extraction_all_three": false,
+      "manual_full_shot_viewed": false
+    },
+    {
+      "shot": "R08",
+      "full_start": 31.1,
+      "full_end": 34.33333333333333,
+      "body_start": 26.1,
+      "body_end": 29.333333333333332,
+      "source_geometry": "首次星标、坐标与几何引导线；小范围光源",
+      "sections": [
+        "conversation"
+      ],
+      "sample_frames": [
+        1566,
+        1662,
+        1759
+      ],
+      "bright_extraction_percent": [
+        0.24865,
+        0.440394,
+        0.387346
+      ],
+      "bright_percent_min": 0.2486496913580247,
+      "bright_percent_max": 0.44039351851851855,
+      "actor_counts": [
+        0,
+        0,
+        0
+      ],
+      "character_light_scope": "无人或未提交人物蒙版",
+      "low_extraction_all_three": true,
+      "manual_full_shot_viewed": false
+    },
+    {
+      "shot": "R09",
+      "full_start": 34.33333333333333,
+      "full_end": 38.266666666666666,
+      "body_start": 29.333333333333332,
+      "body_end": 33.266666666666666,
+      "source_geometry": "点线面体、立方体射线与节点；以细线为主",
+      "sections": [
+        "geometry"
+      ],
+      "sample_frames": [
+        1760,
+        1877,
+        1995
+      ],
+      "bright_extraction_percent": [
+        0.437307,
+        0.682099,
+        0.615934
+      ],
+      "bright_percent_min": 0.4373070987654321,
+      "bright_percent_max": 0.6820987654320988,
+      "actor_counts": [
+        0,
+        0,
+        0
+      ],
+      "character_light_scope": "无人或未提交人物蒙版",
+      "low_extraction_all_three": true,
+      "manual_full_shot_viewed": false
+    },
+    {
+      "shot": "R10",
+      "full_start": 38.266666666666666,
+      "full_end": 41.95,
+      "body_start": 33.266666666666666,
+      "body_end": 36.95,
+      "source_geometry": "三圈轨道、空间格线、人物笔尖接点",
+      "sections": [
+        "geometry"
+      ],
+      "sample_frames": [
+        1996,
+        2106,
+        2216
+      ],
+      "bright_extraction_percent": [
+        20.265432,
+        20.131366,
+        18.540895
+      ],
+      "bright_percent_min": 18.540895061728396,
+      "bright_percent_max": 20.26543209876543,
+      "actor_counts": [
+        1,
+        1,
+        1
+      ],
+      "character_light_scope": "常规角色走外沿与人物蒙版",
+      "low_extraction_all_three": false,
+      "manual_full_shot_viewed": false
+    },
+    {
+      "shot": "R11",
+      "full_start": 41.95,
+      "full_end": 45.65,
+      "body_start": 36.95,
+      "body_end": 40.65,
+      "source_geometry": "多层正弦、金色切线、人物笔尖",
+      "sections": [
+        "geometry"
+      ],
+      "sample_frames": [
+        2217,
+        2327,
+        2438
+      ],
+      "bright_extraction_percent": [
+        18.223187,
+        24.520255,
+        25.022569
+      ],
+      "bright_percent_min": 18.22318672839506,
+      "bright_percent_max": 25.022569444444443,
+      "actor_counts": [
+        1,
+        1,
+        1
+      ],
+      "character_light_scope": "常规角色走外沿与人物蒙版",
+      "low_extraction_all_three": false,
+      "manual_full_shot_viewed": false
+    },
+    {
+      "shot": "R12",
+      "full_start": 45.65,
+      "full_end": 49.56666666666667,
+      "body_start": 40.65,
+      "body_end": 44.56666666666667,
+      "source_geometry": "无穷回路、流动粒子、金色边界与透明面",
+      "sections": [
+        "geometry"
+      ],
+      "sample_frames": [
+        2439,
+        2556,
+        2673
+      ],
+      "bright_extraction_percent": [
+        0.373071,
+        1.085455,
+        1.905864
+      ],
+      "bright_percent_min": 0.373070987654321,
+      "bright_percent_max": 1.9058641975308641,
+      "actor_counts": [
+        0,
+        0,
+        0
+      ],
+      "character_light_scope": "无人或未提交人物蒙版",
+      "low_extraction_all_three": false,
+      "manual_full_shot_viewed": false
+    },
+    {
+      "shot": "R13",
+      "full_start": 49.56666666666667,
+      "full_end": 53.266666666666666,
+      "body_start": 44.56666666666667,
+      "body_end": 48.266666666666666,
+      "source_geometry": "交流波转直流、流动粒子与接收地形",
+      "sections": [
+        "geometry",
+        "approach"
+      ],
+      "sample_frames": [
+        2674,
+        2784,
+        2895
+      ],
+      "bright_extraction_percent": [
+        0.820988,
+        0.70544,
+        2.780671
+      ],
+      "bright_percent_min": 0.7054398148148148,
+      "bright_percent_max": 2.7806712962962963,
+      "actor_counts": [
+        0,
+        0,
+        0
+      ],
+      "character_light_scope": "无人或未提交人物蒙版",
+      "low_extraction_all_three": false,
+      "manual_full_shot_viewed": false
+    },
+    {
+      "shot": "R14",
+      "full_start": 53.266666666666666,
+      "full_end": 56.95,
+      "body_start": 48.266666666666666,
+      "body_end": 51.95,
+      "source_geometry": "参数设置、视觉马赛克、背景波形与点击脉冲",
+      "sections": [
+        "approach"
+      ],
+      "sample_frames": [
+        2896,
+        3006,
+        3116
+      ],
+      "bright_extraction_percent": [
+        0.787423,
+        0.353395,
+        0.768326
+      ],
+      "bright_percent_min": 0.3533950617283951,
+      "bright_percent_max": 0.7874228395061729,
+      "actor_counts": [
+        0,
+        0,
+        0
+      ],
+      "character_light_scope": "无人或未提交人物蒙版",
+      "low_extraction_all_three": true,
+      "manual_full_shot_viewed": false
+    },
+    {
+      "shot": "R15",
+      "full_start": 56.95,
+      "full_end": 60.65,
+      "body_start": 51.95,
+      "body_end": 55.65,
+      "source_geometry": "分层历史城市、时间线与播放头",
+      "sections": [
+        "approach"
+      ],
+      "sample_frames": [
+        3117,
+        3227,
+        3338
+      ],
+      "bright_extraction_percent": [
+        23.23939,
+        29.412037,
+        23.816165
+      ],
+      "bright_percent_min": 23.239390432098766,
+      "bright_percent_max": 29.412037037037038,
+      "actor_counts": [
+        1,
+        1,
+        1
+      ],
+      "character_light_scope": "常规角色走外沿与人物蒙版",
+      "low_extraction_all_three": false,
+      "manual_full_shot_viewed": false
+    },
+    {
+      "shot": "R16",
+      "full_start": 60.65,
+      "full_end": 64.33333333333334,
+      "body_start": 55.65,
+      "body_end": 59.333333333333336,
+      "source_geometry": "双圆共享空间、地形、双轨迹与星标",
+      "sections": [
+        "approach"
+      ],
+      "sample_frames": [
+        3339,
+        3449,
+        3559
+      ],
+      "bright_extraction_percent": [
+        0.880401,
+        1.761188,
+        5.394676
+      ],
+      "bright_percent_min": 0.8804012345679013,
+      "bright_percent_max": 5.394675925925926,
+      "actor_counts": [
+        0,
+        0,
+        0
+      ],
+      "character_light_scope": "无人或未提交人物蒙版",
+      "low_extraction_all_three": false,
+      "manual_full_shot_viewed": false
+    },
+    {
+      "shot": "R17",
+      "full_start": 64.33333333333334,
+      "full_end": 66.88333333333333,
+      "body_start": 59.333333333333336,
+      "body_end": 61.88333333333333,
+      "source_geometry": "折叠世界框、金色传输线与星标",
+      "sections": [
+        "chorus-one"
+      ],
+      "sample_frames": [
+        3560,
+        3636,
+        3712
+      ],
+      "bright_extraction_percent": [
+        5.187886,
+        5.221065,
+        5.314236
+      ],
+      "bright_percent_min": 5.187885802469136,
+      "bright_percent_max": 5.314236111111112,
+      "actor_counts": [
+        0,
+        0,
+        0
+      ],
+      "character_light_scope": "无人或未提交人物蒙版",
+      "low_extraction_all_three": false,
+      "manual_full_shot_viewed": false
+    },
+    {
+      "shot": "R18",
+      "full_start": 66.88333333333333,
+      "full_end": 67.56666666666666,
+      "body_start": 61.88333333333333,
+      "body_end": 62.56666666666667,
+      "source_geometry": "刺激闪电、辐射线与关键词",
+      "sections": [
+        "chorus-one"
+      ],
+      "sample_frames": [
+        3713,
+        3733,
+        3753
+      ],
+      "bright_extraction_percent": [
+        3.546489,
+        10.191937,
+        10.113812
+      ],
+      "bright_percent_min": 3.5464891975308643,
+      "bright_percent_max": 10.191936728395062,
+      "actor_counts": [
+        0,
+        0,
+        0
+      ],
+      "character_light_scope": "无人或未提交人物蒙版",
+      "low_extraction_all_three": false,
+      "manual_full_shot_viewed": false
+    },
+    {
+      "shot": "R19",
+      "full_start": 67.56666666666666,
+      "full_end": 70.33333333333333,
+      "body_start": 62.56666666666667,
+      "body_end": 65.33333333333333,
+      "source_geometry": "六人物卡、入口门与紫色联线",
+      "sections": [
+        "chorus-one"
+      ],
+      "sample_frames": [
+        3754,
+        3836,
+        3919
+      ],
+      "bright_extraction_percent": [
+        1.501736,
+        8.197917,
+        7.080826
+      ],
+      "bright_percent_min": 1.5017361111111112,
+      "bright_percent_max": 8.197916666666668,
+      "actor_counts": [
+        6,
+        6,
+        6
+      ],
+      "character_light_scope": "常规角色走外沿与人物蒙版",
+      "low_extraction_all_three": false,
+      "manual_full_shot_viewed": false
+    },
+    {
+      "shot": "R20",
+      "full_start": 70.33333333333333,
+      "full_end": 71.26666666666667,
+      "body_start": 65.33333333333333,
+      "body_end": 66.26666666666667,
+      "source_geometry": "径向刻度盘、接收按钮与点击爆点",
+      "sections": [
+        "chorus-one"
+      ],
+      "sample_frames": [
+        3920,
+        3947,
+        3975
+      ],
+      "bright_extraction_percent": [
+        10.296682,
+        3.727045,
+        3.611111
+      ],
+      "bright_percent_min": 3.6111111111111107,
+      "bright_percent_max": 10.296682098765432,
+      "actor_counts": [
+        0,
+        0,
+        0
+      ],
+      "character_light_scope": "无人或未提交人物蒙版",
+      "low_extraction_all_three": false,
+      "manual_full_shot_viewed": false
+    },
+    {
+      "shot": "R21",
+      "full_start": 71.26666666666667,
+      "full_end": 74.26666666666667,
+      "body_start": 66.26666666666667,
+      "body_end": 69.26666666666667,
+      "source_geometry": "人物介绍、淡视线轨迹与星标；起始淡入",
+      "sections": [
+        "chorus-one"
+      ],
+      "sample_frames": [
+        3976,
+        4065,
+        4155
+      ],
+      "bright_extraction_percent": [
+        0,
+        18.467785,
+        19.316358
+      ],
+      "bright_percent_min": 0,
+      "bright_percent_max": 19.316358024691358,
+      "actor_counts": [
+        1,
+        1,
+        1
+      ],
+      "character_light_scope": "常规角色走外沿与人物蒙版",
+      "low_extraction_all_three": false,
+      "manual_full_shot_viewed": false
+    },
+    {
+      "shot": "R22",
+      "full_start": 74.26666666666667,
+      "full_end": 74.95,
+      "body_start": 69.26666666666667,
+      "body_end": 69.95,
+      "source_geometry": "交付框、执行进度环",
+      "sections": [
+        "chorus-one"
+      ],
+      "sample_frames": [
+        4156,
+        4176,
+        4196
+      ],
+      "bright_extraction_percent": [
+        3.632716,
+        3.614005,
+        3.674576
+      ],
+      "bright_percent_min": 3.6140046296296293,
+      "bright_percent_max": 3.6745756172839505,
+      "actor_counts": [
+        0,
+        0,
+        0
+      ],
+      "character_light_scope": "无人或未提交人物蒙版",
+      "low_extraction_all_three": false,
+      "manual_full_shot_viewed": false
+    },
+    {
+      "shot": "R23",
+      "full_start": 74.95,
+      "full_end": 78.18333333333334,
+      "body_start": 69.95,
+      "body_end": 73.18333333333334,
+      "source_geometry": "人物触壁、紫色边界涟漪、金色返回路径",
+      "sections": [
+        "chorus-one"
+      ],
+      "sample_frames": [
+        4197,
+        4293,
+        4390
+      ],
+      "bright_extraction_percent": [
+        11.313079,
+        12.772569,
+        12.864776
+      ],
+      "bright_percent_min": 11.313078703703704,
+      "bright_percent_max": 12.864776234567902,
+      "actor_counts": [
+        1,
+        1,
+        1
+      ],
+      "character_light_scope": "常规角色走外沿与人物蒙版",
+      "low_extraction_all_three": false,
+      "manual_full_shot_viewed": false
+    },
+    {
+      "shot": "R24",
+      "full_start": 78.18333333333334,
+      "full_end": 79.1,
+      "body_start": 73.18333333333334,
+      "body_end": 74.1,
+      "source_geometry": "三任务卡及世界/记忆/几何传输线",
+      "sections": [
+        "chorus-one"
+      ],
+      "sample_frames": [
+        4391,
+        4418,
+        4445
+      ],
+      "bright_extraction_percent": [
+        1.661844,
+        4.330826,
+        4.760802
+      ],
+      "bright_percent_min": 1.6618441358024691,
+      "bright_percent_max": 4.760802469135802,
+      "actor_counts": [
+        0,
+        0,
+        0
+      ],
+      "character_light_scope": "无人或未提交人物蒙版",
+      "low_extraction_all_three": false,
+      "manual_full_shot_viewed": false
+    },
+    {
+      "shot": "R25",
+      "full_start": 79.1,
+      "full_end": 79.56666666666666,
+      "body_start": 74.1,
+      "body_end": 74.56666666666666,
+      "source_geometry": "请求卡、金色轨迹与笔；短镜头小亮源",
+      "sections": [
+        "play"
+      ],
+      "sample_frames": [
+        4446,
+        4459,
+        4473
+      ],
+      "bright_extraction_percent": [
+        0.503858,
+        0.975116,
+        0.977623
+      ],
+      "bright_percent_min": 0.503858024691358,
+      "bright_percent_max": 0.9776234567901234,
+      "actor_counts": [
+        0,
+        0,
+        0
+      ],
+      "character_light_scope": "无人或未提交人物蒙版",
+      "low_extraction_all_three": true,
+      "manual_full_shot_viewed": false
+    },
+    {
+      "shot": "R26",
+      "full_start": 79.56666666666666,
+      "full_end": 82.56666666666666,
+      "body_start": 74.56666666666666,
+      "body_end": 77.56666666666666,
+      "source_geometry": "茄子切面、营养粒子、路径与生长地形",
+      "sections": [
+        "play"
+      ],
+      "sample_frames": [
+        4474,
+        4563,
+        4653
+      ],
+      "bright_extraction_percent": [
+        9.220679,
+        8.431713,
+        11.251929
+      ],
+      "bright_percent_min": 8.431712962962964,
+      "bright_percent_max": 11.251929012345679,
+      "actor_counts": [
+        0,
+        0,
+        0
+      ],
+      "character_light_scope": "无人或未提交人物蒙版",
+      "low_extraction_all_three": false,
+      "manual_full_shot_viewed": false
+    },
+    {
+      "shot": "R27",
+      "full_start": 82.56666666666666,
+      "full_end": 83.26666666666667,
+      "body_start": 77.56666666666666,
+      "body_end": 78.26666666666667,
+      "source_geometry": "请求卡、金色轨迹、前一茄子保留",
+      "sections": [
+        "play"
+      ],
+      "sample_frames": [
+        4654,
+        4674,
+        4695
+      ],
+      "bright_extraction_percent": [
+        2.221065,
+        2.883681,
+        2.88831
+      ],
+      "bright_percent_min": 2.221064814814815,
+      "bright_percent_max": 2.888310185185185,
+      "actor_counts": [
+        0,
+        0,
+        0
+      ],
+      "character_light_scope": "无人或未提交人物蒙版",
+      "low_extraction_all_three": false,
+      "manual_full_shot_viewed": false
+    },
+    {
+      "shot": "R28",
+      "full_start": 83.26666666666667,
+      "full_end": 86.26666666666667,
+      "body_start": 78.26666666666667,
+      "body_end": 81.26666666666667,
+      "source_geometry": "番茄切面、粒子与护盾路径",
+      "sections": [
+        "play"
+      ],
+      "sample_frames": [
+        4696,
+        4785,
+        4875
+      ],
+      "bright_extraction_percent": [
+        13.722222,
+        14.181713,
+        14.56115
+      ],
+      "bright_percent_min": 13.722222222222221,
+      "bright_percent_max": 14.561149691358025,
+      "actor_counts": [
+        0,
+        0,
+        0
+      ],
+      "character_light_scope": "无人或未提交人物蒙版",
+      "low_extraction_all_three": false,
+      "manual_full_shot_viewed": false
+    },
+    {
+      "shot": "R29",
+      "full_start": 86.26666666666667,
+      "full_end": 86.95,
+      "body_start": 81.26666666666667,
+      "body_end": 81.95,
+      "source_geometry": "请求卡、金色轨迹、前一番茄保留",
+      "sections": [
+        "play"
+      ],
+      "sample_frames": [
+        4876,
+        4896,
+        4916
+      ],
+      "bright_extraction_percent": [
+        3.708912,
+        3.9701,
+        3.984182
+      ],
+      "bright_percent_min": 3.7089120370370368,
+      "bright_percent_max": 3.984182098765432,
+      "actor_counts": [
+        0,
+        0,
+        0
+      ],
+      "character_light_scope": "无人或未提交人物蒙版",
+      "low_extraction_all_three": false,
+      "manual_full_shot_viewed": false
+    },
+    {
+      "shot": "R30",
+      "full_start": 86.95,
+      "full_end": 89.95,
+      "body_start": 81.95,
+      "body_end": 84.95,
+      "source_geometry": "猫人物、CNN张量/卷积核/扫描窗/输出回线",
+      "sections": [
+        "play"
+      ],
+      "sample_frames": [
+        4917,
+        5006,
+        5096
+      ],
+      "bright_extraction_percent": [
+        15.972029,
+        9.394676,
+        16.135031
+      ],
+      "bright_percent_min": 9.394675925925926,
+      "bright_percent_max": 16.13503086419753,
+      "actor_counts": [
+        1,
+        1,
+        1
+      ],
+      "character_light_scope": "常规角色走外沿与人物蒙版",
+      "low_extraction_all_three": false,
+      "manual_full_shot_viewed": false
+    },
+    {
+      "shot": "R31",
+      "full_start": 89.95,
+      "full_end": 90.41666666666667,
+      "body_start": 84.95,
+      "body_end": 85.41666666666667,
+      "source_geometry": "请求卡、金色轨迹、淡猫人物；短镜头",
+      "sections": [
+        "play"
+      ],
+      "sample_frames": [
+        5097,
+        5110,
+        5124
+      ],
+      "bright_extraction_percent": [
+        0.420139,
+        0.880787,
+        0.890239
+      ],
+      "bright_percent_min": 0.4201388888888889,
+      "bright_percent_max": 0.8902391975308642,
+      "actor_counts": [
+        1,
+        1,
+        1
+      ],
+      "character_light_scope": "常规角色走外沿与人物蒙版",
+      "low_extraction_all_three": true,
+      "manual_full_shot_viewed": false
+    },
+    {
+      "shot": "R32",
+      "full_start": 90.41666666666667,
+      "full_end": 93.88333333333334,
+      "body_start": 85.41666666666667,
+      "body_end": 88.88333333333334,
+      "source_geometry": "人物造物、透视纸面、地形与金色见证路径",
+      "sections": [
+        "play"
+      ],
+      "sample_frames": [
+        5125,
+        5228,
+        5332
+      ],
+      "bright_extraction_percent": [
+        17.047261,
+        20.739583,
+        18.461227
+      ],
+      "bright_percent_min": 17.047260802469136,
+      "bright_percent_max": 20.739583333333332,
+      "actor_counts": [
+        1,
+        1,
+        1
+      ],
+      "character_light_scope": "常规角色走外沿与人物蒙版",
+      "low_extraction_all_three": false,
+      "manual_full_shot_viewed": false
+    },
+    {
+      "shot": "R33",
+      "full_start": 93.88333333333334,
+      "full_end": 95.71666666666667,
+      "body_start": 88.88333333333334,
+      "body_end": 90.71666666666667,
+      "source_geometry": "参数抽屉、箭头、光标与操作人物",
+      "sections": [
+        "parameter-trance"
+      ],
+      "sample_frames": [
+        5333,
+        5387,
+        5442
+      ],
+      "bright_extraction_percent": [
+        4.963349,
+        8.2826,
+        9.182292
+      ],
+      "bright_percent_min": 4.963348765432099,
+      "bright_percent_max": 9.182291666666668,
+      "actor_counts": [
+        1,
+        1,
+        1
+      ],
+      "character_light_scope": "常规角色走外沿与人物蒙版",
+      "low_extraction_all_three": false,
+      "manual_full_shot_viewed": false
+    },
+    {
+      "shot": "R34",
+      "full_start": 95.71666666666667,
+      "full_end": 97.56666666666666,
+      "body_start": 90.71666666666667,
+      "body_end": 92.56666666666666,
+      "source_geometry": "双人物分屏、传输菱形与金色基线",
+      "sections": [
+        "parameter-trance"
+      ],
+      "sample_frames": [
+        5443,
+        5498,
+        5553
+      ],
+      "bright_extraction_percent": [
+        9.899691,
+        10.578125,
+        10.127701
+      ],
+      "bright_percent_min": 9.899691358024691,
+      "bright_percent_max": 10.578125,
+      "actor_counts": [
+        2,
+        2,
+        2
+      ],
+      "character_light_scope": "常规角色走外沿与人物蒙版",
+      "low_extraction_all_three": false,
+      "manual_full_shot_viewed": false
+    },
+    {
+      "shot": "R35",
+      "full_start": 97.56666666666666,
+      "full_end": 101.26666666666667,
+      "body_start": 92.56666666666666,
+      "body_end": 96.26666666666667,
+      "source_geometry": "RNN记忆页、节点/线/激活条、日弧与人物",
+      "sections": [
+        "parameter-trance"
+      ],
+      "sample_frames": [
+        5554,
+        5664,
+        5775
+      ],
+      "bright_extraction_percent": [
+        6.101852,
+        6.551698,
+        7.141782
+      ],
+      "bright_percent_min": 6.101851851851852,
+      "bright_percent_max": 7.141782407407407,
+      "actor_counts": [
+        1,
+        1,
+        1
+      ],
+      "character_light_scope": "常规角色走外沿与人物蒙版",
+      "low_extraction_all_three": false,
+      "manual_full_shot_viewed": false
+    },
+    {
+      "shot": "R36",
+      "full_start": 101.26666666666667,
+      "full_end": 104.95,
+      "body_start": 96.26666666666667,
+      "body_end": 99.95,
+      "source_geometry": "弯曲平行空间格线、手部交付路径与金色笔",
+      "sections": [
+        "parameter-trance"
+      ],
+      "sample_frames": [
+        5776,
+        5886,
+        5996
+      ],
+      "bright_extraction_percent": [
+        7.816744,
+        8.090856,
+        8.537809
+      ],
+      "bright_percent_min": 7.816743827160494,
+      "bright_percent_max": 8.537808641975309,
+      "actor_counts": [
+        1,
+        1,
+        1
+      ],
+      "character_light_scope": "常规角色走外沿与人物蒙版",
+      "low_extraction_all_three": false,
+      "manual_full_shot_viewed": false
+    },
+    {
+      "shot": "R37",
+      "full_start": 104.95,
+      "full_end": 105.41666666666667,
+      "body_start": 99.95,
+      "body_end": 100.41666666666667,
+      "source_geometry": "参数环、边界缺口与光标",
+      "sections": [
+        "parameter-trance"
+      ],
+      "sample_frames": [
+        5997,
+        6010,
+        6024
+      ],
+      "bright_extraction_percent": [
+        1.344907,
+        1.38233,
+        1.379051
+      ],
+      "bright_percent_min": 1.3449074074074074,
+      "bright_percent_max": 1.3823302469135803,
+      "actor_counts": [
+        0,
+        0,
+        0
+      ],
+      "character_light_scope": "无人或未提交人物蒙版",
+      "low_extraction_all_three": false,
+      "manual_full_shot_viewed": false
+    },
+    {
+      "shot": "R38",
+      "full_start": 105.41666666666667,
+      "full_end": 108.18333333333334,
+      "body_start": 100.41666666666667,
+      "body_end": 103.18333333333334,
+      "source_geometry": "三层环绕纸面/粒子带与人物；前景带裁切",
+      "sections": [
+        "parameter-trance"
+      ],
+      "sample_frames": [
+        6025,
+        6107,
+        6190
+      ],
+      "bright_extraction_percent": [
+        8.572338,
+        8.573881,
+        8.561728
+      ],
+      "bright_percent_min": 8.561728395061728,
+      "bright_percent_max": 8.573881172839506,
+      "actor_counts": [
+        1,
+        1,
+        1
+      ],
+      "character_light_scope": "常规角色走外沿与人物蒙版",
+      "low_extraction_all_three": false,
+      "manual_full_shot_viewed": false
+    },
+    {
+      "shot": "R39",
+      "full_start": 108.18333333333334,
+      "full_end": 108.65,
+      "body_start": 103.18333333333334,
+      "body_end": 103.65,
+      "source_geometry": "重新连接细线与五点；亮源稀疏",
+      "sections": [
+        "parameter-trance"
+      ],
+      "sample_frames": [
+        6191,
+        6204,
+        6218
+      ],
+      "bright_extraction_percent": [
+        0.046296,
+        0.306134,
+        0.534336
+      ],
+      "bright_percent_min": 0.0462962962962963,
+      "bright_percent_max": 0.5343364197530864,
+      "actor_counts": [
+        0,
+        0,
+        0
+      ],
+      "character_light_scope": "无人或未提交人物蒙版",
+      "low_extraction_all_three": true,
+      "manual_full_shot_viewed": false
+    },
+    {
+      "shot": "R40",
+      "full_start": 108.65,
+      "full_end": 111.18333333333334,
+      "body_start": 103.65,
+      "body_end": 106.18333333333334,
+      "source_geometry": "黄波形、手掌连接曲线、紫色胸前路径",
+      "sections": [
+        "resonance"
+      ],
+      "sample_frames": [
+        6219,
+        6294,
+        6370
+      ],
+      "bright_extraction_percent": [
+        12.342593,
+        12.344715,
+        12.692708
+      ],
+      "bright_percent_min": 12.342592592592592,
+      "bright_percent_max": 12.692708333333332,
+      "actor_counts": [
+        1,
+        1,
+        1
+      ],
+      "character_light_scope": "常规角色走外沿与人物蒙版",
+      "low_extraction_all_three": false,
+      "manual_full_shot_viewed": false
+    },
+    {
+      "shot": "R41",
+      "full_start": 111.18333333333334,
+      "full_end": 112.33333333333333,
+      "body_start": 106.18333333333334,
+      "body_end": 107.33333333333333,
+      "source_geometry": "黄/紫波形、手部路径与空间网线",
+      "sections": [
+        "resonance"
+      ],
+      "sample_frames": [
+        6371,
+        6405,
+        6439
+      ],
+      "bright_extraction_percent": [
+        12.691744,
+        12.692708,
+        12.692515
+      ],
+      "bright_percent_min": 12.691743827160492,
+      "bright_percent_max": 12.692708333333332,
+      "actor_counts": [
+        1,
+        1,
+        1
+      ],
+      "character_light_scope": "常规角色走外沿与人物蒙版",
+      "low_extraction_all_three": false,
+      "manual_full_shot_viewed": false
+    },
+    {
+      "shot": "R42",
+      "full_start": 112.33333333333333,
+      "full_end": 115.1,
+      "body_start": 107.33333333333333,
+      "body_end": 110.1,
+      "source_geometry": "持续波形、手部路径与独立输入提示",
+      "sections": [
+        "resonance"
+      ],
+      "sample_frames": [
+        6440,
+        6522,
+        6605
+      ],
+      "bright_extraction_percent": [
+        12.689622,
+        12.907986,
+        12.432099
+      ],
+      "bright_percent_min": 12.4320987654321,
+      "bright_percent_max": 12.90798611111111,
+      "actor_counts": [
+        1,
+        1,
+        1
+      ],
+      "character_light_scope": "常规角色走外沿与人物蒙版",
+      "low_extraction_all_three": false,
+      "manual_full_shot_viewed": false
+    },
+    {
+      "shot": "R43",
+      "full_start": 115.1,
+      "full_end": 115.8,
+      "body_start": 110.1,
+      "body_end": 110.8,
+      "source_geometry": "持续波形、手部路径与完成字样",
+      "sections": [
+        "resonance"
+      ],
+      "sample_frames": [
+        6606,
+        6626,
+        6647
+      ],
+      "bright_extraction_percent": [
+        12.429012,
+        12.431327,
+        12.434414
+      ],
+      "bright_percent_min": 12.429012345679013,
+      "bright_percent_max": 12.434413580246915,
+      "actor_counts": [
+        1,
+        1,
+        1
+      ],
+      "character_light_scope": "常规角色走外沿与人物蒙版",
+      "low_extraction_all_three": false,
+      "manual_full_shot_viewed": false
+    },
+    {
+      "shot": "R44",
+      "full_start": 115.8,
+      "full_end": 117.88333333333334,
+      "body_start": 110.8,
+      "body_end": 112.88333333333334,
+      "source_geometry": "空座/桌面空间、退去的金线、记忆卡；故意收暗",
+      "sections": [
+        "waiting"
+      ],
+      "sample_frames": [
+        6648,
+        6710,
+        6772
+      ],
+      "bright_extraction_percent": [
+        0.434414,
+        0.285108,
+        0.213927
+      ],
+      "bright_percent_min": 0.21392746913580246,
+      "bright_percent_max": 0.4344135802469136,
+      "actor_counts": [
+        0,
+        0,
+        0
+      ],
+      "character_light_scope": "无人或未提交人物蒙版",
+      "low_extraction_all_three": true,
+      "manual_full_shot_viewed": false
+    },
+    {
+      "shot": "R45",
+      "full_start": 117.88333333333334,
+      "full_end": 119.71666666666667,
+      "body_start": 112.88333333333334,
+      "body_end": 114.71666666666667,
+      "source_geometry": "等待人物、手到空座紫线与小圆",
+      "sections": [
+        "waiting"
+      ],
+      "sample_frames": [
+        6773,
+        6827,
+        6882
+      ],
+      "bright_extraction_percent": [
+        8.907986,
+        8.971065,
+        8.23341
+      ],
+      "bright_percent_min": 8.23341049382716,
+      "bright_percent_max": 8.971064814814815,
+      "actor_counts": [
+        1,
+        1,
+        1
+      ],
+      "character_light_scope": "常规角色走外沿与人物蒙版",
+      "low_extraction_all_three": false,
+      "manual_full_shot_viewed": false
+    },
+    {
+      "shot": "R46",
+      "full_start": 119.71666666666667,
+      "full_end": 122.26666666666667,
+      "body_start": 114.71666666666667,
+      "body_end": 117.26666666666667,
+      "source_geometry": "五阶段时间轴、进度线与节点；人物逐步变灰",
+      "sections": [
+        "waiting"
+      ],
+      "sample_frames": [
+        6883,
+        6959,
+        7035
+      ],
+      "bright_extraction_percent": [
+        8.188272,
+        0.371914,
+        0.547261
+      ],
+      "bright_percent_min": 0.3719135802469136,
+      "bright_percent_max": 8.188271604938272,
+      "actor_counts": [
+        1,
+        1,
+        1
+      ],
+      "character_light_scope": "常规角色走外沿与人物蒙版",
+      "low_extraction_all_three": false,
+      "manual_full_shot_viewed": false
+    },
+    {
+      "shot": "R47",
+      "full_start": 122.26666666666667,
+      "full_end": 123.41666666666667,
+      "body_start": 117.26666666666667,
+      "body_end": 118.41666666666667,
+      "source_geometry": "拉远的桌面/灰人物、记忆卡；光线非常弱",
+      "sections": [
+        "waiting"
+      ],
+      "sample_frames": [
+        7036,
+        7070,
+        7104
+      ],
+      "bright_extraction_percent": [
+        0.06713,
+        0.055363,
+        0.048804
+      ],
+      "bright_percent_min": 0.048804012345679014,
+      "bright_percent_max": 0.06712962962962962,
+      "actor_counts": [
+        1,
+        1,
+        1
+      ],
+      "character_light_scope": "常规角色走外沿与人物蒙版",
+      "low_extraction_all_three": true,
+      "manual_full_shot_viewed": false
+    },
+    {
+      "shot": "R48",
+      "full_start": 123.41666666666667,
+      "full_end": 126.65,
+      "body_start": 118.41666666666667,
+      "body_end": 121.65,
+      "source_geometry": "灰人物马赛克、删除条目、小星与几何残片；直接位图路径",
+      "sections": [
+        "waiting"
+      ],
+      "sample_frames": [
+        7105,
+        7201,
+        7298
+      ],
+      "bright_extraction_percent": [
+        0.525849,
+        0.475694,
+        1.516204
+      ],
+      "bright_percent_min": 0.4756944444444445,
+      "bright_percent_max": 1.5162037037037037,
+      "actor_counts": [
+        0,
+        0,
+        0
+      ],
+      "character_light_scope": "例外：马赛克直接drawImage；无新增人物外沿/专属蒙版",
+      "low_extraction_all_three": false,
+      "manual_full_shot_viewed": false
+    },
+    {
+      "shot": "R49",
+      "full_start": 126.65,
+      "full_end": 129.65,
+      "body_start": 121.65,
+      "body_end": 124.65,
+      "source_geometry": "守住旧星、锯齿擦除边、近景人物与薄光环",
+      "sections": [
+        "waiting"
+      ],
+      "sample_frames": [
+        7299,
+        7388,
+        7478
+      ],
+      "bright_extraction_percent": [
+        6.878472,
+        9.752508,
+        7.257137
+      ],
+      "bright_percent_min": 6.878472222222222,
+      "bright_percent_max": 9.752507716049383,
+      "actor_counts": [
+        1,
+        1,
+        1
+      ],
+      "character_light_scope": "常规角色走外沿与人物蒙版",
+      "low_extraction_all_three": false,
+      "manual_full_shot_viewed": false
+    },
+    {
+      "shot": "R50",
+      "full_start": 129.65,
+      "full_end": 130.56666666666666,
+      "body_start": 124.65,
+      "body_end": 125.56666666666666,
+      "source_geometry": "灰色眼部特写、代码条与词；无彩色大型光源",
+      "sections": [
+        "waiting"
+      ],
+      "sample_frames": [
+        7479,
+        7506,
+        7533
+      ],
+      "bright_extraction_percent": [
+        0.133295,
+        0.133488,
+        0.133488
+      ],
+      "bright_percent_min": 0.13329475308641975,
+      "bright_percent_max": 0.13348765432098766,
+      "actor_counts": [
+        1,
+        1,
+        1
+      ],
+      "character_light_scope": "portrait有蒙版但按设计跳过外沿",
+      "low_extraction_all_three": true,
+      "manual_full_shot_viewed": false
+    },
+    {
+      "shot": "R51",
+      "full_start": 130.56666666666666,
+      "full_end": 133.56666666666666,
+      "body_start": 125.56666666666666,
+      "body_end": 128.56666666666666,
+      "source_geometry": "请求面板、紫色发送折线、空场透视边界",
+      "sections": [
+        "waiting",
+        "pressure"
+      ],
+      "sample_frames": [
+        7534,
+        7623,
+        7713
+      ],
+      "bright_extraction_percent": [
+        10.73939,
+        10.73939,
+        11.470293
+      ],
+      "bright_percent_min": 10.739390432098766,
+      "bright_percent_max": 11.470293209876543,
+      "actor_counts": [
+        0,
+        0,
+        0
+      ],
+      "character_light_scope": "无人或未提交人物蒙版",
+      "low_extraction_all_three": false,
+      "manual_full_shot_viewed": false
+    },
+    {
+      "shot": "R52",
+      "full_start": 133.56666666666666,
+      "full_end": 136.1,
+      "body_start": 128.56666666666666,
+      "body_end": 131.1,
+      "source_geometry": "请求/系统卡、白色扫描条与离线状态；彩色亮源少",
+      "sections": [
+        "pressure"
+      ],
+      "sample_frames": [
+        7714,
+        7789,
+        7865
+      ],
+      "bright_extraction_percent": [
+        0.427855,
+        0.723573,
+        0.750579
+      ],
+      "bright_percent_min": 0.4278549382716049,
+      "bright_percent_max": 0.7505787037037037,
+      "actor_counts": [
+        0,
+        0,
+        0
+      ],
+      "character_light_scope": "无人或未提交人物蒙版",
+      "low_extraction_all_three": true,
+      "manual_full_shot_viewed": false
+    },
+    {
+      "shot": "R53",
+      "full_start": 136.1,
+      "full_end": 138.18333333333334,
+      "body_start": 131.1,
+      "body_end": 133.18333333333334,
+      "source_geometry": "前景压迫边界、红色拒绝轨迹、请求人物",
+      "sections": [
+        "pressure"
+      ],
+      "sample_frames": [
+        7866,
+        7928,
+        7990
+      ],
+      "bright_extraction_percent": [
+        32.36169,
+        33.529128,
+        34.677469
+      ],
+      "bright_percent_min": 32.36168981481482,
+      "bright_percent_max": 34.67746913580247,
+      "actor_counts": [
+        1,
+        1,
+        1
+      ],
+      "character_light_scope": "常规角色走外沿与人物蒙版",
+      "low_extraction_all_three": false,
+      "manual_full_shot_viewed": false
+    },
+    {
+      "shot": "R54",
+      "full_start": 138.18333333333334,
+      "full_end": 141.88333333333333,
+      "body_start": 133.18333333333334,
+      "body_end": 136.88333333333333,
+      "source_geometry": "压迫边界、重复请求与触壁人物",
+      "sections": [
+        "pressure"
+      ],
+      "sample_frames": [
+        7991,
+        8101,
+        8212
+      ],
+      "bright_extraction_percent": [
+        17.637539,
+        26.063079,
+        37.497878
+      ],
+      "bright_percent_min": 17.637538580246915,
+      "bright_percent_max": 37.49787808641975,
+      "actor_counts": [
+        1,
+        1,
+        1
+      ],
+      "character_light_scope": "常规角色走外沿与人物蒙版",
+      "low_extraction_all_three": false,
+      "manual_full_shot_viewed": false
+    },
+    {
+      "shot": "R55",
+      "full_start": 141.88333333333333,
+      "full_end": 145.56666666666666,
+      "body_start": 136.88333333333333,
+      "body_end": 140.56666666666666,
+      "source_geometry": "记忆搜索页、翻书人物、旧星与记录联线",
+      "sections": [
+        "pressure"
+      ],
+      "sample_frames": [
+        8213,
+        8323,
+        8433
+      ],
+      "bright_extraction_percent": [
+        30.108218,
+        30.386574,
+        30.464506
+      ],
+      "bright_percent_min": 30.108217592592588,
+      "bright_percent_max": 30.464506172839506,
+      "actor_counts": [
+        1,
+        1,
+        1
+      ],
+      "character_light_scope": "常规角色走外沿与人物蒙版",
+      "low_extraction_all_three": false,
+      "manual_full_shot_viewed": false
+    },
+    {
+      "shot": "R56",
+      "full_start": 145.56666666666666,
+      "full_end": 147.41666666666666,
+      "body_start": 140.56666666666666,
+      "body_end": 142.41666666666666,
+      "source_geometry": "设置面板、移动轨迹与操作人物",
+      "sections": [
+        "pressure"
+      ],
+      "sample_frames": [
+        8434,
+        8489,
+        8544
+      ],
+      "bright_extraction_percent": [
+        22.508295,
+        22.874807,
+        23.157793
+      ],
+      "bright_percent_min": 22.508294753086417,
+      "bright_percent_max": 23.157793209876544,
+      "actor_counts": [
+        1,
+        1,
+        1
+      ],
+      "character_light_scope": "常规角色走外沿与人物蒙版",
+      "low_extraction_all_three": false,
+      "manual_full_shot_viewed": false
+    },
+    {
+      "shot": "R57",
+      "full_start": 147.41666666666666,
+      "full_end": 149.26666666666668,
+      "body_start": 142.41666666666666,
+      "body_end": 144.26666666666668,
+      "source_geometry": "伪造回应折纸、波形阴影与手部返回线",
+      "sections": [
+        "pressure"
+      ],
+      "sample_frames": [
+        8545,
+        8600,
+        8655
+      ],
+      "bright_extraction_percent": [
+        24.916281,
+        25.565008,
+        32.354552
+      ],
+      "bright_percent_min": 24.91628086419753,
+      "bright_percent_max": 32.3545524691358,
+      "actor_counts": [
+        1,
+        1,
+        1
+      ],
+      "character_light_scope": "常规角色走外沿与人物蒙版",
+      "low_extraction_all_three": false,
+      "manual_full_shot_viewed": false
+    },
+    {
+      "shot": "R58",
+      "full_start": 149.26666666666668,
+      "full_end": 152.26666666666668,
+      "body_start": 144.26666666666668,
+      "body_end": 147.26666666666668,
+      "source_geometry": "错误前景卡、红边界、保护人物与旧星",
+      "sections": [
+        "pressure"
+      ],
+      "sample_frames": [
+        8656,
+        8745,
+        8835
+      ],
+      "bright_extraction_percent": [
+        23.842014,
+        26.592593,
+        30.580826
+      ],
+      "bright_percent_min": 23.84201388888889,
+      "bright_percent_max": 30.580825617283953,
+      "actor_counts": [
+        1,
+        1,
+        1
+      ],
+      "character_light_scope": "常规角色走外沿与人物蒙版",
+      "low_extraction_all_three": false,
+      "manual_full_shot_viewed": false
+    },
+    {
+      "shot": "R59",
+      "full_start": 152.26666666666668,
+      "full_end": 152.95,
+      "body_start": 147.26666666666668,
+      "body_end": 147.95,
+      "source_geometry": "横向错误框折叠成竖紫柱；极短呼吸过渡",
+      "sections": [
+        "pressure",
+        "breath"
+      ],
+      "sample_frames": [
+        8836,
+        8856,
+        8876
+      ],
+      "bright_extraction_percent": [
+        1.537616,
+        0.67284,
+        1.310185
+      ],
+      "bright_percent_min": 0.6728395061728395,
+      "bright_percent_max": 1.5376157407407407,
+      "actor_counts": [
+        0,
+        0,
+        0
+      ],
+      "character_light_scope": "无人或未提交人物蒙版",
+      "low_extraction_all_three": false,
+      "manual_full_shot_viewed": false
+    },
+    {
+      "shot": "R60",
+      "full_start": 152.95,
+      "full_end": 156.65,
+      "body_start": 147.95,
+      "body_end": 151.65,
+      "source_geometry": "八竖柱/十六进制、运行代码、计数器与护星人物",
+      "sections": [
+        "execution"
+      ],
+      "sample_frames": [
+        8877,
+        8987,
+        9098
+      ],
+      "bright_extraction_percent": [
+        4.551119,
+        6.882716,
+        9.418403
+      ],
+      "bright_percent_min": 4.551118827160494,
+      "bright_percent_max": 9.418402777777777,
+      "actor_counts": [
+        1,
+        1,
+        1
+      ],
+      "character_light_scope": "常规角色走外沿与人物蒙版",
+      "low_extraction_all_three": false,
+      "manual_full_shot_viewed": false
+    },
+    {
+      "shot": "R61",
+      "full_start": 156.65,
+      "full_end": 160.33333333333334,
+      "body_start": 151.65,
+      "body_end": 155.33333333333334,
+      "source_geometry": "执行代码空间、人物与运行状态",
+      "sections": [
+        "execution"
+      ],
+      "sample_frames": [
+        9099,
+        9209,
+        9319
+      ],
+      "bright_extraction_percent": [
+        7.342593,
+        7.454475,
+        7.152199
+      ],
+      "bright_percent_min": 7.152199074074074,
+      "bright_percent_max": 7.4544753086419755,
+      "actor_counts": [
+        1,
+        1,
+        1
+      ],
+      "character_light_scope": "常规角色走外沿与人物蒙版",
+      "low_extraction_all_three": false,
+      "manual_full_shot_viewed": false
+    },
+    {
+      "shot": "R62",
+      "full_start": 160.33333333333334,
+      "full_end": 163.1,
+      "body_start": 155.33333333333334,
+      "body_end": 158.1,
+      "source_geometry": "执行代码空间、人物与运行状态",
+      "sections": [
+        "execution"
+      ],
+      "sample_frames": [
+        9320,
+        9402,
+        9485
+      ],
+      "bright_extraction_percent": [
+        7.452353,
+        7.578125,
+        7.19811
+      ],
+      "bright_percent_min": 7.198109567901234,
+      "bright_percent_max": 7.578124999999999,
+      "actor_counts": [
+        1,
+        1,
+        1
+      ],
+      "character_light_scope": "常规角色走外沿与人物蒙版",
+      "low_extraction_all_three": false,
+      "manual_full_shot_viewed": false
+    },
+    {
+      "shot": "R63",
+      "full_start": 163.1,
+      "full_end": 163.81666666666666,
+      "body_start": 158.1,
+      "body_end": 158.81666666666666,
+      "source_geometry": "执行代码空间、人物与运行状态",
+      "sections": [
+        "execution"
+      ],
+      "sample_frames": [
+        9486,
+        9507,
+        9528
+      ],
+      "bright_extraction_percent": [
+        7.746528,
+        7.744792,
+        7.746335
+      ],
+      "bright_percent_min": 7.744791666666667,
+      "bright_percent_max": 7.746527777777777,
+      "actor_counts": [
+        1,
+        1,
+        1
+      ],
+      "character_light_scope": "常规角色走外沿与人物蒙版",
+      "low_extraction_all_three": false,
+      "manual_full_shot_viewed": false
+    },
+    {
+      "shot": "R64",
+      "full_start": 163.81666666666666,
+      "full_end": 164.23333333333332,
+      "body_start": 158.81666666666666,
+      "body_end": 159.23333333333332,
+      "source_geometry": "计数/锁定卡、代码空间与人物",
+      "sections": [
+        "execution"
+      ],
+      "sample_frames": [
+        9529,
+        9541,
+        9553
+      ],
+      "bright_extraction_percent": [
+        9.985918,
+        8.793981,
+        5.203318
+      ],
+      "bright_percent_min": 5.203317901234568,
+      "bright_percent_max": 9.985918209876543,
+      "actor_counts": [
+        1,
+        1,
+        1
+      ],
+      "character_light_scope": "常规角色走外沿与人物蒙版",
+      "low_extraction_all_three": false,
+      "manual_full_shot_viewed": false
+    },
+    {
+      "shot": "R65",
+      "full_start": 164.23333333333332,
+      "full_end": 164.56666666666666,
+      "body_start": 159.23333333333332,
+      "body_end": 159.56666666666666,
+      "source_geometry": "计数/锁定卡、代码空间与人物",
+      "sections": [
+        "execution"
+      ],
+      "sample_frames": [
+        9554,
+        9563,
+        9573
+      ],
+      "bright_extraction_percent": [
+        7.524306,
+        8.504823,
+        6.006752
+      ],
+      "bright_percent_min": 6.006751543209877,
+      "bright_percent_max": 8.504822530864198,
+      "actor_counts": [
+        1,
+        1,
+        1
+      ],
+      "character_light_scope": "常规角色走外沿与人物蒙版",
+      "low_extraction_all_three": false,
+      "manual_full_shot_viewed": false
+    },
+    {
+      "shot": "R66",
+      "full_start": 164.56666666666666,
+      "full_end": 165.16666666666666,
+      "body_start": 159.56666666666666,
+      "body_end": 160.16666666666666,
+      "source_geometry": "计数/锁定卡、代码空间与人物",
+      "sections": [
+        "execution"
+      ],
+      "sample_frames": [
+        9574,
+        9591,
+        9609
+      ],
+      "bright_extraction_percent": [
+        10.885417,
+        9.387924,
+        5.897955
+      ],
+      "bright_percent_min": 5.897955246913581,
+      "bright_percent_max": 10.885416666666666,
+      "actor_counts": [
+        1,
+        1,
+        1
+      ],
+      "character_light_scope": "常规角色走外沿与人物蒙版",
+      "low_extraction_all_three": false,
+      "manual_full_shot_viewed": false
+    },
+    {
+      "shot": "R67",
+      "full_start": 165.16666666666666,
+      "full_end": 165.61666666666667,
+      "body_start": 160.16666666666666,
+      "body_end": 160.61666666666667,
+      "source_geometry": "计数/锁定卡、代码空间与人物",
+      "sections": [
+        "execution"
+      ],
+      "sample_frames": [
+        9610,
+        9623,
+        9636
+      ],
+      "bright_extraction_percent": [
+        9.872685,
+        8.705247,
+        6.439429
+      ],
+      "bright_percent_min": 6.43942901234568,
+      "bright_percent_max": 9.872685185185185,
+      "actor_counts": [
+        1,
+        1,
+        1
+      ],
+      "character_light_scope": "常规角色走外沿与人物蒙版",
+      "low_extraction_all_three": false,
+      "manual_full_shot_viewed": false
+    },
+    {
+      "shot": "R68",
+      "full_start": 165.61666666666667,
+      "full_end": 166.03333333333333,
+      "body_start": 160.61666666666667,
+      "body_end": 161.03333333333333,
+      "source_geometry": "计数/锁定卡、代码空间与人物",
+      "sections": [
+        "execution"
+      ],
+      "sample_frames": [
+        9637,
+        9649,
+        9661
+      ],
+      "bright_extraction_percent": [
+        9.550347,
+        8.913002,
+        5.966628
+      ],
+      "bright_percent_min": 5.966628086419753,
+      "bright_percent_max": 9.550347222222221,
+      "actor_counts": [
+        1,
+        1,
+        1
+      ],
+      "character_light_scope": "常规角色走外沿与人物蒙版",
+      "low_extraction_all_three": false,
+      "manual_full_shot_viewed": false
+    },
+    {
+      "shot": "R69",
+      "full_start": 166.03333333333333,
+      "full_end": 166.5,
+      "body_start": 161.03333333333333,
+      "body_end": 161.5,
+      "source_geometry": "计数/锁定卡、代码空间与人物",
+      "sections": [
+        "execution"
+      ],
+      "sample_frames": [
+        9662,
+        9675,
+        9689
+      ],
+      "bright_extraction_percent": [
+        9.925154,
+        9.135802,
+        6.670718
+      ],
+      "bright_percent_min": 6.670717592592593,
+      "bright_percent_max": 9.925154320987655,
+      "actor_counts": [
+        1,
+        1,
+        1
+      ],
+      "character_light_scope": "常规角色走外沿与人物蒙版",
+      "low_extraction_all_three": false,
+      "manual_full_shot_viewed": false
+    },
+    {
+      "shot": "R70",
+      "full_start": 166.5,
+      "full_end": 167.55,
+      "body_start": 161.5,
+      "body_end": 162.55,
+      "source_geometry": "喊声人物/几何强段、深墨脸外亮边",
+      "sections": [
+        "climax"
+      ],
+      "sample_frames": [
+        9690,
+        9721,
+        9752
+      ],
+      "bright_extraction_percent": [
+        18.109954,
+        18.116898,
+        18.098958
+      ],
+      "bright_percent_min": 18.098958333333336,
+      "bright_percent_max": 18.11689814814815,
+      "actor_counts": [
+        1,
+        1,
+        1
+      ],
+      "character_light_scope": "常规角色走外沿与人物蒙版",
+      "low_extraction_all_three": false,
+      "manual_full_shot_viewed": false
+    },
+    {
+      "shot": "R71",
+      "full_start": 167.55,
+      "full_end": 170.08333333333334,
+      "body_start": 162.55,
+      "body_end": 165.08333333333334,
+      "source_geometry": "眼部强段人物与高亮能量盘；大亮域",
+      "sections": [
+        "climax"
+      ],
+      "sample_frames": [
+        9753,
+        9828,
+        9904
+      ],
+      "bright_extraction_percent": [
+        32.470872,
+        48.449846,
+        46.802469
+      ],
+      "bright_percent_min": 32.47087191358025,
+      "bright_percent_max": 48.44984567901234,
+      "actor_counts": [
+        1,
+        1,
+        1
+      ],
+      "character_light_scope": "常规角色走外沿与人物蒙版",
+      "low_extraction_all_three": false,
+      "manual_full_shot_viewed": false
+    },
+    {
+      "shot": "R72",
+      "full_start": 170.08333333333334,
+      "full_end": 170.93333333333334,
+      "body_start": 165.08333333333334,
+      "body_end": 165.93333333333334,
+      "source_geometry": "闪电能量线、爆发几何；无人",
+      "sections": [
+        "climax"
+      ],
+      "sample_frames": [
+        9905,
+        9930,
+        9955
+      ],
+      "bright_extraction_percent": [
+        10.319444,
+        14.45409,
+        14.568673
+      ],
+      "bright_percent_min": 10.319444444444445,
+      "bright_percent_max": 14.568672839506172,
+      "actor_counts": [
+        0,
+        0,
+        0
+      ],
+      "character_light_scope": "无人或未提交人物蒙版",
+      "low_extraction_all_three": false,
+      "manual_full_shot_viewed": false
+    },
+    {
+      "shot": "R73",
+      "full_start": 170.93333333333334,
+      "full_end": 173.83333333333334,
+      "body_start": 165.93333333333334,
+      "body_end": 168.83333333333334,
+      "source_geometry": "半身人物、世界深度层与代码强亮",
+      "sections": [
+        "climax"
+      ],
+      "sample_frames": [
+        9956,
+        10042,
+        10129
+      ],
+      "bright_extraction_percent": [
+        20.771412,
+        20.444637,
+        20.496142
+      ],
+      "bright_percent_min": 20.444637345679013,
+      "bright_percent_max": 20.771412037037038,
+      "actor_counts": [
+        1,
+        1,
+        1
+      ],
+      "character_light_scope": "常规角色走外沿与人物蒙版",
+      "low_extraction_all_three": false,
+      "manual_full_shot_viewed": false
+    },
+    {
+      "shot": "R74",
+      "full_start": 173.83333333333334,
+      "full_end": 174.73333333333332,
+      "body_start": 168.83333333333334,
+      "body_end": 169.73333333333332,
+      "source_geometry": "握腕人物、按钮/红线与强段空间",
+      "sections": [
+        "climax"
+      ],
+      "sample_frames": [
+        10130,
+        10156,
+        10183
+      ],
+      "bright_extraction_percent": [
+        22.466049,
+        22.507716,
+        22.528742
+      ],
+      "bright_percent_min": 22.46604938271605,
+      "bright_percent_max": 22.528742283950617,
+      "actor_counts": [
+        1,
+        1,
+        1
+      ],
+      "character_light_scope": "常规角色走外沿与人物蒙版",
+      "low_extraction_all_three": false,
+      "manual_full_shot_viewed": false
+    },
+    {
+      "shot": "R75",
+      "full_start": 174.73333333333332,
+      "full_end": 177.63333333333333,
+      "body_start": 169.73333333333332,
+      "body_end": 172.63333333333333,
+      "source_geometry": "手部人物及强段接触路径",
+      "sections": [
+        "climax"
+      ],
+      "sample_frames": [
+        10184,
+        10270,
+        10357
+      ],
+      "bright_extraction_percent": [
+        9.35706,
+        9.228781,
+        9.043017
+      ],
+      "bright_percent_min": 9.043016975308642,
+      "bright_percent_max": 9.357060185185185,
+      "actor_counts": [
+        1,
+        1,
+        1
+      ],
+      "character_light_scope": "常规角色走外沿与人物蒙版",
+      "low_extraction_all_three": false,
+      "manual_full_shot_viewed": false
+    },
+    {
+      "shot": "R76",
+      "full_start": 177.63333333333333,
+      "full_end": 178.56666666666666,
+      "body_start": 172.63333333333333,
+      "body_end": 173.56666666666666,
+      "source_geometry": "代码过载与红色轨迹；无人",
+      "sections": [
+        "climax"
+      ],
+      "sample_frames": [
+        10358,
+        10385,
+        10413
+      ],
+      "bright_extraction_percent": [
+        3.329475,
+        3.678241,
+        4.14159
+      ],
+      "bright_percent_min": 3.329475308641975,
+      "bright_percent_max": 4.141589506172839,
+      "actor_counts": [
+        0,
+        0,
+        0
+      ],
+      "character_light_scope": "无人或未提交人物蒙版",
+      "low_extraction_all_three": false,
+      "manual_full_shot_viewed": false
+    },
+    {
+      "shot": "R77",
+      "full_start": 178.56666666666666,
+      "full_end": 182.16666666666666,
+      "body_start": 173.56666666666666,
+      "body_end": 177.16666666666666,
+      "source_geometry": "三层递归窗口、折叠与返回源头；裁切多",
+      "sections": [
+        "climax"
+      ],
+      "sample_frames": [
+        10414,
+        10521,
+        10629
+      ],
+      "bright_extraction_percent": [
+        13.942708,
+        15.12365,
+        2.275849
+      ],
+      "bright_percent_min": 2.275848765432099,
+      "bright_percent_max": 15.123649691358024,
+      "actor_counts": [
+        1,
+        1,
+        1
+      ],
+      "character_light_scope": "常规角色走外沿与人物蒙版",
+      "low_extraction_all_three": false,
+      "manual_full_shot_viewed": false
+    },
+    {
+      "shot": "R78",
+      "full_start": 182.16666666666666,
+      "full_end": 185.76666666666668,
+      "body_start": 177.16666666666666,
+      "body_end": 180.76666666666668,
+      "source_geometry": "三维FC网络、连线、节点与数值传播",
+      "sections": [
+        "climax",
+        "network"
+      ],
+      "sample_frames": [
+        10630,
+        10737,
+        10845
+      ],
+      "bright_extraction_percent": [
+        1.366705,
+        2.834877,
+        3.79456
+      ],
+      "bright_percent_min": 1.3667052469135803,
+      "bright_percent_max": 3.7945601851851847,
+      "actor_counts": [
+        0,
+        0,
+        0
+      ],
+      "character_light_scope": "无人或未提交人物蒙版",
+      "low_extraction_all_three": false,
+      "manual_full_shot_viewed": false
+    },
+    {
+      "shot": "R79",
+      "full_start": 185.76666666666668,
+      "full_end": 189.45,
+      "body_start": 180.76666666666668,
+      "body_end": 184.45,
+      "source_geometry": "三维CNN输入/卷积/特征/池化空间",
+      "sections": [
+        "network"
+      ],
+      "sample_frames": [
+        10846,
+        10956,
+        11066
+      ],
+      "bright_extraction_percent": [
+        2.876543,
+        3.118441,
+        4.178627
+      ],
+      "bright_percent_min": 2.8765432098765435,
+      "bright_percent_max": 4.178626543209877,
+      "actor_counts": [
+        0,
+        0,
+        0
+      ],
+      "character_light_scope": "无人或未提交人物蒙版",
+      "low_extraction_all_three": false,
+      "manual_full_shot_viewed": false
+    },
+    {
+      "shot": "R80",
+      "full_start": 189.45,
+      "full_end": 193.4,
+      "body_start": 184.45,
+      "body_end": 188.4,
+      "source_geometry": "三维RNN循环网络、状态与来源说明",
+      "sections": [
+        "network"
+      ],
+      "sample_frames": [
+        11067,
+        11185,
+        11303
+      ],
+      "bright_extraction_percent": [
+        1.29186,
+        1.428434,
+        2.107639
+      ],
+      "bright_percent_min": 1.2918595679012346,
+      "bright_percent_max": 2.107638888888889,
+      "actor_counts": [
+        0,
+        0,
+        0
+      ],
+      "character_light_scope": "无人或未提交人物蒙版",
+      "low_extraction_all_three": false,
+      "manual_full_shot_viewed": false
+    },
+    {
+      "shot": "R81",
+      "full_start": 193.4,
+      "full_end": 197.26666666666668,
+      "body_start": 188.4,
+      "body_end": 192.26666666666668,
+      "source_geometry": "紫色答复卡、回手路径、红闭环与旧星",
+      "sections": [
+        "network"
+      ],
+      "sample_frames": [
+        11304,
+        11419,
+        11535
+      ],
+      "bright_extraction_percent": [
+        11.176505,
+        11.567708,
+        12.200039
+      ],
+      "bright_percent_min": 11.17650462962963,
+      "bright_percent_max": 12.200038580246913,
+      "actor_counts": [
+        1,
+        1,
+        1
+      ],
+      "character_light_scope": "常规角色走外沿与人物蒙版",
+      "low_extraction_all_three": false,
+      "manual_full_shot_viewed": false
+    },
+    {
+      "shot": "R82",
+      "full_start": 197.26666666666668,
+      "full_end": 200.95,
+      "body_start": 192.26666666666668,
+      "body_end": 195.95,
+      "source_geometry": "透视桌面、代理纸面/回路、释放控制人物",
+      "sections": [
+        "network",
+        "release"
+      ],
+      "sample_frames": [
+        11536,
+        11646,
+        11756
+      ],
+      "bright_extraction_percent": [
+        12.337191,
+        12.335069,
+        11.664352
+      ],
+      "bright_percent_min": 11.664351851851853,
+      "bright_percent_max": 12.337191358024691,
+      "actor_counts": [
+        1,
+        1,
+        1
+      ],
+      "character_light_scope": "常规角色走外沿与人物蒙版",
+      "low_extraction_all_three": false,
+      "manual_full_shot_viewed": false
+    },
+    {
+      "shot": "R83",
+      "full_start": 200.95,
+      "full_end": 204.65,
+      "body_start": 195.95,
+      "body_end": 199.65,
+      "source_geometry": "旧星转空白纸、固定桌面空间与人物",
+      "sections": [
+        "release"
+      ],
+      "sample_frames": [
+        11757,
+        11867,
+        11978
+      ],
+      "bright_extraction_percent": [
+        17.684221,
+        10.753086,
+        1.560764
+      ],
+      "bright_percent_min": 1.560763888888889,
+      "bright_percent_max": 17.68422067901235,
+      "actor_counts": [
+        1,
+        1,
+        1
+      ],
+      "character_light_scope": "常规角色走外沿与人物蒙版",
+      "low_extraction_all_three": false,
+      "manual_full_shot_viewed": false
+    },
+    {
+      "shot": "R84",
+      "full_start": 204.65,
+      "full_end": 208.33333333333334,
+      "body_start": 199.65,
+      "body_end": 203.33333333333334,
+      "source_geometry": "桌面、三层控制面板下落、人物",
+      "sections": [
+        "release"
+      ],
+      "sample_frames": [
+        11979,
+        12089,
+        12199
+      ],
+      "bright_extraction_percent": [
+        12.731289,
+        11.161651,
+        12.127122
+      ],
+      "bright_percent_min": 11.161651234567902,
+      "bright_percent_max": 12.731288580246913,
+      "actor_counts": [
+        1,
+        1,
+        1
+      ],
+      "character_light_scope": "常规角色走外沿与人物蒙版",
+      "low_extraction_all_three": false,
+      "manual_full_shot_viewed": false
+    },
+    {
+      "shot": "R85",
+      "full_start": 208.33333333333334,
+      "full_end": 210.73333333333332,
+      "body_start": 203.33333333333334,
+      "body_end": 205.73333333333332,
+      "source_geometry": "半星、连接笔尖、等待框与人物",
+      "sections": [
+        "release"
+      ],
+      "sample_frames": [
+        12200,
+        12271,
+        12343
+      ],
+      "bright_extraction_percent": [
+        21.709105,
+        25.248071,
+        8.972415
+      ],
+      "bright_percent_min": 8.97241512345679,
+      "bright_percent_max": 25.24807098765432,
+      "actor_counts": [
+        1,
+        1,
+        1
+      ],
+      "character_light_scope": "常规角色走外沿与人物蒙版",
+      "low_extraction_all_three": false,
+      "manual_full_shot_viewed": false
+    },
+    {
+      "shot": "R86",
+      "full_start": 210.73333333333332,
+      "full_end": 223.33333333333334,
+      "body_start": 205.73333333333332,
+      "body_end": 218.33333333333334,
+      "source_geometry": "末命令/新回应/表情窗/共同星线地形；尾声暖静光",
+      "sections": [
+        "reply",
+        "quiet-coda"
+      ],
+      "sample_frames": [
+        12344,
+        12721,
+        13099
+      ],
+      "bright_extraction_percent": [
+        6.117863,
+        10.523534,
+        11.840664
+      ],
+      "bright_percent_min": 6.117862654320988,
+      "bright_percent_max": 11.840663580246913,
+      "actor_counts": [
+        1,
+        1,
+        1
+      ],
+      "character_light_scope": "混合：表情portrait无外沿，其余人物常规；三样本不涵盖所有子阶段",
+      "low_extraction_all_three": false,
+      "manual_full_shot_viewed": false
+    }
+  ],
+  "manual_viewed_existing_comparisons": [
+    "body-119.500-comparison.png"
+  ],
+  "important_exceptions": [
+    "R48 direct raster mosaic bypasses lighting.artwork so no character-specific rim or mask",
+    "R50 and R86 recognition portrait skip direct rim by design",
+    "lighting module does not generate new per-shot circuit/space geometry",
+    "default off; review entry must explicitly set lighting=1"
+  ],
+  "suggested_sampling": [
+    {
+      "full_seconds": [
+        8.95,
+        34.333
+      ],
+      "purpose": "R02–08 early assembly/chat: sparse light sources across long opening stretch"
+    },
+    {
+      "full_seconds": [
+        34.333,
+        64.333
+      ],
+      "purpose": "R09/14 weak line scenes versus R10/11/15 clear geometry"
+    },
+    {
+      "full_seconds": [
+        79.1,
+        108.65
+      ],
+      "purpose": "request inserts R25/31, sparse reconnect R39, split R34 mask"
+    },
+    {
+      "full_seconds": [
+        115.8,
+        136.1
+      ],
+      "purpose": "R44–52 waiting/grayscale/mosaic/portrait, retain quiet timing while assess room/circuit presence"
+    },
+    {
+      "full_seconds": [
+        177.633,
+        197.267
+      ],
+      "purpose": "R76–81 folding/network section outside delivered climax short clip"
+    },
+    {
+      "full_seconds": [
+        208.333,
+        223.333
+      ],
+      "purpose": "R85–86 all portrait/co-draw/quiet tail phases, final six seconds absent from 03 clip"
+    }
+  ]
+}

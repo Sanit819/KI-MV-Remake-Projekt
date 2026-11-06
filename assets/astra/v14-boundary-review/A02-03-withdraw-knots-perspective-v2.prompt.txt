@@ -1,0 +1,15 @@
+Use case: precise-object-edit. The first input is the exact full-body ASTRA withdraw pose to edit. The second input is ONLY a structural reference for the six interwoven GPT bands, not a stamp to paste. Correct the existing knot ornaments only. Preserve the user-approved entire body, stance, hands, legs, hips, ears, horns, face, hair, wings, tail, dress folds, shoes, silhouette, framing and transparency. Do not redraw anatomy or move a joint. Maintain the same lavender/pink tones, dark hand-drawn outline, completely dark face and eye-covering bangs.
+
+Each knot must be source-drawn into its OWN local oblique surface, with six interlaced bands and alternating overlaps, six outer loops, and a negative central opening. Perspective is essential: the central opening may be narrow, tilted or compressed, NOT a regular front-facing hexagon everywhere. No flat front-facing sticker, no identical rotation or ellipse across all ornaments, no disc or outer circle, no white inserted logo. Keep size and attachment unchanged and retain garment/hair occlusions.
+
+There are eight clearly visible knots in the 1189x1323 target:
+1 Hair ornament around (766,176): follows the turned and slightly bowed head, mildly narrow and rotated with this hair plane. Keep the same hair and tassel overlap.
+2 Near shoulder knot around (526,422): is on a cylindrical upper-arm band and should be an oblique ellipse following the down-and-forward arm, not a circle facing the camera.
+3 Near waist knot around (581,555): follows the near-facing curved belt, mildly oblique.
+4 Far waist knot around (710,566): is much narrower, rotated around the far hip and partly constrained by arm/hair; keep that strong foreshortening and the natural occlusion. Do not expand it to show all six bands frontally.
+5 Left skirt-hem knot around (260,1110): follows this curved/sloping cloth panel and its fold.
+6 Right skirt-hem knot around (783,1147): follows a different cloth panel angle and fold; not the same front-facing stamp as the left.
+7 Rear/left shoe knot around (489,1245): lies flat against the small shoe instep plane, compressed into a low oblique ellipse with the receding toe.
+8 Front/right shoe knot around (725,1275): lies against its own shoe instep slope, a little larger, at its own orientation. Do not enlarge the tiny shoe marks to display their topology.
+
+Maintain original surface curvature, local axes and relative near/far width. Any mostly occluded far-shoulder detail must remain occluded; do not invent a new exposed medallion. Fix the current pinwheel/solid hub mistakes by redrawing the bands in the correct surface perspective. The sixfold topology survives projection even though its 2D visible gap is not a regular hexagon. Preserve body and linework outside these tiny ornaments as closely as possible. Return one complete transparent PNG with no text and no watermark.

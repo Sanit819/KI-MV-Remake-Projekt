@@ -1,0 +1,90 @@
+{
+  "date": "2026-11-06",
+  "status": "review_only_not_integrated",
+  "assets": [
+    {
+      "key": "recoil",
+      "path": "assets/astra/v16-withdraw-review/recoil-redraw.png",
+      "prompt": "assets/astra/v16-withdraw-review/recoil.prompt.txt",
+      "source": "C:/Users/auscar/.codex/generated_images/01a1ac2d-7ea7-7951-b77e-1a8a2fff677e/exec-fe96f5cd-023f-4c40-a411-00dd7dfdff3f.png",
+      "generator": "built-in image_gen",
+      "intent": "new full drawing; reference-only inputs; not local repair",
+      "references": [
+        "C:/Users/auscar/Documents/Tencent Files/2470641710/nt_qq/nt_data/Pic/2026-11/Ori/e0ec7a1db8d1862fe1135298bd354581.jpg",
+        "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v09/A01-01-inkface.png"
+      ],
+      "bytes": 1703155,
+      "sha256": "9613da1ec08802ec2a027c085ebc7af36e1655a3c453c8a95f5eb42d8ca07914",
+      "source_sha256": "9613da1ec08802ec2a027c085ebc7af36e1655a3c453c8a95f5eb42d8ca07914",
+      "source_copy_identical": true,
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "alpha_nonzero_bounds": [
+        0,
+        0,
+        1212,
+        1254
+      ],
+      "alpha128_bounds": [
+        72,
+        8,
+        1180,
+        1254
+      ],
+      "sample_alpha": [
+        {
+          "xy": [
+            0,
+            0
+          ],
+          "alpha": 0
+        },
+        {
+          "xy": [
+            1253,
+            0
+          ],
+          "alpha": 0
+        },
+        {
+          "xy": [
+            0,
+            1253
+          ],
+          "alpha": 1
+        },
+        {
+          "xy": [
+            1253,
+            1253
+          ],
+          "alpha": 0
+        },
+        {
+          "xy": [
+            20,
+            200
+          ],
+          "alpha": 0
+        },
+        {
+          "xy": [
+            1234,
+            200
+          ],
+          "alpha": 0
+        }
+      ],
+      "visual_review": "Viewed actual generated output and saved source at original detail. Shadow face and costume retained. New complete anatomy inspected for connected limbs; no mathematical logo or anatomy certification. User review remains pending.",
+      "status": "review_only_not_integrated",
+      "anchors_measured": false
+    }
+  ],
+  "generation_count": 1,
+  "production_modified": false
+}

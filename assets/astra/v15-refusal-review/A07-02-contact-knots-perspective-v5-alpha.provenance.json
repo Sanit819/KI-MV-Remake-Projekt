@@ -1,0 +1,95 @@
+{
+  "date": "2026-11-06",
+  "status": "alpha_repaired_native_4k_sampled_composites_checked_user_acceptance_pending",
+  "generator": "built-in image_gen",
+  "operation": "background-extraction",
+  "edit_target": "assets/astra/v15-refusal-review/A07-02-contact-knots-perspective-v4.png",
+  "source_sha256": "c881c89fbd756448daf24262c6eb84533c93145c23744cb0f8d3aeb40449cd24",
+  "source_preserved": true,
+  "candidate": "assets/astra/v15-refusal-review/A07-02-contact-knots-perspective-v5-alpha.png",
+  "sha256": "66d270bbb771ed348449fc9b112514eb6ce34c3c29bebf5920b0f067cf35685f",
+  "native_generated_file": "C:\\Users\\auscar\\.codex\\generated_images\\01a1acd4-3d6c-7fc3-9df6-24f2c44de01f\\exec-08a0ad25-ac71-4362-b857-28fcd0b4e418.png",
+  "native_copy_identical": true,
+  "prompt": "assets/astra/v15-refusal-review/A07-02-contact-knots-perspective-v5-alpha.prompt.txt",
+  "size": [
+    1024,
+    1536
+  ],
+  "mode": "RGBA",
+  "alpha_extrema": [
+    0,
+    254
+  ],
+  "artwork_programmatically_modified": false,
+  "pixel_invariance_claimed": false,
+  "alpha_audit": {
+    "source": "assets/astra/v15-refusal-review/A07-02-contact.png",
+    "source_sha256": "da43af9075729f2480d8891e4222aea6f0a019af79b5fce4c79e29dd085597e7",
+    "candidate": "assets/astra/v15-refusal-review/A07-02-contact-knots-perspective-v5-alpha.png",
+    "candidate_sha256": "66d270bbb771ed348449fc9b112514eb6ce34c3c29bebf5920b0f067cf35685f",
+    "alpha_extrema": [
+      0,
+      254
+    ],
+    "outside_method": "outside 20px Chebyshev dilation of original alpha>=128 silhouette; old/new pose differences can count as legitimate foreground",
+    "outside_pixels": 509398,
+    "outside_alpha_gt8": 48,
+    "outside_alpha_ge128": 37,
+    "outside_alpha_ge240": 24,
+    "outside_alpha_quantiles": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      253.0
+    ],
+    "outside_ge128_bbox_xyxy": [
+      415,
+      22,
+      422,
+      31
+    ],
+    "corners_alpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "edge_bands": {
+      "top": {
+        "min": 0,
+        "max": 250,
+        "alpha_ge128_pixels": 21,
+        "alpha_gt8_pixels": 50
+      },
+      "bottom": {
+        "min": 0,
+        "max": 254,
+        "alpha_ge128_pixels": 117,
+        "alpha_gt8_pixels": 157
+      },
+      "left": {
+        "min": 0,
+        "max": 0,
+        "alpha_ge128_pixels": 0,
+        "alpha_gt8_pixels": 0
+      },
+      "right": {
+        "min": 0,
+        "max": 254,
+        "alpha_ge128_pixels": 102,
+        "alpha_gt8_pixels": 160
+      }
+    }
+  },
+  "inspection": {
+    "white_background_composite_viewed": true,
+    "alpha_channel_viewed": true,
+    "protected_crops_viewed": true,
+    "native_4k_runtime_viewed": true,
+    "foreground_observation": "Viewed full clean composite and v4/v5-alpha crops of face, contact palm, chest hand, far waist and both hems. Original pose and the corrected open-center motifs remain visually similar; no obvious new anatomy distortion. This is not pixel-invariance certification."
+  },
+  "notes": "Earlier v4 alpha 2..253 range was insufficient QA. Runtime revealed widespread medium/high-alpha exterior contamination. v4 preserved but unsuitable for runtime; all new final PNG bytes copied unmodified from imagegen.",
+  "other_A07_candidates": "01/03 v2 have zero alpha>8 pixels outside original silhouette dilated20px; white composites and native 4K sampled frames131.4/135.4 viewed, no same-scale exterior alpha pollution found.",
+  "runtime_review": "assets/astra/v15-refusal-review/A07-alpha-runtime-review.json"
+}

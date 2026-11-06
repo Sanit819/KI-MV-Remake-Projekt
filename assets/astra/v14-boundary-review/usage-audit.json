@@ -1,0 +1,181 @@
+{
+  "status": "review-not-integrated",
+  "scope": "Read-only audit of current src/mv5cat source and v12 manifest; no rendering or source/material modifications.",
+  "date": "2026-11-06",
+  "active_manifest": "assets/astra/v12-approved-cat/manifest.json",
+  "active_manifest_reference": {
+    "file": "src/mv5cat/art.js",
+    "line": 9
+  },
+  "searched_paths": [
+    "src/mv5cat/**/*",
+    "data/production-v5/timeline.json",
+    "assets/astra/v12-approved-cat/manifest.json"
+  ],
+  "search_patterns": [
+    "A02",
+    "A02_01",
+    "A02_02",
+    "A02_03",
+    "A02-01",
+    "A02-02",
+    "A02-03"
+  ],
+  "usage_count": {
+    "rendering_scene": 1,
+    "group_render_call": 1,
+    "anchor_lookup": 1,
+    "direct_asset_calls": 0
+  },
+  "matches": [
+    {
+      "file": "src/mv5cat/early.js",
+      "line": 436,
+      "kind": "indirect anchor lookup",
+      "group": "A02",
+      "resolved_asset": "A02_02",
+      "detail": "actionAnchor('A02', .5, ...box, 'hands', {phases:[.33,.68]}); wallX = touch[0] + 5. This lookup defines the boundary; it does not draw an additional person."
+    },
+    {
+      "file": "src/mv5cat/early.js",
+      "line": 440,
+      "kind": "group draw",
+      "group": "A02",
+      "detail": "action(e,'A02',u,box,{phases:[.33,.68]}). All three key poses are selected here; no direct A02_01/A02_02/A02_03 or PNG-path draw calls found elsewhere in src/mv5cat."
+    }
+  ],
+  "resolution_chain": [
+    {
+      "file": "src/mv5cat/main.js",
+      "line": 15,
+      "detail": "Find shot by body time in [start_s,end_s)."
+    },
+    {
+      "file": "src/mv5cat/main.js",
+      "line": 16,
+      "detail": "u=(t-shot.start_s)/(shot.end_s-shot.start_s)."
+    },
+    {
+      "file": "src/mv5cat/early.js",
+      "line": 39,
+      "detail": "Local action helper forwards group/u/box/options to e.art.action."
+    },
+    {
+      "file": "src/mv5cat/art.js",
+      "line": 24,
+      "detail": "Select manifest entries with actionGroup, sort phase, select by thresholds."
+    },
+    {
+      "file": "src/mv5cat/art.js",
+      "line": 26,
+      "detail": "Place selected complete source pose."
+    }
+  ],
+  "scene": {
+    "id": "R23",
+    "source_id": "c1-trap",
+    "timeline_reference": {
+      "file": "data/production-v5/timeline.json",
+      "line": 253
+    },
+    "body_start_s": 69.95,
+    "body_end_s_exclusive": 73.18333333333334,
+    "body_start_frame": 4197,
+    "body_end_frame_exclusive": 4391,
+    "warning_offset_s": 5,
+    "full_start_s": 74.95,
+    "full_end_s_exclusive": 78.18333333333334,
+    "full_start_frame": 4497,
+    "full_end_frame_exclusive": 4691,
+    "box": [
+      170,
+      25,
+      1390,
+      860
+    ],
+    "phases": [
+      0.33,
+      0.68
+    ],
+    "continuous_body_phase_cuts_s": [
+      71.01700000000001,
+      72.14866666666667
+    ],
+    "continuous_full_phase_cuts_s": [
+      76.01700000000001,
+      77.14866666666667
+    ],
+    "sampled_phase_ranges": [
+      {
+        "asset": "A02_01",
+        "phase": 1,
+        "body_first_frame": 4197,
+        "body_last_frame_inclusive": 4261,
+        "full_first_frame": 4497,
+        "full_last_frame_inclusive": 4561,
+        "body_first_sample_s": 69.95,
+        "body_last_sample_s": 71.01666666666667,
+        "full_first_sample_s": 74.95,
+        "full_last_sample_s": 76.01666666666667,
+        "frame_count": 65
+      },
+      {
+        "asset": "A02_02",
+        "phase": 2,
+        "body_first_frame": 4262,
+        "body_last_frame_inclusive": 4328,
+        "full_first_frame": 4562,
+        "full_last_frame_inclusive": 4628,
+        "body_first_sample_s": 71.03333333333333,
+        "body_last_sample_s": 72.13333333333334,
+        "full_first_sample_s": 76.03333333333333,
+        "full_last_sample_s": 77.13333333333334,
+        "frame_count": 67
+      },
+      {
+        "asset": "A02_03",
+        "phase": 3,
+        "body_first_frame": 4329,
+        "body_last_frame_inclusive": 4390,
+        "full_first_frame": 4629,
+        "full_last_frame_inclusive": 4690,
+        "body_first_sample_s": 72.15,
+        "body_last_sample_s": 73.16666666666667,
+        "full_first_sample_s": 77.15,
+        "full_last_sample_s": 78.16666666666667,
+        "frame_count": 62
+      }
+    ],
+    "frame_ranges_basis": "Derived with the source main.js u expression and art.js threshold rule at t=frame/60; not a new renderer or encoded-video validation."
+  },
+  "current_assets": [
+    {
+      "id": "A02_01",
+      "phase": 1,
+      "manifest_line": 499,
+      "path": "assets/astra/v09/A02-01-inkface.png",
+      "action": "approach and reach tentatively"
+    },
+    {
+      "id": "A02_02",
+      "phase": 2,
+      "manifest_line": 538,
+      "path": "assets/astra/v09/A02-02-inkface.png",
+      "action": "palm contacts boundary"
+    },
+    {
+      "id": "A02_03",
+      "phase": 3,
+      "manifest_line": 577,
+      "path": "assets/astra/v09/A02-03-inkface.png",
+      "action": "withdraw after obstruction"
+    }
+  ],
+  "other_current_reuse_found": false,
+  "intended_future_integration": {
+    "status": "not performed",
+    "method": "Replace all three A02 entries together in one new manifest derived from the active v12 manifest; retain asset IDs/actionGroup/phase so all current references resolve together. Do not modify or overwrite old v09 originals or v12 manifest.",
+    "anchors": "Measure hands/wrist/eyes and source bounds/face against each newly drawn image. A02_02 hands controls the wall position, so using old source-pixel anchors would be incorrect.",
+    "validation": "After future explicit integration, check all three phases in R23 at native output resolution, especially palm-to-wall contact, full-body crop, legs, and subtitle clearance. No other rendering scene currently uses A02 in src/mv5cat."
+  }
+}

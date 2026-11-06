@@ -1,0 +1,213 @@
+{
+  "status": "perspective-improved-topology-unresolved-review-required-not-integrated",
+  "overall_asset_verdict": "NOT PASSED: local projection improves over v4, but several small knots reverted toward curled/pinwheel structures and are not confirmed as correct GPT six-band topology.",
+  "path": "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v14-boundary-review/A02-02-contact-v5-perspective.png",
+  "source": "C:/Users/auscar/.codex/generated_images/01a1acd5-4240-7a52-bce1-fcd2e1dc582b/exec-55aff4fe-a80f-45b4-a7e7-0e67f290d5b0.png",
+  "generator": "built-in image_gen",
+  "generation_intent": "Nine local source-drawn perspective-aware ornament edits, using approved anatomy v2 as direct target; standard openwork image for topology only.",
+  "generation_reference_paths": [
+    "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v14-boundary-review/A02-02-contact-v2.png",
+    "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v02/openai-openwork.png"
+  ],
+  "v4_passed_to_generator": false,
+  "prompt_path": "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v14-boundary-review/A02-02-contact-v5-perspective.prompt.txt",
+  "prompt_sha256": "9489aa3351e27973fb4893120d9ebc30ed72d7726764d0fbec55e1d9083f608a",
+  "sha256": "7ff6563296e1c4ea01369e646ea066a76cdd180c6f89c5375164649887c68521",
+  "source_sha256": "7ff6563296e1c4ea01369e646ea066a76cdd180c6f89c5375164649887c68521",
+  "bytes": 1572876,
+  "width": 1189,
+  "height": 1323,
+  "mode": "RGBA",
+  "alpha_range": [
+    0,
+    255
+  ],
+  "fully_transparent_pixels": 785792,
+  "alpha_gt15_bbox": [
+    36,
+    10,
+    1108,
+    1310
+  ],
+  "positions": [
+    {
+      "site": "hair",
+      "inspection_crop_xyxy": [
+        740,
+        110,
+        830,
+        200
+      ],
+      "perspective_observation": "Sideward narrowing follows head better than v4.",
+      "topology_observation": "Curled band shapes and small center make canonical six-band/hexagonal opening uncertain; not passed.",
+      "site_acceptance": "pending-not-auto-passed"
+    },
+    {
+      "site": "arm-left",
+      "inspection_crop_xyxy": [
+        545,
+        360,
+        625,
+        440
+      ],
+      "perspective_observation": "Slightly oblique and integrated into the band.",
+      "topology_observation": "Still flower/pinwheel-like at magnification; six-band topology not confirmed.",
+      "site_acceptance": "pending-not-auto-passed"
+    },
+    {
+      "site": "arm-right",
+      "inspection_crop_xyxy": [
+        750,
+        350,
+        830,
+        430
+      ],
+      "perspective_observation": "Distinctly flattened along extended-arm sleeve band, better differentiated from near arm.",
+      "topology_observation": "Foreshortened center and curled segments are too ambiguous to confirm canonical topology.",
+      "site_acceptance": "pending-not-auto-passed"
+    },
+    {
+      "site": "waist-near",
+      "inspection_crop_xyxy": [
+        570,
+        530,
+        675,
+        635
+      ],
+      "perspective_observation": "Mildly oblique broad near-side mounting remains plausible.",
+      "topology_observation": "Most readable six-loop structure in v5, but central shape/over-under geometry still merits a closer check; not a global acceptance.",
+      "site_acceptance": "pending-not-auto-passed"
+    },
+    {
+      "site": "waist-far",
+      "inspection_crop_xyxy": [
+        670,
+        545,
+        730,
+        625
+      ],
+      "perspective_observation": "Clear horizontal narrowing now matches the receding belt, unlike v4.",
+      "topology_observation": "Very small narrow center/loops not sufficient to certify all six connections.",
+      "site_acceptance": "pending-not-auto-passed"
+    },
+    {
+      "site": "hem-left",
+      "inspection_crop_xyxy": [
+        215,
+        1068,
+        300,
+        1153
+      ],
+      "perspective_observation": "Mild slant, retains local panel placement.",
+      "topology_observation": "Relatively readable six-loop outline; local projected structure still pending reviewer/user acceptance.",
+      "site_acceptance": "pending-not-auto-passed"
+    },
+    {
+      "site": "hem-right",
+      "inspection_crop_xyxy": [
+        710,
+        1093,
+        790,
+        1173
+      ],
+      "perspective_observation": "More slanted and flattened with the outward fabric plane.",
+      "topology_observation": "Curled band structure and narrow central area remain uncertain; not automatically passed.",
+      "site_acceptance": "pending-not-auto-passed"
+    },
+    {
+      "site": "shoe-rear",
+      "inspection_crop_xyxy": [
+        455,
+        1178,
+        520,
+        1243
+      ],
+      "perspective_observation": "Clearly lies flatter along the toe-box surface rather than standing upright.",
+      "topology_observation": "Small pinwheel-like result; exact six-band construction and projected hexagon not confirmed.",
+      "site_acceptance": "pending-not-auto-passed"
+    },
+    {
+      "site": "shoe-near",
+      "inspection_crop_xyxy": [
+        695,
+        1232,
+        775,
+        1312
+      ],
+      "perspective_observation": "Flatter, slanted, follows visible shoe surface better.",
+      "topology_observation": "Still resembles curved petals around a tiny center at magnification; six-band topology not confirmed.",
+      "site_acceptance": "pending-not-auto-passed"
+    }
+  ],
+  "visual_review": {
+    "full_generated_image_reviewed": true,
+    "all_nine_positions_individually_magnified": true,
+    "reported_to_root_before_claiming_acceptance": true,
+    "body_boundary": "Pose remains recognizably the approved pose, but generative color/contour and placement drift occurs; no pixel-lock claim.",
+    "scope": "Source-image review only. No production manifest/src, contact-anchor or 4K runtime acceptance."
+  },
+  "pixel_lock_achieved": false,
+  "difference_vs_approved_v2": {
+    "method": "Same-canvas unregistered comparison, max absolute RGB channel difference after alpha premultiplication over black; union alpha>15; exclude listed local inspection ROIs.",
+    "outside_roi_visible_union_pixels": 724902,
+    "outside_roi_mean_max_abs_premultiplied_rgb_difference": 42.1843034360669,
+    "outside_roi_percent_difference_gt8": 50.52393289023895,
+    "outside_roi_percent_difference_gt32": 32.15041481469219,
+    "outside_roi_difference_gt8_bbox_xyxy": [
+      36,
+      10,
+      1108,
+      1306
+    ],
+    "body_below_y300_silhouette_iou_alpha_gt128": 0.9509511800484679
+  },
+  "protected_files": [
+    {
+      "path": "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v14-boundary-review/A02-01-approach.png",
+      "sha256_before": "ecd92ec70f34a521cee9a681a928b744d99f234c01f53cd3d0b23e50b4442f27",
+      "sha256_after": "ecd92ec70f34a521cee9a681a928b744d99f234c01f53cd3d0b23e50b4442f27",
+      "unchanged": true
+    },
+    {
+      "path": "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v14-boundary-review/A02-02-contact.png",
+      "sha256_before": "b4448c6c6cb6032dbe3915ef91a7aa618d4e8f217a731e088ff16c85b6996d79",
+      "sha256_after": "b4448c6c6cb6032dbe3915ef91a7aa618d4e8f217a731e088ff16c85b6996d79",
+      "unchanged": true
+    },
+    {
+      "path": "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v14-boundary-review/A02-02-contact-v2.png",
+      "sha256_before": "461e4f04df416c66e1d8129861f3714ebd010b4c5778d2229c720f391a13b200",
+      "sha256_after": "461e4f04df416c66e1d8129861f3714ebd010b4c5778d2229c720f391a13b200",
+      "unchanged": true
+    },
+    {
+      "path": "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v14-boundary-review/A02-02-contact-v3-knot.png",
+      "sha256_before": "cc68d3139ab8243d3257d02276ce2da55cc1937f427f44c380ba48d717aa199e",
+      "sha256_after": "cc68d3139ab8243d3257d02276ce2da55cc1937f427f44c380ba48d717aa199e",
+      "unchanged": true
+    },
+    {
+      "path": "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v14-boundary-review/A02-02-contact-v4-knots.png",
+      "sha256_before": "52f40cda5630449e111d8da51980e0df6130ee64a72e5aa72280e4f10eb5ee6a",
+      "sha256_after": "52f40cda5630449e111d8da51980e0df6130ee64a72e5aa72280e4f10eb5ee6a",
+      "unchanged": true
+    },
+    {
+      "path": "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v14-boundary-review/A02-03-withdraw.png",
+      "sha256_before": "13766afc9a82de875e1b1bce5f1a48c317506d1a926dc953ca0bbefcf7f3ae85",
+      "sha256_after": "13766afc9a82de875e1b1bce5f1a48c317506d1a926dc953ca0bbefcf7f3ae85",
+      "unchanged": true
+    }
+  ],
+  "validation": {
+    "workspace_matches_generated_source_bytes": true,
+    "all_six_protected_images_unchanged": true,
+    "rgba_same_canvas_as_approved_v2": true,
+    "real_alpha_transparency": true,
+    "corners_alpha_zero": true,
+    "visible_subject_inside_canvas": true
+  },
+  "inspection_artifact": "contact-v5-all-knots-inspection.png",
+  "inspection_boundary": "Diagnostic crop/magnification only. Final transparent PNG is unchanged imagegen output, not code-composited or post-repaired.",
+  "production_manifest_or_src_modified": false
+}

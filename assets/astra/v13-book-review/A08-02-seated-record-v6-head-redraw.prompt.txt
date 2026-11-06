@@ -1,0 +1,18 @@
+Use case: identity-preserve / coherent illustration redraw.
+Asset type: a complete transparent full-body ASTRA seated POINT-READING animation key pose, adjacent to the approved page-turn pose.
+
+Input 1 is the APPROVED page-turn illustration and is the PRIMARY structural reference for the ENTIRE character: its corrected skull, jaw, chin, neck, horn roots, ears, hair, torso, seated legs, clothes, wings, stool, tail, proportions, palette, camera and framing must carry into this new adjacent pose.
+Input 2 is the OLD REJECTED point-reading illustration. Use it ONLY to understand that the screen-right index finger should point at the flattened right-hand book page and the screen-left hand continues to support the book. Do NOT copy input 2's head, slanted hair/skull, compressed jaw, hidden neck or head posture.
+
+Create ONE coherent new full illustration of this same character immediately after the page has been turned. This is a fresh whole-character redraw, not a pasted head or a collage. Preserve input 1's corrected head virtually identically in design, location, size and orientation: balanced skull, gentle forward bow, stable vertical head axis, same centered lower jaw and chin with the neck naturally connecting to the shoulders. Same paired horn positions and common skull perspective, same pointed ear attachment, same bangs and hair cap following the skull, same small ahoge. Do NOT tip the head sideways, shift the chin, add head roll, enlarge the hair mass or revert to input 2's deformed construction. These are adjacent animation poses, so the head, horns, ears and shoulders should not jump between them.
+
+The face remains opaque deep ink-purple with no eyes visible beneath the bangs, a tiny restrained mouth, and no pale skin on the face. Same six-band interwoven openwork head ornament, and same locally oriented shoulder, waist, skirt and shoe ornaments drawn as part of the costume, never frontal logo stickers or circular discs.
+
+Keep input 1's elegant seated body: two uncrossed legs, each thigh connects to its own knee, shin, ankle and shoe; no swapped ankles, shortened lower leg, extra limb or leg crossing. Keep the same small stool, draped sleeves, long skirt, wings and curled tail. Preserve the same full-body composition, camera, crop and scale, all horns, wings, shoes and tail fully visible.
+
+Only the intended action advances: the formerly raised single leaf is now lying flat on the open book. The SAME screen-left hand supports the book's lower-left underside. The SAME screen-right hand now naturally bends at the wrist and extends its index finger down onto the surface of the RIGHT reading page near its middle; remaining fingers curl softly with anatomically correct thumb placement and no extra digits. Connect wrist, forearm and sleeve continuously, no detached fingers, mirrored hand or twisted wrist. Thumb plus four fingers anatomically, natural overlap allowed.
+
+The book is a normal THIN open book viewed from slightly above on her lap: two broad pale page surfaces connected along ONE shared gutter, narrow dark cover rim underneath and only fine page-edge lines. Flattened pages, no raised flap, box walls, thick block, second book or floating leaves. Maintain its position, size and shallow-V perspective from input 1, adjusted only as the turned leaf settles. Blank pages, no writing.
+
+Style: match input 1's clean thin dark-purple ink outlines, flat pale-lavender forms and restrained purple shadows. No new rendering style, lighting, facial features or decorative effects.
+Output exactly one full character/stool illustration on REAL TRANSPARENT ALPHA. No background, cast shadow, text, labels, collage or additional figures.

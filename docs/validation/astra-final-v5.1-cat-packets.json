@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "checks": {
+    "13400_frames": true,
+    "all_pts_exact_n_over_60": true,
+    "all_durations_1_over_60": true,
+    "strict_monotone_dts": true,
+    "all_warning_300_packets_identical": true,
+    "all_packets_outside_part2_identical": true,
+    "part2_picture_payload_actually_changed": true,
+    "part1_count_payload": true,
+    "part1_exact_pts_dts_shift": true,
+    "part2_count_payload": true,
+    "part2_exact_pts_dts_shift": true,
+    "part3_count_payload": true,
+    "part3_exact_pts_dts_shift": true,
+    "part4_count_payload": true,
+    "part4_exact_pts_dts_shift": true
+  },
+  "timebase": "1/60000",
+  "scope": "All MP4 video packet payloads, counts, PTS and DTS. Only body part2 [3300,6600) re-encoded; all packets outside that part must remain identical to original v5."
+}

@@ -1,0 +1,186 @@
+{
+  "passed": true,
+  "reviewer": "root",
+  "date": "2026-11-06",
+  "source_sha256": "e76f5208861df5e10f4fc64f515d36b50dd9daf8b6e563f24ac56f99200e8402",
+  "native_dimensions": [
+    3840,
+    2160
+  ],
+  "tool_display_dimensions": [
+    2048,
+    1152
+  ],
+  "reviewed_count": 9,
+  "records": [
+    {
+      "label": "book-turn",
+      "file": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\exports\\final-v5.2\\encoded-stills\\20-book-turn-f008574.png",
+      "shot": "R55",
+      "full_film_frame": 8574,
+      "full_film_seconds": 142.9,
+      "full_film_time_exact": "1429/10",
+      "body_frame": 8274,
+      "body_seconds": 137.9,
+      "purpose": "A08_01 approved head/body redraw and thin book",
+      "sha256": "5be50755f3fb8b97c39b00ab06db058d9af8562ac3b59fdf78460eac098f0504",
+      "bytes": 2469806,
+      "dimensions": [
+        3840,
+        2160
+      ],
+      "actually_viewed": true
+    },
+    {
+      "label": "book-cut-before",
+      "file": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\exports\\final-v5.2\\encoded-stills\\21-book-cut-before-f008627.png",
+      "shot": "R55",
+      "full_film_frame": 8627,
+      "full_film_seconds": 143.78333333333333,
+      "full_film_time_exact": "8627/60",
+      "body_frame": 8327,
+      "body_seconds": 138.78333333333333,
+      "purpose": "Last turning-page pose before phase u=0.52",
+      "sha256": "04f4690298b53afda7cc681600759c55ef183d74be62080338c32735b9322e43",
+      "bytes": 2582805,
+      "dimensions": [
+        3840,
+        2160
+      ],
+      "actually_viewed": true
+    },
+    {
+      "label": "book-cut-after",
+      "file": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\exports\\final-v5.2\\encoded-stills\\22-book-cut-after-f008628.png",
+      "shot": "R55",
+      "full_film_frame": 8628,
+      "full_film_seconds": 143.8,
+      "full_film_time_exact": "719/5",
+      "body_frame": 8328,
+      "body_seconds": 138.8,
+      "purpose": "First pointing-page pose after phase u=0.52",
+      "sha256": "dfd9bc5a5d2d6f1a5bf5c79384a4f017650f118eb570c9af7c9bee5b8f68105c",
+      "bytes": 2560585,
+      "dimensions": [
+        3840,
+        2160
+      ],
+      "actually_viewed": true
+    },
+    {
+      "label": "book-point-reading",
+      "file": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\exports\\final-v5.2\\encoded-stills\\23-book-point-reading-f008670.png",
+      "shot": "R55",
+      "full_film_frame": 8670,
+      "full_film_seconds": 144.5,
+      "full_film_time_exact": "289/2",
+      "body_frame": 8370,
+      "body_seconds": 139.5,
+      "purpose": "Latest approved A08_02 pointing at the page",
+      "sha256": "254dc9e7f7c28c511d0d74ed97c765ce8fe33253935b30efc73187b2f2a1ccf7",
+      "bytes": 2642721,
+      "dimensions": [
+        3840,
+        2160
+      ],
+      "actually_viewed": true
+    },
+    {
+      "label": "wrist-recoil",
+      "file": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\exports\\final-v5.2\\encoded-stills\\24-wrist-recoil-f010458.png",
+      "shot": "R74",
+      "full_film_frame": 10458,
+      "full_film_seconds": 174.3,
+      "full_film_time_exact": "1743/10",
+      "body_frame": 10158,
+      "body_seconds": 169.3,
+      "purpose": "New wrist recoil and red wrist line at body 169.3s",
+      "sha256": "3e1cc7fdb7bc728be1c6c95bb172c068f68038b2a8ccae95397c4070f6bf9e4b",
+      "bytes": 2940280,
+      "dimensions": [
+        3840,
+        2160
+      ],
+      "actually_viewed": true
+    },
+    {
+      "label": "ending-surprise",
+      "file": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\exports\\final-v5.2\\encoded-stills\\25-ending-surprise-f012882.png",
+      "shot": "R86",
+      "full_film_frame": 12882,
+      "full_film_seconds": 214.7,
+      "full_film_time_exact": "2147/10",
+      "body_frame": 12582,
+      "body_seconds": 209.7,
+      "purpose": "Recognition surprise at body 209.7s",
+      "sha256": "8187bb386797f62cc6662bf6e84ee101d6ac3dbf2500763d145040d34a06189b",
+      "bytes": 1904180,
+      "dimensions": [
+        3840,
+        2160
+      ],
+      "actually_viewed": true
+    },
+    {
+      "label": "ending-smile",
+      "file": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\exports\\final-v5.2\\encoded-stills\\26-ending-smile-f012924.png",
+      "shot": "R86",
+      "full_film_frame": 12924,
+      "full_film_seconds": 215.4,
+      "full_film_time_exact": "1077/5",
+      "body_frame": 12624,
+      "body_seconds": 210.4,
+      "purpose": "Recognition smile at body 210.4s",
+      "sha256": "4cdc66ab3ee6f08a037b4e4d92f35779d3f001c64db66603cf5bdd592f93af6e",
+      "bytes": 1974993,
+      "dimensions": [
+        3840,
+        2160
+      ],
+      "actually_viewed": true
+    },
+    {
+      "label": "quiet-tail-middle",
+      "file": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\exports\\final-v5.2\\encoded-stills\\27-quiet-tail-middle-f013140.png",
+      "shot": "R86",
+      "full_film_frame": 13140,
+      "full_film_seconds": 219.0,
+      "full_film_time_exact": "219",
+      "body_frame": 12840,
+      "body_seconds": 214.0,
+      "purpose": "Quiet co-drawing tail at body 214s",
+      "sha256": "69824025f0107ba5d757e5cc88e6bde1ed65fd83c903a972bc79a76108bb3373",
+      "bytes": 2356454,
+      "dimensions": [
+        3840,
+        2160
+      ],
+      "actually_viewed": true
+    },
+    {
+      "label": "quiet-tail-last",
+      "file": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\exports\\final-v5.2\\encoded-stills\\28-quiet-tail-last-f013399.png",
+      "shot": "R86",
+      "full_film_frame": 13399,
+      "full_film_seconds": 223.31666666666666,
+      "full_film_time_exact": "13399/60",
+      "body_frame": 13099,
+      "body_seconds": 218.31666666666666,
+      "purpose": "Last native video frame; body 218.3166667s",
+      "sha256": "d623cff61bef75efdcf062dfde904fce048f0b857971b25e08fc0bbe04d867cb",
+      "bytes": 2271519,
+      "dimensions": [
+        3840,
+        2160
+      ],
+      "actually_viewed": true
+    }
+  ],
+  "findings": {
+    "book": "Four decoded frames include the adjacent turn/point transition at full frames8627/8628. Revised head/horns/neck remain aligned; thin book and page pointing are legible. Star marker follows the page; its decorative digital tail extends beyond it by existing design. No large external opaque fragments observed.",
+    "wrist": "At full frame10458 the red circle lies on the raised wrist, with the supporting hand and forearm relationship intact; both subtitle lines are readable.",
+    "ending": "Surprise and smile close-ups include eyes, mouth and chin in coherent crops. Frames13140/13399 show retained quiet co-drawing progression and no truncation of the figure or board."
+  },
+  "blockers": [],
+  "scope": "Actually opened all nine exact decoded frames20-28 through view_image, including one adjacent pair. Static targeted inspection, no continuous human viewing/listening or every-frame visual acceptance. Tools displayed 4K sources at2048x1152; no pixel-level ornament topology certification."
+}

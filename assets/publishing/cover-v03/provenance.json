@@ -1,0 +1,22 @@
+{
+  "date": "2026-11-05",
+  "tool": "built-in image_gen",
+  "mode": "edit existing cover with cat pose and canonical facial reference",
+  "file": "assets/publishing/cover-v03/astra-world-execute-me-cat-cover-v03.png",
+  "size": [
+    1672,
+    941
+  ],
+  "color_mode": "RGB",
+  "bytes": 2125508,
+  "sha256": "f3670aeeefe5be77203375384b3e678ec7448093e9a4c042c81152536391f53f",
+  "original_generated_file": "C:/Users/auscar/.codex/generated_images/01a1a5ec-245d-7923-8dd6-2a8b6f24c904/exec-0aa1aa1c-bb9b-4831-9eaf-d5c04d7bcf33.png",
+  "prompts": [
+    "prompt.txt",
+    "face-edit.prompt.txt"
+  ],
+  "post_generation_pixel_edits": false,
+  "face_policy": "Visible facial features on cover by latest explicit request; film ordinary poses remain shadow faces",
+  "note": "Hi-Res / 4K / 60FPS text describes video, not PNG resolution",
+  "inspected": true
+}

@@ -1,0 +1,103 @@
+{
+  "date": "2026-11-06",
+  "review_only": true,
+  "static_only": true,
+  "production_integrated": false,
+  "render_map_unchanged": "data/production-v52review/candidate-map.json",
+  "render_map_note": "Historical first-round encoded clips; rejected assets not updated there. Do not use that map as current user approval.",
+  "feedback": "docs/production-v52/USER_FEEDBACK_ROUND2.md",
+  "page": "exports/review-v52/round2.html",
+  "assets": {
+    "A08_01": {
+      "path": "assets/astra/v13-book-review/A08-01-seated-turn-v6-head-redraw.png",
+      "prompt": "assets/astra/v13-book-review/A08-01-seated-turn-v6-head-redraw.prompt.txt",
+      "sha256": "71e54fdff66097fef4cd8e49122b1cc74906dd75a7c63a4b827556977baede72",
+      "bytes": 1984473,
+      "size": [
+        1106,
+        1422
+      ],
+      "mode": "RGBA",
+      "user_approved": true,
+      "status": "user_approved_for_final_integration",
+      "runtime_anchors_measured": false
+    },
+    "A02_01": {
+      "path": "assets/astra/v14-boundary-review/A02-01-approach-v3-leg-redraw.png",
+      "prompt": "assets/astra/v14-boundary-review/A02-01-approach-v3-leg-redraw.prompt.txt",
+      "sha256": "726880792942ff23853b32e8df13f593af9a16eaecf333d01e0f13f59f45b430",
+      "bytes": 1653393,
+      "size": [
+        1189,
+        1323
+      ],
+      "mode": "RGBA",
+      "user_approved": true,
+      "status": "user_approved_for_final_integration",
+      "runtime_anchors_measured": false
+    },
+    "A02_03": {
+      "path": "assets/astra/v14-boundary-review/A02-03-withdraw-v3-leg-redraw.png",
+      "prompt": "assets/astra/v14-boundary-review/A02-03-withdraw-v3-leg-redraw.prompt.txt",
+      "sha256": "a80a3aa018db6e0e6d91a10a3cef7a2042d34e7a448248d29cfc0df27d4f0486",
+      "bytes": 1512003,
+      "size": [
+        1189,
+        1323
+      ],
+      "mode": "RGBA",
+      "user_approved": true,
+      "status": "user_approved_for_final_integration",
+      "runtime_anchors_measured": false
+    },
+    "A04_02": {
+      "path": "assets/astra/v18-wave-hand-review/A04-02-wave-receive-v6-hand-redraw.png",
+      "prompt": "assets/astra/v18-wave-hand-review/A04-02-wave-receive-v6-hand-redraw.prompt.txt",
+      "sha256": "63f2c6192072abb12a2ff55e5970c0783fa074ed9ee4c626d8913774c33cd443",
+      "bytes": 1541322,
+      "size": [
+        1199,
+        1312
+      ],
+      "mode": "RGBA",
+      "user_approved": true,
+      "status": "user_approved_for_final_integration",
+      "runtime_anchors_measured": false
+    },
+    "A08_02": {
+      "path": "assets/astra/v13-book-review/A08-02-seated-record-v6-head-redraw.png",
+      "prompt": "assets/astra/v13-book-review/A08-02-seated-record-v6-head-redraw.prompt.txt",
+      "sha256": "36af57dff7f2875c0a00ee31f5e4d3fde80c22216c8a3f7dcab5240a14ca283a",
+      "bytes": 1964368,
+      "size": [
+        1106,
+        1422
+      ],
+      "mode": "RGBA",
+      "user_approved": true,
+      "status": "user_approved_for_final_integration",
+      "runtime_anchors_measured": false,
+      "primary_geometry_reference": "assets/astra/v13-book-review/A08-01-seated-turn-v6-head-redraw.png"
+    }
+  },
+  "retained": {
+    "A02_02": {
+      "path": "assets/astra/v14-boundary-review/A02-02-contact-v6-perspective.png",
+      "user_feedback": "A02_02对",
+      "scope": "This anatomy feedback; no expanded film or all-ornament approval inferred."
+    }
+  },
+  "latest_user_feedback": {
+    "date": "2026-11-06",
+    "user_text": "ok了，全部接入视频吧，期待成品！",
+    "scope": "Final point-read accepted; complete current v5.2 artwork and lighting integration/export authorized."
+  },
+  "rejected_history": {
+    "A08_02_v5": {
+      "path": "assets/astra/v13-book-review/A08-02-seated-record-v5.png",
+      "status": "rejected_head_replacement_delivered_pending_review",
+      "user_feedback": "点读态头也歪了"
+    }
+  },
+  "final_integration_authorized": true
+}

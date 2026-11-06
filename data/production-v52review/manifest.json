@@ -1,0 +1,2926 @@
+{
+  "status": "independent-artwork-review-only",
+  "date": "2026-11-05T11:10:26.109Z",
+  "style": "Three ink cut-paper silhouette. Character openwork knots drawn inside source art by imagegen. Exact separate SVG is UI-only.",
+  "face_policy": "Every new ordinary action uses an original-drawn dark face with eyes hidden. Only v4 eye/recognition source-art closeups reveal the face.",
+  "shadow_complete": true,
+  "anchor_note": "Source-pixel manually inspected points, typically +/- 10-20 px. Eye iris +/-3px. Back pen alpha endpoint measured. No invisible eye anchor or mirroring.",
+  "new_pose_count": 52,
+  "new_group_count": 21,
+  "expected_new_pose_count": 52,
+  "missing": [],
+  "groups": {
+    "A01": 2,
+    "A02": 3,
+    "A03": 2,
+    "A15": 2,
+    "A16": 2,
+    "A17": 2,
+    "A18": 2,
+    "A19": 3,
+    "A05": 3,
+    "A06": 2,
+    "A07": 3,
+    "A04": 3,
+    "A20": 3,
+    "A21": 2,
+    "A08": 2,
+    "A09": 2,
+    "A10": 3,
+    "A11": 3,
+    "A14": 3,
+    "A12": 2,
+    "A13": 3
+  },
+  "assets": {
+    "bust": {
+      "path": "/assets/astra/v07/bust-knot.png",
+      "anchors": {
+        "hands": [
+          840,
+          885
+        ],
+        "wrist": [
+          890,
+          955
+        ]
+      },
+      "face": {
+        "x": 320,
+        "y": 100,
+        "w": 650,
+        "h": 600
+      }
+    },
+    "eye": {
+      "path": "/assets/astra/v08/face-eye-v02.png",
+      "face": {
+        "x": 330,
+        "y": 420,
+        "w": 560,
+        "h": 500
+      },
+      "anchors": {
+        "eye": [
+          708,
+          652
+        ]
+      },
+      "tonalThresholds": [
+        65,
+        16,
+        160,
+        22
+      ]
+    },
+    "profile": {
+      "path": "/assets/astra/v07/profile-knot.png",
+      "anchors": {},
+      "face": {
+        "x": 200,
+        "y": 280,
+        "w": 600,
+        "h": 580
+      }
+    },
+    "hand": {
+      "path": "/assets/astra/v07/hand-knot.png",
+      "anchors": {
+        "hands": [
+          711,
+          375
+        ],
+        "wrist": [
+          898,
+          386
+        ]
+      }
+    },
+    "foot": {
+      "path": "/assets/astra/v07/foot-knot.png",
+      "anchors": {
+        "toe": [
+          174,
+          1115
+        ]
+      }
+    },
+    "operating": {
+      "path": "/assets/astra/v07/operating-knot.png",
+      "anchors": {
+        "hands": [
+          1302,
+          1015
+        ],
+        "wrist": [
+          1035,
+          994
+        ],
+        "pen": [
+          721,
+          974
+        ],
+        "holding": [
+          609,
+          931
+        ]
+      }
+    },
+    "cat": {
+      "path": "/assets/astra/v07/cat-knot.png",
+      "anchors": {}
+    },
+    "male": {
+      "path": "/assets/astra/v07/male-knot.png",
+      "anchors": {}
+    },
+    "back": {
+      "path": "/assets/astra/v07/back-knot.png",
+      "anchors": {
+        "pen": [
+          1292,
+          1096
+        ]
+      }
+    },
+    "recoil": {
+      "path": "/assets/astra/v16-withdraw-review/recoil-redraw-knots-perspective-v2.png",
+      "anchors": {
+        "hands": [
+          431,
+          474
+        ],
+        "wrist": [
+          451,
+          558
+        ],
+        "grasp": [
+          462,
+          627
+        ]
+      },
+      "source_width": 1254,
+      "source_height": 1254,
+      "sha256": "85ce8c1b6fa88ec3c2ac9c0cb43e0694b2ec28ed2a1c9507fda64c675334bbca",
+      "bounds": {
+        "x": 71,
+        "y": 5,
+        "w": 1111,
+        "h": 1249
+      },
+      "provenance": {
+        "tool": "existing source image; independent review mapping only",
+        "review_only": true,
+        "replaces_for_review": "/assets/astra/v07/recoil-knot.png",
+        "measurement_note": "Wrist is exposed left-screen wrist/cuff immediately below raised palm; grasp identifies the other hand around the forearm.",
+        "final_map_confirmed": true
+      },
+      "face": {
+        "x": 537,
+        "y": 321,
+        "w": 179,
+        "h": 124
+      }
+    },
+    "guest0": {
+      "path": "/assets/astra/v07/guest0.png",
+      "anchors": {}
+    },
+    "guest1": {
+      "path": "/assets/astra/v07/guest1.png",
+      "anchors": {}
+    },
+    "guest2": {
+      "path": "/assets/astra/v07/guest2.png",
+      "anchors": {}
+    },
+    "guest3": {
+      "path": "/assets/astra/v07/guest3.png",
+      "anchors": {}
+    },
+    "guest4": {
+      "path": "/assets/astra/v07/guest4.png",
+      "anchors": {}
+    },
+    "guest5": {
+      "path": "/assets/astra/v07/guest5.png",
+      "anchors": {}
+    },
+    "stand": {
+      "path": "/assets/astra/final/stand-knot.png",
+      "face": {
+        "x": 340,
+        "y": 100,
+        "w": 380,
+        "h": 310
+      },
+      "anchors": {
+        "hands": [
+          610,
+          410
+        ],
+        "pen": [
+          280,
+          1005
+        ]
+      }
+    },
+    "reach": {
+      "path": "/assets/astra/final/reach-knot.png",
+      "face": {
+        "x": 480,
+        "y": 85,
+        "w": 360,
+        "h": 300
+      },
+      "anchors": {
+        "hands": [
+          1100,
+          250
+        ],
+        "pen": [
+          735,
+          505
+        ],
+        "wrist": [
+          1010,
+          293
+        ]
+      }
+    },
+    "protect": {
+      "path": "/assets/astra/final/protect-knot.png",
+      "face": {
+        "x": 340,
+        "y": 110,
+        "w": 380,
+        "h": 310
+      },
+      "anchors": {
+        "hands": [
+          540,
+          505
+        ],
+        "pen": [
+          540,
+          505
+        ]
+      }
+    },
+    "sit": {
+      "path": "/assets/astra/final/sit-knot.png",
+      "face": {
+        "x": 415,
+        "y": 125,
+        "w": 380,
+        "h": 310
+      },
+      "anchors": {
+        "hands": [
+          790,
+          715
+        ],
+        "pen": [
+          944,
+          778
+        ]
+      }
+    },
+    "surprise": {
+      "path": "/assets/astra/v17-ending-review/recognition-surprise-knots-perspective-v2.png",
+      "anchors": {
+        "eyes": [
+          645,
+          631
+        ],
+        "mouth": [
+          648,
+          774
+        ]
+      },
+      "source_width": 1254,
+      "source_height": 1254,
+      "sha256": "8f508066335b79f4bb0cc5ac81dbcaba4be0f82271a4c3e1bb519187e76e69dc",
+      "bounds": {
+        "x": 11,
+        "y": 10,
+        "w": 1232,
+        "h": 1244
+      },
+      "provenance": {
+        "tool": "existing source image; independent review mapping only",
+        "review_only": true,
+        "replaces_for_review": "/assets/astra/v06-eye-study/surprise-candidate.png",
+        "measurement_note": "Proposed consistent close-up includes bangs, both eyes, mouth, chin and some collar; excludes horn tips intentionally. Root selected for independent review; runtime crop check pending.",
+        "final_map_confirmed": true
+      },
+      "face": {
+        "x": 355,
+        "y": 320,
+        "w": 590,
+        "h": 610
+      }
+    },
+    "sitSmile": {
+      "path": "/assets/astra/v17-ending-review/recognition-smile-knots-perspective-v2.png",
+      "anchors": {
+        "eyes": [
+          645,
+          643
+        ],
+        "mouth": [
+          654,
+          777
+        ]
+      },
+      "source_width": 1254,
+      "source_height": 1254,
+      "sha256": "e77695402069392baa30a451e72711d87e07cc677d80a334fa3adc1cdb9b2b01",
+      "bounds": {
+        "x": 11,
+        "y": 11,
+        "w": 1232,
+        "h": 1243
+      },
+      "provenance": {
+        "tool": "existing source image; independent review mapping only",
+        "review_only": true,
+        "replaces_for_review": "/assets/astra/v06-eye-study/smile-candidate.png",
+        "measurement_note": "Same framing as surprise to avoid a crop jump. Root selected for independent review; runtime crop check pending.",
+        "final_map_confirmed": true
+      },
+      "face": {
+        "x": 355,
+        "y": 320,
+        "w": 590,
+        "h": 610
+      }
+    },
+    "earlyCircle": {
+      "path": "/assets/astra/v08/early-circle.png",
+      "anchors": {
+        "pen": [
+          1568,
+          543
+        ],
+        "hands": [
+          1434,
+          400
+        ],
+        "shoulder": [
+          367,
+          253
+        ]
+      },
+      "note": "Complete connected shoulder, elbow and right stylus hand. Torso intentionally exits source left/bottom. Pen anchor is the visible purple tip (source luminance/alpha inspected), not the almost-black outer antialias tip at 1577,553. No mirrored placement."
+    },
+    "earlyTangent": {
+      "path": "/assets/astra/v08/early-tangent.png",
+      "anchors": {
+        "pen": [
+          1225,
+          475
+        ],
+        "hands": [
+          1205,
+          302
+        ],
+        "shoulder": [
+          357,
+          682
+        ]
+      },
+      "note": "Distinct high three-quarter writing grip, vertical stylus. Complete shoulder/arm context; source-pixel anchors manually inspected."
+    },
+    "earlyTravel": {
+      "path": "/assets/astra/v08/early-travel-framed.png",
+      "anchors": {
+        "pen": [
+          1625,
+          490
+        ],
+        "hands": [
+          1625,
+          490
+        ],
+        "shoulder": [
+          233,
+          221
+        ]
+      },
+      "note": "Connected reaching shoulder/arm with right index finger. The pen alias denotes finger contact, no physical pen in this asset. Timeline props removed by ImageGen edit."
+    },
+    "midWait": {
+      "path": "/assets/astra/v08/mid-wait.png",
+      "face": {
+        "x": 795,
+        "y": 360,
+        "w": 230,
+        "h": 255
+      },
+      "anchors": {
+        "hands": [
+          210,
+          600
+        ],
+        "wrist": [
+          302,
+          665
+        ],
+        "chest": [
+          1020,
+          744
+        ]
+      },
+      "anchor_note": "Source 1448x1086. Palm interior and wrist inspected on the complete generated pose, +/-15px. Hidden eyes have no inferred iris anchor.",
+      "tonalThresholds": [
+        40,
+        12,
+        125,
+        22
+      ]
+    },
+    "midReceive": {
+      "path": "/assets/astra/v08/mid-receive.png",
+      "face": {
+        "x": 608,
+        "y": 355,
+        "w": 260,
+        "h": 250
+      },
+      "anchors": {
+        "hands": [
+          1155,
+          609
+        ],
+        "wrist": [
+          1061,
+          684
+        ],
+        "chest": [
+          694,
+          737
+        ]
+      },
+      "anchor_note": "Source 1394x1128. Cupped palm, wrist and near-chest hand inspected, +/-15px. Independently generated pose, never a mirrored source."
+    },
+    "A01_01": {
+      "path": "/assets/astra/v09/A01-01-inkface.png",
+      "anchors": {
+        "hands": [
+          952,
+          367
+        ],
+        "wrist": [
+          905,
+          382
+        ],
+        "pen": [
+          1033,
+          424
+        ],
+        "eyes": [
+          647,
+          195
+        ]
+      },
+      "face": {
+        "x": 599,
+        "y": 171,
+        "w": 99,
+        "h": 78
+      },
+      "actionGroup": "A01",
+      "phase": 1,
+      "styleRevision": 3,
+      "faceTreatment": "shadow",
+      "provenance": {
+        "generator": "built-in image_gen",
+        "source": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa73-c60e-7100-b6db-4e43c1ae8e63\\exec-75929d06-8dd2-4163-b5db-07ec40c33c83.png",
+        "prompt": "assets/astra/v09/A01-01-inkface.prompt.txt",
+        "poseSource": "assets/astra/v09/A01-01-style2.png",
+        "posePrompt": "assets/astra/v09/A01-01-style2.prompt.txt",
+        "inspection": "Viewed complete final source: opaque near-black face, both eyes fully hidden by drawn bangs, tiny mouth only; compact face contour; full connected arms, correct held prop side, source-drawn openwork GPT loops without circle. Hand/pen anchors inspected in final source. Alpha/runtime QA separately recorded.",
+        "inspected": true
+      },
+      "sha256": "ce018482f13edac67aee42b377ae2d4c6b1e918ed9f7ea9991b91c99f8028469",
+      "source_width": 1536,
+      "source_height": 1024
+    },
+    "A01_02": {
+      "path": "/assets/astra/v09/A01-02-inkface.png",
+      "anchors": {
+        "hands": [
+          1020,
+          628
+        ],
+        "wrist": [
+          976,
+          606
+        ],
+        "pen": [
+          1076,
+          720
+        ],
+        "eyes": [
+          801,
+          239
+        ]
+      },
+      "face": {
+        "x": 750,
+        "y": 214,
+        "w": 111,
+        "h": 81
+      },
+      "actionGroup": "A01",
+      "phase": 2,
+      "styleRevision": 3,
+      "faceTreatment": "shadow",
+      "provenance": {
+        "generator": "built-in image_gen",
+        "source": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa73-c60e-7100-b6db-4e43c1ae8e63\\exec-6d7a8d06-f977-42e5-b987-b03fd62ccacb.png",
+        "prompt": "assets/astra/v09/A01-02-inkface.prompt.txt",
+        "poseSource": "assets/astra/v09/A01-02-style2.png",
+        "posePrompt": "assets/astra/v09/A01-02-style2.prompt.txt",
+        "inspection": "Viewed complete final source: opaque near-black face, both eyes fully hidden by drawn bangs, tiny mouth only; compact face contour; full connected arms, correct held prop side, source-drawn openwork GPT loops without circle. Hand/pen anchors inspected in final source. Alpha/runtime QA separately recorded.",
+        "inspected": true
+      },
+      "sha256": "f3f8f59d3725a393e8c44e9264b99071dceb5762663f7fa96afc40a38a705880",
+      "source_width": 1536,
+      "source_height": 1024
+    },
+    "A02_01": {
+      "path": "/assets/astra/v14-boundary-review/A02-01-approach-knots-perspective-v2.png",
+      "actionGroup": "A02",
+      "phase": 1,
+      "styleRevision": 3,
+      "faceTreatment": "shadow",
+      "anchors": {
+        "hands": [
+          1061,
+          350
+        ],
+        "wrist": [
+          1020,
+          379
+        ],
+        "eyes": [
+          699,
+          242
+        ]
+      },
+      "source_width": 1189,
+      "source_height": 1323,
+      "sha256": "3cac63b1b5b94f6a5b221c0ee17f32a52d43e2ac7a3e1027caae28050ac8b792",
+      "bounds": {
+        "x": 35,
+        "y": 9,
+        "w": 1104,
+        "h": 1304
+      },
+      "provenance": {
+        "tool": "existing source image; independent review mapping only",
+        "review_only": true,
+        "replaces_for_review": "/assets/astra/v09/A02-01-inkface.png",
+        "measurement_note": "Approaching extended hand palm center; wrist at cuff, eyes below bangs.",
+        "final_map_confirmed": true
+      },
+      "face": {
+        "x": 638,
+        "y": 201,
+        "w": 113,
+        "h": 102
+      }
+    },
+    "A02_02": {
+      "path": "/assets/astra/v14-boundary-review/A02-02-contact-v6-perspective.png",
+      "actionGroup": "A02",
+      "phase": 2,
+      "styleRevision": 3,
+      "faceTreatment": "shadow",
+      "anchors": {
+        "hands": [
+          1105,
+          347
+        ],
+        "wrist": [
+          1041,
+          405
+        ],
+        "eyes": [
+          740,
+          259
+        ]
+      },
+      "source_width": 1189,
+      "source_height": 1323,
+      "sha256": "b393e4c3218a53c8be5089684a6958e3ee9dfdca0907f8cf928ac3ba28e4488e",
+      "bounds": {
+        "x": 37,
+        "y": 8,
+        "w": 1074,
+        "h": 1302
+      },
+      "provenance": {
+        "tool": "existing source image; independent review mapping only",
+        "review_only": true,
+        "replaces_for_review": "/assets/astra/v09/A02-02-inkface.png",
+        "measurement_note": "Boundary contact point on outer thumb/palm contour; fingers extend only 5 source px farther. Wrist at the cuff. Measured on native contact-v6, no old anchors.",
+        "final_map_confirmed": true
+      },
+      "face": {
+        "x": 692,
+        "y": 225,
+        "w": 87,
+        "h": 91
+      }
+    },
+    "A02_03": {
+      "path": "/assets/astra/v14-boundary-review/A02-03-withdraw-knots-perspective-v2.png",
+      "actionGroup": "A02",
+      "phase": 3,
+      "styleRevision": 3,
+      "faceTreatment": "shadow",
+      "anchors": {
+        "hands": [
+          713,
+          378
+        ],
+        "wrist": [
+          739,
+          420
+        ],
+        "eyes": [
+          689,
+          281
+        ]
+      },
+      "source_width": 1189,
+      "source_height": 1323,
+      "sha256": "417783e103480a1a418ab4bcc4c7da9c63d8fc54f295a4cf039de7b9ffcf157b",
+      "bounds": {
+        "x": 54,
+        "y": 10,
+        "w": 1044,
+        "h": 1296
+      },
+      "provenance": {
+        "tool": "existing source image; independent review mapping only",
+        "review_only": true,
+        "replaces_for_review": "/assets/astra/v09/A02-03-inkface.png",
+        "measurement_note": "Previously extended far arm is now withdrawn to upper chest/chin: hands tracks this raised hand, not the separate hanging near hand.",
+        "final_map_confirmed": true
+      },
+      "face": {
+        "x": 630,
+        "y": 241,
+        "w": 113,
+        "h": 108
+      }
+    },
+    "A03_01": {
+      "path": "/assets/astra/v09/A03-01-inkface.png",
+      "anchors": {
+        "hands": [
+          483,
+          616
+        ],
+        "leftPalm": [
+          359,
+          594
+        ],
+        "rightPalm": [
+          487,
+          621
+        ],
+        "wrist": [
+          543,
+          590
+        ],
+        "eyes": [
+          567,
+          265
+        ]
+      },
+      "face": {
+        "x": 505,
+        "y": 228,
+        "w": 128,
+        "h": 93
+      },
+      "actionGroup": "A03",
+      "phase": 1,
+      "styleRevision": 3,
+      "faceTreatment": "shadow",
+      "provenance": {
+        "generator": "built-in image_gen",
+        "source": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa73-c60e-7100-b6db-4e43c1ae8e63\\exec-d327e119-5b5f-41c9-aaf7-b045a8e8f411.png",
+        "prompt": "assets/astra/v09/A03-01-inkface.prompt.txt",
+        "poseSource": "assets/astra/v09/A03-01-style2.png",
+        "posePrompt": "assets/astra/v09/A03-01-style2.prompt.txt",
+        "inspection": "Viewed complete final source: opaque near-black face, both eyes fully hidden by bangs, tiny mouth only; compact face contour; full connected arms, same held prop side, source-drawn hollow GPT loops without outer circle. Anchors inspected again. Actual source alpha and runtime reviewed separately.",
+        "inspected": true
+      },
+      "sha256": "0c69c0f509ab7ee96891f46dc7b94b3c5427081d5d5044fe3d39bbf1acd6dae8",
+      "source_width": 1536,
+      "source_height": 1024
+    },
+    "A03_02": {
+      "path": "/assets/astra/v09/A03-02-inkface.png",
+      "anchors": {
+        "hands": [
+          448,
+          322
+        ],
+        "leftPalm": [
+          448,
+          322
+        ],
+        "rightPalm": [
+          989,
+          336
+        ],
+        "wrist": [
+          493,
+          339
+        ],
+        "eyes": [
+          739,
+          165
+        ]
+      },
+      "face": {
+        "x": 689,
+        "y": 141,
+        "w": 105,
+        "h": 82
+      },
+      "actionGroup": "A03",
+      "phase": 2,
+      "styleRevision": 3,
+      "faceTreatment": "shadow",
+      "provenance": {
+        "generator": "built-in image_gen",
+        "source": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa73-c60e-7100-b6db-4e43c1ae8e63\\exec-132effa6-e5fe-4198-9b71-41c002d2e39a.png",
+        "prompt": "assets/astra/v09/A03-02-inkface.prompt.txt",
+        "poseSource": "assets/astra/v09/A03-02-style2.png",
+        "posePrompt": "assets/astra/v09/A03-02-style2.prompt.txt",
+        "inspection": "Viewed complete final source: opaque near-black face, both eyes fully hidden by bangs, tiny mouth only; compact face contour; full connected arms, same held prop side, source-drawn hollow GPT loops without outer circle. Anchors inspected again. Actual source alpha and runtime reviewed separately.",
+        "inspected": true
+      },
+      "sha256": "c01506cbc8304e434e82ace6f98a4e8b789777d13b031a3ae7fdb81562d17331",
+      "source_width": 1536,
+      "source_height": 1024
+    },
+    "A15_01": {
+      "path": "/assets/astra/v09/A15-01-inkface.png",
+      "anchors": {
+        "hands": [
+          500,
+          319
+        ],
+        "wrist": [
+          445,
+          393
+        ],
+        "pen": [
+          603,
+          345
+        ],
+        "support": [
+          622,
+          694
+        ],
+        "eyes": [
+          800,
+          331
+        ]
+      },
+      "face": {
+        "x": 716,
+        "y": 294,
+        "w": 182,
+        "h": 134
+      },
+      "actionGroup": "A15",
+      "phase": 1,
+      "styleRevision": 3,
+      "faceTreatment": "shadow",
+      "provenance": {
+        "generator": "built-in image_gen",
+        "source": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa73-c60e-7100-b6db-4e43c1ae8e63\\exec-e2e42fde-7c7c-45e5-b30f-7a6cfbcfbcf9.png",
+        "prompt": "assets/astra/v09/A15-01-inkface.prompt.txt",
+        "poseSource": "assets/astra/v09/A15-01-style2.png",
+        "posePrompt": "assets/astra/v09/A15-01-style2.prompt.txt",
+        "inspection": "Viewed complete final source: opaque near-black face, both eyes fully hidden by bangs, tiny mouth only; compact face contour; full connected arms, same held prop side, source-drawn hollow GPT loops without outer circle. Anchors inspected again. Actual source alpha and runtime reviewed separately.",
+        "inspected": true
+      },
+      "sha256": "3b523f7ebac61af7d6ae6d53327e3b67bf038cf85e59421c68996cf9a5941d3a",
+      "source_width": 1448,
+      "source_height": 1086
+    },
+    "A15_02": {
+      "path": "/assets/astra/v09/A15-02-inkface.png",
+      "anchors": {
+        "hands": [
+          534,
+          648
+        ],
+        "wrist": [
+          472,
+          649
+        ],
+        "pen": [
+          614,
+          719
+        ],
+        "support": [
+          528,
+          762
+        ],
+        "eyes": [
+          765,
+          380
+        ]
+      },
+      "face": {
+        "x": 675,
+        "y": 341,
+        "w": 180,
+        "h": 124
+      },
+      "actionGroup": "A15",
+      "phase": 2,
+      "styleRevision": 3,
+      "faceTreatment": "shadow",
+      "provenance": {
+        "generator": "built-in image_gen",
+        "source": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa73-c60e-7100-b6db-4e43c1ae8e63\\exec-11e9d696-6e23-43a3-8e0f-55308fcc6d2a.png",
+        "prompt": "assets/astra/v09/A15-02-inkface.prompt.txt",
+        "poseSource": "assets/astra/v09/A15-02-style2.png",
+        "posePrompt": "assets/astra/v09/A15-02-style2.prompt.txt",
+        "inspection": "Viewed complete final source: opaque near-black face, both eyes fully hidden by bangs, tiny mouth only; compact face contour; full connected arms, same held prop side, source-drawn hollow GPT loops without outer circle. Anchors inspected again. Actual source alpha and runtime reviewed separately.",
+        "inspected": true
+      },
+      "sha256": "ffcf3c32cfc10af2ef046ee6faa3c6cabdce065d7b86a5e57e7db986d4437c6f",
+      "source_width": 1448,
+      "source_height": 1086
+    },
+    "A16_01": {
+      "path": "/assets/astra/v09/A16-01-inkface.png",
+      "anchors": {
+        "hands": [
+          1299,
+          697
+        ],
+        "wrist": [
+          1204,
+          766
+        ],
+        "pen": [
+          1403,
+          764
+        ],
+        "eyes": [
+          718,
+          326
+        ]
+      },
+      "face": {
+        "x": 625,
+        "y": 304,
+        "w": 190,
+        "h": 125
+      },
+      "actionGroup": "A16",
+      "phase": 1,
+      "styleRevision": 3,
+      "faceTreatment": "shadow",
+      "provenance": {
+        "generator": "built-in image_gen",
+        "source": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa73-c60e-7100-b6db-4e43c1ae8e63\\exec-6b00c490-2669-4b56-b40d-891b370cf1a2.png",
+        "prompt": "assets/astra/v09/A16-01-inkface.prompt.txt",
+        "poseSource": "assets/astra/v09/A16-01-style2.png",
+        "posePrompt": "assets/astra/v09/A16-01-style2.prompt.txt",
+        "inspection": "Viewed complete final source: opaque near-black face, both eyes fully hidden by bangs, tiny mouth only; compact face contour; full connected arms, same held prop side, source-drawn hollow GPT loops without outer circle. Anchors inspected again. Actual source alpha and runtime reviewed separately.",
+        "inspected": true
+      },
+      "sha256": "7c79cda8170f7e842fbb76dafb53bf678acf63e3f08314ce1f18ebc1f4447ffc",
+      "source_width": 1536,
+      "source_height": 1024
+    },
+    "A16_02": {
+      "path": "/assets/astra/v09/A16-02-inkface.png",
+      "anchors": {
+        "hands": [
+          1384,
+          922
+        ],
+        "wrist": [
+          1262,
+          956
+        ],
+        "pen": [
+          1477,
+          1016
+        ],
+        "eyes": [
+          1125,
+          432
+        ]
+      },
+      "face": {
+        "x": 1014,
+        "y": 395,
+        "w": 214,
+        "h": 145
+      },
+      "actionGroup": "A16",
+      "phase": 2,
+      "styleRevision": 3,
+      "faceTreatment": "shadow",
+      "provenance": {
+        "generator": "built-in image_gen",
+        "source": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa73-c60e-7100-b6db-4e43c1ae8e63\\exec-bcebb9f2-7218-49ab-a8a0-a06c3dc89249.png",
+        "prompt": "assets/astra/v09/A16-02-inkface.prompt.txt",
+        "poseSource": "assets/astra/v09/A16-02-style2.png",
+        "posePrompt": "assets/astra/v09/A16-02-style2.prompt.txt",
+        "inspection": "Viewed complete final source: opaque near-black face, both eyes fully hidden by bangs, tiny mouth only; compact face contour; full connected arms, same held prop side, source-drawn hollow GPT loops without outer circle. Anchors inspected again. Actual source alpha and runtime reviewed separately.",
+        "inspected": true
+      },
+      "sha256": "bbf7b68eaecf94fc29db4c46b81b0173cc2ef5a39db5bb4d3a60d9d0a841c1f4",
+      "source_width": 1536,
+      "source_height": 1024
+    },
+    "A17_01": {
+      "path": "/assets/astra/v09/A17-01-inkface.png",
+      "anchors": {
+        "hands": [
+          919,
+          573
+        ],
+        "wrist": [
+          848,
+          608
+        ],
+        "pen": [
+          979,
+          631
+        ],
+        "eyes": [
+          655,
+          278
+        ]
+      },
+      "face": {
+        "x": 588,
+        "y": 255,
+        "w": 143,
+        "h": 89
+      },
+      "actionGroup": "A17",
+      "phase": 1,
+      "styleRevision": 3,
+      "faceTreatment": "shadow",
+      "provenance": {
+        "generator": "built-in image_gen",
+        "source": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa73-c60e-7100-b6db-4e43c1ae8e63\\exec-25502fc7-9ef3-42a8-ae67-9d9f973205a1.png",
+        "prompt": "assets/astra/v09/A17-01-inkface.prompt.txt",
+        "poseSource": "assets/astra/v09/A17-01-style2.png",
+        "posePrompt": "assets/astra/v09/A17-01-style2.prompt.txt",
+        "inspection": "Viewed complete final source: opaque near-black face, both eyes fully hidden by bangs, tiny mouth only; compact face contour; full connected arms, same held prop side, source-drawn hollow GPT loops without outer circle. Anchors inspected again. Actual source alpha and runtime reviewed separately.",
+        "inspected": true
+      },
+      "sha256": "1edc18e4418920ec5edb1d2e6260e828206db37fd413b21edc1006d691d1b039",
+      "source_width": 1024,
+      "source_height": 1536
+    },
+    "A17_02": {
+      "path": "/assets/astra/v09/A17-02-inkface.png",
+      "anchors": {
+        "hands": [
+          929,
+          745
+        ],
+        "wrist": [
+          855,
+          738
+        ],
+        "pen": [
+          987,
+          811
+        ],
+        "eyes": [
+          696,
+          320
+        ]
+      },
+      "face": {
+        "x": 632,
+        "y": 288,
+        "w": 130,
+        "h": 86
+      },
+      "actionGroup": "A17",
+      "phase": 2,
+      "styleRevision": 3,
+      "faceTreatment": "shadow",
+      "provenance": {
+        "generator": "built-in image_gen",
+        "source": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa73-c60e-7100-b6db-4e43c1ae8e63\\exec-ba4249e4-1890-47b9-a0a4-8fbd2396ca18.png",
+        "prompt": "assets/astra/v09/A17-02-inkface.prompt.txt",
+        "poseSource": "assets/astra/v09/A17-02-style2-r2.png",
+        "posePrompt": "assets/astra/v09/A17-02-style2-r2.prompt.txt",
+        "inspection": "Viewed complete final source: opaque near-black face, both eyes fully hidden by bangs, tiny mouth only; compact face contour; full connected arms, same held prop side, source-drawn hollow GPT loops without outer circle. Anchors inspected again. Actual source alpha and runtime reviewed separately.",
+        "inspected": true
+      },
+      "sha256": "36882cc2abaf74318573eae3755012be16e99edf2ffa0c5b672d90e327d1457d",
+      "source_width": 1024,
+      "source_height": 1536
+    },
+    "A18_01": {
+      "path": "/assets/astra/v09/A18-01-inkface.png",
+      "anchors": {
+        "hands": [
+          548,
+          1123
+        ],
+        "wrist": [
+          493,
+          1057
+        ],
+        "eyes": [
+          626,
+          425
+        ]
+      },
+      "face": {
+        "x": 509,
+        "y": 392,
+        "w": 224,
+        "h": 117
+      },
+      "actionGroup": "A18",
+      "phase": 1,
+      "styleRevision": 3,
+      "faceTreatment": "shadow",
+      "provenance": {
+        "generator": "built-in image_gen",
+        "source": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa73-c60e-7100-b6db-4e43c1ae8e63\\exec-549bfe3f-a17e-451f-a6a4-207c14777ba7.png",
+        "prompt": "assets/astra/v09/A18-01-inkface.prompt.txt",
+        "poseSource": "assets/astra/v09/A18-01-style2.png",
+        "posePrompt": "assets/astra/v09/A18-01-style2.prompt.txt",
+        "inspection": "Viewed complete final source: opaque near-black face, both eyes fully hidden by bangs, tiny mouth only; compact face contour; full connected arms, same held prop side, source-drawn hollow GPT loops without outer circle. Anchors inspected again. Actual source alpha and runtime reviewed separately.",
+        "inspected": true
+      },
+      "sha256": "9a2c41ad34a2b0fdfe2e8fc3c0747ff11220c6b83c9d65e409ec8a6baa9c2c07",
+      "source_width": 1254,
+      "source_height": 1254
+    },
+    "A18_02": {
+      "path": "/assets/astra/v09/A18-02-inkface.png",
+      "anchors": {
+        "hands": [
+          143,
+          1027
+        ],
+        "wrist": [
+          234,
+          984
+        ],
+        "eyes": [
+          625,
+          409
+        ]
+      },
+      "face": {
+        "x": 506,
+        "y": 380,
+        "w": 231,
+        "h": 128
+      },
+      "actionGroup": "A18",
+      "phase": 2,
+      "styleRevision": 3,
+      "faceTreatment": "shadow",
+      "provenance": {
+        "generator": "built-in image_gen",
+        "source": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa73-c60e-7100-b6db-4e43c1ae8e63\\exec-814ed3af-98c8-48b0-9d2f-a1857560067a.png",
+        "prompt": "assets/astra/v09/A18-02-inkface.prompt.txt",
+        "poseSource": "assets/astra/v09/A18-02-style2.png",
+        "posePrompt": "assets/astra/v09/A18-02-style2.prompt.txt",
+        "inspection": "Viewed complete final source: opaque near-black face, both eyes fully hidden by bangs, tiny mouth only; compact face contour; full connected arms, same held prop side, source-drawn hollow GPT loops without outer circle. Anchors inspected again. Actual source alpha and runtime reviewed separately.",
+        "inspected": true
+      },
+      "sha256": "2cd996c40c184273aff35b1aacefc8eb46f303c4f54481e72c9af0492a8e4322",
+      "source_width": 1254,
+      "source_height": 1254
+    },
+    "A19_01": {
+      "path": "/assets/astra/v12-approved-cat/A19-01-anticipate.png",
+      "anchors": {
+        "hands": [
+          520,
+          712
+        ],
+        "wrist": [
+          437,
+          769
+        ],
+        "eyes": [
+          629,
+          502
+        ]
+      },
+      "face": {
+        "x": 508,
+        "y": 456,
+        "w": 240,
+        "h": 175
+      },
+      "actionGroup": "A19",
+      "phase": 1,
+      "styleRevision": 4,
+      "faceTreatment": "shadow",
+      "source_width": 1319,
+      "source_height": 1193,
+      "tonalThresholds": [
+        65,
+        16,
+        155,
+        16
+      ],
+      "sha256": "5f02028d99a4ae088b24ea4c794793bbd315307655cb2974b3bae88581fc0969",
+      "provenance": {
+        "generator": "built-in image_gen",
+        "source": "C:/Users/auscar/.codex/generated_images/01a1ac2c-80cd-7563-9e55-8ed4b1113954/exec-663386b4-664f-4f7c-b19c-d818a896e2b0.png",
+        "prompt": "assets/astra/v12-approved-cat/A19-01.prompt.txt",
+        "designReference": "assets/astra/v12-approved-cat/A19-02-approved.png",
+        "operation": "adjacent arm/hand pose derived from the user-selected artwork",
+        "inspected": true,
+        "inspection": "Viewed native upper-body image: approved cat ears, shadow face, two connected arms, source-drawn hair and bodice GPT knots retained visually. No pasted logo, face, hand, or limb. Hands/eyes/wrist coordinates inspected in this source. Native runtime composition is verified separately."
+      }
+    },
+    "A19_02": {
+      "path": "/assets/astra/v12-approved-cat/A19-02-approved.png",
+      "anchors": {
+        "hands": [
+          426,
+          636
+        ],
+        "wrist": [
+          385,
+          735
+        ],
+        "eyes": [
+          650,
+          500
+        ]
+      },
+      "face": {
+        "x": 525,
+        "y": 464,
+        "w": 239,
+        "h": 173
+      },
+      "actionGroup": "A19",
+      "phase": 2,
+      "styleRevision": 4,
+      "faceTreatment": "shadow",
+      "source_width": 1319,
+      "source_height": 1193,
+      "tonalThresholds": [
+        65,
+        16,
+        155,
+        16
+      ],
+      "sha256": "c02461813af3c9bf00fc6e1e530c2935bf379eff591582d10bc172245aa8b90c",
+      "provenance": {
+        "generator": "user-selected existing ImageGen source",
+        "source": "C:/Users/auscar/.codex/generated_images/01a1a5ec-245d-7923-8dd6-2a8b6f24c904/exec-c7eb9a88-5549-4649-85b9-56d2575a1c72.png",
+        "prompt": null,
+        "designReference": "assets/astra/v12-approved-cat/A19-02-approved.png",
+        "operation": "byte-for-byte copy of the user-selected artwork",
+        "inspected": true,
+        "inspection": "Viewed native upper-body image: approved cat ears, shadow face, two connected arms, source-drawn hair and bodice GPT knots retained visually. No pasted logo, face, hand, or limb. Hands/eyes/wrist coordinates inspected in this source. Native runtime composition is verified separately."
+      }
+    },
+    "A19_03": {
+      "path": "/assets/astra/v12-approved-cat/A19-03-listen.png",
+      "anchors": {
+        "hands": [
+          440,
+          609
+        ],
+        "wrist": [
+          433,
+          704
+        ],
+        "eyes": [
+          650,
+          500
+        ]
+      },
+      "face": {
+        "x": 525,
+        "y": 464,
+        "w": 239,
+        "h": 173
+      },
+      "actionGroup": "A19",
+      "phase": 3,
+      "styleRevision": 4,
+      "faceTreatment": "shadow",
+      "source_width": 1319,
+      "source_height": 1193,
+      "tonalThresholds": [
+        65,
+        16,
+        155,
+        16
+      ],
+      "sha256": "8b6affdec25238cb0eddc45fcb188408a583e321683bffc72c2a1faa04907ba1",
+      "provenance": {
+        "generator": "built-in image_gen",
+        "source": "C:/Users/auscar/.codex/generated_images/01a1ac2c-80cd-7563-9e55-8ed4b1113954/exec-3c282505-b93e-4404-beed-f97dc2eee3ff.png",
+        "prompt": "assets/astra/v12-approved-cat/A19-03.prompt.txt",
+        "designReference": "assets/astra/v12-approved-cat/A19-02-approved.png",
+        "operation": "adjacent arm/hand pose derived from the user-selected artwork",
+        "inspected": true,
+        "inspection": "Viewed native upper-body image: approved cat ears, shadow face, two connected arms, source-drawn hair and bodice GPT knots retained visually. No pasted logo, face, hand, or limb. Hands/eyes/wrist coordinates inspected in this source. Native runtime composition is verified separately."
+      }
+    },
+    "A05_01": {
+      "path": "/assets/astra/v09/A05-01-shadow.png",
+      "anchors": {
+        "hands": [
+          149,
+          504
+        ],
+        "wrist": [
+          223,
+          530
+        ],
+        "seat": [
+          551,
+          884
+        ],
+        "chest": [
+          564,
+          564
+        ]
+      },
+      "face": {
+        "x": 468,
+        "y": 278,
+        "w": 174,
+        "h": 137
+      },
+      "faceMode": "shadow-bangs",
+      "styleRevision": 3,
+      "faceTreatment": "shadow",
+      "actionGroup": "A05",
+      "phase": 1,
+      "provenance": {
+        "tool": "image_gen.imagegen",
+        "source": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa74-1184-7261-a88f-266bf2e5f191\\exec-a0d679c4-6347-435d-a915-901e0e787964.png",
+        "prompt": "assets/astra/v09/A05-01-shadow.prompt.txt",
+        "references": [
+          "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v09/A05-01.png",
+          "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v07/recoil-knot.png"
+        ],
+        "originalPoseSource": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa74-1184-7261-a88f-266bf2e5f191\\exec-1ed7c1a3-0eb7-4817-9037-8718c2de5477.png",
+        "inspected": true,
+        "inspection": "Source artwork visually inspected at generation; connected anatomy and source-drawn open knot checked."
+      },
+      "sha256": "0925bd00a4774f47c33ea8caaf612cab5f9b75632eef752f55ddaa660be3cab5",
+      "source_width": 1024,
+      "source_height": 1536
+    },
+    "A06_01": {
+      "path": "/assets/astra/v09/A06-01-shadow.png",
+      "anchors": {
+        "hands": [
+          737,
+          492
+        ],
+        "wrist": [
+          673,
+          563
+        ],
+        "chest": [
+          571,
+          449
+        ]
+      },
+      "face": {
+        "x": 448,
+        "y": 273,
+        "w": 145,
+        "h": 112
+      },
+      "faceMode": "shadow-bangs",
+      "faceTreatment": "shadow",
+      "styleRevision": 3,
+      "actionGroup": "A06",
+      "phase": 1,
+      "provenance": {
+        "tool": "image_gen.imagegen",
+        "source": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa74-1184-7261-a88f-266bf2e5f191\\exec-7596486f-f651-4302-ace7-2e79f51f5bd9.png",
+        "prompt": "assets/astra/v09/A06-01-shadow.prompt.txt",
+        "references": [
+          "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v09/A06-01.png",
+          "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v07/recoil-knot.png"
+        ],
+        "originalPoseSource": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa74-1184-7261-a88f-266bf2e5f191\\exec-29885660-9ac5-421c-9944-e43c7c360883.png",
+        "inspected": true,
+        "inspection": "Source artwork visually inspected at generation; connected anatomy and source-drawn open knot checked."
+      },
+      "sha256": "42fa882e3a3497b0772775f6f31a2526f6aba6f8c1f3a9570c5c94bf90bce657",
+      "source_width": 1024,
+      "source_height": 1536
+    },
+    "A07_01": {
+      "path": "/assets/astra/v15-refusal-review/A07-01-request-knots-perspective-v2.png",
+      "faceMode": "shadow-bangs",
+      "faceTreatment": "shadow",
+      "styleRevision": 3,
+      "actionGroup": "A07",
+      "phase": 1,
+      "anchors": {
+        "hands": [
+          929,
+          416
+        ],
+        "wrist": [
+          889,
+          444
+        ],
+        "chest": [
+          574,
+          461
+        ]
+      },
+      "source_width": 1024,
+      "source_height": 1536,
+      "sha256": "d3716551e89c0f3259bdebb4378124ddc23345700f5b4c09c77ef5feef1af8a8",
+      "bounds": {
+        "x": 31,
+        "y": 14,
+        "w": 952,
+        "h": 1508
+      },
+      "provenance": {
+        "tool": "existing source image; independent review mapping only",
+        "review_only": true,
+        "replaces_for_review": "/assets/astra/v09/A07-01-shadow.png",
+        "measurement_note": "Extended request palm center and wrist cuff measured on native 1024x1536 candidate.",
+        "final_map_confirmed": true
+      },
+      "face": {
+        "x": 530,
+        "y": 242,
+        "w": 132,
+        "h": 106
+      }
+    },
+    "A04_01": {
+      "path": "/assets/astra/v09/A04-01-shadow.png",
+      "anchors": {
+        "hands": [
+          210,
+          574
+        ],
+        "wrist": [
+          306,
+          614
+        ],
+        "chest": [
+          718,
+          667
+        ]
+      },
+      "face": {
+        "x": 566,
+        "y": 316,
+        "w": 174,
+        "h": 143
+      },
+      "faceMode": "shadow-bangs",
+      "styleRevision": 3,
+      "faceTreatment": "shadow",
+      "actionGroup": "A04",
+      "phase": 1,
+      "provenance": {
+        "tool": "image_gen.imagegen",
+        "source": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa74-1184-7261-a88f-266bf2e5f191\\exec-e220c7a7-9ed9-4d34-81e4-d0814dddd442.png",
+        "prompt": "assets/astra/v09/A04-01-shadow.prompt.txt",
+        "references": [
+          "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v09/A04-01.png",
+          "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v07/recoil-knot.png"
+        ],
+        "originalPoseSource": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa74-1184-7261-a88f-266bf2e5f191\\exec-2c114ee4-8fbf-4194-afcb-230985a7a5b6.png",
+        "inspected": true,
+        "inspection": "Source artwork visually inspected at generation; connected anatomy and source-drawn open knot checked."
+      },
+      "sha256": "fbca1fe8e04d9e2d4dbb93ace79479be63a3fee8241dae2e33d96e8c19ecf1a7",
+      "source_width": 1132,
+      "source_height": 1390
+    },
+    "A05_02": {
+      "path": "/assets/astra/v09/A05-02-shadow.png",
+      "anchors": {
+        "hands": [
+          132,
+          841
+        ],
+        "wrist": [
+          214,
+          844
+        ],
+        "seat": [
+          550,
+          888
+        ],
+        "chest": [
+          564,
+          575
+        ]
+      },
+      "face": {
+        "x": 457,
+        "y": 318,
+        "w": 173,
+        "h": 115
+      },
+      "faceMode": "shadow-bangs",
+      "faceTreatment": "shadow",
+      "styleRevision": 3,
+      "actionGroup": "A05",
+      "phase": 2,
+      "provenance": {
+        "tool": "image_gen.imagegen",
+        "source": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa74-1184-7261-a88f-266bf2e5f191\\exec-10d9cf12-b442-4b1b-a535-31ff8ef0f405.png",
+        "prompt": "assets/astra/v09/A05-02-shadow.prompt.txt",
+        "references": [
+          "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v09/A05-02.png",
+          "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v07/recoil-knot.png"
+        ],
+        "originalPoseSource": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa74-1184-7261-a88f-266bf2e5f191\\exec-cf6cec86-61bf-4c5f-961c-59b5784ac0d1.png",
+        "inspected": true,
+        "inspection": "Source artwork visually inspected at generation; connected anatomy and source-drawn open knot checked."
+      },
+      "sha256": "7f19e47e36d8a99d27293bb67810abd373ccf58e2edd451f6de9a1b8d3610f18",
+      "source_width": 1024,
+      "source_height": 1536
+    },
+    "A06_02": {
+      "path": "/assets/astra/v09/A06-02-shadow.png",
+      "anchors": {
+        "hands": [
+          551,
+          473
+        ],
+        "wrist": [
+          510,
+          539
+        ],
+        "chest": [
+          550,
+          473
+        ]
+      },
+      "face": {
+        "x": 440,
+        "y": 274,
+        "w": 147,
+        "h": 91
+      },
+      "faceMode": "shadow-bangs",
+      "faceTreatment": "shadow",
+      "styleRevision": 3,
+      "actionGroup": "A06",
+      "phase": 2,
+      "provenance": {
+        "tool": "image_gen.imagegen",
+        "source": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa74-1184-7261-a88f-266bf2e5f191\\exec-da15f75c-0de0-4b2f-b51f-785af86acc1c.png",
+        "prompt": "assets/astra/v09/A06-02-shadow.prompt.txt",
+        "references": [
+          "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v09/A06-02.png",
+          "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v07/recoil-knot.png"
+        ],
+        "originalPoseSource": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa74-1184-7261-a88f-266bf2e5f191\\exec-c21635c6-ac41-4235-9029-45319fa3ba46.png",
+        "inspected": true,
+        "inspection": "Source artwork visually inspected at generation; connected anatomy and source-drawn open knot checked."
+      },
+      "sha256": "d0bd5ffea8210af20866e87b0682995711418214470243d6900c2c7b2c1940ab",
+      "source_width": 1024,
+      "source_height": 1536
+    },
+    "A04_02": {
+      "path": "/assets/astra/v18-wave-hand-review/A04-02-wave-receive-v5.png",
+      "faceMode": "shadow-bangs",
+      "styleRevision": 3,
+      "faceTreatment": "shadow",
+      "actionGroup": "A04",
+      "phase": 2,
+      "anchors": {
+        "hands": [
+          263,
+          511
+        ],
+        "wrist": [
+          296,
+          558
+        ],
+        "chest": [
+          646,
+          615
+        ],
+        "fingertip": [
+          211,
+          416
+        ]
+      },
+      "source_width": 1199,
+      "source_height": 1312,
+      "sha256": "b498b4cc6e2364472557eefc0a653a547ccc7700344aac36a0b88e45c65c3c45",
+      "bounds": {
+        "x": 158,
+        "y": 115,
+        "w": 890,
+        "h": 1066
+      },
+      "provenance": {
+        "tool": "existing source image; independent review mapping only",
+        "review_only": true,
+        "replaces_for_review": "/assets/astra/v09/A04-02-shadow.png",
+        "measurement_note": "Receiving palm center, cuff/wrist center and sternum measured on 1199x1312 source; fingertip is additional reference, not connector endpoint.",
+        "final_map_confirmed": true
+      },
+      "face": {
+        "x": 531,
+        "y": 340,
+        "w": 197,
+        "h": 123
+      }
+    },
+    "A20_01": {
+      "path": "/assets/astra/v09/A20-01-shadow.png",
+      "anchors": {
+        "pen": [
+          640,
+          769
+        ],
+        "hands": [
+          564,
+          710
+        ],
+        "wrist": [
+          494,
+          736
+        ],
+        "seat": [
+          576,
+          860
+        ],
+        "chest": [
+          611,
+          553
+        ]
+      },
+      "face": {
+        "x": 540,
+        "y": 309,
+        "w": 161,
+        "h": 119
+      },
+      "faceMode": "shadow-bangs",
+      "faceTreatment": "shadow",
+      "styleRevision": 3,
+      "actionGroup": "A20",
+      "phase": 1,
+      "provenance": {
+        "tool": "image_gen.imagegen",
+        "source": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa74-1184-7261-a88f-266bf2e5f191\\exec-e7af2094-19a1-4939-863c-1a6889d78512.png",
+        "prompt": "assets/astra/v09/A20-01-shadow.prompt.txt",
+        "references": [
+          "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v09/A20-01.png",
+          "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v07/recoil-knot.png"
+        ],
+        "originalPoseSource": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa74-1184-7261-a88f-266bf2e5f191\\exec-f8e8c3d1-58a9-4127-b044-9f44bc4d8dca.png",
+        "inspected": true,
+        "inspection": "Source artwork visually inspected at generation; connected anatomy and source-drawn open knot checked."
+      },
+      "sha256": "48751b072d4247b015ec1033d4bccbb13686691c4a2c33620b3915186d6c1a1a",
+      "source_width": 1024,
+      "source_height": 1536
+    },
+    "A21_01": {
+      "path": "/assets/astra/v09/A21-01-shadow.png",
+      "anchors": {
+        "hands": [
+          877,
+          415
+        ],
+        "wrist": [
+          810,
+          441
+        ],
+        "chest": [
+          548,
+          514
+        ]
+      },
+      "face": {
+        "x": 440,
+        "y": 252,
+        "w": 153,
+        "h": 119
+      },
+      "faceMode": "shadow-bangs",
+      "faceTreatment": "shadow",
+      "styleRevision": 3,
+      "actionGroup": "A21",
+      "phase": 1,
+      "provenance": {
+        "tool": "image_gen.imagegen",
+        "source": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa74-1184-7261-a88f-266bf2e5f191\\exec-b2b38ef4-b37f-4623-9f98-8fca25f1d96f.png",
+        "prompt": "assets/astra/v09/A21-01-shadow.prompt.txt",
+        "references": [
+          "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v09/A21-01.png",
+          "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v07/recoil-knot.png"
+        ],
+        "originalPoseSource": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa74-1184-7261-a88f-266bf2e5f191\\exec-ab33d7af-50c6-42ff-a294-21d77971a835.png",
+        "inspected": true,
+        "inspection": "Source artwork visually inspected at generation; connected anatomy and source-drawn open knot checked."
+      },
+      "sha256": "0c607c9fc0f2865e093cfdc969e5dfc0a1c9ab513fe66b5ab1e87bb3bfa3c91e",
+      "source_width": 1024,
+      "source_height": 1536
+    },
+    "A07_02": {
+      "path": "/assets/astra/v15-refusal-review/A07-02-contact-knots-perspective-v5-alpha.png",
+      "faceMode": "shadow-bangs",
+      "faceTreatment": "shadow",
+      "styleRevision": 3,
+      "actionGroup": "A07",
+      "phase": 2,
+      "anchors": {
+        "hands": [
+          997,
+          410
+        ],
+        "wrist": [
+          954,
+          450
+        ],
+        "chest": [
+          647,
+          474
+        ]
+      },
+      "source_width": 1024,
+      "source_height": 1536,
+      "sha256": "66d270bbb771ed348449fc9b112514eb6ce34c3c29bebf5920b0f067cf35685f",
+      "bounds": {
+        "x": 23,
+        "y": 19,
+        "w": 984,
+        "h": 1500
+      },
+      "provenance": {
+        "tool": "existing source image; independent review mapping only",
+        "review_only": true,
+        "replaces_for_review": "/assets/astra/v09/A07-02-shadow.png",
+        "measurement_note": "Rechecked on imagegen alpha-extraction v5: hands is outer palm/thumb contact contour, wrist at cuff. Source-only alpha repair; body placement uses newly computed alpha bounds.",
+        "final_map_confirmed": true
+      },
+      "face": {
+        "x": 626,
+        "y": 263,
+        "w": 132,
+        "h": 105
+      }
+    },
+    "A05_03": {
+      "path": "/assets/astra/v09/A05-03-shadow.png",
+      "anchors": {
+        "hands": [
+          493,
+          813
+        ],
+        "wrist": [
+          456,
+          842
+        ],
+        "seat": [
+          553,
+          883
+        ],
+        "chest": [
+          552,
+          570
+        ]
+      },
+      "face": {
+        "x": 431,
+        "y": 361,
+        "w": 152,
+        "h": 106
+      },
+      "faceMode": "shadow-bangs",
+      "faceTreatment": "shadow",
+      "styleRevision": 3,
+      "actionGroup": "A05",
+      "phase": 3,
+      "provenance": {
+        "tool": "image_gen.imagegen",
+        "source": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa74-1184-7261-a88f-266bf2e5f191\\exec-770f937b-0f94-4795-90c8-19cc4d27d35c.png",
+        "prompt": "assets/astra/v09/A05-03-shadow.prompt.txt",
+        "references": [
+          "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v09/A05-03.png",
+          "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v07/recoil-knot.png"
+        ],
+        "originalPoseSource": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa74-1184-7261-a88f-266bf2e5f191\\exec-ccf96a35-4752-438f-87e2-702ca41976c3.png",
+        "inspected": true,
+        "inspection": "Source artwork visually inspected at generation; connected anatomy and source-drawn open knot checked."
+      },
+      "sha256": "8d117a5f058fa27ed5e2cca32434a86532a2943a9f541304f6fb27be9c77cc53",
+      "source_width": 1024,
+      "source_height": 1536
+    },
+    "A04_03": {
+      "path": "/assets/astra/v09/A04-03-shadow.png",
+      "anchors": {
+        "hands": [
+          602,
+          577
+        ],
+        "wrist": [
+          585,
+          654
+        ],
+        "chest": [
+          752,
+          627
+        ]
+      },
+      "face": {
+        "x": 576,
+        "y": 300,
+        "w": 179,
+        "h": 144
+      },
+      "faceMode": "shadow-bangs",
+      "styleRevision": 3,
+      "faceTreatment": "shadow",
+      "actionGroup": "A04",
+      "phase": 3,
+      "provenance": {
+        "tool": "image_gen.imagegen",
+        "source": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa74-1184-7261-a88f-266bf2e5f191\\exec-e0fc2892-c4fa-4fe2-8159-81ddd17fcd87.png",
+        "prompt": "assets/astra/v09/A04-03-shadow.prompt.txt",
+        "references": [
+          "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v09/A04-03.png",
+          "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v07/recoil-knot.png"
+        ],
+        "originalPoseSource": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa74-1184-7261-a88f-266bf2e5f191\\exec-fcf19acf-28b6-46e0-96c9-41ba7f94ed1e.png",
+        "inspected": true,
+        "inspection": "Source artwork visually inspected at generation; connected anatomy and source-drawn open knot checked."
+      },
+      "sha256": "604716f07eb6c39e425e97b5960929127008f324d313f8bc2e33fbea18c96281",
+      "source_width": 1132,
+      "source_height": 1390
+    },
+    "A07_03": {
+      "path": "/assets/astra/v15-refusal-review/A07-03-retreat-knots-perspective-v2.png",
+      "faceMode": "shadow-bangs",
+      "faceTreatment": "shadow",
+      "styleRevision": 3,
+      "actionGroup": "A07",
+      "phase": 3,
+      "anchors": {
+        "hands": [
+          736,
+          418
+        ],
+        "wrist": [
+          745,
+          473
+        ],
+        "chest": [
+          593,
+          461
+        ]
+      },
+      "source_width": 1024,
+      "source_height": 1536,
+      "sha256": "83bb617d5a33accab7353c21184e65a8dc82b43ba7ae1d75cadc16a2befd0d35",
+      "bounds": {
+        "x": 61,
+        "y": 11,
+        "w": 904,
+        "h": 1501
+      },
+      "provenance": {
+        "tool": "existing source image; independent review mapping only",
+        "review_only": true,
+        "replaces_for_review": "/assets/astra/v09/A07-03-shadow.png",
+        "measurement_note": "Retreat palm center and lower cuff of raised far hand; does not reuse previous extended-palm coordinates.",
+        "final_map_confirmed": true
+      },
+      "face": {
+        "x": 542,
+        "y": 247,
+        "w": 131,
+        "h": 102
+      }
+    },
+    "A21_02": {
+      "path": "/assets/astra/v09/A21-02-shadow.png",
+      "anchors": {
+        "hands": [
+          649,
+          519
+        ],
+        "wrist": [
+          660,
+          553
+        ],
+        "chest": [
+          563,
+          505
+        ]
+      },
+      "face": {
+        "x": 450,
+        "y": 270,
+        "w": 155,
+        "h": 110
+      },
+      "faceMode": "shadow-bangs",
+      "faceTreatment": "shadow",
+      "styleRevision": 3,
+      "actionGroup": "A21",
+      "phase": 2,
+      "provenance": {
+        "tool": "image_gen.imagegen",
+        "source": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa74-1184-7261-a88f-266bf2e5f191\\exec-8d0c635d-f2c6-41cf-a82f-f81b5581db48.png",
+        "prompt": "assets/astra/v09/A21-02-shadow.prompt.txt",
+        "references": [
+          "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v09/A21-02.png",
+          "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v07/recoil-knot.png"
+        ],
+        "originalPoseSource": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa74-1184-7261-a88f-266bf2e5f191\\exec-9c75a9ad-b103-4322-9dcd-cdc4a599e8e1.png",
+        "inspected": true,
+        "inspection": "Source artwork visually inspected at generation; connected anatomy and source-drawn open knot checked."
+      },
+      "sha256": "ae4a21dbc30b545ce398ca2a09a761b18379b4dfcdac73d587f5cd58206a3381",
+      "source_width": 1024,
+      "source_height": 1536
+    },
+    "A20_02": {
+      "path": "/assets/astra/v09/A20-02-shadow.png",
+      "anchors": {
+        "pen": [
+          594,
+          606
+        ],
+        "hands": [
+          520,
+          575
+        ],
+        "wrist": [
+          497,
+          650
+        ],
+        "seat": [
+          576,
+          860
+        ],
+        "chest": [
+          616,
+          562
+        ]
+      },
+      "face": {
+        "x": 538,
+        "y": 291,
+        "w": 165,
+        "h": 128
+      },
+      "faceMode": "shadow-bangs",
+      "faceTreatment": "shadow",
+      "styleRevision": 3,
+      "actionGroup": "A20",
+      "phase": 2,
+      "provenance": {
+        "tool": "image_gen.imagegen",
+        "source": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa74-1184-7261-a88f-266bf2e5f191\\exec-ab4ca56d-5e06-4f97-94a3-92632b232476.png",
+        "prompt": "assets/astra/v09/A20-02-shadow.prompt.txt",
+        "references": [
+          "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v09/A20-02.png",
+          "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v07/recoil-knot.png"
+        ],
+        "originalPoseSource": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa74-1184-7261-a88f-266bf2e5f191\\exec-ff476f63-9a36-4ea3-855f-853610f516bf.png",
+        "inspected": true,
+        "inspection": "Source artwork visually inspected at generation; connected anatomy and source-drawn open knot checked."
+      },
+      "sha256": "875d6153dff99234eb4489886ba59152f192a89364670234b93d534ce98b2b2a",
+      "source_width": 1024,
+      "source_height": 1536
+    },
+    "A20_03": {
+      "path": "/assets/astra/v09/A20-03-shadow.png",
+      "anchors": {
+        "pen": [
+          604,
+          762
+        ],
+        "hands": [
+          528,
+          723
+        ],
+        "wrist": [
+          479,
+          746
+        ],
+        "seat": [
+          576,
+          860
+        ],
+        "chest": [
+          609,
+          555
+        ]
+      },
+      "face": {
+        "x": 486,
+        "y": 246,
+        "w": 159,
+        "h": 123
+      },
+      "faceMode": "shadow-bangs",
+      "faceTreatment": "shadow",
+      "styleRevision": 3,
+      "actionGroup": "A20",
+      "phase": 3,
+      "provenance": {
+        "tool": "image_gen.imagegen",
+        "source": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa74-1184-7261-a88f-266bf2e5f191\\exec-ed775316-d29a-4e8f-95ca-a0975c4e9f26.png",
+        "prompt": "assets/astra/v09/A20-03-shadow.prompt.txt",
+        "references": [
+          "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v09/A20-03.png",
+          "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v07/recoil-knot.png"
+        ],
+        "originalPoseSource": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa74-1184-7261-a88f-266bf2e5f191\\exec-730b4755-e685-47b8-828c-79bb402e7404.png",
+        "inspected": true,
+        "inspection": "Source artwork visually inspected at generation; connected anatomy and source-drawn open knot checked."
+      },
+      "sha256": "339d4922c2a3a73fd22f592874552c577ec272d372949c751ab28079a2347d77",
+      "source_width": 1024,
+      "source_height": 1536
+    },
+    "A08_01": {
+      "path": "/assets/astra/v13-book-review/A08-01-seated-turn-v5.png",
+      "actionGroup": "A08",
+      "phase": 1,
+      "styleRevision": 3,
+      "faceTreatment": "shadow",
+      "anchors": {
+        "hands": [
+          620,
+          632
+        ],
+        "wrist": [
+          704,
+          658
+        ],
+        "chest": [
+          591,
+          522
+        ],
+        "record": [
+          575,
+          723
+        ],
+        "shoulder": [
+          704,
+          452
+        ]
+      },
+      "source_width": 1106,
+      "source_height": 1422,
+      "sha256": "088c5669fc7ae80676f864d3fae3ce7b612c3f037f12772ac48021a74dd1a7a1",
+      "bounds": {
+        "x": 18,
+        "y": 1,
+        "w": 1084,
+        "h": 1414
+      },
+      "provenance": {
+        "tool": "existing source image; independent review mapping only",
+        "review_only": true,
+        "replaces_for_review": "/assets/astra/v09/A08-01-shadow.png",
+        "measurement_note": "hands is turning-finger/page contact, record is on visible right book page; separate from supporting left hand.",
+        "final_map_confirmed": true
+      },
+      "face": {
+        "x": 468,
+        "y": 278,
+        "w": 175,
+        "h": 121
+      }
+    },
+    "A08_02": {
+      "path": "/assets/astra/v13-book-review/A08-02-seated-record-v5.png",
+      "actionGroup": "A08",
+      "phase": 2,
+      "styleRevision": 3,
+      "faceTreatment": "shadow",
+      "anchors": {
+        "hands": [
+          556,
+          693
+        ],
+        "wrist": [
+          676,
+          628
+        ],
+        "chest": [
+          591,
+          522
+        ],
+        "record": [
+          556,
+          701
+        ],
+        "shoulder": [
+          704,
+          452
+        ]
+      },
+      "source_width": 1106,
+      "source_height": 1422,
+      "sha256": "aa5049abb789467a4eacb8237ea8f5ef6264846bd82680487301dd9a4ab97cc2",
+      "bounds": {
+        "x": 19,
+        "y": 4,
+        "w": 1080,
+        "h": 1411
+      },
+      "provenance": {
+        "tool": "existing source image; independent review mapping only",
+        "review_only": true,
+        "replaces_for_review": "/assets/astra/v09/A08-02-shadow.png",
+        "measurement_note": "hands is pointing index fingertip on page; record is 8 px below it on the actual page.",
+        "final_map_confirmed": true
+      },
+      "face": {
+        "x": 468,
+        "y": 278,
+        "w": 175,
+        "h": 121
+      }
+    },
+    "A09_01": {
+      "path": "/assets/astra/v09/A09-01-shadow.png",
+      "anchors": {
+        "hands": [
+          143,
+          1140
+        ],
+        "button": [
+          143,
+          1140
+        ],
+        "wrist": [
+          260,
+          984
+        ],
+        "chest": [
+          637,
+          569
+        ],
+        "shoulder": [
+          481,
+          530
+        ]
+      },
+      "face": {
+        "x": 465,
+        "y": 328,
+        "w": 226,
+        "h": 139
+      },
+      "actionGroup": "A09",
+      "phase": 1,
+      "styleRevision": 3,
+      "provenance": {
+        "tool": "built-in image_gen",
+        "source": "C:\\Users\\auscar\\.codex\\generated_images\\01a1a5ec-245d-7923-8dd6-2a8b6f24c904\\exec-2617f48a-8a52-4b8a-81af-d2f425544998.png",
+        "prompt": "assets/astra/v09/A09-01-shadow.prompt.txt",
+        "inspected": true,
+        "inspection": "ImageGen face-only shadow edit visually inspected: opaque near-black face, concealed eyes, original complete pose and prop positions preserved. Recheck dimensions and anchors in final renderer.",
+        "previousSource": "C:\\Users\\auscar\\.codex\\generated_images\\01a1a5ec-245d-7923-8dd6-2a8b6f24c904\\exec-68f4a16b-45ce-4a40-9c7f-91f4bf52df4e.png"
+      },
+      "faceTreatment": "shadow",
+      "sha256": "0e2d9086bef4db7c9f893d84cf2c206bc469798eacd43db98e03ae206486e0b0",
+      "source_width": 1199,
+      "source_height": 1312
+    },
+    "A09_02": {
+      "path": "/assets/astra/v09/A09-02-shadow.png",
+      "anchors": {
+        "hands": [
+          171,
+          840
+        ],
+        "pen": [
+          137,
+          906
+        ],
+        "wrist": [
+          259,
+          809
+        ],
+        "chest": [
+          634,
+          592
+        ],
+        "shoulder": [
+          447,
+          537
+        ]
+      },
+      "face": {
+        "x": 435,
+        "y": 359,
+        "w": 224,
+        "h": 140
+      },
+      "actionGroup": "A09",
+      "phase": 2,
+      "styleRevision": 3,
+      "provenance": {
+        "tool": "built-in image_gen",
+        "source": "C:\\Users\\auscar\\.codex\\generated_images\\01a1a5ec-245d-7923-8dd6-2a8b6f24c904\\exec-b48c3dbf-5bb6-440e-96fe-ab6c3225e3f7.png",
+        "prompt": "assets/astra/v09/A09-02-shadow.prompt.txt",
+        "inspected": true,
+        "inspection": "ImageGen face-only shadow edit visually inspected: opaque near-black face, concealed eyes, original complete pose and prop positions preserved. Recheck dimensions and anchors in final renderer.",
+        "previousSource": "C:\\Users\\auscar\\.codex\\generated_images\\01a1a5ec-245d-7923-8dd6-2a8b6f24c904\\exec-b1f39538-73db-47cb-8ba3-332f11e3cd6b.png"
+      },
+      "faceTreatment": "shadow",
+      "sha256": "60e571559406acd581adb7f09023d88d41029886710cb0166a920c4813f502f1",
+      "source_width": 1199,
+      "source_height": 1312
+    },
+    "A10_01": {
+      "path": "/assets/astra/v09/A10-01-shadow.png",
+      "sourceSize": [
+        1024,
+        1536
+      ],
+      "face": {
+        "x": 425,
+        "y": 260,
+        "w": 180,
+        "h": 115
+      },
+      "anchors": {
+        "hands": [
+          519,
+          458
+        ],
+        "wrist": [
+          479,
+          522
+        ],
+        "shoulder": [
+          615,
+          405
+        ]
+      },
+      "actionGroup": "A10",
+      "phase": 1,
+      "provenance": {
+        "tool": "built-in image_gen",
+        "source": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa74-6594-76d2-b670-a6654b78a7af\\exec-e9e1bd2e-af9c-4888-a316-5960c65fdab1.png",
+        "prompt": "assets/astra/v09/A10-01-shadow.prompt.txt",
+        "editTarget": "assets/astra/v09/A10-01-style2.png",
+        "inspected": true,
+        "styleRevision": 3,
+        "inspection": "Face interior directly redrawn as shadow by ImageGen; no eye/skin visible. Body/hand/pen placement visually preserved. A14 pen cap tassel removed by ImageGen."
+      },
+      "previousProvenance": {
+        "tool": "built-in image_gen",
+        "source": "C:/Users/auscar/.codex/generated_images/01a1a5ec-245d-7923-8dd6-2a8b6f24c904/exec-f5b676da-f4ba-4489-80aa-19711489e4f8.png",
+        "prompt": "assets/astra/v09/A10-01-style2.prompt.txt",
+        "inspection": "Image visibly matches compact approved face and original flowing dress; sampled apparent backdrop RGB pixels have alpha zero. Production renderer review pending."
+      },
+      "faceTreatment": "shadow",
+      "styleRevision": 3,
+      "sha256": "b1a24e193cfe6d2ee85bc8c3ba9f2fdc3c13b8924b99dad796af3ac8e25db77d",
+      "source_width": 1024,
+      "source_height": 1536
+    },
+    "A10_02": {
+      "path": "/assets/astra/v09/A10-02-shadow.png",
+      "sourceSize": [
+        1024,
+        1536
+      ],
+      "anchors": {
+        "hands": [
+          514,
+          647
+        ],
+        "wrist": [
+          478,
+          713
+        ],
+        "shoulder": [
+          638,
+          571
+        ]
+      },
+      "face": {
+        "x": 400,
+        "y": 400,
+        "w": 200,
+        "h": 130
+      },
+      "actionGroup": "A10",
+      "phase": 2,
+      "provenance": {
+        "tool": "built-in image_gen",
+        "source": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa74-6594-76d2-b670-a6654b78a7af\\exec-2f90ef67-e84d-4297-89a5-c17bd9158d8f.png",
+        "prompt": "assets/astra/v09/A10-02-shadow.prompt.txt",
+        "editTarget": "assets/astra/v09/A10-02-style2.png",
+        "inspected": true,
+        "styleRevision": 3,
+        "inspection": "Face interior directly redrawn as shadow by ImageGen; no eye/skin visible. Body/hand/pen placement visually preserved. A14 pen cap tassel removed by ImageGen."
+      },
+      "previousProvenance": {
+        "tool": "built-in image_gen",
+        "source": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa74-6594-76d2-b670-a6654b78a7af\\exec-fb9953a2-c247-487d-94b9-d9bbe475a80e.png",
+        "prompt": "assets/astra/v09/A10-02-style2.prompt.txt",
+        "inspected": true,
+        "styleRevision": 2
+      },
+      "faceTreatment": "shadow",
+      "styleRevision": 3,
+      "sha256": "afe91abf358390538d23f30916a2be9d6b1c7c62924c2dc3af10038074af7ed1",
+      "source_width": 1024,
+      "source_height": 1536
+    },
+    "A10_03": {
+      "path": "/assets/astra/v09/A10-03-shadow.png",
+      "sourceSize": [
+        1024,
+        1536
+      ],
+      "anchors": {
+        "hands": [
+          511,
+          779
+        ],
+        "wrist": [
+          448,
+          840
+        ],
+        "shoulder": [
+          659,
+          732
+        ]
+      },
+      "face": {
+        "x": 370,
+        "y": 570,
+        "w": 244,
+        "h": 114
+      },
+      "actionGroup": "A10",
+      "phase": 3,
+      "provenance": {
+        "tool": "built-in image_gen",
+        "source": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa74-6594-76d2-b670-a6654b78a7af\\exec-e217b3b6-4a3d-4582-8450-180bd0e337e2.png",
+        "prompt": "assets/astra/v09/A10-03-shadow.prompt.txt",
+        "editTarget": "assets/astra/v09/A10-03-style2.png",
+        "inspected": true,
+        "styleRevision": 3,
+        "inspection": "Face interior directly redrawn as shadow by ImageGen; no eye/skin visible. Body/hand/pen placement visually preserved. A14 pen cap tassel removed by ImageGen."
+      },
+      "previousProvenance": {
+        "tool": "built-in image_gen",
+        "source": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa74-6594-76d2-b670-a6654b78a7af\\exec-6e1e5580-a3c1-4a88-a388-d50400f48418.png",
+        "prompt": "assets/astra/v09/A10-03-style2.prompt.txt",
+        "inspected": true,
+        "styleRevision": 2
+      },
+      "faceTreatment": "shadow",
+      "styleRevision": 3,
+      "sha256": "9ceb7ef49da5dfce905ca75cfcb6f704d24df60eb8795d8965f43e2c16ba5884",
+      "source_width": 1024,
+      "source_height": 1536
+    },
+    "A11_01": {
+      "path": "/assets/astra/v09/A11-01-shadow.png",
+      "sourceSize": [
+        1024,
+        1536
+      ],
+      "anchors": {
+        "hands": [
+          875,
+          452
+        ],
+        "wrist": [
+          812,
+          459
+        ],
+        "shoulder": [
+          610,
+          413
+        ]
+      },
+      "face": {
+        "x": 433,
+        "y": 268,
+        "w": 177,
+        "h": 107
+      },
+      "actionGroup": "A11",
+      "phase": 1,
+      "provenance": {
+        "tool": "built-in image_gen",
+        "source": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa74-6594-76d2-b670-a6654b78a7af\\exec-a18c897d-8940-440f-bf54-cbb4d6e3d797.png",
+        "prompt": "assets/astra/v09/A11-01-shadow.prompt.txt",
+        "editTarget": "assets/astra/v09/A11-01-style2.png",
+        "inspected": true,
+        "styleRevision": 3,
+        "inspection": "Face interior directly redrawn as shadow by ImageGen; no eye/skin visible. Body/hand/pen placement visually preserved. A14 pen cap tassel removed by ImageGen."
+      },
+      "previousProvenance": {
+        "tool": "built-in image_gen",
+        "source": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa74-6594-76d2-b670-a6654b78a7af\\exec-1a4c8125-05b8-4eeb-a040-621c5a216bc2.png",
+        "prompt": "assets/astra/v09/A11-01-style2.prompt.txt",
+        "inspected": true,
+        "styleRevision": 2
+      },
+      "faceTreatment": "shadow",
+      "styleRevision": 3,
+      "sha256": "ab1aa408c64e04dcb6c1bcd82bd441300efbe55d3ac064f130290395d236e222",
+      "source_width": 1024,
+      "source_height": 1536
+    },
+    "A11_02": {
+      "path": "/assets/astra/v09/A11-02-shadow.png",
+      "sourceSize": [
+        1024,
+        1536
+      ],
+      "anchors": {
+        "hands": [
+          875,
+          448
+        ],
+        "wrist": [
+          817,
+          489
+        ],
+        "shoulder": [
+          615,
+          410
+        ]
+      },
+      "face": {
+        "x": 445,
+        "y": 267,
+        "w": 165,
+        "h": 110
+      },
+      "actionGroup": "A11",
+      "phase": 2,
+      "provenance": {
+        "tool": "built-in image_gen",
+        "source": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa74-6594-76d2-b670-a6654b78a7af\\exec-b67953a1-97eb-4631-bb5c-68d9f9763023.png",
+        "prompt": "assets/astra/v09/A11-02-shadow.prompt.txt",
+        "editTarget": "assets/astra/v09/A11-02-style2.png",
+        "inspected": true,
+        "styleRevision": 3,
+        "inspection": "Face interior directly redrawn as shadow by ImageGen; no eye/skin visible. Body/hand/pen placement visually preserved. A14 pen cap tassel removed by ImageGen."
+      },
+      "previousProvenance": {
+        "tool": "built-in image_gen",
+        "source": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa74-6594-76d2-b670-a6654b78a7af\\exec-6a21195c-661f-448e-bea6-bf6904831678.png",
+        "prompt": "assets/astra/v09/A11-02-style2.prompt.txt",
+        "inspected": true,
+        "styleRevision": 2
+      },
+      "faceTreatment": "shadow",
+      "styleRevision": 3,
+      "sha256": "06cc23aa4ae9f989f3ce71160ca5f2eb5accd09d4e5e8fd4a6008fe956c8fd84",
+      "source_width": 1024,
+      "source_height": 1536
+    },
+    "A14_01": {
+      "path": "/assets/astra/v09/A14-01-shadow.png",
+      "sourceSize": [
+        1199,
+        1312
+      ],
+      "anchors": {
+        "hands": [
+          1030,
+          827
+        ],
+        "wrist": [
+          958,
+          866
+        ],
+        "pen": [
+          1133,
+          908
+        ],
+        "shoulder": [
+          679,
+          542
+        ]
+      },
+      "face": {
+        "x": 640,
+        "y": 316,
+        "w": 209,
+        "h": 145
+      },
+      "actionGroup": "A14",
+      "phase": 1,
+      "provenance": {
+        "tool": "built-in image_gen",
+        "source": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa74-6594-76d2-b670-a6654b78a7af\\exec-c16d8d8e-db79-4d54-ba3b-3e2c9d4cf50e.png",
+        "prompt": "assets/astra/v09/A14-01-shadow.prompt.txt",
+        "editTarget": "assets/astra/v09/A14-01-style2.png",
+        "inspected": true,
+        "styleRevision": 3,
+        "inspection": "Face interior directly redrawn as shadow by ImageGen; no eye/skin visible. Body/hand/pen placement visually preserved. A14 pen cap tassel removed by ImageGen."
+      },
+      "previousProvenance": {
+        "tool": "built-in image_gen",
+        "source": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa74-6594-76d2-b670-a6654b78a7af\\exec-3dd1b488-7445-4cda-b756-708acfec5de3.png",
+        "prompt": "assets/astra/v09/A14-01-style2.prompt.txt",
+        "inspected": true,
+        "styleRevision": 2
+      },
+      "faceTreatment": "shadow",
+      "styleRevision": 3,
+      "sha256": "0772669d5ead599d27502c844f6bcf5e2ce8a1995fc0494a9bcf568fe7139fc5",
+      "source_width": 1199,
+      "source_height": 1312
+    },
+    "A14_02": {
+      "path": "/assets/astra/v09/A14-02-shadow.png",
+      "sourceSize": [
+        1199,
+        1312
+      ],
+      "anchors": {
+        "hands": [
+          1016,
+          561
+        ],
+        "wrist": [
+          949,
+          639
+        ],
+        "pen": [
+          1109,
+          644
+        ],
+        "shoulder": [
+          683,
+          538
+        ]
+      },
+      "face": {
+        "x": 650,
+        "y": 310,
+        "w": 192,
+        "h": 139
+      },
+      "actionGroup": "A14",
+      "phase": 2,
+      "provenance": {
+        "tool": "built-in image_gen",
+        "source": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa74-6594-76d2-b670-a6654b78a7af\\exec-13cf3228-6e80-4090-9dc7-9b849fb7be04.png",
+        "prompt": "assets/astra/v09/A14-02-shadow.prompt.txt",
+        "editTarget": "assets/astra/v09/A14-02-style2.png",
+        "inspected": true,
+        "styleRevision": 3,
+        "inspection": "Face interior directly redrawn as shadow by ImageGen; no eye/skin visible. Body/hand/pen placement visually preserved. A14 pen cap tassel removed by ImageGen."
+      },
+      "previousProvenance": {
+        "tool": "built-in image_gen",
+        "source": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa74-6594-76d2-b670-a6654b78a7af\\exec-97e9e8b8-1490-4b92-99ad-b17088caf153.png",
+        "prompt": "assets/astra/v09/A14-02-style2.prompt.txt",
+        "inspected": true,
+        "styleRevision": 2
+      },
+      "faceTreatment": "shadow",
+      "styleRevision": 3,
+      "sha256": "c5b3c17a26f6bcd2128d97cedcc9d219763c98f320c2fbaefcc3876480492762",
+      "source_width": 1199,
+      "source_height": 1312
+    },
+    "A11_03": {
+      "path": "/assets/astra/v09/A11-03-shadow.png",
+      "sourceSize": [
+        1024,
+        1536
+      ],
+      "anchors": {
+        "hands": [
+          518,
+          684
+        ],
+        "wrist": [
+          557,
+          645
+        ],
+        "shoulder": [
+          610,
+          413
+        ]
+      },
+      "face": {
+        "x": 438,
+        "y": 280,
+        "w": 175,
+        "h": 100
+      },
+      "actionGroup": "A11",
+      "phase": 3,
+      "provenance": {
+        "tool": "built-in image_gen",
+        "source": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa74-6594-76d2-b670-a6654b78a7af\\exec-72630e66-1f28-499b-91e2-0a19642a7b7f.png",
+        "prompt": "assets/astra/v09/A11-03-shadow.prompt.txt",
+        "editTarget": "assets/astra/v09/A11-03-style2.png",
+        "inspected": true,
+        "styleRevision": 3,
+        "inspection": "Face interior directly redrawn as shadow by ImageGen; no eye/skin visible. Body/hand/pen placement visually preserved. A14 pen cap tassel removed by ImageGen."
+      },
+      "previousProvenance": {
+        "tool": "built-in image_gen",
+        "source": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa74-6594-76d2-b670-a6654b78a7af\\exec-366bddec-d41d-49a7-b912-d2fac44cfd56.png",
+        "prompt": "assets/astra/v09/A11-03-style2.prompt.txt",
+        "inspected": true,
+        "styleRevision": 2
+      },
+      "faceTreatment": "shadow",
+      "styleRevision": 3,
+      "sha256": "1fc8433e63419fa8eb690c0af24ac9435a2267af95f9cb5b05bfe99e08b930b9",
+      "source_width": 1024,
+      "source_height": 1536
+    },
+    "A14_03": {
+      "path": "/assets/astra/v09/A14-03-shadow.png",
+      "sourceSize": [
+        1199,
+        1312
+      ],
+      "anchors": {
+        "hands": [
+          1040,
+          960
+        ],
+        "wrist": [
+          955,
+          960
+        ],
+        "pen": [
+          1128,
+          1040
+        ],
+        "shoulder": [
+          677,
+          563
+        ]
+      },
+      "face": {
+        "x": 727,
+        "y": 378,
+        "w": 198,
+        "h": 132
+      },
+      "actionGroup": "A14",
+      "phase": 3,
+      "provenance": {
+        "tool": "built-in image_gen",
+        "source": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa74-6594-76d2-b670-a6654b78a7af\\exec-44e74595-0f18-4d6d-b94b-436e47c71d85.png",
+        "prompt": "assets/astra/v09/A14-03-shadow.prompt.txt",
+        "editTarget": "assets/astra/v09/A14-03-style2.png",
+        "inspected": true,
+        "styleRevision": 3,
+        "inspection": "Face interior directly redrawn as shadow by ImageGen; no eye/skin visible. Body/hand/pen placement visually preserved. A14 pen cap tassel removed by ImageGen."
+      },
+      "previousProvenance": {
+        "tool": "built-in image_gen",
+        "source": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa74-6594-76d2-b670-a6654b78a7af\\exec-17fea8be-2705-4a2b-a8b6-ab272670094c.png",
+        "prompt": "assets/astra/v09/A14-03-style2.prompt.txt",
+        "inspected": true,
+        "styleRevision": 2
+      },
+      "faceTreatment": "shadow",
+      "styleRevision": 3,
+      "sha256": "8a6d4700897c50889403970211752ce6edf4c419474f9e83452e79820520a273",
+      "source_width": 1199,
+      "source_height": 1312
+    },
+    "A12_01": {
+      "path": "/assets/astra/v09/A12-01-shadow.png",
+      "sourceSize": [
+        1024,
+        1536
+      ],
+      "anchors": {
+        "hands": [
+          303,
+          801
+        ],
+        "wrist": [
+          316,
+          861
+        ],
+        "pen": [
+          391,
+          843
+        ],
+        "shoulder": [
+          466,
+          548
+        ]
+      },
+      "face": {
+        "x": 433,
+        "y": 378,
+        "w": 204,
+        "h": 120
+      },
+      "actionGroup": "A12",
+      "phase": 1,
+      "provenance": {
+        "tool": "built-in image_gen",
+        "source": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa74-6594-76d2-b670-a6654b78a7af\\exec-b2791a0b-0c4f-46fc-84f3-fb58080d5cdc.png",
+        "prompt": "assets/astra/v09/A12-01-shadow.prompt.txt",
+        "editTarget": "assets/astra/v09/A12-01-style2.png",
+        "inspected": true,
+        "styleRevision": 3,
+        "inspection": "Face interior directly redrawn as shadow by ImageGen; no eye/skin visible. Body/hand/pen placement visually preserved. A14 pen cap tassel removed by ImageGen."
+      },
+      "previousProvenance": {
+        "tool": "built-in image_gen",
+        "source": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa74-6594-76d2-b670-a6654b78a7af\\exec-3554295a-92ec-46e0-a224-4f575678c253.png",
+        "prompt": "assets/astra/v09/A12-01-style2.prompt.txt",
+        "inspected": true,
+        "styleRevision": 2
+      },
+      "faceTreatment": "shadow",
+      "styleRevision": 3,
+      "sha256": "510d3190972934e5f1e3d2b7ae04996a6f23aafbbf8a8ea68c69381d605eb105",
+      "source_width": 1024,
+      "source_height": 1536
+    },
+    "A13_01": {
+      "path": "/assets/astra/v09/A13-01-shadow.png",
+      "sourceSize": [
+        1024,
+        1536
+      ],
+      "anchors": {
+        "hands": [
+          740,
+          567
+        ],
+        "wrist": [
+          680,
+          609
+        ],
+        "shoulder": [
+          658,
+          539
+        ]
+      },
+      "face": {
+        "x": 430,
+        "y": 370,
+        "w": 204,
+        "h": 115
+      },
+      "actionGroup": "A13",
+      "phase": 1,
+      "provenance": {
+        "tool": "built-in image_gen",
+        "source": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa74-6594-76d2-b670-a6654b78a7af\\exec-cde0cecb-ec7d-44c2-adc9-5fdd4e1e1fc2.png",
+        "prompt": "assets/astra/v09/A13-01-shadow.prompt.txt",
+        "editTarget": "assets/astra/v09/A13-01-style2.png",
+        "inspected": true,
+        "styleRevision": 3,
+        "inspection": "Face interior directly redrawn as shadow by ImageGen; no eye/skin visible. Body/hand/pen placement visually preserved. A14 pen cap tassel removed by ImageGen."
+      },
+      "previousProvenance": {
+        "tool": "built-in image_gen",
+        "source": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa74-6594-76d2-b670-a6654b78a7af\\exec-5f727263-b65f-4861-88b6-8dfd74328781.png",
+        "prompt": "assets/astra/v09/A13-01-style2.prompt.txt",
+        "inspected": true,
+        "styleRevision": 2
+      },
+      "faceTreatment": "shadow",
+      "styleRevision": 3,
+      "sha256": "b1bdd9adee571ff3680d6e59ab0727b1aa2531f3e127d94d0a866eb52c175bf7",
+      "source_width": 1024,
+      "source_height": 1536
+    },
+    "A12_02": {
+      "path": "/assets/astra/v09/A12-02-shadow.png",
+      "sourceSize": [
+        1024,
+        1536
+      ],
+      "anchors": {
+        "hands": [
+          278,
+          603
+        ],
+        "wrist": [
+          282,
+          704
+        ],
+        "pen": [
+          340,
+          636
+        ],
+        "shoulder": [
+          437,
+          566
+        ]
+      },
+      "face": {
+        "x": 386,
+        "y": 394,
+        "w": 215,
+        "h": 142
+      },
+      "actionGroup": "A12",
+      "phase": 2,
+      "provenance": {
+        "tool": "built-in image_gen",
+        "source": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa74-6594-76d2-b670-a6654b78a7af\\exec-e1df9482-8b7b-4a44-ab78-a0cb57404b06.png",
+        "prompt": "assets/astra/v09/A12-02-shadow.prompt.txt",
+        "editTarget": "assets/astra/v09/A12-02-style2.png",
+        "inspected": true,
+        "styleRevision": 3,
+        "inspection": "Face interior directly redrawn as shadow by ImageGen; no eye/skin visible. Body/hand/pen placement visually preserved. A14 pen cap tassel removed by ImageGen."
+      },
+      "previousProvenance": {
+        "tool": "built-in image_gen",
+        "source": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa74-6594-76d2-b670-a6654b78a7af\\exec-0320b3a6-3b69-4933-8a86-68a3afa0843c.png",
+        "prompt": "assets/astra/v09/A12-02-style2.prompt.txt",
+        "inspected": true,
+        "styleRevision": 2
+      },
+      "faceTreatment": "shadow",
+      "styleRevision": 3,
+      "sha256": "9081895880cf81b900635bc7046770dd0e08a1f171ee94c5ff355522e4532171",
+      "source_width": 1024,
+      "source_height": 1536
+    },
+    "A13_02": {
+      "path": "/assets/astra/v09/A13-02-shadow.png",
+      "sourceSize": [
+        1024,
+        1536
+      ],
+      "anchors": {
+        "hands": [
+          790,
+          853
+        ],
+        "wrist": [
+          725,
+          825
+        ],
+        "shoulder": [
+          661,
+          573
+        ]
+      },
+      "face": {
+        "x": 443,
+        "y": 395,
+        "w": 193,
+        "h": 109
+      },
+      "actionGroup": "A13",
+      "phase": 2,
+      "provenance": {
+        "tool": "built-in image_gen",
+        "source": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa74-6594-76d2-b670-a6654b78a7af\\exec-eb3065bf-c10f-46c3-8ed4-4203dd771af7.png",
+        "prompt": "assets/astra/v09/A13-02-shadow.prompt.txt",
+        "editTarget": "assets/astra/v09/A13-02-style2.png",
+        "inspected": true,
+        "styleRevision": 3,
+        "inspection": "Face interior directly redrawn as shadow by ImageGen; no eye/skin visible. Body/hand/pen placement visually preserved. A14 pen cap tassel removed by ImageGen."
+      },
+      "previousProvenance": {
+        "tool": "built-in image_gen",
+        "source": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa74-6594-76d2-b670-a6654b78a7af\\exec-cc146715-9ed1-43ad-8552-dc64f9372e94.png",
+        "prompt": "assets/astra/v09/A13-02-style2.prompt.txt",
+        "inspected": true,
+        "styleRevision": 2
+      },
+      "faceTreatment": "shadow",
+      "styleRevision": 3,
+      "sha256": "faa8826f94ea295a2efad94afd89ba8e521ffc90702010e94b1ecbf4ac4c77a6",
+      "source_width": 1024,
+      "source_height": 1536
+    },
+    "A13_03": {
+      "path": "/assets/astra/v09/A13-03-shadow.png",
+      "sourceSize": [
+        1024,
+        1536
+      ],
+      "anchors": {
+        "hands": [
+          900,
+          705
+        ],
+        "wrist": [
+          818,
+          728
+        ],
+        "shoulder": [
+          648,
+          570
+        ]
+      },
+      "face": {
+        "x": 409,
+        "y": 361,
+        "w": 207,
+        "h": 132
+      },
+      "actionGroup": "A13",
+      "phase": 3,
+      "provenance": {
+        "tool": "built-in image_gen",
+        "source": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa74-6594-76d2-b670-a6654b78a7af\\exec-60b46221-0067-431c-80bb-58500066e10d.png",
+        "prompt": "assets/astra/v09/A13-03-shadow.prompt.txt",
+        "editTarget": "assets/astra/v09/A13-03-style2.png",
+        "inspected": true,
+        "styleRevision": 3,
+        "inspection": "Face interior directly redrawn as shadow by ImageGen; no eye/skin visible. Body/hand/pen placement visually preserved. A14 pen cap tassel removed by ImageGen."
+      },
+      "previousProvenance": {
+        "tool": "built-in image_gen",
+        "source": "C:\\Users\\auscar\\.codex\\generated_images\\01a1aa74-6594-76d2-b670-a6654b78a7af\\exec-efdb3b3f-ed54-43c5-84d0-517acda76663.png",
+        "prompt": "assets/astra/v09/A13-03-style2.prompt.txt",
+        "inspected": true,
+        "styleRevision": 2
+      },
+      "faceTreatment": "shadow",
+      "styleRevision": 3,
+      "sha256": "1cdb35419408cc2e05a1746ba0adf5b1bcf1bffd0ae8b8082d509e754bce03f0",
+      "source_width": 1024,
+      "source_height": 1536
+    }
+  },
+  "review_state": {
+    "schema_version": 1,
+    "review_only": true,
+    "final_map_confirmed": true,
+    "approval_scope": "Root selected this map for independent trial only. Not user approval; not production integration.",
+    "time_basis": {
+      "render": "body seconds",
+      "full_film_offset_seconds": 5,
+      "fps": 60,
+      "preview_has_warning": false
+    },
+    "review_map_ready": true,
+    "pending_assets": [],
+    "blocked_clip_ids": [],
+    "blocked_clip_reason": null,
+    "alpha_repair_runtime_checked": {
+      "asset": "A07_02",
+      "path": "assets/astra/v15-refusal-review/A07-02-contact-knots-perspective-v5-alpha.png",
+      "stills": [
+        "exports/preview-v52-combination/stills-alpha-fixed/source-132.500.png",
+        "exports/preview-v52-combination/stills-alpha-fixed/source-133.400.png"
+      ],
+      "result": "No external alpha-island blocks; palm/wrist continuous; reviewed at native render resolution"
+    }
+  }
+}

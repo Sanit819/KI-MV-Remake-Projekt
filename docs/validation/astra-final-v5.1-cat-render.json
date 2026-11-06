@@ -1,0 +1,659 @@
+{
+  "version": "final-v5.1-cat",
+  "passed": true,
+  "phase": "complete",
+  "started_at": "2026-11-05T15:24:49.735Z",
+  "output": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\exports\\astra-world-execute-me-final-v5.1-cat-warning-hires-4k60.mp4",
+  "original": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\exports\\astra-world-execute-me-final-v5-warning-hires-4k60.mp4",
+  "original_sha256": "ae6cf8ed08346c0a58e2384ae24d9d8a86d300d684a66d6faf41653f534c73f0",
+  "width": 3840,
+  "height": 2160,
+  "fps": 60,
+  "frames": 13400,
+  "body_frames": 13100,
+  "warning_frames": 300,
+  "duration_seconds": 223.33333333333334,
+  "body": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\.cache\\full-export-v5.1-cat\\3840x2160\\body-video-only.mp4",
+  "audio": {
+    "source": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\media\\audio\\user-world-execute-192k24.flac",
+    "expected_sha256": "19d5b185fe6cff41ae7d0082ca4f9e7cf2828ef1de99c7f5336177a9761acbbc",
+    "sample_rate": 192000,
+    "bit_depth": 24,
+    "channels": 2,
+    "source_samples_per_channel": 40686080,
+    "trim_front_samples": 11096,
+    "retained_source_samples": 40674984,
+    "front_silent_samples": 960000,
+    "tail_padding_samples": 1245016,
+    "total_samples_per_channel": 42880000,
+    "production_decode_count": 0,
+    "alac_encode_count": 0,
+    "resampling": false,
+    "time_stretch": false,
+    "upmix": false,
+    "lossy_audio_encoding": false,
+    "tail_clearance_evidence": "docs/audio/user-flac-analysis.json: old original song 211.848875 s onward all zero; retain full FLAC decay, trim front only",
+    "source_sha256_before": "19d5b185fe6cff41ae7d0082ca4f9e7cf2828ef1de99c7f5336177a9761acbbc",
+    "reference": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\exports\\warning-v3-hires\\user-flac-trimmed-padded.pcm24.wav",
+    "reference_sha256": "a6cf40be4601f4bbdf44865c3bd6ed6ee051716ecb99c27342febc26d25812a4",
+    "encoded_once": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\exports\\warning-v3-hires\\user-flac-trimmed-padded.alac.m4a",
+    "encoded_file_sha256": "6fe79bb1d46e6f576b2eae212f59d28a93ab9bdc4186ab08e8dd941a3a978528",
+    "source_sha256_after": "19d5b185fe6cff41ae7d0082ca4f9e7cf2828ef1de99c7f5336177a9761acbbc",
+    "reused_verified_audio": true
+  },
+  "new_1080p_outputs": 0,
+  "audio_encode_count": 0,
+  "source_comparison": [
+    {
+      "name": "art.js",
+      "identical_except_declared_changes": true,
+      "allowed_changes": [
+        "Use the approved cat source manifest"
+      ]
+    },
+    {
+      "name": "early.js",
+      "identical_except_declared_changes": true,
+      "allowed_changes": [
+        "R30 pose cuts at source frames 4965 and 5051, with sub-frame floating tolerance",
+        "R30 input grid stays on the left and fades there during the response",
+        "R30 output line approaches the real hand from below and avoids the face",
+        "R30 response waves travel left and down away from the face",
+        "R30 purr caption uses the left negative space"
+      ]
+    },
+    {
+      "name": "index.html",
+      "identical_except_declared_changes": true,
+      "allowed_changes": []
+    },
+    {
+      "name": "kit.js",
+      "identical_except_declared_changes": true,
+      "allowed_changes": []
+    },
+    {
+      "name": "late.js",
+      "identical_except_declared_changes": true,
+      "allowed_changes": []
+    },
+    {
+      "name": "main.js",
+      "identical_except_declared_changes": true,
+      "allowed_changes": []
+    },
+    {
+      "name": "middle.js",
+      "identical_except_declared_changes": true,
+      "allowed_changes": []
+    },
+    {
+      "name": "neural.js",
+      "identical_except_declared_changes": true,
+      "allowed_changes": []
+    },
+    {
+      "name": "spatial-neural.js",
+      "identical_except_declared_changes": true,
+      "allowed_changes": []
+    }
+  ],
+  "lyric_phase_cuts": {
+    "shot": "R30",
+    "body_source_frames": [
+      4965,
+      5051
+    ],
+    "full_video_frames": [
+      5265,
+      5351
+    ],
+    "numerical_tolerance_u": 1e-10
+  },
+  "changed_assets": [
+    "A19_01",
+    "A19_02",
+    "A19_03"
+  ],
+  "input_hashes": [
+    {
+      "path": "assets/astra/final/protect-knot.png",
+      "sha256": "7274e78017c42cdb16325a1853398fae60bfe54cddfcbbdeb6d6bfb036995e68"
+    },
+    {
+      "path": "assets/astra/final/reach-knot.png",
+      "sha256": "3ee9912a28573a170ecee14710f8ea12d7547582c1879bed9613b9009faa9d4e"
+    },
+    {
+      "path": "assets/astra/final/sit-knot.png",
+      "sha256": "4e6f8e950ea7fcfe19ca65a64d8798c886759c8468ed616a819a3559b9939ed4"
+    },
+    {
+      "path": "assets/astra/final/stand-knot.png",
+      "sha256": "7692119f9bd214fd860108254c51c5bc2055748ac8cd86000ae94422b798ff0c"
+    },
+    {
+      "path": "assets/astra/v06-eye-study/smile-candidate.png",
+      "sha256": "8c9677167630c939407b7f5c41c9d97228dcd54599d1511d111712d6e545d026"
+    },
+    {
+      "path": "assets/astra/v06-eye-study/surprise-candidate.png",
+      "sha256": "c5c7cd4b94843b967cc90478f7a29f55bbb82f8a8bb48197a7d96e525446babc"
+    },
+    {
+      "path": "assets/astra/v07/back-knot.png",
+      "sha256": "d24000f5124d6614f9d5225d0603528203e6c76716f214322877d59bd9b97410"
+    },
+    {
+      "path": "assets/astra/v07/bust-knot.png",
+      "sha256": "e459b40bd2276f3c9296a66cc1f308f1129ce547012689c2afcfc5fb081c2ca6"
+    },
+    {
+      "path": "assets/astra/v07/cat-knot.png",
+      "sha256": "c02461813af3c9bf00fc6e1e530c2935bf379eff591582d10bc172245aa8b90c"
+    },
+    {
+      "path": "assets/astra/v07/foot-knot.png",
+      "sha256": "20a52aabf2ae3a8605862c92cb3ca4ee4483b0afb14ef695724ec3ef8c882a14"
+    },
+    {
+      "path": "assets/astra/v07/guest0.png",
+      "sha256": "18633c3868189a3957b3cfc45bd1b77fb0d260b655fd911d327c6aac3b36eecf"
+    },
+    {
+      "path": "assets/astra/v07/guest1.png",
+      "sha256": "4e653f2a0fbfee1e309cf70df7af481e4ceb06ae498d6e1992b593af7795451a"
+    },
+    {
+      "path": "assets/astra/v07/guest2.png",
+      "sha256": "afdac5749cb37eeaba6436c34278aaf097a200a7ac5c39e17c86335abde9d736"
+    },
+    {
+      "path": "assets/astra/v07/guest3.png",
+      "sha256": "617217f25f58f2102396a64a7c013692ad39a68ca40c7484f61ac0ce379e2911"
+    },
+    {
+      "path": "assets/astra/v07/guest4.png",
+      "sha256": "73fbc3461789363e7c43d83f01097b0a4b94b2a14d8058ae12d3386c27faa3ff"
+    },
+    {
+      "path": "assets/astra/v07/guest5.png",
+      "sha256": "269ea1f2debc345146db37c466f9e03e3a88f6ae356996c761dce92a24217ad8"
+    },
+    {
+      "path": "assets/astra/v07/hand-knot.png",
+      "sha256": "bd6e53ba68c7aefe4501c2a381d34db672effbd3c6ee9cc099e4d656f013fc0c"
+    },
+    {
+      "path": "assets/astra/v07/male-knot.png",
+      "sha256": "1bed896dafc87437a14b073a9a10caa0caed1554e4bd2d29448076037acb0638"
+    },
+    {
+      "path": "assets/astra/v07/operating-knot.png",
+      "sha256": "39b090e4e5547b9754ac6261af8b80da1c7f7b3fbacf21c3c0e1afd82489b5d2"
+    },
+    {
+      "path": "assets/astra/v07/profile-knot.png",
+      "sha256": "aa34d5423a6b334e4f667efed615757411a5061c0cef4530aa6945de5bcd9935"
+    },
+    {
+      "path": "assets/astra/v07/recoil-knot.png",
+      "sha256": "27cb70e1257236db1f7ae8e6a6faca13d02f77c3869cec735a7d692bfe6b6fb8"
+    },
+    {
+      "path": "assets/astra/v08/early-circle.png",
+      "sha256": "4bcc297c398464587a9d8145ba92c6cd6266ab77c0f870725589f0b2a457dd8a"
+    },
+    {
+      "path": "assets/astra/v08/early-tangent.png",
+      "sha256": "cec887d27980a65d6a645535f8e03cad11ac3dc8e7dc3e1c7e1c126f92560e14"
+    },
+    {
+      "path": "assets/astra/v08/early-travel-framed.png",
+      "sha256": "0df36e9626f3f5cbebd3683b20745d2ceb07c8c9e2117a170df73fe86c6fcbef"
+    },
+    {
+      "path": "assets/astra/v08/face-eye-v02.png",
+      "sha256": "876997f390bc0e6f6b32ede584f4f3a030b24b5c33ec096201a2df9a2077c480"
+    },
+    {
+      "path": "assets/astra/v08/mid-receive.png",
+      "sha256": "5ef8890114bb155d28fc8144e5adee26ee3ae3ded4c159450639d5a14a62d4e5"
+    },
+    {
+      "path": "assets/astra/v08/mid-wait.png",
+      "sha256": "c8836350580f9ecdcd503ffe811b819c3031e924bc261c8e6701661fad42437c"
+    },
+    {
+      "path": "assets/astra/v09/A01-01-inkface.png",
+      "sha256": "ce018482f13edac67aee42b377ae2d4c6b1e918ed9f7ea9991b91c99f8028469"
+    },
+    {
+      "path": "assets/astra/v09/A01-02-inkface.png",
+      "sha256": "f3f8f59d3725a393e8c44e9264b99071dceb5762663f7fa96afc40a38a705880"
+    },
+    {
+      "path": "assets/astra/v09/A02-01-inkface.png",
+      "sha256": "769fe64991381bf6b9a921103f5acc85371ff87294f9988ab266f6688dfa42f9"
+    },
+    {
+      "path": "assets/astra/v09/A02-02-inkface.png",
+      "sha256": "19f33a9c802f3c02fa8b795702688563e14e268642031b73e0d309f82192f29d"
+    },
+    {
+      "path": "assets/astra/v09/A02-03-inkface.png",
+      "sha256": "2167c79ad9e2846953e4c10c6ad3a35131cc13566c12a7b2fddb563fcbdf78cb"
+    },
+    {
+      "path": "assets/astra/v09/A03-01-inkface.png",
+      "sha256": "0c69c0f509ab7ee96891f46dc7b94b3c5427081d5d5044fe3d39bbf1acd6dae8"
+    },
+    {
+      "path": "assets/astra/v09/A03-02-inkface.png",
+      "sha256": "c01506cbc8304e434e82ace6f98a4e8b789777d13b031a3ae7fdb81562d17331"
+    },
+    {
+      "path": "assets/astra/v09/A04-01-shadow.png",
+      "sha256": "fbca1fe8e04d9e2d4dbb93ace79479be63a3fee8241dae2e33d96e8c19ecf1a7"
+    },
+    {
+      "path": "assets/astra/v09/A04-02-shadow.png",
+      "sha256": "6e1a9c6b0a0bad0277077ad8a61ac5ac7b92c53bc23054a66357c9657e2dec67"
+    },
+    {
+      "path": "assets/astra/v09/A04-03-shadow.png",
+      "sha256": "604716f07eb6c39e425e97b5960929127008f324d313f8bc2e33fbea18c96281"
+    },
+    {
+      "path": "assets/astra/v09/A05-01-shadow.png",
+      "sha256": "0925bd00a4774f47c33ea8caaf612cab5f9b75632eef752f55ddaa660be3cab5"
+    },
+    {
+      "path": "assets/astra/v09/A05-02-shadow.png",
+      "sha256": "7f19e47e36d8a99d27293bb67810abd373ccf58e2edd451f6de9a1b8d3610f18"
+    },
+    {
+      "path": "assets/astra/v09/A05-03-shadow.png",
+      "sha256": "8d117a5f058fa27ed5e2cca32434a86532a2943a9f541304f6fb27be9c77cc53"
+    },
+    {
+      "path": "assets/astra/v09/A06-01-shadow.png",
+      "sha256": "42fa882e3a3497b0772775f6f31a2526f6aba6f8c1f3a9570c5c94bf90bce657"
+    },
+    {
+      "path": "assets/astra/v09/A06-02-shadow.png",
+      "sha256": "d0bd5ffea8210af20866e87b0682995711418214470243d6900c2c7b2c1940ab"
+    },
+    {
+      "path": "assets/astra/v09/A07-01-shadow.png",
+      "sha256": "dc916d75820971c38e308b3d75fba23295aa77f6c400dd85839f993c48ef8d4a"
+    },
+    {
+      "path": "assets/astra/v09/A07-02-shadow.png",
+      "sha256": "7905e0c2fb9219c309668fe41945505429378e49292236bf6f834273810598f4"
+    },
+    {
+      "path": "assets/astra/v09/A07-03-shadow.png",
+      "sha256": "95c8bb6e850010f0d7445e720fb0e388db85dc4a87d1187c6206ff11a26dc714"
+    },
+    {
+      "path": "assets/astra/v09/A08-01-shadow.png",
+      "sha256": "8192a7b10e9964a72c1a2b13ebbe39605a9d7bbf9b0e779528aeac28def4ad8a"
+    },
+    {
+      "path": "assets/astra/v09/A08-02-shadow.png",
+      "sha256": "8c2ca76ec9b850dbeca1d6479a3bbe07db64b0054016eb29833c0b1caecf5c65"
+    },
+    {
+      "path": "assets/astra/v09/A09-01-shadow.png",
+      "sha256": "0e2d9086bef4db7c9f893d84cf2c206bc469798eacd43db98e03ae206486e0b0"
+    },
+    {
+      "path": "assets/astra/v09/A09-02-shadow.png",
+      "sha256": "60e571559406acd581adb7f09023d88d41029886710cb0166a920c4813f502f1"
+    },
+    {
+      "path": "assets/astra/v09/A10-01-shadow.png",
+      "sha256": "b1a24e193cfe6d2ee85bc8c3ba9f2fdc3c13b8924b99dad796af3ac8e25db77d"
+    },
+    {
+      "path": "assets/astra/v09/A10-02-shadow.png",
+      "sha256": "afe91abf358390538d23f30916a2be9d6b1c7c62924c2dc3af10038074af7ed1"
+    },
+    {
+      "path": "assets/astra/v09/A10-03-shadow.png",
+      "sha256": "9ceb7ef49da5dfce905ca75cfcb6f704d24df60eb8795d8965f43e2c16ba5884"
+    },
+    {
+      "path": "assets/astra/v09/A11-01-shadow.png",
+      "sha256": "ab1aa408c64e04dcb6c1bcd82bd441300efbe55d3ac064f130290395d236e222"
+    },
+    {
+      "path": "assets/astra/v09/A11-02-shadow.png",
+      "sha256": "06cc23aa4ae9f989f3ce71160ca5f2eb5accd09d4e5e8fd4a6008fe956c8fd84"
+    },
+    {
+      "path": "assets/astra/v09/A11-03-shadow.png",
+      "sha256": "1fc8433e63419fa8eb690c0af24ac9435a2267af95f9cb5b05bfe99e08b930b9"
+    },
+    {
+      "path": "assets/astra/v09/A12-01-shadow.png",
+      "sha256": "510d3190972934e5f1e3d2b7ae04996a6f23aafbbf8a8ea68c69381d605eb105"
+    },
+    {
+      "path": "assets/astra/v09/A12-02-shadow.png",
+      "sha256": "9081895880cf81b900635bc7046770dd0e08a1f171ee94c5ff355522e4532171"
+    },
+    {
+      "path": "assets/astra/v09/A13-01-shadow.png",
+      "sha256": "b1bdd9adee571ff3680d6e59ab0727b1aa2531f3e127d94d0a866eb52c175bf7"
+    },
+    {
+      "path": "assets/astra/v09/A13-02-shadow.png",
+      "sha256": "faa8826f94ea295a2efad94afd89ba8e521ffc90702010e94b1ecbf4ac4c77a6"
+    },
+    {
+      "path": "assets/astra/v09/A13-03-shadow.png",
+      "sha256": "1cdb35419408cc2e05a1746ba0adf5b1bcf1bffd0ae8b8082d509e754bce03f0"
+    },
+    {
+      "path": "assets/astra/v09/A14-01-shadow.png",
+      "sha256": "0772669d5ead599d27502c844f6bcf5e2ce8a1995fc0494a9bcf568fe7139fc5"
+    },
+    {
+      "path": "assets/astra/v09/A14-02-shadow.png",
+      "sha256": "c5b3c17a26f6bcd2128d97cedcc9d219763c98f320c2fbaefcc3876480492762"
+    },
+    {
+      "path": "assets/astra/v09/A14-03-shadow.png",
+      "sha256": "8a6d4700897c50889403970211752ce6edf4c419474f9e83452e79820520a273"
+    },
+    {
+      "path": "assets/astra/v09/A15-01-inkface.png",
+      "sha256": "3b523f7ebac61af7d6ae6d53327e3b67bf038cf85e59421c68996cf9a5941d3a"
+    },
+    {
+      "path": "assets/astra/v09/A15-02-inkface.png",
+      "sha256": "ffcf3c32cfc10af2ef046ee6faa3c6cabdce065d7b86a5e57e7db986d4437c6f"
+    },
+    {
+      "path": "assets/astra/v09/A16-01-inkface.png",
+      "sha256": "7c79cda8170f7e842fbb76dafb53bf678acf63e3f08314ce1f18ebc1f4447ffc"
+    },
+    {
+      "path": "assets/astra/v09/A16-02-inkface.png",
+      "sha256": "bbf7b68eaecf94fc29db4c46b81b0173cc2ef5a39db5bb4d3a60d9d0a841c1f4"
+    },
+    {
+      "path": "assets/astra/v09/A17-01-inkface.png",
+      "sha256": "1edc18e4418920ec5edb1d2e6260e828206db37fd413b21edc1006d691d1b039"
+    },
+    {
+      "path": "assets/astra/v09/A17-02-inkface.png",
+      "sha256": "36882cc2abaf74318573eae3755012be16e99edf2ffa0c5b672d90e327d1457d"
+    },
+    {
+      "path": "assets/astra/v09/A18-01-inkface.png",
+      "sha256": "9a2c41ad34a2b0fdfe2e8fc3c0747ff11220c6b83c9d65e409ec8a6baa9c2c07"
+    },
+    {
+      "path": "assets/astra/v09/A18-02-inkface.png",
+      "sha256": "2cd996c40c184273aff35b1aacefc8eb46f303c4f54481e72c9af0492a8e4322"
+    },
+    {
+      "path": "assets/astra/v09/A20-01-shadow.png",
+      "sha256": "48751b072d4247b015ec1033d4bccbb13686691c4a2c33620b3915186d6c1a1a"
+    },
+    {
+      "path": "assets/astra/v09/A20-02-shadow.png",
+      "sha256": "875d6153dff99234eb4489886ba59152f192a89364670234b93d534ce98b2b2a"
+    },
+    {
+      "path": "assets/astra/v09/A20-03-shadow.png",
+      "sha256": "339d4922c2a3a73fd22f592874552c577ec272d372949c751ab28079a2347d77"
+    },
+    {
+      "path": "assets/astra/v09/A21-01-shadow.png",
+      "sha256": "0c607c9fc0f2865e093cfdc969e5dfc0a1c9ab513fe66b5ab1e87bb3bfa3c91e"
+    },
+    {
+      "path": "assets/astra/v09/A21-02-shadow.png",
+      "sha256": "ae4a21dbc30b545ce398ca2a09a761b18379b4dfcdac73d587f5cd58206a3381"
+    },
+    {
+      "path": "assets/astra/v12-approved-cat/A19-01-anticipate.png",
+      "sha256": "5f02028d99a4ae088b24ea4c794793bbd315307655cb2974b3bae88581fc0969"
+    },
+    {
+      "path": "assets/astra/v12-approved-cat/A19-02-approved.png",
+      "sha256": "c02461813af3c9bf00fc6e1e530c2935bf379eff591582d10bc172245aa8b90c"
+    },
+    {
+      "path": "assets/astra/v12-approved-cat/A19-03-listen.png",
+      "sha256": "8b6affdec25238cb0eddc45fcb188408a583e321683bffc72c2a1faa04907ba1"
+    },
+    {
+      "path": "assets/astra/v12-approved-cat/manifest.json",
+      "sha256": "6a8651a9e6626fc715d63e57b9c0258c3e73ed794e88199e52a69aabd14937f6"
+    },
+    {
+      "path": "src/mv5cat/art.js",
+      "sha256": "f3493cc972e6e0b4ec3e760ab81c60aab027fa7e22579809d8421fd484dd9d06"
+    },
+    {
+      "path": "src/mv5cat/early.js",
+      "sha256": "6a824d06183a6d81ca7816eb930f4cfdb7397938135ea79798bd6195e08a9fdf"
+    },
+    {
+      "path": "src/mv5cat/index.html",
+      "sha256": "ab8f7cc927d2afb768d21db8f4a325cfb4ccb74c0eb1d9f34797f447ae167b1e"
+    },
+    {
+      "path": "src/mv5cat/kit.js",
+      "sha256": "0b945e5ae274cb766eb064dfdd0f26e547d71797f1a620fcc54dc927fc48b3ea"
+    },
+    {
+      "path": "src/mv5cat/late.js",
+      "sha256": "00bd27b75d47650f09c951b85232997406fc61c6edb77807ae17498ae02e168b"
+    },
+    {
+      "path": "src/mv5cat/main.js",
+      "sha256": "fa3ff12055bc7a79ce7bdb84dee2dd88ce5c6d979f0791a464aae5ced8494f22"
+    },
+    {
+      "path": "src/mv5cat/middle.js",
+      "sha256": "793b27d8687cc48649c6a268bb39f7e91d38f24008f6ef2d42e7c9b03700edf5"
+    },
+    {
+      "path": "src/mv5cat/neural.js",
+      "sha256": "8efccaa883b1c4a929d1b82a11a676c3830febb4e70639818f12cf09de098847"
+    },
+    {
+      "path": "src/mv5cat/spatial-neural.js",
+      "sha256": "bdccda032ded86df70afc804ed191e21a930494c57ce61c21b7d0125ce35a8e0"
+    }
+  ],
+  "fingerprint": "0e4c37ad71b13edc8feb2654a910845675ad6117f84d6fea762171e36a4aea30",
+  "cat_qa": {
+    "path": "exports/qa-v5.1-cat/qa.json",
+    "sha256": "329e74f140ba54a5d6c4ec944c9d46e5350de48378573a97bc866efc83cc61f3",
+    "fingerprint": "0e4c37ad71b13edc8feb2654a910845675ad6117f84d6fea762171e36a4aea30"
+  },
+  "unaffected_canvas": {
+    "passed": true,
+    "scope": "Exact native 4K Canvas PNG SHA256 at six unaffected body frames within re-rendered part 2; production source and every unrelated manifest entry compared separately.",
+    "comparisons": [
+      {
+        "frame": 3300,
+        "png_sha256": "43cd361f3237bf71c0d701cff035259beb144bc5c8794d59374b2995407fa5f9",
+        "patch_png_sha256": "43cd361f3237bf71c0d701cff035259beb144bc5c8794d59374b2995407fa5f9",
+        "identical": true
+      },
+      {
+        "frame": 4000,
+        "png_sha256": "e27a22ba3d65945b83baf29aef2eb9bb457440c5a801221a068f88e6c7c670bf",
+        "patch_png_sha256": "e27a22ba3d65945b83baf29aef2eb9bb457440c5a801221a068f88e6c7c670bf",
+        "identical": true
+      },
+      {
+        "frame": 4916,
+        "png_sha256": "d4b726a3201e44403e8986c3c0726e3765ee2ed6218e832243533301a9652640",
+        "patch_png_sha256": "d4b726a3201e44403e8986c3c0726e3765ee2ed6218e832243533301a9652640",
+        "identical": true
+      },
+      {
+        "frame": 5125,
+        "png_sha256": "3c3fb723ff02df39b33fcb9b9a57a7fb9baf1dec70e147a3ffc9fb39486d0742",
+        "patch_png_sha256": "3c3fb723ff02df39b33fcb9b9a57a7fb9baf1dec70e147a3ffc9fb39486d0742",
+        "identical": true
+      },
+      {
+        "frame": 5700,
+        "png_sha256": "189599815c021cb116859d9c27d9bd656feac8eac9292501aca3fc286a792f40",
+        "patch_png_sha256": "189599815c021cb116859d9c27d9bd656feac8eac9292501aca3fc286a792f40",
+        "identical": true
+      },
+      {
+        "frame": 6599,
+        "png_sha256": "4c6b71baa710b3502cb8fcd8708de9f8ca892e6ffdcce6c2579f5ed0b5a653f4",
+        "patch_png_sha256": "4c6b71baa710b3502cb8fcd8708de9f8ca892e6ffdcce6c2579f5ed0b5a653f4",
+        "identical": true
+      }
+    ]
+  },
+  "preflight_passed": true,
+  "parts": [
+    {
+      "index": 1,
+      "first": 0,
+      "last": 3300,
+      "file": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\.cache\\full-export-v5\\3840x2160\\part-1.mp4",
+      "render_report": {
+        "output": ".cache/full-export-v5/3840x2160/part-1.mp4",
+        "entry": "src/mv5/index.html",
+        "width": 3840,
+        "height": 2160,
+        "fps": 60,
+        "source_start_frame": 0,
+        "source_end_frame_exclusive": 3300,
+        "encoded_input_frames": 3300,
+        "source_start_seconds": 0,
+        "intended_duration_seconds": 55,
+        "codec": "h264_nvenc",
+        "transport": "png",
+        "video_only": true,
+        "elapsed_seconds": 354.125,
+        "pipeline_milliseconds": {
+          "render": 2643.6000003665686,
+          "readback": 314156.7999996841,
+          "transfer_and_encode": 23097.59999985993
+        },
+        "output_bytes": 39541446,
+        "ffmpeg_log": "",
+        "validation_scope": "Frame input count and encoder success; run verify_sample.py for independent decode and audio comparison."
+      },
+      "sha256": "e9c860b81b0e9309e005ec51a48c408bc7f9254c09a28a8d317845791a61eb88",
+      "reused_from_verified_v5": true
+    },
+    {
+      "index": 2,
+      "first": 3300,
+      "last": 6600,
+      "file": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\.cache\\full-export-v5.1-cat\\3840x2160\\part-2.mp4",
+      "render_report": {
+        "output": ".cache/full-export-v5.1-cat/3840x2160/part-2.mp4",
+        "entry": "src/mv5cat/index.html",
+        "width": 3840,
+        "height": 2160,
+        "fps": 60,
+        "source_start_frame": 3300,
+        "source_end_frame_exclusive": 6600,
+        "encoded_input_frames": 3300,
+        "source_start_seconds": 55,
+        "intended_duration_seconds": 55,
+        "codec": "h264_nvenc",
+        "transport": "png",
+        "video_only": true,
+        "elapsed_seconds": 398.043,
+        "pipeline_milliseconds": {
+          "render": 2515.5999999884516,
+          "readback": 354100.1000000257,
+          "transfer_and_encode": 24375.39999998547
+        },
+        "output_bytes": 59313192,
+        "ffmpeg_log": "",
+        "validation_scope": "Frame input count and encoder success; run verify_sample.py for independent decode and audio comparison."
+      },
+      "sha256": "fc5ba5250b086e860254da7b581b37398d7587ad187d2764a2a76c2e2c5776bf"
+    },
+    {
+      "index": 3,
+      "first": 6600,
+      "last": 9900,
+      "file": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\.cache\\full-export-v5\\3840x2160\\part-3.mp4",
+      "render_report": {
+        "output": ".cache/full-export-v5/3840x2160/part-3.mp4",
+        "entry": "src/mv5/index.html",
+        "width": 3840,
+        "height": 2160,
+        "fps": 60,
+        "source_start_frame": 6600,
+        "source_end_frame_exclusive": 9900,
+        "encoded_input_frames": 3300,
+        "source_start_seconds": 110,
+        "intended_duration_seconds": 55,
+        "codec": "h264_nvenc",
+        "transport": "png",
+        "video_only": true,
+        "elapsed_seconds": 348.455,
+        "pipeline_milliseconds": {
+          "render": 2692.499999552965,
+          "readback": 310353.2000002414,
+          "transfer_and_encode": 21786.200000211596
+        },
+        "output_bytes": 62488719,
+        "ffmpeg_log": "",
+        "validation_scope": "Frame input count and encoder success; run verify_sample.py for independent decode and audio comparison."
+      },
+      "sha256": "b1848c38ea79b02a93b62821c10634aa2247e4b0904b751a4326ac515d9fd4b4",
+      "reused_from_verified_v5": true
+    },
+    {
+      "index": 4,
+      "first": 9900,
+      "last": 13100,
+      "file": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\.cache\\full-export-v5\\3840x2160\\part-4.mp4",
+      "render_report": {
+        "output": ".cache/full-export-v5/3840x2160/part-4.mp4",
+        "entry": "src/mv5/index.html",
+        "width": 3840,
+        "height": 2160,
+        "fps": 60,
+        "source_start_frame": 9900,
+        "source_end_frame_exclusive": 13100,
+        "encoded_input_frames": 3200,
+        "source_start_seconds": 165,
+        "intended_duration_seconds": 53.333333333333336,
+        "codec": "h264_nvenc",
+        "transport": "png",
+        "video_only": true,
+        "elapsed_seconds": 356.761,
+        "pipeline_milliseconds": {
+          "render": 2277.6999998241663,
+          "readback": 316981.9999999553,
+          "transfer_and_encode": 24221.10000024736
+        },
+        "output_bytes": 71482690,
+        "ffmpeg_log": "",
+        "validation_scope": "Frame input count and encoder success; run verify_sample.py for independent decode and audio comparison."
+      },
+      "sha256": "17c12e7de9b2f54f6b42df103a1a30cb51043df7bf000e28805a5c4864c7232a",
+      "reused_from_verified_v5": true
+    }
+  ],
+  "output_sha256": "19f4a76abfc61c1990d056d018e164ec61e93d147af1436f244cfa57261b7407",
+  "output_bytes": 390382524,
+  "body_sha256": "4b3395feceee87110bf9f7e613d5fec6eb0bb74581af5e88cbbbee9f384d81f4",
+  "finished_at": "2026-11-05T15:32:39.436Z",
+  "elapsed_seconds": 469.7
+}

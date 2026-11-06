@@ -1,0 +1,177 @@
+{
+  "status": "review-not-integrated",
+  "user_approval": "pending",
+  "all_selected_distinct_sha256": true,
+  "all_selected_match_generated_source": true,
+  "all_selected_rgba_with_transparency": true,
+  "review_scope": "Source artwork visual review by cat_pipeline agent for connected standing anatomy, hands, waist-knot perspective, complete dark face, and action readability. No renderer, contact-anchor, native 4K runtime or video QA.",
+  "review_notes": {
+    "A02_01": "Two distinct leg chains and staggered feet; compact torso; reaching fingers softly curled before contact; both waist knots attached to one curved belt.",
+    "A02_02": "Separate grounded legs, coherent knees and ankles; raised flat five-finger palm and bent elbow; same belt perspective; tiny open mouth stays within dark face.",
+    "A02_03": "Whole pose regenerated after rejected light-chin attempt. Entire visible face now dark; arm withdrawn near collarbone, other hand lowered; legs remain separate and grounded.",
+    "knots": "Recognizable six-loop GPT knot geometry visually checked at hair and paired waist. This is raster artwork, not mathematically certified vector topology."
+  },
+  "unchanged_production": [
+    "src/mv5cat",
+    "assets/astra/v12-approved-cat/manifest.json",
+    "assets/astra/v09/A02-01-inkface.png",
+    "assets/astra/v09/A02-02-inkface.png",
+    "assets/astra/v09/A02-03-inkface.png",
+    "exports/astra-world-execute-me-final-v5.1-cat-warning-hires-4k60.mp4"
+  ],
+  "official_character_reference_visual_only": "C:/Users/auscar/Documents/Tencent Files/2470641710/nt_qq/nt_data/Pic/2026-11/Ori/e0ec7a1db8d1862fe1135298bd354581.jpg",
+  "items": [
+    {
+      "proposed_asset_id": "A02_01",
+      "path": "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v14-boundary-review/A02-01-approach.png",
+      "source": "C:/Users/auscar/.codex/generated_images/01a1ac32-877e-76a2-8ba3-825f38b3acef/exec-63091093-ebaa-4a20-9857-6f6ec5a514a6.png",
+      "generator": "built-in image_gen",
+      "generation_intent": "independent complete pose redrawing with character/design reference; no local repair, warping, compositing, or external image editing",
+      "generation_reference_paths": [
+        "assets/astra/v09/A01-01-inkface.png"
+      ],
+      "prompt_path": "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v14-boundary-review/A02-01-approach.prompt.txt",
+      "prompt_sha256": "b5f34e34377fa548e0a1448862434b29d2690b7b6f1b0ef4401eee75c835928e",
+      "status": "ready-for-user-review",
+      "width": 1189,
+      "height": 1323,
+      "mode": "RGBA",
+      "sha256": "ecd92ec70f34a521cee9a681a928b744d99f234c01f53cd3d0b23e50b4442f27",
+      "bytes": 1617241,
+      "same_bytes_as_generated_source": true,
+      "alpha_range": [
+        0,
+        255
+      ],
+      "corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "fully_transparent_pixels": 745383,
+      "fully_opaque_pixels": 3144,
+      "alpha_gt15_bbox": [
+        36,
+        9,
+        1135,
+        1311
+      ],
+      "view_image_reviewed": true
+    },
+    {
+      "proposed_asset_id": "A02_02",
+      "path": "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v14-boundary-review/A02-02-contact.png",
+      "source": "C:/Users/auscar/.codex/generated_images/01a1ac32-877e-76a2-8ba3-825f38b3acef/exec-1bd64c60-35ed-4458-b502-c6ae9156087e.png",
+      "generator": "built-in image_gen",
+      "generation_intent": "independent complete pose redrawing with character/design reference; no local repair, warping, compositing, or external image editing",
+      "generation_reference_paths": [
+        "assets/astra/v14-boundary-review/A02-01-approach.png"
+      ],
+      "prompt_path": "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v14-boundary-review/A02-02-contact.prompt.txt",
+      "prompt_sha256": "d29ed463a095b9fabe2d4925ed0b4d12da56ad370c6b9113da006126d4568995",
+      "status": "ready-for-user-review",
+      "width": 1189,
+      "height": 1323,
+      "mode": "RGBA",
+      "sha256": "b4448c6c6cb6032dbe3915ef91a7aa618d4e8f217a731e088ff16c85b6996d79",
+      "bytes": 1642285,
+      "same_bytes_as_generated_source": true,
+      "alpha_range": [
+        0,
+        255
+      ],
+      "corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "fully_transparent_pixels": 722752,
+      "fully_opaque_pixels": 3358,
+      "alpha_gt15_bbox": [
+        42,
+        7,
+        1114,
+        1314
+      ],
+      "view_image_reviewed": true
+    },
+    {
+      "proposed_asset_id": "A02_03",
+      "path": "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v14-boundary-review/A02-03-withdraw.png",
+      "source": "C:/Users/auscar/.codex/generated_images/01a1ac32-877e-76a2-8ba3-825f38b3acef/exec-f5f8a2ce-697b-49ef-84a1-70853b624be7.png",
+      "generator": "built-in image_gen",
+      "generation_intent": "independent complete pose redrawing with character/design reference; no local repair, warping, compositing, or external image editing",
+      "generation_reference_paths": [
+        "assets/astra/v14-boundary-review/A02-01-approach.png"
+      ],
+      "prompt_path": "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v14-boundary-review/A02-03-withdraw-final.prompt.txt",
+      "prompt_sha256": "c88ef63ba93097246becd1ba4ce2ea9dfac115562cf15e2f85b33e37d0e6d174",
+      "status": "ready-for-user-review",
+      "width": 1189,
+      "height": 1323,
+      "mode": "RGBA",
+      "sha256": "13766afc9a82de875e1b1bce5f1a48c317506d1a926dc953ca0bbefcf7f3ae85",
+      "bytes": 1554061,
+      "same_bytes_as_generated_source": true,
+      "alpha_range": [
+        0,
+        255
+      ],
+      "corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "fully_transparent_pixels": 774710,
+      "fully_opaque_pixels": 2948,
+      "alpha_gt15_bbox": [
+        53,
+        12,
+        1096,
+        1305
+      ],
+      "view_image_reviewed": true
+    },
+    {
+      "proposed_asset_id": "A02_03_rejected",
+      "path": "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v14-boundary-review/A02-03-withdraw-rejected-light-chin.png",
+      "source": "C:/Users/auscar/.codex/generated_images/01a1ac32-877e-76a2-8ba3-825f38b3acef/exec-dd10e612-b797-4584-b687-4087e2305a9d.png",
+      "generator": "built-in image_gen",
+      "generation_intent": "independent complete pose redrawing with character/design reference; no local repair, warping, compositing, or external image editing",
+      "generation_reference_paths": [
+        "assets/astra/v14-boundary-review/A02-02-contact.png"
+      ],
+      "prompt_path": "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v14-boundary-review/A02-03-withdraw.prompt.txt",
+      "prompt_sha256": "84b33e32628f458b5b5d4335be110858ad0c6b6f983428294e67ae055012565d",
+      "status": "rejected-light-lower-face",
+      "width": 1189,
+      "height": 1323,
+      "mode": "RGBA",
+      "sha256": "8d4df6ff947264a33b665c990bb497910a6094c76091afcbcac0aad66e5ff05b",
+      "bytes": 1595410,
+      "same_bytes_as_generated_source": true,
+      "alpha_range": [
+        0,
+        255
+      ],
+      "corner_alpha": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "fully_transparent_pixels": 745298,
+      "fully_opaque_pixels": 3103,
+      "alpha_gt15_bbox": [
+        82,
+        11,
+        1102,
+        1310
+      ],
+      "view_image_reviewed": true
+    }
+  ]
+}

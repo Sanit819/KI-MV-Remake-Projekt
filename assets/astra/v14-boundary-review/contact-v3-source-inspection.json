@@ -1,0 +1,134 @@
+{
+  "status": "hair-knot-edit-ready-for-user-review-not-integrated",
+  "approved_baseline": "User explicitly approved contact-v2 whole pose and legs; only hair knot requested for correction.",
+  "path": "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v14-boundary-review/A02-02-contact-v3-knot.png",
+  "source": "C:/Users/auscar/.codex/generated_images/01a1acd5-4240-7a52-bce1-fcd2e1dc582b/exec-f062321f-6168-4801-b563-caf24b10cb5d.png",
+  "generator": "built-in image_gen",
+  "generation_intent": "precise object edit of hair knot only, with all approved body/legs/hands/ears/horns/clothing and other knots requested invariant",
+  "pixel_lock_achieved": false,
+  "pixel_lock_boundary": "Output is a generative edit. Although the pose and anatomy remain visually consistent, RGB, antialiasing and line contours outside the hair-knot ROI also changed. The baseline was preserved, not composited back into this output.",
+  "prompt_path": "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v14-boundary-review/A02-02-contact-v3-knot.prompt.txt",
+  "prompt_sha256": "ac7f75f3d93992065aaf150f3c5d7f7993a7ebc932c01b9614bf8322f088cd2e",
+  "generation_reference_paths": [
+    "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v14-boundary-review/A02-02-contact-v2.png",
+    "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v02/openai-openwork.png"
+  ],
+  "reference_roles": [
+    "approved edit target; pose/body invariant",
+    "accurate six-loop geometry reference only; color follows target"
+  ],
+  "rejected_reference_reason": "v07/reference-gpt-knot.png was viewed but only 63x61 and contains interface background; v02/openai-openwork.png is the clearer reference.",
+  "width": 1189,
+  "height": 1323,
+  "mode": "RGBA",
+  "bytes": 1574155,
+  "sha256": "cc68d3139ab8243d3257d02276ce2da55cc1937f427f44c380ba48d717aa199e",
+  "source_sha256": "cc68d3139ab8243d3257d02276ce2da55cc1937f427f44c380ba48d717aa199e",
+  "alpha_range": [
+    0,
+    255
+  ],
+  "fully_transparent_pixels": 773783,
+  "alpha_gt15_bbox": [
+    35,
+    8,
+    1099,
+    1311
+  ],
+  "requested_edit_roi_xyxy": [
+    750,
+    110,
+    850,
+    210
+  ],
+  "difference_method": "Compare raw same-canvas images without registration or warping. Color difference is maximum absolute RGB channel difference after premultiplication by alpha over black; valid region is union alpha>15. Silhouette IoU uses alpha>128.",
+  "difference_stats": {
+    "outside_requested_hair_knot_roi": {
+      "visible_union_pixel_count": 755161,
+      "mean_max_abs_premultiplied_rgb_difference_0_to_255": 18.704071919632984,
+      "percent_visible_pixels_difference_gt8": 38.605012705899796,
+      "percent_visible_pixels_difference_gt32": 15.72790438065525,
+      "percent_visible_pixels_raw_rgba_exact_equal": 0.0014566430204949674,
+      "difference_gt8_bbox_xyxy": [
+        35,
+        8,
+        1099,
+        1311
+      ],
+      "alpha_gt128_silhouette_iou": 0.978993621127639
+    },
+    "body_below_y300": {
+      "visible_union_pixel_count": 683758,
+      "mean_max_abs_premultiplied_rgb_difference_0_to_255": 19.02454760826113,
+      "percent_visible_pixels_difference_gt8": 38.22141751906376,
+      "percent_visible_pixels_difference_gt32": 15.973780197087272,
+      "percent_visible_pixels_raw_rgba_exact_equal": 0.001608756314368534,
+      "difference_gt8_bbox_xyxy": [
+        35,
+        300,
+        1097,
+        1311
+      ],
+      "alpha_gt128_silhouette_iou": 0.9809853604102273
+    },
+    "legs_and_feet_roi_360_680_790_1323": {
+      "visible_union_pixel_count": 235231,
+      "mean_max_abs_premultiplied_rgb_difference_0_to_255": 20.783245255539796,
+      "percent_visible_pixels_difference_gt8": 36.3030382900213,
+      "percent_visible_pixels_difference_gt32": 17.566562230318283,
+      "percent_visible_pixels_raw_rgba_exact_equal": 0.0,
+      "difference_gt8_bbox_xyxy": [
+        360,
+        680,
+        790,
+        1311
+      ],
+      "alpha_gt128_silhouette_iou": 0.9882389128363743
+    }
+  },
+  "visual_review": {
+    "full_generated_image_reviewed": true,
+    "hair_knot_5x_nearest_neighbor_zoom_reviewed": true,
+    "six_outer_interwoven_band_loops_visually_readable": true,
+    "central_hexagonal_opening_visually_readable": true,
+    "no_enclosing_backing_circle": true,
+    "topology_boundary": "Raster visual assessment at 5x; not a mathematical vector topology proof.",
+    "legs_before_after_comparison_reviewed": true,
+    "pose_assessment": "Near leg remains continuous weight-bearing chain; far leg/foot remains behind and partially occluded. No new knee crossing or leg pose redesign observed in the side-by-side lower-body comparison.",
+    "outside_change_assessment": "Visible generative retracing/antialiasing and small contour shifts occur outside the requested edit area. Not pixel-identical preservation."
+  },
+  "inspection_artifacts": [
+    "contact-v3-knot-inspection-zoom.png",
+    "contact-v3-legs-comparison-qa.png"
+  ],
+  "inspection_artifact_boundary": "Cropped/enlarged and side-by-side read-only diagnostic renders; not pasted into, used to repair, or substituted for the final transparent generated asset.",
+  "protected_files": [
+    {
+      "path": "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v14-boundary-review/A02-01-approach.png",
+      "sha256_before": "ecd92ec70f34a521cee9a681a928b744d99f234c01f53cd3d0b23e50b4442f27",
+      "sha256_after": "ecd92ec70f34a521cee9a681a928b744d99f234c01f53cd3d0b23e50b4442f27",
+      "unchanged": true
+    },
+    {
+      "path": "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v14-boundary-review/A02-02-contact-v2.png",
+      "sha256_before": "461e4f04df416c66e1d8129861f3714ebd010b4c5778d2229c720f391a13b200",
+      "sha256_after": "461e4f04df416c66e1d8129861f3714ebd010b4c5778d2229c720f391a13b200",
+      "unchanged": true
+    },
+    {
+      "path": "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v14-boundary-review/A02-03-withdraw.png",
+      "sha256_before": "13766afc9a82de875e1b1bce5f1a48c317506d1a926dc953ca0bbefcf7f3ae85",
+      "sha256_after": "13766afc9a82de875e1b1bce5f1a48c317506d1a926dc953ca0bbefcf7f3ae85",
+      "unchanged": true
+    }
+  ],
+  "validation": {
+    "selected_copy_matches_imagegen_source_bytes": true,
+    "all_protected_inputs_unchanged": true,
+    "same_canvas_dimensions_as_approved_v2": true,
+    "rgba_with_real_transparency": true,
+    "four_corners_fully_transparent": true,
+    "subject_bbox_inside_canvas": true
+  },
+  "production_manifest_or_src_modified": false
+}

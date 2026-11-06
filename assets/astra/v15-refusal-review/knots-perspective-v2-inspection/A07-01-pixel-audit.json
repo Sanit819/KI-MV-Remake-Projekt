@@ -1,0 +1,176 @@
+{
+  "source": "assets\\astra\\v15-refusal-review\\A07-01-request.png",
+  "candidate": "assets\\astra\\v15-refusal-review\\A07-01-request-knots-perspective-v2.png",
+  "source_sha256": "0c50eca6d9977f17137a85f21dec9106156f6337ce70b639ce883a4103a9ab1a",
+  "candidate_sha256": "d3716551e89c0f3259bdebb4378124ddc23345700f5b4c09c77ef5feef1af8a8",
+  "size": [
+    1024,
+    1536
+  ],
+  "mode": "RGBA",
+  "alpha_range": [
+    0,
+    254
+  ],
+  "outside_ornament_boxes": {
+    "identical_pixel_fraction": 0.020014927296548465,
+    "mean_abs_channel_difference": 4.170364315975429,
+    "fraction_pixels_delta_gt_16": 0.05922995554028222
+  },
+  "regions": [
+    {
+      "group": "v15-01",
+      "source": "assets/astra/v15-refusal-review/A07-01-request.png",
+      "label": "hair",
+      "bbox_xyxy": [
+        617,
+        129,
+        725,
+        233
+      ],
+      "native_crop_size": [
+        108,
+        104
+      ],
+      "preview_scale": 2.3703703703703702,
+      "preview_method": "nearest-neighbor crop enlargement; source PNG unchanged"
+    },
+    {
+      "group": "v15-01",
+      "source": "assets/astra/v15-refusal-review/A07-01-request.png",
+      "label": "shoulder-near",
+      "bbox_xyxy": [
+        387,
+        413,
+        466,
+        496
+      ],
+      "native_crop_size": [
+        79,
+        83
+      ],
+      "preview_scale": 3.0843373493975905,
+      "preview_method": "nearest-neighbor crop enlargement; source PNG unchanged"
+    },
+    {
+      "group": "v15-01",
+      "source": "assets/astra/v15-refusal-review/A07-01-request.png",
+      "label": "shoulder-far",
+      "bbox_xyxy": [
+        658,
+        377,
+        729,
+        449
+      ],
+      "native_crop_size": [
+        71,
+        72
+      ],
+      "preview_scale": 3.5555555555555554,
+      "preview_method": "nearest-neighbor crop enlargement; source PNG unchanged"
+    },
+    {
+      "group": "v15-01",
+      "source": "assets/astra/v15-refusal-review/A07-01-request.png",
+      "label": "waist-near",
+      "bbox_xyxy": [
+        377,
+        589,
+        499,
+        714
+      ],
+      "native_crop_size": [
+        122,
+        125
+      ],
+      "preview_scale": 2.048,
+      "preview_method": "nearest-neighbor crop enlargement; source PNG unchanged"
+    },
+    {
+      "group": "v15-01",
+      "source": "assets/astra/v15-refusal-review/A07-01-request.png",
+      "label": "waist-far",
+      "bbox_xyxy": [
+        540,
+        612,
+        642,
+        717
+      ],
+      "native_crop_size": [
+        102,
+        105
+      ],
+      "preview_scale": 2.4380952380952383,
+      "preview_method": "nearest-neighbor crop enlargement; source PNG unchanged"
+    },
+    {
+      "group": "v15-01",
+      "source": "assets/astra/v15-refusal-review/A07-01-request.png",
+      "label": "hem-left",
+      "bbox_xyxy": [
+        141,
+        1156,
+        248,
+        1260
+      ],
+      "native_crop_size": [
+        107,
+        104
+      ],
+      "preview_scale": 2.392523364485981,
+      "preview_method": "nearest-neighbor crop enlargement; source PNG unchanged"
+    },
+    {
+      "group": "v15-01",
+      "source": "assets/astra/v15-refusal-review/A07-01-request.png",
+      "label": "hem-right",
+      "bbox_xyxy": [
+        713,
+        1246,
+        817,
+        1353
+      ],
+      "native_crop_size": [
+        104,
+        107
+      ],
+      "preview_scale": 2.392523364485981,
+      "preview_method": "nearest-neighbor crop enlargement; source PNG unchanged"
+    },
+    {
+      "group": "v15-01",
+      "source": "assets/astra/v15-refusal-review/A07-01-request.png",
+      "label": "shoe-left",
+      "bbox_xyxy": [
+        397,
+        1371,
+        474,
+        1450
+      ],
+      "native_crop_size": [
+        77,
+        79
+      ],
+      "preview_scale": 3.240506329113924,
+      "preview_method": "nearest-neighbor crop enlargement; source PNG unchanged"
+    },
+    {
+      "group": "v15-01",
+      "source": "assets/astra/v15-refusal-review/A07-01-request.png",
+      "label": "shoe-right",
+      "bbox_xyxy": [
+        699,
+        1439,
+        775,
+        1515
+      ],
+      "native_crop_size": [
+        76,
+        76
+      ],
+      "preview_scale": 3.3684210526315788,
+      "preview_method": "nearest-neighbor crop enlargement; source PNG unchanged"
+    }
+  ],
+  "scope": "Pixel differences do not by themselves certify anatomy or knot topology; enlarged before/after regions require visual inspection."
+}

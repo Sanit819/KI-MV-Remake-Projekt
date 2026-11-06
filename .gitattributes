@@ -1,2 +1,8 @@
 # Preserve the official downloaded SVG byte-for-byte across Windows checkouts.
 assets/astra/openai-blossom.svg -text
+
+# Preserve the frozen final v5.2 renderer, data and archived evidence bytes.
+src/mv52final/** -text
+data/production-v52final/** -text
+data/production-v52/audio-accents.json -text
+docs/archive/astra-v5.2/evidence/** -text

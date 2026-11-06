@@ -1,0 +1,116 @@
+{
+  "status": "review-not-integrated",
+  "user_approval": "A02-01 and A02-03 approved; only new contact-v2 awaits visual response",
+  "proposed_asset_id": "A02_02",
+  "path": "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v14-boundary-review/A02-02-contact-v2.png",
+  "source": "C:/Users/auscar/.codex/generated_images/01a1acd5-4240-7a52-bce1-fcd2e1dc582b/exec-899f2f92-8640-4331-863b-b2d0e008bb6e.png",
+  "generator": "built-in image_gen",
+  "generation_intent": "new complete original pose, rebuilding pelvis and leg depth; no local limb repairs, cut-and-paste, warping or pixel edits",
+  "prompt_path": "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v14-boundary-review/A02-02-contact-v2.prompt.txt",
+  "prompt_sha256": "24423a59980685cbb2352dc786943ae0b3379f526847344c55921c7765f6fc02",
+  "generation_reference_paths": [
+    "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v14-boundary-review/A02-01-approach.png",
+    "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v14-boundary-review/A02-03-withdraw.png",
+    "C:/Users/auscar/Documents/Tencent Files/2470641710/nt_qq/nt_data/Pic/2026-11/Ori/e0ec7a1db8d1862fe1135298bd354581.jpg"
+  ],
+  "reference_roles": [
+    "approved style and character identity only",
+    "approved style and character identity only",
+    "original costume and dragon anatomy only; shadow-face style comes from approved poses"
+  ],
+  "old_contact_passed_to_generator": false,
+  "user_red_lines_passed_to_generator": false,
+  "width": 1189,
+  "height": 1323,
+  "mode": "RGBA",
+  "bytes": 1557412,
+  "sha256": "461e4f04df416c66e1d8129861f3714ebd010b4c5778d2229c720f391a13b200",
+  "source_sha256": "461e4f04df416c66e1d8129861f3714ebd010b4c5778d2229c720f391a13b200",
+  "alpha_range": [
+    0,
+    255
+  ],
+  "corner_alpha": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "fully_transparent_pixels": 800398,
+  "alpha_ge240_pixels": 730489,
+  "alpha_gt15_bbox": [
+    37,
+    12,
+    1095,
+    1309
+  ],
+  "rgba_samples": {
+    "650,850": [
+      249,
+      210,
+      220,
+      254
+    ],
+    "700,180": [
+      230,
+      181,
+      231,
+      253
+    ],
+    "400,600": [
+      232,
+      183,
+      234,
+      254
+    ],
+    "30,30": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "visual_review": {
+    "generated_preview_reviewed": true,
+    "workspace_view_image_requested": true,
+    "workspace_raw_png_emitted_and_reviewed": true,
+    "rendering_note": "Generated preview and direct nodeRepl.emitImage of unchanged workspace PNG bytes both show the complete image and were reviewed. view_image transport alone displayed nearly black despite valid RGB/alpha; raw-byte display resolved that tool-display issue. This is not a browser/runtime composite test.",
+    "pelvis": "Body and pelvis now turn together toward screen-right; near waist knot is broad and far one narrow/turned away.",
+    "near_leg": "Foreground thigh continues from near hip to its own relaxed knee and planted ankle; connected silhouette with front boot farther down/right.",
+    "far_leg": "Far upper thigh is occluded by skirt/foreground limb; rear calf continues separately to smaller higher rear shoe, offset left/back.",
+    "knees_and_feet": "No knee-level X, no calf attached to the other knee; shoes face generally screen-right and show different depth.",
+    "identity": "Dark complete face and eye-covering bangs retained; horns, wings, tail, hands, skirt hems and both shoes inside canvas.",
+    "scope": "Source-art preview and raw-file inspection only. Not a runtime contact-anchor or 4K video acceptance. User visual acceptance still pending."
+  },
+  "protected_files": [
+    {
+      "path": "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v14-boundary-review/A02-01-approach.png",
+      "sha256_before": "ecd92ec70f34a521cee9a681a928b744d99f234c01f53cd3d0b23e50b4442f27",
+      "sha256_after": "ecd92ec70f34a521cee9a681a928b744d99f234c01f53cd3d0b23e50b4442f27",
+      "unchanged": true
+    },
+    {
+      "path": "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v14-boundary-review/A02-02-contact.png",
+      "sha256_before": "b4448c6c6cb6032dbe3915ef91a7aa618d4e8f217a731e088ff16c85b6996d79",
+      "sha256_after": "b4448c6c6cb6032dbe3915ef91a7aa618d4e8f217a731e088ff16c85b6996d79",
+      "unchanged": true
+    },
+    {
+      "path": "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v14-boundary-review/A02-03-withdraw.png",
+      "sha256_before": "13766afc9a82de875e1b1bce5f1a48c317506d1a926dc953ca0bbefcf7f3ae85",
+      "sha256_after": "13766afc9a82de875e1b1bce5f1a48c317506d1a926dc953ca0bbefcf7f3ae85",
+      "unchanged": true
+    }
+  ],
+  "validation": {
+    "generated_source_bytes_equal": true,
+    "alpha_has_transparent_and_visible_pixels": true,
+    "four_corners_fully_transparent": true,
+    "visible_subject_inside_canvas": true,
+    "approved_approach_and_withdraw_unchanged": true,
+    "superseded_contact_preserved_unchanged": true,
+    "substantial_visible_nonblack_subject": true
+  },
+  "supersedes": "D:/myskills/updream/KI-MV-Remake-Projekt/assets/astra/v14-boundary-review/A02-02-contact.png",
+  "production_manifest_or_src_modified": false
+}

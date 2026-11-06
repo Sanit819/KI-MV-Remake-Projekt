@@ -1,0 +1,117 @@
+[
+  {
+    "path": "assets/astra/v14-boundary-review/A02-02-contact-v6-perspective.png",
+    "bytes": 1691631,
+    "sha256": "b393e4c3218a53c8be5089684a6958e3ee9dfdca0907f8cf928ac3ba28e4488e"
+  },
+  {
+    "path": "assets/astra/v13-book-review/A08-02-seated-record-v5.png",
+    "bytes": 1976463,
+    "sha256": "aa5049abb789467a4eacb8237ea8f5ef6264846bd82680487301dd9a4ab97cc2"
+  },
+  {
+    "path": "assets/astra/v12-approved-cat/manifest.json",
+    "bytes": 89687,
+    "sha256": "6a8651a9e6626fc715d63e57b9c0258c3e73ed794e88199e52a69aabd14937f6"
+  },
+  {
+    "path": "data/production-v52review/candidate-map.json",
+    "bytes": 8456,
+    "sha256": "d44ba6a1126d326370259190a07aa8d2977eb4b9e1baea52002bc9c12d3dd3ef"
+  },
+  {
+    "path": "exports/astra-world-execute-me-final-v5.1-cat-warning-hires-4k60.mp4",
+    "bytes": 390382524,
+    "sha256": "19f4a76abfc61c1990d056d018e164ec61e93d147af1436f244cfa57261b7407"
+  },
+  {
+    "path": "src/mv5cat/art.js",
+    "bytes": 6353,
+    "sha256": "f3493cc972e6e0b4ec3e760ab81c60aab027fa7e22579809d8421fd484dd9d06"
+  },
+  {
+    "path": "src/mv5cat/early.js",
+    "bytes": 46765,
+    "sha256": "6a824d06183a6d81ca7816eb930f4cfdb7397938135ea79798bd6195e08a9fdf"
+  },
+  {
+    "path": "src/mv5cat/index.html",
+    "bytes": 1214,
+    "sha256": "ab8f7cc927d2afb768d21db8f4a325cfb4ccb74c0eb1d9f34797f447ae167b1e"
+  },
+  {
+    "path": "src/mv5cat/kit.js",
+    "bytes": 17152,
+    "sha256": "0b945e5ae274cb766eb064dfdd0f26e547d71797f1a620fcc54dc927fc48b3ea"
+  },
+  {
+    "path": "src/mv5cat/late.js",
+    "bytes": 35472,
+    "sha256": "00bd27b75d47650f09c951b85232997406fc61c6edb77807ae17498ae02e168b"
+  },
+  {
+    "path": "src/mv5cat/main.js",
+    "bytes": 5639,
+    "sha256": "fa3ff12055bc7a79ce7bdb84dee2dd88ce5c6d979f0791a464aae5ced8494f22"
+  },
+  {
+    "path": "src/mv5cat/middle.js",
+    "bytes": 38983,
+    "sha256": "793b27d8687cc48649c6a268bb39f7e91d38f24008f6ef2d42e7c9b03700edf5"
+  },
+  {
+    "path": "src/mv5cat/neural.js",
+    "bytes": 8839,
+    "sha256": "8efccaa883b1c4a929d1b82a11a676c3830febb4e70639818f12cf09de098847"
+  },
+  {
+    "path": "src/mv5cat/spatial-neural.js",
+    "bytes": 7138,
+    "sha256": "bdccda032ded86df70afc804ed191e21a930494c57ce61c21b7d0125ce35a8e0"
+  },
+  {
+    "path": "src/mv5/art.js",
+    "bytes": 6340,
+    "sha256": "8bcca064188ed49e73d9fab9c54a66887ec6a0793193454dce7f4b678e122de3"
+  },
+  {
+    "path": "src/mv5/early.js",
+    "bytes": 46617,
+    "sha256": "05a0428af8ff6a239b477b0ae870b1c5718ca9ef71399645d8ed57f27c7a98fc"
+  },
+  {
+    "path": "src/mv5/index.html",
+    "bytes": 1214,
+    "sha256": "ab8f7cc927d2afb768d21db8f4a325cfb4ccb74c0eb1d9f34797f447ae167b1e"
+  },
+  {
+    "path": "src/mv5/kit.js",
+    "bytes": 17152,
+    "sha256": "0b945e5ae274cb766eb064dfdd0f26e547d71797f1a620fcc54dc927fc48b3ea"
+  },
+  {
+    "path": "src/mv5/late.js",
+    "bytes": 35472,
+    "sha256": "00bd27b75d47650f09c951b85232997406fc61c6edb77807ae17498ae02e168b"
+  },
+  {
+    "path": "src/mv5/main.js",
+    "bytes": 5639,
+    "sha256": "fa3ff12055bc7a79ce7bdb84dee2dd88ce5c6d979f0791a464aae5ced8494f22"
+  },
+  {
+    "path": "src/mv5/middle.js",
+    "bytes": 38983,
+    "sha256": "793b27d8687cc48649c6a268bb39f7e91d38f24008f6ef2d42e7c9b03700edf5"
+  },
+  {
+    "path": "src/mv5/neural.js",
+    "bytes": 8839,
+    "sha256": "8efccaa883b1c4a929d1b82a11a676c3830febb4e70639818f12cf09de098847"
+  },
+  {
+    "path": "src/mv5/spatial-neural.js",
+    "bytes": 7138,
+    "sha256": "bdccda032ded86df70afc804ed191e21a930494c57ce61c21b7d0125ce35a8e0"
+  }
+]

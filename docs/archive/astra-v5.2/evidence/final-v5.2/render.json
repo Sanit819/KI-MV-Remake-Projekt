@@ -1,0 +1,631 @@
+{
+  "mode": "execute",
+  "entry": "src/mv52final/index.html",
+  "manifest": "data/production-v52final/manifest.json",
+  "output": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\exports\\astra-world-execute-me-final-v5.2-lighting-artwork-hires-4k60.mp4",
+  "work": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\exports\\final-v5.2",
+  "cache": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\.cache\\full-export-v52\\3840x2160",
+  "width": 3840,
+  "height": 2160,
+  "fps": 60,
+  "frames": 13400,
+  "body_frames": 13100,
+  "warning_frames": 300,
+  "duration_seconds": 223.33333333333334,
+  "parts": [
+    {
+      "index": 1,
+      "first": 0,
+      "last": 3300,
+      "file": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\.cache\\full-export-v52\\3840x2160\\d6e32ee8b1b85035\\part-1.mp4",
+      "render_report": {
+        "output": ".cache/full-export-v52/3840x2160/d6e32ee8b1b85035/part-1.mp4",
+        "entry": "src/mv52final/index.html",
+        "width": 3840,
+        "height": 2160,
+        "fps": 60,
+        "source_start_frame": 0,
+        "source_end_frame_exclusive": 3300,
+        "encoded_input_frames": 3300,
+        "source_start_seconds": 0,
+        "intended_duration_seconds": 55,
+        "codec": "h264_nvenc",
+        "transport": "png",
+        "video_only": true,
+        "elapsed_seconds": 800.237,
+        "pipeline_milliseconds": {
+          "render": 161531.89999981225,
+          "readback": 559482.3000002652,
+          "transfer_and_encode": 65798.09999989718
+        },
+        "output_bytes": 115712887,
+        "ffmpeg_log": "",
+        "validation_scope": "Frame input count and encoder success; final independent verification is tools/render/verify_final_v52.py."
+      },
+      "sha256": "1bc0a30264ab87bfae60bcc752b4f79ced93674a2bdabacce20314e580c30246"
+    },
+    {
+      "index": 2,
+      "first": 3300,
+      "last": 6600,
+      "file": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\.cache\\full-export-v52\\3840x2160\\d6e32ee8b1b85035\\part-2.mp4",
+      "render_report": {
+        "output": ".cache/full-export-v52/3840x2160/d6e32ee8b1b85035/part-2.mp4",
+        "entry": "src/mv52final/index.html",
+        "width": 3840,
+        "height": 2160,
+        "fps": 60,
+        "source_start_frame": 3300,
+        "source_end_frame_exclusive": 6600,
+        "encoded_input_frames": 3300,
+        "source_start_seconds": 55,
+        "intended_duration_seconds": 55,
+        "codec": "h264_nvenc",
+        "transport": "png",
+        "video_only": true,
+        "elapsed_seconds": 749.389,
+        "pipeline_milliseconds": {
+          "render": 61797.29999998212,
+          "readback": 597707.2999999076,
+          "transfer_and_encode": 76406.5000000745
+        },
+        "output_bytes": 169512941,
+        "ffmpeg_log": "",
+        "validation_scope": "Frame input count and encoder success; final independent verification is tools/render/verify_final_v52.py."
+      },
+      "sha256": "4053a829ca2b3fa49c8dcd83bd4d431bfdd6ee33ddd88a36e82a95c048ad2c9b"
+    },
+    {
+      "index": 3,
+      "first": 6600,
+      "last": 9900,
+      "file": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\.cache\\full-export-v52\\3840x2160\\d6e32ee8b1b85035\\part-3.mp4",
+      "render_report": {
+        "output": ".cache/full-export-v52/3840x2160/d6e32ee8b1b85035/part-3.mp4",
+        "entry": "src/mv52final/index.html",
+        "width": 3840,
+        "height": 2160,
+        "fps": 60,
+        "source_start_frame": 6600,
+        "source_end_frame_exclusive": 9900,
+        "encoded_input_frames": 3300,
+        "source_start_seconds": 110,
+        "intended_duration_seconds": 55,
+        "codec": "h264_nvenc",
+        "transport": "png",
+        "video_only": true,
+        "elapsed_seconds": 815.274,
+        "pipeline_milliseconds": {
+          "render": 86038.7000002116,
+          "readback": 640485.8999996707,
+          "transfer_and_encode": 75123.50000010431
+        },
+        "output_bytes": 192686237,
+        "ffmpeg_log": "",
+        "validation_scope": "Frame input count and encoder success; final independent verification is tools/render/verify_final_v52.py."
+      },
+      "sha256": "61fe2bf6e131477bdd9be8c27e6e37677fab0d0dd8c3c241ac911763678eb19c"
+    },
+    {
+      "index": 4,
+      "first": 9900,
+      "last": 13100,
+      "file": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\.cache\\full-export-v52\\3840x2160\\d6e32ee8b1b85035\\part-4.mp4",
+      "render_report": {
+        "output": ".cache/full-export-v52/3840x2160/d6e32ee8b1b85035/part-4.mp4",
+        "entry": "src/mv52final/index.html",
+        "width": 3840,
+        "height": 2160,
+        "fps": 60,
+        "source_start_frame": 9900,
+        "source_end_frame_exclusive": 13100,
+        "encoded_input_frames": 3200,
+        "source_start_seconds": 165,
+        "intended_duration_seconds": 53.333333333333336,
+        "codec": "h264_nvenc",
+        "transport": "png",
+        "video_only": true,
+        "elapsed_seconds": 807.963,
+        "pipeline_milliseconds": {
+          "render": 56657.19999998063,
+          "readback": 659486.9999999031,
+          "transfer_and_encode": 79068.1000001058
+        },
+        "output_bytes": 180881671,
+        "ffmpeg_log": "",
+        "validation_scope": "Frame input count and encoder success; final independent verification is tools/render/verify_final_v52.py."
+      },
+      "sha256": "ecb265637d1b8b55663291745cfd6c2f822cce79f8dd737f91aaa983fcd1ba9a"
+    }
+  ],
+  "encoding": {
+    "codec": "h264_nvenc",
+    "preset": "p6",
+    "cq": 19,
+    "transport": "png",
+    "concurrent_parts": 2,
+    "pixel_format": "yuv420p",
+    "color": "BT.709 limited"
+  },
+  "audio": {
+    "source": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\media\\audio\\user-world-execute-192k24.flac",
+    "expected_sha256": "19d5b185fe6cff41ae7d0082ca4f9e7cf2828ef1de99c7f5336177a9761acbbc",
+    "sample_rate": 192000,
+    "bit_depth": 24,
+    "channels": 2,
+    "source_samples_per_channel": 40686080,
+    "trim_front_samples": 11096,
+    "retained_source_samples": 40674984,
+    "front_silent_samples": 960000,
+    "tail_padding_samples": 1245016,
+    "total_samples_per_channel": 42880000,
+    "production_decode_count": 0,
+    "alac_encode_count": 0,
+    "resampling": false,
+    "time_stretch": false,
+    "upmix": false,
+    "lossy_audio_encoding": false,
+    "tail_clearance_evidence": "docs/audio/user-flac-analysis.json: old original song 211.848875 s onward all zero; retain full FLAC decay, trim front only",
+    "source_sha256_before": "19d5b185fe6cff41ae7d0082ca4f9e7cf2828ef1de99c7f5336177a9761acbbc",
+    "reference": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\exports\\warning-v3-hires\\user-flac-trimmed-padded.pcm24.wav",
+    "reference_sha256": "a6cf40be4601f4bbdf44865c3bd6ed6ee051716ecb99c27342febc26d25812a4",
+    "encoded_once": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\exports\\warning-v3-hires\\user-flac-trimmed-padded.alac.m4a",
+    "encoded_file_sha256": "6fe79bb1d46e6f576b2eae212f59d28a93ab9bdc4186ab08e8dd941a3a978528",
+    "source_sha256_after": "19d5b185fe6cff41ae7d0082ca4f9e7cf2828ef1de99c7f5336177a9761acbbc",
+    "reused_verified_audio": true,
+    "stream_copy_source": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\exports\\astra-world-execute-me-final-v5.1-cat-warning-hires-4k60.mp4",
+    "stream_copy_source_sha256": "19f4a76abfc61c1990d056d018e164ec61e93d147af1436f244cfa57261b7407"
+  },
+  "runtime_gate": "exports/qa-v52-final/runtime.json",
+  "verifier": "tools/render/verify_final_v52.py",
+  "version": "final-v5.2",
+  "passed": true,
+  "phase": "complete",
+  "started_at": "2026-11-06T01:46:10.121Z",
+  "original": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\exports\\astra-world-execute-me-final-v5.1-cat-warning-hires-4k60.mp4",
+  "original_sha256": "19f4a76abfc61c1990d056d018e164ec61e93d147af1436f244cfa57261b7407",
+  "prefix_source": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\exports\\astra-world-execute-me-final-v5.1-cat-warning-hires-4k60.mp4",
+  "prefix_source_sha256": "19f4a76abfc61c1990d056d018e164ec61e93d147af1436f244cfa57261b7407",
+  "audio_encode_count": 0,
+  "new_1080p_outputs": 0,
+  "protected_baseline": {
+    "path": "docs/production-v52/feedback-round2/protected-baseline.json",
+    "sha256": "422d2c95a9d131dd9590a6974fa3227f67035ccff2e5934848fc1f47895f2c4c"
+  },
+  "protected_count": 23,
+  "input_hashes": [
+    {
+      "path": "assets/astra/final/protect-knot.png",
+      "sha256": "7274e78017c42cdb16325a1853398fae60bfe54cddfcbbdeb6d6bfb036995e68"
+    },
+    {
+      "path": "assets/astra/final/reach-knot.png",
+      "sha256": "3ee9912a28573a170ecee14710f8ea12d7547582c1879bed9613b9009faa9d4e"
+    },
+    {
+      "path": "assets/astra/final/sit-knot.png",
+      "sha256": "4e6f8e950ea7fcfe19ca65a64d8798c886759c8468ed616a819a3559b9939ed4"
+    },
+    {
+      "path": "assets/astra/final/stand-knot.png",
+      "sha256": "7692119f9bd214fd860108254c51c5bc2055748ac8cd86000ae94422b798ff0c"
+    },
+    {
+      "path": "assets/astra/v07/back-knot.png",
+      "sha256": "d24000f5124d6614f9d5225d0603528203e6c76716f214322877d59bd9b97410"
+    },
+    {
+      "path": "assets/astra/v07/bust-knot.png",
+      "sha256": "e459b40bd2276f3c9296a66cc1f308f1129ce547012689c2afcfc5fb081c2ca6"
+    },
+    {
+      "path": "assets/astra/v07/cat-knot.png",
+      "sha256": "c02461813af3c9bf00fc6e1e530c2935bf379eff591582d10bc172245aa8b90c"
+    },
+    {
+      "path": "assets/astra/v07/foot-knot.png",
+      "sha256": "20a52aabf2ae3a8605862c92cb3ca4ee4483b0afb14ef695724ec3ef8c882a14"
+    },
+    {
+      "path": "assets/astra/v07/guest0.png",
+      "sha256": "18633c3868189a3957b3cfc45bd1b77fb0d260b655fd911d327c6aac3b36eecf"
+    },
+    {
+      "path": "assets/astra/v07/guest1.png",
+      "sha256": "4e653f2a0fbfee1e309cf70df7af481e4ceb06ae498d6e1992b593af7795451a"
+    },
+    {
+      "path": "assets/astra/v07/guest2.png",
+      "sha256": "afdac5749cb37eeaba6436c34278aaf097a200a7ac5c39e17c86335abde9d736"
+    },
+    {
+      "path": "assets/astra/v07/guest3.png",
+      "sha256": "617217f25f58f2102396a64a7c013692ad39a68ca40c7484f61ac0ce379e2911"
+    },
+    {
+      "path": "assets/astra/v07/guest4.png",
+      "sha256": "73fbc3461789363e7c43d83f01097b0a4b94b2a14d8058ae12d3386c27faa3ff"
+    },
+    {
+      "path": "assets/astra/v07/guest5.png",
+      "sha256": "269ea1f2debc345146db37c466f9e03e3a88f6ae356996c761dce92a24217ad8"
+    },
+    {
+      "path": "assets/astra/v07/hand-knot.png",
+      "sha256": "bd6e53ba68c7aefe4501c2a381d34db672effbd3c6ee9cc099e4d656f013fc0c"
+    },
+    {
+      "path": "assets/astra/v07/interface-openai.svg",
+      "sha256": "3034a003e17c8d130f9627a4bda4667e2346bfce29f75c99f00028a3694797cf"
+    },
+    {
+      "path": "assets/astra/v07/male-knot.png",
+      "sha256": "1bed896dafc87437a14b073a9a10caa0caed1554e4bd2d29448076037acb0638"
+    },
+    {
+      "path": "assets/astra/v07/operating-knot.png",
+      "sha256": "39b090e4e5547b9754ac6261af8b80da1c7f7b3fbacf21c3c0e1afd82489b5d2"
+    },
+    {
+      "path": "assets/astra/v07/profile-knot.png",
+      "sha256": "aa34d5423a6b334e4f667efed615757411a5061c0cef4530aa6945de5bcd9935"
+    },
+    {
+      "path": "assets/astra/v08/early-circle.png",
+      "sha256": "4bcc297c398464587a9d8145ba92c6cd6266ab77c0f870725589f0b2a457dd8a"
+    },
+    {
+      "path": "assets/astra/v08/early-tangent.png",
+      "sha256": "cec887d27980a65d6a645535f8e03cad11ac3dc8e7dc3e1c7e1c126f92560e14"
+    },
+    {
+      "path": "assets/astra/v08/early-travel-framed.png",
+      "sha256": "0df36e9626f3f5cbebd3683b20745d2ceb07c8c9e2117a170df73fe86c6fcbef"
+    },
+    {
+      "path": "assets/astra/v08/face-eye-v02.png",
+      "sha256": "876997f390bc0e6f6b32ede584f4f3a030b24b5c33ec096201a2df9a2077c480"
+    },
+    {
+      "path": "assets/astra/v08/mid-receive.png",
+      "sha256": "5ef8890114bb155d28fc8144e5adee26ee3ae3ded4c159450639d5a14a62d4e5"
+    },
+    {
+      "path": "assets/astra/v08/mid-wait.png",
+      "sha256": "c8836350580f9ecdcd503ffe811b819c3031e924bc261c8e6701661fad42437c"
+    },
+    {
+      "path": "assets/astra/v09/A01-01-inkface.png",
+      "sha256": "ce018482f13edac67aee42b377ae2d4c6b1e918ed9f7ea9991b91c99f8028469"
+    },
+    {
+      "path": "assets/astra/v09/A01-02-inkface.png",
+      "sha256": "f3f8f59d3725a393e8c44e9264b99071dceb5762663f7fa96afc40a38a705880"
+    },
+    {
+      "path": "assets/astra/v09/A03-01-inkface.png",
+      "sha256": "0c69c0f509ab7ee96891f46dc7b94b3c5427081d5d5044fe3d39bbf1acd6dae8"
+    },
+    {
+      "path": "assets/astra/v09/A03-02-inkface.png",
+      "sha256": "c01506cbc8304e434e82ace6f98a4e8b789777d13b031a3ae7fdb81562d17331"
+    },
+    {
+      "path": "assets/astra/v09/A04-01-shadow.png",
+      "sha256": "fbca1fe8e04d9e2d4dbb93ace79479be63a3fee8241dae2e33d96e8c19ecf1a7"
+    },
+    {
+      "path": "assets/astra/v09/A04-03-shadow.png",
+      "sha256": "604716f07eb6c39e425e97b5960929127008f324d313f8bc2e33fbea18c96281"
+    },
+    {
+      "path": "assets/astra/v09/A05-01-shadow.png",
+      "sha256": "0925bd00a4774f47c33ea8caaf612cab5f9b75632eef752f55ddaa660be3cab5"
+    },
+    {
+      "path": "assets/astra/v09/A05-02-shadow.png",
+      "sha256": "7f19e47e36d8a99d27293bb67810abd373ccf58e2edd451f6de9a1b8d3610f18"
+    },
+    {
+      "path": "assets/astra/v09/A05-03-shadow.png",
+      "sha256": "8d117a5f058fa27ed5e2cca32434a86532a2943a9f541304f6fb27be9c77cc53"
+    },
+    {
+      "path": "assets/astra/v09/A06-01-shadow.png",
+      "sha256": "42fa882e3a3497b0772775f6f31a2526f6aba6f8c1f3a9570c5c94bf90bce657"
+    },
+    {
+      "path": "assets/astra/v09/A06-02-shadow.png",
+      "sha256": "d0bd5ffea8210af20866e87b0682995711418214470243d6900c2c7b2c1940ab"
+    },
+    {
+      "path": "assets/astra/v09/A09-01-shadow.png",
+      "sha256": "0e2d9086bef4db7c9f893d84cf2c206bc469798eacd43db98e03ae206486e0b0"
+    },
+    {
+      "path": "assets/astra/v09/A09-02-shadow.png",
+      "sha256": "60e571559406acd581adb7f09023d88d41029886710cb0166a920c4813f502f1"
+    },
+    {
+      "path": "assets/astra/v09/A10-01-shadow.png",
+      "sha256": "b1a24e193cfe6d2ee85bc8c3ba9f2fdc3c13b8924b99dad796af3ac8e25db77d"
+    },
+    {
+      "path": "assets/astra/v09/A10-02-shadow.png",
+      "sha256": "afe91abf358390538d23f30916a2be9d6b1c7c62924c2dc3af10038074af7ed1"
+    },
+    {
+      "path": "assets/astra/v09/A10-03-shadow.png",
+      "sha256": "9ceb7ef49da5dfce905ca75cfcb6f704d24df60eb8795d8965f43e2c16ba5884"
+    },
+    {
+      "path": "assets/astra/v09/A11-01-shadow.png",
+      "sha256": "ab1aa408c64e04dcb6c1bcd82bd441300efbe55d3ac064f130290395d236e222"
+    },
+    {
+      "path": "assets/astra/v09/A11-02-shadow.png",
+      "sha256": "06cc23aa4ae9f989f3ce71160ca5f2eb5accd09d4e5e8fd4a6008fe956c8fd84"
+    },
+    {
+      "path": "assets/astra/v09/A11-03-shadow.png",
+      "sha256": "1fc8433e63419fa8eb690c0af24ac9435a2267af95f9cb5b05bfe99e08b930b9"
+    },
+    {
+      "path": "assets/astra/v09/A12-01-shadow.png",
+      "sha256": "510d3190972934e5f1e3d2b7ae04996a6f23aafbbf8a8ea68c69381d605eb105"
+    },
+    {
+      "path": "assets/astra/v09/A12-02-shadow.png",
+      "sha256": "9081895880cf81b900635bc7046770dd0e08a1f171ee94c5ff355522e4532171"
+    },
+    {
+      "path": "assets/astra/v09/A13-01-shadow.png",
+      "sha256": "b1bdd9adee571ff3680d6e59ab0727b1aa2531f3e127d94d0a866eb52c175bf7"
+    },
+    {
+      "path": "assets/astra/v09/A13-02-shadow.png",
+      "sha256": "faa8826f94ea295a2efad94afd89ba8e521ffc90702010e94b1ecbf4ac4c77a6"
+    },
+    {
+      "path": "assets/astra/v09/A13-03-shadow.png",
+      "sha256": "1cdb35419408cc2e05a1746ba0adf5b1bcf1bffd0ae8b8082d509e754bce03f0"
+    },
+    {
+      "path": "assets/astra/v09/A14-01-shadow.png",
+      "sha256": "0772669d5ead599d27502c844f6bcf5e2ce8a1995fc0494a9bcf568fe7139fc5"
+    },
+    {
+      "path": "assets/astra/v09/A14-02-shadow.png",
+      "sha256": "c5b3c17a26f6bcd2128d97cedcc9d219763c98f320c2fbaefcc3876480492762"
+    },
+    {
+      "path": "assets/astra/v09/A14-03-shadow.png",
+      "sha256": "8a6d4700897c50889403970211752ce6edf4c419474f9e83452e79820520a273"
+    },
+    {
+      "path": "assets/astra/v09/A15-01-inkface.png",
+      "sha256": "3b523f7ebac61af7d6ae6d53327e3b67bf038cf85e59421c68996cf9a5941d3a"
+    },
+    {
+      "path": "assets/astra/v09/A15-02-inkface.png",
+      "sha256": "ffcf3c32cfc10af2ef046ee6faa3c6cabdce065d7b86a5e57e7db986d4437c6f"
+    },
+    {
+      "path": "assets/astra/v09/A16-01-inkface.png",
+      "sha256": "7c79cda8170f7e842fbb76dafb53bf678acf63e3f08314ce1f18ebc1f4447ffc"
+    },
+    {
+      "path": "assets/astra/v09/A16-02-inkface.png",
+      "sha256": "bbf7b68eaecf94fc29db4c46b81b0173cc2ef5a39db5bb4d3a60d9d0a841c1f4"
+    },
+    {
+      "path": "assets/astra/v09/A17-01-inkface.png",
+      "sha256": "1edc18e4418920ec5edb1d2e6260e828206db37fd413b21edc1006d691d1b039"
+    },
+    {
+      "path": "assets/astra/v09/A17-02-inkface.png",
+      "sha256": "36882cc2abaf74318573eae3755012be16e99edf2ffa0c5b672d90e327d1457d"
+    },
+    {
+      "path": "assets/astra/v09/A18-01-inkface.png",
+      "sha256": "9a2c41ad34a2b0fdfe2e8fc3c0747ff11220c6b83c9d65e409ec8a6baa9c2c07"
+    },
+    {
+      "path": "assets/astra/v09/A18-02-inkface.png",
+      "sha256": "2cd996c40c184273aff35b1aacefc8eb46f303c4f54481e72c9af0492a8e4322"
+    },
+    {
+      "path": "assets/astra/v09/A20-01-shadow.png",
+      "sha256": "48751b072d4247b015ec1033d4bccbb13686691c4a2c33620b3915186d6c1a1a"
+    },
+    {
+      "path": "assets/astra/v09/A20-02-shadow.png",
+      "sha256": "875d6153dff99234eb4489886ba59152f192a89364670234b93d534ce98b2b2a"
+    },
+    {
+      "path": "assets/astra/v09/A20-03-shadow.png",
+      "sha256": "339d4922c2a3a73fd22f592874552c577ec272d372949c751ab28079a2347d77"
+    },
+    {
+      "path": "assets/astra/v09/A21-01-shadow.png",
+      "sha256": "0c607c9fc0f2865e093cfdc969e5dfc0a1c9ab513fe66b5ab1e87bb3bfa3c91e"
+    },
+    {
+      "path": "assets/astra/v09/A21-02-shadow.png",
+      "sha256": "ae4a21dbc30b545ce398ca2a09a761b18379b4dfcdac73d587f5cd58206a3381"
+    },
+    {
+      "path": "assets/astra/v12-approved-cat/A19-01-anticipate.png",
+      "sha256": "5f02028d99a4ae088b24ea4c794793bbd315307655cb2974b3bae88581fc0969"
+    },
+    {
+      "path": "assets/astra/v12-approved-cat/A19-02-approved.png",
+      "sha256": "c02461813af3c9bf00fc6e1e530c2935bf379eff591582d10bc172245aa8b90c"
+    },
+    {
+      "path": "assets/astra/v12-approved-cat/A19-03-listen.png",
+      "sha256": "8b6affdec25238cb0eddc45fcb188408a583e321683bffc72c2a1faa04907ba1"
+    },
+    {
+      "path": "assets/astra/v13-book-review/A08-01-seated-turn-v6-head-redraw.png",
+      "sha256": "71e54fdff66097fef4cd8e49122b1cc74906dd75a7c63a4b827556977baede72"
+    },
+    {
+      "path": "assets/astra/v13-book-review/A08-02-seated-record-v6-head-redraw.png",
+      "sha256": "36af57dff7f2875c0a00ee31f5e4d3fde80c22216c8a3f7dcab5240a14ca283a"
+    },
+    {
+      "path": "assets/astra/v14-boundary-review/A02-01-approach-v3-leg-redraw.png",
+      "sha256": "726880792942ff23853b32e8df13f593af9a16eaecf333d01e0f13f59f45b430"
+    },
+    {
+      "path": "assets/astra/v14-boundary-review/A02-02-contact-v6-perspective.png",
+      "sha256": "b393e4c3218a53c8be5089684a6958e3ee9dfdca0907f8cf928ac3ba28e4488e"
+    },
+    {
+      "path": "assets/astra/v14-boundary-review/A02-03-withdraw-v3-leg-redraw.png",
+      "sha256": "a80a3aa018db6e0e6d91a10a3cef7a2042d34e7a448248d29cfc0df27d4f0486"
+    },
+    {
+      "path": "assets/astra/v15-refusal-review/A07-01-request-knots-perspective-v2.png",
+      "sha256": "d3716551e89c0f3259bdebb4378124ddc23345700f5b4c09c77ef5feef1af8a8"
+    },
+    {
+      "path": "assets/astra/v15-refusal-review/A07-02-contact-knots-perspective-v5-alpha.png",
+      "sha256": "66d270bbb771ed348449fc9b112514eb6ce34c3c29bebf5920b0f067cf35685f"
+    },
+    {
+      "path": "assets/astra/v15-refusal-review/A07-03-retreat-knots-perspective-v2.png",
+      "sha256": "83bb617d5a33accab7353c21184e65a8dc82b43ba7ae1d75cadc16a2befd0d35"
+    },
+    {
+      "path": "assets/astra/v16-withdraw-review/recoil-redraw-knots-perspective-v2.png",
+      "sha256": "85ce8c1b6fa88ec3c2ac9c0cb43e0694b2ec28ed2a1c9507fda64c675334bbca"
+    },
+    {
+      "path": "assets/astra/v17-ending-review/recognition-smile-knots-perspective-v2.png",
+      "sha256": "e77695402069392baa30a451e72711d87e07cc677d80a334fa3adc1cdb9b2b01"
+    },
+    {
+      "path": "assets/astra/v17-ending-review/recognition-surprise-knots-perspective-v2.png",
+      "sha256": "8f508066335b79f4bb0cc5ac81dbcaba4be0f82271a4c3e1bb519187e76e69dc"
+    },
+    {
+      "path": "assets/astra/v18-wave-hand-review/A04-02-wave-receive-v6-hand-redraw.png",
+      "sha256": "63f2c6192072abb12a2ff55e5970c0783fa074ed9ee4c626d8913774c33cd443"
+    },
+    {
+      "path": "data/production-v5/lyrics.en-zh.json",
+      "sha256": "eedc44428b46369d7bd8517a1afa0f89d5f7b7e2c7c3f8f2f74d06d10b7d1b38"
+    },
+    {
+      "path": "data/production-v5/timeline.json",
+      "sha256": "87ed12a597aa936fb0c20cb924d296aa392c13b1effa947d1e983ff32a1aebf3"
+    },
+    {
+      "path": "data/production-v52/audio-accents.json",
+      "sha256": "409dd5bf2c37321c2c045144b54620710904c2efe32bc7d2c7bef1dcdd2e713e"
+    },
+    {
+      "path": "data/production-v52final/candidate-map.json",
+      "sha256": "a35062c820f259092903410dfae5d91c448cecc75be8b4983d198af032782840"
+    },
+    {
+      "path": "data/production-v52final/manifest.json",
+      "sha256": "aea2ec5ad6eda446fafe1644eb74252ddd4fade607ccfa0c23cc2ce9b1263d02"
+    },
+    {
+      "path": "data/production-v52final/prepare-report.json",
+      "sha256": "b311d2fd5afd89f83117c31b2a10274fd78e6dbdb7c8065ce2fa7196f91e1392"
+    },
+    {
+      "path": "docs/production-v52/feedback-round2/protected-baseline.json",
+      "sha256": "422d2c95a9d131dd9590a6974fa3227f67035ccff2e5934848fc1f47895f2c4c"
+    },
+    {
+      "path": "exports/astra-world-execute-me-final-v5-playback-4k60.mp4",
+      "sha256": "65d6ebc725912a6b8c2eaee2c378cde3eab204342b025d127dd829890cf50e17"
+    },
+    {
+      "path": "exports/astra-world-execute-me-final-v5.1-cat-warning-hires-4k60.mp4",
+      "sha256": "19f4a76abfc61c1990d056d018e164ec61e93d147af1436f244cfa57261b7407"
+    },
+    {
+      "path": "media/audio/mili-world-execute-original-bilibili.m4a",
+      "sha256": "b06f195e2a479c25c3282f4ca5b931e293c4a35a941acf6dd5b515ba4890f34a"
+    },
+    {
+      "path": "src/full/vendor/trace.js",
+      "sha256": "ad118d4691a2ebc19c81bac71fb95e111ca68170b103d35bfe35030bf7d6c0b4"
+    },
+    {
+      "path": "src/mv52final/art.js",
+      "sha256": "be9a32ab17d8525a94f5a5c602aae2ec2119e96136377541366128e359ef6bd0"
+    },
+    {
+      "path": "src/mv52final/early.js",
+      "sha256": "a3981d5a6046c59bf5b5e669ec1e51fb0229f76763841f5cc51082280e9d5724"
+    },
+    {
+      "path": "src/mv52final/extra-light.js",
+      "sha256": "1db97b8c2e91b4c412c0d7054dd61d376a3a600901d79fe2fe10f55fe5a44224"
+    },
+    {
+      "path": "src/mv52final/index.html",
+      "sha256": "0ff7d066722fdc1792156a38cace6e27817d7999fc0400992caaeb05ef991b07"
+    },
+    {
+      "path": "src/mv52final/kit.js",
+      "sha256": "0b945e5ae274cb766eb064dfdd0f26e547d71797f1a620fcc54dc927fc48b3ea"
+    },
+    {
+      "path": "src/mv52final/late.js",
+      "sha256": "00bd27b75d47650f09c951b85232997406fc61c6edb77807ae17498ae02e168b"
+    },
+    {
+      "path": "src/mv52final/lighting.js",
+      "sha256": "af5e4fee772efcae372ffe37077d796edb8bfa938342fa8af090f35238a431cd"
+    },
+    {
+      "path": "src/mv52final/main.js",
+      "sha256": "bb643cfe5bd97c1d2b8c13a2f1f75650e6d9403ebf5f41041fe780e9eb29c03b"
+    },
+    {
+      "path": "src/mv52final/middle.js",
+      "sha256": "abfdc056862ecb5d2cb46eb3d0bdaed52c94ba19863c9ac460aa7e9645246789"
+    },
+    {
+      "path": "src/mv52final/neural.js",
+      "sha256": "8efccaa883b1c4a929d1b82a11a676c3830febb4e70639818f12cf09de098847"
+    },
+    {
+      "path": "src/mv52final/spatial-neural.js",
+      "sha256": "bdccda032ded86df70afc804ed191e21a930494c57ce61c21b7d0125ce35a8e0"
+    },
+    {
+      "path": "tools/render/export_final_v52.mjs",
+      "sha256": "23bbe9969bcebc8a7536f52c638669bcf49b8bef6840c8a334f9f98224711234"
+    },
+    {
+      "path": "tools/render/export_v52_frames.mjs",
+      "sha256": "0415c379a62a654e8bdc44c473494bc1d548b7328c3bfe86ffec2e7f22173623"
+    }
+  ],
+  "fingerprint": "d6e32ee8b1b85035ffc9f46da55521bbf80fc4a708c733d23aee322da7da4d93",
+  "runtime_qa": {
+    "path": "exports/qa-v52-final/runtime.json",
+    "sha256": "ca625395f86c1c1dc627ce6103ce7f9c8797486bad09d81ebee03d08c31a4c64",
+    "fingerprint": "64013f9fcb0d32c5241fd75472924be209b62861c7f9872869923de7ab2c40eb",
+    "verified_input_count": 97
+  },
+  "body": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\.cache\\full-export-v52\\3840x2160\\d6e32ee8b1b85035\\body-video-only.mp4",
+  "prefix": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\.cache\\full-export-v52\\3840x2160\\d6e32ee8b1b85035\\purple-warning-300.mp4",
+  "preflight_passed": true,
+  "render_elapsed_seconds": 1612.18,
+  "body_sha256": "26603423d957d4028b506d4e4f5aa9343f3068dbed26ae6993d6b2c9f055de00",
+  "output_sha256": "e76f5208861df5e10f4fc64f515d36b50dd9daf8b6e563f24ac56f99200e8402",
+  "output_bytes": 816343779,
+  "verification_report": "exports/final-v5.2/verification.json",
+  "finished_at": "2026-11-06T02:14:06.645Z",
+  "elapsed_seconds": 1676.523
+}

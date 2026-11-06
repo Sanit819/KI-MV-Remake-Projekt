@@ -1,0 +1,210 @@
+{
+  "passed": true,
+  "checks": {
+    "count_13400": true,
+    "all_pts_exact_n_over_60": true,
+    "all_packet_durations_1_over_60": true,
+    "strict_decode_timestamps": true,
+    "warning_300_packet_payloads_identical": true,
+    "warning_300_packet_times_identical": true,
+    "parts_cover_13100_body_frames_once": true,
+    "part_1": true,
+    "part_2": true,
+    "part_3": true,
+    "part_4": true,
+    "body_count_13100_and_payloads_preserved": true,
+    "body_shift_exact_five_seconds": true,
+    "body_file_hash_matches_render": true,
+    "all_join_timestamps_contiguous": true
+  },
+  "timebase": "1/60000",
+  "parts": [
+    {
+      "index": 1,
+      "full_frame_interval": [
+        300,
+        3600
+      ],
+      "checks": {
+        "frame_count": true,
+        "all_payloads_equal_final_interval": true,
+        "every_PTS_DTS_shift_exact": true,
+        "part_file_hash_matches_render": true
+      },
+      "timebase": "1/15360"
+    },
+    {
+      "index": 2,
+      "full_frame_interval": [
+        3600,
+        6900
+      ],
+      "checks": {
+        "frame_count": true,
+        "all_payloads_equal_final_interval": true,
+        "every_PTS_DTS_shift_exact": true,
+        "part_file_hash_matches_render": true
+      },
+      "timebase": "1/15360"
+    },
+    {
+      "index": 3,
+      "full_frame_interval": [
+        6900,
+        10200
+      ],
+      "checks": {
+        "frame_count": true,
+        "all_payloads_equal_final_interval": true,
+        "every_PTS_DTS_shift_exact": true,
+        "part_file_hash_matches_render": true
+      },
+      "timebase": "1/15360"
+    },
+    {
+      "index": 4,
+      "full_frame_interval": [
+        10200,
+        13400
+      ],
+      "checks": {
+        "frame_count": true,
+        "all_payloads_equal_final_interval": true,
+        "every_PTS_DTS_shift_exact": true,
+        "part_file_hash_matches_render": true
+      },
+      "timebase": "1/15360"
+    }
+  ],
+  "joins": [
+    {
+      "full_frame": 300,
+      "full_seconds": 5.0,
+      "samples": [
+        {
+          "frame": 298,
+          "pts": "149/30",
+          "duration": "1/60"
+        },
+        {
+          "frame": 299,
+          "pts": "299/60",
+          "duration": "1/60"
+        },
+        {
+          "frame": 300,
+          "pts": "5",
+          "duration": "1/60"
+        },
+        {
+          "frame": 301,
+          "pts": "301/60",
+          "duration": "1/60"
+        },
+        {
+          "frame": 302,
+          "pts": "151/30",
+          "duration": "1/60"
+        }
+      ],
+      "passed": true
+    },
+    {
+      "full_frame": 3600,
+      "full_seconds": 60.0,
+      "samples": [
+        {
+          "frame": 3598,
+          "pts": "1799/30",
+          "duration": "1/60"
+        },
+        {
+          "frame": 3599,
+          "pts": "3599/60",
+          "duration": "1/60"
+        },
+        {
+          "frame": 3600,
+          "pts": "60",
+          "duration": "1/60"
+        },
+        {
+          "frame": 3601,
+          "pts": "3601/60",
+          "duration": "1/60"
+        },
+        {
+          "frame": 3602,
+          "pts": "1801/30",
+          "duration": "1/60"
+        }
+      ],
+      "passed": true
+    },
+    {
+      "full_frame": 6900,
+      "full_seconds": 115.0,
+      "samples": [
+        {
+          "frame": 6898,
+          "pts": "3449/30",
+          "duration": "1/60"
+        },
+        {
+          "frame": 6899,
+          "pts": "6899/60",
+          "duration": "1/60"
+        },
+        {
+          "frame": 6900,
+          "pts": "115",
+          "duration": "1/60"
+        },
+        {
+          "frame": 6901,
+          "pts": "6901/60",
+          "duration": "1/60"
+        },
+        {
+          "frame": 6902,
+          "pts": "3451/30",
+          "duration": "1/60"
+        }
+      ],
+      "passed": true
+    },
+    {
+      "full_frame": 10200,
+      "full_seconds": 170.0,
+      "samples": [
+        {
+          "frame": 10198,
+          "pts": "5099/30",
+          "duration": "1/60"
+        },
+        {
+          "frame": 10199,
+          "pts": "10199/60",
+          "duration": "1/60"
+        },
+        {
+          "frame": 10200,
+          "pts": "170",
+          "duration": "1/60"
+        },
+        {
+          "frame": 10201,
+          "pts": "10201/60",
+          "duration": "1/60"
+        },
+        {
+          "frame": 10202,
+          "pts": "5101/30",
+          "duration": "1/60"
+        }
+      ],
+      "passed": true
+    }
+  ],
+  "scope": "All compressed video packets, counts, payloads, exact PTS/DTS shifts and durations. Changed body is compared only with its new render parts."
+}

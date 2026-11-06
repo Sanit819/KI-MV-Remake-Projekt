@@ -1,0 +1,115 @@
+{
+  "date": "2026-11-06",
+  "status": "independent_preview_candidate_not_formal_production",
+  "generator": "built-in image_gen",
+  "edit_target": "assets/astra/v14-boundary-review/A02-02-contact-v5-perspective.png",
+  "edit_target_sha256": "7ff6563296e1c4ea01369e646ea066a76cdd180c6f89c5375164649887c68521",
+  "edit_target_unchanged_from_pre_edit_inspection": true,
+  "topology_reference": "assets/astra/v02/openai-openwork.png",
+  "topology_reference_sha256": "c878f96469bdc1ef84b08872c13e3a926e995ab5f8b337666f6d3ec1f50eed14",
+  "candidate": "assets/astra/v14-boundary-review/A02-02-contact-v6-perspective.png",
+  "sha256": "b393e4c3218a53c8be5089684a6958e3ee9dfdca0907f8cf928ac3ba28e4488e",
+  "native_generated_file": "C:\\Users\\auscar\\.codex\\generated_images\\01a1acd4-3d6c-7fc3-9df6-24f2c44de01f\\exec-9976e073-246f-469d-a861-b46e28f67f94.png",
+  "native_copy_identical": true,
+  "prompt": "assets/astra/v14-boundary-review/A02-02-contact-v6-perspective.prompt.txt",
+  "width": 1189,
+  "height": 1323,
+  "mode": "RGBA",
+  "alpha_extrema": [
+    0,
+    255
+  ],
+  "requested_edit_regions": [
+    [
+      "near-shoulder",
+      [
+        550,
+        364,
+        630,
+        436
+      ]
+    ],
+    [
+      "left-hem",
+      [
+        229,
+        1064,
+        312,
+        1149
+      ]
+    ]
+  ],
+  "protected_check_regions": [
+    [
+      "face",
+      [
+        688,
+        211,
+        784,
+        320
+      ]
+    ],
+    [
+      "raised-palm-wrist",
+      [
+        996,
+        257,
+        1122,
+        440
+      ]
+    ],
+    [
+      "chest-hand",
+      [
+        638,
+        367,
+        731,
+        495
+      ]
+    ],
+    [
+      "near-waist",
+      [
+        574,
+        526,
+        671,
+        621
+      ]
+    ],
+    [
+      "far-waist",
+      [
+        674,
+        544,
+        724,
+        622
+      ]
+    ],
+    [
+      "far-shoulder",
+      [
+        759,
+        366,
+        829,
+        422
+      ]
+    ]
+  ],
+  "pixel_invariance_claimed": false,
+  "artwork_postprocessing": false,
+  "outside_requested_regions": {
+    "mean_abs_channel_difference": 9.595609499100133,
+    "exact_pixel_fraction": 0.4354339611032205,
+    "maxchannel_delta_over16_fraction": 0.1491829420240067
+  },
+  "inspection": {
+    "full_saved_png_viewed": true,
+    "two_target_crops_viewed": true,
+    "protected_crops_viewed": true,
+    "notes": "Viewed saved full PNG and target/protected comparison boards. Near-shoulder and left-hem central dots now read as wider angular openings exposing cloth. Far waist remains vertically narrow; far shoulder remains flattened oblique. No obvious new face, side-on palm, chest-hand or whole-body distortion observed.",
+    "observed_drift": "Near-shoulder outer footprint increased slightly; protected near-waist center color changed from deep purple toward lighter purple while its topology/plane remained visually similar. Not pixel-local editing.",
+    "limits": "Hair/far shoulder/far waist/opposite hem and small shoes retain earlier uncertain topology status; no mathematical topology certification, no user approval, no new measured runtime anchors."
+  },
+  "formal_manifest_src_video_modified": false,
+  "new_runtime_anchors_measured": false
+}

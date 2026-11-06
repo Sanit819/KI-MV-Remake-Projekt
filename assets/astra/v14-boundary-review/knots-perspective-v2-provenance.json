@@ -1,0 +1,459 @@
+[
+  {
+    "status": "candidate_user_review_pending_not_integrated",
+    "date": "2026-11-06",
+    "generator": "built-in image_gen",
+    "mode": "precise-object-edit",
+    "path": "assets/astra/v14-boundary-review/A02-01-approach-knots-perspective-v2.png",
+    "source": "C:\\Users\\auscar\\.codex\\generated_images\\01a1acd7-8afe-7f82-9ce6-a05053353388\\exec-ca81f3ba-4f64-430d-8c6f-d5a516d2a843.png",
+    "bytes": 1616240,
+    "sha256": "3cac63b1b5b94f6a5b221c0ee17f32a52d43e2ac7a3e1027caae28050ac8b792",
+    "source_sha256": "3cac63b1b5b94f6a5b221c0ee17f32a52d43e2ac7a3e1027caae28050ac8b792",
+    "source_copy_identical": true,
+    "width": 1189,
+    "height": 1323,
+    "mode_pixels": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "corner_alpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "baseline": "assets/astra/v14-boundary-review/A02-01-approach.png",
+    "baseline_sha256": "ecd92ec70f34a521cee9a681a928b744d99f234c01f53cd3d0b23e50b4442f27",
+    "baseline_matches_pre_edit_audit": true,
+    "prompt": "assets/astra/v14-boundary-review/A02-01-approach-knots-perspective-v2.prompt.txt",
+    "reference_inputs": [
+      "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\assets\\astra\\v14-boundary-review\\A02-01-approach.png",
+      "assets/astra/v02/openai-openwork.png"
+    ],
+    "reference_roles": [
+      "edit target; approved anatomy to preserve",
+      "topology reference only; not composited or pasted"
+    ],
+    "inspection_sheet": "exports/review-v52/knot-inspection/v14-01-perspective-v2.png",
+    "positions": [
+      {
+        "group": "v14-01",
+        "source": "assets/astra/v14-boundary-review/A02-01-approach.png",
+        "label": "hair",
+        "bbox_xyxy": [
+          705,
+          95,
+          815,
+          207
+        ],
+        "native_crop_size": [
+          110,
+          112
+        ],
+        "preview_scale": 2.2857142857142856,
+        "preview_method": "nearest-neighbor crop enlargement; source PNG unchanged",
+        "candidate_verdict": "visually_improved_candidate",
+        "candidate_finding": "Six-way band structure and open central negative shape are readable at source enlargement; motif follows the existing local tilted surface. No mathematical topology or user acceptance claimed.",
+        "raw_full_image_viewed": true,
+        "crop_viewed": true
+      },
+      {
+        "group": "v14-01",
+        "source": "assets/astra/v14-boundary-review/A02-01-approach.png",
+        "label": "shoulder-near",
+        "bbox_xyxy": [
+          490,
+          377,
+          596,
+          467
+        ],
+        "native_crop_size": [
+          106,
+          90
+        ],
+        "preview_scale": 2.4150943396226414,
+        "preview_method": "nearest-neighbor crop enlargement; source PNG unchanged",
+        "candidate_verdict": "visually_improved_candidate",
+        "candidate_finding": "Six-way band structure and open central negative shape are readable at source enlargement; motif follows the existing local tilted surface. No mathematical topology or user acceptance claimed.",
+        "raw_full_image_viewed": true,
+        "crop_viewed": true
+      },
+      {
+        "group": "v14-01",
+        "source": "assets/astra/v14-boundary-review/A02-01-approach.png",
+        "label": "shoulder-far",
+        "bbox_xyxy": [
+          747,
+          338,
+          826,
+          417
+        ],
+        "native_crop_size": [
+          79,
+          79
+        ],
+        "preview_scale": 3.240506329113924,
+        "preview_method": "nearest-neighbor crop enlargement; source PNG unchanged",
+        "candidate_verdict": "plausible_foreshortened_not_fully_counted",
+        "candidate_finding": "Substantially compressed/slanted with its own arm/belt surface. A dark central opening is visible; compression and overlap prevent independent certification of all six crossings.",
+        "raw_full_image_viewed": true,
+        "crop_viewed": true
+      },
+      {
+        "group": "v14-01",
+        "source": "assets/astra/v14-boundary-review/A02-01-approach.png",
+        "label": "waist-near",
+        "bbox_xyxy": [
+          513,
+          526,
+          630,
+          637
+        ],
+        "native_crop_size": [
+          117,
+          111
+        ],
+        "preview_scale": 2.1880341880341883,
+        "preview_method": "nearest-neighbor crop enlargement; source PNG unchanged",
+        "candidate_verdict": "visually_improved_candidate",
+        "candidate_finding": "Six-way band structure and open central negative shape are readable at source enlargement; motif follows the existing local tilted surface. No mathematical topology or user acceptance claimed.",
+        "raw_full_image_viewed": true,
+        "crop_viewed": true
+      },
+      {
+        "group": "v14-01",
+        "source": "assets/astra/v14-boundary-review/A02-01-approach.png",
+        "label": "waist-far",
+        "bbox_xyxy": [
+          659,
+          524,
+          740,
+          620
+        ],
+        "native_crop_size": [
+          81,
+          96
+        ],
+        "preview_scale": 2.6666666666666665,
+        "preview_method": "nearest-neighbor crop enlargement; source PNG unchanged",
+        "candidate_verdict": "plausible_foreshortened_not_fully_counted",
+        "candidate_finding": "Substantially compressed/slanted with its own arm/belt surface. A dark central opening is visible; compression and overlap prevent independent certification of all six crossings.",
+        "raw_full_image_viewed": true,
+        "crop_viewed": true
+      },
+      {
+        "group": "v14-01",
+        "source": "assets/astra/v14-boundary-review/A02-01-approach.png",
+        "label": "hem-left",
+        "bbox_xyxy": [
+          188,
+          1048,
+          292,
+          1150
+        ],
+        "native_crop_size": [
+          104,
+          102
+        ],
+        "preview_scale": 2.4615384615384617,
+        "preview_method": "nearest-neighbor crop enlargement; source PNG unchanged",
+        "candidate_verdict": "visually_improved_candidate",
+        "candidate_finding": "Six-way band structure and open central negative shape are readable at source enlargement; motif follows the existing local tilted surface. No mathematical topology or user acceptance claimed.",
+        "raw_full_image_viewed": true,
+        "crop_viewed": true
+      },
+      {
+        "group": "v14-01",
+        "source": "assets/astra/v14-boundary-review/A02-01-approach.png",
+        "label": "hem-right",
+        "bbox_xyxy": [
+          712,
+          1109,
+          816,
+          1204
+        ],
+        "native_crop_size": [
+          104,
+          95
+        ],
+        "preview_scale": 2.4615384615384617,
+        "preview_method": "nearest-neighbor crop enlargement; source PNG unchanged",
+        "candidate_verdict": "visually_improved_candidate",
+        "candidate_finding": "Six-way band structure and open central negative shape are readable at source enlargement; motif follows the existing local tilted surface. No mathematical topology or user acceptance claimed.",
+        "raw_full_image_viewed": true,
+        "crop_viewed": true
+      },
+      {
+        "group": "v14-01",
+        "source": "assets/astra/v14-boundary-review/A02-01-approach.png",
+        "label": "shoe-left",
+        "bbox_xyxy": [
+          412,
+          1202,
+          485,
+          1276
+        ],
+        "native_crop_size": [
+          73,
+          74
+        ],
+        "preview_scale": 3.4594594594594597,
+        "preview_method": "nearest-neighbor crop enlargement; source PNG unchanged",
+        "candidate_verdict": "uncertain_small_source",
+        "candidate_finding": "Follows a shallow instep ellipse rather than an upright badge; source is too small to certify every crossing or exact loop count.",
+        "raw_full_image_viewed": true,
+        "crop_viewed": true
+      },
+      {
+        "group": "v14-01",
+        "source": "assets/astra/v14-boundary-review/A02-01-approach.png",
+        "label": "shoe-right",
+        "bbox_xyxy": [
+          668,
+          1238,
+          743,
+          1313
+        ],
+        "native_crop_size": [
+          75,
+          75
+        ],
+        "preview_scale": 3.4133333333333336,
+        "preview_method": "nearest-neighbor crop enlargement; source PNG unchanged",
+        "candidate_verdict": "uncertain_small_source",
+        "candidate_finding": "Follows a shallow instep ellipse rather than an upright badge; source is too small to certify every crossing or exact loop count.",
+        "raw_full_image_viewed": true,
+        "crop_viewed": true
+      }
+    ],
+    "visual_review_status": "Generated result and saved full PNG actually viewed, followed by each recorded diagnostic crop. Candidate only, user review pending.",
+    "native_pixel_lock_achieved": false,
+    "outside_roi_visible_pixels": 710867,
+    "outside_roi_mean_max_abs_premultiplied_rgb_delta": 24.964627403206634,
+    "outside_roi_share_delta_gt8": 0.4369818826869161,
+    "silhouette_iou_alpha_gt128": 0.9779302831134846,
+    "measurement_note": "Unaligned same-canvas comparison. Generative line/color/edge drift is measured and not hidden by copying baseline pixels. Old original remains unchanged.",
+    "integration": "No active manifest, production source or formal movie changed.",
+    "whole_body_review": "Approved approach/withdraw pose, black face, horns, ears, hands, leg/ankle direction and source framing retained visually. No new obvious limb connection problem observed. Not pixel-identical.",
+    "projection_review": "Shoulder and waist near/far motifs have different axes and foreshortening; far waist is much narrower. Shoes follow instep planes. No new uniform frontal badge treatment observed, but final aesthetic/perspective acceptance remains with user."
+  },
+  {
+    "status": "candidate_user_review_pending_not_integrated",
+    "date": "2026-11-06",
+    "generator": "built-in image_gen",
+    "mode": "precise-object-edit",
+    "path": "assets/astra/v14-boundary-review/A02-03-withdraw-knots-perspective-v2.png",
+    "source": "C:\\Users\\auscar\\.codex\\generated_images\\01a1acd7-8afe-7f82-9ce6-a05053353388\\exec-c449f66d-684d-4472-96ca-5f6b7f2c1545.png",
+    "bytes": 1565162,
+    "sha256": "417783e103480a1a418ab4bcc4c7da9c63d8fc54f295a4cf039de7b9ffcf157b",
+    "source_sha256": "417783e103480a1a418ab4bcc4c7da9c63d8fc54f295a4cf039de7b9ffcf157b",
+    "source_copy_identical": true,
+    "width": 1189,
+    "height": 1323,
+    "mode_pixels": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "corner_alpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "baseline": "assets/astra/v14-boundary-review/A02-03-withdraw.png",
+    "baseline_sha256": "13766afc9a82de875e1b1bce5f1a48c317506d1a926dc953ca0bbefcf7f3ae85",
+    "baseline_matches_pre_edit_audit": true,
+    "prompt": "assets/astra/v14-boundary-review/A02-03-withdraw-knots-perspective-v2.prompt.txt",
+    "reference_inputs": [
+      "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\assets\\astra\\v14-boundary-review\\A02-03-withdraw.png",
+      "assets/astra/v02/openai-openwork.png"
+    ],
+    "reference_roles": [
+      "edit target; approved anatomy to preserve",
+      "topology reference only; not composited or pasted"
+    ],
+    "inspection_sheet": "exports/review-v52/knot-inspection/v14-03-perspective-v2.png",
+    "positions": [
+      {
+        "group": "v14-03",
+        "source": "assets/astra/v14-boundary-review/A02-03-withdraw.png",
+        "label": "hair",
+        "bbox_xyxy": [
+          716,
+          116,
+          820,
+          230
+        ],
+        "native_crop_size": [
+          104,
+          114
+        ],
+        "preview_scale": 2.245614035087719,
+        "preview_method": "nearest-neighbor crop enlargement; source PNG unchanged",
+        "candidate_verdict": "visually_improved_candidate",
+        "candidate_finding": "Six-way band structure and open central negative shape are readable at source enlargement; motif follows the existing local tilted surface. No mathematical topology or user acceptance claimed.",
+        "raw_full_image_viewed": true,
+        "crop_viewed": true
+      },
+      {
+        "group": "v14-03",
+        "source": "assets/astra/v14-boundary-review/A02-03-withdraw.png",
+        "label": "shoulder-near",
+        "bbox_xyxy": [
+          477,
+          374,
+          578,
+          469
+        ],
+        "native_crop_size": [
+          101,
+          95
+        ],
+        "preview_scale": 2.5346534653465347,
+        "preview_method": "nearest-neighbor crop enlargement; source PNG unchanged",
+        "candidate_verdict": "visually_improved_candidate",
+        "candidate_finding": "Six-way band structure and open central negative shape are readable at source enlargement; motif follows the existing local tilted surface. No mathematical topology or user acceptance claimed.",
+        "raw_full_image_viewed": true,
+        "crop_viewed": true
+      },
+      {
+        "group": "v14-03",
+        "source": "assets/astra/v14-boundary-review/A02-03-withdraw.png",
+        "label": "waist-near",
+        "bbox_xyxy": [
+          526,
+          497,
+          637,
+          607
+        ],
+        "native_crop_size": [
+          111,
+          110
+        ],
+        "preview_scale": 2.3063063063063063,
+        "preview_method": "nearest-neighbor crop enlargement; source PNG unchanged",
+        "candidate_verdict": "visually_improved_candidate",
+        "candidate_finding": "Six-way band structure and open central negative shape are readable at source enlargement; motif follows the existing local tilted surface. No mathematical topology or user acceptance claimed.",
+        "raw_full_image_viewed": true,
+        "crop_viewed": true
+      },
+      {
+        "group": "v14-03",
+        "source": "assets/astra/v14-boundary-review/A02-03-withdraw.png",
+        "label": "waist-far",
+        "bbox_xyxy": [
+          673,
+          520,
+          749,
+          616
+        ],
+        "native_crop_size": [
+          76,
+          96
+        ],
+        "preview_scale": 2.6666666666666665,
+        "preview_method": "nearest-neighbor crop enlargement; source PNG unchanged",
+        "candidate_verdict": "plausible_foreshortened_not_fully_counted",
+        "candidate_finding": "Substantially compressed/slanted with its own arm/belt surface. A dark central opening is visible; compression and overlap prevent independent certification of all six crossings.",
+        "raw_full_image_viewed": true,
+        "crop_viewed": true
+      },
+      {
+        "group": "v14-03",
+        "source": "assets/astra/v14-boundary-review/A02-03-withdraw.png",
+        "label": "hem-left",
+        "bbox_xyxy": [
+          210,
+          1062,
+          312,
+          1161
+        ],
+        "native_crop_size": [
+          102,
+          99
+        ],
+        "preview_scale": 2.5098039215686274,
+        "preview_method": "nearest-neighbor crop enlargement; source PNG unchanged",
+        "candidate_verdict": "visually_improved_candidate",
+        "candidate_finding": "Six-way band structure and open central negative shape are readable at source enlargement; motif follows the existing local tilted surface. No mathematical topology or user acceptance claimed.",
+        "raw_full_image_viewed": true,
+        "crop_viewed": true
+      },
+      {
+        "group": "v14-03",
+        "source": "assets/astra/v14-boundary-review/A02-03-withdraw.png",
+        "label": "hem-right",
+        "bbox_xyxy": [
+          731,
+          1094,
+          831,
+          1194
+        ],
+        "native_crop_size": [
+          100,
+          100
+        ],
+        "preview_scale": 2.56,
+        "preview_method": "nearest-neighbor crop enlargement; source PNG unchanged",
+        "candidate_verdict": "visually_improved_candidate",
+        "candidate_finding": "Six-way band structure and open central negative shape are readable at source enlargement; motif follows the existing local tilted surface. No mathematical topology or user acceptance claimed.",
+        "raw_full_image_viewed": true,
+        "crop_viewed": true
+      },
+      {
+        "group": "v14-03",
+        "source": "assets/astra/v14-boundary-review/A02-03-withdraw.png",
+        "label": "shoe-left",
+        "bbox_xyxy": [
+          450,
+          1209,
+          526,
+          1281
+        ],
+        "native_crop_size": [
+          76,
+          72
+        ],
+        "preview_scale": 3.3684210526315788,
+        "preview_method": "nearest-neighbor crop enlargement; source PNG unchanged",
+        "candidate_verdict": "uncertain_small_source",
+        "candidate_finding": "Follows a shallow instep ellipse rather than an upright badge; source is too small to certify every crossing or exact loop count.",
+        "raw_full_image_viewed": true,
+        "crop_viewed": true
+      },
+      {
+        "group": "v14-03",
+        "source": "assets/astra/v14-boundary-review/A02-03-withdraw.png",
+        "label": "shoe-right",
+        "bbox_xyxy": [
+          687,
+          1236,
+          766,
+          1313
+        ],
+        "native_crop_size": [
+          79,
+          77
+        ],
+        "preview_scale": 3.240506329113924,
+        "preview_method": "nearest-neighbor crop enlargement; source PNG unchanged",
+        "candidate_verdict": "uncertain_small_source",
+        "candidate_finding": "Follows a shallow instep ellipse rather than an upright badge; source is too small to certify every crossing or exact loop count.",
+        "raw_full_image_viewed": true,
+        "crop_viewed": true
+      }
+    ],
+    "visual_review_status": "Generated result and saved full PNG actually viewed, followed by each recorded diagnostic crop. Candidate only, user review pending.",
+    "native_pixel_lock_achieved": false,
+    "outside_roi_visible_pixels": 710566,
+    "outside_roi_mean_max_abs_premultiplied_rgb_delta": 15.558690810027002,
+    "outside_roi_share_delta_gt8": 0.396890647737156,
+    "silhouette_iou_alpha_gt128": 0.9841961412522782,
+    "measurement_note": "Unaligned same-canvas comparison. Generative line/color/edge drift is measured and not hidden by copying baseline pixels. Old original remains unchanged.",
+    "integration": "No active manifest, production source or formal movie changed.",
+    "whole_body_review": "Approved approach/withdraw pose, black face, horns, ears, hands, leg/ankle direction and source framing retained visually. No new obvious limb connection problem observed. Not pixel-identical.",
+    "projection_review": "Shoulder and waist near/far motifs have different axes and foreshortening; far waist is much narrower. Shoes follow instep planes. No new uniform frontal badge treatment observed, but final aesthetic/perspective acceptance remains with user."
+  }
+]

@@ -1,0 +1,1702 @@
+{
+  "date": "2026-11-06",
+  "status": "inspection_complete_for_eight_listed_sources_repairs_pending",
+  "scope": "8人体获认可源图的52个可见GPT结饰；不含尚未收到最终版本的book，不包括正式全片所有历史资产。",
+  "reference_sources": [
+    "assets/astra/v02/openai-openwork.png",
+    "assets/astra/v07/reference-gpt-knot.png",
+    "assets/publishing/warning-v02/gpt-openwork.svg"
+  ],
+  "method": "逐张实看原图，再按记录bbox做仅供诊断的最近邻放大；诊断裁片不能新增源图细节。未修改源PNG、生产源码、manifest或正式视频。",
+  "criteria": [
+    "六条交织带及交替遮挡",
+    "中央六边负形允许透视变窄变斜",
+    "不能仅按中心明暗判断孔洞",
+    "六处回环/负形通道",
+    "所属头/肩/腰/裙/鞋面法线、缩短与遮挡",
+    "小于10px或不足分辨交叉的细节不作通过断言"
+  ],
+  "counts": {
+    "bad": 40,
+    "uncertain": 10,
+    "visually_consistent": 2
+  },
+  "contact_status": {
+    "v2": "用户认可人体，原结饰不作为最终候选",
+    "v4": "用户明确否定透视；可作结构参考，不推荐接入",
+    "constraint": "不允许同尺寸、同朝向正面图标贴在不同附着面上",
+    "v6": "独立看过全图与指定修位/保护区域；近肩与左裙中心改善，强缩短及小鞋保留不确定性；待用户审核，未正式接入"
+  },
+  "not_yet_reviewed": [
+    "book-v5 两张及 wave-v5 已全图人体实看，但尚未完成全部结饰逐带独立拓扑认证",
+    "新原画组合视频的用户整体审核仍待完成"
+  ],
+  "images": {
+    "v14-01": {
+      "source": "assets/astra/v14-boundary-review/A02-01-approach.png",
+      "sha256": "ecd92ec70f34a521cee9a681a928b744d99f234c01f53cd3d0b23e50b4442f27",
+      "anatomy_status": "user_approved_anatomy_only",
+      "inspection_sheet": "exports/review-v52/knot-inspection/v14-01.png",
+      "positions": [
+        {
+          "group": "v14-01",
+          "source": "assets/astra/v14-boundary-review/A02-01-approach.png",
+          "label": "hair",
+          "bbox_xyxy": [
+            705,
+            95,
+            815,
+            207
+          ],
+          "native_crop_size": [
+            110,
+            112
+          ],
+          "preview_scale": 2.2857142857142856,
+          "preview_method": "nearest-neighbor crop enlargement; source PNG unchanged",
+          "category": "发饰",
+          "verdict": "bad",
+          "confidence": "clear",
+          "six_interlaced_bands": "外围似结，但带子以旋涡方式向小中心汇合，缺少六带交替绕行关系。",
+          "central_negative_space": "中心缩成小圆点/不规则浅色枢纽，未形成由六段直边围成的可辨负形；判断依据是边界和交织结构，不仅是颜色。",
+          "observed_outer_loop_count": null,
+          "loop_count_basis": "外围瓣数不足以证明六条闭合带，未把大致六瓣等同于六带通过。",
+          "negative_channel_connectivity": "中心及部分相邻回环通道粘连/终止，缺少规范六向负形连通关系。",
+          "surface_and_perspective": "随头侧面略转和发束倾斜；保留头发/角/垂饰现有遮挡，不强制画成正面正六边。",
+          "finding": "旋涡式带端汇拢及不明确中央负形，需在各自附着面的透视内修正。",
+          "manual_crop_viewed": true,
+          "source_unchanged_by_review": true
+        },
+        {
+          "group": "v14-01",
+          "source": "assets/astra/v14-boundary-review/A02-01-approach.png",
+          "label": "shoulder-near",
+          "bbox_xyxy": [
+            490,
+            377,
+            596,
+            467
+          ],
+          "native_crop_size": [
+            106,
+            90
+          ],
+          "preview_scale": 2.4150943396226414,
+          "preview_method": "nearest-neighbor crop enlargement; source PNG unchanged",
+          "category": "近肩",
+          "verdict": "bad",
+          "confidence": "clear",
+          "six_interlaced_bands": "外围似结，但带子以旋涡方式向小中心汇合，缺少六带交替绕行关系。",
+          "central_negative_space": "中心缩成小圆点/不规则浅色枢纽，未形成由六段直边围成的可辨负形；判断依据是边界和交织结构，不仅是颜色。",
+          "observed_outer_loop_count": null,
+          "loop_count_basis": "外围瓣数不足以证明六条闭合带，未把大致六瓣等同于六带通过。",
+          "negative_channel_connectivity": "中心及部分相邻回环通道粘连/终止，缺少规范六向负形连通关系。",
+          "surface_and_perspective": "附着臂环/肩袖斜面，沿原肩带方向作椭圆缩短；远侧应更窄。保留身体和衣袖的遮挡，不能换成正面圆章。",
+          "finding": "旋涡式带端汇拢及不明确中央负形，需在各自附着面的透视内修正。",
+          "manual_crop_viewed": true,
+          "source_unchanged_by_review": true
+        },
+        {
+          "group": "v14-01",
+          "source": "assets/astra/v14-boundary-review/A02-01-approach.png",
+          "label": "shoulder-far",
+          "bbox_xyxy": [
+            747,
+            338,
+            826,
+            417
+          ],
+          "native_crop_size": [
+            79,
+            79
+          ],
+          "preview_scale": 3.240506329113924,
+          "preview_method": "nearest-neighbor crop enlargement; source PNG unchanged",
+          "category": "远肩",
+          "verdict": "bad",
+          "confidence": "clear",
+          "six_interlaced_bands": "远肩压成少数相互套叠钩形，六带已不可追踪。",
+          "central_negative_space": "中心缩成小圆点/不规则浅色枢纽，未形成由六段直边围成的可辨负形；判断依据是边界和交织结构，不仅是颜色。",
+          "observed_outer_loop_count": null,
+          "loop_count_basis": "外围瓣数不足以证明六条闭合带，未把大致六瓣等同于六带通过。",
+          "negative_channel_connectivity": "中心及部分相邻回环通道粘连/终止，缺少规范六向负形连通关系。",
+          "surface_and_perspective": "附着臂环/肩袖斜面，沿原肩带方向作椭圆缩短；远侧应更窄。保留身体和衣袖的遮挡，不能换成正面圆章。",
+          "finding": "远肩虽已缩短，但符号结构退化为钩形，不应通过。",
+          "manual_crop_viewed": true,
+          "source_unchanged_by_review": true
+        },
+        {
+          "group": "v14-01",
+          "source": "assets/astra/v14-boundary-review/A02-01-approach.png",
+          "label": "waist-near",
+          "bbox_xyxy": [
+            513,
+            526,
+            630,
+            637
+          ],
+          "native_crop_size": [
+            117,
+            111
+          ],
+          "preview_scale": 2.1880341880341883,
+          "preview_method": "nearest-neighbor crop enlargement; source PNG unchanged",
+          "category": "近腰",
+          "verdict": "bad",
+          "confidence": "clear",
+          "six_interlaced_bands": "外围似结，但带子以旋涡方式向小中心汇合，缺少六带交替绕行关系。",
+          "central_negative_space": "中心缩成小圆点/不规则浅色枢纽，未形成由六段直边围成的可辨负形；判断依据是边界和交织结构，不仅是颜色。",
+          "observed_outer_loop_count": null,
+          "loop_count_basis": "外围瓣数不足以证明六条闭合带，未把大致六瓣等同于六带通过。",
+          "negative_channel_connectivity": "中心及部分相邻回环通道粘连/终止，缺少规范六向负形连通关系。",
+          "surface_and_perspective": "附着环绕腰带的局部面；近远侧宽度与朝向不同，远腰需更窄/斜，不能让两侧同样正对镜头。",
+          "finding": "旋涡式带端汇拢及不明确中央负形，需在各自附着面的透视内修正。",
+          "manual_crop_viewed": true,
+          "source_unchanged_by_review": true
+        },
+        {
+          "group": "v14-01",
+          "source": "assets/astra/v14-boundary-review/A02-01-approach.png",
+          "label": "waist-far",
+          "bbox_xyxy": [
+            659,
+            524,
+            740,
+            620
+          ],
+          "native_crop_size": [
+            81,
+            96
+          ],
+          "preview_scale": 2.6666666666666665,
+          "preview_method": "nearest-neighbor crop enlargement; source PNG unchanged",
+          "category": "远腰",
+          "verdict": "bad",
+          "confidence": "clear",
+          "six_interlaced_bands": "外围似结，但带子以旋涡方式向小中心汇合，缺少六带交替绕行关系。",
+          "central_negative_space": "中心缩成小圆点/不规则浅色枢纽，未形成由六段直边围成的可辨负形；判断依据是边界和交织结构，不仅是颜色。",
+          "observed_outer_loop_count": null,
+          "loop_count_basis": "外围瓣数不足以证明六条闭合带，未把大致六瓣等同于六带通过。",
+          "negative_channel_connectivity": "中心及部分相邻回环通道粘连/终止，缺少规范六向负形连通关系。",
+          "surface_and_perspective": "附着环绕腰带的局部面；近远侧宽度与朝向不同，远腰需更窄/斜，不能让两侧同样正对镜头。",
+          "finding": "旋涡式带端汇拢及不明确中央负形，需在各自附着面的透视内修正。",
+          "manual_crop_viewed": true,
+          "source_unchanged_by_review": true
+        },
+        {
+          "group": "v14-01",
+          "source": "assets/astra/v14-boundary-review/A02-01-approach.png",
+          "label": "hem-left",
+          "bbox_xyxy": [
+            188,
+            1048,
+            292,
+            1150
+          ],
+          "native_crop_size": [
+            104,
+            102
+          ],
+          "preview_scale": 2.4615384615384617,
+          "preview_method": "nearest-neighbor crop enlargement; source PNG unchanged",
+          "category": "左裙摆",
+          "verdict": "bad",
+          "confidence": "clear",
+          "six_interlaced_bands": "外围似结，但带子以旋涡方式向小中心汇合，缺少六带交替绕行关系。",
+          "central_negative_space": "中心缩成小圆点/不规则浅色枢纽，未形成由六段直边围成的可辨负形；判断依据是边界和交织结构，不仅是颜色。",
+          "observed_outer_loop_count": null,
+          "loop_count_basis": "外围瓣数不足以证明六条闭合带，未把大致六瓣等同于六带通过。",
+          "negative_channel_connectivity": "中心及部分相邻回环通道粘连/终止，缺少规范六向负形连通关系。",
+          "surface_and_perspective": "随该片裙摆的斜面和折向；左、右裙片各自变形，不统一摆正，折痕处允许局部遮挡。",
+          "finding": "旋涡式带端汇拢及不明确中央负形，需在各自附着面的透视内修正。",
+          "manual_crop_viewed": true,
+          "source_unchanged_by_review": true
+        },
+        {
+          "group": "v14-01",
+          "source": "assets/astra/v14-boundary-review/A02-01-approach.png",
+          "label": "hem-right",
+          "bbox_xyxy": [
+            712,
+            1109,
+            816,
+            1204
+          ],
+          "native_crop_size": [
+            104,
+            95
+          ],
+          "preview_scale": 2.4615384615384617,
+          "preview_method": "nearest-neighbor crop enlargement; source PNG unchanged",
+          "category": "右裙摆",
+          "verdict": "bad",
+          "confidence": "clear",
+          "six_interlaced_bands": "外围似结，但带子以旋涡方式向小中心汇合，缺少六带交替绕行关系。",
+          "central_negative_space": "中心缩成小圆点/不规则浅色枢纽，未形成由六段直边围成的可辨负形；判断依据是边界和交织结构，不仅是颜色。",
+          "observed_outer_loop_count": null,
+          "loop_count_basis": "外围瓣数不足以证明六条闭合带，未把大致六瓣等同于六带通过。",
+          "negative_channel_connectivity": "中心及部分相邻回环通道粘连/终止，缺少规范六向负形连通关系。",
+          "surface_and_perspective": "随该片裙摆的斜面和折向；左、右裙片各自变形，不统一摆正，折痕处允许局部遮挡。",
+          "finding": "旋涡式带端汇拢及不明确中央负形，需在各自附着面的透视内修正。",
+          "manual_crop_viewed": true,
+          "source_unchanged_by_review": true
+        },
+        {
+          "group": "v14-01",
+          "source": "assets/astra/v14-boundary-review/A02-01-approach.png",
+          "label": "shoe-left",
+          "bbox_xyxy": [
+            412,
+            1202,
+            485,
+            1276
+          ],
+          "native_crop_size": [
+            73,
+            74
+          ],
+          "preview_scale": 3.4594594594594597,
+          "preview_method": "nearest-neighbor crop enlargement; source PNG unchanged",
+          "category": "左鞋",
+          "verdict": "uncertain",
+          "confidence": "limited",
+          "six_interlaced_bands": "源图鞋饰较小，粗线与采样粘连，无法可靠追踪六条完整交织带。",
+          "central_negative_space": "未能可靠辨认中心六边负形；不得将缩略旋涡外观当作通过。",
+          "observed_outer_loop_count": null,
+          "loop_count_basis": "不报告确定环数；没有从放大插值推导新增细节。",
+          "negative_channel_connectivity": "细小交叉与通道部分合并，分辨率不足以证明连通关系。",
+          "surface_and_perspective": "沿鞋背向脚尖的坡面压扁，并跟随脚尖方向；左右脚深度和鞋面法线不同，不能直立正面对镜头。",
+          "finding": "小尺寸下六带、中心孔和交叉次序不足以识别。",
+          "manual_crop_viewed": true,
+          "source_unchanged_by_review": true
+        },
+        {
+          "group": "v14-01",
+          "source": "assets/astra/v14-boundary-review/A02-01-approach.png",
+          "label": "shoe-right",
+          "bbox_xyxy": [
+            668,
+            1238,
+            743,
+            1313
+          ],
+          "native_crop_size": [
+            75,
+            75
+          ],
+          "preview_scale": 3.4133333333333336,
+          "preview_method": "nearest-neighbor crop enlargement; source PNG unchanged",
+          "category": "右鞋",
+          "verdict": "uncertain",
+          "confidence": "limited",
+          "six_interlaced_bands": "源图鞋饰较小，粗线与采样粘连，无法可靠追踪六条完整交织带。",
+          "central_negative_space": "未能可靠辨认中心六边负形；不得将缩略旋涡外观当作通过。",
+          "observed_outer_loop_count": null,
+          "loop_count_basis": "不报告确定环数；没有从放大插值推导新增细节。",
+          "negative_channel_connectivity": "细小交叉与通道部分合并，分辨率不足以证明连通关系。",
+          "surface_and_perspective": "沿鞋背向脚尖的坡面压扁，并跟随脚尖方向；左右脚深度和鞋面法线不同，不能直立正面对镜头。",
+          "finding": "小尺寸下六带、中心孔和交叉次序不足以识别。",
+          "manual_crop_viewed": true,
+          "source_unchanged_by_review": true
+        }
+      ]
+    },
+    "v14-03": {
+      "source": "assets/astra/v14-boundary-review/A02-03-withdraw.png",
+      "sha256": "13766afc9a82de875e1b1bce5f1a48c317506d1a926dc953ca0bbefcf7f3ae85",
+      "anatomy_status": "user_approved_anatomy_only",
+      "inspection_sheet": "exports/review-v52/knot-inspection/v14-03.png",
+      "positions": [
+        {
+          "group": "v14-03",
+          "source": "assets/astra/v14-boundary-review/A02-03-withdraw.png",
+          "label": "hair",
+          "bbox_xyxy": [
+            716,
+            116,
+            820,
+            230
+          ],
+          "native_crop_size": [
+            104,
+            114
+          ],
+          "preview_scale": 2.245614035087719,
+          "preview_method": "nearest-neighbor crop enlargement; source PNG unchanged",
+          "category": "发饰",
+          "verdict": "bad",
+          "confidence": "clear",
+          "six_interlaced_bands": "外围似结，但带子以旋涡方式向小中心汇合，缺少六带交替绕行关系。",
+          "central_negative_space": "中心缩成小圆点/不规则浅色枢纽，未形成由六段直边围成的可辨负形；判断依据是边界和交织结构，不仅是颜色。",
+          "observed_outer_loop_count": null,
+          "loop_count_basis": "外围瓣数不足以证明六条闭合带，未把大致六瓣等同于六带通过。",
+          "negative_channel_connectivity": "中心及部分相邻回环通道粘连/终止，缺少规范六向负形连通关系。",
+          "surface_and_perspective": "随头侧面略转和发束倾斜；保留头发/角/垂饰现有遮挡，不强制画成正面正六边。",
+          "finding": "旋涡式带端汇拢及不明确中央负形，需在各自附着面的透视内修正。",
+          "manual_crop_viewed": true,
+          "source_unchanged_by_review": true
+        },
+        {
+          "group": "v14-03",
+          "source": "assets/astra/v14-boundary-review/A02-03-withdraw.png",
+          "label": "shoulder-near",
+          "bbox_xyxy": [
+            477,
+            374,
+            578,
+            469
+          ],
+          "native_crop_size": [
+            101,
+            95
+          ],
+          "preview_scale": 2.5346534653465347,
+          "preview_method": "nearest-neighbor crop enlargement; source PNG unchanged",
+          "category": "近肩",
+          "verdict": "bad",
+          "confidence": "clear",
+          "six_interlaced_bands": "外围似结，但带子以旋涡方式向小中心汇合，缺少六带交替绕行关系。",
+          "central_negative_space": "中心缩成小圆点/不规则浅色枢纽，未形成由六段直边围成的可辨负形；判断依据是边界和交织结构，不仅是颜色。",
+          "observed_outer_loop_count": null,
+          "loop_count_basis": "外围瓣数不足以证明六条闭合带，未把大致六瓣等同于六带通过。",
+          "negative_channel_connectivity": "中心及部分相邻回环通道粘连/终止，缺少规范六向负形连通关系。",
+          "surface_and_perspective": "附着臂环/肩袖斜面，沿原肩带方向作椭圆缩短；远侧应更窄。保留身体和衣袖的遮挡，不能换成正面圆章。",
+          "finding": "旋涡式带端汇拢及不明确中央负形，需在各自附着面的透视内修正。",
+          "manual_crop_viewed": true,
+          "source_unchanged_by_review": true
+        },
+        {
+          "group": "v14-03",
+          "source": "assets/astra/v14-boundary-review/A02-03-withdraw.png",
+          "label": "waist-near",
+          "bbox_xyxy": [
+            526,
+            497,
+            637,
+            607
+          ],
+          "native_crop_size": [
+            111,
+            110
+          ],
+          "preview_scale": 2.3063063063063063,
+          "preview_method": "nearest-neighbor crop enlargement; source PNG unchanged",
+          "category": "近腰",
+          "verdict": "bad",
+          "confidence": "clear",
+          "six_interlaced_bands": "外围似结，但带子以旋涡方式向小中心汇合，缺少六带交替绕行关系。",
+          "central_negative_space": "中心缩成小圆点/不规则浅色枢纽，未形成由六段直边围成的可辨负形；判断依据是边界和交织结构，不仅是颜色。",
+          "observed_outer_loop_count": null,
+          "loop_count_basis": "外围瓣数不足以证明六条闭合带，未把大致六瓣等同于六带通过。",
+          "negative_channel_connectivity": "中心及部分相邻回环通道粘连/终止，缺少规范六向负形连通关系。",
+          "surface_and_perspective": "附着环绕腰带的局部面；近远侧宽度与朝向不同，远腰需更窄/斜，不能让两侧同样正对镜头。",
+          "finding": "旋涡式带端汇拢及不明确中央负形，需在各自附着面的透视内修正。",
+          "manual_crop_viewed": true,
+          "source_unchanged_by_review": true
+        },
+        {
+          "group": "v14-03",
+          "source": "assets/astra/v14-boundary-review/A02-03-withdraw.png",
+          "label": "waist-far",
+          "bbox_xyxy": [
+            673,
+            520,
+            749,
+            616
+          ],
+          "native_crop_size": [
+            76,
+            96
+          ],
+          "preview_scale": 2.6666666666666665,
+          "preview_method": "nearest-neighbor crop enlargement; source PNG unchanged",
+          "category": "远腰",
+          "verdict": "bad",
+          "confidence": "clear",
+          "six_interlaced_bands": "外围似结，但带子以旋涡方式向小中心汇合，缺少六带交替绕行关系。",
+          "central_negative_space": "中心缩成小圆点/不规则浅色枢纽，未形成由六段直边围成的可辨负形；判断依据是边界和交织结构，不仅是颜色。",
+          "observed_outer_loop_count": null,
+          "loop_count_basis": "外围瓣数不足以证明六条闭合带，未把大致六瓣等同于六带通过。",
+          "negative_channel_connectivity": "中心及部分相邻回环通道粘连/终止，缺少规范六向负形连通关系。",
+          "surface_and_perspective": "附着环绕腰带的局部面；近远侧宽度与朝向不同，远腰需更窄/斜，不能让两侧同样正对镜头。",
+          "finding": "旋涡式带端汇拢及不明确中央负形，需在各自附着面的透视内修正。",
+          "manual_crop_viewed": true,
+          "source_unchanged_by_review": true
+        },
+        {
+          "group": "v14-03",
+          "source": "assets/astra/v14-boundary-review/A02-03-withdraw.png",
+          "label": "hem-left",
+          "bbox_xyxy": [
+            210,
+            1062,
+            312,
+            1161
+          ],
+          "native_crop_size": [
+            102,
+            99
+          ],
+          "preview_scale": 2.5098039215686274,
+          "preview_method": "nearest-neighbor crop enlargement; source PNG unchanged",
+          "category": "左裙摆",
+          "verdict": "bad",
+          "confidence": "clear",
+          "six_interlaced_bands": "外围似结，但带子以旋涡方式向小中心汇合，缺少六带交替绕行关系。",
+          "central_negative_space": "中心缩成小圆点/不规则浅色枢纽，未形成由六段直边围成的可辨负形；判断依据是边界和交织结构，不仅是颜色。",
+          "observed_outer_loop_count": null,
+          "loop_count_basis": "外围瓣数不足以证明六条闭合带，未把大致六瓣等同于六带通过。",
+          "negative_channel_connectivity": "中心及部分相邻回环通道粘连/终止，缺少规范六向负形连通关系。",
+          "surface_and_perspective": "随该片裙摆的斜面和折向；左、右裙片各自变形，不统一摆正，折痕处允许局部遮挡。",
+          "finding": "旋涡式带端汇拢及不明确中央负形，需在各自附着面的透视内修正。",
+          "manual_crop_viewed": true,
+          "source_unchanged_by_review": true
+        },
+        {
+          "group": "v14-03",
+          "source": "assets/astra/v14-boundary-review/A02-03-withdraw.png",
+          "label": "hem-right",
+          "bbox_xyxy": [
+            731,
+            1094,
+            831,
+            1194
+          ],
+          "native_crop_size": [
+            100,
+            100
+          ],
+          "preview_scale": 2.56,
+          "preview_method": "nearest-neighbor crop enlargement; source PNG unchanged",
+          "category": "右裙摆",
+          "verdict": "bad",
+          "confidence": "clear",
+          "six_interlaced_bands": "外围似结，但带子以旋涡方式向小中心汇合，缺少六带交替绕行关系。",
+          "central_negative_space": "中心缩成小圆点/不规则浅色枢纽，未形成由六段直边围成的可辨负形；判断依据是边界和交织结构，不仅是颜色。",
+          "observed_outer_loop_count": null,
+          "loop_count_basis": "外围瓣数不足以证明六条闭合带，未把大致六瓣等同于六带通过。",
+          "negative_channel_connectivity": "中心及部分相邻回环通道粘连/终止，缺少规范六向负形连通关系。",
+          "surface_and_perspective": "随该片裙摆的斜面和折向；左、右裙片各自变形，不统一摆正，折痕处允许局部遮挡。",
+          "finding": "旋涡式带端汇拢及不明确中央负形，需在各自附着面的透视内修正。",
+          "manual_crop_viewed": true,
+          "source_unchanged_by_review": true
+        },
+        {
+          "group": "v14-03",
+          "source": "assets/astra/v14-boundary-review/A02-03-withdraw.png",
+          "label": "shoe-left",
+          "bbox_xyxy": [
+            450,
+            1209,
+            526,
+            1281
+          ],
+          "native_crop_size": [
+            76,
+            72
+          ],
+          "preview_scale": 3.3684210526315788,
+          "preview_method": "nearest-neighbor crop enlargement; source PNG unchanged",
+          "category": "左鞋",
+          "verdict": "uncertain",
+          "confidence": "limited",
+          "six_interlaced_bands": "源图鞋饰较小，粗线与采样粘连，无法可靠追踪六条完整交织带。",
+          "central_negative_space": "未能可靠辨认中心六边负形；不得将缩略旋涡外观当作通过。",
+          "observed_outer_loop_count": null,
+          "loop_count_basis": "不报告确定环数；没有从放大插值推导新增细节。",
+          "negative_channel_connectivity": "细小交叉与通道部分合并，分辨率不足以证明连通关系。",
+          "surface_and_perspective": "沿鞋背向脚尖的坡面压扁，并跟随脚尖方向；左右脚深度和鞋面法线不同，不能直立正面对镜头。",
+          "finding": "小尺寸下六带、中心孔和交叉次序不足以识别。",
+          "manual_crop_viewed": true,
+          "source_unchanged_by_review": true
+        },
+        {
+          "group": "v14-03",
+          "source": "assets/astra/v14-boundary-review/A02-03-withdraw.png",
+          "label": "shoe-right",
+          "bbox_xyxy": [
+            687,
+            1236,
+            766,
+            1313
+          ],
+          "native_crop_size": [
+            79,
+            77
+          ],
+          "preview_scale": 3.240506329113924,
+          "preview_method": "nearest-neighbor crop enlargement; source PNG unchanged",
+          "category": "右鞋",
+          "verdict": "uncertain",
+          "confidence": "limited",
+          "six_interlaced_bands": "源图鞋饰较小，粗线与采样粘连，无法可靠追踪六条完整交织带。",
+          "central_negative_space": "未能可靠辨认中心六边负形；不得将缩略旋涡外观当作通过。",
+          "observed_outer_loop_count": null,
+          "loop_count_basis": "不报告确定环数；没有从放大插值推导新增细节。",
+          "negative_channel_connectivity": "细小交叉与通道部分合并，分辨率不足以证明连通关系。",
+          "surface_and_perspective": "沿鞋背向脚尖的坡面压扁，并跟随脚尖方向；左右脚深度和鞋面法线不同，不能直立正面对镜头。",
+          "finding": "小尺寸下六带、中心孔和交叉次序不足以识别。",
+          "manual_crop_viewed": true,
+          "source_unchanged_by_review": true
+        }
+      ]
+    },
+    "v15-01": {
+      "source": "assets/astra/v15-refusal-review/A07-01-request.png",
+      "sha256": "0c50eca6d9977f17137a85f21dec9106156f6337ce70b639ce883a4103a9ab1a",
+      "anatomy_status": "user_approved_anatomy_only",
+      "inspection_sheet": "exports/review-v52/knot-inspection/v15-01.png",
+      "positions": [
+        {
+          "group": "v15-01",
+          "source": "assets/astra/v15-refusal-review/A07-01-request.png",
+          "label": "hair",
+          "bbox_xyxy": [
+            617,
+            129,
+            725,
+            233
+          ],
+          "native_crop_size": [
+            108,
+            104
+          ],
+          "preview_scale": 2.3703703703703702,
+          "preview_method": "nearest-neighbor crop enlargement; source PNG unchanged",
+          "category": "发饰",
+          "verdict": "bad",
+          "confidence": "clear",
+          "six_interlaced_bands": "外围似结，但带子以旋涡方式向小中心汇合，缺少六带交替绕行关系。",
+          "central_negative_space": "中心缩成小圆点/不规则浅色枢纽，未形成由六段直边围成的可辨负形；判断依据是边界和交织结构，不仅是颜色。",
+          "observed_outer_loop_count": null,
+          "loop_count_basis": "外围瓣数不足以证明六条闭合带，未把大致六瓣等同于六带通过。",
+          "negative_channel_connectivity": "中心及部分相邻回环通道粘连/终止，缺少规范六向负形连通关系。",
+          "surface_and_perspective": "随头侧面略转和发束倾斜；保留头发/角/垂饰现有遮挡，不强制画成正面正六边。",
+          "finding": "旋涡式带端汇拢及不明确中央负形，需在各自附着面的透视内修正。",
+          "manual_crop_viewed": true,
+          "source_unchanged_by_review": true
+        },
+        {
+          "group": "v15-01",
+          "source": "assets/astra/v15-refusal-review/A07-01-request.png",
+          "label": "shoulder-near",
+          "bbox_xyxy": [
+            387,
+            413,
+            466,
+            496
+          ],
+          "native_crop_size": [
+            79,
+            83
+          ],
+          "preview_scale": 3.0843373493975905,
+          "preview_method": "nearest-neighbor crop enlargement; source PNG unchanged",
+          "category": "近肩",
+          "verdict": "bad",
+          "confidence": "clear",
+          "six_interlaced_bands": "被压成少数嵌套C/S钩或单圈，不是六条可追踪交织带。",
+          "central_negative_space": "中心为不规则弯钩/狭缝，无可辨六边负形。",
+          "observed_outer_loop_count": null,
+          "loop_count_basis": "主要只见1–3个嵌套钩形轮廓；不是可靠六回环，不强报精确闭环数。",
+          "negative_channel_connectivity": "大部分交织分叉消失，通道合并。",
+          "surface_and_perspective": "附着臂环/肩袖斜面，沿原肩带方向作椭圆缩短；远侧应更窄。保留身体和衣袖的遮挡，不能换成正面圆章。",
+          "finding": "肩饰结构明显错误；原有透视缩短需要保留，不能用正面标准图覆盖。",
+          "manual_crop_viewed": true,
+          "source_unchanged_by_review": true
+        },
+        {
+          "group": "v15-01",
+          "source": "assets/astra/v15-refusal-review/A07-01-request.png",
+          "label": "shoulder-far",
+          "bbox_xyxy": [
+            658,
+            377,
+            729,
+            449
+          ],
+          "native_crop_size": [
+            71,
+            72
+          ],
+          "preview_scale": 3.5555555555555554,
+          "preview_method": "nearest-neighbor crop enlargement; source PNG unchanged",
+          "category": "远肩",
+          "verdict": "bad",
+          "confidence": "clear",
+          "six_interlaced_bands": "被压成少数嵌套C/S钩或单圈，不是六条可追踪交织带。",
+          "central_negative_space": "中心为不规则弯钩/狭缝，无可辨六边负形。",
+          "observed_outer_loop_count": null,
+          "loop_count_basis": "主要只见1–3个嵌套钩形轮廓；不是可靠六回环，不强报精确闭环数。",
+          "negative_channel_connectivity": "大部分交织分叉消失，通道合并。",
+          "surface_and_perspective": "附着臂环/肩袖斜面，沿原肩带方向作椭圆缩短；远侧应更窄。保留身体和衣袖的遮挡，不能换成正面圆章。",
+          "finding": "肩饰结构明显错误；原有透视缩短需要保留，不能用正面标准图覆盖。",
+          "manual_crop_viewed": true,
+          "source_unchanged_by_review": true
+        },
+        {
+          "group": "v15-01",
+          "source": "assets/astra/v15-refusal-review/A07-01-request.png",
+          "label": "waist-near",
+          "bbox_xyxy": [
+            377,
+            589,
+            499,
+            714
+          ],
+          "native_crop_size": [
+            122,
+            125
+          ],
+          "preview_scale": 2.048,
+          "preview_method": "nearest-neighbor crop enlargement; source PNG unchanged",
+          "category": "近腰",
+          "verdict": "bad",
+          "confidence": "clear",
+          "six_interlaced_bands": "外围似结，但带子以旋涡方式向小中心汇合，缺少六带交替绕行关系。",
+          "central_negative_space": "中心缩成小圆点/不规则浅色枢纽，未形成由六段直边围成的可辨负形；判断依据是边界和交织结构，不仅是颜色。",
+          "observed_outer_loop_count": null,
+          "loop_count_basis": "外围瓣数不足以证明六条闭合带，未把大致六瓣等同于六带通过。",
+          "negative_channel_connectivity": "中心及部分相邻回环通道粘连/终止，缺少规范六向负形连通关系。",
+          "surface_and_perspective": "附着环绕腰带的局部面；近远侧宽度与朝向不同，远腰需更窄/斜，不能让两侧同样正对镜头。",
+          "finding": "旋涡式带端汇拢及不明确中央负形，需在各自附着面的透视内修正。",
+          "manual_crop_viewed": true,
+          "source_unchanged_by_review": true
+        },
+        {
+          "group": "v15-01",
+          "source": "assets/astra/v15-refusal-review/A07-01-request.png",
+          "label": "waist-far",
+          "bbox_xyxy": [
+            540,
+            612,
+            642,
+            717
+          ],
+          "native_crop_size": [
+            102,
+            105
+          ],
+          "preview_scale": 2.4380952380952383,
+          "preview_method": "nearest-neighbor crop enlargement; source PNG unchanged",
+          "category": "远腰",
+          "verdict": "bad",
+          "confidence": "clear",
+          "six_interlaced_bands": "外围似结，但带子以旋涡方式向小中心汇合，缺少六带交替绕行关系。",
+          "central_negative_space": "中心缩成小圆点/不规则浅色枢纽，未形成由六段直边围成的可辨负形；判断依据是边界和交织结构，不仅是颜色。",
+          "observed_outer_loop_count": null,
+          "loop_count_basis": "外围瓣数不足以证明六条闭合带，未把大致六瓣等同于六带通过。",
+          "negative_channel_connectivity": "中心及部分相邻回环通道粘连/终止，缺少规范六向负形连通关系。",
+          "surface_and_perspective": "附着环绕腰带的局部面；近远侧宽度与朝向不同，远腰需更窄/斜，不能让两侧同样正对镜头。",
+          "finding": "旋涡式带端汇拢及不明确中央负形，需在各自附着面的透视内修正。",
+          "manual_crop_viewed": true,
+          "source_unchanged_by_review": true
+        },
+        {
+          "group": "v15-01",
+          "source": "assets/astra/v15-refusal-review/A07-01-request.png",
+          "label": "hem-left",
+          "bbox_xyxy": [
+            141,
+            1156,
+            248,
+            1260
+          ],
+          "native_crop_size": [
+            107,
+            104
+          ],
+          "preview_scale": 2.392523364485981,
+          "preview_method": "nearest-neighbor crop enlargement; source PNG unchanged",
+          "category": "左裙摆",
+          "verdict": "bad",
+          "confidence": "clear",
+          "six_interlaced_bands": "外围似结，但带子以旋涡方式向小中心汇合，缺少六带交替绕行关系。",
+          "central_negative_space": "中心缩成小圆点/不规则浅色枢纽，未形成由六段直边围成的可辨负形；判断依据是边界和交织结构，不仅是颜色。",
+          "observed_outer_loop_count": null,
+          "loop_count_basis": "外围瓣数不足以证明六条闭合带，未把大致六瓣等同于六带通过。",
+          "negative_channel_connectivity": "中心及部分相邻回环通道粘连/终止，缺少规范六向负形连通关系。",
+          "surface_and_perspective": "随该片裙摆的斜面和折向；左、右裙片各自变形，不统一摆正，折痕处允许局部遮挡。",
+          "finding": "旋涡式带端汇拢及不明确中央负形，需在各自附着面的透视内修正。",
+          "manual_crop_viewed": true,
+          "source_unchanged_by_review": true
+        },
+        {
+          "group": "v15-01",
+          "source": "assets/astra/v15-refusal-review/A07-01-request.png",
+          "label": "hem-right",
+          "bbox_xyxy": [
+            713,
+            1246,
+            817,
+            1353
+          ],
+          "native_crop_size": [
+            104,
+            107
+          ],
+          "preview_scale": 2.392523364485981,
+          "preview_method": "nearest-neighbor crop enlargement; source PNG unchanged",
+          "category": "右裙摆",
+          "verdict": "bad",
+          "confidence": "clear",
+          "six_interlaced_bands": "外围似结，但带子以旋涡方式向小中心汇合，缺少六带交替绕行关系。",
+          "central_negative_space": "中心缩成小圆点/不规则浅色枢纽，未形成由六段直边围成的可辨负形；判断依据是边界和交织结构，不仅是颜色。",
+          "observed_outer_loop_count": null,
+          "loop_count_basis": "外围瓣数不足以证明六条闭合带，未把大致六瓣等同于六带通过。",
+          "negative_channel_connectivity": "中心及部分相邻回环通道粘连/终止，缺少规范六向负形连通关系。",
+          "surface_and_perspective": "随该片裙摆的斜面和折向；左、右裙片各自变形，不统一摆正，折痕处允许局部遮挡。",
+          "finding": "旋涡式带端汇拢及不明确中央负形，需在各自附着面的透视内修正。",
+          "manual_crop_viewed": true,
+          "source_unchanged_by_review": true
+        },
+        {
+          "group": "v15-01",
+          "source": "assets/astra/v15-refusal-review/A07-01-request.png",
+          "label": "shoe-left",
+          "bbox_xyxy": [
+            397,
+            1371,
+            474,
+            1450
+          ],
+          "native_crop_size": [
+            77,
+            79
+          ],
+          "preview_scale": 3.240506329113924,
+          "preview_method": "nearest-neighbor crop enlargement; source PNG unchanged",
+          "category": "左鞋",
+          "verdict": "uncertain",
+          "confidence": "limited",
+          "six_interlaced_bands": "源图鞋饰较小，粗线与采样粘连，无法可靠追踪六条完整交织带。",
+          "central_negative_space": "未能可靠辨认中心六边负形；不得将缩略旋涡外观当作通过。",
+          "observed_outer_loop_count": null,
+          "loop_count_basis": "不报告确定环数；没有从放大插值推导新增细节。",
+          "negative_channel_connectivity": "细小交叉与通道部分合并，分辨率不足以证明连通关系。",
+          "surface_and_perspective": "沿鞋背向脚尖的坡面压扁，并跟随脚尖方向；左右脚深度和鞋面法线不同，不能直立正面对镜头。",
+          "finding": "小尺寸下六带、中心孔和交叉次序不足以识别。",
+          "manual_crop_viewed": true,
+          "source_unchanged_by_review": true
+        },
+        {
+          "group": "v15-01",
+          "source": "assets/astra/v15-refusal-review/A07-01-request.png",
+          "label": "shoe-right",
+          "bbox_xyxy": [
+            699,
+            1439,
+            775,
+            1515
+          ],
+          "native_crop_size": [
+            76,
+            76
+          ],
+          "preview_scale": 3.3684210526315788,
+          "preview_method": "nearest-neighbor crop enlargement; source PNG unchanged",
+          "category": "右鞋",
+          "verdict": "uncertain",
+          "confidence": "limited",
+          "six_interlaced_bands": "源图鞋饰较小，粗线与采样粘连，无法可靠追踪六条完整交织带。",
+          "central_negative_space": "未能可靠辨认中心六边负形；不得将缩略旋涡外观当作通过。",
+          "observed_outer_loop_count": null,
+          "loop_count_basis": "不报告确定环数；没有从放大插值推导新增细节。",
+          "negative_channel_connectivity": "细小交叉与通道部分合并，分辨率不足以证明连通关系。",
+          "surface_and_perspective": "沿鞋背向脚尖的坡面压扁，并跟随脚尖方向；左右脚深度和鞋面法线不同，不能直立正面对镜头。",
+          "finding": "小尺寸下六带、中心孔和交叉次序不足以识别。",
+          "manual_crop_viewed": true,
+          "source_unchanged_by_review": true
+        }
+      ]
+    },
+    "v15-02": {
+      "source": "assets/astra/v15-refusal-review/A07-02-contact.png",
+      "sha256": "da43af9075729f2480d8891e4222aea6f0a019af79b5fce4c79e29dd085597e7",
+      "anatomy_status": "user_approved_anatomy_only",
+      "inspection_sheet": "exports/review-v52/knot-inspection/v15-02.png",
+      "positions": [
+        {
+          "group": "v15-02",
+          "source": "assets/astra/v15-refusal-review/A07-02-contact.png",
+          "label": "hair",
+          "bbox_xyxy": [
+            710,
+            128,
+            819,
+            236
+          ],
+          "native_crop_size": [
+            109,
+            108
+          ],
+          "preview_scale": 2.3486238532110093,
+          "preview_method": "nearest-neighbor crop enlargement; source PNG unchanged",
+          "category": "发饰",
+          "verdict": "bad",
+          "confidence": "clear",
+          "six_interlaced_bands": "外围似结，但带子以旋涡方式向小中心汇合，缺少六带交替绕行关系。",
+          "central_negative_space": "中心缩成小圆点/不规则浅色枢纽，未形成由六段直边围成的可辨负形；判断依据是边界和交织结构，不仅是颜色。",
+          "observed_outer_loop_count": null,
+          "loop_count_basis": "外围瓣数不足以证明六条闭合带，未把大致六瓣等同于六带通过。",
+          "negative_channel_connectivity": "中心及部分相邻回环通道粘连/终止，缺少规范六向负形连通关系。",
+          "surface_and_perspective": "随头侧面略转和发束倾斜；保留头发/角/垂饰现有遮挡，不强制画成正面正六边。",
+          "finding": "旋涡式带端汇拢及不明确中央负形，需在各自附着面的透视内修正。",
+          "manual_crop_viewed": true,
+          "source_unchanged_by_review": true
+        },
+        {
+          "group": "v15-02",
+          "source": "assets/astra/v15-refusal-review/A07-02-contact.png",
+          "label": "shoulder-near",
+          "bbox_xyxy": [
+            446,
+            413,
+            526,
+            496
+          ],
+          "native_crop_size": [
+            80,
+            83
+          ],
+          "preview_scale": 3.0843373493975905,
+          "preview_method": "nearest-neighbor crop enlargement; source PNG unchanged",
+          "category": "近肩",
+          "verdict": "bad",
+          "confidence": "clear",
+          "six_interlaced_bands": "被压成少数嵌套C/S钩或单圈，不是六条可追踪交织带。",
+          "central_negative_space": "中心为不规则弯钩/狭缝，无可辨六边负形。",
+          "observed_outer_loop_count": null,
+          "loop_count_basis": "主要只见1–3个嵌套钩形轮廓；不是可靠六回环，不强报精确闭环数。",
+          "negative_channel_connectivity": "大部分交织分叉消失，通道合并。",
+          "surface_and_perspective": "附着臂环/肩袖斜面，沿原肩带方向作椭圆缩短；远侧应更窄。保留身体和衣袖的遮挡，不能换成正面圆章。",
+          "finding": "肩饰结构明显错误；原有透视缩短需要保留，不能用正面标准图覆盖。",
+          "manual_crop_viewed": true,
+          "source_unchanged_by_review": true
+        },
+        {
+          "group": "v15-02",
+          "source": "assets/astra/v15-refusal-review/A07-02-contact.png",
+          "label": "shoulder-far",
+          "bbox_xyxy": [
+            746,
+            381,
+            820,
+            459
+          ],
+          "native_crop_size": [
+            74,
+            78
+          ],
+          "preview_scale": 3.282051282051282,
+          "preview_method": "nearest-neighbor crop enlargement; source PNG unchanged",
+          "category": "远肩",
+          "verdict": "bad",
+          "confidence": "clear",
+          "six_interlaced_bands": "被压成少数嵌套C/S钩或单圈，不是六条可追踪交织带。",
+          "central_negative_space": "中心为不规则弯钩/狭缝，无可辨六边负形。",
+          "observed_outer_loop_count": null,
+          "loop_count_basis": "主要只见1–3个嵌套钩形轮廓；不是可靠六回环，不强报精确闭环数。",
+          "negative_channel_connectivity": "大部分交织分叉消失，通道合并。",
+          "surface_and_perspective": "附着臂环/肩袖斜面，沿原肩带方向作椭圆缩短；远侧应更窄。保留身体和衣袖的遮挡，不能换成正面圆章。",
+          "finding": "肩饰结构明显错误；原有透视缩短需要保留，不能用正面标准图覆盖。",
+          "manual_crop_viewed": true,
+          "source_unchanged_by_review": true
+        },
+        {
+          "group": "v15-02",
+          "source": "assets/astra/v15-refusal-review/A07-02-contact.png",
+          "label": "waist-near",
+          "bbox_xyxy": [
+            402,
+            612,
+            518,
+            728
+          ],
+          "native_crop_size": [
+            116,
+            116
+          ],
+          "preview_scale": 2.206896551724138,
+          "preview_method": "nearest-neighbor crop enlargement; source PNG unchanged",
+          "category": "近腰",
+          "verdict": "bad",
+          "confidence": "clear",
+          "six_interlaced_bands": "外围似结，但带子以旋涡方式向小中心汇合，缺少六带交替绕行关系。",
+          "central_negative_space": "中心缩成小圆点/不规则浅色枢纽，未形成由六段直边围成的可辨负形；判断依据是边界和交织结构，不仅是颜色。",
+          "observed_outer_loop_count": null,
+          "loop_count_basis": "外围瓣数不足以证明六条闭合带，未把大致六瓣等同于六带通过。",
+          "negative_channel_connectivity": "中心及部分相邻回环通道粘连/终止，缺少规范六向负形连通关系。",
+          "surface_and_perspective": "附着环绕腰带的局部面；近远侧宽度与朝向不同，远腰需更窄/斜，不能让两侧同样正对镜头。",
+          "finding": "旋涡式带端汇拢及不明确中央负形，需在各自附着面的透视内修正。",
+          "manual_crop_viewed": true,
+          "source_unchanged_by_review": true
+        },
+        {
+          "group": "v15-02",
+          "source": "assets/astra/v15-refusal-review/A07-02-contact.png",
+          "label": "waist-far",
+          "bbox_xyxy": [
+            535,
+            628,
+            635,
+            730
+          ],
+          "native_crop_size": [
+            100,
+            102
+          ],
+          "preview_scale": 2.5098039215686274,
+          "preview_method": "nearest-neighbor crop enlargement; source PNG unchanged",
+          "category": "远腰",
+          "verdict": "bad",
+          "confidence": "clear",
+          "six_interlaced_bands": "外围似结，但带子以旋涡方式向小中心汇合，缺少六带交替绕行关系。",
+          "central_negative_space": "中心缩成小圆点/不规则浅色枢纽，未形成由六段直边围成的可辨负形；判断依据是边界和交织结构，不仅是颜色。",
+          "observed_outer_loop_count": null,
+          "loop_count_basis": "外围瓣数不足以证明六条闭合带，未把大致六瓣等同于六带通过。",
+          "negative_channel_connectivity": "中心及部分相邻回环通道粘连/终止，缺少规范六向负形连通关系。",
+          "surface_and_perspective": "附着环绕腰带的局部面；近远侧宽度与朝向不同，远腰需更窄/斜，不能让两侧同样正对镜头。",
+          "finding": "旋涡式带端汇拢及不明确中央负形，需在各自附着面的透视内修正。",
+          "manual_crop_viewed": true,
+          "source_unchanged_by_review": true
+        },
+        {
+          "group": "v15-02",
+          "source": "assets/astra/v15-refusal-review/A07-02-contact.png",
+          "label": "hem-left",
+          "bbox_xyxy": [
+            145,
+            1202,
+            239,
+            1301
+          ],
+          "native_crop_size": [
+            94,
+            99
+          ],
+          "preview_scale": 2.585858585858586,
+          "preview_method": "nearest-neighbor crop enlargement; source PNG unchanged",
+          "category": "左裙摆",
+          "verdict": "bad",
+          "confidence": "clear",
+          "six_interlaced_bands": "外围似结，但带子以旋涡方式向小中心汇合，缺少六带交替绕行关系。",
+          "central_negative_space": "中心缩成小圆点/不规则浅色枢纽，未形成由六段直边围成的可辨负形；判断依据是边界和交织结构，不仅是颜色。",
+          "observed_outer_loop_count": null,
+          "loop_count_basis": "外围瓣数不足以证明六条闭合带，未把大致六瓣等同于六带通过。",
+          "negative_channel_connectivity": "中心及部分相邻回环通道粘连/终止，缺少规范六向负形连通关系。",
+          "surface_and_perspective": "随该片裙摆的斜面和折向；左、右裙片各自变形，不统一摆正，折痕处允许局部遮挡。",
+          "finding": "旋涡式带端汇拢及不明确中央负形，需在各自附着面的透视内修正。",
+          "manual_crop_viewed": true,
+          "source_unchanged_by_review": true
+        },
+        {
+          "group": "v15-02",
+          "source": "assets/astra/v15-refusal-review/A07-02-contact.png",
+          "label": "hem-right",
+          "bbox_xyxy": [
+            692,
+            1283,
+            792,
+            1385
+          ],
+          "native_crop_size": [
+            100,
+            102
+          ],
+          "preview_scale": 2.5098039215686274,
+          "preview_method": "nearest-neighbor crop enlargement; source PNG unchanged",
+          "category": "右裙摆",
+          "verdict": "bad",
+          "confidence": "clear",
+          "six_interlaced_bands": "外围似结，但带子以旋涡方式向小中心汇合，缺少六带交替绕行关系。",
+          "central_negative_space": "中心缩成小圆点/不规则浅色枢纽，未形成由六段直边围成的可辨负形；判断依据是边界和交织结构，不仅是颜色。",
+          "observed_outer_loop_count": null,
+          "loop_count_basis": "外围瓣数不足以证明六条闭合带，未把大致六瓣等同于六带通过。",
+          "negative_channel_connectivity": "中心及部分相邻回环通道粘连/终止，缺少规范六向负形连通关系。",
+          "surface_and_perspective": "随该片裙摆的斜面和折向；左、右裙片各自变形，不统一摆正，折痕处允许局部遮挡。",
+          "finding": "旋涡式带端汇拢及不明确中央负形，需在各自附着面的透视内修正。",
+          "manual_crop_viewed": true,
+          "source_unchanged_by_review": true
+        },
+        {
+          "group": "v15-02",
+          "source": "assets/astra/v15-refusal-review/A07-02-contact.png",
+          "label": "shoe-left",
+          "bbox_xyxy": [
+            360,
+            1406,
+            439,
+            1479
+          ],
+          "native_crop_size": [
+            79,
+            73
+          ],
+          "preview_scale": 3.240506329113924,
+          "preview_method": "nearest-neighbor crop enlargement; source PNG unchanged",
+          "category": "左鞋",
+          "verdict": "uncertain",
+          "confidence": "limited",
+          "six_interlaced_bands": "源图鞋饰较小，粗线与采样粘连，无法可靠追踪六条完整交织带。",
+          "central_negative_space": "未能可靠辨认中心六边负形；不得将缩略旋涡外观当作通过。",
+          "observed_outer_loop_count": null,
+          "loop_count_basis": "不报告确定环数；没有从放大插值推导新增细节。",
+          "negative_channel_connectivity": "细小交叉与通道部分合并，分辨率不足以证明连通关系。",
+          "surface_and_perspective": "沿鞋背向脚尖的坡面压扁，并跟随脚尖方向；左右脚深度和鞋面法线不同，不能直立正面对镜头。",
+          "finding": "小尺寸下六带、中心孔和交叉次序不足以识别。",
+          "manual_crop_viewed": true,
+          "source_unchanged_by_review": true
+        },
+        {
+          "group": "v15-02",
+          "source": "assets/astra/v15-refusal-review/A07-02-contact.png",
+          "label": "shoe-right",
+          "bbox_xyxy": [
+            711,
+            1440,
+            790,
+            1515
+          ],
+          "native_crop_size": [
+            79,
+            75
+          ],
+          "preview_scale": 3.240506329113924,
+          "preview_method": "nearest-neighbor crop enlargement; source PNG unchanged",
+          "category": "右鞋",
+          "verdict": "uncertain",
+          "confidence": "limited",
+          "six_interlaced_bands": "源图鞋饰较小，粗线与采样粘连，无法可靠追踪六条完整交织带。",
+          "central_negative_space": "未能可靠辨认中心六边负形；不得将缩略旋涡外观当作通过。",
+          "observed_outer_loop_count": null,
+          "loop_count_basis": "不报告确定环数；没有从放大插值推导新增细节。",
+          "negative_channel_connectivity": "细小交叉与通道部分合并，分辨率不足以证明连通关系。",
+          "surface_and_perspective": "沿鞋背向脚尖的坡面压扁，并跟随脚尖方向；左右脚深度和鞋面法线不同，不能直立正面对镜头。",
+          "finding": "小尺寸下六带、中心孔和交叉次序不足以识别。",
+          "manual_crop_viewed": true,
+          "source_unchanged_by_review": true
+        }
+      ]
+    },
+    "v15-03": {
+      "source": "assets/astra/v15-refusal-review/A07-03-retreat.png",
+      "sha256": "56d582b8bf055de989879df03646ccf4645a3f0844046e4fe0d092be60af3186",
+      "anatomy_status": "user_approved_anatomy_only",
+      "inspection_sheet": "exports/review-v52/knot-inspection/v15-03.png",
+      "positions": [
+        {
+          "group": "v15-03",
+          "source": "assets/astra/v15-refusal-review/A07-03-retreat.png",
+          "label": "hair",
+          "bbox_xyxy": [
+            643,
+            137,
+            735,
+            244
+          ],
+          "native_crop_size": [
+            92,
+            107
+          ],
+          "preview_scale": 2.392523364485981,
+          "preview_method": "nearest-neighbor crop enlargement; source PNG unchanged",
+          "category": "发饰",
+          "verdict": "bad",
+          "confidence": "clear",
+          "six_interlaced_bands": "外围似结，但带子以旋涡方式向小中心汇合，缺少六带交替绕行关系。",
+          "central_negative_space": "中心缩成小圆点/不规则浅色枢纽，未形成由六段直边围成的可辨负形；判断依据是边界和交织结构，不仅是颜色。",
+          "observed_outer_loop_count": null,
+          "loop_count_basis": "外围瓣数不足以证明六条闭合带，未把大致六瓣等同于六带通过。",
+          "negative_channel_connectivity": "中心及部分相邻回环通道粘连/终止，缺少规范六向负形连通关系。",
+          "surface_and_perspective": "随头侧面略转和发束倾斜；保留头发/角/垂饰现有遮挡，不强制画成正面正六边。",
+          "finding": "旋涡式带端汇拢及不明确中央负形，需在各自附着面的透视内修正。",
+          "manual_crop_viewed": true,
+          "source_unchanged_by_review": true
+        },
+        {
+          "group": "v15-03",
+          "source": "assets/astra/v15-refusal-review/A07-03-retreat.png",
+          "label": "shoulder-near",
+          "bbox_xyxy": [
+            403,
+            401,
+            481,
+            483
+          ],
+          "native_crop_size": [
+            78,
+            82
+          ],
+          "preview_scale": 3.1219512195121952,
+          "preview_method": "nearest-neighbor crop enlargement; source PNG unchanged",
+          "category": "近肩",
+          "verdict": "bad",
+          "confidence": "clear",
+          "six_interlaced_bands": "被压成少数嵌套C/S钩或单圈，不是六条可追踪交织带。",
+          "central_negative_space": "中心为不规则弯钩/狭缝，无可辨六边负形。",
+          "observed_outer_loop_count": null,
+          "loop_count_basis": "主要只见1–3个嵌套钩形轮廓；不是可靠六回环，不强报精确闭环数。",
+          "negative_channel_connectivity": "大部分交织分叉消失，通道合并。",
+          "surface_and_perspective": "附着臂环/肩袖斜面，沿原肩带方向作椭圆缩短；远侧应更窄。保留身体和衣袖的遮挡，不能换成正面圆章。",
+          "finding": "肩饰结构明显错误；原有透视缩短需要保留，不能用正面标准图覆盖。",
+          "manual_crop_viewed": true,
+          "source_unchanged_by_review": true
+        },
+        {
+          "group": "v15-03",
+          "source": "assets/astra/v15-refusal-review/A07-03-retreat.png",
+          "label": "shoulder-far",
+          "bbox_xyxy": [
+            641,
+            420,
+            716,
+            501
+          ],
+          "native_crop_size": [
+            75,
+            81
+          ],
+          "preview_scale": 3.1604938271604937,
+          "preview_method": "nearest-neighbor crop enlargement; source PNG unchanged",
+          "category": "远肩",
+          "verdict": "bad",
+          "confidence": "clear",
+          "six_interlaced_bands": "被压成少数嵌套C/S钩或单圈，不是六条可追踪交织带。",
+          "central_negative_space": "中心为不规则弯钩/狭缝，无可辨六边负形。",
+          "observed_outer_loop_count": null,
+          "loop_count_basis": "主要只见1–3个嵌套钩形轮廓；不是可靠六回环，不强报精确闭环数。",
+          "negative_channel_connectivity": "大部分交织分叉消失，通道合并。",
+          "surface_and_perspective": "附着臂环/肩袖斜面，沿原肩带方向作椭圆缩短；远侧应更窄。保留身体和衣袖的遮挡，不能换成正面圆章。",
+          "finding": "肩饰结构明显错误；原有透视缩短需要保留，不能用正面标准图覆盖。",
+          "manual_crop_viewed": true,
+          "source_unchanged_by_review": true
+        },
+        {
+          "group": "v15-03",
+          "source": "assets/astra/v15-refusal-review/A07-03-retreat.png",
+          "label": "waist-near",
+          "bbox_xyxy": [
+            438,
+            570,
+            558,
+            690
+          ],
+          "native_crop_size": [
+            120,
+            120
+          ],
+          "preview_scale": 2.1333333333333333,
+          "preview_method": "nearest-neighbor crop enlargement; source PNG unchanged",
+          "category": "近腰",
+          "verdict": "bad",
+          "confidence": "clear",
+          "six_interlaced_bands": "外围似结，但带子以旋涡方式向小中心汇合，缺少六带交替绕行关系。",
+          "central_negative_space": "中心缩成小圆点/不规则浅色枢纽，未形成由六段直边围成的可辨负形；判断依据是边界和交织结构，不仅是颜色。",
+          "observed_outer_loop_count": null,
+          "loop_count_basis": "外围瓣数不足以证明六条闭合带，未把大致六瓣等同于六带通过。",
+          "negative_channel_connectivity": "中心及部分相邻回环通道粘连/终止，缺少规范六向负形连通关系。",
+          "surface_and_perspective": "附着环绕腰带的局部面；近远侧宽度与朝向不同，远腰需更窄/斜，不能让两侧同样正对镜头。",
+          "finding": "旋涡式带端汇拢及不明确中央负形，需在各自附着面的透视内修正。",
+          "manual_crop_viewed": true,
+          "source_unchanged_by_review": true
+        },
+        {
+          "group": "v15-03",
+          "source": "assets/astra/v15-refusal-review/A07-03-retreat.png",
+          "label": "waist-far",
+          "bbox_xyxy": [
+            603,
+            585,
+            709,
+            694
+          ],
+          "native_crop_size": [
+            106,
+            109
+          ],
+          "preview_scale": 2.3486238532110093,
+          "preview_method": "nearest-neighbor crop enlargement; source PNG unchanged",
+          "category": "远腰",
+          "verdict": "bad",
+          "confidence": "clear",
+          "six_interlaced_bands": "外围似结，但带子以旋涡方式向小中心汇合，缺少六带交替绕行关系。",
+          "central_negative_space": "中心缩成小圆点/不规则浅色枢纽，未形成由六段直边围成的可辨负形；判断依据是边界和交织结构，不仅是颜色。",
+          "observed_outer_loop_count": null,
+          "loop_count_basis": "外围瓣数不足以证明六条闭合带，未把大致六瓣等同于六带通过。",
+          "negative_channel_connectivity": "中心及部分相邻回环通道粘连/终止，缺少规范六向负形连通关系。",
+          "surface_and_perspective": "附着环绕腰带的局部面；近远侧宽度与朝向不同，远腰需更窄/斜，不能让两侧同样正对镜头。",
+          "finding": "旋涡式带端汇拢及不明确中央负形，需在各自附着面的透视内修正。",
+          "manual_crop_viewed": true,
+          "source_unchanged_by_review": true
+        },
+        {
+          "group": "v15-03",
+          "source": "assets/astra/v15-refusal-review/A07-03-retreat.png",
+          "label": "hem-left",
+          "bbox_xyxy": [
+            195,
+            1240,
+            291,
+            1338
+          ],
+          "native_crop_size": [
+            96,
+            98
+          ],
+          "preview_scale": 2.6122448979591835,
+          "preview_method": "nearest-neighbor crop enlargement; source PNG unchanged",
+          "category": "左裙摆",
+          "verdict": "bad",
+          "confidence": "clear",
+          "six_interlaced_bands": "外围似结，但带子以旋涡方式向小中心汇合，缺少六带交替绕行关系。",
+          "central_negative_space": "中心缩成小圆点/不规则浅色枢纽，未形成由六段直边围成的可辨负形；判断依据是边界和交织结构，不仅是颜色。",
+          "observed_outer_loop_count": null,
+          "loop_count_basis": "外围瓣数不足以证明六条闭合带，未把大致六瓣等同于六带通过。",
+          "negative_channel_connectivity": "中心及部分相邻回环通道粘连/终止，缺少规范六向负形连通关系。",
+          "surface_and_perspective": "随该片裙摆的斜面和折向；左、右裙片各自变形，不统一摆正，折痕处允许局部遮挡。",
+          "finding": "旋涡式带端汇拢及不明确中央负形，需在各自附着面的透视内修正。",
+          "manual_crop_viewed": true,
+          "source_unchanged_by_review": true
+        },
+        {
+          "group": "v15-03",
+          "source": "assets/astra/v15-refusal-review/A07-03-retreat.png",
+          "label": "hem-right",
+          "bbox_xyxy": [
+            696,
+            1297,
+            794,
+            1398
+          ],
+          "native_crop_size": [
+            98,
+            101
+          ],
+          "preview_scale": 2.5346534653465347,
+          "preview_method": "nearest-neighbor crop enlargement; source PNG unchanged",
+          "category": "右裙摆",
+          "verdict": "bad",
+          "confidence": "clear",
+          "six_interlaced_bands": "外围似结，但带子以旋涡方式向小中心汇合，缺少六带交替绕行关系。",
+          "central_negative_space": "中心缩成小圆点/不规则浅色枢纽，未形成由六段直边围成的可辨负形；判断依据是边界和交织结构，不仅是颜色。",
+          "observed_outer_loop_count": null,
+          "loop_count_basis": "外围瓣数不足以证明六条闭合带，未把大致六瓣等同于六带通过。",
+          "negative_channel_connectivity": "中心及部分相邻回环通道粘连/终止，缺少规范六向负形连通关系。",
+          "surface_and_perspective": "随该片裙摆的斜面和折向；左、右裙片各自变形，不统一摆正，折痕处允许局部遮挡。",
+          "finding": "旋涡式带端汇拢及不明确中央负形，需在各自附着面的透视内修正。",
+          "manual_crop_viewed": true,
+          "source_unchanged_by_review": true
+        },
+        {
+          "group": "v15-03",
+          "source": "assets/astra/v15-refusal-review/A07-03-retreat.png",
+          "label": "shoe-left",
+          "bbox_xyxy": [
+            394,
+            1377,
+            473,
+            1456
+          ],
+          "native_crop_size": [
+            79,
+            79
+          ],
+          "preview_scale": 3.240506329113924,
+          "preview_method": "nearest-neighbor crop enlargement; source PNG unchanged",
+          "category": "左鞋",
+          "verdict": "uncertain",
+          "confidence": "limited",
+          "six_interlaced_bands": "源图鞋饰较小，粗线与采样粘连，无法可靠追踪六条完整交织带。",
+          "central_negative_space": "未能可靠辨认中心六边负形；不得将缩略旋涡外观当作通过。",
+          "observed_outer_loop_count": null,
+          "loop_count_basis": "不报告确定环数；没有从放大插值推导新增细节。",
+          "negative_channel_connectivity": "细小交叉与通道部分合并，分辨率不足以证明连通关系。",
+          "surface_and_perspective": "沿鞋背向脚尖的坡面压扁，并跟随脚尖方向；左右脚深度和鞋面法线不同，不能直立正面对镜头。",
+          "finding": "小尺寸下六带、中心孔和交叉次序不足以识别。",
+          "manual_crop_viewed": true,
+          "source_unchanged_by_review": true
+        },
+        {
+          "group": "v15-03",
+          "source": "assets/astra/v15-refusal-review/A07-03-retreat.png",
+          "label": "shoe-right",
+          "bbox_xyxy": [
+            621,
+            1440,
+            703,
+            1521
+          ],
+          "native_crop_size": [
+            82,
+            81
+          ],
+          "preview_scale": 3.1219512195121952,
+          "preview_method": "nearest-neighbor crop enlargement; source PNG unchanged",
+          "category": "右鞋",
+          "verdict": "uncertain",
+          "confidence": "limited",
+          "six_interlaced_bands": "源图鞋饰较小，粗线与采样粘连，无法可靠追踪六条完整交织带。",
+          "central_negative_space": "未能可靠辨认中心六边负形；不得将缩略旋涡外观当作通过。",
+          "observed_outer_loop_count": null,
+          "loop_count_basis": "不报告确定环数；没有从放大插值推导新增细节。",
+          "negative_channel_connectivity": "细小交叉与通道部分合并，分辨率不足以证明连通关系。",
+          "surface_and_perspective": "沿鞋背向脚尖的坡面压扁，并跟随脚尖方向；左右脚深度和鞋面法线不同，不能直立正面对镜头。",
+          "finding": "小尺寸下六带、中心孔和交叉次序不足以识别。",
+          "manual_crop_viewed": true,
+          "source_unchanged_by_review": true
+        }
+      ]
+    },
+    "v16": {
+      "source": "assets/astra/v16-withdraw-review/recoil-redraw.png",
+      "sha256": "9613da1ec08802ec2a027c085ebc7af36e1655a3c453c8a95f5eb42d8ca07914",
+      "anatomy_status": "user_approved_anatomy_only",
+      "inspection_sheet": "exports/review-v52/knot-inspection/v16.png",
+      "positions": [
+        {
+          "group": "v16",
+          "source": "assets/astra/v16-withdraw-review/recoil-redraw.png",
+          "label": "hair",
+          "bbox_xyxy": [
+            689,
+            176,
+            836,
+            305
+          ],
+          "native_crop_size": [
+            147,
+            129
+          ],
+          "preview_scale": 1.7414965986394557,
+          "preview_method": "nearest-neighbor crop enlargement; source PNG unchanged",
+          "category": "发饰",
+          "verdict": "bad",
+          "confidence": "clear",
+          "six_interlaced_bands": "外围似结，但带子以旋涡方式向小中心汇合，缺少六带交替绕行关系。",
+          "central_negative_space": "中心缩成小圆点/不规则浅色枢纽，未形成由六段直边围成的可辨负形；判断依据是边界和交织结构，不仅是颜色。",
+          "observed_outer_loop_count": null,
+          "loop_count_basis": "外围瓣数不足以证明六条闭合带，未把大致六瓣等同于六带通过。",
+          "negative_channel_connectivity": "中心及部分相邻回环通道粘连/终止，缺少规范六向负形连通关系。",
+          "surface_and_perspective": "随头侧面略转和发束倾斜；保留头发/角/垂饰现有遮挡，不强制画成正面正六边。",
+          "finding": "旋涡式带端汇拢及不明确中央负形，需在各自附着面的透视内修正。",
+          "manual_crop_viewed": true,
+          "source_unchanged_by_review": true
+        },
+        {
+          "group": "v16",
+          "source": "assets/astra/v16-withdraw-review/recoil-redraw.png",
+          "label": "shoulder-right",
+          "bbox_xyxy": [
+            804,
+            596,
+            905,
+            696
+          ],
+          "native_crop_size": [
+            101,
+            100
+          ],
+          "preview_scale": 2.5346534653465347,
+          "preview_method": "nearest-neighbor crop enlargement; source PNG unchanged",
+          "category": "可见肩",
+          "verdict": "bad",
+          "confidence": "clear",
+          "six_interlaced_bands": "外围似结，但带子以旋涡方式向小中心汇合，缺少六带交替绕行关系。",
+          "central_negative_space": "中心缩成小圆点/不规则浅色枢纽，未形成由六段直边围成的可辨负形；判断依据是边界和交织结构，不仅是颜色。",
+          "observed_outer_loop_count": null,
+          "loop_count_basis": "外围瓣数不足以证明六条闭合带，未把大致六瓣等同于六带通过。",
+          "negative_channel_connectivity": "中心及部分相邻回环通道粘连/终止，缺少规范六向负形连通关系。",
+          "surface_and_perspective": "附着臂环/肩袖斜面，沿原肩带方向作椭圆缩短；远侧应更窄。保留身体和衣袖的遮挡，不能换成正面圆章。",
+          "finding": "旋涡式带端汇拢及不明确中央负形，需在各自附着面的透视内修正。",
+          "manual_crop_viewed": true,
+          "source_unchanged_by_review": true
+        },
+        {
+          "group": "v16",
+          "source": "assets/astra/v16-withdraw-review/recoil-redraw.png",
+          "label": "waist-left",
+          "bbox_xyxy": [
+            438,
+            865,
+            580,
+            1006
+          ],
+          "native_crop_size": [
+            142,
+            141
+          ],
+          "preview_scale": 1.8028169014084507,
+          "preview_method": "nearest-neighbor crop enlargement; source PNG unchanged",
+          "category": "左腰",
+          "verdict": "bad",
+          "confidence": "clear",
+          "six_interlaced_bands": "外围似结，但带子以旋涡方式向小中心汇合，缺少六带交替绕行关系。",
+          "central_negative_space": "中心缩成小圆点/不规则浅色枢纽，未形成由六段直边围成的可辨负形；判断依据是边界和交织结构，不仅是颜色。",
+          "observed_outer_loop_count": null,
+          "loop_count_basis": "外围瓣数不足以证明六条闭合带，未把大致六瓣等同于六带通过。",
+          "negative_channel_connectivity": "中心及部分相邻回环通道粘连/终止，缺少规范六向负形连通关系。",
+          "surface_and_perspective": "附着环绕腰带的局部面；近远侧宽度与朝向不同，远腰需更窄/斜，不能让两侧同样正对镜头。",
+          "finding": "旋涡式带端汇拢及不明确中央负形，需在各自附着面的透视内修正。",
+          "manual_crop_viewed": true,
+          "source_unchanged_by_review": true
+        },
+        {
+          "group": "v16",
+          "source": "assets/astra/v16-withdraw-review/recoil-redraw.png",
+          "label": "waist-right",
+          "bbox_xyxy": [
+            646,
+            869,
+            778,
+            1000
+          ],
+          "native_crop_size": [
+            132,
+            131
+          ],
+          "preview_scale": 1.9393939393939394,
+          "preview_method": "nearest-neighbor crop enlargement; source PNG unchanged",
+          "category": "右腰",
+          "verdict": "bad",
+          "confidence": "clear",
+          "six_interlaced_bands": "外围似结，但带子以旋涡方式向小中心汇合，缺少六带交替绕行关系。",
+          "central_negative_space": "中心缩成小圆点/不规则浅色枢纽，未形成由六段直边围成的可辨负形；判断依据是边界和交织结构，不仅是颜色。",
+          "observed_outer_loop_count": null,
+          "loop_count_basis": "外围瓣数不足以证明六条闭合带，未把大致六瓣等同于六带通过。",
+          "negative_channel_connectivity": "中心及部分相邻回环通道粘连/终止，缺少规范六向负形连通关系。",
+          "surface_and_perspective": "附着环绕腰带的局部面；近远侧宽度与朝向不同，远腰需更窄/斜，不能让两侧同样正对镜头。",
+          "finding": "旋涡式带端汇拢及不明确中央负形，需在各自附着面的透视内修正。",
+          "manual_crop_viewed": true,
+          "source_unchanged_by_review": true
+        }
+      ]
+    },
+    "v17-surprise": {
+      "source": "assets/astra/v17-ending-review/recognition-surprise.png",
+      "sha256": "bea54a8b2620468aab02a48e9fb07e21cc25de258bc836a71fae5fde530502ff",
+      "anatomy_status": "user_approved_anatomy_only",
+      "inspection_sheet": "exports/review-v52/knot-inspection/v17-surprise.png",
+      "positions": [
+        {
+          "group": "v17-surprise",
+          "source": "assets/astra/v17-ending-review/recognition-surprise.png",
+          "label": "hair",
+          "bbox_xyxy": [
+            768,
+            325,
+            1022,
+            545
+          ],
+          "native_crop_size": [
+            254,
+            220
+          ],
+          "preview_scale": 1.0078740157480315,
+          "preview_method": "nearest-neighbor crop enlargement; source PNG unchanged",
+          "category": "发饰",
+          "verdict": "visually_consistent",
+          "confidence": "source_visual_only",
+          "six_interlaced_bands": "可辨六组带的转折及前后交织关系，未见旋涡实心汇合。",
+          "central_negative_space": "可辨中央六边负形；负形透出浅色头发，不能仅因颜色浅就判为实心。",
+          "observed_outer_loop_count": 6,
+          "loop_count_basis": "六个外侧回环可辨；人工栅格观察，不是拓扑计算。",
+          "negative_channel_connectivity": "中心开口与外侧六处通道/重叠方向可读。",
+          "surface_and_perspective": "随头侧面略转和发束倾斜；保留头发/角/垂饰现有遮挡，不强制画成正面正六边。",
+          "finding": "本处在当前头部朝向下未见明显结构错误或硬贴正面章冲突；不据此认证其它位置。",
+          "manual_crop_viewed": true,
+          "source_unchanged_by_review": true
+        },
+        {
+          "group": "v17-surprise",
+          "source": "assets/astra/v17-ending-review/recognition-surprise.png",
+          "label": "shoulder",
+          "bbox_xyxy": [
+            933,
+            1098,
+            1065,
+            1229
+          ],
+          "native_crop_size": [
+            132,
+            131
+          ],
+          "preview_scale": 1.9393939393939394,
+          "preview_method": "nearest-neighbor crop enlargement; source PNG unchanged",
+          "category": "可见肩",
+          "verdict": "bad",
+          "confidence": "clear",
+          "six_interlaced_bands": "被简化为四瓣/C形链环，无法构成六带交织。",
+          "central_negative_space": "无清楚的六边中央负形，中心由短弧与带身拥挤占据。",
+          "observed_outer_loop_count": 4,
+          "loop_count_basis": "可见四个主要外瓣；与六回环结构不符。",
+          "negative_channel_connectivity": "仅有少数大钩形通道，缺六向交织负形。",
+          "surface_and_perspective": "附着臂环/肩袖斜面，沿原肩带方向作椭圆缩短；远侧应更窄。保留身体和衣袖的遮挡，不能换成正面圆章。",
+          "finding": "肩饰明确为四瓣/链环状结构，需在原肩袖斜面内重画。",
+          "manual_crop_viewed": true,
+          "source_unchanged_by_review": true
+        }
+      ]
+    },
+    "v17-smile": {
+      "source": "assets/astra/v17-ending-review/recognition-smile.png",
+      "sha256": "9622111277caa22233933e0b9f524bd04e3ccaf89c511e2a0968ca2c9b38053d",
+      "anatomy_status": "user_approved_anatomy_only",
+      "inspection_sheet": "exports/review-v52/knot-inspection/v17-smile.png",
+      "positions": [
+        {
+          "group": "v17-smile",
+          "source": "assets/astra/v17-ending-review/recognition-smile.png",
+          "label": "hair",
+          "bbox_xyxy": [
+            768,
+            325,
+            1022,
+            545
+          ],
+          "native_crop_size": [
+            254,
+            220
+          ],
+          "preview_scale": 1.0078740157480315,
+          "preview_method": "nearest-neighbor crop enlargement; source PNG unchanged",
+          "category": "发饰",
+          "verdict": "visually_consistent",
+          "confidence": "source_visual_only",
+          "six_interlaced_bands": "可辨六组带的转折及前后交织关系，未见旋涡实心汇合。",
+          "central_negative_space": "可辨中央六边负形；负形透出浅色头发，不能仅因颜色浅就判为实心。",
+          "observed_outer_loop_count": 6,
+          "loop_count_basis": "六个外侧回环可辨；人工栅格观察，不是拓扑计算。",
+          "negative_channel_connectivity": "中心开口与外侧六处通道/重叠方向可读。",
+          "surface_and_perspective": "随头侧面略转和发束倾斜；保留头发/角/垂饰现有遮挡，不强制画成正面正六边。",
+          "finding": "本处在当前头部朝向下未见明显结构错误或硬贴正面章冲突；不据此认证其它位置。",
+          "manual_crop_viewed": true,
+          "source_unchanged_by_review": true
+        },
+        {
+          "group": "v17-smile",
+          "source": "assets/astra/v17-ending-review/recognition-smile.png",
+          "label": "shoulder",
+          "bbox_xyxy": [
+            933,
+            1098,
+            1065,
+            1229
+          ],
+          "native_crop_size": [
+            132,
+            131
+          ],
+          "preview_scale": 1.9393939393939394,
+          "preview_method": "nearest-neighbor crop enlargement; source PNG unchanged",
+          "category": "可见肩",
+          "verdict": "bad",
+          "confidence": "clear",
+          "six_interlaced_bands": "被简化为四瓣/C形链环，无法构成六带交织。",
+          "central_negative_space": "无清楚的六边中央负形，中心由短弧与带身拥挤占据。",
+          "observed_outer_loop_count": 4,
+          "loop_count_basis": "可见四个主要外瓣；与六回环结构不符。",
+          "negative_channel_connectivity": "仅有少数大钩形通道，缺六向交织负形。",
+          "surface_and_perspective": "附着臂环/肩袖斜面，沿原肩带方向作椭圆缩短；远侧应更窄。保留身体和衣袖的遮挡，不能换成正面圆章。",
+          "finding": "肩饰明确为四瓣/链环状结构，需在原肩袖斜面内重画。",
+          "manual_crop_viewed": true,
+          "source_unchanged_by_review": true
+        }
+      ]
+    }
+  },
+  "limitations": [
+    "栅格人工审查，不是数学拓扑证明。",
+    "鞋饰uncertain表示不能通过，并不自动断言具体环数错误。",
+    "人体认可不等于结饰认可；修饰不得重新安排已认可身体姿态。",
+    "v17发饰的浅色中心可为透出头发的负形，未因浅色一刀切判错。"
+  ],
+  "revision_candidates": [
+    {
+      "path": "assets/astra/v14-boundary-review/A02-01-approach-knots-perspective-v2.png",
+      "status": "candidate_user_review_pending_not_integrated",
+      "sha256": "3cac63b1b5b94f6a5b221c0ee17f32a52d43e2ac7a3e1027caae28050ac8b792",
+      "evidence": "assets/astra/v14-boundary-review/knots-perspective-v2-provenance.json",
+      "scope": "A02 first/third pose ornament perspective edit; user review pending; small/foreshortened regions not mathematically certified"
+    },
+    {
+      "path": "assets/astra/v14-boundary-review/A02-03-withdraw-knots-perspective-v2.png",
+      "status": "candidate_user_review_pending_not_integrated",
+      "sha256": "417783e103480a1a418ab4bcc4c7da9c63d8fc54f295a4cf039de7b9ffcf157b",
+      "evidence": "assets/astra/v14-boundary-review/knots-perspective-v2-provenance.json",
+      "scope": "A02 first/third pose ornament perspective edit; user review pending; small/foreshortened regions not mathematically certified"
+    },
+    {
+      "path": "assets/astra/v14-boundary-review/A02-02-contact-v6-perspective.png",
+      "sha256": "b393e4c3218a53c8be5089684a6958e3ee9dfdca0907f8cf928ac3ba28e4488e",
+      "status": "candidate_user_review_pending_not_integrated",
+      "manual_full_image_viewed": true,
+      "manual_detail_viewed": true,
+      "evidence": "assets/astra/v14-boundary-review/contact-v6-two-knots-before-after.png",
+      "scope": "近肩/左裙中心已改善；其他强缩短保留。新稿仍待用户审。"
+    },
+    {
+      "path": "assets/astra/v15-refusal-review/A07-01-request-knots-perspective-v2.png",
+      "sha256": "d3716551e89c0f3259bdebb4378124ddc23345700f5b4c09c77ef5feef1af8a8",
+      "status": "candidate_user_review_pending_not_integrated",
+      "manual_full_image_viewed": true,
+      "manual_detail_viewed": true,
+      "evidence": "assets/astra/v15-refusal-review/knots-perspective-v2-inspection/A07-01-knots-before-after.png",
+      "scope": "全图及九位置前后实看；小鞋 uncertain。"
+    },
+    {
+      "path": "assets/astra/v15-refusal-review/A07-02-contact-knots-perspective-v4.png",
+      "sha256": "c881c89fbd756448daf24262c6eb84533c93145c23744cb0f8d3aeb40449cd24",
+      "status": "historical_knot_repair_runtime_rejected_due_background_alpha",
+      "manual_full_image_viewed": true,
+      "manual_detail_viewed": true,
+      "evidence": "assets/astra/v15-refusal-review/knots-perspective-v2-inspection/A07-02-v4-three-regions.png",
+      "scope": "全图及旧失败三处实看；远腰/双裙中心改善，小鞋 uncertain。"
+    },
+    {
+      "path": "assets/astra/v15-refusal-review/A07-03-retreat-knots-perspective-v2.png",
+      "sha256": "83bb617d5a33accab7353c21184e65a8dc82b43ba7ae1d75cadc16a2befd0d35",
+      "status": "candidate_user_review_pending_not_integrated",
+      "manual_full_image_viewed": true,
+      "manual_detail_viewed": true,
+      "evidence": "assets/astra/v15-refusal-review/knots-perspective-v2-inspection/A07-03-knots-before-after.png",
+      "scope": "全图及九位置前后实看；小鞋 uncertain。"
+    },
+    {
+      "path": "assets/astra/v16-withdraw-review/recoil-redraw-knots-perspective-v2.png",
+      "sha256": "85ce8c1b6fa88ec3c2ac9c0cb43e0694b2ec28ed2a1c9507fda64c675334bbca",
+      "status": "candidate_user_review_pending_not_integrated",
+      "manual_full_image_viewed": true,
+      "manual_detail_viewed": true,
+      "evidence": "assets/astra/v16-withdraw-review/knots-perspective-v2-inspection/recoil-knots-before-after.png",
+      "scope": "全图四结饰及脸手腕对照实看；不同肩腰朝向保留。"
+    },
+    {
+      "path": "assets/astra/v17-ending-review/recognition-surprise-knots-perspective-v2.png",
+      "sha256": "8f508066335b79f4bb0cc5ac81dbcaba4be0f82271a4c3e1bb519187e76e69dc",
+      "status": "candidate_user_review_pending_not_integrated",
+      "manual_full_image_viewed": true,
+      "manual_detail_viewed": true,
+      "evidence": "assets/astra/v17-ending-review/knots-perspective-v2-inspection/surprise-knots-before-after.png",
+      "scope": "全图肩饰与原发饰/脸对照实看；原四瓣链环改善。"
+    },
+    {
+      "path": "assets/astra/v17-ending-review/recognition-smile-knots-perspective-v2.png",
+      "sha256": "e77695402069392baa30a451e72711d87e07cc677d80a334fa3adc1cdb9b2b01",
+      "status": "candidate_user_review_pending_not_integrated",
+      "manual_full_image_viewed": true,
+      "manual_detail_viewed": true,
+      "evidence": "assets/astra/v17-ending-review/knots-perspective-v2-inspection/smile-knots-before-after.png",
+      "scope": "全图肩饰与原发饰/脸对照实看；笑眼嘴形视觉保持。"
+    },
+    {
+      "path": "assets/astra/v15-refusal-review/A07-02-contact-knots-perspective-v5-alpha.png",
+      "sha256": "66d270bbb771ed348449fc9b112514eb6ce34c3c29bebf5920b0f067cf35685f",
+      "status": "candidate_user_review_pending_not_integrated",
+      "manual_full_image_viewed": true,
+      "manual_detail_viewed": true,
+      "evidence": "assets/astra/v15-refusal-review/knots-perspective-v2-inspection/A07-02-v5-alpha-protected-before-after.png",
+      "scope": "v4背景alpha返修；脸手与远腰双裙结构视觉保持，alpha通道和两运行帧已实看。用户审核pending。"
+    }
+  ]
+}

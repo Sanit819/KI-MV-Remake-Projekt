@@ -1,0 +1,253 @@
+{
+  "passed": true,
+  "reviewer": "boundary_legs_redraw independent reviewer",
+  "reviewed_frame_count": 20,
+  "runtime_report_sha256": "ca625395f86c1c1dc627ce6103ce7f9c8797486bad09d81ebee03d08c31a4c64",
+  "runtime_source_fingerprint": "64013f9fcb0d32c5241fd75472924be209b62861c7f9872869923de7ab2c40eb",
+  "native_source_dimensions": [
+    3840,
+    2160
+  ],
+  "tool_display_dimensions": [
+    2048,
+    1152
+  ],
+  "scope": "Individually opened 20 actual native runtime PNG files through view_image. Static sample inspection including selected adjacent transition frames; not complete frame-by-frame human viewing, continuous playback, audio review or encoded-output review.",
+  "items": [
+    {
+      "frame": 4226,
+      "shot": "R23",
+      "body_time": 70.43333333333334,
+      "full_time": 75.43333333333334,
+      "path": "stills/R23-body-70.433-frame-4226.png",
+      "sha256": "8c4b17bb157a4e6d9f72bbce3e2b7f7c6d46a791a0b8b1e3b4976d3f86a1e2c0",
+      "actual_sha256": "8c4b17bb157a4e6d9f72bbce3e2b7f7c6d46a791a0b8b1e3b4976d3f86a1e2c0",
+      "matches_runtime_record": true,
+      "actually_viewed": true
+    },
+    {
+      "frame": 4293,
+      "shot": "R23",
+      "body_time": 71.55,
+      "full_time": 76.55,
+      "path": "stills/R23-body-71.550-frame-4293.png",
+      "sha256": "1a293d28ac363ac7e5102a3dcafa89274c1502ebbee18f94ee7f8791829a592e",
+      "actual_sha256": "1a293d28ac363ac7e5102a3dcafa89274c1502ebbee18f94ee7f8791829a592e",
+      "matches_runtime_record": true,
+      "actually_viewed": true
+    },
+    {
+      "frame": 4361,
+      "shot": "R23",
+      "body_time": 72.68333333333334,
+      "full_time": 77.68333333333334,
+      "path": "stills/R23-body-72.683-frame-4361.png",
+      "sha256": "b3667e0b1dab1887ad5608913b8c4615331f737034912904632ab9f39c7a61ad",
+      "actual_sha256": "b3667e0b1dab1887ad5608913b8c4615331f737034912904632ab9f39c7a61ad",
+      "matches_runtime_record": true,
+      "actually_viewed": true
+    },
+    {
+      "frame": 6348,
+      "shot": "R40",
+      "body_time": 105.8,
+      "full_time": 110.8,
+      "path": "stills/R40-body-105.800-frame-6348.png",
+      "sha256": "2a4a0036d1771f30560b4fb3a73fd27bd75cc08e5ba4dfa9e6363f2f39b027fa",
+      "actual_sha256": "2a4a0036d1771f30560b4fb3a73fd27bd75cc08e5ba4dfa9e6363f2f39b027fa",
+      "matches_runtime_record": true,
+      "actually_viewed": true
+    },
+    {
+      "frame": 6360,
+      "shot": "R40",
+      "body_time": 106,
+      "full_time": 111,
+      "path": "stills/R40-body-106.000-frame-6360.png",
+      "sha256": "50bdea095770004de9d3409919c1664b7309a65edbdc27ec4547ae11663aed2c",
+      "actual_sha256": "50bdea095770004de9d3409919c1664b7309a65edbdc27ec4547ae11663aed2c",
+      "matches_runtime_record": true,
+      "actually_viewed": true
+    },
+    {
+      "frame": 6363,
+      "shot": "R40",
+      "body_time": 106.05,
+      "full_time": 111.05,
+      "path": "stills/R40-body-106.050-frame-6363.png",
+      "sha256": "4581586e9ee42462372b3d3c3b387e366a8b5ea5db9606984819648279fc4555",
+      "actual_sha256": "4581586e9ee42462372b3d3c3b387e366a8b5ea5db9606984819648279fc4555",
+      "matches_runtime_record": true,
+      "actually_viewed": true
+    },
+    {
+      "frame": 6525,
+      "shot": "R42",
+      "body_time": 108.75,
+      "full_time": 113.75,
+      "path": "stills/R42-body-108.750-frame-6525.png",
+      "sha256": "ff03e84458b74dce995beeb1494488c52d18168141ffbde7c535a29cdacf2d9f",
+      "actual_sha256": "ff03e84458b74dce995beeb1494488c52d18168141ffbde7c535a29cdacf2d9f",
+      "matches_runtime_record": true,
+      "actually_viewed": true
+    },
+    {
+      "frame": 6528,
+      "shot": "R42",
+      "body_time": 108.8,
+      "full_time": 113.8,
+      "path": "stills/R42-body-108.800-frame-6528.png",
+      "sha256": "6013b9c6b284d28b0b399d932355ca4dc1470eecccba5e3298fe397d5dc32886",
+      "actual_sha256": "6013b9c6b284d28b0b399d932355ca4dc1470eecccba5e3298fe397d5dc32886",
+      "matches_runtime_record": true,
+      "actually_viewed": true
+    },
+    {
+      "frame": 7928,
+      "shot": "R53",
+      "body_time": 132.13333333333333,
+      "full_time": 137.13333333333333,
+      "path": "stills/R53-body-132.133-frame-7928.png",
+      "sha256": "550ad1df76420e5c9f7254926909b49dcde51e7f93e07aa2ee2202d546a13779",
+      "actual_sha256": "550ad1df76420e5c9f7254926909b49dcde51e7f93e07aa2ee2202d546a13779",
+      "matches_runtime_record": true,
+      "actually_viewed": true
+    },
+    {
+      "frame": 8101,
+      "shot": "R54",
+      "body_time": 135.01666666666668,
+      "full_time": 140.01666666666668,
+      "path": "stills/R54-body-135.017-frame-8101.png",
+      "sha256": "f7eb4c35a0492292c38f8071d8e328c967570fb3bcf3a15a7a2d7761982fa9f1",
+      "actual_sha256": "f7eb4c35a0492292c38f8071d8e328c967570fb3bcf3a15a7a2d7761982fa9f1",
+      "matches_runtime_record": true,
+      "actually_viewed": true
+    },
+    {
+      "frame": 8246,
+      "shot": "R55",
+      "body_time": 137.43333333333334,
+      "full_time": 142.43333333333334,
+      "path": "stills/R55-body-137.433-frame-8246.png",
+      "sha256": "352a5dc04f18c6aa3313f809287cd43b58ad1c5ee40a37ab993f3aabb7be788c",
+      "actual_sha256": "352a5dc04f18c6aa3313f809287cd43b58ad1c5ee40a37ab993f3aabb7be788c",
+      "matches_runtime_record": true,
+      "actually_viewed": true
+    },
+    {
+      "frame": 8327,
+      "shot": "R55",
+      "body_time": 138.78333333333333,
+      "full_time": 143.78333333333333,
+      "path": "stills/R55-body-138.783-frame-8327.png",
+      "sha256": "a0de60935da75b476cb4ad9f5e205828dd2f0ea0542dbe8ced365fd4cf40ce63",
+      "actual_sha256": "a0de60935da75b476cb4ad9f5e205828dd2f0ea0542dbe8ced365fd4cf40ce63",
+      "matches_runtime_record": true,
+      "actually_viewed": true
+    },
+    {
+      "frame": 8328,
+      "shot": "R55",
+      "body_time": 138.8,
+      "full_time": 143.8,
+      "path": "stills/R55-body-138.800-frame-8328.png",
+      "sha256": "17a690730cb7d6b1cdf782c162efc50497d8bea739110f3cfd92465b920be945",
+      "actual_sha256": "17a690730cb7d6b1cdf782c162efc50497d8bea739110f3cfd92465b920be945",
+      "matches_runtime_record": true,
+      "actually_viewed": true
+    },
+    {
+      "frame": 8400,
+      "shot": "R55",
+      "body_time": 140,
+      "full_time": 145,
+      "path": "stills/R55-body-140.000-frame-8400.png",
+      "sha256": "369ab20dc3808514b71dd8dc03e83b227a87d93b2d6d1670f2841661bd990024",
+      "actual_sha256": "369ab20dc3808514b71dd8dc03e83b227a87d93b2d6d1670f2841661bd990024",
+      "matches_runtime_record": true,
+      "actually_viewed": true
+    },
+    {
+      "frame": 10138,
+      "shot": "R74",
+      "body_time": 168.96666666666667,
+      "full_time": 173.96666666666667,
+      "path": "stills/R74-body-168.967-frame-10138.png",
+      "sha256": "4493ed905383c43b9a28ff1a71c2c423a42fd24f0093cb63eb57145e59421e0e",
+      "actual_sha256": "4493ed905383c43b9a28ff1a71c2c423a42fd24f0093cb63eb57145e59421e0e",
+      "matches_runtime_record": true,
+      "actually_viewed": true
+    },
+    {
+      "frame": 10156,
+      "shot": "R74",
+      "body_time": 169.26666666666668,
+      "full_time": 174.26666666666668,
+      "path": "stills/R74-body-169.267-frame-10156.png",
+      "sha256": "b7e0b108b9e4699b848182b6ee1a1f9a77fac5f1b32030ed4608a95b83ab3095",
+      "actual_sha256": "b7e0b108b9e4699b848182b6ee1a1f9a77fac5f1b32030ed4608a95b83ab3095",
+      "matches_runtime_record": true,
+      "actually_viewed": true
+    },
+    {
+      "frame": 10175,
+      "shot": "R74",
+      "body_time": 169.58333333333334,
+      "full_time": 174.58333333333334,
+      "path": "stills/R74-body-169.583-frame-10175.png",
+      "sha256": "e38251be0a5d28f71e372166ef2147fdf8ef3a1e623b32dc4c244e2a0f542843",
+      "actual_sha256": "e38251be0a5d28f71e372166ef2147fdf8ef3a1e623b32dc4c244e2a0f542843",
+      "matches_runtime_record": true,
+      "actually_viewed": true
+    },
+    {
+      "frame": 12558,
+      "shot": "R86",
+      "body_time": 209.3,
+      "full_time": 214.3,
+      "path": "stills/R86-body-209.300-frame-12558.png",
+      "sha256": "c1e9d6fa2a9887ef5d87d8851ae520ba40d05bf7a69981ab501ff2fe2aa90822",
+      "actual_sha256": "c1e9d6fa2a9887ef5d87d8851ae520ba40d05bf7a69981ab501ff2fe2aa90822",
+      "matches_runtime_record": true,
+      "actually_viewed": true
+    },
+    {
+      "frame": 12624,
+      "shot": "R86",
+      "body_time": 210.4,
+      "full_time": 215.4,
+      "path": "stills/R86-body-210.400-frame-12624.png",
+      "sha256": "1015983f4b3db95fea78a3c189f2b40da442e115a560c1b68da53f08a08cb19a",
+      "actual_sha256": "1015983f4b3db95fea78a3c189f2b40da442e115a560c1b68da53f08a08cb19a",
+      "matches_runtime_record": true,
+      "actually_viewed": true
+    },
+    {
+      "frame": 13099,
+      "shot": "R86",
+      "body_time": 218.31666666666666,
+      "full_time": 223.31666666666666,
+      "path": "stills/R86-body-218.317-frame-13099.png",
+      "sha256": "df179e60a6df105d0dde8cd9825d802fd4ace80220b19d4826a62b0c6e6df8c9",
+      "actual_sha256": "df179e60a6df105d0dde8cd9825d802fd4ace80220b19d4826a62b0c6e6df8c9",
+      "matches_runtime_record": true,
+      "actually_viewed": true
+    }
+  ],
+  "blockers": [],
+  "findings": {
+    "A02": "Three phases preserve the accepted oblique pelvis and near-front/far-back leg relation. Contact palm is at the vertical boundary. Figure and subtitle composition are readable.",
+    "wave": "Inspected before/after first and second pose changes near body 106 and 108.8 seconds. Yellow curve is visibly attached to the current receiving palm; new chest hand reads naturally and remains distinct from the receiving arm. No new detached palm or external opaque block observed. Static samples do not establish temporal smoothness between unviewed frames.",
+    "A07": "At body 132.133 and 135.017, character silhouette has no earlier large outside black background fragments. Touching hand and refusal panel remain readable.",
+    "book": "At body 137.433, 138.783, 138.800 and 140.000, both revised head silhouettes appear consistent; thin open-book and page-turn to point-read gesture are legible. At the adjacent 138.783/138.800 pair, pointing marker follows the page area. Memory cards intentionally overlay left hair/space; no new alpha error identified.",
+    "wrist": "Three R74 samples show red target circle attached to the raised wrist, with the supporting hand/forearm relation legible; facial silhouette intact.",
+    "ending": "Surprise eyes/mouth at 209.3 and smile at 210.4 fit their close-up crops with coherent shared placement. Final body frame 218.317 shows quiet co-drawing scene with intact figure and board."
+  },
+  "limitations": [
+    "Tools resized the 4K files to 2048x1152 for viewing; not pixel-level 4K edge certification.",
+    "Small ornament topology was not mathematically verified.",
+    "No claim of continuous visual review of the complete MV or all 1859 runtime QA frames.",
+    "Input source files were not mutated by this review."
+  ]
+}

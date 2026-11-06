@@ -1,0 +1,72 @@
+{
+  "date": "2026-11-06",
+  "status": "user-approved-static-source",
+  "user_approved": true,
+  "production_integrated": false,
+  "feedback": "User rejected A08_01 v5 head as deformed. A08_02 was not requested for replacement in this feedback.",
+  "method": "Built-in image_gen whole-character redraw with explicit head reconstruction. Original generated PNG bytes copied verbatim; no post-generation image edits or pasted body parts.",
+  "path": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\assets\\astra\\v13-book-review\\A08-01-seated-turn-v6-head-redraw.png",
+  "source": "C:\\Users\\auscar\\.codex\\generated_images\\01a1ae4c-e39f-7550-b421-129b78083bba\\exec-370283ee-de9e-4135-90ce-c279fe851c97.png",
+  "sha256": "71e54fdff66097fef4cd8e49122b1cc74906dd75a7c63a4b827556977baede72",
+  "source_sha256": "71e54fdff66097fef4cd8e49122b1cc74906dd75a7c63a4b827556977baede72",
+  "source_bytes_match": true,
+  "bytes": 1984473,
+  "size": [
+    1106,
+    1422
+  ],
+  "mode": "RGBA",
+  "alpha_extrema": [
+    0,
+    255
+  ],
+  "alpha_bbox_nonzero": [
+    16,
+    2,
+    1106,
+    1422
+  ],
+  "alpha_bbox_above_128": [
+    19,
+    6,
+    1101,
+    1417
+  ],
+  "alpha_corners": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "prompt": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\assets\\astra\\v13-book-review\\A08-01-seated-turn-v6-head-redraw.prompt.txt",
+  "inputs": [
+    "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\assets\\astra\\v13-book-review\\A08-01-seated-turn-v5.png",
+    "D:\\myskills\\updream\\references\\character-design\\chatgpt-dragon-reference.jpg",
+    "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\assets\\astra\\v13-book-review\\A08-02-seated-record-v5.png"
+  ],
+  "visual_review": {
+    "head": "Full source viewed at native dimensions: face now has a coherent centered jaw/chin, less diagonal skull/hair axis, and a neck visibly joining shoulders. Paired horn bases follow this head; near pointed ear attaches beside temple and far ear is naturally obscured by hair. No exposed eyes; dark face retained.",
+    "book_hands": "Supporting hand remains screen-left under book edge, turning hand screen-right holds one raised thin leaf from the gutter. Both wrists appear continuous; no obvious duplicated hand. Thin book retained visually.",
+    "legs": "Two separately readable uncrossed knee-to-shin-to-ankle-to-shoe chains remain in seated pose. No obvious new ankle swap in full source view.",
+    "ornaments": "Source-drawn interwoven knots retained in local planes; large head/waist shapes readable. Small clasps not certified as exact six-band vector topology.",
+    "continuity": "Head axis and jaw now differ from unchanged A08_02 v5. Pair remains pending user and actual transition/crop review; do not claim seamless motion or reuse previous face crop without remeasurement.",
+    "limits": "Static source inspection only; no animation rendering, runtime alpha check, or human continuous video review in this task. Whole-image generator may drift edges/colors outside head; no pixel-lock claim."
+  },
+  "protected": [
+    {
+      "path": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\assets\\astra\\v13-book-review\\A08-01-seated-turn-v5.png",
+      "sha256": "088c5669fc7ae80676f864d3fae3ce7b612c3f037f12772ac48021a74dd1a7a1",
+      "matches_prior_delivery": true
+    },
+    {
+      "path": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\assets\\astra\\v13-book-review\\A08-02-seated-record-v5.png",
+      "sha256": "aa5049abb789467a4eacb8237ea8f5ef6264846bd82680487301dd9a4ab97cc2",
+      "matches_prior_delivery": true
+    }
+  ],
+  "latest_user_review": {
+    "date": "2026-11-06",
+    "user_text": "点读态头也歪了；其他的ok",
+    "scope": "Four new static sources displayed in round2: A08_01-v6, A02_01/03-v3 and A04_02-v6 approved. A08_02-v5 explicitly rejected. Does not approve unseen artwork or old/new combination videos."
+  }
+}

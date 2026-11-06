@@ -30,7 +30,10 @@
     "final:v5:assets": "node tools/render/merge_v5_assets.mjs",
     "final:v5:qa": "node tools/render/qa_v5.mjs --width 3840 --height 2160 --out exports/qa-v5-final",
     "final:v5:math": "node tools/render/check_neural_v5.mjs && node tools/render/check_v5_actions.mjs",
-    "final:v5:4k-hires": "node tools/render/export_final_v5.mjs"
+    "final:v5:4k-hires": "node tools/render/export_final_v5.mjs",
+    "archive:check": "node tools/archive/reproduce_v52.mjs --check",
+    "archive:preview": "node tools/archive/reproduce_v52.mjs --serve --width 1920 --height 1080",
+    "archive:render": "node tools/archive/reproduce_v52.mjs --render --with-warning"
   },
   "dependencies": {
     "playwright-core": "1.64.1"

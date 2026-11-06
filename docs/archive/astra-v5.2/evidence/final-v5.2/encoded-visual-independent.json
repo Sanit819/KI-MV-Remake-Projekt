@@ -1,0 +1,672 @@
+{
+  "passed": true,
+  "reviewer": "boundary_legs_redraw independent visual review",
+  "created_utc": "2026-11-06T02:24:07.020522+00:00",
+  "source": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\exports\\astra-world-execute-me-final-v5.2-lighting-artwork-hires-4k60.mp4",
+  "expected_source_sha256": "e76f5208861df5e10f4fc64f515d36b50dd9daf8b6e563f24ac56f99200e8402",
+  "actual_source_sha256": "e76f5208861df5e10f4fc64f515d36b50dd9daf8b6e563f24ac56f99200e8402",
+  "source_hash_matches_expected_and_index": true,
+  "index": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\exports\\final-v5.2\\encoded-stills\\index.json",
+  "index_sha256": "8cb15a90c06f2476ac564d46017feca871cc36a9b91c99e1ec498ccd7d5c4500",
+  "count_actually_viewed": 19,
+  "native_file_dimensions": [
+    3840,
+    2160
+  ],
+  "view_image_display_dimensions": [
+    2048,
+    1152
+  ],
+  "blockers": [],
+  "conclusion": "No visible composition, exterior alpha-composite, hand-anchor, or encoding regression blocker found in these 19 actual encoded stills.",
+  "scope": "Actually viewed each of the first 19 PNGs decoded from the final encoded MP4, including adjacent full-film frame pairs 6656/6657 and 6827/6828. Files independently decoded with Pillow and checked for byte count, SHA-256 and 3840x2160 dimensions against the extraction index. Native files were shown by view_image at 2048x1152; this is a targeted static-frame visual review, not full-resolution pixel-by-pixel inspection, full video playback, a temporal smoothness guarantee, audio review, or every-frame human audit. Frames 20-28 are outside this independent report.",
+  "source_or_video_mutated": false,
+  "records": [
+    {
+      "label": "warning-last",
+      "file": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\exports\\final-v5.2\\encoded-stills\\01-warning-last-f000299.png",
+      "shot": "R00",
+      "full_film_frame": 299,
+      "full_film_seconds": 4.983333333333333,
+      "full_film_time_exact": "299/60",
+      "body_frame": null,
+      "body_seconds": null,
+      "purpose": "Last unchanged warning frame; immediately before the body",
+      "sha256": "099a42999ab8685a70711f6664bbf0ce4a7feb9e95e20ff63cae6699ca071924",
+      "bytes": 1217763,
+      "dimensions": [
+        3840,
+        2160
+      ],
+      "actually_viewed_with": "functions.view_image",
+      "display_dimensions": [
+        2048,
+        1152
+      ],
+      "observation": "Purple warning is centered; English and Chinese warning text remain readable; no visible clipping.",
+      "visual_blocker": false,
+      "actual_sha256": "099a42999ab8685a70711f6664bbf0ce4a7feb9e95e20ff63cae6699ca071924",
+      "hash_matches_index": true,
+      "actual_bytes": 1217763,
+      "bytes_match_index": true,
+      "actual_decoded_dimensions": [
+        3840,
+        2160
+      ],
+      "dimensions_match_index_and_native_4k": true,
+      "decoded_mode": "RGB"
+    },
+    {
+      "label": "opening-first",
+      "file": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\exports\\final-v5.2\\encoded-stills\\02-opening-first-f000300.png",
+      "shot": "R01",
+      "full_film_frame": 300,
+      "full_film_seconds": 5.0,
+      "full_film_time_exact": "5",
+      "body_frame": 0,
+      "body_seconds": 0.0,
+      "purpose": "First body frame; immediately after the warning",
+      "sha256": "a0940a0bb4544b9842f022e9dcbf56fd5025f0531fbedef24c9e331c66795650",
+      "bytes": 1228215,
+      "dimensions": [
+        3840,
+        2160
+      ],
+      "actually_viewed_with": "functions.view_image",
+      "display_dimensions": [
+        2048,
+        1152
+      ],
+      "observation": "First body frame shows the intended power/compute/memory/network opening circuit; interface is intact.",
+      "visual_blocker": false,
+      "actual_sha256": "a0940a0bb4544b9842f022e9dcbf56fd5025f0531fbedef24c9e331c66795650",
+      "hash_matches_index": true,
+      "actual_bytes": 1228215,
+      "bytes_match_index": true,
+      "actual_decoded_dimensions": [
+        3840,
+        2160
+      ],
+      "dimensions_match_index_and_native_4k": true,
+      "decoded_mode": "RGB"
+    },
+    {
+      "label": "extra-light-workspace",
+      "file": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\exports\\final-v5.2\\encoded-stills\\03-extra-light-workspace-f000648.png",
+      "shot": "R02",
+      "full_film_frame": 648,
+      "full_film_seconds": 10.8,
+      "full_film_time_exact": "54/5",
+      "body_frame": 348,
+      "body_seconds": 5.8,
+      "purpose": "Added workspace illumination",
+      "sha256": "0d8eac033ac36602d7ffeab5d2c71f4f18fb90e56ae5f31f48306eed6e518535",
+      "bytes": 1710400,
+      "dimensions": [
+        3840,
+        2160
+      ],
+      "actually_viewed_with": "functions.view_image",
+      "display_dimensions": [
+        2048,
+        1152
+      ],
+      "observation": "Workspace interface has visible edge illumination; angled panels and subtitle remain legible.",
+      "visual_blocker": false,
+      "actual_sha256": "0d8eac033ac36602d7ffeab5d2c71f4f18fb90e56ae5f31f48306eed6e518535",
+      "hash_matches_index": true,
+      "actual_bytes": 1710400,
+      "bytes_match_index": true,
+      "actual_decoded_dimensions": [
+        3840,
+        2160
+      ],
+      "dimensions_match_index_and_native_4k": true,
+      "decoded_mode": "RGB"
+    },
+    {
+      "label": "extra-light-tangent",
+      "file": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\exports\\final-v5.2\\encoded-stills\\04-extra-light-tangent-f003306.png",
+      "shot": "R14",
+      "full_film_frame": 3306,
+      "full_film_seconds": 55.1,
+      "full_film_time_exact": "551/10",
+      "body_frame": 3006,
+      "body_seconds": 50.1,
+      "purpose": "Added scene illumination",
+      "sha256": "38bcdc28edbb9e36f6b09d53c73977e8860b592a399b2ec174872560bd04ec39",
+      "bytes": 874164,
+      "dimensions": [
+        3840,
+        2160
+      ],
+      "actually_viewed_with": "functions.view_image",
+      "display_dimensions": [
+        2048,
+        1152
+      ],
+      "observation": "Purple block/glitch scene and interface toggle are intact, with visible edge illumination; bilingual subtitle remains legible.",
+      "visual_blocker": false,
+      "actual_sha256": "38bcdc28edbb9e36f6b09d53c73977e8860b592a399b2ec174872560bd04ec39",
+      "hash_matches_index": true,
+      "actual_bytes": 874164,
+      "bytes_match_index": true,
+      "actual_decoded_dimensions": [
+        3840,
+        2160
+      ],
+      "dimensions_match_index_and_native_4k": true,
+      "decoded_mode": "RGB"
+    },
+    {
+      "label": "boundary-approach",
+      "file": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\exports\\final-v5.2\\encoded-stills\\05-boundary-approach-f004517.png",
+      "shot": "R23",
+      "full_film_frame": 4517,
+      "full_film_seconds": 75.28333333333333,
+      "full_film_time_exact": "4517/60",
+      "body_frame": 4217,
+      "body_seconds": 70.28333333333333,
+      "purpose": "A02_01 approved leg redraw",
+      "sha256": "b17047fe515d1e8087e58020d67ae0eeb7a1a99850c0dc8054a7f74510e6c11c",
+      "bytes": 2699603,
+      "dimensions": [
+        3840,
+        2160
+      ],
+      "actually_viewed_with": "functions.view_image",
+      "display_dimensions": [
+        2048,
+        1152
+      ],
+      "observation": "A02 approach shows the corrected full figure, coherent near/far leg depth and shoes; no visible clipping or opaque source rectangle.",
+      "visual_blocker": false,
+      "actual_sha256": "b17047fe515d1e8087e58020d67ae0eeb7a1a99850c0dc8054a7f74510e6c11c",
+      "hash_matches_index": true,
+      "actual_bytes": 2699603,
+      "bytes_match_index": true,
+      "actual_decoded_dimensions": [
+        3840,
+        2160
+      ],
+      "dimensions_match_index_and_native_4k": true,
+      "decoded_mode": "RGB"
+    },
+    {
+      "label": "boundary-contact",
+      "file": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\exports\\final-v5.2\\encoded-stills\\06-boundary-contact-f004589.png",
+      "shot": "R23",
+      "full_film_frame": 4589,
+      "full_film_seconds": 76.48333333333333,
+      "full_film_time_exact": "4589/60",
+      "body_frame": 4289,
+      "body_seconds": 71.48333333333333,
+      "purpose": "A02_02 preserved approved contact anatomy",
+      "sha256": "0a112624742157b70af69051e266b496ff97b2f13cca3d7cdcfaab35543e6368",
+      "bytes": 2658585,
+      "dimensions": [
+        3840,
+        2160
+      ],
+      "actually_viewed_with": "functions.view_image",
+      "display_dimensions": [
+        2048,
+        1152
+      ],
+      "observation": "A02 contact preserves the approved anatomy; fingertips meet the vertical boundary; legs and shoes remain coherent.",
+      "visual_blocker": false,
+      "actual_sha256": "0a112624742157b70af69051e266b496ff97b2f13cca3d7cdcfaab35543e6368",
+      "hash_matches_index": true,
+      "actual_bytes": 2658585,
+      "bytes_match_index": true,
+      "actual_decoded_dimensions": [
+        3840,
+        2160
+      ],
+      "dimensions_match_index_and_native_4k": true,
+      "decoded_mode": "RGB"
+    },
+    {
+      "label": "boundary-withdraw",
+      "file": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\exports\\final-v5.2\\encoded-stills\\07-boundary-withdraw-f004657.png",
+      "shot": "R23",
+      "full_film_frame": 4657,
+      "full_film_seconds": 77.61666666666666,
+      "full_film_time_exact": "4657/60",
+      "body_frame": 4357,
+      "body_seconds": 72.61666666666666,
+      "purpose": "A02_03 approved leg redraw",
+      "sha256": "9b7b8559b139423e0bda4f49e7b231b4b068a91a661b72a7943bb0bc84171631",
+      "bytes": 2581662,
+      "dimensions": [
+        3840,
+        2160
+      ],
+      "actually_viewed_with": "functions.view_image",
+      "display_dimensions": [
+        2048,
+        1152
+      ],
+      "observation": "A02 withdrawal shows hands returned near chin/waist and corrected connected legs; full figure and subtitle are intact.",
+      "visual_blocker": false,
+      "actual_sha256": "9b7b8559b139423e0bda4f49e7b231b4b068a91a661b72a7943bb0bc84171631",
+      "hash_matches_index": true,
+      "actual_bytes": 2581662,
+      "bytes_match_index": true,
+      "actual_decoded_dimensions": [
+        3840,
+        2160
+      ],
+      "dimensions_match_index_and_native_4k": true,
+      "decoded_mode": "RGB"
+    },
+    {
+      "label": "cat-pose-1",
+      "file": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\exports\\final-v5.2\\encoded-stills\\08-cat-pose-1-f005237.png",
+      "shot": "R30",
+      "full_film_frame": 5237,
+      "full_film_seconds": 87.28333333333333,
+      "full_film_time_exact": "5237/60",
+      "body_frame": 4937,
+      "body_seconds": 82.28333333333333,
+      "purpose": "Approved cat original pose",
+      "sha256": "28f8d0eb622f4fd992b16455c132712ecf917735758cd6083b38a24d53278603",
+      "bytes": 2399671,
+      "dimensions": [
+        3840,
+        2160
+      ],
+      "actually_viewed_with": "functions.view_image",
+      "display_dimensions": [
+        2048,
+        1152
+      ],
+      "observation": "Cat pose 1 shows intact horns, ears, head and curled hands. A semi-transparent matrix overlay crosses the face during this scene; no encoding break is visible.",
+      "visual_blocker": false,
+      "actual_sha256": "28f8d0eb622f4fd992b16455c132712ecf917735758cd6083b38a24d53278603",
+      "hash_matches_index": true,
+      "actual_bytes": 2399671,
+      "bytes_match_index": true,
+      "actual_decoded_dimensions": [
+        3840,
+        2160
+      ],
+      "dimensions_match_index_and_native_4k": true,
+      "decoded_mode": "RGB"
+    },
+    {
+      "label": "cat-pose-2",
+      "file": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\exports\\final-v5.2\\encoded-stills\\09-cat-pose-2-f005300.png",
+      "shot": "R30",
+      "full_film_frame": 5300,
+      "full_film_seconds": 88.33333333333333,
+      "full_film_time_exact": "265/3",
+      "body_frame": 5000,
+      "body_seconds": 83.33333333333333,
+      "purpose": "Approved cat raised-paw pose",
+      "sha256": "5fed0e78c6cb9890dfcae4e82152c831e6c067dce0885d53392b866b2fbdf1b0",
+      "bytes": 2128254,
+      "dimensions": [
+        3840,
+        2160
+      ],
+      "actually_viewed_with": "functions.view_image",
+      "display_dimensions": [
+        2048,
+        1152
+      ],
+      "observation": "Cat pose 2 shows both raised paws, intact ears and horns; figure and feature diagram have readable spacing.",
+      "visual_blocker": false,
+      "actual_sha256": "5fed0e78c6cb9890dfcae4e82152c831e6c067dce0885d53392b866b2fbdf1b0",
+      "hash_matches_index": true,
+      "actual_bytes": 2128254,
+      "bytes_match_index": true,
+      "actual_decoded_dimensions": [
+        3840,
+        2160
+      ],
+      "dimensions_match_index_and_native_4k": true,
+      "decoded_mode": "RGB"
+    },
+    {
+      "label": "cat-pose-3",
+      "file": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\exports\\final-v5.2\\encoded-stills\\10-cat-pose-3-f005374.png",
+      "shot": "R30",
+      "full_film_frame": 5374,
+      "full_film_seconds": 89.56666666666666,
+      "full_film_time_exact": "2687/30",
+      "body_frame": 5074,
+      "body_seconds": 84.56666666666666,
+      "purpose": "Approved cat relaxed-paw pose",
+      "sha256": "0adaf190f1a20c7377a19b406717648fdb17e906181f75d56a46ccad6b83e561",
+      "bytes": 2470828,
+      "dimensions": [
+        3840,
+        2160
+      ],
+      "actually_viewed_with": "functions.view_image",
+      "display_dimensions": [
+        2048,
+        1152
+      ],
+      "observation": "Cat pose 3 shows relaxed hands and intact head silhouette; subtitle and scene diagram remain clear.",
+      "visual_blocker": false,
+      "actual_sha256": "0adaf190f1a20c7377a19b406717648fdb17e906181f75d56a46ccad6b83e561",
+      "hash_matches_index": true,
+      "actual_bytes": 2470828,
+      "bytes_match_index": true,
+      "actual_decoded_dimensions": [
+        3840,
+        2160
+      ],
+      "dimensions_match_index_and_native_4k": true,
+      "decoded_mode": "RGB"
+    },
+    {
+      "label": "wave-cut1-before",
+      "file": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\exports\\final-v5.2\\encoded-stills\\11-wave-cut1-before-f006656.png",
+      "shot": "R40",
+      "full_film_frame": 6656,
+      "full_film_seconds": 110.93333333333334,
+      "full_film_time_exact": "1664/15",
+      "body_frame": 6356,
+      "body_seconds": 105.93333333333334,
+      "purpose": "Last frame before A04_01 to A04_02 source cut",
+      "sha256": "6569f2f9850de4f8ba4b7345345b749f9a6293a0da74dcac02714f2d10d99fe1",
+      "bytes": 2735416,
+      "dimensions": [
+        3840,
+        2160
+      ],
+      "actually_viewed_with": "functions.view_image",
+      "display_dimensions": [
+        2048,
+        1152
+      ],
+      "observation": "Before first wave source cut, yellow input line continuously reaches the current open palm; chest hand is coherent.",
+      "visual_blocker": false,
+      "actual_sha256": "6569f2f9850de4f8ba4b7345345b749f9a6293a0da74dcac02714f2d10d99fe1",
+      "hash_matches_index": true,
+      "actual_bytes": 2735416,
+      "bytes_match_index": true,
+      "actual_decoded_dimensions": [
+        3840,
+        2160
+      ],
+      "dimensions_match_index_and_native_4k": true,
+      "decoded_mode": "RGB"
+    },
+    {
+      "label": "wave-cut1-after",
+      "file": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\exports\\final-v5.2\\encoded-stills\\12-wave-cut1-after-f006657.png",
+      "shot": "R40",
+      "full_film_frame": 6657,
+      "full_film_seconds": 110.95,
+      "full_film_time_exact": "2219/20",
+      "body_frame": 6357,
+      "body_seconds": 105.95,
+      "purpose": "First A04_02 frame after the first source cut",
+      "sha256": "fb5207e39b1bae4ee146d5b26fc02ef7daf0ffeac13595739b05fcebf831fd31",
+      "bytes": 2583153,
+      "dimensions": [
+        3840,
+        2160
+      ],
+      "actually_viewed_with": "functions.view_image",
+      "display_dimensions": [
+        2048,
+        1152
+      ],
+      "observation": "After first wave source cut, yellow line retargets to the new receiving palm; rebuilt receiving and chest hands are coherent. This is a discrete pose change.",
+      "visual_blocker": false,
+      "actual_sha256": "fb5207e39b1bae4ee146d5b26fc02ef7daf0ffeac13595739b05fcebf831fd31",
+      "hash_matches_index": true,
+      "actual_bytes": 2583153,
+      "bytes_match_index": true,
+      "actual_decoded_dimensions": [
+        3840,
+        2160
+      ],
+      "dimensions_match_index_and_native_4k": true,
+      "decoded_mode": "RGB"
+    },
+    {
+      "label": "wave-new-hands",
+      "file": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\exports\\final-v5.2\\encoded-stills\\13-wave-new-hands-f006780.png",
+      "shot": "R42",
+      "full_film_frame": 6780,
+      "full_film_seconds": 113.0,
+      "full_film_time_exact": "113",
+      "body_frame": 6480,
+      "body_seconds": 108.0,
+      "purpose": "New receiving/chest hands and continuous yellow line at body 108s",
+      "sha256": "e4a2fb6a4b0182de971cdde8226c5062eac875724e491e7dddfe456a2dc83dd9",
+      "bytes": 2593712,
+      "dimensions": [
+        3840,
+        2160
+      ],
+      "actually_viewed_with": "functions.view_image",
+      "display_dimensions": [
+        2048,
+        1152
+      ],
+      "observation": "At body 108 s, yellow waveform remains continuous to the open receiving palm; chest hand and arm are coherent, with no opaque exterior rectangle.",
+      "visual_blocker": false,
+      "actual_sha256": "e4a2fb6a4b0182de971cdde8226c5062eac875724e491e7dddfe456a2dc83dd9",
+      "hash_matches_index": true,
+      "actual_bytes": 2593712,
+      "bytes_match_index": true,
+      "actual_decoded_dimensions": [
+        3840,
+        2160
+      ],
+      "dimensions_match_index_and_native_4k": true,
+      "decoded_mode": "RGB"
+    },
+    {
+      "label": "wave-cut2-before",
+      "file": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\exports\\final-v5.2\\encoded-stills\\14-wave-cut2-before-f006827.png",
+      "shot": "R42",
+      "full_film_frame": 6827,
+      "full_film_seconds": 113.78333333333333,
+      "full_film_time_exact": "6827/60",
+      "body_frame": 6527,
+      "body_seconds": 108.78333333333333,
+      "purpose": "Last A04_02 frame before the second source cut",
+      "sha256": "5ece9e502e0ba58d1c423f902276049df5215a95f45630967037a2716f258892",
+      "bytes": 2767078,
+      "dimensions": [
+        3840,
+        2160
+      ],
+      "actually_viewed_with": "functions.view_image",
+      "display_dimensions": [
+        2048,
+        1152
+      ],
+      "observation": "Before second wave cut, yellow line still meets the open palm; composition and chest hand remain intact.",
+      "visual_blocker": false,
+      "actual_sha256": "5ece9e502e0ba58d1c423f902276049df5215a95f45630967037a2716f258892",
+      "hash_matches_index": true,
+      "actual_bytes": 2767078,
+      "bytes_match_index": true,
+      "actual_decoded_dimensions": [
+        3840,
+        2160
+      ],
+      "dimensions_match_index_and_native_4k": true,
+      "decoded_mode": "RGB"
+    },
+    {
+      "label": "wave-cut2-after",
+      "file": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\exports\\final-v5.2\\encoded-stills\\15-wave-cut2-after-f006828.png",
+      "shot": "R42",
+      "full_film_frame": 6828,
+      "full_film_seconds": 113.8,
+      "full_film_time_exact": "569/5",
+      "body_frame": 6528,
+      "body_seconds": 108.8,
+      "purpose": "First A04_03 frame after the second source cut",
+      "sha256": "a5333a192deff595f0b7667e055adad82e203aae6c582ec4fc6a03f9f349f0ef",
+      "bytes": 2566312,
+      "dimensions": [
+        3840,
+        2160
+      ],
+      "actually_viewed_with": "functions.view_image",
+      "display_dimensions": [
+        2048,
+        1152
+      ],
+      "observation": "After second wave cut, yellow line follows the new withdrawn hand location; both hands remain intact. Adjacent static pair shows a discrete pose change, not a broken line.",
+      "visual_blocker": false,
+      "actual_sha256": "a5333a192deff595f0b7667e055adad82e203aae6c582ec4fc6a03f9f349f0ef",
+      "hash_matches_index": true,
+      "actual_bytes": 2566312,
+      "bytes_match_index": true,
+      "actual_decoded_dimensions": [
+        3840,
+        2160
+      ],
+      "dimensions_match_index_and_native_4k": true,
+      "decoded_mode": "RGB"
+    },
+    {
+      "label": "extra-light-request",
+      "file": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\exports\\final-v5.2\\encoded-stills\\16-extra-light-request-f008090.png",
+      "shot": "R52",
+      "full_film_frame": 8090,
+      "full_film_seconds": 134.83333333333334,
+      "full_film_time_exact": "809/6",
+      "body_frame": 7790,
+      "body_seconds": 129.83333333333334,
+      "purpose": "Added request/system scene illumination",
+      "sha256": "e5e72e275f2fc154a0dbddef99f46d8b15cc342f4241279d9c71d3cff6f4bbed",
+      "bytes": 1166376,
+      "dimensions": [
+        3840,
+        2160
+      ],
+      "actually_viewed_with": "functions.view_image",
+      "display_dimensions": [
+        2048,
+        1152
+      ],
+      "observation": "Request/system panels have visible red/purple edge illumination; code, system response and subtitle remain legible.",
+      "visual_blocker": false,
+      "actual_sha256": "e5e72e275f2fc154a0dbddef99f46d8b15cc342f4241279d9c71d3cff6f4bbed",
+      "hash_matches_index": true,
+      "actual_bytes": 1166376,
+      "bytes_match_index": true,
+      "actual_decoded_dimensions": [
+        3840,
+        2160
+      ],
+      "dimensions_match_index_and_native_4k": true,
+      "decoded_mode": "RGB"
+    },
+    {
+      "label": "refusal-request",
+      "file": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\exports\\final-v5.2\\encoded-stills\\17-refusal-request-f008191.png",
+      "shot": "R53",
+      "full_film_frame": 8191,
+      "full_film_seconds": 136.51666666666668,
+      "full_film_time_exact": "8191/60",
+      "body_frame": 7891,
+      "body_seconds": 131.51666666666668,
+      "purpose": "A07_01 request pose",
+      "sha256": "89c14275fcc69aeceba1e82ca785e9a3dd5fe8b29cacdf6e800c59acb809dffc",
+      "bytes": 2043194,
+      "dimensions": [
+        3840,
+        2160
+      ],
+      "actually_viewed_with": "functions.view_image",
+      "display_dimensions": [
+        2048,
+        1152
+      ],
+      "observation": "A07 request shows coherent figure and reaching hand in front of the refusal panel; lower figure is intentionally cropped at the subtitle band.",
+      "visual_blocker": false,
+      "actual_sha256": "89c14275fcc69aeceba1e82ca785e9a3dd5fe8b29cacdf6e800c59acb809dffc",
+      "hash_matches_index": true,
+      "actual_bytes": 2043194,
+      "bytes_match_index": true,
+      "actual_decoded_dimensions": [
+        3840,
+        2160
+      ],
+      "dimensions_match_index_and_native_4k": true,
+      "decoded_mode": "RGB"
+    },
+    {
+      "label": "refusal-contact-alpha",
+      "file": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\exports\\final-v5.2\\encoded-stills\\18-refusal-contact-alpha-f008250.png",
+      "shot": "R53",
+      "full_film_frame": 8250,
+      "full_film_seconds": 137.5,
+      "full_film_time_exact": "275/2",
+      "body_frame": 7950,
+      "body_seconds": 132.5,
+      "purpose": "A07_02 transparent-background source in final composite at body 132.5s",
+      "sha256": "63db6ef32cd24697dbd3daac1a427812de5a589a7ae7abc5829e49de486ffdea",
+      "bytes": 2177914,
+      "dimensions": [
+        3840,
+        2160
+      ],
+      "actually_viewed_with": "functions.view_image",
+      "display_dimensions": [
+        2048,
+        1152
+      ],
+      "observation": "A07 contact shows the panel edge at the palm and scene background around the silhouette; no large exterior opaque black source block is visible. Refusal text overlays the hand/panel area as in the scene design.",
+      "visual_blocker": false,
+      "actual_sha256": "63db6ef32cd24697dbd3daac1a427812de5a589a7ae7abc5829e49de486ffdea",
+      "hash_matches_index": true,
+      "actual_bytes": 2177914,
+      "bytes_match_index": true,
+      "actual_decoded_dimensions": [
+        3840,
+        2160
+      ],
+      "dimensions_match_index_and_native_4k": true,
+      "decoded_mode": "RGB"
+    },
+    {
+      "label": "refusal-retreat",
+      "file": "D:\\myskills\\updream\\KI-MV-Remake-Projekt\\exports\\final-v5.2\\encoded-stills\\19-refusal-retreat-f008411.png",
+      "shot": "R54",
+      "full_film_frame": 8411,
+      "full_film_seconds": 140.18333333333334,
+      "full_film_time_exact": "8411/60",
+      "body_frame": 8111,
+      "body_seconds": 135.18333333333334,
+      "purpose": "A07_03 retreat pose",
+      "sha256": "e3b4760bdb824c7080de9a068020f131dec700bd1a5ceeafebe2f7b0d711fb4e",
+      "bytes": 2111378,
+      "dimensions": [
+        3840,
+        2160
+      ],
+      "actually_viewed_with": "functions.view_image",
+      "display_dimensions": [
+        2048,
+        1152
+      ],
+      "observation": "A07 retreat shows the full figure and shoes over multiple closing panels; exterior background is transparent in the composite and no opaque source rectangle is visible.",
+      "visual_blocker": false,
+      "actual_sha256": "e3b4760bdb824c7080de9a068020f131dec700bd1a5ceeafebe2f7b0d711fb4e",
+      "hash_matches_index": true,
+      "actual_bytes": 2111378,
+      "bytes_match_index": true,
+      "actual_decoded_dimensions": [
+        3840,
+        2160
+      ],
+      "dimensions_match_index_and_native_4k": true,
+      "decoded_mode": "RGB"
+    }
+  ]
+}
