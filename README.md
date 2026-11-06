@@ -4,10 +4,12 @@
 
 **先读：[首轮研究汇总](RESEARCH_SUMMARY.md)。** 三支用户指定视频的全时段字幕／画面采样、官方背景补充和阅读边界均已整理。
 
+**新增素材：[用户原曲与歌词](MATERIALS.md)。** 已保留 FLAC 原件副本（48 kHz／16-bit／双声道，5:50.769）和 16 组双语歌词；本企划不安排 ALAC 转换。
+
 ## 用户给定信息
 
 - 企划名称：Hortus Regis Alti 崇高君王之苑。
-- 音乐关联：用户提供为《皇牌空战8：希孚之翼》（ACE COMBAT 8: WINGS OF THEVE）的 Moon 11 终战 BGM。官方已确认曲名；实录已核对 Moon 11/Tewy 与 M29 的对应，具体音频切入点及版本尚未直接听辨。
+- 音乐关联：用户提供为《皇牌空战8：希孚之翼》（ACE COMBAT 8: WINGS OF THEVE）的 Moon 11 终战 BGM。官方已确认曲名；实录已核对 Moon 11/Tewy 与 M29 的对应。用户 FLAC 的起点已通过信号比对匹配到该实录约 6:38.27；尚未直接听辨配器或完成整曲版本比对。
 - 首个参考视频：[［AC8世界观］新手指南：从零开始认识“Strangereal”](https://www.bilibili.com/video/BV1hXG36SEJK/)。
 - 剧情解说：[一个假英雄，怎么成了全国的传奇？](https://www.bilibili.com/video/BV1BuHC6rERJ/)。
 - 终战实录：[Moon 11 boss 战](https://www.bilibili.com/video/BV19TaZ6vE5K/)。

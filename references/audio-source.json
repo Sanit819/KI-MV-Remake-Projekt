@@ -1,0 +1,29 @@
+{
+  "received_date": "2026-11-06",
+  "source": "user-provided",
+  "source_path": "C:/Users/auscar/Desktop/Hortus+Regis+Alti+游戏版多轨混缩.flac",
+  "project_copy": "local-source/audio/Hortus+Regis+Alti+游戏版多轨混缩.flac",
+  "file_name": "Hortus+Regis+Alti+游戏版多轨混缩.flac",
+  "file_bytes": 39152148,
+  "sha256": "b5c12da908cd258dc27616a077adcd39ef7d53ab5ce1e570e9b9e63c320a6c68",
+  "copy_sha256_matches": true,
+  "codec": "FLAC",
+  "sample_rate_hz": 48000,
+  "channels": 2,
+  "bits_per_sample": 16,
+  "total_samples_per_channel": 16836923,
+  "duration_seconds": 350.76922916666666,
+  "streaminfo_pcm_md5": "b5f38afe7b277623e258cd2e45a1c5ba",
+  "decoded_pcm_md5": "b5f38afe7b277623e258cd2e45a1c5ba",
+  "streaminfo_md5_matches": true,
+  "decoded_pcm_bytes": 67347692,
+  "expected_pcm_bytes": 67347692,
+  "decoded_pcm_byte_count_matches": true,
+  "full_decode_exit_code": 0,
+  "processing": "Original FLAC copied byte-for-byte. Verification decoded to an in-memory PCM stream only; no audio transcoding or replacement file was written.",
+  "delivery_preference": "Keep FLAC; do not convert to ALAC for this project.",
+  "limits": [
+    "Container metadata does not prove native recording resolution or official master provenance.",
+    "No per-lyric timestamps or direct auditory review are established by this technical check."
+  ]
+}

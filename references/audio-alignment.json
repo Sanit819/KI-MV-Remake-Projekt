@@ -1,0 +1,52 @@
+{
+  "checked_date": "2026-11-06",
+  "reference_file": "local-source/audio/Hortus+Regis+Alti+游戏版多轨混缩.flac",
+  "reference_sha256": "b5c12da908cd258dc27616a077adcd39ef7d53ab5ce1e570e9b9e63c320a6c68",
+  "recording_url": "https://www.bilibili.com/video/BV19TaZ6vE5K/",
+  "recording_audio_sha256": "b2419b13a0e293688529bd5b2a1e709befd3ac338fdc8520ccaf8398f578b136",
+  "conclusion": "Strong signal match for the beginning of the supplied FLAC within the gameplay recording; no direct auditory audition.",
+  "decoded_pcm_offset_seconds": 398.25233560090703,
+  "approximate_video_presentation_offset_seconds": 398.271,
+  "display_time": "06:38.27",
+  "practical_lookup_tolerance_seconds": 0.1,
+  "tolerance_note": "Conservative navigation tolerance, not a statistical confidence interval or frame-perfect AV calibration.",
+  "methods": [
+    {
+      "name": "48-band log-mel local spectral contrast",
+      "window_seconds": 24,
+      "step_seconds": 12,
+      "coarse_offset_seconds": 398.26938775510206
+    },
+    {
+      "name": "Pre-emphasized mono waveform normalized cross-correlation",
+      "window_seconds": 12,
+      "matched_consecutive_windows": 16,
+      "windowed_reference_span_seconds": [
+        0,
+        192
+      ],
+      "minimum_correlation": 0.20823881964169644,
+      "median_correlation": 0.4075519205850454,
+      "maximum_correlation": 0.7707969839823049,
+      "wrong_offset_control_abs_correlation_max": 0.022058070229822667
+    }
+  ],
+  "timing_check": {
+    "flac_first_presented_pts_seconds": 0,
+    "video_first_presented_pts_seconds": 0,
+    "aac_first_presented_pts_seconds": 0,
+    "aac_pts_minus_pcm_near_alignment_seconds": 0.018937333333326478,
+    "notes": "AAC packet PTS is not identical to concatenated PCM sample time. Measured local timestamp correction used; no guessed priming offset."
+  },
+  "coverage_note": "Matching is supported through approximately the first 190 seconds of the FLAC; the 180–192-second window includes the transition and is not evidence of an intact last two seconds. No whole-track one-to-one equivalence is established.",
+  "reference_end_of_strong_match_approx_seconds": 190,
+  "recording_end_of_strong_match_approx_seconds": 588.27,
+  "limits": [
+    "Later repeated passages can match multiple offsets.",
+    "No complete source-to-video timing map is established.",
+    "No lyric cue times, instrumentation, tempo, or auditory quality judgment inferred.",
+    "Original FLAC bytes were not altered."
+  ],
+  "raw_local_evidence_directory": ".cache/audio-alignment/",
+  "conservative_contiguous_match_seconds": 180
+}
