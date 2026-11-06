@@ -60,6 +60,22 @@
         "sha256": "b2419b13a0e293688529bd5b2a1e709befd3ac338fdc8520ccaf8398f578b136",
         "analysis": "Decoded to mono 16 kHz for mixed-audio RMS checks. No stem separation, instrumentation recognition, precise song onset identification, or direct audition."
       }
+    },
+    {
+      "kind": "squadron-entrances",
+      "source_url": "https://www.bilibili.com/video/BV1qsHS6REg9/",
+      "checked_date": "2026-11-06",
+      "local_media": ".cache/squadron-BV1qsHS6REg9/BV1qsHS6REg9-video-480p.m4s",
+      "media_bytes": 14840847,
+      "sha256": "5161c920f2b131054337c6d9c76a36d5f6ffc32688e619abbc1d20c55e06c745",
+      "width": 852,
+      "height": 480,
+      "fps": 30.0,
+      "frames": 9421,
+      "video_duration_seconds": 314.03333333333336,
+      "reading_scope": "Full-duration sampled visual and burned-in dialogue contact sheets with selected entrance detail frames; no continuous audiovisual viewing or direct auditory audition. Aircraft family observations are separated from exact subtype assignments in external records.",
+      "reading_note": "references/SQUADRON_ENTRANCES_READING.md",
+      "aircraft_comparison": "references/SQUADRON_AIRCRAFT.md"
     }
   ]
 }

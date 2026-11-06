@@ -2,13 +2,15 @@
 
 2026-11-06。包含《皇牌空战8》完整剧情及 Moon 11 对决剧透。
 
-**第二企划已在原 Git 仓库建立独立分支 `project-02/hortus-regis-alti`，本地目录为 `D:/myskills/updream/Hortus-Regis-Alti`。** 当前已完成三支指定视频的字幕／画面研究与官方背景补充。成品形式、故事改编范围和美术方案仍由后续用户指令确定。
+**第二企划已在原 Git 仓库建立独立分支 `project-02/hortus-regis-alti`，本地目录为 `D:/myskills/updream/Hortus-Regis-Alti`。** 本文汇总前三支指定视频与官方背景资料。后续用户已确定制作粉丝向同人 MV，授权助手决定剧情，要求 Rex 为主角、Joker 与 Shadows／Moon 11 双侧呈现，并贴近歌词与设定。当前叙事基线见 [剧情方案 v1](docs/STORY_TREATMENT_V1.md)；本文保留为研究依据。
 
 **素材追加（同日）：**用户已提供 16 组拉丁文／中文歌词和 FLAC 原曲。实测 48 kHz／16-bit／双声道、5:50.769，复制一致性与音频完整性检查通过。按用户要求保留 FLAC，不转 ALAC；见 [素材记录](MATERIALS.md)。
 
+**剧情与中队追加（同日）：**[剧情 v1](docs/STORY_TREATMENT_V1.md)采用 Rex 主线、Moon 11 对照、Shadow 22 宿敌的结构，按歌词从离乡写到归去。新增第四支[中队入场合集读取](references/SQUADRON_ENTRANCES_READING.md)与[机型对应表](references/SQUADRON_AIRCRAFT.md)，补足各队出场卡、Toprak 的 022／Su-57、Gemma／Ventus 分别入场和 M28 盟友回归；官方机型名、实录配属、社区子型号分别标注。
+
 ## 这一轮形成的核心理解
 
-这首曲子的叙事中心连接着**失去的家园、被战争改造的人、亡者的归处，以及生者接过的责任**。Rex 从被迫继承宣传身份的人，逐渐成为他人实际依靠的飞行员；Tewy 则在重返天空的愿望、战友记忆与报复性毁灭之间走到尽头。她最后改变对主角双手的称呼，使击坠者成为受托者。这是本轮研究归纳，尚非创作定案。
+这首曲子的叙事中心连接着**失去的家园、被战争改造的人、亡者的归处，以及生者接过的责任**。Rex 从被迫继承宣传身份的人，逐渐成为他人实际依靠的飞行员；Tewy 则在重返天空的愿望、战友记忆与报复性毁灭之间走到尽头。她最后改变对主角双手的称呼，使击坠者成为受托者。这一研究归纳现已作为剧情 v1 的核心。
 
 官方音乐文章确认曲名，并明确讨论音乐与战友联系、国家身份和牺牲者记忆的关系；用户命名“崇高君王之苑”继续保留。[官方音乐说明](https://en.bandainamcoent.eu/ace-combat/news/ace-combat-8-wings-of-theve-soars-lindsey-stirling)
 

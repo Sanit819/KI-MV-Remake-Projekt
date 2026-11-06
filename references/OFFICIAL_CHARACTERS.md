@@ -44,6 +44,8 @@
 
 ## 来源差异与读取边界
 
+**后续游戏资料补充（同日）：**Toprak 对应 Shadow 22，个人呼号 Ares，社区[角色记录](https://acecombat.wiki.gg/wiki/Shadow_22)明确列出。用户新增的中队入场合集在约 01:30–01:33 同时给出 Toprak 字幕、022 机身号、Lux Lunae 22ND UNIT 卡面与 Su-57 机体，进一步建立人物—部队—座机的可见关联，详见[机型对应表](SQUADRON_AIRCRAFT.md)。这项补充来自游戏实录与社区记录，不改变上表对官网文字范围的说明；Rex 仍是本企划主角。
+
 - 所有上述来源的本次读取日期均为 **2026-11-06**。官方 Mission 4 文章发布日期为 **2026-08-28**，属于发行前试玩说明，应与发行版过场及任务记录分开标注。
 - 日文人物页的普通文本提取只显示名单；本次读取公开 HTML 中各人物按钮的 `data-fullname-en`、`data-title-ja` 和 `data-text` 字段，取得弹窗实际文案。没有调用推测的私有接口。
 - 日文站实际 STORY 链接是 `https://enso-order.acecombat.jp/#story`；直接请求 `/story/` 本次返回 404。
