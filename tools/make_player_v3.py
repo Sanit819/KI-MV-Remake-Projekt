@@ -9,7 +9,7 @@ HTML = r'''<!doctype html>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>太陽系デスコ — 第三版</title>
+<title>太陽系デスコ</title>
 <style>
 :root{color-scheme:light;--red:#ff6452;--ink:#323232;--white:#fff;accent-color:var(--ink)}
 *{box-sizing:border-box}html,body{margin:0;min-height:100%;background:var(--red);color:var(--ink)}
@@ -17,7 +17,6 @@ body{font-family:"Yu Gothic UI","Microsoft YaHei UI",Meiryo,sans-serif;padding:2
 header{max-width:1280px;margin:0 auto 18px;display:flex;align-items:end;justify-content:space-between;gap:18px}
 h1{font-size:clamp(28px,4.8vw,52px);font-weight:900;line-height:1.1;margin:0;letter-spacing:-.045em}
 .cast{font-size:15px;font-weight:700;letter-spacing:.08em;white-space:nowrap;margin-bottom:3px}
-.edition{font-size:12px;letter-spacing:.08em;display:block;margin-top:8px;font-weight:600}
 #player{max-width:1280px;margin:auto;outline:none}
 .picture{position:relative;width:100%;aspect-ratio:16/9;background:var(--red);overflow:hidden}
 video{display:block;width:100%;height:100%;object-fit:contain;background:var(--red)}
@@ -37,7 +36,7 @@ button:focus-visible,input:focus-visible{outline:3px solid var(--white);outline-
 </style>
 </head>
 <body>
-<header><div><h1 lang="ja">太陽系デスコ</h1><span class="edition">第三版</span></div></header>
+<header><div><h1 lang="ja">太陽系デスコ</h1></div></header>
 <main id="player" tabindex="-1" aria-label="太陽系デスコ播放器">
   <div class="picture">
     <video id="picture" muted playsinline preload="auto" aria-label="MV画面">

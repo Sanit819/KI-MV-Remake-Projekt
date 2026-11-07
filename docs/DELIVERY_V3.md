@@ -2,6 +2,8 @@
 
 用户肯定第二版后，要求加入YOLO、FC、CNN、RNN、卡尔曼滤波、匈牙利匹配、Transformer与ViT，并追加检测置信度缓慢变化、片尾紫色原署名、大肥鱼爱白饭三个细节。第三版已完成，等待用户审看。
 
+交付后依用户要求移除播放器页签标题和页面上的“第三版”标签，并同步修改生成脚本。只重新生成HTML，没有重渲染或改写视频/音频；下列成片SHA保持不变。
+
 [本地播放器](../exports/v3/watch.html) · [30秒白饭检测](../exports/v3/watch.html#t=30) · [148秒ViT](../exports/v3/watch.html#t=148) · [195秒紫色署名](../exports/v3/watch.html#t=195) · [MKV主片](../exports/v3/taiyoukei-disco-v3-720p30-flac.mkv)。
 
 ## 成片
