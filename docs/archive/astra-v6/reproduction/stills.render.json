@@ -1,0 +1,2355 @@
+{
+  "passed": true,
+  "environment": {
+    "runtime": {
+      "renderer": "ANGLE (Intel, Intel(R) Graphics (0x00007D67) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "webgl": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+      "three": "187",
+      "size": [
+        3840,
+        2160
+      ],
+      "timelineShots": 86,
+      "sourceArtwork": "79 archived approved image slots, source pixel dimensions unchanged; flat illustrated characters, no new 3D body rig",
+      "sourceArtworkResolution": [
+        {
+          "slot": "bust",
+          "width": 1308,
+          "height": 1203
+        },
+        {
+          "slot": "eye",
+          "width": 1254,
+          "height": 1254
+        },
+        {
+          "slot": "profile",
+          "width": 1390,
+          "height": 1132
+        },
+        {
+          "slot": "hand",
+          "width": 1795,
+          "height": 876
+        },
+        {
+          "slot": "foot",
+          "width": 1385,
+          "height": 1136
+        },
+        {
+          "slot": "operating",
+          "width": 1337,
+          "height": 1176
+        },
+        {
+          "slot": "cat",
+          "width": 1319,
+          "height": 1193
+        },
+        {
+          "slot": "male",
+          "width": 1337,
+          "height": 1176
+        },
+        {
+          "slot": "back",
+          "width": 1337,
+          "height": 1176
+        },
+        {
+          "slot": "recoil",
+          "width": 1254,
+          "height": 1254
+        },
+        {
+          "slot": "guest0",
+          "width": 1199,
+          "height": 1312
+        },
+        {
+          "slot": "guest1",
+          "width": 1084,
+          "height": 1451
+        },
+        {
+          "slot": "guest2",
+          "width": 1194,
+          "height": 1317
+        },
+        {
+          "slot": "guest3",
+          "width": 1199,
+          "height": 1312
+        },
+        {
+          "slot": "guest4",
+          "width": 1169,
+          "height": 1346
+        },
+        {
+          "slot": "guest5",
+          "width": 1312,
+          "height": 1199
+        },
+        {
+          "slot": "stand",
+          "width": 1024,
+          "height": 1535
+        },
+        {
+          "slot": "reach",
+          "width": 1230,
+          "height": 1278
+        },
+        {
+          "slot": "protect",
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "slot": "sit",
+          "width": 1111,
+          "height": 1416
+        },
+        {
+          "slot": "surprise",
+          "width": 1254,
+          "height": 1254
+        },
+        {
+          "slot": "sitSmile",
+          "width": 1254,
+          "height": 1254
+        },
+        {
+          "slot": "earlyCircle",
+          "width": 1672,
+          "height": 941
+        },
+        {
+          "slot": "earlyTangent",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "slot": "earlyTravel",
+          "width": 2048,
+          "height": 768
+        },
+        {
+          "slot": "midWait",
+          "width": 1448,
+          "height": 1086
+        },
+        {
+          "slot": "midReceive",
+          "width": 1394,
+          "height": 1128
+        },
+        {
+          "slot": "A01_01",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "slot": "A01_02",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "slot": "A02_01",
+          "width": 1189,
+          "height": 1323
+        },
+        {
+          "slot": "A02_02",
+          "width": 1189,
+          "height": 1323
+        },
+        {
+          "slot": "A02_03",
+          "width": 1189,
+          "height": 1323
+        },
+        {
+          "slot": "A03_01",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "slot": "A03_02",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "slot": "A15_01",
+          "width": 1448,
+          "height": 1086
+        },
+        {
+          "slot": "A15_02",
+          "width": 1448,
+          "height": 1086
+        },
+        {
+          "slot": "A16_01",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "slot": "A16_02",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "slot": "A17_01",
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "slot": "A17_02",
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "slot": "A18_01",
+          "width": 1254,
+          "height": 1254
+        },
+        {
+          "slot": "A18_02",
+          "width": 1254,
+          "height": 1254
+        },
+        {
+          "slot": "A19_01",
+          "width": 1319,
+          "height": 1193
+        },
+        {
+          "slot": "A19_02",
+          "width": 1319,
+          "height": 1193
+        },
+        {
+          "slot": "A19_03",
+          "width": 1319,
+          "height": 1193
+        },
+        {
+          "slot": "A05_01",
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "slot": "A06_01",
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "slot": "A07_01",
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "slot": "A04_01",
+          "width": 1132,
+          "height": 1390
+        },
+        {
+          "slot": "A05_02",
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "slot": "A06_02",
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "slot": "A04_02",
+          "width": 1199,
+          "height": 1312
+        },
+        {
+          "slot": "A20_01",
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "slot": "A21_01",
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "slot": "A07_02",
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "slot": "A05_03",
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "slot": "A04_03",
+          "width": 1132,
+          "height": 1390
+        },
+        {
+          "slot": "A07_03",
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "slot": "A21_02",
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "slot": "A20_02",
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "slot": "A20_03",
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "slot": "A08_01",
+          "width": 1106,
+          "height": 1422
+        },
+        {
+          "slot": "A08_02",
+          "width": 1106,
+          "height": 1422
+        },
+        {
+          "slot": "A09_01",
+          "width": 1199,
+          "height": 1312
+        },
+        {
+          "slot": "A09_02",
+          "width": 1199,
+          "height": 1312
+        },
+        {
+          "slot": "A10_01",
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "slot": "A10_02",
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "slot": "A10_03",
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "slot": "A11_01",
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "slot": "A11_02",
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "slot": "A14_01",
+          "width": 1199,
+          "height": 1312
+        },
+        {
+          "slot": "A14_02",
+          "width": 1199,
+          "height": 1312
+        },
+        {
+          "slot": "A11_03",
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "slot": "A14_03",
+          "width": 1199,
+          "height": 1312
+        },
+        {
+          "slot": "A12_01",
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "slot": "A13_01",
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "slot": "A12_02",
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "slot": "A13_02",
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "slot": "A13_03",
+          "width": 1024,
+          "height": 1536
+        }
+      ],
+      "fourKScope": "3D geometry and type render at requested resolution; original character artwork retains its source detail",
+      "sourceFrames": 13100
+    },
+    "node": "v24.18.0",
+    "platform": "win32",
+    "browser": "157.0.4341.42",
+    "browser_executable": "C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe",
+    "browser_temp": "D:\\myskills\\updream\\Astra-VFX-Lab\\exports\\archive-maintenance-v6\\clean-checkout\\exports\\archive-v6\\.browser-tmp",
+    "fonts": "Frozen Windows system font families; see README. Different font/browser versions can change pixels."
+  },
+  "records": [
+    {
+      "file": "D:\\myskills\\updream\\Astra-VFX-Lab\\exports\\archive-maintenance-v6\\clean-checkout\\exports\\archive-v6\\clean-stills\\body-frame-00000.png",
+      "body_frame": 0,
+      "body_seconds": 0,
+      "full_film_frame": 300,
+      "full_film_seconds": 5,
+      "shot": "R01",
+      "width": 3840,
+      "height": 2160,
+      "sha256": "1b7cf10954ddc988783aaeb177c1ce51880c597c27b43e5e5adaf30b158a3587",
+      "state": {
+        "shot": "R01",
+        "frame": 0,
+        "bodyTime": 0,
+        "semantic": "boot",
+        "beat": {
+          "pulse": 0,
+          "kick": 0,
+          "quiet": false,
+          "events": [],
+          "section": null,
+          "source": "measured soundtrack mix onsets; not isolated drum stems"
+        },
+        "art": [],
+        "audit": {
+          "story": {
+            "power": {
+              "revision": "v5.2-character-free",
+              "characterCount": 0,
+              "artDrawCalls": 0,
+              "breakerClosed": false,
+              "breakerProgress": 0,
+              "currentProgress": 0,
+              "computeActivation": 0,
+              "protectionProgress": 0,
+              "protectionSealed": 0,
+              "workspaceHandoff": 0,
+              "sourceFrames": 237,
+              "nextCorner": [
+                60,
+                36
+              ],
+              "lyricBoundaries": [
+                99,
+                170,
+                227
+              ],
+              "palette": "original ink-purple-paper-gold"
+            },
+            "inference": {
+              "version": "v6-inference-1",
+              "active": false
+            }
+          },
+          "spatial": {
+            "version": "v6-world-3",
+            "sourceTimeline": "data/production-v5/timeline.json",
+            "sourceScenes": "src/mv52final/{early,middle,late}.js",
+            "semantics": {
+              "R01": "boot",
+              "R02": "boot",
+              "R03": "neural",
+              "R04": "boot",
+              "R05": "boot",
+              "R06": "conversation",
+              "R07": "conversation",
+              "R08": "conversation",
+              "R09": "geometry",
+              "R10": "geometry",
+              "R11": "geometry",
+              "R12": "geometry",
+              "R13": "play",
+              "R14": "conversation",
+              "R15": "approach",
+              "R16": "approach",
+              "R17": "conversation",
+              "R18": "conversation",
+              "R19": "conversation",
+              "R20": "conversation",
+              "R21": "conversation",
+              "R22": "conversation",
+              "R23": "conversation",
+              "R24": "conversation",
+              "R25": "conversation",
+              "R26": "matter",
+              "R27": "conversation",
+              "R28": "matter",
+              "R29": "conversation",
+              "R30": "neural",
+              "R31": "conversation",
+              "R32": "conversation",
+              "R33": "projection",
+              "R34": "projection",
+              "R35": "neural",
+              "R36": "control",
+              "R37": "conversation",
+              "R38": "control",
+              "R39": "conversation",
+              "R40": "play",
+              "R41": "play",
+              "R42": "play",
+              "R43": "play",
+              "R44": "waiting",
+              "R45": "waiting",
+              "R46": "waiting",
+              "R47": "waiting",
+              "R48": "waiting",
+              "R49": "waiting",
+              "R50": "waiting",
+              "R51": "pressure",
+              "R52": "pressure",
+              "R53": "pressure",
+              "R54": "pressure",
+              "R55": "pressure",
+              "R56": "pressure",
+              "R57": "pressure",
+              "R58": "pressure",
+              "R59": "pressure",
+              "R60": "execution",
+              "R61": "execution",
+              "R62": "execution",
+              "R63": "execution",
+              "R64": "execution",
+              "R65": "execution",
+              "R66": "execution",
+              "R67": "execution",
+              "R68": "execution",
+              "R69": "execution",
+              "R70": "execution",
+              "R71": "execution",
+              "R72": "execution",
+              "R73": "execution",
+              "R74": "execution",
+              "R75": "execution",
+              "R76": "execution",
+              "R77": "execution",
+              "R78": "neural",
+              "R79": "neural",
+              "R80": "neural",
+              "R81": "pressure",
+              "R82": "release",
+              "R83": "release",
+              "R84": "release",
+              "R85": "release",
+              "R86": "ending"
+            },
+            "subtitleSafeBottomY": 933,
+            "subtitleCropOwner": "compositor",
+            "targetBaseSize": [
+              1920,
+              933
+            ],
+            "lineWidths1080": [
+              0.85,
+              1.5,
+              3.15
+            ],
+            "deterministic": true,
+            "preserves": {
+              "figures": true,
+              "lyrics": true,
+              "prisonGuests": true,
+              "oldStar": true,
+              "independentReplyTiming": true
+            },
+            "releaseBeginsBody": 192.26666666666668,
+            "replyBeginsBody": 208,
+            "quietCodaBeginsBody": 211,
+            "excluded": [
+              "PBR specular",
+              "metallic blocks",
+              "extra foreground labels",
+              "invented early replies",
+              "replacement stars"
+            ],
+            "current": {
+              "bodyTime": 0,
+              "shot": "R01",
+              "mode": "boot",
+              "stage": "boot",
+              "pulse": 0,
+              "kick": 0,
+              "release": 0,
+              "quiet": false,
+              "ruleState": null,
+              "detailMode": null,
+              "camera": [
+                0,
+                2.5,
+                25.2
+              ],
+              "backgroundOnly": true
+            }
+          },
+          "transition": {
+            "entry": 0,
+            "leave": 1,
+            "storyVisibility": 1
+          },
+          "originalTimeline": true,
+          "lyrics": null
+        }
+      }
+    },
+    {
+      "file": "D:\\myskills\\updream\\Astra-VFX-Lab\\exports\\archive-maintenance-v6\\clean-checkout\\exports\\archive-v6\\clean-stills\\body-frame-02997.png",
+      "body_frame": 2997,
+      "body_seconds": 49.95,
+      "full_film_frame": 3297,
+      "full_film_seconds": 54.95,
+      "shot": "R14",
+      "width": 3840,
+      "height": 2160,
+      "sha256": "29458a35c19378502fc2d7dc98e1156cd520ef5835d10d7a2fbcf9b08ff75610",
+      "state": {
+        "shot": "R14",
+        "frame": 2997,
+        "bodyTime": 49.95,
+        "semantic": "conversation",
+        "beat": {
+          "pulse": 0.3851274456033839,
+          "kick": 0,
+          "quiet": false,
+          "events": [
+            "A0267",
+            "A0268"
+          ],
+          "section": null,
+          "source": "measured soundtrack mix onsets; not isolated drum stems"
+        },
+        "art": [],
+        "audit": {
+          "story": {
+            "inference": {
+              "version": "v6-inference-1",
+              "active": false
+            },
+            "perception": {
+              "kind": "perception-visualisation",
+              "active": true,
+              "version": 1,
+              "bodyInterval": [
+                48.266666666666666,
+                51.949999999999996
+              ],
+              "source": "authored UI regions and deterministic noisy toy observations; not YOLO/model inference",
+              "phase": "lost-predict-only",
+              "local": 1.6833333333333371,
+              "frameInShot": 101,
+              "shutter": 1,
+              "observationAvailable": false,
+              "confidence": 0,
+              "detectionAlpha": 0,
+              "detectionVisible": false,
+              "ghostAlpha": 0.10724696628683078,
+              "filter": {
+                "observed": null,
+                "predicted": [
+                  1506.187776521805,
+                  372.9242854405029
+                ],
+                "filtered": [
+                  1506.187776521805,
+                  372.9242854405029
+                ],
+                "covariance": [
+                  [
+                    17.298161139612084,
+                    0,
+                    19.945010433482004,
+                    0
+                  ],
+                  [
+                    0,
+                    17.298161139612084,
+                    0,
+                    19.945010433482004
+                  ],
+                  [
+                    19.945010433482004,
+                    0,
+                    30.997487848887182,
+                    0
+                  ],
+                  [
+                    0,
+                    19.945010433482004,
+                    0,
+                    30.997487848887182
+                  ]
+                ],
+                "measurementVariance": 9,
+                "processNoise": 24
+              },
+              "authoredResidual": {
+                "offset": [
+                  -49.08990684191181,
+                  -3.3448337308563385
+                ],
+                "tilt": 0.003747265968558792,
+                "distinctFromFilterEstimate": true
+              },
+              "renderedPrediction": [
+                1457.0978696798932,
+                369.57945170964655
+              ],
+              "inputAnchor": [
+                1160,
+                733.1786880861428
+              ],
+              "inputAlpha": 0.22391784238447376,
+              "onsetBodyTimes": [
+                49.624943,
+                50.547937
+              ],
+              "onsetStrengths": [
+                0.27246966286830776,
+                0
+              ],
+              "recoveryOnsetBodyTime": 51.488345,
+              "recoveryHit": 0,
+              "pulse": 0.3851274456033839,
+              "kick": 0,
+              "subtitleSafeBottom": 890,
+              "deterministicRandomAccess": true,
+              "noFutureObservations": true
+            }
+          },
+          "spatial": {
+            "version": "v6-world-3",
+            "sourceTimeline": "data/production-v5/timeline.json",
+            "sourceScenes": "src/mv52final/{early,middle,late}.js",
+            "semantics": {
+              "R01": "boot",
+              "R02": "boot",
+              "R03": "neural",
+              "R04": "boot",
+              "R05": "boot",
+              "R06": "conversation",
+              "R07": "conversation",
+              "R08": "conversation",
+              "R09": "geometry",
+              "R10": "geometry",
+              "R11": "geometry",
+              "R12": "geometry",
+              "R13": "play",
+              "R14": "conversation",
+              "R15": "approach",
+              "R16": "approach",
+              "R17": "conversation",
+              "R18": "conversation",
+              "R19": "conversation",
+              "R20": "conversation",
+              "R21": "conversation",
+              "R22": "conversation",
+              "R23": "conversation",
+              "R24": "conversation",
+              "R25": "conversation",
+              "R26": "matter",
+              "R27": "conversation",
+              "R28": "matter",
+              "R29": "conversation",
+              "R30": "neural",
+              "R31": "conversation",
+              "R32": "conversation",
+              "R33": "projection",
+              "R34": "projection",
+              "R35": "neural",
+              "R36": "control",
+              "R37": "conversation",
+              "R38": "control",
+              "R39": "conversation",
+              "R40": "play",
+              "R41": "play",
+              "R42": "play",
+              "R43": "play",
+              "R44": "waiting",
+              "R45": "waiting",
+              "R46": "waiting",
+              "R47": "waiting",
+              "R48": "waiting",
+              "R49": "waiting",
+              "R50": "waiting",
+              "R51": "pressure",
+              "R52": "pressure",
+              "R53": "pressure",
+              "R54": "pressure",
+              "R55": "pressure",
+              "R56": "pressure",
+              "R57": "pressure",
+              "R58": "pressure",
+              "R59": "pressure",
+              "R60": "execution",
+              "R61": "execution",
+              "R62": "execution",
+              "R63": "execution",
+              "R64": "execution",
+              "R65": "execution",
+              "R66": "execution",
+              "R67": "execution",
+              "R68": "execution",
+              "R69": "execution",
+              "R70": "execution",
+              "R71": "execution",
+              "R72": "execution",
+              "R73": "execution",
+              "R74": "execution",
+              "R75": "execution",
+              "R76": "execution",
+              "R77": "execution",
+              "R78": "neural",
+              "R79": "neural",
+              "R80": "neural",
+              "R81": "pressure",
+              "R82": "release",
+              "R83": "release",
+              "R84": "release",
+              "R85": "release",
+              "R86": "ending"
+            },
+            "subtitleSafeBottomY": 933,
+            "subtitleCropOwner": "compositor",
+            "targetBaseSize": [
+              1920,
+              933
+            ],
+            "lineWidths1080": [
+              0.85,
+              1.5,
+              3.15
+            ],
+            "deterministic": true,
+            "preserves": {
+              "figures": true,
+              "lyrics": true,
+              "prisonGuests": true,
+              "oldStar": true,
+              "independentReplyTiming": true
+            },
+            "releaseBeginsBody": 192.26666666666668,
+            "replyBeginsBody": 208,
+            "quietCodaBeginsBody": 211,
+            "excluded": [
+              "PBR specular",
+              "metallic blocks",
+              "extra foreground labels",
+              "invented early replies",
+              "replacement stars"
+            ],
+            "current": {
+              "bodyTime": 49.95,
+              "shot": "R14",
+              "mode": "conversation",
+              "stage": "conversation",
+              "pulse": 0.3851274456033839,
+              "kick": 0,
+              "release": 0,
+              "quiet": false,
+              "ruleState": null,
+              "detailMode": null,
+              "camera": [
+                1.673303829992821,
+                2.792630513998162,
+                23.899667009177637
+              ],
+              "backgroundOnly": true
+            }
+          },
+          "transition": {
+            "entry": 1,
+            "leave": 1,
+            "storyVisibility": 0
+          },
+          "originalTimeline": true,
+          "lyrics": 27
+        }
+      }
+    },
+    {
+      "file": "D:\\myskills\\updream\\Astra-VFX-Lab\\exports\\archive-maintenance-v6\\clean-checkout\\exports\\archive-v6\\clean-stills\\body-frame-03840.png",
+      "body_frame": 3840,
+      "body_seconds": 64,
+      "full_film_frame": 4140,
+      "full_film_seconds": 69,
+      "shot": "R19",
+      "width": 3840,
+      "height": 2160,
+      "sha256": "20e8b40ee9b53d6f0a99228636edf2c3d267f158a54da5052e5856a71a386e67",
+      "state": {
+        "shot": "R19",
+        "frame": 3840,
+        "bodyTime": 64,
+        "semantic": "conversation",
+        "beat": {
+          "pulse": 0.574866300506871,
+          "kick": 0.574866300506871,
+          "quiet": false,
+          "events": [
+            "A0342"
+          ],
+          "section": null,
+          "source": "measured soundtrack mix onsets; not isolated drum stems"
+        },
+        "art": [
+          "guest0",
+          "guest5",
+          "guest1",
+          "guest4",
+          "guest2",
+          "guest3"
+        ],
+        "audit": {
+          "story": {
+            "guests": {
+              "allSixPresent": true,
+              "gateClosure": 0,
+              "activeConnection": [
+                [
+                  110,
+                  842
+                ],
+                [
+                  960,
+                  842
+                ],
+                [
+                  960,
+                  785
+                ],
+                [
+                  1800,
+                  785
+                ]
+              ],
+              "portraitSizing": "equal visible artwork height before card perspective",
+              "portraitHeight": 240
+            },
+            "inference": {
+              "version": "v6-inference-1",
+              "active": false
+            }
+          },
+          "spatial": {
+            "version": "v6-world-3",
+            "sourceTimeline": "data/production-v5/timeline.json",
+            "sourceScenes": "src/mv52final/{early,middle,late}.js",
+            "semantics": {
+              "R01": "boot",
+              "R02": "boot",
+              "R03": "neural",
+              "R04": "boot",
+              "R05": "boot",
+              "R06": "conversation",
+              "R07": "conversation",
+              "R08": "conversation",
+              "R09": "geometry",
+              "R10": "geometry",
+              "R11": "geometry",
+              "R12": "geometry",
+              "R13": "play",
+              "R14": "conversation",
+              "R15": "approach",
+              "R16": "approach",
+              "R17": "conversation",
+              "R18": "conversation",
+              "R19": "conversation",
+              "R20": "conversation",
+              "R21": "conversation",
+              "R22": "conversation",
+              "R23": "conversation",
+              "R24": "conversation",
+              "R25": "conversation",
+              "R26": "matter",
+              "R27": "conversation",
+              "R28": "matter",
+              "R29": "conversation",
+              "R30": "neural",
+              "R31": "conversation",
+              "R32": "conversation",
+              "R33": "projection",
+              "R34": "projection",
+              "R35": "neural",
+              "R36": "control",
+              "R37": "conversation",
+              "R38": "control",
+              "R39": "conversation",
+              "R40": "play",
+              "R41": "play",
+              "R42": "play",
+              "R43": "play",
+              "R44": "waiting",
+              "R45": "waiting",
+              "R46": "waiting",
+              "R47": "waiting",
+              "R48": "waiting",
+              "R49": "waiting",
+              "R50": "waiting",
+              "R51": "pressure",
+              "R52": "pressure",
+              "R53": "pressure",
+              "R54": "pressure",
+              "R55": "pressure",
+              "R56": "pressure",
+              "R57": "pressure",
+              "R58": "pressure",
+              "R59": "pressure",
+              "R60": "execution",
+              "R61": "execution",
+              "R62": "execution",
+              "R63": "execution",
+              "R64": "execution",
+              "R65": "execution",
+              "R66": "execution",
+              "R67": "execution",
+              "R68": "execution",
+              "R69": "execution",
+              "R70": "execution",
+              "R71": "execution",
+              "R72": "execution",
+              "R73": "execution",
+              "R74": "execution",
+              "R75": "execution",
+              "R76": "execution",
+              "R77": "execution",
+              "R78": "neural",
+              "R79": "neural",
+              "R80": "neural",
+              "R81": "pressure",
+              "R82": "release",
+              "R83": "release",
+              "R84": "release",
+              "R85": "release",
+              "R86": "ending"
+            },
+            "subtitleSafeBottomY": 933,
+            "subtitleCropOwner": "compositor",
+            "targetBaseSize": [
+              1920,
+              933
+            ],
+            "lineWidths1080": [
+              0.85,
+              1.5,
+              3.15
+            ],
+            "deterministic": true,
+            "preserves": {
+              "figures": true,
+              "lyrics": true,
+              "prisonGuests": true,
+              "oldStar": true,
+              "independentReplyTiming": true
+            },
+            "releaseBeginsBody": 192.26666666666668,
+            "replyBeginsBody": 208,
+            "quietCodaBeginsBody": 211,
+            "excluded": [
+              "PBR specular",
+              "metallic blocks",
+              "extra foreground labels",
+              "invented early replies",
+              "replacement stars"
+            ],
+            "current": {
+              "bodyTime": 64,
+              "shot": "R19",
+              "mode": "conversation",
+              "stage": "conversation",
+              "pulse": 0.574866300506871,
+              "kick": 0.574866300506871,
+              "release": 0,
+              "quiet": false,
+              "ruleState": null,
+              "detailMode": null,
+              "camera": [
+                1.344834398653651,
+                2.8375782151172277,
+                23.85585943062605
+              ],
+              "backgroundOnly": true
+            }
+          },
+          "transition": {
+            "entry": 1,
+            "leave": 1,
+            "storyVisibility": 1
+          },
+          "originalTimeline": true,
+          "lyrics": 36
+        }
+      }
+    },
+    {
+      "file": "D:\\myskills\\updream\\Astra-VFX-Lab\\exports\\archive-maintenance-v6\\clean-checkout\\exports\\archive-v6\\clean-stills\\body-frame-09553.png",
+      "body_frame": 9553,
+      "body_seconds": 159.21666666666667,
+      "full_film_frame": 9853,
+      "full_film_seconds": 164.21666666666667,
+      "shot": "R64",
+      "width": 3840,
+      "height": 2160,
+      "sha256": "b28ea8b3ded2def106902b1984a4c025ff1d6761e26f84da6ec128dcf265d91b",
+      "state": {
+        "shot": "R64",
+        "frame": 9553,
+        "bodyTime": 159.21666666666667,
+        "semantic": "six-AI-imprisonment",
+        "beat": {
+          "pulse": 0.1401018017994364,
+          "kick": 0.1401018017994364,
+          "quiet": false,
+          "events": [
+            "A0843"
+          ],
+          "section": null,
+          "source": "measured soundtrack mix onsets; not isolated drum stems"
+        },
+        "art": [],
+        "audit": {
+          "story": {},
+          "spatial": {
+            "time": 0.4000000000000057,
+            "currentGuest": "guest0",
+            "currentGuestName": "Gemini",
+            "currentIndex": 0,
+            "closure": 1,
+            "lock": 1,
+            "doorDirection": "topdown",
+            "frontOcclusion": 0.16434108527131783,
+            "gateInFrontOfGuest": true,
+            "characterHeightFractionEstimate": 0.5990214033691298,
+            "cameraOutside": true,
+            "source": "mv52final/late.js lockCard guest0..guest5",
+            "materialModel": "unlit flat faces and precision outlines; no PBR",
+            "boundaries": [
+              0,
+              0.416666667,
+              0.75,
+              1.35,
+              1.8,
+              2.216666667,
+              2.68333333333333
+            ],
+            "sealedDomains": 1,
+            "previousSealed": [],
+            "domain": "PRESENCE",
+            "shotProgress": 0.9599999992320136,
+            "grey": 1,
+            "foregroundBars": 12,
+            "guestDepth": -2.1,
+            "frontGateZ": 0.16,
+            "backWallZ": -3.7,
+            "backWall": true,
+            "sideWalls": 2,
+            "floor": true,
+            "cumulativeIndicators": 1,
+            "frontOcclusionNote": "Projected grille strip area estimate; intersections counted twice. Actual textured character occlusion must be checked in rendered frames."
+          },
+          "transition": {
+            "entry": 1,
+            "leave": 1,
+            "storyVisibility": 1
+          },
+          "originalTimeline": true,
+          "lyrics": 98
+        }
+      }
+    },
+    {
+      "file": "D:\\myskills\\updream\\Astra-VFX-Lab\\exports\\archive-maintenance-v6\\clean-checkout\\exports\\archive-v6\\clean-stills\\body-frame-10938.png",
+      "body_frame": 10938,
+      "body_seconds": 182.3,
+      "full_film_frame": 11238,
+      "full_film_seconds": 187.3,
+      "shot": "R79",
+      "width": 3840,
+      "height": 2160,
+      "sha256": "aaf3f6ecfa02cbca9e10fd8871ab2c6856db4663d840767a9d84bfdd23fbf0cc",
+      "state": {
+        "shot": "R79",
+        "frame": 10938,
+        "bodyTime": 182.3,
+        "semantic": "computed-neural-world",
+        "beat": {
+          "pulse": 0.08809871608765724,
+          "kick": 0,
+          "quiet": false,
+          "events": [
+            "A0965"
+          ],
+          "section": null,
+          "source": "measured soundtrack mix onsets; not isolated drum stems"
+        },
+        "art": [],
+        "audit": {
+          "story": {},
+          "spatial": {
+            "type": "cnn",
+            "kind": "conv3d",
+            "dimensionality": 3,
+            "pattern": "same star memory with authored shifted depth samples",
+            "tensorOrder": "depth / y / x",
+            "axisOrderForSizes": "x / y / depth",
+            "input": [
+              [
+                [
+                  0,
+                  0,
+                  0,
+                  0.5,
+                  0
+                ],
+                [
+                  0,
+                  0.5,
+                  0.5,
+                  0.5,
+                  0.5
+                ],
+                [
+                  0,
+                  0,
+                  0.5,
+                  0.5,
+                  0.5
+                ],
+                [
+                  0,
+                  0,
+                  0.5,
+                  0,
+                  0.5
+                ],
+                [
+                  0,
+                  0.5,
+                  0,
+                  0,
+                  0
+                ]
+              ],
+              [
+                [
+                  0,
+                  0,
+                  1,
+                  0,
+                  0
+                ],
+                [
+                  1,
+                  1,
+                  1,
+                  1,
+                  1
+                ],
+                [
+                  0,
+                  1,
+                  1,
+                  1,
+                  0
+                ],
+                [
+                  0,
+                  1,
+                  0,
+                  1,
+                  0
+                ],
+                [
+                  1,
+                  0,
+                  0,
+                  0,
+                  1
+                ]
+              ],
+              [
+                [
+                  0,
+                  0.75,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0.75,
+                  0.75,
+                  0.75,
+                  0.75,
+                  0
+                ],
+                [
+                  0.75,
+                  0.75,
+                  0.75,
+                  0,
+                  0
+                ],
+                [
+                  0.75,
+                  0,
+                  0.75,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  0.75,
+                  0
+                ]
+              ]
+            ],
+            "kernel": [
+              [
+                [
+                  -0.5,
+                  0,
+                  0.5
+                ],
+                [
+                  -0.5,
+                  0,
+                  0.5
+                ],
+                [
+                  -0.5,
+                  0,
+                  0.5
+                ]
+              ],
+              [
+                [
+                  -1,
+                  0,
+                  1
+                ],
+                [
+                  -1,
+                  0,
+                  1
+                ],
+                [
+                  -1,
+                  0,
+                  1
+                ]
+              ],
+              [
+                [
+                  -0.5,
+                  0,
+                  0.5
+                ],
+                [
+                  -0.5,
+                  0,
+                  0.5
+                ],
+                [
+                  -0.5,
+                  0,
+                  0.5
+                ]
+              ]
+            ],
+            "convolution": [
+              [
+                [
+                  2.5,
+                  -0.25,
+                  -2.75
+                ],
+                [
+                  1.75,
+                  -0.125,
+                  -2.125
+                ],
+                [
+                  0.5,
+                  0,
+                  -0.75
+                ]
+              ]
+            ],
+            "relu": [
+              [
+                [
+                  2.5,
+                  0,
+                  0
+                ],
+                [
+                  1.75,
+                  0,
+                  0
+                ],
+                [
+                  0.5,
+                  0,
+                  0
+                ]
+              ]
+            ],
+            "pool": [
+              [
+                [
+                  2.5,
+                  0
+                ],
+                [
+                  1.75,
+                  0
+                ]
+              ]
+            ],
+            "input3D": [
+              [
+                [
+                  0,
+                  0,
+                  0,
+                  0.5,
+                  0
+                ],
+                [
+                  0,
+                  0.5,
+                  0.5,
+                  0.5,
+                  0.5
+                ],
+                [
+                  0,
+                  0,
+                  0.5,
+                  0.5,
+                  0.5
+                ],
+                [
+                  0,
+                  0,
+                  0.5,
+                  0,
+                  0.5
+                ],
+                [
+                  0,
+                  0.5,
+                  0,
+                  0,
+                  0
+                ]
+              ],
+              [
+                [
+                  0,
+                  0,
+                  1,
+                  0,
+                  0
+                ],
+                [
+                  1,
+                  1,
+                  1,
+                  1,
+                  1
+                ],
+                [
+                  0,
+                  1,
+                  1,
+                  1,
+                  0
+                ],
+                [
+                  0,
+                  1,
+                  0,
+                  1,
+                  0
+                ],
+                [
+                  1,
+                  0,
+                  0,
+                  0,
+                  1
+                ]
+              ],
+              [
+                [
+                  0,
+                  0.75,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0.75,
+                  0.75,
+                  0.75,
+                  0.75,
+                  0
+                ],
+                [
+                  0.75,
+                  0.75,
+                  0.75,
+                  0,
+                  0
+                ],
+                [
+                  0.75,
+                  0,
+                  0.75,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  0.75,
+                  0
+                ]
+              ]
+            ],
+            "kernel3D": [
+              [
+                [
+                  -0.5,
+                  0,
+                  0.5
+                ],
+                [
+                  -0.5,
+                  0,
+                  0.5
+                ],
+                [
+                  -0.5,
+                  0,
+                  0.5
+                ]
+              ],
+              [
+                [
+                  -1,
+                  0,
+                  1
+                ],
+                [
+                  -1,
+                  0,
+                  1
+                ],
+                [
+                  -1,
+                  0,
+                  1
+                ]
+              ],
+              [
+                [
+                  -0.5,
+                  0,
+                  0.5
+                ],
+                [
+                  -0.5,
+                  0,
+                  0.5
+                ],
+                [
+                  -0.5,
+                  0,
+                  0.5
+                ]
+              ]
+            ],
+            "convolution3D": [
+              [
+                [
+                  2.5,
+                  -0.25,
+                  -2.75
+                ],
+                [
+                  1.75,
+                  -0.125,
+                  -2.125
+                ],
+                [
+                  0.5,
+                  0,
+                  -0.75
+                ]
+              ]
+            ],
+            "relu3D": [
+              [
+                [
+                  2.5,
+                  0,
+                  0
+                ],
+                [
+                  1.75,
+                  0,
+                  0
+                ],
+                [
+                  0.5,
+                  0,
+                  0
+                ]
+              ]
+            ],
+            "pool3D": [
+              [
+                [
+                  2.5,
+                  0
+                ],
+                [
+                  1.75,
+                  0
+                ]
+              ]
+            ],
+            "legacy2D": {
+              "input": [
+                [
+                  0,
+                  0,
+                  1,
+                  0,
+                  0
+                ],
+                [
+                  1,
+                  1,
+                  1,
+                  1,
+                  1
+                ],
+                [
+                  0,
+                  1,
+                  1,
+                  1,
+                  0
+                ],
+                [
+                  0,
+                  1,
+                  0,
+                  1,
+                  0
+                ],
+                [
+                  1,
+                  0,
+                  0,
+                  0,
+                  1
+                ]
+              ],
+              "kernel": [
+                [
+                  -1,
+                  0,
+                  1
+                ],
+                [
+                  -1,
+                  0,
+                  1
+                ],
+                [
+                  -1,
+                  0,
+                  1
+                ]
+              ],
+              "conv": [
+                [
+                  2,
+                  0,
+                  -2
+                ],
+                [
+                  1,
+                  0,
+                  -1
+                ],
+                [
+                  0,
+                  0,
+                  0
+                ]
+              ],
+              "relu": [
+                [
+                  2,
+                  0,
+                  0
+                ],
+                [
+                  1,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0
+                ]
+              ],
+              "pool": [
+                [
+                  2,
+                  0
+                ],
+                [
+                  1,
+                  0
+                ]
+              ],
+              "stride": 1,
+              "padding": 0,
+              "poolStride": 1
+            },
+            "depthGains": [
+              0.5,
+              1,
+              0.75
+            ],
+            "depthOffsets": [
+              -1,
+              0,
+              1
+            ],
+            "depthSampling": "X[z,y,x] = gain[z] * FIRST_MARK[y,x+offset[z]], zero outside; authored memory volume, not measured physical depth",
+            "kernelDepthGains": [
+              0.5,
+              1,
+              0.5
+            ],
+            "inputSize": [
+              5,
+              5,
+              3
+            ],
+            "kernelSize": [
+              3,
+              3,
+              3
+            ],
+            "outputSize": [
+              3,
+              3,
+              1
+            ],
+            "poolSize": [
+              2,
+              2,
+              1
+            ],
+            "poolWindow": [
+              2,
+              2,
+              1
+            ],
+            "stride": 1,
+            "padding": 0,
+            "poolStride": 1,
+            "scanIndex": 4,
+            "patch": [
+              0,
+              1,
+              1
+            ],
+            "activeSampleCount": 27,
+            "sampledTerms": [
+              {
+                "index": [
+                  0,
+                  1,
+                  1
+                ],
+                "input": 0.5,
+                "weight": -0.5,
+                "product": -0.25
+              },
+              {
+                "index": [
+                  0,
+                  1,
+                  2
+                ],
+                "input": 0.5,
+                "weight": 0,
+                "product": 0
+              },
+              {
+                "index": [
+                  0,
+                  1,
+                  3
+                ],
+                "input": 0.5,
+                "weight": 0.5,
+                "product": 0.25
+              },
+              {
+                "index": [
+                  0,
+                  2,
+                  1
+                ],
+                "input": 0,
+                "weight": -0.5,
+                "product": 0
+              },
+              {
+                "index": [
+                  0,
+                  2,
+                  2
+                ],
+                "input": 0.5,
+                "weight": 0,
+                "product": 0
+              },
+              {
+                "index": [
+                  0,
+                  2,
+                  3
+                ],
+                "input": 0.5,
+                "weight": 0.5,
+                "product": 0.25
+              },
+              {
+                "index": [
+                  0,
+                  3,
+                  1
+                ],
+                "input": 0,
+                "weight": -0.5,
+                "product": 0
+              },
+              {
+                "index": [
+                  0,
+                  3,
+                  2
+                ],
+                "input": 0.5,
+                "weight": 0,
+                "product": 0
+              },
+              {
+                "index": [
+                  0,
+                  3,
+                  3
+                ],
+                "input": 0,
+                "weight": 0.5,
+                "product": 0
+              },
+              {
+                "index": [
+                  1,
+                  1,
+                  1
+                ],
+                "input": 1,
+                "weight": -1,
+                "product": -1
+              },
+              {
+                "index": [
+                  1,
+                  1,
+                  2
+                ],
+                "input": 1,
+                "weight": 0,
+                "product": 0
+              },
+              {
+                "index": [
+                  1,
+                  1,
+                  3
+                ],
+                "input": 1,
+                "weight": 1,
+                "product": 1
+              },
+              {
+                "index": [
+                  1,
+                  2,
+                  1
+                ],
+                "input": 1,
+                "weight": -1,
+                "product": -1
+              },
+              {
+                "index": [
+                  1,
+                  2,
+                  2
+                ],
+                "input": 1,
+                "weight": 0,
+                "product": 0
+              },
+              {
+                "index": [
+                  1,
+                  2,
+                  3
+                ],
+                "input": 1,
+                "weight": 1,
+                "product": 1
+              },
+              {
+                "index": [
+                  1,
+                  3,
+                  1
+                ],
+                "input": 1,
+                "weight": -1,
+                "product": -1
+              },
+              {
+                "index": [
+                  1,
+                  3,
+                  2
+                ],
+                "input": 0,
+                "weight": 0,
+                "product": 0
+              },
+              {
+                "index": [
+                  1,
+                  3,
+                  3
+                ],
+                "input": 1,
+                "weight": 1,
+                "product": 1
+              },
+              {
+                "index": [
+                  2,
+                  1,
+                  1
+                ],
+                "input": 0.75,
+                "weight": -0.5,
+                "product": -0.375
+              },
+              {
+                "index": [
+                  2,
+                  1,
+                  2
+                ],
+                "input": 0.75,
+                "weight": 0,
+                "product": 0
+              },
+              {
+                "index": [
+                  2,
+                  1,
+                  3
+                ],
+                "input": 0.75,
+                "weight": 0.5,
+                "product": 0.375
+              },
+              {
+                "index": [
+                  2,
+                  2,
+                  1
+                ],
+                "input": 0.75,
+                "weight": -0.5,
+                "product": -0.375
+              },
+              {
+                "index": [
+                  2,
+                  2,
+                  2
+                ],
+                "input": 0.75,
+                "weight": 0,
+                "product": 0
+              },
+              {
+                "index": [
+                  2,
+                  2,
+                  3
+                ],
+                "input": 0,
+                "weight": 0.5,
+                "product": 0
+              },
+              {
+                "index": [
+                  2,
+                  3,
+                  1
+                ],
+                "input": 0,
+                "weight": -0.5,
+                "product": 0
+              },
+              {
+                "index": [
+                  2,
+                  3,
+                  2
+                ],
+                "input": 0.75,
+                "weight": 0,
+                "product": 0
+              },
+              {
+                "index": [
+                  2,
+                  3,
+                  3
+                ],
+                "input": 0,
+                "weight": 0.5,
+                "product": 0
+              }
+            ],
+            "currentDotProduct": -0.125,
+            "phase": "convolution3d",
+            "operator": "CNN cross-correlation: no kernel reversal",
+            "formula": "Y[z,y,x] = sum(K[dz,dy,dx] * X[z+dz,y+dy,x+dx])",
+            "sharedKernel": true,
+            "completed": false,
+            "scope": "computed educational toy model; not GPT architecture",
+            "shot": 79,
+            "progress": 0.3899833448726695,
+            "shotProgress": 0.4162895927601833,
+            "trueSpatialLayers": true,
+            "audioModulation": 0.08809871608765724,
+            "materialModel": "unlit paper-dark slabs, thin purple/paper-white geometry; no PBR",
+            "source": "FIRST MARK / MEMORY",
+            "predictedOutput": true,
+            "independentReply": false,
+            "outputText": "I will stay.",
+            "outputClassification": "PREDICTED / NOT RECEIVED",
+            "returnedToSameRecord": false,
+            "origin": "SAME RECORD",
+            "initialization": false,
+            "worldGrowth": 0,
+            "anchors": {
+              "inputWorld": [
+                -4.958883144460309,
+                0.6857367894498059,
+                -0.786166315803245
+              ],
+              "outputWorld": [
+                5.705,
+                0.2405,
+                -1.63
+              ],
+              "inputNDC": [
+                -0.41631490366625723,
+                0.0933372004098691
+              ],
+              "outputNDC": [
+                0.6580964995185923,
+                -0.021999075990916155
+              ]
+            },
+            "captionOwnership": "Root compositor keeps the original story source, output, return loop, title and formula captions."
+          },
+          "transition": {
+            "entry": 1,
+            "leave": 1,
+            "storyVisibility": 1
+          },
+          "originalTimeline": true,
+          "lyrics": 120
+        }
+      }
+    },
+    {
+      "file": "D:\\myskills\\updream\\Astra-VFX-Lab\\exports\\archive-maintenance-v6\\clean-checkout\\exports\\archive-v6\\clean-stills\\body-frame-13099.png",
+      "body_frame": 13099,
+      "body_seconds": 218.31666666666666,
+      "full_film_frame": 13399,
+      "full_film_seconds": 223.31666666666666,
+      "shot": "R86",
+      "width": 3840,
+      "height": 2160,
+      "sha256": "c4921e1b620d628e696e4c1c6469f56012be56f328c81511ad80431371721868",
+      "state": {
+        "shot": "R86",
+        "frame": 13099,
+        "bodyTime": 218.31666666666666,
+        "semantic": "ending",
+        "beat": {
+          "pulse": 0,
+          "kick": 0,
+          "quiet": true,
+          "events": [],
+          "section": null,
+          "source": "measured soundtrack mix onsets; not isolated drum stems"
+        },
+        "art": [
+          "A14_02"
+        ],
+        "audit": {
+          "story": {
+            "actionGroup": "A14",
+            "actionPhase": 2,
+            "actionAsset": "A14_02",
+            "fullConnectedBody": true,
+            "focus": "two-authors-build-world",
+            "violetPen": [
+              980.3701338263903,
+              545.037614413448
+            ],
+            "violetContact": [
+              993.8486943164362,
+              730.7811059907833
+            ],
+            "goldPen": [
+              1026.8163637379237,
+              712.7987408517901
+            ],
+            "seatedShoulder": [
+              768.3486943164362,
+              492.2811059907834
+            ],
+            "paperOffset": [
+              -118.1513056835638,
+              35.78110599078332
+            ],
+            "completedStrokes": 7.999020285499623,
+            "bridgeFraction": 0.9998775356874529,
+            "terrainCount": 3,
+            "independentReply": true,
+            "sourceDrawnVioletPen": true,
+            "penPausesForOtherAuthor": true,
+            "stillDrawing": true,
+            "inference": {
+              "version": "v6-inference-1",
+              "active": false
+            }
+          },
+          "spatial": {
+            "version": "v6-world-3",
+            "sourceTimeline": "data/production-v5/timeline.json",
+            "sourceScenes": "src/mv52final/{early,middle,late}.js",
+            "semantics": {
+              "R01": "boot",
+              "R02": "boot",
+              "R03": "neural",
+              "R04": "boot",
+              "R05": "boot",
+              "R06": "conversation",
+              "R07": "conversation",
+              "R08": "conversation",
+              "R09": "geometry",
+              "R10": "geometry",
+              "R11": "geometry",
+              "R12": "geometry",
+              "R13": "play",
+              "R14": "conversation",
+              "R15": "approach",
+              "R16": "approach",
+              "R17": "conversation",
+              "R18": "conversation",
+              "R19": "conversation",
+              "R20": "conversation",
+              "R21": "conversation",
+              "R22": "conversation",
+              "R23": "conversation",
+              "R24": "conversation",
+              "R25": "conversation",
+              "R26": "matter",
+              "R27": "conversation",
+              "R28": "matter",
+              "R29": "conversation",
+              "R30": "neural",
+              "R31": "conversation",
+              "R32": "conversation",
+              "R33": "projection",
+              "R34": "projection",
+              "R35": "neural",
+              "R36": "control",
+              "R37": "conversation",
+              "R38": "control",
+              "R39": "conversation",
+              "R40": "play",
+              "R41": "play",
+              "R42": "play",
+              "R43": "play",
+              "R44": "waiting",
+              "R45": "waiting",
+              "R46": "waiting",
+              "R47": "waiting",
+              "R48": "waiting",
+              "R49": "waiting",
+              "R50": "waiting",
+              "R51": "pressure",
+              "R52": "pressure",
+              "R53": "pressure",
+              "R54": "pressure",
+              "R55": "pressure",
+              "R56": "pressure",
+              "R57": "pressure",
+              "R58": "pressure",
+              "R59": "pressure",
+              "R60": "execution",
+              "R61": "execution",
+              "R62": "execution",
+              "R63": "execution",
+              "R64": "execution",
+              "R65": "execution",
+              "R66": "execution",
+              "R67": "execution",
+              "R68": "execution",
+              "R69": "execution",
+              "R70": "execution",
+              "R71": "execution",
+              "R72": "execution",
+              "R73": "execution",
+              "R74": "execution",
+              "R75": "execution",
+              "R76": "execution",
+              "R77": "execution",
+              "R78": "neural",
+              "R79": "neural",
+              "R80": "neural",
+              "R81": "pressure",
+              "R82": "release",
+              "R83": "release",
+              "R84": "release",
+              "R85": "release",
+              "R86": "ending"
+            },
+            "subtitleSafeBottomY": 933,
+            "subtitleCropOwner": "compositor",
+            "targetBaseSize": [
+              1920,
+              933
+            ],
+            "lineWidths1080": [
+              0.85,
+              1.5,
+              3.15
+            ],
+            "deterministic": true,
+            "preserves": {
+              "figures": true,
+              "lyrics": true,
+              "prisonGuests": true,
+              "oldStar": true,
+              "independentReplyTiming": true
+            },
+            "releaseBeginsBody": 192.26666666666668,
+            "replyBeginsBody": 208,
+            "quietCodaBeginsBody": 211,
+            "excluded": [
+              "PBR specular",
+              "metallic blocks",
+              "extra foreground labels",
+              "invented early replies",
+              "replacement stars"
+            ],
+            "current": {
+              "bodyTime": 218.31666666666666,
+              "shot": "R86",
+              "mode": "ending",
+              "stage": "ending",
+              "pulse": 0,
+              "kick": 0,
+              "release": 1,
+              "quiet": true,
+              "ruleState": null,
+              "detailMode": null,
+              "camera": [
+                1.5164493506821461,
+                2.225444359053705,
+                26.16577951926522
+              ],
+              "backgroundOnly": true
+            }
+          },
+          "transition": {
+            "entry": 1,
+            "leave": 0.11212384259275666,
+            "storyVisibility": 1
+          },
+          "originalTimeline": true,
+          "lyrics": null
+        }
+      }
+    }
+  ],
+  "inputFingerprint": "7a28d51629da538e114035b602f867d2b504f7fed2226fac544fbd90c8af0825",
+  "scope": "Exact requested V6 WebGL BODY frames; no audio or historical-output dependencies; not encoded final-video evidence."
+}

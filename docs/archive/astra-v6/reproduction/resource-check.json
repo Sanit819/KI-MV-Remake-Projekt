@@ -1,0 +1,101 @@
+{
+  "passed": true,
+  "checks": {
+    "manifest_79_slots": true,
+    "all_images_valid": true,
+    "warning_card_4k": true,
+    "timeline_86_shots": true,
+    "timeline_contiguous": true,
+    "bilingual_128_cues": true,
+    "v6_module_graph": true,
+    "three_import_map": true,
+    "preview_controls": true
+  },
+  "imageCount": 79,
+  "moduleCount": 30,
+  "firstPartyModules": [
+    {
+      "path": "src/full/vendor/trace.js",
+      "sha256": "b57752ee83ce926098862ac6211eefb91e0308497a1a65caba55585cd405f057"
+    },
+    {
+      "path": "src/mv52final/art.js",
+      "sha256": "be9a32ab17d8525a94f5a5c602aae2ec2119e96136377541366128e359ef6bd0"
+    },
+    {
+      "path": "src/mv52final/early.js",
+      "sha256": "1eb7e6ce644cee50cf732b0412042ef18b5c3f9bb23e85e41e7260bec1a7e8d3"
+    },
+    {
+      "path": "src/mv52final/extra-light.js",
+      "sha256": "1db97b8c2e91b4c412c0d7054dd61d376a3a600901d79fe2fe10f55fe5a44224"
+    },
+    {
+      "path": "src/mv52final/kit.js",
+      "sha256": "0b945e5ae274cb766eb064dfdd0f26e547d71797f1a620fcc54dc927fc48b3ea"
+    },
+    {
+      "path": "src/mv52final/late.js",
+      "sha256": "00bd27b75d47650f09c951b85232997406fc61c6edb77807ae17498ae02e168b"
+    },
+    {
+      "path": "src/mv52final/lighting.js",
+      "sha256": "af5e4fee772efcae372ffe37077d796edb8bfa938342fa8af090f35238a431cd"
+    },
+    {
+      "path": "src/mv52final/middle.js",
+      "sha256": "abfdc056862ecb5d2cb46eb3d0bdaed52c94ba19863c9ac460aa7e9645246789"
+    },
+    {
+      "path": "src/mv52final/neural.js",
+      "sha256": "8efccaa883b1c4a929d1b82a11a676c3830febb4e70639818f12cf09de098847"
+    },
+    {
+      "path": "src/mv52final/spatial-neural.js",
+      "sha256": "bdccda032ded86df70afc804ed191e21a930494c57ce61c21b7d0125ce35a8e0"
+    },
+    {
+      "path": "src/mv6/beat.js",
+      "sha256": "b66758a9ebff8c9550e18894dad67aed0a8d9a7bdef2fea1fc654c93337dd212"
+    },
+    {
+      "path": "src/mv6/common.js",
+      "sha256": "fccd0edfcb56abca80fec2c844420dfbb07115b62dc6f49beb239602c189f128"
+    },
+    {
+      "path": "src/mv6/composite.js",
+      "sha256": "f29527aebccd5c8c50bd5cb5db592d700ba29013b70933d6019f936738eeca94"
+    },
+    {
+      "path": "src/mv6/inference-math.js",
+      "sha256": "f9ffcfcd913d17204a828022802d0192a946592a6ad3215e2fcfcd62637fa630"
+    },
+    {
+      "path": "src/mv6/inference-overlay.js",
+      "sha256": "25f14cac3d3cec04d983ac339c20e315cdf3dc43e3ccd49df258b98f743385a1"
+    },
+    {
+      "path": "src/mv6/main.js",
+      "sha256": "095ad98cea45822bb1156636d42d1437330d1747bf50df4775aaf96e9ec01fb1"
+    },
+    {
+      "path": "src/mv6/neural-world.js",
+      "sha256": "567214d63d3dbce4d6a3e83a061884ff2f91700af294fca52bfe6009bcf5ea92"
+    },
+    {
+      "path": "src/mv6/perception-overlay.js",
+      "sha256": "f29b6ab37476c105b35d806e8d5d90a2b944ecd9fd1f49fbc1c4ac11c0bfb9c4"
+    },
+    {
+      "path": "src/mv6/world.js",
+      "sha256": "b1b26204d0d06d605547cae6352c62b27992996d33d22f7e1e2296e7e2a7383a"
+    },
+    {
+      "path": "src/vfxlab-v2/containment.js",
+      "sha256": "9530f468362e23b654131058f23af042e4f47de89394473d69fad204b9b0ce21"
+    }
+  ],
+  "inputFingerprint": "7a28d51629da538e114035b602f867d2b504f7fed2226fac544fbd90c8af0825",
+  "errors": [],
+  "scope": "Local file/header/hash, timeline and static imports only; no browser render or original-song requirement."
+}

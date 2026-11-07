@@ -31,11 +31,12 @@
     "final:v5:qa": "node tools/render/qa_v5.mjs --width 3840 --height 2160 --out exports/qa-v5-final",
     "final:v5:math": "node tools/render/check_neural_v5.mjs && node tools/render/check_v5_actions.mjs",
     "final:v5:4k-hires": "node tools/render/export_final_v5.mjs",
-    "archive:check": "node tools/archive/reproduce_v52.mjs --check",
-    "archive:preview": "node tools/archive/reproduce_v52.mjs --serve --width 1920 --height 1080",
-    "archive:render": "node tools/archive/reproduce_v52.mjs --render --with-warning",
+    "archive:check": "node tools/archive/reproduce_v6.mjs --check",
+    "archive:preview": "node tools/archive/reproduce_v6.mjs --serve --width 3840 --height 2160",
+    "archive:render": "node tools/archive/reproduce_v6.mjs --render --with-warning",
+    "archive:v52:check": "node tools/archive/reproduce_v52.mjs --check",
     "full:v6:4k": "node tools/render_mv6_parallel.mjs --transport raw --jobs 2",
-    "full:v6:package": "python -B tools/package_mv6.py --body exports/mv6/final4k/body.mp4 --dir exports/mv6/final4k"
+    "full:v6:package": "python -B tools/package_mv6.py --body exports/mv6/final4k-anonymous/body.mp4 --dir exports/mv6/final4k-anonymous --no-aac-preview"
   },
   "dependencies": {
     "playwright-core": "1.64.1",

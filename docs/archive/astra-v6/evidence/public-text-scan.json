@@ -1,0 +1,91 @@
+{
+  "selectedTextFilesScanned": 64,
+  "unresolvedFindings": 0,
+  "reviewedSourceIdentifierMatches": [
+    {
+      "source": "exports/mv6/final4k/mux-timescale-migration/render_mv6.before.mjs",
+      "match": "token",
+      "offset": 8258,
+      "review": "Source identifier for an ephemeral localhost upload nonce generated at runtime; no captured credential value."
+    },
+    {
+      "source": "exports/mv6/final4k/mux-timescale-migration/render_mv6.before.mjs",
+      "match": "token",
+      "offset": 8895,
+      "review": "Source identifier for an ephemeral localhost upload nonce generated at runtime; no captured credential value."
+    },
+    {
+      "source": "exports/mv6/final4k/mux-timescale-migration/render_mv6.before.mjs",
+      "match": "token",
+      "offset": 8905,
+      "review": "Source identifier for an ephemeral localhost upload nonce generated at runtime; no captured credential value."
+    },
+    {
+      "source": "exports/mv6/final4k/mux-timescale-migration/render_mv6.before.mjs",
+      "match": "token",
+      "offset": 15099,
+      "review": "Source identifier for an ephemeral localhost upload nonce generated at runtime; no captured credential value."
+    },
+    {
+      "source": "exports/mv6/final4k/mux-timescale-migration/render_mv6.before.mjs",
+      "match": "token",
+      "offset": 15826,
+      "review": "Source identifier for an ephemeral localhost upload nonce generated at runtime; no captured credential value."
+    },
+    {
+      "source": "exports/mv6/final4k/mux-timescale-migration/render_mv6.before.mjs",
+      "match": "token",
+      "offset": 15833,
+      "review": "Source identifier for an ephemeral localhost upload nonce generated at runtime; no captured credential value."
+    },
+    {
+      "source": "exports/mv6/final4k/mux-timescale-migration/render_mv6.before.mjs",
+      "match": "token",
+      "offset": 18270,
+      "review": "Source identifier for an ephemeral localhost upload nonce generated at runtime; no captured credential value."
+    },
+    {
+      "source": "tools/render_mv6.mjs",
+      "match": "token",
+      "offset": 8258,
+      "review": "Source identifier for an ephemeral localhost upload nonce generated at runtime; no captured credential value."
+    },
+    {
+      "source": "tools/render_mv6.mjs",
+      "match": "token",
+      "offset": 8895,
+      "review": "Source identifier for an ephemeral localhost upload nonce generated at runtime; no captured credential value."
+    },
+    {
+      "source": "tools/render_mv6.mjs",
+      "match": "token",
+      "offset": 8905,
+      "review": "Source identifier for an ephemeral localhost upload nonce generated at runtime; no captured credential value."
+    },
+    {
+      "source": "tools/render_mv6.mjs",
+      "match": "token",
+      "offset": 15126,
+      "review": "Source identifier for an ephemeral localhost upload nonce generated at runtime; no captured credential value."
+    },
+    {
+      "source": "tools/render_mv6.mjs",
+      "match": "token",
+      "offset": 15853,
+      "review": "Source identifier for an ephemeral localhost upload nonce generated at runtime; no captured credential value."
+    },
+    {
+      "source": "tools/render_mv6.mjs",
+      "match": "token",
+      "offset": 15860,
+      "review": "Source identifier for an ephemeral localhost upload nonce generated at runtime; no captured credential value."
+    },
+    {
+      "source": "tools/render_mv6.mjs",
+      "match": "token",
+      "offset": 18297,
+      "review": "Source identifier for an ephemeral localhost upload nonce generated at runtime; no captured credential value."
+    }
+  ],
+  "scope": "Heuristic scan of selected original text for C:/Users, credential-related fields, bearer and sk-like keys. Not a complete repository security audit."
+}

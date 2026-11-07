@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "entry": "tools/archive/reproduce_v6.mjs",
+  "scriptSha256": "437b7245a1c6bdfdee2f1f93389918bfb5cc5f29da56604adf97b3bb3953387c",
+  "seek": {
+    "bodyTime": 64.00000128,
+    "shot": "R19",
+    "size": [
+      3840,
+      2160
+    ]
+  },
+  "playedTime": 65.92640127997616,
+  "pausedTime": 69.93550128000001,
+  "heldTime": 69.93550128000001,
+  "pageErrors": [],
+  "failedResponses": [],
+  "scope": "Latest portable script: silent loopback preview loads, seeks, plays and pauses at native4K. User-supplied audio ending was not exercised. No continuous film viewing or listening."
+}

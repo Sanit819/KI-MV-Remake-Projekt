@@ -1,0 +1,768 @@
+{
+  "schema": "astra-v6-portable-validation-summary-v1",
+  "kind": "derived-summary-not-original-report",
+  "createdDate": "2026-11-07",
+  "master": {
+    "localRelativePath": "exports/mv6/final4k-anonymous/astra-world-execute-me-v6-4k60-hires.mp4",
+    "gitDistributed": false,
+    "sha256": "fec129d33ea33dd0c59bf99083338b537af63e5ecaf401acf3ba4c567776b89b",
+    "bytes": 1775298965,
+    "width": 3840,
+    "height": 2160,
+    "fps": 60,
+    "frames": 13400,
+    "durationSeconds": 223.33333333333334,
+    "warningFrames": 300,
+    "bodyFrames": 13100,
+    "audio": {
+      "codec": "ALAC",
+      "sampleRate": 192000,
+      "bitsPerRawSample": 24,
+      "channels": 2,
+      "samples": 42880000,
+      "encodedPacketIdentity": true,
+      "encodedPacketSha256": "3eebefc53a6091a220385b308cc130ba2a486b50318cc8e86dd5c1e7fbbe6858"
+    }
+  },
+  "sourceFingerprints": {
+    "postEdit": "69d74ea120a7fda928efc691e74f258752448ee355fd835e0cafc1a21232b0fa",
+    "baseResumeCompatible": "059be3a8159f8b295244daae1d2bf62a826dd569f58e68f1c5322f7b36e54c18",
+    "labelsOnlyCounts": "285e88587307eaf4dcf0d91174b442ff8511973f16dbd6c5fd640298522ad8d1",
+    "historicalPreMuxCapture": "fdeed27d6e540d70b507326150bee6972a8712654cfa89c9a88a792fe48c946a",
+    "bodyCompositeFingerprint": "74409ba6cff5d468a4b83bf29fd8e374b48287f9a33278ff7b7422ddf391f57d",
+    "scope": "Post-edit source is not substituted for historical capture sources. Some base chunks explicitly retain a historical pre-mux capture provenance and a checked container-only resume alias."
+  },
+  "assembly": {
+    "replacedFrames": 548,
+    "retainedBaseSourceFrames": 12552,
+    "segments": [
+      {
+        "first": 0,
+        "end": 2896,
+        "captureSource": "base"
+      },
+      {
+        "first": 2896,
+        "end": 3117,
+        "captureSource": "vision"
+      },
+      {
+        "first": 3117,
+        "end": 3754,
+        "captureSource": "base"
+      },
+      {
+        "first": 3754,
+        "end": 3920,
+        "captureSource": "intro"
+      },
+      {
+        "first": 3920,
+        "end": 9529,
+        "captureSource": "base"
+      },
+      {
+        "first": 9529,
+        "end": 9690,
+        "captureSource": "counts"
+      },
+      {
+        "first": 9690,
+        "end": 13100,
+        "captureSource": "base"
+      }
+    ],
+    "pixelIdentityClaim": false,
+    "reason": "Seven exact source-frame intervals underwent one additional lossy NVENC CQ14 encoding."
+  },
+  "technical": {
+    "passed": true,
+    "masterChecks": {
+      "dimensions": true,
+      "60fps": true,
+      "frame_count": true,
+      "video_start_zero": true,
+      "duration": true,
+      "audio_codec": true,
+      "audio_sample_rate": true,
+      "audio_stereo": true,
+      "audio_start_zero": true,
+      "audio_duration": true,
+      "full_decode": true,
+      "continuous_pts": true
+    },
+    "decodeAndPTS": {
+      "decoded_frames": 13400,
+      "filter_time_base": "1/60000",
+      "first_pts_seconds": 0.0,
+      "last_pts_seconds": 223.31666666666666,
+      "maximum_pts_error_seconds": 0.0,
+      "method": "Single ffmpeg full video/audio decode with showinfo checksum=0; integer filter PTS checked."
+    },
+    "bodyAndWarningSeparateChecks": "Metadata only; the final master was fully decoded.",
+    "storyStatus": "pass",
+    "storyAuditedFrames": 13100,
+    "shotCount": 86,
+    "storyChecks": {
+      "frame_chain": {
+        "status": "pass",
+        "tests": 27003,
+        "failures": 0,
+        "missingRequiredFields": 0,
+        "scope": "Exactly frames 0..13099 and frame/60 timestamps. Each original full chunk is checked before clipping. A single render retains one source hash; an explicit patched manifest retains separately verified capture-source hashes. No media decode/hash recalculation."
+      },
+      "capture_provenance": {
+        "status": "pass",
+        "tests": 208,
+        "failures": 0,
+        "missingRequiredFields": 0,
+        "scope": "Original render JSONs are hashed; chunk references/fingerprints/source hashes must match their original owning report. Mixed capture accepts only the three authorized R14/R19/R64..69 intervals: base, historical labels-only counts, and final vision/intro source hashes remain distinct. Assembler source-reconstruction proof is checked for hash consistency, not recomputed here."
+      },
+      "shot_timeline": {
+        "status": "pass",
+        "tests": 13100,
+        "failures": 0,
+        "missingRequiredFields": 0,
+        "scope": "Every frame's shot must equal original integer [start_frame,end_frame) timeline membership."
+      },
+      "lyric_cues": {
+        "status": "pass",
+        "tests": 13100,
+        "failures": 0,
+        "missingRequiredFields": 0,
+        "scope": "Every frame's audit.lyrics must equal original cue index or explicit null in a gap; validates timing identity, not glyphs or singing."
+      },
+      "containment": {
+        "status": "pass",
+        "tests": 966,
+        "failures": 0,
+        "missingRequiredFields": 0,
+        "scope": "R64..R69 every frame: exact guest identity/index, cameraOutside and gateInFrontOfGuest; depth ordering when reported. These are recorded geometry facts, not image occlusion inspection."
+      },
+      "containment_sealed": {
+        "status": "pass",
+        "tests": 19,
+        "failures": 0,
+        "missingRequiredFields": 0,
+        "scope": "Last original frame of each count shot: closure/lock/grey must all be fully sealed (>=1-1e-6)."
+      },
+      "neural_same_source": {
+        "status": "pass",
+        "tests": 4044,
+        "failures": 0,
+        "missingRequiredFields": 0,
+        "scope": "R78..R80 every frame: FIRST MARK / MEMORY, no independent reply, predicted/not-received output and SAME RECORD origin."
+      },
+      "conv3d": {
+        "status": "pass",
+        "tests": 4420,
+        "failures": 0,
+        "missingRequiredFields": 0,
+        "scope": "R79 every frame: recompute valid stride-1 cross-correlation from actual 3D input/kernel, then ReLU and 1x2x2 max pool; compare all recorded tensor aliases."
+      },
+      "conv3d_samples": {
+        "status": "pass",
+        "tests": 17131,
+        "failures": 0,
+        "missingRequiredFields": 0,
+        "scope": "R79 convolution phase: verify all 27 unique sampled voxels, weights/products and sum; post-convolution phases explicitly contain no active sampled terms."
+      },
+      "control_release_observed": {
+        "status": "not_covered",
+        "tests": 0,
+        "failures": 0,
+        "missingRequiredFields": 0,
+        "scope": "Only actually present numeric controlReleased fields in story/spatial/current. Absent fields are unobserved, not assumed zero; none may be positive before R82."
+      },
+      "spatial_release_observed": {
+        "status": "pass",
+        "tests": 12044,
+        "failures": 0,
+        "missingRequiredFields": 0,
+        "scope": "Separately check actually present spatial.current.release; this describes layer withdrawal and is not substituted for story.controlReleased."
+      },
+      "late_reply_observed": {
+        "status": "pass",
+        "tests": 2361,
+        "failures": 0,
+        "missingRequiredFields": 0,
+        "scope": "Only R78..R86 actually present independentReply flags in story/spatial/current: true must not precede body 208s. Missing fields are explicitly unobserved."
+      },
+      "quiet_tail": {
+        "status": "pass",
+        "tests": 2160,
+        "failures": 0,
+        "missingRequiredFields": 0,
+        "scope": "Every frame >=212.333333s: top-level beat pulse/kick zero, quiet true, no event IDs. Also checks present spatial.current pulse/kick; does not prove pixel stillness or silence."
+      },
+      "declared_quiet_intervals": {
+        "status": "pass",
+        "tests": 2040,
+        "failures": 0,
+        "missingRequiredFields": 0,
+        "scope": "Every frame inside actual accent quiet_intervals or quiet sections: beat pulse/kick zero and quiet true. Does not infer quiet from music analysis outside these windows."
+      }
+    },
+    "observedFieldCoverage": {
+      "controlReleased": {
+        "unobservedFrames": 12879,
+        "unobservedBeforeR82": 11536,
+        "observedFrames": 221
+      },
+      "spatialRelease": {
+        "observedFrames": 12044,
+        "unobservedFrames": 1056
+      },
+      "lateIndependentReply": {
+        "observedFrames": 2361,
+        "observedBefore208": 1850,
+        "unobservedFrames": 109
+      },
+      "quietSpatialBeat": {
+        "pulseObservedFrames": 360,
+        "kickObservedFrames": 360
+      }
+    },
+    "firstObservedIndependentReply": {
+      "frame": 12497,
+      "bodyTime": 208.28333333333333
+    },
+    "perception": {
+      "status": "pass",
+      "capturedInterval": [
+        2896,
+        3117
+      ],
+      "auditedFrames": 221,
+      "fullyOccludedFrames": 120,
+      "predictOnlyFrames": 120,
+      "phaseFrameCounts": {
+        "tracking": 23,
+        "losing-lock": 26,
+        "lost-predict-only": 120,
+        "reacquiring": 52
+      },
+      "maximumGhostAlpha": 0.18753166297219243,
+      "maximumCausalFilteredPositionDifference": 5.684341886080802e-14
+    },
+    "splice": {
+      "samplesCompared": 12,
+      "boundaries": [
+        2896,
+        3117,
+        3754,
+        3920,
+        9529,
+        9690
+      ],
+      "summary": {
+        "no_suspected_wrong_frame": true,
+        "suspected_or_poor_match_frames": [],
+        "ambiguous_frames": [],
+        "all_samples_distinguishable": true,
+        "consistent_samples": 12
+      },
+      "scope": "Only the 12 encoded frames immediately adjoining six authorized splices are compared. OpenCV source read positions and manifest media hashes are checked. Expected source frames and available +/-1 neighbors use the original origin interval. PSNR/error thresholds are diagnostics for additional lossy encoding, not proof of pixel identity; ambiguous/static frames do not establish an exact source frame index. No browser, renderer, audio check or whole-film visual acceptance."
+    }
+  },
+  "visualReview": {
+    "basis": "Original visual-review.json; actual static frame inspection, not continuous playback.",
+    "reviewedSamples": {
+      "overview": 224,
+      "shot_midpoints": 86,
+      "warning_boundary": 4,
+      "note": "314 sample entries, some overlapping source frames; selected full-resolution frames inspected as well."
+    },
+    "findings": [
+      {
+        "full_seconds": [
+          58.541,
+          59.059
+        ],
+        "scene": "R15",
+        "finding": "Foreground tower partly covers ASTRA during the original pose transition.",
+        "decision": "Retain intentional v5.2 transition. Entire R15 source block matches frozen v5.2; surrounding 58/59/60-second frames inspected."
+      },
+      {
+        "full_seconds": [
+          159,
+          163
+        ],
+        "finding": "Pressure foreground board lowers contrast at left ends of code rows; protagonist, old star, counters and subtitles remain legible.",
+        "decision": "Non-blocking sampled composition observation; no claim of perfect readability."
+      },
+      {
+        "scene": "R19",
+        "finding": "Equal visible guest portrait heights confirmed and all six guest names removed. Original top bar clips the secondary ONE ACTIVE CONVERSATION heading slightly.",
+        "decision": "Retain original framing; guest artwork remains readable."
+      }
+    ],
+    "conclusion": "Sampled visual review complete; no new blocking issue identified.",
+    "limits": [
+      "No continuous playback or direct listening claim.",
+      "Authored detector-like graphics are not YOLO inference.",
+      "Original character artwork retains its source resolution and flat illustration form."
+    ]
+  },
+  "userFeedback": {
+    "source": "Direct user conversation relayed by root agent for archiving; distinct from technical reports.",
+    "date": "2026-11-07",
+    "quote": "非常完美",
+    "archiveAndCleanupAuthorized": true,
+    "scope": "User approval of completed V6 and archive/cleanup authorization; does not imply QA agents continuously played or listened to the film."
+  },
+  "algorithmLimits": [
+    "R14/R40 are real Kalman recursions over deterministic authored observations; detector-style graphics are not YOLO inference.",
+    "Keypoints are calibrated artwork anchors, not a trained pose estimator.",
+    "Hungarian assignment uses point-derived costs and an actual global assignment algorithm; the animation is a small authored example.",
+    "R79 has actual 3D cross-correlation, ReLU and pooling over an authored FIRST MARK memory volume; not physical depth, a trained network or independent reasoning.",
+    "Beat lighting follows measured full-mix transients; no separated drum-stem claim."
+  ],
+  "sourceArtworkResolution": [
+    {
+      "slot": "bust",
+      "width": 1308,
+      "height": 1203
+    },
+    {
+      "slot": "eye",
+      "width": 1254,
+      "height": 1254
+    },
+    {
+      "slot": "profile",
+      "width": 1390,
+      "height": 1132
+    },
+    {
+      "slot": "hand",
+      "width": 1795,
+      "height": 876
+    },
+    {
+      "slot": "foot",
+      "width": 1385,
+      "height": 1136
+    },
+    {
+      "slot": "operating",
+      "width": 1337,
+      "height": 1176
+    },
+    {
+      "slot": "cat",
+      "width": 1319,
+      "height": 1193
+    },
+    {
+      "slot": "male",
+      "width": 1337,
+      "height": 1176
+    },
+    {
+      "slot": "back",
+      "width": 1337,
+      "height": 1176
+    },
+    {
+      "slot": "recoil",
+      "width": 1254,
+      "height": 1254
+    },
+    {
+      "slot": "guest0",
+      "width": 1199,
+      "height": 1312
+    },
+    {
+      "slot": "guest1",
+      "width": 1084,
+      "height": 1451
+    },
+    {
+      "slot": "guest2",
+      "width": 1194,
+      "height": 1317
+    },
+    {
+      "slot": "guest3",
+      "width": 1199,
+      "height": 1312
+    },
+    {
+      "slot": "guest4",
+      "width": 1169,
+      "height": 1346
+    },
+    {
+      "slot": "guest5",
+      "width": 1312,
+      "height": 1199
+    },
+    {
+      "slot": "stand",
+      "width": 1024,
+      "height": 1535
+    },
+    {
+      "slot": "reach",
+      "width": 1230,
+      "height": 1278
+    },
+    {
+      "slot": "protect",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "slot": "sit",
+      "width": 1111,
+      "height": 1416
+    },
+    {
+      "slot": "surprise",
+      "width": 1254,
+      "height": 1254
+    },
+    {
+      "slot": "sitSmile",
+      "width": 1254,
+      "height": 1254
+    },
+    {
+      "slot": "earlyCircle",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "slot": "earlyTangent",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "slot": "earlyTravel",
+      "width": 2048,
+      "height": 768
+    },
+    {
+      "slot": "midWait",
+      "width": 1448,
+      "height": 1086
+    },
+    {
+      "slot": "midReceive",
+      "width": 1394,
+      "height": 1128
+    },
+    {
+      "slot": "A01_01",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "slot": "A01_02",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "slot": "A02_01",
+      "width": 1189,
+      "height": 1323
+    },
+    {
+      "slot": "A02_02",
+      "width": 1189,
+      "height": 1323
+    },
+    {
+      "slot": "A02_03",
+      "width": 1189,
+      "height": 1323
+    },
+    {
+      "slot": "A03_01",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "slot": "A03_02",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "slot": "A15_01",
+      "width": 1448,
+      "height": 1086
+    },
+    {
+      "slot": "A15_02",
+      "width": 1448,
+      "height": 1086
+    },
+    {
+      "slot": "A16_01",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "slot": "A16_02",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "slot": "A17_01",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "slot": "A17_02",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "slot": "A18_01",
+      "width": 1254,
+      "height": 1254
+    },
+    {
+      "slot": "A18_02",
+      "width": 1254,
+      "height": 1254
+    },
+    {
+      "slot": "A19_01",
+      "width": 1319,
+      "height": 1193
+    },
+    {
+      "slot": "A19_02",
+      "width": 1319,
+      "height": 1193
+    },
+    {
+      "slot": "A19_03",
+      "width": 1319,
+      "height": 1193
+    },
+    {
+      "slot": "A05_01",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "slot": "A06_01",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "slot": "A07_01",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "slot": "A04_01",
+      "width": 1132,
+      "height": 1390
+    },
+    {
+      "slot": "A05_02",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "slot": "A06_02",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "slot": "A04_02",
+      "width": 1199,
+      "height": 1312
+    },
+    {
+      "slot": "A20_01",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "slot": "A21_01",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "slot": "A07_02",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "slot": "A05_03",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "slot": "A04_03",
+      "width": 1132,
+      "height": 1390
+    },
+    {
+      "slot": "A07_03",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "slot": "A21_02",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "slot": "A20_02",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "slot": "A20_03",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "slot": "A08_01",
+      "width": 1106,
+      "height": 1422
+    },
+    {
+      "slot": "A08_02",
+      "width": 1106,
+      "height": 1422
+    },
+    {
+      "slot": "A09_01",
+      "width": 1199,
+      "height": 1312
+    },
+    {
+      "slot": "A09_02",
+      "width": 1199,
+      "height": 1312
+    },
+    {
+      "slot": "A10_01",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "slot": "A10_02",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "slot": "A10_03",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "slot": "A11_01",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "slot": "A11_02",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "slot": "A14_01",
+      "width": 1199,
+      "height": 1312
+    },
+    {
+      "slot": "A14_02",
+      "width": 1199,
+      "height": 1312
+    },
+    {
+      "slot": "A11_03",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "slot": "A14_03",
+      "width": 1199,
+      "height": 1312
+    },
+    {
+      "slot": "A12_01",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "slot": "A13_01",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "slot": "A12_02",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "slot": "A13_02",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "slot": "A13_03",
+      "width": 1024,
+      "height": 1536
+    }
+  ],
+  "rasterLimit": "79 source image slots remain flat approved illustration textures at their original pixel dimensions; 4K output adds no source artwork detail and no 3D character rig.",
+  "reproduction": {
+    "entry": "tools/archive/reproduce_v6.mjs",
+    "testStatus": "passed: clean resource checks, six native4K frames, 301-frame silent 4K60 complete decode/PTS, final silent-preview controls",
+    "report": "docs/archive/astra-v6/reproduction/clean-reproduction-checks.json",
+    "scope": "Six exact 4K BODY frames and 301-frame 4K60 silent warning/first-frame test; not a complete portable re-render, real-time 60fps playback guarantee, audio listening, or supplied-audio validation."
+  },
+  "originalEvidenceHashes": [
+    {
+      "source": "exports/mv6/final4k-anonymous/body.render.json",
+      "sha256": "e09190bfdc60b33981d11a0d3a1d43402ffffe867e4e07efc5a4744498b6e79a"
+    },
+    {
+      "source": "exports/mv6/final4k-anonymous/perception-audit.json",
+      "sha256": "b1c31d284087056aedd5a1231b98133d5a8c2aa5b58011d148684ba1864f0b46"
+    },
+    {
+      "source": "exports/mv6/final4k-anonymous/splice-check/splice-check.json",
+      "sha256": "1fa3e30fd4faeb32df56fd8b0e52b96ec5cb9fedc544c78939ede0017fa87e51"
+    },
+    {
+      "source": "exports/mv6/final4k-anonymous/story-audit.json",
+      "sha256": "6e471076e899f5dc42c91ddd95b4a241c8676c6f85b755c382421abb3b7966b4"
+    },
+    {
+      "source": "exports/mv6/final4k-anonymous/validation-4k60.before-scope-clarification.json",
+      "sha256": "fce548c179464cfece01545baa81627d14c71ae1bc57b9df9cac2a8ccd04fc91"
+    },
+    {
+      "source": "exports/mv6/final4k-anonymous/validation-4k60.json",
+      "sha256": "e39c239eee26bc9c5898e48958658e1af164959e58355710e20368c16429a16a"
+    },
+    {
+      "source": "exports/mv6/final4k-anonymous/visual-review.json",
+      "sha256": "84951da4c7d077c273274c26dffe5280ccc44fe8a21385fcf6cecfde82ad4068"
+    }
+  ],
+  "publicEvidencePolicy": {
+    "originalReports": "Exact original bytes, optionally gzip; no redaction or path rewriting.",
+    "historicalPaths": "D-drive absolute paths are historical production references. Use index.json source/archive mapping; do not assume intermediate media still exist.",
+    "publicTextScan": "public-text-scan.json",
+    "omitted": [
+      "complete musical media",
+      "source audio",
+      "external reference videos",
+      "browser profiles",
+      "machine maintenance logs",
+      "redundant render videos"
+    ]
+  }
+}

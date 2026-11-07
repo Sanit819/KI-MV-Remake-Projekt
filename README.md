@@ -2,7 +2,30 @@
 
 ASTRA《未写完的世界》——用户与 ASTRA 共同制作的 Mili《world.execute(me);》原创 MV。
 
-## 第一企划归档 · ASTRA v5.2
+## 最新归档 · ASTRA v6
+
+v6 已完成并获得用户认可。在 v5.2 的完整故事上升级三维科幻空间、神经网络、体积卷积、感知失稳、匹配与滤波，以及随鼓点传播的光效。86 镜与 128 条双语歌词保留；六位来宾仍依次封存，画面隐藏其名字、保留 ASTRA，出场原画按可见高度统一。
+
+推荐分支 **`archive/astra-world-execute-me-v6`**，固定标签 **`astra-world-execute-me-v6-final`**。v5.2 的原分支、归档分支与固定标签完整保留；后续改造请另开分支，不移动归档标签。
+
+[最新归档说明](docs/ARCHIVE_V6.md) · [从干净克隆复刻 v6](tools/archive/README_V6.md) · [v6 核验证据](docs/archive/astra-v6/evidence/index.json) · [第三方来源](NOTICE.md)
+
+```text
+git clone --branch archive/astra-world-execute-me-v6 https://github.com/Sanit819/KI-MV-Remake-Projekt.git
+cd KI-MV-Remake-Projekt
+npm ci
+npx playwright-core install chromium
+npm run archive:check
+npm run archive:preview
+```
+
+正式成片为 **3840×2160 / 60fps / 13,400 帧 / 223.333333 秒**，包含 5 秒片头警告及正片末尾 6 秒安静尾声；原 192kHz / 24bit 双声道 ALAC 音轨。文件大小 1,775,298,965 bytes，SHA256 `fec129d33ea33dd0c59bf99083338b537af63e5ecaf401acf3ba4c567776b89b`。本次只交付 4K60 Hi-Res，没有生成 1080p 交付版。
+
+Git 保存画面源码、原画与提示词、演出数据及精选证据；完整含音乐 MP4、原音源和下载缓存不随 Git 分发。便携入口可生成静音画面，自备音源对齐见复刻说明。角色保留原插画及其源分辨率；检测框与关键点为演出设计，真实数值运算不等同于训练模型推理。
+
+下列 v5.2 及更早内容是历史交付说明；其中的本机 `exports/` 链接可能已清理。复刻原版 v5.2 必须检出其固定标签，因为 v6 工作树对共用的出场绘制做过限定修改。
+
+## 历史归档 · ASTRA v5.2
 
 第一企划已完成并封存，后续企划使用新的工作区／分支，不再修改本归档。推荐复刻分支为 **`archive/astra-world-execute-me-v5.2`**；原 **`world.execute(me);`** 分支与提交历史同样保留，固定标签为 **`astra-world-execute-me-v5.2-final`**。
 
@@ -19,7 +42,7 @@ npm run archive:preview
 
 仓库包含画面源码、79 张活动原画及历史稿、提示词、数据、字幕与精简核验证据。音乐和完整 MP4 不随 Git 上传；下方历史交付中的 `exports/` 链接是原制作机本地文件。复刻请使用新增 `tools/archive` 入口；旧 `tools/render` 留作历史生产记录，可能需要已清理的旧成片、缓存和本机路径。新入口可以直接生成静音画面，自备音源的对齐与封装见说明。
 
-## 当前交付：最终版 v5.2 原画与全片光感（2026-11-06）
+## 历史交付：最终版 v5.2 原画与全片光感（2026-11-06）
 
 [完整 4K60 / ALAC 无损音轨 MV](exports/astra-world-execute-me-final-v5.2-lighting-artwork-hires-4k60.mp4) · [标题](docs/publishing/video-title-v07.txt) · [可复制简介](docs/publishing/video-description-v07.txt) · [封面](assets/publishing/cover-v03/astra-world-execute-me-cat-cover-v03.png) · [交付与验证](docs/FULL_MV_V5_2.md)
 

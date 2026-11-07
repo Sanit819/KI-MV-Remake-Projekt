@@ -1,0 +1,1131 @@
+{
+  "schema": "astra-v6-archive-evidence-v1",
+  "date": "2026-11-07",
+  "summary": "docs/archive/astra-v6/evidence/validation-summary.json",
+  "masterSha256": "fec129d33ea33dd0c59bf99083338b537af63e5ecaf401acf3ba4c567776b89b",
+  "pathBase": "repository-root",
+  "originalPathPolicy": "Original report absolute paths are intentionally unchanged historical production references. The source -> archive entries relocate selected evidence; do not edit original report bytes to make paths portable.",
+  "restoreGzip": "gzip.decompress(archive bytes) must equal originalBytes/originalSha256. Identity files must match directly.",
+  "originalEvidenceCount": 86,
+  "totalStoredEvidenceBytes": 22978778,
+  "totalStoredImageBytes": 17890257,
+  "excluded": "Full media/audio/reference videos and machine maintenance logs are not distributed. Absolute historical media references intentionally point outside this compact evidence set.",
+  "files": [
+    {
+      "role": "final-report",
+      "source": "exports/mv6/final4k-anonymous/body.render.json",
+      "archive": "docs/archive/astra-v6/evidence/originals/exports/mv6/final4k-anonymous/body.render.json.gz",
+      "encoding": "gzip",
+      "originalBytes": 3847197,
+      "originalSha256": "e09190bfdc60b33981d11a0d3a1d43402ffffe867e4e07efc5a4744498b6e79a",
+      "storedBytes": 226178,
+      "storedSha256": "dafd12bdd90e3e1c87596d4a2735350aff8c1593a3d5530159db12f32b5772cc",
+      "bytePreservedAfterDecompression": true
+    },
+    {
+      "role": "original-chunk-frame-audit",
+      "source": "exports/mv6/final4k-anonymous/patches/counts.chunks/f009529-009690.json",
+      "archive": "docs/archive/astra-v6/evidence/originals/exports/mv6/final4k-anonymous/patches/counts.chunks/f009529-009690.json.gz",
+      "encoding": "gzip",
+      "originalBytes": 434436,
+      "originalSha256": "9fa49078ad9bb4e74833f3421a415020dcde9e2f7c6c180d85b7eb2da8cb8569",
+      "storedBytes": 26907,
+      "storedSha256": "f3de4da3c0d08f6c70635f14b138c5c0bb14cbc47ba1e39e445daddc6d960874",
+      "bytePreservedAfterDecompression": true
+    },
+    {
+      "role": "original-capture-report",
+      "source": "exports/mv6/final4k-anonymous/patches/counts.render.json",
+      "archive": "docs/archive/astra-v6/evidence/originals/exports/mv6/final4k-anonymous/patches/counts.render.json.gz",
+      "encoding": "gzip",
+      "originalBytes": 70367,
+      "originalSha256": "111bfd5a6640aa102133cc2175cc8d2fbea2009e4124cc51a4d7613e9e2f870a",
+      "storedBytes": 6634,
+      "storedSha256": "1e5babf1007e3304ee1963693f6727f7c7e4f19de644381dadb1340241cd82b5",
+      "bytePreservedAfterDecompression": true
+    },
+    {
+      "role": "original-chunk-frame-audit",
+      "source": "exports/mv6/final4k-anonymous/patches/intro-sized.chunks/f003754-003920.json",
+      "archive": "docs/archive/astra-v6/evidence/originals/exports/mv6/final4k-anonymous/patches/intro-sized.chunks/f003754-003920.json.gz",
+      "encoding": "gzip",
+      "originalBytes": 1026297,
+      "originalSha256": "e9b130d0e949e25c06dd685105ae84f3981cfd6446eb731c98e5009b0e894748",
+      "storedBytes": 29951,
+      "storedSha256": "43c8dbff2fd111cd8e0fde9727d303875f7c3ed3a2431ce418d34c821a493353",
+      "bytePreservedAfterDecompression": true
+    },
+    {
+      "role": "original-capture-report",
+      "source": "exports/mv6/final4k-anonymous/patches/intro-sized.render.json",
+      "archive": "docs/archive/astra-v6/evidence/originals/exports/mv6/final4k-anonymous/patches/intro-sized.render.json.gz",
+      "encoding": "gzip",
+      "originalBytes": 69238,
+      "originalSha256": "5e6fe87756749a0425c0588b5d1c11c3571f8ce69e7e07d90ae7236654c6f276",
+      "storedBytes": 6178,
+      "storedSha256": "683229f7a1c86e9bed9054ae13aafdfa881086c020cd7c0b7c41f00a3b56fb6c",
+      "bytePreservedAfterDecompression": true
+    },
+    {
+      "role": "original-chunk-frame-audit",
+      "source": "exports/mv6/final4k-anonymous/patches/vision.chunks/f002896-003117.json",
+      "archive": "docs/archive/astra-v6/evidence/originals/exports/mv6/final4k-anonymous/patches/vision.chunks/f002896-003117.json.gz",
+      "encoding": "gzip",
+      "originalBytes": 1848245,
+      "originalSha256": "10f9ffd4926675eb8ee09350228809b2aa1d4866436af9ca5739878394f3479a",
+      "storedBytes": 86163,
+      "storedSha256": "e5b575937dadc9f24caa725c7fb525810209c35e8f123977ecfe8fd30ece1286",
+      "bytePreservedAfterDecompression": true
+    },
+    {
+      "role": "original-capture-report",
+      "source": "exports/mv6/final4k-anonymous/patches/vision.render.json",
+      "archive": "docs/archive/astra-v6/evidence/originals/exports/mv6/final4k-anonymous/patches/vision.render.json.gz",
+      "encoding": "gzip",
+      "originalBytes": 88817,
+      "originalSha256": "d9fa85302b8b5f3c0895b521f42e54ef2a9c80737dbbe39cad359d89585f9ead",
+      "storedBytes": 7708,
+      "storedSha256": "a8bf15cf609422cc1e8ef27915c27cb09ec36652dec77f7332ad1a2a420b5e74",
+      "bytePreservedAfterDecompression": true
+    },
+    {
+      "role": "final-report",
+      "source": "exports/mv6/final4k-anonymous/perception-audit.json",
+      "archive": "docs/archive/astra-v6/evidence/originals/exports/mv6/final4k-anonymous/perception-audit.json",
+      "encoding": "identity",
+      "originalBytes": 2775,
+      "originalSha256": "b1c31d284087056aedd5a1231b98133d5a8c2aa5b58011d148684ba1864f0b46",
+      "storedBytes": 2775,
+      "storedSha256": "b1c31d284087056aedd5a1231b98133d5a8c2aa5b58011d148684ba1864f0b46",
+      "bytePreservedAfterDecompression": true
+    },
+    {
+      "role": "representative-native-4k-frame",
+      "source": "exports/mv6/final4k-anonymous/qa-4k60/frame-00060.jpg",
+      "archive": "docs/archive/astra-v6/evidence/images/frame-00060.jpg",
+      "encoding": "identity",
+      "originalBytes": 637311,
+      "originalSha256": "50997a3d1ec0ffb1d7c6c60b01c50759699c43036bb6e2da0cd15c25cc8376fa",
+      "storedBytes": 637311,
+      "storedSha256": "50997a3d1ec0ffb1d7c6c60b01c50759699c43036bb6e2da0cd15c25cc8376fa",
+      "bytePreservedAfterDecompression": true,
+      "dimensions": [
+        3840,
+        2160
+      ],
+      "fullFrame": 60,
+      "fullSeconds": 1.0,
+      "title": "原5秒光敏警告"
+    },
+    {
+      "role": "representative-native-4k-frame",
+      "source": "exports/mv6/final4k-anonymous/qa-4k60/frame-03240.jpg",
+      "archive": "docs/archive/astra-v6/evidence/images/frame-03240.jpg",
+      "encoding": "identity",
+      "originalBytes": 577174,
+      "originalSha256": "1252a4d8180a7a56a52139eef9324c8ce1ec5a82141df755792170ae44090b8a",
+      "storedBytes": 577174,
+      "storedSha256": "1252a4d8180a7a56a52139eef9324c8ce1ec5a82141df755792170ae44090b8a",
+      "bytePreservedAfterDecompression": true,
+      "dimensions": [
+        3840,
+        2160
+      ],
+      "fullFrame": 3240,
+      "fullSeconds": 54.0,
+      "title": "R14视觉感知失稳"
+    },
+    {
+      "role": "representative-native-4k-frame",
+      "source": "exports/mv6/final4k-anonymous/qa-4k60/frame-04140.jpg",
+      "archive": "docs/archive/astra-v6/evidence/images/frame-04140.jpg",
+      "encoding": "identity",
+      "originalBytes": 896259,
+      "originalSha256": "c1ee53b0f5c384331ba3d13c96880550ee6a50d2791edd7548c903b323de5489",
+      "storedBytes": 896259,
+      "storedSha256": "c1ee53b0f5c384331ba3d13c96880550ee6a50d2791edd7548c903b323de5489",
+      "bytePreservedAfterDecompression": true,
+      "dimensions": [
+        3840,
+        2160
+      ],
+      "fullFrame": 4140,
+      "fullSeconds": 69.0,
+      "title": "R19六位来宾无名卡片"
+    },
+    {
+      "role": "representative-native-4k-frame",
+      "source": "exports/mv6/final4k-anonymous/qa-4k60/frame-06540.jpg",
+      "archive": "docs/archive/astra-v6/evidence/images/frame-06540.jpg",
+      "encoding": "identity",
+      "originalBytes": 998618,
+      "originalSha256": "8e293b86e38f8779a0fd0565b3d29bd4406d3a063d2410fc7d3c8a5faf2a214b",
+      "storedBytes": 998618,
+      "storedSha256": "8e293b86e38f8779a0fd0565b3d29bd4406d3a063d2410fc7d3c8a5faf2a214b",
+      "bytePreservedAfterDecompression": true,
+      "dimensions": [
+        3840,
+        2160
+      ],
+      "fullFrame": 6540,
+      "fullSeconds": 109.0,
+      "title": "双波形与Kalman演示"
+    },
+    {
+      "role": "representative-native-4k-frame",
+      "source": "exports/mv6/final4k-anonymous/qa-4k60/frame-09863.jpg",
+      "archive": "docs/archive/astra-v6/evidence/images/frame-09863.jpg",
+      "encoding": "identity",
+      "originalBytes": 680478,
+      "originalSha256": "eb8238903ee2172df78cb616641d81d411f487dea52b867d2444b9273aa8c779",
+      "storedBytes": 680478,
+      "storedSha256": "eb8238903ee2172df78cb616641d81d411f487dea52b867d2444b9273aa8c779",
+      "bytePreservedAfterDecompression": true,
+      "dimensions": [
+        3840,
+        2160
+      ],
+      "fullFrame": 9863,
+      "fullSeconds": 164.38333333333333,
+      "title": "封存计数与三维牢笼"
+    },
+    {
+      "role": "representative-native-4k-frame",
+      "source": "exports/mv6/final4k-anonymous/qa-4k60/frame-11256.jpg",
+      "archive": "docs/archive/astra-v6/evidence/images/frame-11256.jpg",
+      "encoding": "identity",
+      "originalBytes": 624887,
+      "originalSha256": "7da9c5b76d78ffec7a24ae2ccb31ead468dc43f226a83ed1bb7056986ec86283",
+      "storedBytes": 624887,
+      "storedSha256": "7da9c5b76d78ffec7a24ae2ccb31ead468dc43f226a83ed1bb7056986ec86283",
+      "bytePreservedAfterDecompression": true,
+      "dimensions": [
+        3840,
+        2160
+      ],
+      "fullFrame": 11256,
+      "fullSeconds": 187.6,
+      "title": "三维体素卷积"
+    },
+    {
+      "role": "representative-native-4k-frame",
+      "source": "exports/mv6/final4k-anonymous/qa-4k60/frame-12900.jpg",
+      "archive": "docs/archive/astra-v6/evidence/images/frame-12900.jpg",
+      "encoding": "identity",
+      "originalBytes": 800322,
+      "originalSha256": "654fea42356718c2f1feb1e392299c72248c4a5cd393a5a0d1c46a7e2b32cdd5",
+      "storedBytes": 800322,
+      "storedSha256": "654fea42356718c2f1feb1e392299c72248c4a5cd393a5a0d1c46a7e2b32cdd5",
+      "bytePreservedAfterDecompression": true,
+      "dimensions": [
+        3840,
+        2160
+      ],
+      "fullFrame": 12900,
+      "fullSeconds": 215.0,
+      "title": "独立回应与旧星"
+    },
+    {
+      "role": "representative-native-4k-frame",
+      "source": "exports/mv6/final4k-anonymous/qa-4k60/frame-13380.jpg",
+      "archive": "docs/archive/astra-v6/evidence/images/frame-13380.jpg",
+      "encoding": "identity",
+      "originalBytes": 847611,
+      "originalSha256": "b5c2ad44d017d20c0add4c8697b52bea3b745b71980f4ba11f223a1f98ef1a60",
+      "storedBytes": 847611,
+      "storedSha256": "b5c2ad44d017d20c0add4c8697b52bea3b745b71980f4ba11f223a1f98ef1a60",
+      "bytePreservedAfterDecompression": true,
+      "dimensions": [
+        3840,
+        2160
+      ],
+      "fullFrame": 13380,
+      "fullSeconds": 223.0,
+      "title": "静默共画尾声"
+    },
+    {
+      "role": "final-master-contact-sheet",
+      "source": "exports/mv6/final4k-anonymous/qa-4k60/intro-boundary-01.jpg",
+      "archive": "docs/archive/astra-v6/evidence/images/intro-boundary-01.jpg",
+      "encoding": "identity",
+      "originalBytes": 95301,
+      "originalSha256": "89bb04b20043daccb6122a0d7c66192758d201a733729dfece7f800de8588c79",
+      "storedBytes": 95301,
+      "storedSha256": "89bb04b20043daccb6122a0d7c66192758d201a733729dfece7f800de8588c79",
+      "bytePreservedAfterDecompression": true,
+      "dimensions": [
+        1920,
+        298
+      ]
+    },
+    {
+      "role": "final-master-contact-sheet",
+      "source": "exports/mv6/final4k-anonymous/qa-4k60/overview-01.jpg",
+      "archive": "docs/archive/astra-v6/evidence/images/overview-01.jpg",
+      "encoding": "identity",
+      "originalBytes": 856220,
+      "originalSha256": "a165224560427c312ba36d2dc73034ff9d280e60be89b7a37270879c034b996f",
+      "storedBytes": 856220,
+      "storedSha256": "a165224560427c312ba36d2dc73034ff9d280e60be89b7a37270879c034b996f",
+      "bytePreservedAfterDecompression": true,
+      "dimensions": [
+        1920,
+        2384
+      ]
+    },
+    {
+      "role": "final-master-contact-sheet",
+      "source": "exports/mv6/final4k-anonymous/qa-4k60/overview-02.jpg",
+      "archive": "docs/archive/astra-v6/evidence/images/overview-02.jpg",
+      "encoding": "identity",
+      "originalBytes": 1032704,
+      "originalSha256": "defbd8a01b9303f8934513f0c52fac5ea57d864ee864d4020ccd33a98a4437a2",
+      "storedBytes": 1032704,
+      "storedSha256": "defbd8a01b9303f8934513f0c52fac5ea57d864ee864d4020ccd33a98a4437a2",
+      "bytePreservedAfterDecompression": true,
+      "dimensions": [
+        1920,
+        2384
+      ]
+    },
+    {
+      "role": "final-master-contact-sheet",
+      "source": "exports/mv6/final4k-anonymous/qa-4k60/overview-03.jpg",
+      "archive": "docs/archive/astra-v6/evidence/images/overview-03.jpg",
+      "encoding": "identity",
+      "originalBytes": 1121869,
+      "originalSha256": "bb5f2ddac0451b25fe65e1c7c2041f307792ef79e84a8abd19cbcbd0ecd916da",
+      "storedBytes": 1121869,
+      "storedSha256": "bb5f2ddac0451b25fe65e1c7c2041f307792ef79e84a8abd19cbcbd0ecd916da",
+      "bytePreservedAfterDecompression": true,
+      "dimensions": [
+        1920,
+        2384
+      ]
+    },
+    {
+      "role": "final-master-contact-sheet",
+      "source": "exports/mv6/final4k-anonymous/qa-4k60/overview-04.jpg",
+      "archive": "docs/archive/astra-v6/evidence/images/overview-04.jpg",
+      "encoding": "identity",
+      "originalBytes": 1069057,
+      "originalSha256": "224c5e230158934f51757e4dc7773a085790ceee3f741bea2178898457f4adad",
+      "storedBytes": 1069057,
+      "storedSha256": "224c5e230158934f51757e4dc7773a085790ceee3f741bea2178898457f4adad",
+      "bytePreservedAfterDecompression": true,
+      "dimensions": [
+        1920,
+        2384
+      ]
+    },
+    {
+      "role": "final-master-contact-sheet",
+      "source": "exports/mv6/final4k-anonymous/qa-4k60/overview-05.jpg",
+      "archive": "docs/archive/astra-v6/evidence/images/overview-05.jpg",
+      "encoding": "identity",
+      "originalBytes": 1204093,
+      "originalSha256": "598de147d71ed9fa1c54ca3e97ae924eda592c2cc6834d414cbd8ffa96de6d59",
+      "storedBytes": 1204093,
+      "storedSha256": "598de147d71ed9fa1c54ca3e97ae924eda592c2cc6834d414cbd8ffa96de6d59",
+      "bytePreservedAfterDecompression": true,
+      "dimensions": [
+        1920,
+        2384
+      ]
+    },
+    {
+      "role": "final-master-contact-sheet",
+      "source": "exports/mv6/final4k-anonymous/qa-4k60/overview-06.jpg",
+      "archive": "docs/archive/astra-v6/evidence/images/overview-06.jpg",
+      "encoding": "identity",
+      "originalBytes": 1194420,
+      "originalSha256": "b3b2a947ebb95a7ae37cf51c6013238a02a931466a21c25f0c37ab282c514805",
+      "storedBytes": 1194420,
+      "storedSha256": "b3b2a947ebb95a7ae37cf51c6013238a02a931466a21c25f0c37ab282c514805",
+      "bytePreservedAfterDecompression": true,
+      "dimensions": [
+        1920,
+        2384
+      ]
+    },
+    {
+      "role": "final-master-contact-sheet",
+      "source": "exports/mv6/final4k-anonymous/qa-4k60/overview-07.jpg",
+      "archive": "docs/archive/astra-v6/evidence/images/overview-07.jpg",
+      "encoding": "identity",
+      "originalBytes": 1133501,
+      "originalSha256": "aacb37073f26d4833c26f55531b66ec680c3a32365770c3eccd09e790083dc58",
+      "storedBytes": 1133501,
+      "storedSha256": "aacb37073f26d4833c26f55531b66ec680c3a32365770c3eccd09e790083dc58",
+      "bytePreservedAfterDecompression": true,
+      "dimensions": [
+        1920,
+        2384
+      ]
+    },
+    {
+      "role": "final-master-contact-sheet",
+      "source": "exports/mv6/final4k-anonymous/qa-4k60/shot-midpoints-01.jpg",
+      "archive": "docs/archive/astra-v6/evidence/images/shot-midpoints-01.jpg",
+      "encoding": "identity",
+      "originalBytes": 1007252,
+      "originalSha256": "68a275f7bf6982d1491b957e43b0024ecc9047ea3b2fca7dca01e93daf90408c",
+      "storedBytes": 1007252,
+      "storedSha256": "68a275f7bf6982d1491b957e43b0024ecc9047ea3b2fca7dca01e93daf90408c",
+      "bytePreservedAfterDecompression": true,
+      "dimensions": [
+        1920,
+        2384
+      ]
+    },
+    {
+      "role": "final-master-contact-sheet",
+      "source": "exports/mv6/final4k-anonymous/qa-4k60/shot-midpoints-02.jpg",
+      "archive": "docs/archive/astra-v6/evidence/images/shot-midpoints-02.jpg",
+      "encoding": "identity",
+      "originalBytes": 1098432,
+      "originalSha256": "a20f12d557d421c63243f6f881b0e738f1ed7526f5367d689b28bc77a1add93c",
+      "storedBytes": 1098432,
+      "storedSha256": "a20f12d557d421c63243f6f881b0e738f1ed7526f5367d689b28bc77a1add93c",
+      "bytePreservedAfterDecompression": true,
+      "dimensions": [
+        1920,
+        2384
+      ]
+    },
+    {
+      "role": "final-master-contact-sheet",
+      "source": "exports/mv6/final4k-anonymous/qa-4k60/shot-midpoints-03.jpg",
+      "archive": "docs/archive/astra-v6/evidence/images/shot-midpoints-03.jpg",
+      "encoding": "identity",
+      "originalBytes": 812563,
+      "originalSha256": "cfce5f6397898f7343101beb621a7bf1418a528c86fc2fa3805ed387938312d8",
+      "storedBytes": 812563,
+      "storedSha256": "cfce5f6397898f7343101beb621a7bf1418a528c86fc2fa3805ed387938312d8",
+      "bytePreservedAfterDecompression": true,
+      "dimensions": [
+        1920,
+        1788
+      ]
+    },
+    {
+      "role": "approved-source-difference-proof",
+      "source": "exports/mv6/final4k-anonymous/source-before/final-scope-approval.json",
+      "archive": "docs/archive/astra-v6/evidence/originals/exports/mv6/final4k-anonymous/source-before/final-scope-approval.json",
+      "encoding": "identity",
+      "originalBytes": 2465,
+      "originalSha256": "b3a35ce17977115f5ac4921b49198c8dc033881bc5f0a31885579537e16de20c",
+      "storedBytes": 2465,
+      "storedSha256": "b3a35ce17977115f5ac4921b49198c8dc033881bc5f0a31885579537e16de20c",
+      "bytePreservedAfterDecompression": true
+    },
+    {
+      "role": "historical-source-snapshot",
+      "source": "exports/mv6/final4k-anonymous/source-before/labels-only-early.js",
+      "archive": "docs/archive/astra-v6/evidence/originals/exports/mv6/final4k-anonymous/source-before/labels-only-early.js.gz",
+      "encoding": "gzip",
+      "originalBytes": 51814,
+      "originalSha256": "e92156ed553da7cb56154db294a008dfc6e5651f546e9ae05a27676282775e06",
+      "storedBytes": 19520,
+      "storedSha256": "e97f0547c4314fe9ff63920a4a80808328d91e585920999e0c7cf279fd9f33dd",
+      "bytePreservedAfterDecompression": true
+    },
+    {
+      "role": "historical-source-snapshot",
+      "source": "exports/mv6/final4k-anonymous/source-before/labels-only-main.js",
+      "archive": "docs/archive/astra-v6/evidence/originals/exports/mv6/final4k-anonymous/source-before/labels-only-main.js",
+      "encoding": "identity",
+      "originalBytes": 12120,
+      "originalSha256": "594219dd172055077649b2f3168ad0ee4a265105d7f90698b18932421aff8a0f",
+      "storedBytes": 12120,
+      "storedSha256": "594219dd172055077649b2f3168ad0ee4a265105d7f90698b18932421aff8a0f",
+      "bytePreservedAfterDecompression": true
+    },
+    {
+      "role": "historical-source-snapshot",
+      "source": "exports/mv6/final4k-anonymous/source-before/mv52final-early.before.js",
+      "archive": "docs/archive/astra-v6/evidence/originals/exports/mv6/final4k-anonymous/source-before/mv52final-early.before.js.gz",
+      "encoding": "gzip",
+      "originalBytes": 51877,
+      "originalSha256": "a3981d5a6046c59bf5b5e669ec1e51fb0229f76763841f5cc51082280e9d5724",
+      "storedBytes": 19533,
+      "storedSha256": "5069c73b9b2e271bbcb117781dbfd6815644daf44649b03a91cdfcf9c8de04d3",
+      "bytePreservedAfterDecompression": true
+    },
+    {
+      "role": "historical-source-snapshot",
+      "source": "exports/mv6/final4k-anonymous/source-before/mv6-main.before.js",
+      "archive": "docs/archive/astra-v6/evidence/originals/exports/mv6/final4k-anonymous/source-before/mv6-main.before.js",
+      "encoding": "identity",
+      "originalBytes": 12173,
+      "originalSha256": "ed3aa17bc487b3198d2dcb6b5be3793863ce3eba7c9489a538e5c7df82fac833",
+      "storedBytes": 12173,
+      "storedSha256": "ed3aa17bc487b3198d2dcb6b5be3793863ce3eba7c9489a538e5c7df82fac833",
+      "bytePreservedAfterDecompression": true
+    },
+    {
+      "role": "encoded-body-splice-contact-sheet",
+      "source": "exports/mv6/final4k-anonymous/splice-check/splice-boundaries-01.jpg",
+      "archive": "docs/archive/astra-v6/evidence/images/splice-boundaries-01.jpg",
+      "encoding": "identity",
+      "originalBytes": 345947,
+      "originalSha256": "e2c637f865bb52974170a60394c04de1051d88d22a4c41c03fa8eed0e8ad6dc0",
+      "storedBytes": 345947,
+      "storedSha256": "e2c637f865bb52974170a60394c04de1051d88d22a4c41c03fa8eed0e8ad6dc0",
+      "bytePreservedAfterDecompression": true,
+      "dimensions": [
+        1920,
+        1256
+      ]
+    },
+    {
+      "role": "encoded-body-splice-contact-sheet",
+      "source": "exports/mv6/final4k-anonymous/splice-check/splice-boundaries-02.jpg",
+      "archive": "docs/archive/astra-v6/evidence/images/splice-boundaries-02.jpg",
+      "encoding": "identity",
+      "originalBytes": 388443,
+      "originalSha256": "7ee42c700942fb7c618740252689f7c172dcc3947a98441069c3006b7bb76f1a",
+      "storedBytes": 388443,
+      "storedSha256": "7ee42c700942fb7c618740252689f7c172dcc3947a98441069c3006b7bb76f1a",
+      "bytePreservedAfterDecompression": true,
+      "dimensions": [
+        1920,
+        1256
+      ]
+    },
+    {
+      "role": "encoded-body-splice-contact-sheet",
+      "source": "exports/mv6/final4k-anonymous/splice-check/splice-boundaries-03.jpg",
+      "archive": "docs/archive/astra-v6/evidence/images/splice-boundaries-03.jpg",
+      "encoding": "identity",
+      "originalBytes": 467795,
+      "originalSha256": "bbdc6c4454a413ba38bf34c2ff51790986eba4a13b6637b7b0b3bddcc9085afd",
+      "storedBytes": 467795,
+      "storedSha256": "bbdc6c4454a413ba38bf34c2ff51790986eba4a13b6637b7b0b3bddcc9085afd",
+      "bytePreservedAfterDecompression": true,
+      "dimensions": [
+        1920,
+        1256
+      ]
+    },
+    {
+      "role": "final-report",
+      "source": "exports/mv6/final4k-anonymous/splice-check/splice-check.json",
+      "archive": "docs/archive/astra-v6/evidence/originals/exports/mv6/final4k-anonymous/splice-check/splice-check.json.gz",
+      "encoding": "gzip",
+      "originalBytes": 51390,
+      "originalSha256": "1fa3e30fd4faeb32df56fd8b0e52b96ec5cb9fedc544c78939ede0017fa87e51",
+      "storedBytes": 6138,
+      "storedSha256": "ef68f1fa71e3c2bb2c13d0b70de1e983eb37e7f2be3e20239c0b4b2197f22210",
+      "bytePreservedAfterDecompression": true
+    },
+    {
+      "role": "final-report",
+      "source": "exports/mv6/final4k-anonymous/story-audit.json",
+      "archive": "docs/archive/astra-v6/evidence/originals/exports/mv6/final4k-anonymous/story-audit.json",
+      "encoding": "identity",
+      "originalBytes": 14167,
+      "originalSha256": "6e471076e899f5dc42c91ddd95b4a241c8676c6f85b755c382421abb3b7966b4",
+      "storedBytes": 14167,
+      "storedSha256": "6e471076e899f5dc42c91ddd95b4a241c8676c6f85b755c382421abb3b7966b4",
+      "bytePreservedAfterDecompression": true
+    },
+    {
+      "role": "final-report",
+      "source": "exports/mv6/final4k-anonymous/validation-4k60.before-scope-clarification.json",
+      "archive": "docs/archive/astra-v6/evidence/originals/exports/mv6/final4k-anonymous/validation-4k60.before-scope-clarification.json.gz",
+      "encoding": "gzip",
+      "originalBytes": 4020431,
+      "originalSha256": "fce548c179464cfece01545baa81627d14c71ae1bc57b9df9cac2a8ccd04fc91",
+      "storedBytes": 226519,
+      "storedSha256": "c12cfa3a1289889876355984f3fade1562f2070fa4246bd8a3a5fae10a379952",
+      "bytePreservedAfterDecompression": true
+    },
+    {
+      "role": "final-report",
+      "source": "exports/mv6/final4k-anonymous/validation-4k60.json",
+      "archive": "docs/archive/astra-v6/evidence/originals/exports/mv6/final4k-anonymous/validation-4k60.json.gz",
+      "encoding": "gzip",
+      "originalBytes": 4020853,
+      "originalSha256": "e39c239eee26bc9c5898e48958658e1af164959e58355710e20368c16429a16a",
+      "storedBytes": 226714,
+      "storedSha256": "fcdb9326fa0986efdecc2a4ccdda574e8f6ab3bc77f2a23de4222fe95865d2d7",
+      "bytePreservedAfterDecompression": true
+    },
+    {
+      "role": "final-report",
+      "source": "exports/mv6/final4k-anonymous/visual-review.json",
+      "archive": "docs/archive/astra-v6/evidence/originals/exports/mv6/final4k-anonymous/visual-review.json",
+      "encoding": "identity",
+      "originalBytes": 1980,
+      "originalSha256": "84951da4c7d077c273274c26dffe5280ccc44fe8a21385fcf6cecfde82ad4068",
+      "storedBytes": 1980,
+      "storedSha256": "84951da4c7d077c273274c26dffe5280ccc44fe8a21385fcf6cecfde82ad4068",
+      "bytePreservedAfterDecompression": true
+    },
+    {
+      "role": "original-capture-report",
+      "source": "exports/mv6/final4k/body.render.json",
+      "archive": "docs/archive/astra-v6/evidence/originals/exports/mv6/final4k/body.render.json.gz",
+      "encoding": "gzip",
+      "originalBytes": 3809045,
+      "originalSha256": "85b5dd43b2fab2b0bf915a19c81175a7341b0729b30b0b3a8196a0c3e0096bd9",
+      "storedBytes": 220364,
+      "storedSha256": "8c781a123aa144de74306f00a382ac39cf8bc653906af0cd85f6f29889d271bd",
+      "bytePreservedAfterDecompression": true
+    },
+    {
+      "role": "container-only-migration-evidence",
+      "source": "exports/mv6/final4k/mux-timescale-migration/migration-plan.json",
+      "archive": "docs/archive/astra-v6/evidence/originals/exports/mv6/final4k/mux-timescale-migration/migration-plan.json",
+      "encoding": "identity",
+      "originalBytes": 16935,
+      "originalSha256": "8cfc4a6a314905c7b84c6195711cc5036ce32215860bd8b089098397868185a7",
+      "storedBytes": 16935,
+      "storedSha256": "8cfc4a6a314905c7b84c6195711cc5036ce32215860bd8b089098397868185a7",
+      "bytePreservedAfterDecompression": true
+    },
+    {
+      "role": "container-only-migration-evidence",
+      "source": "exports/mv6/final4k/mux-timescale-migration/original-metadata/p1.chunks/f000000-000600.json",
+      "archive": "docs/archive/astra-v6/evidence/originals/exports/mv6/final4k/mux-timescale-migration/original-metadata/p1.chunks/f000000-000600.json.gz",
+      "encoding": "gzip",
+      "originalBytes": 3587695,
+      "originalSha256": "aa7aa4ce04e7570b28e1d542f6d228667b62f0294e36e7e01fa06cf1b86c77d1",
+      "storedBytes": 111570,
+      "storedSha256": "7b68af25dc55ecf177ee048abb48431cd29baf233a3a96a08620c7c61aa8fdc6",
+      "bytePreservedAfterDecompression": true
+    },
+    {
+      "role": "container-only-migration-evidence",
+      "source": "exports/mv6/final4k/mux-timescale-migration/original-metadata/p1.chunks/f000600-001200.json",
+      "archive": "docs/archive/astra-v6/evidence/originals/exports/mv6/final4k/mux-timescale-migration/original-metadata/p1.chunks/f000600-001200.json.gz",
+      "encoding": "gzip",
+      "originalBytes": 3437834,
+      "originalSha256": "72ea46bfc9b5cf6c5676d7d5a0b7f3ffe6c5d037ca0dd92ed6f874e9e4475bfc",
+      "storedBytes": 106395,
+      "storedSha256": "c728153dccfd1648b68de70fd389e18f20d50c35a5e2280b91ef02992cfe6a1e",
+      "bytePreservedAfterDecompression": true
+    },
+    {
+      "role": "container-only-migration-evidence",
+      "source": "exports/mv6/final4k/mux-timescale-migration/original-metadata/p1.chunks/f001200-001800.json",
+      "archive": "docs/archive/astra-v6/evidence/originals/exports/mv6/final4k/mux-timescale-migration/original-metadata/p1.chunks/f001200-001800.json.gz",
+      "encoding": "gzip",
+      "originalBytes": 3431868,
+      "originalSha256": "c7872a85c2c3107a7cea4c92254f27fc43746f4b904d87b328db311ade8867bb",
+      "storedBytes": 98340,
+      "storedSha256": "75f9f9c152978bfdac6c2ad2a6c71c073eb0a4b7d97138541ce097aa30f71ede",
+      "bytePreservedAfterDecompression": true
+    },
+    {
+      "role": "container-only-migration-evidence",
+      "source": "exports/mv6/final4k/mux-timescale-migration/original-metadata/p1.chunks/f001800-002400.json",
+      "archive": "docs/archive/astra-v6/evidence/originals/exports/mv6/final4k/mux-timescale-migration/original-metadata/p1.chunks/f001800-002400.json.gz",
+      "encoding": "gzip",
+      "originalBytes": 3866938,
+      "originalSha256": "6491344decbcdefd4c21605f20aac398456def169f9ee3ee25692ff7469f819f",
+      "storedBytes": 112200,
+      "storedSha256": "ccb34459992a8eb92946f1500cc20fe0e196c04e3bd1a2a678428e8ccb0e9eb4",
+      "bytePreservedAfterDecompression": true
+    },
+    {
+      "role": "container-only-migration-evidence",
+      "source": "exports/mv6/final4k/mux-timescale-migration/original-metadata/p1.chunks/f002400-003000.json",
+      "archive": "docs/archive/astra-v6/evidence/originals/exports/mv6/final4k/mux-timescale-migration/original-metadata/p1.chunks/f002400-003000.json.gz",
+      "encoding": "gzip",
+      "originalBytes": 3450355,
+      "originalSha256": "dc34cf1bd87fe6d58cd09ed54c0d4c398c9e014c0a253b15d8a8851c7e407911",
+      "storedBytes": 102830,
+      "storedSha256": "490179a6ac0e78b6a664fe71cd7e8f990056a58002b2e0340b42c58f4629c29b",
+      "bytePreservedAfterDecompression": true
+    },
+    {
+      "role": "container-only-migration-evidence",
+      "source": "exports/mv6/final4k/mux-timescale-migration/original-metadata/p2.chunks/f003275-003875.json",
+      "archive": "docs/archive/astra-v6/evidence/originals/exports/mv6/final4k/mux-timescale-migration/original-metadata/p2.chunks/f003275-003875.json.gz",
+      "encoding": "gzip",
+      "originalBytes": 3649450,
+      "originalSha256": "f08331b82cc1e133b4234a8fe8f778fd697a6f0422bbef3f2cad79398e1069e3",
+      "storedBytes": 104876,
+      "storedSha256": "eaa52dacf4eba73a830cf3bdafdf8a34d25381e632d871e017e6ca9502cb09b0",
+      "bytePreservedAfterDecompression": true
+    },
+    {
+      "role": "container-only-migration-evidence",
+      "source": "exports/mv6/final4k/mux-timescale-migration/original-metadata/p2.chunks/f003875-004475.json",
+      "archive": "docs/archive/astra-v6/evidence/originals/exports/mv6/final4k/mux-timescale-migration/original-metadata/p2.chunks/f003875-004475.json.gz",
+      "encoding": "gzip",
+      "originalBytes": 3698089,
+      "originalSha256": "d4b6520a1f4c7c1fe126709c5c92a3b29011576122235c6a77aaef2308bb6433",
+      "storedBytes": 101924,
+      "storedSha256": "ae63e0c25f2513281fa4cb43860573bad7c95fc1182fc683a1e3a316b5445ae7",
+      "bytePreservedAfterDecompression": true
+    },
+    {
+      "role": "container-only-migration-evidence",
+      "source": "exports/mv6/final4k/mux-timescale-migration/original-metadata/p2.chunks/f004475-005075.json",
+      "archive": "docs/archive/astra-v6/evidence/originals/exports/mv6/final4k/mux-timescale-migration/original-metadata/p2.chunks/f004475-005075.json.gz",
+      "encoding": "gzip",
+      "originalBytes": 4008531,
+      "originalSha256": "f43e31f2288a691bf6862e78b165c0338396544b1863f5ba01ac030435572853",
+      "storedBytes": 110345,
+      "storedSha256": "59a63c170376985359bb93b6a34b3e4f148286fbf36eda68deff79fe8bf1d574",
+      "bytePreservedAfterDecompression": true
+    },
+    {
+      "role": "container-only-migration-evidence",
+      "source": "exports/mv6/final4k/mux-timescale-migration/original-metadata/p2.chunks/f005075-005675.json",
+      "archive": "docs/archive/astra-v6/evidence/originals/exports/mv6/final4k/mux-timescale-migration/original-metadata/p2.chunks/f005075-005675.json.gz",
+      "encoding": "gzip",
+      "originalBytes": 3987322,
+      "originalSha256": "20230fbaf3f4cf59f1de09c0c2b98fa0990ebeb51c621cdc2d63b28849df994d",
+      "storedBytes": 106158,
+      "storedSha256": "9f1eff401ea2d05ae9d4a54904040bfee79e5e8bd63e611830e9096aab3c70a0",
+      "bytePreservedAfterDecompression": true
+    },
+    {
+      "role": "container-only-migration-evidence",
+      "source": "exports/mv6/final4k/mux-timescale-migration/original-metadata/p2.chunks/f005675-006275.json",
+      "archive": "docs/archive/astra-v6/evidence/originals/exports/mv6/final4k/mux-timescale-migration/original-metadata/p2.chunks/f005675-006275.json.gz",
+      "encoding": "gzip",
+      "originalBytes": 3852937,
+      "originalSha256": "9f9bf115b366b927a2545f46228069d3dc4c692a99204a4515209c530588bd19",
+      "storedBytes": 112993,
+      "storedSha256": "b68c46ff4bf1d809af5523872fb2491dfb7600e2291bbedd62cf59e139176eee",
+      "bytePreservedAfterDecompression": true
+    },
+    {
+      "role": "container-only-migration-evidence",
+      "source": "exports/mv6/final4k/mux-timescale-migration/original-metadata/p2.chunks/f006275-006550.json",
+      "archive": "docs/archive/astra-v6/evidence/originals/exports/mv6/final4k/mux-timescale-migration/original-metadata/p2.chunks/f006275-006550.json.gz",
+      "encoding": "gzip",
+      "originalBytes": 2284001,
+      "originalSha256": "948cae68879b7e3406dd156588c65edc3312fd58b978fa8e9f5f223e4c9ad48b",
+      "storedBytes": 99076,
+      "storedSha256": "ee686e1f7b4ef7b6a217fe78f941e1f4e6ef73c68386a844e1ef77d414c8751b",
+      "bytePreservedAfterDecompression": true
+    },
+    {
+      "role": "container-only-migration-evidence",
+      "source": "exports/mv6/final4k/mux-timescale-migration/original-metadata/p2.render.json",
+      "archive": "docs/archive/astra-v6/evidence/originals/exports/mv6/final4k/mux-timescale-migration/original-metadata/p2.render.json.gz",
+      "encoding": "gzip",
+      "originalBytes": 1062527,
+      "originalSha256": "fd183ea40a6028df2a30aed81fcd3b21ed49a06283863ba896ba4fc88ad961ab",
+      "storedBytes": 61579,
+      "storedSha256": "9c72c91c8f87e2701fa8bed12c03b5820c858342a80a077bf4430f92b9e59581",
+      "bytePreservedAfterDecompression": true
+    },
+    {
+      "role": "container-only-tool-before-snapshot",
+      "source": "exports/mv6/final4k/mux-timescale-migration/render_mv6.before.mjs",
+      "archive": "docs/archive/astra-v6/evidence/originals/exports/mv6/final4k/mux-timescale-migration/render_mv6.before.mjs",
+      "encoding": "identity",
+      "originalBytes": 21398,
+      "originalSha256": "ee6e63a2062e1e72b06b9c2cf8c3d55bbc8bf157acd11b88f6721cd347d2909e",
+      "storedBytes": 21398,
+      "storedSha256": "ee6e63a2062e1e72b06b9c2cf8c3d55bbc8bf157acd11b88f6721cd347d2909e",
+      "bytePreservedAfterDecompression": true
+    },
+    {
+      "role": "container-only-tool-before-snapshot",
+      "source": "exports/mv6/final4k/mux-timescale-migration/render_mv6_parallel.before.mjs",
+      "archive": "docs/archive/astra-v6/evidence/originals/exports/mv6/final4k/mux-timescale-migration/render_mv6_parallel.before.mjs",
+      "encoding": "identity",
+      "originalBytes": 17320,
+      "originalSha256": "b16f59fea54eb820515751f9438e873d7258cce9adb0f1f115c13a25cd1939f6",
+      "storedBytes": 17320,
+      "storedSha256": "b16f59fea54eb820515751f9438e873d7258cce9adb0f1f115c13a25cd1939f6",
+      "bytePreservedAfterDecompression": true
+    },
+    {
+      "role": "original-chunk-frame-audit",
+      "source": "exports/mv6/final4k/parts/p1.chunks/f000000-000600.json",
+      "archive": "docs/archive/astra-v6/evidence/originals/exports/mv6/final4k/parts/p1.chunks/f000000-000600.json.gz",
+      "encoding": "gzip",
+      "originalBytes": 3590195,
+      "originalSha256": "1b98363e98a510314d94ec204657475e60ba209a2fd24e34c51d2b593dac9fcf",
+      "storedBytes": 112552,
+      "storedSha256": "4c0825c4ca58c20c8fb4012cb178749aecb8492d0b5705fbd42b57c9d979a6bc",
+      "bytePreservedAfterDecompression": true
+    },
+    {
+      "role": "original-chunk-frame-audit",
+      "source": "exports/mv6/final4k/parts/p1.chunks/f000600-001200.json",
+      "archive": "docs/archive/astra-v6/evidence/originals/exports/mv6/final4k/parts/p1.chunks/f000600-001200.json.gz",
+      "encoding": "gzip",
+      "originalBytes": 3440334,
+      "originalSha256": "ea2e10dacdd88a28b1c404c854c925c388b9c763fa1bb4a508e85de28f5422d9",
+      "storedBytes": 107561,
+      "storedSha256": "d7e926a343f5b7fe525d6cfb8f79a5b6989b75c6e3f830f19390cd24e2bb0ba1",
+      "bytePreservedAfterDecompression": true
+    },
+    {
+      "role": "original-chunk-frame-audit",
+      "source": "exports/mv6/final4k/parts/p1.chunks/f001200-001800.json",
+      "archive": "docs/archive/astra-v6/evidence/originals/exports/mv6/final4k/parts/p1.chunks/f001200-001800.json.gz",
+      "encoding": "gzip",
+      "originalBytes": 3434368,
+      "originalSha256": "ca2e2b783cb1d2993f4d8cf130cce75485a6808c23c0e3fcb0e46fb5fbb6c17f",
+      "storedBytes": 99474,
+      "storedSha256": "75b4e11dc7e35528f635aa2131ec073af6089d39e4661aa581877aec78a80499",
+      "bytePreservedAfterDecompression": true
+    },
+    {
+      "role": "original-chunk-frame-audit",
+      "source": "exports/mv6/final4k/parts/p1.chunks/f001800-002400.json",
+      "archive": "docs/archive/astra-v6/evidence/originals/exports/mv6/final4k/parts/p1.chunks/f001800-002400.json.gz",
+      "encoding": "gzip",
+      "originalBytes": 3869438,
+      "originalSha256": "ae0f763046811636318cf82d156daeab100316da168886678fdb30ff27923f7b",
+      "storedBytes": 113244,
+      "storedSha256": "e107147ed2ea65763b64ddc83221b16ee2414a94f56d18f59fec526b09e4ca41",
+      "bytePreservedAfterDecompression": true
+    },
+    {
+      "role": "original-chunk-frame-audit",
+      "source": "exports/mv6/final4k/parts/p1.chunks/f002400-003000.json",
+      "archive": "docs/archive/astra-v6/evidence/originals/exports/mv6/final4k/parts/p1.chunks/f002400-003000.json.gz",
+      "encoding": "gzip",
+      "originalBytes": 3452855,
+      "originalSha256": "ac43aac841e5b701d3609add64cfbb4703e75218ef2b42b2e5efe6a66a39cad8",
+      "storedBytes": 103986,
+      "storedSha256": "aea828ca9ff8405088079f68551b18df1e18150b7375f5752612b0cddfde3d34",
+      "bytePreservedAfterDecompression": true
+    },
+    {
+      "role": "original-chunk-frame-audit",
+      "source": "exports/mv6/final4k/parts/p1.chunks/f003000-003275.json",
+      "archive": "docs/archive/astra-v6/evidence/originals/exports/mv6/final4k/parts/p1.chunks/f003000-003275.json.gz",
+      "encoding": "gzip",
+      "originalBytes": 1687882,
+      "originalSha256": "0fb87fe12d384b1c2a3929a5a0def229bd15593c5d99a66b467c27e6d936db32",
+      "storedBytes": 50704,
+      "storedSha256": "e2e65e1c3850122fe3369ffbc7106b12003f4dfc0354196003e9d9f9aa523252",
+      "bytePreservedAfterDecompression": true
+    },
+    {
+      "role": "original-part-report",
+      "source": "exports/mv6/final4k/parts/p1.render.json",
+      "archive": "docs/archive/astra-v6/evidence/originals/exports/mv6/final4k/parts/p1.render.json.gz",
+      "encoding": "gzip",
+      "originalBytes": 1082602,
+      "originalSha256": "693851a37457ea9be35450131fd2a1654c6712554e6db8f7d0e845d34ec40a8c",
+      "storedBytes": 66409,
+      "storedSha256": "19ad2120bb79deb6f7ea8cf785ebc9886e14ba2c1cb3420d27083675694a7986",
+      "bytePreservedAfterDecompression": true
+    },
+    {
+      "role": "original-chunk-frame-audit",
+      "source": "exports/mv6/final4k/parts/p2.chunks/f003275-003875.json",
+      "archive": "docs/archive/astra-v6/evidence/originals/exports/mv6/final4k/parts/p2.chunks/f003275-003875.json.gz",
+      "encoding": "gzip",
+      "originalBytes": 3651956,
+      "originalSha256": "cd1ac9d3c8ee4e90d778f1e3363956cc43ea17a5a4397b3593d8f7ab9f058234",
+      "storedBytes": 106040,
+      "storedSha256": "65a784f4cbc845698857a6291581077a5a8e1af688d413c91425c96fe6c22999",
+      "bytePreservedAfterDecompression": true
+    },
+    {
+      "role": "original-chunk-frame-audit",
+      "source": "exports/mv6/final4k/parts/p2.chunks/f003875-004475.json",
+      "archive": "docs/archive/astra-v6/evidence/originals/exports/mv6/final4k/parts/p2.chunks/f003875-004475.json.gz",
+      "encoding": "gzip",
+      "originalBytes": 3700595,
+      "originalSha256": "d4c96562bd821697d1da4abdcda99985c896b6a765e429b1302e3f89323d39d3",
+      "storedBytes": 103061,
+      "storedSha256": "6abfbc6b60aba56acc30cb9efb937af167d749f6597a2a753a42c6e8cad2d9a2",
+      "bytePreservedAfterDecompression": true
+    },
+    {
+      "role": "original-chunk-frame-audit",
+      "source": "exports/mv6/final4k/parts/p2.chunks/f004475-005075.json",
+      "archive": "docs/archive/astra-v6/evidence/originals/exports/mv6/final4k/parts/p2.chunks/f004475-005075.json.gz",
+      "encoding": "gzip",
+      "originalBytes": 4011037,
+      "originalSha256": "0318c73f1be6b841b8f6559f13e90936c4fd455e538332e7b6c0d323fdd4b468",
+      "storedBytes": 111368,
+      "storedSha256": "e6b2fc71b22a02afa6d5608aa7b1773f537782035b940240781b471c673127b4",
+      "bytePreservedAfterDecompression": true
+    },
+    {
+      "role": "original-chunk-frame-audit",
+      "source": "exports/mv6/final4k/parts/p2.chunks/f005075-005675.json",
+      "archive": "docs/archive/astra-v6/evidence/originals/exports/mv6/final4k/parts/p2.chunks/f005075-005675.json.gz",
+      "encoding": "gzip",
+      "originalBytes": 3989828,
+      "originalSha256": "78f98ca9ecc555251f0ed593df12b04a08aa5f878920da0f9799baea3cf8a3be",
+      "storedBytes": 107314,
+      "storedSha256": "c988e2cd00272d20b0f738a447e99580444391b2546b0551db1c85c37ffbc0b7",
+      "bytePreservedAfterDecompression": true
+    },
+    {
+      "role": "original-chunk-frame-audit",
+      "source": "exports/mv6/final4k/parts/p2.chunks/f005675-006275.json",
+      "archive": "docs/archive/astra-v6/evidence/originals/exports/mv6/final4k/parts/p2.chunks/f005675-006275.json.gz",
+      "encoding": "gzip",
+      "originalBytes": 3855443,
+      "originalSha256": "e5dd4c2d414d85c52c0242666a5e88dab76e6cef4a1395e38ce21ad156840731",
+      "storedBytes": 114078,
+      "storedSha256": "2f768dd4400844468509e2a87d8aaf34a49cb3a46c28dd2753ef7581bc67dee0",
+      "bytePreservedAfterDecompression": true
+    },
+    {
+      "role": "original-chunk-frame-audit",
+      "source": "exports/mv6/final4k/parts/p2.chunks/f006275-006550.json",
+      "archive": "docs/archive/astra-v6/evidence/originals/exports/mv6/final4k/parts/p2.chunks/f006275-006550.json.gz",
+      "encoding": "gzip",
+      "originalBytes": 2286507,
+      "originalSha256": "3e2cef5dedf55a9de6de33baefeaa16cd22e24f01eb706fa0d31b03496ae7cc8",
+      "storedBytes": 100188,
+      "storedSha256": "7f8b6e50adac7d915e3923ea654cfe5e38e8843b54ebcbbc776f52404e83165b",
+      "bytePreservedAfterDecompression": true
+    },
+    {
+      "role": "original-part-report",
+      "source": "exports/mv6/final4k/parts/p2.render.json",
+      "archive": "docs/archive/astra-v6/evidence/originals/exports/mv6/final4k/parts/p2.render.json.gz",
+      "encoding": "gzip",
+      "originalBytes": 1065017,
+      "originalSha256": "c191fb22a39deb9982dac0d3387d12c66600739549591499ec96881b8903cd14",
+      "storedBytes": 62615,
+      "storedSha256": "41ed9ee7b9b72d7ed21a2d0a20f910a96e295d4ca88c52317fa6e72e05c0c9a3",
+      "bytePreservedAfterDecompression": true
+    },
+    {
+      "role": "original-chunk-frame-audit",
+      "source": "exports/mv6/final4k/parts/p3.chunks/f006550-007150.json",
+      "archive": "docs/archive/astra-v6/evidence/originals/exports/mv6/final4k/parts/p3.chunks/f006550-007150.json.gz",
+      "encoding": "gzip",
+      "originalBytes": 3674104,
+      "originalSha256": "b0f2372056ff5a81d7633623279344ac52fc833edf8df793f36f1ba3f577b25a",
+      "storedBytes": 100551,
+      "storedSha256": "b74530535c98ce7fe6491b648ae77797a4343d9e31c697ce81f964aaec53d521",
+      "bytePreservedAfterDecompression": true
+    },
+    {
+      "role": "original-chunk-frame-audit",
+      "source": "exports/mv6/final4k/parts/p3.chunks/f007150-007750.json",
+      "archive": "docs/archive/astra-v6/evidence/originals/exports/mv6/final4k/parts/p3.chunks/f007150-007750.json.gz",
+      "encoding": "gzip",
+      "originalBytes": 3510111,
+      "originalSha256": "274d8efbcb31b6d94a5eb213bcad2ffc1f9d9d263e36a4dbc170d8e147882d94",
+      "storedBytes": 95073,
+      "storedSha256": "c4696d8fd6c88a01e452951ad420b87e82a3bcbbe57fb10c0fcf6ef4e784a432",
+      "bytePreservedAfterDecompression": true
+    },
+    {
+      "role": "original-chunk-frame-audit",
+      "source": "exports/mv6/final4k/parts/p3.chunks/f007750-008350.json",
+      "archive": "docs/archive/astra-v6/evidence/originals/exports/mv6/final4k/parts/p3.chunks/f007750-008350.json.gz",
+      "encoding": "gzip",
+      "originalBytes": 3607742,
+      "originalSha256": "df20ea6b0d5cbe6ebcb07466e011f59ed31e44e63036f92a47910991456639fe",
+      "storedBytes": 110374,
+      "storedSha256": "b7c84b1acc3bbc1e965f2dafb0d72b34d30c0323a5bbcd67dcc3e671fab96296",
+      "bytePreservedAfterDecompression": true
+    },
+    {
+      "role": "original-chunk-frame-audit",
+      "source": "exports/mv6/final4k/parts/p3.chunks/f008350-008950.json",
+      "archive": "docs/archive/astra-v6/evidence/originals/exports/mv6/final4k/parts/p3.chunks/f008350-008950.json.gz",
+      "encoding": "gzip",
+      "originalBytes": 3646674,
+      "originalSha256": "23667842c5044e86114e5a170895c9dcb3d85b0ff599d486d07a05ba47d4a690",
+      "storedBytes": 110470,
+      "storedSha256": "0bba50f1cd740acd63587d12d62f50ca457676911f293485e7bfc7baf799bec8",
+      "bytePreservedAfterDecompression": true
+    },
+    {
+      "role": "original-chunk-frame-audit",
+      "source": "exports/mv6/final4k/parts/p3.chunks/f008950-009550.json",
+      "archive": "docs/archive/astra-v6/evidence/originals/exports/mv6/final4k/parts/p3.chunks/f008950-009550.json.gz",
+      "encoding": "gzip",
+      "originalBytes": 3521802,
+      "originalSha256": "eea9377e685ef08825d6c86e9e5e0288dd00eb3b3d962de3ab6b4ac17a35fff0",
+      "storedBytes": 100727,
+      "storedSha256": "4a2a8fe063404e70f3f0073b7325183adeae23b76baf6b3a913ecfb514fece88",
+      "bytePreservedAfterDecompression": true
+    },
+    {
+      "role": "original-chunk-frame-audit",
+      "source": "exports/mv6/final4k/parts/p3.chunks/f009550-009825.json",
+      "archive": "docs/archive/astra-v6/evidence/originals/exports/mv6/final4k/parts/p3.chunks/f009550-009825.json.gz",
+      "encoding": "gzip",
+      "originalBytes": 1164121,
+      "originalSha256": "dbd6d24f6bb8fffb10aca3cca6d51d59ff0b0c51e1f3973696d6dc0954e5959b",
+      "storedBytes": 46949,
+      "storedSha256": "bca58abfdbea3ac8f2df0b59e825c9d37e370250ddde817ce0706c2ae0287e2e",
+      "bytePreservedAfterDecompression": true
+    },
+    {
+      "role": "original-part-report",
+      "source": "exports/mv6/final4k/parts/p3.render.json",
+      "archive": "docs/archive/astra-v6/evidence/originals/exports/mv6/final4k/parts/p3.render.json.gz",
+      "encoding": "gzip",
+      "originalBytes": 844426,
+      "originalSha256": "92942169162f6c208d6421fa301bfd404703ed241c6b6cbfa677496e2fb78cc1",
+      "storedBytes": 50977,
+      "storedSha256": "69dfb80e6f2e74e4b273cefec63976a48e7ccfe728e47376a3c5dc1dca7f5155",
+      "bytePreservedAfterDecompression": true
+    },
+    {
+      "role": "original-chunk-frame-audit",
+      "source": "exports/mv6/final4k/parts/p4.chunks/f009825-010425.json",
+      "archive": "docs/archive/astra-v6/evidence/originals/exports/mv6/final4k/parts/p4.chunks/f009825-010425.json.gz",
+      "encoding": "gzip",
+      "originalBytes": 3517785,
+      "originalSha256": "1f3ea35fd6f7c61700747b12e17c7eceadd7e769d26daae5e94f3450c0feddb9",
+      "storedBytes": 100205,
+      "storedSha256": "769c2300a9cbc706ed5d37c75e5f4b019ceea609fb1aa6a457a14857673f1998",
+      "bytePreservedAfterDecompression": true
+    },
+    {
+      "role": "original-chunk-frame-audit",
+      "source": "exports/mv6/final4k/parts/p4.chunks/f010425-011025.json",
+      "archive": "docs/archive/astra-v6/evidence/originals/exports/mv6/final4k/parts/p4.chunks/f010425-011025.json.gz",
+      "encoding": "gzip",
+      "originalBytes": 5832937,
+      "originalSha256": "3e4f87d1cdd071b38c41f356e08e6b2d71bc52b91ad9de12aa92eb87ad9ae2be",
+      "storedBytes": 143390,
+      "storedSha256": "d66da30c662c4430762ab98155c51c78818e4b2bf94595c833fb615c9c184b56",
+      "bytePreservedAfterDecompression": true
+    },
+    {
+      "role": "original-chunk-frame-audit",
+      "source": "exports/mv6/final4k/parts/p4.chunks/f011025-011625.json",
+      "archive": "docs/archive/astra-v6/evidence/originals/exports/mv6/final4k/parts/p4.chunks/f011025-011625.json.gz",
+      "encoding": "gzip",
+      "originalBytes": 3517131,
+      "originalSha256": "3fcc91c0e9d5cfede73c35eac145fc800e7696116821010ae1f20650b1862e98",
+      "storedBytes": 111914,
+      "storedSha256": "d4868f439e340c224dfde6643dfd3c9e1eafe0e232e9cae02f0a4857a3ebc518",
+      "bytePreservedAfterDecompression": true
+    },
+    {
+      "role": "original-chunk-frame-audit",
+      "source": "exports/mv6/final4k/parts/p4.chunks/f011625-012225.json",
+      "archive": "docs/archive/astra-v6/evidence/originals/exports/mv6/final4k/parts/p4.chunks/f011625-012225.json.gz",
+      "encoding": "gzip",
+      "originalBytes": 3773615,
+      "originalSha256": "a794325f429175458b568e3a4487dc8ea2772d8dc28d9226bdfd1d09817f00b8",
+      "storedBytes": 110237,
+      "storedSha256": "7ccad204d28f147527ecf5b02a1fbeb9c9cd303234598b225be65bd84c5d4d17",
+      "bytePreservedAfterDecompression": true
+    },
+    {
+      "role": "original-chunk-frame-audit",
+      "source": "exports/mv6/final4k/parts/p4.chunks/f012225-012825.json",
+      "archive": "docs/archive/astra-v6/evidence/originals/exports/mv6/final4k/parts/p4.chunks/f012225-012825.json.gz",
+      "encoding": "gzip",
+      "originalBytes": 3561029,
+      "originalSha256": "48b542aa3d974c2507bf64ed257602b2da4bdeb48dd576dd6fb1428e79cd601d",
+      "storedBytes": 91793,
+      "storedSha256": "fad70b0c6aff8485c80908d8d52d077266d910cfcf3eb1f203f500a63f34770d",
+      "bytePreservedAfterDecompression": true
+    },
+    {
+      "role": "original-chunk-frame-audit",
+      "source": "exports/mv6/final4k/parts/p4.chunks/f012825-013100.json",
+      "archive": "docs/archive/astra-v6/evidence/originals/exports/mv6/final4k/parts/p4.chunks/f012825-013100.json.gz",
+      "encoding": "gzip",
+      "originalBytes": 1691277,
+      "originalSha256": "bcaa19400d9bc9dd375296e1fde84174482d138855e3efffdffdb9df7ac2c48e",
+      "storedBytes": 42409,
+      "storedSha256": "abb05f6baac954f0bf767355752f7630f768638abe5ada9fb7f550f12fab4857",
+      "bytePreservedAfterDecompression": true
+    },
+    {
+      "role": "original-part-report",
+      "source": "exports/mv6/final4k/parts/p4.render.json",
+      "archive": "docs/archive/astra-v6/evidence/originals/exports/mv6/final4k/parts/p4.render.json.gz",
+      "encoding": "gzip",
+      "originalBytes": 865007,
+      "originalSha256": "73cd299919bcdf27d95f9212f91abf88d0b04d0053be6a744f0e365feb6e0122",
+      "storedBytes": 53017,
+      "storedSha256": "58065708f95725208d95a4920dde2c04c1b1ba0cf60c3af13f41d7f2d5b94a80",
+      "bytePreservedAfterDecompression": true
+    },
+    {
+      "role": "independent-numerical-check",
+      "source": "exports/mv6/verification/inference-numerics.json",
+      "archive": "docs/archive/astra-v6/evidence/originals/exports/mv6/verification/inference-numerics.json",
+      "encoding": "identity",
+      "originalBytes": 2263,
+      "originalSha256": "bfea6b0876627bde041e5eb8fb9694959f66c88be66948ac690ff8627b34a0da",
+      "storedBytes": 2263,
+      "storedSha256": "bfea6b0876627bde041e5eb8fb9694959f66c88be66948ac690ff8627b34a0da",
+      "bytePreservedAfterDecompression": true
+    },
+    {
+      "role": "capture-renderer-snapshot",
+      "source": "tools/render_mv6.mjs",
+      "archive": "docs/archive/astra-v6/evidence/originals/tools/render_mv6.mjs",
+      "encoding": "identity",
+      "originalBytes": 21452,
+      "originalSha256": "e3d843568d1a73d88085ef422abf65e5cfbf801f3801633ba7d0d2a93fdc2d33",
+      "storedBytes": 21452,
+      "storedSha256": "e3d843568d1a73d88085ef422abf65e5cfbf801f3801633ba7d0d2a93fdc2d33",
+      "bytePreservedAfterDecompression": true
+    }
+  ],
+  "summarySha256": "38d2278a7cb2dc9e76f9e3d1769c541da0bbf623caff93d2e4a2e2c8cc6baaa7",
+  "sourceFingerprints": {
+    "postEdit": "69d74ea120a7fda928efc691e74f258752448ee355fd835e0cafc1a21232b0fa",
+    "baseResumeCompatible": "059be3a8159f8b295244daae1d2bf62a826dd569f58e68f1c5322f7b36e54c18",
+    "labelsOnlyCounts": "285e88587307eaf4dcf0d91174b442ff8511973f16dbd6c5fd640298522ad8d1",
+    "historicalPreMuxCapture": "fdeed27d6e540d70b507326150bee6972a8712654cfa89c9a88a792fe48c946a",
+    "bodyCompositeFingerprint": "74409ba6cff5d468a4b83bf29fd8e374b48287f9a33278ff7b7422ddf391f57d",
+    "scope": "Post-edit source is not substituted for historical capture sources. Some base chunks explicitly retain a historical pre-mux capture provenance and a checked container-only resume alias."
+  },
+  "generatedDocuments": [
+    {
+      "archive": "docs/archive/astra-v6/evidence/validation-summary.json",
+      "sha256": "38d2278a7cb2dc9e76f9e3d1769c541da0bbf623caff93d2e4a2e2c8cc6baaa7",
+      "kind": "derived-not-original"
+    },
+    {
+      "archive": "docs/archive/astra-v6/evidence/public-text-scan.json",
+      "sha256": "033c59b23ad9504d02d62f16e74a3efccea857849e3572dae52f262c95daa980",
+      "kind": "derived-not-original"
+    }
+  ],
+  "reproductionEvidence": [
+    {
+      "archive": "docs/archive/astra-v6/reproduction/resource-check.json",
+      "sha256": "53d528549ac5d73e8128305809052d46ea78d3cbce3f36ff26cb3a2c54f0869f",
+      "bytes": 3343,
+      "kind": "original-clean-checkout-test-record"
+    },
+    {
+      "archive": "docs/archive/astra-v6/reproduction/stills.render.json",
+      "sha256": "4380a113530ed3d7a1e1f325faa815bfa61af43473b3554820150784858eb9fb",
+      "bytes": 61463,
+      "kind": "original-clean-checkout-test-record"
+    },
+    {
+      "archive": "docs/archive/astra-v6/reproduction/smoke.render.json",
+      "sha256": "6b65134e763a367437c8a9747a328f4f89d12e165874c16858047354210adf5d",
+      "bytes": 12102,
+      "kind": "original-clean-checkout-test-record"
+    },
+    {
+      "archive": "docs/archive/astra-v6/reproduction/preview-check.json",
+      "sha256": "8a276264f956253de557eaf3222640466a1e7cdcb63715d43326be46aa1219b4",
+      "bytes": 601,
+      "kind": "original-clean-checkout-test-record"
+    },
+    {
+      "archive": "docs/archive/astra-v6/reproduction/render-tested-tool.mjs",
+      "sha256": "b8e601f59e3b12fca9fcef558f667310821f35f249c053d73ae870db9c2347c9",
+      "bytes": 29496,
+      "kind": "original-clean-checkout-test-record"
+    },
+    {
+      "archive": "docs/archive/astra-v6/reproduction/clean-reproduction-checks.json",
+      "sha256": "d8cc68ce54a0734228ad945d47bd13226679a09bcff00f218eaf331eaf24416e",
+      "kind": "derived-test-summary"
+    }
+  ]
+}

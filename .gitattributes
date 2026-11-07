@@ -6,3 +6,6 @@ src/mv52final/** -text
 data/production-v52final/** -text
 data/production-v52/audio-accents.json -text
 docs/archive/astra-v5.2/evidence/** -text
+
+# Preserve the v6 public evidence copies byte-for-byte on all checkouts.
+docs/archive/astra-v6/** -text

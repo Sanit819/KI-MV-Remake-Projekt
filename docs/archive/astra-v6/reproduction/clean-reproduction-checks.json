@@ -1,0 +1,115 @@
+{
+  "schema": 1,
+  "passed": true,
+  "date": "2026-11-07",
+  "setup": {
+    "source": "clean git archive export with new portable tool copied in",
+    "dependencies": "fresh npm ci --ignore-scripts using package-lock; no inherited node_modules",
+    "privateInputs": "No old exports, cache, original v5.2 MP4 or source audio in the test checkout",
+    "temporaryStorage": "D drive inside the test checkout"
+  },
+  "resourceChecks": {
+    "manifest_79_slots": true,
+    "all_images_valid": true,
+    "warning_card_4k": true,
+    "timeline_86_shots": true,
+    "timeline_contiguous": true,
+    "bilingual_128_cues": true,
+    "v6_module_graph": true,
+    "three_import_map": true,
+    "preview_controls": true
+  },
+  "native4kStills": {
+    "bodyFrames": [
+      0,
+      2997,
+      3840,
+      9553,
+      10938,
+      13099
+    ],
+    "count": 6,
+    "visuallyReviewed": true,
+    "observation": "All six actually viewed; no blank frame, missing texture or missing glyph. Original R19 secondary-title overlap remains."
+  },
+  "video": {
+    "width": 3840,
+    "height": 2160,
+    "fps": 60,
+    "warning_frames": 300,
+    "body_frame_interval": [
+      0,
+      1
+    ],
+    "video_frames": 301,
+    "encoded_frames": 301,
+    "decoded_frames": 301,
+    "ptsCheck": {
+      "passed": true,
+      "checkedFrames": 301,
+      "first": 0,
+      "last": 300000,
+      "step": 1000,
+      "timeBase": "1/60000"
+    },
+    "sha256": "05991f1c1d921b5e617e141ee09a5fa6ec036f9b050c5e9d789ced7b37c20b44",
+    "bytes": 1410176
+  },
+  "preview": {
+    "passed": true,
+    "entry": "tools/archive/reproduce_v6.mjs",
+    "scriptSha256": "437b7245a1c6bdfdee2f1f93389918bfb5cc5f29da56604adf97b3bb3953387c",
+    "seek": {
+      "bodyTime": 64.00000128,
+      "shot": "R19",
+      "size": [
+        3840,
+        2160
+      ]
+    },
+    "playedTime": 65.92640127997616,
+    "pausedTime": 69.93550128000001,
+    "heldTime": 69.93550128000001,
+    "pageErrors": [],
+    "failedResponses": [],
+    "scope": "Latest portable script: silent loopback preview loads, seeks, plays and pauses at native4K. User-supplied audio ending was not exercised. No continuous film viewing or listening."
+  },
+  "scriptProvenance": {
+    "renderTestedSha256": "b8e601f59e3b12fca9fcef558f667310821f35f249c053d73ae870db9c2347c9",
+    "finalScriptSha256": "437b7245a1c6bdfdee2f1f93389918bfb5cc5f29da56604adf97b3bb3953387c",
+    "difference": "One preview-only audio.onended handler was added after capture; exact file comparison proves all rendering/encoding code unchanged. Final script separately passed resource check and silent preview seek/play/pause."
+  },
+  "artifacts": [
+    {
+      "archive": "docs/archive/astra-v6/reproduction/resource-check.json",
+      "sha256": "53d528549ac5d73e8128305809052d46ea78d3cbce3f36ff26cb3a2c54f0869f",
+      "bytes": 3343,
+      "kind": "original-clean-checkout-test-record"
+    },
+    {
+      "archive": "docs/archive/astra-v6/reproduction/stills.render.json",
+      "sha256": "4380a113530ed3d7a1e1f325faa815bfa61af43473b3554820150784858eb9fb",
+      "bytes": 61463,
+      "kind": "original-clean-checkout-test-record"
+    },
+    {
+      "archive": "docs/archive/astra-v6/reproduction/smoke.render.json",
+      "sha256": "6b65134e763a367437c8a9747a328f4f89d12e165874c16858047354210adf5d",
+      "bytes": 12102,
+      "kind": "original-clean-checkout-test-record"
+    },
+    {
+      "archive": "docs/archive/astra-v6/reproduction/preview-check.json",
+      "sha256": "8a276264f956253de557eaf3222640466a1e7cdcb63715d43326be46aa1219b4",
+      "bytes": 601,
+      "kind": "original-clean-checkout-test-record"
+    },
+    {
+      "archive": "docs/archive/astra-v6/reproduction/render-tested-tool.mjs",
+      "sha256": "b8e601f59e3b12fca9fcef558f667310821f35f249c053d73ae870db9c2347c9",
+      "bytes": 29496,
+      "kind": "original-clean-checkout-test-record"
+    }
+  ],
+  "scope": "Six exact 4K BODY frames and 301-frame 4K60 silent warning/first-frame test; not a complete portable re-render, real-time 60fps playback guarantee, audio listening, or supplied-audio validation."
+}

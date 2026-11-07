@@ -1,4 +1,21 @@
-# 第一企划归档：ASTRA《未写完的世界》
+# 第一企划最新归档：ASTRA《未写完的世界》v6
+
+2026-11-07，用户在审阅 v6 成片后确认“非常完美”，并明确要求重新归档 GitHub 和清除冗余。v6 保留 v5.2 剧情，升级全片空间、算法演出和节拍光效。
+
+- 最新固定分支：`archive/astra-world-execute-me-v6`
+- 最新固定标签：`astra-world-execute-me-v6-final`
+- [v6 交付与证据边界](docs/ARCHIVE_V6.md)
+- [v6 便携复刻](tools/archive/README_V6.md)
+- [v6 核验证据索引](docs/archive/astra-v6/evidence/index.json)
+- [完整制作说明](docs/FULL_MV_V6.md)
+
+原 v5.2 固定标签、归档分支与原分支保持不变。以下旧版说明作为历史保留，原版复刻须检出 `astra-world-execute-me-v5.2-final`。归档冻结针对版本分支，不把整个 GitHub 仓库设为 archived，其他企划和新分支可以继续工作。
+
+本地正式 v6 成片：`exports/mv6/final4k-anonymous/astra-world-execute-me-v6-4k60-hires.mp4`，SHA256 `fec129d33ea33dd0c59bf99083338b537af63e5ecaf401acf3ba4c567776b89b`。完整含音乐成片和原音源继续保存在本机，不随 Git 分发。
+
+清理只针对本次工作树中列明的可重建中间产物；原素材、源码、最终成片、必要记录和精选画面受到保护。审计报告引用的是制作时的真实文件，不代表分片、密集帧缓存和依赖在精简后仍存在。清理清单与结果保存于忽略目录 `exports/archive-maintenance-v6/`。相邻第二企划及旧版冻结工作树不在本次清理范围内。
+
+## v5.2 历史归档说明
 
 2026-11-06，第一企划完成。此归档保存最终 v5.2 的画面生产源、原画与提示词、演出数据、最终交付证据和制作历史，供后续学习、研究和复刻。后续企划不继续改动此分支。
 

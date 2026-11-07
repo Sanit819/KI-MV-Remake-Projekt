@@ -1,0 +1,537 @@
+{
+  "mode": "render",
+  "execute": true,
+  "entry": "/src/mv6/index.html",
+  "width": 3840,
+  "height": 2160,
+  "fps": 60,
+  "body_frame_interval": [
+    0,
+    1
+  ],
+  "warning_frames": 300,
+  "video_frames": 301,
+  "duration_seconds": 5.016666666666667,
+  "output": "D:\\myskills\\updream\\Astra-VFX-Lab\\exports\\archive-maintenance-v6\\clean-checkout\\exports\\archive-v6\\clean-smoke-4k60.mp4",
+  "encoder": "h264_nvenc",
+  "quality": 19,
+  "audio": "none; this renderer creates silent pictures",
+  "ffmpeg": "D:/myskills/updream/vocaloid-style-mv-pipeline/_tools/ffmpeg/bin/ffmpeg.exe",
+  "ffprobe": "D:\\myskills\\updream\\vocaloid-style-mv-pipeline\\_tools\\ffmpeg\\bin\\ffprobe.exe",
+  "browser": "C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe",
+  "passed": true,
+  "environment": {
+    "runtime": {
+      "renderer": "ANGLE (Intel, Intel(R) Graphics (0x00007D67) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "webgl": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+      "three": "187",
+      "size": [
+        3840,
+        2160
+      ],
+      "timelineShots": 86,
+      "sourceArtwork": "79 archived approved image slots, source pixel dimensions unchanged; flat illustrated characters, no new 3D body rig",
+      "sourceArtworkResolution": [
+        {
+          "slot": "bust",
+          "width": 1308,
+          "height": 1203
+        },
+        {
+          "slot": "eye",
+          "width": 1254,
+          "height": 1254
+        },
+        {
+          "slot": "profile",
+          "width": 1390,
+          "height": 1132
+        },
+        {
+          "slot": "hand",
+          "width": 1795,
+          "height": 876
+        },
+        {
+          "slot": "foot",
+          "width": 1385,
+          "height": 1136
+        },
+        {
+          "slot": "operating",
+          "width": 1337,
+          "height": 1176
+        },
+        {
+          "slot": "cat",
+          "width": 1319,
+          "height": 1193
+        },
+        {
+          "slot": "male",
+          "width": 1337,
+          "height": 1176
+        },
+        {
+          "slot": "back",
+          "width": 1337,
+          "height": 1176
+        },
+        {
+          "slot": "recoil",
+          "width": 1254,
+          "height": 1254
+        },
+        {
+          "slot": "guest0",
+          "width": 1199,
+          "height": 1312
+        },
+        {
+          "slot": "guest1",
+          "width": 1084,
+          "height": 1451
+        },
+        {
+          "slot": "guest2",
+          "width": 1194,
+          "height": 1317
+        },
+        {
+          "slot": "guest3",
+          "width": 1199,
+          "height": 1312
+        },
+        {
+          "slot": "guest4",
+          "width": 1169,
+          "height": 1346
+        },
+        {
+          "slot": "guest5",
+          "width": 1312,
+          "height": 1199
+        },
+        {
+          "slot": "stand",
+          "width": 1024,
+          "height": 1535
+        },
+        {
+          "slot": "reach",
+          "width": 1230,
+          "height": 1278
+        },
+        {
+          "slot": "protect",
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "slot": "sit",
+          "width": 1111,
+          "height": 1416
+        },
+        {
+          "slot": "surprise",
+          "width": 1254,
+          "height": 1254
+        },
+        {
+          "slot": "sitSmile",
+          "width": 1254,
+          "height": 1254
+        },
+        {
+          "slot": "earlyCircle",
+          "width": 1672,
+          "height": 941
+        },
+        {
+          "slot": "earlyTangent",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "slot": "earlyTravel",
+          "width": 2048,
+          "height": 768
+        },
+        {
+          "slot": "midWait",
+          "width": 1448,
+          "height": 1086
+        },
+        {
+          "slot": "midReceive",
+          "width": 1394,
+          "height": 1128
+        },
+        {
+          "slot": "A01_01",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "slot": "A01_02",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "slot": "A02_01",
+          "width": 1189,
+          "height": 1323
+        },
+        {
+          "slot": "A02_02",
+          "width": 1189,
+          "height": 1323
+        },
+        {
+          "slot": "A02_03",
+          "width": 1189,
+          "height": 1323
+        },
+        {
+          "slot": "A03_01",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "slot": "A03_02",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "slot": "A15_01",
+          "width": 1448,
+          "height": 1086
+        },
+        {
+          "slot": "A15_02",
+          "width": 1448,
+          "height": 1086
+        },
+        {
+          "slot": "A16_01",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "slot": "A16_02",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "slot": "A17_01",
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "slot": "A17_02",
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "slot": "A18_01",
+          "width": 1254,
+          "height": 1254
+        },
+        {
+          "slot": "A18_02",
+          "width": 1254,
+          "height": 1254
+        },
+        {
+          "slot": "A19_01",
+          "width": 1319,
+          "height": 1193
+        },
+        {
+          "slot": "A19_02",
+          "width": 1319,
+          "height": 1193
+        },
+        {
+          "slot": "A19_03",
+          "width": 1319,
+          "height": 1193
+        },
+        {
+          "slot": "A05_01",
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "slot": "A06_01",
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "slot": "A07_01",
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "slot": "A04_01",
+          "width": 1132,
+          "height": 1390
+        },
+        {
+          "slot": "A05_02",
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "slot": "A06_02",
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "slot": "A04_02",
+          "width": 1199,
+          "height": 1312
+        },
+        {
+          "slot": "A20_01",
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "slot": "A21_01",
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "slot": "A07_02",
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "slot": "A05_03",
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "slot": "A04_03",
+          "width": 1132,
+          "height": 1390
+        },
+        {
+          "slot": "A07_03",
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "slot": "A21_02",
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "slot": "A20_02",
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "slot": "A20_03",
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "slot": "A08_01",
+          "width": 1106,
+          "height": 1422
+        },
+        {
+          "slot": "A08_02",
+          "width": 1106,
+          "height": 1422
+        },
+        {
+          "slot": "A09_01",
+          "width": 1199,
+          "height": 1312
+        },
+        {
+          "slot": "A09_02",
+          "width": 1199,
+          "height": 1312
+        },
+        {
+          "slot": "A10_01",
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "slot": "A10_02",
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "slot": "A10_03",
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "slot": "A11_01",
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "slot": "A11_02",
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "slot": "A14_01",
+          "width": 1199,
+          "height": 1312
+        },
+        {
+          "slot": "A14_02",
+          "width": 1199,
+          "height": 1312
+        },
+        {
+          "slot": "A11_03",
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "slot": "A14_03",
+          "width": 1199,
+          "height": 1312
+        },
+        {
+          "slot": "A12_01",
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "slot": "A13_01",
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "slot": "A12_02",
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "slot": "A13_02",
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "slot": "A13_03",
+          "width": 1024,
+          "height": 1536
+        }
+      ],
+      "fourKScope": "3D geometry and type render at requested resolution; original character artwork retains its source detail",
+      "sourceFrames": 13100
+    },
+    "node": "v24.18.0",
+    "platform": "win32",
+    "browser": "157.0.4341.42",
+    "browser_executable": "C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe",
+    "browser_temp": "D:\\myskills\\updream\\Astra-VFX-Lab\\exports\\archive-maintenance-v6\\clean-checkout\\exports\\archive-v6\\.browser-tmp",
+    "fonts": "Frozen Windows system font families; see README. Different font/browser versions can change pixels.",
+    "ffmpeg": "ffmpeg version 9.0.2-essentials_build-www.gyan.dev Copyright (c) 2000-2026 the FFmpeg developers"
+  },
+  "encoded_frames": 301,
+  "decoded_frames": 301,
+  "stream": {
+    "width": 3840,
+    "height": 2160,
+    "r_frame_rate": "60/1",
+    "avg_frame_rate": "60/1",
+    "time_base": "1/60000",
+    "start_pts": 0,
+    "duration_ts": 301000,
+    "nb_frames": "301"
+  },
+  "ptsCheck": {
+    "passed": true,
+    "checkedFrames": 301,
+    "first": 0,
+    "last": 300000,
+    "step": 1000,
+    "timeBase": "1/60000"
+  },
+  "bodyAudit": {
+    "checkedFrames": 1,
+    "interval": [
+      0,
+      1
+    ],
+    "shots": [
+      {
+        "shot": "R01",
+        "first": 0,
+        "end": 1
+      }
+    ],
+    "scope": "Runtime frame index and original timeline shot identity; not the original full story/numerical audit."
+  },
+  "inputFingerprint": "7a28d51629da538e114035b602f867d2b504f7fed2226fac544fbd90c8af0825",
+  "bytes": 1410176,
+  "sha256": "05991f1c1d921b5e617e141ee09a5fa6ec036f9b050c5e9d789ced7b37c20b44",
+  "elapsed_seconds": 35.925,
+  "command": [
+    "D:/myskills/updream/vocaloid-style-mv-pipeline/_tools/ffmpeg/bin/ffmpeg.exe",
+    "-hide_banner",
+    "-loglevel",
+    "warning",
+    "-n",
+    "-f",
+    "image2pipe",
+    "-framerate",
+    "60",
+    "-vcodec",
+    "png",
+    "-i",
+    "pipe:0",
+    "-map",
+    "0:v:0",
+    "-an",
+    "-frames:v",
+    "301",
+    "-vf",
+    "scale=out_color_matrix=bt709:out_range=limited,format=yuv420p",
+    "-c:v",
+    "h264_nvenc",
+    "-preset",
+    "p6",
+    "-tune",
+    "hq",
+    "-rc",
+    "vbr",
+    "-cq",
+    "19",
+    "-b:v",
+    "0",
+    "-profile:v",
+    "high",
+    "-bf",
+    "2",
+    "-colorspace",
+    "bt709",
+    "-color_primaries",
+    "bt709",
+    "-color_trc",
+    "bt709",
+    "-color_range",
+    "tv",
+    "-video_track_timescale",
+    "60000",
+    "-movie_timescale",
+    "60000",
+    "-movflags",
+    "+faststart",
+    "D:\\myskills\\updream\\Astra-VFX-Lab\\exports\\archive-maintenance-v6\\clean-checkout\\exports\\archive-v6\\clean-smoke-4k60.mp4"
+  ],
+  "encoder_log": "",
+  "source_manifest_sha256": "aea2ec5ad6eda446fafe1644eb74252ddd4fade607ccfa0c23cc2ce9b1263d02",
+  "scope": "Silent V6 reproduction from archived source. Every output frame decoded, PTS and source shot identity checked. Does not certify historical MP4 hash identity, native source audio, original numerical story audit, or continuous human visual review."
+}
