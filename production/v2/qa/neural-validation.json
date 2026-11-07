@@ -1,0 +1,39 @@
+{
+  "status": "passed",
+  "scope": "Independent numerical checks of sampled educational 2→4→2 network; not verification of actual Astra/DeepSeek internals or generalization.",
+  "records": [
+    {
+      "time": 63,
+      "epoch": 3,
+      "max_forward_error": 5.551115123125783e-17,
+      "recomputed_training_loss": 0.00859389671574137,
+      "training_loss_error": 1.734723475976807e-18
+    },
+    {
+      "time": 67,
+      "epoch": 6,
+      "max_forward_error": 1.1102230246251565e-16,
+      "recomputed_training_loss": 0.0006321312271617731,
+      "training_loss_error": 7.589415207398531e-19
+    },
+    {
+      "time": 128,
+      "epoch": 53,
+      "max_forward_error": 1.1102230246251565e-16,
+      "recomputed_training_loss": 0.00029475558507328513,
+      "training_loss_error": 1.0842021724855044e-19,
+      "finite_difference_gradient_errors": {
+        "dW1": 4.2440031523816035e-13,
+        "dW2": 1.751145886283445e-13
+      }
+    },
+    {
+      "time": 150,
+      "epoch": 70,
+      "max_forward_error": 1.1102230246251565e-16,
+      "recomputed_training_loss": 0.0002692724001289297,
+      "training_loss_error": 1.0842021724855044e-19
+    }
+  ],
+  "method": "NumPy matrix products, tanh, MSE over fixed 32 samples; central finite differences epsilon 1e-6 for dW1/dW2"
+}

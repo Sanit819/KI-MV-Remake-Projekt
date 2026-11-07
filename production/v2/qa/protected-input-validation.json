@@ -1,0 +1,57 @@
+{
+  "status": "passed",
+  "checks": {
+    "production/v1/engine/film.js": {
+      "unchanged": true,
+      "sha256": "707e15f9d2f49a4e25c1029f69c7556fadd1ad509646a85eb9c3a237e663249b"
+    },
+    "production/v1/engine/index.html": {
+      "unchanged": true,
+      "sha256": "1c1caa4ef2cad97f6dca120067bc8d5c8a92c1cb2157ca08ff6f7ce8e43b9534"
+    },
+    "production/v1/engine/style.css": {
+      "unchanged": true,
+      "sha256": "e8d8d6bbaf9790f7ff82eeea6dd72f870d242b67034de5b436581bd8c83fe22d"
+    },
+    "production/v1/timeline/lyrics-candidate.json": {
+      "unchanged": true,
+      "sha256": "cf4787bb0fa318063484b8b5ac0f9b4c813036ea5da24cadbb642a866430d1d8"
+    },
+    "art/style-tests/astra-ds-mv-style-v5.png": {
+      "unchanged": true,
+      "sha256": "e79281b702895e1e40cee067736448b74bc851facfaac9eb008aaa206e3efd9c"
+    },
+    "exports/v1/taiyoukei-disco-v1-720p30-flac.mkv": {
+      "unchanged": true,
+      "sha256": "387570654f878c622322fa36123070779d447be39e26e61cb6da1117e673cb43"
+    },
+    "local-source/audio/07 太陽系デスコ.flac": {
+      "unchanged": true,
+      "sha256": "0139c2441bf35e98951ca46b5e8395a71c8aa4b2629c4f5c3a1079881d019ac9"
+    },
+    "production/v1/assets/pose-a.png": {
+      "unchanged": true,
+      "sha256": "c50127d8024827497b693907684d5a20f37daffeaf0666933460fbfa723d9a84"
+    },
+    "production/v1/assets/pose-b.png": {
+      "unchanged": true,
+      "sha256": "c44f9700f3cf166889436b2cb28f5b10ce6bc90a51c514711c67031e5c3d78b5"
+    },
+    "production/v1/assets/clap.png": {
+      "unchanged": true,
+      "sha256": "939d3f49ef8b91a24992075da92d0d44fa6df74c4b4a2cd471591644a8b76181"
+    },
+    "production/v1/assets/reach.png": {
+      "unchanged": true,
+      "sha256": "fba24216a6de526d9f52bcb2a8dfb27f19896afc2a9b595157923d98b7cc9e93"
+    },
+    "production/v1/assets/draw.png": {
+      "unchanged": true,
+      "sha256": "04fef0c02995aac5a3f2de07e63f141813fbb3a12273a860eef10a2fd3b8c0e9"
+    },
+    "production/v1/assets/q.png": {
+      "unchanged": true,
+      "sha256": "28d36dd8733faff3904ba30ced98262934c85040ccaf52aa218dffea6ff77470"
+    }
+  }
+}

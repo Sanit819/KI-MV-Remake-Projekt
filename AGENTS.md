@@ -4,7 +4,8 @@
 
 - 本目录是原共享 Git 仓库中的独立 orphan worktree。只在此目录推进第三企划。
 - 第一企划冻结点与第二企划工作区均保持原状，不合并其未提交内容。
-- 当前授权范围：用户已要求借助vocaloid-style-mv-pipeline完成全曲第一版。输出720p/30fps，保留原FLAC、不转其他音频编码，字幕上日语下中文。用户已于2026-11-07确定双主演为Astra与DeepSeek大肥鱼，指定《大AI和小AI们》BV1tE9XBbErS为角色原型来源；先读 `docs/CASTING.md` 和 `references/characters/CHARACTER_REFERENCE.md`。整体色调及模仿原MV画风的方向已确定；v5角色造型与画风已由用户采纳；已完成第一版203.2秒有限动画，见production/v1/README.md与docs/DELIVERY_V1.md；用户尚未验收成片。
+- 当前授权范围：用户已要求借助vocaloid-style-mv-pipeline完成全曲第一版。输出720p/30fps，保留原FLAC、不转其他音频编码，字幕上日语下中文。用户已于2026-11-07确定双主演为Astra与DeepSeek大肥鱼，指定《大AI和小AI们》BV1tE9XBbErS为角色原型来源；先读 `docs/CASTING.md` 和 `references/characters/CHARACTER_REFERENCE.md`。整体色调及模仿原MV画风的方向已确定；v5角色造型与画风已由用户采纳；用户已肯定第一版效果，追加不改剧情的疯癫表演、神经银河和署名涂改。第二版203.2秒有限动画已完成，见production/v2/README.md与docs/DELIVERY_V2.md；v1完整保留，v2待用户审看。
+- 最新v2署名要求：Astra认真手写，ds潦草写“大肥鱼”；尾声ds发现后用蓝笔划去Astra、逐笔写“啥龙”，作品不加谐音解释或括号。旧新双星与原剧情时码保留；神经银河用教学玩具网络，不声称真实模型内部。
 - 最新画风试稿：`art/style-tests/astra-ds-mv-style-v5.png`，实际提示词与检查在同目录README/PROMPT_V5。用户指出v1太精致、v2失去特征、v3发型不像且ds眼间有杂线；v4按原型修正头发主轮廓并删杂线后，用户说“这回差不多了”，要求继续做原MV一眼草稿、线条不闭合的效果。v5保留v4造型，改断续细线、未接齐笔头和少量重描，1673×940 RGB。用户随后明确“ok，这版好采纳这一版！”，v5现为已采用的角色造型与画风基准。采用登记在`art/style-tests/approved-style.json`，图片保持原样；后续沿用本版发型与不闭合线条。动画第一版已制作；v5基准原图保持不变，新派生姿态并非用户逐项确认。
 - 用户明确后续称DeepSeek为 `ds`。头发必须沿v4的人设主轮廓，内部可省略，不能再改成通用齐刘海/独立卷钩。ds双眼间不加独立鼻梁式横线；额前连接发根的刘海尖与眼皮正常保留。
 - 最新色调要求：珊瑚红底、白/近白人物、黑色大字和深色细轮廓主导；角色蓝紫及旧星紫金只作局部点缀和笔迹。纸面与银河也遵循红底平面语言。用户最新截图优先：背景#FF6452、大字#323232；取样与截图见references/user-palette/。旧#FD5354转码估计已被替代。详见 `docs/CASTING.md`，不可继续将整体配色记作完全未定。
