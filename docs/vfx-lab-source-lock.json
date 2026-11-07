@@ -1,0 +1,22 @@
+{
+  "base_commit": "881e403fc3b76fa0d8fd0fe2a27c081710830f21",
+  "branch": "project-01/vfx-lab-v1",
+  "visible_art": {
+    "slot": "A02_02",
+    "path": "/assets/astra/v14-boundary-review/A02-02-contact-v6-perspective.png",
+    "sha256": "b393e4c3218a53c8be5089684a6958e3ee9dfdca0907f8cf928ac3ba28e4488e",
+    "source_hash_matches": true
+  },
+  "files": {
+    "src/vfxlab/common.js": "08748095db2fbeac8a248f5fee478fe2a28c6c7837a7002f7f2823a64f038e80",
+    "src/vfxlab/corridor.js": "d82ae4843c493b7c59be4708f344c6cc542048d51f004c10e6c7e8bd39087ba3",
+    "src/vfxlab/index.html": "16f697ae4d21547891ef151e027fe225d8c67372e4ad07be967122c8ed0150ba",
+    "src/vfxlab/main.js": "b22835eec658fc8f1ae213c239f3d404b37c7444f86cf13fd7209afba409833c",
+    "src/vfxlab/morph.js": "dcb54993c33f63e1cd545b5d4ae5ef0b76690a1398a91ff2aa02b91f4d18687d",
+    "src/vfxlab/unlock.js": "cabd2f404f41fe0b9ce2f327a183d6978f9e48816ee1fef5987da8f20c82aa32",
+    "tools/render_vfxlab.mjs": "874b401f0eb83a6c91020b55ce4ab0b0142971ccc42100e86ff61b1ac899dbbd",
+    "tools/package_vfxlab.py": "3ce2ff6dc9a5cc68399777fda423753c7d725d553da78050978c36c1c18e7636",
+    "package-lock.json": "76ad4f1c2db889ea37e52fc1def2cb4c2c9d7f34b82676289fee7e1bd6abdb09"
+  },
+  "reference_media_incorporated": false
+}

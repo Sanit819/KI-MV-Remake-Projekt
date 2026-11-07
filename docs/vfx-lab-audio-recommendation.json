@@ -1,0 +1,137 @@
+{
+  "schema_version": 1,
+  "status": "制作候选；依当前timeline、lyrics及已有混音瞬态数据推断，未直接听音或连续播放认证",
+  "source_movie": "D:/myskills/updream/KI-MV-Remake-Projekt/exports/astra-world-execute-me-final-v5.2-lighting-artwork-hires-4k60.mp4",
+  "source_timeline_rule": "原成片包含5秒片头：full_time = body_time + 5；60fps下full_frame = body_frame + 300。所有区间起点含、终点不含。推荐按帧整数/60计算，勿把显示小数当不同时间轴。",
+  "sources": [
+    "data/production-v5/timeline.json",
+    "data/production-v5/lyrics.en-zh.json",
+    "data/production-v52/audio-accents.json",
+    "data/production-v52final/manifest.json"
+  ],
+  "clips": [
+    {
+      "id": "space_travel_8s",
+      "purpose": "空间穿行：前景角色触界，镜头沿同一线路穿入城市/年代门户，最后两色轨迹汇合",
+      "duration_seconds": 8,
+      "body_start_frame": 3068,
+      "body_end_frame_exclusive": 3548,
+      "body_start_seconds": 51.13333333333333,
+      "body_end_seconds_exclusive": 59.13333333333333,
+      "full_start_frame": 3368,
+      "full_end_frame_exclusive": 3848,
+      "full_start_seconds": 56.13333333333333,
+      "full_end_seconds_exclusive": 64.13333333333333,
+      "original_shots_overlapped": ["R14末尾", "R15", "R16"],
+      "reason": "完整覆盖travel、AD/BC、unite、deeply的语义段落；第一句前留0.15秒预备，末端位于下一句If I can起点，适合连续空间变化和最后汇合。",
+      "cue_candidates": [
+        {"local_seconds": 0.15, "body_seconds": 51.28333333333333, "label": "travel起句；开始穿行"},
+        {"local_seconds": 2.0, "body_seconds": 53.13333333333333, "label": "AD/BC；跨年代几何变化"},
+        {"local_seconds": 3.866666666666667, "body_seconds": 55.0, "label": "unite；双轨靠拢"},
+        {"local_seconds": 5.7, "body_seconds": 56.833333333333336, "label": "deeply；完成汇合并稳定收势"}
+      ],
+      "measured_transient_candidates_in_range": 44,
+      "strong_transient_candidates_in_range": 14,
+      "edge_note": "起始0.15秒仍是上一句dizzy尾部；应作为预备运动，成片试听后再决定是否加极短音频淡入。"
+    },
+    {
+      "id": "geometry_morph_8s",
+      "purpose": "连续形变：点群/字形维度展开为圆环，再展开成正弦波与切线",
+      "duration_seconds": 8,
+      "body_start_frame": 1956,
+      "body_end_frame_exclusive": 2436,
+      "body_start_seconds": 32.6,
+      "body_end_seconds_exclusive": 40.6,
+      "full_start_frame": 2256,
+      "full_end_frame_exclusive": 2736,
+      "full_start_seconds": 37.6,
+      "full_end_seconds_exclusive": 45.6,
+      "original_shots_overlapped": ["R09末尾", "R10", "R11"],
+      "reason": "依次覆盖DIMENSION、circle/CIRCUMFERENCE、sine wave/TANGENTS，形变对象与歌词语义直接对应，适合保留对象身份的连续顶点变化。",
+      "cue_candidates": [
+        {"local_seconds": 0.0, "body_seconds": 32.6, "label": "DIMENSION；建立点群或线框"},
+        {"local_seconds": 0.7333333333333333, "body_seconds": 33.333333333333336, "label": "circle起句；开始卷成圆"},
+        {"local_seconds": 3.6, "body_seconds": 36.2, "label": "CIRCUMFERENCE；圆周完成"},
+        {"local_seconds": 4.383333333333334, "body_seconds": 36.983333333333334, "label": "sine wave起句；圆环连续拉成波"},
+        {"local_seconds": 7.366666666666666, "body_seconds": 39.96666666666667, "label": "TANGENTS；切线锁定与轻冲击"}
+      ],
+      "measured_transient_candidates_in_range": 44,
+      "strong_transient_candidates_in_range": 19,
+      "edge_note": "8秒片尾比TANGENTS标注结束40.616667早1个60fps帧；未耳听确认是否影响尾音，导出试听后决定是否在新试片中放宽1帧。不要直接截到41秒进入下一句。"
+    },
+    {
+      "id": "six_unlocks_10s",
+      "purpose": "六次解锁视效试片：前段蓄积，六个计数依次打开控制环，EXECUTION处整体释放，后段空间展开",
+      "duration_seconds": 10,
+      "body_start_frame": 9305,
+      "body_end_frame_exclusive": 9905,
+      "body_start_seconds": 155.08333333333334,
+      "body_end_seconds_exclusive": 165.08333333333334,
+      "full_start_frame": 9605,
+      "full_end_frame_exclusive": 10205,
+      "full_start_seconds": 160.08333333333334,
+      "full_end_seconds_exclusive": 170.08333333333334,
+      "original_shots_overlapped": ["R61末尾", "R62", "R63", "R64", "R65", "R66", "R67", "R68", "R69", "R70", "R71"],
+      "reason": "保留计数前3.73秒蓄积、2.68秒六次触发与大喊EXECUTION后的展开，10秒终点恰为下一次EXECUTION起点，避免把该新词切半。",
+      "six_triggers": [
+        {"number": 1, "word": "EIN", "body_frame": 9529, "body_seconds": 158.81666666666666, "full_seconds": 163.81666666666666, "local_frame": 224, "local_seconds": 3.7333333333333334},
+        {"number": 2, "word": "DOS", "body_frame": 9554, "body_seconds": 159.23333333333332, "full_seconds": 164.23333333333332, "local_frame": 249, "local_seconds": 4.15},
+        {"number": 3, "word": "TROIS", "body_frame": 9574, "body_seconds": 159.56666666666666, "full_seconds": 164.56666666666666, "local_frame": 269, "local_seconds": 4.483333333333333},
+        {"number": 4, "word": "NE", "body_frame": 9610, "body_seconds": 160.16666666666666, "full_seconds": 165.16666666666666, "local_frame": 305, "local_seconds": 5.083333333333333},
+        {"number": 5, "word": "FEM", "body_frame": 9637, "body_seconds": 160.61666666666667, "full_seconds": 165.61666666666667, "local_frame": 332, "local_seconds": 5.533333333333333},
+        {"number": 6, "word": "LIU", "body_frame": 9662, "body_seconds": 161.03333333333333, "full_seconds": 166.03333333333333, "local_frame": 357, "local_seconds": 5.95}
+      ],
+      "release_trigger": {"word": "EXECUTION", "body_frame": 9690, "body_seconds": 161.5, "full_seconds": 166.5, "local_frame": 385, "local_seconds": 6.416666666666667},
+      "measured_transient_candidates_in_range": 54,
+      "strong_transient_candidates_in_range": 23,
+      "timing_rule": "六次触发采用当前v5正式歌词/镜头边界，不等分六拍，不套旧54镜分镜的等拍计数。它们是已有编辑点，本轮没有重新逐词听核。混音瞬态用作次级流光/冲击，不能冒充单独人声词首或独立鼓轨。",
+      "story_note": "原v5这六段是六个控制域逐步锁定；本试片的六次解锁是新的视效实验，不应写成原片已有剧情。",
+      "edge_note": "起点距下一个EXECUTION标注起点仅2帧，可作入场预备；需最终试听确认硬切是否顺耳。"
+    }
+  ],
+  "art_review": [
+    {
+      "slot": "A02_02",
+      "path": "assets/astra/v14-boundary-review/A02-02-contact-v6-perspective.png",
+      "visually_inspected": true,
+      "size": [1189, 1323],
+      "pose": "完整站姿、面朝画面右，外伸手掌触向右侧，另一手靠近胸前；翼尾与裙摆形成向左后方的轮廓。",
+      "recommended_use": "空间穿行试片的左侧前景/门口触界，右手接通通道后镜头沿手掌方向进入场景。",
+      "avoid": "不把整张图强行透视旋转成背面或飞行姿态；相机大幅绕角色会暴露单平面。",
+      "anchors_from_final_manifest": {"hands": [1105, 347], "wrist": [1041, 405], "eyes": [740, 259]},
+      "alpha_check": {"mode": "RGBA", "extrema": [0, 255], "corner_alpha": [0, 0, 1, 0]},
+      "approval_evidence": "最终manifest明确user_approved=true及integration_authorized=true。"
+    },
+    {
+      "slot": "A04_02",
+      "path": "assets/astra/v18-wave-hand-review/A04-02-wave-receive-v6-hand-redraw.png",
+      "visually_inspected": true,
+      "size": [1199, 1312],
+      "pose": "半身略朝左，画面左侧手掌摊开，另一手放胸前，面部保持认可的遮眼阴影。",
+      "recommended_use": "连续形变试片右侧的接收者/操纵者，让环或波形从左方抵达摊开的掌心。",
+      "avoid": "原图下缘是半身裁切，不宜当站立全身漂浮在空中；波形接收端用hands锚点，不用最高fingertip锚点冒充掌心。",
+      "anchors_from_final_manifest": {"hands": [196, 487], "wrist": [243, 526], "chest": [705, 608], "fingertip": [155, 412]},
+      "alpha_check": {"mode": "RGBA", "extrema": [0, 255], "corner_alpha": [0, 0, 0, 0]},
+      "approval_evidence": "最终manifest明确user_approved=true及integration_authorized=true。"
+    },
+    {
+      "slot": "A13_03",
+      "path": "assets/astra/v09/A13-03-shadow.png",
+      "visually_inspected": true,
+      "size": [1024, 1536],
+      "pose": "坐姿，画面右侧手掌向上摊开，另一手落在腿上；适合安静呈现已释放的物体。",
+      "recommended_use": "六次解锁后半段，将释放后的核心或星放在右侧掌心上；前段让机械环承担大运动。",
+      "avoid": "不把此坐姿称作站立展翼或主动拉开六道机械锁的连续动作。大范围运动应由场景承担。",
+      "anchors_from_final_manifest": {"hands": [900, 705], "wrist": [818, 728], "shoulder": [648, 570]},
+      "alpha_check": {"mode": "RGBA", "extrema": [0, 254], "corner_alpha": [0, 0, 0, 0], "background_spot_alpha": [0, 0, 0, 0, 0]},
+      "transparency_note": "看图工具显示了部分透明像素的底色；实际核查多处空白背景alpha=0，不能把显示中的雾状底色误判为不透明矩形。",
+      "approval_evidence": "该slot位于最终v5.2 manifest；其provenance记录原画已inspected，但没有同A02_02/A04_02相同的独立user_approved字段。"
+    }
+  ],
+  "limits": [
+    "没有本轮直接耳听、连续视听或导出试听认证。",
+    "现有audio-accents为历史混音频带瞬态候选，非独立鼓轨；其kick/snare标签不应宣称为逐鼓人工确认。",
+    "这些是三个独立机制试片的音源建议，不代表全片重新排镜完成。",
+    "只写入此新worktree文档；未修改归档、原音频、第二企划或其他agent文件。"
+  ]
+}
