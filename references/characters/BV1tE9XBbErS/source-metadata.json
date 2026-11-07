@@ -1,0 +1,31 @@
+{
+  "source_page": "https://www.bilibili.com/video/BV1tE9XBbErS/",
+  "fetched_utc": "2026-11-07T11:43:58.445825+00:00",
+  "title": "大AI和小AI们",
+  "bvid": "BV1tE9XBbErS",
+  "aid": 116506004295991,
+  "cid": 26008296573,
+  "uploader": {
+    "mid": 4168597,
+    "name": "ZipZipPipe",
+    "face": "https://i1.hdslb.com/bfs/face/6b564631408efc768839b3d0f9065efc63546af2.jpg"
+  },
+  "description": "AI生成图片，AI背景音乐，但没有AI配音，所以只是2A视频。\n\n因为AI很好玩，所以我去玩AI去了。\n\n是对目前市面上的九款AI的拟人娘化，按顺序应该是DeepSeek，Gemini，Claude，GPT，Grok，GLM，Kimi，MiniMax，Qwen。\n\n主要做的是大AI，但我说GPT image 2是有说法的，小AI全部是大AI的底图一次性生成成功的。\n\n做这个的主要目的其实是生成表情包，image 2做表情包真的一绝。\n\n最后如果觉得版权有问题，你应该去找Open AI和谷歌，模型是他们的，我第一个投降删除。\n\n申明：本视频鲸鱼娘形象基于@上善无形  原创角色二创（源：b23.tv/Kn7yvnF），依CC BY-NC-SA 4.0非商业使用，二创同协议授权，完整声明见主页。",
+  "published_unix": 1777740613,
+  "api_duration": 54,
+  "upload_dimensions": {
+    "width": 2160,
+    "height": 3840,
+    "rotate": 0
+  },
+  "public_video": {
+    "id": 32,
+    "width": 480,
+    "height": 852,
+    "frameRate": "30.000",
+    "codecs": "avc1.64001F"
+  },
+  "video_sha256": "4f902729a25ee49f757a02255c323976119a91f929b7436af202a13a98a69ce8",
+  "auth": "none; public API, no cookies",
+  "scope": "User designated character reference; does not certify original authorship of every design."
+}

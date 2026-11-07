@@ -7,3 +7,5 @@ __pycache__/
 *.pyc
 .cache/
 exports/
+references/characters/**/samples/
+references/characters/**/analysis/frame-metrics.json

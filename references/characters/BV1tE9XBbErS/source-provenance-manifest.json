@@ -1,0 +1,324 @@
+{
+  "retrieved_date": "2026-11-07",
+  "used_cookies": false,
+  "records": [
+    {
+      "local_file": "pixiv-148186519-p00-small.jpg",
+      "source_url": "https://i.pximg.net/c/540x540_70/img-master/img/2026/08/09/01/18/27/148186519_p0_master1200.jpg",
+      "original_url": "https://i.pximg.net/img-original/img/2026/08/09/01/18/27/148186519_p0.jpg",
+      "pixiv_index_zero_based": 0,
+      "page_one_based": 1,
+      "original_dimensions": [
+        1152,
+        2048
+      ],
+      "sha256": "3c21d7c8a7c873c4ddabca061be1bf595c19f792eca90982e65362d947faad37",
+      "bytes": 32072,
+      "kind": "public_author_preview"
+    },
+    {
+      "local_file": "pixiv-148186519-p01-small.jpg",
+      "source_url": "https://i.pximg.net/c/540x540_70/img-master/img/2026/08/09/01/18/27/148186519_p1_master1200.jpg",
+      "original_url": "https://i.pximg.net/img-original/img/2026/08/09/01/18/27/148186519_p1.jpg",
+      "pixiv_index_zero_based": 1,
+      "page_one_based": 2,
+      "original_dimensions": [
+        1536,
+        2752
+      ],
+      "sha256": "ee24c74ea44b4aa7bb3d9df9c157305fb1e349f6036bbce678d78bc8a0848426",
+      "bytes": 31013,
+      "kind": "public_author_preview"
+    },
+    {
+      "local_file": "pixiv-148186519-p02-small.jpg",
+      "source_url": "https://i.pximg.net/c/540x540_70/img-master/img/2026/08/09/01/18/27/148186519_p2_master1200.jpg",
+      "original_url": "https://i.pximg.net/img-original/img/2026/08/09/01/18/27/148186519_p2.jpg",
+      "pixiv_index_zero_based": 2,
+      "page_one_based": 3,
+      "original_dimensions": [
+        3072,
+        5504
+      ],
+      "sha256": "9553c5e4b381d06cedc61bc26820b405c5e6d704c5d622290a8e0ee7cd94e517",
+      "bytes": 44449,
+      "kind": "public_author_preview"
+    },
+    {
+      "local_file": "pixiv-148186519-p03-small.jpg",
+      "source_url": "https://i.pximg.net/c/540x540_70/img-master/img/2026/08/09/01/18/27/148186519_p3_master1200.jpg",
+      "original_url": "https://i.pximg.net/img-original/img/2026/08/09/01/18/27/148186519_p3.jpg",
+      "pixiv_index_zero_based": 3,
+      "page_one_based": 4,
+      "original_dimensions": [
+        3072,
+        5504
+      ],
+      "sha256": "8befaa6e6f49616f4868b34d56018e50aa19382db2c7b669965117e03b8e9264",
+      "bytes": 41367,
+      "kind": "public_author_preview"
+    },
+    {
+      "local_file": "pixiv-148186519-p04-small.jpg",
+      "source_url": "https://i.pximg.net/c/540x540_70/img-master/img/2026/08/09/01/18/27/148186519_p4_master1200.jpg",
+      "original_url": "https://i.pximg.net/img-original/img/2026/08/09/01/18/27/148186519_p4.jpg",
+      "pixiv_index_zero_based": 4,
+      "page_one_based": 5,
+      "original_dimensions": [
+        3072,
+        5504
+      ],
+      "sha256": "069c454a010e89e296d5db508f370b683b7900a5df91d9cc255f75e9b5d30a76",
+      "bytes": 40578,
+      "kind": "public_author_preview"
+    },
+    {
+      "local_file": "pixiv-148186519-p05-small.jpg",
+      "source_url": "https://i.pximg.net/c/540x540_70/img-master/img/2026/08/09/01/18/27/148186519_p5_master1200.jpg",
+      "original_url": "https://i.pximg.net/img-original/img/2026/08/09/01/18/27/148186519_p5.jpg",
+      "pixiv_index_zero_based": 5,
+      "page_one_based": 6,
+      "original_dimensions": [
+        1152,
+        2048
+      ],
+      "sha256": "b5560309d5eecd74ac22deec3264b56f8cdb970cb0fd3922d9ec0813293cddd1",
+      "bytes": 31745,
+      "kind": "public_author_preview"
+    },
+    {
+      "local_file": "pixiv-148186519-p06-small.jpg",
+      "source_url": "https://i.pximg.net/c/540x540_70/img-master/img/2026/08/09/01/18/27/148186519_p6_master1200.jpg",
+      "original_url": "https://i.pximg.net/img-original/img/2026/08/09/01/18/27/148186519_p6.jpg",
+      "pixiv_index_zero_based": 6,
+      "page_one_based": 7,
+      "original_dimensions": [
+        1152,
+        2048
+      ],
+      "sha256": "353d2aea6131dfaa7175b687dfa930832d9a122798f4b50fac7931ad866c4e54",
+      "bytes": 28193,
+      "kind": "public_author_preview"
+    },
+    {
+      "local_file": "pixiv-148186519-p07-small.jpg",
+      "source_url": "https://i.pximg.net/c/540x540_70/img-master/img/2026/08/09/01/18/27/148186519_p7_master1200.jpg",
+      "original_url": "https://i.pximg.net/img-original/img/2026/08/09/01/18/27/148186519_p7.jpg",
+      "pixiv_index_zero_based": 7,
+      "page_one_based": 8,
+      "original_dimensions": [
+        3072,
+        5504
+      ],
+      "sha256": "0d69f4e7b1dae6078af435df018d9ec6d19ce8c17b738d3c7dff3129699c67d2",
+      "bytes": 40522,
+      "kind": "public_author_preview"
+    },
+    {
+      "local_file": "pixiv-148186519-p08-small.jpg",
+      "source_url": "https://i.pximg.net/c/540x540_70/img-master/img/2026/08/09/01/18/27/148186519_p8_master1200.jpg",
+      "original_url": "https://i.pximg.net/img-original/img/2026/08/09/01/18/27/148186519_p8.jpg",
+      "pixiv_index_zero_based": 8,
+      "page_one_based": 9,
+      "original_dimensions": [
+        2160,
+        3840
+      ],
+      "sha256": "34fcbc499ede0ec4b9dabae4797f2e3bd5ecc2eb5905824b8ff17c00ee50d0f3",
+      "bytes": 33807,
+      "kind": "public_author_preview"
+    },
+    {
+      "local_file": "pixiv-148186519-p09-small.jpg",
+      "source_url": "https://i.pximg.net/c/540x540_70/img-master/img/2026/08/09/01/18/27/148186519_p9_master1200.jpg",
+      "original_url": "https://i.pximg.net/img-original/img/2026/08/09/01/18/27/148186519_p9.jpg",
+      "pixiv_index_zero_based": 9,
+      "page_one_based": 10,
+      "original_dimensions": [
+        941,
+        1672
+      ],
+      "sha256": "1160ef78aded305428cb808b3265d61b91ef86f9daafca58a9581dcd176b1903",
+      "bytes": 42506,
+      "kind": "public_author_preview"
+    },
+    {
+      "local_file": "pixiv-148186519-p10-small.jpg",
+      "source_url": "https://i.pximg.net/c/540x540_70/img-master/img/2026/08/09/01/18/27/148186519_p10_master1200.jpg",
+      "original_url": "https://i.pximg.net/img-original/img/2026/08/09/01/18/27/148186519_p10.jpg",
+      "pixiv_index_zero_based": 10,
+      "page_one_based": 11,
+      "original_dimensions": [
+        3072,
+        5504
+      ],
+      "sha256": "d21b1eb207c3e2c97d3a69e4b70404e4269a2f66a201aef0c6e49757b4ad923c",
+      "bytes": 32180,
+      "kind": "public_author_preview"
+    },
+    {
+      "local_file": "pixiv-148186519-p11-small.jpg",
+      "source_url": "https://i.pximg.net/c/540x540_70/img-master/img/2026/08/09/01/18/27/148186519_p11_master1200.jpg",
+      "original_url": "https://i.pximg.net/img-original/img/2026/08/09/01/18/27/148186519_p11.jpg",
+      "pixiv_index_zero_based": 11,
+      "page_one_based": 12,
+      "original_dimensions": [
+        3072,
+        5504
+      ],
+      "sha256": "945e813d7415245954b21419dbe96a2f4634d4e13e749629feb6299ebeace213",
+      "bytes": 45863,
+      "kind": "public_author_preview"
+    },
+    {
+      "local_file": "pixiv-148186519-p12-small.jpg",
+      "source_url": "https://i.pximg.net/c/540x540_70/img-master/img/2026/08/09/01/18/27/148186519_p12_master1200.jpg",
+      "original_url": "https://i.pximg.net/img-original/img/2026/08/09/01/18/27/148186519_p12.jpg",
+      "pixiv_index_zero_based": 12,
+      "page_one_based": 13,
+      "original_dimensions": [
+        3072,
+        5504
+      ],
+      "sha256": "2d3209ed9d16be235c00f80478c6fc2c514e1d9186691fbb0c40ffd6418059d4",
+      "bytes": 36225,
+      "kind": "public_author_preview"
+    },
+    {
+      "local_file": "pixiv-148186519-p13-small.jpg",
+      "source_url": "https://i.pximg.net/c/540x540_70/img-master/img/2026/08/09/01/18/27/148186519_p13_master1200.jpg",
+      "original_url": "https://i.pximg.net/img-original/img/2026/08/09/01/18/27/148186519_p13.jpg",
+      "pixiv_index_zero_based": 13,
+      "page_one_based": 14,
+      "original_dimensions": [
+        3072,
+        5504
+      ],
+      "sha256": "e36171014b093be52b7b1595e26d36dcff0d332127e90bf3d0ce897541eb8de4",
+      "bytes": 21412,
+      "kind": "public_author_preview"
+    },
+    {
+      "local_file": "pixiv-148186519-p14-small.jpg",
+      "source_url": "https://i.pximg.net/c/540x540_70/img-master/img/2026/08/09/01/18/27/148186519_p14_master1200.jpg",
+      "original_url": "https://i.pximg.net/img-original/img/2026/08/09/01/18/27/148186519_p14.jpg",
+      "pixiv_index_zero_based": 14,
+      "page_one_based": 15,
+      "original_dimensions": [
+        3072,
+        5504
+      ],
+      "sha256": "97f51f28790118238abcb10d218a7b69a08a79f0c16ea00b08c1a7a926221be0",
+      "bytes": 20601,
+      "kind": "public_author_preview"
+    },
+    {
+      "local_file": "pixiv-148186519-p15-small.jpg",
+      "source_url": "https://i.pximg.net/c/540x540_70/img-master/img/2026/08/09/01/18/27/148186519_p15_master1200.jpg",
+      "original_url": "https://i.pximg.net/img-original/img/2026/08/09/01/18/27/148186519_p15.jpg",
+      "pixiv_index_zero_based": 15,
+      "page_one_based": 16,
+      "original_dimensions": [
+        3072,
+        5504
+      ],
+      "sha256": "5b53f93d1026db205833a13d8a41490e9dbc32868edb270cba6766eddb52fb73",
+      "bytes": 30466,
+      "kind": "public_author_preview"
+    },
+    {
+      "local_file": "pixiv-148186519-p16-small.jpg",
+      "source_url": "https://i.pximg.net/c/540x540_70/img-master/img/2026/08/09/01/18/27/148186519_p16_master1200.jpg",
+      "original_url": "https://i.pximg.net/img-original/img/2026/08/09/01/18/27/148186519_p16.jpg",
+      "pixiv_index_zero_based": 16,
+      "page_one_based": 17,
+      "original_dimensions": [
+        941,
+        1672
+      ],
+      "sha256": "34baf6fac1937b6d53d8e61193684af2504d29f0e748fc296e17abb1c73159e1",
+      "bytes": 28617,
+      "kind": "public_author_preview"
+    },
+    {
+      "local_file": "shangshan-1231977657712771073-01.png",
+      "source_url": "https://i0.hdslb.com/bfs/new_dyn/3c682551e90b44b1a02c01ed337b22884456176.png",
+      "source_page": "https://www.bilibili.com/opus/1231977657712771073",
+      "author": "上善无形",
+      "sha256": "527b8911e690686424415991ffeb2f9e979b5f2b87b4c56640599ec9928d9940",
+      "bytes": 1372289,
+      "dimensions": [
+        1024,
+        1280
+      ],
+      "kind": "original_author_post_image"
+    },
+    {
+      "local_file": "shangshan-1231977657712771073-02.png",
+      "source_url": "https://i0.hdslb.com/bfs/new_dyn/d46536f7163fd739bb6e105c3d964b834456176.png",
+      "source_page": "https://www.bilibili.com/opus/1231977657712771073",
+      "author": "上善无形",
+      "sha256": "0d9150f6c6a49289010709c8af456ea909f779012a792ecf37e34953f4579ce2",
+      "bytes": 173777,
+      "dimensions": [
+        263,
+        560
+      ],
+      "kind": "original_author_post_image"
+    }
+  ],
+  "generated_contact_sheet": "pixiv-148186519-contact.jpg",
+  "visual_review": {
+    "reviewed_all_17_previews_via": "pixiv-148186519-contact.jpg",
+    "separately_reviewed_previews": [
+      0,
+      1,
+      3,
+      10
+    ],
+    "video_samples_reviewed": [
+      "../samples/f000030.jpg",
+      "../samples/f000120.jpg",
+      "../samples/f000570.jpg",
+      "../samples/f000660.jpg"
+    ],
+    "findings": [
+      {
+        "requested_form": "DeepSeek normal proportion",
+        "pixiv_index_zero_based": 0,
+        "page_one_based": 1,
+        "match_video_frame": 30,
+        "status": "visually matching design and pose"
+      },
+      {
+        "requested_form": "DeepSeek small form",
+        "pixiv_index_zero_based": null,
+        "page_one_based": null,
+        "match_video_frame": 120,
+        "status": "not present among 17 preview pages; video sample only"
+      },
+      {
+        "requested_form": "GPT normal proportion / cast as Astra in user project",
+        "pixiv_index_zero_based": 3,
+        "page_one_based": 4,
+        "match_video_frame": 570,
+        "status": "visually matching design and pose"
+      },
+      {
+        "requested_form": "GPT small form / cast as Astra in user project",
+        "pixiv_index_zero_based": null,
+        "page_one_based": null,
+        "match_video_frame": 660,
+        "status": "not present among 17 preview pages; video sample only"
+      },
+      {
+        "requested_form": "DeepSeek alternate normal-proportion pose",
+        "pixiv_index_zero_based": 1,
+        "page_one_based": 2,
+        "status": "not the video small form; holding notebook and pen"
+      }
+    ],
+    "source_name_boundary": "Original source name is GPT; Astra is the user project casting identity, not a verified original-creator character name.",
+    "original_author_post_images": "Image 1: blue-haired whale-tailed girl with scythe and moon/bats background. Image 2: dark-blue-haired whale-tailed girl in beige hoodie and dark skirt. Neither downloaded image contains visible explanatory text, character name, or license text."
+  }
+}

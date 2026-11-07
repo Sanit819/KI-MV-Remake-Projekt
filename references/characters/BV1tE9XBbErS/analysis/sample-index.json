@@ -1,0 +1,281 @@
+{
+  "samples": [
+    {
+      "frame": 0,
+      "time": 0.0,
+      "path": "samples/f000000.jpg"
+    },
+    {
+      "frame": 30,
+      "time": 1.0,
+      "path": "samples/f000030.jpg"
+    },
+    {
+      "frame": 60,
+      "time": 2.0,
+      "path": "samples/f000060.jpg"
+    },
+    {
+      "frame": 90,
+      "time": 3.0,
+      "path": "samples/f000090.jpg"
+    },
+    {
+      "frame": 120,
+      "time": 4.0,
+      "path": "samples/f000120.jpg"
+    },
+    {
+      "frame": 150,
+      "time": 5.0,
+      "path": "samples/f000150.jpg"
+    },
+    {
+      "frame": 180,
+      "time": 6.0,
+      "path": "samples/f000180.jpg"
+    },
+    {
+      "frame": 210,
+      "time": 7.0,
+      "path": "samples/f000210.jpg"
+    },
+    {
+      "frame": 240,
+      "time": 8.0,
+      "path": "samples/f000240.jpg"
+    },
+    {
+      "frame": 270,
+      "time": 9.0,
+      "path": "samples/f000270.jpg"
+    },
+    {
+      "frame": 300,
+      "time": 10.0,
+      "path": "samples/f000300.jpg"
+    },
+    {
+      "frame": 330,
+      "time": 11.0,
+      "path": "samples/f000330.jpg"
+    },
+    {
+      "frame": 360,
+      "time": 12.0,
+      "path": "samples/f000360.jpg"
+    },
+    {
+      "frame": 390,
+      "time": 13.0,
+      "path": "samples/f000390.jpg"
+    },
+    {
+      "frame": 420,
+      "time": 14.0,
+      "path": "samples/f000420.jpg"
+    },
+    {
+      "frame": 450,
+      "time": 15.0,
+      "path": "samples/f000450.jpg"
+    },
+    {
+      "frame": 480,
+      "time": 16.0,
+      "path": "samples/f000480.jpg"
+    },
+    {
+      "frame": 510,
+      "time": 17.0,
+      "path": "samples/f000510.jpg"
+    },
+    {
+      "frame": 540,
+      "time": 18.0,
+      "path": "samples/f000540.jpg"
+    },
+    {
+      "frame": 570,
+      "time": 19.0,
+      "path": "samples/f000570.jpg"
+    },
+    {
+      "frame": 600,
+      "time": 20.0,
+      "path": "samples/f000600.jpg"
+    },
+    {
+      "frame": 630,
+      "time": 21.0,
+      "path": "samples/f000630.jpg"
+    },
+    {
+      "frame": 660,
+      "time": 22.0,
+      "path": "samples/f000660.jpg"
+    },
+    {
+      "frame": 690,
+      "time": 23.0,
+      "path": "samples/f000690.jpg"
+    },
+    {
+      "frame": 720,
+      "time": 24.0,
+      "path": "samples/f000720.jpg"
+    },
+    {
+      "frame": 750,
+      "time": 25.0,
+      "path": "samples/f000750.jpg"
+    },
+    {
+      "frame": 780,
+      "time": 26.0,
+      "path": "samples/f000780.jpg"
+    },
+    {
+      "frame": 810,
+      "time": 27.0,
+      "path": "samples/f000810.jpg"
+    },
+    {
+      "frame": 840,
+      "time": 28.0,
+      "path": "samples/f000840.jpg"
+    },
+    {
+      "frame": 870,
+      "time": 29.0,
+      "path": "samples/f000870.jpg"
+    },
+    {
+      "frame": 900,
+      "time": 30.0,
+      "path": "samples/f000900.jpg"
+    },
+    {
+      "frame": 930,
+      "time": 31.0,
+      "path": "samples/f000930.jpg"
+    },
+    {
+      "frame": 960,
+      "time": 32.0,
+      "path": "samples/f000960.jpg"
+    },
+    {
+      "frame": 990,
+      "time": 33.0,
+      "path": "samples/f000990.jpg"
+    },
+    {
+      "frame": 1020,
+      "time": 34.0,
+      "path": "samples/f001020.jpg"
+    },
+    {
+      "frame": 1050,
+      "time": 35.0,
+      "path": "samples/f001050.jpg"
+    },
+    {
+      "frame": 1080,
+      "time": 36.0,
+      "path": "samples/f001080.jpg"
+    },
+    {
+      "frame": 1110,
+      "time": 37.0,
+      "path": "samples/f001110.jpg"
+    },
+    {
+      "frame": 1140,
+      "time": 38.0,
+      "path": "samples/f001140.jpg"
+    },
+    {
+      "frame": 1170,
+      "time": 39.0,
+      "path": "samples/f001170.jpg"
+    },
+    {
+      "frame": 1200,
+      "time": 40.0,
+      "path": "samples/f001200.jpg"
+    },
+    {
+      "frame": 1230,
+      "time": 41.0,
+      "path": "samples/f001230.jpg"
+    },
+    {
+      "frame": 1260,
+      "time": 42.0,
+      "path": "samples/f001260.jpg"
+    },
+    {
+      "frame": 1290,
+      "time": 43.0,
+      "path": "samples/f001290.jpg"
+    },
+    {
+      "frame": 1320,
+      "time": 44.0,
+      "path": "samples/f001320.jpg"
+    },
+    {
+      "frame": 1350,
+      "time": 45.0,
+      "path": "samples/f001350.jpg"
+    },
+    {
+      "frame": 1380,
+      "time": 46.0,
+      "path": "samples/f001380.jpg"
+    },
+    {
+      "frame": 1410,
+      "time": 47.0,
+      "path": "samples/f001410.jpg"
+    },
+    {
+      "frame": 1440,
+      "time": 48.0,
+      "path": "samples/f001440.jpg"
+    },
+    {
+      "frame": 1470,
+      "time": 49.0,
+      "path": "samples/f001470.jpg"
+    },
+    {
+      "frame": 1500,
+      "time": 50.0,
+      "path": "samples/f001500.jpg"
+    },
+    {
+      "frame": 1530,
+      "time": 51.0,
+      "path": "samples/f001530.jpg"
+    },
+    {
+      "frame": 1560,
+      "time": 52.0,
+      "path": "samples/f001560.jpg"
+    },
+    {
+      "frame": 1590,
+      "time": 53.0,
+      "path": "samples/f001590.jpg"
+    }
+  ],
+  "sheets": [
+    "sheets/overview-00.jpg",
+    "sheets/overview-01.jpg",
+    "sheets/overview-02.jpg"
+  ],
+  "visual_sample_interval_seconds": 1,
+  "actual_manual_review_record": "CHARACTER_REFERENCE.md"
+}
