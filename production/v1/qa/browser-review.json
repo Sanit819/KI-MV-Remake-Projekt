@@ -1,0 +1,4016 @@
+{
+  "meta": {
+    "duration": 203.2,
+    "fps": 30,
+    "renderer": "Canvas2D-native-1280x720",
+    "shots": 15,
+    "assets": 7
+  },
+  "info": {
+    "width": 1280,
+    "height": 720,
+    "duration": 203.2,
+    "fps": 30,
+    "sections": [
+      {
+        "id": "opening",
+        "start": 0,
+        "end": 14.249,
+        "l0": 1,
+        "l1": 4
+      },
+      {
+        "id": "title",
+        "start": 14.249,
+        "end": 27.049,
+        "l0": 0,
+        "l1": 0
+      },
+      {
+        "id": "verse",
+        "start": 27.049,
+        "end": 52.649,
+        "l0": 5,
+        "l1": 12
+      },
+      {
+        "id": "pre",
+        "start": 52.649,
+        "end": 58.649,
+        "l0": 13,
+        "l1": 15
+      },
+      {
+        "id": "chorus",
+        "start": 58.649,
+        "end": 71.849,
+        "l0": 16,
+        "l1": 19
+      },
+      {
+        "id": "calls",
+        "start": 71.849,
+        "end": 85.049,
+        "l0": 20,
+        "l1": 24
+      },
+      {
+        "id": "nana",
+        "start": 85.049,
+        "end": 97.449,
+        "l0": 25,
+        "l1": 27
+      },
+      {
+        "id": "rap",
+        "start": 97.449,
+        "end": 110.249,
+        "l0": 28,
+        "l1": 31
+      },
+      {
+        "id": "quiet",
+        "start": 110.249,
+        "end": 123.049,
+        "l0": 32,
+        "l1": 35
+      },
+      {
+        "id": "braid",
+        "start": 123.049,
+        "end": 129.049,
+        "l0": 36,
+        "l1": 38
+      },
+      {
+        "id": "reach",
+        "start": 129.049,
+        "end": 141.849,
+        "l0": 39,
+        "l1": 42
+      },
+      {
+        "id": "final",
+        "start": 141.849,
+        "end": 167.849,
+        "l0": 43,
+        "l1": 50
+      },
+      {
+        "id": "calls2",
+        "start": 167.849,
+        "end": 182.249,
+        "l0": 51,
+        "l1": 55
+      },
+      {
+        "id": "drawing",
+        "start": 182.249,
+        "end": 195.049,
+        "l0": 56,
+        "l1": 58
+      },
+      {
+        "id": "outro",
+        "start": 195.049,
+        "end": 203.2,
+        "l0": 0,
+        "l1": 0
+      }
+    ],
+    "lyrics": [
+      {
+        "id": "L001",
+        "source_lines": [
+          4,
+          5
+        ],
+        "ja": "あの一等星のさんざめく光で",
+        "zh": "在那一等星的喧嚣光芒之下",
+        "start": 1.049208,
+        "end": 4.882542,
+        "timing_status": "production_candidate_not_formal_alignment",
+        "reference_start_frame": 34,
+        "reference_end_frame": 149,
+        "reference_timebase": "30 fps decoded reference video; zero-based frame; end exclusive",
+        "timing_evidence": "reference_mv_visual_subtitle_or_layout_cue",
+        "timing_note": "参考字幕/排版出现或清场换句的视觉锚点；不是已耳听确认的歌声起止。",
+        "scene_id": "B01",
+        "action": "近看上一部紫金长尾星，Astra展开有桥形笔迹的画页，DeepSeek持蓝笔探头。"
+      },
+      {
+        "id": "L002",
+        "source_lines": [
+          6,
+          7
+        ],
+        "ja": "あなたとダンスを踊ろうか",
+        "zh": "你我一起 来跳舞吧",
+        "start": 4.882542,
+        "end": 7.449208,
+        "timing_status": "production_candidate_not_formal_alignment",
+        "reference_start_frame": 149,
+        "reference_end_frame": 226,
+        "reference_timebase": "30 fps decoded reference video; zero-based frame; end exclusive",
+        "timing_evidence": "reference_mv_visual_subtitle_or_layout_cue",
+        "timing_note": "参考字幕/排版出现或清场换句的视觉锚点；不是已耳听确认的歌声起止。",
+        "scene_id": "B02",
+        "action": "DeepSeek画歪圈、伸手邀请；Astra握住她。"
+      },
+      {
+        "id": "L003",
+        "source_lines": [
+          8,
+          9
+        ],
+        "ja": "我が太陽系の鼓動に合わせて",
+        "zh": "让我们来伴着 太阳系的脉动",
+        "start": 7.449208,
+        "end": 11.049208,
+        "timing_status": "production_candidate_not_formal_alignment",
+        "reference_start_frame": 226,
+        "reference_end_frame": 334,
+        "reference_timebase": "30 fps decoded reference video; zero-based frame; end exclusive",
+        "timing_evidence": "reference_mv_visual_subtitle_or_layout_cue",
+        "timing_note": "参考字幕/排版出现或清场换句的视觉锚点；不是已耳听确认的歌声起止。",
+        "scene_id": "B02",
+        "action": "Astra补紫线，两线接点让紫金星开始打拍子。"
+      },
+      {
+        "id": "L004",
+        "source_lines": [
+          10,
+          11
+        ],
+        "ja": "絡まったステップで綺羅めいて、星ッ！",
+        "zh": "跳起交错的舞步 闪耀起光芒！星！",
+        "start": 11.049208,
+        "end": 14.249208,
+        "timing_status": "production_candidate_not_formal_alignment",
+        "reference_start_frame": 334,
+        "reference_end_frame": 430,
+        "reference_timebase": "30 fps decoded reference video; zero-based frame; end exclusive",
+        "timing_evidence": "reference_mv_visual_subtitle_or_layout_cue",
+        "timing_note": "参考字幕/排版出现或清场换句的视觉锚点；不是已耳听确认的歌声起止。",
+        "scene_id": "B02",
+        "action": "两人交错步、交错尾巴，突然切回举手姿势。"
+      },
+      {
+        "id": "L005",
+        "source_lines": [
+          12,
+          13
+        ],
+        "ja": "ランバダ ルンバ ふたり 宇宙（そら）でランデブーな",
+        "zh": "朗巴得 伦巴  两个人 宇宙中相遇约会",
+        "start": 27.049208,
+        "end": 30.249208,
+        "timing_status": "production_candidate_not_formal_alignment",
+        "reference_start_frame": 814,
+        "reference_end_frame": 910,
+        "reference_timebase": "30 fps decoded reference video; zero-based frame; end exclusive",
+        "timing_evidence": "reference_mv_visual_subtitle_or_layout_cue",
+        "timing_note": "参考字幕/排版出现或清场换句的视觉锚点；不是已耳听确认的歌声起止。",
+        "scene_id": "B03",
+        "action": "DeepSeek临时换舞步，Astra沿她脚印主动加大反向弧。"
+      },
+      {
+        "id": "L006",
+        "source_lines": [
+          14,
+          15
+        ],
+        "ja": "妄、患（わずら）って 連夜眠れない",
+        "zh": "如此得 妄想着 彻夜辗转难眠",
+        "start": 30.249208,
+        "end": 33.449208,
+        "timing_status": "production_candidate_not_formal_alignment",
+        "reference_start_frame": 910,
+        "reference_end_frame": 1006,
+        "reference_timebase": "30 fps decoded reference video; zero-based frame; end exclusive",
+        "timing_evidence": "reference_mv_visual_subtitle_or_layout_cue",
+        "timing_note": "参考字幕/排版出现或清场换句的视觉锚点；不是已耳听确认的歌声起止。",
+        "scene_id": "B03",
+        "action": "枕头旁的小星全在跳，Q版起身加入，睡意被舞步赶跑。"
+      },
+      {
+        "id": "L007",
+        "source_lines": [
+          16,
+          17
+        ],
+        "ja": "星座になって 混ざる どんな一等星も",
+        "zh": "不管是 混杂在星座中的哪种一等星都好",
+        "start": 33.449208,
+        "end": 36.649208,
+        "timing_status": "production_candidate_not_formal_alignment",
+        "reference_start_frame": 1006,
+        "reference_end_frame": 1102,
+        "reference_timebase": "30 fps decoded reference video; zero-based frame; end exclusive",
+        "timing_evidence": "reference_mv_visual_subtitle_or_layout_cue",
+        "timing_note": "参考字幕/排版出现或清场换句的视觉锚点；不是已耳听确认的歌声起止。",
+        "scene_id": "B04",
+        "action": "一群星举亮度牌争相入镜。"
+      },
+      {
+        "id": "L008",
+        "source_lines": [
+          18,
+          19
+        ],
+        "ja": "あなたに 代わる 光度はないわ",
+        "zh": "能够和你争辉的 一颗都没有",
+        "start": 36.649208,
+        "end": 39.849208,
+        "timing_status": "production_candidate_not_formal_alignment",
+        "reference_start_frame": 1102,
+        "reference_end_frame": 1198,
+        "reference_timebase": "30 fps decoded reference video; zero-based frame; end exclusive",
+        "timing_evidence": "reference_mv_visual_subtitle_or_layout_cue",
+        "timing_note": "参考字幕/排版出现或清场换句的视觉锚点；不是已耳听确认的歌声起止。",
+        "scene_id": "B04",
+        "action": "两位仍看彼此脚步，Astra隔着星群接住DeepSeek的手。"
+      },
+      {
+        "id": "L009",
+        "source_lines": [
+          20,
+          21
+        ],
+        "ja": "校舎の裏 あの日 あなた見つけた",
+        "zh": "校舍后面 那一天 发现了你",
+        "start": 39.849208,
+        "end": 43.049208,
+        "timing_status": "production_candidate_not_formal_alignment",
+        "reference_start_frame": 1198,
+        "reference_end_frame": 1294,
+        "reference_timebase": "30 fps decoded reference video; zero-based frame; end exclusive",
+        "timing_evidence": "reference_mv_visual_subtitle_or_layout_cue",
+        "timing_note": "参考字幕/排版出现或清场换句的视觉锚点；不是已耳听确认的歌声起止。",
+        "scene_id": "B05",
+        "action": "歌词巨字折成纸校舍，DeepSeek绕后探头。"
+      },
+      {
+        "id": "L010",
+        "source_lines": [
+          22,
+          23
+        ],
+        "ja": "奇跡さえ 今も はなれない",
+        "zh": "如同奇迹，至今也无法忘记",
+        "start": 43.049208,
+        "end": 46.249208,
+        "timing_status": "production_candidate_not_formal_alignment",
+        "reference_start_frame": 1294,
+        "reference_end_frame": 1390,
+        "reference_timebase": "30 fps decoded reference video; zero-based frame; end exclusive",
+        "timing_evidence": "reference_mv_visual_subtitle_or_layout_cue",
+        "timing_note": "参考字幕/排版出现或清场换句的视觉锚点；不是已耳听确认的歌声起止。",
+        "scene_id": "B05",
+        "action": "Astra从另一侧同时探出，两张固定表情凑近，纸景折回。"
+      },
+      {
+        "id": "L011",
+        "source_lines": [
+          24,
+          25
+        ],
+        "ja": "隣に 繁（しげ）く 見える 冥王星も",
+        "zh": "你旁边 那颗经常能看见的冥王星",
+        "start": 46.249208,
+        "end": 49.449208,
+        "timing_status": "production_candidate_not_formal_alignment",
+        "reference_start_frame": 1390,
+        "reference_end_frame": 1486,
+        "reference_timebase": "30 fps decoded reference video; zero-based frame; end exclusive",
+        "timing_evidence": "reference_mv_visual_subtitle_or_layout_cue",
+        "timing_note": "参考字幕/排版出现或清场换句的视觉锚点；不是已耳听确认的歌声起止。",
+        "scene_id": "B06",
+        "action": "冥王星举纸环经过，努力赶上节奏。"
+      },
+      {
+        "id": "L012",
+        "source_lines": [
+          26,
+          27
+        ],
+        "ja": "生憎（あいにく）、今は 興味がないわ",
+        "zh": "也因你在，光芒早已黯淡",
+        "start": 49.449208,
+        "end": 52.649208,
+        "timing_status": "production_candidate_not_formal_alignment",
+        "reference_start_frame": 1486,
+        "reference_end_frame": 1582,
+        "reference_timebase": "30 fps decoded reference video; zero-based frame; end exclusive",
+        "timing_evidence": "reference_mv_visual_subtitle_or_layout_cue",
+        "timing_note": "参考字幕/排版出现或清场换句的视觉锚点；不是已耳听确认的歌声起止。",
+        "scene_id": "B06",
+        "action": "二人转身相向，冥王星错过拍点，留在边角跟跳。"
+      },
+      {
+        "id": "L013",
+        "source_lines": [
+          28,
+          29
+        ],
+        "ja": "星が舞っちゃって",
+        "zh": "星辰正在来回旋绕",
+        "start": 52.649208,
+        "end": 54.249208,
+        "timing_status": "production_candidate_not_formal_alignment",
+        "reference_start_frame": 1582,
+        "reference_end_frame": 1630,
+        "reference_timebase": "30 fps decoded reference video; zero-based frame; end exclusive",
+        "timing_evidence": "reference_mv_visual_subtitle_or_layout_cue",
+        "timing_note": "参考字幕/排版出现或清场换句的视觉锚点；不是已耳听确认的歌声起止。",
+        "scene_id": "B07",
+        "action": "星群开始绕双人旋转，地面脚印也浮起。"
+      },
+      {
+        "id": "L014",
+        "source_lines": [
+          30,
+          31
+        ],
+        "ja": "胸が鳴っちゃって",
+        "zh": "心脏也在扑通直跳",
+        "start": 54.249208,
+        "end": 55.615875,
+        "timing_status": "production_candidate_not_formal_alignment",
+        "reference_start_frame": 1630,
+        "reference_end_frame": 1671,
+        "reference_timebase": "30 fps decoded reference video; zero-based frame; end exclusive",
+        "timing_evidence": "reference_mv_visual_subtitle_or_layout_cue",
+        "timing_note": "参考字幕/排版出现或清场换句的视觉锚点；不是已耳听确认的歌声起止。",
+        "scene_id": "B07",
+        "action": "胸前光点弹动，DeepSeek放大动作，Astra短停后回应。"
+      },
+      {
+        "id": "L015",
+        "source_lines": [
+          32,
+          33
+        ],
+        "ja": "気付けば彼方―――",
+        "zh": "能察觉到吗 那边的你",
+        "start": 55.615875,
+        "end": 58.649208,
+        "timing_status": "production_candidate_not_formal_alignment",
+        "reference_start_frame": 1671,
+        "reference_end_frame": 1762,
+        "reference_timebase": "30 fps decoded reference video; zero-based frame; end exclusive",
+        "timing_evidence": "reference_mv_visual_subtitle_or_layout_cue",
+        "timing_note": "参考字幕/排版出现或清场换句的视觉锚点；不是已耳听确认的歌声起止。",
+        "scene_id": "B07",
+        "action": "Astra作更夸张的全身姿态，视野拉开看见长出的轨道。"
+      },
+      {
+        "id": "L016",
+        "source_lines": [
+          34,
+          35
+        ],
+        "ja": "あの一等星のさんざめく光で",
+        "zh": "那颗一等星正在放着喧嚣的光芒",
+        "start": 58.649208,
+        "end": 62.249208,
+        "timing_status": "production_candidate_not_formal_alignment",
+        "reference_start_frame": 1762,
+        "reference_end_frame": 1870,
+        "reference_timebase": "30 fps decoded reference video; zero-based frame; end exclusive",
+        "timing_evidence": "reference_mv_visual_subtitle_or_layout_cue",
+        "timing_note": "参考字幕/排版出现或清场换句的视觉锚点；不是已耳听确认的歌声起止。",
+        "scene_id": "B08",
+        "action": "上一部紫金星悬在新舞池中心发光。"
+      },
+      {
+        "id": "L017",
+        "source_lines": [
+          36,
+          37
+        ],
+        "ja": "あなたとダンスを踊ろうか",
+        "zh": "我们一起来跳舞怎么样",
+        "start": 62.249208,
+        "end": 65.049208,
+        "timing_status": "production_candidate_not_formal_alignment",
+        "reference_start_frame": 1870,
+        "reference_end_frame": 1954,
+        "reference_timebase": "30 fps decoded reference video; zero-based frame; end exclusive",
+        "timing_evidence": "reference_mv_visual_subtitle_or_layout_cue",
+        "timing_note": "参考字幕/排版出现或清场换句的视觉锚点；不是已耳听确认的歌声起止。使用该句的清场/排版起点，文字可能在随后数帧才完全可辨。",
+        "scene_id": "B08",
+        "action": "二人回到基准位，相向举手换步。"
+      },
+      {
+        "id": "L018",
+        "source_lines": [
+          38,
+          39
+        ],
+        "ja": "我が太陽系の法則に誘われ",
+        "zh": "我被太阳系的引力所捕获",
+        "start": 65.049208,
+        "end": 68.649208,
+        "timing_status": "production_candidate_not_formal_alignment",
+        "reference_start_frame": 1954,
+        "reference_end_frame": 2062,
+        "reference_timebase": "30 fps decoded reference video; zero-based frame; end exclusive",
+        "timing_evidence": "reference_mv_visual_subtitle_or_layout_cue",
+        "timing_note": "参考字幕/排版出现或清场换句的视觉锚点；不是已耳听确认的歌声起止。",
+        "scene_id": "B08",
+        "action": "脚下蓝紫轨道把步点连成旋转的小系统。"
+      },
+      {
+        "id": "L019",
+        "source_lines": [
+          40,
+          41
+        ],
+        "ja": "交わった感度で綺羅めいて、星ッ！",
+        "zh": "相互照耀，闪耀起光芒！星！",
+        "start": 68.649208,
+        "end": 71.849208,
+        "timing_status": "production_candidate_not_formal_alignment",
+        "reference_start_frame": 2062,
+        "reference_end_frame": 2158,
+        "reference_timebase": "30 fps decoded reference video; zero-based frame; end exclusive",
+        "timing_evidence": "reference_mv_visual_subtitle_or_layout_cue",
+        "timing_note": "参考字幕/排版出现或清场换句的视觉锚点；不是已耳听确认的歌声起止。使用该句的清场/排版起点，文字可能在随后数帧才完全可辨。",
+        "scene_id": "B08",
+        "action": "手与脚接上，蓝紫线向边框炸开，明确舞蹈也在共画。"
+      },
+      {
+        "id": "L020",
+        "source_lines": [
+          42,
+          43
+        ],
+        "ja": "オー・オ・オー！",
+        "zh": "噢——噢，噢——！",
+        "start": 71.849208,
+        "end": 73.449208,
+        "timing_status": "production_candidate_not_formal_alignment",
+        "reference_start_frame": 2158,
+        "reference_end_frame": 2206,
+        "reference_timebase": "30 fps decoded reference video; zero-based frame; end exclusive",
+        "timing_evidence": "reference_mv_visual_subtitle_or_layout_cue",
+        "timing_note": "参考字幕/排版出现或清场换句的视觉锚点；不是已耳听确认的歌声起止。",
+        "scene_id": "B09",
+        "action": "四角两位的Q版分身突然入场，整齐拍手。"
+      },
+      {
+        "id": "L021",
+        "source_lines": [
+          44,
+          45
+        ],
+        "ja": "星間線を絆いで (オー・オ・オー！)",
+        "zh": "伴随着星际光谱",
+        "start": 73.449208,
+        "end": 76.649208,
+        "timing_status": "production_candidate_not_formal_alignment",
+        "reference_start_frame": 2206,
+        "reference_end_frame": 2302,
+        "reference_timebase": "30 fps decoded reference video; zero-based frame; end exclusive",
+        "timing_evidence": "reference_mv_visual_subtitle_or_layout_cue",
+        "timing_note": "参考字幕/排版出现或清场换句的视觉锚点；不是已耳听确认的歌声起止。",
+        "scene_id": "B09",
+        "action": "Q版把散星接成传递线路。"
+      },
+      {
+        "id": "L022",
+        "source_lines": [
+          46,
+          47
+        ],
+        "ja": "あなたに届け (オー・オ・オー！)",
+        "zh": "传递给你",
+        "start": 76.649208,
+        "end": 79.849208,
+        "timing_status": "production_candidate_not_formal_alignment",
+        "reference_start_frame": 2302,
+        "reference_end_frame": 2398,
+        "reference_timebase": "30 fps decoded reference video; zero-based frame; end exclusive",
+        "timing_evidence": "reference_mv_visual_subtitle_or_layout_cue",
+        "timing_note": "参考字幕/排版出现或清场换句的视觉锚点；不是已耳听确认的歌声起止。",
+        "scene_id": "B09",
+        "action": "DeepSeek用鲸尾弹出一颗待送的小星。"
+      },
+      {
+        "id": "L023",
+        "source_lines": [
+          48,
+          49
+        ],
+        "ja": "宇宙の果てから (オー・オ・オー！)",
+        "zh": "从宇宙的尽头",
+        "start": 79.849208,
+        "end": 83.049208,
+        "timing_status": "production_candidate_not_formal_alignment",
+        "reference_start_frame": 2398,
+        "reference_end_frame": 2494,
+        "reference_timebase": "30 fps decoded reference video; zero-based frame; end exclusive",
+        "timing_evidence": "reference_mv_visual_subtitle_or_layout_cue",
+        "timing_note": "参考字幕/排版出现或清场换句的视觉锚点；不是已耳听确认的歌声起止。",
+        "scene_id": "B09",
+        "action": "星钻出画框、绕边缘远行，又从另一边回来。"
+      },
+      {
+        "id": "L024",
+        "source_lines": [
+          50,
+          51
+        ],
+        "ja": "あなた 侵光系！",
+        "zh": "你就是 侵光系！",
+        "start": 83.049208,
+        "end": 85.049208,
+        "timing_status": "production_candidate_not_formal_alignment",
+        "reference_start_frame": 2494,
+        "reference_end_frame": 2554,
+        "reference_timebase": "30 fps decoded reference video; zero-based frame; end exclusive",
+        "timing_evidence": "reference_mv_visual_subtitle_or_layout_cue",
+        "timing_note": "参考字幕/排版出现或清场换句的视觉锚点；不是已耳听确认的歌声起止。",
+        "scene_id": "B09",
+        "action": "星落到近旁Astra手里，她按下星按钮，全场换姿。"
+      },
+      {
+        "id": "L025",
+        "source_lines": [
+          52,
+          53
+        ],
+        "ja": "ナーナナナーナナナーナナナーナ",
+        "zh": "呐呐呐——呐呐呐——呐呐呐——",
+        "start": 85.049208,
+        "end": 88.249208,
+        "timing_status": "production_candidate_not_formal_alignment",
+        "reference_start_frame": 2554,
+        "reference_end_frame": 2650,
+        "reference_timebase": "30 fps decoded reference video; zero-based frame; end exclusive",
+        "timing_evidence": "reference_mv_visual_subtitle_or_layout_cue",
+        "timing_note": "参考字幕/排版出现或清场换句的视觉锚点；不是已耳听确认的歌声起止。",
+        "scene_id": "B10",
+        "action": "拟声字开始堆墙，Q版尝试抬动大字。"
+      },
+      {
+        "id": "L026",
+        "source_lines": [
+          54,
+          55
+        ],
+        "ja": "ナーナナナーナナナーナナナーナ",
+        "zh": "喵喵喵~喵喵喵~",
+        "start": 88.249208,
+        "end": 91.449208,
+        "timing_status": "production_candidate_not_formal_alignment",
+        "reference_start_frame": 2650,
+        "reference_end_frame": 2746,
+        "reference_timebase": "30 fps decoded reference video; zero-based frame; end exclusive",
+        "timing_evidence": "editorial_repeat_cluster_estimate",
+        "timing_note": "重复拟声段按8拍单位分组；末组保留余下重复。用户三组文字与原MV文字墙不能逐组一一对应，供第一版调度，不是逐词对齐。",
+        "scene_id": "B10",
+        "action": "抬歪的字令双人一同歪头；Q版可短举纸猫耳牌。"
+      },
+      {
+        "id": "L027",
+        "source_lines": [
+          56,
+          57
+        ],
+        "ja": "ナーナナナーナナナーナナナーナ",
+        "zh": "呐呐呐——呐呐呐——呐呐呐——",
+        "start": 91.449208,
+        "end": 97.449208,
+        "timing_status": "production_candidate_not_formal_alignment",
+        "reference_start_frame": 2746,
+        "reference_end_frame": 2926,
+        "reference_timebase": "30 fps decoded reference video; zero-based frame; end exclusive",
+        "timing_evidence": "editorial_repeat_cluster_estimate",
+        "timing_note": "重复拟声段按8拍单位分组；末组保留余下重复。用户三组文字与原MV文字墙不能逐组一一对应，供第一版调度，不是逐词对齐。",
+        "scene_id": "B10",
+        "action": "整行文字被抬走，为下一段留出清空的一拍。"
+      },
+      {
+        "id": "L028",
+        "source_lines": [
+          58,
+          59
+        ],
+        "ja": "大体のダンスは 星が光り標（しるべ）となるのさ",
+        "zh": "舞步大部分都是由星星为光标而编成",
+        "start": 97.449208,
+        "end": 100.449208,
+        "timing_status": "production_candidate_not_formal_alignment",
+        "reference_start_frame": 2926,
+        "reference_end_frame": 3016,
+        "reference_timebase": "30 fps decoded reference video; zero-based frame; end exclusive",
+        "timing_evidence": "reference_mv_visual_subtitle_or_layout_cue",
+        "timing_note": "参考字幕/排版出现或清场换句的视觉锚点；不是已耳听确认的歌声起止。",
+        "scene_id": "B11",
+        "action": "DeepSeek依星光画出一串离谱脚印。"
+      },
+      {
+        "id": "L029",
+        "source_lines": [
+          60,
+          61
+        ],
+        "ja": "未体験なステッポで HA,HA,HA,HA,",
+        "zh": "用这没跳过的舞步",
+        "start": 100.449208,
+        "end": 103.849208,
+        "timing_status": "production_candidate_not_formal_alignment",
+        "reference_start_frame": 3016,
+        "reference_end_frame": 3118,
+        "reference_timebase": "30 fps decoded reference video; zero-based frame; end exclusive",
+        "timing_evidence": "reference_mv_visual_subtitle_or_layout_cue",
+        "timing_note": "参考字幕/排版出现或清场换句的视觉锚点；不是已耳听确认的歌声起止。",
+        "scene_id": "B11",
+        "action": "Astra转动画页半圈，两人头朝下继续跳。"
+      },
+      {
+        "id": "L030",
+        "source_lines": [
+          62,
+          63
+        ],
+        "ja": "大胆なスタンスで 周回軌道上なぞるのさ",
+        "zh": "用这大胆的舞步沿着行星轨道旋转吧",
+        "start": 103.849208,
+        "end": 107.049208,
+        "timing_status": "production_candidate_not_formal_alignment",
+        "reference_start_frame": 3118,
+        "reference_end_frame": 3214,
+        "reference_timebase": "30 fps decoded reference video; zero-based frame; end exclusive",
+        "timing_evidence": "reference_mv_visual_subtitle_or_layout_cue",
+        "timing_note": "参考字幕/排版出现或清场换句的视觉锚点；不是已耳听确认的歌声起止。",
+        "scene_id": "B11",
+        "action": "轨道成传送带，两位在巨大字母路障间大步换向。"
+      },
+      {
+        "id": "L031",
+        "source_lines": [
+          64,
+          65
+        ],
+        "ja": "太陽系のデスコで HA,HA,HA,HA,",
+        "zh": "跳着太阳系的迪斯科",
+        "start": 107.049208,
+        "end": 110.249208,
+        "timing_status": "production_candidate_not_formal_alignment",
+        "reference_start_frame": 3214,
+        "reference_end_frame": 3310,
+        "reference_timebase": "30 fps decoded reference video; zero-based frame; end exclusive",
+        "timing_evidence": "reference_mv_visual_subtitle_or_layout_cue",
+        "timing_note": "参考字幕/排版出现或清场换句的视觉锚点；不是已耳听确认的歌声起止。",
+        "scene_id": "B11",
+        "action": "DeepSeek套歪环，Astra龙尾拨动；环开始自转。"
+      },
+      {
+        "id": "L032",
+        "source_lines": [
+          66,
+          67
+        ],
+        "ja": "宙 揺蕩（たゆた）って いつか ふたり忘れる",
+        "zh": "在宇宙 漂浮着，终有天 两个人都会忘记",
+        "start": 110.249208,
+        "end": 113.449208,
+        "timing_status": "production_candidate_not_formal_alignment",
+        "reference_start_frame": 3310,
+        "reference_end_frame": 3406,
+        "reference_timebase": "30 fps decoded reference video; zero-based frame; end exclusive",
+        "timing_evidence": "reference_mv_visual_subtitle_or_layout_cue",
+        "timing_note": "参考字幕/排版出现或清场换句的视觉锚点；不是已耳听确认的歌声起止。",
+        "scene_id": "B12",
+        "action": "舞台暂时留白，两人漂在未接合的曲线上。"
+      },
+      {
+        "id": "L033",
+        "source_lines": [
+          68,
+          69
+        ],
+        "ja": "言葉さえ 今は求めたい",
+        "zh": "连话语 现在都无法进行",
+        "start": 113.449208,
+        "end": 116.649208,
+        "timing_status": "production_candidate_not_formal_alignment",
+        "reference_start_frame": 3406,
+        "reference_end_frame": 3502,
+        "reference_timebase": "30 fps decoded reference video; zero-based frame; end exclusive",
+        "timing_evidence": "reference_mv_visual_subtitle_or_layout_cue",
+        "timing_note": "参考字幕/排版出现或清场换句的视觉锚点；不是已耳听确认的歌声起止。",
+        "scene_id": "B12",
+        "action": "DeepSeek望向Astra欲言，Astra以笔尖接线回应，两人转一小圈。"
+      },
+      {
+        "id": "L034",
+        "source_lines": [
+          70,
+          71
+        ],
+        "ja": "超新星を願う 暮れた世界も",
+        "zh": "祈盼着超等星对于生活着的这个世界",
+        "start": 116.649208,
+        "end": 119.849208,
+        "timing_status": "production_candidate_not_formal_alignment",
+        "reference_start_frame": 3502,
+        "reference_end_frame": 3598,
+        "reference_timebase": "30 fps decoded reference video; zero-based frame; end exclusive",
+        "timing_evidence": "reference_mv_visual_subtitle_or_layout_cue",
+        "timing_note": "参考字幕/排版出现或清场换句的视觉锚点；不是已耳听确认的歌声起止。",
+        "scene_id": "B13",
+        "action": "Q版搬来黑纸幕与夸张爆炸星道具。"
+      },
+      {
+        "id": "L035",
+        "source_lines": [
+          72,
+          73
+        ],
+        "ja": "不思議と 今はどうでもいいわ",
+        "zh": "不可思议的是 现在发生什么都不会在意",
+        "start": 119.849208,
+        "end": 123.049208,
+        "timing_status": "production_candidate_not_formal_alignment",
+        "reference_start_frame": 3598,
+        "reference_end_frame": 3694,
+        "reference_timebase": "30 fps decoded reference video; zero-based frame; end exclusive",
+        "timing_evidence": "reference_mv_visual_subtitle_or_layout_cue",
+        "timing_note": "参考字幕/排版出现或清场换句的视觉锚点；不是已耳听确认的歌声起止。",
+        "scene_id": "B13",
+        "action": "双人各抓纸幕一边，踩拍把它卷成新轨道。"
+      },
+      {
+        "id": "L036",
+        "source_lines": [
+          74,
+          75
+        ],
+        "ja": "何もなくたって",
+        "zh": "不论会有什么",
+        "start": 123.049208,
+        "end": 124.649208,
+        "timing_status": "production_candidate_not_formal_alignment",
+        "reference_start_frame": 3694,
+        "reference_end_frame": 3742,
+        "reference_timebase": "30 fps decoded reference video; zero-based frame; end exclusive",
+        "timing_evidence": "reference_mv_visual_subtitle_or_layout_cue",
+        "timing_note": "参考字幕/排版出现或清场换句的视觉锚点；不是已耳听确认的歌声起止。",
+        "scene_id": "B14",
+        "action": "没有额外道具也继续跳，DeepSeek在空处添一弯。"
+      },
+      {
+        "id": "L037",
+        "source_lines": [
+          76,
+          77
+        ],
+        "ja": "何となくだって",
+        "zh": "不论会成什么",
+        "start": 124.649208,
+        "end": 125.849208,
+        "timing_status": "production_candidate_not_formal_alignment",
+        "reference_start_frame": 3742,
+        "reference_end_frame": 3778,
+        "reference_timebase": "30 fps decoded reference video; zero-based frame; end exclusive",
+        "timing_evidence": "reference_mv_visual_subtitle_or_layout_cue",
+        "timing_note": "参考字幕/排版出现或清场换句的视觉锚点；不是已耳听确认的歌声起止。",
+        "scene_id": "B14",
+        "action": "Astra接上一弯，两人走着便把线继续接下去。"
+      },
+      {
+        "id": "L038",
+        "source_lines": [
+          78,
+          79
+        ],
+        "ja": "星は巡って―――",
+        "zh": "星辰都在旋转着——",
+        "start": 125.849208,
+        "end": 129.049208,
+        "timing_status": "production_candidate_not_formal_alignment",
+        "reference_start_frame": 3778,
+        "reference_end_frame": 3874,
+        "reference_timebase": "30 fps decoded reference video; zero-based frame; end exclusive",
+        "timing_evidence": "reference_mv_visual_subtitle_or_layout_cue",
+        "timing_note": "参考字幕/排版出现或清场换句的视觉锚点；不是已耳听确认的歌声起止。",
+        "scene_id": "B14",
+        "action": "蓝紫轨道已编成麻花，两位尚未察觉，照常摆手。"
+      },
+      {
+        "id": "L039",
+        "source_lines": [
+          80,
+          81
+        ],
+        "ja": "あの一等星の届かぬ光は",
+        "zh": "那颗一等星未曾传递过来的光芒",
+        "start": 129.049208,
+        "end": 132.649208,
+        "timing_status": "production_candidate_not_formal_alignment",
+        "reference_start_frame": 3874,
+        "reference_end_frame": 3982,
+        "reference_timebase": "30 fps decoded reference video; zero-based frame; end exclusive",
+        "timing_evidence": "reference_mv_visual_subtitle_or_layout_cue",
+        "timing_note": "参考字幕/排版出现或清场换句的视觉锚点；不是已耳听确认的歌声起止。使用该句的清场/排版起点，文字可能在随后数帧才完全可辨。",
+        "scene_id": "B15",
+        "action": "麻花弹开，二人被送向画框两端，旧星仍明亮。"
+      },
+      {
+        "id": "L040",
+        "source_lines": [
+          82,
+          83
+        ],
+        "ja": "遥かな彼方で綺羅めいた",
+        "zh": "正在遥远的彼岸闪耀起光芒",
+        "start": 132.649208,
+        "end": 135.449208,
+        "timing_status": "production_candidate_not_formal_alignment",
+        "reference_start_frame": 3982,
+        "reference_end_frame": 4066,
+        "reference_timebase": "30 fps decoded reference video; zero-based frame; end exclusive",
+        "timing_evidence": "reference_mv_visual_subtitle_or_layout_cue",
+        "timing_note": "参考字幕/排版出现或清场换句的视觉锚点；不是已耳听确认的歌声起止。使用该句的清场/排版起点，文字可能在随后数帧才完全可辨。",
+        "scene_id": "B15",
+        "action": "巨字横在两人之间，把同一舞台夸成遥远彼岸。"
+      },
+      {
+        "id": "L041",
+        "source_lines": [
+          84,
+          85
+        ],
+        "ja": "我が太陽系の法則も外れて",
+        "zh": "你已经脱离了我们太阳系的引力",
+        "start": 135.449208,
+        "end": 139.049208,
+        "timing_status": "production_candidate_not_formal_alignment",
+        "reference_start_frame": 4066,
+        "reference_end_frame": 4174,
+        "reference_timebase": "30 fps decoded reference video; zero-based frame; end exclusive",
+        "timing_evidence": "reference_mv_visual_subtitle_or_layout_cue",
+        "timing_note": "参考字幕/排版出现或清场换句的视觉锚点；不是已耳听确认的歌声起止。",
+        "scene_id": "B16",
+        "action": "Astra先跨出自己的轨道，DeepSeek也蹬回迎上。"
+      },
+      {
+        "id": "L042",
+        "source_lines": [
+          86,
+          87
+        ],
+        "ja": "「それでもいいさ」手をのばして！",
+        "zh": "【那也没什么关系】将手伸出来就好！",
+        "start": 139.049208,
+        "end": 141.849208,
+        "timing_status": "production_candidate_not_formal_alignment",
+        "reference_start_frame": 4174,
+        "reference_end_frame": 4258,
+        "reference_timebase": "30 fps decoded reference video; zero-based frame; end exclusive",
+        "timing_evidence": "reference_mv_visual_subtitle_or_layout_cue",
+        "timing_note": "参考字幕/排版出现或清场换句的视觉锚点；不是已耳听确认的歌声起止。",
+        "scene_id": "B16",
+        "action": "字开一缝，双手握住，两笔接线成桥，二人被弹回舞池。"
+      },
+      {
+        "id": "L043",
+        "source_lines": [
+          88,
+          89
+        ],
+        "ja": "さあ、幾星霜（いくせいそう）と宿した想いで",
+        "zh": "看，凭借在时光尽头所留下的思念",
+        "start": 141.849208,
+        "end": 145.449208,
+        "timing_status": "production_candidate_not_formal_alignment",
+        "reference_start_frame": 4258,
+        "reference_end_frame": 4366,
+        "reference_timebase": "30 fps decoded reference video; zero-based frame; end exclusive",
+        "timing_evidence": "reference_mv_visual_subtitle_or_layout_cue",
+        "timing_note": "参考字幕/排版出现或清场换句的视觉锚点；不是已耳听确认的歌声起止。",
+        "scene_id": "B17",
+        "action": "新桥变舞路，两位把一路留下的笔迹带进下一轮舞。"
+      },
+      {
+        "id": "L044",
+        "source_lines": [
+          90,
+          91
+        ],
+        "ja": "あなたの全て求めようか",
+        "zh": "将你的全部都捕获吧",
+        "start": 145.449208,
+        "end": 148.249208,
+        "timing_status": "production_candidate_not_formal_alignment",
+        "reference_start_frame": 4366,
+        "reference_end_frame": 4450,
+        "reference_timebase": "30 fps decoded reference video; zero-based frame; end exclusive",
+        "timing_evidence": "reference_mv_visual_subtitle_or_layout_cue",
+        "timing_note": "参考字幕/排版出现或清场换句的视觉锚点；不是已耳听确认的歌声起止。使用该句的清场/排版起点，文字可能在随后数帧才完全可辨。",
+        "scene_id": "B17",
+        "action": "DeepSeek连鲸尾扑来，Astra接住，再各自站稳并排。"
+      },
+      {
+        "id": "L045",
+        "source_lines": [
+          92,
+          93
+        ],
+        "ja": "ねえ、何光年の広大な旅路で",
+        "zh": "呐，在不知多少光年的这条漫长旅途上",
+        "start": 148.249208,
+        "end": 151.849208,
+        "timing_status": "production_candidate_not_formal_alignment",
+        "reference_start_frame": 4450,
+        "reference_end_frame": 4558,
+        "reference_timebase": "30 fps decoded reference video; zero-based frame; end exclusive",
+        "timing_evidence": "reference_mv_visual_subtitle_or_layout_cue",
+        "timing_note": "参考字幕/排版出现或清场换句的视觉锚点；不是已耳听确认的歌声起止。使用该句的清场/排版起点，文字可能在随后数帧才完全可辨。",
+        "scene_id": "B18",
+        "action": "Astra添转弯，DeepSeek接回环，沿同一舞路前进。"
+      },
+      {
+        "id": "L046",
+        "source_lines": [
+          94,
+          95
+        ],
+        "ja": "比翼の恋理（れんり）を探そうか",
+        "zh": "追寻能够永远在一起的方法吧",
+        "start": 151.849208,
+        "end": 154.649208,
+        "timing_status": "production_candidate_not_formal_alignment",
+        "reference_start_frame": 4558,
+        "reference_end_frame": 4642,
+        "reference_timebase": "30 fps decoded reference video; zero-based frame; end exclusive",
+        "timing_evidence": "reference_mv_visual_subtitle_or_layout_cue",
+        "timing_note": "参考字幕/排版出现或清场换句的视觉锚点；不是已耳听确认的歌声起止。使用该句的清场/排版起点，文字可能在随后数帧才完全可辨。",
+        "scene_id": "B18",
+        "action": "DeepSeek把舞路添成歪折角，Astra顺势续线，双人笔迹并行；不在此处画星。"
+      },
+      {
+        "id": "L047",
+        "source_lines": [
+          96,
+          97
+        ],
+        "ja": "あの一等星のさんざめく光で",
+        "zh": "那颗一等星的喧嚣光芒下",
+        "start": 154.649208,
+        "end": 158.249208,
+        "timing_status": "production_candidate_not_formal_alignment",
+        "reference_start_frame": 4642,
+        "reference_end_frame": 4750,
+        "reference_timebase": "30 fps decoded reference video; zero-based frame; end exclusive",
+        "timing_evidence": "reference_mv_visual_subtitle_or_layout_cue",
+        "timing_note": "参考字幕/排版出现或清场换句的视觉锚点；不是已耳听确认的歌声起止。",
+        "scene_id": "B19",
+        "action": "看见旧紫金星仍在上方，照着扩大的蓝紫新画面。"
+      },
+      {
+        "id": "L048",
+        "source_lines": [
+          98,
+          99
+        ],
+        "ja": "あなたとダンスを踊ろうか",
+        "zh": "我们一起跳舞怎么样",
+        "start": 158.249208,
+        "end": 161.449208,
+        "timing_status": "production_candidate_not_formal_alignment",
+        "reference_start_frame": 4750,
+        "reference_end_frame": 4846,
+        "reference_timebase": "30 fps decoded reference video; zero-based frame; end exclusive",
+        "timing_evidence": "reference_mv_visual_subtitle_or_layout_cue",
+        "timing_note": "参考字幕/排版出现或清场换句的视觉锚点；不是已耳听确认的歌声起止。使用该句的清场/排版起点，文字可能在随后数帧才完全可辨。",
+        "scene_id": "B19",
+        "action": "Astra递手再次邀请，DeepSeek搭上，双人回基准舞。"
+      },
+      {
+        "id": "L049",
+        "source_lines": [
+          100,
+          101
+        ],
+        "ja": "ほら水金だって地火木土天海も",
+        "zh": "看啊，水星金星还有地球火星木星土星天王星海王星都",
+        "start": 161.449208,
+        "end": 164.649208,
+        "timing_status": "production_candidate_not_formal_alignment",
+        "reference_start_frame": 4846,
+        "reference_end_frame": 4942,
+        "reference_timebase": "30 fps decoded reference video; zero-based frame; end exclusive",
+        "timing_evidence": "reference_mv_visual_subtitle_or_layout_cue",
+        "timing_note": "参考字幕/排版出现或清场换句的视觉锚点；不是已耳听确认的歌声起止。",
+        "scene_id": "B20",
+        "action": "水金地火木土天海八印章依次弹出；歪环回土星，冥王星在外沿。"
+      },
+      {
+        "id": "L050",
+        "source_lines": [
+          102,
+          103
+        ],
+        "ja": "ふたりの銀河で綺羅めいた、星ッ！",
+        "zh": "在我们两个人的银河里闪耀着光芒！星！",
+        "start": 164.649208,
+        "end": 167.849208,
+        "timing_status": "production_candidate_not_formal_alignment",
+        "reference_start_frame": 4942,
+        "reference_end_frame": 5038,
+        "reference_timebase": "30 fps decoded reference video; zero-based frame; end exclusive",
+        "timing_evidence": "reference_mv_visual_subtitle_or_layout_cue",
+        "timing_note": "参考字幕/排版出现或清场换句的视觉锚点；不是已耳听确认的歌声起止。使用该句的清场/排版起点，文字可能在随后数帧才完全可辨。",
+        "scene_id": "B21",
+        "action": "展现两人共画的蓝紫银河与中心紫金星，最后的新星尚待完成。"
+      },
+      {
+        "id": "L051",
+        "source_lines": [
+          104,
+          105
+        ],
+        "ja": "オー・オ・オー！",
+        "zh": "噢——噢，噢——！",
+        "start": 167.849208,
+        "end": 169.449208,
+        "timing_status": "production_candidate_not_formal_alignment",
+        "reference_start_frame": 5038,
+        "reference_end_frame": 5086,
+        "reference_timebase": "30 fps decoded reference video; zero-based frame; end exclusive",
+        "timing_evidence": "reference_mv_visual_subtitle_or_layout_cue",
+        "timing_note": "参考字幕/排版出现或清场换句的视觉锚点；不是已耳听确认的歌声起止。",
+        "scene_id": "B22",
+        "action": "四角Q版再次弹出，复用呼喊段动作。"
+      },
+      {
+        "id": "L052",
+        "source_lines": [
+          106,
+          107
+        ],
+        "ja": "星間線を絆いで (オー・オ・オー！)",
+        "zh": "伴随着星际光谱",
+        "start": 169.449208,
+        "end": 172.649208,
+        "timing_status": "production_candidate_not_formal_alignment",
+        "reference_start_frame": 5086,
+        "reference_end_frame": 5182,
+        "reference_timebase": "30 fps decoded reference video; zero-based frame; end exclusive",
+        "timing_evidence": "reference_mv_visual_subtitle_or_layout_cue",
+        "timing_note": "参考字幕/排版出现或清场换句的视觉锚点；不是已耳听确认的歌声起止。",
+        "scene_id": "B22",
+        "action": "散线从舞台四角被传递到中央。"
+      },
+      {
+        "id": "L053",
+        "source_lines": [
+          108,
+          109
+        ],
+        "ja": "あなたに届け (オー・オ・オー！)",
+        "zh": "传递给你",
+        "start": 172.649208,
+        "end": 175.849208,
+        "timing_status": "production_candidate_not_formal_alignment",
+        "reference_start_frame": 5182,
+        "reference_end_frame": 5278,
+        "reference_timebase": "30 fps decoded reference video; zero-based frame; end exclusive",
+        "timing_evidence": "reference_mv_visual_subtitle_or_layout_cue",
+        "timing_note": "参考字幕/排版出现或清场换句的视觉锚点；不是已耳听确认的歌声起止。",
+        "scene_id": "B22",
+        "action": "DeepSeek接住送来的蓝线头，Astra接住紫线头。"
+      },
+      {
+        "id": "L054",
+        "source_lines": [
+          110,
+          111
+        ],
+        "ja": "宇宙の果てから (オー・オ・オー！)",
+        "zh": "从宇宙的尽头",
+        "start": 175.849208,
+        "end": 179.049208,
+        "timing_status": "production_candidate_not_formal_alignment",
+        "reference_start_frame": 5278,
+        "reference_end_frame": 5374,
+        "reference_timebase": "30 fps decoded reference video; zero-based frame; end exclusive",
+        "timing_evidence": "reference_mv_visual_subtitle_or_layout_cue",
+        "timing_note": "参考字幕/排版出现或清场换句的视觉锚点；不是已耳听确认的歌声起止。",
+        "scene_id": "B22",
+        "action": "Q版把最后远处的线头沿画框送回。"
+      },
+      {
+        "id": "L055",
+        "source_lines": [
+          112,
+          113
+        ],
+        "ja": "あなた 侵光系！",
+        "zh": "你就是，侵光系！",
+        "start": 179.049208,
+        "end": 182.249208,
+        "timing_status": "production_candidate_not_formal_alignment",
+        "reference_start_frame": 5374,
+        "reference_end_frame": 5470,
+        "reference_timebase": "30 fps decoded reference video; zero-based frame; end exclusive",
+        "timing_evidence": "reference_mv_visual_subtitle_or_layout_cue",
+        "timing_note": "参考字幕/排版出现或清场换句的视觉锚点；不是已耳听确认的歌声起止。",
+        "scene_id": "B22",
+        "action": "所有线最终连向中央两笔，周边开始让出空间。"
+      },
+      {
+        "id": "L056",
+        "source_lines": [
+          114,
+          115
+        ],
+        "ja": "ナーナナナーナナナーナナナーナ",
+        "zh": "呐呐呐——呐呐呐——呐呐呐——",
+        "start": 182.249208,
+        "end": 185.449208,
+        "timing_status": "production_candidate_not_formal_alignment",
+        "reference_start_frame": 5470,
+        "reference_end_frame": 5566,
+        "reference_timebase": "30 fps decoded reference video; zero-based frame; end exclusive",
+        "timing_evidence": "reference_mv_visual_subtitle_or_layout_cue",
+        "timing_note": "参考字幕/排版出现或清场换句的视觉锚点；不是已耳听确认的歌声起止。",
+        "scene_id": "B23",
+        "action": "拟声段前半继续跳，随后切纸面与两笔近景，准备交替落笔。"
+      },
+      {
+        "id": "L057",
+        "source_lines": [
+          116,
+          117
+        ],
+        "ja": "ナーナナナーナナナーナナナーナ",
+        "zh": "nyanyanya——nyanyanya——",
+        "start": 185.449208,
+        "end": 188.649208,
+        "timing_status": "production_candidate_not_formal_alignment",
+        "reference_start_frame": 5566,
+        "reference_end_frame": 5662,
+        "reference_timebase": "30 fps decoded reference video; zero-based frame; end exclusive",
+        "timing_evidence": "editorial_repeat_cluster_estimate",
+        "timing_note": "重复拟声段按8拍单位分组；末组保留余下重复。用户三组文字与原MV文字墙不能逐组一一对应，供第一版调度，不是逐词对齐。",
+        "scene_id": "B24",
+        "action": "在这轮拟声段后半开始共画：DeepSeek蓝角起笔，Astra紫角续接，轮流补轮廓。"
+      },
+      {
+        "id": "L058",
+        "source_lines": [
+          118,
+          119
+        ],
+        "ja": "ナナナーナナナーナナナー",
+        "zh": "呐呐呐——呐呐呐——呐呐呐——",
+        "start": 188.649208,
+        "end": 195.049208,
+        "timing_status": "production_candidate_not_formal_alignment",
+        "reference_start_frame": 5662,
+        "reference_end_frame": 5854,
+        "reference_timebase": "30 fps decoded reference video; zero-based frame; end exclusive",
+        "timing_evidence": "editorial_repeat_cluster_estimate",
+        "timing_note": "重复拟声段按8拍单位分组；末组保留余下重复。用户三组文字与原MV文字墙不能逐组一一对应，供第一版调度，不是逐词对齐。",
+        "scene_id": "B25",
+        "action": "延续交替动作并闭合星形；DeepSeek添蓝弯尾，Astra添意料外紫小弯，相视后恢复举手位。"
+      }
+    ],
+    "beats": [
+      0.02,
+      0.42,
+      0.82,
+      1.22,
+      1.62,
+      2.02,
+      2.42,
+      2.82,
+      3.22,
+      3.62,
+      4.02,
+      4.42,
+      4.82,
+      5.22,
+      5.62,
+      6.02,
+      6.42,
+      6.82,
+      7.22,
+      7.62,
+      8.02,
+      8.42,
+      8.82,
+      9.22,
+      9.62,
+      10.02,
+      10.42,
+      10.82,
+      11.22,
+      11.62,
+      12.02,
+      12.42,
+      12.82,
+      13.22,
+      13.62,
+      14.02,
+      14.42,
+      14.82,
+      15.22,
+      15.62,
+      16.02,
+      16.42,
+      16.82,
+      17.22,
+      17.62,
+      18.02,
+      18.42,
+      18.82,
+      19.22,
+      19.62,
+      20.02,
+      20.42,
+      20.82,
+      21.22,
+      21.62,
+      22.02,
+      22.42,
+      22.82,
+      23.22,
+      23.62,
+      24.02,
+      24.42,
+      24.82,
+      25.22,
+      25.62,
+      26.02,
+      26.42,
+      26.82,
+      27.22,
+      27.62,
+      28.02,
+      28.42,
+      28.82,
+      29.22,
+      29.62,
+      30.02,
+      30.42,
+      30.82,
+      31.22,
+      31.62,
+      32.02,
+      32.42,
+      32.82,
+      33.22,
+      33.62,
+      34.02,
+      34.42,
+      34.82,
+      35.22,
+      35.62,
+      36.02,
+      36.42,
+      36.82,
+      37.22,
+      37.62,
+      38.02,
+      38.42,
+      38.82,
+      39.22,
+      39.62,
+      40.02,
+      40.42,
+      40.82,
+      41.22,
+      41.62,
+      42.02,
+      42.42,
+      42.82,
+      43.22,
+      43.62,
+      44.02,
+      44.42,
+      44.82,
+      45.22,
+      45.62,
+      46.02,
+      46.42,
+      46.82,
+      47.22,
+      47.62,
+      48.02,
+      48.42,
+      48.82,
+      49.22,
+      49.62,
+      50.02,
+      50.42,
+      50.82,
+      51.22,
+      51.62,
+      52.02,
+      52.42,
+      52.82,
+      53.22,
+      53.62,
+      54.02,
+      54.42,
+      54.82,
+      55.22,
+      55.62,
+      56.02,
+      56.42,
+      56.82,
+      57.22,
+      57.62,
+      58.02,
+      58.42,
+      58.82,
+      59.22,
+      59.62,
+      60.02,
+      60.42,
+      60.82,
+      61.22,
+      61.62,
+      62.02,
+      62.42,
+      62.82,
+      63.22,
+      63.62,
+      64.02,
+      64.42,
+      64.82,
+      65.22,
+      65.62,
+      66.02,
+      66.42,
+      66.82,
+      67.22,
+      67.62,
+      68.02,
+      68.42,
+      68.82,
+      69.22,
+      69.62,
+      70.02,
+      70.42,
+      70.82,
+      71.22,
+      71.62,
+      72.02,
+      72.42,
+      72.82,
+      73.22,
+      73.62,
+      74.02,
+      74.42,
+      74.82,
+      75.22,
+      75.62,
+      76.02,
+      76.42,
+      76.82,
+      77.22,
+      77.62,
+      78.02,
+      78.42,
+      78.82,
+      79.22,
+      79.62,
+      80.02,
+      80.42,
+      80.82,
+      81.22,
+      81.62,
+      82.02,
+      82.42,
+      82.82,
+      83.22,
+      83.62,
+      84.02,
+      84.42,
+      84.82,
+      85.22,
+      85.62,
+      86.02,
+      86.42,
+      86.82,
+      87.22,
+      87.62,
+      88.02,
+      88.42,
+      88.82,
+      89.22,
+      89.62,
+      90.02,
+      90.42,
+      90.82,
+      91.22,
+      91.62,
+      92.02,
+      92.42,
+      92.82,
+      93.22,
+      93.62,
+      94.02,
+      94.42,
+      94.82,
+      95.22,
+      95.62,
+      96.02,
+      96.42,
+      96.82,
+      97.22,
+      97.62,
+      98.02,
+      98.42,
+      98.82,
+      99.22,
+      99.62,
+      100.02,
+      100.42,
+      100.82,
+      101.22,
+      101.62,
+      102.02,
+      102.42,
+      102.82,
+      103.22,
+      103.62,
+      104.02,
+      104.42,
+      104.82,
+      105.22,
+      105.62,
+      106.02,
+      106.42,
+      106.82,
+      107.22,
+      107.62,
+      108.02,
+      108.42,
+      108.82,
+      109.22,
+      109.62,
+      110.02,
+      110.42,
+      110.82,
+      111.22,
+      111.62,
+      112.02,
+      112.42,
+      112.82,
+      113.22,
+      113.62,
+      114.02,
+      114.42,
+      114.82,
+      115.22,
+      115.62,
+      116.02,
+      116.42,
+      116.82,
+      117.22,
+      117.62,
+      118.02,
+      118.42,
+      118.82,
+      119.22,
+      119.62,
+      120.02,
+      120.42,
+      120.82,
+      121.22,
+      121.62,
+      122.02,
+      122.42,
+      122.82,
+      123.22,
+      123.62,
+      124.02,
+      124.42,
+      124.82,
+      125.22,
+      125.62,
+      126.02,
+      126.42,
+      126.82,
+      127.22,
+      127.62,
+      128.02,
+      128.42,
+      128.82,
+      129.22,
+      129.62,
+      130.02,
+      130.42,
+      130.82,
+      131.22,
+      131.62,
+      132.02,
+      132.42,
+      132.82,
+      133.22,
+      133.62,
+      134.02,
+      134.42,
+      134.82,
+      135.22,
+      135.62,
+      136.02,
+      136.42,
+      136.82,
+      137.22,
+      137.62,
+      138.02,
+      138.42,
+      138.82,
+      139.22,
+      139.62,
+      140.02,
+      140.42,
+      140.82,
+      141.22,
+      141.62,
+      142.02,
+      142.42,
+      142.82,
+      143.22,
+      143.62,
+      144.02,
+      144.42,
+      144.82,
+      145.22,
+      145.62,
+      146.02,
+      146.42,
+      146.82,
+      147.22,
+      147.62,
+      148.02,
+      148.42,
+      148.82,
+      149.22,
+      149.62,
+      150.02,
+      150.42,
+      150.82,
+      151.22,
+      151.62,
+      152.02,
+      152.42,
+      152.82,
+      153.22,
+      153.62,
+      154.02,
+      154.42,
+      154.82,
+      155.22,
+      155.62,
+      156.02,
+      156.42,
+      156.82,
+      157.22,
+      157.62,
+      158.02,
+      158.42,
+      158.82,
+      159.22,
+      159.62,
+      160.02,
+      160.42,
+      160.82,
+      161.22,
+      161.62,
+      162.02,
+      162.42,
+      162.82,
+      163.22,
+      163.62,
+      164.02,
+      164.42,
+      164.82,
+      165.22,
+      165.62,
+      166.02,
+      166.42,
+      166.82,
+      167.22,
+      167.62,
+      168.02,
+      168.42,
+      168.82,
+      169.22,
+      169.62,
+      170.02,
+      170.42,
+      170.82,
+      171.22,
+      171.62,
+      172.02,
+      172.42,
+      172.82,
+      173.22,
+      173.62,
+      174.02,
+      174.42,
+      174.82,
+      175.22,
+      175.62,
+      176.02,
+      176.42,
+      176.82,
+      177.22,
+      177.62,
+      178.02,
+      178.42,
+      178.82,
+      179.22,
+      179.62,
+      180.02,
+      180.42,
+      180.82,
+      181.22,
+      181.62,
+      182.02,
+      182.42,
+      182.82,
+      183.22,
+      183.62,
+      184.02,
+      184.42,
+      184.82,
+      185.22,
+      185.62,
+      186.02,
+      186.42,
+      186.82,
+      187.22,
+      187.62,
+      188.02,
+      188.42,
+      188.82,
+      189.22,
+      189.62,
+      190.02,
+      190.42,
+      190.82,
+      191.22,
+      191.62,
+      192.02,
+      192.42,
+      192.82,
+      193.22,
+      193.62,
+      194.02,
+      194.42,
+      194.82,
+      195.22,
+      195.62,
+      196.02,
+      196.42,
+      196.82,
+      197.22,
+      197.62,
+      198.02,
+      198.42,
+      198.82,
+      199.22,
+      199.62,
+      200.02,
+      200.42,
+      200.82,
+      201.22,
+      201.62,
+      202.02,
+      202.42,
+      202.82
+    ],
+    "assets": {
+      "clap": {
+        "url": "../assets/clap.png",
+        "width": 1673,
+        "height": 940,
+        "bounds": {
+          "x": 220,
+          "y": 25,
+          "w": 1236,
+          "h": 915
+        },
+        "transparent": true
+      },
+      "pose-b": {
+        "url": "../assets/pose-b.png",
+        "width": 1673,
+        "height": 940,
+        "bounds": {
+          "x": 157,
+          "y": 16,
+          "w": 1298,
+          "h": 924
+        },
+        "transparent": true
+      },
+      "q": {
+        "url": "../assets/q.png",
+        "width": 1672,
+        "height": 941,
+        "bounds": {
+          "x": 140,
+          "y": 209,
+          "w": 1381,
+          "h": 648
+        },
+        "transparent": true
+      },
+      "pose-a": {
+        "url": "../assets/pose-a.png",
+        "width": 1673,
+        "height": 940,
+        "bounds": {
+          "x": 222,
+          "y": 15,
+          "w": 1236,
+          "h": 925
+        },
+        "transparent": true
+      },
+      "reach": {
+        "url": "../assets/reach.png",
+        "width": 1672,
+        "height": 941,
+        "bounds": {
+          "x": 73,
+          "y": 43,
+          "w": 1556,
+          "h": 898
+        },
+        "transparent": true
+      },
+      "draw": {
+        "url": "../assets/draw.png",
+        "width": 1672,
+        "height": 941,
+        "bounds": {
+          "x": 22,
+          "y": 23,
+          "w": 1628,
+          "h": 909
+        },
+        "transparent": true
+      },
+      "fallback": {
+        "url": "../../../art/style-tests/astra-ds-mv-style-v5.png",
+        "width": 1673,
+        "height": 940,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1673,
+          "h": 940
+        },
+        "transparent": false
+      }
+    },
+    "missing": [],
+    "warnings": []
+  },
+  "errors": [],
+  "playback": {
+    "duration": 203.2,
+    "time": 0.660448,
+    "paused": false,
+    "error": null,
+    "flacSupport": "probably"
+  },
+  "subtitles": [
+    {
+      "id": "L001",
+      "ja": "あの一等星のさんざめく光で",
+      "zh": "在那一等星的喧嚣光芒之下",
+      "yJa": 662,
+      "yZh": 696,
+      "fontJa": 26,
+      "fontZh": 23,
+      "fontFamily": "DiscoCN",
+      "maxWidth": 1180,
+      "start": 1.049208,
+      "end": 4.882542
+    },
+    {
+      "id": "L002",
+      "ja": "あなたとダンスを踊ろうか",
+      "zh": "你我一起 来跳舞吧",
+      "yJa": 662,
+      "yZh": 696,
+      "fontJa": 26,
+      "fontZh": 23,
+      "fontFamily": "DiscoCN",
+      "maxWidth": 1180,
+      "start": 4.882542,
+      "end": 7.449208
+    },
+    {
+      "id": "L003",
+      "ja": "我が太陽系の鼓動に合わせて",
+      "zh": "让我们来伴着 太阳系的脉动",
+      "yJa": 662,
+      "yZh": 696,
+      "fontJa": 26,
+      "fontZh": 23,
+      "fontFamily": "DiscoCN",
+      "maxWidth": 1180,
+      "start": 7.449208,
+      "end": 11.049208
+    },
+    {
+      "id": "L004",
+      "ja": "絡まったステップで綺羅めいて、星ッ！",
+      "zh": "跳起交错的舞步 闪耀起光芒！星！",
+      "yJa": 662,
+      "yZh": 696,
+      "fontJa": 26,
+      "fontZh": 23,
+      "fontFamily": "DiscoCN",
+      "maxWidth": 1180,
+      "start": 11.049208,
+      "end": 14.249208
+    },
+    {
+      "id": "L005",
+      "ja": "ランバダ ルンバ ふたり 宇宙（そら）でランデブーな",
+      "zh": "朗巴得 伦巴  两个人 宇宙中相遇约会",
+      "yJa": 662,
+      "yZh": 696,
+      "fontJa": 26,
+      "fontZh": 23,
+      "fontFamily": "DiscoCN",
+      "maxWidth": 1180,
+      "start": 27.049208,
+      "end": 30.249208
+    },
+    {
+      "id": "L006",
+      "ja": "妄、患（わずら）って 連夜眠れない",
+      "zh": "如此得 妄想着 彻夜辗转难眠",
+      "yJa": 662,
+      "yZh": 696,
+      "fontJa": 26,
+      "fontZh": 23,
+      "fontFamily": "DiscoCN",
+      "maxWidth": 1180,
+      "start": 30.249208,
+      "end": 33.449208
+    },
+    {
+      "id": "L007",
+      "ja": "星座になって 混ざる どんな一等星も",
+      "zh": "不管是 混杂在星座中的哪种一等星都好",
+      "yJa": 662,
+      "yZh": 696,
+      "fontJa": 26,
+      "fontZh": 23,
+      "fontFamily": "DiscoCN",
+      "maxWidth": 1180,
+      "start": 33.449208,
+      "end": 36.649208
+    },
+    {
+      "id": "L008",
+      "ja": "あなたに 代わる 光度はないわ",
+      "zh": "能够和你争辉的 一颗都没有",
+      "yJa": 662,
+      "yZh": 696,
+      "fontJa": 26,
+      "fontZh": 23,
+      "fontFamily": "DiscoCN",
+      "maxWidth": 1180,
+      "start": 36.649208,
+      "end": 39.849208
+    },
+    {
+      "id": "L009",
+      "ja": "校舎の裏 あの日 あなた見つけた",
+      "zh": "校舍后面 那一天 发现了你",
+      "yJa": 662,
+      "yZh": 696,
+      "fontJa": 26,
+      "fontZh": 23,
+      "fontFamily": "DiscoCN",
+      "maxWidth": 1180,
+      "start": 39.849208,
+      "end": 43.049208
+    },
+    {
+      "id": "L010",
+      "ja": "奇跡さえ 今も はなれない",
+      "zh": "如同奇迹，至今也无法忘记",
+      "yJa": 662,
+      "yZh": 696,
+      "fontJa": 26,
+      "fontZh": 23,
+      "fontFamily": "DiscoCN",
+      "maxWidth": 1180,
+      "start": 43.049208,
+      "end": 46.249208
+    },
+    {
+      "id": "L011",
+      "ja": "隣に 繁（しげ）く 見える 冥王星も",
+      "zh": "你旁边 那颗经常能看见的冥王星",
+      "yJa": 662,
+      "yZh": 696,
+      "fontJa": 26,
+      "fontZh": 23,
+      "fontFamily": "DiscoCN",
+      "maxWidth": 1180,
+      "start": 46.249208,
+      "end": 49.449208
+    },
+    {
+      "id": "L012",
+      "ja": "生憎（あいにく）、今は 興味がないわ",
+      "zh": "也因你在，光芒早已黯淡",
+      "yJa": 662,
+      "yZh": 696,
+      "fontJa": 26,
+      "fontZh": 23,
+      "fontFamily": "DiscoCN",
+      "maxWidth": 1180,
+      "start": 49.449208,
+      "end": 52.649208
+    },
+    {
+      "id": "L013",
+      "ja": "星が舞っちゃって",
+      "zh": "星辰正在来回旋绕",
+      "yJa": 662,
+      "yZh": 696,
+      "fontJa": 26,
+      "fontZh": 23,
+      "fontFamily": "DiscoCN",
+      "maxWidth": 1180,
+      "start": 52.649208,
+      "end": 54.249208
+    },
+    {
+      "id": "L014",
+      "ja": "胸が鳴っちゃって",
+      "zh": "心脏也在扑通直跳",
+      "yJa": 662,
+      "yZh": 696,
+      "fontJa": 26,
+      "fontZh": 23,
+      "fontFamily": "DiscoCN",
+      "maxWidth": 1180,
+      "start": 54.249208,
+      "end": 55.615875
+    },
+    {
+      "id": "L015",
+      "ja": "気付けば彼方―――",
+      "zh": "能察觉到吗 那边的你",
+      "yJa": 662,
+      "yZh": 696,
+      "fontJa": 26,
+      "fontZh": 23,
+      "fontFamily": "DiscoCN",
+      "maxWidth": 1180,
+      "start": 55.615875,
+      "end": 58.649208
+    },
+    {
+      "id": "L016",
+      "ja": "あの一等星のさんざめく光で",
+      "zh": "那颗一等星正在放着喧嚣的光芒",
+      "yJa": 662,
+      "yZh": 696,
+      "fontJa": 26,
+      "fontZh": 23,
+      "fontFamily": "DiscoCN",
+      "maxWidth": 1180,
+      "start": 58.649208,
+      "end": 62.249208
+    },
+    {
+      "id": "L017",
+      "ja": "あなたとダンスを踊ろうか",
+      "zh": "我们一起来跳舞怎么样",
+      "yJa": 662,
+      "yZh": 696,
+      "fontJa": 26,
+      "fontZh": 23,
+      "fontFamily": "DiscoCN",
+      "maxWidth": 1180,
+      "start": 62.249208,
+      "end": 65.049208
+    },
+    {
+      "id": "L018",
+      "ja": "我が太陽系の法則に誘われ",
+      "zh": "我被太阳系的引力所捕获",
+      "yJa": 662,
+      "yZh": 696,
+      "fontJa": 26,
+      "fontZh": 23,
+      "fontFamily": "DiscoCN",
+      "maxWidth": 1180,
+      "start": 65.049208,
+      "end": 68.649208
+    },
+    {
+      "id": "L019",
+      "ja": "交わった感度で綺羅めいて、星ッ！",
+      "zh": "相互照耀，闪耀起光芒！星！",
+      "yJa": 662,
+      "yZh": 696,
+      "fontJa": 26,
+      "fontZh": 23,
+      "fontFamily": "DiscoCN",
+      "maxWidth": 1180,
+      "start": 68.649208,
+      "end": 71.849208
+    },
+    {
+      "id": "L020",
+      "ja": "オー・オ・オー！",
+      "zh": "噢——噢，噢——！",
+      "yJa": 662,
+      "yZh": 696,
+      "fontJa": 26,
+      "fontZh": 23,
+      "fontFamily": "DiscoCN",
+      "maxWidth": 1180,
+      "start": 71.849208,
+      "end": 73.449208
+    },
+    {
+      "id": "L021",
+      "ja": "星間線を絆いで (オー・オ・オー！)",
+      "zh": "伴随着星际光谱",
+      "yJa": 662,
+      "yZh": 696,
+      "fontJa": 26,
+      "fontZh": 23,
+      "fontFamily": "DiscoCN",
+      "maxWidth": 1180,
+      "start": 73.449208,
+      "end": 76.649208
+    },
+    {
+      "id": "L022",
+      "ja": "あなたに届け (オー・オ・オー！)",
+      "zh": "传递给你",
+      "yJa": 662,
+      "yZh": 696,
+      "fontJa": 26,
+      "fontZh": 23,
+      "fontFamily": "DiscoCN",
+      "maxWidth": 1180,
+      "start": 76.649208,
+      "end": 79.849208
+    },
+    {
+      "id": "L023",
+      "ja": "宇宙の果てから (オー・オ・オー！)",
+      "zh": "从宇宙的尽头",
+      "yJa": 662,
+      "yZh": 696,
+      "fontJa": 26,
+      "fontZh": 23,
+      "fontFamily": "DiscoCN",
+      "maxWidth": 1180,
+      "start": 79.849208,
+      "end": 83.049208
+    },
+    {
+      "id": "L024",
+      "ja": "あなた 侵光系！",
+      "zh": "你就是 侵光系！",
+      "yJa": 662,
+      "yZh": 696,
+      "fontJa": 26,
+      "fontZh": 23,
+      "fontFamily": "DiscoCN",
+      "maxWidth": 1180,
+      "start": 83.049208,
+      "end": 85.049208
+    },
+    {
+      "id": "L025",
+      "ja": "ナーナナナーナナナーナナナーナ",
+      "zh": "呐呐呐——呐呐呐——呐呐呐——",
+      "yJa": 662,
+      "yZh": 696,
+      "fontJa": 26,
+      "fontZh": 23,
+      "fontFamily": "DiscoCN",
+      "maxWidth": 1180,
+      "start": 85.049208,
+      "end": 88.249208
+    },
+    {
+      "id": "L026",
+      "ja": "ナーナナナーナナナーナナナーナ",
+      "zh": "喵喵喵~喵喵喵~",
+      "yJa": 662,
+      "yZh": 696,
+      "fontJa": 26,
+      "fontZh": 23,
+      "fontFamily": "DiscoCN",
+      "maxWidth": 1180,
+      "start": 88.249208,
+      "end": 91.449208
+    },
+    {
+      "id": "L027",
+      "ja": "ナーナナナーナナナーナナナーナ",
+      "zh": "呐呐呐——呐呐呐——呐呐呐——",
+      "yJa": 662,
+      "yZh": 696,
+      "fontJa": 26,
+      "fontZh": 23,
+      "fontFamily": "DiscoCN",
+      "maxWidth": 1180,
+      "start": 91.449208,
+      "end": 97.449208
+    },
+    {
+      "id": "L028",
+      "ja": "大体のダンスは 星が光り標（しるべ）となるのさ",
+      "zh": "舞步大部分都是由星星为光标而编成",
+      "yJa": 662,
+      "yZh": 696,
+      "fontJa": 26,
+      "fontZh": 23,
+      "fontFamily": "DiscoCN",
+      "maxWidth": 1180,
+      "start": 97.449208,
+      "end": 100.449208
+    },
+    {
+      "id": "L029",
+      "ja": "未体験なステッポで HA,HA,HA,HA,",
+      "zh": "用这没跳过的舞步",
+      "yJa": 662,
+      "yZh": 696,
+      "fontJa": 26,
+      "fontZh": 23,
+      "fontFamily": "DiscoCN",
+      "maxWidth": 1180,
+      "start": 100.449208,
+      "end": 103.849208
+    },
+    {
+      "id": "L030",
+      "ja": "大胆なスタンスで 周回軌道上なぞるのさ",
+      "zh": "用这大胆的舞步沿着行星轨道旋转吧",
+      "yJa": 662,
+      "yZh": 696,
+      "fontJa": 26,
+      "fontZh": 23,
+      "fontFamily": "DiscoCN",
+      "maxWidth": 1180,
+      "start": 103.849208,
+      "end": 107.049208
+    },
+    {
+      "id": "L031",
+      "ja": "太陽系のデスコで HA,HA,HA,HA,",
+      "zh": "跳着太阳系的迪斯科",
+      "yJa": 662,
+      "yZh": 696,
+      "fontJa": 26,
+      "fontZh": 23,
+      "fontFamily": "DiscoCN",
+      "maxWidth": 1180,
+      "start": 107.049208,
+      "end": 110.249208
+    },
+    {
+      "id": "L032",
+      "ja": "宙 揺蕩（たゆた）って いつか ふたり忘れる",
+      "zh": "在宇宙 漂浮着，终有天 两个人都会忘记",
+      "yJa": 662,
+      "yZh": 696,
+      "fontJa": 26,
+      "fontZh": 23,
+      "fontFamily": "DiscoCN",
+      "maxWidth": 1180,
+      "start": 110.249208,
+      "end": 113.449208
+    },
+    {
+      "id": "L033",
+      "ja": "言葉さえ 今は求めたい",
+      "zh": "连话语 现在都无法进行",
+      "yJa": 662,
+      "yZh": 696,
+      "fontJa": 26,
+      "fontZh": 23,
+      "fontFamily": "DiscoCN",
+      "maxWidth": 1180,
+      "start": 113.449208,
+      "end": 116.649208
+    },
+    {
+      "id": "L034",
+      "ja": "超新星を願う 暮れた世界も",
+      "zh": "祈盼着超等星对于生活着的这个世界",
+      "yJa": 662,
+      "yZh": 696,
+      "fontJa": 26,
+      "fontZh": 23,
+      "fontFamily": "DiscoCN",
+      "maxWidth": 1180,
+      "start": 116.649208,
+      "end": 119.849208
+    },
+    {
+      "id": "L035",
+      "ja": "不思議と 今はどうでもいいわ",
+      "zh": "不可思议的是 现在发生什么都不会在意",
+      "yJa": 662,
+      "yZh": 696,
+      "fontJa": 26,
+      "fontZh": 23,
+      "fontFamily": "DiscoCN",
+      "maxWidth": 1180,
+      "start": 119.849208,
+      "end": 123.049208
+    },
+    {
+      "id": "L036",
+      "ja": "何もなくたって",
+      "zh": "不论会有什么",
+      "yJa": 662,
+      "yZh": 696,
+      "fontJa": 26,
+      "fontZh": 23,
+      "fontFamily": "DiscoCN",
+      "maxWidth": 1180,
+      "start": 123.049208,
+      "end": 124.649208
+    },
+    {
+      "id": "L037",
+      "ja": "何となくだって",
+      "zh": "不论会成什么",
+      "yJa": 662,
+      "yZh": 696,
+      "fontJa": 26,
+      "fontZh": 23,
+      "fontFamily": "DiscoCN",
+      "maxWidth": 1180,
+      "start": 124.649208,
+      "end": 125.849208
+    },
+    {
+      "id": "L038",
+      "ja": "星は巡って―――",
+      "zh": "星辰都在旋转着——",
+      "yJa": 662,
+      "yZh": 696,
+      "fontJa": 26,
+      "fontZh": 23,
+      "fontFamily": "DiscoCN",
+      "maxWidth": 1180,
+      "start": 125.849208,
+      "end": 129.049208
+    },
+    {
+      "id": "L039",
+      "ja": "あの一等星の届かぬ光は",
+      "zh": "那颗一等星未曾传递过来的光芒",
+      "yJa": 662,
+      "yZh": 696,
+      "fontJa": 26,
+      "fontZh": 23,
+      "fontFamily": "DiscoCN",
+      "maxWidth": 1180,
+      "start": 129.049208,
+      "end": 132.649208
+    },
+    {
+      "id": "L040",
+      "ja": "遥かな彼方で綺羅めいた",
+      "zh": "正在遥远的彼岸闪耀起光芒",
+      "yJa": 662,
+      "yZh": 696,
+      "fontJa": 26,
+      "fontZh": 23,
+      "fontFamily": "DiscoCN",
+      "maxWidth": 1180,
+      "start": 132.649208,
+      "end": 135.449208
+    },
+    {
+      "id": "L041",
+      "ja": "我が太陽系の法則も外れて",
+      "zh": "你已经脱离了我们太阳系的引力",
+      "yJa": 662,
+      "yZh": 696,
+      "fontJa": 26,
+      "fontZh": 23,
+      "fontFamily": "DiscoCN",
+      "maxWidth": 1180,
+      "start": 135.449208,
+      "end": 139.049208
+    },
+    {
+      "id": "L042",
+      "ja": "「それでもいいさ」手をのばして！",
+      "zh": "【那也没什么关系】将手伸出来就好！",
+      "yJa": 662,
+      "yZh": 696,
+      "fontJa": 26,
+      "fontZh": 23,
+      "fontFamily": "DiscoCN",
+      "maxWidth": 1180,
+      "start": 139.049208,
+      "end": 141.849208
+    },
+    {
+      "id": "L043",
+      "ja": "さあ、幾星霜（いくせいそう）と宿した想いで",
+      "zh": "看，凭借在时光尽头所留下的思念",
+      "yJa": 662,
+      "yZh": 696,
+      "fontJa": 26,
+      "fontZh": 23,
+      "fontFamily": "DiscoCN",
+      "maxWidth": 1180,
+      "start": 141.849208,
+      "end": 145.449208
+    },
+    {
+      "id": "L044",
+      "ja": "あなたの全て求めようか",
+      "zh": "将你的全部都捕获吧",
+      "yJa": 662,
+      "yZh": 696,
+      "fontJa": 26,
+      "fontZh": 23,
+      "fontFamily": "DiscoCN",
+      "maxWidth": 1180,
+      "start": 145.449208,
+      "end": 148.249208
+    },
+    {
+      "id": "L045",
+      "ja": "ねえ、何光年の広大な旅路で",
+      "zh": "呐，在不知多少光年的这条漫长旅途上",
+      "yJa": 662,
+      "yZh": 696,
+      "fontJa": 26,
+      "fontZh": 23,
+      "fontFamily": "DiscoCN",
+      "maxWidth": 1180,
+      "start": 148.249208,
+      "end": 151.849208
+    },
+    {
+      "id": "L046",
+      "ja": "比翼の恋理（れんり）を探そうか",
+      "zh": "追寻能够永远在一起的方法吧",
+      "yJa": 662,
+      "yZh": 696,
+      "fontJa": 26,
+      "fontZh": 23,
+      "fontFamily": "DiscoCN",
+      "maxWidth": 1180,
+      "start": 151.849208,
+      "end": 154.649208
+    },
+    {
+      "id": "L047",
+      "ja": "あの一等星のさんざめく光で",
+      "zh": "那颗一等星的喧嚣光芒下",
+      "yJa": 662,
+      "yZh": 696,
+      "fontJa": 26,
+      "fontZh": 23,
+      "fontFamily": "DiscoCN",
+      "maxWidth": 1180,
+      "start": 154.649208,
+      "end": 158.249208
+    },
+    {
+      "id": "L048",
+      "ja": "あなたとダンスを踊ろうか",
+      "zh": "我们一起跳舞怎么样",
+      "yJa": 662,
+      "yZh": 696,
+      "fontJa": 26,
+      "fontZh": 23,
+      "fontFamily": "DiscoCN",
+      "maxWidth": 1180,
+      "start": 158.249208,
+      "end": 161.449208
+    },
+    {
+      "id": "L049",
+      "ja": "ほら水金だって地火木土天海も",
+      "zh": "看啊，水星金星还有地球火星木星土星天王星海王星都",
+      "yJa": 662,
+      "yZh": 696,
+      "fontJa": 26,
+      "fontZh": 23,
+      "fontFamily": "DiscoCN",
+      "maxWidth": 1180,
+      "start": 161.449208,
+      "end": 164.649208
+    },
+    {
+      "id": "L050",
+      "ja": "ふたりの銀河で綺羅めいた、星ッ！",
+      "zh": "在我们两个人的银河里闪耀着光芒！星！",
+      "yJa": 662,
+      "yZh": 696,
+      "fontJa": 26,
+      "fontZh": 23,
+      "fontFamily": "DiscoCN",
+      "maxWidth": 1180,
+      "start": 164.649208,
+      "end": 167.849208
+    },
+    {
+      "id": "L051",
+      "ja": "オー・オ・オー！",
+      "zh": "噢——噢，噢——！",
+      "yJa": 662,
+      "yZh": 696,
+      "fontJa": 26,
+      "fontZh": 23,
+      "fontFamily": "DiscoCN",
+      "maxWidth": 1180,
+      "start": 167.849208,
+      "end": 169.449208
+    },
+    {
+      "id": "L052",
+      "ja": "星間線を絆いで (オー・オ・オー！)",
+      "zh": "伴随着星际光谱",
+      "yJa": 662,
+      "yZh": 696,
+      "fontJa": 26,
+      "fontZh": 23,
+      "fontFamily": "DiscoCN",
+      "maxWidth": 1180,
+      "start": 169.449208,
+      "end": 172.649208
+    },
+    {
+      "id": "L053",
+      "ja": "あなたに届け (オー・オ・オー！)",
+      "zh": "传递给你",
+      "yJa": 662,
+      "yZh": 696,
+      "fontJa": 26,
+      "fontZh": 23,
+      "fontFamily": "DiscoCN",
+      "maxWidth": 1180,
+      "start": 172.649208,
+      "end": 175.849208
+    },
+    {
+      "id": "L054",
+      "ja": "宇宙の果てから (オー・オ・オー！)",
+      "zh": "从宇宙的尽头",
+      "yJa": 662,
+      "yZh": 696,
+      "fontJa": 26,
+      "fontZh": 23,
+      "fontFamily": "DiscoCN",
+      "maxWidth": 1180,
+      "start": 175.849208,
+      "end": 179.049208
+    },
+    {
+      "id": "L055",
+      "ja": "あなた 侵光系！",
+      "zh": "你就是，侵光系！",
+      "yJa": 662,
+      "yZh": 696,
+      "fontJa": 26,
+      "fontZh": 23,
+      "fontFamily": "DiscoCN",
+      "maxWidth": 1180,
+      "start": 179.049208,
+      "end": 182.249208
+    },
+    {
+      "id": "L056",
+      "ja": "ナーナナナーナナナーナナナーナ",
+      "zh": "呐呐呐——呐呐呐——呐呐呐——",
+      "yJa": 662,
+      "yZh": 696,
+      "fontJa": 26,
+      "fontZh": 23,
+      "fontFamily": "DiscoCN",
+      "maxWidth": 1180,
+      "start": 182.249208,
+      "end": 185.449208
+    },
+    {
+      "id": "L057",
+      "ja": "ナーナナナーナナナーナナナーナ",
+      "zh": "nyanyanya——nyanyanya——",
+      "yJa": 662,
+      "yZh": 696,
+      "fontJa": 26,
+      "fontZh": 23,
+      "fontFamily": "DiscoCN",
+      "maxWidth": 1180,
+      "start": 185.449208,
+      "end": 188.649208
+    },
+    {
+      "id": "L058",
+      "ja": "ナナナーナナナーナナナー",
+      "zh": "呐呐呐——呐呐呐——呐呐呐——",
+      "yJa": 662,
+      "yZh": 696,
+      "fontJa": 26,
+      "fontZh": 23,
+      "fontFamily": "DiscoCN",
+      "maxWidth": 1180,
+      "start": 188.649208,
+      "end": 195.049208
+    }
+  ],
+  "palette": [
+    255,
+    100,
+    82,
+    255
+  ],
+  "determinism": {
+    "time": 64.125,
+    "repeat_frame_equal": true,
+    "sha256": "43d9959a8ee2ac5b9923d6e3617ee93dc603196397a1575f3bf52d2c10be179b"
+  },
+  "records": [
+    {
+      "t": 0.25,
+      "file": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v1\\review\\t000.250.png",
+      "state": {
+        "time": 0.25,
+        "section": {
+          "id": "opening",
+          "start": 0,
+          "end": 14.249,
+          "l0": 1,
+          "l1": 4
+        },
+        "lyric": null,
+        "pose": "pose-a",
+        "beat": 0
+      }
+    },
+    {
+      "t": 1.5,
+      "file": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v1\\review\\t001.500.png",
+      "state": {
+        "time": 1.5,
+        "section": {
+          "id": "opening",
+          "start": 0,
+          "end": 14.249,
+          "l0": 1,
+          "l1": 4
+        },
+        "lyric": {
+          "id": "L001",
+          "source_lines": [
+            4,
+            5
+          ],
+          "ja": "あの一等星のさんざめく光で",
+          "zh": "在那一等星的喧嚣光芒之下",
+          "start": 1.049208,
+          "end": 4.882542,
+          "timing_status": "production_candidate_not_formal_alignment",
+          "reference_start_frame": 34,
+          "reference_end_frame": 149,
+          "reference_timebase": "30 fps decoded reference video; zero-based frame; end exclusive",
+          "timing_evidence": "reference_mv_visual_subtitle_or_layout_cue",
+          "timing_note": "参考字幕/排版出现或清场换句的视觉锚点；不是已耳听确认的歌声起止。",
+          "scene_id": "B01",
+          "action": "近看上一部紫金长尾星，Astra展开有桥形笔迹的画页，DeepSeek持蓝笔探头。"
+        },
+        "pose": "pose-b",
+        "beat": 3
+      }
+    },
+    {
+      "t": 6,
+      "file": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v1\\review\\t006.000.png",
+      "state": {
+        "time": 6,
+        "section": {
+          "id": "opening",
+          "start": 0,
+          "end": 14.249,
+          "l0": 1,
+          "l1": 4
+        },
+        "lyric": {
+          "id": "L002",
+          "source_lines": [
+            6,
+            7
+          ],
+          "ja": "あなたとダンスを踊ろうか",
+          "zh": "你我一起 来跳舞吧",
+          "start": 4.882542,
+          "end": 7.449208,
+          "timing_status": "production_candidate_not_formal_alignment",
+          "reference_start_frame": 149,
+          "reference_end_frame": 226,
+          "reference_timebase": "30 fps decoded reference video; zero-based frame; end exclusive",
+          "timing_evidence": "reference_mv_visual_subtitle_or_layout_cue",
+          "timing_note": "参考字幕/排版出现或清场换句的视觉锚点；不是已耳听确认的歌声起止。",
+          "scene_id": "B02",
+          "action": "DeepSeek画歪圈、伸手邀请；Astra握住她。"
+        },
+        "pose": "pose-a",
+        "beat": 14
+      }
+    },
+    {
+      "t": 12,
+      "file": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v1\\review\\t012.000.png",
+      "state": {
+        "time": 12,
+        "section": {
+          "id": "opening",
+          "start": 0,
+          "end": 14.249,
+          "l0": 1,
+          "l1": 4
+        },
+        "lyric": {
+          "id": "L004",
+          "source_lines": [
+            10,
+            11
+          ],
+          "ja": "絡まったステップで綺羅めいて、星ッ！",
+          "zh": "跳起交错的舞步 闪耀起光芒！星！",
+          "start": 11.049208,
+          "end": 14.249208,
+          "timing_status": "production_candidate_not_formal_alignment",
+          "reference_start_frame": 334,
+          "reference_end_frame": 430,
+          "reference_timebase": "30 fps decoded reference video; zero-based frame; end exclusive",
+          "timing_evidence": "reference_mv_visual_subtitle_or_layout_cue",
+          "timing_note": "参考字幕/排版出现或清场换句的视觉锚点；不是已耳听确认的歌声起止。",
+          "scene_id": "B02",
+          "action": "两人交错步、交错尾巴，突然切回举手姿势。"
+        },
+        "pose": "pose-b",
+        "beat": 29
+      }
+    },
+    {
+      "t": 18,
+      "file": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v1\\review\\t018.000.png",
+      "state": {
+        "time": 18,
+        "section": {
+          "id": "title",
+          "start": 14.249,
+          "end": 27.049,
+          "l0": 0,
+          "l1": 0
+        },
+        "lyric": null,
+        "pose": "pose-a",
+        "beat": 44
+      }
+    },
+    {
+      "t": 24,
+      "file": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v1\\review\\t024.000.png",
+      "state": {
+        "time": 24,
+        "section": {
+          "id": "title",
+          "start": 14.249,
+          "end": 27.049,
+          "l0": 0,
+          "l1": 0
+        },
+        "lyric": null,
+        "pose": "pose-b",
+        "beat": 59
+      }
+    },
+    {
+      "t": 29,
+      "file": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v1\\review\\t029.000.png",
+      "state": {
+        "time": 29,
+        "section": {
+          "id": "verse",
+          "start": 27.049,
+          "end": 52.649,
+          "l0": 5,
+          "l1": 12
+        },
+        "lyric": {
+          "id": "L005",
+          "source_lines": [
+            12,
+            13
+          ],
+          "ja": "ランバダ ルンバ ふたり 宇宙（そら）でランデブーな",
+          "zh": "朗巴得 伦巴  两个人 宇宙中相遇约会",
+          "start": 27.049208,
+          "end": 30.249208,
+          "timing_status": "production_candidate_not_formal_alignment",
+          "reference_start_frame": 814,
+          "reference_end_frame": 910,
+          "reference_timebase": "30 fps decoded reference video; zero-based frame; end exclusive",
+          "timing_evidence": "reference_mv_visual_subtitle_or_layout_cue",
+          "timing_note": "参考字幕/排版出现或清场换句的视觉锚点；不是已耳听确认的歌声起止。",
+          "scene_id": "B03",
+          "action": "DeepSeek临时换舞步，Astra沿她脚印主动加大反向弧。"
+        },
+        "pose": "pose-a",
+        "beat": 72
+      }
+    },
+    {
+      "t": 35,
+      "file": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v1\\review\\t035.000.png",
+      "state": {
+        "time": 35,
+        "section": {
+          "id": "verse",
+          "start": 27.049,
+          "end": 52.649,
+          "l0": 5,
+          "l1": 12
+        },
+        "lyric": {
+          "id": "L007",
+          "source_lines": [
+            16,
+            17
+          ],
+          "ja": "星座になって 混ざる どんな一等星も",
+          "zh": "不管是 混杂在星座中的哪种一等星都好",
+          "start": 33.449208,
+          "end": 36.649208,
+          "timing_status": "production_candidate_not_formal_alignment",
+          "reference_start_frame": 1006,
+          "reference_end_frame": 1102,
+          "reference_timebase": "30 fps decoded reference video; zero-based frame; end exclusive",
+          "timing_evidence": "reference_mv_visual_subtitle_or_layout_cue",
+          "timing_note": "参考字幕/排版出现或清场换句的视觉锚点；不是已耳听确认的歌声起止。",
+          "scene_id": "B04",
+          "action": "一群星举亮度牌争相入镜。"
+        },
+        "pose": "clap",
+        "beat": 87
+      }
+    },
+    {
+      "t": 41,
+      "file": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v1\\review\\t041.000.png",
+      "state": {
+        "time": 41,
+        "section": {
+          "id": "verse",
+          "start": 27.049,
+          "end": 52.649,
+          "l0": 5,
+          "l1": 12
+        },
+        "lyric": {
+          "id": "L009",
+          "source_lines": [
+            20,
+            21
+          ],
+          "ja": "校舎の裏 あの日 あなた見つけた",
+          "zh": "校舍后面 那一天 发现了你",
+          "start": 39.849208,
+          "end": 43.049208,
+          "timing_status": "production_candidate_not_formal_alignment",
+          "reference_start_frame": 1198,
+          "reference_end_frame": 1294,
+          "reference_timebase": "30 fps decoded reference video; zero-based frame; end exclusive",
+          "timing_evidence": "reference_mv_visual_subtitle_or_layout_cue",
+          "timing_note": "参考字幕/排版出现或清场换句的视觉锚点；不是已耳听确认的歌声起止。",
+          "scene_id": "B05",
+          "action": "歌词巨字折成纸校舍，DeepSeek绕后探头。"
+        },
+        "pose": "pose-a",
+        "beat": 102
+      }
+    },
+    {
+      "t": 46,
+      "file": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v1\\review\\t046.000.png",
+      "state": {
+        "time": 46,
+        "section": {
+          "id": "verse",
+          "start": 27.049,
+          "end": 52.649,
+          "l0": 5,
+          "l1": 12
+        },
+        "lyric": {
+          "id": "L010",
+          "source_lines": [
+            22,
+            23
+          ],
+          "ja": "奇跡さえ 今も はなれない",
+          "zh": "如同奇迹，至今也无法忘记",
+          "start": 43.049208,
+          "end": 46.249208,
+          "timing_status": "production_candidate_not_formal_alignment",
+          "reference_start_frame": 1294,
+          "reference_end_frame": 1390,
+          "reference_timebase": "30 fps decoded reference video; zero-based frame; end exclusive",
+          "timing_evidence": "reference_mv_visual_subtitle_or_layout_cue",
+          "timing_note": "参考字幕/排版出现或清场换句的视觉锚点；不是已耳听确认的歌声起止。",
+          "scene_id": "B05",
+          "action": "Astra从另一侧同时探出，两张固定表情凑近，纸景折回。"
+        },
+        "pose": "pose-a",
+        "beat": 114
+      }
+    },
+    {
+      "t": 51,
+      "file": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v1\\review\\t051.000.png",
+      "state": {
+        "time": 51,
+        "section": {
+          "id": "verse",
+          "start": 27.049,
+          "end": 52.649,
+          "l0": 5,
+          "l1": 12
+        },
+        "lyric": {
+          "id": "L012",
+          "source_lines": [
+            26,
+            27
+          ],
+          "ja": "生憎（あいにく）、今は 興味がないわ",
+          "zh": "也因你在，光芒早已黯淡",
+          "start": 49.449208,
+          "end": 52.649208,
+          "timing_status": "production_candidate_not_formal_alignment",
+          "reference_start_frame": 1486,
+          "reference_end_frame": 1582,
+          "reference_timebase": "30 fps decoded reference video; zero-based frame; end exclusive",
+          "timing_evidence": "reference_mv_visual_subtitle_or_layout_cue",
+          "timing_note": "参考字幕/排版出现或清场换句的视觉锚点；不是已耳听确认的歌声起止。",
+          "scene_id": "B06",
+          "action": "二人转身相向，冥王星错过拍点，留在边角跟跳。"
+        },
+        "pose": "clap",
+        "beat": 127
+      }
+    },
+    {
+      "t": 55,
+      "file": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v1\\review\\t055.000.png",
+      "state": {
+        "time": 55,
+        "section": {
+          "id": "pre",
+          "start": 52.649,
+          "end": 58.649,
+          "l0": 13,
+          "l1": 15
+        },
+        "lyric": {
+          "id": "L014",
+          "source_lines": [
+            30,
+            31
+          ],
+          "ja": "胸が鳴っちゃって",
+          "zh": "心脏也在扑通直跳",
+          "start": 54.249208,
+          "end": 55.615875,
+          "timing_status": "production_candidate_not_formal_alignment",
+          "reference_start_frame": 1630,
+          "reference_end_frame": 1671,
+          "reference_timebase": "30 fps decoded reference video; zero-based frame; end exclusive",
+          "timing_evidence": "reference_mv_visual_subtitle_or_layout_cue",
+          "timing_note": "参考字幕/排版出现或清场换句的视觉锚点；不是已耳听确认的歌声起止。",
+          "scene_id": "B07",
+          "action": "胸前光点弹动，DeepSeek放大动作，Astra短停后回应。"
+        },
+        "pose": "pose-b",
+        "beat": 137
+      }
+    },
+    {
+      "t": 61,
+      "file": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v1\\review\\t061.000.png",
+      "state": {
+        "time": 61,
+        "section": {
+          "id": "chorus",
+          "start": 58.649,
+          "end": 71.849,
+          "l0": 16,
+          "l1": 19
+        },
+        "lyric": {
+          "id": "L016",
+          "source_lines": [
+            34,
+            35
+          ],
+          "ja": "あの一等星のさんざめく光で",
+          "zh": "那颗一等星正在放着喧嚣的光芒",
+          "start": 58.649208,
+          "end": 62.249208,
+          "timing_status": "production_candidate_not_formal_alignment",
+          "reference_start_frame": 1762,
+          "reference_end_frame": 1870,
+          "reference_timebase": "30 fps decoded reference video; zero-based frame; end exclusive",
+          "timing_evidence": "reference_mv_visual_subtitle_or_layout_cue",
+          "timing_note": "参考字幕/排版出现或清场换句的视觉锚点；不是已耳听确认的歌声起止。",
+          "scene_id": "B08",
+          "action": "上一部紫金星悬在新舞池中心发光。"
+        },
+        "pose": "pose-a",
+        "beat": 152
+      }
+    },
+    {
+      "t": 67,
+      "file": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v1\\review\\t067.000.png",
+      "state": {
+        "time": 67,
+        "section": {
+          "id": "chorus",
+          "start": 58.649,
+          "end": 71.849,
+          "l0": 16,
+          "l1": 19
+        },
+        "lyric": {
+          "id": "L018",
+          "source_lines": [
+            38,
+            39
+          ],
+          "ja": "我が太陽系の法則に誘われ",
+          "zh": "我被太阳系的引力所捕获",
+          "start": 65.049208,
+          "end": 68.649208,
+          "timing_status": "production_candidate_not_formal_alignment",
+          "reference_start_frame": 1954,
+          "reference_end_frame": 2062,
+          "reference_timebase": "30 fps decoded reference video; zero-based frame; end exclusive",
+          "timing_evidence": "reference_mv_visual_subtitle_or_layout_cue",
+          "timing_note": "参考字幕/排版出现或清场换句的视觉锚点；不是已耳听确认的歌声起止。",
+          "scene_id": "B08",
+          "action": "脚下蓝紫轨道把步点连成旋转的小系统。"
+        },
+        "pose": "clap",
+        "beat": 167
+      }
+    },
+    {
+      "t": 74,
+      "file": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v1\\review\\t074.000.png",
+      "state": {
+        "time": 74,
+        "section": {
+          "id": "calls",
+          "start": 71.849,
+          "end": 85.049,
+          "l0": 20,
+          "l1": 24
+        },
+        "lyric": {
+          "id": "L021",
+          "source_lines": [
+            44,
+            45
+          ],
+          "ja": "星間線を絆いで (オー・オ・オー！)",
+          "zh": "伴随着星际光谱",
+          "start": 73.449208,
+          "end": 76.649208,
+          "timing_status": "production_candidate_not_formal_alignment",
+          "reference_start_frame": 2206,
+          "reference_end_frame": 2302,
+          "reference_timebase": "30 fps decoded reference video; zero-based frame; end exclusive",
+          "timing_evidence": "reference_mv_visual_subtitle_or_layout_cue",
+          "timing_note": "参考字幕/排版出现或清场换句的视觉锚点；不是已耳听确认的歌声起止。",
+          "scene_id": "B09",
+          "action": "Q版把散星接成传递线路。"
+        },
+        "pose": "pose-a",
+        "beat": 184
+      }
+    },
+    {
+      "t": 80,
+      "file": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v1\\review\\t080.000.png",
+      "state": {
+        "time": 80,
+        "section": {
+          "id": "calls",
+          "start": 71.849,
+          "end": 85.049,
+          "l0": 20,
+          "l1": 24
+        },
+        "lyric": {
+          "id": "L023",
+          "source_lines": [
+            48,
+            49
+          ],
+          "ja": "宇宙の果てから (オー・オ・オー！)",
+          "zh": "从宇宙的尽头",
+          "start": 79.849208,
+          "end": 83.049208,
+          "timing_status": "production_candidate_not_formal_alignment",
+          "reference_start_frame": 2398,
+          "reference_end_frame": 2494,
+          "reference_timebase": "30 fps decoded reference video; zero-based frame; end exclusive",
+          "timing_evidence": "reference_mv_visual_subtitle_or_layout_cue",
+          "timing_note": "参考字幕/排版出现或清场换句的视觉锚点；不是已耳听确认的歌声起止。",
+          "scene_id": "B09",
+          "action": "星钻出画框、绕边缘远行，又从另一边回来。"
+        },
+        "pose": "clap",
+        "beat": 199
+      }
+    },
+    {
+      "t": 88,
+      "file": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v1\\review\\t088.000.png",
+      "state": {
+        "time": 88,
+        "section": {
+          "id": "nana",
+          "start": 85.049,
+          "end": 97.449,
+          "l0": 25,
+          "l1": 27
+        },
+        "lyric": {
+          "id": "L025",
+          "source_lines": [
+            52,
+            53
+          ],
+          "ja": "ナーナナナーナナナーナナナーナ",
+          "zh": "呐呐呐——呐呐呐——呐呐呐——",
+          "start": 85.049208,
+          "end": 88.249208,
+          "timing_status": "production_candidate_not_formal_alignment",
+          "reference_start_frame": 2554,
+          "reference_end_frame": 2650,
+          "reference_timebase": "30 fps decoded reference video; zero-based frame; end exclusive",
+          "timing_evidence": "reference_mv_visual_subtitle_or_layout_cue",
+          "timing_note": "参考字幕/排版出现或清场换句的视觉锚点；不是已耳听确认的歌声起止。",
+          "scene_id": "B10",
+          "action": "拟声字开始堆墙，Q版尝试抬动大字。"
+        },
+        "pose": "pose-b",
+        "beat": 219
+      }
+    },
+    {
+      "t": 94,
+      "file": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v1\\review\\t094.000.png",
+      "state": {
+        "time": 94,
+        "section": {
+          "id": "nana",
+          "start": 85.049,
+          "end": 97.449,
+          "l0": 25,
+          "l1": 27
+        },
+        "lyric": {
+          "id": "L027",
+          "source_lines": [
+            56,
+            57
+          ],
+          "ja": "ナーナナナーナナナーナナナーナ",
+          "zh": "呐呐呐——呐呐呐——呐呐呐——",
+          "start": 91.449208,
+          "end": 97.449208,
+          "timing_status": "production_candidate_not_formal_alignment",
+          "reference_start_frame": 2746,
+          "reference_end_frame": 2926,
+          "reference_timebase": "30 fps decoded reference video; zero-based frame; end exclusive",
+          "timing_evidence": "editorial_repeat_cluster_estimate",
+          "timing_note": "重复拟声段按8拍单位分组；末组保留余下重复。用户三组文字与原MV文字墙不能逐组一一对应，供第一版调度，不是逐词对齐。",
+          "scene_id": "B10",
+          "action": "整行文字被抬走，为下一段留出清空的一拍。"
+        },
+        "pose": "pose-a",
+        "beat": 234
+      }
+    },
+    {
+      "t": 99,
+      "file": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v1\\review\\t099.000.png",
+      "state": {
+        "time": 99,
+        "section": {
+          "id": "rap",
+          "start": 97.449,
+          "end": 110.249,
+          "l0": 28,
+          "l1": 31
+        },
+        "lyric": {
+          "id": "L028",
+          "source_lines": [
+            58,
+            59
+          ],
+          "ja": "大体のダンスは 星が光り標（しるべ）となるのさ",
+          "zh": "舞步大部分都是由星星为光标而编成",
+          "start": 97.449208,
+          "end": 100.449208,
+          "timing_status": "production_candidate_not_formal_alignment",
+          "reference_start_frame": 2926,
+          "reference_end_frame": 3016,
+          "reference_timebase": "30 fps decoded reference video; zero-based frame; end exclusive",
+          "timing_evidence": "reference_mv_visual_subtitle_or_layout_cue",
+          "timing_note": "参考字幕/排版出现或清场换句的视觉锚点；不是已耳听确认的歌声起止。",
+          "scene_id": "B11",
+          "action": "DeepSeek依星光画出一串离谱脚印。"
+        },
+        "pose": "clap",
+        "beat": 247
+      }
+    },
+    {
+      "t": 102,
+      "file": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v1\\review\\t102.000.png",
+      "state": {
+        "time": 102,
+        "section": {
+          "id": "rap",
+          "start": 97.449,
+          "end": 110.249,
+          "l0": 28,
+          "l1": 31
+        },
+        "lyric": {
+          "id": "L029",
+          "source_lines": [
+            60,
+            61
+          ],
+          "ja": "未体験なステッポで HA,HA,HA,HA,",
+          "zh": "用这没跳过的舞步",
+          "start": 100.449208,
+          "end": 103.849208,
+          "timing_status": "production_candidate_not_formal_alignment",
+          "reference_start_frame": 3016,
+          "reference_end_frame": 3118,
+          "reference_timebase": "30 fps decoded reference video; zero-based frame; end exclusive",
+          "timing_evidence": "reference_mv_visual_subtitle_or_layout_cue",
+          "timing_note": "参考字幕/排版出现或清场换句的视觉锚点；不是已耳听确认的歌声起止。",
+          "scene_id": "B11",
+          "action": "Astra转动画页半圈，两人头朝下继续跳。"
+        },
+        "pose": "pose-a",
+        "beat": 254
+      }
+    },
+    {
+      "t": 108,
+      "file": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v1\\review\\t108.000.png",
+      "state": {
+        "time": 108,
+        "section": {
+          "id": "rap",
+          "start": 97.449,
+          "end": 110.249,
+          "l0": 28,
+          "l1": 31
+        },
+        "lyric": {
+          "id": "L031",
+          "source_lines": [
+            64,
+            65
+          ],
+          "ja": "太陽系のデスコで HA,HA,HA,HA,",
+          "zh": "跳着太阳系的迪斯科",
+          "start": 107.049208,
+          "end": 110.249208,
+          "timing_status": "production_candidate_not_formal_alignment",
+          "reference_start_frame": 3214,
+          "reference_end_frame": 3310,
+          "reference_timebase": "30 fps decoded reference video; zero-based frame; end exclusive",
+          "timing_evidence": "reference_mv_visual_subtitle_or_layout_cue",
+          "timing_note": "参考字幕/排版出现或清场换句的视觉锚点；不是已耳听确认的歌声起止。",
+          "scene_id": "B11",
+          "action": "DeepSeek套歪环，Astra龙尾拨动；环开始自转。"
+        },
+        "pose": "pose-b",
+        "beat": 269
+      }
+    },
+    {
+      "t": 112,
+      "file": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v1\\review\\t112.000.png",
+      "state": {
+        "time": 112,
+        "section": {
+          "id": "quiet",
+          "start": 110.249,
+          "end": 123.049,
+          "l0": 32,
+          "l1": 35
+        },
+        "lyric": {
+          "id": "L032",
+          "source_lines": [
+            66,
+            67
+          ],
+          "ja": "宙 揺蕩（たゆた）って いつか ふたり忘れる",
+          "zh": "在宇宙 漂浮着，终有天 两个人都会忘记",
+          "start": 110.249208,
+          "end": 113.449208,
+          "timing_status": "production_candidate_not_formal_alignment",
+          "reference_start_frame": 3310,
+          "reference_end_frame": 3406,
+          "reference_timebase": "30 fps decoded reference video; zero-based frame; end exclusive",
+          "timing_evidence": "reference_mv_visual_subtitle_or_layout_cue",
+          "timing_note": "参考字幕/排版出现或清场换句的视觉锚点；不是已耳听确认的歌声起止。",
+          "scene_id": "B12",
+          "action": "舞台暂时留白，两人漂在未接合的曲线上。"
+        },
+        "pose": "clap",
+        "beat": 279
+      }
+    },
+    {
+      "t": 118,
+      "file": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v1\\review\\t118.000.png",
+      "state": {
+        "time": 118,
+        "section": {
+          "id": "quiet",
+          "start": 110.249,
+          "end": 123.049,
+          "l0": 32,
+          "l1": 35
+        },
+        "lyric": {
+          "id": "L034",
+          "source_lines": [
+            70,
+            71
+          ],
+          "ja": "超新星を願う 暮れた世界も",
+          "zh": "祈盼着超等星对于生活着的这个世界",
+          "start": 116.649208,
+          "end": 119.849208,
+          "timing_status": "production_candidate_not_formal_alignment",
+          "reference_start_frame": 3502,
+          "reference_end_frame": 3598,
+          "reference_timebase": "30 fps decoded reference video; zero-based frame; end exclusive",
+          "timing_evidence": "reference_mv_visual_subtitle_or_layout_cue",
+          "timing_note": "参考字幕/排版出现或清场换句的视觉锚点；不是已耳听确认的歌声起止。",
+          "scene_id": "B13",
+          "action": "Q版搬来黑纸幕与夸张爆炸星道具。"
+        },
+        "pose": "pose-a",
+        "beat": 294
+      }
+    },
+    {
+      "t": 125,
+      "file": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v1\\review\\t125.000.png",
+      "state": {
+        "time": 125,
+        "section": {
+          "id": "braid",
+          "start": 123.049,
+          "end": 129.049,
+          "l0": 36,
+          "l1": 38
+        },
+        "lyric": {
+          "id": "L037",
+          "source_lines": [
+            76,
+            77
+          ],
+          "ja": "何となくだって",
+          "zh": "不论会成什么",
+          "start": 124.649208,
+          "end": 125.849208,
+          "timing_status": "production_candidate_not_formal_alignment",
+          "reference_start_frame": 3742,
+          "reference_end_frame": 3778,
+          "reference_timebase": "30 fps decoded reference video; zero-based frame; end exclusive",
+          "timing_evidence": "reference_mv_visual_subtitle_or_layout_cue",
+          "timing_note": "参考字幕/排版出现或清场换句的视觉锚点；不是已耳听确认的歌声起止。",
+          "scene_id": "B14",
+          "action": "Astra接上一弯，两人走着便把线继续接下去。"
+        },
+        "pose": "pose-a",
+        "beat": 312
+      }
+    },
+    {
+      "t": 131,
+      "file": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v1\\review\\t131.000.png",
+      "state": {
+        "time": 131,
+        "section": {
+          "id": "reach",
+          "start": 129.049,
+          "end": 141.849,
+          "l0": 39,
+          "l1": 42
+        },
+        "lyric": {
+          "id": "L039",
+          "source_lines": [
+            80,
+            81
+          ],
+          "ja": "あの一等星の届かぬ光は",
+          "zh": "那颗一等星未曾传递过来的光芒",
+          "start": 129.049208,
+          "end": 132.649208,
+          "timing_status": "production_candidate_not_formal_alignment",
+          "reference_start_frame": 3874,
+          "reference_end_frame": 3982,
+          "reference_timebase": "30 fps decoded reference video; zero-based frame; end exclusive",
+          "timing_evidence": "reference_mv_visual_subtitle_or_layout_cue",
+          "timing_note": "参考字幕/排版出现或清场换句的视觉锚点；不是已耳听确认的歌声起止。使用该句的清场/排版起点，文字可能在随后数帧才完全可辨。",
+          "scene_id": "B15",
+          "action": "麻花弹开，二人被送向画框两端，旧星仍明亮。"
+        },
+        "pose": "clap",
+        "beat": 327
+      }
+    },
+    {
+      "t": 136,
+      "file": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v1\\review\\t136.000.png",
+      "state": {
+        "time": 136,
+        "section": {
+          "id": "reach",
+          "start": 129.049,
+          "end": 141.849,
+          "l0": 39,
+          "l1": 42
+        },
+        "lyric": {
+          "id": "L041",
+          "source_lines": [
+            84,
+            85
+          ],
+          "ja": "我が太陽系の法則も外れて",
+          "zh": "你已经脱离了我们太阳系的引力",
+          "start": 135.449208,
+          "end": 139.049208,
+          "timing_status": "production_candidate_not_formal_alignment",
+          "reference_start_frame": 4066,
+          "reference_end_frame": 4174,
+          "reference_timebase": "30 fps decoded reference video; zero-based frame; end exclusive",
+          "timing_evidence": "reference_mv_visual_subtitle_or_layout_cue",
+          "timing_note": "参考字幕/排版出现或清场换句的视觉锚点；不是已耳听确认的歌声起止。",
+          "scene_id": "B16",
+          "action": "Astra先跨出自己的轨道，DeepSeek也蹬回迎上。"
+        },
+        "pose": "pose-b",
+        "beat": 339
+      }
+    },
+    {
+      "t": 139.5,
+      "file": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v1\\review\\t139.500.png",
+      "state": {
+        "time": 139.5,
+        "section": {
+          "id": "reach",
+          "start": 129.049,
+          "end": 141.849,
+          "l0": 39,
+          "l1": 42
+        },
+        "lyric": {
+          "id": "L042",
+          "source_lines": [
+            86,
+            87
+          ],
+          "ja": "「それでもいいさ」手をのばして！",
+          "zh": "【那也没什么关系】将手伸出来就好！",
+          "start": 139.049208,
+          "end": 141.849208,
+          "timing_status": "production_candidate_not_formal_alignment",
+          "reference_start_frame": 4174,
+          "reference_end_frame": 4258,
+          "reference_timebase": "30 fps decoded reference video; zero-based frame; end exclusive",
+          "timing_evidence": "reference_mv_visual_subtitle_or_layout_cue",
+          "timing_note": "参考字幕/排版出现或清场换句的视觉锚点；不是已耳听确认的歌声起止。",
+          "scene_id": "B16",
+          "action": "字开一缝，双手握住，两笔接线成桥，二人被弹回舞池。"
+        },
+        "pose": "pose-a",
+        "beat": 348
+      }
+    },
+    {
+      "t": 143,
+      "file": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v1\\review\\t143.000.png",
+      "state": {
+        "time": 143,
+        "section": {
+          "id": "final",
+          "start": 141.849,
+          "end": 167.849,
+          "l0": 43,
+          "l1": 50
+        },
+        "lyric": {
+          "id": "L043",
+          "source_lines": [
+            88,
+            89
+          ],
+          "ja": "さあ、幾星霜（いくせいそう）と宿した想いで",
+          "zh": "看，凭借在时光尽头所留下的思念",
+          "start": 141.849208,
+          "end": 145.449208,
+          "timing_status": "production_candidate_not_formal_alignment",
+          "reference_start_frame": 4258,
+          "reference_end_frame": 4366,
+          "reference_timebase": "30 fps decoded reference video; zero-based frame; end exclusive",
+          "timing_evidence": "reference_mv_visual_subtitle_or_layout_cue",
+          "timing_note": "参考字幕/排版出现或清场换句的视觉锚点；不是已耳听确认的歌声起止。",
+          "scene_id": "B17",
+          "action": "新桥变舞路，两位把一路留下的笔迹带进下一轮舞。"
+        },
+        "pose": "pose-b",
+        "beat": 357
+      }
+    },
+    {
+      "t": 150,
+      "file": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v1\\review\\t150.000.png",
+      "state": {
+        "time": 150,
+        "section": {
+          "id": "final",
+          "start": 141.849,
+          "end": 167.849,
+          "l0": 43,
+          "l1": 50
+        },
+        "lyric": {
+          "id": "L045",
+          "source_lines": [
+            92,
+            93
+          ],
+          "ja": "ねえ、何光年の広大な旅路で",
+          "zh": "呐，在不知多少光年的这条漫长旅途上",
+          "start": 148.249208,
+          "end": 151.849208,
+          "timing_status": "production_candidate_not_formal_alignment",
+          "reference_start_frame": 4450,
+          "reference_end_frame": 4558,
+          "reference_timebase": "30 fps decoded reference video; zero-based frame; end exclusive",
+          "timing_evidence": "reference_mv_visual_subtitle_or_layout_cue",
+          "timing_note": "参考字幕/排版出现或清场换句的视觉锚点；不是已耳听确认的歌声起止。使用该句的清场/排版起点，文字可能在随后数帧才完全可辨。",
+          "scene_id": "B18",
+          "action": "Astra添转弯，DeepSeek接回环，沿同一舞路前进。"
+        },
+        "pose": "pose-a",
+        "beat": 374
+      }
+    },
+    {
+      "t": 156,
+      "file": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v1\\review\\t156.000.png",
+      "state": {
+        "time": 156,
+        "section": {
+          "id": "final",
+          "start": 141.849,
+          "end": 167.849,
+          "l0": 43,
+          "l1": 50
+        },
+        "lyric": {
+          "id": "L047",
+          "source_lines": [
+            96,
+            97
+          ],
+          "ja": "あの一等星のさんざめく光で",
+          "zh": "那颗一等星的喧嚣光芒下",
+          "start": 154.649208,
+          "end": 158.249208,
+          "timing_status": "production_candidate_not_formal_alignment",
+          "reference_start_frame": 4642,
+          "reference_end_frame": 4750,
+          "reference_timebase": "30 fps decoded reference video; zero-based frame; end exclusive",
+          "timing_evidence": "reference_mv_visual_subtitle_or_layout_cue",
+          "timing_note": "参考字幕/排版出现或清场换句的视觉锚点；不是已耳听确认的歌声起止。",
+          "scene_id": "B19",
+          "action": "看见旧紫金星仍在上方，照着扩大的蓝紫新画面。"
+        },
+        "pose": "pose-b",
+        "beat": 389
+      }
+    },
+    {
+      "t": 162,
+      "file": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v1\\review\\t162.000.png",
+      "state": {
+        "time": 162,
+        "section": {
+          "id": "final",
+          "start": 141.849,
+          "end": 167.849,
+          "l0": 43,
+          "l1": 50
+        },
+        "lyric": {
+          "id": "L049",
+          "source_lines": [
+            100,
+            101
+          ],
+          "ja": "ほら水金だって地火木土天海も",
+          "zh": "看啊，水星金星还有地球火星木星土星天王星海王星都",
+          "start": 161.449208,
+          "end": 164.649208,
+          "timing_status": "production_candidate_not_formal_alignment",
+          "reference_start_frame": 4846,
+          "reference_end_frame": 4942,
+          "reference_timebase": "30 fps decoded reference video; zero-based frame; end exclusive",
+          "timing_evidence": "reference_mv_visual_subtitle_or_layout_cue",
+          "timing_note": "参考字幕/排版出现或清场换句的视觉锚点；不是已耳听确认的歌声起止。",
+          "scene_id": "B20",
+          "action": "水金地火木土天海八印章依次弹出；歪环回土星，冥王星在外沿。"
+        },
+        "pose": "pose-a",
+        "beat": 404
+      }
+    },
+    {
+      "t": 167,
+      "file": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v1\\review\\t167.000.png",
+      "state": {
+        "time": 167,
+        "section": {
+          "id": "final",
+          "start": 141.849,
+          "end": 167.849,
+          "l0": 43,
+          "l1": 50
+        },
+        "lyric": {
+          "id": "L050",
+          "source_lines": [
+            102,
+            103
+          ],
+          "ja": "ふたりの銀河で綺羅めいた、星ッ！",
+          "zh": "在我们两个人的银河里闪耀着光芒！星！",
+          "start": 164.649208,
+          "end": 167.849208,
+          "timing_status": "production_candidate_not_formal_alignment",
+          "reference_start_frame": 4942,
+          "reference_end_frame": 5038,
+          "reference_timebase": "30 fps decoded reference video; zero-based frame; end exclusive",
+          "timing_evidence": "reference_mv_visual_subtitle_or_layout_cue",
+          "timing_note": "参考字幕/排版出现或清场换句的视觉锚点；不是已耳听确认的歌声起止。使用该句的清场/排版起点，文字可能在随后数帧才完全可辨。",
+          "scene_id": "B21",
+          "action": "展现两人共画的蓝紫银河与中心紫金星，最后的新星尚待完成。"
+        },
+        "pose": "pose-b",
+        "beat": 417
+      }
+    },
+    {
+      "t": 173,
+      "file": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v1\\review\\t173.000.png",
+      "state": {
+        "time": 173,
+        "section": {
+          "id": "calls2",
+          "start": 167.849,
+          "end": 182.249,
+          "l0": 51,
+          "l1": 55
+        },
+        "lyric": {
+          "id": "L053",
+          "source_lines": [
+            108,
+            109
+          ],
+          "ja": "あなたに届け (オー・オ・オー！)",
+          "zh": "传递给你",
+          "start": 172.649208,
+          "end": 175.849208,
+          "timing_status": "production_candidate_not_formal_alignment",
+          "reference_start_frame": 5182,
+          "reference_end_frame": 5278,
+          "reference_timebase": "30 fps decoded reference video; zero-based frame; end exclusive",
+          "timing_evidence": "reference_mv_visual_subtitle_or_layout_cue",
+          "timing_note": "参考字幕/排版出现或清场换句的视觉锚点；不是已耳听确认的歌声起止。",
+          "scene_id": "B22",
+          "action": "DeepSeek接住送来的蓝线头，Astra接住紫线头。"
+        },
+        "pose": "pose-a",
+        "beat": 432
+      }
+    },
+    {
+      "t": 180,
+      "file": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v1\\review\\t180.000.png",
+      "state": {
+        "time": 180,
+        "section": {
+          "id": "calls2",
+          "start": 167.849,
+          "end": 182.249,
+          "l0": 51,
+          "l1": 55
+        },
+        "lyric": {
+          "id": "L055",
+          "source_lines": [
+            112,
+            113
+          ],
+          "ja": "あなた 侵光系！",
+          "zh": "你就是，侵光系！",
+          "start": 179.049208,
+          "end": 182.249208,
+          "timing_status": "production_candidate_not_formal_alignment",
+          "reference_start_frame": 5374,
+          "reference_end_frame": 5470,
+          "reference_timebase": "30 fps decoded reference video; zero-based frame; end exclusive",
+          "timing_evidence": "reference_mv_visual_subtitle_or_layout_cue",
+          "timing_note": "参考字幕/排版出现或清场换句的视觉锚点；不是已耳听确认的歌声起止。",
+          "scene_id": "B22",
+          "action": "所有线最终连向中央两笔，周边开始让出空间。"
+        },
+        "pose": "pose-b",
+        "beat": 449
+      }
+    },
+    {
+      "t": 184,
+      "file": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v1\\review\\t184.000.png",
+      "state": {
+        "time": 184,
+        "section": {
+          "id": "drawing",
+          "start": 182.249,
+          "end": 195.049,
+          "l0": 56,
+          "l1": 58
+        },
+        "lyric": {
+          "id": "L056",
+          "source_lines": [
+            114,
+            115
+          ],
+          "ja": "ナーナナナーナナナーナナナーナ",
+          "zh": "呐呐呐——呐呐呐——呐呐呐——",
+          "start": 182.249208,
+          "end": 185.449208,
+          "timing_status": "production_candidate_not_formal_alignment",
+          "reference_start_frame": 5470,
+          "reference_end_frame": 5566,
+          "reference_timebase": "30 fps decoded reference video; zero-based frame; end exclusive",
+          "timing_evidence": "reference_mv_visual_subtitle_or_layout_cue",
+          "timing_note": "参考字幕/排版出现或清场换句的视觉锚点；不是已耳听确认的歌声起止。",
+          "scene_id": "B23",
+          "action": "拟声段前半继续跳，随后切纸面与两笔近景，准备交替落笔。"
+        },
+        "pose": "pose-b",
+        "beat": 459
+      }
+    },
+    {
+      "t": 186,
+      "file": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v1\\review\\t186.000.png",
+      "state": {
+        "time": 186,
+        "section": {
+          "id": "drawing",
+          "start": 182.249,
+          "end": 195.049,
+          "l0": 56,
+          "l1": 58
+        },
+        "lyric": {
+          "id": "L057",
+          "source_lines": [
+            116,
+            117
+          ],
+          "ja": "ナーナナナーナナナーナナナーナ",
+          "zh": "nyanyanya——nyanyanya——",
+          "start": 185.449208,
+          "end": 188.649208,
+          "timing_status": "production_candidate_not_formal_alignment",
+          "reference_start_frame": 5566,
+          "reference_end_frame": 5662,
+          "reference_timebase": "30 fps decoded reference video; zero-based frame; end exclusive",
+          "timing_evidence": "editorial_repeat_cluster_estimate",
+          "timing_note": "重复拟声段按8拍单位分组；末组保留余下重复。用户三组文字与原MV文字墙不能逐组一一对应，供第一版调度，不是逐词对齐。",
+          "scene_id": "B24",
+          "action": "在这轮拟声段后半开始共画：DeepSeek蓝角起笔，Astra紫角续接，轮流补轮廓。"
+        },
+        "pose": "pose-a",
+        "beat": 464
+      }
+    },
+    {
+      "t": 187.5,
+      "file": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v1\\review\\t187.500.png",
+      "state": {
+        "time": 187.5,
+        "section": {
+          "id": "drawing",
+          "start": 182.249,
+          "end": 195.049,
+          "l0": 56,
+          "l1": 58
+        },
+        "lyric": {
+          "id": "L057",
+          "source_lines": [
+            116,
+            117
+          ],
+          "ja": "ナーナナナーナナナーナナナーナ",
+          "zh": "nyanyanya——nyanyanya——",
+          "start": 185.449208,
+          "end": 188.649208,
+          "timing_status": "production_candidate_not_formal_alignment",
+          "reference_start_frame": 5566,
+          "reference_end_frame": 5662,
+          "reference_timebase": "30 fps decoded reference video; zero-based frame; end exclusive",
+          "timing_evidence": "editorial_repeat_cluster_estimate",
+          "timing_note": "重复拟声段按8拍单位分组；末组保留余下重复。用户三组文字与原MV文字墙不能逐组一一对应，供第一版调度，不是逐词对齐。",
+          "scene_id": "B24",
+          "action": "在这轮拟声段后半开始共画：DeepSeek蓝角起笔，Astra紫角续接，轮流补轮廓。"
+        },
+        "pose": "pose-a",
+        "beat": 468
+      }
+    },
+    {
+      "t": 189,
+      "file": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v1\\review\\t189.000.png",
+      "state": {
+        "time": 189,
+        "section": {
+          "id": "drawing",
+          "start": 182.249,
+          "end": 195.049,
+          "l0": 56,
+          "l1": 58
+        },
+        "lyric": {
+          "id": "L058",
+          "source_lines": [
+            118,
+            119
+          ],
+          "ja": "ナナナーナナナーナナナー",
+          "zh": "呐呐呐——呐呐呐——呐呐呐——",
+          "start": 188.649208,
+          "end": 195.049208,
+          "timing_status": "production_candidate_not_formal_alignment",
+          "reference_start_frame": 5662,
+          "reference_end_frame": 5854,
+          "reference_timebase": "30 fps decoded reference video; zero-based frame; end exclusive",
+          "timing_evidence": "editorial_repeat_cluster_estimate",
+          "timing_note": "重复拟声段按8拍单位分组；末组保留余下重复。用户三组文字与原MV文字墙不能逐组一一对应，供第一版调度，不是逐词对齐。",
+          "scene_id": "B25",
+          "action": "延续交替动作并闭合星形；DeepSeek添蓝弯尾，Astra添意料外紫小弯，相视后恢复举手位。"
+        },
+        "pose": "pose-a",
+        "beat": 472
+      }
+    },
+    {
+      "t": 190.5,
+      "file": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v1\\review\\t190.500.png",
+      "state": {
+        "time": 190.5,
+        "section": {
+          "id": "drawing",
+          "start": 182.249,
+          "end": 195.049,
+          "l0": 56,
+          "l1": 58
+        },
+        "lyric": {
+          "id": "L058",
+          "source_lines": [
+            118,
+            119
+          ],
+          "ja": "ナナナーナナナーナナナー",
+          "zh": "呐呐呐——呐呐呐——呐呐呐——",
+          "start": 188.649208,
+          "end": 195.049208,
+          "timing_status": "production_candidate_not_formal_alignment",
+          "reference_start_frame": 5662,
+          "reference_end_frame": 5854,
+          "reference_timebase": "30 fps decoded reference video; zero-based frame; end exclusive",
+          "timing_evidence": "editorial_repeat_cluster_estimate",
+          "timing_note": "重复拟声段按8拍单位分组；末组保留余下重复。用户三组文字与原MV文字墙不能逐组一一对应，供第一版调度，不是逐词对齐。",
+          "scene_id": "B25",
+          "action": "延续交替动作并闭合星形；DeepSeek添蓝弯尾，Astra添意料外紫小弯，相视后恢复举手位。"
+        },
+        "pose": "pose-a",
+        "beat": 476
+      }
+    },
+    {
+      "t": 192,
+      "file": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v1\\review\\t192.000.png",
+      "state": {
+        "time": 192,
+        "section": {
+          "id": "drawing",
+          "start": 182.249,
+          "end": 195.049,
+          "l0": 56,
+          "l1": 58
+        },
+        "lyric": {
+          "id": "L058",
+          "source_lines": [
+            118,
+            119
+          ],
+          "ja": "ナナナーナナナーナナナー",
+          "zh": "呐呐呐——呐呐呐——呐呐呐——",
+          "start": 188.649208,
+          "end": 195.049208,
+          "timing_status": "production_candidate_not_formal_alignment",
+          "reference_start_frame": 5662,
+          "reference_end_frame": 5854,
+          "reference_timebase": "30 fps decoded reference video; zero-based frame; end exclusive",
+          "timing_evidence": "editorial_repeat_cluster_estimate",
+          "timing_note": "重复拟声段按8拍单位分组；末组保留余下重复。用户三组文字与原MV文字墙不能逐组一一对应，供第一版调度，不是逐词对齐。",
+          "scene_id": "B25",
+          "action": "延续交替动作并闭合星形；DeepSeek添蓝弯尾，Astra添意料外紫小弯，相视后恢复举手位。"
+        },
+        "pose": "clap",
+        "beat": 479
+      }
+    },
+    {
+      "t": 194,
+      "file": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v1\\review\\t194.000.png",
+      "state": {
+        "time": 194,
+        "section": {
+          "id": "drawing",
+          "start": 182.249,
+          "end": 195.049,
+          "l0": 56,
+          "l1": 58
+        },
+        "lyric": {
+          "id": "L058",
+          "source_lines": [
+            118,
+            119
+          ],
+          "ja": "ナナナーナナナーナナナー",
+          "zh": "呐呐呐——呐呐呐——呐呐呐——",
+          "start": 188.649208,
+          "end": 195.049208,
+          "timing_status": "production_candidate_not_formal_alignment",
+          "reference_start_frame": 5662,
+          "reference_end_frame": 5854,
+          "reference_timebase": "30 fps decoded reference video; zero-based frame; end exclusive",
+          "timing_evidence": "editorial_repeat_cluster_estimate",
+          "timing_note": "重复拟声段按8拍单位分组；末组保留余下重复。用户三组文字与原MV文字墙不能逐组一一对应，供第一版调度，不是逐词对齐。",
+          "scene_id": "B25",
+          "action": "延续交替动作并闭合星形；DeepSeek添蓝弯尾，Astra添意料外紫小弯，相视后恢复举手位。"
+        },
+        "pose": "pose-a",
+        "beat": 484
+      }
+    },
+    {
+      "t": 197,
+      "file": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v1\\review\\t197.000.png",
+      "state": {
+        "time": 197,
+        "section": {
+          "id": "outro",
+          "start": 195.049,
+          "end": 203.2,
+          "l0": 0,
+          "l1": 0
+        },
+        "lyric": null,
+        "pose": "pose-a",
+        "beat": 492
+      }
+    },
+    {
+      "t": 202.5,
+      "file": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v1\\review\\t202.500.png",
+      "state": {
+        "time": 202.5,
+        "section": {
+          "id": "outro",
+          "start": 195.049,
+          "end": 203.2,
+          "l0": 0,
+          "l1": 0
+        },
+        "lyric": null,
+        "pose": "pose-a",
+        "beat": 506
+      }
+    }
+  ]
+}

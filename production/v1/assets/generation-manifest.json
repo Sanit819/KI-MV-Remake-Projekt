@@ -1,0 +1,78 @@
+{
+  "generator": "built-in image_gen",
+  "reference": "art/style-tests/astra-ds-mv-style-v5.png",
+  "assets": [
+    {
+      "name": "pose-a",
+      "file": "production/v1/assets/pose-a.png",
+      "prompt": "Use the provided USER-APPROVED character/style frame as the exact identity reference. This is production art for a hand-drawn 太陽系デスコ MV. LEFT ds whale-maid, tiny v smile ᗜvᗜ; RIGHT Astra dragon girl, tiny flat mouth ᗜ-ᗜ. Preserve the approved long hair main silhouettes, overlapping long forelocks, ds continuous blue-tipped waves, maid headband/bows/apron/whale mark, Astra long white layered hair, segmented bent dragon horns, knot hair ornament, pointed ears, small wings, and distinct tails. No isolated dash between ds's eyes. White fills, very thin uneven dark OPEN/INTERRUPTED contours, imperfect joins and a few retry strokes, minimal internal lines, tiny blue/purple accents. No polished anime rendering, shading, gradients, texture or added detail. Two characters only, exactly two arms/two hands/two legs each. Transparent background with true alpha, keep white inside character shapes and open contour gaps. Wide 16:9 canvas with the two figures completely separated by a generous transparent vertical gap at the center; neither character, hair nor tail may cross the center line. Full raised hands and horns remain inside canvas with a little margin. Lower shins may end at the bottom like the approved reference; keep both body scales equal. No ground, scenery, text, props or stars.\nTASK: Remove the red background ONLY. Keep every approved silhouette, gesture, expression, hair shape, clothing shape, proportions and the direction of the raised pointing hands unchanged. Do not redesign or make the linework cleaner. Keep the two characters at left and right, on a transparent canvas. This is the baseline pose A.",
+      "generated_file": "C:\\Users\\auscar\\.codex\\generated_images\\01a1b5bf-f221-7c81-a569-82b3ce7d1d3d\\exec-29e4d41c-3fdb-4151-917d-8d78b30eaf7f.png",
+      "width": 1673,
+      "height": 940,
+      "mode": "RGBA",
+      "sha256": "c50127d8024827497b693907684d5a20f37daffeaf0666933460fbfa723d9a84",
+      "transparent_fraction": 0.6108710305095955,
+      "opaque_fraction": 0.0006307944703742798
+    },
+    {
+      "name": "pose-b",
+      "file": "production/v1/assets/pose-b.png",
+      "prompt": "Use the provided USER-APPROVED character/style frame as the exact identity reference. This is production art for a hand-drawn 太陽系デスコ MV. LEFT ds whale-maid, tiny v smile ᗜvᗜ; RIGHT Astra dragon girl, tiny flat mouth ᗜ-ᗜ. Preserve the approved long hair main silhouettes, overlapping long forelocks, ds continuous blue-tipped waves, maid headband/bows/apron/whale mark, Astra long white layered hair, segmented bent dragon horns, knot hair ornament, pointed ears, small wings, and distinct tails. No isolated dash between ds's eyes. White fills, very thin uneven dark OPEN/INTERRUPTED contours, imperfect joins and a few retry strokes, minimal internal lines, tiny blue/purple accents. No polished anime rendering, shading, gradients, texture or added detail. Two characters only, exactly two arms/two hands/two legs each. Transparent background with true alpha, keep white inside character shapes and open contour gaps. Wide 16:9 canvas with the two figures completely separated by a generous transparent vertical gap at the center; neither character, hair nor tail may cross the center line. Full raised hands and horns remain inside canvas with a little margin. Lower shins may end at the bottom like the approved reference; keep both body scales equal. No ground, scenery, text, props or stars.\nTASK: Draw the SECOND COMPLETE disco pose. Both figures point diagonally up toward IMAGE-RIGHT with the arm on that side, while their other elbow folds out toward IMAGE-LEFT and the other index finger points down. Shift both torso lean and bent knees toward the opposite side compared with the reference, slightly shift their skirts and hair in response. This must be a newly drawn whole-body pose, not a flipped image: keep ds's blue head bow on its original side and Astra's knot ornament on its original side; keep left/right casting and both tail identities. Faces remain front-facing and blank. Preserve haircut shapes and the scruffy unclosed-line style.",
+      "generated_file": "C:\\Users\\auscar\\.codex\\generated_images\\01a1b5bf-f221-7c81-a569-82b3ce7d1d3d\\exec-70f7f1b1-3313-42d1-bb42-3a2556e8f32f.png",
+      "width": 1673,
+      "height": 940,
+      "mode": "RGBA",
+      "sha256": "c44f9700f3cf166889436b2cb28f5b10ce6bc90a51c514711c67031e5c3d78b5",
+      "transparent_fraction": 0.5301484147473643,
+      "opaque_fraction": 0.00018631328610853225
+    },
+    {
+      "name": "clap",
+      "file": "production/v1/assets/clap.png",
+      "prompt": "Use the provided USER-APPROVED character/style frame as the exact identity reference. This is production art for a hand-drawn 太陽系デスコ MV. LEFT ds whale-maid, tiny v smile ᗜvᗜ; RIGHT Astra dragon girl, tiny flat mouth ᗜ-ᗜ. Preserve the approved long hair main silhouettes, overlapping long forelocks, ds continuous blue-tipped waves, maid headband/bows/apron/whale mark, Astra long white layered hair, segmented bent dragon horns, knot hair ornament, pointed ears, small wings, and distinct tails. No isolated dash between ds's eyes. White fills, very thin uneven dark OPEN/INTERRUPTED contours, imperfect joins and a few retry strokes, minimal internal lines, tiny blue/purple accents. No polished anime rendering, shading, gradients, texture or added detail. Two characters only, exactly two arms/two hands/two legs each. Transparent background with true alpha, keep white inside character shapes and open contour gaps. Wide 16:9 canvas with the two figures completely separated by a generous transparent vertical gap at the center; neither character, hair nor tail may cross the center line. Full raised hands and horns remain inside canvas with a little margin. Lower shins may end at the bottom like the approved reference; keep both body scales equal. No ground, scenery, text, props or stars.\nTASK: Draw a new whole-body CLAP-READY pose for both dancers. Both upper arms lower and elbows bend outward, both open palms held beside their cheeks at shoulder/face height, fingers loosely simplified, palms facing inward ready to clap. Exactly two hands per character, no pointing hand remains. Both knees still bent and bodies awkwardly tilted, skirts/hair loosely follow pose. Keep faces clearly visible between hands. Faces stay fixed: ds tiny v and Astra straight line. Keep approved identity/hair and unfinished open contour linework.",
+      "generated_file": "C:\\Users\\auscar\\.codex\\generated_images\\01a1b5bf-f221-7c81-a569-82b3ce7d1d3d\\exec-881389d5-2133-45db-8dce-7c9fa115f0fe.png",
+      "width": 1673,
+      "height": 940,
+      "mode": "RGBA",
+      "sha256": "939d3f49ef8b91a24992075da92d0d44fa6df74c4b4a2cd471591644a8b76181",
+      "transparent_fraction": 0.6254498861772074,
+      "opaque_fraction": 0.00013480688278160014
+    },
+    {
+      "name": "reach",
+      "file": "production/v1/assets/reach.png",
+      "prompt": "Production art for the same approved rough 太陽系デスコ MV. EXACT identity/style reference supplied. LEFT ds whale-maid with blue-tipped long waves, maid headband/bow/apron/whale mark, whale tail, tiny v smile. RIGHT Astra with long layered white hair, overlapping long forelocks, segmented bent dragon horns, knot hair ornament, pointed ears, little dragon wings and dragon tail, tiny horizontal neutral mouth. Hollow half-lidded eyes, NO stray horizontal dash between ds's eyes. Keep approved haircut MAIN CONTOURS and signature clothes; simplified thin open/interrupted dark pen contours with imperfect joins, white flat fills and very small blue/purple patches. No glossy anime rendering, no shading, no texture or gradients, no extra detail, no new text. Exactly two characters, two arms/hands each. Transparent true-alpha background, keep opaque white fill inside characters and the intentional line gaps. Wide 16:9. Maintain lots of space around silhouettes, no cropping hands, horns or tails.\nDraw a new STORY ACTION pose: ds stands left and Astra right, both bodies lean toward each other, and their INSIDE arms extend toward the center where their hands clearly CLASP / HOLD each other. This central joined hand pair must be anatomically readable and unambiguous. Each has only one other arm held back for balance. Keep mostly front/three-quarter faces so v smile and neutral mouth are still readable; Astra initiates a determined reach while face stays deadpan. Knees bent as if catching each other after sliding apart; lower shins can be cropped evenly at bottom. Heads and bodies remain on their own sides but hands meet exactly at central midline. Bodies have transparent gaps around the connected arms. No pens or props in this image.",
+      "generated_file": "C:\\Users\\auscar\\.codex\\generated_images\\01a1b5bf-f221-7c81-a569-82b3ce7d1d3d\\exec-ddd9a329-fbda-47e4-beca-131348685b02.png",
+      "width": 1672,
+      "height": 941,
+      "mode": "RGBA",
+      "sha256": "fba24216a6de526d9f52bcb2a8dfb27f19896afc2a9b595157923d98b7cc9e93",
+      "transparent_fraction": 0.5397107576689768,
+      "opaque_fraction": 0.00021927705942471868
+    },
+    {
+      "name": "draw",
+      "file": "production/v1/assets/draw.png",
+      "prompt": "Production art for the same approved rough 太陽系デスコ MV. EXACT identity/style reference supplied. LEFT ds whale-maid with blue-tipped long waves, maid headband/bow/apron/whale mark, whale tail, tiny v smile. RIGHT Astra with long layered white hair, overlapping long forelocks, segmented bent dragon horns, knot hair ornament, pointed ears, little dragon wings and dragon tail, tiny horizontal neutral mouth. Hollow half-lidded eyes, NO stray horizontal dash between ds's eyes. Keep approved haircut MAIN CONTOURS and signature clothes; simplified thin open/interrupted dark pen contours with imperfect joins, white flat fills and very small blue/purple patches. No glossy anime rendering, no shading, no texture or gradients, no extra detail, no new text. Exactly two characters, two arms/hands each. Transparent true-alpha background, keep opaque white fill inside characters and the intentional line gaps. Wide 16:9. Maintain lots of space around silhouettes, no cropping hands, horns or tails.\nDraw a new STORY ACTION illustration for the ending: two waist-up characters leaning inward from left and right, each holding ONE thin drawing pen in the INSIDE hand. ds holds a blue pen extending diagonally down toward the center; Astra holds a purple pen extending diagonally down toward the center. Hands and pen grips must be clear, only two hands each. Pen nibs hover near the lower central open space, ds nib about x45% y78%, Astra nib about x55% y78%, leaving a wide transparent central area between them for a star to be drawn by the animation. Lower bodies can end at bottom; no paper, star or drawn marks, the animator will put paper underneath. Both faces look down at the pen tips, preserving hollow eyes and fixed mouths. Hair frames faces but must not obscure either pen. Preserve approved hairstyles; no new nose marks.",
+      "generated_file": "C:\\Users\\auscar\\.codex\\generated_images\\01a1b5bf-f221-7c81-a569-82b3ce7d1d3d\\exec-bc44fbe9-2280-4d24-9f18-45c997833348.png",
+      "width": 1672,
+      "height": 941,
+      "mode": "RGBA",
+      "sha256": "04fef0c02995aac5a3f2de07e63f141813fbb3a12273a860eef10a2fd3b8c0e9",
+      "transparent_fraction": 0.49710109371583727,
+      "opaque_fraction": 0.00042838474797756636
+    },
+    {
+      "name": "q",
+      "file": "production/v1/assets/q.png",
+      "prompt": "Production art for the same approved rough 太陽系デスコ MV. EXACT identity/style reference supplied. LEFT ds whale-maid with blue-tipped long waves, maid headband/bow/apron/whale mark, whale tail, tiny v smile. RIGHT Astra with long layered white hair, overlapping long forelocks, segmented bent dragon horns, knot hair ornament, pointed ears, little dragon wings and dragon tail, tiny horizontal neutral mouth. Hollow half-lidded eyes, NO stray horizontal dash between ds's eyes. Keep approved haircut MAIN CONTOURS and signature clothes; simplified thin open/interrupted dark pen contours with imperfect joins, white flat fills and very small blue/purple patches. No glossy anime rendering, no shading, no texture or gradients, no extra detail, no new text. Exactly two characters, two arms/hands each. Transparent true-alpha background, keep opaque white fill inside characters and the intentional line gaps. Wide 16:9. Maintain lots of space around silhouettes, no cropping hands, horns or tails.\nMake the TWO SMALL CHIBI STAGE DOUBLES (Q versions), each complete body with generous transparent padding. They are small comic duplicates of these exact characters, about 2.5 heads tall, comically squat, both arms raised with open palms ready to clap, legs apart in a stiff silly dance. ds remains left, Astra right, widely separated across the center so they can be drawn independently by the animator. Retain big recognizable hair silhouettes, maid bow and tiny whale apron mark for ds; horns, knot, ears, small wings and tail for Astra. Faces are EXTRA simple hollow U eyes and v / straight mouths. Use extremely sparse shaky open thin outlines, white flat fills with tiny blue/purple cues. Draw no star, cat ears, floor, paper or extra people.",
+      "generated_file": "C:\\Users\\auscar\\.codex\\generated_images\\01a1b5bf-f221-7c81-a569-82b3ce7d1d3d\\exec-6ea49731-0b6d-4dc9-8d85-764832590b38.png",
+      "width": 1672,
+      "height": 941,
+      "mode": "RGBA",
+      "sha256": "28d36dd8733faff3904ba30ced98262934c85040ccaf52aa218dffea6ff77470",
+      "transparent_fraction": 0.7023348875521815,
+      "opaque_fraction": 9.15243378468391e-05
+    }
+  ]
+}

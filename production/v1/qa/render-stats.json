@@ -1,0 +1,92 @@
+{
+ "args": {
+  "url": "Taiyoukei-Disco/production/v1/engine/index.html",
+  "root": "D:/myskills/updream",
+  "start": "0",
+  "end": "203.2",
+  "fps": 30,
+  "width": 1280,
+  "height": 720,
+  "out": "D:/myskills/updream/Taiyoukei-Disco/exports/v1/taiyoukei-disco-v1-video.mp4",
+  "workers": 3,
+  "browsers": 3,
+  "channel": "msedge",
+  "mode": "blob",
+  "img": "png",
+  "quality": 95,
+  "inflight": 3,
+  "codec": "nvenc",
+  "cq": 16,
+  "crf": 15,
+  "preset": "p4",
+  "gop": 60,
+  "wcBitrate": 60000000,
+  "audio": null,
+  "audioOffset": 0,
+  "preview": false,
+  "selector": "canvas#out",
+  "keepParts": false,
+  "stats": "D:/myskills/updream/Taiyoukei-Disco/exports/v1/render-stats.json",
+  "allowSoftware": false,
+  "verbose": false,
+  "timeoutReady": 180000
+ },
+ "workers": [
+  {
+   "w": 0,
+   "frames": 2032,
+   "render": 0.37,
+   "read": 33.19,
+   "post": 1.03,
+   "wall": 70.62,
+   "fps": 28.77,
+   "sinkWriteMs": 1.21
+  },
+  {
+   "w": 1,
+   "frames": 2032,
+   "render": 0.35,
+   "read": 35.1,
+   "post": 1,
+   "wall": 74.3,
+   "fps": 27.35,
+   "sinkWriteMs": 1.24
+  },
+  {
+   "w": 2,
+   "frames": 2032,
+   "render": 0.39,
+   "read": 34.36,
+   "post": 1.05,
+   "wall": 73.02,
+   "fps": 27.83,
+   "sinkWriteMs": 1.26
+  }
+ ],
+ "gpu": {
+  "renderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5060 Laptop GPU (0x00002D59) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+  "vendor": "Google Inc. (NVIDIA)",
+  "meta": {
+   "duration": 203.2,
+   "fps": 30
+  },
+  "webcodecs": "function"
+ },
+ "pageInfo": {
+  "duration": 203.2,
+  "fps": 30,
+  "renderer": "Canvas2D-native-1280x720",
+  "shots": 15,
+  "assets": 7
+ },
+ "loadMs": [
+  853,
+  840,
+  843
+ ],
+ "muxSec": 0.65,
+ "frames": 6096,
+ "renderWallSec": 74.32,
+ "fps": 82.02,
+ "totalSec": 78.32
+}

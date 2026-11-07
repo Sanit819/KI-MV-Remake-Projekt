@@ -1,0 +1,55 @@
+{
+  "tested_at_local_date": "2026-11-07",
+  "player": "file:///D:/myskills/updream/Taiyoukei-Disco/exports/v1/watch.html",
+  "environment": "Local Microsoft Edge, Playwright headless, file://, original FLAC muted during automated playback",
+  "result": "passed",
+  "not_auditory_review": true,
+  "review_boundary": "Verified local media loading, clocks, controls and sampled player layout. Did not listen to audio or continuously review all MV frames.",
+  "checks": {
+    "file_url_load": true,
+    "start_playback": true,
+    "pause": true,
+    "paused_seek_186_5": true,
+    "resume": true,
+    "playing_seek_50": true,
+    "fullscreen": true,
+    "natural_end": true,
+    "replay": true,
+    "no_script_errors": true
+  },
+  "load": {
+    "protocol": "file:",
+    "video_duration_seconds": 203.199349,
+    "audio_duration_seconds": 203.2,
+    "video_source": "file:///D:/myskills/updream/Taiyoukei-Disco/exports/v1/taiyoukei-disco-v1-video.mp4",
+    "audio_source": "file:///D:/myskills/updream/Taiyoukei-Disco/local-source/audio/07%20%E5%A4%AA%E9%99%BD%E7%B3%BB%E3%83%87%E3%82%B9%E3%82%B3.flac",
+    "video_width": 1280,
+    "video_height": 720,
+    "video_muted": true,
+    "background": "rgb(255, 100, 82)",
+    "text_color": "rgb(50, 50, 50)",
+    "duration_note": "Browser-reported video duration differs from 203.2 seconds by 0.000651 seconds; accepted with 0.001-second tolerance."
+  },
+  "samples": {
+    "playback": {"audio_seconds": 1.483242, "video_seconds": 1.5232, "absolute_clock_difference_seconds": 0.039958, "audio_paused": false, "video_paused": false, "audio_ended": false, "button": "暂停"},
+    "pause": {"audio_seconds": 1.503959, "video_seconds": 1.544, "absolute_clock_difference_seconds": 0.040041, "audio_paused": true, "video_paused": true, "audio_ended": false, "button": "开始播放", "stable_after_250ms_within_seconds": 0.02},
+    "paused_seek_186_5": {"audio_seconds": 186.5, "video_seconds": 186.5, "absolute_clock_difference_seconds": 0, "audio_paused": true, "video_paused": true, "audio_ended": false, "button": "开始播放"},
+    "resumed": {"audio_seconds": 187.67568, "video_seconds": 187.7158, "absolute_clock_difference_seconds": 0.04012, "audio_paused": false, "video_paused": false, "audio_ended": false, "button": "暂停"},
+    "playing_seek_50": {"audio_seconds": 50.564374, "video_seconds": 50.6031, "absolute_clock_difference_seconds": 0.038726, "audio_paused": false, "video_paused": false, "audio_ended": false, "button": "暂停"},
+    "ended": {"audio_seconds": 203.2, "video_seconds": 203.198349, "absolute_clock_difference_seconds": 0.001651, "audio_paused": true, "video_paused": true, "audio_ended": true, "button": "重新播放"},
+    "replay": {"audio_seconds": 0.269266, "video_seconds": 0.3081, "absolute_clock_difference_seconds": 0.038834, "audio_paused": true, "video_paused": true, "audio_ended": false, "button": "开始播放"}
+  },
+  "script_errors": [],
+  "keyboard_followup": {
+    "reason": "Verified hotkeys still work while a button has focus, after the final key-handler adjustment.",
+    "arrow_right_result_seconds": 5,
+    "f_toggles_fullscreen": true,
+    "space_starts_playback": true,
+    "space_pauses_playback": true
+  },
+  "visual_review": {
+    "viewport": [1000, 770],
+    "sample_seconds": 186.5,
+    "observed": "Japanese title, Astra × ds, red background, dark text, video, seek bar and playback/fullscreen controls displayed without clipping."
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "checks": {
+    "all_58_formal_times_remain_null": true,
+    "formal_sha256_unchanged": true,
+    "flac_sha256_unchanged": true,
+    "exactly_58_candidate_entries": true,
+    "original_ja_zh_preserved": true,
+    "candidate_times_ordered": true,
+    "nine_chapters": true,
+    "rms_matches_6096_frames": true,
+    "all_10_tempo_windows_150": true,
+    "drawing_finishes_before_outro": true
+  },
+  "evidence_limits": "Structural, hash and acoustic-analysis checks; not full video/audio artistic acceptance or ear-listening approval."
+}

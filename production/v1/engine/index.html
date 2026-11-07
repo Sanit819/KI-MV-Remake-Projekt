@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>太陽系デスコ · Astra × ds</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main><canvas id="out" width="1280" height="720"></canvas></main>
+  <section id="transport" hidden>
+    <button id="play" type="button">播放 / 暂停</button>
+    <input id="seek" type="range" min="0" max="203.2" step="0.033333" value="0" aria-label="播放位置">
+    <output id="clock">00:00 / 03:23</output>
+    <p>太陽系デスコ · Astra × ds · 原曲 FLAC</p>
+  </section>
+  <audio id="audio" preload="none" src="../../../local-source/audio/07%20太陽系デスコ.flac"></audio>
+  <script src="film.js"></script>
+</body>
+</html>

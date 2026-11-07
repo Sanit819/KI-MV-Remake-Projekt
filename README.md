@@ -2,13 +2,17 @@
 
 2026-11-07 开启。共享仓库：`Sanit819/KI-MV-Remake-Projekt`；独立工作区：`D:/myskills/updream/Taiyoukei-Disco`；Git 分支名：`太陽系デスコ`。使用独立历史起点，不继承第一企划文件，不混入第二企划未提交制作。
 
-已完成用户指定 MV 的全帧研究，并完成第三企划[全曲剧情v1：把那颗星跳成太阳系](docs/STORY_PROPOSAL_V1.md)。双主演为 **Astra × DeepSeek 大肥鱼**，角色来源为《大AI和小AI们》；见[出演与色调设定](docs/CASTING.md)及[角色原型参考](references/characters/CHARACTER_REFERENCE.md)。用户锁定`┏(ᗜvᗜ)┛`为DeepSeek、`┏(ᗜ-ᗜ)┛`为无口Astra，要求保留原MV疯劲并延续两人共画星的设定。整体色调已确定接近原MV：珊瑚红底、白色人物、黑色大字，蓝紫与紫金作局部点缀；v5角色造型与画风已采纳，舞稿和输出规格尚未锁定。
+已完成用户指定 MV 的全帧研究，并完成第三企划[全曲剧情v1：把那颗星跳成太阳系](docs/STORY_PROPOSAL_V1.md)。双主演为 **Astra × DeepSeek 大肥鱼**，角色来源为《大AI和小AI们》；见[出演与色调设定](docs/CASTING.md)及[角色原型参考](references/characters/CHARACTER_REFERENCE.md)。用户锁定`┏(ᗜvᗜ)┛`为DeepSeek、`┏(ᗜ-ᗜ)┛`为无口Astra，要求保留原MV疯劲并延续两人共画星的设定。整体色调已确定接近原MV：珊瑚红底、白色人物、黑色大字，蓝紫与紫金作局部点缀；v5角色造型与画风已采纳。全曲第一版已完成：720p30、原FLAC、上日语下中文字幕。
 
-剧情以第一企划你与Astra共画的紫金长尾星作为舞会中心，让Astra与DeepSeek一边跳、一边画出蓝紫银河，最终实际交替画完新星。共9段剧情，25个有词叙事单元＋2个间奏／尾声单元，全部58组歌词见[逐句情节表](docs/LYRIC_SCENES_V1.md)和[结构化稿](storyboard/story-proposal-v1.json)。这是无时码语义剧情，尚未制作剧情分镜或动画。
+剧情以第一企划你与Astra共画的紫金长尾星作为舞会中心，让Astra与DeepSeek一边跳、一边画出蓝紫银河，最终实际交替画完新星。共9段剧情，25个有词叙事单元＋2个间奏／尾声单元，全部58组歌词见[逐句情节表](docs/LYRIC_SCENES_V1.md)和[结构化稿](storyboard/story-proposal-v1.json)。语义剧情原稿保留；动画第一版与候选显示时码另存production/v1，不把原提案当成逐项用户确认。
 
 用户进一步要求画风也模仿原MV。最新[双人画风试稿v5](art/style-tests/README.md)（[PNG原图](art/style-tests/astra-ds-mv-style-v5.png)）沿用v4的发型与造型，改成可见断口、笔头未接齐的不闭合草稿线。用户指出v1太精致、v2失去特征、v3发型不符；v4修正后获“这回差不多了”的反馈，用户现已明确采纳v5，作为后续角色造型与画风基准，见[采用登记](art/style-tests/approved-style.json)。后续依用户约定称DeepSeek为ds。
 
 用户原曲与58组日中歌词已收到并保存：FLAC为44.1kHz／16-bit／双声道／03:23.200，原件、副本与内部PCM校验通过。见[材料登记](MATERIALS.md)及[参考音轨比对](docs/AUDIO_REFERENCE_COMPARISON.md)。歌词正式时码尚未标定。
+
+## 第一版看片
+
+[打开播放器](exports/v1/watch.html) · [完整MKV（原FLAC）](exports/v1/taiyoukei-disco-v1-720p30-flac.mkv) · [制作说明](production/v1/README.md) · [交付检查](docs/DELIVERY_V1.md)。203.2秒／6096帧，未上传，待用户审看。最新配色按用户截图取样为#FF6452与#323232。
 
 ## 阅读入口
 
@@ -41,4 +45,4 @@ python tools/build_review.py
 
 ## 后续接续
 
-先读`AGENTS.md`、`docs/STORY_PROPOSAL_V1.md`和`docs/CASTING.md`。主演、表情与共画星要求已确定，剧情v1已有58组歌词完整映射；少量舞姿循环、文字编排、段落例外的研究用于本片表演设计。精确歌词对时、正式分镜、原画和动画尚未完成。第一企划冻结，第二企划保留现有30秒审查节点。
+先读`AGENTS.md`、`docs/DELIVERY_V1.md`与`docs/PROJECT_HANDOFF.md`。全曲有限动画第一版已完成，仍待用户审看；逐音节人工对时尚未完成，显示时码独立保存在production/v1/timeline。第一企划冻结，第二企划保留现有30秒审查节点。

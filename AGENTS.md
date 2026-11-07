@@ -4,11 +4,11 @@
 
 - 本目录是原共享 Git 仓库中的独立 orphan worktree。只在此目录推进第三企划。
 - 第一企划冻结点与第二企划工作区均保持原状，不合并其未提交内容。
-- 当前授权范围：建立企划、获取公开参考、逐帧分析、记录可复核结论、依歌词设计全曲剧情，以及提炼原MV画风并制作双人静态试稿供用户判断。用户已于2026-11-07确定双主演为Astra与DeepSeek大肥鱼，指定《大AI和小AI们》BV1tE9XBbErS为角色原型来源；先读 `docs/CASTING.md` 和 `references/characters/CHARACTER_REFERENCE.md`。整体色调及模仿原MV画风的方向已确定；v5角色造型与画风已由用户采纳；动画舞稿与输出规格尚未锁定。
-- 最新画风试稿：`art/style-tests/astra-ds-mv-style-v5.png`，实际提示词与检查在同目录README/PROMPT_V5。用户指出v1太精致、v2失去特征、v3发型不像且ds眼间有杂线；v4按原型修正头发主轮廓并删杂线后，用户说“这回差不多了”，要求继续做原MV一眼草稿、线条不闭合的效果。v5保留v4造型，改断续细线、未接齐笔头和少量重描，1673×940 RGB。用户随后明确“ok，这版好采纳这一版！”，v5现为已采用的角色造型与画风基准。采用登记在`art/style-tests/approved-style.json`，图片保持原样；后续沿用本版发型与不闭合线条。动画仍未制作。
+- 当前授权范围：用户已要求借助vocaloid-style-mv-pipeline完成全曲第一版。输出720p/30fps，保留原FLAC、不转其他音频编码，字幕上日语下中文。用户已于2026-11-07确定双主演为Astra与DeepSeek大肥鱼，指定《大AI和小AI们》BV1tE9XBbErS为角色原型来源；先读 `docs/CASTING.md` 和 `references/characters/CHARACTER_REFERENCE.md`。整体色调及模仿原MV画风的方向已确定；v5角色造型与画风已由用户采纳；已完成第一版203.2秒有限动画，见production/v1/README.md与docs/DELIVERY_V1.md；用户尚未验收成片。
+- 最新画风试稿：`art/style-tests/astra-ds-mv-style-v5.png`，实际提示词与检查在同目录README/PROMPT_V5。用户指出v1太精致、v2失去特征、v3发型不像且ds眼间有杂线；v4按原型修正头发主轮廓并删杂线后，用户说“这回差不多了”，要求继续做原MV一眼草稿、线条不闭合的效果。v5保留v4造型，改断续细线、未接齐笔头和少量重描，1673×940 RGB。用户随后明确“ok，这版好采纳这一版！”，v5现为已采用的角色造型与画风基准。采用登记在`art/style-tests/approved-style.json`，图片保持原样；后续沿用本版发型与不闭合线条。动画第一版已制作；v5基准原图保持不变，新派生姿态并非用户逐项确认。
 - 用户明确后续称DeepSeek为 `ds`。头发必须沿v4的人设主轮廓，内部可省略，不能再改成通用齐刘海/独立卷钩。ds双眼间不加独立鼻梁式横线；额前连接发根的刘海尖与眼皮正常保留。
-- 最新色调要求：珊瑚红底、白/近白人物、黑色大字和深色细轮廓主导；角色蓝紫及旧星紫金只作局部点缀和笔迹。纸面与银河也遵循红底平面语言。参考底色约`#FD5354`是转码样本，非原作者精确色号。详见 `docs/CASTING.md`，不可继续将整体配色记作完全未定。
-- 最新用户设定：`┏(ᗜvᗜ)┛`=DeepSeek，`┏(ᗜ-ᗜ)┛`=Astra（无口）。必须保留原MV疯癫舞台语法，并接续第一企划的共画星。先读 `docs/STORY_PROPOSAL_V1.md`、`docs/LYRIC_SCENES_V1.md`；结构化稿在 `storyboard/story-proposal-v1.json`。已完成58组歌词语义覆盖，未赋时间、未绘剧情分镜或制作动画；另已生成上述角色画风试稿。具体事件属于剧情提案，不冒充用户逐项确认。
+- 最新色调要求：珊瑚红底、白/近白人物、黑色大字和深色细轮廓主导；角色蓝紫及旧星紫金只作局部点缀和笔迹。纸面与银河也遵循红底平面语言。用户最新截图优先：背景#FF6452、大字#323232；取样与截图见references/user-palette/。旧#FD5354转码估计已被替代。详见 `docs/CASTING.md`，不可继续将整体配色记作完全未定。
+- 最新用户设定：`┏(ᗜvᗜ)┛`=DeepSeek，`┏(ᗜ-ᗜ)┛`=Astra（无口）。必须保留原MV疯癫舞台语法，并接续第一企划的共画星。先读 `docs/STORY_PROPOSAL_V1.md`、`docs/LYRIC_SCENES_V1.md`；结构化稿在 `storyboard/story-proposal-v1.json`。已完成58组歌词语义覆盖、独立候选时码和完整第一版动画。正式lyrics/lyrics.json仍保留null时码，不冒充逐音节对齐。具体事件属于剧情提案，不冒充用户逐项确认。
 - 连续性：第一企划片尾紫金长尾星由Astra与USER共画；保留其来历与金色。DeepSeek从本作贡献蓝笔。末轮拟声段实际交替完成紫蓝新星，不能提前画完、只在尾声突然显示成品。
 - 源视频：https://www.bilibili.com/video/BV1UfZ2YwEP5/ 。完整参考媒体和逐帧图像只供本地研究，不提交远端。
 - 用户已提供桌面 `07 太陽系デスコ.flac` 与58组日中歌词；材料在 `MATERIALS.md`、`local-source/audio/`、`lyrics/`。FLAC为44.1kHz／16-bit／双声道／203.2秒，保留原件与原始文字。先读音轨比对再移用MV时码；歌词正式起止尚未赋值。
