@@ -2,7 +2,7 @@
 
 2026-11-07 开启。共享仓库：`Sanit819/KI-MV-Remake-Projekt`；独立工作区：`D:/myskills/updream/Taiyoukei-Disco`；Git 分支名：`太陽系デスコ`。使用独立历史起点，不继承第一企划文件，不混入第二企划未提交制作。
 
-已完成用户指定 MV 的全帧研究，并完成第三企划[全曲剧情v1：把那颗星跳成太阳系](docs/STORY_PROPOSAL_V1.md)。双主演为 **Astra × DeepSeek 大肥鱼**，角色来源为《大AI和小AI们》；见[出演设定](docs/CASTING.md)与[角色原型参考](references/characters/CHARACTER_REFERENCE.md)。用户锁定`┏(ᗜvᗜ)┛`为DeepSeek、`┏(ᗜ-ᗜ)┛`为无口Astra，要求保留原MV疯劲并延续两人共画星的设定。正式画风、舞稿和输出规格尚未锁定。
+已完成用户指定 MV 的全帧研究，并完成第三企划[全曲剧情v1：把那颗星跳成太阳系](docs/STORY_PROPOSAL_V1.md)。双主演为 **Astra × DeepSeek 大肥鱼**，角色来源为《大AI和小AI们》；见[出演与色调设定](docs/CASTING.md)及[角色原型参考](references/characters/CHARACTER_REFERENCE.md)。用户锁定`┏(ᗜvᗜ)┛`为DeepSeek、`┏(ᗜ-ᗜ)┛`为无口Astra，要求保留原MV疯劲并延续两人共画星的设定。整体色调已确定接近原MV：珊瑚红底、白色人物、黑色大字，蓝紫与紫金作局部点缀；具体线稿、舞稿和输出规格尚未锁定。
 
 剧情以第一企划你与Astra共画的紫金长尾星作为舞会中心，让Astra与DeepSeek一边跳、一边画出蓝紫银河，最终实际交替画完新星。共9段剧情，25个有词叙事单元＋2个间奏／尾声单元，全部58组歌词见[逐句情节表](docs/LYRIC_SCENES_V1.md)和[结构化稿](storyboard/story-proposal-v1.json)。这是无时码语义剧情，尚未制作画稿或动画。
 

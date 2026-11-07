@@ -1,5 +1,7 @@
 # 第三企划接续 · 2026-11-07
 
+最新用户要求整体色调与原MV接近，已记入[出演与色调设定](CASTING.md)：珊瑚红大面积底、白／近白人物、黑色大字和深色细轮廓；蓝紫角色识别色、紫金旧星与紫蓝新笔迹作为局部点缀。纸面、校舍、银河都维持红底平面视觉关系；共画近景允许局部放大笔迹。底色约`#FD5354`仅为参考转码样本近似。此项是已确定的用户方向，具体画稿尚未生成。
+
 最新完成：[全曲剧情v1](STORY_PROPOSAL_V1.md)与[58组逐歌词情节表](LYRIC_SCENES_V1.md)，结构化稿为`storyboard/story-proposal-v1.json`。用户锁定`┏(ᗜvᗜ)┛`为DeepSeek、`┏(ᗜ-ᗜ)┛`为无口Astra，要求保留原MV疯癫风格、沿用第一企划共画星。9段剧情／25个有词叙事单元＋2个无词单元覆盖全部58组歌词；均未赋精确时间，未生图、未绘正式分镜或渲染。
 
 连续性已核第一企划最终脚本及编码末帧：紫金长尾星由Astra与USER共同完成；DeepSeek当时另为AI卡牌客串，不能把金色追认为她。本次旧星成为舞会中心，DeepSeek添蓝线，与Astra共舞、画银河，最终在末轮拟声段实际交替画完紫蓝新星。Astra最后加一个意料外的小弯，DeepSeek接受；保留两位的主动性。舞台麻花轨道把两人弹开后共同伸手，迅速回双人舞，不重演旧作控制／失落剧情。第八段只画舞路，第九段才开始新五角星，避免提前或重复画完。
@@ -14,7 +16,7 @@
 
 主要方法：稳定双人站位、少量完整换姿、局部12帧保持/24帧往返；粗字的字号、显字、密度和前后遮挡；四周Q版短事件；后段光效与12帧反色。f1965保留单帧混合姿态观察；不自行定为作者错误。片尾无黑场。
 
-用户随后已确定 **Astra 与 DeepSeek 大肥鱼双主演**，提供《大AI和小AI们》BV1tE9XBbErS作为角色原型来源。已看全时段1秒采样及两位大小版本，来源名GPT的白发龙娘在本企划承接Astra；DeepSeek为蓝发女仆鲸尾形象。先读`docs/CASTING.md`和`references/characters/CHARACTER_REFERENCE.md`。正式画风、舞稿与输出规格未锁定，不能自动沿用第一/第二企划规格。
+用户随后已确定 **Astra 与 DeepSeek 大肥鱼双主演**，提供《大AI和小AI们》BV1tE9XBbErS作为角色原型来源。已看全时段1秒采样及两位大小版本，来源名GPT的白发龙娘在本企划承接Astra；DeepSeek为蓝发女仆鲸尾形象。先读`docs/CASTING.md`和`references/characters/CHARACTER_REFERENCE.md`。整体色调已按最新要求确定，具体线稿、舞稿与输出规格未锁定，不能自动沿用第一/第二企划规格。
 
 用户原曲与歌词也已收到：桌面`07 太陽系デスコ.flac`逐字节副本在`local-source/audio/`，44.1kHz／16-bit／双声道，203.2秒，原件/副本SHA及内部PCM MD5验证通过。`lyrics/user-provided.txt`保留全部58组日中对照与署名/结束标记；`lyrics/lyrics.json`的起止仍全部为null。先读`MATERIALS.md`、`docs/AUDIO_REFERENCE_COMPARISON.md`；参考MV与此FLAC的内容时间存在约84毫秒差，不能直接把原MV帧时码当作FLAC唱词时码。
 

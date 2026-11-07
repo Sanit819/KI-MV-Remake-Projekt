@@ -130,6 +130,15 @@ def main():
         "lyrics_json_sha256": hashlib.sha256(lyrics_bytes).hexdigest(),
         "lyrics_text_sha256": lyrics["source_text_sha256"],
         "casting": {"DeepSeek": "┏(ᗜvᗜ)┛", "Astra": "┏(ᗜ-ᗜ)┛"},
+        "art_direction": {
+            "user_requirement": "整体色调与原MV接近",
+            "base": "Coral red background, white/near-white flat figures, black heavy typography and fine dark outlines",
+            "reference_background_sample": "#FD5354 (approximate transcoded/JPEG frame sample, not original author palette)",
+            "accents": "Astra purple, DeepSeek blue and legacy star gold restricted to local details and drawn marks; drawing closeups may enlarge them",
+            "stage": "Paper, school prop and galaxy remain within the coral-red flat stage language",
+            "specification": "docs/CASTING.md",
+            "status": "user_direction_recorded_no_artwork_generated",
+        },
         "continuity": {
             "legacy_star": "First project final purple/gold hollow long-tail star; Astra + USER",
             "new_marks": "Astra purple + DeepSeek blue; old gold remains gold",
