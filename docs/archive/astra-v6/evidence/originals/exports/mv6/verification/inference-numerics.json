@@ -1,0 +1,132 @@
+{
+  "scope": "Authored deterministic visual demonstration, not external detector or real-world benchmark",
+  "kalman": {
+    "samples": 430,
+    "dt": 0.016666666666666666,
+    "processNoise": 4,
+    "measurementVariance": 0.0021,
+    "afterWarmupSamples": 420,
+    "observedRMSE": 0.046137265212372526,
+    "filteredRMSE": 0.020124040880188123,
+    "maxSymmetryError": 0
+  },
+  "matching": {
+    "kind": "point-association",
+    "coordinateSpace": "normalized",
+    "left": [
+      [
+        0.25,
+        0.35
+      ],
+      [
+        0.33,
+        0.36
+      ],
+      [
+        0.8,
+        0.68
+      ]
+    ],
+    "right": [
+      [
+        0.31,
+        0.35
+      ],
+      [
+        0.08,
+        0.3
+      ],
+      [
+        0.82,
+        0.7
+      ]
+    ],
+    "costs": [
+      [
+        0.0036,
+        0.0314,
+        0.44739999999999996
+      ],
+      [
+        0.0005000000000000009,
+        0.0661,
+        0.3556999999999999
+      ],
+      [
+        0.3490000000000001,
+        0.6628000000000002,
+        0.0007999999999999926
+      ]
+    ],
+    "costMatrix": [
+      [
+        0.0036,
+        0.0314,
+        0.44739999999999996
+      ],
+      [
+        0.0005000000000000009,
+        0.0661,
+        0.3556999999999999
+      ],
+      [
+        0.3490000000000001,
+        0.6628000000000002,
+        0.0007999999999999926
+      ]
+    ],
+    "nearest": [
+      0,
+      0,
+      2
+    ],
+    "nearestHasConflict": true,
+    "greedy": {
+      "assignment": [
+        0,
+        1,
+        2
+      ],
+      "totalCost": 0.07050000000000001
+    },
+    "optimal": {
+      "assignment": [
+        1,
+        0,
+        2
+      ],
+      "rowToColumn": [
+        1,
+        0,
+        2
+      ],
+      "columnToRow": [
+        1,
+        0,
+        2
+      ],
+      "pairs": [
+        {
+          "row": 0,
+          "column": 1,
+          "cost": 0.0314
+        },
+        {
+          "row": 1,
+          "column": 0,
+          "cost": 0.0005000000000000009
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "cost": 0.0007999999999999926
+        }
+      ],
+      "totalCost": 0.03269999999999999,
+      "cardinality": 3,
+      "unmatchedRows": [],
+      "unmatchedColumns": []
+    },
+    "improvement": 0.037800000000000014
+  }
+}

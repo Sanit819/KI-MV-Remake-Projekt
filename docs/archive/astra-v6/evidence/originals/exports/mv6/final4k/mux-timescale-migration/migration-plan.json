@@ -1,0 +1,333 @@
+{
+  "schema": 1,
+  "createdAt": "2026-11-07T06:36:14.596Z",
+  "oldRendererBackup": "D:\\myskills\\updream\\Astra-VFX-Lab\\exports\\mv6\\final4k\\mux-timescale-migration\\render_mv6.before.mjs",
+  "oldParallelBackup": "D:\\myskills\\updream\\Astra-VFX-Lab\\exports\\mv6\\final4k\\mux-timescale-migration\\render_mv6_parallel.before.mjs",
+  "oldSourceHash": "fdeed27d6e540d70b507326150bee6972a8712654cfa89c9a88a792fe48c946a",
+  "reconstructedOldSourceHash": "fdeed27d6e540d70b507326150bee6972a8712654cfa89c9a88a792fe48c946a",
+  "newSourceHash": "059be3a8159f8b295244daae1d2bf62a826dd569f58e68f1c5322f7b36e54c18",
+  "proof": [
+    {
+      "label": "capture renderer",
+      "beforeSha256": "ee6e63a2062e1e72b06b9c2cf8c3d55bbc8bf157acd11b88f6721cd347d2909e",
+      "afterSha256": "e3d843568d1a73d88085ef422abf65e5cfbf801f3801633ba7d0d2a93fdc2d33",
+      "insertedLiteral": "'-movie_timescale','60000',",
+      "insertionCount": 2,
+      "strippedByteIdentical": true,
+      "onlyAdditionalChangeIsCRLFvsLF": false,
+      "beforeLineEndings": {
+        "crlf": 191,
+        "bareLf": 0,
+        "loneCr": 0
+      },
+      "afterLineEndings": {
+        "crlf": 191,
+        "bareLf": 0,
+        "loneCr": 0
+      }
+    },
+    {
+      "label": "parallel assembly",
+      "beforeSha256": "b16f59fea54eb820515751f9438e873d7258cce9adb0f1f115c13a25cd1939f6",
+      "afterSha256": "46d5315c10472abbfa2927ed5b58a2aa559f37d2a06dc7b93e8e440ee0d3d5b4",
+      "insertedLiteral": "'-movie_timescale','60000',",
+      "insertionCount": 1,
+      "strippedByteIdentical": true,
+      "onlyAdditionalChangeIsCRLFvsLF": false,
+      "beforeLineEndings": {
+        "crlf": 188,
+        "bareLf": 0,
+        "loneCr": 0
+      },
+      "afterLineEndings": {
+        "crlf": 188,
+        "bareLf": 0,
+        "loneCr": 0
+      }
+    }
+  ],
+  "preservedFrames": 6275,
+  "chunkCoverage": [
+    {
+      "part": "p1",
+      "first": 0,
+      "end": 600,
+      "frames": 600
+    },
+    {
+      "part": "p1",
+      "first": 600,
+      "end": 1200,
+      "frames": 600
+    },
+    {
+      "part": "p1",
+      "first": 1200,
+      "end": 1800,
+      "frames": 600
+    },
+    {
+      "part": "p1",
+      "first": 1800,
+      "end": 2400,
+      "frames": 600
+    },
+    {
+      "part": "p1",
+      "first": 2400,
+      "end": 3000,
+      "frames": 600
+    },
+    {
+      "part": "p2",
+      "first": 3275,
+      "end": 3875,
+      "frames": 600
+    },
+    {
+      "part": "p2",
+      "first": 3875,
+      "end": 4475,
+      "frames": 600
+    },
+    {
+      "part": "p2",
+      "first": 4475,
+      "end": 5075,
+      "frames": 600
+    },
+    {
+      "part": "p2",
+      "first": 5075,
+      "end": 5675,
+      "frames": 600
+    },
+    {
+      "part": "p2",
+      "first": 5675,
+      "end": 6275,
+      "frames": 600
+    },
+    {
+      "part": "p2",
+      "first": 6275,
+      "end": 6550,
+      "frames": 275
+    }
+  ],
+  "encodedFiles": [
+    {
+      "file": "D:\\myskills\\updream\\Astra-VFX-Lab\\exports\\mv6\\final4k\\parts\\p1.chunks\\f000000-000600.mp4",
+      "sha256": "c5782791d0a13b2c75929079a6558c909d36ae738bb8cdaab8e34492d486fe4c"
+    },
+    {
+      "file": "D:\\myskills\\updream\\Astra-VFX-Lab\\exports\\mv6\\final4k\\parts\\p1.chunks\\f000600-001200.mp4",
+      "sha256": "9aed6ed670a88cf8f37d53218739c9a0feb7391e0e91c75b62e162fa25a210e0"
+    },
+    {
+      "file": "D:\\myskills\\updream\\Astra-VFX-Lab\\exports\\mv6\\final4k\\parts\\p1.chunks\\f001200-001800.mp4",
+      "sha256": "46e9f2b3b20e64c780f9d9335ed1ba1443a591a5b7b03f2d6ec208fba4d7f027"
+    },
+    {
+      "file": "D:\\myskills\\updream\\Astra-VFX-Lab\\exports\\mv6\\final4k\\parts\\p1.chunks\\f001800-002400.mp4",
+      "sha256": "693bda2845976a76e54e2607347fc4ee9e0245079ea5ff08197d9bde83701cac"
+    },
+    {
+      "file": "D:\\myskills\\updream\\Astra-VFX-Lab\\exports\\mv6\\final4k\\parts\\p1.chunks\\f002400-003000.mp4",
+      "sha256": "84b43f86e4f4011723a16c43ac5369c03076852af4c314d04d577c0289c12242"
+    },
+    {
+      "file": "D:\\myskills\\updream\\Astra-VFX-Lab\\exports\\mv6\\final4k\\parts\\p2.chunks\\f003275-003875.mp4",
+      "sha256": "4cc55a7ef2c26d7ff524054e5244a8f890bf77ba12ab017a59986df69b957cbc"
+    },
+    {
+      "file": "D:\\myskills\\updream\\Astra-VFX-Lab\\exports\\mv6\\final4k\\parts\\p2.chunks\\f003875-004475.mp4",
+      "sha256": "9af41205cb6990a9b9509df3bd65fbdb534cb8be14b0bfdb2d5c40d14736c6cb"
+    },
+    {
+      "file": "D:\\myskills\\updream\\Astra-VFX-Lab\\exports\\mv6\\final4k\\parts\\p2.chunks\\f004475-005075.mp4",
+      "sha256": "e154be427258191ab73dc9ec4562eee17eb4994a7dd1a9a41cadb3d21be188a7"
+    },
+    {
+      "file": "D:\\myskills\\updream\\Astra-VFX-Lab\\exports\\mv6\\final4k\\parts\\p2.chunks\\f005075-005675.mp4",
+      "sha256": "b873e5f0094b720347762061d2ad1d27132ad3c9b7950118e975f402d956f324"
+    },
+    {
+      "file": "D:\\myskills\\updream\\Astra-VFX-Lab\\exports\\mv6\\final4k\\parts\\p2.chunks\\f005675-006275.mp4",
+      "sha256": "dfc69384ec3eba6d19a280e7f1ad456fd08cd6c684f372da996ab5caf7767640"
+    },
+    {
+      "file": "D:\\myskills\\updream\\Astra-VFX-Lab\\exports\\mv6\\final4k\\parts\\p2.chunks\\f006275-006550.mp4",
+      "sha256": "7de8a344b55c7813b8e5d024c188167d7e666729d61801f479614d5977ecc2fb"
+    },
+    {
+      "file": "D:\\myskills\\updream\\Astra-VFX-Lab\\exports\\mv6\\final4k\\parts\\p2.mp4",
+      "sha256": "440617ce9bd018f2a541eb4f117a3cefb4c4ee2129fcefc3cdc041b4f9c3d40f"
+    }
+  ],
+  "entries": [
+    {
+      "file": "D:\\myskills\\updream\\Astra-VFX-Lab\\exports\\mv6\\final4k\\parts\\p1.chunks\\f000000-000600.json",
+      "role": "captured-chunk",
+      "part": "p1",
+      "originalBackup": "D:\\myskills\\updream\\Astra-VFX-Lab\\exports\\mv6\\final4k\\mux-timescale-migration\\original-metadata\\p1.chunks\\f000000-000600.json",
+      "originalReportSha256": "aa7aa4ce04e7570b28e1d542f6d228667b62f0294e36e7e01fa06cf1b86c77d1",
+      "newReportSha256": "1b98363e98a510314d94ec204657475e60ba209a2fd24e34c51d2b593dac9fcf",
+      "oldFingerprint": "557b522f2523783a553f8a69e22aa93e682efcffbf1bbcc53b7589926338a205",
+      "newFingerprint": "cd32bce46fe89d5b783b0db9354e2d82475fe71a7eb8e1fadc3e8ddf5fd11f7b"
+    },
+    {
+      "file": "D:\\myskills\\updream\\Astra-VFX-Lab\\exports\\mv6\\final4k\\parts\\p1.chunks\\f000600-001200.json",
+      "role": "captured-chunk",
+      "part": "p1",
+      "originalBackup": "D:\\myskills\\updream\\Astra-VFX-Lab\\exports\\mv6\\final4k\\mux-timescale-migration\\original-metadata\\p1.chunks\\f000600-001200.json",
+      "originalReportSha256": "72ea46bfc9b5cf6c5676d7d5a0b7f3ffe6c5d037ca0dd92ed6f874e9e4475bfc",
+      "newReportSha256": "ea2e10dacdd88a28b1c404c854c925c388b9c763fa1bb4a508e85de28f5422d9",
+      "oldFingerprint": "557b522f2523783a553f8a69e22aa93e682efcffbf1bbcc53b7589926338a205",
+      "newFingerprint": "cd32bce46fe89d5b783b0db9354e2d82475fe71a7eb8e1fadc3e8ddf5fd11f7b"
+    },
+    {
+      "file": "D:\\myskills\\updream\\Astra-VFX-Lab\\exports\\mv6\\final4k\\parts\\p1.chunks\\f001200-001800.json",
+      "role": "captured-chunk",
+      "part": "p1",
+      "originalBackup": "D:\\myskills\\updream\\Astra-VFX-Lab\\exports\\mv6\\final4k\\mux-timescale-migration\\original-metadata\\p1.chunks\\f001200-001800.json",
+      "originalReportSha256": "c7872a85c2c3107a7cea4c92254f27fc43746f4b904d87b328db311ade8867bb",
+      "newReportSha256": "ca2e2b783cb1d2993f4d8cf130cce75485a6808c23c0e3fcb0e46fb5fbb6c17f",
+      "oldFingerprint": "557b522f2523783a553f8a69e22aa93e682efcffbf1bbcc53b7589926338a205",
+      "newFingerprint": "cd32bce46fe89d5b783b0db9354e2d82475fe71a7eb8e1fadc3e8ddf5fd11f7b"
+    },
+    {
+      "file": "D:\\myskills\\updream\\Astra-VFX-Lab\\exports\\mv6\\final4k\\parts\\p1.chunks\\f001800-002400.json",
+      "role": "captured-chunk",
+      "part": "p1",
+      "originalBackup": "D:\\myskills\\updream\\Astra-VFX-Lab\\exports\\mv6\\final4k\\mux-timescale-migration\\original-metadata\\p1.chunks\\f001800-002400.json",
+      "originalReportSha256": "6491344decbcdefd4c21605f20aac398456def169f9ee3ee25692ff7469f819f",
+      "newReportSha256": "ae0f763046811636318cf82d156daeab100316da168886678fdb30ff27923f7b",
+      "oldFingerprint": "557b522f2523783a553f8a69e22aa93e682efcffbf1bbcc53b7589926338a205",
+      "newFingerprint": "cd32bce46fe89d5b783b0db9354e2d82475fe71a7eb8e1fadc3e8ddf5fd11f7b"
+    },
+    {
+      "file": "D:\\myskills\\updream\\Astra-VFX-Lab\\exports\\mv6\\final4k\\parts\\p1.chunks\\f002400-003000.json",
+      "role": "captured-chunk",
+      "part": "p1",
+      "originalBackup": "D:\\myskills\\updream\\Astra-VFX-Lab\\exports\\mv6\\final4k\\mux-timescale-migration\\original-metadata\\p1.chunks\\f002400-003000.json",
+      "originalReportSha256": "dc34cf1bd87fe6d58cd09ed54c0d4c398c9e014c0a253b15d8a8851c7e407911",
+      "newReportSha256": "ac43aac841e5b701d3609add64cfbb4703e75218ef2b42b2e5efe6a66a39cad8",
+      "oldFingerprint": "557b522f2523783a553f8a69e22aa93e682efcffbf1bbcc53b7589926338a205",
+      "newFingerprint": "cd32bce46fe89d5b783b0db9354e2d82475fe71a7eb8e1fadc3e8ddf5fd11f7b"
+    },
+    {
+      "file": "D:\\myskills\\updream\\Astra-VFX-Lab\\exports\\mv6\\final4k\\parts\\p2.chunks\\f003275-003875.json",
+      "role": "captured-chunk",
+      "part": "p2",
+      "originalBackup": "D:\\myskills\\updream\\Astra-VFX-Lab\\exports\\mv6\\final4k\\mux-timescale-migration\\original-metadata\\p2.chunks\\f003275-003875.json",
+      "originalReportSha256": "f08331b82cc1e133b4234a8fe8f778fd697a6f0422bbef3f2cad79398e1069e3",
+      "newReportSha256": "cd1ac9d3c8ee4e90d778f1e3363956cc43ea17a5a4397b3593d8f7ab9f058234",
+      "oldFingerprint": "7826a47935def1ec68730311d70ed737344d037c636de8ad9b630b75a51e34c5",
+      "newFingerprint": "a3282ca384d0ce0e2b99d19abfc094d0ac1094dd9c47fa08f6f27da7e44ef26a"
+    },
+    {
+      "file": "D:\\myskills\\updream\\Astra-VFX-Lab\\exports\\mv6\\final4k\\parts\\p2.chunks\\f003875-004475.json",
+      "role": "captured-chunk",
+      "part": "p2",
+      "originalBackup": "D:\\myskills\\updream\\Astra-VFX-Lab\\exports\\mv6\\final4k\\mux-timescale-migration\\original-metadata\\p2.chunks\\f003875-004475.json",
+      "originalReportSha256": "d4b6520a1f4c7c1fe126709c5c92a3b29011576122235c6a77aaef2308bb6433",
+      "newReportSha256": "d4c96562bd821697d1da4abdcda99985c896b6a765e429b1302e3f89323d39d3",
+      "oldFingerprint": "7826a47935def1ec68730311d70ed737344d037c636de8ad9b630b75a51e34c5",
+      "newFingerprint": "a3282ca384d0ce0e2b99d19abfc094d0ac1094dd9c47fa08f6f27da7e44ef26a"
+    },
+    {
+      "file": "D:\\myskills\\updream\\Astra-VFX-Lab\\exports\\mv6\\final4k\\parts\\p2.chunks\\f004475-005075.json",
+      "role": "captured-chunk",
+      "part": "p2",
+      "originalBackup": "D:\\myskills\\updream\\Astra-VFX-Lab\\exports\\mv6\\final4k\\mux-timescale-migration\\original-metadata\\p2.chunks\\f004475-005075.json",
+      "originalReportSha256": "f43e31f2288a691bf6862e78b165c0338396544b1863f5ba01ac030435572853",
+      "newReportSha256": "0318c73f1be6b841b8f6559f13e90936c4fd455e538332e7b6c0d323fdd4b468",
+      "oldFingerprint": "7826a47935def1ec68730311d70ed737344d037c636de8ad9b630b75a51e34c5",
+      "newFingerprint": "a3282ca384d0ce0e2b99d19abfc094d0ac1094dd9c47fa08f6f27da7e44ef26a"
+    },
+    {
+      "file": "D:\\myskills\\updream\\Astra-VFX-Lab\\exports\\mv6\\final4k\\parts\\p2.chunks\\f005075-005675.json",
+      "role": "captured-chunk",
+      "part": "p2",
+      "originalBackup": "D:\\myskills\\updream\\Astra-VFX-Lab\\exports\\mv6\\final4k\\mux-timescale-migration\\original-metadata\\p2.chunks\\f005075-005675.json",
+      "originalReportSha256": "20230fbaf3f4cf59f1de09c0c2b98fa0990ebeb51c621cdc2d63b28849df994d",
+      "newReportSha256": "78f98ca9ecc555251f0ed593df12b04a08aa5f878920da0f9799baea3cf8a3be",
+      "oldFingerprint": "7826a47935def1ec68730311d70ed737344d037c636de8ad9b630b75a51e34c5",
+      "newFingerprint": "a3282ca384d0ce0e2b99d19abfc094d0ac1094dd9c47fa08f6f27da7e44ef26a"
+    },
+    {
+      "file": "D:\\myskills\\updream\\Astra-VFX-Lab\\exports\\mv6\\final4k\\parts\\p2.chunks\\f005675-006275.json",
+      "role": "captured-chunk",
+      "part": "p2",
+      "originalBackup": "D:\\myskills\\updream\\Astra-VFX-Lab\\exports\\mv6\\final4k\\mux-timescale-migration\\original-metadata\\p2.chunks\\f005675-006275.json",
+      "originalReportSha256": "9f9bf115b366b927a2545f46228069d3dc4c692a99204a4515209c530588bd19",
+      "newReportSha256": "e5dd4c2d414d85c52c0242666a5e88dab76e6cef4a1395e38ce21ad156840731",
+      "oldFingerprint": "7826a47935def1ec68730311d70ed737344d037c636de8ad9b630b75a51e34c5",
+      "newFingerprint": "a3282ca384d0ce0e2b99d19abfc094d0ac1094dd9c47fa08f6f27da7e44ef26a"
+    },
+    {
+      "file": "D:\\myskills\\updream\\Astra-VFX-Lab\\exports\\mv6\\final4k\\parts\\p2.chunks\\f006275-006550.json",
+      "role": "captured-chunk",
+      "part": "p2",
+      "originalBackup": "D:\\myskills\\updream\\Astra-VFX-Lab\\exports\\mv6\\final4k\\mux-timescale-migration\\original-metadata\\p2.chunks\\f006275-006550.json",
+      "originalReportSha256": "948cae68879b7e3406dd156588c65edc3312fd58b978fa8e9f5f223e4c9ad48b",
+      "newReportSha256": "3e2cef5dedf55a9de6de33baefeaa16cd22e24f01eb706fa0d31b03496ae7cc8",
+      "oldFingerprint": "7826a47935def1ec68730311d70ed737344d037c636de8ad9b630b75a51e34c5",
+      "newFingerprint": "a3282ca384d0ce0e2b99d19abfc094d0ac1094dd9c47fa08f6f27da7e44ef26a"
+    },
+    {
+      "file": "D:\\myskills\\updream\\Astra-VFX-Lab\\exports\\mv6\\final4k\\parts\\p2.render.json",
+      "role": "completed-part",
+      "part": "p2",
+      "originalBackup": "D:\\myskills\\updream\\Astra-VFX-Lab\\exports\\mv6\\final4k\\mux-timescale-migration\\original-metadata\\p2.render.json",
+      "originalReportSha256": "fd183ea40a6028df2a30aed81fcd3b21ed49a06283863ba896ba4fc88ad961ab",
+      "newReportSha256": "c191fb22a39deb9982dac0d3387d12c66600739549591499ec96881b8903cd14",
+      "oldFingerprint": "7826a47935def1ec68730311d70ed737344d037c636de8ad9b630b75a51e34c5",
+      "newFingerprint": "a3282ca384d0ce0e2b99d19abfc094d0ac1094dd9c47fa08f6f27da7e44ef26a"
+    },
+    {
+      "file": "D:\\myskills\\updream\\Astra-VFX-Lab\\exports\\mv6\\final4k\\parts\\p1.chunks\\checkpoint.json",
+      "role": "resume-checkpoint",
+      "part": "p1",
+      "originalBackup": "D:\\myskills\\updream\\Astra-VFX-Lab\\exports\\mv6\\final4k\\mux-timescale-migration\\original-metadata\\p1.chunks\\checkpoint.json",
+      "originalReportSha256": "d2ad1d36b0bb1c0b39856a61173de035dfbb994eb82f5db931db3387e28d5516",
+      "newReportSha256": "b1da26440dcc0f3fe2dd549b68a5be51d24b60a90be06a13b68053dc0c3d8712",
+      "oldFingerprint": "557b522f2523783a553f8a69e22aa93e682efcffbf1bbcc53b7589926338a205",
+      "newFingerprint": "cd32bce46fe89d5b783b0db9354e2d82475fe71a7eb8e1fadc3e8ddf5fd11f7b"
+    },
+    {
+      "file": "D:\\myskills\\updream\\Astra-VFX-Lab\\exports\\mv6\\final4k\\parts\\p2.chunks\\checkpoint.json",
+      "role": "resume-checkpoint",
+      "part": "p2",
+      "originalBackup": "D:\\myskills\\updream\\Astra-VFX-Lab\\exports\\mv6\\final4k\\mux-timescale-migration\\original-metadata\\p2.chunks\\checkpoint.json",
+      "originalReportSha256": "ca9906fba9c63af97d9c8738e4ab81d8ed2a2b33fc2e8fd68cc7cffa5e2d35c4",
+      "newReportSha256": "002fe7cd3260da7ba252de0add4fc75c8dcec1469aa969e6c9b1af8437cbd92d",
+      "oldFingerprint": "7826a47935def1ec68730311d70ed737344d037c636de8ad9b630b75a51e34c5",
+      "newFingerprint": "a3282ca384d0ce0e2b99d19abfc094d0ac1094dd9c47fa08f6f27da7e44ef26a"
+    },
+    {
+      "file": "D:\\myskills\\updream\\Astra-VFX-Lab\\exports\\mv6\\final4k\\parts\\p3.chunks\\checkpoint.json",
+      "role": "resume-checkpoint",
+      "part": "p3",
+      "originalBackup": "D:\\myskills\\updream\\Astra-VFX-Lab\\exports\\mv6\\final4k\\mux-timescale-migration\\original-metadata\\p3.chunks\\checkpoint.json",
+      "originalReportSha256": "d577d5102791ba2b03aacb82a7358334989cd3537694466aa933b672c0824846",
+      "newReportSha256": "d69b1c1409bbd433bdc4071861442b201dcb80da443043d3bad887e58e6e025b",
+      "oldFingerprint": "6337b1118039f53b323ca907bbb28fb1035a78983bbfb59561f063b0ddce6d3a",
+      "newFingerprint": "dac67d045f99e02744935d490c7e118ed3d267690281000558db129ce4574e71"
+    }
+  ],
+  "orphanFiles": [
+    {
+      "file": "D:\\myskills\\updream\\Astra-VFX-Lab\\exports\\mv6\\final4k\\parts\\p1.chunks\\f003000-003275.mp4",
+      "bytes": 34127721,
+      "action": "Untouched and excluded. Child renderer preserves as incomplete before recapture; no frame audit is invented."
+    },
+    {
+      "file": "D:\\myskills\\updream\\Astra-VFX-Lab\\exports\\mv6\\final4k\\parts\\p3.chunks\\f006550-007150.mp4",
+      "bytes": 13893680,
+      "action": "Untouched and excluded. Child renderer preserves as incomplete before recapture; no frame audit is invented."
+    }
+  ],
+  "allowedChange": "Exactly two capture/part-output and one assembly-output MP4 movie_timescale=60000 arguments, optionally CRLF/LF source line endings; no src/data/pixel/filter/rate changes."
+}

@@ -1,0 +1,42 @@
+{
+  "master": "D:\\myskills\\updream\\Astra-VFX-Lab\\exports\\mv6\\final4k-anonymous\\astra-world-execute-me-v6-4k60-hires.mp4",
+  "master_sha256": "fec129d33ea33dd0c59bf99083338b537af63e5ecaf401acf3ba4c567776b89b",
+  "technical_report": "D:\\myskills\\updream\\Astra-VFX-Lab\\exports\\mv6\\final4k-anonymous\\validation-4k60.json",
+  "technical_report_sha256": "e39c239eee26bc9c5898e48958658e1af164959e58355710e20368c16429a16a",
+  "reviewed_samples": {
+    "overview": 224,
+    "shot_midpoints": 86,
+    "warning_boundary": 4,
+    "note": "314 sample entries, some overlapping source frames; selected full-resolution frames inspected as well."
+  },
+  "findings": [
+    {
+      "full_seconds": [
+        58.541,
+        59.059
+      ],
+      "scene": "R15",
+      "finding": "Foreground tower partly covers ASTRA during the original pose transition.",
+      "decision": "Retain intentional v5.2 transition. Entire R15 source block matches frozen v5.2; surrounding 58/59/60-second frames inspected."
+    },
+    {
+      "full_seconds": [
+        159,
+        163
+      ],
+      "finding": "Pressure foreground board lowers contrast at left ends of code rows; protagonist, old star, counters and subtitles remain legible.",
+      "decision": "Non-blocking sampled composition observation; no claim of perfect readability."
+    },
+    {
+      "scene": "R19",
+      "finding": "Equal visible guest portrait heights confirmed and all six guest names removed. Original top bar clips the secondary ONE ACTIVE CONVERSATION heading slightly.",
+      "decision": "Retain original framing; guest artwork remains readable."
+    }
+  ],
+  "conclusion": "Sampled visual review complete; no new blocking issue identified.",
+  "limits": [
+    "No continuous playback or direct listening claim.",
+    "Authored detector-like graphics are not YOLO inference.",
+    "Original character artwork retains its source resolution and flat illustration form."
+  ]
+}

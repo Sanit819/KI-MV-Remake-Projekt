@@ -21,3 +21,7 @@ Thumbs.db
 
 # Machine-local cleanup manifests and logs; archive source/evidence live elsewhere.
 docs/maintenance/
+
+# Public, reviewed V6 evidence mirrors historical exports paths; preserve those copies only.
+!docs/archive/astra-v6/evidence/originals/exports/
+!docs/archive/astra-v6/evidence/originals/exports/**

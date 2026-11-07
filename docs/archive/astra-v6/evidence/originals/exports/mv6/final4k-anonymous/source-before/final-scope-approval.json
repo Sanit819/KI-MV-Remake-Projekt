@@ -1,0 +1,59 @@
+{
+  "schema": 1,
+  "createdAt": "2026-11-07T07:31:33.514Z",
+  "labelsOnlySourceHash": "285e88587307eaf4dcf0d91174b442ff8511973f16dbd6c5fd640298522ad8d1",
+  "finalSourceHash": "69d74ea120a7fda928efc691e74f258752448ee355fd835e0cafc1a21232b0fa",
+  "files": [
+    {
+      "path": "src/mv52final/early.js",
+      "beforeSha256": "e92156ed553da7cb56154db294a008dfc6e5651f546e9ae05a27676282775e06",
+      "afterSha256": "1eb7e6ce644cee50cf732b0412042ef18b5c3f9bb23e85e41e7260bec1a7e8d3",
+      "replacements": [
+        {
+          "before": "k.guest(i,-121,-184,242,390,{alpha:arrive*(1-shut*.23)});",
+          "after": "const bounds=e.art.items[`guest${i}`].bounds,portraitH=240,portraitW=portraitH*bounds.w/bounds.h;k.guest(i,-portraitW/2,11-portraitH/2,portraitW,portraitH,{alpha:arrive*(1-shut*.23)});"
+        },
+        {
+          "before": "e.sceneAudit.guests={allSixPresent:true,gateClosure:shut,activeConnection:routePoints};",
+          "after": "e.sceneAudit.guests={allSixPresent:true,gateClosure:shut,activeConnection:routePoints,portraitSizing:'equal visible artwork height before card perspective',portraitHeight:240};"
+        }
+      ]
+    },
+    {
+      "path": "src/mv6/main.js",
+      "beforeSha256": "594219dd172055077649b2f3168ad0ee4a265105d7f90698b18932421aff8a0f",
+      "afterSha256": "095ad98cea45822bb1156636d42d1437330d1747bf50df4775aaf96e9ec01fb1",
+      "replacements": [
+        {
+          "before": "import {createInferenceLayer} from './inference-overlay.js';",
+          "after": "import {createInferenceLayer} from './inference-overlay.js';\r\nimport {drawPerceptionOverlay} from './perception-overlay.js';"
+        },
+        {
+          "before": "if(isCage)countOverlay(e,detail);if(isNeural){",
+          "after": "if(isCage)countOverlay(e,detail);if(n===14)e.sceneAudit.perception=drawPerceptionOverlay(over,e,energy);if(isNeural){"
+        }
+      ]
+    }
+  ],
+  "addedFiles": [
+    {
+      "path": "src/mv6/perception-overlay.js",
+      "sha256": "75e8f194aec92f98b3ee773a328c59a8eb0f330627d3e2f8d08729c0d7698582"
+    }
+  ],
+  "affectedIntervals": [
+    [
+      2896,
+      3117
+    ],
+    [
+      3754,
+      3920
+    ],
+    [
+      9529,
+      9690
+    ]
+  ],
+  "approvedScope": "Root-approved four exact literal changes: R19 bounds-based visible portrait height240 and its audit; R14 perception import and n===14 overlay call. New perception module reviewed at five 4K samples, final ghostAlpha .08+.10*impact+.02*kick."
+}
