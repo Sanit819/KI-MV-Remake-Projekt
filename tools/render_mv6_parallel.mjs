@@ -168,7 +168,7 @@ export async function main(argv=process.argv.slice(2)){
   const list=plan.map(p=>`file 'parts/${p.name}.mp4'\nduration ${((p.end-p.first)/FPS).toFixed(9)}`).join('\n')+'\n';
   if(fs.existsSync(listFile)){if(fs.readFileSync(listFile,'utf8')!==list)throw Error('Unexpected existing concatenation list');}else fs.writeFileSync(listFile,list,{flag:'wx'});
   const temp=safe(path.join(OUTDIR,`body.assembling-${Date.now()}.mp4`));
-  const command=[FF,'-v','error','-n','-f','concat','-safe','1','-i',listFile,'-map','0:v:0','-c:v','copy','-an','-video_track_timescale','60000','-movflags','+faststart',temp];
+  const command=[FF,'-v','error','-n','-f','concat','-safe','1','-i',listFile,'-map','0:v:0','-c:v','copy','-an','-video_track_timescale','60000','-movie_timescale','60000','-movflags','+faststart',temp];
   await run(FF,command.slice(1));const metadata=await probeBody(temp),hash=await fileHash(temp);
   if(sourceFingerprint()!==sourceHash)throw Error('Source changed before final assembly publication');
   const report={fingerprint,config,sourceHash,sourceCodeAndDataSha256:sourceHash,environment:first.environment,browser:first.browser,

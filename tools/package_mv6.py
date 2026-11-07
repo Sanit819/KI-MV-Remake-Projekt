@@ -5,12 +5,9 @@ import json
 import os
 import re
 import subprocess
+import tempfile
 from fractions import Fraction
 from pathlib import Path
-
-import cv2
-import numpy as np
-from PIL import Image, ImageDraw, ImageFont
 
 ROOT = Path(__file__).resolve().parents[1]
 BASE = ROOT / 'exports/mv6'
@@ -55,6 +52,18 @@ def fresh(p):
     if os.path.lexists(p):
         raise FileExistsError(f'Output exists: {p}')
     return p
+
+
+def configure_package_temp():
+    """Pin implicit library/subprocess temporary files to the checked D: workspace."""
+    folder = safe_output(BASE / '.package-tmp')
+    folder.mkdir(parents=True, exist_ok=True)
+    folder = safe_output(folder)
+    for name in ('TEMP', 'TMP', 'TMPDIR'):
+        os.environ[name] = str(folder)
+    # Override a cached tempfile.gettempdir() result as well as the environment.
+    tempfile.tempdir = str(folder)
+    return folder
 
 
 def probe(p):
@@ -221,6 +230,14 @@ def main():
     qa = safe_output(out / f'qa-{label}')
     if qa.exists():
         raise FileExistsError('QA directory already exists; choose a new output directory')
+    package_temp = configure_package_temp()
+    # Import native/media libraries only after their temporary directory is fixed.
+    # All subsequently launched FFmpeg/ffprobe processes inherit this environment.
+    global cv2, np, Image, ImageDraw, ImageFont
+    import cv2
+    import numpy as np
+    from PIL import Image, ImageDraw, ImageFont
+
     source_info = probe(SOURCE)
     audio = next(s for s in source_info['streams'] if s['codec_type'] == 'audio')
     if audio['codec_name'] != 'alac' or int(audio['sample_rate']) != 192000 or audio['channels'] != 2 or float(audio.get('start_time', 0)) != 0 or abs(float(audio['duration']) - FULL_FRAMES / FPS) > 1 / 192000:
@@ -230,14 +247,14 @@ def main():
     warning_command = [FF, '-v', 'error', '-n', '-i', SOURCE, '-map', '0:v:0', '-an', '-frames:v', WARNING_FRAMES,
                        '-vf', f'trim=start_frame=0:end_frame=300,setpts=PTS-STARTPTS,scale={width}:{height}:flags=lanczos:out_color_matrix=bt709:out_range=limited,format=yuv420p',
                        '-c:v', 'h264_nvenc', '-preset', 'p6', '-tune', 'hq', '-rc', 'vbr', '-cq', '18', '-b:v', '0', '-profile:v', 'high', '-bf', '2',
-                       '-colorspace', 'bt709', '-color_primaries', 'bt709', '-color_trc', 'bt709', '-color_range', 'tv', '-video_track_timescale', '60000', '-movflags', '+faststart', warning]
+                       '-colorspace', 'bt709', '-color_primaries', 'bt709', '-color_trc', 'bt709', '-color_range', 'tv', '-video_track_timescale', '60000', '-movie_timescale', '60000', '-movflags', '+faststart', warning]
     run(warning_command)
     warning_validation = video_checks(warning, WARNING_FRAMES, width, height, full_decode=False)
     def ffconcat_path(p):
         return p.as_posix().replace("'", "'\\''")
     concat_file.write_text("file '" + ffconcat_path(warning) + "'\nfile '" + ffconcat_path(body) + "'\n", encoding='utf-8')
-    run([FF, '-v', 'error', '-n', '-f', 'concat', '-safe', '0', '-i', concat_file, '-map', '0:v:0', '-c:v', 'copy', '-an', '-video_track_timescale', '60000', '-movflags', '+faststart', picture])
-    run([FF, '-v', 'error', '-n', '-i', picture, '-i', SOURCE, '-map', '0:v:0', '-map', '1:a:0', '-c:v', 'copy', '-c:a', 'copy', '-movflags', '+faststart', master])
+    run([FF, '-v', 'error', '-n', '-f', 'concat', '-safe', '0', '-i', concat_file, '-map', '0:v:0', '-c:v', 'copy', '-an', '-video_track_timescale', '60000', '-movie_timescale', '60000', '-movflags', '+faststart', picture])
+    run([FF, '-v', 'error', '-n', '-i', picture, '-i', SOURCE, '-map', '0:v:0', '-map', '1:a:0', '-c:v', 'copy', '-c:a', 'copy', '-video_track_timescale', '60000', '-movie_timescale', '60000', '-movflags', '+faststart', master])
     master_validation = video_checks(master, FULL_FRAMES, width, height, 'alac')
     original_audio_hash, output_audio_hash = packet_hash(SOURCE, 'a:0'), packet_hash(master, 'a:0')
     if original_audio_hash != output_audio_hash:
@@ -247,7 +264,7 @@ def main():
         video_options = ['-c:v', 'copy'] if height == 1080 else ['-vf', 'scale=1920:1080:flags=lanczos:out_color_matrix=bt709:out_range=limited,format=yuv420p',
                          '-c:v', 'h264_nvenc', '-preset', 'p6', '-tune', 'hq', '-rc', 'vbr', '-cq', '18', '-b:v', '0', '-profile:v', 'high', '-bf', '2',
                          '-colorspace', 'bt709', '-color_primaries', 'bt709', '-color_trc', 'bt709', '-color_range', 'tv']
-        run([FF, '-v', 'error', '-n', '-i', master, '-map', '0:v:0', '-map', '0:a:0', *video_options, '-c:a', 'aac', '-b:a', '320k', '-ar', '48000', '-ac', '2', '-video_track_timescale', '60000', '-movflags', '+faststart', preview])
+        run([FF, '-v', 'error', '-n', '-i', master, '-map', '0:v:0', '-map', '0:a:0', *video_options, '-c:a', 'aac', '-b:a', '320k', '-ar', '48000', '-ac', '2', '-video_track_timescale', '60000', '-movie_timescale', '60000', '-movflags', '+faststart', preview])
         preview_validation = video_checks(preview, FULL_FRAMES, 1920, 1080, 'aac', full_decode=height != 1080, copy_master=master if height == 1080 else None)
         preview_validation['audio_waveform_alignment'] = aac_alignment(preview)
         files.append(preview_validation)
@@ -255,6 +272,7 @@ def main():
     qa_source = preview or master
     samples = contacts(qa_source, qa, render.get('summary', {}).get('shots', []))
     report = {'passed': True, 'files': files, 'body_validation': body_validation, 'warning_validation': warning_validation,
+              'package_temp_directory': str(package_temp),
               'original_source': str(SOURCE), 'original_source_sha256': sha(SOURCE),
               'source_video_reuse': {'only_full_frame_interval': [0, WARNING_FRAMES], 'purpose': 'Retain the original 5-second warning; all following frames come from the newly rendered V6 body.'},
               'audio': {'kind': 'Original complete ALAC stream-copy, including the warning interval.', 'sample_rate': 192000, 'duration_samples': 42880000,

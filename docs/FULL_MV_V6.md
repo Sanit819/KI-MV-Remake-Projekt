@@ -43,3 +43,9 @@ npm run full:v6:package
 最终传输使用WebGL2的三个PBO缓冲异步读回与Blob上传，NVENC surfaces=24。五帧与同步RGBA管线的解码对照SSIM全部为1.0（记录于exports/mv6/transport-pbo/ssim.txt）；该对照只证明这五帧，完整成片另行验证。四分片以jobs=2限制同时渲染数，降低资源峰值。
 
 持续渲染检查通过120帧（76.991秒含加载），使用每8帧显式回收Blob暂存缓冲，跨过此前ERR_BLOB_OUT_OF_MEMORY失败点。最终逐帧记录包含绘制/读回/上传耗时，最终进度不以试跑计数冒充。
+
+## 磁盘与封装记录
+
+用户要求避免占满C盘。浏览器缓存、渲染分片、成片及QA图均在本工作树D盘exports/mv6；包装工具也会在加载媒体库前设置TEMP/TMP/TMPDIR及Python临时目录到`.package-tmp`。2026-11-07清理了已确认无安装进程使用的npm/pip下载缓存与pip解包残留，共2,291,788,866字节，C盘可用空间由约14.27GB恢复到16.57GB；收据为`exports/mv6/storage-cleanup-20261107.json`。未改系统全局临时目录或分页设置。
+
+首次完整渲染在p1最后275帧的容器时长检查处中断：视频packet与mdhd均为275000/60000秒，但自动选出的1000Hz movie timescale使edit-list取整为4.583秒。将同一文件无损重封装为60000Hz后，duration_ts恢复275000；275个packet的PTS、DTS、duration及SHA256逐项不变。最终渲染与包装所有MP4显式指定movie_timescale=60000。此修复仅改变封装参数；已完成片段的复用保留原捕获配置、旧报告与兼容迁移证据，未保存逐帧审计的尾块重新渲染。
