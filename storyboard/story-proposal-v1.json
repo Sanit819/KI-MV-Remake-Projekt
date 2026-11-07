@@ -1,0 +1,784 @@
+{
+  "version": 1,
+  "status": "semantic_story_proposal_not_rendered",
+  "title": "把那颗星跳成太阳系",
+  "date": "2026-11-07",
+  "duration_seconds": 203.2,
+  "duration_is": "provided_audio_duration_not_a_timed_storyboard",
+  "lyrics_source": "lyrics/lyrics.json",
+  "lyrics_json_sha256": "2a7588e0de9a4b922f79fc609f7810f6147f758b4915f0cc10dad14ad0db42de",
+  "lyrics_text_sha256": "292e2ed70bacac92c43263350f10e61f8b15c018185330e51dccc62df418c6cf",
+  "casting": {
+    "DeepSeek": "┏(ᗜvᗜ)┛",
+    "Astra": "┏(ᗜ-ᗜ)┛"
+  },
+  "continuity": {
+    "legacy_star": "First project final purple/gold hollow long-tail star; Astra + USER",
+    "new_marks": "Astra purple + DeepSeek blue; old gold remains gold",
+    "new_star": "Final na-na section shows alternating drawing, then blue tail and Astra purple extra bend"
+  },
+  "timing_note": "All lyric and scene times remain null. B24/B25 share the six-action drawing sequence; exact allocation awaits listening/alignment. I01/I02 use existing musical space only.",
+  "scenes": [
+    {
+      "id": "B01",
+      "title": "那颗星留下来了",
+      "lyric_ids": [
+        "L001"
+      ],
+      "start": null,
+      "end": null,
+      "timing_status": "unassigned",
+      "action": "紫金长尾星与纸面桥形笔迹先被看清；Astra展开画页，DeepSeek拿蓝笔探头。",
+      "staging_or_payoff": "来自第一企划的紫金星形状、双色与尾巴均保留。"
+    },
+    {
+      "id": "B02",
+      "title": "邀请与点亮",
+      "lyric_ids": [
+        "L002",
+        "L003",
+        "L004"
+      ],
+      "start": null,
+      "end": null,
+      "timing_status": "unassigned",
+      "action": "DeepSeek画歪圈并伸手；Astra主动握住，补上紫线。两笔接合让星开始打拍子，两人举手换步。",
+      "staging_or_payoff": "鲸尾与龙尾交叉一下，随后回到并排基准位。"
+    },
+    {
+      "id": "I01",
+      "title": "片名间奏",
+      "lyric_ids": [],
+      "start": null,
+      "end": null,
+      "timing_status": "unassigned",
+      "action": "巨大片名占前景，两位从字缝继续跳；紫金星在上方。",
+      "staging_or_payoff": "安排于原曲已有片名间奏，位置待对时，不延长音源。"
+    },
+    {
+      "id": "B03",
+      "title": "跳到睡不着",
+      "lyric_ids": [
+        "L005",
+        "L006"
+      ],
+      "start": null,
+      "end": null,
+      "timing_status": "unassigned",
+      "action": "蓝紫脚印生成轨道，DeepSeek换步，Astra加更大的反向弧。",
+      "staging_or_payoff": "枕头旁本该催眠的小星全在跳，Q版坐起来跟跳。"
+    },
+    {
+      "id": "B04",
+      "title": "亮度竞赛没人看",
+      "lyric_ids": [
+        "L007",
+        "L008"
+      ],
+      "start": null,
+      "end": null,
+      "timing_status": "unassigned",
+      "action": "一排星举亮度牌抢镜；两位只盯对方舞步，隔着星群牵上手。",
+      "staging_or_payoff": "落选的星自行排成伴舞队。"
+    },
+    {
+      "id": "B05",
+      "title": "纸校舍背后",
+      "lyric_ids": [
+        "L009",
+        "L010"
+      ],
+      "start": null,
+      "end": null,
+      "timing_status": "unassigned",
+      "action": "巨字折成校舍纸布景，两人从两侧探头，忽然凑近。",
+      "staging_or_payoff": "纸布景拍扁收回；不虚构两位的真实校园前史。"
+    },
+    {
+      "id": "B06",
+      "title": "冥王星晚了半拍",
+      "lyric_ids": [
+        "L011",
+        "L012"
+      ],
+      "start": null,
+      "end": null,
+      "timing_status": "unassigned",
+      "action": "冥王星举着夸张纸环抢镜，错过两人转身。",
+      "staging_or_payoff": "留在边角学跳舞，埋下片尾回收。"
+    },
+    {
+      "id": "B07",
+      "title": "无口也会跳大一点",
+      "lyric_ids": [
+        "L013",
+        "L014",
+        "L015"
+      ],
+      "start": null,
+      "end": null,
+      "timing_status": "unassigned",
+      "action": "星群绕跳，胸前光点弹动；Astra停半拍，接一个更夸张的全身姿态。",
+      "staging_or_payoff": "脸保持平直嘴形；拉开视野看见轨道生长。"
+    },
+    {
+      "id": "B08",
+      "title": "一起跳也是一起画",
+      "lyric_ids": [
+        "L016",
+        "L017",
+        "L018",
+        "L019"
+      ],
+      "start": null,
+      "end": null,
+      "timing_status": "unassigned",
+      "action": "旧星成为中心，蓝紫新轨道随双人舞生长；手和脚的接点炸开线条。",
+      "staging_or_payoff": "保持固定双人台，完成第一轮完整副歌。"
+    },
+    {
+      "id": "B09",
+      "title": "寄给旁边的宇宙快递",
+      "lyric_ids": [
+        "L020",
+        "L021",
+        "L022",
+        "L023",
+        "L024"
+      ],
+      "start": null,
+      "end": null,
+      "timing_status": "unassigned",
+      "action": "四角Q版拍手；DeepSeek鲸尾抛星绕出画框，远行后落进旁边Astra手里。",
+      "staging_or_payoff": "Astra把星按到地面，全场分身整齐换姿。"
+    },
+    {
+      "id": "B10",
+      "title": "文字墙搬家",
+      "lyric_ids": [
+        "L025",
+        "L026",
+        "L027"
+      ],
+      "start": null,
+      "end": null,
+      "timing_status": "unassigned",
+      "action": "拟声字逐层堆高，Q版抬整行字走；中央两位随歪字歪头。",
+      "staging_or_payoff": "纸猫耳仅作可撤道具；段末清空文字。"
+    },
+    {
+      "id": "B11",
+      "title": "Astra翻转舞台",
+      "lyric_ids": [
+        "L028",
+        "L029",
+        "L030",
+        "L031"
+      ],
+      "start": null,
+      "end": null,
+      "timing_status": "unassigned",
+      "action": "DeepSeek画离谱步点，Astra直接转动画页半圈；两人倒置继续跳，再拨转歪环。",
+      "staging_or_payoff": "倒置、传送带、星环依次出现；每次只读一个主要笑点。"
+    },
+    {
+      "id": "B12",
+      "title": "笔尖接一句话",
+      "lyric_ids": [
+        "L032",
+        "L033"
+      ],
+      "start": null,
+      "end": null,
+      "timing_status": "unassigned",
+      "action": "大片留白，两人坐在未接好的曲线；DeepSeek欲言，Astra用笔尖接住她的线。",
+      "staging_or_payoff": "短暂放轻动作，感情通过对视与落笔表达。"
+    },
+    {
+      "id": "B13",
+      "title": "把黑幕卷起来",
+      "lyric_ids": [
+        "L034",
+        "L035"
+      ],
+      "start": null,
+      "end": null,
+      "timing_status": "unassigned",
+      "action": "Q版抬黑纸幕和爆炸星上台；两位各抓一边，把纸幕卷成新轨道。",
+      "staging_or_payoff": "只保留双人卷纸这个中心动作。"
+    },
+    {
+      "id": "B14",
+      "title": "一起编出轨道麻花",
+      "lyric_ids": [
+        "L036",
+        "L037",
+        "L038"
+      ],
+      "start": null,
+      "end": null,
+      "timing_status": "unassigned",
+      "action": "她们边走边各添一弯，蓝紫线逐步拧成麻花。",
+      "staging_or_payoff": "两人都认真继续跳，为弹开事故提供可见原因。"
+    },
+    {
+      "id": "B15",
+      "title": "被弹到画框两端",
+      "lyric_ids": [
+        "L039",
+        "L040"
+      ],
+      "start": null,
+      "end": null,
+      "timing_status": "unassigned",
+      "action": "轨道展开，把双人弹向相反方向；巨字令同一舞台看起来格外遥远。",
+      "staging_or_payoff": "紫金星仍正常发光；这只是短促的舞台事故。"
+    },
+    {
+      "id": "B16",
+      "title": "伸手就接得上",
+      "lyric_ids": [
+        "L041",
+        "L042"
+      ],
+      "start": null,
+      "end": null,
+      "timing_status": "unassigned",
+      "action": "Astra先跨出轨道伸手，DeepSeek蹬回迎上；巨字开缝，双手确实握住。",
+      "staging_or_payoff": "两笔带线接成桥，将二人弹回基准舞姿。"
+    },
+    {
+      "id": "B17",
+      "title": "把大尾巴也接住",
+      "lyric_ids": [
+        "L043",
+        "L044"
+      ],
+      "start": null,
+      "end": null,
+      "timing_status": "unassigned",
+      "action": "新桥铺成舞路，DeepSeek携鲸尾扑来，Astra稳稳接住，再回并排。",
+      "staging_or_payoff": "想要全部对应接住对方的动势和画法。"
+    },
+    {
+      "id": "B18",
+      "title": "同行的笔迹",
+      "lyric_ids": [
+        "L045",
+        "L046"
+      ],
+      "start": null,
+      "end": null,
+      "timing_status": "unassigned",
+      "action": "两位沿舞路交替添转弯、回环和歪折角，画面逐渐拉开。",
+      "staging_or_payoff": "两种颜色的贡献与互相等待都可见；这里只画舞路，未开始最终新星轮廓。"
+    },
+    {
+      "id": "B19",
+      "title": "又一次邀请",
+      "lyric_ids": [
+        "L047",
+        "L048"
+      ],
+      "start": null,
+      "end": null,
+      "timing_status": "unassigned",
+      "action": "旧紫金星照着新舞路，换由Astra主动递手，DeepSeek搭上。",
+      "staging_or_payoff": "开头的邀请回到同一组举手位，但两位轮换发起者。"
+    },
+    {
+      "id": "B20",
+      "title": "八颗行星印章",
+      "lyric_ids": [
+        "L049"
+      ],
+      "start": null,
+      "end": null,
+      "timing_status": "unassigned",
+      "action": "水金地火木土天海按歌词依次弹出，Q版忙着搬，主角继续基准舞。",
+      "staging_or_payoff": "歪环归土星，冥王星留在八颗之外跟跳。"
+    },
+    {
+      "id": "B21",
+      "title": "银河是两个人画的",
+      "lyric_ids": [
+        "L050"
+      ],
+      "start": null,
+      "end": null,
+      "timing_status": "unassigned",
+      "action": "拉开蓝紫新银河，旧紫金星留在中心，双人举手定姿。",
+      "staging_or_payoff": "此处展示轨道成果，最终长尾新星尚未画成。"
+    },
+    {
+      "id": "B22",
+      "title": "把线头送回来",
+      "lyric_ids": [
+        "L051",
+        "L052",
+        "L053",
+        "L054",
+        "L055"
+      ],
+      "start": null,
+      "end": null,
+      "timing_status": "unassigned",
+      "action": "Q版重复抛星拍手钻字；这一轮所有线头都向两位手里的笔汇聚。",
+      "staging_or_payoff": "重复动作发生叙事变化，为共画腾出中央空间。"
+    },
+    {
+      "id": "B23",
+      "title": "从舞路回到纸面",
+      "lyric_ids": [
+        "L056"
+      ],
+      "start": null,
+      "end": null,
+      "timing_status": "unassigned",
+      "action": "最后拟声段前半继续基准舞，纸面与两笔进入近景。",
+      "staging_or_payoff": "减少背景运动，准备让观众看清交替落笔。"
+    },
+    {
+      "id": "B24",
+      "title": "开始共画新星",
+      "lyric_ids": [
+        "L057"
+      ],
+      "start": null,
+      "end": null,
+      "timing_status": "unassigned",
+      "action": "在末轮拟声段后半开始：DeepSeek蓝笔起歪角，Astra紫笔接上，两人交替补轮廓。",
+      "staging_or_payoff": "B24与B25的六次动作跨句分配，准确词界须先对时。"
+    },
+    {
+      "id": "B25",
+      "title": "Astra添了意料外的一弯",
+      "lyric_ids": [
+        "L058"
+      ],
+      "start": null,
+      "end": null,
+      "timing_status": "unassigned",
+      "action": "共同闭合星形后，DeepSeek添蓝弯尾；Astra在尾端再添紫色小弯，收笔。",
+      "staging_or_payoff": "DeepSeek看新弯再看Astra，开心接受，两位摆回招牌舞姿。"
+    },
+    {
+      "id": "I02",
+      "title": "已有尾声内看清结果",
+      "lyric_ids": [],
+      "start": null,
+      "end": null,
+      "timing_status": "unassigned",
+      "action": "旧紫金星在上、新紫蓝星在下，两笔同纸；Q版收字，冥王星晚半拍举手。",
+      "staging_or_payoff": "尾声只展示已完成结果，不承担绘星六动作或增加音源长度。"
+    }
+  ],
+  "lyric_map": [
+    {
+      "lyric_id": "L001",
+      "scene_id": "B01",
+      "action": "近看上一部紫金长尾星，Astra展开有桥形笔迹的画页，DeepSeek持蓝笔探头。",
+      "start": null,
+      "end": null
+    },
+    {
+      "lyric_id": "L002",
+      "scene_id": "B02",
+      "action": "DeepSeek画歪圈、伸手邀请；Astra握住她。",
+      "start": null,
+      "end": null
+    },
+    {
+      "lyric_id": "L003",
+      "scene_id": "B02",
+      "action": "Astra补紫线，两线接点让紫金星开始打拍子。",
+      "start": null,
+      "end": null
+    },
+    {
+      "lyric_id": "L004",
+      "scene_id": "B02",
+      "action": "两人交错步、交错尾巴，突然切回举手姿势。",
+      "start": null,
+      "end": null
+    },
+    {
+      "lyric_id": "L005",
+      "scene_id": "B03",
+      "action": "DeepSeek临时换舞步，Astra沿她脚印主动加大反向弧。",
+      "start": null,
+      "end": null
+    },
+    {
+      "lyric_id": "L006",
+      "scene_id": "B03",
+      "action": "枕头旁的小星全在跳，Q版起身加入，睡意被舞步赶跑。",
+      "start": null,
+      "end": null
+    },
+    {
+      "lyric_id": "L007",
+      "scene_id": "B04",
+      "action": "一群星举亮度牌争相入镜。",
+      "start": null,
+      "end": null
+    },
+    {
+      "lyric_id": "L008",
+      "scene_id": "B04",
+      "action": "两位仍看彼此脚步，Astra隔着星群接住DeepSeek的手。",
+      "start": null,
+      "end": null
+    },
+    {
+      "lyric_id": "L009",
+      "scene_id": "B05",
+      "action": "歌词巨字折成纸校舍，DeepSeek绕后探头。",
+      "start": null,
+      "end": null
+    },
+    {
+      "lyric_id": "L010",
+      "scene_id": "B05",
+      "action": "Astra从另一侧同时探出，两张固定表情凑近，纸景折回。",
+      "start": null,
+      "end": null
+    },
+    {
+      "lyric_id": "L011",
+      "scene_id": "B06",
+      "action": "冥王星举纸环经过，努力赶上节奏。",
+      "start": null,
+      "end": null
+    },
+    {
+      "lyric_id": "L012",
+      "scene_id": "B06",
+      "action": "二人转身相向，冥王星错过拍点，留在边角跟跳。",
+      "start": null,
+      "end": null
+    },
+    {
+      "lyric_id": "L013",
+      "scene_id": "B07",
+      "action": "星群开始绕双人旋转，地面脚印也浮起。",
+      "start": null,
+      "end": null
+    },
+    {
+      "lyric_id": "L014",
+      "scene_id": "B07",
+      "action": "胸前光点弹动，DeepSeek放大动作，Astra短停后回应。",
+      "start": null,
+      "end": null
+    },
+    {
+      "lyric_id": "L015",
+      "scene_id": "B07",
+      "action": "Astra作更夸张的全身姿态，视野拉开看见长出的轨道。",
+      "start": null,
+      "end": null
+    },
+    {
+      "lyric_id": "L016",
+      "scene_id": "B08",
+      "action": "上一部紫金星悬在新舞池中心发光。",
+      "start": null,
+      "end": null
+    },
+    {
+      "lyric_id": "L017",
+      "scene_id": "B08",
+      "action": "二人回到基准位，相向举手换步。",
+      "start": null,
+      "end": null
+    },
+    {
+      "lyric_id": "L018",
+      "scene_id": "B08",
+      "action": "脚下蓝紫轨道把步点连成旋转的小系统。",
+      "start": null,
+      "end": null
+    },
+    {
+      "lyric_id": "L019",
+      "scene_id": "B08",
+      "action": "手与脚接上，蓝紫线向边框炸开，明确舞蹈也在共画。",
+      "start": null,
+      "end": null
+    },
+    {
+      "lyric_id": "L020",
+      "scene_id": "B09",
+      "action": "四角两位的Q版分身突然入场，整齐拍手。",
+      "start": null,
+      "end": null
+    },
+    {
+      "lyric_id": "L021",
+      "scene_id": "B09",
+      "action": "Q版把散星接成传递线路。",
+      "start": null,
+      "end": null
+    },
+    {
+      "lyric_id": "L022",
+      "scene_id": "B09",
+      "action": "DeepSeek用鲸尾弹出一颗待送的小星。",
+      "start": null,
+      "end": null
+    },
+    {
+      "lyric_id": "L023",
+      "scene_id": "B09",
+      "action": "星钻出画框、绕边缘远行，又从另一边回来。",
+      "start": null,
+      "end": null
+    },
+    {
+      "lyric_id": "L024",
+      "scene_id": "B09",
+      "action": "星落到近旁Astra手里，她按下星按钮，全场换姿。",
+      "start": null,
+      "end": null
+    },
+    {
+      "lyric_id": "L025",
+      "scene_id": "B10",
+      "action": "拟声字开始堆墙，Q版尝试抬动大字。",
+      "start": null,
+      "end": null
+    },
+    {
+      "lyric_id": "L026",
+      "scene_id": "B10",
+      "action": "抬歪的字令双人一同歪头；Q版可短举纸猫耳牌。",
+      "start": null,
+      "end": null
+    },
+    {
+      "lyric_id": "L027",
+      "scene_id": "B10",
+      "action": "整行文字被抬走，为下一段留出清空的一拍。",
+      "start": null,
+      "end": null
+    },
+    {
+      "lyric_id": "L028",
+      "scene_id": "B11",
+      "action": "DeepSeek依星光画出一串离谱脚印。",
+      "start": null,
+      "end": null
+    },
+    {
+      "lyric_id": "L029",
+      "scene_id": "B11",
+      "action": "Astra转动画页半圈，两人头朝下继续跳。",
+      "start": null,
+      "end": null
+    },
+    {
+      "lyric_id": "L030",
+      "scene_id": "B11",
+      "action": "轨道成传送带，两位在巨大字母路障间大步换向。",
+      "start": null,
+      "end": null
+    },
+    {
+      "lyric_id": "L031",
+      "scene_id": "B11",
+      "action": "DeepSeek套歪环，Astra龙尾拨动；环开始自转。",
+      "start": null,
+      "end": null
+    },
+    {
+      "lyric_id": "L032",
+      "scene_id": "B12",
+      "action": "舞台暂时留白，两人漂在未接合的曲线上。",
+      "start": null,
+      "end": null
+    },
+    {
+      "lyric_id": "L033",
+      "scene_id": "B12",
+      "action": "DeepSeek望向Astra欲言，Astra以笔尖接线回应，两人转一小圈。",
+      "start": null,
+      "end": null
+    },
+    {
+      "lyric_id": "L034",
+      "scene_id": "B13",
+      "action": "Q版搬来黑纸幕与夸张爆炸星道具。",
+      "start": null,
+      "end": null
+    },
+    {
+      "lyric_id": "L035",
+      "scene_id": "B13",
+      "action": "双人各抓纸幕一边，踩拍把它卷成新轨道。",
+      "start": null,
+      "end": null
+    },
+    {
+      "lyric_id": "L036",
+      "scene_id": "B14",
+      "action": "没有额外道具也继续跳，DeepSeek在空处添一弯。",
+      "start": null,
+      "end": null
+    },
+    {
+      "lyric_id": "L037",
+      "scene_id": "B14",
+      "action": "Astra接上一弯，两人走着便把线继续接下去。",
+      "start": null,
+      "end": null
+    },
+    {
+      "lyric_id": "L038",
+      "scene_id": "B14",
+      "action": "蓝紫轨道已编成麻花，两位尚未察觉，照常摆手。",
+      "start": null,
+      "end": null
+    },
+    {
+      "lyric_id": "L039",
+      "scene_id": "B15",
+      "action": "麻花弹开，二人被送向画框两端，旧星仍明亮。",
+      "start": null,
+      "end": null
+    },
+    {
+      "lyric_id": "L040",
+      "scene_id": "B15",
+      "action": "巨字横在两人之间，把同一舞台夸成遥远彼岸。",
+      "start": null,
+      "end": null
+    },
+    {
+      "lyric_id": "L041",
+      "scene_id": "B16",
+      "action": "Astra先跨出自己的轨道，DeepSeek也蹬回迎上。",
+      "start": null,
+      "end": null
+    },
+    {
+      "lyric_id": "L042",
+      "scene_id": "B16",
+      "action": "字开一缝，双手握住，两笔接线成桥，二人被弹回舞池。",
+      "start": null,
+      "end": null
+    },
+    {
+      "lyric_id": "L043",
+      "scene_id": "B17",
+      "action": "新桥变舞路，两位把一路留下的笔迹带进下一轮舞。",
+      "start": null,
+      "end": null
+    },
+    {
+      "lyric_id": "L044",
+      "scene_id": "B17",
+      "action": "DeepSeek连鲸尾扑来，Astra接住，再各自站稳并排。",
+      "start": null,
+      "end": null
+    },
+    {
+      "lyric_id": "L045",
+      "scene_id": "B18",
+      "action": "Astra添转弯，DeepSeek接回环，沿同一舞路前进。",
+      "start": null,
+      "end": null
+    },
+    {
+      "lyric_id": "L046",
+      "scene_id": "B18",
+      "action": "DeepSeek把舞路添成歪折角，Astra顺势续线，双人笔迹并行；不在此处画星。",
+      "start": null,
+      "end": null
+    },
+    {
+      "lyric_id": "L047",
+      "scene_id": "B19",
+      "action": "看见旧紫金星仍在上方，照着扩大的蓝紫新画面。",
+      "start": null,
+      "end": null
+    },
+    {
+      "lyric_id": "L048",
+      "scene_id": "B19",
+      "action": "Astra递手再次邀请，DeepSeek搭上，双人回基准舞。",
+      "start": null,
+      "end": null
+    },
+    {
+      "lyric_id": "L049",
+      "scene_id": "B20",
+      "action": "水金地火木土天海八印章依次弹出；歪环回土星，冥王星在外沿。",
+      "start": null,
+      "end": null
+    },
+    {
+      "lyric_id": "L050",
+      "scene_id": "B21",
+      "action": "展现两人共画的蓝紫银河与中心紫金星，最后的新星尚待完成。",
+      "start": null,
+      "end": null
+    },
+    {
+      "lyric_id": "L051",
+      "scene_id": "B22",
+      "action": "四角Q版再次弹出，复用呼喊段动作。",
+      "start": null,
+      "end": null
+    },
+    {
+      "lyric_id": "L052",
+      "scene_id": "B22",
+      "action": "散线从舞台四角被传递到中央。",
+      "start": null,
+      "end": null
+    },
+    {
+      "lyric_id": "L053",
+      "scene_id": "B22",
+      "action": "DeepSeek接住送来的蓝线头，Astra接住紫线头。",
+      "start": null,
+      "end": null
+    },
+    {
+      "lyric_id": "L054",
+      "scene_id": "B22",
+      "action": "Q版把最后远处的线头沿画框送回。",
+      "start": null,
+      "end": null
+    },
+    {
+      "lyric_id": "L055",
+      "scene_id": "B22",
+      "action": "所有线最终连向中央两笔，周边开始让出空间。",
+      "start": null,
+      "end": null
+    },
+    {
+      "lyric_id": "L056",
+      "scene_id": "B23",
+      "action": "拟声段前半继续跳，随后切纸面与两笔近景，准备交替落笔。",
+      "start": null,
+      "end": null
+    },
+    {
+      "lyric_id": "L057",
+      "scene_id": "B24",
+      "action": "在这轮拟声段后半开始共画：DeepSeek蓝角起笔，Astra紫角续接，轮流补轮廓。",
+      "start": null,
+      "end": null
+    },
+    {
+      "lyric_id": "L058",
+      "scene_id": "B25",
+      "action": "延续交替动作并闭合星形；DeepSeek添蓝弯尾，Astra添意料外紫小弯，相视后恢复举手位。",
+      "start": null,
+      "end": null
+    }
+  ]
+}
