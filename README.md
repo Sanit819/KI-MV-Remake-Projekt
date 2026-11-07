@@ -1,3 +1,11 @@
+# 最新交付 · v3.1 补耳修正版 · 2026-11-08
+
+已按用户要求重新生成只补耳的全曲 v3.1。[播放新版](exports/v3.1/watch.html) · [新版成片MKV](exports/v3.1/taiyoukei-disco-v3.1-720p30-flac.mkv) · [交付记录](docs/DELIVERY_V31.md) · [七姿态耳部检查图](production/v3.1/qa/asset-ear-review.png)。
+
+整套六动作及备用图已核查，指天/牵手/拍手与备用图仅局部补齐右耳，窗口外源像素零改动；其他图保留。小陈彩蛋已取消，原剧情、字幕、片尾与原FLAC保持。v3原归档点保留，新修复在 `fix/taiyoukei-disco-v3.1-ears`；GitHub推送/锁定继续暂停。下方为旧v3归档记录，不覆盖本条最新交付。
+
+---
+
 # 第三企划 · 太陽系デスコ（已归档）
 
 2026-11-08 按用户要求完成本地 Git 归档与冗余清理。两版生成封面均不采用，用户从成片自行选帧；影片不再继续修改。先读 [ARCHIVE.md](ARCHIVE.md)。

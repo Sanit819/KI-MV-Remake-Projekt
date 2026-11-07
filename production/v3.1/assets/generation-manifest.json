@@ -1,0 +1,87 @@
+{
+  "date": "2026-11-08",
+  "tool": "built-in image_gen",
+  "request": "Audit all six poses plus fallback; repair every confirmed missing viewer-left anatomical right ear; export v3.1 with local ear-only compositing",
+  "style_reference": "production/v1/assets/pose-b.png",
+  "prompt_file": "PROMPTS.md",
+  "integration": "Canvas2D local pixel replacement only; original sprite dimensions and bounds preserved",
+  "assets": [
+    {
+      "name": "pose-a",
+      "file": "production/v3.1/assets/pose-a.png",
+      "role": "ear-region donor; do not replace entire original sprite",
+      "original_file": "production/v1/assets/pose-a.png",
+      "original_sha256": "c50127d8024827497b693907684d5a20f37daffeaf0666933460fbfa723d9a84",
+      "sha256": "80c6741eeb28b5c72a4b22582cfe8a47b03ad0854144668f5113457a1da119b7",
+      "width": 1673,
+      "height": 940,
+      "mode": "RGBA",
+      "roi_xywh": [
+        934,
+        240,
+        64,
+        40
+      ],
+      "generated_file_name": "exec-38ebf91b-9dc4-4467-89ee-8d61230dc49b.png"
+    },
+    {
+      "name": "reach",
+      "file": "production/v3.1/assets/reach.png",
+      "role": "ear-region donor; do not replace entire original sprite",
+      "original_file": "production/v1/assets/reach.png",
+      "original_sha256": "fba24216a6de526d9f52bcb2a8dfb27f19896afc2a9b595157923d98b7cc9e93",
+      "sha256": "46ae50757c553729a23b63420f7e66498cfd4e0a225c3aba967bc21bbb2cc259",
+      "width": 1672,
+      "height": 941,
+      "mode": "RGBA",
+      "roi_xywh": [
+        898,
+        302,
+        74,
+        47
+      ],
+      "generated_file_name": "exec-7d07d551-d682-4baa-a0aa-266bfa235a5f.png"
+    },
+    {
+      "name": "clap",
+      "file": "production/v3.1/assets/clap.png",
+      "role": "ear-region donor; do not replace entire original sprite",
+      "original_file": "production/v1/assets/clap.png",
+      "original_sha256": "939d3f49ef8b91a24992075da92d0d44fa6df74c4b4a2cd471591644a8b76181",
+      "sha256": "83923a16a021e240b15d0ba3c86560ebfe6c60f220dc0d23c34d849a908c5afe",
+      "width": 1673,
+      "height": 940,
+      "mode": "RGBA",
+      "roi_xywh": [
+        932,
+        239,
+        66,
+        45
+      ],
+      "generated_file_name": "exec-c37be1cf-e2ab-4a6e-b6a7-2b257f5ab40c.png"
+    },
+    {
+      "name": "fallback",
+      "file": "production/v3.1/assets/fallback.png",
+      "role": "ear-region donor; do not replace entire original sprite",
+      "original_file": "art/style-tests/astra-ds-mv-style-v5.png",
+      "original_sha256": "e79281b702895e1e40cee067736448b74bc851facfaac9eb008aaa206e3efd9c",
+      "sha256": "dd29579d3ea139a15fa48894de149d62511821cd5915cbaeb23a2c96d5d5ea23",
+      "width": 1673,
+      "height": 940,
+      "mode": "RGB",
+      "roi_xywh": [
+        926,
+        241,
+        72,
+        46
+      ],
+      "generated_file_name": "exec-ed380b75-9987-4e0a-8e67-5666169d2455.png"
+    }
+  ],
+  "prompt_files": [
+    "PROMPTS.md",
+    "PROMPTS_ADDITIONAL.md"
+  ],
+  "fallback_background_policy": "Within fallback ROI only, retain original RGBA where donor is red: r>180 and r>1.8*g and r>1.6*b."
+}

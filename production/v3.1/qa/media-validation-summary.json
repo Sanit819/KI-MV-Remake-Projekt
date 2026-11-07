@@ -1,0 +1,424 @@
+{
+  "schema_version": 1,
+  "started_at": "2026-11-07T17:00:45.232889+00:00",
+  "status": "passed",
+  "delivery": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v3.1\\taiyoukei-disco-v3.1-720p30-flac.mkv",
+  "source_audio": "D:\\myskills\\updream\\Taiyoukei-Disco\\local-source\\audio\\07 太陽系デスコ.flac",
+  "formal_lyrics": "D:\\myskills\\updream\\Taiyoukei-Disco\\lyrics\\lyrics.json",
+  "expected": {
+    "width": 1280,
+    "height": 720,
+    "fps": "30/1",
+    "video_frames": 6096,
+    "duration_seconds": 203.2,
+    "video_codec": "h264",
+    "pixel_format": "yuv420p",
+    "audio_codec": "flac",
+    "audio_sample_rate": 44100,
+    "audio_channels": 2,
+    "audio_bits": 16,
+    "source_audio_sha256": "0139c2441bf35e98951ca46b5e8395a71c8aa4b2629c4f5c3a1079881d019ac9",
+    "pcm_s16le_md5": "4daf00626a1c0d4a8d848c3393b6c759",
+    "formal_lyrics_sha256": "2a7588e0de9a4b922f79fc609f7810f6147f758b4915f0cc10dad14ad0db42de"
+  },
+  "checks": {
+    "source_flac_sha256_before": {
+      "passed": true,
+      "expected": "0139c2441bf35e98951ca46b5e8395a71c8aa4b2629c4f5c3a1079881d019ac9",
+      "actual": "0139c2441bf35e98951ca46b5e8395a71c8aa4b2629c4f5c3a1079881d019ac9",
+      "evidence": "Python hashlib SHA256 over original FLAC bytes"
+    },
+    "formal_lyrics_sha256_before": {
+      "passed": true,
+      "expected": "2a7588e0de9a4b922f79fc609f7810f6147f758b4915f0cc10dad14ad0db42de",
+      "actual": "2a7588e0de9a4b922f79fc609f7810f6147f758b4915f0cc10dad14ad0db42de",
+      "evidence": "Python hashlib SHA256 over formal lyrics JSON bytes"
+    },
+    "formal_lyrics_58_unassigned": {
+      "passed": true,
+      "expected": "58 entries with null start/end",
+      "actual": true,
+      "evidence": "Read original formal lyrics JSON; no write"
+    },
+    "container_probe_success": {
+      "passed": true,
+      "expected": true,
+      "actual": 0,
+      "evidence": "container_and_stream_probe"
+    },
+    "exactly_one_video_and_one_audio": {
+      "passed": true,
+      "expected": {
+        "total": 2,
+        "video": 1,
+        "audio": 1
+      },
+      "actual": {
+        "total": 2,
+        "video": 1,
+        "audio": 1
+      },
+      "evidence": "container_and_stream_probe streams"
+    },
+    "no_attached_picture": {
+      "passed": true,
+      "expected": [],
+      "actual": [],
+      "evidence": "container_and_stream_probe dispositions; source cover art must not be mapped"
+    },
+    "video_width": {
+      "passed": true,
+      "expected": 1280,
+      "actual": 1280,
+      "evidence": "container_and_stream_probe video"
+    },
+    "video_height": {
+      "passed": true,
+      "expected": 720,
+      "actual": 720,
+      "evidence": "container_and_stream_probe video"
+    },
+    "video_codec_name": {
+      "passed": true,
+      "expected": "h264",
+      "actual": "h264",
+      "evidence": "container_and_stream_probe video"
+    },
+    "video_pix_fmt": {
+      "passed": true,
+      "expected": "yuv420p",
+      "actual": "yuv420p",
+      "evidence": "container_and_stream_probe video"
+    },
+    "video_r_frame_rate": {
+      "passed": true,
+      "expected": "30/1",
+      "actual": "30/1",
+      "evidence": "container_and_stream_probe video"
+    },
+    "video_avg_frame_rate": {
+      "passed": true,
+      "expected": "30/1",
+      "actual": "30/1",
+      "evidence": "container_and_stream_probe video"
+    },
+    "video_millisecond_timebase": {
+      "passed": true,
+      "expected": "1/1000",
+      "actual": "1/1000",
+      "evidence": "container_and_stream_probe video time_base; establishes 1ms MKV tick"
+    },
+    "video_decoded_frame_count": {
+      "passed": true,
+      "expected": 6096,
+      "actual": 6096,
+      "evidence": "ffprobe -count_frames nb_read_frames"
+    },
+    "container_duration_203_2": {
+      "passed": true,
+      "expected": {
+        "seconds": 203.2,
+        "tolerance_seconds": 0.001
+      },
+      "actual": 203.2,
+      "evidence": "container_and_stream_probe format.duration"
+    },
+    "audio_codec_name": {
+      "passed": true,
+      "expected": "flac",
+      "actual": "flac",
+      "evidence": "container_and_stream_probe audio"
+    },
+    "audio_sample_rate": {
+      "passed": true,
+      "expected": "44100",
+      "actual": "44100",
+      "evidence": "container_and_stream_probe audio"
+    },
+    "audio_channels": {
+      "passed": true,
+      "expected": 2,
+      "actual": 2,
+      "evidence": "container_and_stream_probe audio"
+    },
+    "audio_16_bit": {
+      "passed": true,
+      "expected": 16,
+      "actual": 16,
+      "evidence": "container_and_stream_probe bits_per_raw_sample, falling back to bits_per_sample"
+    },
+    "pts_exactly_6096_frames": {
+      "passed": true,
+      "expected": 6096,
+      "actual": 6096,
+      "evidence": "decoded_video_frame_pts; all frames must have a timestamp"
+    },
+    "pts_start_zero": {
+      "passed": true,
+      "expected": 0,
+      "actual": 0.0,
+      "evidence": "decoded_video_frame_pts"
+    },
+    "pts_33_or_34_ms_increments": {
+      "passed": true,
+      "expected": [
+        0.033,
+        0.034
+      ],
+      "actual": [
+        0.033,
+        0.034
+      ],
+      "evidence": "decoded_video_frame_pts consecutive presentation timestamp deltas"
+    },
+    "pts_match_30fps_grid": {
+      "passed": true,
+      "expected": {
+        "maximum_rounding_error_seconds": 0.00100001
+      },
+      "actual": 0.0010000000000047748,
+      "evidence": "Each displayed PTS compared with frame_index/30; one MKV 1ms tick plus floating-point epsilon, per timestamp_policy"
+    },
+    "video_endpoint_203_2": {
+      "passed": true,
+      "expected": {
+        "seconds": 203.2,
+        "tolerance_seconds": 0.00100001
+      },
+      "actual": 203.19933333333333,
+      "evidence": "Last frame PTS plus 1/30 second; container duration is independently checked"
+    },
+    "full_decode_without_errors": {
+      "passed": true,
+      "expected": {
+        "returncode": 0,
+        "stderr": ""
+      },
+      "actual": {
+        "returncode": 0,
+        "stderr": ""
+      },
+      "evidence": "Full H264 and FLAC decode with -xerror -err_detect explode"
+    },
+    "source_decoded_pcm_md5": {
+      "passed": true,
+      "expected": "4daf00626a1c0d4a8d848c3393b6c759",
+      "actual": "4daf00626a1c0d4a8d848c3393b6c759",
+      "evidence": "source_audio_pcm_md5; decoded interleaved signed 16-bit little-endian PCM, no resample or channel remix"
+    },
+    "delivery_decoded_pcm_md5": {
+      "passed": true,
+      "expected": "4daf00626a1c0d4a8d848c3393b6c759",
+      "actual": "4daf00626a1c0d4a8d848c3393b6c759",
+      "evidence": "delivery_audio_pcm_md5; decoded interleaved signed 16-bit little-endian PCM, no resample or channel remix"
+    },
+    "encoded_audio_packet_data_identical": {
+      "passed": true,
+      "expected": "a67979ad94b0a8d44c177a04443679bcf9e20e572687cf785f2f29bb3b366fd4",
+      "actual": "a67979ad94b0a8d44c177a04443679bcf9e20e572687cf785f2f29bb3b366fd4",
+      "evidence": "source_audio_encoded_packet_sha256 vs delivery_audio_encoded_packet_sha256: -c:a copy streamhash hashes encoded audio packet payloads, independent of MKV/FLAC container metadata"
+    },
+    "source_flac_unchanged_after_validation": {
+      "passed": true,
+      "expected": "0139c2441bf35e98951ca46b5e8395a71c8aa4b2629c4f5c3a1079881d019ac9",
+      "actual": "0139c2441bf35e98951ca46b5e8395a71c8aa4b2629c4f5c3a1079881d019ac9",
+      "evidence": "Python hashlib after all external checks"
+    },
+    "formal_lyrics_unchanged_after_validation": {
+      "passed": true,
+      "expected": "2a7588e0de9a4b922f79fc609f7810f6147f758b4915f0cc10dad14ad0db42de",
+      "actual": "2a7588e0de9a4b922f79fc609f7810f6147f758b4915f0cc10dad14ad0db42de",
+      "evidence": "Python hashlib after all external checks"
+    }
+  },
+  "observations": {
+    "delivery_bytes": 201855093,
+    "video_pts_summary": {
+      "count": 6096,
+      "first": 0.0,
+      "last": 203.166,
+      "distinct_deltas_seconds": [
+        0.033,
+        0.034
+      ],
+      "maximum_grid_error_seconds": 0.0010000000000047748,
+      "minimum_signed_error_seconds": -0.0010000000000047748,
+      "maximum_signed_error_seconds": 0.00033333333334439885,
+      "signed_error_distribution_ms": [
+        {
+          "signed_error_ms": -1.0,
+          "count": 677
+        },
+        {
+          "signed_error_ms": -0.666667,
+          "count": 1355
+        },
+        {
+          "signed_error_ms": -0.333333,
+          "count": 2032
+        },
+        {
+          "signed_error_ms": 0.0,
+          "count": 1355
+        },
+        {
+          "signed_error_ms": 0.333333,
+          "count": 677
+        }
+      ],
+      "worker_boundary_details": [
+        {
+          "first_frame_of_worker": 2032,
+          "neighbor_frames": [
+            {
+              "frame": 2028,
+              "pts_seconds": 67.6,
+              "ideal_pts_seconds": 67.6,
+              "signed_grid_error_ms": 0.0,
+              "previous_frame_delta_ms": 33.0
+            },
+            {
+              "frame": 2029,
+              "pts_seconds": 67.633,
+              "ideal_pts_seconds": 67.63333333333334,
+              "signed_grid_error_ms": -0.333333,
+              "previous_frame_delta_ms": 33.0
+            },
+            {
+              "frame": 2030,
+              "pts_seconds": 67.667,
+              "ideal_pts_seconds": 67.66666666666667,
+              "signed_grid_error_ms": 0.333333,
+              "previous_frame_delta_ms": 34.0
+            },
+            {
+              "frame": 2031,
+              "pts_seconds": 67.7,
+              "ideal_pts_seconds": 67.7,
+              "signed_grid_error_ms": 0.0,
+              "previous_frame_delta_ms": 33.0
+            },
+            {
+              "frame": 2032,
+              "pts_seconds": 67.733,
+              "ideal_pts_seconds": 67.73333333333333,
+              "signed_grid_error_ms": -0.333333,
+              "previous_frame_delta_ms": 33.0
+            },
+            {
+              "frame": 2033,
+              "pts_seconds": 67.766,
+              "ideal_pts_seconds": 67.76666666666667,
+              "signed_grid_error_ms": -0.666667,
+              "previous_frame_delta_ms": 33.0
+            },
+            {
+              "frame": 2034,
+              "pts_seconds": 67.8,
+              "ideal_pts_seconds": 67.8,
+              "signed_grid_error_ms": 0.0,
+              "previous_frame_delta_ms": 34.0
+            },
+            {
+              "frame": 2035,
+              "pts_seconds": 67.833,
+              "ideal_pts_seconds": 67.83333333333333,
+              "signed_grid_error_ms": -0.333333,
+              "previous_frame_delta_ms": 33.0
+            },
+            {
+              "frame": 2036,
+              "pts_seconds": 67.866,
+              "ideal_pts_seconds": 67.86666666666666,
+              "signed_grid_error_ms": -0.666667,
+              "previous_frame_delta_ms": 33.0
+            }
+          ]
+        },
+        {
+          "first_frame_of_worker": 4064,
+          "neighbor_frames": [
+            {
+              "frame": 4060,
+              "pts_seconds": 135.333,
+              "ideal_pts_seconds": 135.33333333333334,
+              "signed_grid_error_ms": -0.333333,
+              "previous_frame_delta_ms": 33.0
+            },
+            {
+              "frame": 4061,
+              "pts_seconds": 135.366,
+              "ideal_pts_seconds": 135.36666666666667,
+              "signed_grid_error_ms": -0.666667,
+              "previous_frame_delta_ms": 33.0
+            },
+            {
+              "frame": 4062,
+              "pts_seconds": 135.4,
+              "ideal_pts_seconds": 135.4,
+              "signed_grid_error_ms": 0.0,
+              "previous_frame_delta_ms": 34.0
+            },
+            {
+              "frame": 4063,
+              "pts_seconds": 135.433,
+              "ideal_pts_seconds": 135.43333333333334,
+              "signed_grid_error_ms": -0.333333,
+              "previous_frame_delta_ms": 33.0
+            },
+            {
+              "frame": 4064,
+              "pts_seconds": 135.466,
+              "ideal_pts_seconds": 135.46666666666667,
+              "signed_grid_error_ms": -0.666667,
+              "previous_frame_delta_ms": 33.0
+            },
+            {
+              "frame": 4065,
+              "pts_seconds": 135.499,
+              "ideal_pts_seconds": 135.5,
+              "signed_grid_error_ms": -1.0,
+              "previous_frame_delta_ms": 33.0
+            },
+            {
+              "frame": 4066,
+              "pts_seconds": 135.533,
+              "ideal_pts_seconds": 135.53333333333333,
+              "signed_grid_error_ms": -0.333333,
+              "previous_frame_delta_ms": 34.0
+            },
+            {
+              "frame": 4067,
+              "pts_seconds": 135.566,
+              "ideal_pts_seconds": 135.56666666666666,
+              "signed_grid_error_ms": -0.666667,
+              "previous_frame_delta_ms": 33.0
+            },
+            {
+              "frame": 4068,
+              "pts_seconds": 135.599,
+              "ideal_pts_seconds": 135.6,
+              "signed_grid_error_ms": -1.0,
+              "previous_frame_delta_ms": 33.0
+            }
+          ]
+        }
+      ]
+    },
+    "encoded_audio_packet_sha256": {
+      "source": "a67979ad94b0a8d44c177a04443679bcf9e20e572687cf785f2f29bb3b366fd4",
+      "delivery": "a67979ad94b0a8d44c177a04443679bcf9e20e572687cf785f2f29bb3b366fd4"
+    },
+    "delivery_sha256": "ff312918f6162a68937c568c7e7dd2f0ff9ac098196d4b077c4734ece503c97e"
+  },
+  "timestamp_policy": {
+    "tick_seconds": 0.001,
+    "float_epsilon_seconds": 1e-08,
+    "maximum_grid_error_seconds": 0.00100001,
+    "reason": "MKV millisecond quantization policy: one 1ms tick plus 1e-8s floating-point epsilon. Require all adjacent PTS steps to be 33/34ms, 6096 frames, and container duration 203.2s. Signed errors and worker boundaries remain reported; no timestamp correction or media rewrite."
+  },
+  "validation_scope": "Technical media/source integrity only; no artistic approval or actual ear-listening claim.",
+  "finished_at": "2026-11-07T17:01:18.960939+00:00",
+  "failed_checks": [],
+  "all_requested_checks_completed": true
+}

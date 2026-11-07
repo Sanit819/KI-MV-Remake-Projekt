@@ -1,0 +1,91 @@
+{
+  "date": "2026-11-08",
+  "source": "browser-review.json",
+  "patches": [
+    {
+      "asset": "pose-a",
+      "url": "../assets/pose-a.png",
+      "rect": [
+        934,
+        240,
+        64,
+        40
+      ],
+      "width": 1673,
+      "height": 940,
+      "original_url": "../../v1/assets/pose-a.png",
+      "comparison": "Canvas-normalized RGBA, original versus patched canvas",
+      "changed_pixels_inside": 2018,
+      "changed_pixels_outside": 0,
+      "backgroundPreserved": false,
+      "background_restored_pixels": 0,
+      "unchanged_pixels_outside": 1570060,
+      "bounds_preserved": true,
+      "halfBounds_preserved": true
+    },
+    {
+      "asset": "reach",
+      "url": "../assets/reach.png",
+      "rect": [
+        898,
+        302,
+        74,
+        47
+      ],
+      "width": 1672,
+      "height": 941,
+      "original_url": "../../v1/assets/reach.png",
+      "comparison": "Canvas-normalized RGBA, original versus patched canvas",
+      "changed_pixels_inside": 2641,
+      "changed_pixels_outside": 0,
+      "backgroundPreserved": false,
+      "background_restored_pixels": 0,
+      "unchanged_pixels_outside": 1569874,
+      "bounds_preserved": true,
+      "halfBounds_preserved": true
+    },
+    {
+      "asset": "clap",
+      "url": "../assets/clap.png",
+      "rect": [
+        932,
+        239,
+        66,
+        45
+      ],
+      "width": 1673,
+      "height": 940,
+      "original_url": "../../v1/assets/clap.png",
+      "comparison": "Canvas-normalized RGBA, original versus patched canvas",
+      "changed_pixels_inside": 2424,
+      "changed_pixels_outside": 0,
+      "backgroundPreserved": false,
+      "background_restored_pixels": 0,
+      "unchanged_pixels_outside": 1569650,
+      "bounds_preserved": true,
+      "halfBounds_preserved": true
+    },
+    {
+      "asset": "fallback",
+      "url": "../assets/fallback.png",
+      "rect": [
+        926,
+        241,
+        72,
+        46
+      ],
+      "width": 1673,
+      "height": 940,
+      "original_url": "../../../art/style-tests/astra-ds-mv-style-v5.png",
+      "comparison": "Canvas-normalized RGBA, original versus patched canvas",
+      "changed_pixels_inside": 1886,
+      "changed_pixels_outside": 0,
+      "backgroundPreserved": true,
+      "background_restored_pixels": 1364,
+      "unchanged_pixels_outside": 1569308,
+      "bounds_preserved": true,
+      "halfBounds_preserved": true
+    }
+  ],
+  "scope": "Pixel comparison is before video scaling/encoding, on normalized source-sized canvas RGBA; does not claim identical outside-ROI H264 packet bytes."
+}

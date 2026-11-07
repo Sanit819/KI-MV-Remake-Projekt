@@ -1,0 +1,17 @@
+{
+  "scope": "Final post-render source and donor hashes; compare frozen modules in browser-review.json.",
+  "sha256": {
+    "production/v3.1/assets/clap.png": "83923a16a021e240b15d0ba3c86560ebfe6c60f220dc0d23c34d849a908c5afe",
+    "production/v3.1/assets/fallback.png": "dd29579d3ea139a15fa48894de149d62511821cd5915cbaeb23a2c96d5d5ea23",
+    "production/v3.1/assets/pose-a.png": "80c6741eeb28b5c72a4b22582cfe8a47b03ad0854144668f5113457a1da119b7",
+    "production/v3.1/assets/reach.png": "46ae50757c553729a23b63420f7e66498cfd4e0a225c3aba967bc21bbb2cc259",
+    "production/v3.1/engine/attention.js": "cb87ae57d4381e397fd1d2140dacb47e361f73591b9d24c918a24369c88ef819",
+    "production/v3.1/engine/classic.js": "e40d52c7ac50826540fca5d2ad4aac3f303e5b28fa9085be7a2abf17998e6574",
+    "production/v3.1/engine/film.js": "929248f3b5ffb783e8148cb003d9c2691fa4b07435b47f2cf88e42ab61f3888a",
+    "production/v3.1/engine/index.html": "d04e3c9af92a4abd295d472de55aaf63da9100804053bb3cb2afdc23ace849d3",
+    "production/v3.1/engine/rice.js": "3f955968fa52ef2607b0a4716143b847cf9683a72540b72d8f5f89a92e4dcaaa",
+    "production/v3.1/engine/signature.js": "544898d067f4f664cb35de5c5c62f401c83384d3338b822328dd64a886b47a1a",
+    "production/v3.1/engine/style.css": "e8d8d6bbaf9790f7ff82eeea6dd72f870d242b67034de5b436581bd8c83fe22d",
+    "production/v3.1/engine/tracking.js": "73d8e43838cbbd657e4b3bea38eccafe78b019031204dc5a709e026a5be611d8"
+  }
+}

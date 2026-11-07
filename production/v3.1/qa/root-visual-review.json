@@ -1,0 +1,23 @@
+{
+  "date": "2026-11-08",
+  "viewed_final_encoded_files": [
+    "exports/v3.1/encoded-review/ear-check-8.1.png",
+    "exports/v3.1/encoded-review/ear-check-41.png",
+    "exports/v3.1/encoded-review/key-147.500.png",
+    "exports/v3.1/encoded-review/key-202.500.png"
+  ],
+  "viewed_runtime_frames": [
+    "6",
+    "8.1",
+    "41",
+    "112"
+  ],
+  "all_seven_pose_head_sheet_viewed": true,
+  "findings": [
+    "The three repaired production poses display a visible pointed right ear with coherent root placement.",
+    "No visible rectangular patch edges or ear clipping in these source-resolution checks.",
+    "Drawing, q and pose-b original ears confirmed in the seven-pose head sheet.",
+    "Ending preserves blue 啥龙 correction and original two-character stage; no Xiao Chen cameo."
+  ],
+  "scope": "Selected encoded stills and all-asset head sheet; not every frame or continuous auditory review."
+}
