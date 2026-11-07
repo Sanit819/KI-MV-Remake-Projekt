@@ -33,7 +33,9 @@
     "final:v5:4k-hires": "node tools/render/export_final_v5.mjs",
     "archive:check": "node tools/archive/reproduce_v52.mjs --check",
     "archive:preview": "node tools/archive/reproduce_v52.mjs --serve --width 1920 --height 1080",
-    "archive:render": "node tools/archive/reproduce_v52.mjs --render --with-warning"
+    "archive:render": "node tools/archive/reproduce_v52.mjs --render --with-warning",
+    "full:v6:4k": "node tools/render_mv6_parallel.mjs --transport raw --jobs 2",
+    "full:v6:package": "python -B tools/package_mv6.py --body exports/mv6/final4k/body.mp4 --dir exports/mv6/final4k"
   },
   "dependencies": {
     "playwright-core": "1.64.1",
