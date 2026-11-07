@@ -1,3 +1,13 @@
+# 最新交付 · v3.2 手部与张量分片 · 2026-11-08
+
+[播放 v3.2](exports/v3.2/watch.html) · [上传用成片 MKV](exports/v3.2/taiyoukei-disco-v3.2-720p30-flac.mkv) · [手部对比](production/v3.2/qa/asset-hand-review.png) · [交付记录](docs/DELIVERY_V32.md)。
+
+Astra 外伸手补齐五指，中央牵手结构重画，所有三段592帧统一更新。中段掌心切半是用户明确保留的小特性，用同一新握手图加入 rank 0/1、牵手已分片与 all_gather 同步提示；以后不要自动修掉切半。v3.1补耳、原FLAC、日上中下字幕、剧情和片尾保持。720p30／203.2秒，媒体30项与播放器22项通过，编码后抽样已复核。
+
+维护分支 `fix/taiyoukei-disco-v3.2-hands`；旧成片、旧归档点保持。GitHub推送/锁定仍暂停。下方均为历史交付。
+
+---
+
 # 最新交付 · v3.1 补耳修正版 · 2026-11-08
 
 已按用户要求重新生成只补耳的全曲 v3.1。[播放新版](exports/v3.1/watch.html) · [新版成片MKV](exports/v3.1/taiyoukei-disco-v3.1-720p30-flac.mkv) · [交付记录](docs/DELIVERY_V31.md) · [七姿态耳部检查图](production/v3.1/qa/asset-ear-review.png)。

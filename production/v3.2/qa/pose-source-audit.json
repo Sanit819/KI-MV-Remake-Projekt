@@ -1,0 +1,329 @@
+{
+  "checked_utc": "2026-11-07T18:24:43.059643+00:00",
+  "passed": true,
+  "scope": "Static source and PNG-header inventory only; no 6096-frame render or visual acceptance.",
+  "production_asset_count": 7,
+  "assets": [
+    {
+      "key": "pose-a",
+      "path": "production/v1/assets/pose-a.png",
+      "size": [
+        1673,
+        940
+      ],
+      "sha256": "c50127d8024827497b693907684d5a20f37daffeaf0666933460fbfa723d9a84",
+      "role": "production pose"
+    },
+    {
+      "key": "pose-b",
+      "path": "production/v1/assets/pose-b.png",
+      "size": [
+        1673,
+        940
+      ],
+      "sha256": "c44f9700f3cf166889436b2cb28f5b10ce6bc90a51c514711c67031e5c3d78b5",
+      "role": "production pose"
+    },
+    {
+      "key": "clap",
+      "path": "production/v1/assets/clap.png",
+      "size": [
+        1673,
+        940
+      ],
+      "sha256": "939d3f49ef8b91a24992075da92d0d44fa6df74c4b4a2cd471591644a8b76181",
+      "role": "production pose"
+    },
+    {
+      "key": "reach",
+      "path": "production/v1/assets/reach.png",
+      "size": [
+        1672,
+        941
+      ],
+      "sha256": "fba24216a6de526d9f52bcb2a8dfb27f19896afc2a9b595157923d98b7cc9e93",
+      "role": "production pose"
+    },
+    {
+      "key": "draw",
+      "path": "production/v1/assets/draw.png",
+      "size": [
+        1672,
+        941
+      ],
+      "sha256": "04fef0c02995aac5a3f2de07e63f141813fbb3a12273a860eef10a2fd3b8c0e9",
+      "role": "production pose"
+    },
+    {
+      "key": "q",
+      "path": "production/v1/assets/q.png",
+      "size": [
+        1672,
+        941
+      ],
+      "sha256": "28d36dd8733faff3904ba30ced98262934c85040ccaf52aa218dffea6ff77470",
+      "role": "production pose"
+    },
+    {
+      "key": "fallback",
+      "path": "art/style-tests/astra-ds-mv-style-v5.png",
+      "size": [
+        1673,
+        940
+      ],
+      "sha256": "e79281b702895e1e40cee067736448b74bc851facfaac9eb008aaa206e3efd9c",
+      "role": "fallback only if requested and pose-a assets are unavailable"
+    }
+  ],
+  "ear_patch_donors": [
+    {
+      "key": "pose-a",
+      "path": "production/v3.1/assets/pose-a.png",
+      "rect": [
+        934,
+        240,
+        64,
+        40
+      ],
+      "size": [
+        1673,
+        940
+      ],
+      "sha256": "80c6741eeb28b5c72a4b22582cfe8a47b03ad0854144668f5113457a1da119b7",
+      "role": "local ear pixels only; not an additional production pose"
+    },
+    {
+      "key": "reach",
+      "path": "production/v3.1/assets/reach.png",
+      "rect": [
+        898,
+        302,
+        74,
+        47
+      ],
+      "size": [
+        1672,
+        941
+      ],
+      "sha256": "46ae50757c553729a23b63420f7e66498cfd4e0a225c3aba967bc21bbb2cc259",
+      "role": "local ear pixels only; not an additional production pose"
+    },
+    {
+      "key": "clap",
+      "path": "production/v3.1/assets/clap.png",
+      "rect": [
+        932,
+        239,
+        66,
+        45
+      ],
+      "size": [
+        1673,
+        940
+      ],
+      "sha256": "83923a16a021e240b15d0ba3c86560ebfe6c60f220dc0d23c34d849a908c5afe",
+      "role": "local ear pixels only; not an additional production pose"
+    },
+    {
+      "key": "fallback",
+      "path": "production/v3.1/assets/fallback.png",
+      "rect": [
+        926,
+        241,
+        72,
+        46
+      ],
+      "size": [
+        1673,
+        940
+      ],
+      "sha256": "dd29579d3ea139a15fa48894de149d62511821cd5915cbaeb23a2c96d5d5ea23",
+      "role": "local ear pixels only; not an additional production pose"
+    }
+  ],
+  "hand_patch_rectangles": [
+    {
+      "id": "joined-hands",
+      "asset": "reach",
+      "path": "production/v3.2/assets/reach-hands.png",
+      "rect": [
+        760,
+        442,
+        130,
+        113
+      ],
+      "preserve_polygon": [],
+      "donor_native_size": [
+        1671,
+        941
+      ],
+      "map_size": [
+        1672,
+        941
+      ],
+      "scale": [
+        1.0005984440454818,
+        1
+      ],
+      "sha256": "d4e4b6ac32db66dfab3cc331b4d810c85c2bac52a19b9bfad88da36ccdd1573f",
+      "role": "only the stated hand rectangle is composited after the existing reach ear patch"
+    },
+    {
+      "id": "astra-outer-hand",
+      "asset": "reach",
+      "path": "production/v3.2/assets/reach-hands.png",
+      "rect": [
+        1378,
+        516,
+        126,
+        118
+      ],
+      "preserve_polygon": [
+        [
+          1410,
+          516
+        ],
+        [
+          1435,
+          516
+        ],
+        [
+          1435,
+          522
+        ],
+        [
+          1430,
+          528
+        ],
+        [
+          1424,
+          536
+        ],
+        [
+          1410,
+          539
+        ]
+      ],
+      "donor_native_size": [
+        1671,
+        941
+      ],
+      "map_size": [
+        1672,
+        941
+      ],
+      "scale": [
+        1.0005984440454818,
+        1
+      ],
+      "sha256": "d4e4b6ac32db66dfab3cc331b4d810c85c2bac52a19b9bfad88da36ccdd1573f",
+      "role": "only the stated hand rectangle is composited after the existing reach ear patch"
+    }
+  ],
+  "stage_draw_entry": "film.js sprite(): full sprite or selected half, both draw a.im; original x836 split performance retained",
+  "other_image_loading": "imageFile() seven originals, applyEarPatch() four v3.1 donors, applyHandPatches() one donor for two rectangles",
+  "mirror_review": "No extra mirrored image asset or negative-scale character branch. Stage rap uses a pi rotation. Source scale entries below are text/title/school transforms.",
+  "key_frame_coverage_plan_seconds": {
+    "reach": 6,
+    "pose-a": 8.1,
+    "pose-b": 8.8,
+    "clap": 41,
+    "draw": 112,
+    "q": 31.5
+  },
+  "engine_sha256": {
+    "attention.js": "cb87ae57d4381e397fd1d2140dacb47e361f73591b9d24c918a24369c88ef819",
+    "classic.js": "e40d52c7ac50826540fca5d2ad4aac3f303e5b28fa9085be7a2abf17998e6574",
+    "film.js": "c2c4461e0d8330273e097a2e603651a979cebd41801b170ad392ddf5d9eb9504",
+    "rice.js": "3f955968fa52ef2607b0a4716143b847cf9683a72540b72d8f5f89a92e4dcaaa",
+    "signature.js": "544898d067f4f664cb35de5c5c62f401c83384d3338b822328dd64a886b47a1a",
+    "tracking.js": "73d8e43838cbbd657e4b3bea38eccafe78b019031204dc5a709e026a5be611d8"
+  },
+  "loading_drawing_transform_entries": [
+    {
+      "file": "film.js",
+      "line": 32,
+      "source": "function text(s,x,y,size=74,opt={}){ctx.save();ctx.translate(x,y);if(opt.rot)ctx.rotate(opt.rot);ctx.globalAlpha=opt.alpha??1;ctx.fillStyle=opt.color||C.ink;ctx.textAlign=opt.align||'center';ctx.textBaseline='middle';ctx.font=`${opt.cn?600:400} ${size}px \"${opt.cn?'DiscoCN':'DiscoHeavy'}\",sans-serif`;let tw=ctx.measureText(s).width;let sx=Math.min(1,(opt.max||1180)/Math.max(tw,1));ctx.scale(sx,1);if(opt.stroke){ctx.strokeStyle=C.white;ctx.lineWidth=5;ctx.strokeText(s,0,0);}ctx.fillText(s,0,0);ctx.restore();}"
+    },
+    {
+      "file": "film.js",
+      "line": 40,
+      "source": "async function imageFile(key,url){return new Promise(resolve=>{let im=new Image;im.onload=()=>{const a={im,w:im.naturalWidth,h:im.naturalHeight,url};assets[key]=a;const c=document.createElement('canvas');c.width=a.w;c.height=a.h;const q=c.getContext('2d',{willReadFrequently:true});q.drawImage(im,0,0);const data=q.getImageData(0,0,a.w,a.h).data;let boxes=[[a.w,a.h,0,0],[a.w,a.h,0,0]],x0=a.w,y0=a.h,x1=0,y1=0,clear=0;for(let y=0;y<a.h;y++)for(let x=0;x<a.w;x++){const al=data[(y*a.w+x)*4+3];if(al<20)clear++;if(al>20){x0=Math.min(x0,x);x1=Math.max(x1,x);y0=Math.min(y0,y);y1=Math.max(y1,y);let box=boxes[x<a.w/2?0:1];box[0]=Math.min(box[0],x);box[1]=Math.min(box[1],y);box[2]=Math.max(box[2],x);box[3]=Math.max(box[3],y);}}a.bounds={x:x0,y:y0,w:x1-x0+1,h:y1-y0+1};a.halfBounds=boxes.map(b=>({x:b[0],y:b[1],w:b[2]-b[0]+1,h:b[3]-b[1]+1}));a.transparent=clear>data.length/4*.01;for(let scale of [.25,.5,.75,1])q.drawImage(im,0,0,a.w*scale,a.h*scale);resolve(a)};im.onerror=()=>{missing.push(key);resolve(null)};im.src=url;});}"
+    },
+    {
+      "file": "film.js",
+      "line": 46,
+      "source": "const im=new Image;"
+    },
+    {
+      "file": "film.js",
+      "line": 49,
+      "source": "im.src=url;"
+    },
+    {
+      "file": "film.js",
+      "line": 57,
+      "source": "pc.drawImage(a.im,0,0);"
+    },
+    {
+      "file": "film.js",
+      "line": 62,
+      "source": "pc.drawImage(edited,x,y,w,h,x,y,w,h);"
+    },
+    {
+      "file": "film.js",
+      "line": 99,
+      "source": "const edited=await new Promise((resolve,reject)=>{const im=new Image;im.onload=()=>resolve(im);im.onerror=()=>reject(new Error('Missing hand patch image: '+url));im.src=url;});"
+    },
+    {
+      "file": "film.js",
+      "line": 105,
+      "source": "const donorContext=donor.getContext('2d',{willReadFrequently:true});donorContext.drawImage(edited,0,0,a.w,a.h);"
+    },
+    {
+      "file": "film.js",
+      "line": 116,
+      "source": "// ImageData writes avoid drawImage(canvas) re-normalizing unrelated transparent edges."
+    },
+    {
+      "file": "film.js",
+      "line": 176,
+      "source": "if(opt.side===0||opt.side===1){let sx=opt.side*a.w/2;ctx.drawImage(a.im,sx,0,a.w/2,a.h,dx+sx*sc,dy,a.w/2*sc,a.h*sc);}"
+    },
+    {
+      "file": "film.js",
+      "line": 177,
+      "source": "else ctx.drawImage(a.im,dx,dy,a.w*sc,a.h*sc);"
+    },
+    {
+      "file": "film.js",
+      "line": 255,
+      "source": "function title(t){let local=t-14.249,pulseS=1+.045*pulse(t);ctx.save();ctx.translate(640,360);ctx.scale(pulseS,pulseS);text('太陽系',0,-90,174,{max:1150});text('デスコ',0,100,195,{max:1120});ctx.restore();window.DiscoSignature.title(ctx,t,signatureHost());if(local>5)text('MUSIC・LYRICS  ナユタン星人',640,672,24,{max:1120});}"
+    },
+    {
+      "file": "film.js",
+      "line": 256,
+      "source": "function school(t){let k=smooth((t-39.849)/.3)*(1-smooth((t-45.9)/.349));if(!k)return;ctx.save();ctx.translate(640,420);ctx.scale(k,1);roughRect(-330,-170,660,350,C.ink,C.white);line([[-365,-170],[0,-310],[365,-170]],C.ink,3);for(let x=-260;x<=200;x+=110)roughRect(x,-110,65,75,C.ink);text('校舎',0,80,125,{max:570});ctx.restore();}"
+    },
+    {
+      "file": "film.js",
+      "line": 333,
+      "source": "await Promise.all(['pose-a','pose-b','clap','reach','draw','q'].map(k=>imageFile(k,`../../v1/assets/${k}.png`)));"
+    },
+    {
+      "file": "film.js",
+      "line": 334,
+      "source": "await imageFile('fallback','../../../art/style-tests/astra-ds-mv-style-v5.png');"
+    },
+    {
+      "file": "film.js",
+      "line": 358,
+      "source": "preview.getContext('2d').drawImage(a.im,0,0);"
+    },
+    {
+      "file": "film.js",
+      "line": 364,
+      "source": "window.renderFrame=async time=>{const t=clamp(Number(time)||0,0,DURATION-1/FPS);ctx.setTransform(1,0,0,1,0,0);ctx.globalAlpha=1;ctx.globalCompositeOperation='source-over';scene(t);return {time:t,section:seg(t).id,lyric:currentLine(t)?.id??null,pose:framePose(t)};};"
+    }
+  ]
+}

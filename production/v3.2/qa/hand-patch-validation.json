@@ -1,0 +1,112 @@
+{
+  "patches": [
+    {
+      "id": "joined-hands",
+      "asset": "reach",
+      "url": "../assets/reach-hands.png",
+      "rect": [
+        760,
+        442,
+        130,
+        113
+      ],
+      "preserve_polygon": [],
+      "protected_pixels": 0,
+      "changed_protected_pixels": 0,
+      "width": 1672,
+      "height": 941,
+      "donor_native_size": [
+        1671,
+        941
+      ],
+      "map_size": [
+        1672,
+        941
+      ],
+      "scale": [
+        1.0005984440454818,
+        1
+      ],
+      "baseline": "v3.1 ear-patched reach",
+      "changed_pixels_inside": 10427,
+      "changed_pixels_outside": 0,
+      "bounds_preserved": true,
+      "halfBounds_preserved": true
+    },
+    {
+      "id": "astra-outer-hand",
+      "asset": "reach",
+      "url": "../assets/reach-hands.png",
+      "rect": [
+        1378,
+        516,
+        126,
+        118
+      ],
+      "preserve_polygon": [
+        [
+          1410,
+          516
+        ],
+        [
+          1435,
+          516
+        ],
+        [
+          1435,
+          522
+        ],
+        [
+          1430,
+          528
+        ],
+        [
+          1424,
+          536
+        ],
+        [
+          1410,
+          539
+        ]
+      ],
+      "protected_pixels": 461,
+      "changed_protected_pixels": 0,
+      "width": 1672,
+      "height": 941,
+      "donor_native_size": [
+        1671,
+        941
+      ],
+      "map_size": [
+        1672,
+        941
+      ],
+      "scale": [
+        1.0005984440454818,
+        1
+      ],
+      "baseline": "v3.1 ear-patched reach",
+      "changed_pixels_inside": 9646,
+      "changed_pixels_outside": 0,
+      "bounds_preserved": true,
+      "halfBounds_preserved": true
+    }
+  ],
+  "comparison": "Canvas-normalized RGBA versus v3.1 ear-patched reach",
+  "donor_native_size": [
+    1671,
+    941
+  ],
+  "map_size": [
+    1672,
+    941
+  ],
+  "scale": [
+    1.0005984440454818,
+    1
+  ],
+  "changed_pixels_inside_union": 20073,
+  "changed_pixels_outside_union": 0,
+  "original_geometry_preserved": true,
+  "split_source_x": 836
+}

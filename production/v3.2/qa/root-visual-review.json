@@ -1,0 +1,18 @@
+{
+  "reviewer": "root",
+  "scope": "Actual still-frame viewing only; not continuous audiovisual or all-frame human review",
+  "runtime_images_viewed": [
+    "asset-hand-review.png (before hair mask correction)",
+    "t134.000.png (before and after sharding overlay)",
+    "t139.500.png (after overlay)"
+  ],
+  "encoded_images_viewed": ["key-006.000.png", "key-140.300.png"],
+  "findings": [
+    "Corrected Astra free hand has four long fingers plus one thumb.",
+    "Joined hands have two readable wrist origins and plausible visible finger occlusion.",
+    "User explicitly chose to keep center-cut palms as a feature; runtime uses the corrected single clasp sprite with original split geometry.",
+    "Rank labels and all_gather captions in inspected final frames remain above bilingual subtitles.",
+    "Independent agent checked the final protected hair boundary and additional encoded coverage; see encoded-visual-audit.md and source-change-audit.md."
+  ],
+  "status": "passed within stated sample scope"
+}

@@ -1,0 +1,72 @@
+{
+  "version": "3.2",
+  "mode": "built-in image_gen precise-object-edit",
+  "source": "production/v1/assets/reach.png",
+  "source_sha256": "fba24216a6de526d9f52bcb2a8dfb27f19896afc2a9b595157923d98b7cc9e93",
+  "donor": "production/v3.2/assets/reach-hands.png",
+  "donor_sha256": "d4e4b6ac32db66dfab3cc331b4d810c85c2bac52a19b9bfad88da36ccdd1573f",
+  "generated_default_path": "C:/Users/auscar/.codex/generated_images/01a1b5bf-f221-7c81-a569-82b3ce7d1d3d/exec-48fc6618-b9ca-4f7e-9398-c8e62d9998d6.png",
+  "native_dimensions": [
+    1671,
+    941
+  ],
+  "map_dimensions": [
+    1672,
+    941
+  ],
+  "donor_scale": [
+    1.0005984440454818,
+    1
+  ],
+  "composition": "Preserve v3.1 ear-patched canvas and original placement geometry; copy donor ImageData only within two ROIs, preserving original hair polygon.",
+  "patches": [
+    {
+      "id": "joined-hands",
+      "rect": [
+        760,
+        442,
+        130,
+        113
+      ]
+    },
+    {
+      "id": "astra-outer-hand",
+      "rect": [
+        1378,
+        516,
+        126,
+        118
+      ],
+      "preserve_polygon": [
+        [
+          1410,
+          516
+        ],
+        [
+          1435,
+          516
+        ],
+        [
+          1435,
+          522
+        ],
+        [
+          1430,
+          528
+        ],
+        [
+          1424,
+          536
+        ],
+        [
+          1410,
+          539
+        ]
+      ]
+    }
+  ],
+  "user_direction": "Keep the original x836 cut through clasp during separated scene; do not use newly separated hands. Explain with tensor sharding / all_gather stage gag using this corrected clasp.",
+  "reference": "https://docs.pytorch.org/docs/stable/distributed.tensor.html",
+  "evidence_boundary": "Artistic visualization; no distributed machine-learning execution or inference is claimed.",
+  "prompt_file": "PROMPTS.md"
+}

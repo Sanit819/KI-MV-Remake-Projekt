@@ -1,0 +1,821 @@
+{
+  "schema_version": 1,
+  "checked_utc": "2026-11-07T18:33:48.324556+00:00",
+  "status": "passed",
+  "scope": "Final read-only source/hash/ref audit with static all-timecode reach enumeration and explicitly scoped encoded-frame visual sampling; writes only this report and its Markdown companion",
+  "baseline_commit": "e56b8d7b9fe71d9c5910032bad75304e1bc029ac",
+  "checks": {
+    "film_residual_equal_v31": true,
+    "original_drawReach_unchanged_except_overlay_call": true,
+    "no_separated_route_or_hand_state": true,
+    "six_modules_byte_equal": true,
+    "index_html_version_only": true,
+    "frozen_v31_and_original_assets_timeline_lyrics": true,
+    "old_archive_refs_unchanged": true,
+    "original_flac_hash_unchanged": true,
+    "v31_master_hash_unchanged": true,
+    "v32_master_matches_validation": true,
+    "all_6096_timecodes_reach_592": true,
+    "shared_reach_image_for_all_routes": true,
+    "existing_validation_reports_pass": true,
+    "local_patch_invariants_in_browser_report": true,
+    "current_engine_and_hand_donor_match_render_preflight": true
+  },
+  "evidence": {
+    "film_normalization": {
+      "comparison": "UTF-8 text with newline normalization; remove only the enumerated authorized additions, then require exact text equality",
+      "allowed_deltas": [
+        "applyHandPatches: two local ROIs and protected original-hair polygon",
+        "drawHandSharding overlay plus one appended drawReach call; original trajectory/text untouched",
+        "QA sprite call trace and hand-sharding state readback/reset",
+        "init patch call and version/report metadata",
+        "old ear donor path updated to point at existing v3.1 assets"
+      ],
+      "baseline_normalized_sha256": "edfaa6bc55bd52acd664bc99d2dfeb3e22981cfab2847640b97790abf204be0a",
+      "v32_stripped_normalized_sha256": "edfaa6bc55bd52acd664bc99d2dfeb3e22981cfab2847640b97790abf204be0a",
+      "v32_film_sha256": "c2c4461e0d8330273e097a2e603651a979cebd41801b170ad392ddf5d9eb9504"
+    },
+    "six_modules": [
+      {
+        "file": "signature.js",
+        "byte_equal": true,
+        "v31_sha256": "544898d067f4f664cb35de5c5c62f401c83384d3338b822328dd64a886b47a1a",
+        "v32_sha256": "544898d067f4f664cb35de5c5c62f401c83384d3338b822328dd64a886b47a1a"
+      },
+      {
+        "file": "tracking.js",
+        "byte_equal": true,
+        "v31_sha256": "73d8e43838cbbd657e4b3bea38eccafe78b019031204dc5a709e026a5be611d8",
+        "v32_sha256": "73d8e43838cbbd657e4b3bea38eccafe78b019031204dc5a709e026a5be611d8"
+      },
+      {
+        "file": "classic.js",
+        "byte_equal": true,
+        "v31_sha256": "e40d52c7ac50826540fca5d2ad4aac3f303e5b28fa9085be7a2abf17998e6574",
+        "v32_sha256": "e40d52c7ac50826540fca5d2ad4aac3f303e5b28fa9085be7a2abf17998e6574"
+      },
+      {
+        "file": "attention.js",
+        "byte_equal": true,
+        "v31_sha256": "cb87ae57d4381e397fd1d2140dacb47e361f73591b9d24c918a24369c88ef819",
+        "v32_sha256": "cb87ae57d4381e397fd1d2140dacb47e361f73591b9d24c918a24369c88ef819"
+      },
+      {
+        "file": "rice.js",
+        "byte_equal": true,
+        "v31_sha256": "3f955968fa52ef2607b0a4716143b847cf9683a72540b72d8f5f89a92e4dcaaa",
+        "v32_sha256": "3f955968fa52ef2607b0a4716143b847cf9683a72540b72d8f5f89a92e4dcaaa"
+      },
+      {
+        "file": "style.css",
+        "byte_equal": true,
+        "v31_sha256": "e8d8d6bbaf9790f7ff82eeea6dd72f870d242b67034de5b436581bd8c83fe22d",
+        "v32_sha256": "e8d8d6bbaf9790f7ff82eeea6dd72f870d242b67034de5b436581bd8c83fe22d"
+      }
+    ],
+    "baseline_tree_files": [
+      {
+        "path": "art/style-tests/astra-ds-mv-style-v5.png",
+        "matches_baseline": true,
+        "comparison": "raw Git blob",
+        "baseline_blob": "71387ee2ce0483b9bada6f8092902f8bbcc1eae6",
+        "current_sha256": "e79281b702895e1e40cee067736448b74bc851facfaac9eb008aaa206e3efd9c"
+      },
+      {
+        "path": "lyrics/lyrics.json",
+        "matches_baseline": true,
+        "comparison": "Git blob after CRLF normalization",
+        "baseline_blob": "0b33aadf0b987e24a2e9b62508221a825449b3d6",
+        "current_sha256": "2a7588e0de9a4b922f79fc609f7810f6147f758b4915f0cc10dad14ad0db42de"
+      },
+      {
+        "path": "production/v1/assets/clap.png",
+        "matches_baseline": true,
+        "comparison": "raw Git blob",
+        "baseline_blob": "5212be09f33afe11ef8fdb1f9cb56d9b39b3a0ee",
+        "current_sha256": "939d3f49ef8b91a24992075da92d0d44fa6df74c4b4a2cd471591644a8b76181"
+      },
+      {
+        "path": "production/v1/assets/draw.png",
+        "matches_baseline": true,
+        "comparison": "raw Git blob",
+        "baseline_blob": "f737afce49e0969d5b0bb5c7fb70487c7b16cefc",
+        "current_sha256": "04fef0c02995aac5a3f2de07e63f141813fbb3a12273a860eef10a2fd3b8c0e9"
+      },
+      {
+        "path": "production/v1/assets/generation-manifest.json",
+        "matches_baseline": true,
+        "comparison": "raw Git blob",
+        "baseline_blob": "1402808497fb5a2cfd33abdfe370c35f439b7106",
+        "current_sha256": "6a81866b17c803bead2041c9108eb9746b0f2c3157d5b737fea9f0351e7bea4f"
+      },
+      {
+        "path": "production/v1/assets/pose-a.png",
+        "matches_baseline": true,
+        "comparison": "raw Git blob",
+        "baseline_blob": "3d2acb0a024ad87175fcbfc58c121985e71ffcf5",
+        "current_sha256": "c50127d8024827497b693907684d5a20f37daffeaf0666933460fbfa723d9a84"
+      },
+      {
+        "path": "production/v1/assets/pose-b.png",
+        "matches_baseline": true,
+        "comparison": "raw Git blob",
+        "baseline_blob": "4a59374506e84ee00e2e545646a988d797fe0109",
+        "current_sha256": "c44f9700f3cf166889436b2cb28f5b10ce6bc90a51c514711c67031e5c3d78b5"
+      },
+      {
+        "path": "production/v1/assets/q.png",
+        "matches_baseline": true,
+        "comparison": "raw Git blob",
+        "baseline_blob": "c56a7c8f0e0bdbf51109ba6732d2d3f4b043a3b3",
+        "current_sha256": "28d36dd8733faff3904ba30ced98262934c85040ccaf52aa218dffea6ff77470"
+      },
+      {
+        "path": "production/v1/assets/reach.png",
+        "matches_baseline": true,
+        "comparison": "raw Git blob",
+        "baseline_blob": "dc900888c7265d1d76658b25bb833e32c8feea2a",
+        "current_sha256": "fba24216a6de526d9f52bcb2a8dfb27f19896afc2a9b595157923d98b7cc9e93"
+      },
+      {
+        "path": "production/v1/timeline/README.md",
+        "matches_baseline": true,
+        "comparison": "raw Git blob",
+        "baseline_blob": "b6abc47d34228989f9d130a6271a8ab4837cb7b0",
+        "current_sha256": "ccbfb11110797269f4cd9ca86bf2737c402315589ae0491d18906bd8cc68b0bd"
+      },
+      {
+        "path": "production/v1/timeline/asr-candidate.json",
+        "matches_baseline": true,
+        "comparison": "Git blob after CRLF normalization",
+        "baseline_blob": "2ef1d12bb64ddfdf77c313b6c1030a9c780c48e1",
+        "current_sha256": "f817899cdbe20886de583a8a7da2d24534fe813f1c9ec959d54b0955a10b6d03"
+      },
+      {
+        "path": "production/v1/timeline/lyrics-candidate.json",
+        "matches_baseline": true,
+        "comparison": "Git blob after CRLF normalization",
+        "baseline_blob": "438ae27cfa320f21d811d13e2bba0367ce7a2b6d",
+        "current_sha256": "cf4787bb0fa318063484b8b5ac0f9b4c813036ea5da24cadbb642a866430d1d8"
+      },
+      {
+        "path": "production/v1/timeline/rhythm-analysis.json",
+        "matches_baseline": true,
+        "comparison": "Git blob after CRLF normalization",
+        "baseline_blob": "03280464654f8dbe8a5bdbcf29269eeef3efac7e",
+        "current_sha256": "8b93361561964bf067ca6c44794394b4d9e9c661036d0e8a4d360e46edfb3641"
+      },
+      {
+        "path": "production/v1/timeline/validation.json",
+        "matches_baseline": true,
+        "comparison": "Git blob after CRLF normalization",
+        "baseline_blob": "948280f4bfa96e7e8c13f3408cafc931c131b499",
+        "current_sha256": "23bc7c48604860be74bab43f039363bfc7c47b84891c06dd9068759839555c40"
+      },
+      {
+        "path": "production/v3.1/README.md",
+        "matches_baseline": true,
+        "comparison": "raw Git blob",
+        "baseline_blob": "4ea9445532c8671dedc2f9e9ba7804fd8ba7039a",
+        "current_sha256": "76719ec52c0da1b5a77c1fca61a184163636a9b5ce09cff2d7aaf729e7ae12cd"
+      },
+      {
+        "path": "production/v3.1/assets/PROMPTS.md",
+        "matches_baseline": true,
+        "comparison": "Git blob after CRLF normalization",
+        "baseline_blob": "9b5bd18e0eb21aa4907c92239804051c62a20485",
+        "current_sha256": "fe4d9ad5796bd53f721129d279d1b327fd7868d8dd743e9fa8dfcd07c6fbf51b"
+      },
+      {
+        "path": "production/v3.1/assets/PROMPTS_ADDITIONAL.md",
+        "matches_baseline": true,
+        "comparison": "Git blob after CRLF normalization",
+        "baseline_blob": "5a4bf60795b9fe8f7af841c43f40e7adf7b9ea90",
+        "current_sha256": "1e40af58a4b1ca7b9c658c8e82467afe3a68461ef80db77e120520f5498e3a35"
+      },
+      {
+        "path": "production/v3.1/assets/clap.png",
+        "matches_baseline": true,
+        "comparison": "raw Git blob",
+        "baseline_blob": "63751b3a190aacd72601c709e92ada52f29deed2",
+        "current_sha256": "83923a16a021e240b15d0ba3c86560ebfe6c60f220dc0d23c34d849a908c5afe"
+      },
+      {
+        "path": "production/v3.1/assets/fallback.png",
+        "matches_baseline": true,
+        "comparison": "raw Git blob",
+        "baseline_blob": "748d6ab35bbcfa1df4b9c074f0f42ef9e424e00d",
+        "current_sha256": "dd29579d3ea139a15fa48894de149d62511821cd5915cbaeb23a2c96d5d5ea23"
+      },
+      {
+        "path": "production/v3.1/assets/generation-manifest.json",
+        "matches_baseline": true,
+        "comparison": "Git blob after CRLF normalization",
+        "baseline_blob": "08fe567b60be36213d227893bf81bfd70f90bfc5",
+        "current_sha256": "566ea5ae783372829ede7e35e8b0771ca7bb68e48dfd4b3e90b1e08e172b9675"
+      },
+      {
+        "path": "production/v3.1/assets/pose-a.png",
+        "matches_baseline": true,
+        "comparison": "raw Git blob",
+        "baseline_blob": "82debc5f8cdc911940b55ca0110809c3ead2261b",
+        "current_sha256": "80c6741eeb28b5c72a4b22582cfe8a47b03ad0854144668f5113457a1da119b7"
+      },
+      {
+        "path": "production/v3.1/assets/reach.png",
+        "matches_baseline": true,
+        "comparison": "raw Git blob",
+        "baseline_blob": "4fd9f6dea45f08ac9e3cdd9c71a080916ae5ad63",
+        "current_sha256": "46ae50757c553729a23b63420f7e66498cfd4e0a225c3aba967bc21bbb2cc259"
+      },
+      {
+        "path": "production/v3.1/engine/attention.js",
+        "matches_baseline": true,
+        "comparison": "raw Git blob",
+        "baseline_blob": "0e146392ca8bc0026c1dd9798e9df759f6e709bc",
+        "current_sha256": "cb87ae57d4381e397fd1d2140dacb47e361f73591b9d24c918a24369c88ef819"
+      },
+      {
+        "path": "production/v3.1/engine/classic.js",
+        "matches_baseline": true,
+        "comparison": "raw Git blob",
+        "baseline_blob": "4d391daaf66f7035edc918b3683894c261d916ec",
+        "current_sha256": "e40d52c7ac50826540fca5d2ad4aac3f303e5b28fa9085be7a2abf17998e6574"
+      },
+      {
+        "path": "production/v3.1/engine/film.js",
+        "matches_baseline": true,
+        "comparison": "Git blob after CRLF normalization",
+        "baseline_blob": "1419d98eef9b8331a6dbe563ba6905234d75839b",
+        "current_sha256": "929248f3b5ffb783e8148cb003d9c2691fa4b07435b47f2cf88e42ab61f3888a"
+      },
+      {
+        "path": "production/v3.1/engine/index.html",
+        "matches_baseline": true,
+        "comparison": "raw Git blob",
+        "baseline_blob": "ec02875eb3dae8c9cafce034decf94daae3b15a0",
+        "current_sha256": "d04e3c9af92a4abd295d472de55aaf63da9100804053bb3cb2afdc23ace849d3"
+      },
+      {
+        "path": "production/v3.1/engine/rice.js",
+        "matches_baseline": true,
+        "comparison": "raw Git blob",
+        "baseline_blob": "2009192ccaa98aa24cef4eac7cf5c6a904dca5d1",
+        "current_sha256": "3f955968fa52ef2607b0a4716143b847cf9683a72540b72d8f5f89a92e4dcaaa"
+      },
+      {
+        "path": "production/v3.1/engine/signature.js",
+        "matches_baseline": true,
+        "comparison": "raw Git blob",
+        "baseline_blob": "07d4472e7fd5b5bcb652fc42834a68fdcef183f2",
+        "current_sha256": "544898d067f4f664cb35de5c5c62f401c83384d3338b822328dd64a886b47a1a"
+      },
+      {
+        "path": "production/v3.1/engine/style.css",
+        "matches_baseline": true,
+        "comparison": "raw Git blob",
+        "baseline_blob": "524e8120e93bf5cb0759c2fbd500cc4fc66e99c2",
+        "current_sha256": "e8d8d6bbaf9790f7ff82eeea6dd72f870d242b67034de5b436581bd8c83fe22d"
+      },
+      {
+        "path": "production/v3.1/engine/tracking.js",
+        "matches_baseline": true,
+        "comparison": "Git blob after CRLF normalization",
+        "baseline_blob": "1b6306086b068c470d3f828c8e09393cc84de6f0",
+        "current_sha256": "73d8e43838cbbd657e4b3bea38eccafe78b019031204dc5a709e026a5be611d8"
+      },
+      {
+        "path": "production/v3.1/qa/asset-ear-review.png",
+        "matches_baseline": true,
+        "comparison": "raw Git blob",
+        "baseline_blob": "04bb7512880fa8c2008206f623b6a857ab8531e2",
+        "current_sha256": "9e65332111f44f660bf153f18fd6f02a606ea1c19662ea09733ef4c006e24757"
+      },
+      {
+        "path": "production/v3.1/qa/browser-review.json",
+        "matches_baseline": true,
+        "comparison": "raw Git blob",
+        "baseline_blob": "57e96f09cdecf2e67c504c606ed369062fa66813",
+        "current_sha256": "a10f1a80ac91a09ecb709344ce80a63b432e9f711ef70983dbc46227efb37257"
+      },
+      {
+        "path": "production/v3.1/qa/ear-check-41.png",
+        "matches_baseline": true,
+        "comparison": "raw Git blob",
+        "baseline_blob": "6434d84f3b8256998bc8a0284754394e59782209",
+        "current_sha256": "262d5a0fdad3045deac49f05747e3ae04bf91b20b4af89128faa7cc9e1570d4c"
+      },
+      {
+        "path": "production/v3.1/qa/ear-check-8.1.png",
+        "matches_baseline": true,
+        "comparison": "raw Git blob",
+        "baseline_blob": "81c76f2cc0d52065f1ae07d96d2b2aa00eb895f8",
+        "current_sha256": "9a6b79d3d47b3da4282370d63cffb2e65b2ef1b19b08cc69d304dd70b176caef"
+      },
+      {
+        "path": "production/v3.1/qa/ear-patch-validation.json",
+        "matches_baseline": true,
+        "comparison": "Git blob after CRLF normalization",
+        "baseline_blob": "f8962ab3f4fb064f3ae228ad7562b0c48eedb164",
+        "current_sha256": "559c1f863211e33d43f14cda43b433b4cb113d58a2c0b65c2e0c44c79deefa9f"
+      },
+      {
+        "path": "production/v3.1/qa/encoded-coverage.json",
+        "matches_baseline": true,
+        "comparison": "Git blob after CRLF normalization",
+        "baseline_blob": "d180b035211838ff62102af51e4557abed229cce",
+        "current_sha256": "69aaa098e9f1a54677601345cdd3830f896769f798f813927b1ded74261fb237"
+      },
+      {
+        "path": "production/v3.1/qa/encoded-visual-audit.md",
+        "matches_baseline": true,
+        "comparison": "raw Git blob",
+        "baseline_blob": "af1f2d7470f01e3af2f836d8701173c3ff84de93",
+        "current_sha256": "bbe3e84ccddd5080005d264468e8f6a152f5d04fb89ca54c639233d11c26f20b"
+      },
+      {
+        "path": "production/v3.1/qa/key-147.500.png",
+        "matches_baseline": true,
+        "comparison": "raw Git blob",
+        "baseline_blob": "f0ad71e4a536dae0d7d3ac606641090b949505d0",
+        "current_sha256": "92461a17767b56a5af5e6ea9de6997146b50f66a2c6ab598034f2810ce24d113"
+      },
+      {
+        "path": "production/v3.1/qa/key-202.500.png",
+        "matches_baseline": true,
+        "comparison": "raw Git blob",
+        "baseline_blob": "eee2343e5627cfa7c682c9592bf8d1bd1c89163f",
+        "current_sha256": "cf8f1d6dd50cc8de2cb19e510db4886946e9c39d93c02e481e052a1dd530eff6"
+      },
+      {
+        "path": "production/v3.1/qa/media-validation-summary.json",
+        "matches_baseline": true,
+        "comparison": "Git blob after CRLF normalization",
+        "baseline_blob": "2ea813e7a2f36d6e28d2a4a024b37a688ade8532",
+        "current_sha256": "96e6f22b42a4364470699b175f913d9bfcb8e0a8f4cd21eea6dadd33f1d95f99"
+      },
+      {
+        "path": "production/v3.1/qa/player-validation.json",
+        "matches_baseline": true,
+        "comparison": "raw Git blob",
+        "baseline_blob": "9adf6641a449d4160aaf463205137903adde20c0",
+        "current_sha256": "86d9b2ff998b629a366fda48b1ed31adc20bd0fb2cfa5749e0ca2f2ef3fd102d"
+      },
+      {
+        "path": "production/v3.1/qa/pose-source-audit.json",
+        "matches_baseline": true,
+        "comparison": "Git blob after CRLF normalization",
+        "baseline_blob": "7f17a6fc40c175cd372bfab85788da5d176416be",
+        "current_sha256": "d8cfe84dce892a100bd2268aa766c06b6eea121deead1709521a0b3827205131"
+      },
+      {
+        "path": "production/v3.1/qa/render-stats.json",
+        "matches_baseline": true,
+        "comparison": "raw Git blob",
+        "baseline_blob": "51fe9429f68974d75f008e97f337fdac87979193",
+        "current_sha256": "aeadffee0e8e3af73406e4d4885a6b9d61189377149d8ed900b1dece268f01b7"
+      },
+      {
+        "path": "production/v3.1/qa/root-visual-review.json",
+        "matches_baseline": true,
+        "comparison": "Git blob after CRLF normalization",
+        "baseline_blob": "ecb7d87bebfcd4d58dc5247ce080395382ea6778",
+        "current_sha256": "ee6c2a050baa612cc6fede481dbc5888b3833374d2ab373e6f4b978a2936ee2b"
+      },
+      {
+        "path": "production/v3.1/qa/source-ear-audit.md",
+        "matches_baseline": true,
+        "comparison": "raw Git blob",
+        "baseline_blob": "233756e5927ec87af233ff08066c3b3856089e3a",
+        "current_sha256": "4ddab6948954d595348bfdbf70896cbf48f95f66d93e45f79570a81681acd26c"
+      },
+      {
+        "path": "production/v3.1/qa/source-sha256.json",
+        "matches_baseline": true,
+        "comparison": "Git blob after CRLF normalization",
+        "baseline_blob": "1c60d61ea9c3593112bd4f1b1c35adfd65d52ae8",
+        "current_sha256": "744265dcae8899ce531b7e7e58755f68b1fd5db98cb1021eca9b4bb25d810e38"
+      },
+      {
+        "path": "production/v3.1/qa/v3-preservation-validation.json",
+        "matches_baseline": true,
+        "comparison": "Git blob after CRLF normalization",
+        "baseline_blob": "e1fe594a33ddc0a7562c190372bbc4e6d71c07ab",
+        "current_sha256": "9d0278dde094e51f3b17aaa2625e828b7fdef95ac2c7bbc769a04c55277ac6e3"
+      },
+      {
+        "path": "tools/audit_pose_sources_v31.py",
+        "matches_baseline": true,
+        "comparison": "raw Git blob",
+        "baseline_blob": "f9775d7762c42dc9844db165ec72f587020ccacc",
+        "current_sha256": "57d22f5f984c7f1beb9320d0564000edcdd79d247d92d09f4e38730eb944bb2b"
+      },
+      {
+        "path": "tools/make_player_v31.py",
+        "matches_baseline": true,
+        "comparison": "raw Git blob",
+        "baseline_blob": "86ab93b4b8faf5a94c8b8f33f406985f0215b661",
+        "current_sha256": "0cb6e6bd3c06254b18b779cd0db5fc9d34bed3607f2449485315b40947d1ad05"
+      },
+      {
+        "path": "tools/render_mv_v31.ps1",
+        "matches_baseline": true,
+        "comparison": "raw Git blob",
+        "baseline_blob": "ec88954a216d3737c15489396f076e5f72b25b38",
+        "current_sha256": "acda905547afd651b9739756cf077ce1baf3c2bafe75343f6e898b13bc88eaac"
+      },
+      {
+        "path": "tools/review_encoded_v31.py",
+        "matches_baseline": true,
+        "comparison": "raw Git blob",
+        "baseline_blob": "707d1f3e4873c0dc5bda3bce2b84829d4ef19289",
+        "current_sha256": "e72eacdde462a8f526cf3e3e6be2bcda0503317cb907f401e8984d3a34f8b3b2"
+      },
+      {
+        "path": "tools/review_mv_v31.mjs",
+        "matches_baseline": true,
+        "comparison": "raw Git blob",
+        "baseline_blob": "08740829287fe6d3b9133d87e83f0b8fb6f91b66",
+        "current_sha256": "daff008de8784e05bc2b69cb7b73161e6fe5a577a8c5b96152c5bb39d1fd2143"
+      },
+      {
+        "path": "tools/verify_delivery_v31.py",
+        "matches_baseline": true,
+        "comparison": "raw Git blob",
+        "baseline_blob": "189f15106de5be04c5dde013753b01b778b6a8e0",
+        "current_sha256": "a88c118b5a54afd568f9e415f055165ba4220e7bdff04a390ae1003c4e0889ec"
+      },
+      {
+        "path": "tools/verify_player_v31.mjs",
+        "matches_baseline": true,
+        "comparison": "raw Git blob",
+        "baseline_blob": "f611d93e0342c60a6d3cae7a3038fd1c0b0e39c4",
+        "current_sha256": "0c9831ebf3e698cafa52e04cc6b69770759c082990638176fc8dba0f609c5923"
+      }
+    ],
+    "refs": {
+      "local_peeled_commit_refs": {
+        "太陽系デスコ": "464c1cebf3871ca78bf166815c1d022bae25fbf6",
+        "archive/taiyoukei-disco-v3": "464c1cebf3871ca78bf166815c1d022bae25fbf6",
+        "taiyoukei-disco-v3-final": "464c1cebf3871ca78bf166815c1d022bae25fbf6",
+        "fix/taiyoukei-disco-v3.1-ears": "e56b8d7b9fe71d9c5910032bad75304e1bc029ac"
+      },
+      "expected_archive_commit": "464c1cebf3871ca78bf166815c1d022bae25fbf6",
+      "expected_v31_commit": "e56b8d7b9fe71d9c5910032bad75304e1bc029ac",
+      "current_branch": "fix/taiyoukei-disco-v3.2-hands",
+      "remote_not_queried_or_changed": true
+    },
+    "media_hashes": {
+      "original_flac": {
+        "path": "local-source\\audio\\07 太陽系デスコ.flac",
+        "sha256": "0139c2441bf35e98951ca46b5e8395a71c8aa4b2629c4f5c3a1079881d019ac9",
+        "expected": "0139c2441bf35e98951ca46b5e8395a71c8aa4b2629c4f5c3a1079881d019ac9"
+      },
+      "v31_master": {
+        "path": "exports\\v3.1\\taiyoukei-disco-v3.1-720p30-flac.mkv",
+        "bytes": 201855093,
+        "sha256": "ff312918f6162a68937c568c7e7dd2f0ff9ac098196d4b077c4734ece503c97e",
+        "expected": "ff312918f6162a68937c568c7e7dd2f0ff9ac098196d4b077c4734ece503c97e"
+      },
+      "v32_master": {
+        "path": "exports\\v3.2\\taiyoukei-disco-v3.2-720p30-flac.mkv",
+        "bytes": 202023624,
+        "sha256": "2b3fd3651cb5e5442b1f1e795ef8877f8e473da3be38cfecaad970466eabc1b5",
+        "expected": "2b3fd3651cb5e5442b1f1e795ef8877f8e473da3be38cfecaad970466eabc1b5"
+      }
+    },
+    "reach_enumeration": {
+      "method": "Read actual source guards and unchanged section boundaries, assert them, then enumerate n/30 for every n=0..6095; static conditions only, not a new full-film render",
+      "evaluated_timecodes": 6096,
+      "reachable_unique_frames": 592,
+      "draw_calls_in_reach_frames": 938,
+      "ranges": [
+        {
+          "section": "opening",
+          "mode": "full",
+          "first_frame": 78,
+          "last_frame": 239,
+          "count": 162
+        },
+        {
+          "section": "reach",
+          "mode": "two_halves",
+          "first_frame": 3872,
+          "last_frame": 4217,
+          "count": 346
+        },
+        {
+          "section": "final",
+          "mode": "full",
+          "first_frame": 4364,
+          "last_frame": 4447,
+          "count": 84
+        }
+      ],
+      "source_half_cut_x": 836,
+      "source_width": 1672,
+      "all_routes_use": "assets.reach.im with both local hand patches",
+      "frame_conditions": {
+        "opening": "section opening and 2.6 <= t < 8",
+        "reach": "section reach and clamp((t-129.049)/12.8) <= 0.9",
+        "final": "section final and 145.449 <= t < 148.249"
+      }
+    },
+    "existing_runtime_reports": {
+      "read_only_import": true,
+      "new_browser_or_media_run_performed": false,
+      "media_status": "passed",
+      "media_checks": 30,
+      "player_status": "passed",
+      "player_checks": 22,
+      "browser_keyframes": 15,
+      "browser_reach_boundary_samples": 21,
+      "subtitles": 58,
+      "hand_patch_audit": {
+        "patches": [
+          {
+            "id": "joined-hands",
+            "asset": "reach",
+            "url": "../assets/reach-hands.png",
+            "rect": [
+              760,
+              442,
+              130,
+              113
+            ],
+            "preserve_polygon": [],
+            "protected_pixels": 0,
+            "changed_protected_pixels": 0,
+            "width": 1672,
+            "height": 941,
+            "donor_native_size": [
+              1671,
+              941
+            ],
+            "map_size": [
+              1672,
+              941
+            ],
+            "scale": [
+              1.0005984440454818,
+              1
+            ],
+            "baseline": "v3.1 ear-patched reach",
+            "changed_pixels_inside": 10427,
+            "changed_pixels_outside": 0,
+            "bounds_preserved": true,
+            "halfBounds_preserved": true
+          },
+          {
+            "id": "astra-outer-hand",
+            "asset": "reach",
+            "url": "../assets/reach-hands.png",
+            "rect": [
+              1378,
+              516,
+              126,
+              118
+            ],
+            "preserve_polygon": [
+              [
+                1410,
+                516
+              ],
+              [
+                1435,
+                516
+              ],
+              [
+                1435,
+                522
+              ],
+              [
+                1430,
+                528
+              ],
+              [
+                1424,
+                536
+              ],
+              [
+                1410,
+                539
+              ]
+            ],
+            "protected_pixels": 461,
+            "changed_protected_pixels": 0,
+            "width": 1672,
+            "height": 941,
+            "donor_native_size": [
+              1671,
+              941
+            ],
+            "map_size": [
+              1672,
+              941
+            ],
+            "scale": [
+              1.0005984440454818,
+              1
+            ],
+            "baseline": "v3.1 ear-patched reach",
+            "changed_pixels_inside": 9646,
+            "changed_pixels_outside": 0,
+            "bounds_preserved": true,
+            "halfBounds_preserved": true
+          }
+        ],
+        "comparison": "Canvas-normalized RGBA versus v3.1 ear-patched reach",
+        "donor_native_size": [
+          1671,
+          941
+        ],
+        "map_size": [
+          1672,
+          941
+        ],
+        "scale": [
+          1.0005984440454818,
+          1
+        ],
+        "changed_pixels_inside_union": 20073,
+        "changed_pixels_outside_union": 0,
+        "original_geometry_preserved": true,
+        "split_source_x": 836
+      },
+      "hand_patches": [
+        {
+          "id": "joined-hands",
+          "asset": "reach",
+          "url": "../assets/reach-hands.png",
+          "rect": [
+            760,
+            442,
+            130,
+            113
+          ],
+          "preserve_polygon": [],
+          "protected_pixels": 0,
+          "changed_protected_pixels": 0,
+          "width": 1672,
+          "height": 941,
+          "donor_native_size": [
+            1671,
+            941
+          ],
+          "map_size": [
+            1672,
+            941
+          ],
+          "scale": [
+            1.0005984440454818,
+            1
+          ],
+          "baseline": "v3.1 ear-patched reach",
+          "changed_pixels_inside": 10427,
+          "changed_pixels_outside": 0,
+          "bounds_preserved": true,
+          "halfBounds_preserved": true
+        },
+        {
+          "id": "astra-outer-hand",
+          "asset": "reach",
+          "url": "../assets/reach-hands.png",
+          "rect": [
+            1378,
+            516,
+            126,
+            118
+          ],
+          "preserve_polygon": [
+            [
+              1410,
+              516
+            ],
+            [
+              1435,
+              516
+            ],
+            [
+              1435,
+              522
+            ],
+            [
+              1430,
+              528
+            ],
+            [
+              1424,
+              536
+            ],
+            [
+              1410,
+              539
+            ]
+          ],
+          "protected_pixels": 461,
+          "changed_protected_pixels": 0,
+          "width": 1672,
+          "height": 941,
+          "donor_native_size": [
+            1671,
+            941
+          ],
+          "map_size": [
+            1672,
+            941
+          ],
+          "scale": [
+            1.0005984440454818,
+            1
+          ],
+          "baseline": "v3.1 ear-patched reach",
+          "changed_pixels_inside": 9646,
+          "changed_pixels_outside": 0,
+          "bounds_preserved": true,
+          "halfBounds_preserved": true
+        }
+      ]
+    },
+    "visual_review": {
+      "actually_opened_with": "view_image, original detail",
+      "artifacts": [
+        {
+          "path": "exports/v3.2/encoded-review/sheet-05.jpg",
+          "sha256": "78154b96e62938f0091accbe98730f1b5fa6572baefc3cfccdfb36e383d75bdc",
+          "observation": "120–142s, 12 thumbnails: original x836 split remains; blue/purple rank labels and Shard(W)/all_gather captions stay below the hands and above subtitles; rejoin at 140s and overlay gone after the passage."
+        },
+        {
+          "path": "exports/v3.2/encoded-review/sheet-06.jpg",
+          "sha256": "5096f887db0998698f169dc36e47bb1e6f7606a3e11c1947c1ad1b5194951d14",
+          "observation": "144–166s, 12 thumbnails: full joined reach in final chorus; overlay absent outside reach section; original ViT/FC scenes continue."
+        },
+        {
+          "path": "exports/v3.2/encoded-review/sheet-07.jpg",
+          "sha256": "5e8189d0beb64521660a33d2cd1b48ef898c5476b5684521bc9645aa5da6553c",
+          "observation": "168–190s, 12 thumbnails: dance/calls and shared-star drawing continue, bilingual subtitles visible, no extra character cameo."
+        },
+        {
+          "path": "exports/v3.2/encoded-review/sheet-08.jpg",
+          "sha256": "541c0147a3a0a2f426881beb4c4cf799b9a17ce874ae62b5ca56fd50e4cceb11",
+          "observation": "192–202s, 6 thumbnails: shared drawing transitions to purple Astra × 大肥鱼, then blue strikeout/reply; empty grid cells are contact-sheet layout, not video frames."
+        },
+        {
+          "path": "exports/v3.2/encoded-review/key-202.500.png",
+          "sha256": "cf8f1d6dd50cc8de2cb19e510db4886946e9c39d93c02e481e052a1dd530eff6",
+          "observation": "Full 1280×720 tail frame: blue 啥龙 and blue strikeout over purple Astra; purple × 大肥鱼, two-color stars and credits retained; no version label or Xiao Chen cameo."
+        }
+      ],
+      "video_samples_seen": 43,
+      "status": "No new obvious missing asset, subtitle occlusion or end-card regression observed in these samples. Original palm cut is intentionally retained per user instruction.",
+      "limitations": "Four contact sheets (42 small sample frames) plus one full-resolution tail still; not continuous playback, full-frame artistic inspection, finger-level acceptance across every frame, or auditory review."
+    },
+    "render_preflight_fingerprint_match": {
+      "path": "exports/v3.2/source-audit.json",
+      "engine": [
+        {
+          "file": "attention.js",
+          "render_preflight_sha256": "cb87ae57d4381e397fd1d2140dacb47e361f73591b9d24c918a24369c88ef819",
+          "current_sha256": "cb87ae57d4381e397fd1d2140dacb47e361f73591b9d24c918a24369c88ef819"
+        },
+        {
+          "file": "classic.js",
+          "render_preflight_sha256": "e40d52c7ac50826540fca5d2ad4aac3f303e5b28fa9085be7a2abf17998e6574",
+          "current_sha256": "e40d52c7ac50826540fca5d2ad4aac3f303e5b28fa9085be7a2abf17998e6574"
+        },
+        {
+          "file": "film.js",
+          "render_preflight_sha256": "c2c4461e0d8330273e097a2e603651a979cebd41801b170ad392ddf5d9eb9504",
+          "current_sha256": "c2c4461e0d8330273e097a2e603651a979cebd41801b170ad392ddf5d9eb9504"
+        },
+        {
+          "file": "rice.js",
+          "render_preflight_sha256": "3f955968fa52ef2607b0a4716143b847cf9683a72540b72d8f5f89a92e4dcaaa",
+          "current_sha256": "3f955968fa52ef2607b0a4716143b847cf9683a72540b72d8f5f89a92e4dcaaa"
+        },
+        {
+          "file": "signature.js",
+          "render_preflight_sha256": "544898d067f4f664cb35de5c5c62f401c83384d3338b822328dd64a886b47a1a",
+          "current_sha256": "544898d067f4f664cb35de5c5c62f401c83384d3338b822328dd64a886b47a1a"
+        },
+        {
+          "file": "tracking.js",
+          "render_preflight_sha256": "73d8e43838cbbd657e4b3bea38eccafe78b019031204dc5a709e026a5be611d8",
+          "current_sha256": "73d8e43838cbbd657e4b3bea38eccafe78b019031204dc5a709e026a5be611d8"
+        }
+      ],
+      "hand_donors": [
+        {
+          "path": "production/v3.2/assets/reach-hands.png",
+          "render_preflight_sha256": "d4e4b6ac32db66dfab3cc331b4d810c85c2bac52a19b9bfad88da36ccdd1573f",
+          "current_sha256": "d4e4b6ac32db66dfab3cc331b4d810c85c2bac52a19b9bfad88da36ccdd1573f"
+        },
+        {
+          "path": "production/v3.2/assets/reach-hands.png",
+          "render_preflight_sha256": "d4e4b6ac32db66dfab3cc331b4d810c85c2bac52a19b9bfad88da36ccdd1573f",
+          "current_sha256": "d4e4b6ac32db66dfab3cc331b4d810c85c2bac52a19b9bfad88da36ccdd1573f"
+        }
+      ]
+    }
+  }
+}

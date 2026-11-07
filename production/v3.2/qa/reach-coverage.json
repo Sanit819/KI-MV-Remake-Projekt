@@ -1,0 +1,1300 @@
+{
+  "scope": "Static exhaustive call-site ranges with runtime boundary/phase samples; not a frame-by-frame artistic review",
+  "ranges": [
+    {
+      "section": "opening",
+      "first_frame": 78,
+      "last_frame": 239,
+      "mode": "full",
+      "interval": "[2.6, 8)",
+      "first_time": 2.6,
+      "last_time": 7.966666666666667,
+      "frame_count": 162
+    },
+    {
+      "section": "reach",
+      "first_frame": 3872,
+      "last_frame": 4217,
+      "mode": "two_halves",
+      "interval": "[129.049, 140.569]",
+      "first_time": 129.06666666666666,
+      "last_time": 140.56666666666666,
+      "frame_count": 346
+    },
+    {
+      "section": "final",
+      "first_frame": 4364,
+      "last_frame": 4447,
+      "mode": "full",
+      "interval": "[145.449, 148.249)",
+      "first_time": 145.46666666666667,
+      "last_time": 148.23333333333332,
+      "frame_count": 84
+    }
+  ],
+  "unique_frames": 592,
+  "source_half_boundary": 836,
+  "shared_asset": "assets.reach after both local hand repairs; original x836 half-image performance preserved",
+  "hand_sharding": {
+    "stages": [
+      {
+        "stage": "sharded",
+        "first": 3872,
+        "last": 4094
+      },
+      {
+        "stage": "gathering",
+        "first": 4095,
+        "last": 4186
+      },
+      {
+        "stage": "replicated",
+        "first": 4187,
+        "last": 4217
+      }
+    ],
+    "illustration_only": true,
+    "reference": "https://docs.pytorch.org/docs/stable/distributed.tensor.html"
+  },
+  "samples": [
+    {
+      "frame": 77,
+      "time": 2.566666666666667,
+      "expected_mode": "absent",
+      "section": "opening",
+      "calls": [],
+      "handSharding": null
+    },
+    {
+      "frame": 78,
+      "time": 2.6,
+      "expected_mode": "full",
+      "section": "opening",
+      "calls": [
+        {
+          "pose": "reach",
+          "side": null,
+          "source": [
+            0,
+            0,
+            1672,
+            941
+          ],
+          "placement": [
+            109.30957683741644,
+            163.184855233853,
+            0.623608017817372
+          ],
+          "transform": [
+            1,
+            0,
+            0,
+            1,
+            -0.550000011920929,
+            0
+          ]
+        }
+      ],
+      "handSharding": null
+    },
+    {
+      "frame": 120,
+      "time": 4,
+      "expected_mode": "full",
+      "section": "opening",
+      "calls": [
+        {
+          "pose": "reach",
+          "side": null,
+          "source": [
+            0,
+            0,
+            1672,
+            941
+          ],
+          "placement": [
+            109.30957683741644,
+            163.184855233853,
+            0.623608017817372
+          ],
+          "transform": [
+            1,
+            0,
+            0,
+            1,
+            -0.550000011920929,
+            0
+          ]
+        }
+      ],
+      "handSharding": null
+    },
+    {
+      "frame": 239,
+      "time": 7.966666666666667,
+      "expected_mode": "full",
+      "section": "opening",
+      "calls": [
+        {
+          "pose": "reach",
+          "side": null,
+          "source": [
+            0,
+            0,
+            1672,
+            941
+          ],
+          "placement": [
+            109.30957683741644,
+            163.184855233853,
+            0.623608017817372
+          ],
+          "transform": [
+            1,
+            0,
+            0,
+            1,
+            0.550000011920929,
+            0
+          ]
+        }
+      ],
+      "handSharding": null
+    },
+    {
+      "frame": 240,
+      "time": 8,
+      "expected_mode": "absent",
+      "section": "opening",
+      "calls": [],
+      "handSharding": null
+    },
+    {
+      "frame": 3871,
+      "time": 129.03333333333333,
+      "expected_mode": "absent",
+      "section": "braid",
+      "calls": [],
+      "handSharding": null
+    },
+    {
+      "frame": 3872,
+      "time": 129.06666666666666,
+      "expected_mode": "two_halves",
+      "section": "reach",
+      "calls": [
+        {
+          "pose": "reach",
+          "side": 0,
+          "source": [
+            0,
+            0,
+            836,
+            941
+          ],
+          "placement": [
+            61.92650334075722,
+            120.79064587973266,
+            0.6792873051224945
+          ],
+          "transform": [
+            1,
+            0,
+            0,
+            1,
+            -0.07573157548904419,
+            0
+          ]
+        },
+        {
+          "pose": "reach",
+          "side": 1,
+          "source": [
+            836,
+            0,
+            836,
+            941
+          ],
+          "placement": [
+            61.92650334075722,
+            120.79064587973266,
+            0.6792873051224945
+          ],
+          "transform": [
+            1,
+            0,
+            0,
+            1,
+            0.07573157548904419,
+            0
+          ]
+        }
+      ],
+      "handSharding": {
+        "time": 129.06666666666666,
+        "stage": "sharded",
+        "source_asset": "assets.reach",
+        "source_cut_x": 836,
+        "image_width": 1672,
+        "rank_count": 2,
+        "separation_px": 0.07573157730407633,
+        "cuts": [
+          {
+            "rank": 0,
+            "x": 629.7349588458585,
+            "y": 497.7951002227171,
+            "source_rect": [
+              0,
+              0,
+              836,
+              941
+            ]
+          },
+          {
+            "rank": 1,
+            "x": 629.8864220004666,
+            "y": 497.7951002227171,
+            "source_rect": [
+              836,
+              0,
+              836,
+              941
+            ]
+          }
+        ],
+        "labels": [
+          {
+            "rank": 0,
+            "x": 587.7349588458585,
+            "y": 529.7951002227171
+          },
+          {
+            "rank": 1,
+            "x": 671.8864220004666,
+            "y": 529.7951002227171
+          }
+        ],
+        "heading": "牵手已分片",
+        "detail": "Shard(W)",
+        "caption_y": [
+          556,
+          584
+        ],
+        "overlay_bottom": 600,
+        "subtitle_safe_top": 650,
+        "layout": "Shard(W)",
+        "collective": null,
+        "illustration_only": true,
+        "reference": "https://docs.pytorch.org/docs/stable/distributed.tensor.html"
+      }
+    },
+    {
+      "frame": 3929,
+      "time": 130.96666666666667,
+      "expected_mode": "two_halves",
+      "section": "reach",
+      "calls": [
+        {
+          "pose": "reach",
+          "side": 0,
+          "source": [
+            0,
+            0,
+            836,
+            941
+          ],
+          "placement": [
+            61.92650334075722,
+            120.79064587973266,
+            0.6792873051224945
+          ],
+          "transform": [
+            1,
+            0,
+            0,
+            1,
+            -299.9986572265625,
+            0
+          ]
+        },
+        {
+          "pose": "reach",
+          "side": 1,
+          "source": [
+            836,
+            0,
+            836,
+            941
+          ],
+          "placement": [
+            61.92650334075722,
+            120.79064587973266,
+            0.6792873051224945
+          ],
+          "transform": [
+            1,
+            0,
+            0,
+            1,
+            299.9986572265625,
+            0
+          ]
+        }
+      ],
+      "handSharding": {
+        "time": 130.96666666666667,
+        "stage": "sharded",
+        "source_asset": "assets.reach",
+        "source_cut_x": 836,
+        "image_width": 1672,
+        "rank_count": 2,
+        "separation_px": 299.99867186683684,
+        "cuts": [
+          {
+            "rank": 0,
+            "x": 329.8120185563257,
+            "y": 497.7951002227171,
+            "source_rect": [
+              0,
+              0,
+              836,
+              941
+            ]
+          },
+          {
+            "rank": 1,
+            "x": 929.8093622899994,
+            "y": 497.7951002227171,
+            "source_rect": [
+              836,
+              0,
+              836,
+              941
+            ]
+          }
+        ],
+        "labels": [
+          {
+            "rank": 0,
+            "x": 287.8120185563257,
+            "y": 529.7951002227171
+          },
+          {
+            "rank": 1,
+            "x": 971.8093622899994,
+            "y": 529.7951002227171
+          }
+        ],
+        "heading": "牵手已分片",
+        "detail": "Shard(W)",
+        "caption_y": [
+          556,
+          584
+        ],
+        "overlay_bottom": 600,
+        "subtitle_safe_top": 650,
+        "layout": "Shard(W)",
+        "collective": null,
+        "illustration_only": true,
+        "reference": "https://docs.pytorch.org/docs/stable/distributed.tensor.html"
+      }
+    },
+    {
+      "frame": 3930,
+      "time": 131,
+      "expected_mode": "two_halves",
+      "section": "reach",
+      "calls": [
+        {
+          "pose": "reach",
+          "side": 0,
+          "source": [
+            0,
+            0,
+            836,
+            941
+          ],
+          "placement": [
+            61.92650334075722,
+            120.79064587973266,
+            0.6792873051224945
+          ],
+          "transform": [
+            1,
+            0,
+            0,
+            1,
+            -300,
+            0
+          ]
+        },
+        {
+          "pose": "reach",
+          "side": 1,
+          "source": [
+            836,
+            0,
+            836,
+            941
+          ],
+          "placement": [
+            61.92650334075722,
+            120.79064587973266,
+            0.6792873051224945
+          ],
+          "transform": [
+            1,
+            0,
+            0,
+            1,
+            300,
+            0
+          ]
+        }
+      ],
+      "handSharding": {
+        "time": 131,
+        "stage": "sharded",
+        "source_asset": "assets.reach",
+        "source_cut_x": 836,
+        "image_width": 1672,
+        "rank_count": 2,
+        "separation_px": 300,
+        "cuts": [
+          {
+            "rank": 0,
+            "x": 329.81069042316255,
+            "y": 497.7951002227171,
+            "source_rect": [
+              0,
+              0,
+              836,
+              941
+            ]
+          },
+          {
+            "rank": 1,
+            "x": 929.8106904231626,
+            "y": 497.7951002227171,
+            "source_rect": [
+              836,
+              0,
+              836,
+              941
+            ]
+          }
+        ],
+        "labels": [
+          {
+            "rank": 0,
+            "x": 287.81069042316255,
+            "y": 529.7951002227171
+          },
+          {
+            "rank": 1,
+            "x": 971.8106904231626,
+            "y": 529.7951002227171
+          }
+        ],
+        "heading": "牵手已分片",
+        "detail": "Shard(W)",
+        "caption_y": [
+          556,
+          584
+        ],
+        "overlay_bottom": 600,
+        "subtitle_safe_top": 650,
+        "layout": "Shard(W)",
+        "collective": null,
+        "illustration_only": true,
+        "reference": "https://docs.pytorch.org/docs/stable/distributed.tensor.html"
+      }
+    },
+    {
+      "frame": 4020,
+      "time": 134,
+      "expected_mode": "two_halves",
+      "section": "reach",
+      "calls": [
+        {
+          "pose": "reach",
+          "side": 0,
+          "source": [
+            0,
+            0,
+            836,
+            941
+          ],
+          "placement": [
+            61.92650334075722,
+            120.79064587973266,
+            0.6792873051224945
+          ],
+          "transform": [
+            1,
+            0,
+            0,
+            1,
+            -300,
+            0
+          ]
+        },
+        {
+          "pose": "reach",
+          "side": 1,
+          "source": [
+            836,
+            0,
+            836,
+            941
+          ],
+          "placement": [
+            61.92650334075722,
+            120.79064587973266,
+            0.6792873051224945
+          ],
+          "transform": [
+            1,
+            0,
+            0,
+            1,
+            300,
+            0
+          ]
+        }
+      ],
+      "handSharding": {
+        "time": 134,
+        "stage": "sharded",
+        "source_asset": "assets.reach",
+        "source_cut_x": 836,
+        "image_width": 1672,
+        "rank_count": 2,
+        "separation_px": 300,
+        "cuts": [
+          {
+            "rank": 0,
+            "x": 329.81069042316255,
+            "y": 497.7951002227171,
+            "source_rect": [
+              0,
+              0,
+              836,
+              941
+            ]
+          },
+          {
+            "rank": 1,
+            "x": 929.8106904231626,
+            "y": 497.7951002227171,
+            "source_rect": [
+              836,
+              0,
+              836,
+              941
+            ]
+          }
+        ],
+        "labels": [
+          {
+            "rank": 0,
+            "x": 287.81069042316255,
+            "y": 529.7951002227171
+          },
+          {
+            "rank": 1,
+            "x": 971.8106904231626,
+            "y": 529.7951002227171
+          }
+        ],
+        "heading": "牵手已分片",
+        "detail": "Shard(W)",
+        "caption_y": [
+          556,
+          584
+        ],
+        "overlay_bottom": 600,
+        "subtitle_safe_top": 650,
+        "layout": "Shard(W)",
+        "collective": null,
+        "illustration_only": true,
+        "reference": "https://docs.pytorch.org/docs/stable/distributed.tensor.html"
+      }
+    },
+    {
+      "frame": 4094,
+      "time": 136.46666666666667,
+      "expected_mode": "two_halves",
+      "section": "reach",
+      "calls": [
+        {
+          "pose": "reach",
+          "side": 0,
+          "source": [
+            0,
+            0,
+            836,
+            941
+          ],
+          "placement": [
+            61.92650334075722,
+            120.79064587973266,
+            0.6792873051224945
+          ],
+          "transform": [
+            1,
+            0,
+            0,
+            1,
+            -300,
+            0
+          ]
+        },
+        {
+          "pose": "reach",
+          "side": 1,
+          "source": [
+            836,
+            0,
+            836,
+            941
+          ],
+          "placement": [
+            61.92650334075722,
+            120.79064587973266,
+            0.6792873051224945
+          ],
+          "transform": [
+            1,
+            0,
+            0,
+            1,
+            300,
+            0
+          ]
+        }
+      ],
+      "handSharding": {
+        "time": 136.46666666666667,
+        "stage": "sharded",
+        "source_asset": "assets.reach",
+        "source_cut_x": 836,
+        "image_width": 1672,
+        "rank_count": 2,
+        "separation_px": 300,
+        "cuts": [
+          {
+            "rank": 0,
+            "x": 329.81069042316255,
+            "y": 497.7951002227171,
+            "source_rect": [
+              0,
+              0,
+              836,
+              941
+            ]
+          },
+          {
+            "rank": 1,
+            "x": 929.8106904231626,
+            "y": 497.7951002227171,
+            "source_rect": [
+              836,
+              0,
+              836,
+              941
+            ]
+          }
+        ],
+        "labels": [
+          {
+            "rank": 0,
+            "x": 287.81069042316255,
+            "y": 529.7951002227171
+          },
+          {
+            "rank": 1,
+            "x": 971.8106904231626,
+            "y": 529.7951002227171
+          }
+        ],
+        "heading": "牵手已分片",
+        "detail": "Shard(W)",
+        "caption_y": [
+          556,
+          584
+        ],
+        "overlay_bottom": 600,
+        "subtitle_safe_top": 650,
+        "layout": "Shard(W)",
+        "collective": null,
+        "illustration_only": true,
+        "reference": "https://docs.pytorch.org/docs/stable/distributed.tensor.html"
+      }
+    },
+    {
+      "frame": 4095,
+      "time": 136.5,
+      "expected_mode": "two_halves",
+      "section": "reach",
+      "calls": [
+        {
+          "pose": "reach",
+          "side": 0,
+          "source": [
+            0,
+            0,
+            836,
+            941
+          ],
+          "placement": [
+            61.92650334075722,
+            120.79064587973266,
+            0.6792873051224945
+          ],
+          "transform": [
+            1,
+            0,
+            0,
+            1,
+            -299.9308776855469,
+            0
+          ]
+        },
+        {
+          "pose": "reach",
+          "side": 1,
+          "source": [
+            836,
+            0,
+            836,
+            941
+          ],
+          "placement": [
+            61.92650334075722,
+            120.79064587973266,
+            0.6792873051224945
+          ],
+          "transform": [
+            1,
+            0,
+            0,
+            1,
+            299.9308776855469,
+            0
+          ]
+        }
+      ],
+      "handSharding": {
+        "time": 136.5,
+        "stage": "gathering",
+        "source_asset": "assets.reach",
+        "source_cut_x": 836,
+        "image_width": 1672,
+        "rank_count": 2,
+        "separation_px": 299.9308845028282,
+        "cuts": [
+          {
+            "rank": 0,
+            "x": 329.8798059203344,
+            "y": 497.7951002227171,
+            "source_rect": [
+              0,
+              0,
+              836,
+              941
+            ]
+          },
+          {
+            "rank": 1,
+            "x": 929.7415749259908,
+            "y": 497.7951002227171,
+            "source_rect": [
+              836,
+              0,
+              836,
+              941
+            ]
+          }
+        ],
+        "labels": [
+          {
+            "rank": 0,
+            "x": 287.8798059203344,
+            "y": 529.7951002227171
+          },
+          {
+            "rank": 1,
+            "x": 971.7415749259908,
+            "y": 529.7951002227171
+          }
+        ],
+        "heading": "all_gather",
+        "detail": "牵手同步中",
+        "caption_y": [
+          556,
+          584
+        ],
+        "overlay_bottom": 600,
+        "subtitle_safe_top": 650,
+        "layout": "Shard(W)",
+        "collective": "all_gather",
+        "illustration_only": true,
+        "reference": "https://docs.pytorch.org/docs/stable/distributed.tensor.html"
+      }
+    },
+    {
+      "frame": 4186,
+      "time": 139.53333333333333,
+      "expected_mode": "two_halves",
+      "section": "reach",
+      "calls": [
+        {
+          "pose": "reach",
+          "side": 0,
+          "source": [
+            0,
+            0,
+            836,
+            941
+          ],
+          "placement": [
+            61.92650334075722,
+            120.79064587973266,
+            0.6792873051224945
+          ],
+          "transform": [
+            1,
+            0,
+            0,
+            1,
+            -0.012947702780365944,
+            0
+          ]
+        },
+        {
+          "pose": "reach",
+          "side": 1,
+          "source": [
+            836,
+            0,
+            836,
+            941
+          ],
+          "placement": [
+            61.92650334075722,
+            120.79064587973266,
+            0.6792873051224945
+          ],
+          "transform": [
+            1,
+            0,
+            0,
+            1,
+            0.012947702780365944,
+            0
+          ]
+        }
+      ],
+      "handSharding": {
+        "time": 139.53333333333333,
+        "stage": "gathering",
+        "source_asset": "assets.reach",
+        "source_cut_x": 836,
+        "image_width": 1672,
+        "rank_count": 2,
+        "separation_px": 0.012947702512111636,
+        "cuts": [
+          {
+            "rank": 0,
+            "x": 629.7977427206505,
+            "y": 497.7951002227171,
+            "source_rect": [
+              0,
+              0,
+              836,
+              941
+            ]
+          },
+          {
+            "rank": 1,
+            "x": 629.8236381256746,
+            "y": 497.7951002227171,
+            "source_rect": [
+              836,
+              0,
+              836,
+              941
+            ]
+          }
+        ],
+        "labels": [
+          {
+            "rank": 0,
+            "x": 587.7977427206505,
+            "y": 529.7951002227171
+          },
+          {
+            "rank": 1,
+            "x": 671.8236381256746,
+            "y": 529.7951002227171
+          }
+        ],
+        "heading": "all_gather",
+        "detail": "牵手同步中",
+        "caption_y": [
+          556,
+          584
+        ],
+        "overlay_bottom": 600,
+        "subtitle_safe_top": 650,
+        "layout": "Shard(W)",
+        "collective": "all_gather",
+        "illustration_only": true,
+        "reference": "https://docs.pytorch.org/docs/stable/distributed.tensor.html"
+      }
+    },
+    {
+      "frame": 4187,
+      "time": 139.56666666666666,
+      "expected_mode": "two_halves",
+      "section": "reach",
+      "calls": [
+        {
+          "pose": "reach",
+          "side": 0,
+          "source": [
+            0,
+            0,
+            836,
+            941
+          ],
+          "placement": [
+            61.92650334075722,
+            120.79064587973266,
+            0.6792873051224945
+          ],
+          "transform": [
+            1,
+            0,
+            0,
+            1,
+            0,
+            0
+          ]
+        },
+        {
+          "pose": "reach",
+          "side": 1,
+          "source": [
+            836,
+            0,
+            836,
+            941
+          ],
+          "placement": [
+            61.92650334075722,
+            120.79064587973266,
+            0.6792873051224945
+          ],
+          "transform": [
+            1,
+            0,
+            0,
+            1,
+            0,
+            0
+          ]
+        }
+      ],
+      "handSharding": {
+        "time": 139.56666666666666,
+        "stage": "replicated",
+        "source_asset": "assets.reach",
+        "source_cut_x": 836,
+        "image_width": 1672,
+        "rank_count": 2,
+        "separation_px": 0,
+        "cuts": [
+          {
+            "rank": 0,
+            "x": 629.8106904231626,
+            "y": 497.7951002227171,
+            "source_rect": [
+              0,
+              0,
+              836,
+              941
+            ]
+          },
+          {
+            "rank": 1,
+            "x": 629.8106904231626,
+            "y": 497.7951002227171,
+            "source_rect": [
+              836,
+              0,
+              836,
+              941
+            ]
+          }
+        ],
+        "labels": [
+          {
+            "rank": 0,
+            "x": 587.8106904231626,
+            "y": 529.7951002227171
+          },
+          {
+            "rank": 1,
+            "x": 671.8106904231626,
+            "y": 529.7951002227171
+          }
+        ],
+        "heading": "all_gather",
+        "detail": "牵手已同步",
+        "caption_y": [
+          556,
+          584
+        ],
+        "overlay_bottom": 600,
+        "subtitle_safe_top": 650,
+        "layout": "Replicate()",
+        "collective": "all_gather",
+        "illustration_only": true,
+        "reference": "https://docs.pytorch.org/docs/stable/distributed.tensor.html"
+      }
+    },
+    {
+      "frame": 4217,
+      "time": 140.56666666666666,
+      "expected_mode": "two_halves",
+      "section": "reach",
+      "calls": [
+        {
+          "pose": "reach",
+          "side": 0,
+          "source": [
+            0,
+            0,
+            836,
+            941
+          ],
+          "placement": [
+            61.92650334075722,
+            120.79064587973266,
+            0.6792873051224945
+          ],
+          "transform": [
+            1,
+            0,
+            0,
+            1,
+            0,
+            0
+          ]
+        },
+        {
+          "pose": "reach",
+          "side": 1,
+          "source": [
+            836,
+            0,
+            836,
+            941
+          ],
+          "placement": [
+            61.92650334075722,
+            120.79064587973266,
+            0.6792873051224945
+          ],
+          "transform": [
+            1,
+            0,
+            0,
+            1,
+            0,
+            0
+          ]
+        }
+      ],
+      "handSharding": {
+        "time": 140.56666666666666,
+        "stage": "replicated",
+        "source_asset": "assets.reach",
+        "source_cut_x": 836,
+        "image_width": 1672,
+        "rank_count": 2,
+        "separation_px": 0,
+        "cuts": [
+          {
+            "rank": 0,
+            "x": 629.8106904231626,
+            "y": 497.7951002227171,
+            "source_rect": [
+              0,
+              0,
+              836,
+              941
+            ]
+          },
+          {
+            "rank": 1,
+            "x": 629.8106904231626,
+            "y": 497.7951002227171,
+            "source_rect": [
+              836,
+              0,
+              836,
+              941
+            ]
+          }
+        ],
+        "labels": [
+          {
+            "rank": 0,
+            "x": 587.8106904231626,
+            "y": 529.7951002227171
+          },
+          {
+            "rank": 1,
+            "x": 671.8106904231626,
+            "y": 529.7951002227171
+          }
+        ],
+        "heading": "all_gather",
+        "detail": "牵手已同步",
+        "caption_y": [
+          556,
+          584
+        ],
+        "overlay_bottom": 600,
+        "subtitle_safe_top": 650,
+        "layout": "Replicate()",
+        "collective": "all_gather",
+        "illustration_only": true,
+        "reference": "https://docs.pytorch.org/docs/stable/distributed.tensor.html"
+      }
+    },
+    {
+      "frame": 4218,
+      "time": 140.6,
+      "expected_mode": "absent",
+      "section": "reach",
+      "calls": [],
+      "handSharding": null
+    },
+    {
+      "frame": 4363,
+      "time": 145.43333333333334,
+      "expected_mode": "absent",
+      "section": "final",
+      "calls": [],
+      "handSharding": null
+    },
+    {
+      "frame": 4364,
+      "time": 145.46666666666667,
+      "expected_mode": "full",
+      "section": "final",
+      "calls": [
+        {
+          "pose": "reach",
+          "side": null,
+          "source": [
+            0,
+            0,
+            1672,
+            941
+          ],
+          "placement": [
+            9.805122494432112,
+            49.157015590200444,
+            0.7405345211581291
+          ],
+          "transform": [
+            1,
+            0,
+            0,
+            1,
+            0,
+            0
+          ]
+        }
+      ],
+      "handSharding": null
+    },
+    {
+      "frame": 4409,
+      "time": 146.96666666666667,
+      "expected_mode": "full",
+      "section": "final",
+      "calls": [
+        {
+          "pose": "reach",
+          "side": null,
+          "source": [
+            0,
+            0,
+            1672,
+            941
+          ],
+          "placement": [
+            9.805122494432112,
+            49.157015590200444,
+            0.7405345211581291
+          ],
+          "transform": [
+            1,
+            0,
+            0,
+            1,
+            0.550000011920929,
+            0
+          ]
+        }
+      ],
+      "handSharding": null
+    },
+    {
+      "frame": 4447,
+      "time": 148.23333333333332,
+      "expected_mode": "full",
+      "section": "final",
+      "calls": [
+        {
+          "pose": "reach",
+          "side": null,
+          "source": [
+            0,
+            0,
+            1672,
+            941
+          ],
+          "placement": [
+            9.805122494432112,
+            49.157015590200444,
+            0.7405345211581291
+          ],
+          "transform": [
+            1,
+            0,
+            0,
+            1,
+            -0.550000011920929,
+            0
+          ]
+        }
+      ],
+      "handSharding": null
+    },
+    {
+      "frame": 4448,
+      "time": 148.26666666666668,
+      "expected_mode": "absent",
+      "section": "final",
+      "calls": [],
+      "handSharding": null
+    }
+  ]
+}
