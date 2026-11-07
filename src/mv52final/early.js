@@ -470,12 +470,12 @@ export function renderEarlyV2(e){
   const shut=smooth(prog(u,.58,.92));
   for(const i of [0,5,1,4,2,3]){
    const arrive=ease(prog(u,i*.04,.20+i*.04)),cx=lerp(960,260+i*280,arrive),cy=355+Math.abs(i-2.5)*50,sc=.94-Math.abs(i-2.5)*.055,turn=(i-2.5)*.055;
-   rotate(ctx,cx,cy,turn,()=>{ctx.scale(sc,sc);plate(e,-132,-215,264,510,{title:'',line:C.muted,alpha:arrive});k.guest(i,-121,-184,242,390,{alpha:arrive*(1-shut*.23)});text(e,names[i],0,270,25,C.paper,{font:'mono',align:'center'});});
+   rotate(ctx,cx,cy,turn,()=>{ctx.scale(sc,sc);plate(e,-132,-215,264,510,{title:'',line:C.muted,alpha:arrive});const bounds=e.art.items[`guest${i}`].bounds,portraitH=240,portraitW=portraitH*bounds.w/bounds.h;k.guest(i,-portraitW/2,11-portraitH/2,portraitW,portraitH,{alpha:arrive*(1-shut*.23)});});
   }
   const y=lerp(85,760,shut);k.rect(70,y,1780,18,C.deep);for(let i=0;i<12;i++)k.rect(105+i*148,85,6,Math.max(0,y-85),C.ink,.8);
   const routePoints=[[110,842],[960,842],[960,785],[1800,785]];k.trace(routePoints,prog(u,.34,.98),C.purple,7,{pen:false});
   const head=along(routePoints,prog(u,.34,.98));k.pen(...head,C.purple,Math.PI/2,1.8);
-  e.sceneAudit.guests={allSixPresent:true,gateClosure:shut,activeConnection:routePoints};break;
+  e.sceneAudit.guests={allSixPresent:true,gateClosure:shut,activeConnection:routePoints,portraitSizing:'equal visible artwork height before card perspective',portraitHeight:240};break;
 
  }
  case 'R20':{

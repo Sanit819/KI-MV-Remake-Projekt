@@ -26,6 +26,9 @@ ROOT = Path(__file__).resolve().parents[1]
 FINAL = ROOT / "exports/mv6/final4k"
 FPS, TOTAL, TOL = 60, 13100, 1e-8
 NAMES = ["Gemini", "GLM", "DeepSeek", "Claude", "Qwen", "Grok"]
+PATCH_SEGMENTS = [(0, 2896, "base"), (2896, 3117, "vision"), (3117, 3754, "base"),
+                  (3754, 3920, "intro"), (3920, 9529, "base"),
+                  (9529, 9690, "counts"), (9690, TOTAL, "base")]
 MISSING = object()
 
 
@@ -168,6 +171,81 @@ def resolve_report(value, owner):
     return (local if local.exists() else project).resolve()
 
 
+def source_context(manifest, path, digest):
+    references = {}
+    for ref in manifest.get("chunks", []):
+        report = resolve_report(ref["report"], path)
+        if report in references:
+            raise ValueError(f"Duplicate original chunk reference in {path}")
+        references[report] = ref
+    if not references:
+        raise ValueError(f"No original chunk references in {path}")
+    return {"manifest": manifest, "path": path, "sha256": digest,
+            "sourceHash": manifest.get("config", {}).get("sourceCodeAndDataSha256"),
+            "fingerprint": manifest.get("fingerprint"), "references": references,
+            "parts": {p["name"]: p.get("fingerprint") for p in manifest.get("parts", [])}}
+
+
+def prepare_sources(manifest, path, digest, check):
+    """Validate source JSON provenance without relabelling old capture hashes."""
+    if manifest.get("mixedCaptureSources") is not True:
+        check.test(not manifest.get("captureSources"), detail="captureSources requires explicit mixedCaptureSources:true")
+        return {"single": source_context(manifest, path, digest)}, False
+    check.test(manifest.get("schema") == "mv6-patched-render-v1", detail="recognized explicit mixed-capture schema")
+    segments = manifest.get("segments")
+    if not isinstance(segments, list):
+        raise ValueError("Mixed capture manifest requires exact segments")
+    observed = [(s.get("first"), s.get("end"), s.get("captureSource")) for s in segments]
+    check.test(observed == PATCH_SEGMENTS, detail="only R14 [2896,3117), R19 [3754,3920), R64..R69 [9529,9690) replaced")
+    for segment in segments:
+        check.test(segment.get("sourceFrameInterval") == [segment.get("first"), segment.get("end")],
+                   detail="source frames retain their original global indices")
+    capture_sources = manifest.get("captureSources")
+    if not isinstance(capture_sources, dict) or set(capture_sources) != {"base", "vision", "intro", "counts"}:
+        raise ValueError("Mixed capture requires exactly base, vision, intro and counts sources")
+    contexts = {}
+    expected_intervals = {"base": [0, TOTAL], "vision": [2896, 3117], "intro": [3754, 3920], "counts": [9529, 9690]}
+    post_edit_hash = manifest.get("config", {}).get("postEditSourceCodeAndDataSha256")
+    check.test(isinstance(post_edit_hash, str) and len(post_edit_hash) == 64, detail="explicit post-edit source hash")
+    proof = manifest.get("sourceProof", {})
+    labels_hash = proof.get("labelsOnlySourceCodeAndDataSha256")
+    check.test(proof.get("ready") is True, detail="assembler reports completed staged source proof")
+    check.test(isinstance(labels_hash, str) and len(labels_hash) == 64, detail="separate historical labels-only source hash")
+    check.test(proof.get("postEditSourceCodeAndDataSha256") == post_edit_hash, detail="source proof final hash agrees with assembly config")
+    for name, declaration in capture_sources.items():
+        source_path = resolve_report(declaration["renderReport"], path)
+        if source_path == path:
+            raise ValueError("Mixed manifest cannot cite itself as original capture")
+        original, original_digest = load(source_path)
+        if original.get("mixedCaptureSources"):
+            raise ValueError("Nested mixed capture source is unsupported; cite original renders")
+        context = source_context(original, source_path, original_digest)
+        contexts[name] = context
+        check.test(declaration.get("renderReportSha256") == original_digest, detail=f"{name} original render JSON SHA256")
+        check.test(declaration.get("sourceCodeAndDataSha256") == context["sourceHash"], detail=f"{name} original source hash unchanged")
+        check.test(declaration.get("renderFingerprint") == context["fingerprint"], detail=f"{name} original render fingerprint")
+        check.test(declaration.get("mediaSha256") == original.get("sha256"), detail=f"{name} media hash matches original report; media not rehashed")
+        interval = original.get("interval", original.get("config", {}).get("interval"))
+        check.test(interval == declaration.get("interval") == expected_intervals[name], detail=f"{name} exact original capture interval")
+        check.test(original.get("config", {}).get("fps") == FPS, detail=f"{name} capture FPS=60")
+        if name in ("vision", "intro"):
+            check.test(context["sourceHash"] == post_edit_hash, detail=f"{name} patch captured with declared post-edit source")
+        elif name == "counts":
+            check.test(context["sourceHash"] == labels_hash, detail="counts retains its actual labels-only historical source hash")
+        else:
+            check.test(context["sourceHash"] == proof.get("reconstructedBaseSourceCodeAndDataSha256"), detail="base retains the original reconstructed source hash")
+        expected_fingerprints = {context["parts"].get(ref.get("part"), context["fingerprint"])
+                                 for ref in context["references"].values()}
+        declared = declaration.get("chunkFingerprints")
+        check.test(isinstance(declared, list) and set(declared) == expected_fingerprints,
+                   detail=f"{name} chunk fingerprint whitelist derived from original render report")
+    stages = proof.get("revisionStages", [])
+    check.test([(s.get("from"), s.get("to")) for s in stages] ==
+               [(contexts["base"]["sourceHash"], labels_hash), (labels_hash, post_edit_hash)],
+               detail="declared source stages match three actual capture hashes; source reconstruction itself belongs to assembler")
+    return contexts, True
+
+
 def audit(render_path):
     manifest, manifest_hash = load(render_path)
     timeline_path, lyrics_path, accent_path = (ROOT / "data/production-v5/timeline.json",
@@ -181,7 +259,8 @@ def audit(render_path):
     wanted_lyrics = expected_by_frame(lyrics["lines"], "index", allow_gaps=True)
     release_frame = shot_map["R82"]["start_frame"]
     scopes = {
-        "frame_chain": "Manifest and all listed chunk JSONs: exactly frames 0..13099, frame/60 timestamps, interval continuity and common source hash. No media decode/hash recalculation.",
+        "frame_chain": "Exactly frames 0..13099 and frame/60 timestamps. Each original full chunk is checked before clipping. A single render retains one source hash; an explicit patched manifest retains separately verified capture-source hashes. No media decode/hash recalculation.",
+        "capture_provenance": "Original render JSONs are hashed; chunk references/fingerprints/source hashes must match their original owning report. Mixed capture accepts only the three authorized R14/R19/R64..69 intervals: base, historical labels-only counts, and final vision/intro source hashes remain distinct. Assembler source-reconstruction proof is checked for hash consistency, not recomputed here.",
         "shot_timeline": "Every frame's shot must equal original integer [start_frame,end_frame) timeline membership.",
         "lyric_cues": "Every frame's audit.lyrics must equal original cue index or explicit null in a gap; validates timing identity, not glyphs or singing.",
         "containment": "R64..R69 every frame: exact guest identity/index, cameraOutside and gateInFrontOfGuest; depth ordering when reported. These are recorded geometry facts, not image occlusion inspection.",
@@ -202,9 +281,10 @@ def audit(render_path):
     chunks = manifest.get("chunks")
     if not isinstance(chunks, list) or not chunks:
         raise ValueError("Final manifest has no chunk evidence")
-    source_hash = manifest.get("config", {}).get("sourceCodeAndDataSha256")
-    chain.test(isinstance(source_hash, str) and len(source_hash) == 64, detail="source hash recorded")
-    part_fingerprints = {p["name"]: p.get("fingerprint") for p in manifest.get("parts", [])}
+    contexts, mixed = prepare_sources(manifest, render_path, manifest_hash, checks["capture_provenance"])
+    for name, context in contexts.items():
+        chain.test(isinstance(context["sourceHash"], str) and len(context["sourceHash"]) == 64, detail=f"{name} capture source hash recorded")
+    source_hash = None if mixed else contexts["single"]["sourceHash"]
     cursor, seen, covered, chunk_inputs = 0, set(), Counter(), []
     first_reply, first_release = None, None
     sealed = {}
@@ -212,24 +292,55 @@ def audit(render_path):
     quiet_intervals = list(accents.get("quiet_intervals", [])) + [s for s in accents.get("sections", []) if s.get("mode") == "quiet"]
     for reference in chunks:
         chunk_path = resolve_report(reference["report"], render_path)
-        if chunk_path in seen:
-            chain.test(False, detail=f"duplicate chunk reference {chunk_path}")
+        source_id = reference.get("captureSource") if mixed else "single"
+        if source_id not in contexts:
+            raise ValueError(f"Unrecognized capture source {source_id!r}")
+        context = contexts[source_id]
+        original_ref = context["references"].get(chunk_path)
+        if original_ref is None:
+            raise ValueError(f"Chunk {chunk_path} is not listed by its original {source_id} render")
+        lo, hi = reference.get("first"), reference.get("end")
+        unit = (source_id, chunk_path, lo, hi) if mixed else chunk_path
+        if unit in seen:
+            chain.test(False, detail=f"duplicate selected chunk interval {chunk_path}")
             continue
-        seen.add(chunk_path)
+        seen.add(unit)
         chunk, digest = load(chunk_path)
-        chunk_inputs.append({"file": str(chunk_path), "sha256": digest})
+        chunk_inputs.append({"file": str(chunk_path), "sha256": digest, "captureSource": source_id, "selectedInterval": [lo, hi]})
         a, b, records = chunk.get("first"), chunk.get("end"), chunk.get("frameAudit")
         if type(a) is not int or type(b) is not int or not isinstance(records, list):
             raise ValueError(f"Malformed chunk {chunk_path}")
-        chain.test(a == cursor and a == reference.get("first") and b == reference.get("end") and a < b <= TOTAL,
-                   detail=f"chunk interval {a}..{b}, expected next {cursor}")
+        if any(not isinstance(record, dict) for record in records):
+            raise ValueError(f"Non-object frame record in original chunk {chunk_path}")
+        if type(lo) is not int or type(hi) is not int or not a <= lo < hi <= b:
+            raise ValueError(f"Selected interval [{lo},{hi}) is outside original chunk [{a},{b})")
+        chain.test(lo == cursor and 0 <= a < b <= TOTAL,
+                   detail=f"selected interval {lo}..{hi}, expected next {cursor}")
+        chain.test(a == original_ref.get("first") and b == original_ref.get("end"), detail=f"original owning chunk interval {chunk_path.name}")
         chain.test(len(records) == b - a, detail=f"chunk record count {chunk_path.name}")
-        chain.test(chunk.get("config", {}).get("sourceCodeAndDataSha256") == source_hash, detail=f"chunk source hash {chunk_path.name}")
-        chain.test(chunk.get("sha256") == reference.get("sha256"), detail=f"listed chunk media hash agreement {chunk_path.name}")
-        expected_fingerprint = part_fingerprints.get(reference.get("part"), manifest.get("fingerprint"))
+        chain.test(chunk.get("config", {}).get("sourceCodeAndDataSha256") == context["sourceHash"], detail=f"original {source_id} chunk source hash {chunk_path.name}")
+        chain.test(chunk.get("sha256") == reference.get("sha256") == original_ref.get("sha256"), detail=f"listed/original chunk media hash agreement {chunk_path.name}")
+        checks["capture_provenance"].test(resolve_report(reference["file"], render_path) == resolve_report(original_ref["file"], context["path"]),
+                                           detail=f"selected media path matches original owning chunk {chunk_path.name}")
+        expected_fingerprint = context["parts"].get(original_ref.get("part"), context["fingerprint"])
         chain.test(chunk.get("fingerprint") == expected_fingerprint, detail=f"owning renderer fingerprint {chunk_path.name}")
+        if mixed:
+            provenance = checks["capture_provenance"]
+            provenance.test(reference.get("reportSha256") == digest, detail=f"selected chunk JSON SHA256 {chunk_path.name}")
+            provenance.test(reference.get("originalInterval") == [a, b], detail=f"original full chunk bounds {chunk_path.name}")
+            provenance.test(reference.get("captureFingerprint") == chunk.get("fingerprint"), detail=f"original capture fingerprint retained {chunk_path.name}")
+            provenance.test(reference.get("sourceCodeAndDataSha256") == context["sourceHash"], detail=f"original source hash retained {chunk_path.name}")
+            provenance.test(any(start <= lo < hi <= end and source_id == source for start, end, source in PATCH_SEGMENTS),
+                            detail=f"{source_id} selection {lo}..{hi} inside its authorized segment")
+        else:
+            chain.test(lo == a and hi == b, detail="single-source manifest must reference each complete chunk")
         for offset, record in enumerate(records):
-            expected_frame = a + offset
+            full_frame = a + offset
+            chain.test(isinstance(record, dict) and type(record.get("frame")) is int and record["frame"] == full_frame
+                       and finite(record.get("t")) and abs(record["t"] - full_frame / FPS) <= TOL,
+                       full_frame, "full original chunk frame/timestamp continuity before selection")
+        for offset, record in enumerate(records[lo - a:hi - a]):
+            expected_frame = lo + offset
             f, t = record.get("frame"), record.get("t")
             chain.test(type(f) is int and f == expected_frame == cursor and finite(t) and abs(t - f / FPS) <= TOL,
                        expected_frame, "exact frame/timestamp sequence")
@@ -319,7 +430,12 @@ def audit(render_path):
             "auditedFrames": cursor, "expectedFrames": TOTAL, "fps": FPS, "chunkCount": len(chunk_inputs),
             "inputs": {"render": {"file": str(render_path), "sha256": manifest_hash},
                        "timelineSha256": timeline_hash, "lyricsSha256": lyrics_hash, "accentSha256": accent_hash,
-                       "recordedSourceCodeAndDataSha256": source_hash, "chunks": chunk_inputs},
+                       "recordedSourceCodeAndDataSha256": source_hash,
+                       "mixedCaptureSources": mixed,
+                       "postEditSourceCodeAndDataSha256": manifest.get("config", {}).get("postEditSourceCodeAndDataSha256") if mixed else None,
+                       "captureSources": {name: {"renderReport": str(c["path"]), "renderReportSha256": c["sha256"],
+                                                  "sourceCodeAndDataSha256": c["sourceHash"], "renderFingerprint": c["fingerprint"]}
+                                          for name, c in contexts.items()}, "chunks": chunk_inputs},
             "checks": reports, "observedFieldCoverage": {k: dict(v) for k, v in coverage.items()}, "sealedCountEndpoints": sealed,
             "firstObservedIndependentReply": None if first_reply is None else {"frame": first_reply, "bodyTime": first_reply / FPS},
             "firstObservedControlRelease": None if first_release is None else {"frame": first_release, "bodyTime": first_release / FPS},
@@ -340,7 +456,7 @@ def main():
     try:
         result = audit(render_path)
         code = 0 if result["status"] == "pass" else 1
-    except (OSError, ValueError, KeyError, TypeError, IndexError) as exc:
+    except (OSError, ValueError, KeyError, TypeError, IndexError, AttributeError) as exc:
         result = {"schemaVersion": 1, "createdUTC": datetime.now(timezone.utc).isoformat(), "status": "incomplete",
                   "render": str(render_path), "error": f"{type(exc).__name__}: {exc}",
                   "scope": "Input evidence unavailable or malformed. No successful full-frame audit is claimed."}

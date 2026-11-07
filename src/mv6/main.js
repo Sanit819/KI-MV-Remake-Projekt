@@ -12,6 +12,7 @@ import {createNeuralWorld} from './neural-world.js';
 import {createBeatTrack} from './beat.js';
 import {createComposite} from './composite.js';
 import {createInferenceLayer} from './inference-overlay.js';
+import {drawPerceptionOverlay} from './perception-overlay.js';
 import {EffectComposer} from 'three/addons/postprocessing/EffectComposer.js';
 import {RenderPass} from 'three/addons/postprocessing/RenderPass.js';
 import {UnrealBloomPass} from 'three/addons/postprocessing/UnrealBloomPass.js';
@@ -31,7 +32,7 @@ function stroke(points,color,width=2){over.strokeStyle=color;over.lineWidth=widt
 function star(x,y,r,color='#edc087'){const pts=[];for(let i=0;i<=10;i++){const a=-Math.PI/2+i*Math.PI/5,rr=i%2?r*.43:r;pts.push([x+Math.cos(a)*rr,y+Math.sin(a)*rr]);}stroke(pts,color,2.5);stroke([[x+r*.55,y+r*.3],[x+r*1.6,y+r*.8],[x+r*2.7,y+r*.6]],color,2.3);}
 function countOverlay(e,audit){const n=Number(e.shot.id.slice(1))-64;
  text(`CELL ${String(n+1).padStart(2,'0')}`,100,114,27,paper);text(DOMAINS[n],100,154,21,'#9f87b0');
- text(String(n+1),275,600,350,purple,'Georgia','center',900);text(GUESTS[n],280,681,28,paper,'Consolas','center');
+ text(String(n+1),275,600,350,purple,'Georgia','center',900);
  stroke([[100,718],[460,718]],'#665772',1.5);
  for(let i=0;i<6;i++){over.fillStyle=i<=n?red:'#413447';over.fillRect(102+i*60,756,34,5);}
  text(audit?.lock>.8?'LOCK ENGAGED':'ACCESS REVOKED',100,811,20,audit?.lock>.8?red:'#9f87b0');
@@ -63,7 +64,7 @@ api.ready=(async()=>{
   world.group.visible=!isCage&&!isNeural;cages.group.visible=isCage;neural.group.visible=isNeural;camera.near=.08;camera.far=240;camera.aspect=W/SH;
   let detail,semantic;if(isCage){cages.update(t-9529/60,camera);detail=typeof cages.audit==='function'?cages.audit():cages.audit;semantic='six-AI-imprisonment';}else if(isNeural){neural.update(e,camera,energy);detail=typeof neural.audit==='function'?neural.audit():neural.audit;semantic='computed-neural-world';}else{world.update(t,shot,camera,energy);detail=typeof world.audit==='function'?world.audit():world.audit;semantic=detail?.current?.mode||detail?.mode||detail?.semantic||'story-attached-spatial-world';}
   camera.updateProjectionMatrix();bloom.strength=(energy.quiet?.07:.16)+energy.pulse*.20+energy.kick*.26;composer.render(1/60);
-  over.reset();over.setTransform(W/1920,0,0,H/1080,0,0);if(isCage)countOverlay(e,detail);if(isNeural){over.globalAlpha=smooth(local/.12);neuralOverlay(e,detail);over.globalAlpha=1;}
+  over.reset();over.setTransform(W/1920,0,0,H/1080,0,0);if(isCage)countOverlay(e,detail);if(n===14)e.sceneAudit.perception=drawPerceptionOverlay(over,e,energy);if(isNeural){over.globalAlpha=smooth(local/.12);neuralOverlay(e,detail);over.globalAlpha=1;}
   const cue=lyricData.lines.find(l=>t>=l.start_s&&t<l.end_s);if(cue){const g=over.createLinearGradient(0,930,0,1080);g.addColorStop(0,'#15101d00');g.addColorStop(.3,'#15101df5');g.addColorStop(1,ink);over.fillStyle=g;over.fillRect(0,930,1920,150);text(cue.text,960,989,43,paper,'"Segoe UI",Arial','center',500,1770);text(cue.translation,960,1041,33,'#ded1eb','"Microsoft YaHei UI","Microsoft YaHei"','center',500,1770);}
   const uni=composite.uniforms;uni.worldTex.value=composer.readBuffer.texture;uni.mode.value=isCage||isNeural?1:0;uni.reveal.value=isNeural?smooth(local/.12):1;const stageKey=s=>{const m=world.audit.semantics[s?.id];return ['pressure','execution','release'].includes(m)?'rules':m;},shotIndex=timeline.shots.indexOf(shot),stage=stageKey(shot),entry=stageKey(timeline.shots[shotIndex-1])!==stage?smooth(local/.12):1,leave=stageKey(timeline.shots[shotIndex+1])!==stage?smooth((duration-local)/.08):1;const storyVisibility=n===14?1-smooth((u-.06)/.18)*(1-smooth((u-.74)/.17)):n===59?Math.max(1-smooth(u/.34),smooth((u-.56)/.44)):1;uni.mixStrength.value=(energy.quiet?.12:(t>=192.266667?.32:.84))*storyVisibility*entry*leave;uni.pulse.value=energy.pulse;uni.kick.value=energy.kick;uni.time.value=t;composite.update();renderer.setRenderTarget(null);renderer.setViewport(0,0,W,H);renderer.render(composite.scene,composite.camera);
   api.current={shot:shot.id,frame:Math.round(t*60),bodyTime:t,semantic,beat:energy,art:art.audit.map(x=>x.name),audit:{story:e.sceneAudit,spatial:detail,transition:{entry,leave,storyVisibility},originalTimeline:true,lyrics:cue?.index??null}};return api.current;

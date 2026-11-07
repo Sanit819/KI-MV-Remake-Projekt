@@ -281,7 +281,9 @@ def main():
               'render_report': str(render_path), 'render_fingerprint': render['fingerprint'], 'audited_body_frames': render['auditedFrames'],
               'shot_beat_semantic_summary': render.get('summary'), 'source_artwork_resolution': render.get('sourceArtworkResolution'),
               'resolution_limit': render.get('resolutionLimit'), 'warning_render_command': [str(x) for x in warning_command], 'qa_source': str(qa_source), 'qa_samples': samples,
-              'scope': 'Final ALAC master decoded once with all 13400 frame PTS; original ALAC packet identity checked. A newly downscaled 1080p preview is decoded once with PTS, while a same-resolution remux is checked by encoded video packet identity/PTS plus full audio decoding. Every new body frame has capture audit evidence. Contact sheets use the named QA source and still require visual review; continuous playback, direct listening and user acceptance are not asserted.'}
+              'scope': ('Final ALAC master decoded once with all 13400 frame PTS; original ALAC packet identity checked. '
+                        + ('A newly downscaled 1080p preview is decoded once with PTS, while a same-resolution remux is checked by encoded video packet identity/PTS plus full audio decoding. ' if preview else 'Only the 4K60 Hi-Res master was exported; no AAC/1080p preview was generated. ')
+                        + 'Every new body frame has capture audit evidence. Contact sheets use the named QA source and still require visual review; continuous playback, direct listening and user acceptance are not asserted.')}
     with fresh(report_path).open('x', encoding='utf-8') as f:
         json.dump(report, f, ensure_ascii=False, indent=2)
         f.write('\n')
