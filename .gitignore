@@ -9,3 +9,4 @@ __pycache__/
 exports/
 references/characters/**/samples/
 references/characters/**/analysis/frame-metrics.json
+local-source/

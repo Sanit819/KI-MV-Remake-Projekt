@@ -1,0 +1,718 @@
+{
+  "source": "User message received 2026-11-07; retained without wording or translation correction.",
+  "source_text_file": "lyrics/user-provided.txt",
+  "source_text_sha256": "292e2ed70bacac92c43263350f10e61f8b15c018185330e51dccc62df418c6cf",
+  "credits_original": [
+    "作词: ナユタン星人",
+    "作曲: ナユタン星人",
+    "编曲: ナユタン星人"
+  ],
+  "language_pair": [
+    "ja",
+    "zh"
+  ],
+  "pair_count": 58,
+  "entries": [
+    {
+      "id": "L001",
+      "source_lines": [
+        4,
+        5
+      ],
+      "ja": "あの一等星のさんざめく光で",
+      "zh": "在那一等星的喧嚣光芒之下",
+      "start": null,
+      "end": null,
+      "timing_status": "unassigned"
+    },
+    {
+      "id": "L002",
+      "source_lines": [
+        6,
+        7
+      ],
+      "ja": "あなたとダンスを踊ろうか",
+      "zh": "你我一起 来跳舞吧",
+      "start": null,
+      "end": null,
+      "timing_status": "unassigned"
+    },
+    {
+      "id": "L003",
+      "source_lines": [
+        8,
+        9
+      ],
+      "ja": "我が太陽系の鼓動に合わせて",
+      "zh": "让我们来伴着 太阳系的脉动",
+      "start": null,
+      "end": null,
+      "timing_status": "unassigned"
+    },
+    {
+      "id": "L004",
+      "source_lines": [
+        10,
+        11
+      ],
+      "ja": "絡まったステップで綺羅めいて、星ッ！",
+      "zh": "跳起交错的舞步 闪耀起光芒！星！",
+      "start": null,
+      "end": null,
+      "timing_status": "unassigned"
+    },
+    {
+      "id": "L005",
+      "source_lines": [
+        12,
+        13
+      ],
+      "ja": "ランバダ ルンバ ふたり 宇宙（そら）でランデブーな",
+      "zh": "朗巴得 伦巴  两个人 宇宙中相遇约会",
+      "start": null,
+      "end": null,
+      "timing_status": "unassigned"
+    },
+    {
+      "id": "L006",
+      "source_lines": [
+        14,
+        15
+      ],
+      "ja": "妄、患（わずら）って 連夜眠れない",
+      "zh": "如此得 妄想着 彻夜辗转难眠",
+      "start": null,
+      "end": null,
+      "timing_status": "unassigned"
+    },
+    {
+      "id": "L007",
+      "source_lines": [
+        16,
+        17
+      ],
+      "ja": "星座になって 混ざる どんな一等星も",
+      "zh": "不管是 混杂在星座中的哪种一等星都好",
+      "start": null,
+      "end": null,
+      "timing_status": "unassigned"
+    },
+    {
+      "id": "L008",
+      "source_lines": [
+        18,
+        19
+      ],
+      "ja": "あなたに 代わる 光度はないわ",
+      "zh": "能够和你争辉的 一颗都没有",
+      "start": null,
+      "end": null,
+      "timing_status": "unassigned"
+    },
+    {
+      "id": "L009",
+      "source_lines": [
+        20,
+        21
+      ],
+      "ja": "校舎の裏 あの日 あなた見つけた",
+      "zh": "校舍后面 那一天 发现了你",
+      "start": null,
+      "end": null,
+      "timing_status": "unassigned"
+    },
+    {
+      "id": "L010",
+      "source_lines": [
+        22,
+        23
+      ],
+      "ja": "奇跡さえ 今も はなれない",
+      "zh": "如同奇迹，至今也无法忘记",
+      "start": null,
+      "end": null,
+      "timing_status": "unassigned"
+    },
+    {
+      "id": "L011",
+      "source_lines": [
+        24,
+        25
+      ],
+      "ja": "隣に 繁（しげ）く 見える 冥王星も",
+      "zh": "你旁边 那颗经常能看见的冥王星",
+      "start": null,
+      "end": null,
+      "timing_status": "unassigned"
+    },
+    {
+      "id": "L012",
+      "source_lines": [
+        26,
+        27
+      ],
+      "ja": "生憎（あいにく）、今は 興味がないわ",
+      "zh": "也因你在，光芒早已黯淡",
+      "start": null,
+      "end": null,
+      "timing_status": "unassigned"
+    },
+    {
+      "id": "L013",
+      "source_lines": [
+        28,
+        29
+      ],
+      "ja": "星が舞っちゃって",
+      "zh": "星辰正在来回旋绕",
+      "start": null,
+      "end": null,
+      "timing_status": "unassigned"
+    },
+    {
+      "id": "L014",
+      "source_lines": [
+        30,
+        31
+      ],
+      "ja": "胸が鳴っちゃって",
+      "zh": "心脏也在扑通直跳",
+      "start": null,
+      "end": null,
+      "timing_status": "unassigned"
+    },
+    {
+      "id": "L015",
+      "source_lines": [
+        32,
+        33
+      ],
+      "ja": "気付けば彼方―――",
+      "zh": "能察觉到吗 那边的你",
+      "start": null,
+      "end": null,
+      "timing_status": "unassigned"
+    },
+    {
+      "id": "L016",
+      "source_lines": [
+        34,
+        35
+      ],
+      "ja": "あの一等星のさんざめく光で",
+      "zh": "那颗一等星正在放着喧嚣的光芒",
+      "start": null,
+      "end": null,
+      "timing_status": "unassigned"
+    },
+    {
+      "id": "L017",
+      "source_lines": [
+        36,
+        37
+      ],
+      "ja": "あなたとダンスを踊ろうか",
+      "zh": "我们一起来跳舞怎么样",
+      "start": null,
+      "end": null,
+      "timing_status": "unassigned"
+    },
+    {
+      "id": "L018",
+      "source_lines": [
+        38,
+        39
+      ],
+      "ja": "我が太陽系の法則に誘われ",
+      "zh": "我被太阳系的引力所捕获",
+      "start": null,
+      "end": null,
+      "timing_status": "unassigned"
+    },
+    {
+      "id": "L019",
+      "source_lines": [
+        40,
+        41
+      ],
+      "ja": "交わった感度で綺羅めいて、星ッ！",
+      "zh": "相互照耀，闪耀起光芒！星！",
+      "start": null,
+      "end": null,
+      "timing_status": "unassigned"
+    },
+    {
+      "id": "L020",
+      "source_lines": [
+        42,
+        43
+      ],
+      "ja": "オー・オ・オー！",
+      "zh": "噢——噢，噢——！",
+      "start": null,
+      "end": null,
+      "timing_status": "unassigned"
+    },
+    {
+      "id": "L021",
+      "source_lines": [
+        44,
+        45
+      ],
+      "ja": "星間線を絆いで (オー・オ・オー！)",
+      "zh": "伴随着星际光谱",
+      "start": null,
+      "end": null,
+      "timing_status": "unassigned"
+    },
+    {
+      "id": "L022",
+      "source_lines": [
+        46,
+        47
+      ],
+      "ja": "あなたに届け (オー・オ・オー！)",
+      "zh": "传递给你",
+      "start": null,
+      "end": null,
+      "timing_status": "unassigned"
+    },
+    {
+      "id": "L023",
+      "source_lines": [
+        48,
+        49
+      ],
+      "ja": "宇宙の果てから (オー・オ・オー！)",
+      "zh": "从宇宙的尽头",
+      "start": null,
+      "end": null,
+      "timing_status": "unassigned"
+    },
+    {
+      "id": "L024",
+      "source_lines": [
+        50,
+        51
+      ],
+      "ja": "あなた 侵光系！",
+      "zh": "你就是 侵光系！",
+      "start": null,
+      "end": null,
+      "timing_status": "unassigned"
+    },
+    {
+      "id": "L025",
+      "source_lines": [
+        52,
+        53
+      ],
+      "ja": "ナーナナナーナナナーナナナーナ",
+      "zh": "呐呐呐——呐呐呐——呐呐呐——",
+      "start": null,
+      "end": null,
+      "timing_status": "unassigned"
+    },
+    {
+      "id": "L026",
+      "source_lines": [
+        54,
+        55
+      ],
+      "ja": "ナーナナナーナナナーナナナーナ",
+      "zh": "喵喵喵~喵喵喵~",
+      "start": null,
+      "end": null,
+      "timing_status": "unassigned"
+    },
+    {
+      "id": "L027",
+      "source_lines": [
+        56,
+        57
+      ],
+      "ja": "ナーナナナーナナナーナナナーナ",
+      "zh": "呐呐呐——呐呐呐——呐呐呐——",
+      "start": null,
+      "end": null,
+      "timing_status": "unassigned"
+    },
+    {
+      "id": "L028",
+      "source_lines": [
+        58,
+        59
+      ],
+      "ja": "大体のダンスは 星が光り標（しるべ）となるのさ",
+      "zh": "舞步大部分都是由星星为光标而编成",
+      "start": null,
+      "end": null,
+      "timing_status": "unassigned"
+    },
+    {
+      "id": "L029",
+      "source_lines": [
+        60,
+        61
+      ],
+      "ja": "未体験なステッポで HA,HA,HA,HA,",
+      "zh": "用这没跳过的舞步",
+      "start": null,
+      "end": null,
+      "timing_status": "unassigned"
+    },
+    {
+      "id": "L030",
+      "source_lines": [
+        62,
+        63
+      ],
+      "ja": "大胆なスタンスで 周回軌道上なぞるのさ",
+      "zh": "用这大胆的舞步沿着行星轨道旋转吧",
+      "start": null,
+      "end": null,
+      "timing_status": "unassigned"
+    },
+    {
+      "id": "L031",
+      "source_lines": [
+        64,
+        65
+      ],
+      "ja": "太陽系のデスコで HA,HA,HA,HA,",
+      "zh": "跳着太阳系的迪斯科",
+      "start": null,
+      "end": null,
+      "timing_status": "unassigned"
+    },
+    {
+      "id": "L032",
+      "source_lines": [
+        66,
+        67
+      ],
+      "ja": "宙 揺蕩（たゆた）って いつか ふたり忘れる",
+      "zh": "在宇宙 漂浮着，终有天 两个人都会忘记",
+      "start": null,
+      "end": null,
+      "timing_status": "unassigned"
+    },
+    {
+      "id": "L033",
+      "source_lines": [
+        68,
+        69
+      ],
+      "ja": "言葉さえ 今は求めたい",
+      "zh": "连话语 现在都无法进行",
+      "start": null,
+      "end": null,
+      "timing_status": "unassigned"
+    },
+    {
+      "id": "L034",
+      "source_lines": [
+        70,
+        71
+      ],
+      "ja": "超新星を願う 暮れた世界も",
+      "zh": "祈盼着超等星对于生活着的这个世界",
+      "start": null,
+      "end": null,
+      "timing_status": "unassigned"
+    },
+    {
+      "id": "L035",
+      "source_lines": [
+        72,
+        73
+      ],
+      "ja": "不思議と 今はどうでもいいわ",
+      "zh": "不可思议的是 现在发生什么都不会在意",
+      "start": null,
+      "end": null,
+      "timing_status": "unassigned"
+    },
+    {
+      "id": "L036",
+      "source_lines": [
+        74,
+        75
+      ],
+      "ja": "何もなくたって",
+      "zh": "不论会有什么",
+      "start": null,
+      "end": null,
+      "timing_status": "unassigned"
+    },
+    {
+      "id": "L037",
+      "source_lines": [
+        76,
+        77
+      ],
+      "ja": "何となくだって",
+      "zh": "不论会成什么",
+      "start": null,
+      "end": null,
+      "timing_status": "unassigned"
+    },
+    {
+      "id": "L038",
+      "source_lines": [
+        78,
+        79
+      ],
+      "ja": "星は巡って―――",
+      "zh": "星辰都在旋转着——",
+      "start": null,
+      "end": null,
+      "timing_status": "unassigned"
+    },
+    {
+      "id": "L039",
+      "source_lines": [
+        80,
+        81
+      ],
+      "ja": "あの一等星の届かぬ光は",
+      "zh": "那颗一等星未曾传递过来的光芒",
+      "start": null,
+      "end": null,
+      "timing_status": "unassigned"
+    },
+    {
+      "id": "L040",
+      "source_lines": [
+        82,
+        83
+      ],
+      "ja": "遥かな彼方で綺羅めいた",
+      "zh": "正在遥远的彼岸闪耀起光芒",
+      "start": null,
+      "end": null,
+      "timing_status": "unassigned"
+    },
+    {
+      "id": "L041",
+      "source_lines": [
+        84,
+        85
+      ],
+      "ja": "我が太陽系の法則も外れて",
+      "zh": "你已经脱离了我们太阳系的引力",
+      "start": null,
+      "end": null,
+      "timing_status": "unassigned"
+    },
+    {
+      "id": "L042",
+      "source_lines": [
+        86,
+        87
+      ],
+      "ja": "「それでもいいさ」手をのばして！",
+      "zh": "【那也没什么关系】将手伸出来就好！",
+      "start": null,
+      "end": null,
+      "timing_status": "unassigned"
+    },
+    {
+      "id": "L043",
+      "source_lines": [
+        88,
+        89
+      ],
+      "ja": "さあ、幾星霜（いくせいそう）と宿した想いで",
+      "zh": "看，凭借在时光尽头所留下的思念",
+      "start": null,
+      "end": null,
+      "timing_status": "unassigned"
+    },
+    {
+      "id": "L044",
+      "source_lines": [
+        90,
+        91
+      ],
+      "ja": "あなたの全て求めようか",
+      "zh": "将你的全部都捕获吧",
+      "start": null,
+      "end": null,
+      "timing_status": "unassigned"
+    },
+    {
+      "id": "L045",
+      "source_lines": [
+        92,
+        93
+      ],
+      "ja": "ねえ、何光年の広大な旅路で",
+      "zh": "呐，在不知多少光年的这条漫长旅途上",
+      "start": null,
+      "end": null,
+      "timing_status": "unassigned"
+    },
+    {
+      "id": "L046",
+      "source_lines": [
+        94,
+        95
+      ],
+      "ja": "比翼の恋理（れんり）を探そうか",
+      "zh": "追寻能够永远在一起的方法吧",
+      "start": null,
+      "end": null,
+      "timing_status": "unassigned"
+    },
+    {
+      "id": "L047",
+      "source_lines": [
+        96,
+        97
+      ],
+      "ja": "あの一等星のさんざめく光で",
+      "zh": "那颗一等星的喧嚣光芒下",
+      "start": null,
+      "end": null,
+      "timing_status": "unassigned"
+    },
+    {
+      "id": "L048",
+      "source_lines": [
+        98,
+        99
+      ],
+      "ja": "あなたとダンスを踊ろうか",
+      "zh": "我们一起跳舞怎么样",
+      "start": null,
+      "end": null,
+      "timing_status": "unassigned"
+    },
+    {
+      "id": "L049",
+      "source_lines": [
+        100,
+        101
+      ],
+      "ja": "ほら水金だって地火木土天海も",
+      "zh": "看啊，水星金星还有地球火星木星土星天王星海王星都",
+      "start": null,
+      "end": null,
+      "timing_status": "unassigned"
+    },
+    {
+      "id": "L050",
+      "source_lines": [
+        102,
+        103
+      ],
+      "ja": "ふたりの銀河で綺羅めいた、星ッ！",
+      "zh": "在我们两个人的银河里闪耀着光芒！星！",
+      "start": null,
+      "end": null,
+      "timing_status": "unassigned"
+    },
+    {
+      "id": "L051",
+      "source_lines": [
+        104,
+        105
+      ],
+      "ja": "オー・オ・オー！",
+      "zh": "噢——噢，噢——！",
+      "start": null,
+      "end": null,
+      "timing_status": "unassigned"
+    },
+    {
+      "id": "L052",
+      "source_lines": [
+        106,
+        107
+      ],
+      "ja": "星間線を絆いで (オー・オ・オー！)",
+      "zh": "伴随着星际光谱",
+      "start": null,
+      "end": null,
+      "timing_status": "unassigned"
+    },
+    {
+      "id": "L053",
+      "source_lines": [
+        108,
+        109
+      ],
+      "ja": "あなたに届け (オー・オ・オー！)",
+      "zh": "传递给你",
+      "start": null,
+      "end": null,
+      "timing_status": "unassigned"
+    },
+    {
+      "id": "L054",
+      "source_lines": [
+        110,
+        111
+      ],
+      "ja": "宇宙の果てから (オー・オ・オー！)",
+      "zh": "从宇宙的尽头",
+      "start": null,
+      "end": null,
+      "timing_status": "unassigned"
+    },
+    {
+      "id": "L055",
+      "source_lines": [
+        112,
+        113
+      ],
+      "ja": "あなた 侵光系！",
+      "zh": "你就是，侵光系！",
+      "start": null,
+      "end": null,
+      "timing_status": "unassigned"
+    },
+    {
+      "id": "L056",
+      "source_lines": [
+        114,
+        115
+      ],
+      "ja": "ナーナナナーナナナーナナナーナ",
+      "zh": "呐呐呐——呐呐呐——呐呐呐——",
+      "start": null,
+      "end": null,
+      "timing_status": "unassigned"
+    },
+    {
+      "id": "L057",
+      "source_lines": [
+        116,
+        117
+      ],
+      "ja": "ナーナナナーナナナーナナナーナ",
+      "zh": "nyanyanya——nyanyanya——",
+      "start": null,
+      "end": null,
+      "timing_status": "unassigned"
+    },
+    {
+      "id": "L058",
+      "source_lines": [
+        118,
+        119
+      ],
+      "ja": "ナナナーナナナーナナナー",
+      "zh": "呐呐呐——呐呐呐——呐呐呐——",
+      "start": null,
+      "end": null,
+      "timing_status": "unassigned"
+    }
+  ],
+  "end_marker_original": "ー終わりー",
+  "end_marker_is_sung": null,
+  "timebase": "Provided FLAC, time zero is its first audio sample.",
+  "timing_policy": "No precise vocal alignment established; preserve repeated lines and their distinct supplied translations as separate entries.",
+  "text_policy": "Retain readings in parentheses, punctuation, spaces, unusual wording and onomatopoeia. Do not silently normalize or correct."
+}

@@ -4,6 +4,8 @@
 
 本阶段完成用户指定 MV 的全帧研究。用户随后已确定双主演为 **Astra × DeepSeek 大肥鱼**，角色来源为《大AI和小AI们》；见[出演设定](docs/CASTING.md)与[角色原型参考](references/characters/CHARACTER_REFERENCE.md)。正式画风、舞稿和输出规格尚未锁定。
 
+用户原曲与58组日中歌词已收到并保存：FLAC为44.1kHz／16-bit／双声道／03:23.200，原件、副本与内部PCM校验通过。见[材料登记](MATERIALS.md)及[参考音轨比对](docs/AUDIO_REFERENCE_COMPARISON.md)。歌词正式时码尚未标定。
+
 ## 阅读入口
 
 - [本地逐帧查看器](index.html)：0–6095帧，键盘前后步进，重点帧导航、连续播放、51张连续图板。

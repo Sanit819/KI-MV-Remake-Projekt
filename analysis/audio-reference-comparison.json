@@ -1,0 +1,324 @@
+{
+  "generated_utc": "2026-11-07T11:55:33.974686+00:00",
+  "provided": {
+    "path": "C:\\Users\\auscar\\Desktop\\07 太陽系デスコ.flac",
+    "sha256": "0139c2441bf35e98951ca46b5e8395a71c8aa4b2629c4f5c3a1079881d019ac9",
+    "codec": "flac",
+    "sample_rate": 44100,
+    "channels": 2,
+    "bits_per_raw_sample": 16,
+    "duration_seconds": 203.2,
+    "duration_ts": 8961120,
+    "time_base": "1/44100",
+    "start_time": 0.0,
+    "format_duration_seconds": 203.2,
+    "analysis_decoded_samples": 1625600,
+    "analysis_decoded_duration_seconds": 203.2
+  },
+  "reference": {
+    "path": "D:\\myskills\\updream\\Taiyoukei-Disco\\source\\audio.m4a",
+    "sha256": "70ca3f8b803a5e51c3eb69f2e78c6662108913fee096a2d39aaf6088d0d23a3d",
+    "codec": "aac",
+    "sample_rate": 44100,
+    "channels": 2,
+    "bits_per_raw_sample": null,
+    "duration_seconds": 203.336916,
+    "duration_ts": 8967158,
+    "time_base": "1/44100",
+    "start_time": 0.0,
+    "format_duration_seconds": 203.336916,
+    "analysis_decoded_samples": 1626697,
+    "analysis_decoded_duration_seconds": 203.337125
+  },
+  "input_hashes_unchanged": true,
+  "mapping_direction": "reference_audio_time = provided_FLAC_time + offset_seconds",
+  "method": {
+    "analysis_sample_rate": 8000,
+    "channels": 1,
+    "format": "float32LE analysis copies; calculations float64",
+    "coarse": "10ms log RMS envelope, provided [15,185)s, reference search +/-10s, normalized Pearson correlation",
+    "coarse_offset_seconds": 0.08000000000000007,
+    "coarse_correlation": 0.9316459933268578,
+    "fine": "14 distributed 10-second waveform windows; normalized Pearson cross-correlation; +/-2 seconds around coarse estimate",
+    "offset_grid_seconds": 0.000125,
+    "confidence_note": "Numerical grid is not a guarantee of perceptual sync or word timing; AAC coding and resampling may affect fine estimates."
+  },
+  "windows": [
+    {
+      "provided_start_seconds": 2,
+      "window_seconds": 10.0,
+      "reference_match_start_seconds": 2.084125,
+      "reference_minus_provided_analysis_samples": 673,
+      "reference_minus_provided_seconds": 0.084125,
+      "pearson_correlation": 0.9464225887593043,
+      "best_alternative_outside_50ms_correlation": 0.14598789107929935,
+      "peak_margin_outside_50ms": 0.800434697680005,
+      "reference_gain_relative_to_provided": 0.9390806773413077,
+      "residual_rms_after_scalar_gain": 0.15619663809373982,
+      "search_reference_start_seconds": 0.08,
+      "search_reference_end_seconds": 14.08,
+      "best_at_search_boundary": false
+    },
+    {
+      "provided_start_seconds": 10,
+      "window_seconds": 10.0,
+      "reference_match_start_seconds": 10.084125,
+      "reference_minus_provided_analysis_samples": 673,
+      "reference_minus_provided_seconds": 0.084125,
+      "pearson_correlation": 0.935717653562466,
+      "best_alternative_outside_50ms_correlation": 0.23951545979088834,
+      "peak_margin_outside_50ms": 0.6962021937715777,
+      "reference_gain_relative_to_provided": 0.9258070320414985,
+      "residual_rms_after_scalar_gain": 0.1913104392056547,
+      "search_reference_start_seconds": 8.08,
+      "search_reference_end_seconds": 22.08,
+      "best_at_search_boundary": false
+    },
+    {
+      "provided_start_seconds": 25,
+      "window_seconds": 10.0,
+      "reference_match_start_seconds": 25.084125,
+      "reference_minus_provided_analysis_samples": 673,
+      "reference_minus_provided_seconds": 0.084125,
+      "pearson_correlation": 0.9560304255511872,
+      "best_alternative_outside_50ms_correlation": 0.3372145093552468,
+      "peak_margin_outside_50ms": 0.6188159161959403,
+      "reference_gain_relative_to_provided": 0.9492344045205441,
+      "residual_rms_after_scalar_gain": 0.15547076812931304,
+      "search_reference_start_seconds": 23.08,
+      "search_reference_end_seconds": 37.08,
+      "best_at_search_boundary": false
+    },
+    {
+      "provided_start_seconds": 40,
+      "window_seconds": 10.0,
+      "reference_match_start_seconds": 40.084125,
+      "reference_minus_provided_analysis_samples": 673,
+      "reference_minus_provided_seconds": 0.084125,
+      "pearson_correlation": 0.9609948372681485,
+      "best_alternative_outside_50ms_correlation": 0.3625326260834558,
+      "peak_margin_outside_50ms": 0.5984622111846927,
+      "reference_gain_relative_to_provided": 0.954027326252256,
+      "residual_rms_after_scalar_gain": 0.14825548895372131,
+      "search_reference_start_seconds": 38.08,
+      "search_reference_end_seconds": 52.08,
+      "best_at_search_boundary": false
+    },
+    {
+      "provided_start_seconds": 55,
+      "window_seconds": 10.0,
+      "reference_match_start_seconds": 55.084125,
+      "reference_minus_provided_analysis_samples": 673,
+      "reference_minus_provided_seconds": 0.084125,
+      "pearson_correlation": 0.9366775423624442,
+      "best_alternative_outside_50ms_correlation": 0.18641159800128723,
+      "peak_margin_outside_50ms": 0.7502659443611569,
+      "reference_gain_relative_to_provided": 0.9286085977594578,
+      "residual_rms_after_scalar_gain": 0.19730852628619672,
+      "search_reference_start_seconds": 53.08,
+      "search_reference_end_seconds": 67.08,
+      "best_at_search_boundary": false
+    },
+    {
+      "provided_start_seconds": 70,
+      "window_seconds": 10.0,
+      "reference_match_start_seconds": 70.084125,
+      "reference_minus_provided_analysis_samples": 673,
+      "reference_minus_provided_seconds": 0.084125,
+      "pearson_correlation": 0.9392796477483442,
+      "best_alternative_outside_50ms_correlation": 0.1985788106360647,
+      "peak_margin_outside_50ms": 0.7407008371122794,
+      "reference_gain_relative_to_provided": 0.927436506450049,
+      "residual_rms_after_scalar_gain": 0.20058536106812017,
+      "search_reference_start_seconds": 68.08,
+      "search_reference_end_seconds": 82.08,
+      "best_at_search_boundary": false
+    },
+    {
+      "provided_start_seconds": 85,
+      "window_seconds": 10.0,
+      "reference_match_start_seconds": 85.084125,
+      "reference_minus_provided_analysis_samples": 673,
+      "reference_minus_provided_seconds": 0.084125,
+      "pearson_correlation": 0.9205335471201526,
+      "best_alternative_outside_50ms_correlation": 0.28243093510360145,
+      "peak_margin_outside_50ms": 0.6381026120165512,
+      "reference_gain_relative_to_provided": 0.9075388127067431,
+      "residual_rms_after_scalar_gain": 0.21735931120094829,
+      "search_reference_start_seconds": 83.08,
+      "search_reference_end_seconds": 97.08,
+      "best_at_search_boundary": false
+    },
+    {
+      "provided_start_seconds": 100,
+      "window_seconds": 10.0,
+      "reference_match_start_seconds": 100.084125,
+      "reference_minus_provided_analysis_samples": 673,
+      "reference_minus_provided_seconds": 0.084125,
+      "pearson_correlation": 0.958725747033774,
+      "best_alternative_outside_50ms_correlation": 0.33260375910472023,
+      "peak_margin_outside_50ms": 0.6261219879290538,
+      "reference_gain_relative_to_provided": 0.9524902974595304,
+      "residual_rms_after_scalar_gain": 0.15241860416507658,
+      "search_reference_start_seconds": 98.08,
+      "search_reference_end_seconds": 112.08,
+      "best_at_search_boundary": false
+    },
+    {
+      "provided_start_seconds": 115,
+      "window_seconds": 10.0,
+      "reference_match_start_seconds": 115.084125,
+      "reference_minus_provided_analysis_samples": 673,
+      "reference_minus_provided_seconds": 0.084125,
+      "pearson_correlation": 0.9487615751038274,
+      "best_alternative_outside_50ms_correlation": 0.30991914741168985,
+      "peak_margin_outside_50ms": 0.6388424276921376,
+      "reference_gain_relative_to_provided": 0.9407904894910084,
+      "residual_rms_after_scalar_gain": 0.1666761893762181,
+      "search_reference_start_seconds": 113.08,
+      "search_reference_end_seconds": 127.08,
+      "best_at_search_boundary": false
+    },
+    {
+      "provided_start_seconds": 130,
+      "window_seconds": 10.0,
+      "reference_match_start_seconds": 130.084125,
+      "reference_minus_provided_analysis_samples": 673,
+      "reference_minus_provided_seconds": 0.084125,
+      "pearson_correlation": 0.9461935725561054,
+      "best_alternative_outside_50ms_correlation": 0.2121675541689897,
+      "peak_margin_outside_50ms": 0.7340260183871157,
+      "reference_gain_relative_to_provided": 0.9393217247310741,
+      "residual_rms_after_scalar_gain": 0.14199829639247513,
+      "search_reference_start_seconds": 128.08,
+      "search_reference_end_seconds": 142.08,
+      "best_at_search_boundary": false
+    },
+    {
+      "provided_start_seconds": 145,
+      "window_seconds": 10.0,
+      "reference_match_start_seconds": 145.084125,
+      "reference_minus_provided_analysis_samples": 673,
+      "reference_minus_provided_seconds": 0.084125,
+      "pearson_correlation": 0.9412616657053426,
+      "best_alternative_outside_50ms_correlation": 0.21244214493175162,
+      "peak_margin_outside_50ms": 0.728819520773591,
+      "reference_gain_relative_to_provided": 0.9324445046409066,
+      "residual_rms_after_scalar_gain": 0.20191145007417735,
+      "search_reference_start_seconds": 143.08,
+      "search_reference_end_seconds": 157.08,
+      "best_at_search_boundary": false
+    },
+    {
+      "provided_start_seconds": 160,
+      "window_seconds": 10.0,
+      "reference_match_start_seconds": 160.084125,
+      "reference_minus_provided_analysis_samples": 673,
+      "reference_minus_provided_seconds": 0.084125,
+      "pearson_correlation": 0.9436638486625544,
+      "best_alternative_outside_50ms_correlation": 0.1711386193039478,
+      "peak_margin_outside_50ms": 0.7725252293586066,
+      "reference_gain_relative_to_provided": 0.9348767166938208,
+      "residual_rms_after_scalar_gain": 0.18199284787144704,
+      "search_reference_start_seconds": 158.08,
+      "search_reference_end_seconds": 172.08,
+      "best_at_search_boundary": false
+    },
+    {
+      "provided_start_seconds": 175,
+      "window_seconds": 10.0,
+      "reference_match_start_seconds": 175.084125,
+      "reference_minus_provided_analysis_samples": 673,
+      "reference_minus_provided_seconds": 0.084125,
+      "pearson_correlation": 0.9415499360147951,
+      "best_alternative_outside_50ms_correlation": 0.2089919299771398,
+      "peak_margin_outside_50ms": 0.7325580060376553,
+      "reference_gain_relative_to_provided": 0.9323380833237689,
+      "residual_rms_after_scalar_gain": 0.19680889159510212,
+      "search_reference_start_seconds": 173.08,
+      "search_reference_end_seconds": 187.08,
+      "best_at_search_boundary": false
+    },
+    {
+      "provided_start_seconds": 190,
+      "window_seconds": 10.0,
+      "reference_match_start_seconds": 190.084125,
+      "reference_minus_provided_analysis_samples": 673,
+      "reference_minus_provided_seconds": 0.084125,
+      "pearson_correlation": 0.9232742185119541,
+      "best_alternative_outside_50ms_correlation": 0.23351086694389483,
+      "peak_margin_outside_50ms": 0.6897633515680592,
+      "reference_gain_relative_to_provided": 0.9112876971909193,
+      "residual_rms_after_scalar_gain": 0.18245923748899093,
+      "search_reference_start_seconds": 188.08,
+      "search_reference_end_seconds": 202.08,
+      "best_at_search_boundary": false
+    }
+  ],
+  "summary": {
+    "median_offset_seconds": 0.084125,
+    "median_offset_analysis_samples_at_8khz": 673,
+    "min_offset_seconds": 0.084125,
+    "max_offset_seconds": 0.084125,
+    "range_offset_seconds": 0.0,
+    "min_window_correlation": 0.9205335471201526,
+    "max_window_correlation": 0.9609948372681485,
+    "full_overlap_waveform_correlation_at_median_lag": 0.9420487291738477,
+    "linear_drift_seconds_per_second": 0.0,
+    "linear_drift_ppm": 0.0,
+    "fit_intercept_seconds": 0.084125,
+    "any_search_boundary_peak": false,
+    "reference_minus_provided_container_duration_seconds": 0.13691600000001358,
+    "reference_minus_provided_decoded_duration_seconds": 0.137125
+  },
+  "activity_10ms_rms_thresholds_dbfs": {
+    "provided": {
+      "-80": {
+        "first_window_start_seconds": 0.41,
+        "last_window_end_seconds": 202.87
+      },
+      "-60": {
+        "first_window_start_seconds": 0.42,
+        "last_window_end_seconds": 201.23
+      },
+      "-40": {
+        "first_window_start_seconds": 0.45,
+        "last_window_end_seconds": 200.61
+      }
+    },
+    "reference": {
+      "-80": {
+        "first_window_start_seconds": 0.5,
+        "last_window_end_seconds": 202.96
+      },
+      "-60": {
+        "first_window_start_seconds": 0.5,
+        "last_window_end_seconds": 201.31
+      },
+      "-40": {
+        "first_window_start_seconds": 0.53,
+        "last_window_end_seconds": 200.69
+      }
+    }
+  },
+  "reference_tail_beyond_aligned_provided_end": {
+    "aligned_provided_end_in_reference_seconds": 203.284125,
+    "reference_decoded_end_seconds": 203.337125,
+    "extra_reference_tail_samples_at_8khz": 424,
+    "extra_reference_tail_seconds": 0.053,
+    "extra_reference_tail_rms_dbfs": -107.33161092526574,
+    "extra_reference_tail_max_absolute_sample": 7.313903915928677e-05,
+    "interpretation_limit": "Very low-level trailing samples support near-silence/padding-like tail, not exact zero or a proven encoder cause."
+  },
+  "scope": {
+    "listened": false,
+    "lossless_identity_proven": false,
+    "lyric_boundaries_generated": false,
+    "limits": [
+      "14 local windows do not prove every short edit is absent.",
+      "Whole-overlap correlation supports overall similarity but is not source provenance or mastering identity.",
+      "Container/AAC tail duration differences must not automatically be treated as musical content edits.",
+      "No input file was rewritten; no original sample rate/bit depth was changed."
+    ]
+  }
+}

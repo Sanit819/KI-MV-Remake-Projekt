@@ -10,6 +10,8 @@
 
 用户随后已确定 **Astra 与 DeepSeek 大肥鱼双主演**，提供《大AI和小AI们》BV1tE9XBbErS作为角色原型来源。已看全时段1秒采样及两位大小版本，来源名GPT的白发龙娘在本企划承接Astra；DeepSeek为蓝发女仆鲸尾形象。先读`docs/CASTING.md`和`references/characters/CHARACTER_REFERENCE.md`。正式画风、舞稿与输出规格未锁定，不能自动沿用第一/第二企划规格。
 
+用户原曲与歌词也已收到：桌面`07 太陽系デスコ.flac`逐字节副本在`local-source/audio/`，44.1kHz／16-bit／双声道，203.2秒，原件/副本SHA及内部PCM MD5验证通过。`lyrics/user-provided.txt`保留全部58组日中对照与署名/结束标记；`lyrics/lyrics.json`的起止仍全部为null。先读`MATERIALS.md`、`docs/AUDIO_REFERENCE_COMPARISON.md`；参考MV与此FLAC的内容时间存在约84毫秒差，不能直接把原MV帧时码当作FLAC唱词时码。
+
 验证：音视频全解码、PTS递增、图像无缺号、连续图板覆盖和源尺寸细看清单、JSON解析、HTML本地链接、内联JS语法通过。查看器实际脚本在Node VM的最小DOM环境中复验了小数帧输入、首末/越界、PTS往返等8项；没有声称真实浏览器视听验收。原浏览器@标签连接不可用，公开接口读取与本地文件分析成功。
 
 第二企划继续保持其首个30秒审查节点状态；其未提交文件未混入本分支。第一企划主工作区保持干净，冻结提交仍为`881e403fc3b76fa0d8fd0fe2a27c081710830f21`。
