@@ -1,0 +1,24 @@
+{
+  "status": "approved_by_user",
+  "approved_date": "2026-11-07",
+  "timezone": "Asia/Shanghai",
+  "user_confirmation": "ok，这版好采纳这一版！",
+  "scope": "character_design_and_drawing_style_reference",
+  "version": "v5",
+  "image": "art/style-tests/astra-ds-mv-style-v5.png",
+  "sha256": "e79281b702895e1e40cee067736448b74bc851facfaac9eb008aaa206e3efd9c",
+  "prompt": "art/style-tests/PROMPT_V5.md",
+  "characters": {
+    "left": "ds",
+    "right": "Astra",
+    "ds_expression": "┏(ᗜvᗜ)┛",
+    "Astra_expression": "┏(ᗜ-ᗜ)┛"
+  },
+  "preserve": [
+    "Approved reference-aligned hair silhouettes and distinctive character features",
+    "Thin interrupted contours, unclosed line ends, imperfect joins and sparse retry strokes",
+    "Coral-red background, white flat figures, restrained blue and purple accents",
+    "Hollow half-lidded eyes, ds smile, Astra neutral mouth; no isolated dash between ds eyes"
+  ],
+  "production_state": "Static reference image; animation layers and motion cycles are not yet produced"
+}

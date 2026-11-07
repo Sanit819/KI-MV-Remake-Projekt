@@ -139,9 +139,10 @@ def main():
             "specification": "docs/CASTING.md",
             "drawing_style": "Preserve v4 reference-aligned hair silhouettes, flat white figures, hollow eyes and stiff bodies; v5 adds visibly unclosed contours, interrupted fine lines and imperfect stroke joins. No isolated dash between ds eyes.",
             "trial_image": "art/style-tests/astra-ds-mv-style-v5.png",
-            "user_feedback": "v1 too refined; v2 lost identity; v3 hairstyles wrong and stray inter-eye line; v4 received 'about right' for shape; v5 requested open-contour roughness and awaits review",
+            "user_feedback": "User explicitly adopted v5 on 2026-11-07: ok，这版好采纳这一版！",
+            "approval_manifest": "art/style-tests/approved-style.json",
             "preferred_character_name": {"DeepSeek": "ds"},
-            "status": "static_character_style_trial_generated_pending_user_review_no_animation",
+            "status": "user_approved_character_design_and_drawing_style_v5_no_animation",
         },
         "continuity": {
             "legacy_star": "First project final purple/gold hollow long-tail star; Astra + USER",
