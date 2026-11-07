@@ -1,0 +1,154 @@
+{
+    "created_utc":  "2026-11-07T16:02:52.380967+00:00",
+    "authorization":  "User requested branch archiving and redundant-file cleanup; rejected both covers.",
+    "scope":  "Only Taiyoukei-Disco; no shared pipeline or other project cleanup.",
+    "git_before":  "b20ab59f098267576670b2089f172725cd2dd48b",
+    "total_bytes":  1532769229,
+    "targets":  [
+                    {
+                        "path":  "exports/v1",
+                        "reason":  "superseded render and review output",
+                        "kind":  "directory",
+                        "file_count":  181,
+                        "bytes":  471047098,
+                        "status":  "removed"
+                    },
+                    {
+                        "path":  "exports/v2",
+                        "reason":  "superseded render and review output",
+                        "kind":  "directory",
+                        "file_count":  210,
+                        "bytes":  444581234,
+                        "status":  "removed"
+                    },
+                    {
+                        "path":  "exports/v3/review",
+                        "reason":  "regenerable runtime review output; compact QA retained",
+                        "kind":  "directory",
+                        "file_count":  94,
+                        "bytes":  62919452,
+                        "status":  "removed"
+                    },
+                    {
+                        "path":  "exports/v3/encoded-review",
+                        "reason":  "regenerable encoded review images; compact QA retained",
+                        "kind":  "directory",
+                        "file_count":  153,
+                        "bytes":  45855216,
+                        "status":  "removed"
+                    },
+                    {
+                        "path":  "frames",
+                        "reason":  "regenerable original MV frame cache; compressed source retained",
+                        "kind":  "directory",
+                        "file_count":  6096,
+                        "bytes":  409832103,
+                        "status":  "removed"
+                    },
+                    {
+                        "path":  "sheets",
+                        "reason":  "regenerable original MV contact sheets",
+                        "kind":  "directory",
+                        "file_count":  60,
+                        "bytes":  71770949,
+                        "status":  "removed"
+                    },
+                    {
+                        "path":  ".cache",
+                        "reason":  "temporary audio analysis and viewer checks",
+                        "kind":  "directory",
+                        "file_count":  3,
+                        "bytes":  13097722,
+                        "status":  "removed"
+                    },
+                    {
+                        "path":  "art/publishing/cover-v01",
+                        "reason":  "user rejected both generated covers",
+                        "kind":  "directory",
+                        "file_count":  3,
+                        "bytes":  1937305,
+                        "status":  "removed"
+                    },
+                    {
+                        "path":  "art/publishing/cover-v02",
+                        "reason":  "user rejected both generated covers",
+                        "kind":  "directory",
+                        "file_count":  3,
+                        "bytes":  1956764,
+                        "status":  "removed"
+                    },
+                    {
+                        "path":  "references/characters/BV1tE9XBbErS/samples",
+                        "reason":  "derived reference samples; original sources retained",
+                        "kind":  "directory",
+                        "file_count":  54,
+                        "bytes":  6081305,
+                        "status":  "removed"
+                    },
+                    {
+                        "path":  "references/characters/BV1tE9XBbErS/sheets",
+                        "reason":  "derived reference contact sheets",
+                        "kind":  "directory",
+                        "file_count":  3,
+                        "bytes":  1802137,
+                        "status":  "removed"
+                    },
+                    {
+                        "path":  "exports/v3/media-validation.json",
+                        "reason":  "large raw report; compact QA retained",
+                        "kind":  "file",
+                        "file_count":  1,
+                        "bytes":  1136781,
+                        "status":  "removed"
+                    },
+                    {
+                        "path":  "exports/v3/neural-validation.json",
+                        "reason":  "duplicate QA report",
+                        "kind":  "file",
+                        "file_count":  1,
+                        "bytes":  2098,
+                        "status":  "removed"
+                    },
+                    {
+                        "path":  "exports/v3/preservation-validation.json",
+                        "reason":  "duplicate historical QA report",
+                        "kind":  "file",
+                        "file_count":  1,
+                        "bytes":  4646,
+                        "status":  "removed"
+                    },
+                    {
+                        "path":  "exports/v3/render-stats.json",
+                        "reason":  "duplicate QA report",
+                        "kind":  "file",
+                        "file_count":  1,
+                        "bytes":  1741,
+                        "status":  "removed"
+                    },
+                    {
+                        "path":  "analysis/probe.json",
+                        "reason":  "regenerable ffprobe frame report",
+                        "kind":  "file",
+                        "file_count":  1,
+                        "bytes":  539642,
+                        "status":  "removed"
+                    },
+                    {
+                        "path":  "references/characters/BV1tE9XBbErS/analysis/frame-metrics.json",
+                        "reason":  "regenerable reference frame metrics",
+                        "kind":  "file",
+                        "file_count":  1,
+                        "bytes":  175637,
+                        "status":  "removed"
+                    },
+                    {
+                        "path":  "tools/__pycache__",
+                        "reason":  "Python bytecode cache",
+                        "kind":  "directory",
+                        "file_count":  2,
+                        "bytes":  27399,
+                        "status":  "removed"
+                    }
+                ],
+    "completed_utc":  "2026-11-07T16:03:07.9168448Z"
+}

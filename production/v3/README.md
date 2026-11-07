@@ -1,12 +1,14 @@
 # 全曲第三版 · 算法也来跳舞
 
+2026-11-08 已归档，先读 [ARCHIVE.md](../../ARCHIVE.md)。最终媒体与制作输入保留，旧导出及抽帧缓存已清理；以下记录制作过程与复建命令。
+
 用户肯定第二版，追加YOLO、FC、CNN、RNN、卡尔曼滤波、匈牙利匹配、Transformer和ViT；随后指定检测框显示置信度，片尾原始“Astra × 大肥鱼”整行用紫色体现Astra所写。本版在原203.2秒内完成这些修订，故事顺序和末尾蓝笔改名保留。
 
 追加白饭梗：检测段白饭置信度在0.97–1.00间缓慢变化，小dsQ等饭；Transformer段再被一碗饭吸引。饭碗为断口Canvas草稿，人物仍使用既有Q图，详见[RICE.md](RICE.md)。
 
 [播放器](../../exports/v3/watch.html) · [27秒检测框](../../exports/v3/watch.html#t=27) · [148秒ViT](../../exports/v3/watch.html#t=148) · [195秒紫色署名](../../exports/v3/watch.html#t=195) · [MKV主片](../../exports/v3/taiyoukei-disco-v3-720p30-flac.mkv) · [交付记录](../../docs/DELIVERY_V3.md)。
 
-1280×720 / 30fps / 6096帧。MKV内原FLAC逐包复制；浏览器看片使用静音画面MP4加原FLAC时钟。58组字幕上日语下中文。v1/v2另存保留。
+1280×720 / 30fps / 6096帧。MKV内原FLAC逐包复制；浏览器看片使用静音画面MP4加原FLAC时钟。58组字幕上日语下中文。各版源码与紧凑QA保留，v1/v2旧媒体已按用户归档清理要求移除。
 
 ## 演出模块
 

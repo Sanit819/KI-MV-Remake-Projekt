@@ -1,0 +1,84 @@
+{
+  "checked_utc": "2026-11-07T16:05:00.747673+00:00",
+  "command": "node tools/review_mv_v3.mjs --times 31.5,148.3,202.5",
+  "scope": "Post-cleanup engine/lyrics/story/determinism and muted FLAC playback smoke; not new full-film review.",
+  "times": [
+    31.5,
+    148.3,
+    202.5
+  ],
+  "missing": [],
+  "warnings": [],
+  "errors": [],
+  "subtitles_checked": 58,
+  "story_sections": 15,
+  "story_sections_unchanged": true,
+  "determinism": {
+    "time": 64.125,
+    "repeat_frame_equal": true,
+    "additional": [
+      {
+        "time": 18,
+        "equal": true
+      },
+      {
+        "time": 31.5,
+        "equal": true
+      },
+      {
+        "time": 48.5,
+        "equal": true
+      },
+      {
+        "time": 64.125,
+        "equal": true
+      },
+      {
+        "time": 76.5,
+        "equal": true
+      },
+      {
+        "time": 83.5,
+        "equal": true
+      },
+      {
+        "time": 90.5,
+        "equal": true
+      },
+      {
+        "time": 103.5,
+        "equal": true
+      },
+      {
+        "time": 151.5,
+        "equal": true
+      },
+      {
+        "time": 187.5,
+        "equal": true
+      },
+      {
+        "time": 197.3,
+        "equal": true
+      },
+      {
+        "time": 202.5,
+        "equal": true
+      }
+    ],
+    "sha256": "bb12a6ae5052b9f2ce8d55018e0dd60f2345100385d934bb2ecc936a1462c9e4"
+  },
+  "palette": [
+    255,
+    100,
+    82,
+    255
+  ],
+  "playback": {
+    "duration": 203.2,
+    "time": 0.660044,
+    "paused": false,
+    "error": null,
+    "flacSupport": "probably"
+  }
+}

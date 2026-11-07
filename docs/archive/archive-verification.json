@@ -1,0 +1,792 @@
+{
+  "checked_utc": "2026-11-07T16:05:01.721854+00:00",
+  "scope": "Retained bytes only; not a rerender or new full audiovisual review.",
+  "passed": true,
+  "count": 98,
+  "files": [
+    {
+      "location": "project",
+      "path": "art/style-tests/approved-style.json",
+      "passed": true,
+      "exists": true,
+      "bytes": 1046,
+      "sha256": "5bfb6b326a9688e33d648a942321d6f3ab1527d2604b1ae0f548c7531afa707a"
+    },
+    {
+      "location": "project",
+      "path": "art/style-tests/astra-deepseek-mv-style-v1.png",
+      "passed": true,
+      "exists": true,
+      "bytes": 1689862,
+      "sha256": "d2efb420b3d09320f2e8b3b20cd4ad0fdcc69468359ed707412bd0c9cd826690"
+    },
+    {
+      "location": "project",
+      "path": "art/style-tests/astra-deepseek-mv-style-v2.png",
+      "passed": true,
+      "exists": true,
+      "bytes": 1469877,
+      "sha256": "a51addef5dcce1a45ca5422c3e35bde7c52cd3287c915d72df6cc20bfbd35968"
+    },
+    {
+      "location": "project",
+      "path": "art/style-tests/astra-deepseek-mv-style-v3.png",
+      "passed": true,
+      "exists": true,
+      "bytes": 1587872,
+      "sha256": "e4717fe89648441c6d733c7ec9841c591453cabfa02c8a699f4b0ce76c4275ab"
+    },
+    {
+      "location": "project",
+      "path": "art/style-tests/astra-ds-mv-style-v4.png",
+      "passed": true,
+      "exists": true,
+      "bytes": 1818572,
+      "sha256": "18f3870119d81044913accc9d1cf4cacf26db29b4f4e8395d823fb67aa93367f"
+    },
+    {
+      "location": "project",
+      "path": "art/style-tests/astra-ds-mv-style-v5.png",
+      "passed": true,
+      "exists": true,
+      "bytes": 1745756,
+      "sha256": "e79281b702895e1e40cee067736448b74bc851facfaac9eb008aaa206e3efd9c"
+    },
+    {
+      "location": "project",
+      "path": "exports/v3/taiyoukei-disco-v3-720p30-flac.mkv",
+      "passed": true,
+      "exists": true,
+      "bytes": 201898036,
+      "sha256": "649481ba6bc4c719c1f7fd37a13fcab266e67a1c1f28728a0275ac1e7f062fbe"
+    },
+    {
+      "location": "project",
+      "path": "exports/v3/taiyoukei-disco-v3-video.mp4",
+      "passed": true,
+      "exists": true,
+      "bytes": 173866121,
+      "sha256": "d0c1db98f4c5a7601ac63b35ebfb55cb9922813ff3a5491d9a937227729aed97"
+    },
+    {
+      "location": "project",
+      "path": "exports/v3/watch.html",
+      "passed": true,
+      "exists": true,
+      "bytes": 10263,
+      "sha256": "be73982ab2257344943cecfa6acdc7973c32fd9292b5521244baafd1c81c5219"
+    },
+    {
+      "location": "project",
+      "path": "local-source/audio/07 太陽系デスコ.flac",
+      "passed": true,
+      "exists": true,
+      "bytes": 28129792,
+      "sha256": "0139c2441bf35e98951ca46b5e8395a71c8aa4b2629c4f5c3a1079881d019ac9"
+    },
+    {
+      "location": "project",
+      "path": "lyrics/lyrics.json",
+      "passed": true,
+      "exists": true,
+      "bytes": 17442,
+      "sha256": "2a7588e0de9a4b922f79fc609f7810f6147f758b4915f0cc10dad14ad0db42de"
+    },
+    {
+      "location": "project",
+      "path": "lyrics/user-provided.txt",
+      "passed": true,
+      "exists": true,
+      "bytes": 4601,
+      "sha256": "292e2ed70bacac92c43263350f10e61f8b15c018185330e51dccc62df418c6cf"
+    },
+    {
+      "location": "project",
+      "path": "production/v1/assets/clap.png",
+      "passed": true,
+      "exists": true,
+      "bytes": 1129414,
+      "sha256": "939d3f49ef8b91a24992075da92d0d44fa6df74c4b4a2cd471591644a8b76181"
+    },
+    {
+      "location": "project",
+      "path": "production/v1/assets/draw.png",
+      "passed": true,
+      "exists": true,
+      "bytes": 1510926,
+      "sha256": "04fef0c02995aac5a3f2de07e63f141813fbb3a12273a860eef10a2fd3b8c0e9"
+    },
+    {
+      "location": "project",
+      "path": "production/v1/assets/generation-manifest.json",
+      "passed": true,
+      "exists": true,
+      "bytes": 13986,
+      "sha256": "6a81866b17c803bead2041c9108eb9746b0f2c3157d5b737fea9f0351e7bea4f"
+    },
+    {
+      "location": "project",
+      "path": "production/v1/assets/pose-a.png",
+      "passed": true,
+      "exists": true,
+      "bytes": 1179042,
+      "sha256": "c50127d8024827497b693907684d5a20f37daffeaf0666933460fbfa723d9a84"
+    },
+    {
+      "location": "project",
+      "path": "production/v1/assets/pose-b.png",
+      "passed": true,
+      "exists": true,
+      "bytes": 1327262,
+      "sha256": "c44f9700f3cf166889436b2cb28f5b10ce6bc90a51c514711c67031e5c3d78b5"
+    },
+    {
+      "location": "project",
+      "path": "production/v1/assets/q.png",
+      "passed": true,
+      "exists": true,
+      "bytes": 929522,
+      "sha256": "28d36dd8733faff3904ba30ced98262934c85040ccaf52aa218dffea6ff77470"
+    },
+    {
+      "location": "project",
+      "path": "production/v1/assets/reach.png",
+      "passed": true,
+      "exists": true,
+      "bytes": 1450453,
+      "sha256": "fba24216a6de526d9f52bcb2a8dfb27f19896afc2a9b595157923d98b7cc9e93"
+    },
+    {
+      "location": "project",
+      "path": "production/v1/engine/film.js",
+      "passed": true,
+      "exists": true,
+      "bytes": 22067,
+      "sha256": "707e15f9d2f49a4e25c1029f69c7556fadd1ad509646a85eb9c3a237e663249b"
+    },
+    {
+      "location": "project",
+      "path": "production/v1/engine/index.html",
+      "passed": true,
+      "exists": true,
+      "bytes": 794,
+      "sha256": "1c1caa4ef2cad97f6dca120067bc8d5c8a92c1cb2157ca08ff6f7ce8e43b9534"
+    },
+    {
+      "location": "project",
+      "path": "production/v1/engine/style.css",
+      "passed": true,
+      "exists": true,
+      "bytes": 625,
+      "sha256": "e8d8d6bbaf9790f7ff82eeea6dd72f870d242b67034de5b436581bd8c83fe22d"
+    },
+    {
+      "location": "project",
+      "path": "production/v1/qa/browser-review.json",
+      "passed": true,
+      "exists": true,
+      "bytes": 128105,
+      "sha256": "7cf2c035c077591e9e8cf235f41a87cc652d38dbdc637240593a2d21cd1ff788"
+    },
+    {
+      "location": "project",
+      "path": "production/v1/qa/media-validation-summary.json",
+      "passed": true,
+      "exists": true,
+      "bytes": 15360,
+      "sha256": "7c4f38fc4f5a0983e8ee4d181cd4670abd8b4688fd815e0969bb11ef76d6f9ff"
+    },
+    {
+      "location": "project",
+      "path": "production/v1/qa/player-validation.json",
+      "passed": true,
+      "exists": true,
+      "bytes": 3448,
+      "sha256": "d6668bcc97cd4f21b7310c08a5d4ac0c26e76ac7db9eb147ddcd00701f9cf36e"
+    },
+    {
+      "location": "project",
+      "path": "production/v1/qa/render-stats.json",
+      "passed": true,
+      "exists": true,
+      "bytes": 1722,
+      "sha256": "90dbb4bd50ee48b5795dbd327b3fb575c0eca053e6df96fed201b4e9134fd6c4"
+    },
+    {
+      "location": "project",
+      "path": "production/v1/timeline/asr-candidate.json",
+      "passed": true,
+      "exists": true,
+      "bytes": 88554,
+      "sha256": "f817899cdbe20886de583a8a7da2d24534fe813f1c9ec959d54b0955a10b6d03"
+    },
+    {
+      "location": "project",
+      "path": "production/v1/timeline/lyrics-candidate.json",
+      "passed": true,
+      "exists": true,
+      "bytes": 51855,
+      "sha256": "cf4787bb0fa318063484b8b5ac0f9b4c813036ea5da24cadbb642a866430d1d8"
+    },
+    {
+      "location": "project",
+      "path": "production/v1/timeline/rhythm-analysis.json",
+      "passed": true,
+      "exists": true,
+      "bytes": 100759,
+      "sha256": "8b93361561964bf067ca6c44794394b4d9e9c661036d0e8a4d360e46edfb3641"
+    },
+    {
+      "location": "project",
+      "path": "production/v1/timeline/validation.json",
+      "passed": true,
+      "exists": true,
+      "bytes": 577,
+      "sha256": "23bc7c48604860be74bab43f039363bfc7c47b84891c06dd9068759839555c40"
+    },
+    {
+      "location": "project",
+      "path": "production/v2/engine/film.js",
+      "passed": true,
+      "exists": true,
+      "bytes": 30195,
+      "sha256": "3df76578ace9bb79c85580bf45d6d6bac7c5469a1f698f1dd045b228c01dc6dd"
+    },
+    {
+      "location": "project",
+      "path": "production/v2/engine/index.html",
+      "passed": true,
+      "exists": true,
+      "bytes": 836,
+      "sha256": "09de9510aa589dfa1dbc6d1f62f86cb5b87947aa6051de3a1cf384bcad152d00"
+    },
+    {
+      "location": "project",
+      "path": "production/v2/engine/signature.js",
+      "passed": true,
+      "exists": true,
+      "bytes": 8130,
+      "sha256": "1a5829dcd94774d09aec3c91f1d0e1083c1df478a37aaa508260f38aded4ece1"
+    },
+    {
+      "location": "project",
+      "path": "production/v2/engine/style.css",
+      "passed": true,
+      "exists": true,
+      "bytes": 625,
+      "sha256": "e8d8d6bbaf9790f7ff82eeea6dd72f870d242b67034de5b436581bd8c83fe22d"
+    },
+    {
+      "location": "project",
+      "path": "production/v2/protected-inputs.json",
+      "passed": true,
+      "exists": true,
+      "bytes": 838,
+      "sha256": "64791c58d11d988bf7385662b5d431cf18d75d403d50e07fda4d1da1de49ec2b"
+    },
+    {
+      "location": "project",
+      "path": "production/v2/qa/browser-review.json",
+      "passed": true,
+      "exists": true,
+      "bytes": 159815,
+      "sha256": "363fc1e6fe9d062bf5d1470b3fe9f7b1e607e49d311759299135399f9ec5eefb"
+    },
+    {
+      "location": "project",
+      "path": "production/v2/qa/media-validation-summary.json",
+      "passed": true,
+      "exists": true,
+      "bytes": 14554,
+      "sha256": "479973ca0717653de7052ee8d7e058e6ce4af21a70168f3d46afd6bc95dacb17"
+    },
+    {
+      "location": "project",
+      "path": "production/v2/qa/neural-validation.json",
+      "passed": true,
+      "exists": true,
+      "bytes": 1326,
+      "sha256": "17697dbeb2ea1efa89eeb9cc9a07105d5f5a9b6c783eca19f2000731aaab2e8d"
+    },
+    {
+      "location": "project",
+      "path": "production/v2/qa/player-validation.json",
+      "passed": true,
+      "exists": true,
+      "bytes": 21563,
+      "sha256": "65fc16c3a8612f7cc6a399413ba5efc00ab46c04eac93a11f51e93fe7a6c0d70"
+    },
+    {
+      "location": "project",
+      "path": "production/v2/qa/protected-input-validation.json",
+      "passed": true,
+      "exists": true,
+      "bytes": 2162,
+      "sha256": "f1586b5eab6dbf731468c5cc29a9081f306abc5c9fa44a9103ee554a782f60a3"
+    },
+    {
+      "location": "project",
+      "path": "production/v2/qa/render-stats.json",
+      "passed": true,
+      "exists": true,
+      "bytes": 1737,
+      "sha256": "26d4fc0d38710ba94199de03a2a20de43d1550e98ae62353c56c854b97eb5e6c"
+    },
+    {
+      "location": "project",
+      "path": "production/v2/qa/source-manifest.json",
+      "passed": true,
+      "exists": true,
+      "bytes": 425,
+      "sha256": "88e31609a8f39b00b23e74450280160a190ca56cf062242cb116569c5c1c1422"
+    },
+    {
+      "location": "project",
+      "path": "production/v3/engine/attention.js",
+      "passed": true,
+      "exists": true,
+      "bytes": 8813,
+      "sha256": "cb87ae57d4381e397fd1d2140dacb47e361f73591b9d24c918a24369c88ef819"
+    },
+    {
+      "location": "project",
+      "path": "production/v3/engine/classic.js",
+      "passed": true,
+      "exists": true,
+      "bytes": 7217,
+      "sha256": "e40d52c7ac50826540fca5d2ad4aac3f303e5b28fa9085be7a2abf17998e6574"
+    },
+    {
+      "location": "project",
+      "path": "production/v3/engine/film.js",
+      "passed": true,
+      "exists": true,
+      "bytes": 31556,
+      "sha256": "d2de60662918494e50676a05e87bc0015db023b02dc026b5621cd613fa1595fc"
+    },
+    {
+      "location": "project",
+      "path": "production/v3/engine/index.html",
+      "passed": true,
+      "exists": true,
+      "bytes": 988,
+      "sha256": "fc91d9b7ee6ad102ae652e2b70e4abb104b3cd110990caf0566f624cd6656ce4"
+    },
+    {
+      "location": "project",
+      "path": "production/v3/engine/rice.js",
+      "passed": true,
+      "exists": true,
+      "bytes": 3470,
+      "sha256": "3f955968fa52ef2607b0a4716143b847cf9683a72540b72d8f5f89a92e4dcaaa"
+    },
+    {
+      "location": "project",
+      "path": "production/v3/engine/signature.js",
+      "passed": true,
+      "exists": true,
+      "bytes": 8264,
+      "sha256": "544898d067f4f664cb35de5c5c62f401c83384d3338b822328dd64a886b47a1a"
+    },
+    {
+      "location": "project",
+      "path": "production/v3/engine/style.css",
+      "passed": true,
+      "exists": true,
+      "bytes": 625,
+      "sha256": "e8d8d6bbaf9790f7ff82eeea6dd72f870d242b67034de5b436581bd8c83fe22d"
+    },
+    {
+      "location": "project",
+      "path": "production/v3/engine/tracking.js",
+      "passed": true,
+      "exists": true,
+      "bytes": 11915,
+      "sha256": "73d8e43838cbbd657e4b3bea38eccafe78b019031204dc5a709e026a5be611d8"
+    },
+    {
+      "location": "project",
+      "path": "production/v3/protected-inputs.json",
+      "passed": true,
+      "exists": true,
+      "bytes": 960,
+      "sha256": "4c4c965e345b0b1804d02ade407ff96ad3b036da6bb62a936e40e507a945231e"
+    },
+    {
+      "location": "project",
+      "path": "production/v3/qa/attention-validation.json",
+      "passed": true,
+      "exists": true,
+      "bytes": 19554,
+      "sha256": "a245dee9b2f947d040d6b55a064a98a76830a849b4dfe8e53bca2816cd940644"
+    },
+    {
+      "location": "project",
+      "path": "production/v3/qa/browser-review.json",
+      "passed": true,
+      "exists": true,
+      "bytes": 1170880,
+      "sha256": "ae34a04063578c837226a7a4254be1feefc74fe5cb0e6cd91c03a8bc2d0d2bac"
+    },
+    {
+      "location": "project",
+      "path": "production/v3/qa/classic-validation.json",
+      "passed": true,
+      "exists": true,
+      "bytes": 12512,
+      "sha256": "7a186422827ee10c0d11b1f77bd3d3d9ba2549fcc054b42cb15af4bce67c689d"
+    },
+    {
+      "location": "project",
+      "path": "production/v3/qa/encoded-coverage.json",
+      "passed": true,
+      "exists": true,
+      "bytes": 23034,
+      "sha256": "61000bbddb2aa2719458a8dd2fd28c3386183f497548fa2ff6842f8d8230a571"
+    },
+    {
+      "location": "project",
+      "path": "production/v3/qa/media-validation-summary.json",
+      "passed": true,
+      "exists": true,
+      "bytes": 14554,
+      "sha256": "ea4fa55549a343f4dfbfdf6a569c612a3f75e499541475954d38b8929ba515f0"
+    },
+    {
+      "location": "project",
+      "path": "production/v3/qa/neural-validation.json",
+      "passed": true,
+      "exists": true,
+      "bytes": 2098,
+      "sha256": "ea173646a4eb8df6ec3356da20310dd2068d9a001d1d1485be16a735e9b890ab"
+    },
+    {
+      "location": "project",
+      "path": "production/v3/qa/player-validation.json",
+      "passed": true,
+      "exists": true,
+      "bytes": 45864,
+      "sha256": "9be7e968728d735e9989d17790e7eed2ff407cd56863647ae4118f52090a7c5d"
+    },
+    {
+      "location": "project",
+      "path": "production/v3/qa/preservation-validation.json",
+      "passed": true,
+      "exists": true,
+      "bytes": 4646,
+      "sha256": "a0d8a1567f218951baad2e9f70bcc4554b3b3b7ae3687c07d083336d85067916"
+    },
+    {
+      "location": "project",
+      "path": "production/v3/qa/render-stats.json",
+      "passed": true,
+      "exists": true,
+      "bytes": 1741,
+      "sha256": "65887f4c4576bd610091056565871f74d23020361e48d51443cec669bd300cbf"
+    },
+    {
+      "location": "project",
+      "path": "production/v3/qa/source-sha256.json",
+      "passed": true,
+      "exists": true,
+      "bytes": 937,
+      "sha256": "393c7be31db8dbbf1e6f74fc2cb3975df69a30f95bf342f326158081a1f3cc72"
+    },
+    {
+      "location": "project",
+      "path": "production/v3/qa/tracking-validation.json",
+      "passed": true,
+      "exists": true,
+      "bytes": 12689,
+      "sha256": "fb43ade45f72b66b1f864404161218ed270ee8cc951dfd8885718d4829bc845d"
+    },
+    {
+      "location": "project",
+      "path": "production/v3/qa/visual-review-agent.json",
+      "passed": true,
+      "exists": true,
+      "bytes": 2915,
+      "sha256": "1f8a6c1768430da87b9be8d478dd80d04a0af968dd931f3b6a20a616a2ff5304"
+    },
+    {
+      "location": "project",
+      "path": "production/v3/qa/visual-review-root.json",
+      "passed": true,
+      "exists": true,
+      "bytes": 2078,
+      "sha256": "bb8ba4c8470addea23674fd7d437aeab250948ac1b0aeebbbabf4029447a976e"
+    },
+    {
+      "location": "project",
+      "path": "references/characters/BV1tE9XBbErS/source/deepseek-large.jpg",
+      "passed": true,
+      "exists": true,
+      "bytes": 1825859,
+      "sha256": "73264faff3511347b1b9668d5d937cbb3f2402f8bb03cc158fc8a81bfc2d077c"
+    },
+    {
+      "location": "project",
+      "path": "references/characters/BV1tE9XBbErS/source/gpt-astra-large.jpg",
+      "passed": true,
+      "exists": true,
+      "bytes": 9828690,
+      "sha256": "c47948cd25efcf7ad4a5179288c8452445d57d6dfc379fb27ab6e809a6970157"
+    },
+    {
+      "location": "project",
+      "path": "references/characters/BV1tE9XBbErS/source/pixiv-148186519-contact.jpg",
+      "passed": true,
+      "exists": true,
+      "bytes": 1060401,
+      "sha256": "c95000de57d4fefe1997e050d8267848bb75550489e517d78d3b641e95e2aed7"
+    },
+    {
+      "location": "project",
+      "path": "references/characters/BV1tE9XBbErS/source/pixiv-148186519-p00-small.jpg",
+      "passed": true,
+      "exists": true,
+      "bytes": 32072,
+      "sha256": "3c21d7c8a7c873c4ddabca061be1bf595c19f792eca90982e65362d947faad37"
+    },
+    {
+      "location": "project",
+      "path": "references/characters/BV1tE9XBbErS/source/pixiv-148186519-p01-small.jpg",
+      "passed": true,
+      "exists": true,
+      "bytes": 31013,
+      "sha256": "ee24c74ea44b4aa7bb3d9df9c157305fb1e349f6036bbce678d78bc8a0848426"
+    },
+    {
+      "location": "project",
+      "path": "references/characters/BV1tE9XBbErS/source/pixiv-148186519-p02-small.jpg",
+      "passed": true,
+      "exists": true,
+      "bytes": 44449,
+      "sha256": "9553c5e4b381d06cedc61bc26820b405c5e6d704c5d622290a8e0ee7cd94e517"
+    },
+    {
+      "location": "project",
+      "path": "references/characters/BV1tE9XBbErS/source/pixiv-148186519-p03-small.jpg",
+      "passed": true,
+      "exists": true,
+      "bytes": 41367,
+      "sha256": "8befaa6e6f49616f4868b34d56018e50aa19382db2c7b669965117e03b8e9264"
+    },
+    {
+      "location": "project",
+      "path": "references/characters/BV1tE9XBbErS/source/pixiv-148186519-p04-small.jpg",
+      "passed": true,
+      "exists": true,
+      "bytes": 40578,
+      "sha256": "069c454a010e89e296d5db508f370b683b7900a5df91d9cc255f75e9b5d30a76"
+    },
+    {
+      "location": "project",
+      "path": "references/characters/BV1tE9XBbErS/source/pixiv-148186519-p05-small.jpg",
+      "passed": true,
+      "exists": true,
+      "bytes": 31745,
+      "sha256": "b5560309d5eecd74ac22deec3264b56f8cdb970cb0fd3922d9ec0813293cddd1"
+    },
+    {
+      "location": "project",
+      "path": "references/characters/BV1tE9XBbErS/source/pixiv-148186519-p06-small.jpg",
+      "passed": true,
+      "exists": true,
+      "bytes": 28193,
+      "sha256": "353d2aea6131dfaa7175b687dfa930832d9a122798f4b50fac7931ad866c4e54"
+    },
+    {
+      "location": "project",
+      "path": "references/characters/BV1tE9XBbErS/source/pixiv-148186519-p07-small.jpg",
+      "passed": true,
+      "exists": true,
+      "bytes": 40522,
+      "sha256": "0d69f4e7b1dae6078af435df018d9ec6d19ce8c17b738d3c7dff3129699c67d2"
+    },
+    {
+      "location": "project",
+      "path": "references/characters/BV1tE9XBbErS/source/pixiv-148186519-p08-small.jpg",
+      "passed": true,
+      "exists": true,
+      "bytes": 33807,
+      "sha256": "34fcbc499ede0ec4b9dabae4797f2e3bd5ecc2eb5905824b8ff17c00ee50d0f3"
+    },
+    {
+      "location": "project",
+      "path": "references/characters/BV1tE9XBbErS/source/pixiv-148186519-p09-small.jpg",
+      "passed": true,
+      "exists": true,
+      "bytes": 42506,
+      "sha256": "1160ef78aded305428cb808b3265d61b91ef86f9daafca58a9581dcd176b1903"
+    },
+    {
+      "location": "project",
+      "path": "references/characters/BV1tE9XBbErS/source/pixiv-148186519-p10-small.jpg",
+      "passed": true,
+      "exists": true,
+      "bytes": 32180,
+      "sha256": "d21b1eb207c3e2c97d3a69e4b70404e4269a2f66a201aef0c6e49757b4ad923c"
+    },
+    {
+      "location": "project",
+      "path": "references/characters/BV1tE9XBbErS/source/pixiv-148186519-p11-small.jpg",
+      "passed": true,
+      "exists": true,
+      "bytes": 45863,
+      "sha256": "945e813d7415245954b21419dbe96a2f4634d4e13e749629feb6299ebeace213"
+    },
+    {
+      "location": "project",
+      "path": "references/characters/BV1tE9XBbErS/source/pixiv-148186519-p12-small.jpg",
+      "passed": true,
+      "exists": true,
+      "bytes": 36225,
+      "sha256": "2d3209ed9d16be235c00f80478c6fc2c514e1d9186691fbb0c40ffd6418059d4"
+    },
+    {
+      "location": "project",
+      "path": "references/characters/BV1tE9XBbErS/source/pixiv-148186519-p13-small.jpg",
+      "passed": true,
+      "exists": true,
+      "bytes": 21412,
+      "sha256": "e36171014b093be52b7b1595e26d36dcff0d332127e90bf3d0ce897541eb8de4"
+    },
+    {
+      "location": "project",
+      "path": "references/characters/BV1tE9XBbErS/source/pixiv-148186519-p14-small.jpg",
+      "passed": true,
+      "exists": true,
+      "bytes": 20601,
+      "sha256": "97f51f28790118238abcb10d218a7b69a08a79f0c16ea00b08c1a7a926221be0"
+    },
+    {
+      "location": "project",
+      "path": "references/characters/BV1tE9XBbErS/source/pixiv-148186519-p15-small.jpg",
+      "passed": true,
+      "exists": true,
+      "bytes": 30466,
+      "sha256": "5b53f93d1026db205833a13d8a41490e9dbc32868edb270cba6766eddb52fb73"
+    },
+    {
+      "location": "project",
+      "path": "references/characters/BV1tE9XBbErS/source/pixiv-148186519-p16-small.jpg",
+      "passed": true,
+      "exists": true,
+      "bytes": 28617,
+      "sha256": "34baf6fac1937b6d53d8e61193684af2504d29f0e748fc296e17abb1c73159e1"
+    },
+    {
+      "location": "project",
+      "path": "references/characters/BV1tE9XBbErS/source/pixiv-148186519-pages-api.json",
+      "passed": true,
+      "exists": true,
+      "bytes": 9011,
+      "sha256": "41789ed8cdee9a2806b8836617941b4fc1164da5245abdea933f625d2ee819ae"
+    },
+    {
+      "location": "project",
+      "path": "references/characters/BV1tE9XBbErS/source/shangshan-1231977657712771073-01.png",
+      "passed": true,
+      "exists": true,
+      "bytes": 1372289,
+      "sha256": "527b8911e690686424415991ffeb2f9e979b5f2b87b4c56640599ec9928d9940"
+    },
+    {
+      "location": "project",
+      "path": "references/characters/BV1tE9XBbErS/source/shangshan-1231977657712771073-02.png",
+      "passed": true,
+      "exists": true,
+      "bytes": 173777,
+      "sha256": "0d9150f6c6a49289010709c8af456ea909f779012a792ecf37e34953f4579ce2"
+    },
+    {
+      "location": "project",
+      "path": "references/characters/BV1tE9XBbErS/source/source-provenance-manifest.json",
+      "passed": true,
+      "exists": true,
+      "bytes": 12955,
+      "sha256": "35f6ca652d5da781e4c139bf9af4916ae25f3d9322f04b67349b5b19e143af08"
+    },
+    {
+      "location": "project",
+      "path": "references/characters/BV1tE9XBbErS/source/video.mp4",
+      "passed": true,
+      "exists": true,
+      "bytes": 2905093,
+      "sha256": "4f902729a25ee49f757a02255c323976119a91f929b7436af202a13a98a69ce8"
+    },
+    {
+      "location": "project",
+      "path": "references/user-palette/original-mv-crop.png",
+      "passed": true,
+      "exists": true,
+      "bytes": 50202,
+      "sha256": "7c611a4f225aee0e10f05ad4ded040bece5f7f5b42506cfa13b9b2f8407d3847"
+    },
+    {
+      "location": "project",
+      "path": "source/audio.m4a",
+      "passed": true,
+      "exists": true,
+      "bytes": 2530546,
+      "sha256": "70ca3f8b803a5e51c3eb69f2e78c6662108913fee096a2d39aaf6088d0d23a3d"
+    },
+    {
+      "location": "project",
+      "path": "source/reference.mp4",
+      "passed": true,
+      "exists": true,
+      "bytes": 8688687,
+      "sha256": "d864c909d91baf578ddf9bfc4be1553a2f3a14181dbc4678399eb7d5cda9f566"
+    },
+    {
+      "location": "project",
+      "path": "source/source.json",
+      "passed": true,
+      "exists": true,
+      "bytes": 3297,
+      "sha256": "45699d899106f1222b420dbb5d4f895309774d85fb7e202eb8b081cf6c4903e9"
+    },
+    {
+      "location": "project",
+      "path": "source/video-avc.mp4",
+      "passed": true,
+      "exists": true,
+      "bytes": 6024034,
+      "sha256": "b513c311df1ea2ab4a614c0f90e6ed6584fa039fc246cea71f315b2542a0ab8a"
+    },
+    {
+      "location": "pipeline",
+      "path": "_demo/engine/fonts/DelaGothicOne-Regular.ttf",
+      "passed": true,
+      "exists": true,
+      "bytes": 2508848,
+      "sha256": "4ff87a0965f1b0505e5a2c58424bc6ad3cff27e56a82f21c2fc9d6b0e3857ee2"
+    },
+    {
+      "location": "pipeline",
+      "path": "_demo/engine/fonts/NotoSansSC_wght_.ttf",
+      "passed": true,
+      "exists": true,
+      "bytes": 17772300,
+      "sha256": "a3041811a78c361b1de50f953c805e0244951c21c5bd412f7232ef0d899af0da"
+    },
+    {
+      "location": "pipeline",
+      "path": "_demo/tools/render_frames.mjs",
+      "passed": true,
+      "exists": true,
+      "bytes": 30915,
+      "sha256": "a458e1123ad3d4e4fa479cf8d8487fbaa7d3e030df774c78dd9ea825a301ea22"
+    },
+    {
+      "location": "pipeline",
+      "path": "_demo/tools/kit_env.mjs",
+      "passed": true,
+      "exists": true,
+      "bytes": 6093,
+      "sha256": "f7372c6613e2891e0fe5e7c4a7ec553d2d85fdd917fac822e73f0c6b0401b601"
+    }
+  ]
+}
