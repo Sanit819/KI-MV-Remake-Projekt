@@ -1,0 +1,56 @@
+{
+  "reviewer": "visual_review_b",
+  "review_date": "2026-11-07",
+  "source_bvid": "BV1UfZ2YwEP5",
+  "frame_indexing": "zero based; intervals [start,end)",
+  "frame_start": 2040,
+  "frame_end_exclusive": 4080,
+  "frames_in_reviewed_contact_sheets": 2040,
+  "fps": 30,
+  "time_start_seconds": 68,
+  "time_end_seconds": 136,
+  "review_method": "All 17 consecutive contact sheets inspected in row order. 13 selected source-resolution frames inspected. No audio listening. Contact sheets were displayed resized from 1920x1512 to 1787x1408.",
+  "reviewed_sheets": ["sheets/all-frames/all-017.jpg", "sheets/all-frames/all-018.jpg", "sheets/all-frames/all-019.jpg", "sheets/all-frames/all-020.jpg", "sheets/all-frames/all-021.jpg", "sheets/all-frames/all-022.jpg", "sheets/all-frames/all-023.jpg", "sheets/all-frames/all-024.jpg", "sheets/all-frames/all-025.jpg", "sheets/all-frames/all-026.jpg", "sheets/all-frames/all-027.jpg", "sheets/all-frames/all-028.jpg", "sheets/all-frames/all-029.jpg", "sheets/all-frames/all-030.jpg", "sheets/all-frames/all-031.jpg", "sheets/all-frames/all-032.jpg", "sheets/all-frames/all-033.jpg"],
+  "source_resolution_frames_reviewed": [2040, 2158, 2232, 2242, 2734, 2746, 2758, 3020, 3022, 3158, 3186, 3778, 3873],
+  "sheet_observations": [
+    {"sheet":17,"frames":[2040,2160],"observation":"双人上指舞姿；背景上下粗黑字替换、清空和放大；f2158中央呼喊字与四周额外角色进入。"},
+    {"sheet":18,"frames":[2160,2280],"observation":"上指与拍手交替；边缘额外角色旋转进出，f2232双掌分开、f2242合掌＋冲击线；f2254再进入中央字组合。"},
+    {"sheet":19,"frames":[2280,2400],"observation":"同类组合延续；f2302增加下方文字；f2326拍手段；f2350中央字与边缘角色组合再次进入；f2398切上行。"},
+    {"sheet":20,"frames":[2400,2520],"observation":"f2422拍手，f2446中央字组合再次进入；f2488起大字逐步出现。"},
+    {"sheet":21,"frames":[2520,2640],"observation":"大字补全后，f2554起重复音节从顶部逐行铺底，前景双人持续同向换指。"},
+    {"sheet":22,"frames":[2640,2760],"observation":"满屏文字墙；f2710开始胸前拍手，f2734回上指，f2746换向。"},
+    {"sheet":23,"frames":[2760,2880],"observation":"文字墙维持；双人上指每12帧交替换向，位置不互换。"},
+    {"sheet":24,"frames":[2880,3000],"observation":"换向持续到f2926文字墙变为顶行，f2967附近补底行，留白增多。"},
+    {"sheet":25,"frames":[3000,3120],"observation":"f3016左角色双手肩侧摇摆，右角色上指；f3070大号拉丁字母块，分行累积；f3118恢复顶行排版。"},
+    {"sheet":26,"frames":[3120,3240],"observation":"f3153起小角色旋转横穿主角后方，由右上移至左侧；底行文字逐段增加；f3214更换上行、f3238添下行。"},
+    {"sheet":27,"frames":[3240,3360],"observation":"f3262大号拉丁字母块再次进入；f3310恢复上行歌词，逐步补字；双人换指。"},
+    {"sheet":28,"frames":[3360,3480],"observation":"上下歌词替换；f3406上行更新，f3459下行大字；f3478开始拍手姿。"},
+    {"sheet":29,"frames":[3480,3600],"observation":"拍手到f3502转上指新段，文字清空后依次重入；f3598上行替换。"},
+    {"sheet":30,"frames":[3600,3720],"observation":"文字上下补入、f3682清空；f3694新上行并换指，末端f3718改拍手。"},
+    {"sheet":31,"frames":[3720,3840],"observation":"拍手与上指交替；f3778背景双行改为人物前景中央文字＋长横线；f3790回上指。"},
+    {"sheet":32,"frames":[3840,3960],"observation":"中央前景字保持到f3873，f3874清空；f3886顶行重入、f3934补底行。"},
+    {"sheet":33,"frames":[3960,4080],"observation":"双人上指保持；上下排字、清空、重入的节奏继续，f3982/3988、f4030、f4059附近、f4066是可见排版节点。"}
+  ],
+  "measured_visual_pattern": {
+    "pattern": "alternating synchronized left-up/right-up pointing poses; skirt character remains on screen left",
+    "observed_change_frames": [2734,2746,2758,2770,2782,2794,2806,2818,2830,2842,2854,2866,2878,2890,2902,2914],
+    "interval_frames": 12,
+    "interval_seconds": 0.4,
+    "return_to_same_direction_period_frames": 24,
+    "cross_check": "Every listed frame has low-resolution mean absolute luma change >30 in frame-index.json; semantic conclusion is supported by contact sheets and f2734/f2746/f2758 close views.",
+    "not_claimed": "Music BPM, original drawing cadence, exact asset reuse or original mirror operation."
+  },
+  "layering_evidence": [
+    {"frame":2040,"observation":"白色人物遮挡背景粗黑字。"},
+    {"frame":2158,"observation":"中央呼喊型黑字在人物前，边缘额外角色带可见运动模糊。"},
+    {"frame":3186,"observation":"旋转小角色被两位主角色身体遮挡，处于主角之后。"},
+    {"frame":3778,"observation":"中央黑字覆盖人物白色衣服，长横线延伸到右方。"}
+  ],
+  "uncertainties": [
+    "No source project: cannot prove layer count, software, reuse or mirror-command implementation.",
+    "No listening: no validated beat-to-frame or lyric-to-phoneme alignment.",
+    "Contact-sheet review cannot certify every line-level detail at source resolution.",
+    "No obvious anomalous black frame or palette flash observed in this range; not a proof of an artifact-free source."
+  ],
+  "report": "docs/review-b.md"
+}

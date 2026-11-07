@@ -1,0 +1,73 @@
+{
+  "source": {
+    "source_page": "https://www.bilibili.com/video/BV1UfZ2YwEP5/",
+    "fetched_utc": "2026-11-07T11:25:49.296559+00:00",
+    "bvid": "BV1UfZ2YwEP5",
+    "aid": 114273611159625,
+    "cid": 29215690003,
+    "title": "ナユタン星人 - 太陽系デスコ/太阳系Disco (ft.初音未来) OFFICIAL MUSIC VIDEO",
+    "uploader": {
+      "mid": 3546868686522469,
+      "name": "ナユタン星人_官方",
+      "face": "https://i1.hdslb.com/bfs/face/fe03b8503436769a56579c1325ac70f05490ea2c.jpg"
+    },
+    "description": "我是官方！！！！！！！！！！！！！！！！\n\nナユタン星人 - “太陽系デスコ/太阳系Disco” ft. 初音未来\nNayutalieN - “Solar System Disco” ft. Hatsune Miku\n\nVocaloid:初音未来(Miku Hatsune)\nMusic&Words:ナユタン星人(NayutalieN)\nIllustration:ナユタン星人(NayutalieN)\nMovie:ナユタン星人(NayutalieN)\n\n伴奏音源→ http://piapro.jp/nayutalien\nナユタン星人 X→ https://x.com/NayutalieN \n专辑发售中→ http://nayutalien.com/\n\n[ 标题 / Song Title ] 太陽系デスコ/太阳系Disco (Solar System Disco)\n[ 投稿日 / Upload Date ] 2017-01-20\n[ 作词･作曲･曲绘･视频 / Music & Lyrics & Illustration & Video ] ナユタン星人 (NayutalieN)\n[ 演唱 / Vocal ] 初音未来 (Hatsune Miku)\n\n※There are a lot of videos uploaded on YouTube that are made very similar to the ones on this channel, but those are covers or fan dubs that I gave permission to upload and are NOT the original content. The original/official content is created by “Nayutalien” and are uploaded on this channel and this channel only. \n\n※The music videos on this channel are made and styled very similarly, but this is intended to appeal the creator’s originality. The music videos are not intended to be easily reused, but to show the creator’s feeling toward each creation. They may look very similar or very overused/reused, but each and every piece is made differently and are separate individual content.",
+    "published_unix": 1743761100,
+    "upload_dimensions": {
+      "width": 854,
+      "height": 480,
+      "rotate": 0
+    },
+    "api_duration": 204,
+    "playback_timelength_ms": 203360,
+    "auth": "none; public API only; no browser credentials",
+    "available_avc": [
+      {
+        "id": 32,
+        "width": 854,
+        "height": 480,
+        "frameRate": "30.000",
+        "codecs": "avc1.64001F",
+        "bandwidth": 237110
+      },
+      {
+        "id": 16,
+        "width": 640,
+        "height": 360,
+        "frameRate": "30.000",
+        "codecs": "avc1.64001E",
+        "bandwidth": 151336
+      }
+    ],
+    "scope": "Local reference analysis; no reupload or inclusion of reference footage in project.",
+    "video": {
+      "id": 32,
+      "width": 854,
+      "height": 480,
+      "frameRate": "30.000",
+      "codecs": "avc1.64001F",
+      "bandwidth": 237110,
+      "bytes": 6024034,
+      "sha256": "b513c311df1ea2ab4a614c0f90e6ed6584fa039fc246cea71f315b2542a0ab8a",
+      "path": "source\\video-avc.mp4"
+    },
+    "audio": {
+      "id": 30232,
+      "width": 0,
+      "height": 0,
+      "frameRate": "",
+      "codecs": "mp4a.40.2",
+      "bandwidth": 99507,
+      "bytes": 2530546,
+      "sha256": "70ca3f8b803a5e51c3eb69f2e78c6662108913fee096a2d39aaf6088d0d23a3d",
+      "path": "source\\audio.m4a"
+    }
+  },
+  "decoded_frames": 6096,
+  "fps": 30.0,
+  "duration_from_frames": 203.2,
+  "all_frame_sheets": 51,
+  "overview_sheets": 9,
+  "ffmpeg": "D:\\myskills\\updream\\vocaloid-style-mv-pipeline\\_tools\\ffmpeg\\bin\\ffmpeg.exe",
+  "analysis_scope": "All decoded frames indexed and extracted; visual analysis recorded separately; Public reference rendition; not an original project file or master."
+}

@@ -1,0 +1,374 @@
+{
+  "all_frames": [
+    {
+      "sheet": "sheets/all-frames/all-000.jpg",
+      "first_frame": 0,
+      "last_frame": 119,
+      "start": 0.0,
+      "end": 4.0
+    },
+    {
+      "sheet": "sheets/all-frames/all-001.jpg",
+      "first_frame": 120,
+      "last_frame": 239,
+      "start": 4.0,
+      "end": 8.0
+    },
+    {
+      "sheet": "sheets/all-frames/all-002.jpg",
+      "first_frame": 240,
+      "last_frame": 359,
+      "start": 8.0,
+      "end": 12.0
+    },
+    {
+      "sheet": "sheets/all-frames/all-003.jpg",
+      "first_frame": 360,
+      "last_frame": 479,
+      "start": 12.0,
+      "end": 16.0
+    },
+    {
+      "sheet": "sheets/all-frames/all-004.jpg",
+      "first_frame": 480,
+      "last_frame": 599,
+      "start": 16.0,
+      "end": 20.0
+    },
+    {
+      "sheet": "sheets/all-frames/all-005.jpg",
+      "first_frame": 600,
+      "last_frame": 719,
+      "start": 20.0,
+      "end": 24.0
+    },
+    {
+      "sheet": "sheets/all-frames/all-006.jpg",
+      "first_frame": 720,
+      "last_frame": 839,
+      "start": 24.0,
+      "end": 28.0
+    },
+    {
+      "sheet": "sheets/all-frames/all-007.jpg",
+      "first_frame": 840,
+      "last_frame": 959,
+      "start": 28.0,
+      "end": 32.0
+    },
+    {
+      "sheet": "sheets/all-frames/all-008.jpg",
+      "first_frame": 960,
+      "last_frame": 1079,
+      "start": 32.0,
+      "end": 36.0
+    },
+    {
+      "sheet": "sheets/all-frames/all-009.jpg",
+      "first_frame": 1080,
+      "last_frame": 1199,
+      "start": 36.0,
+      "end": 40.0
+    },
+    {
+      "sheet": "sheets/all-frames/all-010.jpg",
+      "first_frame": 1200,
+      "last_frame": 1319,
+      "start": 40.0,
+      "end": 44.0
+    },
+    {
+      "sheet": "sheets/all-frames/all-011.jpg",
+      "first_frame": 1320,
+      "last_frame": 1439,
+      "start": 44.0,
+      "end": 48.0
+    },
+    {
+      "sheet": "sheets/all-frames/all-012.jpg",
+      "first_frame": 1440,
+      "last_frame": 1559,
+      "start": 48.0,
+      "end": 52.0
+    },
+    {
+      "sheet": "sheets/all-frames/all-013.jpg",
+      "first_frame": 1560,
+      "last_frame": 1679,
+      "start": 52.0,
+      "end": 56.0
+    },
+    {
+      "sheet": "sheets/all-frames/all-014.jpg",
+      "first_frame": 1680,
+      "last_frame": 1799,
+      "start": 56.0,
+      "end": 60.0
+    },
+    {
+      "sheet": "sheets/all-frames/all-015.jpg",
+      "first_frame": 1800,
+      "last_frame": 1919,
+      "start": 60.0,
+      "end": 64.0
+    },
+    {
+      "sheet": "sheets/all-frames/all-016.jpg",
+      "first_frame": 1920,
+      "last_frame": 2039,
+      "start": 64.0,
+      "end": 68.0
+    },
+    {
+      "sheet": "sheets/all-frames/all-017.jpg",
+      "first_frame": 2040,
+      "last_frame": 2159,
+      "start": 68.0,
+      "end": 72.0
+    },
+    {
+      "sheet": "sheets/all-frames/all-018.jpg",
+      "first_frame": 2160,
+      "last_frame": 2279,
+      "start": 72.0,
+      "end": 76.0
+    },
+    {
+      "sheet": "sheets/all-frames/all-019.jpg",
+      "first_frame": 2280,
+      "last_frame": 2399,
+      "start": 76.0,
+      "end": 80.0
+    },
+    {
+      "sheet": "sheets/all-frames/all-020.jpg",
+      "first_frame": 2400,
+      "last_frame": 2519,
+      "start": 80.0,
+      "end": 84.0
+    },
+    {
+      "sheet": "sheets/all-frames/all-021.jpg",
+      "first_frame": 2520,
+      "last_frame": 2639,
+      "start": 84.0,
+      "end": 88.0
+    },
+    {
+      "sheet": "sheets/all-frames/all-022.jpg",
+      "first_frame": 2640,
+      "last_frame": 2759,
+      "start": 88.0,
+      "end": 92.0
+    },
+    {
+      "sheet": "sheets/all-frames/all-023.jpg",
+      "first_frame": 2760,
+      "last_frame": 2879,
+      "start": 92.0,
+      "end": 96.0
+    },
+    {
+      "sheet": "sheets/all-frames/all-024.jpg",
+      "first_frame": 2880,
+      "last_frame": 2999,
+      "start": 96.0,
+      "end": 100.0
+    },
+    {
+      "sheet": "sheets/all-frames/all-025.jpg",
+      "first_frame": 3000,
+      "last_frame": 3119,
+      "start": 100.0,
+      "end": 104.0
+    },
+    {
+      "sheet": "sheets/all-frames/all-026.jpg",
+      "first_frame": 3120,
+      "last_frame": 3239,
+      "start": 104.0,
+      "end": 108.0
+    },
+    {
+      "sheet": "sheets/all-frames/all-027.jpg",
+      "first_frame": 3240,
+      "last_frame": 3359,
+      "start": 108.0,
+      "end": 112.0
+    },
+    {
+      "sheet": "sheets/all-frames/all-028.jpg",
+      "first_frame": 3360,
+      "last_frame": 3479,
+      "start": 112.0,
+      "end": 116.0
+    },
+    {
+      "sheet": "sheets/all-frames/all-029.jpg",
+      "first_frame": 3480,
+      "last_frame": 3599,
+      "start": 116.0,
+      "end": 120.0
+    },
+    {
+      "sheet": "sheets/all-frames/all-030.jpg",
+      "first_frame": 3600,
+      "last_frame": 3719,
+      "start": 120.0,
+      "end": 124.0
+    },
+    {
+      "sheet": "sheets/all-frames/all-031.jpg",
+      "first_frame": 3720,
+      "last_frame": 3839,
+      "start": 124.0,
+      "end": 128.0
+    },
+    {
+      "sheet": "sheets/all-frames/all-032.jpg",
+      "first_frame": 3840,
+      "last_frame": 3959,
+      "start": 128.0,
+      "end": 132.0
+    },
+    {
+      "sheet": "sheets/all-frames/all-033.jpg",
+      "first_frame": 3960,
+      "last_frame": 4079,
+      "start": 132.0,
+      "end": 136.0
+    },
+    {
+      "sheet": "sheets/all-frames/all-034.jpg",
+      "first_frame": 4080,
+      "last_frame": 4199,
+      "start": 136.0,
+      "end": 140.0
+    },
+    {
+      "sheet": "sheets/all-frames/all-035.jpg",
+      "first_frame": 4200,
+      "last_frame": 4319,
+      "start": 140.0,
+      "end": 144.0
+    },
+    {
+      "sheet": "sheets/all-frames/all-036.jpg",
+      "first_frame": 4320,
+      "last_frame": 4439,
+      "start": 144.0,
+      "end": 148.0
+    },
+    {
+      "sheet": "sheets/all-frames/all-037.jpg",
+      "first_frame": 4440,
+      "last_frame": 4559,
+      "start": 148.0,
+      "end": 152.0
+    },
+    {
+      "sheet": "sheets/all-frames/all-038.jpg",
+      "first_frame": 4560,
+      "last_frame": 4679,
+      "start": 152.0,
+      "end": 156.0
+    },
+    {
+      "sheet": "sheets/all-frames/all-039.jpg",
+      "first_frame": 4680,
+      "last_frame": 4799,
+      "start": 156.0,
+      "end": 160.0
+    },
+    {
+      "sheet": "sheets/all-frames/all-040.jpg",
+      "first_frame": 4800,
+      "last_frame": 4919,
+      "start": 160.0,
+      "end": 164.0
+    },
+    {
+      "sheet": "sheets/all-frames/all-041.jpg",
+      "first_frame": 4920,
+      "last_frame": 5039,
+      "start": 164.0,
+      "end": 168.0
+    },
+    {
+      "sheet": "sheets/all-frames/all-042.jpg",
+      "first_frame": 5040,
+      "last_frame": 5159,
+      "start": 168.0,
+      "end": 172.0
+    },
+    {
+      "sheet": "sheets/all-frames/all-043.jpg",
+      "first_frame": 5160,
+      "last_frame": 5279,
+      "start": 172.0,
+      "end": 176.0
+    },
+    {
+      "sheet": "sheets/all-frames/all-044.jpg",
+      "first_frame": 5280,
+      "last_frame": 5399,
+      "start": 176.0,
+      "end": 180.0
+    },
+    {
+      "sheet": "sheets/all-frames/all-045.jpg",
+      "first_frame": 5400,
+      "last_frame": 5519,
+      "start": 180.0,
+      "end": 184.0
+    },
+    {
+      "sheet": "sheets/all-frames/all-046.jpg",
+      "first_frame": 5520,
+      "last_frame": 5639,
+      "start": 184.0,
+      "end": 188.0
+    },
+    {
+      "sheet": "sheets/all-frames/all-047.jpg",
+      "first_frame": 5640,
+      "last_frame": 5759,
+      "start": 188.0,
+      "end": 192.0
+    },
+    {
+      "sheet": "sheets/all-frames/all-048.jpg",
+      "first_frame": 5760,
+      "last_frame": 5879,
+      "start": 192.0,
+      "end": 196.0
+    },
+    {
+      "sheet": "sheets/all-frames/all-049.jpg",
+      "first_frame": 5880,
+      "last_frame": 5999,
+      "start": 196.0,
+      "end": 200.0
+    },
+    {
+      "sheet": "sheets/all-frames/all-050.jpg",
+      "first_frame": 6000,
+      "last_frame": 6095,
+      "start": 200.0,
+      "end": 203.2
+    }
+  ],
+  "one_second_overviews": [
+    "sheets/overview/overview-00.jpg",
+    "sheets/overview/overview-01.jpg",
+    "sheets/overview/overview-02.jpg",
+    "sheets/overview/overview-03.jpg",
+    "sheets/overview/overview-04.jpg",
+    "sheets/overview/overview-05.jpg",
+    "sheets/overview/overview-06.jpg",
+    "sheets/overview/overview-07.jpg",
+    "sheets/overview/overview-08.jpg"
+  ],
+  "all_frames_coverage": 6096,
+  "note": "Contact sheets contain every decoded frame, in order. Human review coverage is recorded separately."
+}

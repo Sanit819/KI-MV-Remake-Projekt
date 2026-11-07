@@ -1,0 +1,49 @@
+{
+  "reviewer": "visual_review_c",
+  "date_local": "2026-11-07",
+  "source": "source/video-avc.mp4",
+  "frame_numbering": "zero-based; inclusive start, exclusive end",
+  "reviewed_frame_range": [4080, 6096],
+  "reviewed_frame_count": 2016,
+  "fps": 30,
+  "range_seconds_from_frame_grid": [136.0, 203.2],
+  "last_frame_pts_seconds": 203.167,
+  "method": "Every contact-sheet cell in the assigned range was visually inspected; selected source-resolution frames were additionally inspected. This is not every frame at source resolution or audio listening.",
+  "all_frame_sheets_reviewed": [
+    "sheets/all-frames/all-034.jpg", "sheets/all-frames/all-035.jpg", "sheets/all-frames/all-036.jpg",
+    "sheets/all-frames/all-037.jpg", "sheets/all-frames/all-038.jpg", "sheets/all-frames/all-039.jpg",
+    "sheets/all-frames/all-040.jpg", "sheets/all-frames/all-041.jpg", "sheets/all-frames/all-042.jpg",
+    "sheets/all-frames/all-043.jpg", "sheets/all-frames/all-044.jpg", "sheets/all-frames/all-045.jpg",
+    "sheets/all-frames/all-046.jpg", "sheets/all-frames/all-047.jpg", "sheets/all-frames/all-048.jpg",
+    "sheets/all-frames/all-049.jpg", "sheets/all-frames/all-050.jpg"
+  ],
+  "source_resolution_frames_reviewed": [4080,4436,4437,4438,4439,4440,4456,4459,4460,4461,4462,4742,4743,4744,4754,4755,4756,4821,4822,4823,5113,5138,5853,5854,5855,5862,5913,5914,5925,5926,6000,6045,6046,6060,6094,6095],
+  "observations": [
+    {"frame_range": [4080,4270], "kind": "held_pose_and_typography", "observation": "Stable dual-character pointing pose; large top/bottom words clear, shrink to centered phrase, enlarge across torso, then clear again."},
+    {"frame_range": [4270,4438], "kind": "pose_cycle", "observation": "Two pointing orientations alternate, including 12-frame steps at 4270,4282,4294. Character order remains skirt figure left and trouser figure right."},
+    {"frame_range": [4438,4462], "kind": "chibi_motif", "observation": "Central figures hold both hands beside faces; four chibi upper-body figures enter around sides/bottom with rotational blur and then exit. Faint effect onset is earlier, near4436–4437; 4440 is clear appearance, not exact onset."},
+    {"frame_range": [4462,4654], "kind": "pose_cycle", "observation": "Pointing alternation resumes; 4462,4474,4486,4498 provide 12-frame change examples. Top/bottom typography and large foreground words alternate."},
+    {"frame_range": [4654,4743], "kind": "light_overlay", "observation": "Horizontal pink-white light streaks and bright points add continuous motion over red background and fixed-position characters."},
+    {"frame_range": [4743,4755], "kind": "brief_tonal_inversion", "observation": "12-frame bright-background/dark-character flash, with transition at4743 and recovery at4754; regular red/white palette restored at4755."},
+    {"frame_range": [4755,4846], "kind": "motif_recurrence", "observation": "Regular palette returns; faceside-hand pose and four chibi upper bodies recur near4822."},
+    {"frame_range": [4846,4942], "kind": "moving_typography", "observation": "Huge isolated characters move horizontally behind protagonists, often with horizontal motion blur."},
+    {"frame_range": [4942,5038], "kind": "typography_reset", "observation": "Top/bottom text becomes a small centered phrase at4989, clears at5014, then briefly enlarges at5026."},
+    {"frame_range": [5038,5368], "kind": "chibi_cycles", "observation": "Multiple appearances of four chibi upper bodies, arms and differing faces around the main pair; pointing and faceside-hand states alternate."},
+    {"frame_range": [5368,5470], "kind": "type_build", "observation": "Chibi figures leave; large words accumulate behind characters, then clear at5463."},
+    {"frame_range": [5470,5854], "kind": "type_wall", "observation": "Rows of repeated characters accumulate into a dense background texture while pointing states alternate and light streaks continue."},
+    {"frame_range": [5854,5914], "kind": "title_card", "observation": "Centered song title over a fixed pointing pose for60frames; small star accents and residual early light effects."},
+    {"frame_range": [5914,5926], "kind": "clean_hold", "observation": "Title clears; characters remain for12frames."},
+    {"frame_range": [5926,6046], "kind": "thanks_card", "observation": "Centered thanks text over character torsos for120frames."},
+    {"frame_range": [6046,6096], "kind": "final_hold", "observation": "No text; dual-character red-background pose remains until last decoded frame6095, no black ending."}
+  ],
+  "uncertainties": [
+    "No audio listening; pose intervals do not establish beat alignment or BPM.",
+    "No source-layer files or pixel registration; similar poses do not prove identical asset reuse, mirroring, or exact drawing counts.",
+    "Contact-sheet review establishes visible pose/layout changes, not every source-resolution line detail.",
+    "The black unused area after frame6095 on the last sheet is layout padding, not video content.",
+    "First faint blur onset in chibi motifs can precede clear appearance by several frames; exact onset is not asserted from thumbnails."
+  ],
+  "audio_listened": false,
+  "all_frames_source_resolution_reviewed": false,
+  "all_assigned_contact_sheet_frames_reviewed": true
+}

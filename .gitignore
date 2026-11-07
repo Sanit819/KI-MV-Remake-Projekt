@@ -1,0 +1,9 @@
+# Reference media and derived frame images stay local.
+source/
+frames/
+sheets/
+analysis/probe.json
+__pycache__/
+*.pyc
+.cache/
+exports/

@@ -1,0 +1,267 @@
+{
+  "reviewer": "source_provenance / visual_review_a",
+  "date": "2026-11-07",
+  "source_bvid": "BV1UfZ2YwEP5",
+  "range": {
+    "start_frame_inclusive": 0,
+    "end_frame_exclusive": 2040,
+    "start_seconds": 0,
+    "end_seconds": 68,
+    "decoded_fps": 30
+  },
+  "coverage_method": "All 17 original-size contact sheets were visually inspected using view_image(detail=original). Every decoded frame in this range appears as a 192x108 thumbnail. Selected 854x480 frames were separately inspected. This is not full-resolution inspection of every source pixel.",
+  "all_pages_visually_inspected": [
+    {
+      "file": "sheets/all-frames/all-000.jpg",
+      "start": 0,
+      "end_exclusive": 120,
+      "observation": "Blank red opening; small center word at 34; large top line at 46; second line at 94."
+    },
+    {
+      "file": "sheets/all-frames/all-001.jpg",
+      "start": 120,
+      "end_exclusive": 240,
+      "observation": "Third and fourth text rows accumulate; text reset at 226; first character tips enter at 238."
+    },
+    {
+      "file": "sheets/all-frames/all-002.jpg",
+      "start": 240,
+      "end_exclusive": 360,
+      "observation": "Two white figures rise from bottom while large dark text accumulates behind."
+    },
+    {
+      "file": "sheets/all-frames/all-003.jpg",
+      "start": 360,
+      "end_exclusive": 480,
+      "observation": "Figures reach stable placement; text clears at 406; center accent at 418; enormous foreground title at 430."
+    },
+    {
+      "file": "sheets/all-frames/all-004.jpg",
+      "start": 480,
+      "end_exclusive": 600,
+      "observation": "Enormous foreground title remains; alternating raised-arm body states visible through gaps."
+    },
+    {
+      "file": "sheets/all-frames/all-005.jpg",
+      "start": 600,
+      "end_exclusive": 720,
+      "observation": "Title replaced by center author credit at 622; alternating poses in 12-frame holds locally."
+    },
+    {
+      "file": "sheets/all-frames/all-006.jpg",
+      "start": 720,
+      "end_exclusive": 840,
+      "observation": "Credit clears at 781; brief figure-only passage; top text resumes at 814."
+    },
+    {
+      "file": "sheets/all-frames/all-007.jpg",
+      "start": 840,
+      "end_exclusive": 960,
+      "observation": "Text accumulates in background; figures hold raised-arm pose through long spans."
+    },
+    {
+      "file": "sheets/all-frames/all-008.jpg",
+      "start": 960,
+      "end_exclusive": 1080,
+      "observation": "Near-face two-hand pose at 982; short text clear at 1001; raised arms and new text at 1006."
+    },
+    {
+      "file": "sheets/all-frames/all-009.jpg",
+      "start": 1080,
+      "end_exclusive": 1200,
+      "observation": "Text becomes dense; near-face hand state at 1174; text clear at 1193; next figure/text state at 1198."
+    },
+    {
+      "file": "sheets/all-frames/all-010.jpg",
+      "start": 1200,
+      "end_exclusive": 1320,
+      "observation": "New text grouping builds top-to-bottom behind stable figures."
+    },
+    {
+      "file": "sheets/all-frames/all-011.jpg",
+      "start": 1320,
+      "end_exclusive": 1440,
+      "observation": "Text density increases; near-face hands at 1366; text clear at 1384; next raised-arm/text state at 1390."
+    },
+    {
+      "file": "sheets/all-frames/all-012.jpg",
+      "start": 1440,
+      "end_exclusive": 1560,
+      "observation": "Large bottom keywords and then very large top words change hierarchy; white figures remain forward."
+    },
+    {
+      "file": "sheets/all-frames/all-013.jpg",
+      "start": 1560,
+      "end_exclusive": 1680,
+      "observation": "Text reset and alternating hand states; shorter centered line appears at 1671."
+    },
+    {
+      "file": "sheets/all-frames/all-014.jpg",
+      "start": 1680,
+      "end_exclusive": 1800,
+      "observation": "Center line held; text clears at 1750; huge foreground two-character text at 1762; background top line at 1774."
+    },
+    {
+      "file": "sheets/all-frames/all-015.jpg",
+      "start": 1800,
+      "end_exclusive": 1920,
+      "observation": "Top and bottom text organization returns; momentary clear then progressive word building."
+    },
+    {
+      "file": "sheets/all-frames/all-016.jpg",
+      "start": 1920,
+      "end_exclusive": 2040,
+      "observation": "Four peripheral chibi figures enter and leave with blur around 1940-1964; clap emphasis; single mixed pose at 1965; normal raised arms at 1966."
+    }
+  ],
+  "full_size_frames_inspected": [
+    33,
+    34,
+    45,
+    46,
+    226,
+    232,
+    237,
+    238,
+    406,
+    418,
+    430,
+    622,
+    633,
+    634,
+    645,
+    646,
+    657,
+    658,
+    777,
+    778,
+    779,
+    780,
+    781,
+    782,
+    982,
+    1001,
+    1193,
+    1384,
+    1670,
+    1671,
+    1762,
+    1774,
+    1938,
+    1939,
+    1940,
+    1941,
+    1942,
+    1943,
+    1944,
+    1947,
+    1948,
+    1949,
+    1950,
+    1954,
+    1955,
+    1961,
+    1963,
+    1964,
+    1965,
+    1966
+  ],
+  "full_size_frame_count": 50,
+  "confirmed_local_pose_hold_example": {
+    "frames_A": [
+      622,
+      634
+    ],
+    "frames_B": [
+      634,
+      646
+    ],
+    "frames_A_repeat": [
+      646,
+      658
+    ],
+    "next_B_start": 658,
+    "interval_convention": "half-open",
+    "hold_frames": 12,
+    "cycle_frames": 24,
+    "hold_seconds": 0.4,
+    "cycle_seconds": 0.8,
+    "claim_scope": "local visible state cycle only; not BPM, source drawing count, or proof of bitmap reuse"
+  },
+  "notable_events": [
+    {
+      "frame": 34,
+      "event": "First small center text appears after blank red opening."
+    },
+    {
+      "frame": 238,
+      "event": "First visible character tips enter from bottom; 237 inspected and clear."
+    },
+    {
+      "frame": 430,
+      "event": "Huge song title is visibly composited in front of characters."
+    },
+    {
+      "frame": 622,
+      "event": "Center author credit replaces huge title; paired pose alternation clearly visible."
+    },
+    {
+      "frame": 1762,
+      "event": "Huge foreground short word obscures faces/bodies for 12 frames."
+    },
+    {
+      "frame_range": [
+        1940,
+        1965
+      ],
+      "event": "Four peripheral chibi figures enter and exit; early/late frames show motion blur; range end excludes mixed-pose frame 1965."
+    },
+    {
+      "frame": 1948,
+      "event": "Hands meet with radiating accent marks, large background text clears."
+    },
+    {
+      "frame": 1965,
+      "event": "One frame contains a mixed/unsynchronized pose: left character shows next raised/lowered arms while retaining near-face hand detail; right character remains near-face pose.",
+      "uncertainty": "Could originate in source compositing or encoded transition; not enough evidence to label authoring error."
+    },
+    {
+      "frame": 1966,
+      "event": "Both main figures restored to coherent raised-arm state."
+    }
+  ],
+  "conclusions": [
+    "Dominant visual system: coral red flat background, white figures with thin dark outlines, very heavy dark Japanese typography.",
+    "Text changes size, density, position, and front/behind-character ordering; it is a principal animation component.",
+    "Paired characters use held poses and abrupt replacements; 30fps delivery does not prove 30 original drawings per second.",
+    "Stable central pairing makes short peripheral chibi/clap event near 65s visually distinct.",
+    "No unexplained full-screen black/white dropout observed at reviewed thumbnail scale."
+  ],
+  "cannot_confirm": [
+    "Audio listening, BPM, beat phase, syllable boundaries, and audiovisual sync offsets were not assessed.",
+    "Original layers, editing software, artist workflow, exact font, character canonical names, and reuse of identical source assets are unknown.",
+    "Full-resolution defects in frames not listed under full_size_frames_inspected remain outside review scope.",
+    "Local contact-sheet boundaries are review ranges, not necessarily musical or editorial segment boundaries.",
+    "The single-frame mixed pose is observed in this decoded copy and is not evidence that all original masters have the same frame."
+  ],
+  "provenance": {
+    "bilibili_page": "https://www.bilibili.com/video/BV1UfZ2YwEP5/",
+    "bilibili_uploader": "ナユタン星人_官方",
+    "bilibili_pubdate_display": "2025-04-04 18:05:00",
+    "original_upload_date_in_description": "2017-01-20",
+    "official_youtube_video": "https://www.youtube.com/watch?v=Ja9qmYjXk6U",
+    "youtube_current_upload_date": "2020-02-08",
+    "official_website": "https://nayutalien.com/",
+    "website_linked_youtube_channel": "https://www.youtube.com/channel/UChK8kgGU767nKTxp4f4GD6g",
+    "credit": "Music, lyrics, illustration and video: NayutalieN; vocal: Hatsune Miku",
+    "bilibili_api": {
+      "aid": 114273611159625,
+      "cid": 29215690003,
+      "duration_integer_seconds": 204,
+      "width": 854,
+      "height": 480,
+      "uploader_mid": "3546868686522469"
+    },
+    "qualification": "Bilibili account self-identifies as official and credits agree with official YouTube. Public card reports verification type -1; no official-site-to-Bilibili direct link was found in this check."
+  }
+}
