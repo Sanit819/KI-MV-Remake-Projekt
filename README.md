@@ -1,3 +1,11 @@
+# 最终归档 · v3.2 · 2026-11-08
+
+用户已授权将最终版发布到GitHub并锁定只读。固定入口为 `archive/taiyoukei-disco-v3.2` 和 `taiyoukei-disco-v3.2-final`；制作分支同点保留，旧v3归档点不移动。发布边界、锁定策略与验收记录位置见 [ARCHIVE.md](ARCHIVE.md)。完整影片与原FLAC仅保留本地；后续维护从最终标签另开分支。
+
+下方暂停发布的描述是归档前的交付记录，已被本次用户授权更新。
+
+---
+
 # 最新交付 · v3.2 手部与张量分片 · 2026-11-08
 
 [播放 v3.2](exports/v3.2/watch.html) · [上传用成片 MKV](exports/v3.2/taiyoukei-disco-v3.2-720p30-flac.mkv) · [手部对比](production/v3.2/qa/asset-hand-review.png) · [交付记录](docs/DELIVERY_V32.md)。

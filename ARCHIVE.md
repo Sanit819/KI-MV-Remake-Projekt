@@ -1,3 +1,31 @@
+# 最终归档 · 太陽系デスコ v3.2 · 2026-11-08
+
+用户在v3.2交付后明确授权“归档github并关机”，恢复之前暂停的发布。归档内容为第三企划源码、采用素材、提示词、歌词/时间线及QA；完整成片、原FLAC和参考媒体继续留在本地，不进入Git。仓库仍承载其他企划，不能把整个GitHub仓库设为archived。
+
+## v3.2 固定入口与只读策略
+
+- 最终归档分支：`archive/taiyoukei-disco-v3.2`
+- 同点制作分支：`fix/taiyoukei-disco-v3.2-hands`
+- 最终固定标签：`taiyoukei-disco-v3.2-final`
+- 归档前内容提交：`40e9c5ad4ea21d1bbbbd70147fa3b24fb33d0372`；最终标签另包含本归档说明。
+- GitHub：[仓库](https://github.com/Sanit819/KI-MV-Remake-Projekt)；只读策略沿用第一企划：`lock_branch=true`、管理员同样受限，禁止强推/删除/分叉同步。
+
+旧`太陽系デスコ`、`archive/taiyoukei-disco-v3`及`taiyoukei-disco-v3-final`继续固定在`464c1cebf3871ca78bf166815c1d022bae25fbf6`，不移动旧归档点。本次一并发布旧归档入口并套用同样的分支锁定。后续维护必须另开新分支，不能自动解除保护。
+
+远端是否完成以发布后GitHub API读回为准；本地验收记录保存在工作区`.cache/taiyoukei-github-archive/verified.json`及`.cache/taiyoukei-github-archive-v32/verified.json`，不把预设策略当作远端验收证据。第一企划的既有分支、提交点和保护策略均需与发布前快照一致。
+
+## v3.2 本地成片与复建
+
+- [上传用 MKV](exports/v3.2/taiyoukei-disco-v3.2-720p30-flac.mkv)：202023624字节，SHA256 `2b3fd3651cb5e5442b1f1e795ef8877f8e473da3be38cfecaad970466eabc1b5`。
+- [本地播放器](exports/v3.2/watch.html)：保持同目录静音MP4与项目原FLAC。
+- [交付与验收](docs/DELIVERY_V32.md) · [素材、提示词及重建入口](production/v3.2/README.md)。
+
+720p30、203.2秒6096帧，原FLAC未转码，上日语下中文。五指与握手已修正，所有牵手镜头共592帧统一更新；掌心切半是用户明确保留的特性，以张量分片/all_gather演出解释，不能擅自“修掉”。v3.1补耳、原剧情与片尾保持。媒体和播放器检查通过，视觉结论限定为记录中实际查看的抽样。
+
+本次归档不清除共享pipeline或其他企划，不重新渲染。以下旧v3的“本地、未推送”说明只描述当时历史状态。
+
+---
+
 # 第三企划归档 · 太陽系デスコ
 
 2026-11-08，按用户要求归档当前分支并清理冗余。两版生成封面均弃用，用户自行从成片选画面；不再继续修改封面或影片。

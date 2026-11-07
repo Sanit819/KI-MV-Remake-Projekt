@@ -1,3 +1,9 @@
+# 归档授权 · v3.2 · 2026-11-08
+
+用户最新明确要求“归档github并关机”，原推送暂停已解除。先读ARCHIVE.md：最终入口archive/taiyoukei-disco-v3.2及taiyoukei-disco-v3.2-final，与fix/taiyoukei-disco-v3.2-hands同点；旧v3归档点不移动。远端完成与只读保护以工作区.cache中的两份verified.json读回证据为准，不能仅凭此授权文字声称远端已成功。后续修改另开分支，不擅自解除保护；整个共享仓库不设为archived。第一、二企划不改动。以下为归档前交付记录。
+
+---
+
 # 当前状态 · v3.2 手部与张量分片 · 2026-11-08
 
 用户要求补齐 Astra 外伸手缺指、修正中央握手，并覆盖所有使用此动作的镜头。v3.2已生成，先读 `docs/DELIVERY_V32.md` 与 `production/v3.2/README.md`。当前维护分支 `fix/taiyoukei-disco-v3.2-hands`。
