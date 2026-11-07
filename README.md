@@ -1,6 +1,6 @@
 # 第三企划 · 太陽系デスコ
 
-最新：用户肯定v1后追加三项修订，现已完成[第二版](production/v2/README.md)。[播放v2](exports/v2/watch.html) · [195秒尾声](exports/v2/watch.html#t=195) · [v2 MKV](exports/v2/taiyoukei-disco-v2-720p30-flac.mkv)。原剧情、720p30、原FLAC与双语字幕保留，新增错拍表演、神经银河和“啥龙”署名回击。v1保留供对照，v2待审。
+最新：用户肯定v2后追加算法、白饭与署名细节，现已完成[第三版](production/v3/README.md)。[播放v3](exports/v3/watch.html) · [白饭检测](exports/v3/watch.html#t=30) · [紫色署名](exports/v3/watch.html#t=195) · [v3 MKV](exports/v3/taiyoukei-disco-v3-720p30-flac.mkv)。八类算法演出、慢变置信度和白饭梗已加入；720p30、原FLAC、双语字幕及原剧情保留，v3待审，v1/v2留存。
 
 
 2026-11-07 开启。共享仓库：`Sanit819/KI-MV-Remake-Projekt`；独立工作区：`D:/myskills/updream/Taiyoukei-Disco`；Git 分支名：`太陽系デスコ`。使用独立历史起点，不继承第一企划文件，不混入第二企划未提交制作。
@@ -48,4 +48,4 @@ python tools/build_review.py
 
 ## 后续接续
 
-先读`AGENTS.md`、`docs/DELIVERY_V2.md`与`docs/PROJECT_HANDOFF.md`。第一版效果获用户肯定，最新第二版已完成、待用户审看；逐音节人工对时尚未完成，显示时码独立保存在production/v1/timeline。第一企划冻结，第二企划保留现有30秒审查节点。
+先读`AGENTS.md`、`docs/DELIVERY_V3.md`与`docs/PROJECT_HANDOFF.md`。第一、二版效果获用户肯定，最新第三版已完成、待用户审看；逐音节人工对时尚未完成，显示时码独立保存在production/v1/timeline。第一企划冻结，第二企划保留现有30秒审查节点。

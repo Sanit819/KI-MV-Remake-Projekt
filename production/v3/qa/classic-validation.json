@@ -1,0 +1,544 @@
+{
+  "schema_version": 1,
+  "checked_at": "2026-11-07T14:59:44.166965+00:00",
+  "status": "passed",
+  "input": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v3\\review\\browser-review.json",
+  "absolute_tolerance": 1e-12,
+  "input_sha256": "ae34a04063578c837226a7a4254be1feefc74fe5cb0e6cd91c03a8bc2d0d2bac",
+  "method": "Independent NumPy sliding windows/einsum/ReLU/max pool; full Elman recurrence from zero hidden with matrix products and tanh.",
+  "scope": "Sampled browser-rendered fixed teaching CNN/RNN traces. FC is checked separately. This does not establish trained model accuracy or an auditory/visual review.",
+  "coverage": {
+    "sample_counts": {
+      "CNN": 5,
+      "RNN": 7
+    },
+    "skipped_fc_samples": 5,
+    "rnn_steps": [
+      0,
+      1,
+      3,
+      4,
+      6,
+      9,
+      14
+    ],
+    "rnn_zero_input_samples": 1
+  },
+  "records": [
+    {
+      "time": 46.35,
+      "type": "CNN",
+      "errors": {
+        "convolution": 0.0,
+        "relu": 0.0,
+        "max_pool": 0.0
+      },
+      "recomputed_pool": [
+        [
+          3.0,
+          0.0
+        ],
+        [
+          4.0,
+          0.0
+        ]
+      ],
+      "scan": {
+        "index": 0,
+        "row": 0,
+        "col": 0
+      },
+      "stage": "convolve_relu",
+      "passed": true
+    },
+    {
+      "time": 47.2,
+      "type": "CNN",
+      "errors": {
+        "convolution": 0.0,
+        "relu": 0.0,
+        "max_pool": 0.0
+      },
+      "recomputed_pool": [
+        [
+          3.0,
+          0.0
+        ],
+        [
+          4.0,
+          0.0
+        ]
+      ],
+      "scan": {
+        "index": 4,
+        "row": 0,
+        "col": 4
+      },
+      "stage": "convolve_relu",
+      "passed": true
+    },
+    {
+      "time": 48.5,
+      "type": "CNN",
+      "errors": {
+        "convolution": 0.0,
+        "relu": 0.0,
+        "max_pool": 0.0
+      },
+      "recomputed_pool": [
+        [
+          3.0,
+          0.0
+        ],
+        [
+          4.0,
+          0.0
+        ]
+      ],
+      "scan": {
+        "index": 11,
+        "row": 2,
+        "col": 1
+      },
+      "stage": "convolve_relu",
+      "passed": true
+    },
+    {
+      "time": 50.5,
+      "type": "CNN",
+      "errors": {
+        "convolution": 0.0,
+        "relu": 0.0,
+        "max_pool": 0.0
+      },
+      "recomputed_pool": [
+        [
+          3.0,
+          0.0
+        ],
+        [
+          4.0,
+          0.0
+        ]
+      ],
+      "scan": {
+        "index": 22,
+        "row": 4,
+        "col": 2
+      },
+      "stage": "convolve_relu",
+      "passed": true
+    },
+    {
+      "time": 52.4,
+      "type": "CNN",
+      "errors": {
+        "convolution": 0.0,
+        "relu": 0.0,
+        "max_pool": 0.0
+      },
+      "recomputed_pool": [
+        [
+          3.0,
+          0.0
+        ],
+        [
+          4.0,
+          0.0
+        ]
+      ],
+      "scan": {
+        "index": 24,
+        "row": 4,
+        "col": 4
+      },
+      "stage": "max_pool",
+      "passed": true
+    },
+    {
+      "time": 85.2,
+      "type": "RNN",
+      "errors": {
+        "input": 0.0,
+        "previous_hidden_from_full_recurrence": 0.0,
+        "hidden": 0.0,
+        "output": 1.1102230246251565e-16
+      },
+      "step": 0,
+      "zero_input": false,
+      "recomputed_hidden": [
+        0.7235234536550119,
+        -0.26362483547220333
+      ],
+      "recomputed_output": [
+        0.6068349485696282,
+        -0.04317339246780146
+      ],
+      "all_sequence_zero_input_memory": [
+        {
+          "step": 3,
+          "hidden": [
+            0.5120287142645125,
+            -0.14700634452803701
+          ],
+          "hidden_norm": 0.5327140598509351
+        },
+        {
+          "step": 7,
+          "hidden": [
+            0.5065749626856715,
+            -0.17568640757056475
+          ],
+          "hidden_norm": 0.5361752573786299
+        },
+        {
+          "step": 11,
+          "hidden": [
+            0.505747699743596,
+            -0.17770461116728692
+          ],
+          "hidden_norm": 0.5360593853539505
+        },
+        {
+          "step": 15,
+          "hidden": [
+            0.5056908127802354,
+            -0.1778325371991604
+          ],
+          "hidden_norm": 0.5360481409510025
+        }
+      ],
+      "passed": true
+    },
+    {
+      "time": 86.5,
+      "type": "RNN",
+      "errors": {
+        "input": 0.0,
+        "previous_hidden_from_full_recurrence": 0.0,
+        "hidden": 0.0,
+        "output": 5.551115123125783e-17
+      },
+      "step": 1,
+      "zero_input": false,
+      "recomputed_hidden": [
+        0.5231032303585142,
+        0.48919556927911845
+      ],
+      "recomputed_output": [
+        0.35657265950129274,
+        0.4979616617322983
+      ],
+      "all_sequence_zero_input_memory": [
+        {
+          "step": 3,
+          "hidden": [
+            0.5120287142645125,
+            -0.14700634452803701
+          ],
+          "hidden_norm": 0.5327140598509351
+        },
+        {
+          "step": 7,
+          "hidden": [
+            0.5065749626856715,
+            -0.17568640757056475
+          ],
+          "hidden_norm": 0.5361752573786299
+        },
+        {
+          "step": 11,
+          "hidden": [
+            0.505747699743596,
+            -0.17770461116728692
+          ],
+          "hidden_norm": 0.5360593853539505
+        },
+        {
+          "step": 15,
+          "hidden": [
+            0.5056908127802354,
+            -0.1778325371991604
+          ],
+          "hidden_norm": 0.5360481409510025
+        }
+      ],
+      "passed": true
+    },
+    {
+      "time": 87.6,
+      "type": "RNN",
+      "errors": {
+        "input": 0.0,
+        "previous_hidden_from_full_recurrence": 1.1102230246251565e-16,
+        "hidden": 0.0,
+        "output": 0.0
+      },
+      "step": 3,
+      "zero_input": true,
+      "recomputed_hidden": [
+        0.5120287142645125,
+        -0.14700634452803701
+      ],
+      "recomputed_output": [
+        0.45439666982295107,
+        0.003051776243168919
+      ],
+      "all_sequence_zero_input_memory": [
+        {
+          "step": 3,
+          "hidden": [
+            0.5120287142645125,
+            -0.14700634452803701
+          ],
+          "hidden_norm": 0.5327140598509351
+        },
+        {
+          "step": 7,
+          "hidden": [
+            0.5065749626856715,
+            -0.17568640757056475
+          ],
+          "hidden_norm": 0.5361752573786299
+        },
+        {
+          "step": 11,
+          "hidden": [
+            0.505747699743596,
+            -0.17770461116728692
+          ],
+          "hidden_norm": 0.5360593853539505
+        },
+        {
+          "step": 15,
+          "hidden": [
+            0.5056908127802354,
+            -0.1778325371991604
+          ],
+          "hidden_norm": 0.5360481409510025
+        }
+      ],
+      "passed": true
+    },
+    {
+      "time": 88.5,
+      "type": "RNN",
+      "errors": {
+        "input": 0.0,
+        "previous_hidden_from_full_recurrence": 0.0,
+        "hidden": 1.1102230246251565e-16,
+        "output": 1.1102230246251565e-16
+      },
+      "step": 4,
+      "zero_input": false,
+      "recomputed_hidden": [
+        0.8385407193899642,
+        -0.3966332195403755
+      ],
+      "recomputed_output": [
+        0.6826250720340158,
+        -0.12681658012717736
+      ],
+      "all_sequence_zero_input_memory": [
+        {
+          "step": 3,
+          "hidden": [
+            0.5120287142645125,
+            -0.14700634452803701
+          ],
+          "hidden_norm": 0.5327140598509351
+        },
+        {
+          "step": 7,
+          "hidden": [
+            0.5065749626856715,
+            -0.17568640757056475
+          ],
+          "hidden_norm": 0.5361752573786299
+        },
+        {
+          "step": 11,
+          "hidden": [
+            0.505747699743596,
+            -0.17770461116728692
+          ],
+          "hidden_norm": 0.5360593853539505
+        },
+        {
+          "step": 15,
+          "hidden": [
+            0.5056908127802354,
+            -0.1778325371991604
+          ],
+          "hidden_norm": 0.5360481409510025
+        }
+      ],
+      "passed": true
+    },
+    {
+      "time": 90.5,
+      "type": "RNN",
+      "errors": {
+        "input": 0.0,
+        "previous_hidden_from_full_recurrence": 1.1102230246251565e-16,
+        "hidden": 2.7755575615628914e-17,
+        "output": 1.1102230246251565e-16
+      },
+      "step": 6,
+      "zero_input": false,
+      "recomputed_hidden": [
+        0.8733284690201537,
+        -0.08788130771496837
+      ],
+      "recomputed_output": [
+        0.6660289167183374,
+        0.14265335179610422
+      ],
+      "all_sequence_zero_input_memory": [
+        {
+          "step": 3,
+          "hidden": [
+            0.5120287142645125,
+            -0.14700634452803701
+          ],
+          "hidden_norm": 0.5327140598509351
+        },
+        {
+          "step": 7,
+          "hidden": [
+            0.5065749626856715,
+            -0.17568640757056475
+          ],
+          "hidden_norm": 0.5361752573786299
+        },
+        {
+          "step": 11,
+          "hidden": [
+            0.505747699743596,
+            -0.17770461116728692
+          ],
+          "hidden_norm": 0.5360593853539505
+        },
+        {
+          "step": 15,
+          "hidden": [
+            0.5056908127802354,
+            -0.1778325371991604
+          ],
+          "hidden_norm": 0.5360481409510025
+        }
+      ],
+      "passed": true
+    },
+    {
+      "time": 93,
+      "type": "RNN",
+      "errors": {
+        "input": 0.0,
+        "previous_hidden_from_full_recurrence": 1.1102230246251565e-16,
+        "hidden": 1.1102230246251565e-16,
+        "output": 1.1102230246251565e-16
+      },
+      "step": 9,
+      "zero_input": false,
+      "recomputed_hidden": [
+        0.555376081470127,
+        0.40815161517313
+      ],
+      "recomputed_output": [
+        0.3954198221781059,
+        0.45085499718480804
+      ],
+      "all_sequence_zero_input_memory": [
+        {
+          "step": 3,
+          "hidden": [
+            0.5120287142645125,
+            -0.14700634452803701
+          ],
+          "hidden_norm": 0.5327140598509351
+        },
+        {
+          "step": 7,
+          "hidden": [
+            0.5065749626856715,
+            -0.17568640757056475
+          ],
+          "hidden_norm": 0.5361752573786299
+        },
+        {
+          "step": 11,
+          "hidden": [
+            0.505747699743596,
+            -0.17770461116728692
+          ],
+          "hidden_norm": 0.5360593853539505
+        },
+        {
+          "step": 15,
+          "hidden": [
+            0.5056908127802354,
+            -0.1778325371991604
+          ],
+          "hidden_norm": 0.5360481409510025
+        }
+      ],
+      "passed": true
+    },
+    {
+      "time": 96.5,
+      "type": "RNN",
+      "errors": {
+        "input": 0.0,
+        "previous_hidden_from_full_recurrence": 0.0,
+        "hidden": 1.1102230246251565e-16,
+        "output": 1.1102230246251565e-16
+      },
+      "step": 14,
+      "zero_input": false,
+      "recomputed_hidden": [
+        0.8725532587103871,
+        -0.09172859424920876
+      ],
+      "recomputed_output": [
+        0.6660688469338719,
+        0.13925818376764088
+      ],
+      "all_sequence_zero_input_memory": [
+        {
+          "step": 3,
+          "hidden": [
+            0.5120287142645125,
+            -0.14700634452803701
+          ],
+          "hidden_norm": 0.5327140598509351
+        },
+        {
+          "step": 7,
+          "hidden": [
+            0.5065749626856715,
+            -0.17568640757056475
+          ],
+          "hidden_norm": 0.5361752573786299
+        },
+        {
+          "step": 11,
+          "hidden": [
+            0.505747699743596,
+            -0.17770461116728692
+          ],
+          "hidden_norm": 0.5360593853539505
+        },
+        {
+          "step": 15,
+          "hidden": [
+            0.5056908127802354,
+            -0.1778325371991604
+          ],
+          "hidden_norm": 0.5360481409510025
+        }
+      ],
+      "passed": true
+    }
+  ]
+}

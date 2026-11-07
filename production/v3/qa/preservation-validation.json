@@ -1,0 +1,99 @@
+{
+  "status": "passed",
+  "checks": [
+    {
+      "file": "production/v2/engine/film.js",
+      "expected": "3df76578ace9bb79c85580bf45d6d6bac7c5469a1f698f1dd045b228c01dc6dd",
+      "actual": "3df76578ace9bb79c85580bf45d6d6bac7c5469a1f698f1dd045b228c01dc6dd",
+      "passed": true
+    },
+    {
+      "file": "production/v2/engine/signature.js",
+      "expected": "1a5829dcd94774d09aec3c91f1d0e1083c1df478a37aaa508260f38aded4ece1",
+      "actual": "1a5829dcd94774d09aec3c91f1d0e1083c1df478a37aaa508260f38aded4ece1",
+      "passed": true
+    },
+    {
+      "file": "production/v2/engine/index.html",
+      "expected": "09de9510aa589dfa1dbc6d1f62f86cb5b87947aa6051de3a1cf384bcad152d00",
+      "actual": "09de9510aa589dfa1dbc6d1f62f86cb5b87947aa6051de3a1cf384bcad152d00",
+      "passed": true
+    },
+    {
+      "file": "production/v1/timeline/lyrics-candidate.json",
+      "expected": "cf4787bb0fa318063484b8b5ac0f9b4c813036ea5da24cadbb642a866430d1d8",
+      "actual": "cf4787bb0fa318063484b8b5ac0f9b4c813036ea5da24cadbb642a866430d1d8",
+      "passed": true
+    },
+    {
+      "file": "art/style-tests/astra-ds-mv-style-v5.png",
+      "expected": "e79281b702895e1e40cee067736448b74bc851facfaac9eb008aaa206e3efd9c",
+      "actual": "e79281b702895e1e40cee067736448b74bc851facfaac9eb008aaa206e3efd9c",
+      "passed": true
+    },
+    {
+      "file": "exports/v1/taiyoukei-disco-v1-720p30-flac.mkv",
+      "expected": "387570654f878c622322fa36123070779d447be39e26e61cb6da1117e673cb43",
+      "actual": "387570654f878c622322fa36123070779d447be39e26e61cb6da1117e673cb43",
+      "passed": true
+    },
+    {
+      "file": "exports/v2/taiyoukei-disco-v2-720p30-flac.mkv",
+      "expected": "6ac56f94309f37b5a649cf82828ca9a2064af72b8c001a2c4265bc95e515b007",
+      "actual": "6ac56f94309f37b5a649cf82828ca9a2064af72b8c001a2c4265bc95e515b007",
+      "passed": true
+    },
+    {
+      "file": "local-source/audio/07 太陽系デスコ.flac",
+      "expected": "0139c2441bf35e98951ca46b5e8395a71c8aa4b2629c4f5c3a1079881d019ac9",
+      "actual": "0139c2441bf35e98951ca46b5e8395a71c8aa4b2629c4f5c3a1079881d019ac9",
+      "passed": true
+    },
+    {
+      "file": "production/v1/assets/pose-a.png",
+      "expected": "c50127d8024827497b693907684d5a20f37daffeaf0666933460fbfa723d9a84",
+      "actual": "c50127d8024827497b693907684d5a20f37daffeaf0666933460fbfa723d9a84",
+      "passed": true
+    },
+    {
+      "file": "production/v1/assets/pose-b.png",
+      "expected": "c44f9700f3cf166889436b2cb28f5b10ce6bc90a51c514711c67031e5c3d78b5",
+      "actual": "c44f9700f3cf166889436b2cb28f5b10ce6bc90a51c514711c67031e5c3d78b5",
+      "passed": true
+    },
+    {
+      "file": "production/v1/assets/clap.png",
+      "expected": "939d3f49ef8b91a24992075da92d0d44fa6df74c4b4a2cd471591644a8b76181",
+      "actual": "939d3f49ef8b91a24992075da92d0d44fa6df74c4b4a2cd471591644a8b76181",
+      "passed": true
+    },
+    {
+      "file": "production/v1/assets/reach.png",
+      "expected": "fba24216a6de526d9f52bcb2a8dfb27f19896afc2a9b595157923d98b7cc9e93",
+      "actual": "fba24216a6de526d9f52bcb2a8dfb27f19896afc2a9b595157923d98b7cc9e93",
+      "passed": true
+    },
+    {
+      "file": "production/v1/assets/draw.png",
+      "expected": "04fef0c02995aac5a3f2de07e63f141813fbb3a12273a860eef10a2fd3b8c0e9",
+      "actual": "04fef0c02995aac5a3f2de07e63f141813fbb3a12273a860eef10a2fd3b8c0e9",
+      "passed": true
+    },
+    {
+      "file": "production/v1/assets/q.png",
+      "expected": "28d36dd8733faff3904ba30ced98262934c85040ccaf52aa218dffea6ff77470",
+      "actual": "28d36dd8733faff3904ba30ced98262934c85040ccaf52aa218dffea6ff77470",
+      "passed": true
+    }
+  ],
+  "current_engine_sha256": {
+    "production\\v3\\engine\\attention.js": "cb87ae57d4381e397fd1d2140dacb47e361f73591b9d24c918a24369c88ef819",
+    "production\\v3\\engine\\classic.js": "e40d52c7ac50826540fca5d2ad4aac3f303e5b28fa9085be7a2abf17998e6574",
+    "production\\v3\\engine\\film.js": "d2de60662918494e50676a05e87bc0015db023b02dc026b5621cd613fa1595fc",
+    "production\\v3\\engine\\index.html": "fc91d9b7ee6ad102ae652e2b70e4abb104b3cd110990caf0566f624cd6656ce4",
+    "production\\v3\\engine\\rice.js": "3f955968fa52ef2607b0a4716143b847cf9683a72540b72d8f5f89a92e4dcaaa",
+    "production\\v3\\engine\\signature.js": "544898d067f4f664cb35de5c5c62f401c83384d3338b822328dd64a886b47a1a",
+    "production\\v3\\engine\\style.css": "e8d8d6bbaf9790f7ff82eeea6dd72f870d242b67034de5b436581bd8c83fe22d",
+    "production\\v3\\engine\\tracking.js": "73d8e43838cbbd657e4b3bea38eccafe78b019031204dc5a709e026a5be611d8"
+  }
+}

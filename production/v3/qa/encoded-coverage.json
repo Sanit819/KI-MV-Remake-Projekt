@@ -1,0 +1,742 @@
+{
+  "scope": "102 encoded frames at 2s intervals plus 37 full-resolution critical samples; extraction does not claim visual review",
+  "records": [
+    {
+      "frame": 0,
+      "time": 0,
+      "path": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v3\\encoded-review\\sample-001.png"
+    },
+    {
+      "frame": 60,
+      "time": 2,
+      "path": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v3\\encoded-review\\sample-002.png"
+    },
+    {
+      "frame": 120,
+      "time": 4,
+      "path": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v3\\encoded-review\\sample-003.png"
+    },
+    {
+      "frame": 180,
+      "time": 6,
+      "path": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v3\\encoded-review\\sample-004.png"
+    },
+    {
+      "frame": 240,
+      "time": 8,
+      "path": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v3\\encoded-review\\sample-005.png"
+    },
+    {
+      "frame": 300,
+      "time": 10,
+      "path": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v3\\encoded-review\\sample-006.png"
+    },
+    {
+      "frame": 360,
+      "time": 12,
+      "path": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v3\\encoded-review\\sample-007.png"
+    },
+    {
+      "frame": 420,
+      "time": 14,
+      "path": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v3\\encoded-review\\sample-008.png"
+    },
+    {
+      "frame": 480,
+      "time": 16,
+      "path": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v3\\encoded-review\\sample-009.png"
+    },
+    {
+      "frame": 540,
+      "time": 18,
+      "path": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v3\\encoded-review\\sample-010.png"
+    },
+    {
+      "frame": 600,
+      "time": 20,
+      "path": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v3\\encoded-review\\sample-011.png"
+    },
+    {
+      "frame": 660,
+      "time": 22,
+      "path": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v3\\encoded-review\\sample-012.png"
+    },
+    {
+      "frame": 720,
+      "time": 24,
+      "path": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v3\\encoded-review\\sample-013.png"
+    },
+    {
+      "frame": 780,
+      "time": 26,
+      "path": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v3\\encoded-review\\sample-014.png"
+    },
+    {
+      "frame": 840,
+      "time": 28,
+      "path": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v3\\encoded-review\\sample-015.png"
+    },
+    {
+      "frame": 900,
+      "time": 30,
+      "path": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v3\\encoded-review\\sample-016.png"
+    },
+    {
+      "frame": 960,
+      "time": 32,
+      "path": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v3\\encoded-review\\sample-017.png"
+    },
+    {
+      "frame": 1020,
+      "time": 34,
+      "path": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v3\\encoded-review\\sample-018.png"
+    },
+    {
+      "frame": 1080,
+      "time": 36,
+      "path": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v3\\encoded-review\\sample-019.png"
+    },
+    {
+      "frame": 1140,
+      "time": 38,
+      "path": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v3\\encoded-review\\sample-020.png"
+    },
+    {
+      "frame": 1200,
+      "time": 40,
+      "path": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v3\\encoded-review\\sample-021.png"
+    },
+    {
+      "frame": 1260,
+      "time": 42,
+      "path": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v3\\encoded-review\\sample-022.png"
+    },
+    {
+      "frame": 1320,
+      "time": 44,
+      "path": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v3\\encoded-review\\sample-023.png"
+    },
+    {
+      "frame": 1380,
+      "time": 46,
+      "path": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v3\\encoded-review\\sample-024.png"
+    },
+    {
+      "frame": 1440,
+      "time": 48,
+      "path": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v3\\encoded-review\\sample-025.png"
+    },
+    {
+      "frame": 1500,
+      "time": 50,
+      "path": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v3\\encoded-review\\sample-026.png"
+    },
+    {
+      "frame": 1560,
+      "time": 52,
+      "path": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v3\\encoded-review\\sample-027.png"
+    },
+    {
+      "frame": 1620,
+      "time": 54,
+      "path": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v3\\encoded-review\\sample-028.png"
+    },
+    {
+      "frame": 1680,
+      "time": 56,
+      "path": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v3\\encoded-review\\sample-029.png"
+    },
+    {
+      "frame": 1740,
+      "time": 58,
+      "path": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v3\\encoded-review\\sample-030.png"
+    },
+    {
+      "frame": 1800,
+      "time": 60,
+      "path": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v3\\encoded-review\\sample-031.png"
+    },
+    {
+      "frame": 1860,
+      "time": 62,
+      "path": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v3\\encoded-review\\sample-032.png"
+    },
+    {
+      "frame": 1920,
+      "time": 64,
+      "path": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v3\\encoded-review\\sample-033.png"
+    },
+    {
+      "frame": 1980,
+      "time": 66,
+      "path": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v3\\encoded-review\\sample-034.png"
+    },
+    {
+      "frame": 2040,
+      "time": 68,
+      "path": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v3\\encoded-review\\sample-035.png"
+    },
+    {
+      "frame": 2100,
+      "time": 70,
+      "path": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v3\\encoded-review\\sample-036.png"
+    },
+    {
+      "frame": 2160,
+      "time": 72,
+      "path": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v3\\encoded-review\\sample-037.png"
+    },
+    {
+      "frame": 2220,
+      "time": 74,
+      "path": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v3\\encoded-review\\sample-038.png"
+    },
+    {
+      "frame": 2280,
+      "time": 76,
+      "path": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v3\\encoded-review\\sample-039.png"
+    },
+    {
+      "frame": 2340,
+      "time": 78,
+      "path": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v3\\encoded-review\\sample-040.png"
+    },
+    {
+      "frame": 2400,
+      "time": 80,
+      "path": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v3\\encoded-review\\sample-041.png"
+    },
+    {
+      "frame": 2460,
+      "time": 82,
+      "path": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v3\\encoded-review\\sample-042.png"
+    },
+    {
+      "frame": 2520,
+      "time": 84,
+      "path": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v3\\encoded-review\\sample-043.png"
+    },
+    {
+      "frame": 2580,
+      "time": 86,
+      "path": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v3\\encoded-review\\sample-044.png"
+    },
+    {
+      "frame": 2640,
+      "time": 88,
+      "path": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v3\\encoded-review\\sample-045.png"
+    },
+    {
+      "frame": 2700,
+      "time": 90,
+      "path": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v3\\encoded-review\\sample-046.png"
+    },
+    {
+      "frame": 2760,
+      "time": 92,
+      "path": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v3\\encoded-review\\sample-047.png"
+    },
+    {
+      "frame": 2820,
+      "time": 94,
+      "path": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v3\\encoded-review\\sample-048.png"
+    },
+    {
+      "frame": 2880,
+      "time": 96,
+      "path": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v3\\encoded-review\\sample-049.png"
+    },
+    {
+      "frame": 2940,
+      "time": 98,
+      "path": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v3\\encoded-review\\sample-050.png"
+    },
+    {
+      "frame": 3000,
+      "time": 100,
+      "path": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v3\\encoded-review\\sample-051.png"
+    },
+    {
+      "frame": 3060,
+      "time": 102,
+      "path": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v3\\encoded-review\\sample-052.png"
+    },
+    {
+      "frame": 3120,
+      "time": 104,
+      "path": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v3\\encoded-review\\sample-053.png"
+    },
+    {
+      "frame": 3180,
+      "time": 106,
+      "path": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v3\\encoded-review\\sample-054.png"
+    },
+    {
+      "frame": 3240,
+      "time": 108,
+      "path": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v3\\encoded-review\\sample-055.png"
+    },
+    {
+      "frame": 3300,
+      "time": 110,
+      "path": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v3\\encoded-review\\sample-056.png"
+    },
+    {
+      "frame": 3360,
+      "time": 112,
+      "path": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v3\\encoded-review\\sample-057.png"
+    },
+    {
+      "frame": 3420,
+      "time": 114,
+      "path": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v3\\encoded-review\\sample-058.png"
+    },
+    {
+      "frame": 3480,
+      "time": 116,
+      "path": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v3\\encoded-review\\sample-059.png"
+    },
+    {
+      "frame": 3540,
+      "time": 118,
+      "path": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v3\\encoded-review\\sample-060.png"
+    },
+    {
+      "frame": 3600,
+      "time": 120,
+      "path": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v3\\encoded-review\\sample-061.png"
+    },
+    {
+      "frame": 3660,
+      "time": 122,
+      "path": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v3\\encoded-review\\sample-062.png"
+    },
+    {
+      "frame": 3720,
+      "time": 124,
+      "path": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v3\\encoded-review\\sample-063.png"
+    },
+    {
+      "frame": 3780,
+      "time": 126,
+      "path": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v3\\encoded-review\\sample-064.png"
+    },
+    {
+      "frame": 3840,
+      "time": 128,
+      "path": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v3\\encoded-review\\sample-065.png"
+    },
+    {
+      "frame": 3900,
+      "time": 130,
+      "path": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v3\\encoded-review\\sample-066.png"
+    },
+    {
+      "frame": 3960,
+      "time": 132,
+      "path": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v3\\encoded-review\\sample-067.png"
+    },
+    {
+      "frame": 4020,
+      "time": 134,
+      "path": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v3\\encoded-review\\sample-068.png"
+    },
+    {
+      "frame": 4080,
+      "time": 136,
+      "path": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v3\\encoded-review\\sample-069.png"
+    },
+    {
+      "frame": 4140,
+      "time": 138,
+      "path": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v3\\encoded-review\\sample-070.png"
+    },
+    {
+      "frame": 4200,
+      "time": 140,
+      "path": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v3\\encoded-review\\sample-071.png"
+    },
+    {
+      "frame": 4260,
+      "time": 142,
+      "path": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v3\\encoded-review\\sample-072.png"
+    },
+    {
+      "frame": 4320,
+      "time": 144,
+      "path": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v3\\encoded-review\\sample-073.png"
+    },
+    {
+      "frame": 4380,
+      "time": 146,
+      "path": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v3\\encoded-review\\sample-074.png"
+    },
+    {
+      "frame": 4440,
+      "time": 148,
+      "path": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v3\\encoded-review\\sample-075.png"
+    },
+    {
+      "frame": 4500,
+      "time": 150,
+      "path": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v3\\encoded-review\\sample-076.png"
+    },
+    {
+      "frame": 4560,
+      "time": 152,
+      "path": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v3\\encoded-review\\sample-077.png"
+    },
+    {
+      "frame": 4620,
+      "time": 154,
+      "path": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v3\\encoded-review\\sample-078.png"
+    },
+    {
+      "frame": 4680,
+      "time": 156,
+      "path": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v3\\encoded-review\\sample-079.png"
+    },
+    {
+      "frame": 4740,
+      "time": 158,
+      "path": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v3\\encoded-review\\sample-080.png"
+    },
+    {
+      "frame": 4800,
+      "time": 160,
+      "path": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v3\\encoded-review\\sample-081.png"
+    },
+    {
+      "frame": 4860,
+      "time": 162,
+      "path": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v3\\encoded-review\\sample-082.png"
+    },
+    {
+      "frame": 4920,
+      "time": 164,
+      "path": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v3\\encoded-review\\sample-083.png"
+    },
+    {
+      "frame": 4980,
+      "time": 166,
+      "path": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v3\\encoded-review\\sample-084.png"
+    },
+    {
+      "frame": 5040,
+      "time": 168,
+      "path": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v3\\encoded-review\\sample-085.png"
+    },
+    {
+      "frame": 5100,
+      "time": 170,
+      "path": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v3\\encoded-review\\sample-086.png"
+    },
+    {
+      "frame": 5160,
+      "time": 172,
+      "path": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v3\\encoded-review\\sample-087.png"
+    },
+    {
+      "frame": 5220,
+      "time": 174,
+      "path": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v3\\encoded-review\\sample-088.png"
+    },
+    {
+      "frame": 5280,
+      "time": 176,
+      "path": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v3\\encoded-review\\sample-089.png"
+    },
+    {
+      "frame": 5340,
+      "time": 178,
+      "path": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v3\\encoded-review\\sample-090.png"
+    },
+    {
+      "frame": 5400,
+      "time": 180,
+      "path": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v3\\encoded-review\\sample-091.png"
+    },
+    {
+      "frame": 5460,
+      "time": 182,
+      "path": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v3\\encoded-review\\sample-092.png"
+    },
+    {
+      "frame": 5520,
+      "time": 184,
+      "path": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v3\\encoded-review\\sample-093.png"
+    },
+    {
+      "frame": 5580,
+      "time": 186,
+      "path": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v3\\encoded-review\\sample-094.png"
+    },
+    {
+      "frame": 5640,
+      "time": 188,
+      "path": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v3\\encoded-review\\sample-095.png"
+    },
+    {
+      "frame": 5700,
+      "time": 190,
+      "path": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v3\\encoded-review\\sample-096.png"
+    },
+    {
+      "frame": 5760,
+      "time": 192,
+      "path": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v3\\encoded-review\\sample-097.png"
+    },
+    {
+      "frame": 5820,
+      "time": 194,
+      "path": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v3\\encoded-review\\sample-098.png"
+    },
+    {
+      "frame": 5880,
+      "time": 196,
+      "path": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v3\\encoded-review\\sample-099.png"
+    },
+    {
+      "frame": 5940,
+      "time": 198,
+      "path": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v3\\encoded-review\\sample-100.png"
+    },
+    {
+      "frame": 6000,
+      "time": 200,
+      "path": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v3\\encoded-review\\sample-101.png"
+    },
+    {
+      "frame": 6060,
+      "time": 202,
+      "path": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v3\\encoded-review\\sample-102.png"
+    }
+  ],
+  "critical_seconds": [
+    18.5,
+    28.5,
+    31.5,
+    38.5,
+    47.2,
+    48.5,
+    50.5,
+    64.125,
+    72,
+    74.5,
+    76.5,
+    76.8,
+    80.5,
+    83.5,
+    86.5,
+    87.6,
+    88.5,
+    93,
+    98.8,
+    100.5,
+    103.5,
+    109.8,
+    128,
+    139.5,
+    149,
+    150.2,
+    151.5,
+    153.5,
+    159.2,
+    185.8,
+    190.1,
+    193.5,
+    195.2,
+    196.2,
+    197.3,
+    199.5,
+    202.5
+  ],
+  "critical_records": [
+    {
+      "time": 18.5,
+      "nominal_frame": 555,
+      "path": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v3\\encoded-review\\key-018.500.png"
+    },
+    {
+      "time": 28.5,
+      "nominal_frame": 855,
+      "path": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v3\\encoded-review\\key-028.500.png"
+    },
+    {
+      "time": 31.5,
+      "nominal_frame": 945,
+      "path": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v3\\encoded-review\\key-031.500.png"
+    },
+    {
+      "time": 38.5,
+      "nominal_frame": 1155,
+      "path": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v3\\encoded-review\\key-038.500.png"
+    },
+    {
+      "time": 47.2,
+      "nominal_frame": 1416,
+      "path": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v3\\encoded-review\\key-047.200.png"
+    },
+    {
+      "time": 48.5,
+      "nominal_frame": 1455,
+      "path": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v3\\encoded-review\\key-048.500.png"
+    },
+    {
+      "time": 50.5,
+      "nominal_frame": 1515,
+      "path": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v3\\encoded-review\\key-050.500.png"
+    },
+    {
+      "time": 64.125,
+      "nominal_frame": 1924,
+      "path": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v3\\encoded-review\\key-064.125.png"
+    },
+    {
+      "time": 72,
+      "nominal_frame": 2160,
+      "path": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v3\\encoded-review\\key-072.000.png"
+    },
+    {
+      "time": 74.5,
+      "nominal_frame": 2235,
+      "path": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v3\\encoded-review\\key-074.500.png"
+    },
+    {
+      "time": 76.5,
+      "nominal_frame": 2295,
+      "path": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v3\\encoded-review\\key-076.500.png"
+    },
+    {
+      "time": 76.8,
+      "nominal_frame": 2304,
+      "path": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v3\\encoded-review\\key-076.800.png"
+    },
+    {
+      "time": 80.5,
+      "nominal_frame": 2415,
+      "path": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v3\\encoded-review\\key-080.500.png"
+    },
+    {
+      "time": 83.5,
+      "nominal_frame": 2505,
+      "path": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v3\\encoded-review\\key-083.500.png"
+    },
+    {
+      "time": 86.5,
+      "nominal_frame": 2595,
+      "path": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v3\\encoded-review\\key-086.500.png"
+    },
+    {
+      "time": 87.6,
+      "nominal_frame": 2628,
+      "path": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v3\\encoded-review\\key-087.600.png"
+    },
+    {
+      "time": 88.5,
+      "nominal_frame": 2655,
+      "path": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v3\\encoded-review\\key-088.500.png"
+    },
+    {
+      "time": 93,
+      "nominal_frame": 2790,
+      "path": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v3\\encoded-review\\key-093.000.png"
+    },
+    {
+      "time": 98.8,
+      "nominal_frame": 2964,
+      "path": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v3\\encoded-review\\key-098.800.png"
+    },
+    {
+      "time": 100.5,
+      "nominal_frame": 3015,
+      "path": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v3\\encoded-review\\key-100.500.png"
+    },
+    {
+      "time": 103.5,
+      "nominal_frame": 3105,
+      "path": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v3\\encoded-review\\key-103.500.png"
+    },
+    {
+      "time": 109.8,
+      "nominal_frame": 3294,
+      "path": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v3\\encoded-review\\key-109.800.png"
+    },
+    {
+      "time": 128,
+      "nominal_frame": 3840,
+      "path": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v3\\encoded-review\\key-128.000.png"
+    },
+    {
+      "time": 139.5,
+      "nominal_frame": 4185,
+      "path": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v3\\encoded-review\\key-139.500.png"
+    },
+    {
+      "time": 149,
+      "nominal_frame": 4470,
+      "path": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v3\\encoded-review\\key-149.000.png"
+    },
+    {
+      "time": 150.2,
+      "nominal_frame": 4506,
+      "path": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v3\\encoded-review\\key-150.200.png"
+    },
+    {
+      "time": 151.5,
+      "nominal_frame": 4545,
+      "path": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v3\\encoded-review\\key-151.500.png"
+    },
+    {
+      "time": 153.5,
+      "nominal_frame": 4605,
+      "path": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v3\\encoded-review\\key-153.500.png"
+    },
+    {
+      "time": 159.2,
+      "nominal_frame": 4776,
+      "path": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v3\\encoded-review\\key-159.200.png"
+    },
+    {
+      "time": 185.8,
+      "nominal_frame": 5574,
+      "path": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v3\\encoded-review\\key-185.800.png"
+    },
+    {
+      "time": 190.1,
+      "nominal_frame": 5703,
+      "path": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v3\\encoded-review\\key-190.100.png"
+    },
+    {
+      "time": 193.5,
+      "nominal_frame": 5805,
+      "path": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v3\\encoded-review\\key-193.500.png"
+    },
+    {
+      "time": 195.2,
+      "nominal_frame": 5856,
+      "path": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v3\\encoded-review\\key-195.200.png"
+    },
+    {
+      "time": 196.2,
+      "nominal_frame": 5886,
+      "path": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v3\\encoded-review\\key-196.200.png"
+    },
+    {
+      "time": 197.3,
+      "nominal_frame": 5919,
+      "path": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v3\\encoded-review\\key-197.300.png"
+    },
+    {
+      "time": 199.5,
+      "nominal_frame": 5985,
+      "path": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v3\\encoded-review\\key-199.500.png"
+    },
+    {
+      "time": 202.5,
+      "nominal_frame": 6075,
+      "path": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v3\\encoded-review\\key-202.500.png"
+    }
+  ],
+  "critical_extraction": "input -ss seconds; nearest available encoded frame due to millisecond PTS, nominal frame is round(t*30)"
+}

@@ -1,3 +1,19 @@
+# 第三企划最新接续 · v3 · 2026-11-07
+
+用户已肯定第二版，第三版已完成：加入YOLO、FC、CNN、RNN、Kalman、Hungarian匹配、Transformer与ViT，慢变置信度、白饭梗、片尾紫色原署名。先读docs/DELIVERY_V3.md、production/v3/README.md及各模块说明。用户尚未审看v3。
+
+看片exports/v3/watch.html（#t=30白饭、#t=148 ViT、#t=195紫色署名，跳转后暂停）；主片taiyoukei-disco-v3-720p30-flac.mkv，201898036字节，SHA256 649481ba6bc4c719c1f7fd37a13fcab266e67a1c1f28728a0275ac1e7f062fbe。1280×720/30fps，203.2秒6096帧，原FLAC逐包复制，58组上日下中字幕。故事15段与候选歌词时间保持。
+
+检测分数是编排演示，未加载YOLO模型；人物/Q .90–.99、星.90–.97、饭.97–1.00缓慢变化。IoU/NMS、Kalman/Hungarian、CNN/RNN/FC和attention有真实小型计算及独立数值核验，不代表真实Astra/DeepSeek内部。白饭在30.249–39.849和101.449–106.249秒出现，微型ds等饭；视觉喜好梗不改Transformer数学。
+
+片尾原“Astra × 大肥鱼”整行紫#8A6AA8，ds涂改与“啥龙”蓝#527FA2，动作时间和笔尖不改。旧紫金星属于USER+Astra，末段仍ds+Astra六次交替完成新紫蓝星。无口脸和草稿发型不改，未新增人物图。
+
+检查：81浏览器样点、58字幕、15故事时码、重复渲染确定性；30媒体项；102编码后2秒样点+37关键图板全覆盖、7张原尺寸关键帧；22项实际file://播放器检查均通过。数值与图像证据在production/v3/qa；时码仍是视觉锚点候选，无连续耳听或6096帧逐张人眼细查声明。原14个音频/成片/引擎/动作图等文件SHA不变。引擎渲染前后SHA一致。
+
+第一企划冻结且干净，第二企划30秒待审不动；v1/v2全部保留。复建入口tools/render_mv_v3.ps1为UTF-8 BOM，不能转AAC；只本地保存，不推送成片。以下v2/v1交接是历史，不覆盖本条。
+
+---
+
 # 第三企划最新接续 · v2 · 2026-11-07
 
 用户肯定v1效果，明确在不改情节的情况下要求更疯、加入ML/神经网络，以及署名玩笑。现已完成第二版，看片exports/v2/watch.html（#t=195直达尾声，暂停），主片exports/v2/taiyoukei-disco-v2-720p30-flac.mkv。先读DELIVERY_V2.md、production/v2/README.md和REVISION_BRIEF.md。

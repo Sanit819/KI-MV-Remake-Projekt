@@ -1,0 +1,565 @@
+{
+  "status": "passed",
+  "scope": "Independent numerical validation of sampled browser traces: authored-geometry NMS and synthetic-observation Kalman/Hungarian. This does not validate trained YOLO inference or real-world tracking accuracy.",
+  "input": "D:\\myskills\\updream\\Taiyoukei-Disco\\exports\\v3\\review\\browser-review.json",
+  "method": "NumPy matrix algebra and symmetric eigenspectrum; innovation solve and Joseph covariance; SciPy linear_sum_assignment optimal objective; independent box IoU/class-wise NMS.",
+  "tolerances": {
+    "absolute": 1e-08,
+    "relative": 1e-10,
+    "PSD_minimum": -1e-08
+  },
+  "checks": 1579,
+  "coverage": {
+    "yolo_frames": 9,
+    "tracking_frames": 9,
+    "rice_frames": 6,
+    "rice_boundaries": {
+      "onset_before": true,
+      "onset_after": true,
+      "end_before": true,
+      "end_after": true
+    },
+    "modes": [
+      "Hungarian",
+      "Kalman"
+    ],
+    "missing_measurement_updates": 1
+  },
+  "score_validation": {
+    "model": {
+      "name": "authored-low-frequency-v1",
+      "origin": 27.049,
+      "offset": 0.5,
+      "frequencies": [
+        0.83,
+        1.37
+      ],
+      "weights": [
+        0.32,
+        0.18
+      ],
+      "secondPhaseScale": 0.7,
+      "phases": {
+        "ds": 0.3,
+        "astra": 1.7,
+        "star": 2.9,
+        "rice": 0.6
+      },
+      "ranges": {
+        "ds": [
+          0.9,
+          0.99
+        ],
+        "astra": [
+          0.9,
+          0.99
+        ],
+        "star": [
+          0.9,
+          0.97
+        ],
+        "rice": [
+          0.97,
+          1
+        ]
+      },
+      "candidatePenalty": 0.03,
+      "precision": 2
+    },
+    "actual_sampled_values": {
+      "astra": [
+        0.9,
+        0.91,
+        0.94,
+        0.95,
+        0.96,
+        0.99
+      ],
+      "ds": [
+        0.9,
+        0.92,
+        0.93,
+        0.94,
+        0.96,
+        0.98,
+        0.99
+      ],
+      "legacy-star": [
+        0.91,
+        0.92,
+        0.94,
+        0.95,
+        0.96
+      ],
+      "rice": [
+        0.97,
+        0.98,
+        1
+      ],
+      "q-ds": [
+        0.91,
+        0.92,
+        0.93,
+        0.94,
+        0.95,
+        0.96,
+        0.97,
+        0.98
+      ],
+      "q-astra": [
+        0.91,
+        0.92,
+        0.93,
+        0.96,
+        0.97,
+        0.98
+      ],
+      "star": [
+        0.9,
+        0.91,
+        0.93,
+        0.94,
+        0.95,
+        0.96
+      ]
+    },
+    "rice_dense_reference_values": [
+      0.97,
+      0.98,
+      0.99,
+      1.0
+    ],
+    "rice_maximum_reference_step_30fps": 0.010000000000000009
+  },
+  "max_absolute_errors": {
+    "candidate_score": 0.0,
+    "nms_iou": 0.0,
+    "nms_kept_geometry": 0.0,
+    "authored_score": 0.0,
+    "rice_geometry": 0.0,
+    "sample_interval": 0.0,
+    "constant_velocity_F": 0.0,
+    "position_observation_H": 0.0,
+    "white_acceleration_Q": 0.0,
+    "measurement_R": 0.0,
+    "covariance_symmetry": 1.1368683772161603e-13,
+    "association_cost": 0.0,
+    "assignment_total": 0.0,
+    "scipy_optimal_cost": 0.0,
+    "kalman_prediction_x": 0.0,
+    "kalman_prediction_P": 2.842170943040401e-14,
+    "kalman_innovation": 0.0,
+    "kalman_S": 1.4210854715202004e-14,
+    "kalman_K": 8.881784197001252e-16,
+    "kalman_posterior_x": 1.1368683772161603e-13,
+    "kalman_Joseph_P": 4.547473508864641e-13,
+    "future_prediction": 5.684341886080802e-14
+  },
+  "minimum_covariance_eigenvalue": -3.053237598121763e-16,
+  "failures": [],
+  "warnings": [],
+  "records": [
+    {
+      "time": 27.1,
+      "kind": "YOLO-stage-detection",
+      "candidates": 9,
+      "kept": [
+        3,
+        0,
+        6
+      ],
+      "suppressed": 6
+    },
+    {
+      "time": 28.5,
+      "kind": "YOLO-stage-detection",
+      "candidates": 9,
+      "kept": [
+        0,
+        3,
+        6
+      ],
+      "suppressed": 6
+    },
+    {
+      "time": 30.233,
+      "kind": "YOLO-stage-detection",
+      "candidates": 9,
+      "kept": [
+        0,
+        6,
+        3
+      ],
+      "suppressed": 6
+    },
+    {
+      "time": 30.267,
+      "kind": "YOLO-stage-detection",
+      "candidates": 12,
+      "kept": [
+        9,
+        0,
+        6,
+        3
+      ],
+      "suppressed": 8
+    },
+    {
+      "time": 31.5,
+      "kind": "YOLO-stage-detection",
+      "candidates": 12,
+      "kept": [
+        9,
+        6,
+        3,
+        0
+      ],
+      "suppressed": 8
+    },
+    {
+      "time": 34.5,
+      "kind": "YOLO-stage-detection",
+      "candidates": 12,
+      "kept": [
+        9,
+        3,
+        0,
+        6
+      ],
+      "suppressed": 8
+    },
+    {
+      "time": 36.5,
+      "kind": "YOLO-stage-detection",
+      "candidates": 12,
+      "kept": [
+        9,
+        0,
+        3,
+        6
+      ],
+      "suppressed": 8
+    },
+    {
+      "time": 38.5,
+      "kind": "YOLO-stage-detection",
+      "candidates": 12,
+      "kept": [
+        9,
+        0,
+        6,
+        3
+      ],
+      "suppressed": 8
+    },
+    {
+      "time": 39.833,
+      "kind": "YOLO-stage-detection",
+      "candidates": 12,
+      "kept": [
+        9,
+        6,
+        3,
+        0
+      ],
+      "suppressed": 8
+    },
+    {
+      "time": 72,
+      "frame": 4,
+      "kind": "tracking",
+      "mode": "Kalman",
+      "measurement_count": 3,
+      "assignment": [
+        2,
+        0,
+        1
+      ],
+      "scipy_optimal_cost": 1082.8932428024473,
+      "tracks": [
+        {
+          "id": 1,
+          "name": "star",
+          "has_measurement": true,
+          "min_posterior_covariance_eigenvalue": 8.585577768921713
+        },
+        {
+          "id": 2,
+          "name": "q-ds",
+          "has_measurement": true,
+          "min_posterior_covariance_eigenvalue": 8.585577768921713
+        },
+        {
+          "id": 3,
+          "name": "q-astra",
+          "has_measurement": true,
+          "min_posterior_covariance_eigenvalue": 8.585577768921713
+        }
+      ]
+    },
+    {
+      "time": 73,
+      "frame": 34,
+      "kind": "tracking",
+      "mode": "Kalman",
+      "measurement_count": 3,
+      "assignment": [
+        2,
+        0,
+        1
+      ],
+      "scipy_optimal_cost": 1698.5846463994917,
+      "tracks": [
+        {
+          "id": 1,
+          "name": "star",
+          "has_measurement": true,
+          "min_posterior_covariance_eigenvalue": 8.411158858634312
+        },
+        {
+          "id": 2,
+          "name": "q-ds",
+          "has_measurement": true,
+          "min_posterior_covariance_eigenvalue": 8.411158858634312
+        },
+        {
+          "id": 3,
+          "name": "q-astra",
+          "has_measurement": true,
+          "min_posterior_covariance_eigenvalue": 8.411158858634312
+        }
+      ]
+    },
+    {
+      "time": 74.5,
+      "frame": 79,
+      "kind": "tracking",
+      "mode": "Kalman",
+      "measurement_count": 3,
+      "assignment": [
+        0,
+        2,
+        1
+      ],
+      "scipy_optimal_cost": 1507.3726639556392,
+      "tracks": [
+        {
+          "id": 1,
+          "name": "star",
+          "has_measurement": true,
+          "min_posterior_covariance_eigenvalue": 8.411158614870434
+        },
+        {
+          "id": 2,
+          "name": "q-ds",
+          "has_measurement": true,
+          "min_posterior_covariance_eigenvalue": 8.411158614870434
+        },
+        {
+          "id": 3,
+          "name": "q-astra",
+          "has_measurement": true,
+          "min_posterior_covariance_eigenvalue": 8.411158614870434
+        }
+      ]
+    },
+    {
+      "time": 76.5,
+      "frame": 139,
+      "kind": "tracking",
+      "mode": "Kalman",
+      "measurement_count": 3,
+      "assignment": [
+        0,
+        2,
+        1
+      ],
+      "scipy_optimal_cost": 10970.434485547607,
+      "tracks": [
+        {
+          "id": 1,
+          "name": "star",
+          "has_measurement": true,
+          "min_posterior_covariance_eigenvalue": 8.411158614870434
+        },
+        {
+          "id": 2,
+          "name": "q-ds",
+          "has_measurement": true,
+          "min_posterior_covariance_eigenvalue": 8.411158614870434
+        },
+        {
+          "id": 3,
+          "name": "q-astra",
+          "has_measurement": true,
+          "min_posterior_covariance_eigenvalue": 8.411158614870434
+        }
+      ]
+    },
+    {
+      "time": 76.8,
+      "frame": 148,
+      "kind": "tracking",
+      "mode": "Kalman",
+      "measurement_count": 2,
+      "assignment": [
+        2,
+        1,
+        0
+      ],
+      "scipy_optimal_cost": 2003914.4813079927,
+      "tracks": [
+        {
+          "id": 1,
+          "name": "star",
+          "has_measurement": false,
+          "min_posterior_covariance_eigenvalue": 29.2961739424736
+        },
+        {
+          "id": 2,
+          "name": "q-ds",
+          "has_measurement": true,
+          "min_posterior_covariance_eigenvalue": 8.411158614870434
+        },
+        {
+          "id": 3,
+          "name": "q-astra",
+          "has_measurement": true,
+          "min_posterior_covariance_eigenvalue": 8.411158614870434
+        }
+      ]
+    },
+    {
+      "time": 78.5,
+      "frame": 199,
+      "kind": "tracking",
+      "mode": "Hungarian",
+      "measurement_count": 3,
+      "assignment": [
+        2,
+        0,
+        1
+      ],
+      "scipy_optimal_cost": 20488.50095523121,
+      "tracks": [
+        {
+          "id": 1,
+          "name": "star",
+          "has_measurement": true,
+          "min_posterior_covariance_eigenvalue": 8.411158615298637
+        },
+        {
+          "id": 2,
+          "name": "q-ds",
+          "has_measurement": true,
+          "min_posterior_covariance_eigenvalue": 8.411158614870434
+        },
+        {
+          "id": 3,
+          "name": "q-astra",
+          "has_measurement": true,
+          "min_posterior_covariance_eigenvalue": 8.411158614870434
+        }
+      ]
+    },
+    {
+      "time": 80.5,
+      "frame": 259,
+      "kind": "tracking",
+      "mode": "Hungarian",
+      "measurement_count": 3,
+      "assignment": [
+        0,
+        2,
+        1
+      ],
+      "scipy_optimal_cost": 11296.937915567594,
+      "tracks": [
+        {
+          "id": 1,
+          "name": "star",
+          "has_measurement": true,
+          "min_posterior_covariance_eigenvalue": 8.411158614870445
+        },
+        {
+          "id": 2,
+          "name": "q-ds",
+          "has_measurement": true,
+          "min_posterior_covariance_eigenvalue": 8.411158614870434
+        },
+        {
+          "id": 3,
+          "name": "q-astra",
+          "has_measurement": true,
+          "min_posterior_covariance_eigenvalue": 8.411158614870434
+        }
+      ]
+    },
+    {
+      "time": 83.5,
+      "frame": 349,
+      "kind": "tracking",
+      "mode": "Hungarian",
+      "measurement_count": 3,
+      "assignment": [
+        0,
+        2,
+        1
+      ],
+      "scipy_optimal_cost": 1094.5098111658165,
+      "tracks": [
+        {
+          "id": 1,
+          "name": "star",
+          "has_measurement": true,
+          "min_posterior_covariance_eigenvalue": 8.411158614870445
+        },
+        {
+          "id": 2,
+          "name": "q-ds",
+          "has_measurement": true,
+          "min_posterior_covariance_eigenvalue": 8.411158614870434
+        },
+        {
+          "id": 3,
+          "name": "q-astra",
+          "has_measurement": true,
+          "min_posterior_covariance_eigenvalue": 8.411158614870434
+        }
+      ]
+    },
+    {
+      "time": 84.8,
+      "frame": 388,
+      "kind": "tracking",
+      "mode": "Hungarian",
+      "measurement_count": 3,
+      "assignment": [
+        0,
+        2,
+        1
+      ],
+      "scipy_optimal_cost": 18616.74334360118,
+      "tracks": [
+        {
+          "id": 1,
+          "name": "star",
+          "has_measurement": true,
+          "min_posterior_covariance_eigenvalue": 8.411158614870445
+        },
+        {
+          "id": 2,
+          "name": "q-ds",
+          "has_measurement": true,
+          "min_posterior_covariance_eigenvalue": 8.411158614870434
+        },
+        {
+          "id": 3,
+          "name": "q-astra",
+          "has_measurement": true,
+          "min_posterior_covariance_eigenvalue": 8.411158614870434
+        }
+      ]
+    }
+  ]
+}

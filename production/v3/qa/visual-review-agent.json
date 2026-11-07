@@ -1,0 +1,60 @@
+{
+  "status": "passed_sampled_visual_review",
+  "reviewer": "v3_tracking",
+  "scope": "Actual visual inspection of encoded-video contact sheets and three native-size encoded stills. This is sampled image review, not continuous playback, listening, or inspection of every frame.",
+  "contact_sheets": [
+    "exports/v3/encoded-review/sheet-00.jpg",
+    "exports/v3/encoded-review/sheet-01.jpg",
+    "exports/v3/encoded-review/sheet-02.jpg",
+    "exports/v3/encoded-review/sheet-03.jpg",
+    "exports/v3/encoded-review/sheet-04.jpg"
+  ],
+  "contact_sheet_coverage": {
+    "first_second": 0,
+    "last_second": 118,
+    "interval_seconds": 2,
+    "sample_count": 60
+  },
+  "native_size_stills": [
+    {
+      "file": "exports/v3/encoded-review/key-031.500.png",
+      "time": 31.5,
+      "observations": [
+        "YOLO框位于两位原角色外缘；角色标签在服装下缘附近，未遮脸或底部双语字幕。",
+        "白饭0.98在饭框上方可读；饭碗与下方等饭小Q分开，饭字没有压住小Q脸。",
+        "旧星0.95的黑字白描边清楚，未再出现白字糊成白块。"
+      ]
+    },
+    {
+      "file": "exports/v3/encoded-review/key-076.800.png",
+      "time": 76.8,
+      "observations": [
+        "顶部Q的ID2 0.91与ID3 0.92可辨，标签在角色下方。",
+        "缺测星在左下显示虚线框、问号与ID1预测，没有伪造检测分数；局部接近左下Q服装，未挡Q脸或歌词。",
+        "Kalman与预测说明可读，主角表情及日上中下字幕完整。"
+      ]
+    },
+    {
+      "file": "exports/v3/encoded-review/key-083.500.png",
+      "time": 83.5,
+      "observations": [
+        "Hungarian与1↔1位于左边栏，主角脸部保持清楚。",
+        "星的ID1 0.91为黑字白描边，白框及分数在左下可读。",
+        "顶部Q标签与底部双语字幕分离，没有观察到新置信度标签遮脸或压字幕。"
+      ]
+    }
+  ],
+  "overall_observations": [
+    "60个编码后样点中没有观察到解码损坏、异常整帧空白或意外黑帧；开场纸张与后续稀疏段落均有预期画面。",
+    "珊瑚红底、黑色大字、蓝紫角色色和草稿线条在抽样中保持一致。",
+    "YOLO白饭、CNN边栏、FC神经银河、Kalman/Hungarian角落跟踪、RNN与Transformer段落均能在相应样点辨认。",
+    "36秒图板样点的白饭为1.00，32/34/38秒为0.98，与缓慢变化的编排相符。",
+    "主标题段的大黑字遮叠角色、Transformer段的倒立及追星框进入服装/边栏属于已有演出；未将其误记为编码错误。"
+  ],
+  "blocking_visual_findings": [],
+  "limitations": [
+    "没有耳听音轨或主观验证音画同步。",
+    "没有连续播放评估运动顺滑度，也没有逐帧检查6096帧。",
+    "数值正确性由独立tracking-validation.json记录；本记录仅说明实际看到的编码画面。"
+  ]
+}
