@@ -137,7 +137,9 @@ def main():
             "accents": "Astra purple, DeepSeek blue and legacy star gold restricted to local details and drawn marks; drawing closeups may enlarge them",
             "stage": "Paper, school prop and galaxy remain within the coral-red flat stage language",
             "specification": "docs/CASTING.md",
-            "status": "user_direction_recorded_no_artwork_generated",
+            "drawing_style": "User requests reference MV drawing style: thin hand-drawn contours, flat white figures, hollow half-lidded eyes, angular elongated dancing bodies",
+            "trial_image": "art/style-tests/astra-deepseek-mv-style-v1.png",
+            "status": "static_character_style_trial_generated_pending_user_review_no_animation",
         },
         "continuity": {
             "legacy_star": "First project final purple/gold hollow long-tail star; Astra + USER",

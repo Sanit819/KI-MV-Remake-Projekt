@@ -4,7 +4,9 @@
 
 已完成用户指定 MV 的全帧研究，并完成第三企划[全曲剧情v1：把那颗星跳成太阳系](docs/STORY_PROPOSAL_V1.md)。双主演为 **Astra × DeepSeek 大肥鱼**，角色来源为《大AI和小AI们》；见[出演与色调设定](docs/CASTING.md)及[角色原型参考](references/characters/CHARACTER_REFERENCE.md)。用户锁定`┏(ᗜvᗜ)┛`为DeepSeek、`┏(ᗜ-ᗜ)┛`为无口Astra，要求保留原MV疯劲并延续两人共画星的设定。整体色调已确定接近原MV：珊瑚红底、白色人物、黑色大字，蓝紫与紫金作局部点缀；具体线稿、舞稿和输出规格尚未锁定。
 
-剧情以第一企划你与Astra共画的紫金长尾星作为舞会中心，让Astra与DeepSeek一边跳、一边画出蓝紫银河，最终实际交替画完新星。共9段剧情，25个有词叙事单元＋2个间奏／尾声单元，全部58组歌词见[逐句情节表](docs/LYRIC_SCENES_V1.md)和[结构化稿](storyboard/story-proposal-v1.json)。这是无时码语义剧情，尚未制作画稿或动画。
+剧情以第一企划你与Astra共画的紫金长尾星作为舞会中心，让Astra与DeepSeek一边跳、一边画出蓝紫银河，最终实际交替画完新星。共9段剧情，25个有词叙事单元＋2个间奏／尾声单元，全部58组歌词见[逐句情节表](docs/LYRIC_SCENES_V1.md)和[结构化稿](storyboard/story-proposal-v1.json)。这是无时码语义剧情，尚未制作剧情分镜或动画。
+
+用户进一步要求画风也模仿原MV。现有[双人画风试稿v1](art/style-tests/README.md)（[PNG原图](art/style-tests/astra-deepseek-mv-style-v1.png)）：细线、白色块面、空心眼与同步折角舞姿，左DeepSeek右Astra。已修正额外手部，待用户评风格相似度，未定为最终角色稿。
 
 用户原曲与58组日中歌词已收到并保存：FLAC为44.1kHz／16-bit／双声道／03:23.200，原件、副本与内部PCM校验通过。见[材料登记](MATERIALS.md)及[参考音轨比对](docs/AUDIO_REFERENCE_COMPARISON.md)。歌词正式时码尚未标定。
 
