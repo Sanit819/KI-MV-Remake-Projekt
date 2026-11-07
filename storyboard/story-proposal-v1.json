@@ -19,8 +19,9 @@
     "accents": "Astra purple, DeepSeek blue and legacy star gold restricted to local details and drawn marks; drawing closeups may enlarge them",
     "stage": "Paper, school prop and galaxy remain within the coral-red flat stage language",
     "specification": "docs/CASTING.md",
-    "drawing_style": "User requests reference MV drawing style: thin hand-drawn contours, flat white figures, hollow half-lidded eyes, angular elongated dancing bodies",
-    "trial_image": "art/style-tests/astra-deepseek-mv-style-v1.png",
+    "drawing_style": "User requests scruffier reference-MV drawing while preserving identities: sparse imperfect contours, white flat figures, hollow eyes, stiff angular bodies; preserve DeepSeek curly hair/maid motifs and Astra long side-parted hair/segmented horns/knot ornament",
+    "trial_image": "art/style-tests/astra-deepseek-mv-style-v3.png",
+    "user_feedback": "v1 too refined; v2 lost character traits; v3 restores distinctive features using rough simplified marks and awaits review",
     "status": "static_character_style_trial_generated_pending_user_review_no_animation"
   },
   "continuity": {
