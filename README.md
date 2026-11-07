@@ -6,7 +6,7 @@
 
 剧情以第一企划你与Astra共画的紫金长尾星作为舞会中心，让Astra与DeepSeek一边跳、一边画出蓝紫银河，最终实际交替画完新星。共9段剧情，25个有词叙事单元＋2个间奏／尾声单元，全部58组歌词见[逐句情节表](docs/LYRIC_SCENES_V1.md)和[结构化稿](storyboard/story-proposal-v1.json)。这是无时码语义剧情，尚未制作剧情分镜或动画。
 
-用户进一步要求画风也模仿原MV。最新[双人画风试稿v3](art/style-tests/README.md)（[PNG原图](art/style-tests/astra-deepseek-mv-style-v3.png)）保留草线、白色块面、空心眼与同步折角舞姿，恢复卷发/女仆装、侧分长发/结饰等身份特征。用户指出v1太精致、v2失去特征；v3待评，未定为最终角色稿。
+用户进一步要求画风也模仿原MV。最新[双人画风试稿v5](art/style-tests/README.md)（[PNG原图](art/style-tests/astra-ds-mv-style-v5.png)）沿用v4的发型与造型，改成可见断口、笔头未接齐的不闭合草稿线。用户指出v1太精致、v2失去特征、v3发型不符；v4修正后获“这回差不多了”的反馈，v5线条效果待评。后续依用户约定称DeepSeek为ds。
 
 用户原曲与58组日中歌词已收到并保存：FLAC为44.1kHz／16-bit／双声道／03:23.200，原件、副本与内部PCM校验通过。见[材料登记](MATERIALS.md)及[参考音轨比对](docs/AUDIO_REFERENCE_COMPARISON.md)。歌词正式时码尚未标定。
 
