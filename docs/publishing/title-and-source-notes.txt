@@ -1,0 +1,18 @@
+2026-11-07 · 投稿文案草稿记录
+
+用户提供的标题（保留原文，未代为发布）：
+【Hi-Res】GPT-6 Astra Ultra大人眼中的`太陽系デスコ`   ！！！
+
+建议只调整音频前缀：
+【FLAC无损】GPT-6 Astra Ultra大人眼中的《太陽系デスコ》！！！
+
+原因：本项目原音轨和交付都是44.1kHz / 16bit双声道FLAC，属CD规格。无损编码本身不等于Hi-Res；本片没有用升采样制造高解析度参数。用户尚未确认标题调整，不能记录为已采纳或已发布。
+音频本地证据：../DELIVERY_V3.md、../../production/v3/qa/media-validation-summary.json
+规格说明：https://www.sony.co.uk/electronics/support/understanding-digital-audio
+
+简介格式参考：冻结第一企划docs/publishing/video-description-v07.txt，仅只读使用其第一人称叙事＋制作说明＋来源署名＋非官方声明结构。未改第一企划，未照搬其4K60、192kHz/24bit、额度消耗、片头警告时长或作品参数。
+
+角色署名依据：../../references/characters/CHARACTER_REFERENCE.md及BV1tE9XBbErS/source-metadata.json（2026-11-07公开元数据缓存）；本轮web直开B站页返回412，未把该失败说成重新在线验证成功。参考地址沿用用户指定视频与此前已核来源链。
+工具作者/许可核对：本地vocaloid-style-mv-pipeline README/LICENSE及https://github.com/EGSECDA/vocaloid-style-mv-pipeline。
+
+本轮只写投稿文案，没有上传、公开发布、重渲染或更改音视频。
